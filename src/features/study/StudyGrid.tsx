@@ -90,23 +90,17 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
       </div>
       {gradable && (
         <div className="tile-btn-zone">
-          {flipped ? (
-            <div className="tile-levels">
-              <button type="button" className="tile-level lvl-good" onClick={() => onGrade('good')}>
-                I know
-              </button>
-              <button type="button" className="tile-level lvl-hard" onClick={() => onGrade('hard')}>
-                Sort of know
-              </button>
-              <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
-                Still learning
-              </button>
-            </div>
-          ) : (
-            <button type="button" className="tile-know" onClick={() => onGrade('easy')}>
+          <div className="tile-levels">
+            <button type="button" className="tile-level lvl-good" onClick={() => onGrade(flipped ? 'good' : 'easy')}>
               I know
             </button>
-          )}
+            <button type="button" className="tile-level lvl-hard" onClick={() => onGrade('hard')}>
+              Sort of know
+            </button>
+            <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
+              Still learning
+            </button>
+          </div>
         </div>
       )}
     </div>

@@ -659,30 +659,6 @@ body {
   border-radius: 10px;
 }
 
-/* 常時表示の単一グレーディングボタン（ボタン欄いっぱいに広がる）。控えめな色。 */
-.tile-know {
-  width: 100%;
-  font: inherit;
-  font-size: 11px;
-  font-weight: 650;
-  color: var(--text-faint);
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 7px 6px;
-  cursor: pointer;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  transition: color 0.14s ease, border-color 0.14s ease, background 0.14s ease;
-}
-
-.tile-know:hover {
-  color: var(--good);
-  border-color: color-mix(in srgb, var(--good) 45%, var(--border));
-  background: color-mix(in srgb, var(--good) 12%, var(--surface-2));
-}
-
 /* めくった後に並ぶ3段階の評価ボタン（Still learning / Sort of know / I know）。
    どれも控えめなトーンで、hover 時だけ段階に応じた色がにじむ程度に留める。
    文字が切れないよう余裕を持ったサイズにしてある（本番幅での実測で確認済み）。 */
