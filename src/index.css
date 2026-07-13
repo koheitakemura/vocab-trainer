@@ -672,14 +672,13 @@ body {
   flex: 1;
   min-width: 0;
   font: inherit;
-  font-size: 8.5px;
+  font-size: 10.5px;
   font-weight: 650;
-  letter-spacing: -0.01em;
   color: var(--text-faint);
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 7px;
-  padding: 6px 1px;
+  padding: 7px 3px;
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
