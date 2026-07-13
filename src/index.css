@@ -771,7 +771,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  transition: border-color 0.15s ease, background 0.15s ease, opacity 0.3s ease;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .tile:hover {
@@ -836,17 +836,29 @@ body {
   border-color: color-mix(in srgb, var(--tile-accent) 55%, var(--border));
 }
 
-/* 採点済みカードは淡くフェードして「対応済み」を示す（未採点=New は目立つまま）。
-   ホバー時は元の濃さに戻して、めくり・再採点をしやすくする。 */
-.tile.g-known,
-.tile.g-fuzzy,
-.tile.g-learning {
-  opacity: 0.5;
+/* 採点済みカードのフェードは「element の opacity」ではなく「背景色のウォッシュを上に重ねる」方式にする。
+   opacity だとカード自体が半透明になり背後（ページ背景）が透けて横線などが見えてしまうため。
+   ::after は全タイルに置き（未採点は opacity:0 で不可視）、採点時に 0→0.72 へトランジションしてふわっと沈む。
+   inset:0 は枠の内側（padding box）を覆う＝色付きの枠線は鮮やかなまま残り、内側だけが沈む。
+   ホバー時はウォッシュを消して、めくり・再採点をしやすくする。 */
+.tile::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--bg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
 }
-.tile.g-known:hover,
-.tile.g-fuzzy:hover,
-.tile.g-learning:hover {
-  opacity: 1;
+.tile.g-known::after,
+.tile.g-fuzzy::after,
+.tile.g-learning::after {
+  opacity: 0.72;
+}
+.tile.g-known:hover::after,
+.tile.g-fuzzy:hover::after,
+.tile.g-learning:hover::after {
+  opacity: 0;
 }
 
 /* ライトテーマのホバー枠（:root[data-theme='light'] .tile:hover＝詳細度0,4,0）は
