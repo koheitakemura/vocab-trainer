@@ -15,18 +15,13 @@ export interface BoardTile {
 
 /**
  * Study Grid（案①）用のセッション。
- * due の学習中 + 新規 N 語を「ボード」として一括表示し、1枚ずつ active を進める。
- * Good=done（緑）／Again=末尾に再投入（琥珀）。進捗は Dexie に永続化。
- *
- * activeId は pendingQueue（未回答カードの ID 一覧）から明示的に選ぶ方式。
- * 「order 配列 + 前方検索のみのカーソル」方式だと、一度でも先のカードへジャンプした後は
- * それより手前の未回答タイルを二度とクリックできなくなるバグがあったため、この設計にした。
+ * due の学習中 + 新規 N 語を「ボード」として一括表示する。
+ * どのタイルをめくる/採点するかは各タイル側（ホバー・クリック）が自律的に決め、
+ * ボード側は「自動で次のカードへ進める」ような遷移は行わない（Kohei の要望どおり）。
  */
 export function useStudyBoard(cards: VocabCard[]) {
   const [tiles, setTiles] = useState<BoardTile[]>([])
   const [pendingQueue, setPendingQueue] = useState<string[]>([])
-  const [activeId, setActiveId] = useState<string | null>(null)
-  const [revealed, setRevealed] = useState(false)
   const [loading, setLoading] = useState(true)
   const [reviewed, setReviewed] = useState(0)
   const [again, setAgain] = useState(0)
@@ -56,11 +51,8 @@ export function useStudyBoard(cards: VocabCard[]) {
         }
       }
       if (!active) return
-      const ids = session.map((c) => c.id)
       setTiles(session.map((c) => ({ card: c, state: 'pending' })))
-      setPendingQueue(ids)
-      setActiveId(ids[0] ?? null)
-      setRevealed(false)
+      setPendingQueue(session.map((c) => c.id))
       setReviewed(0)
       setAgain(0)
       setLoading(false)
@@ -70,19 +62,9 @@ export function useStudyBoard(cards: VocabCard[]) {
     }
   }, [cards, nonce])
 
-  const active = activeId ? (tiles.find((t) => t.card.id === activeId)?.card ?? null) : null
-
-  const reveal = useCallback(() => setRevealed(true), [])
-
-  /**
-   * id を明示指定して採点する（active でないタイルの「I know」を直接押しても
-   * 動くようにするため）。採点した id が今まさに active だった場合だけ、
-   * 次の未回答カードへ自動的に進む。他のタイルを採点しただけなら今の表示は変えない。
-   */
+  /** id を明示指定して採点する。採点後に他のタイルへ自動で移る、といったことはしない。 */
   const grade = useCallback(
     async (id: string, g: ReviewGrade) => {
-      // 既に採点済みのタイルを再度グレーディングしない（回答済みカードを閲覧目的で
-      // 選択できるようにしたため、二重採点を防ぐガード）
       if (!pendingQueue.includes(id)) return
       await recordReview(id, g)
       setReviewed((n) => n + 1)
@@ -96,26 +78,8 @@ export function useStudyBoard(cards: VocabCard[]) {
         setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'done' } : t)))
       }
       setPendingQueue(nextQueue)
-      if (id === activeId) {
-        setActiveId(nextQueue[0] ?? null)
-        setRevealed(false)
-      }
     },
-    [activeId, pendingQueue],
-  )
-
-  /**
-   * タップで画面上の任意のタイルへ移動（回答済み・未回答を問わず常に選べる）。
-   * 最初のタップでそのままフリップする（選択とめくりを1操作にまとめる）。
-   */
-  const focusTile = useCallback(
-    (id: string) => {
-      const tile = tiles.find((t) => t.card.id === id)
-      if (!tile) return
-      setActiveId(id)
-      setRevealed(true)
-    },
-    [tiles],
+    [pendingQueue],
   )
 
   const restart = useCallback(() => setNonce((n) => n + 1), [])
@@ -124,5 +88,5 @@ export function useStudyBoard(cards: VocabCard[]) {
   const empty = !loading && tiles.length === 0
   const remaining = pendingQueue.length
 
-  return { loading, tiles, activeId, active, revealed, reveal, grade, focusTile, restart, reviewed, again, finished, empty, remaining }
+  return { loading, tiles, grade, restart, reviewed, again, finished, empty, remaining }
 }
