@@ -548,7 +548,9 @@ body {
 
 .tile {
   position: relative;
-  min-height: 158px;
+  /* 固定高さ（min-height ではない）。訳語の長さでフリップ前後に高さが変わらないように。
+     はみ出す分は FitGloss がフォントサイズを縮めて吸収する。 */
+  height: 158px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -635,8 +637,18 @@ body {
   color: var(--text-faint);
 }
 
+/* 訳語の表示枠。高さの上限を固定してカード全体の高さがぶれないようにする。
+   useFitText はこの要素の scrollHeight（実際に必要な高さ）と clientHeight（この
+   上限）を比較して、はみ出す場合は中の文字のフォントサイズを段階的に縮める。 */
+.tile-gloss-box {
+  width: 100%;
+  max-height: 34px;
+  overflow: hidden;
+}
+
 .tile-gloss {
   font-size: 13px;
+  line-height: 1.25;
   color: var(--text-dim);
   text-align: center;
 }

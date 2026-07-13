@@ -5,6 +5,7 @@ import { useStudyBoard, type BoardTile } from './useStudyBoard'
 import { SpeakerButton } from '../../audio/SpeakerButton'
 import { speakJapanese } from '../../audio/speak'
 import { getAutoplayPref } from '../../audio/audioPrefs'
+import { useFitText } from './useFitText'
 
 export function StudyGrid({ cards }: { cards: VocabCard[] }) {
   const b = useStudyBoard(cards)
@@ -79,12 +80,12 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
               <span className="tile-reading">{c.reading}</span>
               <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
             </div>
-            <div className="tile-gloss">{c.gloss}</div>
+            <FitGloss text={c.gloss} />
           </>
         ) : (
           <>
             <div className="tile-hw">{c.headword}</div>
-            {tile.state === 'done' && <div className="tile-gloss done">{c.gloss}</div>}
+            {tile.state === 'done' && <FitGloss text={c.gloss} className="done" />}
           </>
         )}
       </div>
@@ -103,6 +104,18 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
           </div>
         </div>
       )}
+    </div>
+  )
+}
+
+/** 訳語（可変長）を固定の高さ枠に収める。長い訳語は自動でフォントを縮める。 */
+function FitGloss({ text, className }: { text: string; className?: string }) {
+  const { boxRef, fontSize } = useFitText(text)
+  return (
+    <div ref={boxRef} className="tile-gloss-box">
+      <div className={`tile-gloss${className ? ` ${className}` : ''}`} style={{ fontSize }}>
+        {text}
+      </div>
     </div>
   )
 }
