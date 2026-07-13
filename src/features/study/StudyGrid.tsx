@@ -73,20 +73,19 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
     if (rect) onGrade(g, rect)
   }
 
-  // 直近に押したボタンの評価から表示レベル（色・ラベル）を決める。未採点は null。
+  // 直近に押したボタンの評価から表示レベル（色・枠線）を決める。未採点は null（枠は既定色）。
   const level = tile.grade ? gradeLevel(tile.grade) : null
+  // 右上マークは未採点なら "New"（グレー）、採点済みならその評価の色・ラベル。
+  const markKind = level ?? 'new'
+  const markLabel = level ? LEVEL_LABEL[level] : 'New'
   const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}`
 
   return (
     <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
-      {level ? (
-        <span className={`tile-mark tile-mark--${level}`}>
-          <span className="tile-mark-label">{LEVEL_LABEL[level]}</span>
-          <span className="tile-mark-dot" />
-        </span>
-      ) : (
-        <span className="tile-dot" />
-      )}
+      <span className={`tile-mark tile-mark--${markKind}`}>
+        <span className="tile-mark-label">{markLabel}</span>
+        <span className="tile-mark-dot" />
+      </span>
       <div
         className="tile-content"
         onMouseEnter={() => setFlippedByHover(true)}

@@ -192,6 +192,53 @@ body {
   transition: width 0.4s ease;
 }
 
+/* ---------- 全幅の進捗バー（words started の 0→total）＋500語ごとの目盛り ---------- */
+.progress {
+  width: 100%;
+}
+
+.progress-track {
+  position: relative;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), var(--good));
+  transition: width 0.4s ease;
+}
+
+/* 500 語ごとの目盛り＝バーを区切る細い線。空の部分でも節目が見えるよう、
+   バー背景（surface-2）より一段濃い色で線を描く。塗り部分の上でも切れ目として見える。 */
+.progress-tick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  margin-left: -1px;
+  background: color-mix(in srgb, var(--text-faint) 55%, transparent);
+}
+
+/* 目盛りの下に並ぶ節目の数値（500 / 1k / 1.5k …）。 */
+.progress-scale {
+  position: relative;
+  height: 13px;
+  margin-top: 5px;
+}
+
+.progress-scale-mark {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: 10px;
+  line-height: 1;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
 /* ---------- words started 内訳（セグメントバー＋凡例） ---------- */
 .meter-breakdown {
   margin-top: 8px;
@@ -631,7 +678,7 @@ body {
   margin: 0 auto;
   padding: 56px 64px;
   display: grid;
-  grid-template-rows: auto auto 1fr auto;
+  grid-template-rows: auto auto auto 1fr auto;
   gap: 20px;
 }
 
@@ -799,7 +846,7 @@ body {
   border-color: color-mix(in srgb, var(--tile-accent) 55%, var(--border));
 }
 
-/* 採点後の右上マーク：ラベル＋点。押したボタンの色（I know=緑 / Fuzzy=橙 / Studying=赤）。 */
+/* 右上マーク：ラベル＋点。未採点=New（グレー）／採点後は押したボタンの色（I know=緑 / Fuzzy=橙 / Studying=赤）。 */
 .tile-mark {
   position: absolute;
   top: 8px;
@@ -839,6 +886,13 @@ body {
 }
 .tile-mark--learning .tile-mark-dot {
   background: var(--again);
+}
+
+.tile-mark--new {
+  color: var(--text-faint);
+}
+.tile-mark--new .tile-mark-dot {
+  background: var(--text-faint);
 }
 
 .tile-hw {

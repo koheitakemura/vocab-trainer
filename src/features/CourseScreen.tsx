@@ -41,6 +41,9 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
   const introduced = started.introduced
   const total = cards.length
   const pct = total > 0 ? Math.round((introduced / total) * 100) : 0
+  // 目標が感じられるよう 500 語ごとに目盛りを打つ（総数ちょうどの位置は末尾と被るので除外）。
+  const milestones: number[] = []
+  for (let m = 500; m < total; m += 500) milestones.push(m)
 
   // カード（StudyGrid のさらに奥、別 DOM subtree）からヘッダーの数字へ飛ぶ演出。
   // ヘッダーの座標を知っているのはここだけなので、portal もここが管理する。
@@ -87,12 +90,25 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
             <span className="meter-den">/ {total}</span>
           </div>
           <div className="meter-label">words started</div>
-          <div className="meter-track">
-            <div className="meter-fill" style={{ width: `${pct}%` }} />
-          </div>
           <MeterBreakdown counts={started.byGrade} />
         </div>
       </header>
+
+      <div className="progress" aria-hidden="true">
+        <div className="progress-track">
+          <div className="progress-fill" style={{ width: `${pct}%` }} />
+          {milestones.map((m) => (
+            <span key={m} className="progress-tick" style={{ left: `${(m / total) * 100}%` }} />
+          ))}
+        </div>
+        <div className="progress-scale">
+          {milestones.map((m) => (
+            <span key={m} className="progress-scale-mark" style={{ left: `${(m / total) * 100}%` }}>
+              {m < 1000 ? m : `${m / 1000}k`}
+            </span>
+          ))}
+        </div>
+      </div>
 
       <nav className="tabs">
         <button className={`tab${tab === 'study' ? ' on' : ''}`} onClick={() => setTab('study')}>
