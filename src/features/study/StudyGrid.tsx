@@ -3,6 +3,7 @@ import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { useStudyBoard, type BoardTile } from './useStudyBoard'
 import { useFitText } from './useFitText'
+import { getRomaji } from '../../text/romaji'
 
 export function StudyGrid({ cards }: { cards: VocabCard[] }) {
   const b = useStudyBoard(cards)
@@ -45,6 +46,7 @@ export function StudyGrid({ cards }: { cards: VocabCard[] }) {
 function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) => void }) {
   const c: VocabCard = tile.card
   const gradable = tile.state !== 'done'
+  const romaji = getRomaji(c.reading)
   // めくり（flip）はカード上部の「本体」に触れたときだけ起きる。下の「ボタン欄」に
   // マウスが入っても、本体から一度も入っていなければめくれない — カードが動いた
   // 直後にボタン位置がずれてクリックし損なう、という事態を防ぐため。
@@ -67,7 +69,10 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
         {flipped ? (
           <>
             <div className="tile-hw sm">{c.headword}</div>
-            <span className="tile-reading">{c.reading}</span>
+            <span className="tile-reading">
+              {c.reading}
+              {romaji && <span className="tile-romaji"> · {romaji}</span>}
+            </span>
             <FitGloss text={c.gloss} />
           </>
         ) : (

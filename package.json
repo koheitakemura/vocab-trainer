@@ -15,7 +15,8 @@
     "dexie-react-hooks": "^4.4.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "ts-fsrs": "^5.4.1"
+    "ts-fsrs": "^5.4.1",
+    "wanakana": "^5.3.1"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
