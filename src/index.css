@@ -10,6 +10,7 @@
   --accent: #6ea8fe;
   --good: #34d399;
   --good-strong: #059669;
+  --easy: #facc15;
   --again: #fb7185;
   --again-strong: #e11d48;
   --shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.7);
@@ -32,6 +33,7 @@
   --accent: #2563eb;
   --good: #059669;
   --good-strong: #047857;
+  --easy: #ca8a04;
   --again: #e11d48;
   --again-strong: #be123c;
   --shadow: 0 14px 34px -18px rgba(20, 30, 60, 0.28);
@@ -126,10 +128,38 @@ body {
 }
 
 .meter-num {
+  position: relative;
+  display: inline-block;
   font-size: 30px;
   font-weight: 750;
   line-height: 1;
   color: var(--text);
+}
+
+.meter-num.pop {
+  animation: meter-pop 0.5s cubic-bezier(0.22, 0.8, 0.3, 1.3);
+}
+
+@keyframes meter-pop {
+  0% {
+    transform: scale(1);
+    text-shadow: none;
+  }
+  30% {
+    transform: scale(1.4);
+    color: var(--easy);
+    text-shadow: 0 0 10px var(--easy), 0 0 22px var(--easy);
+  }
+  60% {
+    transform: scale(1.12);
+    color: var(--accent);
+    text-shadow: 0 0 8px var(--accent);
+  }
+  100% {
+    transform: scale(1);
+    color: var(--text);
+    text-shadow: none;
+  }
 }
 
 .meter-den {
@@ -158,6 +188,138 @@ body {
   border-radius: 999px;
   background: linear-gradient(90deg, var(--accent), var(--good));
   transition: width 0.4s ease;
+}
+
+/* ---------- words started 内訳（セグメントバー＋凡例） ---------- */
+.meter-breakdown {
+  margin-top: 8px;
+}
+
+.meter-segbar {
+  display: flex;
+  height: 5px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--surface-2);
+}
+
+.meter-seg--good {
+  background: var(--good);
+}
+
+.meter-seg--easy {
+  background: var(--easy);
+}
+
+.meter-seg--hard {
+  background: #f5a623;
+}
+
+.meter-seg--again {
+  background: var(--again);
+}
+
+.meter-legend {
+  display: flex;
+  justify-content: flex-end;
+  gap: 9px;
+  margin-top: 6px;
+  font-size: 10.5px;
+  color: var(--text-faint);
+}
+
+.meter-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.meter-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.meter-dot--good {
+  background: var(--good);
+}
+
+.meter-dot--easy {
+  background: var(--easy);
+}
+
+.meter-dot--hard {
+  background: #f5a623;
+}
+
+.meter-dot--again {
+  background: var(--again);
+}
+
+/* ---------- word-started burst（新規語の初採点でカード→ヘッダーの数字へ飛ぶ「きらきら」演出） ---------- */
+.burst {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  z-index: 60;
+}
+
+.burst-sentinel {
+  position: absolute;
+  width: 0;
+  height: 0;
+  animation: sentinel-done 1ms linear forwards;
+}
+
+@keyframes sentinel-done {
+  to {
+    opacity: 1;
+  }
+}
+
+/* 星の粒（グリフ）の飛翔。2段構え：①カードから全方位に弾け出す ②各自の弧で加速しながらカウンターへ吸い込まれる。
+   position: absolute（fixed ではない）＝ 親 .burst（fixed で sx/sy に位置）を基準にする。
+   ここを fixed にすると viewport 原点基準になり、親の left/top が無視されて画面外に飛んでいく。
+   回転は付けない（星は瞬くもので、回すと歯車のように見えて不自然）＝拡大縮小＋発光で瞬きを表現。 */
+.spark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: var(--size, 12px);
+  line-height: 1;
+  font-style: normal;
+  text-shadow: 0 0 4px currentColor, 0 0 11px currentColor;
+  transform: translate(-50%, -50%);
+  animation: spark-fly var(--dur, 720ms) var(--delay, 0ms) forwards;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+@keyframes spark-fly {
+  /* ① バースト：カード中心から --bx/--by へ勢いよく弾け、減速して一瞬とどまる（ease-out） */
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translate(0px, 0px) scale(0.2);
+    animation-timing-function: cubic-bezier(0.15, 0.9, 0.25, 1);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translate(var(--bx), var(--by)) scale(1.15);
+    /* ② 吸い込み：ここから着地点へ向けて加速していく（ease-in）＝磁石に引かれる感じ */
+    animation-timing-function: cubic-bezier(0.55, 0, 0.85, 0.35);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translate(calc(var(--dx) + var(--tjx)), calc(var(--dy) + var(--tjy))) scale(0.12);
+  }
+}
+
+/* 動きを抑える設定の人には飛翔演出を出さない（数字ポンだけ CSS 側で残す） */
+@media (prefers-reduced-motion: reduce) {
+  .burst {
+    display: none;
+  }
 }
 
 /* ---------- stage ---------- */

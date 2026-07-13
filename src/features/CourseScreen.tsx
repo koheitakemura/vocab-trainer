@@ -1,26 +1,57 @@
-import { useRef, useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import type { Course, VocabCard } from '../types'
+import type { ReviewGrade } from '../srs/scheduler'
 import { db } from '../store/db'
 import { exportProgress, importProgress } from '../store/progress'
 import { StudyGrid } from './study/StudyGrid'
 import { AllWords } from './browse/AllWords'
 import { ThemeToggle } from '../theme/ThemeToggle'
 import { Credits } from './Credits'
+import { SparkleOverlay, type BurstSpec } from './SparkleOverlay'
+import { MeterBreakdown } from './MeterBreakdown'
 
 type Tab = 'study' | 'all'
+
+const EMPTY_BY_GRADE: Record<ReviewGrade, number> = { good: 0, easy: 0, hard: 0, again: 0 }
 
 export function CourseScreen({ course, cards }: { course: Course; cards: VocabCard[] }) {
   const [tab, setTab] = useState<Tab>('study')
   const fileRef = useRef<HTMLInputElement>(null)
+  const meterRef = useRef<HTMLDivElement>(null)
+  const [bursts, setBursts] = useState<BurstSpec[]>([])
+  const [popNonce, setPopNonce] = useState(0)
+  const nextBurstId = useRef(0)
 
-  const introduced = useLiveQuery(
-    () => db.progress.where('courseId').equals(course.id).and((p) => p.status !== 'new').count(),
+  const started = useLiveQuery(
+    async () => {
+      const rows = await db.progress
+        .where('courseId')
+        .equals(course.id)
+        .and((p) => p.status !== 'new')
+        .toArray()
+      const byGrade: Record<ReviewGrade, number> = { ...EMPTY_BY_GRADE }
+      for (const r of rows) if (r.lastGrade) byGrade[r.lastGrade]++
+      return { introduced: rows.length, byGrade }
+    },
     [course.id],
-    0,
+    { introduced: 0, byGrade: EMPTY_BY_GRADE },
   )
+  const introduced = started.introduced
   const total = cards.length
-  const pct = total > 0 ? Math.round(((introduced ?? 0) / total) * 100) : 0
+  const pct = total > 0 ? Math.round((introduced / total) * 100) : 0
+
+  // カード（StudyGrid のさらに奥、別 DOM subtree）からヘッダーの数字へ飛ぶ演出。
+  // ヘッダーの座標を知っているのはここだけなので、portal もここが管理する。
+  const handleWordStarted = useCallback((sourceRect: DOMRect) => {
+    const targetRect = meterRef.current?.getBoundingClientRect()
+    if (!targetRect) return
+    nextBurstId.current += 1
+    setBursts((bs) => [...bs, { id: nextBurstId.current, sourceRect, targetRect }])
+  }, [])
+  const handleBurstArrive = useCallback(() => setPopNonce((n) => n + 1), [])
+  const handleBurstDone = useCallback((id: number) => setBursts((bs) => bs.filter((b) => b.id !== id)), [])
 
   const onExport = async () => {
     const json = await exportProgress()
@@ -48,15 +79,18 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
           <span className="badge">{course.type === 'rail' ? 'RAIL' : course.type.toUpperCase()}</span>
           <h1 className="course-title">{course.title}</h1>
         </div>
-        <div className="meter" aria-label="progress">
+        <div className="meter" aria-label="progress" ref={meterRef}>
           <div className="meter-head">
-            <span className="meter-num">{introduced ?? 0}</span>
+            <span key={popNonce} className={`meter-num${popNonce ? ' pop' : ''}`}>
+              {introduced}
+            </span>
             <span className="meter-den">/ {total}</span>
           </div>
           <div className="meter-label">words started</div>
           <div className="meter-track">
             <div className="meter-fill" style={{ width: `${pct}%` }} />
           </div>
+          <MeterBreakdown counts={started.byGrade} />
         </div>
       </header>
 
@@ -69,7 +103,14 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
         </button>
       </nav>
 
-      <main className="course-main">{tab === 'study' ? <StudyGrid cards={cards} /> : <AllWords cards={cards} />}</main>
+      <main className="course-main">
+        {tab === 'study' ? <StudyGrid cards={cards} onWordStarted={handleWordStarted} /> : <AllWords cards={cards} />}
+      </main>
+
+      {createPortal(
+        <SparkleOverlay bursts={bursts} onArrive={handleBurstArrive} onDone={handleBurstDone} />,
+        document.body,
+      )}
 
       <footer className="statusbar">
         <div className="session-info">

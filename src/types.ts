@@ -1,4 +1,5 @@
 import type { Card as FsrsCard } from 'ts-fsrs'
+import type { ReviewGrade } from './srs/scheduler'
 
 /** コース識別子（1エンジン × 複数コース。MVP はまず ja-0-3k を実装） */
 export type CourseId =
@@ -71,4 +72,6 @@ export interface WordProgress {
   reviewedCount: number
   /** 最終レビュー日時（ISO 文字列） */
   lastReviewedAt?: string
+  /** 直近の採点（内訳表示用）。この機能追加前の行には無い（次回レビューで自然に付く） */
+  lastGrade?: ReviewGrade
 }
