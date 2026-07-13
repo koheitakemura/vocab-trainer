@@ -583,13 +583,15 @@ body {
   transform: scale(0.99);
 }
 
-/* 下部固定のボタン欄（カード高さの約1/4）。ここにマウスが入ってもめくれない。 */
+/* 下部固定のボタン欄（カード高さの約1/4）。ここにマウスが入ってもめくれない。
+   上の本体との境目に線を引き、「ここはめくれない範囲」を見た目でも分かるようにする。 */
 .tile-btn-zone {
   flex: 0 0 auto;
   display: flex;
   align-items: stretch;
-  padding: 0 8px 8px;
+  padding: 8px 8px;
   min-height: 36px;
+  border-top: 1px solid var(--border);
 }
 
 .tile-dot {

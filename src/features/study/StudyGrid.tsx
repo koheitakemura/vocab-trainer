@@ -92,14 +92,14 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
         <div className="tile-btn-zone">
           {flipped ? (
             <div className="tile-levels">
-              <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
-                Still learning
+              <button type="button" className="tile-level lvl-good" onClick={() => onGrade('good')}>
+                I know
               </button>
               <button type="button" className="tile-level lvl-hard" onClick={() => onGrade('hard')}>
                 Sort of know
               </button>
-              <button type="button" className="tile-level lvl-good" onClick={() => onGrade('good')}>
-                I know
+              <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
+                Still learning
               </button>
             </div>
           ) : (
