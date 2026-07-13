@@ -11,6 +11,7 @@
   --good: #34d399;
   --good-strong: #059669;
   --easy: #facc15;
+  --fuzzy: #f5a623;
   --again: #fb7185;
   --again-strong: #e11d48;
   --shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.7);
@@ -34,6 +35,7 @@
   --good: #059669;
   --good-strong: #047857;
   --easy: #ca8a04;
+  --fuzzy: #d97706;
   --again: #e11d48;
   --again-strong: #be123c;
   --shadow: 0 14px 34px -18px rgba(20, 30, 60, 0.28);
@@ -209,7 +211,7 @@ body {
 }
 
 .meter-seg--fuzzy {
-  background: #f5a623;
+  background: var(--fuzzy);
 }
 
 .meter-seg--learning {
@@ -218,8 +220,9 @@ body {
 
 .meter-legend {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 9px;
+  gap: 4px 10px;
   margin-top: 6px;
   font-size: 10.5px;
   color: var(--text-faint);
@@ -229,6 +232,15 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 4px;
+}
+
+.meter-legend-label {
+  color: var(--text-dim);
+}
+
+.meter-legend-count {
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
 }
 
 .meter-dot {
@@ -242,7 +254,7 @@ body {
 }
 
 .meter-dot--fuzzy {
-  background: #f5a623;
+  background: var(--fuzzy);
 }
 
 .meter-dot--learning {
@@ -761,18 +773,78 @@ body {
   background: var(--text-faint);
 }
 
-.tile.s-again .tile-dot {
-  background: #f5a623;
+/* 採点済みカードは全体を淡くフェードさせて「完了して引っ込む」印象にする（.tile の opacity トランジションでふわっと薄くなる）。
+   done = Got it / Fuzzy（キューから外れる）。Studying(again) はキューに残るのでフェードしない。 */
+.tile.s-done {
+  opacity: 0.5;
 }
 
-.tile.s-done .tile-dot {
+/* 押したボタンに応じたカードの枠線色。レベルごとの基準色を --tile-accent に持たせて枠線に混ぜる。 */
+.tile.g-known {
+  --tile-accent: var(--good);
+}
+.tile.g-fuzzy {
+  --tile-accent: var(--fuzzy);
+}
+.tile.g-learning {
+  --tile-accent: var(--again);
+}
+.tile.g-known,
+.tile.g-fuzzy,
+.tile.g-learning {
+  border-color: color-mix(in srgb, var(--tile-accent) 55%, var(--border));
+}
+
+/* ライトテーマのホバー枠（:root[data-theme='light'] .tile:hover＝詳細度0,4,0）は
+   採点済みの色枠（.tile.g-*＝0,2,0）に勝ってしまう。ホバー中も色枠を保つため、
+   より高い詳細度（0,5,0）でレベル色を上書きする。ダークは .tile:hover が0,2,0で
+   ソース順に負けるため上書き不要。 */
+:root[data-theme='light'] .tile.g-known:hover,
+:root[data-theme='light'] .tile.g-fuzzy:hover,
+:root[data-theme='light'] .tile.g-learning:hover {
+  border-color: color-mix(in srgb, var(--tile-accent) 55%, var(--border));
+}
+
+/* 採点後の右上マーク：ラベル＋点。押したボタンの色（Got it=緑 / Fuzzy=橙 / Studying=赤）。 */
+.tile-mark {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+.tile-mark-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+.tile-mark--known {
+  color: var(--good);
+}
+.tile-mark--known .tile-mark-dot {
   background: var(--good);
 }
 
-/* 採点済みカードは全体を淡くフェードさせて「完了して引っ込む」印象にする（.tile の opacity トランジションでふわっと薄くなる） */
-.tile.s-done {
-  border-color: rgba(52, 211, 153, 0.3);
-  opacity: 0.5;
+.tile-mark--fuzzy {
+  color: var(--fuzzy);
+}
+.tile-mark--fuzzy .tile-mark-dot {
+  background: var(--fuzzy);
+}
+
+.tile-mark--learning {
+  color: var(--again);
+}
+.tile-mark--learning .tile-mark-dot {
+  background: var(--again);
 }
 
 .tile-hw {
