@@ -3,7 +3,7 @@ import { LEVEL_ORDER, LEVEL_LABEL, gradeLevel, type GradeLevel } from '../srs/le
 
 const ALL_GRADES: ReviewGrade[] = ['good', 'easy', 'hard', 'again']
 
-/** Words Started の内訳（直近の採点ごとの語数）を、3段階（Got it / Fuzzy / Studying）のセグメントバー＋ラベル付き凡例で表示する。 */
+/** Words Started の内訳（直近の採点ごとの語数）を、3段階（I know / Fuzzy / Studying）のセグメントバー＋ラベル付き凡例で表示する。 */
 export function MeterBreakdown({ counts }: { counts: Record<ReviewGrade, number> }) {
   const byLevel: Record<GradeLevel, number> = { known: 0, fuzzy: 0, learning: 0 }
   for (const g of ALL_GRADES) byLevel[gradeLevel(g)] += counts[g]

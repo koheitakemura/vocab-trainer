@@ -65,25 +65,26 @@ export function useStudyBoard(cards: VocabCard[]) {
   }, [cards, nonce])
 
   /**
-   * id を明示指定して採点する。採点後に他のタイルへ自動で移る、といったことはしない。
-   * 戻り値は「この採点が初採点だったか」。status は 'new' から二度と戻らないため、
-   * これだけで一度きりのイベント発火（開始アニメーション等）を判定できる。
+   * id を明示指定して採点する。どのカードも採点後にボタンが残り、いつでも採点しなおせる。
+   * 色・マークは初回でも再採点でも毎回更新する。完了判定用の pendingQueue は「まだ一度も
+   * 採点していないカード」の集合として扱い、初回採点のときだけ更新する（再採点は不変）。
+   * 戻り値は「この採点が初採点だったか」（status が 'new' から離れた瞬間かどうか）＝きらきら演出用。
    */
   const grade = useCallback(
     async (id: string, g: ReviewGrade): Promise<boolean> => {
-      if (!pendingQueue.includes(id)) return false
       const { wasNew } = await recordReview(id, g)
       setReviewed((n) => n + 1)
 
-      const rest = pendingQueue.filter((x) => x !== id)
-      const nextQueue = g === 'again' ? [...rest, id] : rest
-      if (g === 'again') {
-        setAgain((n) => n + 1)
-        setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'again', grade: g } : t)))
-      } else {
-        setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'done', grade: g } : t)))
+      // マーク/色（grade）と状態は初回でも再採点でも更新。ボタンは常に残る。
+      setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: g === 'again' ? 'again' : 'done', grade: g } : t)))
+
+      // キューはこのセッションでまだ一度も採点していないカードだけを保持する。
+      const firstThisSession = pendingQueue.includes(id)
+      if (firstThisSession) {
+        const rest = pendingQueue.filter((x) => x !== id)
+        setPendingQueue(g === 'again' ? [...rest, id] : rest) // again は末尾へ戻して復習継続
+        if (g === 'again') setAgain((n) => n + 1)
       }
-      setPendingQueue(nextQueue)
       return wasNew
     },
     [pendingQueue],
