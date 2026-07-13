@@ -203,19 +203,16 @@ body {
   background: var(--surface-2);
 }
 
-.meter-seg--good {
+/* 3段階（Got it / Fuzzy / Studying）の色。good/easy はまとめて known＝緑。 */
+.meter-seg--known {
   background: var(--good);
 }
 
-.meter-seg--easy {
-  background: var(--easy);
-}
-
-.meter-seg--hard {
+.meter-seg--fuzzy {
   background: #f5a623;
 }
 
-.meter-seg--again {
+.meter-seg--learning {
   background: var(--again);
 }
 
@@ -240,19 +237,15 @@ body {
   border-radius: 50%;
 }
 
-.meter-dot--good {
+.meter-dot--known {
   background: var(--good);
 }
 
-.meter-dot--easy {
-  background: var(--easy);
-}
-
-.meter-dot--hard {
+.meter-dot--fuzzy {
   background: #f5a623;
 }
 
-.meter-dot--again {
+.meter-dot--learning {
   background: var(--again);
 }
 
