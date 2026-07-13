@@ -11,6 +11,8 @@ export type TileState = 'pending' | 'again' | 'done'
 export interface BoardTile {
   card: VocabCard
   state: TileState
+  /** 直近に押したボタンの評価（未採点は undefined）。カードの枠線・点の色・ラベル用。 */
+  grade?: ReviewGrade
 }
 
 /**
@@ -77,9 +79,9 @@ export function useStudyBoard(cards: VocabCard[]) {
       const nextQueue = g === 'again' ? [...rest, id] : rest
       if (g === 'again') {
         setAgain((n) => n + 1)
-        setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'again' } : t)))
+        setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'again', grade: g } : t)))
       } else {
-        setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'done' } : t)))
+        setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'done', grade: g } : t)))
       }
       setPendingQueue(nextQueue)
       return wasNew

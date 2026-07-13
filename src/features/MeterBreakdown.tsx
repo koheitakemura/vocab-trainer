@@ -1,28 +1,20 @@
 import type { ReviewGrade } from '../srs/scheduler'
+import { LEVEL_ORDER, LEVEL_LABEL, gradeLevel, type GradeLevel } from '../srs/levels'
 
-/**
- * 3段階のレベル（3つの採点ボタンに対応）。
- * FSRS の good/easy はどちらも「Got it」ボタン＝覚えた扱いなので known にまとめる。
- * 内部のスケジューリングは4段階のまま（good と easy で復習間隔は変わる）で、表示だけ3段階にする。
- */
-type Level = 'known' | 'fuzzy' | 'learning'
-const LEVELS: Level[] = ['known', 'fuzzy', 'learning']
-const LEVEL_LABEL: Record<Level, string> = { known: 'Got it', fuzzy: 'Fuzzy', learning: 'Studying' }
+const ALL_GRADES: ReviewGrade[] = ['good', 'easy', 'hard', 'again']
 
-/** Words Started の内訳（直近の採点ごとの語数）を、3段階（Got it / Fuzzy / Studying）のセグメントバー＋凡例で表示する。 */
+/** Words Started の内訳（直近の採点ごとの語数）を、3段階（Got it / Fuzzy / Studying）のセグメントバー＋ラベル付き凡例で表示する。 */
 export function MeterBreakdown({ counts }: { counts: Record<ReviewGrade, number> }) {
-  const byLevel: Record<Level, number> = {
-    known: counts.good + counts.easy,
-    fuzzy: counts.hard,
-    learning: counts.again,
-  }
-  const total = LEVELS.reduce((sum, l) => sum + byLevel[l], 0)
+  const byLevel: Record<GradeLevel, number> = { known: 0, fuzzy: 0, learning: 0 }
+  for (const g of ALL_GRADES) byLevel[gradeLevel(g)] += counts[g]
+
+  const total = LEVEL_ORDER.reduce((sum, l) => sum + byLevel[l], 0)
   if (total === 0) return null
 
   return (
     <div className="meter-breakdown">
       <div className="meter-segbar">
-        {LEVELS.map((l) =>
+        {LEVEL_ORDER.map((l) =>
           byLevel[l] > 0 ? (
             <span
               key={l}
@@ -34,10 +26,11 @@ export function MeterBreakdown({ counts }: { counts: Record<ReviewGrade, number>
         )}
       </div>
       <div className="meter-legend">
-        {LEVELS.map((l) => (
+        {LEVEL_ORDER.map((l) => (
           <span key={l} className="meter-legend-item">
             <span className={`meter-dot meter-dot--${l}`} />
-            {byLevel[l]}
+            <span className="meter-legend-label">{LEVEL_LABEL[l]}</span>
+            <span className="meter-legend-count">{byLevel[l]}</span>
           </span>
         ))}
       </div>

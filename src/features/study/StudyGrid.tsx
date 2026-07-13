@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
+import { gradeLevel, LEVEL_LABEL } from '../../srs/levels'
 import { useStudyBoard, type BoardTile } from './useStudyBoard'
 import { useFitText } from './useFitText'
 import { getRomaji } from '../../text/romaji'
@@ -74,11 +75,20 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
     if (rect) onGrade(g, rect)
   }
 
-  const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}`
+  // 直近に押したボタンの評価から表示レベル（色・ラベル）を決める。未採点は null。
+  const level = tile.grade ? gradeLevel(tile.grade) : null
+  const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}`
 
   return (
     <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
-      <span className="tile-dot" />
+      {level ? (
+        <span className={`tile-mark tile-mark--${level}`}>
+          <span className="tile-mark-label">{LEVEL_LABEL[level]}</span>
+          <span className="tile-mark-dot" />
+        </span>
+      ) : (
+        <span className="tile-dot" />
+      )}
       <div
         className="tile-content"
         onMouseEnter={() => gradable && setFlippedByHover(true)}
