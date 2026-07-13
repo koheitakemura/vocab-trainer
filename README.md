@@ -12,16 +12,17 @@
 
 ## ドキュメント
 
-- [PLAN.md](PLAN.md) — 機能計画 v1.2（コース構成・データパイプライン・フェーズ計画・判断ログ）
+- [PLAN.md](PLAN.md) — 機能計画（コース構成・データパイプライン・フェーズ計画・判断ログ）
 
-## スタック（予定）
+## スタック
 
 **サーバーレス（100% クライアントサイド）**。Vite + React + TypeScript の静的 SPA（PWA）／ ts-fsrs（MIT）／
 IndexedDB ローカルファースト＋手動 JSON バックアップ（クラウド同期なし）。
-配布は個人 GitHub の public リポジトリ → GitHub Pages（無料）。
-語彙データは再配布可能なオープンデータのみ（BCCWJ・jpdb 不使用）。
-データパイプラインは Python ローカルバッチ（wordfreq・Sudachi・TTS一括生成）で本体と分離。
+配布は個人 GitHub の public リポジトリ → GitHub Pages（無料）：https://koheitakemura.github.io/vocab-trainer/
+語彙データは再配布可能なオープンデータのみ（BCCWJ・jpdb 不使用）。音声は不採用、発音は表記（かな/IPA/アクセント付き）で伝える。
+データパイプラインは Python ローカルバッチ（wordfreq・Sudachi・JMdict/CMUdict 変換等）で本体と分離。
 
 ## 状態
 
-計画フェーズ。次アクション = Phase 0 データ実測バリデーション → project-bootstrap（層1 のスタック非依存ガードレール）で土台構築。
+コースC（日本語 0→3k・3,075語）が実データで稼働中・GitHub Pagesで公開済み。学習ループ（Study Grid・ホバーでフリップ・3段階評価）と
+All words 一覧、進捗の手動バックアップ/リストアまで実装済み。次は英語・タガログ語・日本語上級コースのデータパイプライン構築。
