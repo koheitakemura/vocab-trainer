@@ -47,11 +47,14 @@ export function StudyGrid({ cards }: { cards: VocabCard[] }) {
 function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) => void }) {
   const c: VocabCard = tile.card
   const gradable = tile.state !== 'done'
-  const [hovering, setHovering] = useState(false)
+  // めくり（flip）はカード上部の「本体」に触れたときだけ起きる。下の「ボタン欄」に
+  // マウスが入っても、本体から一度も入っていなければめくれない — カードが動いた
+  // 直後にボタン位置がずれてクリックし損なう、という事態を防ぐため。
+  const [flippedByHover, setFlippedByHover] = useState(false)
   const [pinned, setPinned] = useState(false)
-  const flipped = gradable && (hovering || pinned)
+  const flipped = gradable && (pinned || flippedByHover)
 
-  // listening-first（PLAN §4.1）: ホバー（またはタップ固定）でめくるたびに発音を聞かせる
+  // listening-first（PLAN §4.1）: めくるたびに発音を聞かせる
   useEffect(() => {
     if (!flipped || !getAutoplayPref()) return
     speakJapanese(c.reading || c.headword, { audioUrl: c.audioUrl })
@@ -60,52 +63,51 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
   const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}`
 
   return (
-    <div
-      className={cls}
-      onMouseEnter={() => gradable && setHovering(true)}
-      onMouseLeave={() => setHovering(false)}
-      onClick={() => gradable && setPinned((p) => !p)}
-      role="button"
-      aria-label={c.headword}
-    >
+    <div className={cls} onMouseLeave={() => setFlippedByHover(false)}>
       <span className="tile-dot" />
-      {flipped ? (
-        <>
-          <div className="tile-hw sm">{c.headword}</div>
-          <div className="tile-reading-row">
-            <span className="tile-reading">{c.reading}</span>
-            <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
-          </div>
-          <div className="tile-gloss">{c.gloss}</div>
-          <div className="tile-levels" onClick={(e) => e.stopPropagation()}>
-            <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
-              Still learning
-            </button>
-            <button type="button" className="tile-level lvl-hard" onClick={() => onGrade('hard')}>
-              Sort of know
-            </button>
-            <button type="button" className="tile-level lvl-good" onClick={() => onGrade('good')}>
+      <div
+        className="tile-content"
+        onMouseEnter={() => gradable && setFlippedByHover(true)}
+        onClick={() => gradable && setPinned((p) => !p)}
+        role="button"
+        aria-label={c.headword}
+      >
+        {flipped ? (
+          <>
+            <div className="tile-hw sm">{c.headword}</div>
+            <div className="tile-reading-row">
+              <span className="tile-reading">{c.reading}</span>
+              <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
+            </div>
+            <div className="tile-gloss">{c.gloss}</div>
+          </>
+        ) : (
+          <>
+            <div className="tile-hw">{c.headword}</div>
+            {tile.state === 'done' && <div className="tile-gloss done">{c.gloss}</div>}
+          </>
+        )}
+      </div>
+      {gradable && (
+        <div className="tile-btn-zone">
+          {flipped ? (
+            <div className="tile-levels">
+              <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
+                Still learning
+              </button>
+              <button type="button" className="tile-level lvl-hard" onClick={() => onGrade('hard')}>
+                Sort of know
+              </button>
+              <button type="button" className="tile-level lvl-good" onClick={() => onGrade('good')}>
+                I know
+              </button>
+            </div>
+          ) : (
+            <button type="button" className="tile-know" onClick={() => onGrade('easy')}>
               I know
             </button>
-          </div>
-        </>
-      ) : (
-        <>
-          <div className="tile-hw">{c.headword}</div>
-          {tile.state === 'done' && <div className="tile-gloss done">{c.gloss}</div>}
-        </>
-      )}
-      {gradable && !flipped && (
-        <button
-          type="button"
-          className="tile-know"
-          onClick={(e) => {
-            e.stopPropagation()
-            onGrade('easy')
-          }}
-        >
-          I know
-        </button>
+          )}
+        </div>
       )}
     </div>
   )

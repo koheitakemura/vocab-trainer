@@ -548,36 +548,48 @@ body {
 
 .tile {
   position: relative;
-  min-height: 150px;
+  min-height: 158px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 14px;
-  padding: 14px 12px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  cursor: pointer;
   overflow: hidden;
-  transition: border-color 0.15s ease, background 0.15s ease, transform 0.08s ease;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .tile:hover {
   border-color: #35456d;
 }
 
-.tile:active {
+.tile.revealed {
+  background: var(--surface-2);
+}
+
+/* カード本体（上部）。ここへのホバー/タップだけがめくり動作を起こす。 */
+.tile-content {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 14px 12px 6px;
+  cursor: pointer;
+}
+
+.tile-content:active {
   transform: scale(0.99);
 }
 
-.tile.active {
-  border-color: var(--accent);
-  box-shadow: inset 0 0 0 1px var(--accent);
-}
-
-.tile.revealed {
-  background: var(--surface-2);
+/* 下部固定のボタン欄（カード高さの約1/4）。ここにマウスが入ってもめくれない。 */
+.tile-btn-zone {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: stretch;
+  padding: 0 8px 8px;
+  min-height: 36px;
 }
 
 .tile-dot {
@@ -645,21 +657,21 @@ body {
   border-radius: 10px;
 }
 
-/* 常時表示の単一グレーディングボタン。デザインの邪魔にならない控えめな色。 */
+/* 常時表示の単一グレーディングボタン（ボタン欄いっぱいに広がる）。控えめな色。 */
 .tile-know {
-  position: absolute;
-  bottom: 9px;
-  right: 9px;
+  width: 100%;
   font: inherit;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 650;
-  letter-spacing: 0.02em;
   color: var(--text-faint);
   background: var(--surface-2);
   border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 4px 10px;
+  border-radius: 8px;
+  padding: 7px 6px;
   cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   transition: color 0.14s ease, border-color 0.14s ease, background 0.14s ease;
 }
 
@@ -670,26 +682,26 @@ body {
 }
 
 /* めくった後に並ぶ3段階の評価ボタン（Still learning / Sort of know / I know）。
-   どれも控えめなトーンで、hover 時だけ段階に応じた色がにじむ程度に留める。 */
+   どれも控えめなトーンで、hover 時だけ段階に応じた色がにじむ程度に留める。
+   文字が切れないよう余裕を持ったサイズにしてある（本番幅での実測で確認済み）。 */
 .tile-levels {
   display: flex;
-  gap: 6px;
+  gap: 4px;
   width: 100%;
-  margin-top: 8px;
 }
 
 .tile-level {
   flex: 1;
   min-width: 0;
   font: inherit;
-  font-size: 9px;
+  font-size: 8.5px;
   font-weight: 650;
-  letter-spacing: 0;
+  letter-spacing: -0.01em;
   color: var(--text-faint);
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 6px 2px;
+  border-radius: 7px;
+  padding: 6px 1px;
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
