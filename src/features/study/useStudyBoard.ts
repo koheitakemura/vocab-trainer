@@ -71,11 +71,11 @@ export function useStudyBoard(cards: VocabCard[]) {
    * id を明示指定して採点する。どのカードも採点後にボタンが残り、いつでも採点しなおせる。
    * 色・マークは初回でも再採点でも毎回更新する。完了判定用の pendingQueue は「まだ一度も
    * 採点していないカード」の集合として扱い、初回採点のときだけ更新する（再採点は不変）。
-   * 戻り値は「この採点が初採点だったか」（status が 'new' から離れた瞬間かどうか）＝きらきら演出用。
+   * 戻り値はきらきら演出を出すか＝(a) 未習語を始めた or (b) Fuzzy/Studying を I know に上げた前進のとき。
    */
   const grade = useCallback(
     async (id: string, g: ReviewGrade): Promise<boolean> => {
-      const { wasNew } = await recordReview(id, g)
+      const { wasNew, prevGrade } = await recordReview(id, g)
       setReviewed((n) => n + 1)
 
       // マーク/色（grade）と状態は初回でも再採点でも更新。ボタンは常に残る。
@@ -88,7 +88,10 @@ export function useStudyBoard(cards: VocabCard[]) {
         setPendingQueue(g === 'again' ? [...rest, id] : rest) // again は末尾へ戻して復習継続
         if (g === 'again') setAgain((n) => n + 1)
       }
-      return wasNew
+
+      // きらきら演出：未習語を始めた or 既習でも Fuzzy(hard)/Studying(again) を I know(good/easy) に上げた前進。
+      const promotedToKnown = (prevGrade === 'hard' || prevGrade === 'again') && (g === 'good' || g === 'easy')
+      return wasNew || promotedToKnown
     },
     [pendingQueue],
   )

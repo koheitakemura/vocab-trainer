@@ -17,11 +17,18 @@ export async function getOrCreateProgress(card: VocabCard): Promise<WordProgress
   return fresh
 }
 
-/** レビュー結果を記録し、FSRS 状態と WordStatus を更新。戻り値の wasNew はこの採点が初採点だったか */
-export async function recordReview(cardId: string, grade: ReviewGrade): Promise<{ wasNew: boolean }> {
+/**
+ * レビュー結果を記録し、FSRS 状態と WordStatus を更新。
+ * 戻り値の wasNew はこの採点が初採点だったか、prevGrade は上書き前の直近の採点（演出の判定用）。
+ */
+export async function recordReview(
+  cardId: string,
+  grade: ReviewGrade,
+): Promise<{ wasNew: boolean; prevGrade?: ReviewGrade }> {
   const p = await db.progress.get(cardId)
   if (!p) return { wasNew: false }
   const wasNew = p.status === 'new'
+  const prevGrade = p.lastGrade
   const nextFsrs = gradeCard(p.fsrs, grade)
   const status: WordProgress['status'] =
     grade === 'again'
@@ -37,7 +44,7 @@ export async function recordReview(cardId: string, grade: ReviewGrade): Promise<
     reviewedCount: p.reviewedCount + 1,
     lastReviewedAt: new Date().toISOString(),
   })
-  return { wasNew }
+  return { wasNew, prevGrade }
 }
 
 /** 進捗を JSON 文字列に書き出す（手動バックアップ／端末移行用） */

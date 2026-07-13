@@ -49,8 +49,8 @@ export function StudyGrid({
           key={t.card.id}
           tile={t}
           onGrade={async (g, rect) => {
-            const wasNew = await b.grade(t.card.id, g)
-            if (wasNew) onWordStarted?.(rect)
+            const sparkle = await b.grade(t.card.id, g)
+            if (sparkle) onWordStarted?.(rect)
           }}
         />
       ))}
