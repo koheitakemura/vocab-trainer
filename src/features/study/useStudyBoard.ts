@@ -62,11 +62,15 @@ export function useStudyBoard(cards: VocabCard[]) {
     }
   }, [cards, nonce])
 
-  /** id を明示指定して採点する。採点後に他のタイルへ自動で移る、といったことはしない。 */
+  /**
+   * id を明示指定して採点する。採点後に他のタイルへ自動で移る、といったことはしない。
+   * 戻り値は「この採点が初採点だったか」。status は 'new' から二度と戻らないため、
+   * これだけで一度きりのイベント発火（開始アニメーション等）を判定できる。
+   */
   const grade = useCallback(
-    async (id: string, g: ReviewGrade) => {
-      if (!pendingQueue.includes(id)) return
-      await recordReview(id, g)
+    async (id: string, g: ReviewGrade): Promise<boolean> => {
+      if (!pendingQueue.includes(id)) return false
+      const { wasNew } = await recordReview(id, g)
       setReviewed((n) => n + 1)
 
       const rest = pendingQueue.filter((x) => x !== id)
@@ -78,6 +82,7 @@ export function useStudyBoard(cards: VocabCard[]) {
         setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'done' } : t)))
       }
       setPendingQueue(nextQueue)
+      return wasNew
     },
     [pendingQueue],
   )

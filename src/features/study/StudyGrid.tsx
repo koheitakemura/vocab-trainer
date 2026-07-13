@@ -1,11 +1,18 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { useStudyBoard, type BoardTile } from './useStudyBoard'
 import { useFitText } from './useFitText'
 import { getRomaji } from '../../text/romaji'
 
-export function StudyGrid({ cards }: { cards: VocabCard[] }) {
+export function StudyGrid({
+  cards,
+  onWordStarted,
+}: {
+  cards: VocabCard[]
+  /** 初採点（new → 開始）が起きたときに発火。ヘッダー側の演出のためのカードの座標を渡すだけで、ヘッダーの存在は知らない。 */
+  onWordStarted?: (rect: DOMRect) => void
+}) {
   const b = useStudyBoard(cards)
 
   if (b.loading) return <div className="hint">Preparing your session…</div>
@@ -37,13 +44,20 @@ export function StudyGrid({ cards }: { cards: VocabCard[] }) {
   return (
     <div className="board">
       {b.tiles.map((t) => (
-        <Tile key={t.card.id} tile={t} onGrade={(g) => b.grade(t.card.id, g)} />
+        <Tile
+          key={t.card.id}
+          tile={t}
+          onGrade={async (g, rect) => {
+            const wasNew = await b.grade(t.card.id, g)
+            if (wasNew) onWordStarted?.(rect)
+          }}
+        />
       ))}
     </div>
   )
 }
 
-function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) => void }) {
+function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, rect: DOMRect) => void }) {
   const c: VocabCard = tile.card
   const gradable = tile.state !== 'done'
   const romaji = getRomaji(c.reading)
@@ -53,11 +67,17 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
   const [flippedByHover, setFlippedByHover] = useState(false)
   const [pinned, setPinned] = useState(false)
   const flipped = gradable && (pinned || flippedByHover)
+  const rootRef = useRef<HTMLDivElement>(null)
+
+  const fire = (g: ReviewGrade) => {
+    const rect = rootRef.current?.getBoundingClientRect()
+    if (rect) onGrade(g, rect)
+  }
 
   const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}`
 
   return (
-    <div className={cls} onMouseLeave={() => setFlippedByHover(false)}>
+    <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
       <span className="tile-dot" />
       <div
         className="tile-content"
@@ -85,13 +105,13 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
       {gradable && (
         <div className="tile-btn-zone">
           <div className="tile-levels">
-            <button type="button" className="tile-level lvl-good" onClick={() => onGrade(flipped ? 'good' : 'easy')}>
+            <button type="button" className="tile-level lvl-good" onClick={() => fire(flipped ? 'good' : 'easy')}>
               Got it
             </button>
-            <button type="button" className="tile-level lvl-hard" onClick={() => onGrade('hard')}>
+            <button type="button" className="tile-level lvl-hard" onClick={() => fire('hard')}>
               Fuzzy
             </button>
-            <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
+            <button type="button" className="tile-level lvl-again" onClick={() => fire('again')}>
               Studying
             </button>
           </div>
