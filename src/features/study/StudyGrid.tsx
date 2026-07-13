@@ -15,7 +15,7 @@ export function StudyGrid({ cards }: { cards: VocabCard[] }) {
     speakJapanese(b.active.reading || b.active.headword, { audioUrl: b.active.audioUrl })
   }, [b.activeId])
 
-  // キーボード：Space/Enter=めくる、1=Again、2/Space=Good
+  // キーボード：Space/Enter=めくる（未めくり時）／めくり後は 1=まだ・2かSpace=I know
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (b.loading || b.empty || b.finished || !b.activeId) return
@@ -96,17 +96,21 @@ function Tile({
 }) {
   const c: VocabCard = tile.card
   const cls = `tile s-${tile.state}${active ? ' active' : ''}${revealed ? ' revealed' : ''}`
+  const canGrade = active && tile.state !== 'done'
+
   const handleClick = () => {
     if (!active) {
-      onFocus()
+      onFocus() // 最初のタップで選択とめくりを同時に行う
       return
     }
-    if (tile.state !== 'done' && !revealed) onReveal()
-    // 既に active かつ revealed（採点待ち、または回答済みを見返し中）は何もしない
+    if (!revealed) {
+      onReveal()
+      return
+    }
+    // 既にめくった状態で本体を再タップ＝「まだ覚えていない」（Again 相当）。
+    // 「覚えている」は常時表示の I know ボタンが担当する。
+    if (canGrade) onGrade('again')
   }
-  // 回答済みタイルを選び直したときは常に revealed=true で表示されるので、
-  // グレーディングの余地は無い＝ボタンは出さず「閲覧のみ」にする
-  const showGrade = revealed && tile.state !== 'done'
 
   return (
     <div className={cls} onClick={handleClick} role="button" aria-label={c.headword}>
@@ -119,16 +123,6 @@ function Tile({
             <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
           </div>
           <div className="tile-gloss">{c.gloss}</div>
-          {showGrade && (
-            <div className="tile-grade" onClick={(e) => e.stopPropagation()}>
-              <button className="btn again" onClick={() => onGrade('again')}>
-                Again
-              </button>
-              <button className="btn good" onClick={() => onGrade('good')}>
-                Good
-              </button>
-            </div>
-          )}
         </>
       ) : (
         <>
@@ -142,6 +136,18 @@ function Tile({
             </div>
           ) : null}
         </>
+      )}
+      {canGrade && (
+        <button
+          type="button"
+          className="tile-know"
+          onClick={(e) => {
+            e.stopPropagation()
+            onGrade('good')
+          }}
+        >
+          I know
+        </button>
       )}
     </div>
   )

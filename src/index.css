@@ -460,12 +460,18 @@ body {
 /* ===================== Course screen (Study grid + All words) ===================== */
 .course-screen {
   min-height: 100%;
-  max-width: 1040px;
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 24px 20px;
+  padding: 56px 64px;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
-  gap: 16px;
+  gap: 20px;
+}
+
+@media (max-width: 720px) {
+  .course-screen {
+    padding: 32px 24px;
+  }
 }
 
 /* tabs */
@@ -571,7 +577,6 @@ body {
 }
 
 .tile.revealed {
-  cursor: default;
   background: var(--surface-2);
 }
 
@@ -638,6 +643,34 @@ body {
   padding: 9px 8px;
   font-size: 13px;
   border-radius: 10px;
+}
+
+/* 常時表示の単一グレーディングボタン。デザインの邪魔にならない控えめな色。 */
+.tile-know {
+  position: absolute;
+  bottom: 9px;
+  right: 9px;
+  font: inherit;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  color: var(--text-faint);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: color 0.14s ease, border-color 0.14s ease, background 0.14s ease;
+}
+
+.tile-know:hover {
+  color: var(--good);
+  border-color: color-mix(in srgb, var(--good) 45%, var(--border));
+  background: color-mix(in srgb, var(--good) 12%, var(--surface-2));
+}
+
+.tile.revealed .tile-know {
+  background: var(--surface);
 }
 
 /* ---------- All words (variant ④) ---------- */

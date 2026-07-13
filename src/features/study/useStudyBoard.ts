@@ -100,15 +100,14 @@ export function useStudyBoard(cards: VocabCard[]) {
 
   /**
    * タップで画面上の任意のタイルへ移動（回答済み・未回答を問わず常に選べる）。
-   * 未回答（pending/again）はクイズのまま＝めくるまで答えを隠す。
-   * 回答済み（done）は選んだ瞬間に詳細を表示（見返す用途なので隠す意味がない）。
+   * 最初のタップでそのままフリップする（選択とめくりを1操作にまとめる）。
    */
   const focusTile = useCallback(
     (id: string) => {
       const tile = tiles.find((t) => t.card.id === id)
       if (!tile) return
       setActiveId(id)
-      setRevealed(tile.state === 'done')
+      setRevealed(true)
     },
     [tiles],
   )
