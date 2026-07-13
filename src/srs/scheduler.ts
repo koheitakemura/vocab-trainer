@@ -6,10 +6,22 @@ import {
   State,
   type Card,
   type FSRS,
+  type Grade,
 } from 'ts-fsrs'
 
-/** MVP は Again/Good の2択（PLAN §3.1）。desired retention は既定 0.9。 */
-export type ReviewGrade = 'again' | 'good'
+/**
+ * 4段階評価（FSRS 標準の Again/Hard/Good/Easy）。UI 上は
+ * Still learning / Sort of know / I know(flip後) / I know(即スキップ) に対応。
+ * desired retention は既定 0.9。
+ */
+export type ReviewGrade = 'again' | 'hard' | 'good' | 'easy'
+
+const RATING_BY_GRADE: Record<ReviewGrade, Grade> = {
+  again: Rating.Again,
+  hard: Rating.Hard,
+  good: Rating.Good,
+  easy: Rating.Easy,
+}
 
 const scheduler: FSRS = fsrs(generatorParameters({ request_retention: 0.9 }))
 
@@ -20,8 +32,7 @@ export function newCard(now: Date = new Date()): Card {
 
 /** 評価を適用して次の FSRS 状態を返す */
 export function gradeCard(card: Card, grade: ReviewGrade, now: Date = new Date()): Card {
-  const rating = grade === 'again' ? Rating.Again : Rating.Good
-  const { card: next } = scheduler.next(card, now, rating)
+  const { card: next } = scheduler.next(card, now, RATING_BY_GRADE[grade])
   return next
 }
 

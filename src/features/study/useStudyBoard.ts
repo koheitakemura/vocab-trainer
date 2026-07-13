@@ -74,12 +74,16 @@ export function useStudyBoard(cards: VocabCard[]) {
 
   const reveal = useCallback(() => setRevealed(true), [])
 
+  /**
+   * id を明示指定して採点する（active でないタイルの「I know」を直接押しても
+   * 動くようにするため）。採点した id が今まさに active だった場合だけ、
+   * 次の未回答カードへ自動的に進む。他のタイルを採点しただけなら今の表示は変えない。
+   */
   const grade = useCallback(
-    async (g: ReviewGrade) => {
-      const id = activeId
+    async (id: string, g: ReviewGrade) => {
       // 既に採点済みのタイルを再度グレーディングしない（回答済みカードを閲覧目的で
       // 選択できるようにしたため、二重採点を防ぐガード）
-      if (!id || !pendingQueue.includes(id)) return
+      if (!pendingQueue.includes(id)) return
       await recordReview(id, g)
       setReviewed((n) => n + 1)
 
@@ -92,8 +96,10 @@ export function useStudyBoard(cards: VocabCard[]) {
         setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: 'done' } : t)))
       }
       setPendingQueue(nextQueue)
-      setActiveId(nextQueue[0] ?? null)
-      setRevealed(false)
+      if (id === activeId) {
+        setActiveId(nextQueue[0] ?? null)
+        setRevealed(false)
+      }
     },
     [activeId, pendingQueue],
   )

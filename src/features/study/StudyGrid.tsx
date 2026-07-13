@@ -15,7 +15,7 @@ export function StudyGrid({ cards }: { cards: VocabCard[] }) {
     speakJapanese(b.active.reading || b.active.headword, { audioUrl: b.active.audioUrl })
   }, [b.activeId])
 
-  // キーボード：Space/Enter=めくる（未めくり時）／めくり後は 1=まだ・2かSpace=I know
+  // キーボード：Space/Enter=めくる（未めくり時）／めくり後は 1=Still learning・2=Sort of know・3かSpace=I know
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (b.loading || b.empty || b.finished || !b.activeId) return
@@ -25,10 +25,11 @@ export function StudyGrid({ cards }: { cards: VocabCard[] }) {
           b.reveal()
         }
       } else {
-        if (e.key === '1') b.grade('again')
-        else if (e.key === '2' || e.code === 'Space' || e.code === 'Enter') {
+        if (e.key === '1') b.grade(b.activeId, 'again')
+        else if (e.key === '2') b.grade(b.activeId, 'hard')
+        else if (e.key === '3' || e.code === 'Space' || e.code === 'Enter') {
           e.preventDefault()
-          b.grade('good')
+          b.grade(b.activeId, 'good')
         }
       }
     }
@@ -72,7 +73,7 @@ export function StudyGrid({ cards }: { cards: VocabCard[] }) {
           revealed={b.revealed && t.card.id === b.activeId}
           onReveal={b.reveal}
           onFocus={() => b.focusTile(t.card.id)}
-          onGrade={b.grade}
+          onGrade={(g) => b.grade(t.card.id, g)}
         />
       ))}
     </div>
@@ -96,21 +97,32 @@ function Tile({
 }) {
   const c: VocabCard = tile.card
   const cls = `tile s-${tile.state}${active ? ' active' : ''}${revealed ? ' revealed' : ''}`
-  const canGrade = active && tile.state !== 'done'
+  const gradable = tile.state !== 'done'
+  // フリップ前（または未選択のまま）に I know を押す＝一切見ずに即スキップ＝Easy。
+  // フリップ後に押す＝答えを見て「知ってた」を確認＝Good。
+  const knowGrade: ReviewGrade = active && revealed ? 'good' : 'easy'
 
   const handleClick = () => {
     if (!active) {
       onFocus() // 最初のタップで選択とめくりを同時に行う
       return
     }
-    if (!revealed) {
-      onReveal()
-      return
-    }
-    // 既にめくった状態で本体を再タップ＝「まだ覚えていない」（Again 相当）。
-    // 「覚えている」は常時表示の I know ボタンが担当する。
-    if (canGrade) onGrade('again')
+    if (!revealed) onReveal()
+    // 既に revealed なら本体タップは何もしない（採点は明示的なボタンで行う）
   }
+
+  const know = gradable && (
+    <button
+      type="button"
+      className="tile-know"
+      onClick={(e) => {
+        e.stopPropagation()
+        onGrade(knowGrade)
+      }}
+    >
+      I know
+    </button>
+  )
 
   return (
     <div className={cls} onClick={handleClick} role="button" aria-label={c.headword}>
@@ -123,6 +135,19 @@ function Tile({
             <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
           </div>
           <div className="tile-gloss">{c.gloss}</div>
+          {gradable && (
+            <div className="tile-levels" onClick={(e) => e.stopPropagation()}>
+              <button type="button" className="tile-level lvl-again" onClick={() => onGrade('again')}>
+                Still learning
+              </button>
+              <button type="button" className="tile-level lvl-hard" onClick={() => onGrade('hard')}>
+                Sort of know
+              </button>
+              <button type="button" className="tile-level lvl-good" onClick={() => onGrade('good')}>
+                I know
+              </button>
+            </div>
+          )}
         </>
       ) : (
         <>
@@ -135,19 +160,8 @@ function Tile({
               <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} label="Replay pronunciation" />
             </div>
           ) : null}
+          {know}
         </>
-      )}
-      {canGrade && (
-        <button
-          type="button"
-          className="tile-know"
-          onClick={(e) => {
-            e.stopPropagation()
-            onGrade('good')
-          }}
-        >
-          I know
-        </button>
       )}
     </div>
   )
