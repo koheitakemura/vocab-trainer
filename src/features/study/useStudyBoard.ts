@@ -37,24 +37,27 @@ export function useStudyBoard(cards: VocabCard[]) {
       const rows = await db.progress.bulkGet(cards.map((c) => c.id))
       const byId = new Map(cards.map((c) => [c.id, c]))
       const now = Date.now()
-      const session: VocabCard[] = []
+      const sessionTiles: BoardTile[] = []
       let newCount = 0
       for (const r of rows) {
         if (!r) continue
         const card = byId.get(r.cardId)
         if (!card) continue
         if (r.status === 'new') {
+          // 本当の未習語だけ "New" 表示（grade 未設定）＝初採点でスパークルが発火する。
           if (newCount < NEW_PER_SESSION) {
-            session.push(card)
+            sessionTiles.push({ card, state: 'pending' })
             newCount++
           }
         } else if (r.status !== 'burned' && r.status !== 'suspended' && r.fsrs.due.getTime() <= now) {
-          session.push(card)
+          // 復習（既習・due）カードは "New" ではなく直近の採点（lastGrade）を初期表示する。
+          // これで「全部 New に見えるのに一部しかスパークルしない」不整合が解消される。
+          sessionTiles.push({ card, state: 'pending', grade: r.lastGrade })
         }
       }
       if (!active) return
-      setTiles(session.map((c) => ({ card: c, state: 'pending' })))
-      setPendingQueue(session.map((c) => c.id))
+      setTiles(sessionTiles)
+      setPendingQueue(sessionTiles.map((t) => t.card.id))
       setReviewed(0)
       setAgain(0)
       setLoading(false)
