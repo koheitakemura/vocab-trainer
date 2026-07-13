@@ -2,9 +2,18 @@ import { useEffect } from 'react'
 import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { useStudyBoard, type BoardTile } from './useStudyBoard'
+import { SpeakerButton } from '../../audio/SpeakerButton'
+import { speakJapanese } from '../../audio/speak'
+import { getAutoplayPref } from '../../audio/audioPrefs'
 
 export function StudyGrid({ cards }: { cards: VocabCard[] }) {
   const b = useStudyBoard(cards)
+
+  // listening-first（PLAN §4.1）: 新規カードが active になったら、めくる前に自動で発音を聞かせる
+  useEffect(() => {
+    if (!b.active || b.revealed || !getAutoplayPref()) return
+    speakJapanese(b.active.reading || b.active.headword, { audioUrl: b.active.audioUrl })
+  }, [b.activeId])
 
   // キーボード：Space/Enter=めくる、1=Again、2/Space=Good
   useEffect(() => {
@@ -98,7 +107,10 @@ function Tile({
       {revealed ? (
         <>
           <div className="tile-hw sm">{c.headword}</div>
-          <div className="tile-reading">{c.reading}</div>
+          <div className="tile-reading-row">
+            <span className="tile-reading">{c.reading}</span>
+            <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
+          </div>
           <div className="tile-gloss">{c.gloss}</div>
           <div className="tile-grade" onClick={(e) => e.stopPropagation()}>
             <button className="btn again" onClick={() => onGrade('again')}>
@@ -115,7 +127,10 @@ function Tile({
           {tile.state === 'done' ? (
             <div className="tile-gloss done">{c.gloss}</div>
           ) : active ? (
-            <div className="tile-hint">tap / Space</div>
+            <div className="tile-hint-row">
+              <span className="tile-hint">tap / Space</span>
+              <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} label="Replay pronunciation" />
+            </div>
           ) : null}
         </>
       )}

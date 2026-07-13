@@ -803,3 +803,47 @@ body {
 .credits-box .btn {
   margin-top: 6px;
 }
+
+/* ---------- Audio (speaker button) ---------- */
+.speaker-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  padding: 3px 5px;
+  border-radius: 7px;
+  color: var(--text-dim);
+  transition: background 0.12s ease, transform 0.08s ease;
+}
+
+.speaker-btn:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.speaker-btn:active {
+  transform: scale(0.92);
+}
+
+.speaker-btn.speaking {
+  color: var(--accent);
+}
+
+.speaker-btn.sm {
+  font-size: 13px;
+  padding: 2px 4px;
+}
+
+.tile-reading-row,
+.tile-hint-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.aw-reading-cell {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
