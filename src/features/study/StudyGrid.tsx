@@ -1,10 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { useStudyBoard, type BoardTile } from './useStudyBoard'
-import { SpeakerButton } from '../../audio/SpeakerButton'
-import { speakJapanese } from '../../audio/speak'
-import { getAutoplayPref } from '../../audio/audioPrefs'
 import { useFitText } from './useFitText'
 
 export function StudyGrid({ cards }: { cards: VocabCard[] }) {
@@ -55,12 +52,6 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
   const [pinned, setPinned] = useState(false)
   const flipped = gradable && (pinned || flippedByHover)
 
-  // listening-first（PLAN §4.1）: めくるたびに発音を聞かせる
-  useEffect(() => {
-    if (!flipped || !getAutoplayPref()) return
-    speakJapanese(c.reading || c.headword, { audioUrl: c.audioUrl })
-  }, [flipped])
-
   const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}`
 
   return (
@@ -76,10 +67,7 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade) =>
         {flipped ? (
           <>
             <div className="tile-hw sm">{c.headword}</div>
-            <div className="tile-reading-row">
-              <span className="tile-reading">{c.reading}</span>
-              <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
-            </div>
+            <span className="tile-reading">{c.reading}</span>
             <FitGloss text={c.gloss} />
           </>
         ) : (

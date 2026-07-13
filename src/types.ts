@@ -26,8 +26,6 @@ export interface Course {
 export interface Example {
   text: string
   translation: string
-  /** ビルド時 TTS で事前生成した静的 MP3 の URL（mock では未設定） */
-  audioUrl?: string
 }
 
 /**
@@ -39,7 +37,7 @@ export interface VocabCard {
   courseId: CourseId
   /** 見出し語（漢字・かな・原語） */
   headword: string
-  /** 読み・ふりがな（日本語 / タガログ語） */
+  /** 発音表記（日本語=かな読み／英語=IPA発音記号／タガログ語=アクセント位置付き表記） */
   reading?: string
   /** 訳語（グロス） */
   gloss: string
@@ -49,7 +47,6 @@ export interface VocabCard {
   /** 頻度ランク（小さいほど高頻度＝先に出す） */
   frequencyRank: number
   jlptLevel?: 'N5' | 'N4' | 'N3' | 'N2' | 'N1'
-  audioUrl?: string
 }
 
 /** jpdb の10状態モデルを簡約したユーザー単位の語の状態 */

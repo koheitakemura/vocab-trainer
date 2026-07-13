@@ -7,7 +7,6 @@ import { StudyGrid } from './study/StudyGrid'
 import { AllWords } from './browse/AllWords'
 import { ThemeToggle } from '../theme/ThemeToggle'
 import { Credits } from './Credits'
-import { AutoplayToggle } from '../audio/AutoplayToggle'
 
 type Tab = 'study' | 'all'
 
@@ -75,7 +74,6 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
       <footer className="statusbar">
         <div className="session-info">
           <ThemeToggle />
-          <AutoplayToggle />
           <Credits />
         </div>
         <div className="actions">

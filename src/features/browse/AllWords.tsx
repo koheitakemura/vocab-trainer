@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import type { VocabCard, WordStatus } from '../../types'
 import { db } from '../../store/db'
-import { SpeakerButton } from '../../audio/SpeakerButton'
 
 type StatusGroup = 'new' | 'learning' | 'known'
 
@@ -41,10 +40,7 @@ export function AllWords({ cards }: { cards: VocabCard[] }) {
             <div className="aw-row" onClick={() => setOpen(isOpen ? null : c.id)} role="button">
               <span className="aw-num">{c.frequencyRank}</span>
               <span className="aw-word">{c.headword}</span>
-              <span className="aw-reading-cell">
-                <span className="aw-reading">{c.reading}</span>
-                <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} className="sm" />
-              </span>
+              <span className="aw-reading">{c.reading}</span>
               <span className="aw-gloss">{c.gloss}</span>
               <span className={`aw-pill st-${group}`}>{group}</span>
             </div>
