@@ -1,10 +1,10 @@
 import type { Course, CourseId, VocabCard } from '../types'
 import { mockCourse, mockCards } from './mockCards'
+import { realRepository, withRealFallback } from './realRepository'
 
 /**
  * データ境界（seam）。UI はこのインターフェースだけに依存する。
- * 今は mock（バンドル JSON）を返し、後で real（静的 JSON パックを fetch）に差し替える。
- * 差し替えは「実装の入れ替え」だけで、UI・型は一切変えない。
+ * real（静的 JSON パック）が未生成/一部帯のみのコースは mock で穴埋めする。
  */
 export interface CourseRepository {
   getCourse(id: CourseId): Promise<Course>
@@ -21,5 +21,4 @@ export const mockRepository: CourseRepository = {
   },
 }
 
-// TODO(real): 静的 JSON パック（コース別・1k帯別・遅延読込）を fetch する実装に差し替え。
-export const repository: CourseRepository = mockRepository
+export const repository: CourseRepository = withRealFallback(realRepository, mockRepository)

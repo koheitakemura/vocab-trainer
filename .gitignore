@@ -22,3 +22,8 @@ node_modules/.tmp
 # 開発時のスクショ・Playwright 出力
 .playwright-mcp/
 vocab-*.png
+
+# データパイプライン: 生ダウンロードのみ除外（成果物の public/data は commit する）
+pipeline/raw/
+pipeline/__pycache__/
+pipeline/*.pyc

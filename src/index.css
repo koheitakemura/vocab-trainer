@@ -760,3 +760,46 @@ body {
   font-size: 12px;
   color: var(--text-dim);
 }
+
+/* ---------- Credits overlay ---------- */
+.credits-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  z-index: 50;
+  padding: 20px;
+}
+
+.credits-box {
+  max-width: 480px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.credits-box h2 {
+  margin: 0 0 14px;
+  font-size: 18px;
+}
+
+.credits-box p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin: 0 0 12px;
+}
+
+.credits-box a {
+  color: var(--accent);
+}
+
+.credits-box .btn {
+  margin-top: 6px;
+}
