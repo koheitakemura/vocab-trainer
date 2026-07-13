@@ -77,7 +77,9 @@ export function useStudyBoard(cards: VocabCard[]) {
   const grade = useCallback(
     async (g: ReviewGrade) => {
       const id = activeId
-      if (!id) return
+      // 既に採点済みのタイルを再度グレーディングしない（回答済みカードを閲覧目的で
+      // 選択できるようにしたため、二重採点を防ぐガード）
+      if (!id || !pendingQueue.includes(id)) return
       await recordReview(id, g)
       setReviewed((n) => n + 1)
 
@@ -96,14 +98,19 @@ export function useStudyBoard(cards: VocabCard[]) {
     [activeId, pendingQueue],
   )
 
-  /** タップで任意の未回答タイルへ移動（キューの位置に関係なく常に動く） */
+  /**
+   * タップで画面上の任意のタイルへ移動（回答済み・未回答を問わず常に選べる）。
+   * 未回答（pending/again）はクイズのまま＝めくるまで答えを隠す。
+   * 回答済み（done）は選んだ瞬間に詳細を表示（見返す用途なので隠す意味がない）。
+   */
   const focusTile = useCallback(
     (id: string) => {
-      if (!pendingQueue.includes(id)) return
+      const tile = tiles.find((t) => t.card.id === id)
+      if (!tile) return
       setActiveId(id)
-      setRevealed(false)
+      setRevealed(tile.state === 'done')
     },
-    [pendingQueue],
+    [tiles],
   )
 
   const restart = useCallback(() => setNonce((n) => n + 1), [])

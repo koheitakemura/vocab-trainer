@@ -97,12 +97,19 @@ function Tile({
   const c: VocabCard = tile.card
   const cls = `tile s-${tile.state}${active ? ' active' : ''}${revealed ? ' revealed' : ''}`
   const handleClick = () => {
-    if (active) onReveal()
-    else onFocus()
+    if (!active) {
+      onFocus()
+      return
+    }
+    if (tile.state !== 'done' && !revealed) onReveal()
+    // 既に active かつ revealed（採点待ち、または回答済みを見返し中）は何もしない
   }
+  // 回答済みタイルを選び直したときは常に revealed=true で表示されるので、
+  // グレーディングの余地は無い＝ボタンは出さず「閲覧のみ」にする
+  const showGrade = revealed && tile.state !== 'done'
 
   return (
-    <div className={cls} onClick={revealed ? undefined : handleClick} role="button" aria-label={c.headword}>
+    <div className={cls} onClick={handleClick} role="button" aria-label={c.headword}>
       <span className="tile-dot" />
       {revealed ? (
         <>
@@ -112,14 +119,16 @@ function Tile({
             <SpeakerButton text={c.reading || c.headword} audioUrl={c.audioUrl} />
           </div>
           <div className="tile-gloss">{c.gloss}</div>
-          <div className="tile-grade" onClick={(e) => e.stopPropagation()}>
-            <button className="btn again" onClick={() => onGrade('again')}>
-              Again
-            </button>
-            <button className="btn good" onClick={() => onGrade('good')}>
-              Good
-            </button>
-          </div>
+          {showGrade && (
+            <div className="tile-grade" onClick={(e) => e.stopPropagation()}>
+              <button className="btn again" onClick={() => onGrade('again')}>
+                Again
+              </button>
+              <button className="btn good" onClick={() => onGrade('good')}>
+                Good
+              </button>
+            </div>
+          )}
         </>
       ) : (
         <>
