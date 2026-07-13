@@ -719,7 +719,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  transition: border-color 0.15s ease, background 0.15s ease;
+  transition: border-color 0.15s ease, background 0.15s ease, opacity 0.3s ease;
 }
 
 .tile:hover {
@@ -776,8 +776,10 @@ body {
   background: var(--good);
 }
 
+/* 採点済みカードは全体を淡くフェードさせて「完了して引っ込む」印象にする（.tile の opacity トランジションでふわっと薄くなる） */
 .tile.s-done {
   border-color: rgba(52, 211, 153, 0.3);
+  opacity: 0.5;
 }
 
 .tile-hw {
@@ -815,6 +817,19 @@ body {
   width: 100%;
   max-height: 34px;
   overflow: hidden;
+}
+
+/* done カードはボタン欄が無く縦に余裕があるので、緑グロスは広い枠＋大きめフォントで見せる。
+   高さを明示的に固定（＋flex:0 0 auto で親の縮小を無効化）＝ useFitText が安定した枠で計測できる。
+   max-height だけだと枠が中身依存で潰れ、「枠が縮む→はみ出す→フォント縮小」を繰り返して最小まで縮む。
+   中央寄せは flex で行い、はみ出しは overflow:hidden（基底クラス）で隠す＝計測はこの枠の高さ基準。 */
+.tile-gloss-box.big {
+  height: 46px;
+  max-height: none;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tile-gloss {

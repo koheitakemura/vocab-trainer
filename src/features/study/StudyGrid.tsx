@@ -98,7 +98,7 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
         ) : (
           <>
             <div className="tile-hw">{c.headword}</div>
-            {tile.state === 'done' && <FitGloss text={c.gloss} className="done" />}
+            {tile.state === 'done' && <FitGloss text={c.gloss} className="done" big />}
           </>
         )}
       </div>
@@ -121,11 +121,15 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
   )
 }
 
-/** 訳語（可変長）を固定の高さ枠に収める。長い訳語は自動でフォントを縮める。 */
-function FitGloss({ text, className }: { text: string; className?: string }) {
-  const { boxRef, fontSize } = useFitText(text)
+/** done カードの緑グロス用の大きめサイズ段階。枠も広い（.tile-gloss-box.big＝高さ46px）ので大きく出せる。 */
+const BIG_STEPS = [17, 16, 15, 14, 13, 12]
+
+/** 訳語（可変長）を固定の高さ枠に収める。長い訳語は自動でフォントを縮める。
+ *  big=true は done カードの緑グロス用で、枠を広げてフォントも一段大きくする。 */
+function FitGloss({ text, className, big }: { text: string; className?: string; big?: boolean }) {
+  const { boxRef, fontSize } = useFitText(text, big ? BIG_STEPS : undefined)
   return (
-    <div ref={boxRef} className="tile-gloss-box">
+    <div ref={boxRef} className={`tile-gloss-box${big ? ' big' : ''}`}>
       <div className={`tile-gloss${className ? ` ${className}` : ''}`} style={{ fontSize }}>
         {text}
       </div>
