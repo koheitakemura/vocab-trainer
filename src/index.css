@@ -205,7 +205,7 @@ body {
   background: var(--surface-2);
 }
 
-/* 3段階（Got it / Fuzzy / Studying）の色。good/easy はまとめて known＝緑。 */
+/* 3段階（I know / Fuzzy / Studying）の色。good/easy はまとめて known＝緑。 */
 .meter-seg--known {
   background: var(--good);
 }
@@ -724,7 +724,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  transition: border-color 0.15s ease, background 0.15s ease, opacity 0.3s ease;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .tile:hover {
@@ -773,12 +773,6 @@ body {
   background: var(--text-faint);
 }
 
-/* 採点済みカードは全体を淡くフェードさせて「完了して引っ込む」印象にする（.tile の opacity トランジションでふわっと薄くなる）。
-   done = Got it / Fuzzy（キューから外れる）。Studying(again) はキューに残るのでフェードしない。 */
-.tile.s-done {
-  opacity: 0.5;
-}
-
 /* 押したボタンに応じたカードの枠線色。レベルごとの基準色を --tile-accent に持たせて枠線に混ぜる。 */
 .tile.g-known {
   --tile-accent: var(--good);
@@ -805,7 +799,7 @@ body {
   border-color: color-mix(in srgb, var(--tile-accent) 55%, var(--border));
 }
 
-/* 採点後の右上マーク：ラベル＋点。押したボタンの色（Got it=緑 / Fuzzy=橙 / Studying=赤）。 */
+/* 採点後の右上マーク：ラベル＋点。押したボタンの色（I know=緑 / Fuzzy=橙 / Studying=赤）。 */
 .tile-mark {
   position: absolute;
   top: 8px;
@@ -884,28 +878,11 @@ body {
   overflow: hidden;
 }
 
-/* done カードはボタン欄が無く縦に余裕があるので、緑グロスは広い枠＋大きめフォントで見せる。
-   高さを明示的に固定（＋flex:0 0 auto で親の縮小を無効化）＝ useFitText が安定した枠で計測できる。
-   max-height だけだと枠が中身依存で潰れ、「枠が縮む→はみ出す→フォント縮小」を繰り返して最小まで縮む。
-   中央寄せは flex で行い、はみ出しは overflow:hidden（基底クラス）で隠す＝計測はこの枠の高さ基準。 */
-.tile-gloss-box.big {
-  height: 46px;
-  max-height: none;
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .tile-gloss {
   font-size: 13px;
   line-height: 1.25;
   color: var(--text-dim);
   text-align: center;
-}
-
-.tile-gloss.done {
-  color: var(--good);
 }
 
 .tile-grade {

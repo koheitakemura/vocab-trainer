@@ -60,14 +60,12 @@ export function StudyGrid({
 
 function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, rect: DOMRect) => void }) {
   const c: VocabCard = tile.card
-  const gradable = tile.state !== 'done'
   const romaji = getRomaji(c.reading)
-  // めくり（flip）はカード上部の「本体」に触れたときだけ起きる。下の「ボタン欄」に
-  // マウスが入っても、本体から一度も入っていなければめくれない — カードが動いた
-  // 直後にボタン位置がずれてクリックし損なう、という事態を防ぐため。
+  // どのカードも採点後もボタンを残し、いつでも採点しなおせる（3ボタン共通の挙動）。
+  // 意味（訳語）は常時表示せず、本体にホバー/タップしてめくったときだけ見せる。
   const [flippedByHover, setFlippedByHover] = useState(false)
   const [pinned, setPinned] = useState(false)
-  const flipped = gradable && (pinned || flippedByHover)
+  const flipped = pinned || flippedByHover
   const rootRef = useRef<HTMLDivElement>(null)
 
   const fire = (g: ReviewGrade) => {
@@ -91,8 +89,8 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
       )}
       <div
         className="tile-content"
-        onMouseEnter={() => gradable && setFlippedByHover(true)}
-        onClick={() => gradable && setPinned((p) => !p)}
+        onMouseEnter={() => setFlippedByHover(true)}
+        onClick={() => setPinned((p) => !p)}
         role="button"
         aria-label={c.headword}
       >
@@ -106,40 +104,31 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
             <FitGloss text={c.gloss} />
           </>
         ) : (
-          <>
-            <div className="tile-hw">{c.headword}</div>
-            {tile.state === 'done' && <FitGloss text={c.gloss} className="done" big />}
-          </>
+          <div className="tile-hw">{c.headword}</div>
         )}
       </div>
-      {gradable && (
-        <div className="tile-btn-zone">
-          <div className="tile-levels">
-            <button type="button" className="tile-level lvl-good" onClick={() => fire(flipped ? 'good' : 'easy')}>
-              Got it
-            </button>
-            <button type="button" className="tile-level lvl-hard" onClick={() => fire('hard')}>
-              Fuzzy
-            </button>
-            <button type="button" className="tile-level lvl-again" onClick={() => fire('again')}>
-              Studying
-            </button>
-          </div>
+      <div className="tile-btn-zone">
+        <div className="tile-levels">
+          <button type="button" className="tile-level lvl-good" onClick={() => fire(flipped ? 'good' : 'easy')}>
+            I know
+          </button>
+          <button type="button" className="tile-level lvl-hard" onClick={() => fire('hard')}>
+            Fuzzy
+          </button>
+          <button type="button" className="tile-level lvl-again" onClick={() => fire('again')}>
+            Studying
+          </button>
         </div>
-      )}
+      </div>
     </div>
   )
 }
 
-/** done カードの緑グロス用の大きめサイズ段階。枠も広い（.tile-gloss-box.big＝高さ46px）ので大きく出せる。 */
-const BIG_STEPS = [17, 16, 15, 14, 13, 12]
-
-/** 訳語（可変長）を固定の高さ枠に収める。長い訳語は自動でフォントを縮める。
- *  big=true は done カードの緑グロス用で、枠を広げてフォントも一段大きくする。 */
-function FitGloss({ text, className, big }: { text: string; className?: string; big?: boolean }) {
-  const { boxRef, fontSize } = useFitText(text, big ? BIG_STEPS : undefined)
+/** 訳語（可変長）を固定の高さ枠に収める。長い訳語は自動でフォントを縮める。 */
+function FitGloss({ text, className }: { text: string; className?: string }) {
+  const { boxRef, fontSize } = useFitText(text)
   return (
-    <div ref={boxRef} className={`tile-gloss-box${big ? ' big' : ''}`}>
+    <div ref={boxRef} className="tile-gloss-box">
       <div className={`tile-gloss${className ? ` ${className}` : ''}`} style={{ fontSize }}>
         {text}
       </div>

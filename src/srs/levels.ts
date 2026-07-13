@@ -2,7 +2,7 @@ import type { ReviewGrade } from './scheduler'
 
 /**
  * 表示用の3段階レベル（3つの採点ボタンに対応）。ヘッダーの内訳とカードの色・ラベルで共有する。
- * - known    : 「Got it」（good / easy をまとめる）＝緑
+ * - known    : 「I know」（good / easy をまとめる）＝緑
  * - fuzzy    : 「Fuzzy」（hard）＝オレンジ
  * - learning : 「Studying」（again）＝赤
  */
@@ -12,7 +12,7 @@ export const LEVEL_ORDER: GradeLevel[] = ['known', 'fuzzy', 'learning']
 
 /** ボタン名に揃えたラベル。 */
 export const LEVEL_LABEL: Record<GradeLevel, string> = {
-  known: 'Got it',
+  known: 'I know',
   fuzzy: 'Fuzzy',
   learning: 'Studying',
 }
