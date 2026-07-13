@@ -10,6 +10,9 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      // index.html への自動登録スクリプト注入をやめ、main.tsx で明示的に登録する
+      // （即時アップデートチェックのため。二重登録を避ける）。
+      injectRegister: false,
       // 開発時は SW を無効（スクショ・HMR を邪魔しない）。本番ビルドでのみ生成。
       devOptions: { enabled: false },
       manifest: {
