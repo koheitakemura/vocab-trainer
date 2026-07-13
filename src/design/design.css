@@ -1,0 +1,391 @@
+/* ===== デザイン選定ギャラリー ===== */
+.gallery {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.gallery-top h1 {
+  font-size: 22px;
+  margin: 0 0 6px;
+}
+
+.gallery-top p {
+  color: var(--text-dim);
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.gsection {
+  margin-top: 34px;
+}
+
+.glabel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.gnum {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, var(--accent), #3b6fd4);
+  color: #fff;
+  font-weight: 750;
+  font-size: 15px;
+}
+
+.gtitle {
+  font-size: 15px;
+  font-weight: 650;
+  color: var(--text);
+}
+
+.gframe {
+  height: 460px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--bg);
+  background-image: radial-gradient(900px 400px at 50% -20%, #16223d 0%, #0b1120 60%);
+  padding: 22px;
+  overflow: hidden;
+}
+
+/* status color tokens */
+.s-new {
+  --st: var(--text-faint);
+}
+.s-learning {
+  --st: #f5a623;
+}
+.s-known {
+  --st: var(--good);
+}
+
+/* shared mini buttons */
+.mini-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  margin-top: 8px;
+}
+.mini-btns .btn {
+  padding: 11px 14px;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+/* ---------- ① Study Grid ---------- */
+.v-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 12px;
+}
+
+.vg-tile {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.vg-tile::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: var(--st);
+}
+
+.vg-tile.flipped {
+  background: var(--surface-2);
+  border-color: rgba(110, 168, 254, 0.35);
+}
+
+.vg-dot {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--st);
+}
+
+.vg-word {
+  font-size: 30px;
+  font-weight: 600;
+}
+.vg-word.small {
+  font-size: 22px;
+}
+.vg-reading {
+  font-size: 12px;
+  color: var(--accent);
+}
+.vg-gloss {
+  font-size: 13px;
+  color: var(--text-dim);
+  text-align: center;
+}
+
+/* ---------- ② Queue + Focus ---------- */
+.v-qf {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 18px;
+}
+
+.qf-list {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.qf-list-head {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  padding: 8px 10px 6px;
+}
+
+.qf-row {
+  display: grid;
+  grid-template-columns: 26px auto 1fr;
+  grid-template-areas: 'num word reading' 'num word gloss';
+  align-items: center;
+  column-gap: 8px;
+  padding: 7px 10px;
+  border-radius: 9px;
+  border-left: 3px solid transparent;
+}
+
+.qf-row.active {
+  background: var(--surface-2);
+  border-left-color: var(--st);
+}
+
+.qf-num {
+  grid-area: num;
+  font-size: 11px;
+  color: var(--text-faint);
+}
+.qf-word {
+  grid-area: word;
+  font-size: 20px;
+  font-weight: 600;
+}
+.qf-reading {
+  grid-area: reading;
+  font-size: 11px;
+  color: var(--accent);
+  align-self: end;
+}
+.qf-gloss {
+  grid-area: gloss;
+  font-size: 12px;
+  color: var(--text-dim);
+  align-self: start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.qf-focus {
+  display: grid;
+  place-items: center;
+}
+
+.qf-card {
+  width: 100%;
+  max-width: 380px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.qf-tag {
+  font-size: 11px;
+  color: var(--text-faint);
+  letter-spacing: 0.06em;
+}
+.qf-hw {
+  font-size: 56px;
+  font-weight: 600;
+  padding: 6px 0;
+}
+.qf-r {
+  font-size: 15px;
+  color: var(--accent);
+}
+.qf-g {
+  font-size: 22px;
+  font-weight: 650;
+  margin-bottom: 10px;
+}
+
+/* ---------- ③ Deck Stack ---------- */
+.v-stack {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.ds-hero {
+  width: 100%;
+  max-width: 440px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.ds-hw {
+  font-size: 52px;
+  font-weight: 600;
+}
+.ds-r {
+  font-size: 14px;
+  color: var(--accent);
+}
+.ds-g {
+  font-size: 20px;
+  font-weight: 650;
+  margin-bottom: 8px;
+}
+
+.ds-uplabel {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  align-self: center;
+}
+
+.ds-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  width: 100%;
+}
+
+.ds-mini {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  opacity: 0.9;
+}
+
+.ds-mini-hw {
+  font-size: 26px;
+  font-weight: 600;
+}
+.ds-mini-r {
+  font-size: 11px;
+  color: var(--text-dim);
+}
+
+/* ---------- ④ Dense List ---------- */
+.v-dense {
+  height: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.dl-head,
+.dl-row {
+  display: grid;
+  grid-template-columns: 44px 100px 120px 1fr 96px;
+  align-items: center;
+  column-gap: 12px;
+  padding: 0 16px;
+}
+
+.dl-head {
+  height: 34px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  border-bottom: 1px solid var(--border);
+}
+
+.dl-row {
+  height: 30px;
+  border-bottom: 1px solid rgba(38, 50, 80, 0.5);
+}
+
+.dl-num {
+  color: var(--text-faint);
+  font-size: 12px;
+}
+.dl-word {
+  font-size: 18px;
+  font-weight: 600;
+}
+.dl-reading {
+  font-size: 13px;
+  color: var(--accent);
+}
+.dl-gloss {
+  font-size: 13px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dl-pill {
+  justify-self: start;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--st);
+  border: 1px solid color-mix(in srgb, var(--st) 40%, transparent);
+  background: color-mix(in srgb, var(--st) 12%, transparent);
+  border-radius: 999px;
+  padding: 2px 10px;
+  text-transform: capitalize;
+}

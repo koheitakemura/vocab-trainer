@@ -1,0 +1,109 @@
+/* ===== カラートーン比較ギャラリー ===== */
+.tone-gallery {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.tone-sec {
+  margin-top: 30px;
+}
+
+/* 各プレビューを囲むテーマスコープ（自分の CSS 変数で背景を塗る） */
+.theme-scope {
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  background-image: var(--bg-grad);
+  /* 継承 color をテーマ変数に更新（これが無いと light で文字が白いまま消える） */
+  color: var(--text);
+}
+
+.theme-scope .tp {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tp-board {
+  grid-auto-rows: 150px;
+}
+
+/* テーマ内でのみ効かせる微調整（ハードコード色を変数化） */
+.theme-scope .badge {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+/* ---------- ① 濃紺 × 青（現行） ---------- */
+.theme-navy {
+  --bg: #0b1120;
+  --bg-grad: radial-gradient(700px 300px at 50% -20%, #17233f 0%, #0b1120 60%);
+  --surface: #131c30;
+  --surface-2: #1b2740;
+  --border: #263250;
+  --text: #e8edf7;
+  --text-dim: #9aa7c2;
+  --text-faint: #64708c;
+  --accent: #6ea8fe;
+  --good: #34d399;
+  --good-strong: #059669;
+  --again: #fb7185;
+  --again-strong: #e11d48;
+  --shadow: 0 16px 40px -20px rgba(0, 0, 0, 0.7);
+}
+
+/* ---------- ② ダーク × ティール/緑 ---------- */
+.theme-teal {
+  --bg: #071512;
+  --bg-grad: radial-gradient(700px 300px at 50% -20%, #103a31 0%, #071512 60%);
+  --surface: #0e1f1a;
+  --surface-2: #15302a;
+  --border: #24493f;
+  --text: #e7f3ef;
+  --text-dim: #93b6ab;
+  --text-faint: #5c7d73;
+  --accent: #2dd4bf;
+  --good: #4ade80;
+  --good-strong: #16a34a;
+  --again: #fb7185;
+  --again-strong: #e11d48;
+  --shadow: 0 16px 40px -20px rgba(0, 0, 0, 0.65);
+}
+
+/* ---------- ③ ライトモード（白基調） ---------- */
+.theme-light {
+  --bg: #f5f7fb;
+  --bg-grad: radial-gradient(700px 300px at 50% -20%, #ffffff 0%, #eef2f9 65%);
+  --surface: #ffffff;
+  --surface-2: #eef2f8;
+  --border: #d8dfea;
+  --text: #182038;
+  --text-dim: #55617a;
+  --text-faint: #8b97ad;
+  --accent: #2563eb;
+  --good: #059669;
+  --good-strong: #047857;
+  --again: #e11d48;
+  --again-strong: #be123c;
+  --shadow: 0 12px 30px -18px rgba(20, 30, 60, 0.3);
+}
+
+/* ---------- ④ ダーク × 暖色（オレンジ） ---------- */
+.theme-warm {
+  --bg: #16110c;
+  --bg-grad: radial-gradient(700px 300px at 50% -20%, #3a2a16 0%, #16110c 60%);
+  --surface: #211a11;
+  --surface-2: #2c2317;
+  --border: #3e3122;
+  --text: #f4ede1;
+  --text-dim: #c6b69d;
+  --text-faint: #8b7b63;
+  --accent: #fb923c;
+  --good: #34d399;
+  --good-strong: #059669;
+  --again: #f43f5e;
+  --again-strong: #be123c;
+  --shadow: 0 16px 40px -20px rgba(0, 0, 0, 0.6);
+}
