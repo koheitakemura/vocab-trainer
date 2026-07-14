@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import { db } from '../../store/db'
-import { getOrCreateProgress, recordReview } from '../../store/progress'
+import { recordReview, resetCourseProgress } from '../../store/progress'
+import { isPromotionToKnown } from '../../srs/levels'
 import type { ReviewGrade } from '../../srs/scheduler'
 
 /** レール型は1セッションの新規語を絞る（完走率のため。PLAN §4.1） */
@@ -20,6 +21,10 @@ export interface BoardTile {
  * due の学習中 + 新規 N 語を「ボード」として一括表示する。
  * どのタイルをめくる/採点するかは各タイル側（ホバー・クリック）が自律的に決め、
  * ボード側は「自動で次のカードへ進める」ような遷移は行わない（Kohei の要望どおり）。
+ *
+ * セッション構築はコースの progress 行だけをインデックススキャンする（v2: 「行が無い ＝ 未着手」）。
+ * コストは学習済み語数に比例＝語彙が3万語に増えても未学習分は一切読まない。
+ * （旧実装の「開くたびに全語彙分 getOrCreateProgress」が最重量の起動待ちだった）
  */
 export function useStudyBoard(cards: VocabCard[]) {
   const [tiles, setTiles] = useState<BoardTile[]>([])
@@ -28,22 +33,25 @@ export function useStudyBoard(cards: VocabCard[]) {
   const [reviewed, setReviewed] = useState(0)
   const [again, setAgain] = useState(0)
   const [nonce, setNonce] = useState(0)
+  // pendingQueue の同期ミラー。grade() は await を挟むため、state のクロージャだけに頼ると
+  // 連打（再レンダー前の2打目）で1打目のキュー除去が巻き戻る＝セッションが完了不能になる。
+  const queueRef = useRef<string[]>([])
+
+  const byId = useMemo(() => new Map(cards.map((c) => [c.id, c])), [cards])
 
   useEffect(() => {
     let active = true
     void (async () => {
       setLoading(true)
-      await Promise.all(cards.map((c) => getOrCreateProgress(c)))
-      const rows = await db.progress.bulkGet(cards.map((c) => c.id))
-      const byId = new Map(cards.map((c) => [c.id, c]))
+      const courseId = cards[0]?.courseId
+      const rows = courseId ? await db.progress.where('courseId').equals(courseId).toArray() : []
+      const progressById = new Map(rows.map((r) => [r.cardId, r]))
       const now = Date.now()
       const sessionTiles: BoardTile[] = []
       let newCount = 0
-      for (const r of rows) {
-        if (!r) continue
-        const card = byId.get(r.cardId)
-        if (!card) continue
-        if (r.status === 'new') {
+      for (const card of cards) {
+        const r = progressById.get(card.id)
+        if (!r || r.status === 'new') {
           // 本当の未習語だけ "New" 表示（grade 未設定）＝初採点でスパークルが発火する。
           if (newCount < NEW_PER_SESSION) {
             sessionTiles.push({ card, state: 'pending' })
@@ -57,7 +65,8 @@ export function useStudyBoard(cards: VocabCard[]) {
       }
       if (!active) return
       setTiles(sessionTiles)
-      setPendingQueue(sessionTiles.map((t) => t.card.id))
+      queueRef.current = sessionTiles.map((t) => t.card.id)
+      setPendingQueue(queueRef.current)
       setReviewed(0)
       setAgain(0)
       setLoading(false)
@@ -69,38 +78,47 @@ export function useStudyBoard(cards: VocabCard[]) {
 
   /**
    * id を明示指定して採点する。どのカードも採点後にボタンが残り、いつでも採点しなおせる。
-   * 色・マークは初回でも再採点でも毎回更新する。完了判定用の pendingQueue は「まだ一度も
+   * 色・マークは初回でも再採点でも毎回更新する。完了判定用のキューは「まだ一度も
    * 採点していないカード」の集合として扱い、初回採点のときだけ更新する（再採点は不変）。
+   * キュー・タイルの更新は recordReview の await より先に同期で行う（連打対策）。
    * 戻り値はきらきら演出を出すか＝(a) 未習語を始めた or (b) Fuzzy/Studying を I know に上げた前進のとき。
    */
   const grade = useCallback(
     async (id: string, g: ReviewGrade): Promise<boolean> => {
-      const { wasNew, prevGrade } = await recordReview(id, g)
-      setReviewed((n) => n + 1)
+      const card = byId.get(id)
+      if (!card) return false
 
       // マーク/色（grade）と状態は初回でも再採点でも更新。ボタンは常に残る。
       setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: g === 'again' ? 'again' : 'done', grade: g } : t)))
+      setReviewed((n) => n + 1)
 
-      // キューはこのセッションでまだ一度も採点していないカードだけを保持する。
-      const firstThisSession = pendingQueue.includes(id)
+      const firstThisSession = queueRef.current.includes(id)
       if (firstThisSession) {
-        const rest = pendingQueue.filter((x) => x !== id)
-        setPendingQueue(g === 'again' ? [...rest, id] : rest) // again は末尾へ戻して復習継続
+        const rest = queueRef.current.filter((x) => x !== id)
+        queueRef.current = g === 'again' ? [...rest, id] : rest // again は末尾へ戻して復習継続
+        setPendingQueue(queueRef.current)
         if (g === 'again') setAgain((n) => n + 1)
       }
 
-      // きらきら演出：未習語を始めた or 既習でも Fuzzy(hard)/Studying(again) を I know(good/easy) に上げた前進。
-      const promotedToKnown = (prevGrade === 'hard' || prevGrade === 'again') && (g === 'good' || g === 'easy')
-      return wasNew || promotedToKnown
+      const { wasNew, prevGrade } = await recordReview(card, g)
+      // きらきら演出：未習語を始めた or 既習でも Fuzzy/Studying を I know に上げた前進。
+      return wasNew || isPromotionToKnown(prevGrade, g)
     },
-    [pendingQueue],
+    [byId],
   )
 
   const restart = useCallback(() => setNonce((n) => n + 1), [])
+
+  /** デモ用：このコースの進捗を実際に消してから新しいセッションを組み直す */
+  const reset = useCallback(async () => {
+    const courseId = cards[0]?.courseId
+    if (courseId) await resetCourseProgress(courseId)
+    setNonce((n) => n + 1)
+  }, [cards])
 
   const finished = !loading && tiles.length > 0 && pendingQueue.length === 0
   const empty = !loading && tiles.length === 0
   const remaining = pendingQueue.length
 
-  return { loading, tiles, grade, restart, reviewed, again, finished, empty, remaining }
+  return { loading, tiles, grade, restart, reset, reviewed, again, finished, empty, remaining }
 }

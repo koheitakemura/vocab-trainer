@@ -1,10 +1,10 @@
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import type { Course, VocabCard } from '../types'
 import type { ReviewGrade } from '../srs/scheduler'
-import { db } from '../store/db'
-import { exportProgress, importProgress } from '../store/progress'
+import { db, emptyByGrade } from '../store/db'
+import { ensureSummary, exportProgress, importProgress } from '../store/progress'
 import { StudyGrid } from './study/StudyGrid'
 import { AllWords } from './browse/AllWords'
 import { ThemeToggle } from '../theme/ThemeToggle'
@@ -14,7 +14,7 @@ import { MeterBreakdown } from './MeterBreakdown'
 
 type Tab = 'study' | 'all'
 
-const EMPTY_BY_GRADE: Record<ReviewGrade, number> = { good: 0, easy: 0, hard: 0, again: 0 }
+const EMPTY_BY_GRADE: Record<ReviewGrade, number> = emptyByGrade()
 
 export function CourseScreen({ course, cards }: { course: Course; cards: VocabCard[] }) {
   const [tab, setTab] = useState<Tab>('study')
@@ -24,20 +24,22 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
   const [popNonce, setPopNonce] = useState(0)
   const nextBurstId = useRef(0)
 
+  // メーターはコース別サマリ1行だけを読む（recordReview が増分更新）。
+  // 旧実装は採点のたびに courseId の全 progress 行をスキャンしており、3万語スケールで破綻する構造だった。
+  // サマリ行はストア層の不変条件として常に存在する（移行/復元/リセットが必ず書く）。
+  // 無い場合はゼロ表示のまま ensureSummary（下の effect）が自己修復し、put で liveQuery が再発火する
+  // ——liveQuery 内で progress 全行を読むフォールバックは置かない（全テーブル購読が残り続けるため）。
   const started = useLiveQuery(
     async () => {
-      const rows = await db.progress
-        .where('courseId')
-        .equals(course.id)
-        .and((p) => p.status !== 'new')
-        .toArray()
-      const byGrade: Record<ReviewGrade, number> = { ...EMPTY_BY_GRADE }
-      for (const r of rows) if (r.lastGrade) byGrade[r.lastGrade]++
-      return { introduced: rows.length, byGrade }
+      const s = await db.summary.get(course.id)
+      return s ? { introduced: s.introduced, byGrade: s.byGrade } : { introduced: 0, byGrade: emptyByGrade() }
     },
     [course.id],
     { introduced: 0, byGrade: EMPTY_BY_GRADE },
   )
+  useEffect(() => {
+    void ensureSummary(course.id)
+  }, [course.id])
   const introduced = started.introduced
   const total = cards.length
   const pct = total > 0 ? Math.round((introduced / total) * 100) : 0
@@ -72,7 +74,8 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
     if (!file) return
     const n = await importProgress(await file.text())
     e.target.value = ''
-    window.alert(`Restored ${n} card(s).`)
+    // 復元は全置換。学習済み行だけを数える（v1 バックアップの未着手行はカウントしない）
+    window.alert(`Restore complete — ${n} studied card(s).`)
   }
 
   return (

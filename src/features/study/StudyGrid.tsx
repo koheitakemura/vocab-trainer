@@ -23,7 +23,7 @@ export function StudyGrid({
         <div className="done-emoji">✓</div>
         <h2>All caught up</h2>
         <p>Nothing is due right now.</p>
-        <button className="btn ghost" onClick={b.restart}>
+        <button className="btn ghost" onClick={b.reset}>
           Reset progress (demo)
         </button>
       </div>
@@ -63,6 +63,10 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
   const romaji = getRomaji(c.reading)
   // どのカードも採点後もボタンを残し、いつでも採点しなおせる（3ボタン共通の挙動）。
   // 意味（訳語）は常時表示せず、本体にホバー/タップしてめくったときだけ見せる。
+  // ホバーめくりは「マウスのポインターイベント」だけに反応させる：タッチはタップ時に
+  // mouseenter をエミュレートするくせに mouseleave を出さないため、デバイス単位の判定では
+  // ハイブリッド端末（タッチ付きラップトップ等）で「めくれたまま戻せない」が残る。
+  // pointerType でイベント単位に見分ければ全端末で正しく、タッチはタップのトグルだけになる。
   const [flippedByHover, setFlippedByHover] = useState(false)
   const [pinned, setPinned] = useState(false)
   const flipped = pinned || flippedByHover
@@ -88,7 +92,9 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
       </span>
       <div
         className="tile-content"
-        onMouseEnter={() => setFlippedByHover(true)}
+        onPointerEnter={(e) => {
+          if (e.pointerType === 'mouse') setFlippedByHover(true)
+        }}
         onClick={() => setPinned((p) => !p)}
         role="button"
         aria-label={c.headword}
