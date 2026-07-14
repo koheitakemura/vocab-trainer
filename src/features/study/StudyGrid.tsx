@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel, LEVEL_LABEL } from '../../srs/levels'
@@ -14,6 +14,7 @@ export function StudyGrid({
   onReviewed,
   onProgressReset,
   onBackup,
+  onExposeRestart,
 }: {
   cards: VocabCard[]
   /** スパークル演出の発火（初採点・昇格・卒業）。カードの座標と金色フラグを渡すだけで、ヘッダーの存在は知らない。 */
@@ -24,10 +25,18 @@ export function StudyGrid({
   onProgressReset?: () => void
   /** 週次ふりかえりカードのバックアップボタン */
   onBackup?: () => void
+  /** restart（Start another session）をタブ行のボタンから呼べるよう親へ渡す。アンマウントで null。 */
+  onExposeRestart?: (fn: (() => void) | null) => void
 }) {
   const b = useStudyBoard(cards)
   const [sheetId, setSheetId] = useState<string | null>(null)
   const courseId = cards[0]?.courseId
+
+  // タブ行の「Start another session」から restart を呼べるように登録する。
+  useEffect(() => {
+    onExposeRestart?.(b.restart)
+    return () => onExposeRestart?.(null)
+  }, [b.restart, onExposeRestart])
 
   const handleGrade = async (id: string, g: ReviewGrade, rect: DOMRect) => {
     const res = await b.grade(id, g)
@@ -88,9 +97,6 @@ export function StudyGrid({
 
   return (
     <>
-      {/* いつでも別のカードに入れ替えられる常設ボタン（採点し終える前でも押せる）。
-          スクロールせず届くよう盤面の上にも置く（下にも同じものを残す）。 */}
-      <div className="board-actions top">{refreshButton}</div>
       <div className="board">
         {b.tiles.map((t) => (
           <Tile

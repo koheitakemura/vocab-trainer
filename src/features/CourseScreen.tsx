@@ -30,6 +30,12 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
   const [popNonce, setPopNonce] = useState(0)
   const nextBurstId = useRef(0)
   const [overlayMilestone, setOverlayMilestone] = useState<number | null>(null)
+  // StudyGrid（＝useStudyBoard）内の restart をタブ行のボタンから呼べるように受け取る。
+  // StudyGrid がマウント中だけ埋まり、アンマウント（別タブ）で null に戻る。
+  const studyRestartRef = useRef<(() => void) | null>(null)
+  const exposeStudyRestart = useCallback((fn: (() => void) | null) => {
+    studyRestartRef.current = fn
+  }, [])
 
   // メーターはコース別サマリ1行だけを読む（recordReview が増分更新）。
   // 旧実装は採点のたびに courseId の全 progress 行をスキャンしており、3万語スケールで破綻する構造だった。
@@ -243,6 +249,17 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
         <button className={`tab${tab === 'stats' ? ' on' : ''}`} onClick={() => setTab('stats')}>
           Stats
         </button>
+        {tab === 'study' && (
+          <button
+            type="button"
+            className="tab-refresh"
+            onClick={() => studyRestartRef.current?.()}
+            aria-label="Start another session"
+            title="Start another session"
+          >
+            ↻ <span className="tab-refresh-label">Start another session</span>
+          </button>
+        )}
       </nav>
 
       <main className="course-main">
@@ -253,6 +270,7 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
             onReviewed={handleReviewed}
             onProgressReset={handleProgressReset}
             onBackup={onExport}
+            onExposeRestart={exposeStudyRestart}
           />
         ) : tab === 'all' ? (
           <AllWords cards={cards} />
