@@ -66,7 +66,6 @@ export function useStudyBoard(cards: VocabCard[]) {
       const rows = courseId ? await db.progress.where('courseId').equals(courseId).toArray() : []
       const progressById = new Map(rows.map((r) => [r.cardId, r]))
       const now = Date.now()
-      // 復習（既習・due）は常に全部入れる（期限が来ている＝時間に敏感）。窓の対象は未習語だけ。
       const reviewTiles: BoardTile[] = []
       const newCandidates: VocabCard[] = []
       for (const card of cards) {
@@ -84,8 +83,12 @@ export function useStudyBoard(cards: VocabCard[]) {
         // 未習語だけ "New" 表示（grade 未設定）＝初採点でスパークルが発火する。
         newTiles.push({ card: newCandidates[(start + i) % total], state: 'pending' })
       }
-      // 復習を先に、続けて未習語（頻度順で既習=低ランクが先に来ていた従来の並びに合わせる）。
-      const sessionTiles = [...reviewTiles, ...newTiles]
+      // 復習（期限到来）はアプリを開いた最初の盤面（offset 0）だけに載せる。
+      // 「Start another session」を押した後（offset > 0）は復習を持ち越さず、
+      // 未習語だけの完全に新しい16枚に入れ替える（Kohei 指定＝全カードが変わる）。
+      // ただし未習語が尽きたコースでは復習が唯一の学習対象なので常に載せる。
+      const includeReviews = newOffsetRef.current === 0 || newCandidates.length === 0
+      const sessionTiles = includeReviews ? [...reviewTiles, ...newTiles] : newTiles
       if (!active) return
       setTiles(sessionTiles)
       queueRef.current = sessionTiles.map((t) => t.card.id)
