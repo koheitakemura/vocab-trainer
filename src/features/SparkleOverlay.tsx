@@ -4,11 +4,14 @@ export interface BurstSpec {
   id: number
   sourceRect: DOMRect
   targetRect: DOMRect
+  /** 金色バリアント（卒業＝Mastered・マイルストーン到達の特別演出） */
+  gold?: boolean
 }
 
 const STAR_COUNT = 18
 const GLYPHS = ['✦', '✧', '✦', '✧', '⋆', '✦']
 const COLORS = ['var(--accent)', 'var(--good)', 'var(--easy)', '#ffffff']
+const COLORS_GOLD = ['#fbbf24', '#fde68a', '#f59e0b', '#ffffff']
 /** 粒の基本飛翔時間（ms）。バーストの片付け・数字ポンのタイミングもここから導く。 */
 const FLIGHT_MS = 720
 
@@ -50,6 +53,7 @@ function SparkleBurst({
   const dx = burst.targetRect.left + burst.targetRect.width / 2 - sx
   const dy = burst.targetRect.top + burst.targetRect.height / 2 - sy
 
+  const palette = burst.gold ? COLORS_GOLD : COLORS
   const stars = useMemo(
     () =>
       Array.from({ length: STAR_COUNT }, () => {
@@ -66,9 +70,10 @@ function SparkleBurst({
           dur: FLIGHT_MS + Math.random() * 90,
           size: 9 + Math.random() * 10,
           glyph: GLYPHS[Math.floor(Math.random() * GLYPHS.length)],
-          color: COLORS[Math.floor(Math.random() * COLORS.length)],
+          color: palette[Math.floor(Math.random() * palette.length)],
         }
       }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
   )
 

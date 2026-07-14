@@ -84,10 +84,12 @@ export interface WordProgress {
  */
 export interface CourseSummary {
   courseId: CourseId
-  /** 一度でも採点した語数（words started） */
+  /** 一度でも採点した語数（words started。卒業済みも含む） */
   introduced: number
-  /** 直近の採点（lastGrade）ごとの語数内訳 */
+  /** 直近の採点（lastGrade）ごとの語数内訳（卒業済みは含まない） */
   byGrade: Record<ReviewGrade, number>
+  /** 卒業（Mastered/Burned）した語数。stability が閾値を超えてキューから恒久除外された語 */
+  burned: number
 }
 
 /**

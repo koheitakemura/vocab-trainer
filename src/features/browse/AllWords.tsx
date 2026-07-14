@@ -4,10 +4,11 @@ import type { VocabCard, WordStatus } from '../../types'
 import { db } from '../../store/db'
 import { getRomaji } from '../../text/romaji'
 
-type StatusGroup = 'new' | 'learning' | 'known'
+type StatusGroup = 'new' | 'learning' | 'known' | 'mastered'
 
 function statusGroup(s: WordStatus): StatusGroup {
-  if (s === 'known' || s === 'burned') return 'known'
+  if (s === 'burned') return 'mastered' // 卒業（金）＝レビューキューから恒久除外
+  if (s === 'known') return 'known'
   if (s === 'new') return 'new'
   return 'learning'
 }

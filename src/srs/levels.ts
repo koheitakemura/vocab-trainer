@@ -31,3 +31,13 @@ export function gradeLevel(g: ReviewGrade): GradeLevel {
 export function isPromotionToKnown(prev: ReviewGrade | undefined, next: ReviewGrade): boolean {
   return prev !== undefined && gradeLevel(prev) !== 'known' && gradeLevel(next) === 'known'
 }
+
+/**
+ * この progress 行を「I know（知っている語）」として数えるか。
+ * ヘッダーの内訳（byGrade の good+easy ＋ burned）と JLPT リング・バッジが同じ定義を共有する
+ * ＝ラチェット式バッジ（一度獲得したら消えない）が別定義で誤発行されるのを防ぐ。
+ */
+export function isKnownRow(row: { status: string; lastGrade?: ReviewGrade }): boolean {
+  if (row.status === 'burned') return true
+  return row.lastGrade !== undefined && gradeLevel(row.lastGrade) === 'known'
+}

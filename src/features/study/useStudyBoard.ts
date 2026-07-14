@@ -16,6 +16,16 @@ export interface BoardTile {
   grade?: ReviewGrade
 }
 
+/** grade() の結果（演出とヘッダーのメーター追従の判定材料） */
+export interface GradeOutcome {
+  /** きらきら演出を出すか（初採点 or Fuzzy/Studying → I know の前進 or 卒業） */
+  sparkle: boolean
+  /** 金色スパークル（卒業＝Mastered 到達） */
+  gold: boolean
+  /** 推定語彙数（retrievability 合計）の増分 */
+  deltaR: number
+}
+
 /**
  * Study Grid（案①）用のセッション。
  * due の学習中 + 新規 N 語を「ボード」として一括表示する。
@@ -81,12 +91,11 @@ export function useStudyBoard(cards: VocabCard[]) {
    * 色・マークは初回でも再採点でも毎回更新する。完了判定用のキューは「まだ一度も
    * 採点していないカード」の集合として扱い、初回採点のときだけ更新する（再採点は不変）。
    * キュー・タイルの更新は recordReview の await より先に同期で行う（連打対策）。
-   * 戻り値はきらきら演出を出すか＝(a) 未習語を始めた or (b) Fuzzy/Studying を I know に上げた前進のとき。
    */
   const grade = useCallback(
-    async (id: string, g: ReviewGrade): Promise<boolean> => {
+    async (id: string, g: ReviewGrade): Promise<GradeOutcome> => {
       const card = byId.get(id)
-      if (!card) return false
+      if (!card) return { sparkle: false, gold: false, deltaR: 0 }
 
       // マーク/色（grade）と状態は初回でも再採点でも更新。ボタンは常に残る。
       setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: g === 'again' ? 'again' : 'done', grade: g } : t)))
@@ -100,9 +109,9 @@ export function useStudyBoard(cards: VocabCard[]) {
         if (g === 'again') setAgain((n) => n + 1)
       }
 
-      const { wasNew, prevGrade } = await recordReview(card, g)
-      // きらきら演出：未習語を始めた or 既習でも Fuzzy/Studying を I know に上げた前進。
-      return wasNew || isPromotionToKnown(prevGrade, g)
+      const { wasNew, prevGrade, burnedNow, deltaR } = await recordReview(card, g)
+      // きらきら演出：未習語を始めた／Fuzzy・Studying → I know の前進／卒業（金色）。
+      return { sparkle: wasNew || isPromotionToKnown(prevGrade, g) || burnedNow, gold: burnedNow, deltaR }
     },
     [byId],
   )
@@ -120,5 +129,5 @@ export function useStudyBoard(cards: VocabCard[]) {
   const empty = !loading && tiles.length === 0
   const remaining = pendingQueue.length
 
-  return { loading, tiles, grade, restart, reset, reviewed, again, finished, empty, remaining }
+  return { loading, tiles, queue: pendingQueue, grade, restart, reset, reviewed, again, finished, empty, remaining }
 }

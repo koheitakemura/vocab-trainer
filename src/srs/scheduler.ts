@@ -41,5 +41,19 @@ export function isDue(card: Card, now: Date = new Date()): boolean {
   return card.due.getTime() <= now.getTime()
 }
 
+/**
+ * いま思い出せる確率（retrievability 0..1）。未学習カードは 0。
+ * 推定語彙数メーター＝「全カードの retrievability 合計」＝押しただけで増える水増しでない、
+ * FSRS の記憶モデルに基づく「本当に頭に入っている語数」の期待値。
+ */
+export function retrievabilityOf(card: Card, now: Date = new Date()): number {
+  if (card.state === State.New) return 0
+  const r = scheduler.get_retrievability(card, now, false)
+  return Number.isFinite(r) ? r : 0
+}
+
+/** これを超えた known カードは「卒業（Mastered）」＝レビューキューから恒久除外（PLAN §3.3 Burned） */
+export const BURN_STABILITY_DAYS = 120
+
 export { State }
 export type { Card }
