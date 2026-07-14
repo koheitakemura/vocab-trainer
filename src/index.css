@@ -836,17 +836,29 @@ body {
   }
 }
 
-/* 盤面下の常設アクション（いつでも別のカードへ入れ替え） */
+/* 盤面上下の常設アクション（いつでも別のカードへ入れ替え） */
 .board-actions {
   display: flex;
   justify-content: center;
   margin-top: 18px;
 }
 
+/* 上部版：タブ直下に右寄せで控えめに置き、盤面を大きく押し下げない */
+.board-actions.top {
+  justify-content: flex-end;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
 .board-refresh {
   font-size: 13px;
   padding: 10px 18px;
   color: var(--text-dim);
+}
+
+.board-actions.top .board-refresh {
+  padding: 7px 14px;
+  font-size: 12px;
 }
 
 .tile {

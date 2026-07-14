@@ -80,8 +80,17 @@ export function StudyGrid({
     return candidate !== sheetId ? candidate : null
   })()
 
+  const refreshButton = (
+    <button type="button" className="btn ghost board-refresh" onClick={b.restart}>
+      ↻ Start another session
+    </button>
+  )
+
   return (
     <>
+      {/* いつでも別のカードに入れ替えられる常設ボタン（採点し終える前でも押せる）。
+          スクロールせず届くよう盤面の上にも置く（下にも同じものを残す）。 */}
+      <div className="board-actions top">{refreshButton}</div>
       <div className="board">
         {b.tiles.map((t) => (
           <Tile
@@ -92,12 +101,7 @@ export function StudyGrid({
           />
         ))}
       </div>
-      {/* いつでも別のカードに入れ替えられる常設ボタン（採点し終える前でも押せる） */}
-      <div className="board-actions">
-        <button type="button" className="btn ghost board-refresh" onClick={b.restart}>
-          ↻ Start another session
-        </button>
-      </div>
+      <div className="board-actions">{refreshButton}</div>
       {sheetTile && (
         <FocusSheet
           key={sheetTile.card.id}
