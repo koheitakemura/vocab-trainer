@@ -23,3 +23,11 @@ export function gradeLevel(g: ReviewGrade): GradeLevel {
   if (g === 'hard') return 'fuzzy'
   return 'known' // good / easy
 }
+
+/**
+ * Fuzzy/Studying から I know への「前進」か。
+ * スパークル演出（useStudyBoard）と日次ログの promotions（recordReview）が同じ定義を共有する。
+ */
+export function isPromotionToKnown(prev: ReviewGrade | undefined, next: ReviewGrade): boolean {
+  return prev !== undefined && gradeLevel(prev) !== 'known' && gradeLevel(next) === 'known'
+}

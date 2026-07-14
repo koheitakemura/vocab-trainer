@@ -62,6 +62,7 @@ export type WordStatus =
 /**
  * 進捗レコード（IndexedDB にローカル保存＝端末内）。
  * サーバー同期はせず、手動 JSON エクスポート/インポートでバックアップ・端末移行する。
+ * v2 以降、未着手（status 'new'）の語は行を持たない＝「行が無い ＝ new」。
  */
 export interface WordProgress {
   cardId: string
@@ -74,4 +75,46 @@ export interface WordProgress {
   lastReviewedAt?: string
   /** 直近の採点（内訳表示用）。この機能追加前の行には無い（次回レビューで自然に付く） */
   lastGrade?: ReviewGrade
+}
+
+/**
+ * コース別の増分集計（1コース1行）。ヘッダーのメーターが読む。
+ * recordReview が採点と同一トランザクションで更新する＝progress 全行スキャンを毎採点で
+ * 走らせない（3万語スケールでも採点コストが一定）。progress から常に再導出できる派生データ。
+ */
+export interface CourseSummary {
+  courseId: CourseId
+  /** 一度でも採点した語数（words started） */
+  introduced: number
+  /** 直近の採点（lastGrade）ごとの語数内訳 */
+  byGrade: Record<ReviewGrade, number>
+}
+
+/**
+ * 日次の学習ログ（1コース×1日＝1行の追記型）。
+ * 将来のデイリーゴール・ストリーク・成長曲線・週次ふりかえりの共通基盤。
+ * 記録開始の遅れは曲線の欠損として永久に残るため、書き込み層だけ先行搭載している。
+ */
+export interface DailyStat {
+  courseId: CourseId
+  /** ローカル日付 YYYY-MM-DD */
+  date: string
+  /** この日の採点回数（再採点含む） */
+  reviews: number
+  /** この日に初採点した語数 */
+  newStarted: number
+  /** Fuzzy/Studying → I know へ上げた前進の回数 */
+  promotions: number
+  /** 期限が来ていた復習カードをこの日はじめて採点した回数（実測定着率の分母） */
+  dueReviews: number
+  /** ↑のうち Studying（again）だった回数（実測定着率の失敗数） */
+  dueAgain: number
+  /** この日の終了時点の I know 語数スナップショット（成長曲線用） */
+  knownTotal: number
+}
+
+/** 端末ローカルの小さな設定・状態の置き場（key-value。将来のゴール設定・ストリーク等用） */
+export interface MetaRow {
+  key: string
+  value: unknown
 }

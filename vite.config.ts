@@ -22,6 +22,11 @@ export default defineConfig({
       workbox: {
         skipWaiting: true,
         clientsClaim: true,
+        // 既定は js/css/html のみ＝語彙データ（data/courses/**.json）が precache されず
+        // オフラインで起動できなかった。JSON とアイコンも含めて完全オフライン化する
+        // （現状 計約1.3MB・帯ファイルは各400KB程度で workbox の2MB/ファイル上限にも余裕）。
+        // 複数コース時代に「使わないコースまで配る」問題が出たら runtimeCaching へ移行する。
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
       },
       manifest: {
         name: 'Vocab Trainer',
@@ -31,7 +36,12 @@ export default defineConfig({
         background_color: '#0f172a',
         display: 'standalone',
         start_url: './',
-        icons: [],
+        // icons が空だとインストール条件を満たさず「ホーム画面に追加」プロンプトが出ない。
+        icons: [
+          { src: 'pwa-192.png', sizes: '192x192', type: 'image/png' },
+          { src: 'pwa-512.png', sizes: '512x512', type: 'image/png' },
+          { src: 'pwa-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+        ],
       },
     }),
   ],

@@ -73,6 +73,15 @@ body {
   color: var(--text-dim);
 }
 
+/* 起動失敗（オフライン等）のメッセージ＋Retry を1ブロックで中央に置く */
+.boot-msg {
+  display: grid;
+  gap: 14px;
+  justify-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
 /* ---------- layout ---------- */
 .screen {
   height: 100%;
@@ -793,6 +802,8 @@ body {
   gap: 5px;
   padding: 14px 12px 6px;
   cursor: pointer;
+  /* めくりタップの応答を速く（ダブルタップズームを無効化） */
+  touch-action: manipulation;
 }
 
 .tile-content:active {
@@ -1003,25 +1014,66 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  /* ダブルタップズーム・300ms 遅延を無効化（タッチでの連続採点を軽快に） */
+  touch-action: manipulation;
   transition: color 0.14s ease, border-color 0.14s ease, background 0.14s ease;
 }
 
-.tile-level.lvl-again:hover {
+/* ホバー色は「ホバーが本当に存在する環境」に限定する。タッチはタップ後もエミュレートされた
+   :hover が次のタップまで残留するため、無条件だと押したボタンが選択状態のように固着して見える
+   （＝押し直し＝誤採点を誘発する）。タッチの押下フィードバックは下の :active が担う。 */
+@media (hover: hover) {
+  .tile-level.lvl-again:hover {
+    color: var(--again);
+    border-color: color-mix(in srgb, var(--again) 45%, var(--border));
+    background: color-mix(in srgb, var(--again) 10%, var(--surface));
+  }
+
+  .tile-level.lvl-hard:hover {
+    color: #f5a623;
+    border-color: color-mix(in srgb, #f5a623 45%, var(--border));
+    background: color-mix(in srgb, #f5a623 10%, var(--surface));
+  }
+
+  .tile-level.lvl-good:hover {
+    color: var(--good);
+    border-color: color-mix(in srgb, var(--good) 45%, var(--border));
+    background: color-mix(in srgb, var(--good) 10%, var(--surface));
+  }
+}
+
+/* :active＝押している瞬間のフィードバック（全環境。タッチでも押した色が出る） */
+.tile-level.lvl-again:active {
   color: var(--again);
   border-color: color-mix(in srgb, var(--again) 45%, var(--border));
   background: color-mix(in srgb, var(--again) 10%, var(--surface));
 }
 
-.tile-level.lvl-hard:hover {
+.tile-level.lvl-hard:active {
   color: #f5a623;
   border-color: color-mix(in srgb, #f5a623 45%, var(--border));
   background: color-mix(in srgb, #f5a623 10%, var(--surface));
 }
 
-.tile-level.lvl-good:hover {
+.tile-level.lvl-good:active {
   color: var(--good);
   border-color: color-mix(in srgb, var(--good) 45%, var(--border));
   background: color-mix(in srgb, var(--good) 10%, var(--surface));
+}
+
+/* タッチ端末・狭い画面では採点ボタンをタッチ目標サイズ（44px 以上）へ広げる。
+   現行の約28pxは HIG/Material の推奨（44-48px）を大きく下回り、誤タップ＝誤採点
+   （SRS の入力データ汚染）が構造的に起こるため。タイルは固定高さ方式（158px）なので、
+   ボタンが太る分だけ全体を伸ばして本体（めくり領域）の高さを保つ。 */
+@media (pointer: coarse), (max-width: 620px) {
+  .tile {
+    height: 176px;
+  }
+  .tile-level {
+    min-height: 44px;
+    font-size: 12px;
+    padding: 8px 4px;
+  }
 }
 
 /* ---------- All words (variant ④) ---------- */

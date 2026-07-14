@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#0b1120" />
+    <!-- iOS はマニフェストの icons を見ないため、ホーム画面追加用に明示指定 -->
+    <link rel="apple-touch-icon" href="./pwa-192.png" />
+    <link rel="icon" type="image/png" href="./pwa-192.png" />
     <title>Vocab Trainer</title>
     <script>
       // テーマを描画前に確定（ちらつき防止）: 保存値 → 無ければシステム設定
