@@ -836,18 +836,11 @@ body {
   }
 }
 
-/* 盤面上下の常設アクション（いつでも別のカードへ入れ替え） */
+/* 盤面下の常設アクション（いつでも別のカードへ入れ替え） */
 .board-actions {
   display: flex;
   justify-content: center;
   margin-top: 18px;
-}
-
-/* 上部版：タブ直下に右寄せで控えめに置き、盤面を大きく押し下げない */
-.board-actions.top {
-  justify-content: flex-end;
-  margin-top: 0;
-  margin-bottom: 14px;
 }
 
 .board-refresh {
@@ -856,9 +849,40 @@ body {
   color: var(--text-dim);
 }
 
-.board-actions.top .board-refresh {
-  padding: 7px 14px;
+/* タブ行の右端に置く版（タブの下線の上に乗る） */
+.tab-refresh {
+  margin-left: auto;
+  align-self: center;
+  margin-bottom: 3px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-dim);
+  font: inherit;
   font-size: 12px;
+  padding: 6px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.tab-refresh:hover {
+  color: var(--text);
+  border-color: var(--text-faint);
+}
+
+/* 狭い画面ではタブ名（特に All words）を折り返さず、更新ボタンはアイコンのみに縮める */
+@media (max-width: 620px) {
+  .tab {
+    white-space: nowrap;
+    padding: 9px 10px;
+  }
+  .tab-refresh-label {
+    display: none;
+  }
+  .tab-refresh {
+    padding: 6px 10px;
+  }
 }
 
 .tile {
