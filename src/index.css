@@ -111,14 +111,13 @@ body {
   min-width: 0;
 }
 
-/* コース名は控えめな1行に（主役はコーチ・メッセージ） */
+/* コース名（主役はコーチ・メッセージだが、読みやすいサイズで併記） */
 .course-name {
-  margin: 0;
-  font-size: 11.5px;
+  margin: 0 0 2px;
+  font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: var(--text-faint);
+  letter-spacing: 0;
+  color: var(--text-dim);
 }
 
 /* 状況に応じて変わるコーチ・メッセージ（切り替わり時にふわっと出る） */
