@@ -3,7 +3,7 @@
  * 各語には categories.json（データと分離した overlay）で1つの key が付く。
  * ここは表示用のラベル・絵文字・並び順・グループを定義する。'other'（真の未分類）はセレクタに出さない。
  */
-export type CategoryGroup = 'topic' | 'grammar'
+export type CategoryGroup = 'topic' | 'expressions' | 'grammar'
 
 export interface CategoryDef {
   key: string
@@ -32,6 +32,10 @@ export const CATEGORIES: CategoryDef[] = [
   { key: 'emotions', label: 'Feelings & Personality', emoji: '😊', group: 'topic' },
   { key: 'activities', label: 'Hobbies & Activities', emoji: '⚽', group: 'topic' },
   { key: 'society', label: 'Society & Ideas', emoji: '🏛️', group: 'topic' },
+  { key: 'colors', label: 'Colors', emoji: '🌈', group: 'topic' },
+  // あいさつ・表現
+  { key: 'greetings', label: 'Greetings & Replies', emoji: '🙌', group: 'expressions' },
+  { key: 'interjections', label: 'Interjections', emoji: '💭', group: 'expressions' },
   // 文法・機能語
   { key: 'basic-verbs', label: 'Basic Verbs', emoji: '🎬', group: 'grammar' },
   { key: 'descriptors', label: 'Describing Words', emoji: '🎨', group: 'grammar' },
@@ -49,5 +53,9 @@ export const CATEGORY_BY_KEY: Record<string, CategoryDef> = Object.fromEntries(
 
 export const GROUP_LABEL: Record<CategoryGroup, string> = {
   topic: 'Topics',
+  expressions: 'Greetings & expressions',
   grammar: 'Grammar & function words',
 }
+
+/** グループの表示順（セレクタ・Stats 共通） */
+export const GROUP_ORDER: CategoryGroup[] = ['topic', 'expressions', 'grammar']

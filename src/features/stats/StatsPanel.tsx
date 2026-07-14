@@ -7,14 +7,15 @@ import { isKnownRow } from '../../srs/levels'
 import { retrievabilityOf } from '../../srs/scheduler'
 import { coverageAt } from '../../data/coverage'
 import { fmtNum } from '../../text/format'
+import { CATEGORIES, GROUP_LABEL, GROUP_ORDER } from '../../data/categories'
 
 type JlptLevel = NonNullable<VocabCard['jlptLevel']>
 const JLPT_ORDER: JlptLevel[] = ['N5', 'N4', 'N3', 'N2', 'N1']
 
 /**
- * Stats タブ。JLPT レベル別の達成リング（近接下位目標: 遠い3,075語を「まず N5 の約680語」に分割）
- * ＋コンプリートバッジ（localStorage ラチェット＝一度獲得したら known が減っても消えない）。
- * データはこのタブを開いている間だけコースの progress 行をスキャンする（タブ外コストゼロ）。
+ * Stats タブ。JLPT レベル別の達成リング＋コンプリートバッジ、
+ * そして**カテゴリー別の習得率**（Topics / 表現 / 文法のグループごとに、覚えた語/総語のバー）。
+ * データはこのタブを開いている間だけコースの progress 行を1回スキャンする（タブ外コストゼロ）。
  */
 export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard[] }) {
   const totals = useMemo(() => {
@@ -27,11 +28,20 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
     [cards],
   )
 
+  // カテゴリー別の総語数と、カード→カテゴリーの対応。
+  const catOf = useMemo(() => new Map(cards.filter((c) => c.category).map((c) => [c.id, c.category as string])), [cards])
+  const totalByCat = useMemo(() => {
+    const m = new Map<string, number>()
+    for (const c of cards) if (c.category) m.set(c.category, (m.get(c.category) ?? 0) + 1)
+    return m
+  }, [cards])
+
   const data = useLiveQuery(
     async () => {
       const rows = await db.progress.where('courseId').equals(course.id).toArray()
       const now = new Date()
       const known = new Map<JlptLevel, number>()
+      const knownByCat = new Map<string, number>()
       let sumR = 0
       let mastered = 0
       let started = 0
@@ -40,17 +50,20 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
         started++
         sumR += retrievabilityOf(r.fsrs, now)
         if (r.status === 'burned') mastered++
-        // 「I know」の定義はヘッダーの内訳と同一（isKnownRow に一元化）
-        const lvl = jlptOf.get(r.cardId)
-        if (lvl && isKnownRow(r)) known.set(lvl, (known.get(lvl) ?? 0) + 1)
+        if (isKnownRow(r)) {
+          // 「I know」の定義はヘッダーの内訳と同一（isKnownRow に一元化）
+          const lvl = jlptOf.get(r.cardId)
+          if (lvl) known.set(lvl, (known.get(lvl) ?? 0) + 1)
+          const cat = catOf.get(r.cardId)
+          if (cat) knownByCat.set(cat, (knownByCat.get(cat) ?? 0) + 1)
+        }
       }
-      return { known, sumR, mastered, started }
+      return { known, knownByCat, sumR, mastered, started }
     },
-    [course.id, jlptOf],
+    [course.id, jlptOf, catOf],
   )
 
-  // レベルコンプリートのバッジは render でなく effect で永続化する（render は純粋に保つ。
-  // ラチェット＝一度書いたら known が後退しても消さない）。
+  // レベルコンプリートのバッジは render でなく effect で永続化する（render は純粋に保つ。ラチェット）。
   const completed = useMemo(() => {
     if (!data) return [] as JlptLevel[]
     return JLPT_ORDER.filter((l) => {
@@ -62,8 +75,17 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
     for (const l of completed) safeSet(`vt:badge:${course.id}:${l}`, '1')
   }, [completed, course.id])
 
+  // グループ→存在するカテゴリー（総語数付き）
+  const catGroups = useMemo(
+    () =>
+      GROUP_ORDER.map((g) => ({
+        group: g,
+        cats: CATEGORIES.filter((c) => c.group === g && (totalByCat.get(c.key) ?? 0) > 0),
+      })).filter((x) => x.cats.length > 0),
+    [totalByCat],
+  )
+
   const levels = JLPT_ORDER.filter((l) => (totals.get(l) ?? 0) > 0)
-  if (levels.length === 0) return <div className="hint">No level data for this course.</div>
   if (!data) return <div className="hint">Loading stats…</div>
 
   const est = Math.round(data.sumR)
@@ -76,7 +98,7 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
           Words started <strong>{fmtNum(data.started)}</strong>
         </span>
         <span>
-          In memory <strong>{fmtNum(est)}</strong>
+          In long-term memory <strong>{fmtNum(est)}</strong>
         </span>
         <span>
           Everyday conversation <strong>{coverageAt(est)}%</strong>
@@ -88,22 +110,57 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
         )}
       </div>
 
-      <h3 className="stats-heading">JLPT vocabulary</h3>
-      <div className="jlpt-rings">
-        {levels.map((l) => (
-          <JlptRing key={l} level={l} known={data.known.get(l) ?? 0} total={totals.get(l) ?? 0} />
-        ))}
-      </div>
-      {earned.length > 0 && (
-        <div className="badge-row">
-          {earned.map((l) => (
-            <span key={l} className="jlpt-badge">
-              🏅 {l} vocabulary complete
-            </span>
-          ))}
-        </div>
+      {levels.length > 0 && (
+        <>
+          <h3 className="stats-heading">JLPT vocabulary</h3>
+          <div className="jlpt-rings">
+            {levels.map((l) => (
+              <JlptRing key={l} level={l} known={data.known.get(l) ?? 0} total={totals.get(l) ?? 0} />
+            ))}
+          </div>
+          {earned.length > 0 && (
+            <div className="badge-row">
+              {earned.map((l) => (
+                <span key={l} className="jlpt-badge">
+                  🏅 {l} vocabulary complete
+                </span>
+              ))}
+            </div>
+          )}
+          <p className="jlpt-disclaimer">Level mapping is based on unofficial community JLPT word lists.</p>
+        </>
       )}
-      <p className="jlpt-disclaimer">Level mapping is based on unofficial community JLPT word lists.</p>
+
+      {catGroups.length > 0 && (
+        <>
+          <h3 className="stats-heading">Mastery by category</h3>
+          {catGroups.map(({ group, cats }) => (
+            <div key={group} className="cat-stat-group">
+              <div className="cat-stat-grouplabel">{GROUP_LABEL[group]}</div>
+              {cats.map((c) => {
+                const total = totalByCat.get(c.key) ?? 0
+                const known = data.knownByCat.get(c.key) ?? 0
+                const pct = total > 0 ? Math.round((known / total) * 100) : 0
+                return (
+                  <div key={c.key} className={`cat-stat-row${known >= total ? ' done' : ''}`}>
+                    <span className="cat-stat-name">
+                      <span className="cat-stat-emoji">{c.emoji}</span>
+                      {c.label}
+                    </span>
+                    <span className="cat-stat-bar">
+                      <span className="cat-stat-fill" style={{ width: `${pct}%` }} />
+                    </span>
+                    <span className="cat-stat-num">
+                      {fmtNum(known)}/{fmtNum(total)}
+                    </span>
+                    <span className="cat-stat-pct">{pct}%</span>
+                  </div>
+                )
+              })}
+            </div>
+          ))}
+        </>
+      )}
     </div>
   )
 }

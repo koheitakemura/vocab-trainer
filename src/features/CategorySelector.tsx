@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import type { VocabCard } from '../types'
-import { CATEGORIES, GROUP_LABEL, type CategoryGroup } from '../data/categories'
+import { CATEGORIES, GROUP_LABEL, GROUP_ORDER, type CategoryGroup } from '../data/categories'
 
 /**
  * カテゴリー別学習のプルダウン。コースに実在するカテゴリーだけを Topics / Grammar に分けて並べ、
@@ -23,6 +23,7 @@ export function CategorySelector({
     for (const c of cards) if (c.category) counts.set(c.category, (counts.get(c.category) ?? 0) + 1)
     const byGroup: Record<CategoryGroup, { key: string; label: string; emoji: string; count: number }[]> = {
       topic: [],
+      expressions: [],
       grammar: [],
     }
     for (const cat of CATEGORIES) {
@@ -32,7 +33,7 @@ export function CategorySelector({
     return byGroup
   }, [cards])
 
-  if (groups.topic.length === 0 && groups.grammar.length === 0) return null
+  if (GROUP_ORDER.every((g) => groups[g].length === 0)) return null
 
   return (
     <label className="cat-select-wrap" title="Study by category">
@@ -46,7 +47,7 @@ export function CategorySelector({
         onChange={(e) => onSelect(e.target.value || null)}
       >
         <option value="">All categories</option>
-        {(['topic', 'grammar'] as CategoryGroup[]).map((g) =>
+        {GROUP_ORDER.map((g) =>
           groups[g].length > 0 ? (
             <optgroup key={g} label={GROUP_LABEL[g]}>
               {groups[g].map((c) => (
