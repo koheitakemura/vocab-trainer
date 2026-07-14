@@ -1084,11 +1084,12 @@ body {
   border-color: color-mix(in srgb, var(--tile-accent) 55%, var(--border));
 }
 
-/* 採点済みカードのフェードは「element の opacity」ではなく「背景色のウォッシュを上に重ねる」方式にする。
-   opacity だとカード自体が半透明になり背後（ページ背景）が透けて横線などが見えてしまうため。
-   ::after は全タイルに置き（未採点は opacity:0 で不可視）、採点時に 0→0.72 へトランジションしてふわっと沈む。
-   inset:0 は枠の内側（padding box）を覆う＝色付きの枠線は鮮やかなまま残り、内側だけが沈む。
-   ホバー時はウォッシュを消して、めくり・再採点をしやすくする。 */
+/* フェード（沈み）は「このセッションで採点したカードだけ」に効かせる。判定は grade の有無ではなく
+   タイルの状態（s-done / s-again＝今回採点した）で行う。
+   ＝前日に採点して「今日が復習期限」の未採点カード（s-pending だが lastGrade の色は付く）は
+   沈ませず、明るいアクティブ表示のまま出す（“済んだカード”に見えないようにする）。
+   opacity でなく背景ウォッシュを重ねる方式（element opacity だと背後が透けるため）。
+   inset:0 は枠の内側を覆う＝色付きの枠線は鮮やかに残り内側だけ沈む。ホバーで消して再採点しやすく。 */
 .tile::after {
   content: '';
   position: absolute;
@@ -1098,14 +1099,12 @@ body {
   pointer-events: none;
   transition: opacity 0.3s ease;
 }
-.tile.g-known::after,
-.tile.g-fuzzy::after,
-.tile.g-learning::after {
+.tile.s-done::after,
+.tile.s-again::after {
   opacity: 0.72;
 }
-.tile.g-known:hover::after,
-.tile.g-fuzzy:hover::after,
-.tile.g-learning:hover::after {
+.tile.s-done:hover::after,
+.tile.s-again:hover::after {
   opacity: 0;
 }
 
