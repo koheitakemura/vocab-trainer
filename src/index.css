@@ -1266,22 +1266,77 @@ body {
 }
 
 /* ---------- All words (variant ④) ---------- */
+/* 列が多いので狭い画面では横スクロール（列を潰さない）。 */
+.allwords-scroll {
+  width: 100%;
+  overflow-x: auto;
+  align-self: start;
+}
+
 .allwords {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 14px;
   overflow: hidden;
-  align-self: start;
-  width: 100%;
+  min-width: 720px;
 }
 
 .aw-head,
+.aw-filter,
 .aw-row {
   display: grid;
-  grid-template-columns: 48px 110px 170px 1fr 108px;
+  grid-template-columns: 48px 108px 150px minmax(160px, 1fr) 132px 96px;
   align-items: center;
   column-gap: 12px;
   padding: 0 16px;
+}
+
+/* 各列フィルター行 */
+.aw-filter {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.aw-filter-count {
+  font-size: 11px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.aw-fin,
+.aw-fsel {
+  width: 100%;
+  min-width: 0;
+  font: inherit;
+  font-size: 12px;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 5px 8px;
+}
+
+.aw-fin::placeholder {
+  color: var(--text-faint);
+}
+
+.aw-fin:focus,
+.aw-fsel:focus {
+  outline: none;
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+}
+
+.aw-fsel {
+  cursor: pointer;
+}
+
+.aw-empty {
+  padding: 24px 16px;
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 13px;
 }
 
 .aw-head {
@@ -1337,6 +1392,31 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.aw-cat {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.aw-cat-emoji {
+  font-size: 14px;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+
+.aw-cat-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.aw-cat-none {
+  color: var(--text-faint);
 }
 
 .aw-pill {
