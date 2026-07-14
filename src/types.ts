@@ -48,6 +48,8 @@ export interface VocabCard {
   /** 頻度ランク（小さいほど高頻度＝先に出す） */
   frequencyRank: number
   jlptLevel?: 'N5' | 'N4' | 'N3' | 'N2' | 'N1'
+  /** 意味カテゴリー（カテゴリー別学習用。categories.json の overlay で付与。未分類は付かない） */
+  category?: string
 }
 
 /** jpdb の10状態モデルを簡約したユーザー単位の語の状態 */

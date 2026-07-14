@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
 import type { Course, VocabCard } from '../types'
@@ -17,6 +17,7 @@ import { SparkleOverlay, type BurstSpec } from './SparkleOverlay'
 import { MeterBreakdown } from './MeterBreakdown'
 import { MilestoneChip } from './MilestoneChip'
 import { MilestoneOverlay } from './MilestoneOverlay'
+import { CategorySelector } from './CategorySelector'
 
 type Tab = 'study' | 'all' | 'stats'
 
@@ -24,6 +25,12 @@ const EMPTY_BY_GRADE: Record<ReviewGrade, number> = emptyByGrade()
 
 export function CourseScreen({ course, cards }: { course: Course; cards: VocabCard[] }) {
   const [tab, setTab] = useState<Tab>('study')
+  // カテゴリー別学習：選択中カテゴリー（null=全体）。盤面に渡す cards をこのレンズで絞る。
+  const [category, setCategory] = useState<string | null>(null)
+  const studyCards = useMemo(
+    () => (category ? cards.filter((c) => c.category === category) : cards),
+    [cards, category],
+  )
   const fileRef = useRef<HTMLInputElement>(null)
   const meterRef = useRef<HTMLDivElement>(null)
   const [bursts, setBursts] = useState<BurstSpec[]>([])
@@ -198,8 +205,8 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
           <div className="meter-label">words started</div>
           <MeterBreakdown counts={byGrade} burned={burned} />
           {estKnown !== null && introduced > 0 && (
-            <div className="meter-est" title="Estimated recall right now, from the FSRS memory model (sum of per-word retrievability). Conversation coverage is an approximate, corpus-based figure.">
-              {fmtNum(estKnown)} in memory · {coverageAt(estKnown)}% of everyday conversation
+            <div className="meter-est" title="Estimated number of words you'd still recall right now, from the FSRS memory model. Distinct from 'words started', which counts every word you've touched. Conversation coverage is an approximate, corpus-based figure.">
+              {fmtNum(estKnown)} words in long-term memory · {coverageAt(estKnown)}% of everyday conversation
             </div>
           )}
         </div>
@@ -264,14 +271,17 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
 
       <main className="course-main">
         {tab === 'study' ? (
-          <StudyGrid
-            cards={cards}
-            onWordStarted={handleWordStarted}
-            onReviewed={handleReviewed}
-            onProgressReset={handleProgressReset}
-            onBackup={onExport}
-            onExposeRestart={exposeStudyRestart}
-          />
+          <>
+            <CategorySelector cards={cards} selected={category} onSelect={setCategory} />
+            <StudyGrid
+              cards={studyCards}
+              onWordStarted={handleWordStarted}
+              onReviewed={handleReviewed}
+              onProgressReset={handleProgressReset}
+              onBackup={onExport}
+              onExposeRestart={exposeStudyRestart}
+            />
+          </>
         ) : tab === 'all' ? (
           <AllWords cards={cards} />
         ) : (

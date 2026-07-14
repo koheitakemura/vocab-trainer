@@ -24,8 +24,19 @@ export const realRepository: CourseRepository = {
   async getCards(id) {
     const manifest = await fetchJson<{ bands: string[] }>(`${BASE}/${id}/manifest.json`)
     if (!manifest) return []
-    const chunks = await Promise.all(manifest.bands.map((b) => fetchJson<VocabCard[]>(`${BASE}/${id}/${b}`)))
-    return chunks.filter((c): c is VocabCard[] => c !== null).flat()
+    const [chunks, categories] = await Promise.all([
+      Promise.all(manifest.bands.map((b) => fetchJson<VocabCard[]>(`${BASE}/${id}/${b}`))),
+      // カテゴリーは語彙データと分離した overlay（cardId → category）。無ければカテゴリー無しで動く。
+      fetchJson<Record<string, string>>(`${BASE}/${id}/categories.json`),
+    ])
+    const cards = chunks.filter((c): c is VocabCard[] => c !== null).flat()
+    if (categories) {
+      for (const c of cards) {
+        const cat = categories[c.id]
+        if (cat && cat !== 'other') c.category = cat
+      }
+    }
+    return cards
   },
 }
 
