@@ -257,31 +257,31 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
           Stats
         </button>
         {tab === 'study' && (
-          <button
-            type="button"
-            className="tab-refresh"
-            onClick={() => studyRestartRef.current?.()}
-            aria-label="Start another session"
-            title="Start another session"
-          >
-            ↻ <span className="tab-refresh-label">Start another session</span>
-          </button>
+          <div className="tab-tools">
+            <CategorySelector cards={cards} selected={category} onSelect={setCategory} />
+            <button
+              type="button"
+              className="tab-refresh"
+              onClick={() => studyRestartRef.current?.()}
+              aria-label="Start another session"
+              title="Start another session"
+            >
+              ↻ <span className="tab-refresh-label">Start another session</span>
+            </button>
+          </div>
         )}
       </nav>
 
       <main className="course-main">
         {tab === 'study' ? (
-          <>
-            <CategorySelector cards={cards} selected={category} onSelect={setCategory} />
-            <StudyGrid
-              cards={studyCards}
-              onWordStarted={handleWordStarted}
-              onReviewed={handleReviewed}
-              onProgressReset={handleProgressReset}
-              onBackup={onExport}
-              onExposeRestart={exposeStudyRestart}
-            />
-          </>
+          <StudyGrid
+            cards={studyCards}
+            onWordStarted={handleWordStarted}
+            onReviewed={handleReviewed}
+            onProgressReset={handleProgressReset}
+            onBackup={onExport}
+            onExposeRestart={exposeStudyRestart}
+          />
         ) : tab === 'all' ? (
           <AllWords cards={cards} />
         ) : (
