@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import { db } from '../../store/db'
-import { recordReview, resetCourseProgress } from '../../store/progress'
+import { localDate, recordReview, resetCourseProgress } from '../../store/progress'
 import { isPromotionToKnown } from '../../srs/levels'
 import type { ReviewGrade } from '../../srs/scheduler'
 
@@ -70,13 +70,21 @@ export function useStudyBoard(cards: VocabCard[]) {
       const rows = courseId ? await db.progress.where('courseId').equals(courseId).toArray() : []
       const progressById = new Map(rows.map((r) => [r.cardId, r]))
       const now = Date.now()
+      const today = localDate(new Date(now))
       const reviewTiles: BoardTile[] = []
       const newCandidates: VocabCard[] = []
       for (const card of cards) {
         const r = progressById.get(card.id)
         if (!r || r.status === 'new') {
           newCandidates.push(card)
-        } else if (r.status !== 'burned' && r.status !== 'suspended' && r.fsrs.due.getTime() <= now) {
+        } else if (
+          r.status !== 'burned' &&
+          r.status !== 'suspended' &&
+          r.fsrs.due.getTime() <= now &&
+          // 今日すでにボタンを押した（採点した）語は、更新／Start another session の後は出さない。
+          // FSRS の期限が同日中でも「今日はもう終わり」にする（Kohei 指定）。
+          (!r.lastReviewedAt || localDate(new Date(r.lastReviewedAt)) !== today)
+        ) {
           reviewTiles.push({ card, state: 'pending', grade: r.lastGrade })
         }
       }
