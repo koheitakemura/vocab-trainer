@@ -4,7 +4,9 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import type { Course, VocabCard } from '../types'
 import type { ReviewGrade } from '../srs/scheduler'
 import { db, emptyByGrade } from '../store/db'
-import { ensureSummary, estimatedVocab, exportProgress, importProgress, localDate } from '../store/progress'
+import { ensureSummary, exportProgress, importProgress, localDate, vocabSnapshot } from '../store/progress'
+import { getCoachSentences, type CoachSentence } from '../data/coachSentences'
+import type { GradeOutcome } from './study/useStudyBoard'
 import { safeGet, safeSet } from '../store/safeStorage'
 import { coverageAt } from '../data/coverage'
 import { fmtNum } from '../text/format'
@@ -68,24 +70,49 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
   const milestones: number[] = []
   for (let m = 500; m < total; m += 500) milestones.push(m)
 
-  // ── A: 推定語彙数（retrievability 合計）。マウント時に1回スキャンし、以後は採点の deltaR で O(1) 追従。
-  //    復元・リセット後は estNonce を進めてベースラインを取り直す。
+  // ── A: 推定語彙数（retrievability 合計）＋既習語集合。マウント時に1回スキャンし、
+  //    以後は採点結果で O(1) 追従。復元・リセット後は estNonce を進めて取り直す。
   const [estBase, setEstBase] = useState<number | null>(null)
   const [estDelta, setEstDelta] = useState(0)
   const [estNonce, setEstNonce] = useState(0)
+  const [knownIds, setKnownIds] = useState<Set<string>>(() => new Set())
   useEffect(() => {
     let active = true
     setEstBase(null)
     setEstDelta(0)
-    void estimatedVocab(course.id).then((v) => {
-      if (active) setEstBase(v)
+    void vocabSnapshot(course.id).then((v) => {
+      if (!active) return
+      setEstBase(v.estKnown)
+      setKnownIds(v.knownIds)
     })
     return () => {
       active = false
     }
   }, [course.id, estNonce])
   const estKnown = estBase === null ? null : Math.max(0, Math.round(estBase + estDelta))
-  const handleReviewed = useCallback((deltaR: number) => setEstDelta((x) => x + deltaR), [])
+  const handleReviewed = useCallback((res: GradeOutcome) => {
+    setEstDelta((x) => x + res.deltaR)
+    // コーチ文の解禁判定用に既習語集合も追従（known になったら追加、外れたら除去）
+    setKnownIds((prev) => {
+      if (res.known === prev.has(res.cardId)) return prev
+      const next = new Set(prev)
+      if (res.known) next.add(res.cardId)
+      else next.delete(res.cardId)
+      return next
+    })
+  }, [])
+
+  // ── コーチの日本語文バンク（静的 JSON・1回だけ読み込み）
+  const [sentences, setSentences] = useState<CoachSentence[]>([])
+  useEffect(() => {
+    let active = true
+    void getCoachSentences(course.id).then((s) => {
+      if (active) setSentences(s)
+    })
+    return () => {
+      active = false
+    }
+  }, [course.id])
 
   // ── B: 500語目盛りの跨ぎ検出（初回ロード・復元/リセット直後は無音で同期し、演出の連発を防ぐ）。
   const introducedRef = useRef<number | null>(null)
@@ -188,8 +215,10 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
         todayNew: backupInfo?.todayNew ?? 0,
         gapDays: backupInfo?.gapDays ?? null,
         activeDaysThisWeek: backupInfo?.activeDaysThisWeek ?? 0,
+        knownIds,
+        sentences,
       }),
-    [introduced, total, estKnown, burned, backupInfo],
+    [introduced, total, estKnown, burned, backupInfo, knownIds, sentences],
   )
   const showBackupBadge =
     !!backupInfo &&
@@ -236,10 +265,12 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
       <header className="topbar">
         <div className="course">
           <h1 className="course-name">{course.title}</h1>
-          {/* 状況に応じて変わるコーチ・メッセージ（すべて端末内のデータから。外部送信なし） */}
-          <p className="coach" key={coachMsg} aria-live="polite">
-            {coachMsg}
-          </p>
+          {/* 状況に応じて変わるコーチ・メッセージ（すべて端末内のデータから。外部送信なし）。
+              日本語文（既習語だけで構成）のときは下に英訳を添える */}
+          <div className="coach-block" key={coachMsg.text} aria-live="polite">
+            <p className="coach">{coachMsg.text}</p>
+            {coachMsg.sub && <p className="coach-sub">{coachMsg.sub}</p>}
+          </div>
         </div>
         <div className="meter" aria-label="progress" ref={meterRef}>
           <div className="meter-head">

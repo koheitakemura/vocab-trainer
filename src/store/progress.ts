@@ -1,6 +1,6 @@
 import { db, emptySummary, summarize } from './db'
 import { BURN_STABILITY_DAYS, gradeCard, newCard, retrievabilityOf, State, type ReviewGrade } from '../srs/scheduler'
-import { isPromotionToKnown } from '../srs/levels'
+import { isKnownRow, isPromotionToKnown } from '../srs/levels'
 import type { CourseId, DailyStat, MetaRow, VocabCard, WordProgress } from '../types'
 
 /** ローカル日付の YYYY-MM-DD（dailyStats のキー。深夜0時跨ぎは端末のローカル時刻基準） */
@@ -105,16 +105,28 @@ export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise
   })
 }
 
+/** 語彙の実力スナップショット（推定語彙数＋既習語 id の集合） */
+export interface VocabSnapshot {
+  /** retrievability 合計＝推定語彙数のベースライン */
+  estKnown: number
+  /** 「I know」扱いの語（good/easy or 卒業）の cardId 集合。コーチ文の解禁判定に使う */
+  knownIds: Set<string>
+}
+
 /**
- * 推定語彙数のベースライン＝コース全 progress 行の retrievability 合計。
+ * コース全 progress 行を1回スキャンして実力スナップショットを作る。
  * 画面マウント時に1回だけ呼ぶ（コスト∝学習済み語数）。以後の追従は
- * recordReview が返す deltaR の加算で O(1)（毎採点の再スキャンはしない）。
+ * recordReview が返す deltaR／採点結果の増分更新で O(1)（毎採点の再スキャンはしない）。
  */
-export async function estimatedVocab(courseId: CourseId, now: Date = new Date()): Promise<number> {
+export async function vocabSnapshot(courseId: CourseId, now: Date = new Date()): Promise<VocabSnapshot> {
   const rows = await db.progress.where('courseId').equals(courseId).toArray()
   let sum = 0
-  for (const r of rows) sum += retrievabilityOf(r.fsrs, now)
-  return sum
+  const knownIds = new Set<string>()
+  for (const r of rows) {
+    sum += retrievabilityOf(r.fsrs, now)
+    if (isKnownRow(r)) knownIds.add(r.cardId)
+  }
+  return { estKnown: sum, knownIds }
 }
 
 /**

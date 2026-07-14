@@ -16,7 +16,7 @@ export interface BoardTile {
   grade?: ReviewGrade
 }
 
-/** grade() の結果（演出とヘッダーのメーター追従の判定材料） */
+/** grade() の結果（演出とヘッダーのメーター追従・コーチ文の解禁判定の材料） */
 export interface GradeOutcome {
   /** きらきら演出を出すか（初採点 or Fuzzy/Studying → I know の前進 or 卒業） */
   sparkle: boolean
@@ -24,6 +24,10 @@ export interface GradeOutcome {
   gold: boolean
   /** 推定語彙数（retrievability 合計）の増分 */
   deltaR: number
+  /** 採点したカード */
+  cardId: string
+  /** この採点で「I know」扱いになったか（good/easy） */
+  known: boolean
 }
 
 /**
@@ -111,7 +115,7 @@ export function useStudyBoard(cards: VocabCard[]) {
   const grade = useCallback(
     async (id: string, g: ReviewGrade): Promise<GradeOutcome> => {
       const card = byId.get(id)
-      if (!card) return { sparkle: false, gold: false, deltaR: 0 }
+      if (!card) return { sparkle: false, gold: false, deltaR: 0, cardId: id, known: false }
 
       // マーク/色（grade）と状態は初回でも再採点でも更新。ボタンは常に残る。
       setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: g === 'again' ? 'again' : 'done', grade: g } : t)))
@@ -127,7 +131,13 @@ export function useStudyBoard(cards: VocabCard[]) {
 
       const { wasNew, prevGrade, burnedNow, deltaR } = await recordReview(card, g)
       // きらきら演出：未習語を始めた／Fuzzy・Studying → I know の前進／卒業（金色）。
-      return { sparkle: wasNew || isPromotionToKnown(prevGrade, g) || burnedNow, gold: burnedNow, deltaR }
+      return {
+        sparkle: wasNew || isPromotionToKnown(prevGrade, g) || burnedNow,
+        gold: burnedNow,
+        deltaR,
+        cardId: id,
+        known: g === 'good' || g === 'easy',
+      }
     },
     [byId],
   )

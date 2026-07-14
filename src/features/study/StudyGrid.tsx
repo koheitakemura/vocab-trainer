@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel, LEVEL_LABEL } from '../../srs/levels'
-import { useStudyBoard, type BoardTile } from './useStudyBoard'
+import { useStudyBoard, type BoardTile, type GradeOutcome } from './useStudyBoard'
 import { useFitText } from './useFitText'
 import { getRomaji } from '../../text/romaji'
 import { FocusSheet } from './FocusSheet'
@@ -19,8 +19,8 @@ export function StudyGrid({
   cards: VocabCard[]
   /** スパークル演出の発火（初採点・昇格・卒業）。カードの座標と金色フラグを渡すだけで、ヘッダーの存在は知らない。 */
   onWordStarted?: (rect: DOMRect, gold?: boolean) => void
-  /** 採点1回ごとの推定語彙数（retrievability）増分。ヘッダーのメーターが O(1) で追従するため */
-  onReviewed?: (deltaR: number) => void
+  /** 採点1回ごとの結果。ヘッダーのメーター・コーチ文の解禁判定が O(1) で追従するため */
+  onReviewed?: (res: GradeOutcome) => void
   /** デモリセット完了の通知（ヘッダー側の推定語彙数を再計算させる） */
   onProgressReset?: () => void
   /** 週次ふりかえりカードのバックアップボタン */
@@ -41,7 +41,7 @@ export function StudyGrid({
   const handleGrade = async (id: string, g: ReviewGrade, rect: DOMRect) => {
     const res = await b.grade(id, g)
     if (res.sparkle) onWordStarted?.(rect, res.gold)
-    onReviewed?.(res.deltaR)
+    onReviewed?.(res)
   }
 
   if (b.loading) return <div className="hint">Preparing your session…</div>
