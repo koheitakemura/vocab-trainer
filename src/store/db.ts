@@ -39,6 +39,13 @@ export class VocabDB extends Dexie {
         const rows = (await tx.table('progress').toArray()) as WordProgress[]
         await tx.table('summary').bulkPut(summarize(rows))
       })
+    // v3: CourseSummary に burned（卒業数）を追加。スキーマは同じでデータ形状だけ変わるため、
+    // 既存サマリ行を一度だけ作り直す（増分更新とのドリフトもここでリセットされる）。
+    this.version(3).upgrade(async (tx) => {
+      const rows = (await tx.table('progress').toArray()) as WordProgress[]
+      await tx.table('summary').clear()
+      await tx.table('summary').bulkPut(summarize(rows))
+    })
   }
 }
 
@@ -49,7 +56,7 @@ export function emptyByGrade(): Record<ReviewGrade, number> {
 
 /** コース別サマリのゼロ値 */
 export function emptySummary(courseId: CourseId): CourseSummary {
-  return { courseId, introduced: 0, byGrade: emptyByGrade() }
+  return { courseId, introduced: 0, byGrade: emptyByGrade(), burned: 0 }
 }
 
 /** progress 行の配列からコース別サマリを組み立てる（移行・復元・自己修復で共用） */
@@ -63,7 +70,9 @@ export function summarize(rows: WordProgress[]): CourseSummary[] {
       byCourse.set(r.courseId, s)
     }
     s.introduced++
-    if (r.lastGrade) s.byGrade[r.lastGrade]++
+    // 卒業済みは byGrade でなく burned に数える（メーター内訳の Mastered セグメント）
+    if (r.status === 'burned') s.burned++
+    else if (r.lastGrade) s.byGrade[r.lastGrade]++
   }
   return [...byCourse.values()]
 }

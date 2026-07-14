@@ -5,16 +5,35 @@ import { gradeLevel, LEVEL_LABEL } from '../../srs/levels'
 import { useStudyBoard, type BoardTile } from './useStudyBoard'
 import { useFitText } from './useFitText'
 import { getRomaji } from '../../text/romaji'
+import { FocusSheet } from './FocusSheet'
+import { WeeklyCard } from '../WeeklyCard'
 
 export function StudyGrid({
   cards,
   onWordStarted,
+  onReviewed,
+  onProgressReset,
+  onBackup,
 }: {
   cards: VocabCard[]
-  /** 初採点（new → 開始）が起きたときに発火。ヘッダー側の演出のためのカードの座標を渡すだけで、ヘッダーの存在は知らない。 */
-  onWordStarted?: (rect: DOMRect) => void
+  /** スパークル演出の発火（初採点・昇格・卒業）。カードの座標と金色フラグを渡すだけで、ヘッダーの存在は知らない。 */
+  onWordStarted?: (rect: DOMRect, gold?: boolean) => void
+  /** 採点1回ごとの推定語彙数（retrievability）増分。ヘッダーのメーターが O(1) で追従するため */
+  onReviewed?: (deltaR: number) => void
+  /** デモリセット完了の通知（ヘッダー側の推定語彙数を再計算させる） */
+  onProgressReset?: () => void
+  /** 週次ふりかえりカードのバックアップボタン */
+  onBackup?: () => void
 }) {
   const b = useStudyBoard(cards)
+  const [sheetId, setSheetId] = useState<string | null>(null)
+  const courseId = cards[0]?.courseId
+
+  const handleGrade = async (id: string, g: ReviewGrade, rect: DOMRect) => {
+    const res = await b.grade(id, g)
+    if (res.sparkle) onWordStarted?.(rect, res.gold)
+    onReviewed?.(res.deltaR)
+  }
 
   if (b.loading) return <div className="hint">Preparing your session…</div>
   if (b.empty)
@@ -23,7 +42,13 @@ export function StudyGrid({
         <div className="done-emoji">✓</div>
         <h2>All caught up</h2>
         <p>Nothing is due right now.</p>
-        <button className="btn ghost" onClick={b.reset}>
+        <button
+          className="btn ghost"
+          onClick={async () => {
+            await b.reset()
+            onProgressReset?.()
+          }}
+        >
           Reset progress (demo)
         </button>
       </div>
@@ -34,31 +59,63 @@ export function StudyGrid({
         <div className="done-emoji">🎉</div>
         <h2>Session complete</h2>
         <p>
-          {b.reviewed} reviews{b.again > 0 ? ` · ${b.again} marked “Again”` : ''}
+          {b.reviewed} reviews{b.again > 0 ? ` · ${b.again} marked “Studying”` : ''}
         </p>
+        {courseId && <WeeklyCard courseId={courseId} onBackup={onBackup} />}
         <button className="btn primary" onClick={b.restart}>
           Start another session
         </button>
       </div>
     )
 
+  const sheetTile = sheetId ? (b.tiles.find((t) => t.card.id === sheetId) ?? null) : null
+  // 次のカード＝キュー内の「現在位置の次」（現在が採点済みでキューに無ければ先頭）。
+  // queue.find(x => x !== sheetId) だと常にキュー先頭に戻り、未採点のまま送ると
+  // 先頭2枚を往復して3枚目に到達できない。末尾からは先頭へ循環する。
+  const nextId = (() => {
+    if (!sheetId || b.queue.length === 0) return null
+    const i = b.queue.indexOf(sheetId)
+    if (i === -1) return b.queue[0] ?? null
+    const candidate = b.queue[(i + 1) % b.queue.length]
+    return candidate !== sheetId ? candidate : null
+  })()
+
   return (
-    <div className="board">
-      {b.tiles.map((t) => (
-        <Tile
-          key={t.card.id}
-          tile={t}
-          onGrade={async (g, rect) => {
-            const sparkle = await b.grade(t.card.id, g)
-            if (sparkle) onWordStarted?.(rect)
-          }}
+    <>
+      <div className="board">
+        {b.tiles.map((t) => (
+          <Tile
+            key={t.card.id}
+            tile={t}
+            onGrade={(g, rect) => void handleGrade(t.card.id, g, rect)}
+            onOpenSheet={() => setSheetId(t.card.id)}
+          />
+        ))}
+      </div>
+      {sheetTile && (
+        <FocusSheet
+          key={sheetTile.card.id}
+          tile={sheetTile}
+          hasNext={nextId !== null}
+          onGrade={(g, rect) => void handleGrade(sheetTile.card.id, g, rect)}
+          onNext={() => nextId && setSheetId(nextId)}
+          onClose={() => setSheetId(null)}
         />
-      ))}
-    </div>
+      )}
+    </>
   )
 }
 
-function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, rect: DOMRect) => void }) {
+function Tile({
+  tile,
+  onGrade,
+  onOpenSheet,
+}: {
+  tile: BoardTile
+  onGrade: (g: ReviewGrade, rect: DOMRect) => void
+  /** タッチのタップで呼ぶ（片手フォーカスモードを開く）。マウスクリックはその場でピン留めめくり。 */
+  onOpenSheet?: () => void
+}) {
   const c: VocabCard = tile.card
   const romaji = getRomaji(c.reading)
   // どのカードも採点後もボタンを残し、いつでも採点しなおせる（3ボタン共通の挙動）。
@@ -66,11 +123,12 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
   // ホバーめくりは「マウスのポインターイベント」だけに反応させる：タッチはタップ時に
   // mouseenter をエミュレートするくせに mouseleave を出さないため、デバイス単位の判定では
   // ハイブリッド端末（タッチ付きラップトップ等）で「めくれたまま戻せない」が残る。
-  // pointerType でイベント単位に見分ければ全端末で正しく、タッチはタップのトグルだけになる。
+  // pointerType でイベント単位に見分ければ全端末で正しい。タッチのタップはフォーカスモードへ。
   const [flippedByHover, setFlippedByHover] = useState(false)
   const [pinned, setPinned] = useState(false)
   const flipped = pinned || flippedByHover
   const rootRef = useRef<HTMLDivElement>(null)
+  const lastPointerType = useRef<string>('mouse')
 
   const fire = (g: ReviewGrade) => {
     const rect = rootRef.current?.getBoundingClientRect()
@@ -92,10 +150,16 @@ function Tile({ tile, onGrade }: { tile: BoardTile; onGrade: (g: ReviewGrade, re
       </span>
       <div
         className="tile-content"
+        onPointerDown={(e) => {
+          lastPointerType.current = e.pointerType
+        }}
         onPointerEnter={(e) => {
           if (e.pointerType === 'mouse') setFlippedByHover(true)
         }}
-        onClick={() => setPinned((p) => !p)}
+        onClick={() => {
+          if (lastPointerType.current === 'touch' && onOpenSheet) onOpenSheet()
+          else setPinned((p) => !p)
+        }}
         role="button"
         aria-label={c.headword}
       >

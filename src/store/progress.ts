@@ -1,10 +1,10 @@
 import { db, emptySummary, summarize } from './db'
-import { gradeCard, newCard, State, type ReviewGrade } from '../srs/scheduler'
+import { BURN_STABILITY_DAYS, gradeCard, newCard, retrievabilityOf, State, type ReviewGrade } from '../srs/scheduler'
 import { isPromotionToKnown } from '../srs/levels'
 import type { CourseId, DailyStat, MetaRow, VocabCard, WordProgress } from '../types'
 
 /** ローカル日付の YYYY-MM-DD（dailyStats のキー。深夜0時跨ぎは端末のローカル時刻基準） */
-function localDate(d: Date): string {
+export function localDate(d: Date): string {
   const m = String(d.getMonth() + 1).padStart(2, '0')
   const day = String(d.getDate()).padStart(2, '0')
   return `${d.getFullYear()}-${m}-${day}`
@@ -14,17 +14,27 @@ function emptyDailyStat(courseId: CourseId, date: string): DailyStat {
   return { courseId, date, reviews: 0, newStarted: 0, promotions: 0, dueReviews: 0, dueAgain: 0, knownTotal: 0 }
 }
 
+/** recordReview の結果（演出・メーター更新の判定材料） */
+export interface ReviewOutcome {
+  /** この採点が初採点だったか */
+  wasNew: boolean
+  /** 上書き前の直近の採点 */
+  prevGrade?: ReviewGrade
+  /** この採点で卒業（Mastered）に到達したか（金色スパークルの判定） */
+  burnedNow: boolean
+  /** 推定語彙数（retrievability 合計）のこの採点による増分。ヘッダーが O(1) で追従するために返す */
+  deltaR: number
+}
+
 /**
  * レビュー結果を記録し、FSRS 状態と WordStatus を更新。
  * 進捗行が無い語（未着手）はここで初めて行を作る（v2: 「行が無い ＝ new」）。
+ * stability が BURN_STABILITY_DAYS を超えた known カードは 'burned'（卒業）へ昇格し、
+ * 以後レビューキューに出ない（PLAN §3.3。3万語スケールのキュー管理の要）。
  * 同一トランザクションでコース別サマリ（ヘッダー用）と日次ログを増分更新する
  * ＝毎採点の追加コストは O(1)（語彙数に比例する処理を持たない）。
- * 戻り値の wasNew はこの採点が初採点だったか、prevGrade は上書き前の直近の採点（演出の判定用）。
  */
-export async function recordReview(
-  card: VocabCard,
-  grade: ReviewGrade,
-): Promise<{ wasNew: boolean; prevGrade?: ReviewGrade }> {
+export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise<ReviewOutcome> {
   const now = new Date()
   const today = localDate(now)
   return db.transaction('rw', db.progress, db.summary, db.dailyStats, async () => {
@@ -37,7 +47,9 @@ export async function recordReview(
       reviewedCount: 0,
     }
     const wasNew = p.status === 'new'
+    const wasBurned = p.status === 'burned'
     const prevGrade = p.lastGrade
+    const prevR = retrievabilityOf(p.fsrs, now)
     // 実測定着率の分母判定：期限が来ていた復習カードを「今日はじめて」採点したときだけ数える
     // （再採点・同セッションの again 再出題で二重計上しない）。
     const isDueReview =
@@ -46,12 +58,10 @@ export async function recordReview(
       p.fsrs.due.getTime() <= now.getTime() &&
       (!p.lastReviewedAt || localDate(new Date(p.lastReviewedAt)) !== today)
     const nextFsrs = gradeCard(p.fsrs, grade, now)
+    const known = grade !== 'again' && nextFsrs.state === State.Review
     const status: WordProgress['status'] =
-      grade === 'again'
-        ? 'learning'
-        : nextFsrs.state === State.Review
-          ? 'known'
-          : 'learning'
+      known && nextFsrs.stability >= BURN_STABILITY_DAYS ? 'burned' : known ? 'known' : 'learning'
+    const burnedNow = status === 'burned' && !wasBurned
     await db.progress.put({
       ...p,
       fsrs: nextFsrs,
@@ -61,11 +71,17 @@ export async function recordReview(
       lastReviewedAt: now.toISOString(),
     })
 
-    // コース別サマリの増分更新（ヘッダーのメーターはこの1行だけを読む）
+    // コース別サマリの増分更新（ヘッダーのメーターはこの1行だけを読む）。
+    // 卒業済みは byGrade でなく burned に数える（内訳の Mastered セグメント）。
     const s = (await db.summary.get(card.courseId)) ?? emptySummary(card.courseId)
     if (wasNew) s.introduced++
-    if (prevGrade && s.byGrade[prevGrade] > 0) s.byGrade[prevGrade]--
-    s.byGrade[grade]++
+    if (wasBurned) {
+      if (s.burned > 0) s.burned--
+    } else if (prevGrade && s.byGrade[prevGrade] > 0) {
+      s.byGrade[prevGrade]--
+    }
+    if (status === 'burned') s.burned++
+    else s.byGrade[grade]++
     await db.summary.put(s)
 
     // 日次ログの追記（1コース×1日＝1行）
@@ -77,11 +93,23 @@ export async function recordReview(
       d.dueReviews++
       if (grade === 'again') d.dueAgain++
     }
-    d.knownTotal = s.byGrade.good + s.byGrade.easy
+    d.knownTotal = s.byGrade.good + s.byGrade.easy + s.burned
     await db.dailyStats.put(d)
 
-    return { wasNew, prevGrade }
+    return { wasNew, prevGrade, burnedNow, deltaR: retrievabilityOf(nextFsrs, now) - prevR }
   })
+}
+
+/**
+ * 推定語彙数のベースライン＝コース全 progress 行の retrievability 合計。
+ * 画面マウント時に1回だけ呼ぶ（コスト∝学習済み語数）。以後の追従は
+ * recordReview が返す deltaR の加算で O(1)（毎採点の再スキャンはしない）。
+ */
+export async function estimatedVocab(courseId: CourseId, now: Date = new Date()): Promise<number> {
+  const rows = await db.progress.where('courseId').equals(courseId).toArray()
+  let sum = 0
+  for (const r of rows) sum += retrievabilityOf(r.fsrs, now)
+  return sum
 }
 
 /**

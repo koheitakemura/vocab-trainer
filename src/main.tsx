@@ -21,6 +21,10 @@ if ('serviceWorker' in navigator) {
   })
 }
 
+// 進捗はローカルの IndexedDB だけに在る＝容量逼迫時にブラウザへ消されるのが最大の事故。
+// persistent storage を一度リクエストしておくと自動削除の対象から外れる（拒否されても無害）。
+if (navigator.storage?.persist) void navigator.storage.persist()
+
 // `#design`=レイアウト比較 / `#tones`=カラートーン比較 / それ以外=本体アプリ。
 // hashchange に反応（同一ドキュメントのハッシュ変更でも切り替わる）。
 function Root() {
