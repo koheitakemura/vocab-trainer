@@ -15,7 +15,7 @@ export function MilestoneChip({ introduced, total }: { introduced: number; total
   const near = remaining <= 50
   return (
     <div className={`milestone-chip${near ? ' near' : ''}`}>
-      Next: <strong>{fmt(next)}</strong> · {remaining} to go · unlocks ~{coverageAt(next)}% of everyday conversation
+      Next: <strong>{fmt(next)}</strong> · {remaining} to go · unlocks {coverageAt(next)}% of everyday conversation
     </div>
   )
 }

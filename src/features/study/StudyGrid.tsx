@@ -92,6 +92,12 @@ export function StudyGrid({
           />
         ))}
       </div>
+      {/* いつでも別のカードに入れ替えられる常設ボタン（採点し終える前でも押せる） */}
+      <div className="board-actions">
+        <button type="button" className="btn ghost board-refresh" onClick={b.restart}>
+          ↻ Start another session
+        </button>
+      </div>
       {sheetTile && (
         <FocusSheet
           key={sheetTile.card.id}
