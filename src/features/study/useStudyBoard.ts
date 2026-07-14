@@ -46,33 +46,46 @@ export function useStudyBoard(cards: VocabCard[]) {
   // pendingQueue の同期ミラー。grade() は await を挟むため、state のクロージャだけに頼ると
   // 連打（再レンダー前の2打目）で1打目のキュー除去が巻き戻る＝セッションが完了不能になる。
   const queueRef = useRef<string[]>([])
+  // 新規語の表示窓の開始位置。restart（Start another session）を押すたびに前へ進めて
+  // 「未採点のまま押しても同じ16枚が出る」を防ぐ。総数で剰余＝一周したら先頭へ戻り取りこぼしなし。
+  const newOffsetRef = useRef(0)
+  const prevCardsRef = useRef(cards)
 
   const byId = useMemo(() => new Map(cards.map((c) => [c.id, c])), [cards])
 
   useEffect(() => {
     let active = true
+    // コース（cards）が変わったら窓を先頭へ戻す
+    if (prevCardsRef.current !== cards) {
+      prevCardsRef.current = cards
+      newOffsetRef.current = 0
+    }
     void (async () => {
       setLoading(true)
       const courseId = cards[0]?.courseId
       const rows = courseId ? await db.progress.where('courseId').equals(courseId).toArray() : []
       const progressById = new Map(rows.map((r) => [r.cardId, r]))
       const now = Date.now()
-      const sessionTiles: BoardTile[] = []
-      let newCount = 0
+      // 復習（既習・due）は常に全部入れる（期限が来ている＝時間に敏感）。窓の対象は未習語だけ。
+      const reviewTiles: BoardTile[] = []
+      const newCandidates: VocabCard[] = []
       for (const card of cards) {
         const r = progressById.get(card.id)
         if (!r || r.status === 'new') {
-          // 本当の未習語だけ "New" 表示（grade 未設定）＝初採点でスパークルが発火する。
-          if (newCount < NEW_PER_SESSION) {
-            sessionTiles.push({ card, state: 'pending' })
-            newCount++
-          }
+          newCandidates.push(card)
         } else if (r.status !== 'burned' && r.status !== 'suspended' && r.fsrs.due.getTime() <= now) {
-          // 復習（既習・due）カードは "New" ではなく直近の採点（lastGrade）を初期表示する。
-          // これで「全部 New に見えるのに一部しかスパークルしない」不整合が解消される。
-          sessionTiles.push({ card, state: 'pending', grade: r.lastGrade })
+          reviewTiles.push({ card, state: 'pending', grade: r.lastGrade })
         }
       }
+      const total = newCandidates.length
+      const start = total > 0 ? newOffsetRef.current % total : 0
+      const newTiles: BoardTile[] = []
+      for (let i = 0; i < Math.min(NEW_PER_SESSION, total); i++) {
+        // 未習語だけ "New" 表示（grade 未設定）＝初採点でスパークルが発火する。
+        newTiles.push({ card: newCandidates[(start + i) % total], state: 'pending' })
+      }
+      // 復習を先に、続けて未習語（頻度順で既習=低ランクが先に来ていた従来の並びに合わせる）。
+      const sessionTiles = [...reviewTiles, ...newTiles]
       if (!active) return
       setTiles(sessionTiles)
       queueRef.current = sessionTiles.map((t) => t.card.id)
@@ -116,12 +129,17 @@ export function useStudyBoard(cards: VocabCard[]) {
     [byId],
   )
 
-  const restart = useCallback(() => setNonce((n) => n + 1), [])
+  /** 新しいセッションを組み直す。未習語の窓を1つ進めて毎回別の語を出す（未採点でも変わる）。 */
+  const restart = useCallback(() => {
+    newOffsetRef.current += NEW_PER_SESSION
+    setNonce((n) => n + 1)
+  }, [])
 
-  /** デモ用：このコースの進捗を実際に消してから新しいセッションを組み直す */
+  /** デモ用：このコースの進捗を実際に消してから初期状態のセッションに戻す */
   const reset = useCallback(async () => {
     const courseId = cards[0]?.courseId
     if (courseId) await resetCourseProgress(courseId)
+    newOffsetRef.current = 0
     setNonce((n) => n + 1)
   }, [cards])
 

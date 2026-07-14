@@ -58,9 +58,14 @@ export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise
       p.fsrs.due.getTime() <= now.getTime() &&
       (!p.lastReviewedAt || localDate(new Date(p.lastReviewedAt)) !== today)
     const nextFsrs = gradeCard(p.fsrs, grade, now)
-    const known = grade !== 'again' && nextFsrs.state === State.Review
+    // ステータスはボタンの意味に合わせる：Studying/Fuzzy=学習中、I know=習得（十分安定なら卒業）。
+    // FSRS の state ではなく採点で決める＝短期ステップ無効化後も All words の色分けが直感どおりになる。
     const status: WordProgress['status'] =
-      known && nextFsrs.stability >= BURN_STABILITY_DAYS ? 'burned' : known ? 'known' : 'learning'
+      grade === 'again' || grade === 'hard'
+        ? 'learning'
+        : nextFsrs.stability >= BURN_STABILITY_DAYS
+          ? 'burned'
+          : 'known'
     const burnedNow = status === 'burned' && !wasBurned
     await db.progress.put({
       ...p,

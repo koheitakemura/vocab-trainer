@@ -76,10 +76,10 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
           Words started <strong>{fmtNum(data.started)}</strong>
         </span>
         <span>
-          In memory <strong>≈{fmtNum(est)}</strong>
+          In memory <strong>{fmtNum(est)}</strong>
         </span>
         <span>
-          Everyday conversation <strong>~{coverageAt(est)}%</strong>
+          Everyday conversation <strong>{coverageAt(est)}%</strong>
         </span>
         {data.mastered > 0 && (
           <span>

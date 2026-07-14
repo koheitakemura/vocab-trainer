@@ -26,7 +26,7 @@ export function MilestoneOverlay({
     <div className="milestone-overlay" onClick={onClose} role="presentation">
       <div className="milestone-card">
         <div className="milestone-big">{fmt(milestone)} words started 🎉</div>
-        <div className="milestone-sub">You now recognize ~{coverageAt(milestone)}% of everyday conversation</div>
+        <div className="milestone-sub">You now recognize {coverageAt(milestone)}% of everyday conversation</div>
         {next && <div className="milestone-next">Next stop: {fmt(next)}</div>}
       </div>
     </div>,

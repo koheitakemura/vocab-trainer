@@ -836,6 +836,19 @@ body {
   }
 }
 
+/* 盤面下の常設アクション（いつでも別のカードへ入れ替え） */
+.board-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.board-refresh {
+  font-size: 13px;
+  padding: 10px 18px;
+  color: var(--text-dim);
+}
+
 .tile {
   position: relative;
   /* 固定高さ（min-height ではない）。訳語の長さでフリップ前後に高さが変わらないように。

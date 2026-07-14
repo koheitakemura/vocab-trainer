@@ -193,7 +193,7 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
           <MeterBreakdown counts={byGrade} burned={burned} />
           {estKnown !== null && introduced > 0 && (
             <div className="meter-est" title="Estimated recall right now, from the FSRS memory model (sum of per-word retrievability). Conversation coverage is an approximate, corpus-based figure.">
-              ≈{fmtNum(estKnown)} in memory · ~{coverageAt(estKnown)}% of everyday conversation
+              {fmtNum(estKnown)} in memory · {coverageAt(estKnown)}% of everyday conversation
             </div>
           )}
         </div>

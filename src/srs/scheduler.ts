@@ -23,16 +23,35 @@ const RATING_BY_GRADE: Record<ReviewGrade, Grade> = {
   easy: Rating.Easy,
 }
 
-const scheduler: FSRS = fsrs(generatorParameters({ request_retention: 0.9 }))
+/**
+ * enable_short_term=false：分単位の学習ステップを使わず、どの評価も日単位の間隔にする。
+ * このアプリは1日1〜2セッションのレール型で、同セッション内の再出題は Studying の
+ * キュー戻しで扱う。ステップ有効だと「I know」でも約10分後に再出題されてしまうため無効化する。
+ */
+const scheduler: FSRS = fsrs(generatorParameters({ request_retention: 0.9, enable_short_term: false }))
+
+/** 「I know」（good/easy）の最短復習間隔（日）。覚えた語を数日でしつこく出さない（Kohei 指定） */
+const MIN_KNOWN_INTERVAL_DAYS = 7
 
 /** 新規カードの初期 FSRS 状態（due = 現在＝即出題可能） */
 export function newCard(now: Date = new Date()): Card {
   return createEmptyCard(now)
 }
 
-/** 評価を適用して次の FSRS 状態を返す */
+/**
+ * 評価を適用して次の FSRS 状態を返す。
+ * 「I know」（good/easy）は最短でも1週間後になるよう、FSRS の間隔がそれ未満なら押し下げる。
+ * stability/difficulty は FSRS の計算どおり（＝以後の間隔は正常に伸び続ける）で、due だけを繰り下げる。
+ */
 export function gradeCard(card: Card, grade: ReviewGrade, now: Date = new Date()): Card {
   const { card: next } = scheduler.next(card, now, RATING_BY_GRADE[grade])
+  if (grade === 'good' || grade === 'easy') {
+    const floorMs = now.getTime() + MIN_KNOWN_INTERVAL_DAYS * 86_400_000
+    if (next.due.getTime() < floorMs) {
+      next.due = new Date(floorMs)
+      next.scheduled_days = MIN_KNOWN_INTERVAL_DAYS
+    }
+  }
   return next
 }
 
