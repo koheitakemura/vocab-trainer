@@ -107,7 +107,49 @@ body {
 .course {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
+  min-width: 0;
+}
+
+/* コース名は控えめな1行に（主役はコーチ・メッセージ） */
+.course-name {
+  margin: 0;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+/* 状況に応じて変わるコーチ・メッセージ（切り替わり時にふわっと出る） */
+.coach {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  color: var(--text);
+  max-width: 560px;
+  animation: coach-in 0.4s ease;
+}
+
+@keyframes coach-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .coach {
+    animation: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .coach {
+    font-size: 17px;
+  }
 }
 
 .badge {
