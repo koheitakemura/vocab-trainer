@@ -817,60 +817,53 @@ body {
   place-self: center;
 }
 
-/* ---------- カテゴリー別学習セレクタ ---------- */
-.cat-selector {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.cat-chip {
+/* ---------- カテゴリー別学習プルダウン（タブ行内・カード領域を占有しない） ---------- */
+.cat-select-wrap {
+  position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+}
+
+.cat-select-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 12px;
+  color: var(--text-faint);
+  pointer-events: none;
+}
+
+.cat-select {
   font: inherit;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--text-dim);
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 7px 13px;
+  border-radius: 8px;
+  padding: 6px 26px 6px 26px;
   cursor: pointer;
-  white-space: nowrap;
-  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  max-width: 210px;
+  /* 右のカスタム▾ */
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--text-faint) 50%),
+    linear-gradient(135deg, var(--text-faint) 50%, transparent 50%);
+  background-position: right 12px center, right 7px center;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.cat-chip:hover {
+.cat-select:hover {
   color: var(--text);
   border-color: var(--text-faint);
 }
 
-.cat-chip.on {
+/* 全体以外を選択中は選択されていると分かるよう色を付ける */
+.cat-select.active {
   color: var(--accent);
   border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
-  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
-}
-
-.cat-emoji {
-  font-size: 15px;
-  line-height: 1;
-}
-
-.cat-count {
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--text-faint);
-  background: var(--surface-2);
-  border-radius: 999px;
-  padding: 1px 7px;
-  font-variant-numeric: tabular-nums;
-}
-
-.cat-chip.on .cat-count {
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 18%, var(--surface));
+  background-color: color-mix(in srgb, var(--accent) 12%, var(--surface));
 }
 
 /* ---------- Study grid (variant ①) ---------- */
@@ -906,10 +899,17 @@ body {
 }
 
 /* タブ行の右端に置く版（タブの下線の上に乗る） */
-.tab-refresh {
+/* タブ行の右端にまとめる「カテゴリー選択＋更新」ツール群（下線の上に乗る） */
+.tab-tools {
   margin-left: auto;
   align-self: center;
   margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tab-refresh {
   background: none;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -927,11 +927,24 @@ body {
   border-color: var(--text-faint);
 }
 
-/* 狭い画面ではタブ名（特に All words）を折り返さず、更新ボタンはアイコンのみに縮める */
+/* 狭い画面ではタブ名（特に All words）を折り返さず、更新ボタンはアイコンのみに縮める。
+   カテゴリー選択とツール群はタブの下に1行で回り込ませる（カード領域は占有しない）。 */
 @media (max-width: 620px) {
+  .tabs {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
   .tab {
     white-space: nowrap;
     padding: 9px 10px;
+  }
+  .tab-tools {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .cat-select {
+    flex: 1;
+    max-width: none;
   }
   .tab-refresh-label {
     display: none;
