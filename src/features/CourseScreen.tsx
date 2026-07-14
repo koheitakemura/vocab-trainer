@@ -18,6 +18,7 @@ import { MeterBreakdown } from './MeterBreakdown'
 import { MilestoneChip } from './MilestoneChip'
 import { MilestoneOverlay } from './MilestoneOverlay'
 import { CategorySelector } from './CategorySelector'
+import { pickCoachMessage } from './coach'
 
 type Tab = 'study' | 'all' | 'stats'
 
@@ -134,7 +135,8 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
   const handleBurstArrive = useCallback(() => setPopNonce((n) => n + 1), [])
   const handleBurstDone = useCallback((id: number) => setBursts((bs) => bs.filter((b) => b.id !== id)), [])
 
-  // ── E: バックアップの番人。最終バックアップ以降のレビュー数を dailyStats から導出（数百行の小テーブル）。
+  // ── E: バックアップの番人 ＋ コーチ用の活動サマリ。どちらも dailyStats（数百行の小テーブル）
+  //    1回のスキャンから導出する（毎採点で再実行されるが行数∝日数なので軽い）。
   const backupInfo = useLiveQuery(async () => {
     const [metaRow, stats] = await Promise.all([
       db.meta.get('lastBackupAt'),
@@ -145,9 +147,50 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
     const lastDay = last ? localDate(new Date(last)) : null
     let unsaved = 0
     for (const s of stats) if (!lastDay || s.date >= lastDay) unsaved += s.reviews
+
+    const now = new Date()
+    const today = localDate(now)
+    const dowMon = (now.getDay() + 6) % 7 // 0=月 .. 6=日
+    const monday = new Date(now)
+    monday.setDate(monday.getDate() - dowMon)
+    const weekStart = localDate(monday)
+    let todayReviews = 0
+    let todayNew = 0
+    let lastActive: string | null = null
+    let activeDaysThisWeek = 0
+    for (const s of stats) {
+      if (s.reviews <= 0) continue
+      if (s.date === today) {
+        todayReviews = s.reviews
+        todayNew = s.newStarted
+      } else if (!lastActive || s.date > lastActive) {
+        lastActive = s.date
+      }
+      if (s.date >= weekStart && s.date <= today) activeDaysThisWeek++
+    }
+    const gapDays = lastActive
+      ? Math.round((new Date(today).getTime() - new Date(lastActive).getTime()) / 86400000)
+      : null
     const days = last ? (Date.now() - new Date(last).getTime()) / 86400000 : Infinity
-    return { unsaved, neverBacked: !last, days }
+    return { unsaved, neverBacked: !last, days, todayReviews, todayNew, gapDays, activeDaysThisWeek }
   }, [course.id])
+
+  // ── コーチ・メッセージ（端末内データのみ。状況が変わると入れ替わる）
+  const coachMsg = useMemo(
+    () =>
+      pickCoachMessage({
+        now: new Date(),
+        introduced,
+        total,
+        estKnown,
+        mastered: burned,
+        todayReviews: backupInfo?.todayReviews ?? 0,
+        todayNew: backupInfo?.todayNew ?? 0,
+        gapDays: backupInfo?.gapDays ?? null,
+        activeDaysThisWeek: backupInfo?.activeDaysThisWeek ?? 0,
+      }),
+    [introduced, total, estKnown, burned, backupInfo],
+  )
   const showBackupBadge =
     !!backupInfo &&
     backupInfo.unsaved > 0 &&
@@ -192,8 +235,11 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
     <div className="course-screen">
       <header className="topbar">
         <div className="course">
-          <span className="badge">{course.type === 'rail' ? 'RAIL' : course.type.toUpperCase()}</span>
-          <h1 className="course-title">{course.title}</h1>
+          <h1 className="course-name">{course.title}</h1>
+          {/* 状況に応じて変わるコーチ・メッセージ（すべて端末内のデータから。外部送信なし） */}
+          <p className="coach" key={coachMsg} aria-live="polite">
+            {coachMsg}
+          </p>
         </div>
         <div className="meter" aria-label="progress" ref={meterRef}>
           <div className="meter-head">
