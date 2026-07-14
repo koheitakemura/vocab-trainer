@@ -1281,7 +1281,6 @@ body {
   min-width: 720px;
 }
 
-.aw-head,
 .aw-filter,
 .aw-row {
   display: grid;
@@ -1291,15 +1290,17 @@ body {
   padding: 0 16px;
 }
 
-/* 各列フィルター行 */
+/* ヘッダー兼フィルター行（各列の入力そのものが見出し） */
 .aw-filter {
   padding-top: 8px;
   padding-bottom: 8px;
+  background: var(--surface-2);
   border-bottom: 1px solid var(--border);
 }
 
 .aw-filter-count {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 600;
   color: var(--text-faint);
   font-variant-numeric: tabular-nums;
   text-align: right;
@@ -1312,7 +1313,7 @@ body {
   font: inherit;
   font-size: 12px;
   color: var(--text);
-  background: var(--bg);
+  background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 7px;
   padding: 5px 8px;
@@ -1330,6 +1331,13 @@ body {
 
 .aw-fsel {
   cursor: pointer;
+  color: var(--text-faint);
+}
+
+/* 選択中（フィルター適用中）の列はアクセント色で分かるように */
+.aw-fsel.on {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
 }
 
 .aw-empty {
@@ -1337,15 +1345,6 @@ body {
   text-align: center;
   color: var(--text-faint);
   font-size: 13px;
-}
-
-.aw-head {
-  height: 36px;
-  font-size: 11px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text-faint);
-  border-bottom: 1px solid var(--border);
 }
 
 .aw-row {

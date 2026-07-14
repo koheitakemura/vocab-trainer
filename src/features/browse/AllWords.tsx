@@ -70,22 +70,16 @@ export function AllWords({ cards }: { cards: VocabCard[] }) {
   return (
     <div className="allwords-scroll">
       <div className="allwords">
-        <div className="aw-head">
-          <span>#</span>
-          <span>Word</span>
-          <span>Reading</span>
-          <span>Meaning</span>
-          <span>Category</span>
-          <span>Status</span>
-        </div>
-
+        {/* ヘッダーとフィルターを1行に統合：各列のフィルター自体が見出し（列名＝プレースホルダー） */}
         <div className="aw-filter">
-          <span className="aw-filter-count">{anyFilter ? `${filtered.length}` : ''}</span>
-          <input className="aw-fin" placeholder="word…" value={fWord} onChange={(e) => setFWord(e.target.value)} aria-label="Filter by word" />
-          <input className="aw-fin" placeholder="reading…" value={fReading} onChange={(e) => setFReading(e.target.value)} aria-label="Filter by reading" />
-          <input className="aw-fin" placeholder="meaning…" value={fMeaning} onChange={(e) => setFMeaning(e.target.value)} aria-label="Filter by meaning" />
-          <select className="aw-fsel" value={fCat} onChange={(e) => setFCat(e.target.value)} aria-label="Filter by category">
-            <option value="">All</option>
+          <span className="aw-filter-count" title={anyFilter ? 'matching words' : undefined}>
+            {anyFilter ? filtered.length : '#'}
+          </span>
+          <input className="aw-fin" placeholder="Word" value={fWord} onChange={(e) => setFWord(e.target.value)} aria-label="Filter by word" />
+          <input className="aw-fin" placeholder="Reading" value={fReading} onChange={(e) => setFReading(e.target.value)} aria-label="Filter by reading" />
+          <input className="aw-fin" placeholder="Meaning" value={fMeaning} onChange={(e) => setFMeaning(e.target.value)} aria-label="Filter by meaning" />
+          <select className={`aw-fsel${fCat ? ' on' : ''}`} value={fCat} onChange={(e) => setFCat(e.target.value)} aria-label="Filter by category">
+            <option value="">Category</option>
             {catGroups.map(({ group, cats }) => (
               <optgroup key={group} label={GROUP_LABEL[group]}>
                 {cats.map((c) => (
@@ -96,8 +90,8 @@ export function AllWords({ cards }: { cards: VocabCard[] }) {
               </optgroup>
             ))}
           </select>
-          <select className="aw-fsel" value={fStatus} onChange={(e) => setFStatus(e.target.value)} aria-label="Filter by status">
-            <option value="">All</option>
+          <select className={`aw-fsel${fStatus ? ' on' : ''}`} value={fStatus} onChange={(e) => setFStatus(e.target.value)} aria-label="Filter by status">
+            <option value="">Status</option>
             {STATUS_OPTIONS.map((s) => (
               <option key={s.value} value={s.value}>
                 {s.label}
