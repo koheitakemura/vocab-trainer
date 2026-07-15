@@ -63,6 +63,9 @@ export const ja: UIStrings = {
   nextCard: '次のカード →',
   close: '閉じる',
 
+  // 語根表示
+  rootLabel: '語根',
+
   // 単語一覧のフィルター・状態
   statusNew: '未学習',
   statusLearning: '学習中',

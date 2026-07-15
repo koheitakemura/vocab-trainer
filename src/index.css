@@ -1248,6 +1248,16 @@ body {
   text-align: center;
 }
 
+/* 語根の控えめな併記（タガログ語コース専用・root がある語だけ描画される）。 */
+.tile-root {
+  font-size: 10px;
+  color: var(--text-faint);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .tile-grade {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2011,6 +2021,13 @@ body {
   font-size: 16px;
   text-align: center;
   color: var(--text);
+}
+
+/* 語根の控えめな併記（タガログ語コース専用・root がある語だけ描画される）。 */
+.focus-root {
+  font-size: 12px;
+  color: var(--text-faint);
+  text-align: center;
 }
 
 .focus-example {

@@ -88,6 +88,9 @@ export interface UIStrings {
   nextCard: string
   close: string
 
+  // ── 語根表示（StudyGrid.tsx・FocusSheet.tsx。タガログ語コース専用・VocabCard.root がある語だけ）
+  rootLabel: string
+
   // ── 単語一覧のフィルター・状態（AllWords.tsx）
   statusNew: string
   statusLearning: string

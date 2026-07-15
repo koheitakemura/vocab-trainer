@@ -64,6 +64,9 @@ export const en: UIStrings = {
   nextCard: 'Next card →',
   close: 'Close',
 
+  // 語根表示
+  rootLabel: 'Root',
+
   // 単語一覧のフィルター・状態
   statusNew: 'New',
   statusLearning: 'Learning',

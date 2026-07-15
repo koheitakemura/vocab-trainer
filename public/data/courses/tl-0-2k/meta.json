@@ -1,0 +1,35 @@
+{
+  "id": "tl-0-2k",
+  "title": "Tagalog 0 → 2,000",
+  "learningLanguage": "Tagalog",
+  "glossLanguage": "Japanese",
+  "uiLanguage": "ja",
+  "type": "rail",
+  "band": {
+    "from": 0,
+    "to": 2000
+  },
+  "sources": [
+    {
+      "name": "McFarland (1989) Tagalog frequency list",
+      "url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Tagalog/Top_2,000_most_frequent_headwords_(1989)",
+      "license": "CC BY-SA",
+      "licenseUrl": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+      "note": "Curtis D. McFarland's 1989 frequency list of the 2,000 most frequent Tagalog headwords, republished on Wiktionary. Word selection and frequency ranking for this course come from this list (it is the structural upper bound: the original has 2,000 entries)."
+    },
+    {
+      "name": "kaikki.org (Wiktextract structured extract of Wiktionary)",
+      "url": "https://kaikki.org/dictionary/Tagalog/index.html",
+      "license": "CC BY-SA",
+      "licenseUrl": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+      "note": "Machine-readable extraction of the Tagalog Wiktionary, used for IPA, reference glosses, and accent-marked headword forms."
+    },
+    {
+      "name": "Tatoeba.org",
+      "url": "https://tatoeba.org",
+      "license": "CC BY 2.0 FR",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "note": "Tagalog-English example sentence pairs."
+    }
+  ]
+}

@@ -192,6 +192,11 @@ function Tile({
               {romaji && <span className="tile-romaji"> · {romaji}</span>}
             </span>
             <FitGloss text={c.gloss} />
+            {c.root && (
+              <div className="tile-root">
+                {t.rootLabel}: {c.root}
+              </div>
+            )}
           </>
         ) : (
           <div className="tile-hw">{c.headword}</div>

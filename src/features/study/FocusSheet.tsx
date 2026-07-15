@@ -76,6 +76,11 @@ export function FocusSheet({
                 {romaji && <span className="focus-romaji"> · {romaji}</span>}
               </div>
               <div className="focus-gloss">{c.gloss}</div>
+              {c.root && (
+                <div className="focus-root">
+                  {t.rootLabel}: {c.root}
+                </div>
+              )}
               {example && (
                 <div className="focus-example">
                   <div>{example.text}</div>

@@ -8,7 +8,7 @@ export type CourseId =
   | 'ja-3-10k' // D: 日本語 3k→10k（cloze 主軸）
   | 'ja-10-30k' // E: 日本語 10k→30k（較正＋マイニング）
   | 'en-10-30k' // A: 英語 10k→30k（Kohei）
-  | 'tl-0-3k' // B: タガログ語 0→3k（Kohei）
+  | 'tl-0-2k' // B: タガログ語 0→2k（Kohei。判断ログ#20で実質2,000語に確定）
 
 export type CourseType = 'rail' | 'cloze' | 'calibrate-mine'
 
@@ -61,6 +61,11 @@ export interface VocabCard {
   gloss: string
   /** 品詞 */
   pos: string
+  /**
+   * 語根（タガログ語コース専用・任意）。見出し語が接辞付きの活用形（mag-/-um-/-in 型）の
+   * 場合だけ、派生元の語根を入れる。無ければ何も表示しない（他コースは常に未設定でよい）。
+   */
+  root?: string
   examples: Example[]
   /** 頻度ランク（小さいほど高頻度＝先に出す） */
   frequencyRank: number

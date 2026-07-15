@@ -1,0 +1,7 @@
+{
+  "bands": [
+    "words-00000-01000.json",
+    "words-01000-02000.json"
+  ],
+  "wordCount": 2000
+}
