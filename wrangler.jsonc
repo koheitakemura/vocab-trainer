@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers（静的アセット）へのデプロイ設定。
+  // name は既存 Worker と一致させること（= vocab-trainer.takemura-kohei.workers.dev）。
+  // 名前を変えると別 Worker が作られ、Cloudflare Access のログインゲートが外れるので変更しない。
+  "name": "vocab-trainer",
+  "compatibility_date": "2026-07-15",
+  "assets": {
+    // Vite のビルド成果物。CI で `npm run build` 後に生成される。
+    "directory": "./dist"
+  }
+}
