@@ -29,4 +29,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # v4 固定。既定の 3.90.0 は「main 無しの静的アセット専用 Worker」を未サポートで
+          # "Missing entry-point" になるため。
+          wranglerVersion: "4.110.0"
           command: deploy
