@@ -1,17 +1,41 @@
 import { useEffect, useState } from 'react'
-import type { Course, VocabCard } from './types'
+import type { Course, CourseId, VocabCard } from './types'
 import { repository } from './data/courseRepository'
 import { CourseScreen } from './features/CourseScreen'
+import { AVAILABLE_COURSES } from './data/courseRegistry'
+import { safeGet, safeSet } from './store/safeStorage'
+import { useStrings } from './text/i18n'
 
-/** MVP はまず ja-0-3k（リリース①候補）を表示。コース選択は後で追加。 */
-const COURSE_ID = 'ja-0-3k' as const
+const COURSE_ID_KEY = 'vt:courseId'
+
+/** 前回選んだコースを復元。レジストリから消えた/壊れた値は無視して先頭コースへ落とす。 */
+function loadInitialCourseId(): CourseId {
+  const saved = safeGet(COURSE_ID_KEY)
+  const found = AVAILABLE_COURSES.find((c) => c.id === saved)
+  return (found ?? AVAILABLE_COURSES[0]).id
+}
+
+/**
+ * boot/loading 画面はコース本体（meta.json）を待たずに出る。uiLanguage だけは
+ * レジストリ（同期・軽量）から先に分かるので、選択中コースの言語で出し分ける。
+ */
+function uiLanguageOf(courseId: CourseId) {
+  return (AVAILABLE_COURSES.find((c) => c.id === courseId) ?? AVAILABLE_COURSES[0]).uiLanguage
+}
 
 export default function App() {
+  const [courseId, setCourseId] = useState<CourseId>(loadInitialCourseId)
   const [course, setCourse] = useState<Course | null>(null)
   const [cards, setCards] = useState<VocabCard[]>([])
   const [loading, setLoading] = useState(true)
   const [failed, setFailed] = useState(false)
   const [retryNonce, setRetryNonce] = useState(0)
+  const t = useStrings(uiLanguageOf(courseId))
+
+  const handleSelectCourse = (id: CourseId) => {
+    safeSet(COURSE_ID_KEY, id)
+    setCourseId(id)
+  }
 
   useEffect(() => {
     let active = true
@@ -23,7 +47,7 @@ export default function App() {
       // ここで catch しない限り「Loading…」のまま永久に固まる（実際に発生していたバグ）。
       // 2回目以降は Service Worker の precache が効くのでオフラインでもここには来ない。
       try {
-        const [c, cs] = await Promise.all([repository.getCourse(COURSE_ID), repository.getCards(COURSE_ID)])
+        const [c, cs] = await Promise.all([repository.getCourse(courseId), repository.getCards(courseId)])
         if (!active) return
         setCourse(c)
         setCards(cs)
@@ -39,19 +63,26 @@ export default function App() {
     return () => {
       active = false
     }
-  }, [retryNonce])
+  }, [courseId, retryNonce])
 
   if (failed)
     return (
       <div className="boot">
         <div className="boot-msg">
-          <p>Couldn’t load the course data. Check your connection and retry.</p>
+          <p>{t.bootError}</p>
           <button className="btn primary" onClick={() => setRetryNonce((n) => n + 1)}>
-            Retry
+            {t.retry}
           </button>
         </div>
       </div>
     )
-  if (loading || !course) return <div className="boot">Loading…</div>
-  return <CourseScreen course={course} cards={cards} />
+  if (loading || !course) return <div className="boot">{t.loading}</div>
+  return (
+    <CourseScreen
+      course={course}
+      cards={cards}
+      courses={AVAILABLE_COURSES}
+      onSelectCourse={handleSelectCourse}
+    />
+  )
 }

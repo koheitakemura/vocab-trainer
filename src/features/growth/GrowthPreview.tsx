@@ -52,11 +52,11 @@ export function GrowthPreview() {
     <div style={{ maxWidth: 1120, margin: '0 auto', padding: 'clamp(24px, 5vw, 56px) clamp(20px, 5vw, 64px)', display: 'grid', gap: 40 }}>
       <div>
         <p style={{ color: 'var(--text-faint)', fontSize: 12, margin: '0 0 8px' }}>Rich (45 days)</p>
-        <GrowthView series={mockSeries()} />
+        <GrowthView series={mockSeries()} uiLanguage="en" />
       </div>
       <div>
         <p style={{ color: 'var(--text-faint)', fontSize: 12, margin: '0 0 8px' }}>Minimal (2 days — early state)</p>
-        <GrowthView series={minimalSeries()} />
+        <GrowthView series={minimalSeries()} uiLanguage="en" />
       </div>
     </div>
   )

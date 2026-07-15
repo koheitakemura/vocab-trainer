@@ -4,6 +4,7 @@ import type { VocabCard, WordStatus } from '../../types'
 import { db } from '../../store/db'
 import { getRomaji } from '../../text/romaji'
 import { CATEGORIES, CATEGORY_BY_KEY, GROUP_LABEL, GROUP_ORDER } from '../../data/categories'
+import { useStrings, type UiLanguage, type UIStrings } from '../../text/i18n'
 
 type StatusGroup = 'new' | 'learning' | 'known' | 'mastered'
 
@@ -14,17 +15,25 @@ function statusGroup(s: WordStatus): StatusGroup {
   return 'learning'
 }
 
-const STATUS_OPTIONS: { value: StatusGroup; label: string }[] = [
-  { value: 'new', label: 'New' },
-  { value: 'learning', label: 'Learning' },
-  { value: 'known', label: 'Known' },
-  { value: 'mastered', label: 'Mastered' },
-]
+/** ステータスのピル表示ラベル（新規/学習中/既知/卒業）。採点ラベル・単語一覧フィルターとキーを共有する */
+function statusLabel(s: StatusGroup, t: UIStrings): string {
+  if (s === 'new') return t.statusNew
+  if (s === 'learning') return t.statusLearning
+  if (s === 'known') return t.statusKnown
+  return t.mastered
+}
 
 const norm = (s: string) => s.toLowerCase().trim()
 
 /** 案④ Dense List — コースの全語を一覧俯瞰。カテゴリー列＋各列フィルター付き。行クリックで例文を展開。 */
-export function AllWords({ cards }: { cards: VocabCard[] }) {
+export function AllWords({ cards, uiLanguage }: { cards: VocabCard[]; uiLanguage: UiLanguage }) {
+  const t = useStrings(uiLanguage)
+  const STATUS_OPTIONS: { value: StatusGroup; label: string }[] = [
+    { value: 'new', label: t.statusNew },
+    { value: 'learning', label: t.statusLearning },
+    { value: 'known', label: t.statusKnown },
+    { value: 'mastered', label: t.mastered },
+  ]
   const statusById = useLiveQuery(
     async () => {
       const rows = await db.progress.toArray()
@@ -72,14 +81,14 @@ export function AllWords({ cards }: { cards: VocabCard[] }) {
       <div className="allwords">
         {/* ヘッダーとフィルターを1行に統合：各列のフィルター自体が見出し（列名＝プレースホルダー） */}
         <div className="aw-filter">
-          <span className="aw-filter-count" title={anyFilter ? 'matching words' : undefined}>
+          <span className="aw-filter-count" title={anyFilter ? t.matchingWords : undefined}>
             {anyFilter ? filtered.length : '#'}
           </span>
-          <input className="aw-fin" placeholder="Word" value={fWord} onChange={(e) => setFWord(e.target.value)} aria-label="Filter by word" />
-          <input className="aw-fin" placeholder="Reading" value={fReading} onChange={(e) => setFReading(e.target.value)} aria-label="Filter by reading" />
-          <input className="aw-fin" placeholder="Meaning" value={fMeaning} onChange={(e) => setFMeaning(e.target.value)} aria-label="Filter by meaning" />
-          <select className={`aw-fsel${fCat ? ' on' : ''}`} value={fCat} onChange={(e) => setFCat(e.target.value)} aria-label="Filter by category">
-            <option value="">Category</option>
+          <input className="aw-fin" placeholder={t.filterWord} value={fWord} onChange={(e) => setFWord(e.target.value)} aria-label={t.filterByWord} />
+          <input className="aw-fin" placeholder={t.filterReading} value={fReading} onChange={(e) => setFReading(e.target.value)} aria-label={t.filterByReading} />
+          <input className="aw-fin" placeholder={t.filterMeaning} value={fMeaning} onChange={(e) => setFMeaning(e.target.value)} aria-label={t.filterByMeaning} />
+          <select className={`aw-fsel${fCat ? ' on' : ''}`} value={fCat} onChange={(e) => setFCat(e.target.value)} aria-label={t.filterByCategory}>
+            <option value="">{t.filterCategory}</option>
             {catGroups.map(({ group, cats }) => (
               <optgroup key={group} label={GROUP_LABEL[group]}>
                 {cats.map((c) => (
@@ -90,8 +99,8 @@ export function AllWords({ cards }: { cards: VocabCard[] }) {
               </optgroup>
             ))}
           </select>
-          <select className={`aw-fsel${fStatus ? ' on' : ''}`} value={fStatus} onChange={(e) => setFStatus(e.target.value)} aria-label="Filter by status">
-            <option value="">Status</option>
+          <select className={`aw-fsel${fStatus ? ' on' : ''}`} value={fStatus} onChange={(e) => setFStatus(e.target.value)} aria-label={t.filterByStatus}>
+            <option value="">{t.filterStatus}</option>
             {STATUS_OPTIONS.map((s) => (
               <option key={s.value} value={s.value}>
                 {s.label}
@@ -101,7 +110,7 @@ export function AllWords({ cards }: { cards: VocabCard[] }) {
         </div>
 
         {filtered.length === 0 ? (
-          <div className="aw-empty">No words match these filters.</div>
+          <div className="aw-empty">{t.noWordsMatch}</div>
         ) : (
           filtered.map((c) => {
             const group = statusGroup(statusById?.get(c.id) ?? 'new')
@@ -128,7 +137,7 @@ export function AllWords({ cards }: { cards: VocabCard[] }) {
                       <span className="aw-cat-none">—</span>
                     )}
                   </span>
-                  <span className={`aw-pill st-${group}`}>{group}</span>
+                  <span className={`aw-pill st-${group}`}>{statusLabel(group, t)}</span>
                 </div>
                 {isOpen && (
                   <div className="aw-ex">

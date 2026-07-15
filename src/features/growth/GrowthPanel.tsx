@@ -4,6 +4,7 @@ import { db } from '../../store/db'
 import { localDate } from '../../store/progress'
 import { buildGrowth } from './growth'
 import { GrowthView } from './GrowthView'
+import { useStrings } from '../../text/i18n'
 
 /**
  * 成長タブのコンテナ。dailyStats（日次ログ）＋summary（現在の真値）を読み、
@@ -11,6 +12,7 @@ import { GrowthView } from './GrowthView'
  * summary は末尾（today）の端点を真値に固定するために使う（ヘッダーの数字と揃う）。
  */
 export function GrowthPanel({ course }: { course: Course }) {
+  const t = useStrings(course.uiLanguage)
   const series = useLiveQuery(async () => {
     const [stats, summary] = await Promise.all([
       db.dailyStats.where('courseId').equals(course.id).toArray(),
@@ -25,6 +27,6 @@ export function GrowthPanel({ course }: { course: Course }) {
     return buildGrowth(stats, now, localDate(new Date()))
   }, [course.id])
 
-  if (!series) return <div className="hint">Loading growth…</div>
-  return <GrowthView series={series} />
+  if (!series) return <div className="hint">{t.loadingGrowth}</div>
+  return <GrowthView series={series} uiLanguage={course.uiLanguage} />
 }

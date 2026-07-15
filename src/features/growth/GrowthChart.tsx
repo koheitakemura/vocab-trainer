@@ -2,6 +2,7 @@ import { useCallback, useLayoutEffect, useRef, useState } from 'react'
 import type { GrowthPoint } from './growth'
 import { parseDate } from './growth'
 import { fmtNum } from '../../text/format'
+import { useStrings, type UiLanguage } from '../../text/i18n'
 
 /**
  * 成長曲線チャート（inline SVG・描画専用の純粋コンポーネント）。
@@ -68,7 +69,8 @@ function mmdd(date: string): string {
   return `${d.getMonth() + 1}/${d.getDate()}`
 }
 
-export function GrowthChart({ points }: { points: GrowthPoint[] }) {
+export function GrowthChart({ points, uiLanguage }: { points: GrowthPoint[]; uiLanguage: UiLanguage }) {
+  const t = useStrings(uiLanguage)
   const svgRef = useRef<SVGSVGElement>(null)
   const tipRef = useRef<HTMLDivElement>(null)
   const [active, setActive] = useState<number | null>(null)
@@ -174,7 +176,7 @@ export function GrowthChart({ points }: { points: GrowthPoint[] }) {
         viewBox={`0 0 ${VB_W} ${VB_H}`}
         className="growth-svg"
         role="img"
-        aria-label={`Vocabulary growth: ${fmtNum(last.started)} words started, ${fmtNum(last.known)} known`}
+        aria-label={t.growthChartAria(last.started, last.known)}
       >
         <defs>
           <linearGradient id="growth-known-fill" x1="0" y1="0" x2="0" y2="1">
@@ -289,11 +291,11 @@ export function GrowthChart({ points }: { points: GrowthPoint[] }) {
           <div className="growth-tip-date">{mmdd(ap.date)}</div>
           <div className="growth-tip-row">
             <span className="growth-tip-dot growth-tip-dot--started" />
-            Started <strong>{fmtNum(ap.started)}</strong>
+            {t.growthLegendStarted} <strong>{fmtNum(ap.started)}</strong>
           </div>
           <div className="growth-tip-row">
             <span className="growth-tip-dot growth-tip-dot--known" />
-            Known <strong>{fmtNum(ap.known)}</strong>
+            {t.growthLegendKnown} <strong>{fmtNum(ap.known)}</strong>
           </div>
         </div>
       )}

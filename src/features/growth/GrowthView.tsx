@@ -1,13 +1,15 @@
 import type { GrowthSeries } from './growth'
 import { GrowthChart } from './GrowthChart'
 import { fmtNum } from '../../text/format'
+import { useStrings, type UiLanguage } from '../../text/i18n'
 
 /**
  * 成長タブの見た目（純粋・presentational）。見出し数字＋凡例＋成長曲線。
  * データが少ないうち（1点以下）は曲線を描かず「ここから伸びる」導入状態を出す
  * （記録は使うほど貯まる＝空グラフで寂しく見せない）。
  */
-export function GrowthView({ series }: { series: GrowthSeries }) {
+export function GrowthView({ series, uiLanguage }: { series: GrowthSeries; uiLanguage: UiLanguage }) {
+  const t = useStrings(uiLanguage)
   const { points, started, known, mastered, activeDays, currentStreak, longestStreak } = series
   const hasCurve = points.length >= 2
   const neverStudied = started === 0 && known === 0
@@ -18,25 +20,25 @@ export function GrowthView({ series }: { series: GrowthSeries }) {
       <div className="growth-stats">
         <div className="growth-stat">
           <span className="growth-stat-num growth-stat-num--started">{fmtNum(started)}</span>
-          <span className="growth-stat-label">Words started</span>
+          <span className="growth-stat-label">{t.statsWordsStarted}</span>
         </div>
         <div className="growth-stat">
           <span className="growth-stat-num growth-stat-num--known">{fmtNum(known)}</span>
-          <span className="growth-stat-label">Words known</span>
+          <span className="growth-stat-label">{t.wordsKnown}</span>
         </div>
         {mastered > 0 && (
           <div className="growth-stat">
             <span className="growth-stat-num growth-stat-num--mastered">{fmtNum(mastered)}</span>
-            <span className="growth-stat-label">Mastered</span>
+            <span className="growth-stat-label">{t.mastered}</span>
           </div>
         )}
         <div className="growth-stat">
           <span className="growth-stat-num">{currentStreak > 0 ? `🔥 ${currentStreak}` : '0'}</span>
-          <span className="growth-stat-label">Day streak</span>
+          <span className="growth-stat-label">{t.dayStreak}</span>
         </div>
         <div className="growth-stat">
           <span className="growth-stat-num">{activeDays}</span>
-          <span className="growth-stat-label">Days studied</span>
+          <span className="growth-stat-label">{t.daysStudied}</span>
         </div>
       </div>
 
@@ -44,33 +46,28 @@ export function GrowthView({ series }: { series: GrowthSeries }) {
         <>
           <div className="growth-legend">
             <span className="growth-legend-item">
-              <span className="growth-legend-swatch growth-legend-swatch--started" /> Started
+              <span className="growth-legend-swatch growth-legend-swatch--started" /> {t.growthLegendStarted}
             </span>
             <span className="growth-legend-item">
-              <span className="growth-legend-swatch growth-legend-swatch--known" /> Known
+              <span className="growth-legend-swatch growth-legend-swatch--known" /> {t.growthLegendKnown}
             </span>
-            {longestStreak > 1 && <span className="growth-legend-best">Best streak · {longestStreak} days</span>}
+            {longestStreak > 1 && <span className="growth-legend-best">{t.bestStreak(longestStreak)}</span>}
           </div>
-          <GrowthChart points={points} />
-          <p className="growth-caption">
-            The green area is what you know; the gap above it is what you’re still learning. Keep showing up and watch
-            it climb.
-          </p>
+          <GrowthChart points={points} uiLanguage={uiLanguage} />
+          <p className="growth-caption">{t.growthCaption}</p>
         </>
       ) : (
         <div className="growth-empty">
           <div className="growth-empty-emoji">🌱</div>
           {neverStudied ? (
             <>
-              <p className="growth-empty-title">Your growth curve starts here</p>
-              <p className="growth-empty-sub">Study a few words and come back — this page fills in a little more every day.</p>
+              <p className="growth-empty-title">{t.growthEmptyStartTitle}</p>
+              <p className="growth-empty-sub">{t.growthEmptyStartSub}</p>
             </>
           ) : (
             <>
-              <p className="growth-empty-title">You’re on your way</p>
-              <p className="growth-empty-sub">
-                Come back after another day of studying to watch your curve start to climb. Every day you show up adds a point.
-              </p>
+              <p className="growth-empty-title">{t.growthEmptyOnWayTitle}</p>
+              <p className="growth-empty-sub">{t.growthEmptyOnWaySub}</p>
             </>
           )}
         </div>

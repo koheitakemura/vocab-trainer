@@ -8,5 +8,32 @@
   "band": {
     "from": 0,
     "to": 3000
-  }
+  },
+  "sources": [
+    {
+      "name": "JMdict/EDICT dictionary files",
+      "url": "https://www.edrdg.org/edrdg/licence.html",
+      "license": "EDRDG licence",
+      "note": "Property of the Electronic Dictionary Research and Development Group (EDRDG); used in conformance with the Group's licence."
+    },
+    {
+      "name": "Tatoeba.org",
+      "url": "https://tatoeba.org",
+      "license": "CC BY 2.0 FR",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "note": "Example sentences."
+    },
+    {
+      "name": "tanos.co.uk JLPT vocabulary list",
+      "url": "https://www.tanos.co.uk/jlpt/",
+      "license": "CC BY",
+      "note": "By Jonathan Waller, via Bluskyo/JLPT_Vocabulary (github.com/Bluskyo/JLPT_Vocabulary)."
+    },
+    {
+      "name": "wordfreq",
+      "url": "https://github.com/rspeer/wordfreq",
+      "license": "MIT",
+      "note": "Word frequency ordering."
+    }
+  ]
 }

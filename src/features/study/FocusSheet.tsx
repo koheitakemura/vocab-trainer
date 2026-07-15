@@ -4,6 +4,7 @@ import { gradeLevel } from '../../srs/levels'
 import { getRomaji } from '../../text/romaji'
 import type { BoardTile } from './useStudyBoard'
 import { TileMark } from './TileMark'
+import { useStrings, type UiLanguage } from '../../text/i18n'
 
 /**
  * スマホ片手フォーカスモード（ボトムシート採点）。
@@ -20,13 +21,16 @@ export function FocusSheet({
   onGrade,
   onNext,
   onClose,
+  uiLanguage,
 }: {
   tile: BoardTile
   hasNext: boolean
   onGrade: (g: ReviewGrade, rect: DOMRect) => void
   onNext: () => void
   onClose: () => void
+  uiLanguage: UiLanguage
 }) {
+  const t = useStrings(uiLanguage)
   const [revealed, setRevealed] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
   const sheetRef = useRef<HTMLDivElement>(null)
@@ -63,7 +67,7 @@ export function FocusSheet({
       <div className="focus-backdrop" onClick={onClose} />
       <div className="focus-sheet" role="dialog" aria-modal="true" aria-label={c.headword} ref={sheetRef} tabIndex={-1}>
         <div className={`focus-card${level ? ` g-${level}` : ''}`} ref={cardRef} onClick={() => setRevealed(true)}>
-          <TileMark grade={tile.grade} levelCounts={tile.levelCounts} />
+          <TileMark grade={tile.grade} levelCounts={tile.levelCounts} uiLanguage={uiLanguage} />
           <div className="focus-hw">{c.headword}</div>
           {revealed ? (
             <>
@@ -80,28 +84,28 @@ export function FocusSheet({
               )}
             </>
           ) : (
-            <div className="focus-tap-hint">Tap to reveal</div>
+            <div className="focus-tap-hint">{t.tapToReveal}</div>
           )}
         </div>
         <div className="focus-levels">
           <button type="button" className="focus-level lvl-good" onClick={() => fire(revealed ? 'good' : 'easy')}>
-            I know
+            {t.gradeKnown}
           </button>
           <button type="button" className="focus-level lvl-hard" onClick={() => fire('hard')}>
-            Fuzzy
+            {t.gradeFuzzy}
           </button>
           <button type="button" className="focus-level lvl-again" onClick={() => fire('again')}>
-            Studying
+            {t.gradeStudying}
           </button>
         </div>
         <div className="focus-footer">
           {hasNext && (
             <button type="button" className="btn primary focus-next" onClick={onNext}>
-              Next card →
+              {t.nextCard}
             </button>
           )}
           <button type="button" className="btn ghost focus-close" onClick={onClose}>
-            Close
+            {t.close}
           </button>
         </div>
       </div>

@@ -5,9 +5,10 @@ import { db } from '../../store/db'
 import { safeGet, safeSet } from '../../store/safeStorage'
 import { isKnownRow } from '../../srs/levels'
 import { retrievabilityOf } from '../../srs/scheduler'
-import { coverageAt } from '../../data/coverage'
+import { courseProgress } from '../../data/coverage'
 import { fmtNum } from '../../text/format'
 import { CATEGORIES, GROUP_LABEL, GROUP_ORDER } from '../../data/categories'
+import { useStrings } from '../../text/i18n'
 
 type JlptLevel = NonNullable<VocabCard['jlptLevel']>
 const JLPT_ORDER: JlptLevel[] = ['N5', 'N4', 'N3', 'N2', 'N1']
@@ -18,6 +19,7 @@ const JLPT_ORDER: JlptLevel[] = ['N5', 'N4', 'N3', 'N2', 'N1']
  * データはこのタブを開いている間だけコースの progress 行を1回スキャンする（タブ外コストゼロ）。
  */
 export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard[] }) {
+  const t = useStrings(course.uiLanguage)
   const totals = useMemo(() => {
     const m = new Map<JlptLevel, number>()
     for (const c of cards) if (c.jlptLevel) m.set(c.jlptLevel, (m.get(c.jlptLevel) ?? 0) + 1)
@@ -86,54 +88,71 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
   )
 
   const levels = JLPT_ORDER.filter((l) => (totals.get(l) ?? 0) > 0)
-  if (!data) return <div className="hint">Loading stats…</div>
+  if (!data) return <div className="hint">{t.loadingStats}</div>
 
   const est = Math.round(data.sumR)
   const earned = levels.filter((l) => completed.includes(l) || safeGet(`vt:badge:${course.id}:${l}`) === '1')
+  // コース種別に応じた進捗の意味づけ（1.5.4）。rail/cloze は被覆率%、calibrate-mine は語数＋深度。
+  const progress = courseProgress(course, est)
 
   return (
     <div className="stats-panel">
       <div className="stats-overview">
         <span>
-          Words started <strong>{fmtNum(data.started)}</strong>
+          {t.statsWordsStarted} <strong>{fmtNum(data.started)}</strong>
         </span>
         <span>
-          In long-term memory <strong>{fmtNum(est)}</strong>
+          {t.statsInLongTermMemory} <strong>{fmtNum(est)}</strong>
         </span>
-        <span>
-          Everyday conversation <strong>{coverageAt(est)}%</strong>
-        </span>
+        {progress.mode === 'coverage-pct' ? (
+          <span>
+            {progress.domain === 'written' ? t.statsWrittenText : t.statsEverydayConversation}{' '}
+            <strong>{progress.pct}%</strong>
+          </span>
+        ) : (
+          progress.depth != null && (
+            <span>
+              {t.statsCollocationDepth} <strong>{progress.depth}%</strong>
+            </span>
+          )
+        )}
         {data.mastered > 0 && (
           <span>
-            Mastered <strong className="stats-gold">{fmtNum(data.mastered)}</strong>
+            {t.mastered} <strong className="stats-gold">{fmtNum(data.mastered)}</strong>
           </span>
         )}
       </div>
 
       {levels.length > 0 && (
         <>
-          <h3 className="stats-heading">JLPT vocabulary</h3>
+          <h3 className="stats-heading">{t.jlptVocabulary}</h3>
           <div className="jlpt-rings">
             {levels.map((l) => (
-              <JlptRing key={l} level={l} known={data.known.get(l) ?? 0} total={totals.get(l) ?? 0} />
+              <JlptRing
+                key={l}
+                level={l}
+                known={data.known.get(l) ?? 0}
+                total={totals.get(l) ?? 0}
+                ariaLabel={t.jlptRingAria(l, data.known.get(l) ?? 0, totals.get(l) ?? 0)}
+              />
             ))}
           </div>
           {earned.length > 0 && (
             <div className="badge-row">
               {earned.map((l) => (
                 <span key={l} className="jlpt-badge">
-                  🏅 {l} vocabulary complete
+                  {t.jlptComplete(l)}
                 </span>
               ))}
             </div>
           )}
-          <p className="jlpt-disclaimer">Level mapping is based on unofficial community JLPT word lists.</p>
+          <p className="jlpt-disclaimer">{t.jlptDisclaimer}</p>
         </>
       )}
 
       {catGroups.length > 0 && (
         <>
-          <h3 className="stats-heading">Mastery by category</h3>
+          <h3 className="stats-heading">{t.masteryByCategory}</h3>
           {catGroups.map(({ group, cats }) => (
             <div key={group} className="cat-stat-group">
               <div className="cat-stat-grouplabel">{GROUP_LABEL[group]}</div>
@@ -165,7 +184,17 @@ export function StatsPanel({ course, cards }: { course: Course; cards: VocabCard
   )
 }
 
-function JlptRing({ level, known, total }: { level: JlptLevel; known: number; total: number }) {
+function JlptRing({
+  level,
+  known,
+  total,
+  ariaLabel,
+}: {
+  level: JlptLevel
+  known: number
+  total: number
+  ariaLabel: string
+}) {
   const pct = total > 0 ? Math.min(100, Math.floor((known / total) * 100)) : 0
   const complete = total > 0 && known >= total
   return (
@@ -174,7 +203,7 @@ function JlptRing({ level, known, total }: { level: JlptLevel; known: number; to
         className="jlpt-ring-circle"
         style={{ background: `conic-gradient(var(--ring-fill) ${pct}%, var(--ring-track) 0)` }}
         role="img"
-        aria-label={`${level}: ${known} of ${total} words known`}
+        aria-label={ariaLabel}
       >
         <div className="jlpt-ring-hole">
           <div className="jlpt-ring-level">{level}</div>

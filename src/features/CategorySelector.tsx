@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import type { VocabCard } from '../types'
 import { CATEGORIES, GROUP_LABEL, GROUP_ORDER, type CategoryGroup } from '../data/categories'
+import { useStrings, type UiLanguage } from '../text/i18n'
 
 /**
  * カテゴリー別学習のプルダウン。コースに実在するカテゴリーだけを Topics / Grammar に分けて並べ、
@@ -12,11 +13,14 @@ export function CategorySelector({
   cards,
   selected,
   onSelect,
+  uiLanguage,
 }: {
   cards: VocabCard[]
   selected: string | null
   onSelect: (key: string | null) => void
+  uiLanguage: UiLanguage
 }) {
+  const t = useStrings(uiLanguage)
   // カテゴリー別の語数を数え、タクソノミー順に、存在するものだけグループごとに並べる。
   const groups = useMemo(() => {
     const counts = new Map<string, number>()
@@ -36,17 +40,17 @@ export function CategorySelector({
   if (GROUP_ORDER.every((g) => groups[g].length === 0)) return null
 
   return (
-    <label className="cat-select-wrap" title="Study by category">
+    <label className="cat-select-wrap" title={t.studyByCategory}>
       <span className="cat-select-icon" aria-hidden="true">
         ▤
       </span>
       <select
         className={`cat-select${selected ? ' active' : ''}`}
-        aria-label="Study by category"
+        aria-label={t.studyByCategory}
         value={selected ?? ''}
         onChange={(e) => onSelect(e.target.value || null)}
       >
-        <option value="">All categories</option>
+        <option value="">{t.allCategories}</option>
         {GROUP_ORDER.map((g) =>
           groups[g].length > 0 ? (
             <optgroup key={g} label={GROUP_LABEL[g]}>

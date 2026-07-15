@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import { coverageAt } from '../data/coverage'
-import { fmtNum as fmt } from '../text/format'
+import { useStrings, type UiLanguage } from '../text/i18n'
 
 /**
  * 1,000語・2,000語・全語到達の大節目だけに出す全画面ワンショット演出（約3秒・タップで即解除）。
@@ -12,22 +12,25 @@ export function MilestoneOverlay({
   milestone,
   total,
   onClose,
+  uiLanguage,
 }: {
   milestone: number
   total: number
   onClose: () => void
+  uiLanguage: UiLanguage
 }) {
+  const t = useStrings(uiLanguage)
   useEffect(() => {
-    const t = setTimeout(onClose, 3200)
-    return () => clearTimeout(t)
+    const timer = setTimeout(onClose, 3200)
+    return () => clearTimeout(timer)
   }, [onClose])
   const next = milestone >= total ? null : Math.min(milestone + 500, total)
   return createPortal(
     <div className="milestone-overlay" onClick={onClose} role="presentation">
       <div className="milestone-card">
-        <div className="milestone-big">{fmt(milestone)} words started 🎉</div>
-        <div className="milestone-sub">You now recognize {coverageAt(milestone)}% of everyday conversation</div>
-        {next && <div className="milestone-next">Next stop: {fmt(next)}</div>}
+        <div className="milestone-big">{t.milestoneBig(milestone)}</div>
+        <div className="milestone-sub">{t.milestoneSub(coverageAt(milestone))}</div>
+        {next && <div className="milestone-next">{t.milestoneNext(next)}</div>}
       </div>
     </div>,
     document.body,

@@ -22,11 +22,25 @@ export default defineConfig({
       workbox: {
         skipWaiting: true,
         clientsClaim: true,
-        // 既定は js/css/html のみ＝語彙データ（data/courses/**.json）が precache されず
-        // オフラインで起動できなかった。JSON とアイコンも含めて完全オフライン化する
-        // （現状 計約1.3MB・帯ファイルは各400KB程度で workbox の2MB/ファイル上限にも余裕）。
-        // 複数コース時代に「使わないコースまで配る」問題が出たら runtimeCaching へ移行する。
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        // アプリシェル（js/css/html/アイコン）のみ precache。コース語彙データ（json）は
+        // ここに含めない＝含めると全訪問者に全コース分（5コースなら数MB）を無条件配信してしまう。
+        // コース JSON は下の runtimeCaching で「選んだコースだけ」オンデマンドにキャッシュする。
+        globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        runtimeCaching: [
+          {
+            // data/courses/ 配下の json（manifest/meta/categories/coach-sentences/words-*）。
+            // オリジン・base パスに依存しないよう pathname 内の位置で判定する。
+            urlPattern: ({ url }) => /\/data\/courses\/.*\.json$/.test(url.pathname),
+            // コース内容は稀に更新されるため、オンライン時は常に最新を取りにいき
+            // オフライン時のみキャッシュへフォールバックする（NetworkFirst）。
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'course-data',
+              expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
       manifest: {
         name: 'Vocab Trainer',

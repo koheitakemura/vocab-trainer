@@ -1,15 +1,15 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { useLiveQuery } from 'dexie-react-hooks'
-import type { Course, VocabCard } from '../types'
+import type { Course, CourseId, VocabCard } from '../types'
+import type { CourseListing } from '../data/courseRegistry'
 import type { ReviewGrade } from '../srs/scheduler'
 import { db, emptyByGrade } from '../store/db'
 import { ensureSummary, exportProgress, importProgress, localDate, vocabSnapshot } from '../store/progress'
 import { getCoachSentences, type CoachSentence } from '../data/coachSentences'
 import type { GradeOutcome } from './study/useStudyBoard'
 import { safeGet, safeSet } from '../store/safeStorage'
-import { coverageAt } from '../data/coverage'
-import { fmtNum } from '../text/format'
+import { courseProgress } from '../data/coverage'
 import { StudyGrid } from './study/StudyGrid'
 import { AllWords } from './browse/AllWords'
 import { StatsPanel } from './stats/StatsPanel'
@@ -22,12 +22,25 @@ import { MilestoneChip } from './MilestoneChip'
 import { MilestoneOverlay } from './MilestoneOverlay'
 import { CategorySelector } from './CategorySelector'
 import { pickCoachMessage } from './coach'
+import { useStrings } from '../text/i18n'
 
 type Tab = 'study' | 'all' | 'stats' | 'growth'
 
 const EMPTY_BY_GRADE: Record<ReviewGrade, number> = emptyByGrade()
 
-export function CourseScreen({ course, cards }: { course: Course; cards: VocabCard[] }) {
+export function CourseScreen({
+  course,
+  cards,
+  courses,
+  onSelectCourse,
+}: {
+  course: Course
+  cards: VocabCard[]
+  /** 選択可能なコース一覧（1件だけなら切替UIは出さない） */
+  courses: CourseListing[]
+  onSelectCourse: (id: CourseId) => void
+}) {
+  const t = useStrings(course.uiLanguage)
   const [tab, setTab] = useState<Tab>('study')
   // カテゴリー別学習：選択中カテゴリー（null=全体）。盤面に渡す cards をこのレンズで絞る。
   const [category, setCategory] = useState<string | null>(null)
@@ -91,6 +104,9 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
     }
   }, [course.id, estNonce])
   const estKnown = estBase === null ? null : Math.max(0, Math.round(estBase + estDelta))
+  // コース種別に応じた進捗の意味づけ（1.5.4）。rail(0-3k) は従来どおり会話被覆率%、
+  // cloze(3k-10k) は書き言葉被覆率%、calibrate-mine(10k-30k) は語数＋深度の2軸。
+  const progress = estKnown === null ? null : courseProgress(course, estKnown)
   const handleReviewed = useCallback((res: GradeOutcome) => {
     setEstDelta((x) => x + res.deltaR)
     // コーチ文の解禁判定用に既習語集合も追従（known になったら追加、外れたら除去）
@@ -218,8 +234,9 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
         activeDaysThisWeek: backupInfo?.activeDaysThisWeek ?? 0,
         knownIds,
         sentences,
+        course,
       }),
-    [introduced, total, estKnown, burned, backupInfo, knownIds, sentences],
+    [introduced, total, estKnown, burned, backupInfo, knownIds, sentences, course],
   )
   const showBackupBadge =
     !!backupInfo &&
@@ -246,7 +263,7 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
     e.target.value = ''
     setEstNonce((x) => x + 1) // 推定語彙数のベースラインを取り直す
     // 復元は全置換。学習済み行だけを数える（v1 バックアップの未着手行はカウントしない）
-    window.alert(`Restore complete — ${n} studied card(s).`)
+    window.alert(t.restoreComplete(n))
   }
 
   const handleProgressReset = useCallback(() => {
@@ -265,7 +282,23 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
     <div className="course-screen">
       <header className="topbar">
         <div className="course">
-          <h1 className="course-name">{course.title}</h1>
+          {/* コースが1つしかない間はドロップダウンを出さず見出しのまま（選ぶ意味がないUIを避ける） */}
+          {courses.length > 1 ? (
+            <select
+              className="course-select"
+              aria-label={t.selectCourseAria}
+              value={course.id}
+              onChange={(e) => onSelectCourse(e.target.value as CourseId)}
+            >
+              {courses.map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.title}
+                </option>
+              ))}
+            </select>
+          ) : (
+            <h1 className="course-name">{course.title}</h1>
+          )}
           {/* 状況に応じて変わるコーチ・メッセージ（すべて端末内のデータから。外部送信なし）。
               日本語文（既習語だけで構成）のときは下に英訳を添える */}
           <div className="coach-block" key={coachMsg.text} aria-live="polite">
@@ -273,18 +306,18 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
             {coachMsg.sub && <p className="coach-sub">{coachMsg.sub}</p>}
           </div>
         </div>
-        <div className="meter" aria-label="progress" ref={meterRef}>
+        <div className="meter" aria-label={t.meterAria} ref={meterRef}>
           <div className="meter-head">
             <span key={popNonce} className={`meter-num${popNonce ? ' pop' : ''}`}>
               {introduced}
             </span>
             <span className="meter-den">/ {total}</span>
           </div>
-          <div className="meter-label">words started</div>
-          <MeterBreakdown counts={byGrade} burned={burned} />
-          {estKnown !== null && introduced > 0 && (
-            <div className="meter-est" title="Estimated number of words you'd still recall right now, from the FSRS memory model. Distinct from 'words started', which counts every word you've touched. Conversation coverage is an approximate, corpus-based figure.">
-              {fmtNum(estKnown)} words in long-term memory · {coverageAt(estKnown)}% of everyday conversation
+          <div className="meter-label">{t.wordsStarted}</div>
+          <MeterBreakdown counts={byGrade} burned={burned} uiLanguage={course.uiLanguage} />
+          {estKnown !== null && introduced > 0 && progress && (
+            <div className="meter-est" title={t.meterEstTitle}>
+              {t.meterEst(estKnown, progress)}
             </div>
           )}
         </div>
@@ -322,32 +355,32 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
         </div>
       </div>
       {/* チップは情報テキストなので aria-hidden の飾りバーの外に置く（スクリーンリーダーにも読ませる） */}
-      <MilestoneChip introduced={introduced} total={total} />
+      <MilestoneChip introduced={introduced} total={total} uiLanguage={course.uiLanguage} />
 
       <nav className="tabs">
         <button className={`tab${tab === 'study' ? ' on' : ''}`} onClick={() => setTab('study')}>
-          Study
+          {t.tabStudy}
         </button>
         <button className={`tab${tab === 'all' ? ' on' : ''}`} onClick={() => setTab('all')}>
-          All words <span className="tab-count">{total}</span>
+          {t.tabAllWords} <span className="tab-count">{total}</span>
         </button>
         <button className={`tab${tab === 'stats' ? ' on' : ''}`} onClick={() => setTab('stats')}>
-          Stats
+          {t.tabStats}
         </button>
         <button className={`tab${tab === 'growth' ? ' on' : ''}`} onClick={() => setTab('growth')}>
-          Growth
+          {t.tabGrowth}
         </button>
         {tab === 'study' && (
           <div className="tab-tools">
-            <CategorySelector cards={cards} selected={category} onSelect={setCategory} />
+            <CategorySelector cards={cards} selected={category} onSelect={setCategory} uiLanguage={course.uiLanguage} />
             <button
               type="button"
               className="tab-refresh"
               onClick={() => studyRestartRef.current?.()}
-              aria-label="Start another session"
-              title="Start another session"
+              aria-label={t.startAnotherSession}
+              title={t.startAnotherSession}
             >
-              ↻ <span className="tab-refresh-label">Start another session</span>
+              ↻ <span className="tab-refresh-label">{t.startAnotherSession}</span>
             </button>
           </div>
         )}
@@ -362,9 +395,10 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
             onProgressReset={handleProgressReset}
             onBackup={onExport}
             onExposeRestart={exposeStudyRestart}
+            uiLanguage={course.uiLanguage}
           />
         ) : tab === 'all' ? (
-          <AllWords cards={cards} />
+          <AllWords cards={cards} uiLanguage={course.uiLanguage} />
         ) : tab === 'stats' ? (
           <StatsPanel course={course} cards={cards} />
         ) : (
@@ -377,21 +411,26 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
         document.body,
       )}
       {overlayMilestone !== null && (
-        <MilestoneOverlay milestone={overlayMilestone} total={total} onClose={() => setOverlayMilestone(null)} />
+        <MilestoneOverlay
+          milestone={overlayMilestone}
+          total={total}
+          onClose={() => setOverlayMilestone(null)}
+          uiLanguage={course.uiLanguage}
+        />
       )}
 
       <footer className="statusbar">
         <div className="session-info">
           <ThemeToggle />
-          <Credits />
+          <Credits sources={course.sources} uiLanguage={course.uiLanguage} />
         </div>
         <div className="actions">
-          <button className="link" onClick={onExport} title="Download your progress as a JSON file">
-            ⭳ Backup
-            {showBackupBadge && backupInfo && <span className="backup-badge">{backupInfo.unsaved} unsaved</span>}
+          <button className="link" onClick={onExport} title={t.backupTitle}>
+            ⭳ {t.backup}
+            {showBackupBadge && backupInfo && <span className="backup-badge">{t.unsaved(backupInfo.unsaved)}</span>}
           </button>
-          <button className="link" onClick={() => fileRef.current?.click()} title="Restore progress from a JSON file">
-            ⭱ Restore
+          <button className="link" onClick={() => fileRef.current?.click()} title={t.restoreTitle}>
+            ⭱ {t.restore}
           </button>
           <input ref={fileRef} type="file" accept="application/json" hidden onChange={onImportFile} />
         </div>

@@ -1,5 +1,6 @@
 import type { ReviewGrade } from '../../srs/scheduler'
-import { gradeLevel, LEVEL_LABEL, LEVEL_ORDER, type GradeLevel } from '../../srs/levels'
+import { gradeLevel, LEVEL_ORDER, type GradeLevel } from '../../srs/levels'
+import { useStrings, type UiLanguage } from '../../text/i18n'
 
 /** 丸で見せる押下回数の上限（超えた分は "+N" にまとめる。カード右上の限られた幅に収めるため）。 */
 const MAX_DOTS = 6
@@ -8,10 +9,19 @@ const MAX_DOTS = 6
  * カード右上のマーク：これまでの押下回数分の丸（レベル別に色分け）＋直近の評価ラベル。
  * 丸→ラベルの順（Kohei 指定・例:「●●● I know」）。グリッドのタイルとフォーカスシートで共有する。
  */
-export function TileMark({ grade, levelCounts }: { grade?: ReviewGrade; levelCounts?: Record<GradeLevel, number> }) {
+export function TileMark({
+  grade,
+  levelCounts,
+  uiLanguage,
+}: {
+  grade?: ReviewGrade
+  levelCounts?: Record<GradeLevel, number>
+  uiLanguage: UiLanguage
+}) {
+  const t = useStrings(uiLanguage)
   const level = grade ? gradeLevel(grade) : null
   const markKind = level ?? 'new'
-  const markLabel = level ? LEVEL_LABEL[level] : 'New'
+  const markLabel = level ? (level === 'known' ? t.gradeKnown : level === 'fuzzy' ? t.gradeFuzzy : t.gradeStudying) : t.statusNew
 
   const dots: { level: GradeLevel; key: string }[] = []
   for (const lv of LEVEL_ORDER) {

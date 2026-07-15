@@ -23,6 +23,22 @@ export interface Course {
   uiLanguage: 'ja' | 'en'
   type: CourseType
   band: { from: number; to: number }
+  /** データ出典（Credits 画面が読む。EDRDG/Tatoeba 等のライセンス条項が出典明記を要求するため） */
+  sources?: CourseSource[]
+}
+
+/** コースが使うデータソース1件（出典・ライセンス表記用） */
+export interface CourseSource {
+  /** 出典名（表示ラベル） */
+  name: string
+  /** ライセンス条件ページ等へのリンク */
+  url: string
+  /** ライセンス表記（例: "CC BY 2.0 FR"、"MIT"） */
+  license: string
+  /** ライセンス条文ページへのリンク（url とは別。CC 系は条項でリンク必須のことが多い）。無ければ license はリンクなしのテキスト表示 */
+  licenseUrl?: string
+  /** 補足（原著者名・経由リポジトリ等）。無ければ表示しない */
+  note?: string
 }
 
 export interface Example {

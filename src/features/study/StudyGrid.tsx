@@ -8,6 +8,7 @@ import { getRomaji } from '../../text/romaji'
 import { FocusSheet } from './FocusSheet'
 import { TileMark } from './TileMark'
 import { WeeklyCard } from '../WeeklyCard'
+import { useStrings, type UiLanguage } from '../../text/i18n'
 
 export function StudyGrid({
   cards,
@@ -16,6 +17,7 @@ export function StudyGrid({
   onProgressReset,
   onBackup,
   onExposeRestart,
+  uiLanguage,
 }: {
   cards: VocabCard[]
   /** スパークル演出の発火（初採点・昇格・卒業）。カードの座標と金色フラグを渡すだけで、ヘッダーの存在は知らない。 */
@@ -28,7 +30,9 @@ export function StudyGrid({
   onBackup?: () => void
   /** restart（Start another session）をタブ行のボタンから呼べるよう親へ渡す。アンマウントで null。 */
   onExposeRestart?: (fn: (() => void) | null) => void
+  uiLanguage: UiLanguage
 }) {
+  const t = useStrings(uiLanguage)
   const b = useStudyBoard(cards)
   const [sheetId, setSheetId] = useState<string | null>(null)
   const courseId = cards[0]?.courseId
@@ -45,13 +49,13 @@ export function StudyGrid({
     onReviewed?.(res)
   }
 
-  if (b.loading) return <div className="hint">Preparing your session…</div>
+  if (b.loading) return <div className="hint">{t.preparingSession}</div>
   if (b.empty)
     return (
       <div className="done">
         <div className="done-emoji">✓</div>
-        <h2>All caught up</h2>
-        <p>Nothing is due right now.</p>
+        <h2>{t.allCaughtUp}</h2>
+        <p>{t.nothingDue}</p>
         <button
           className="btn ghost"
           onClick={async () => {
@@ -59,7 +63,7 @@ export function StudyGrid({
             onProgressReset?.()
           }}
         >
-          Reset progress (demo)
+          {t.resetProgressDemo}
         </button>
       </div>
     )
@@ -67,13 +71,11 @@ export function StudyGrid({
     return (
       <div className="done">
         <div className="done-emoji">🎉</div>
-        <h2>Session complete</h2>
-        <p>
-          {b.reviewed} reviews{b.again > 0 ? ` · ${b.again} marked “Studying”` : ''}
-        </p>
-        {courseId && <WeeklyCard courseId={courseId} onBackup={onBackup} />}
+        <h2>{t.sessionComplete}</h2>
+        <p>{t.sessionSummary(b.reviewed, b.again)}</p>
+        {courseId && <WeeklyCard courseId={courseId} onBackup={onBackup} uiLanguage={uiLanguage} />}
         <button className="btn primary" onClick={b.restart}>
-          Start another session
+          {t.startAnotherSession}
         </button>
       </div>
     )
@@ -92,19 +94,20 @@ export function StudyGrid({
 
   const refreshButton = (
     <button type="button" className="btn ghost board-refresh" onClick={b.restart}>
-      ↻ Start another session
+      ↻ {t.startAnotherSession}
     </button>
   )
 
   return (
     <>
       <div className="board">
-        {b.tiles.map((t) => (
+        {b.tiles.map((tile) => (
           <Tile
-            key={t.card.id}
-            tile={t}
-            onGrade={(g, rect) => void handleGrade(t.card.id, g, rect)}
-            onOpenSheet={() => setSheetId(t.card.id)}
+            key={tile.card.id}
+            tile={tile}
+            onGrade={(g, rect) => void handleGrade(tile.card.id, g, rect)}
+            onOpenSheet={() => setSheetId(tile.card.id)}
+            uiLanguage={uiLanguage}
           />
         ))}
       </div>
@@ -117,6 +120,7 @@ export function StudyGrid({
           onGrade={(g, rect) => void handleGrade(sheetTile.card.id, g, rect)}
           onNext={() => nextId && setSheetId(nextId)}
           onClose={() => setSheetId(null)}
+          uiLanguage={uiLanguage}
         />
       )}
     </>
@@ -127,12 +131,15 @@ function Tile({
   tile,
   onGrade,
   onOpenSheet,
+  uiLanguage,
 }: {
   tile: BoardTile
   onGrade: (g: ReviewGrade, rect: DOMRect) => void
   /** タッチのタップで呼ぶ（片手フォーカスモードを開く）。マウスクリックはその場でピン留めめくり。 */
   onOpenSheet?: () => void
+  uiLanguage: UiLanguage
 }) {
+  const t = useStrings(uiLanguage)
   const c: VocabCard = tile.card
   const romaji = getRomaji(c.reading)
   // どのカードも採点後もボタンを残し、いつでも採点しなおせる（3ボタン共通の挙動）。
@@ -161,7 +168,7 @@ function Tile({
 
   return (
     <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
-      <TileMark grade={tile.grade} levelCounts={tile.levelCounts} />
+      <TileMark grade={tile.grade} levelCounts={tile.levelCounts} uiLanguage={uiLanguage} />
       <div
         className="tile-content"
         onPointerDown={(e) => {
@@ -193,13 +200,13 @@ function Tile({
       <div className="tile-btn-zone">
         <div className="tile-levels">
           <button type="button" className="tile-level lvl-good" onClick={() => fire(flipped ? 'good' : 'easy')}>
-            I know
+            {t.gradeKnown}
           </button>
           <button type="button" className="tile-level lvl-hard" onClick={() => fire('hard')}>
-            Fuzzy
+            {t.gradeFuzzy}
           </button>
           <button type="button" className="tile-level lvl-again" onClick={() => fire('again')}>
-            Studying
+            {t.gradeStudying}
           </button>
         </div>
       </div>

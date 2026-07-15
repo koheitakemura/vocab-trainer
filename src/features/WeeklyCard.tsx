@@ -1,11 +1,13 @@
-import { useEffect, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import type { CourseId, DailyStat } from '../types'
 import { db } from '../store/db'
 import { localDate } from '../store/progress'
 import { safeGet, safeSet } from '../store/safeStorage'
+import { useStrings, type UiLanguage } from '../text/i18n'
 
 interface WeeklySummary {
-  title: string
+  /** タイトルの文言選択（this week / last week）。翻訳は描画時に uiLanguage で行う */
+  kind: 'thisWeek' | 'lastWeek'
   activeDays: number
   reviews: number
   newWords: number
@@ -37,7 +39,16 @@ function sum(rows: DailyStat[]): { activeDays: number; reviews: number; newWords
  * 小さな前進の可視化（Amabile: 進捗の原理）＋達成の儀式にバックアップを同梱する
  * （テンプテーション・バンドリング。ローカルファースト構成で進捗消失は唯一の破滅的事故）。
  */
-export function WeeklyCard({ courseId, onBackup }: { courseId: CourseId; onBackup?: () => void }) {
+export function WeeklyCard({
+  courseId,
+  onBackup,
+  uiLanguage,
+}: {
+  courseId: CourseId
+  onBackup?: () => void
+  uiLanguage: UiLanguage
+}) {
+  const t = useStrings(uiLanguage)
   const [data, setData] = useState<WeeklySummary | null>(null)
 
   useEffect(() => {
@@ -68,7 +79,7 @@ export function WeeklyCard({ courseId, onBackup }: { courseId: CourseId; onBacku
         if (c.reviews === 0) return
         const p = sum(prev)
         safeSet(`vt:weeklyShown:${courseId}`, weekKey)
-        setData({ title: 'This week', ...c, up: c.reviews > p.reviews && p.reviews > 0 ? c.reviews - p.reviews : undefined })
+        setData({ kind: 'thisWeek', ...c, up: c.reviews > p.reviews && p.reviews > 0 ? c.reviews - p.reviews : undefined })
       } else {
         // 新しい週の最初の完了時に、先週のまとめ（先週に活動があったときだけ）
         const prevMonday = addDays(thisMonday, -7)
@@ -77,7 +88,7 @@ export function WeeklyCard({ courseId, onBackup }: { courseId: CourseId; onBacku
         const p = sum(rows)
         if (p.reviews === 0) return
         safeSet(`vt:weeklyShown:${courseId}`, weekKey)
-        setData({ title: 'Last week', ...p })
+        setData({ kind: 'lastWeek', ...p })
       }
     })()
     return () => {
@@ -88,15 +99,16 @@ export function WeeklyCard({ courseId, onBackup }: { courseId: CourseId; onBacku
   if (!data) return null
   return (
     <div className="weekly-card">
-      <div className="weekly-title">{data.title}</div>
+      <div className="weekly-title">{data.kind === 'thisWeek' ? t.weeklyThisWeek : t.weeklyLastWeek}</div>
       <div className="weekly-line">
-        Studied <strong>{data.activeDays}</strong> {data.activeDays === 1 ? 'day' : 'days'} ·{' '}
-        <strong>{data.reviews}</strong> reviews · <strong>{data.newWords}</strong> new words
-        {data.up !== undefined && <span className="weekly-up"> ▲ +{data.up} vs previous week</span>}
+        {t.weeklyLine(data.activeDays, data.reviews, data.newWords).map((p, i) =>
+          p.bold ? <strong key={i}>{p.text}</strong> : <Fragment key={i}>{p.text}</Fragment>,
+        )}
+        {data.up !== undefined && <span className="weekly-up">{t.weeklyUp(data.up)}</span>}
       </div>
       {onBackup && (
         <button type="button" className="btn ghost weekly-backup" onClick={onBackup}>
-          ⭳ Back up your progress (takes 30s)
+          ⭳ {t.weeklyBackup}
         </button>
       )}
     </div>

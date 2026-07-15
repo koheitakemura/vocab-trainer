@@ -1,7 +1,8 @@
-import { coverageAt } from '../data/coverage'
+import { courseProgress } from '../data/coverage'
 import { fmtNum } from '../text/format'
 import type { CoachSentence } from '../data/coachSentences'
-import { EN_POOLS } from './coachMessages'
+import type { Course } from '../types'
+import { EN_POOLS, JA_POOLS, type CoachMessagePools } from './coachMessages'
 
 /** 固定文の配列を Msg（関数）プールに変換 */
 const fixed = (list: readonly string[]): Msg[] => list.map((s) => () => s)
@@ -16,6 +17,8 @@ const fixed = (list: readonly string[]): Msg[] => list.map((s) => () => s)
  * - それ以外（今日の進み・週の継続・記憶量の自慢・時間帯の挨拶）は該当分を全部プールして選ぶ
  * - 選択は「日付＋粗い状態バケツ」のハッシュで安定化＝学習が進むと切り替わるが、採点のたびに
  *   チカチカ変わらない。文中の数字は描画時に評価するのでカウントダウン等は常に最新
+ * - 固定文プール（EN_POOLS/JA_POOLS）は course.uiLanguage で切り替える（1.5.6）。テンプレート内の
+ *   数字入り文はこの切り替えの対象外＝英語のまま（ja UI コースの完全な文面翻訳は本タスクの範囲外）
  */
 export interface CoachContext {
   now: Date
@@ -36,6 +39,8 @@ export interface CoachContext {
   knownIds: Set<string>
   /** 既習語だけで組んだ日本語文のバンク（words ⊆ knownIds の文だけ画面に出す） */
   sentences: CoachSentence[]
+  /** コース（type は MEMORY_BRAG の被覆率算出に、uiLanguage は固定文プールの選択に使う） */
+  course: Pick<Course, 'type' | 'uiLanguage'>
 }
 
 /** コーチの一言（text＝メイン表示、sub＝日本語文のときの英訳） */
@@ -58,17 +63,22 @@ function nextMilestone(c: CoachContext): number {
 }
 
 // ── 高優先（独占）グループ ──────────────────────────────
-const FIRST_VISIT: Msg[] = [
-  () => 'Welcome! 👋 Tap any card to meet your first word — はじめましょう！',
-  (c) => `${fmtNum(c.total)} words ahead, one tap at a time. Ready when you are 🌱`,
-  ...fixed(EN_POOLS.firstVisit),
-]
+// 固定文プール（pools）を引数に取り、EN_POOLS/JA_POOLS を pickCoachMessage が選んで渡す。
+function firstVisitPool(pools: CoachMessagePools): Msg[] {
+  return [
+    () => 'Welcome! 👋 Tap any card to meet your first word — はじめましょう！',
+    (c) => `${fmtNum(c.total)} words ahead, one tap at a time. Ready when you are 🌱`,
+    ...fixed(pools.firstVisit),
+  ]
+}
 
-const COURSE_COMPLETE: Msg[] = [
-  (c) => `All ${fmtNum(c.total)} words started — you did it! 🎉`,
-  () => 'Course complete — お見事！ Keep the reviews warm ✨',
-  ...fixed(EN_POOLS.courseComplete),
-]
+function courseCompletePool(pools: CoachMessagePools): Msg[] {
+  return [
+    (c) => `All ${fmtNum(c.total)} words started — you did it! 🎉`,
+    () => 'Course complete — お見事！ Keep the reviews warm ✨',
+    ...fixed(pools.courseComplete),
+  ]
+}
 
 const NEAR_MILESTONE: Msg[] = [
   (c) => `Only ${nextMilestone(c) - c.introduced} words to ${fmtNum(nextMilestone(c))} — so close! 🔥`,
@@ -76,40 +86,57 @@ const NEAR_MILESTONE: Msg[] = [
   (c) => `${fmtNum(nextMilestone(c))} is right there — ${nextMilestone(c) - c.introduced} words away. あと少し！`,
 ]
 
-const COMEBACK: Msg[] = [
-  () => 'Welcome back! Your words missed you — the schedule already adjusted itself 😊',
-  () => 'おかえりなさい！ No catch-up guilt: just start with today’s board 🌱',
-  () => 'Back after a break — perfect timing. Small session, big momentum 💪',
-  ...fixed(EN_POOLS.comeback),
-]
+function comebackPool(pools: CoachMessagePools): Msg[] {
+  return [
+    () => 'Welcome back! Your words missed you — the schedule already adjusted itself 😊',
+    () => 'おかえりなさい！ No catch-up guilt: just start with today’s board 🌱',
+    () => 'Back after a break — perfect timing. Small session, big momentum 💪',
+    ...fixed(pools.comeback),
+  ]
+}
 
-const BIG_DAY: Msg[] = [
-  (c) => `${c.todayReviews} reviews today — outstanding! 🎉`,
-  () => 'You’re on fire today 🔥 Remember to rest those kanji muscles.',
-  (c) => `${c.todayReviews} reviews?! お疲れさま — that’s real dedication ✨`,
-  ...fixed(EN_POOLS.bigDay),
-]
+function bigDayPool(pools: CoachMessagePools): Msg[] {
+  return [
+    (c) => `${c.todayReviews} reviews today — outstanding! 🎉`,
+    () => 'You’re on fire today 🔥 Remember to rest those kanji muscles.',
+    (c) => `${c.todayReviews} reviews?! お疲れさま — that’s real dedication ✨`,
+    ...fixed(pools.bigDay),
+  ]
+}
 
 // ── 低優先（プール合流）グループ ──────────────────────────
-const TODAY_PROGRESS: Msg[] = [
-  (c) => `${c.todayReviews} ${c.todayReviews === 1 ? 'review' : 'reviews'} in already — nice pace 👏`,
-  () => 'Keep going — future you is already grateful ✨',
-  (c) =>
-    c.todayNew > 0
-      ? `${c.todayNew} new ${c.todayNew === 1 ? 'word' : 'words'} started today 🌱 Every one counts.`
-      : 'Reviews first, new words next — solid routine 👌',
-  () => 'いい調子！ One card at a time.',
-  ...fixed(EN_POOLS.todayProgress),
-]
+function todayProgressPool(pools: CoachMessagePools): Msg[] {
+  return [
+    (c) => `${c.todayReviews} ${c.todayReviews === 1 ? 'review' : 'reviews'} in already — nice pace 👏`,
+    () => 'Keep going — future you is already grateful ✨',
+    (c) =>
+      c.todayNew > 0
+        ? `${c.todayNew} new ${c.todayNew === 1 ? 'word' : 'words'} started today 🌱 Every one counts.`
+        : 'Reviews first, new words next — solid routine 👌',
+    () => 'いい調子！ One card at a time.',
+    ...fixed(pools.todayProgress),
+  ]
+}
 
-const STEADY_WEEK: Msg[] = [
-  (c) => `${c.activeDaysThisWeek} active days this week — consistency is your superpower 💪`,
-  () => 'Another day showing up. This is exactly how 3,000 happens 📈',
-  ...fixed(EN_POOLS.steadyWeek),
-]
+function steadyWeekPool(pools: CoachMessagePools): Msg[] {
+  return [
+    (c) => `${c.activeDaysThisWeek} active days this week — consistency is your superpower 💪`,
+    () => 'Another day showing up. This is exactly how 3,000 happens 📈',
+    ...fixed(pools.steadyWeek),
+  ]
+}
 
+/**
+ * 記憶量の自慢グループ。coverage.ts の courseProgress で帯別の意味づけに従う
+ * （rail/cloze=被覆率%、calibrate-mine=語数のみ。この文脈に depth は無いので付記しない）。
+ */
 const MEMORY_BRAG: Msg[] = [
-  (c) => `You can already catch ${coverageAt(c.estKnown ?? 0)}% of everyday conversation 👂`,
+  (c) => {
+    const progress = courseProgress(c.course, c.estKnown ?? 0)
+    return progress.mode === 'coverage-pct'
+      ? `You can already catch ${progress.pct}% of ${progress.domain === 'written' ? 'written text' : 'everyday conversation'} 👂`
+      : `${fmtNum(c.estKnown ?? 0)} words live in your long-term memory — they’re staying ✨`
+  },
   (c) => `${fmtNum(c.estKnown ?? 0)} words live in your long-term memory — they’re staying ✨`,
 ]
 
@@ -117,32 +144,40 @@ const MASTERED_BRAG: Msg[] = [
   (c) => `${c.mastered} ${c.mastered === 1 ? 'word' : 'words'} mastered for good — 卒業 🏅`,
 ]
 
-const GREETING_MORNING: Msg[] = [
-  () => 'おはよう！ A few words with your morning coffee? ☕',
-  () => 'Good morning — fresh mind, fresh words 🌅',
-  ...fixed(EN_POOLS.greetingMorning),
-]
-const GREETING_AFTERNOON: Msg[] = [
-  () => 'こんにちは！ Perfect time for a quick session 🌞',
-  () => 'Midday brain break = vocabulary time 📚',
-  ...fixed(EN_POOLS.greetingAfternoon),
-]
-const GREETING_EVENING: Msg[] = [
-  () => 'こんばんは！ Wind down with a few words 🌆',
-  () => 'Evening reviews hit different — calm and focused 🌙',
-  ...fixed(EN_POOLS.greetingEvening),
-]
-const GREETING_LATE: Msg[] = [
-  () => 'Studying late? Dedication! Keep it light 🌙',
-  () => 'Night-owl mode 🦉 A few cards, then rest well.',
-  ...fixed(EN_POOLS.greetingLate),
-]
+function greetingMorningPool(pools: CoachMessagePools): Msg[] {
+  return [
+    () => 'おはよう！ A few words with your morning coffee? ☕',
+    () => 'Good morning — fresh mind, fresh words 🌅',
+    ...fixed(pools.greetingMorning),
+  ]
+}
+function greetingAfternoonPool(pools: CoachMessagePools): Msg[] {
+  return [
+    () => 'こんにちは！ Perfect time for a quick session 🌞',
+    () => 'Midday brain break = vocabulary time 📚',
+    ...fixed(pools.greetingAfternoon),
+  ]
+}
+function greetingEveningPool(pools: CoachMessagePools): Msg[] {
+  return [
+    () => 'こんばんは！ Wind down with a few words 🌆',
+    () => 'Evening reviews hit different — calm and focused 🌙',
+    ...fixed(pools.greetingEvening),
+  ]
+}
+function greetingLatePool(pools: CoachMessagePools): Msg[] {
+  return [
+    () => 'Studying late? Dedication! Keep it light 🌙',
+    () => 'Night-owl mode 🦉 A few cards, then rest well.',
+    ...fixed(pools.greetingLate),
+  ]
+}
 
-function greetingPool(hour: number): Msg[] {
-  if (hour >= 5 && hour < 11) return GREETING_MORNING
-  if (hour >= 11 && hour < 17) return GREETING_AFTERNOON
-  if (hour >= 17 && hour < 22) return GREETING_EVENING
-  return GREETING_LATE
+function greetingPool(hour: number, pools: CoachMessagePools): Msg[] {
+  if (hour >= 5 && hour < 11) return greetingMorningPool(pools)
+  if (hour >= 11 && hour < 17) return greetingAfternoonPool(pools)
+  if (hour >= 17 && hour < 22) return greetingEveningPool(pools)
+  return greetingLatePool(pools)
 }
 
 function hourTag(hour: number): 'morning' | 'afternoon' | 'evening' | 'night' {
@@ -165,14 +200,16 @@ function hashOf(seed: string): number {
 }
 
 export function pickCoachMessage(c: CoachContext): CoachLine {
+  // 固定文プールはコースの UI 言語で切り替える（メンバー系 C/D/E=en は従来どおり EN_POOLS）。
+  const pools = c.course.uiLanguage === 'ja' ? JA_POOLS : EN_POOLS
   const day = `${c.now.getFullYear()}-${c.now.getMonth() + 1}-${c.now.getDate()}`
   // 採点のたびに変わらないよう粗いバケツで安定化（学習開始時・10レビューごと・新規5語ごとに変わる）
   const seed = `${day}|${c.todayReviews > 0 ? 'active' : 'idle'}|${Math.floor(c.todayReviews / 10)}|${Math.floor(c.todayNew / 5)}|${c.introduced >= c.total ? 'done' : ''}`
-  const jpLine = (s: CoachSentence): CoachLine => ({ text: s.jp, sub: s.en })
+  const jpLine = (s: CoachSentence): CoachLine => ({ text: s.text, sub: s.translation })
 
   // 高優先: どれか1つが独占。復帰と大量学習は、解禁済みの日本語文があれば半々で日本語に
-  if (c.introduced === 0) return { text: stablePick(FIRST_VISIT, seed)(c) }
-  if (c.introduced >= c.total && c.total > 0) return { text: stablePick(COURSE_COMPLETE, seed)(c) }
+  if (c.introduced === 0) return { text: stablePick(firstVisitPool(pools), seed)(c) }
+  if (c.introduced >= c.total && c.total > 0) return { text: stablePick(courseCompletePool(pools), seed)(c) }
   if (nextMilestone(c) - c.introduced <= 30) {
     const jp = unlockedSentences(c, new Set(['milestone']))
     if (jp.length > 0 && hashOf(seed) % 2 === 0) return jpLine(jp[hashOf(seed + 'jp') % jp.length])
@@ -181,12 +218,12 @@ export function pickCoachMessage(c: CoachContext): CoachLine {
   if (c.todayReviews === 0 && c.gapDays !== null && c.gapDays >= 3) {
     const jp = unlockedSentences(c, new Set(['comeback']))
     if (jp.length > 0 && hashOf(seed) % 2 === 0) return jpLine(jp[hashOf(seed + 'jp') % jp.length])
-    return { text: stablePick(COMEBACK, seed)(c) }
+    return { text: stablePick(comebackPool(pools), seed)(c) }
   }
   if (c.todayReviews >= 60) {
     const jp = unlockedSentences(c, new Set(['bigday', 'praise']))
     if (jp.length > 0 && hashOf(seed) % 2 === 0) return jpLine(jp[hashOf(seed + 'jp') % jp.length])
-    return { text: stablePick(BIG_DAY, seed)(c) }
+    return { text: stablePick(bigDayPool(pools), seed)(c) }
   }
 
   // 低優先: 状況に合うタグの日本語文を優先（2/3）、残りは英語プールを合流して選ぶ
@@ -197,12 +234,12 @@ export function pickCoachMessage(c: CoachContext): CoachLine {
   if (jp.length > 0 && hashOf(seed) % 3 !== 0) return jpLine(jp[hashOf(seed + 'jp') % jp.length])
 
   const pool: Msg[] = []
-  if (c.todayReviews > 0) pool.push(...TODAY_PROGRESS)
-  if (c.activeDaysThisWeek >= 4) pool.push(...STEADY_WEEK)
+  if (c.todayReviews > 0) pool.push(...todayProgressPool(pools))
+  if (c.activeDaysThisWeek >= 4) pool.push(...steadyWeekPool(pools))
   if ((c.estKnown ?? 0) >= 50) pool.push(...MEMORY_BRAG)
   if (c.mastered >= 5) pool.push(...MASTERED_BRAG)
-  if (c.todayReviews === 0) pool.push(...greetingPool(c.now.getHours()))
-  if (pool.length === 0) pool.push(...greetingPool(c.now.getHours()))
+  if (c.todayReviews === 0) pool.push(...greetingPool(c.now.getHours(), pools))
+  if (pool.length === 0) pool.push(...greetingPool(c.now.getHours(), pools))
 
   return { text: stablePick(pool, seed)(c) }
 }
