@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import { db } from '../../store/db'
 import { localDate, recordReview, resetCourseProgress } from '../../store/progress'
-import { isPromotionToKnown } from '../../srs/levels'
+import { approxLevelCounts, emptyLevelCounts, gradeLevel, isPromotionToKnown, type GradeLevel } from '../../srs/levels'
 import type { ReviewGrade } from '../../srs/scheduler'
 
 /** レール型は1セッションの新規語を絞る（完走率のため。PLAN §4.1） */
@@ -14,6 +14,8 @@ export interface BoardTile {
   state: TileState
   /** 直近に押したボタンの評価（未採点は undefined）。カードの枠線・点の色・ラベル用。 */
   grade?: ReviewGrade
+  /** レベル別の累計採点回数（丸表示用）。一度も採点していないカードは undefined。 */
+  levelCounts?: Record<GradeLevel, number>
 }
 
 /** grade() の結果（演出とヘッダーのメーター追従・コーチ文の解禁判定の材料） */
@@ -85,7 +87,7 @@ export function useStudyBoard(cards: VocabCard[]) {
           // FSRS の期限が同日中でも「今日はもう終わり」にする（Kohei 指定）。
           (!r.lastReviewedAt || localDate(new Date(r.lastReviewedAt)) !== today)
         ) {
-          reviewTiles.push({ card, state: 'pending', grade: r.lastGrade })
+          reviewTiles.push({ card, state: 'pending', grade: r.lastGrade, levelCounts: approxLevelCounts(r) })
         }
       }
       const total = newCandidates.length
@@ -126,7 +128,16 @@ export function useStudyBoard(cards: VocabCard[]) {
       if (!card) return { sparkle: false, gold: false, deltaR: 0, cardId: id, known: false }
 
       // マーク/色（grade）と状態は初回でも再採点でも更新。ボタンは常に残る。
-      setTiles((ts) => ts.map((t) => (t.card.id === id ? { ...t, state: g === 'again' ? 'again' : 'done', grade: g } : t)))
+      // levelCounts はこのセッションでの体感が正（採点直後に丸へ即反映。recordReview の
+      // 確定値を待たない＝連打しても丸がすぐ増える）。
+      setTiles((ts) =>
+        ts.map((t) => {
+          if (t.card.id !== id) return t
+          const counts = { ...(t.levelCounts ?? emptyLevelCounts()) }
+          counts[gradeLevel(g)]++
+          return { ...t, state: g === 'again' ? 'again' : 'done', grade: g, levelCounts: counts }
+        }),
+      )
       setReviewed((n) => n + 1)
 
       const firstThisSession = queueRef.current.includes(id)

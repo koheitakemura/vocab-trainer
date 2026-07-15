@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import type { ReviewGrade } from '../../srs/scheduler'
-import { gradeLevel, LEVEL_LABEL } from '../../srs/levels'
+import { gradeLevel } from '../../srs/levels'
 import { getRomaji } from '../../text/romaji'
 import type { BoardTile } from './useStudyBoard'
+import { TileMark } from './TileMark'
 
 /**
  * スマホ片手フォーカスモード（ボトムシート採点）。
@@ -47,9 +48,9 @@ export function FocusSheet({
 
   const c = tile.card
   const romaji = getRomaji(c.reading)
-  const level = tile.grade ? gradeLevel(tile.grade) : null
-  const markKind = level ?? 'new'
-  const markLabel = level ? LEVEL_LABEL[level] : 'New'
+  // 枠線の色はセッション中に実採点したときだけ（グリッドのタイルと同じ規則）。
+  const gradedThisSession = tile.state !== 'pending'
+  const level = gradedThisSession && tile.grade ? gradeLevel(tile.grade) : null
   const example = c.examples[0]
 
   const fire = (g: ReviewGrade) => {
@@ -62,10 +63,7 @@ export function FocusSheet({
       <div className="focus-backdrop" onClick={onClose} />
       <div className="focus-sheet" role="dialog" aria-modal="true" aria-label={c.headword} ref={sheetRef} tabIndex={-1}>
         <div className={`focus-card${level ? ` g-${level}` : ''}`} ref={cardRef} onClick={() => setRevealed(true)}>
-          <span className={`tile-mark tile-mark--${markKind}`}>
-            <span className="tile-mark-label">{markLabel}</span>
-            <span className="tile-mark-dot" />
-          </span>
+          <TileMark grade={tile.grade} levelCounts={tile.levelCounts} />
           <div className="focus-hw">{c.headword}</div>
           {revealed ? (
             <>

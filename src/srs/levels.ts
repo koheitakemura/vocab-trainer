@@ -41,3 +41,24 @@ export function isKnownRow(row: { status: string; lastGrade?: ReviewGrade }): bo
   if (row.status === 'burned') return true
   return row.lastGrade !== undefined && gradeLevel(row.lastGrade) === 'known'
 }
+
+/** レベル別の押下回数のゼロ値（カードの丸表示用）。 */
+export function emptyLevelCounts(): Record<GradeLevel, number> {
+  return { known: 0, fuzzy: 0, learning: 0 }
+}
+
+/**
+ * カードの丸表示用のレベル別回数。levelCounts を持つ行はそのまま返す。
+ * 機能追加前の行（levelCounts が無い）は、全履歴を直近の評価（lastGrade）とみなして
+ * reviewedCount を1バケットに寄せる一度きりの近似（内訳の記録が無いので厳密には出せない）。
+ */
+export function approxLevelCounts(row: {
+  reviewedCount: number
+  lastGrade?: ReviewGrade
+  levelCounts?: Record<GradeLevel, number>
+}): Record<GradeLevel, number> {
+  if (row.levelCounts) return row.levelCounts
+  const counts = emptyLevelCounts()
+  if (row.lastGrade && row.reviewedCount > 0) counts[gradeLevel(row.lastGrade)] = row.reviewedCount
+  return counts
+}

@@ -1,5 +1,6 @@
 import type { Card as FsrsCard } from 'ts-fsrs'
 import type { ReviewGrade } from './srs/scheduler'
+import type { GradeLevel } from './srs/levels'
 
 /** コース識別子（1エンジン × 複数コース。MVP はまず ja-0-3k を実装） */
 export type CourseId =
@@ -77,6 +78,9 @@ export interface WordProgress {
   lastReviewedAt?: string
   /** 直近の採点（内訳表示用）。この機能追加前の行には無い（次回レビューで自然に付く） */
   lastGrade?: ReviewGrade
+  /** レベル別の累計採点回数（カードの丸表示用）。この機能追加前の行には無い
+   *（初回は approxLevelCounts で reviewedCount/lastGrade から近似し、以後は正確に積み上がる） */
+  levelCounts?: Record<GradeLevel, number>
 }
 
 /**

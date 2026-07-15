@@ -1,6 +1,6 @@
 import { db, emptySummary, summarize } from './db'
 import { BURN_STABILITY_DAYS, gradeCard, newCard, retrievabilityOf, State, type ReviewGrade } from '../srs/scheduler'
-import { isKnownRow, isPromotionToKnown } from '../srs/levels'
+import { approxLevelCounts, gradeLevel, isKnownRow, isPromotionToKnown } from '../srs/levels'
 import type { CourseId, DailyStat, MetaRow, VocabCard, WordProgress } from '../types'
 
 /** ローカル日付の YYYY-MM-DD（dailyStats のキー。深夜0時跨ぎは端末のローカル時刻基準） */
@@ -67,12 +67,15 @@ export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise
           ? 'burned'
           : 'known'
     const burnedNow = status === 'burned' && !wasBurned
+    const levelCounts = { ...approxLevelCounts(p) }
+    levelCounts[gradeLevel(grade)]++
     await db.progress.put({
       ...p,
       fsrs: nextFsrs,
       status,
       lastGrade: grade,
       reviewedCount: p.reviewedCount + 1,
+      levelCounts,
       lastReviewedAt: now.toISOString(),
     })
 

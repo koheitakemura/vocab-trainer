@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import type { VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
-import { gradeLevel, LEVEL_LABEL } from '../../srs/levels'
+import { gradeLevel } from '../../srs/levels'
 import { useStudyBoard, type BoardTile, type GradeOutcome } from './useStudyBoard'
 import { useFitText } from './useFitText'
 import { getRomaji } from '../../text/romaji'
 import { FocusSheet } from './FocusSheet'
+import { TileMark } from './TileMark'
 import { WeeklyCard } from '../WeeklyCard'
 
 export function StudyGrid({
@@ -151,19 +152,16 @@ function Tile({
     if (rect) onGrade(g, rect)
   }
 
-  // 直近に押したボタンの評価から表示レベル（色・枠線）を決める。未採点は null（枠は既定色）。
-  const level = tile.grade ? gradeLevel(tile.grade) : null
-  // 右上マークは未採点なら "New"（グレー）、採点済みならその評価の色・ラベル。
-  const markKind = level ?? 'new'
-  const markLabel = level ? LEVEL_LABEL[level] : 'New'
+  // 枠線の色は「このセッションで実際に採点した」ときだけ付ける（state !== 'pending'）。
+  // pending（前回までの評価が残っているだけで今回はまだ触っていないカード）は他の未採点カードと
+  // 同じ既定色にする（前回の色が残っていると「もう採点済み」に見えて紛らわしい・Kohei 指定）。
+  const gradedThisSession = tile.state !== 'pending'
+  const level = gradedThisSession && tile.grade ? gradeLevel(tile.grade) : null
   const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}`
 
   return (
     <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
-      <span className={`tile-mark tile-mark--${markKind}`}>
-        <span className="tile-mark-label">{markLabel}</span>
-        <span className="tile-mark-dot" />
-      </span>
+      <TileMark grade={tile.grade} levelCounts={tile.levelCounts} />
       <div
         className="tile-content"
         onPointerDown={(e) => {

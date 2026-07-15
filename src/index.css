@@ -1085,7 +1085,7 @@ body {
 
 /* フェード（沈み）は「このセッションで採点したカードだけ」に効かせる。判定は grade の有無ではなく
    タイルの状態（s-done / s-again＝今回採点した）で行う。
-   ＝前日に採点して「今日が復習期限」の未採点カード（s-pending だが lastGrade の色は付く）は
+   ＝前日に採点して「今日が復習期限」の未採点カード（s-pending。枠線も既定色のまま＝g-* が付かない）は
    沈ませず、明るいアクティブ表示のまま出す（“済んだカード”に見えないようにする）。
    opacity でなく背景ウォッシュを重ねる方式（element opacity だと背後が透けるため）。
    inset:0 は枠の内側を覆う＝色付きの枠線は鮮やかに残り内側だけ沈む。ホバーで消して再採点しやすく。 */
@@ -1117,7 +1117,8 @@ body {
   border-color: color-mix(in srgb, var(--tile-accent) 55%, var(--border));
 }
 
-/* 右上マーク：ラベル＋点。未採点=New（グレー）／採点後は押したボタンの色（I know=緑 / Fuzzy=橙 / Studying=赤）。 */
+/* 右上マーク：丸（押した回数分・レベル別に色分け）＋ラベル。丸→ラベルの順。
+   未採点=New（グレー・丸なし）／採点後は押したボタンの色（I know=緑 / Fuzzy=橙 / Studying=赤）。 */
 .tile-mark {
   position: absolute;
   top: 8px;
@@ -1131,39 +1132,45 @@ body {
   line-height: 1;
 }
 
+.tile-mark-dots {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
 .tile-mark-dot {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   flex: 0 0 auto;
+}
+
+.tile-mark-dot--known {
+  background: var(--good);
+}
+.tile-mark-dot--fuzzy {
+  background: var(--fuzzy);
+}
+.tile-mark-dot--learning {
+  background: var(--again);
+}
+
+.tile-mark-overflow {
+  font-size: 9px;
+  color: var(--text-faint);
 }
 
 .tile-mark--known {
   color: var(--good);
 }
-.tile-mark--known .tile-mark-dot {
-  background: var(--good);
-}
-
 .tile-mark--fuzzy {
   color: var(--fuzzy);
 }
-.tile-mark--fuzzy .tile-mark-dot {
-  background: var(--fuzzy);
-}
-
 .tile-mark--learning {
   color: var(--again);
 }
-.tile-mark--learning .tile-mark-dot {
-  background: var(--again);
-}
-
 .tile-mark--new {
   color: var(--text-faint);
-}
-.tile-mark--new .tile-mark-dot {
-  background: var(--text-faint);
 }
 
 .tile-hw {
