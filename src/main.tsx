@@ -4,6 +4,7 @@ import { registerSW } from 'virtual:pwa-register'
 import App from './App'
 import { DesignGallery } from './design/DesignGallery'
 import { ThemeGallery } from './design/ThemeGallery'
+import { GrowthPreview } from './features/growth/GrowthPreview'
 import './index.css'
 
 // 新しい Service Worker が見つかったら自動更新（データパック更新時に旧キャッシュが
@@ -37,6 +38,7 @@ function Root() {
 
   if (hash.startsWith('#design')) return <DesignGallery />
   if (hash.startsWith('#tones')) return <ThemeGallery />
+  if (hash.startsWith('#growth')) return <GrowthPreview />
   return <App />
 }
 

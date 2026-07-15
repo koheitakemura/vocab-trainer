@@ -2038,3 +2038,271 @@ body {
   font-size: 14px;
   padding: 12px 16px;
 }
+
+/* ---------- G: Growth タブ（語彙の成長曲線） ---------- */
+.growth-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px 24px 20px;
+  align-self: start;
+  width: 100%;
+}
+
+/* 見出しの数字タイル群（Started / Known / Mastered / Streak / Days） */
+.growth-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.growth-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.growth-stat-num {
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 1.1;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.growth-stat-num--started {
+  color: var(--accent);
+}
+.growth-stat-num--known {
+  color: var(--good);
+}
+.growth-stat-num--mastered {
+  color: var(--mastered);
+}
+
+.growth-stat-label {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+/* 凡例（2系列なので必須）＋最長ストリーク */
+.growth-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.growth-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.growth-legend-swatch {
+  width: 14px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.growth-legend-swatch--started {
+  background: var(--accent);
+}
+.growth-legend-swatch--known {
+  background: var(--good);
+}
+
+.growth-legend-best {
+  margin-left: auto;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* チャート本体（ツールチップの基準に position: relative） */
+.growth-chart {
+  position: relative;
+  margin-top: 10px;
+}
+
+.growth-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.growth-grid {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+/* 軸ラベルは実スケール値（語数・日付）なので可読性優先で --text-dim（グリッド線だけ recessive）。
+   font-size は JS 側で viewBox 幅に応じて上書きするが、未測定時のフォールバックとして残す。 */
+.growth-ylabel,
+.growth-xlabel {
+  fill: var(--text-dim);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.growth-band {
+  fill: var(--accent);
+  opacity: 0.16;
+}
+
+/* ライトは白地なので帯を一段濃く（薄すぎると「学習中」の領域が見えない） */
+:root[data-theme='light'] .growth-band {
+  opacity: 0.22;
+}
+
+.growth-line {
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.growth-line--started {
+  stroke: var(--accent);
+}
+.growth-line--known {
+  stroke: var(--good);
+}
+
+.growth-dot--started {
+  fill: var(--accent);
+}
+.growth-dot--known {
+  fill: var(--good);
+}
+
+/* ホバーの強調ドットは surface のリングで背景から浮かせる */
+.growth-dot-active {
+  stroke: var(--surface);
+  stroke-width: 2;
+}
+
+.growth-crosshair {
+  stroke: var(--text-faint);
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+  opacity: 0.6;
+}
+
+.growth-endlabel {
+  font-size: 13px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+}
+
+.growth-endlabel--started {
+  fill: var(--accent);
+}
+.growth-endlabel--known {
+  fill: var(--good);
+}
+
+/* ライトの緑（#059669）は白地で 3.77:1＝AA 未満。ラベルだけ一段濃い緑に（線・ドットは据え置き） */
+:root[data-theme='light'] .growth-endlabel--known {
+  fill: var(--good-strong);
+}
+
+/* ツールチップ（HTML オーバーレイ・x に追従） */
+.growth-tip {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  pointer-events: none;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 11px;
+  font-size: 12px;
+  color: var(--text-dim);
+  box-shadow: var(--shadow);
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.growth-tip-date {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.growth-tip-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.growth-tip-row strong {
+  margin-left: auto;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.growth-tip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.growth-tip-dot--started {
+  background: var(--accent);
+}
+.growth-tip-dot--known {
+  background: var(--good);
+}
+
+.growth-caption {
+  margin: 14px 0 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--text-faint);
+}
+
+/* データが少ないうちの導入状態 */
+.growth-empty {
+  text-align: center;
+  padding: 34px 16px 26px;
+}
+
+.growth-empty-emoji {
+  font-size: 40px;
+}
+
+.growth-empty-title {
+  margin: 12px 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.growth-empty-sub {
+  margin: 6px auto 0;
+  max-width: 380px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-dim);
+}
+
+@media (max-width: 560px) {
+  .growth-panel {
+    padding: 18px 16px 16px;
+  }
+  .growth-stats {
+    gap: 10px 20px;
+  }
+  .growth-stat-num {
+    font-size: 21px;
+  }
+}

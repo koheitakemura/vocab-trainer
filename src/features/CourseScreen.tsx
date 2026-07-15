@@ -13,6 +13,7 @@ import { fmtNum } from '../text/format'
 import { StudyGrid } from './study/StudyGrid'
 import { AllWords } from './browse/AllWords'
 import { StatsPanel } from './stats/StatsPanel'
+import { GrowthPanel } from './growth/GrowthPanel'
 import { ThemeToggle } from '../theme/ThemeToggle'
 import { Credits } from './Credits'
 import { SparkleOverlay, type BurstSpec } from './SparkleOverlay'
@@ -22,7 +23,7 @@ import { MilestoneOverlay } from './MilestoneOverlay'
 import { CategorySelector } from './CategorySelector'
 import { pickCoachMessage } from './coach'
 
-type Tab = 'study' | 'all' | 'stats'
+type Tab = 'study' | 'all' | 'stats' | 'growth'
 
 const EMPTY_BY_GRADE: Record<ReviewGrade, number> = emptyByGrade()
 
@@ -333,6 +334,9 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
         <button className={`tab${tab === 'stats' ? ' on' : ''}`} onClick={() => setTab('stats')}>
           Stats
         </button>
+        <button className={`tab${tab === 'growth' ? ' on' : ''}`} onClick={() => setTab('growth')}>
+          Growth
+        </button>
         {tab === 'study' && (
           <div className="tab-tools">
             <CategorySelector cards={cards} selected={category} onSelect={setCategory} />
@@ -361,8 +365,10 @@ export function CourseScreen({ course, cards }: { course: Course; cards: VocabCa
           />
         ) : tab === 'all' ? (
           <AllWords cards={cards} />
-        ) : (
+        ) : tab === 'stats' ? (
           <StatsPanel course={course} cards={cards} />
+        ) : (
+          <GrowthPanel course={course} />
         )}
       </main>
 
