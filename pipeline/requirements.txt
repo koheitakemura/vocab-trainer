@@ -3,3 +3,7 @@ mecab-python3>=1.0
 unidic-lite>=1.0
 ipadic>=1.0
 requests>=2.31
+
+# note: mecab-python3 + unidic-lite are used for tokenizer-verified example
+# matching (attach_examples in build_ja_0_3k.py) as well as any future
+# reading/segmentation needs.

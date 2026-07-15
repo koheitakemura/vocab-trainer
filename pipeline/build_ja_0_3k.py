@@ -202,6 +202,59 @@ def _is_natural_sentence(text: str) -> bool:
     return text.endswith(SENTENCE_END) and len(text) >= 4
 
 
+def _load_tagger():
+    import MeCab
+    import unidic_lite
+
+    dicdir = unidic_lite.DICDIR.replace("\\", "/")
+    return MeCab.Tagger(f'-d "{dicdir}"')
+
+
+_TAGGER = None
+
+
+def _token_spans(text: str) -> list[tuple[int, int]]:
+    """全文を隙間なく覆うトークンの (start, end) 文字オフセット一覧。"""
+    global _TAGGER
+    if _TAGGER is None:
+        _TAGGER = _load_tagger()
+    spans = []
+    pos = 0
+    node = _TAGGER.parseToNode(text)
+    while node:
+        surf = node.surface
+        if surf:
+            idx = text.find(surf, pos)
+            if idx == -1:
+                idx = pos
+            spans.append((idx, idx + len(surf)))
+            pos = idx + len(surf)
+        node = node.next
+    return spans
+
+
+def _aligned_headwords(candidates: set[str], text: str) -> set[str]:
+    """candidates のうち、text 中で単なる部分文字列ではなく、形態素境界に
+    一致する（=語として実際に出現している）ものだけを返す。
+
+    素朴な部分文字列一致だと「港」が「香港」に、「中」が「田中」に、
+    「島」が「広島」に誤ヒットし、見出し語の意味と無関係な例文が
+    紐付いてしまう（2026-07 に3,075語中516語で実際に発生した不具合）。
+    """
+    if not candidates:
+        return set()
+    spans = _token_spans(text)
+    starts = {s for s, _ in spans}
+    ends = {e for _, e in spans}
+    aligned = set()
+    for h in candidates:
+        for m in re.finditer(re.escape(h), text):
+            if m.start() in starts and m.end() in ends:
+                aligned.add(h)
+                break
+    return aligned
+
+
 def attach_examples(words: list[dict], pairs: list[tuple[str, str]], max_examples: int = 2) -> None:
     headwords = sorted({w["headword"] for w in words}, key=len, reverse=True)
     pattern = re.compile("|".join(re.escape(h) for h in headwords))
@@ -212,7 +265,8 @@ def attach_examples(words: list[dict], pairs: list[tuple[str, str]], max_example
     natural = [p for p in pairs if _is_natural_sentence(p[0]) and len(p[0]) <= 40]
     natural.sort(key=lambda p: abs(len(p[0]) - TARGET_LEN))
     for jtext, etext in natural:
-        for m in set(pattern.findall(jtext)):
+        candidates = set(pattern.findall(jtext))
+        for m in _aligned_headwords(candidates, jtext):
             if len(by_headword[m]) < max_examples:
                 by_headword[m].append({"text": jtext, "translation": etext})
 
@@ -222,8 +276,9 @@ def attach_examples(words: list[dict], pairs: list[tuple[str, str]], max_example
         pattern2 = re.compile("|".join(re.escape(h) for h in sorted(remaining_words, key=len, reverse=True)))
         fallback = sorted(pairs, key=lambda p: len(p[0]))
         for jtext, etext in fallback:
-            for m in set(pattern2.findall(jtext)):
-                if m in remaining_words and len(by_headword[m]) < max_examples:
+            candidates = set(pattern2.findall(jtext)) & remaining_words
+            for m in _aligned_headwords(candidates, jtext):
+                if len(by_headword[m]) < max_examples:
                     by_headword[m].append({"text": jtext, "translation": etext})
 
     covered = sum(1 for w in words if by_headword[w["headword"]])
