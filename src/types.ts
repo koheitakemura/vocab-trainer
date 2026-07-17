@@ -44,6 +44,13 @@ export interface CourseSource {
 export interface Example {
   text: string
   translation: string
+  /**
+   * 文脈クローズ用に、見出し語の位置を空欄 sentinel（｟＿｠）に置換した学習言語の文。
+   * cloze/較正コースで、安定した既習語を「文中の空欄を埋めて産出させる」提示に使う（PLAN §4.2）。
+   * データパイプライン（MeCab トークン境界一致）が生成。クリーンに空欄化できない例文には付かない
+   * （その場合カードは昇格してもフラッシュカード提示にフォールバックする）。rail(0-3k) コースには無い。
+   */
+  cloze?: string
 }
 
 /**

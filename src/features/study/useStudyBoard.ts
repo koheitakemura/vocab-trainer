@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import type { VocabCard } from '../../types'
+import type { CourseType, VocabCard } from '../../types'
 import { db } from '../../store/db'
 import { localDate, recordReview, resetCourseProgress } from '../../store/progress'
 import { approxLevelCounts, emptyLevelCounts, gradeLevel, isPromotionToKnown, type GradeLevel } from '../../srs/levels'
+import { shouldClozePromote } from '../../srs/cloze'
 import type { ReviewGrade } from '../../srs/scheduler'
 
 /** レール型は1セッションの新規語を絞る（完走率のため。PLAN §4.1） */
@@ -16,6 +17,11 @@ export interface BoardTile {
   grade?: ReviewGrade
   /** レベル別の累計採点回数（丸表示用）。一度も採点していないカードは undefined。 */
   levelCounts?: Record<GradeLevel, number>
+  /**
+   * このカードを文脈クローズ提示へ昇格するか（PLAN §4.2）。cloze/較正コースで、安定した既習語のみ true。
+   * 未習・学習中の新規カードは常に false（まず語を覚える）。rail コースでは常に false。
+   */
+  clozePromoted?: boolean
 }
 
 /** grade() の結果（演出とヘッダーのメーター追従・コーチ文の解禁判定の材料） */
@@ -42,7 +48,7 @@ export interface GradeOutcome {
  * コストは学習済み語数に比例＝語彙が3万語に増えても未学習分は一切読まない。
  * （旧実装の「開くたびに全語彙分 getOrCreateProgress」が最重量の起動待ちだった）
  */
-export function useStudyBoard(cards: VocabCard[]) {
+export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
   const [tiles, setTiles] = useState<BoardTile[]>([])
   const [pendingQueue, setPendingQueue] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
@@ -87,7 +93,13 @@ export function useStudyBoard(cards: VocabCard[]) {
           // FSRS の期限が同日中でも「今日はもう終わり」にする（Kohei 指定）。
           (!r.lastReviewedAt || localDate(new Date(r.lastReviewedAt)) !== today)
         ) {
-          reviewTiles.push({ card, state: 'pending', grade: r.lastGrade, levelCounts: approxLevelCounts(r) })
+          reviewTiles.push({
+            card,
+            state: 'pending',
+            grade: r.lastGrade,
+            levelCounts: approxLevelCounts(r),
+            clozePromoted: shouldClozePromote(courseType, r.fsrs),
+          })
         }
       }
       const total = newCandidates.length
@@ -114,7 +126,7 @@ export function useStudyBoard(cards: VocabCard[]) {
     return () => {
       active = false
     }
-  }, [cards, nonce])
+  }, [cards, nonce, courseType])
 
   /**
    * id を明示指定して採点する。どのカードも採点後にボタンが残り、いつでも採点しなおせる。

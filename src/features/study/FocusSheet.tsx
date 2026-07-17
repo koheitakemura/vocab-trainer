@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel } from '../../srs/levels'
+import { pickClozeExample } from '../../srs/cloze'
 import { getRomaji } from '../../text/romaji'
 import type { BoardTile } from './useStudyBoard'
 import { TileMark } from './TileMark'
@@ -56,6 +57,8 @@ export function FocusSheet({
   const gradedThisSession = tile.state !== 'pending'
   const level = gradedThisSession && tile.grade ? gradeLevel(tile.grade) : null
   const example = c.examples[0]
+  // 文脈クローズ提示（PLAN §4.2）。昇格対象でクローズ可能な例文があるときだけ。
+  const cloze = tile.clozePromoted ? pickClozeExample(c.examples) : undefined
 
   const fire = (g: ReviewGrade) => {
     const rect = cardRef.current?.getBoundingClientRect()
@@ -66,30 +69,65 @@ export function FocusSheet({
     <>
       <div className="focus-backdrop" onClick={onClose} />
       <div className="focus-sheet" role="dialog" aria-modal="true" aria-label={c.headword} ref={sheetRef} tabIndex={-1}>
-        <div className={`focus-card${level ? ` g-${level}` : ''}`} ref={cardRef} onClick={() => setRevealed(true)}>
+        <div
+          className={`focus-card${level ? ` g-${level}` : ''}${cloze ? ' cloze' : ''}`}
+          ref={cardRef}
+          onClick={() => setRevealed(true)}
+        >
           <TileMark grade={tile.grade} levelCounts={tile.levelCounts} uiLanguage={uiLanguage} />
-          <div className="focus-hw">{c.headword}</div>
-          {revealed ? (
-            <>
-              <div className="focus-reading">
-                {c.reading}
-                {romaji && <span className="focus-romaji"> · {romaji}</span>}
-              </div>
-              <div className="focus-gloss">{c.gloss}</div>
-              {c.root && (
-                <div className="focus-root">
-                  {t.rootLabel}: {c.root}
+          {cloze ? (
+            // ── 文脈クローズ提示 ──
+            revealed ? (
+              <>
+                <div className="focus-hw">{c.headword}</div>
+                <div className="focus-reading">
+                  {c.reading}
+                  {romaji && <span className="focus-romaji"> · {romaji}</span>}
                 </div>
-              )}
-              {example && (
+                <div className="focus-gloss">{c.gloss}</div>
                 <div className="focus-example">
-                  <div>{example.text}</div>
-                  <div className="focus-example-tr">{example.translation}</div>
+                  <div>{cloze.example.text}</div>
+                  <div className="focus-example-tr">{cloze.example.translation}</div>
                 </div>
+              </>
+            ) : (
+              <>
+                <span className="focus-cloze-badge">{t.clozeBadge}</span>
+                <div className="focus-cloze-gloss">{c.gloss}</div>
+                <div className="focus-cloze-sentence">
+                  {cloze.parts.before}
+                  <span className="focus-cloze-blank" />
+                  {cloze.parts.after}
+                </div>
+                <div className="focus-tap-hint">{t.tapToReveal}</div>
+              </>
+            )
+          ) : (
+            <>
+              <div className="focus-hw">{c.headword}</div>
+              {revealed ? (
+                <>
+                  <div className="focus-reading">
+                    {c.reading}
+                    {romaji && <span className="focus-romaji"> · {romaji}</span>}
+                  </div>
+                  <div className="focus-gloss">{c.gloss}</div>
+                  {c.root && (
+                    <div className="focus-root">
+                      {t.rootLabel}: {c.root}
+                    </div>
+                  )}
+                  {example && (
+                    <div className="focus-example">
+                      <div>{example.text}</div>
+                      <div className="focus-example-tr">{example.translation}</div>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <div className="focus-tap-hint">{t.tapToReveal}</div>
               )}
             </>
-          ) : (
-            <div className="focus-tap-hint">{t.tapToReveal}</div>
           )}
         </div>
         <div className="focus-levels">

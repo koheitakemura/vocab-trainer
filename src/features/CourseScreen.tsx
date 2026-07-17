@@ -390,6 +390,7 @@ export function CourseScreen({
         {tab === 'study' ? (
           <StudyGrid
             cards={studyCards}
+            courseType={course.type}
             onWordStarted={handleWordStarted}
             onReviewed={handleReviewed}
             onProgressReset={handleProgressReset}

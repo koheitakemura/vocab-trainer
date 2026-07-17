@@ -67,6 +67,9 @@ export const en: UIStrings = {
   // 語根表示
   rootLabel: 'Root',
 
+  // 文脈クローズ
+  clozeBadge: 'Fill in',
+
   // 単語一覧のフィルター・状態
   statusNew: 'New',
   statusLearning: 'Learning',

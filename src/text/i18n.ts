@@ -91,6 +91,9 @@ export interface UIStrings {
   // ── 語根表示（StudyGrid.tsx・FocusSheet.tsx。タガログ語コース専用・VocabCard.root がある語だけ）
   rootLabel: string
 
+  // ── 文脈クローズ（StudyGrid.tsx・FocusSheet.tsx。cloze/較正コースの昇格カードにだけ出る小ラベル）
+  clozeBadge: string
+
   // ── 単語一覧のフィルター・状態（AllWords.tsx）
   statusNew: string
   statusLearning: string

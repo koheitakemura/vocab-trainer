@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import type { VocabCard } from '../../types'
+import type { CourseType, VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel } from '../../srs/levels'
+import { pickClozeExample } from '../../srs/cloze'
 import { useStudyBoard, type BoardTile, type GradeOutcome } from './useStudyBoard'
 import { useFitText } from './useFitText'
 import { getRomaji } from '../../text/romaji'
@@ -12,6 +13,7 @@ import { useStrings, type UiLanguage } from '../../text/i18n'
 
 export function StudyGrid({
   cards,
+  courseType,
   onWordStarted,
   onReviewed,
   onProgressReset,
@@ -20,6 +22,8 @@ export function StudyGrid({
   uiLanguage,
 }: {
   cards: VocabCard[]
+  /** コース種別。cloze/較正コースでは安定した既習語が文脈クローズ提示へ昇格する（PLAN §4.2）。 */
+  courseType: CourseType
   /** スパークル演出の発火（初採点・昇格・卒業）。カードの座標と金色フラグを渡すだけで、ヘッダーの存在は知らない。 */
   onWordStarted?: (rect: DOMRect, gold?: boolean) => void
   /** 採点1回ごとの結果。ヘッダーのメーター・コーチ文の解禁判定が O(1) で追従するため */
@@ -33,7 +37,7 @@ export function StudyGrid({
   uiLanguage: UiLanguage
 }) {
   const t = useStrings(uiLanguage)
-  const b = useStudyBoard(cards)
+  const b = useStudyBoard(cards, courseType)
   const [sheetId, setSheetId] = useState<string | null>(null)
   const courseId = cards[0]?.courseId
 
@@ -159,12 +163,16 @@ function Tile({
     if (rect) onGrade(g, rect)
   }
 
+  // 文脈クローズ提示（PLAN §4.2）：安定した既習語のみ、フラッシュカードでなく「意味＋空欄文」から
+  // 語を産出させる。昇格対象でもクローズ可能な例文が無ければ undefined＝通常のフラッシュカードに戻す。
+  const cloze = tile.clozePromoted ? pickClozeExample(c.examples) : undefined
+
   // 枠線の色は「このセッションで実際に採点した」ときだけ付ける（state !== 'pending'）。
   // pending（前回までの評価が残っているだけで今回はまだ触っていないカード）は他の未採点カードと
   // 同じ既定色にする（前回の色が残っていると「もう採点済み」に見えて紛らわしい・Kohei 指定）。
   const gradedThisSession = tile.state !== 'pending'
   const level = gradedThisSession && tile.grade ? gradeLevel(tile.grade) : null
-  const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}`
+  const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}${cloze ? ' cloze' : ''}`
 
   return (
     <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
@@ -184,7 +192,29 @@ function Tile({
         role="button"
         aria-label={c.headword}
       >
-        {flipped ? (
+        {cloze ? (
+          // ── 文脈クローズ提示 ──
+          flipped ? (
+            <>
+              <div className="tile-hw sm">{c.headword}</div>
+              <span className="tile-reading">
+                {c.reading}
+                {romaji && <span className="tile-romaji"> · {romaji}</span>}
+              </span>
+              <div className="tile-cloze-sentence revealed">{cloze.example.text}</div>
+            </>
+          ) : (
+            <>
+              <span className="tile-cloze-badge">{t.clozeBadge}</span>
+              <FitGloss text={c.gloss} className="hint" />
+              <div className="tile-cloze-sentence">
+                {cloze.parts.before}
+                <span className="tile-cloze-blank" />
+                {cloze.parts.after}
+              </div>
+            </>
+          )
+        ) : flipped ? (
           <>
             <div className="tile-hw sm">{c.headword}</div>
             <span className="tile-reading">

@@ -1,0 +1,12 @@
+{
+  "bands": [
+    "words-00000-01000.json",
+    "words-01000-02000.json",
+    "words-02000-03000.json",
+    "words-03000-04000.json",
+    "words-04000-05000.json",
+    "words-05000-06000.json",
+    "words-06000-07000.json"
+  ],
+  "wordCount": 7000
+}

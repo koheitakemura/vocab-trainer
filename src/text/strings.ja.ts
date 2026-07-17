@@ -66,6 +66,9 @@ export const ja: UIStrings = {
   // 語根表示
   rootLabel: '語根',
 
+  // 文脈クローズ
+  clozeBadge: '穴埋め',
+
   // 単語一覧のフィルター・状態
   statusNew: '未学習',
   statusLearning: '学習中',
