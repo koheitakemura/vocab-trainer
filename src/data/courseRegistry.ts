@@ -37,4 +37,10 @@ export const AVAILABLE_COURSES: CourseListing[] = [
     learningLanguage: 'Japanese',
     uiLanguage: 'en',
   },
+  {
+    id: 'ja-10-30k',
+    title: 'Japanese 10,000 → 23,000',
+    learningLanguage: 'Japanese',
+    uiLanguage: 'en',
+  },
 ]

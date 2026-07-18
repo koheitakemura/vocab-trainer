@@ -1,0 +1,18 @@
+{
+  "bands": [
+    "words-10000-11000.json",
+    "words-11000-12000.json",
+    "words-12000-13000.json",
+    "words-13000-14000.json",
+    "words-14000-15000.json",
+    "words-15000-16000.json",
+    "words-16000-17000.json",
+    "words-17000-18000.json",
+    "words-18000-19000.json",
+    "words-19000-20000.json",
+    "words-20000-21000.json",
+    "words-21000-22000.json",
+    "words-22000-23000.json"
+  ],
+  "wordCount": 12735
+}
