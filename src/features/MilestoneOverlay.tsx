@@ -11,11 +11,15 @@ import { useStrings, type UiLanguage } from '../text/i18n'
 export function MilestoneOverlay({
   milestone,
   total,
+  displayOffset = 0,
   onClose,
   uiLanguage,
 }: {
   milestone: number
   total: number
+  /** コースの帯域開始位置（例: 10,000）。表示する語数だけに足す。coverageAt には渡さない
+   * （coverageAt は 0-3k 会話ドメイン専用で、帯域つきコースにはそもそも意味を持たない値のため）。 */
+  displayOffset?: number
   onClose: () => void
   uiLanguage: UiLanguage
 }) {
@@ -28,9 +32,9 @@ export function MilestoneOverlay({
   return createPortal(
     <div className="milestone-overlay" onClick={onClose} role="presentation">
       <div className="milestone-card">
-        <div className="milestone-big">{t.milestoneBig(milestone)}</div>
+        <div className="milestone-big">{t.milestoneBig(milestone + displayOffset)}</div>
         <div className="milestone-sub">{t.milestoneSub(coverageAt(milestone))}</div>
-        {next && <div className="milestone-next">{t.milestoneNext(next)}</div>}
+        {next && <div className="milestone-next">{t.milestoneNext(next + displayOffset)}</div>}
       </div>
     </div>,
     document.body,

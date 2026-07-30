@@ -80,6 +80,10 @@ export function CourseScreen({
   const byGrade = started?.byGrade ?? EMPTY_BY_GRADE
   const burned = started?.burned ?? 0
   const total = cards.length
+  // コースの帯域開始位置（例: ja-10-30k/en-10-30k は 10,000）。目盛り・節目の「表示上の数字」
+  // だけをこの分だけ足して見せる（進捗計算・クロス判定・localStorageキー等の内部ロジックは
+  // 常にコース内0起点のまま——表示とロジックの基準をずらすとバグの温床になるため）。
+  const displayOffset = course.band.from
   // 目標が感じられるよう 500 語ごとに目盛りを打つ（総数ちょうどの位置は末尾と被るので除外）。
   const milestones: number[] = []
   for (let m = 500; m < total; m += 500) milestones.push(m)
@@ -347,15 +351,18 @@ export function CourseScreen({
           ))}
         </div>
         <div className="progress-scale">
-          {milestones.map((m) => (
-            <span key={m} className="progress-scale-mark" style={{ left: `${(m / total) * 100}%` }}>
-              {m < 1000 ? m : `${m / 1000}k`}
-            </span>
-          ))}
+          {milestones.map((m) => {
+            const d = m + displayOffset
+            return (
+              <span key={m} className="progress-scale-mark" style={{ left: `${(m / total) * 100}%` }}>
+                {d < 1000 ? d : `${d / 1000}k`}
+              </span>
+            )
+          })}
         </div>
       </div>
       {/* チップは情報テキストなので aria-hidden の飾りバーの外に置く（スクリーンリーダーにも読ませる） */}
-      <MilestoneChip introduced={introduced} total={total} uiLanguage={course.uiLanguage} />
+      <MilestoneChip introduced={introduced} total={total} displayOffset={displayOffset} uiLanguage={course.uiLanguage} />
 
       <nav className="tabs">
         <button className={`tab${tab === 'study' ? ' on' : ''}`} onClick={() => setTab('study')}>
@@ -415,6 +422,7 @@ export function CourseScreen({
         <MilestoneOverlay
           milestone={overlayMilestone}
           total={total}
+          displayOffset={displayOffset}
           onClose={() => setOverlayMilestone(null)}
           uiLanguage={course.uiLanguage}
         />

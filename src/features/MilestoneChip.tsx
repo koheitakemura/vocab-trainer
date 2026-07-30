@@ -10,21 +10,25 @@ import { useStrings, type UiLanguage } from '../text/i18n'
 export function MilestoneChip({
   introduced,
   total,
+  displayOffset = 0,
   uiLanguage,
 }: {
   introduced: number
   total: number
+  /** コースの帯域開始位置（例: 10,000）。表示する語数だけに足す。coverageAt には渡さない
+   * （coverageAt は 0-3k 会話ドメイン専用で、帯域つきコースにはそもそも意味を持たない値のため）。 */
+  displayOffset?: number
   uiLanguage: UiLanguage
 }) {
   const t = useStrings(uiLanguage)
   if (introduced <= 0) return null
-  if (introduced >= total) return <div className="milestone-chip done">{t.courseComplete(total)}</div>
+  if (introduced >= total) return <div className="milestone-chip done">{t.courseComplete(total + displayOffset)}</div>
   const next = Math.min(Math.ceil((introduced + 1) / 500) * 500, total)
   const remaining = next - introduced
   const near = remaining <= 50
   return (
     <div className={`milestone-chip${near ? ' near' : ''}`}>
-      {t.nextMilestone(next, remaining, coverageAt(next)).map((p, i) =>
+      {t.nextMilestone(next + displayOffset, remaining, coverageAt(next)).map((p, i) =>
         p.bold ? <strong key={i}>{p.text}</strong> : <Fragment key={i}>{p.text}</Fragment>,
       )}
     </div>
