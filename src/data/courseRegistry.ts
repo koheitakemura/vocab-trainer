@@ -29,7 +29,7 @@ export const AVAILABLE_COURSES: CourseListing[] = [
     id: 'tl-0-2k',
     title: 'Tagalog 0 → 2,000',
     learningLanguage: 'Tagalog',
-    uiLanguage: 'ja',
+    uiLanguage: 'en',
   },
   {
     id: 'ja-3-10k',
@@ -47,6 +47,6 @@ export const AVAILABLE_COURSES: CourseListing[] = [
     id: 'en-10-30k',
     title: 'English 3,772 → 24,497',
     learningLanguage: 'English',
-    uiLanguage: 'ja',
+    uiLanguage: 'en',
   },
 ]

@@ -2,7 +2,7 @@ import { courseProgress } from '../data/coverage'
 import { fmtNum } from '../text/format'
 import type { CoachSentence } from '../data/coachSentences'
 import type { Course } from '../types'
-import { EN_POOLS, JA_POOLS, type CoachMessagePools } from './coachMessages'
+import { EN_PLAIN_POOLS, EN_POOLS, JA_POOLS, type CoachMessagePools } from './coachMessages'
 
 /** 固定文の配列を Msg（関数）プールに変換 */
 const fixed = (list: readonly string[]): Msg[] => list.map((s) => () => s)
@@ -17,9 +17,12 @@ const fixed = (list: readonly string[]): Msg[] => list.map((s) => () => s)
  * - それ以外（今日の進み・週の継続・記憶量の自慢・時間帯の挨拶）は該当分を全部プールして選ぶ
  * - 選択は「日付＋粗い状態バケツ」のハッシュで安定化＝学習が進むと切り替わるが、採点のたびに
  *   チカチカ変わらない。文中の数字は描画時に評価するのでカウントダウン等は常に最新
- * - 固定文プール（EN_POOLS/JA_POOLS）は course.uiLanguage で切り替える（1.5.6）。数字入りの動的
- *   テンプレート（NEAR_MILESTONE・MEMORY_BRAG 等）も同じ c.course.uiLanguage で英日を出し分ける
- *   （isJa() ヘルパー。pools 引数と違い各 Msg は c を受け取るため、その場で判定すれば足りる）
+ * - 固定文プール（JA_POOLS/EN_POOLS/EN_PLAIN_POOLS）は course.uiLanguage＋learningLanguage で
+ *   切り替える（1.5.6・2026-07-30コースA/B英語UI化で3プール化）。EN_POOLS は学習言語=日本語の
+ *   メンバー系コース（C/D/E）専用——英語文言に日本語の単語をあえて混ぜる演出。それ以外の英語UI
+ *   コース（A/B）は日本語を混ぜない EN_PLAIN_POOLS。数字入りの動的テンプレート（NEAR_MILESTONE・
+ *   MEMORY_BRAG 等）も同じ判定で英日/日本語混在の出し分けをする（isJa()/isJaFlavor() ヘルパー。
+ *   pools 引数と違い各 Msg は c を受け取るため、その場で判定すれば足りる）
  */
 export interface CoachContext {
   now: Date
@@ -40,8 +43,11 @@ export interface CoachContext {
   knownIds: Set<string>
   /** 既習語だけで組んだ日本語文のバンク（words ⊆ knownIds の文だけ画面に出す） */
   sentences: CoachSentence[]
-  /** コース（type は MEMORY_BRAG の被覆率算出に、uiLanguage は固定文プールの選択に使う） */
-  course: Pick<Course, 'type' | 'uiLanguage'>
+  /**
+   * コース（type は MEMORY_BRAG の被覆率算出に、uiLanguage は固定文プールの選択に、
+   * learningLanguage は「英語UI＋学習言語=日本語の文言に学習言語の単語を混ぜるか」の判定に使う）。
+   */
+  course: Pick<Course, 'type' | 'uiLanguage' | 'learningLanguage'>
 }
 
 /** コーチの一言（text＝メイン表示、sub＝日本語文のときの英訳） */
@@ -55,6 +61,15 @@ type Msg = (c: CoachContext) => string
 /** コースの UI 言語が日本語か（動的テンプレートの英日出し分けに使う） */
 function isJa(c: CoachContext): boolean {
   return c.course.uiLanguage === 'ja'
+}
+
+/**
+ * 英語UIの文言に学習言語（日本語）の単語をあえて混ぜるコースか。
+ * 対象は「UI=英語・学習言語=日本語」のメンバー系コース（C/D/E）のみ——学習中の言語に軽く触れ続ける
+ * 演出。UI=英語でも学習言語が日本語でないコース（A: 英語・B: タガログ語）はプレーン英語（EN_PLAIN_POOLS）。
+ */
+function isJaFlavor(c: CoachContext): boolean {
+  return c.course.uiLanguage === 'en' && c.course.learningLanguage === 'Japanese'
 }
 
 /** 文字列ハッシュで候補から1つを安定選択 */
@@ -75,7 +90,9 @@ function firstVisitPool(pools: CoachMessagePools): Msg[] {
     (c) =>
       isJa(c)
         ? 'ようこそ！👋 カードをタップして最初の単語に出会いましょう。'
-        : 'Welcome! 👋 Tap any card to meet your first word — はじめましょう！',
+        : isJaFlavor(c)
+          ? 'Welcome! 👋 Tap any card to meet your first word — はじめましょう！'
+          : 'Welcome! 👋 Tap any card to meet your first word.',
     (c) =>
       isJa(c)
         ? `全 ${fmtNum(c.total)} 語があなたを待っています。準備ができたらタップしてくださいね 🌱`
@@ -93,7 +110,9 @@ function courseCompletePool(pools: CoachMessagePools): Msg[] {
     (c) =>
       isJa(c)
         ? 'コース完了——お見事！復習を続けて、感覚を温め続けましょう ✨'
-        : 'Course complete — お見事！ Keep the reviews warm ✨',
+        : isJaFlavor(c)
+          ? 'Course complete — お見事！ Keep the reviews warm ✨'
+          : 'Course complete — well done! Keep the reviews warm ✨',
     ...fixed(pools.courseComplete),
   ]
 }
@@ -110,7 +129,9 @@ const NEAR_MILESTONE: Msg[] = [
   (c) =>
     isJa(c)
       ? `${fmtNum(nextMilestone(c))} まであと ${nextMilestone(c) - c.introduced} 語。あと少し！`
-      : `${fmtNum(nextMilestone(c))} is right there — ${nextMilestone(c) - c.introduced} words away. あと少し！`,
+      : isJaFlavor(c)
+        ? `${fmtNum(nextMilestone(c))} is right there — ${nextMilestone(c) - c.introduced} words away. あと少し！`
+        : `${fmtNum(nextMilestone(c))} is right there — ${nextMilestone(c) - c.introduced} words away. Almost there!`,
 ]
 
 function comebackPool(pools: CoachMessagePools): Msg[] {
@@ -122,7 +143,9 @@ function comebackPool(pools: CoachMessagePools): Msg[] {
     (c) =>
       isJa(c)
         ? 'おかえりなさい！追いつく必要はありません、今日のボードから始めましょう 🌱'
-        : 'おかえりなさい！ No catch-up guilt: just start with today’s board 🌱',
+        : isJaFlavor(c)
+          ? 'おかえりなさい！ No catch-up guilt: just start with today’s board 🌱'
+          : 'Welcome back! No catch-up guilt: just start with today’s board 🌱',
     (c) =>
       isJa(c)
         ? '休憩明け、いいタイミングです。小さなセッションが大きな弾みになります 💪'
@@ -138,11 +161,15 @@ function bigDayPool(pools: CoachMessagePools): Msg[] {
     (c) =>
       isJa(c)
         ? '今日は絶好調ですね 🔥 頑張った分、頭もしっかり休ませてくださいね。'
-        : 'You’re on fire today 🔥 Remember to rest those kanji muscles.',
+        : isJaFlavor(c)
+          ? 'You’re on fire today 🔥 Remember to rest those kanji muscles.'
+          : 'You’re on fire today 🔥 Remember to rest that brain too.',
     (c) =>
       isJa(c)
         ? `今日の復習、${c.todayReviews} 件!? お疲れさまでした——本物の頑張りです ✨`
-        : `${c.todayReviews} reviews?! お疲れさま — that’s real dedication ✨`,
+        : isJaFlavor(c)
+          ? `${c.todayReviews} reviews?! お疲れさま — that’s real dedication ✨`
+          : `${c.todayReviews} reviews?! Well done — that’s real dedication ✨`,
     ...fixed(pools.bigDay),
   ]
 }
@@ -165,7 +192,8 @@ function todayProgressPool(pools: CoachMessagePools): Msg[] {
         ? `${c.todayNew} new ${c.todayNew === 1 ? 'word' : 'words'} started today 🌱 Every one counts.`
         : 'Reviews first, new words next — solid routine 👌'
     },
-    (c) => (isJa(c) ? 'いい調子！一枚ずつ、着実に。' : 'いい調子！ One card at a time.'),
+    (c) =>
+      isJa(c) ? 'いい調子！一枚ずつ、着実に。' : isJaFlavor(c) ? 'いい調子！ One card at a time.' : 'Nice pace! One card at a time.',
     ...fixed(pools.todayProgress),
   ]
 }
@@ -210,26 +238,43 @@ const MASTERED_BRAG: Msg[] = [
   (c) =>
     isJa(c)
       ? `${c.mastered} 語を完全習得——卒業です 🏅`
-      : `${c.mastered} ${c.mastered === 1 ? 'word' : 'words'} mastered for good — 卒業 🏅`,
+      : isJaFlavor(c)
+        ? `${c.mastered} ${c.mastered === 1 ? 'word' : 'words'} mastered for good — 卒業 🏅`
+        : `${c.mastered} ${c.mastered === 1 ? 'word' : 'words'} mastered for good — graduated 🏅`,
 ]
 
 function greetingMorningPool(pools: CoachMessagePools): Msg[] {
   return [
-    (c) => (isJa(c) ? 'おはようございます！朝のコーヒーと一緒に少し単語はいかがですか？ ☕' : 'おはよう！ A few words with your morning coffee? ☕'),
+    (c) =>
+      isJa(c)
+        ? 'おはようございます！朝のコーヒーと一緒に少し単語はいかがですか？ ☕'
+        : isJaFlavor(c)
+          ? 'おはよう！ A few words with your morning coffee? ☕'
+          : 'Good morning! A few words with your morning coffee? ☕',
     (c) => (isJa(c) ? 'おはようございます——頭も新鮮、単語も新鮮です 🌅' : 'Good morning — fresh mind, fresh words 🌅'),
     ...fixed(pools.greetingMorning),
   ]
 }
 function greetingAfternoonPool(pools: CoachMessagePools): Msg[] {
   return [
-    (c) => (isJa(c) ? 'こんにちは！ちょっとしたセッションにぴったりの時間です 🌞' : 'こんにちは！ Perfect time for a quick session 🌞'),
+    (c) =>
+      isJa(c)
+        ? 'こんにちは！ちょっとしたセッションにぴったりの時間です 🌞'
+        : isJaFlavor(c)
+          ? 'こんにちは！ Perfect time for a quick session 🌞'
+          : 'Good afternoon! Perfect time for a quick session 🌞',
     (c) => (isJa(c) ? '午後の一息に、単語タイムはいかがですか 📚' : 'Midday brain break = vocabulary time 📚'),
     ...fixed(pools.greetingAfternoon),
   ]
 }
 function greetingEveningPool(pools: CoachMessagePools): Msg[] {
   return [
-    (c) => (isJa(c) ? 'こんばんは！単語と一緒にひと息つきませんか 🌆' : 'こんばんは！ Wind down with a few words 🌆'),
+    (c) =>
+      isJa(c)
+        ? 'こんばんは！単語と一緒にひと息つきませんか 🌆'
+        : isJaFlavor(c)
+          ? 'こんばんは！ Wind down with a few words 🌆'
+          : 'Good evening! Wind down with a few words 🌆',
     (c) => (isJa(c) ? '夜の復習は、また違った落ち着きがあります 🌙' : 'Evening reviews hit different — calm and focused 🌙'),
     ...fixed(pools.greetingEvening),
   ]
@@ -269,8 +314,9 @@ function hashOf(seed: string): number {
 }
 
 export function pickCoachMessage(c: CoachContext): CoachLine {
-  // 固定文プールはコースの UI 言語で切り替える（メンバー系 C/D/E=en は従来どおり EN_POOLS）。
-  const pools = c.course.uiLanguage === 'ja' ? JA_POOLS : EN_POOLS
+  // 固定文プールはコースの UI 言語＋学習言語で切り替える（メンバー系 C/D/E=EN_POOLS・
+  // A/B=EN_PLAIN_POOLS・将来の日本語UIコース=JA_POOLS）。
+  const pools = isJa(c) ? JA_POOLS : isJaFlavor(c) ? EN_POOLS : EN_PLAIN_POOLS
   const day = `${c.now.getFullYear()}-${c.now.getMonth() + 1}-${c.now.getDate()}`
   // 採点のたびに変わらないよう粗いバケツで安定化（学習開始時・10レビューごと・新規5語ごとに変わる）
   const seed = `${day}|${c.todayReviews > 0 ? 'active' : 'idle'}|${Math.floor(c.todayReviews / 10)}|${Math.floor(c.todayNew / 5)}|${c.introduced >= c.total ? 'done' : ''}`

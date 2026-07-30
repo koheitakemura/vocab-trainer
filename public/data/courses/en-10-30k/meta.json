@@ -3,7 +3,7 @@
  "title": "English 3,772 → 24,497",
  "learningLanguage": "English",
  "glossLanguage": "Japanese",
- "uiLanguage": "ja",
+ "uiLanguage": "en",
  "type": "calibrate-mine",
  "band": {
   "from": 3772,
@@ -14,40 +14,40 @@
    "name": "EJDict-hand",
    "url": "https://github.com/kujirahand/EJDict",
    "license": "CC0 1.0 Universal",
-   "note": "英和辞典データ。日本語グロスの一次ソース。EJDict-handに見出しが無い語はLLM生成（複数AI相互検証のみ・人手ネイティブレビュー無し。判断ログ#18）。"
+   "note": "English-Japanese dictionary data, the primary source for Japanese glosses. Words missing from EJDict-hand have LLM-generated glosses (cross-checked by a second AI pass only, no native-speaker human review)."
   },
   {
    "name": "New General Service List (NGSL) / New Academic Word List (NAWL)",
    "url": "https://www.newgeneralservicelist.com",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-   "note": "既知語底面（3,772語）。この帯を超える語を新規収録語として扱う（判断ログ#28）。"
+   "note": "Known-word baseline (3,772 words). Words beyond this baseline are treated as new course content."
   },
   {
    "name": "Tatoeba.org",
    "url": "https://tatoeba.org",
    "license": "CC BY 2.0 FR",
    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
-   "note": "例文の第一ソース。"
+   "note": "Primary example sentence source."
   },
   {
    "name": "JESC (Japanese-English Subtitle Corpus)",
    "url": "https://nlp.stanford.edu/projects/jesc/",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-   "note": "Tatoebaで不足した例文の第二ソース（判断ログ#28。字幕由来の対訳コーパス）。それでも不足した語はLLM生成（aiGenerated:trueを個々の例文に付与）。"
+   "note": "Secondary example sentence source for words Tatoeba didn't cover (subtitle-derived parallel corpus). Words still missing an example after this have an LLM-generated one (aiGenerated:true on the individual example)."
   },
   {
    "name": "CMUdict",
    "url": "https://github.com/cmusphinx/cmudict",
    "license": "BSD-like (CMU license)",
-   "note": "発音表記（IPA）。ARPABET→IPA変換はプロジェクト内の自前実装（pipeline/arpabet_to_ipa.py）。"
+   "note": "Pronunciation (IPA). ARPABET→IPA conversion is a custom implementation in this project (pipeline/arpabet_to_ipa.py)."
   },
   {
    "name": "wordfreq",
    "url": "https://github.com/rspeer/wordfreq",
    "license": "MIT",
-   "note": "頻度順序付け。"
+   "note": "Frequency ordering."
   }
  ]
 }

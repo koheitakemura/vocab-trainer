@@ -145,12 +145,12 @@ export const EN_POOLS = {
   ],
 } as const
 
-/** プールの構造（キー集合）。JA_POOLS は同じキーを日本語文言で満たす（キー漏れはコンパイル時に落ちる）。 */
+/** プールの構造（キー集合）。JA_POOLS・EN_PLAIN_POOLS は同じキーを満たす（キー漏れはコンパイル時に落ちる）。 */
 export type CoachMessagePools = Record<keyof typeof EN_POOLS, readonly string[]>
 
 /**
  * 日本語コーチメッセージのプール（固定文）。EN_POOLS と同じキー構成・同じ用途。
- * 対象は UI が日本語のコース（A: 英語 10k→30k・B: タガログ語 0→3k、いずれも Kohei 向け）。
+ * uiLanguage:'ja' のコース用（現在使用コースなし。将来日本語UIコースが増えたときのために保持）。
  * トーン・絵文字の使用量は EN_POOLS に準じる（直訳ではなく自然な日本語の言い回しで揃えた）。
  */
 export const JA_POOLS: CoachMessagePools = {
@@ -293,5 +293,155 @@ export const JA_POOLS: CoachMessagePools = {
     '夜更けの少しの学習のあとは、おやすみなさい ✨',
     'まだここにいるんですね。立派です。次のカードは「就寝」でもいいですよ 😊',
     'お疲れさまでした！軽く復習して、しっかり休んでくださいね。',
+  ],
+} as const
+
+/**
+ * プレーン英語のコーチメッセージのプール（固定文）。EN_POOLS と同じキー構成・同じ用途だが、
+ * 学習言語がわざと混ぜ込まれる EN_POOLS（対象=日本語を学ぶメンバー系コース C/D/E）とは異なり、
+ * 学習言語の単語を一切混ぜない自然な英語のみ（対象=UIを英語にしたKohei向けコース A/B。
+ * 2026-07-30 Kohei判断でuiLanguage:'ja'→'en'に変更した際に新設）。
+ * JA_POOLS と同じ内容・トーンを英語に置き換えたもの。
+ */
+export const EN_PLAIN_POOLS: CoachMessagePools = {
+  firstVisit: [
+    'Welcome! Ready to meet your first word?',
+    "Nice to meet you! Let's take it one step at a time.",
+    'Welcome! No rush — one word at a time is plenty.',
+    "Thanks for showing up. That first step is the big one.",
+    'A new journey begins. Take your time settling in 🌱',
+    'Welcome! Curiosity is all you need.',
+    "You've taken the first step.",
+    'Little by little, these words will become old friends.',
+    'No need to rush. Just start steady, one day at a time.',
+    'Welcome! Everyone starts from zero.',
+    "Let's begin. Small steps add up.",
+    "Just by getting here, you're already halfway there. Welcome!",
+  ],
+  courseComplete: [
+    "Every single word — met. That's genuinely impressive 🎉",
+    'Course complete — congratulations!',
+    'Every word started! Well done.',
+    "You've explored the whole course. Impressive.",
+    'From the first card to the last — all done by you ✨',
+    "Amazing! You've tried every word in the course.",
+    'Full course cleared — hats off 🙌',
+    'Every word here knows your name now. Congrats!',
+    'Start to finish, beautifully done 🎉',
+    'Well done. The whole course is yours now.',
+    'No new words left — just words getting stronger from here.',
+    "Everything you've built up to this point is genuinely impressive.",
+  ],
+  comeback: [
+    'Welcome back! Your words were waiting for you 😊',
+    'Welcome back — good to see you again.',
+    "You came back. That's really all that matters.",
+    'Life happens. Your words are still right here 🌱',
+    'Welcome back — no catching up needed, just start today.',
+    'Good to see you again! Rest is part of learning too.',
+    "Welcome back. Let's ease in gently ☕",
+    "Coming back at all — that's the real consistency.",
+    'Your words missed you, just a little 😊',
+    "You're back! One quick review and you're right back in the groove.",
+    'No guilt here. Just glad you\'re back ✨',
+    "Whenever you're ready to say you're back, we'll be here to welcome you.",
+  ],
+  bigDay: [
+    "Wow — that's a serious pile of reviews today 😳",
+    'Today was a big one. Well done!',
+    "You're on fire today 🔥 Just remember to rest that brain, too.",
+    'That review count... genuinely impressive effort.',
+    'Amazing! You really pushed today!',
+    'You cleared a huge stack today. Your brain earned a treat 🍰',
+    'You worked through a mountain of cards today. Respect.',
+    'What a day! Future you is already grateful.',
+    'That many reviews means that much heart went into it 💪',
+    'Really well done. Today was something special.',
+    "Whoa — today's effort will echo for weeks.",
+    'A marathon of a day! Be proud of it, then rest well 🌙',
+  ],
+  todayProgress: [
+    'You already studied today — nicely done 😊',
+    "You've already met today's words. Ahead of the game.",
+    "Nice pace! Today's already a win.",
+    'Made a little progress today? You really did ✨',
+    "Progress again today. That's the good stuff.",
+    "You showed up again today. That's how fluency gets built.",
+    "Well done! Today's session is in the books.",
+    'Progress logged for today — small steps, big future 🌱',
+    "You're already moving the needle today.",
+    'Nice! You made today count 👏',
+    'Keep it light, keep it going.',
+    'Studied today already? Quietly unstoppable.',
+  ],
+  steadyWeek: [
+    "Studying most days this week — that's a rhythm 🎵",
+    'Your week has a real study heartbeat.',
+    'Nice pace! This week is looking strong.',
+    "Showing up most days — that's the whole secret 🌱",
+    'A steady week like this beats any cram session.',
+    'Consistency looks good on you 😊',
+    "Keep it up! The habit is doing its magic.",
+    "You showed up most of the week. That's rare, and it works.",
+    "This week's steady pace? Well played 👌",
+    'Quiet, steady, powerful — that\'s your week.',
+    "Slow and steady wins — and you're living proof 🐢",
+    'A solid week of showing up. Future you says thanks!',
+  ],
+  greetingMorning: [
+    'Good morning! A few words with your coffee? ☕',
+    'Good morning. Fresh mind, fresh words.',
+    "Morning! Today's words are up early too 🌅",
+    'Just woke up — no need to push, take it easy 😊',
+    "Good morning! Just a little time for today's words.",
+    'Good morning! A small session sets up the whole day.',
+    'A fresh start with the morning light. Welcome!',
+    'A word or two in the morning makes a real difference ☀️',
+    "Good morning! Your memory is at its sharpest right now.",
+    "Good morning — let's start with something easy.",
+    'New day, new reviews, same familiar words 🌱',
+    "Morning! No rush — the words will match your pace.",
+  ],
+  greetingAfternoon: [
+    'Good afternoon! Perfect time for a quick session.',
+    'Good afternoon! A few words for a little break? ☕',
+    'Feeling the afternoon slump? Words make a good pick-me-up.',
+    'Good afternoon! A midday review is a nice change of pace 😊',
+    'Good afternoon! Sneaking in some study — nice.',
+    'Afternoon! A short session now makes the evening lighter.',
+    'Good afternoon — the words are wide awake too.',
+    'A little midday break. Even five minutes counts 🌤️',
+    "How's your day going? Ready for a few cards?",
+    'Afternoon study is a small gift to your evening self ✨',
+    "Good afternoon! Let's stretch that brain a bit.",
+    'Lunch is done, brain is ready. Let\'s go 😄',
+  ],
+  greetingEvening: [
+    'Good evening! Wind down with a few words?',
+    'Good evening. A calm session to close out the day 🌆',
+    'Evening reviews are cozy and effective.',
+    'You made it through the day! Well done.',
+    'Good evening — let the words be your cool-down.',
+    'Good evening! A few cards before dinner? 😊',
+    "The day's winding down. Time for some gentle study 🌙",
+    'Good evening! Reviews before bed tend to stick well.',
+    'Well done today! A light session suits this hour.',
+    'Good evening — no pressure, just a few friendly words.',
+    'An evening study session — a lovely choice 🌇',
+    'Evening calm and a few words — a good combination.',
+  ],
+  greetingLate: [
+    "It's getting late! Keep it short, then get some rest 🌙",
+    'Night owl mode? Keep it short and easy.',
+    'Late-night words are good too. Sleep helps memory as well 😴',
+    'Still up? One light review, then off to bed.',
+    "Your words see the effort — but it's about time for bed 🛏️",
+    'Quiet hours call for quiet study.',
+    'A few cards before bed, if you like.',
+    "It's late! Sleep is secretly one of the best study tools 🌙",
+    "Midnight scholar! Just don't trade sleep for streaks though.",
+    'A little late-night study, then sweet dreams ✨',
+    '"Go to sleep" is a valid next card too — but impressive that you\'re still here 😊',
+    'Well done today! A light review, then get some proper rest.',
   ],
 } as const

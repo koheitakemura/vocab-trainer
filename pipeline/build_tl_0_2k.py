@@ -233,7 +233,7 @@ def main():
         "title": "Tagalog 0 → 2,000",
         "learningLanguage": "Tagalog",
         "glossLanguage": "Japanese",
-        "uiLanguage": "ja",
+        "uiLanguage": "en",
         "type": "rail",
         "band": {"from": 0, "to": 2000},
         "sources": [
