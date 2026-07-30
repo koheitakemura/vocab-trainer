@@ -1,13 +1,13 @@
 {
  "id": "en-10-30k",
- "title": "English 3,772 → 24,497",
+ "title": "English 10,000 → 30,725",
  "learningLanguage": "English",
  "glossLanguage": "Japanese",
  "uiLanguage": "en",
  "type": "calibrate-mine",
  "band": {
-  "from": 3772,
-  "to": 24497
+  "from": 10000,
+  "to": 30725
  },
  "sources": [
   {
@@ -21,7 +21,7 @@
    "url": "https://www.newgeneralservicelist.com",
    "license": "CC BY-SA 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-   "note": "Known-word baseline (3,772 words). Words beyond this baseline are treated as new course content."
+   "note": "Known-word baseline (3,772 words). Words beyond this baseline are treated as new course content. The course title displays a rounded starting point (10,000) rather than this exact figure."
   },
   {
    "name": "Tatoeba.org",

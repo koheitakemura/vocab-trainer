@@ -3,11 +3,12 @@
 コース A（英語・calibrate-mine）の stage2: 5.4のLLMコンテンツバッチ出力を統合し、
 public/data/courses/en-10-30k/ へ最終データを書き出す。
 
-判断ログ#28/#29/#30を反映:
-- 既知語底面はNGSL+NAWLのみ（3,772語）
+判断ログ#28/#29/#30/#31を反映:
+- 既知語底面はNGSL+NAWLのみ（3,772語。引用元meta.jsonのsourcesには正確な値を残す）
 - isValidVocabulary=falseの語（固有名詞ノイズ等）とpos=数詞（NGSL漏れの数詞59語）を除外
-- 表示名・band は実データ（既知語底面3,772語 + 収録語数）に合わせる。「10k→30k」ではなく
-  「学習者が最終的に到達する累積語彙数」でsibling courses（ja-3-10k/ja-10-30k）と同じ命名規則に揃える
+- 表示名・band・frequencyRankの起点は DISPLAY_BASELINE（10,000）を使う（判断ログ#31・Kohei判断で
+  「英語10k→30k」という当初の企画名の座りの良さを優先し、技術的な既知語底面の実数(3,772)より
+  丸めた開始番号を表示する）。収録語数(len(cards))自体は実データのまま変えない
 
 入力:
   raw/en-wordfreq-ranked.json（rawWordfreqRank・reading付きの候補全量）
@@ -24,7 +25,8 @@ import os
 RAW = "raw"
 OUT_DIR = "../public/data/courses/en-10-30k"
 
-KNOWN_BASELINE_COUNT = 3772  # NGSL 2,809 + NAWL 963（判断ログ#28）
+NGSL_NAWL_COUNT = 3772  # NGSL 2,809 + NAWL 963（判断ログ#28・技術的な既知語底面の実数。sources引用元用）
+DISPLAY_BASELINE = 10000  # タイトル・band・frequencyRankの起点（判断ログ#31・Kohei判断）
 EXCLUDED_POS = {"数詞"}  # NGSLが数字を収録していないため漏れた基礎語（判断ログ#30）
 BAND_SIZE = 1000
 
@@ -76,7 +78,7 @@ def main():
     cards = []
     categories = {}
     for i, (raw_rank, it, s) in enumerate(valid):
-        freq_rank = KNOWN_BASELINE_COUNT + 1 + i
+        freq_rank = DISPLAY_BASELINE + 1 + i
         card_id = f"en-10-30k-{i + 1:05d}"
         examples = []
         for ex in it.get("examples", []):
@@ -106,7 +108,7 @@ def main():
 
     # ---------- words-*.json（1000語区切り） ----------
     band_files = []
-    start_rank = KNOWN_BASELINE_COUNT + 1
+    start_rank = DISPLAY_BASELINE + 1
     for band_start in range(start_rank, start_rank + len(cards), BAND_SIZE):
         band_end = band_start + BAND_SIZE
         band_cards = [c for c in cards if band_start <= c["frequencyRank"] < band_end]
@@ -129,8 +131,8 @@ def main():
         json.dump(manifest, f, ensure_ascii=False, indent=1)
 
     # ---------- meta.json ----------
-    final_total = KNOWN_BASELINE_COUNT + len(cards)
-    title = f"English {KNOWN_BASELINE_COUNT:,} → {final_total:,}"
+    final_total = DISPLAY_BASELINE + len(cards)
+    title = f"English {DISPLAY_BASELINE:,} → {final_total:,}"
     meta = {
         "id": "en-10-30k",
         "title": title,
@@ -138,7 +140,7 @@ def main():
         "glossLanguage": "Japanese",
         "uiLanguage": "en",
         "type": "calibrate-mine",
-        "band": {"from": KNOWN_BASELINE_COUNT, "to": final_total},
+        "band": {"from": DISPLAY_BASELINE, "to": final_total},
         "sources": [
             {
                 "name": "EJDict-hand",
@@ -151,7 +153,7 @@ def main():
                 "url": "https://www.newgeneralservicelist.com",
                 "license": "CC BY-SA 4.0",
                 "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-                "note": "Known-word baseline (3,772 words). Words beyond this baseline are treated as new course content.",
+                "note": f"Known-word baseline ({NGSL_NAWL_COUNT:,} words). Words beyond this baseline are treated as new course content. The course title displays a rounded starting point ({DISPLAY_BASELINE:,}) rather than this exact figure.",
             },
             {
                 "name": "Tatoeba.org",

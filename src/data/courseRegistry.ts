@@ -45,7 +45,7 @@ export const AVAILABLE_COURSES: CourseListing[] = [
   },
   {
     id: 'en-10-30k',
-    title: 'English 3,772 → 24,497',
+    title: 'English 10,000 → 30,725',
     learningLanguage: 'English',
     uiLanguage: 'en',
   },
