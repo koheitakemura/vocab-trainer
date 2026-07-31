@@ -90,7 +90,8 @@ D1 のテーブルは Worker が初回リクエスト時に `CREATE TABLE IF NOT
   本番には必ず AUD が入っているので、仮にダッシュボードで誤って有効化しても JWT 検証は外れない。
   加えて `.dev.vars` は gitignore 済みかつ `wrangler deploy` の成果物に含まれない。
 - **このリポジトリは public** なので、メール・アカウントID・リストID・APIトークンは
-  `wrangler.jsonc` の `vars` に書かず、**すべて Worker Secret** に入れる（Secret はデプロイで消えない）。
+  `wrangler.jsonc` の `vars` に書かず、**すべて Worker Secret** に入れる（通常のデプロイでは消えない。
+  ただし §4 の「一度だけ踏んだ罠」に注意——assets 専用 Worker に初めて `main` を足したデプロイでだけ消えた）。
   `.gitignore` は `.dev.vars*` と `.env*` の両方を除外している（wrangler は `.env` も読むため）。
 - **API トークンは絞れない。** Zero Trust リストの編集には「Zero Trust: 編集」が要り、これはアカウント配下の
   Gateway ポリシー・リストを全部触れる権限を含む。したがって**このプロジェクト専用に発行し、他と共用せず、
@@ -119,19 +120,38 @@ D1 のテーブルは Worker が初回リクエスト時に `CREATE TABLE IF NOT
 
 ---
 
-## 4. セットアップ手順（Kohei の作業）
+## 4. セットアップ手順
 
-すべて Cloudflare ダッシュボードでできる。**この作業を終えるまで push しないこと**（D1 未作成のままだとデプロイが失敗する）。
+### 済んでいること（2026-07-31 に実施）
 
-### ① D1 データベースを作る
-1. ダッシュボード → **Storage & Databases → D1** → **Create database**
-2. 名前は **`vocab-trainer-db`**（この名前で `wrangler.jsonc` に書いてある）
-3. 作成後に表示される **Database ID** をコピー
-4. `wrangler.jsonc` の `"database_id": "REPLACE_WITH_D1_DATABASE_ID"` を、そのIDに置き換える（← AI に貼れば書き換える）
+| 項目 | 状態 |
+|---|---|
+| D1 `vocab-trainer-db`（APAC）作成・`wrangler.jsonc` に反映 | ✅ 完了 |
+| Secret `TEAM_DOMAIN` / `POLICY_AUD` / `ADMIN_EMAILS` / `CF_ACCOUNT_ID` | ✅ 設定済み |
+| main へ push・自動デプロイ・Access ゲートの維持を実測 | ✅ 完了 |
+| Secret `CF_ACCESS_EMAIL_LIST_ID` / `CF_API_TOKEN` | ❌ **未設定＝登録・削除だけ使えない**（進捗確認は使える） |
+| Access の Cookie を SameSite=Strict にする | ❌ 未実施（任意・下の⑤-b） |
 
-### ② Access アプリの AUD タグを控える
-1. **Zero Trust → Access → Applications** → vocab-trainer のアプリを開く
-2. **Overview** の **Application Audience (AUD) Tag** をコピー（64桁の16進数）
+### ⚠️ 一度だけ踏んだ罠：assets 専用 Worker → main 付き Worker への移行で Secret が消える
+
+Cloudflare の公式ドキュメントは「Secrets are never deleted by a deployment」と書いているが、
+**`main` を持たない静的アセット専用 Worker に初めて `main` を足してデプロイしたときだけ、既存の Secret が全部消えた**（実測）。
+以後の通常デプロイでは消えない（手動デプロイを1回走らせて4つとも残存することを確認済み）。
+この移行は済んでいるので、今後は気にしなくてよい。**移行と同時期に Secret を入れる場合はデプロイ後に入れ直すこと。**
+
+### ① D1 データベースを作る（済）
+`wrangler d1 create vocab-trainer-db` で作成し、`wrangler.jsonc` の `database_id` に記入済み。
+
+### ② Access アプリの AUD タグ（済）
+ダッシュボードを見なくても取れる——**未ログインでアプリの URL を叩いたときのリダイレクト先**に含まれている：
+
+```bash
+curl -sI https://vocab-trainer.takemura-kohei.workers.dev/ | grep -i location
+# → .../cdn-cgi/access/login/...?kid=<AUDタグ>&meta=<JWT>
+#   JWT のペイロードの "aud" が AUD タグ（64桁の16進数）
+```
+
+ダッシュボードから見る場合は **Zero Trust → Access → Applications → vocab-trainer → Overview → Application Audience (AUD) Tag**。
 
 ### ③ ログイン許可リストの ID を控える
 1. **Zero Trust → 再利用可能なコンポーネント → リスト** → 使っている Emails 型リストを開く
@@ -144,17 +164,21 @@ D1 のテーブルは Worker が初回リクエスト時に `CREATE TABLE IF NOT
    - **Access: Organizations Revoke**（あれば付ける。削除時に既存セッションを即失効させるため。無くても動く）
 3. アカウントリソースは自分のアカウントのみに限定して作成 → **表示されたトークンをコピー**（再表示不可）
 
-### ⑤ Worker に Secret を6つ入れる
-**Workers & Pages → vocab-trainer → Settings → Variables and Secrets** で、**すべて Secret（暗号化）として**追加：
+### ⑤ Worker に Secret を入れる
+`wrangler secret put <名前>`（値は標準入力）か、**Workers & Pages → vocab-trainer → Settings → Variables and Secrets** で
+**すべて Secret（暗号化）として**追加する。`vars` には書かない（このリポジトリは public のため）。
 
-| 名前 | 値 |
-|---|---|
-| `TEAM_DOMAIN` | `https://divine-bread-a024.cloudflareaccess.com` |
-| `POLICY_AUD` | ②の AUD タグ |
-| `ADMIN_EMAILS` | 管理者のメール（自分。複数ならカンマ区切り） |
-| `CF_ACCOUNT_ID` | ダッシュボードURLに出てくるアカウントID |
-| `CF_ACCESS_EMAIL_LIST_ID` | ③のリストID |
-| `CF_API_TOKEN` | ④のトークン |
+| 名前 | 値 | 状態 |
+|---|---|---|
+| `TEAM_DOMAIN` | `https://divine-bread-a024.cloudflareaccess.com` | ✅ |
+| `POLICY_AUD` | ②の AUD タグ | ✅ |
+| `ADMIN_EMAILS` | 管理者のメール（複数ならカンマ区切り） | ✅ |
+| `CF_ACCOUNT_ID` | `wrangler whoami` で分かるアカウントID | ✅ |
+| `CF_ACCESS_EMAIL_LIST_ID` | ③のリストID | ❌ 未設定 |
+| `CF_API_TOKEN` | ④のトークン | ❌ 未設定 |
+
+下2つが未設定の間、管理画面は**進捗の閲覧はできる**が、登録・削除ボタンは無効になり
+「⚠️ ログイン許可リストに接続できません」の帯が出る（設計どおりのフォールバック）。
 
 ### ⑤-b Access の Cookie を SameSite=Strict にする（CSRF の二重防御）
 Zero Trust → Access → Applications → vocab-trainer → **Settings → Cookie settings → SameSite Attribute** を
@@ -162,7 +186,7 @@ Zero Trust → Access → Applications → vocab-trainer → **Settings → Cook
 既定の `None` は「クロスサイトの要求にもログイン Cookie が付く」設定なので、閉じておくに越したことはない。
 
 ### ⑥ デプロイして確認
-1. `wrangler.jsonc` の database_id を埋めた状態で main に push（＝自動デプロイ）
+1. main に push すると GitHub Actions が自動デプロイする
 2. `https://vocab-trainer.takemura-kohei.workers.dev/#admin` を開く
 3. 自分のメールと利用者一覧が出れば成功。「⚠️ ログイン許可リストに接続できません」が出たら
    ⑤の値（特に `CF_ACCOUNT_ID` / `CF_ACCESS_EMAIL_LIST_ID` / `CF_API_TOKEN`）を見直す
