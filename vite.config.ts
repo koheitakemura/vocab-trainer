@@ -22,6 +22,12 @@ export default defineConfig({
       workbox: {
         skipWaiting: true,
         clientsClaim: true,
+        // Service Worker は既定で「あらゆるページ遷移」を横取りしてキャッシュ済み index.html を返す。
+        // これを放置すると **Cloudflare Access のログイン完了ページ（/cdn-cgi/access/authorized?nonce=…）
+        // まで横取りされ、セッションが確立できず真っ白な画面になる**（2026-07-31 に実際に発生）。
+        // ログアウト・ID 確認（/cdn-cgi/access/*）や管理者API（/api/*）も同様に SW を通してはいけないため、
+        // ナビゲーションのフォールバック対象から除外する。
+        navigateFallbackDenylist: [/^\/cdn-cgi\//, /^\/api\//],
         // アプリシェル（js/css/html/アイコン）のみ precache。コース語彙データ（json）は
         // ここに含めない＝含めると全訪問者に全コース分（5コースなら数MB）を無条件配信してしまう。
         // コース JSON は下の runtimeCaching で「選んだコースだけ」オンデマンドにキャッシュする。
