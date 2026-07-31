@@ -1,0 +1,398 @@
+/*
+ * 管理者画面のスタイル。
+ * 学習画面の index.css には手を入れず、この画面で使うクラスだけをここに閉じ込める
+ * （管理画面は学習体験と独立して変えたいので、干渉しないよう .admin 配下に限定する）。
+ * 色は index.css のテーマ変数をそのまま使う＝ライト/ダーク両テーマに自動追従。
+ */
+
+/* index.css は body に height:100% を敷いているため、利用者が増えて 1 画面に収まらなくなると
+   背景グラデーションが viewport 高さで切れ、下部に色の帯が出る。管理画面側で自前に敷いて防ぐ
+   （index.css は触らない＝学習画面の見た目に影響を出さない）。 */
+.admin {
+  min-height: 100%;
+  background: var(--bg);
+  background-image: var(--bg-grad);
+  background-repeat: no-repeat;
+  /* 中身の最大幅 1100px を「左右パディング」で作る。子要素の margin に触らないので
+     各カードの margin 指定と衝突しない（中央寄せを子側に持たせない）。 */
+  padding: 24px max(16px, calc((100% - 1100px) / 2)) 64px;
+  color: var(--text);
+}
+
+.admin-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.admin-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.admin-sub {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.admin-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.admin-who {
+  color: var(--text-dim);
+}
+
+.admin-back {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.admin-back:hover {
+  text-decoration: underline;
+}
+
+/* ── カード（セクションの器） */
+.admin-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+}
+
+.admin-center {
+  text-align: center;
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  margin-top: 15vh;
+}
+
+.admin-cardhead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.admin-h2 {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.admin-cardhead .admin-h2 {
+  margin-bottom: 0;
+}
+
+details.admin-card > summary.admin-h2 {
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+details.admin-card[open] > summary.admin-h2 {
+  margin-bottom: 12px;
+}
+
+.admin-count {
+  color: var(--text-faint);
+  font-weight: 600;
+}
+
+.admin-hint {
+  margin: 8px 0 0;
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.admin-note {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.admin-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+}
+
+.admin-email {
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+.admin-when {
+  font-size: 12px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+/* ── 通知バナー */
+.admin-banner {
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  font-size: 13px;
+  margin: 0 0 16px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.admin-banner-sub {
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+.admin-banner.warn {
+  border-color: color-mix(in srgb, var(--fuzzy) 50%, var(--border));
+}
+
+.admin-banner.error {
+  border-color: color-mix(in srgb, var(--again) 60%, var(--border));
+  color: var(--again-strong, var(--text));
+}
+
+.admin-banner.ok {
+  border-color: color-mix(in srgb, var(--good) 55%, var(--border));
+}
+
+/* ── フォーム */
+.admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.admin-input {
+  flex: 1 1 180px;
+  min-width: 0;
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.admin-input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.admin-input.name {
+  flex: none;
+  width: 100%;
+  max-width: 220px;
+  font-weight: 600;
+  background: transparent;
+  border-color: transparent;
+  padding: 4px 6px;
+}
+
+.admin-input.name:hover,
+.admin-input.name:focus {
+  background: var(--surface-2);
+  border-color: var(--border);
+}
+
+/* ── ボタン */
+.admin-btn {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.admin-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.admin-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.admin-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.admin-btn.ghost {
+  background: transparent;
+  color: var(--text-dim);
+}
+
+.admin-btn.danger {
+  border-color: var(--again);
+  color: var(--again-strong, var(--again));
+}
+
+.admin-btn.small {
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+/* ── 一覧テーブル（狭い画面では横スクロール。行の情報は削らない） */
+.admin-tablewrap {
+  overflow-x: auto;
+  margin: 0 -4px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.admin-table th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  padding: 0 8px 8px;
+  white-space: nowrap;
+}
+
+.admin-table td {
+  padding: 10px 8px;
+  border-top: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.admin-table tr.removed {
+  opacity: 0.55;
+}
+
+.admin-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+.admin-confirm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+  max-width: 260px;
+}
+
+/* ── 状態タグ */
+.admin-tag {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  margin: 0 4px 4px 0;
+  white-space: nowrap;
+}
+
+.admin-tag.on {
+  border-color: color-mix(in srgb, var(--good) 55%, var(--border));
+  color: var(--good-strong, var(--good));
+}
+
+.admin-tag.off {
+  color: var(--text-faint);
+}
+
+.admin-tag.warn {
+  border-color: color-mix(in srgb, var(--fuzzy) 60%, var(--border));
+}
+
+.admin-tag.admin {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+  color: var(--accent);
+}
+
+/* ── コース別の進捗 */
+.admin-courses {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.admin-course {
+  display: grid;
+  gap: 1px;
+  min-width: 220px;
+}
+
+.admin-course-name {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.admin-course-nums {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.admin-course-nums strong {
+  color: var(--text);
+}
+
+.admin-course-sub {
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
+/* ── 名簿に無い許可メール／操作ログ */
+.admin-unreg,
+.admin-log {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.admin-unreg li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.admin-log li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+
+.admin-log li:first-child {
+  border-top: none;
+  padding-top: 0;
+}

@@ -5,6 +5,8 @@ import App from './App'
 import { DesignGallery } from './design/DesignGallery'
 import { ThemeGallery } from './design/ThemeGallery'
 import { GrowthPreview } from './features/growth/GrowthPreview'
+import { AdminScreen } from './features/admin/AdminScreen'
+import { startProgressSync } from './store/sync'
 import './index.css'
 
 // 新しい Service Worker が見つかったら自動更新（データパック更新時に旧キャッシュが
@@ -26,7 +28,11 @@ if ('serviceWorker' in navigator) {
 // persistent storage を一度リクエストしておくと自動削除の対象から外れる（拒否されても無害）。
 if (navigator.storage?.persist) void navigator.storage.persist()
 
-// `#design`=レイアウト比較 / `#tones`=カラートーン比較 / それ以外=本体アプリ。
+// 進捗サマリ（コース別の集計値だけ）をサーバーへ片方向送信する。管理者が全員の進捗を
+// 一覧できるようにするためのもので、失敗しても学習側は一切影響を受けない（sync.ts 参照）。
+startProgressSync()
+
+// `#design`=レイアウト比較 / `#tones`=カラートーン比較 / `#admin`=管理者画面 / それ以外=本体アプリ。
 // hashchange に反応（同一ドキュメントのハッシュ変更でも切り替わる）。
 function Root() {
   const [hash, setHash] = useState(() => window.location.hash)
@@ -39,6 +45,7 @@ function Root() {
   if (hash.startsWith('#design')) return <DesignGallery />
   if (hash.startsWith('#tones')) return <ThemeGallery />
   if (hash.startsWith('#growth')) return <GrowthPreview />
+  if (hash.startsWith('#admin')) return <AdminScreen />
   return <App />
 }
 

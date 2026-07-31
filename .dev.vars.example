@@ -1,0 +1,22 @@
+# ローカル検証（`npm run build && npm run dev:worker`）用の設定の雛形。
+# これをコピーして `.dev.vars` を作る（.dev.vars は gitignore 済み＝コミットされない）。
+# 本番の値はここに書かない。本番は Cloudflare ダッシュボードの Secret に入れる。
+
+# Cloudflare Access を経由しないローカルでは JWT が無いので、本人を固定して開発する。
+# この 2 つは .dev.vars にしか置かない＝ wrangler deploy の成果物には含まれない。
+ALLOW_DEV_AUTH = "true"
+DEV_EMAIL = "admin@example.com"
+
+# 管理者として扱うメール（カンマ区切り）。DEV_EMAIL をここに入れると管理画面に入れる。
+ADMIN_EMAILS = "admin@example.com"
+
+# Cloudflare の実 API を叩かず、D1 の名簿を許可リストとみなす（ローカルで登録/削除の導線を試すため）。
+# 本番では設定しない。
+CF_MODE = "simulate"
+
+# 本番でのみ使う値（ローカルでは simulate なので空でよい）
+TEAM_DOMAIN = "https://example.cloudflareaccess.com"
+POLICY_AUD = ""
+CF_ACCOUNT_ID = ""
+CF_ACCESS_EMAIL_LIST_ID = ""
+CF_API_TOKEN = ""

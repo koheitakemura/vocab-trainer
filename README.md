@@ -13,12 +13,15 @@
 ## ドキュメント
 
 - [PLAN.md](PLAN.md) — 機能計画（コース構成・データパイプライン・フェーズ計画・判断ログ）
+- [docs/admin-console.md](docs/admin-console.md) — 管理者画面（利用者の登録・削除／進捗確認）の設計とセットアップ手順
 
 ## スタック
 
-**サーバーレス（100% クライアントサイド）**。Vite + React + TypeScript の静的 SPA（PWA）／ ts-fsrs（MIT）／
-IndexedDB ローカルファースト＋手動 JSON バックアップ（クラウド同期なし）。
-配布は個人 GitHub の public リポジトリ → GitHub Pages（無料）：https://koheitakemura.github.io/vocab-trainer/
+**学習部分はクライアントサイド完結**。Vite + React + TypeScript の静的 SPA（PWA）／ ts-fsrs（MIT）／
+学習の進捗は IndexedDB ローカルファースト＋手動 JSON バックアップ（学習ロジックはサーバーに依存せず、オフラインでも完結）。
+配信は Cloudflare Workers（静的アセット）＋ Cloudflare Access のログインゲート：https://vocab-trainer.takemura-kohei.workers.dev/
+同じ Worker に管理者用の API（`/api/*`）と D1 を持たせ、**利用者の登録・削除**と**コース別の進捗サマリの集約**だけを行う
+（語ごとの学習データは送らない。詳細＝ [docs/admin-console.md](docs/admin-console.md)）。
 語彙データは再配布可能なオープンデータのみ（BCCWJ・jpdb 不使用）。音声は不採用、発音は表記（かな/IPA/アクセント付き）で伝える。
 データパイプラインは Python ローカルバッチ（wordfreq・Sudachi・JMdict/CMUdict 変換等）で本体と分離。
 

@@ -1,11 +1,38 @@
 {
-  // Cloudflare Workers（静的アセット）へのデプロイ設定。
+  // Cloudflare Workers（静的アセット＋管理者API）へのデプロイ設定。
   // name は既存 Worker と一致させること（= vocab-trainer.takemura-kohei.workers.dev）。
   // 名前を変えると別 Worker が作られ、Cloudflare Access のログインゲートが外れるので変更しない。
   "name": "vocab-trainer",
   "compatibility_date": "2026-07-15",
+
+  // 管理者API（/api/*）の本体。それ以外のパスは worker/index.ts が ASSETS へそのまま委譲するので、
+  // 学習画面の配信挙動（速度・オフライン・存在しない JSON の 404 フォールバック）は導入前と変わらない。
+  "main": "./worker/index.ts",
+
   "assets": {
     // Vite のビルド成果物。CI で `npm run build` 後に生成される。
-    "directory": "./dist"
-  }
+    "directory": "./dist",
+    // Worker から静的アセットを返すためのバインディング（main がある場合のみ指定できる）
+    "binding": "ASSETS"
+  },
+
+  // 名簿・進捗サマリ・管理操作ログ。**database_id は `wrangler d1 create vocab-trainer-db` の出力を貼る**
+  // （プレースホルダのままだと deploy が失敗する）。この ID は資格情報ではないので public リポジトリに置いてよい。
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "vocab-trainer-db",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+    }
+  ],
+
+  // 本番エラーを後から追えるようにする（console.error が Workers Logs に残る）
+  "observability": { "enabled": true }
+
+  // ⚠️ 設定値（TEAM_DOMAIN / POLICY_AUD / ADMIN_EMAILS / CF_ACCOUNT_ID /
+  //    CF_ACCESS_EMAIL_LIST_ID / CF_API_TOKEN）は **vars に書かず全て Secret** として入れる。
+  //    このリポジトリは public なので、メールアドレス・アカウントIDを平文で置かないため。
+  //    Secret は deploy で消えない（vars と違い設定ファイル側が上書きしない）。
+  //    設定場所: ダッシュボード → Workers & Pages → vocab-trainer → Settings → Variables and Secrets
+  //    ローカル検証では .dev.vars（gitignore 済み）に置く。雛形＝ .dev.vars.example
 }

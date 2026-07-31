@@ -23,6 +23,14 @@ node_modules/.tmp
 .playwright-mcp/
 vocab-*.png
 
+# Cloudflare Worker: ローカル設定（秘密情報）とローカル D1 等の状態。
+# wrangler は .dev.vars だけでなく .env / .dev.vars.<env> も読むため、まとめて除外する
+# （public リポジトリなので、うっかり .env に API トークンを書いた事故を必ず止める）。
+.dev.vars*
+!.dev.vars.example
+.env*
+.wrangler/
+
 # データパイプライン: 生ダウンロードのみ除外（成果物の public/data は commit する）
 pipeline/raw/
 pipeline/__pycache__/
