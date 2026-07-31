@@ -8,6 +8,35 @@
 /* index.css は body に height:100% を敷いているため、利用者が増えて 1 画面に収まらなくなると
    背景グラデーションが viewport 高さで切れ、下部に色の帯が出る。管理画面側で自前に敷いて防ぐ
    （index.css は触らない＝学習画面の見た目に影響を出さない）。 */
+/* 学習画面に重ねる「管理者画面へ」の入口（管理者にだけ出る）。
+   画面右上に小さく固定する。学習の操作系（下部の Backup/Restore・各カードのボタン）と
+   重ならない位置で、かつ本文の可読性を邪魔しないよう控えめな見た目にしている。 */
+.admin-entry {
+  position: fixed;
+  top: 10px;
+  right: 12px;
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(6px);
+  color: var(--text-dim);
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.4;
+  box-shadow: var(--shadow);
+}
+
+.admin-entry:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
 .admin {
   min-height: 100%;
   background: var(--bg);
