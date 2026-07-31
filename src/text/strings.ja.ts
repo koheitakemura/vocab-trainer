@@ -44,6 +44,14 @@ export const ja: UIStrings = {
   unsaved: (n) => `未保存 ${n} 件`,
   restoreComplete: (n) => `復元しました — 学習済みカード ${n} 件。`,
 
+  // 採点音の設定
+  tapSoundLabel: '採点音',
+  soundChime: 'チャイム',
+  soundPop: 'ポン',
+  soundMarimba: 'マリンバ',
+  soundBell: 'ベル',
+  soundOff: 'オフ',
+
   // 採点ボタン／レベル
   gradeKnown: '知ってる',
   gradeFuzzy: 'あいまい',

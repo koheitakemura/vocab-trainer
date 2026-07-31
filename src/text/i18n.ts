@@ -70,6 +70,14 @@ export interface UIStrings {
   unsaved: (n: number) => string
   restoreComplete: (n: number) => string
 
+  // ── 採点音の設定（SoundSettings.tsx）
+  tapSoundLabel: string
+  soundChime: string
+  soundPop: string
+  soundMarimba: string
+  soundBell: string
+  soundOff: string
+
   // ── 採点ボタン／レベル（StudyGrid.tsx・FocusSheet.tsx・MeterBreakdown.tsx）
   gradeKnown: string
   gradeFuzzy: string

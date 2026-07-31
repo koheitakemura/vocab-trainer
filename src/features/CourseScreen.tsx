@@ -15,6 +15,7 @@ import { AllWords } from './browse/AllWords'
 import { StatsPanel } from './stats/StatsPanel'
 import { GrowthPanel } from './growth/GrowthPanel'
 import { ThemeToggle } from '../theme/ThemeToggle'
+import { SoundSettings } from './SoundSettings'
 import { Credits } from './Credits'
 import { SparkleOverlay, type BurstSpec } from './SparkleOverlay'
 import { MeterBreakdown } from './MeterBreakdown'
@@ -437,6 +438,7 @@ export function CourseScreen({
       <footer className="statusbar">
         <div className="session-info">
           <ThemeToggle />
+          <SoundSettings uiLanguage={course.uiLanguage} />
           <Credits sources={course.sources} uiLanguage={course.uiLanguage} />
         </div>
         <div className="actions">

@@ -45,6 +45,14 @@ export const en: UIStrings = {
   unsaved: (n) => `${n} unsaved`,
   restoreComplete: (n) => `Restore complete — ${n} studied card(s).`,
 
+  // 採点音の設定
+  tapSoundLabel: 'Tap sound',
+  soundChime: 'Chime',
+  soundPop: 'Pop',
+  soundMarimba: 'Marimba',
+  soundBell: 'Bell',
+  soundOff: 'Off',
+
   // 採点ボタン／レベル
   gradeKnown: 'I know',
   gradeFuzzy: 'Fuzzy',
