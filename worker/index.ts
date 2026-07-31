@@ -70,6 +70,17 @@ async function readJson(request: Request): Promise<unknown> {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url)
+
+    // 管理者画面をパスでも開けるようにする（`#admin` は Access のログインを挟むと消えるため）。
+    // 末尾スラッシュ付きは正規化する——`/admin/` のままだと相対パスのアセット参照が
+    // `/admin/assets/...` に解決されて 404 になる。
+    if (url.pathname === '/admin/') {
+      return Response.redirect(new URL('/admin', url).toString(), 301)
+    }
+    if (url.pathname === '/admin') {
+      return env.ASSETS.fetch(new Request(new URL('/', url), { headers: request.headers }))
+    }
+
     if (!url.pathname.startsWith('/api/')) {
       // 学習アプリ本体（静的アセット）。挙動は Worker 導入前と同じ
       return env.ASSETS.fetch(request)

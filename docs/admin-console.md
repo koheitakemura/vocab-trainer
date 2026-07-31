@@ -1,7 +1,10 @@
 # 管理者画面（利用者の登録・削除／進捗確認）
 
 管理者（Kohei）が **①利用者のログイン許可を追加・削除** し、**②各自の進捗を一覧** するための画面。
-URL は本番の学習アプリと同じホストの `#admin`：<https://vocab-trainer.takemura-kohei.workers.dev/#admin>
+URL は本番の学習アプリと同じホストの **`/admin`**：<https://vocab-trainer.takemura-kohei.workers.dev/admin>
+
+> `#admin`（ハッシュ）でも開けるが、**Cloudflare Access のログインを挟むと `#` 以降は消える**ため
+> （フラグメントはサーバーへ送られず、ログイン後は `/` に戻される）、ブックマークするなら `/admin` を使うこと。
 
 > **状態（2026-07-31）**：デプロイ済みで、**進捗の閲覧は使える**。
 > 利用者の**登録・削除だけ**は Secret `CF_API_TOKEN` 待ち。詳細＝[§4](#4-セットアップ手順)。

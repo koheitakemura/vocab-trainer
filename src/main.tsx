@@ -32,8 +32,18 @@ if (navigator.storage?.persist) void navigator.storage.persist()
 // 一覧できるようにするためのもので、失敗しても学習側は一切影響を受けない（sync.ts 参照）。
 startProgressSync()
 
-// `#design`=レイアウト比較 / `#tones`=カラートーン比較 / `#admin`=管理者画面 / それ以外=本体アプリ。
-// hashchange に反応（同一ドキュメントのハッシュ変更でも切り替わる）。
+/**
+ * 管理者画面はパス `/admin` でも開ける（Worker が index.html を返す）。
+ * ハッシュ（`#admin`）だけだと **Cloudflare Access のログインを挟んだ瞬間に消える**——
+ * `#` 以降はサーバーへ送られないため、ログイン後は必ず `/` に戻されてしまう。
+ * パスならログインを経由しても保持されるので、ブックマークできるのはこちら。
+ */
+function isAdminPath(): boolean {
+  return window.location.pathname.replace(/\/+$/, '').endsWith('/admin')
+}
+
+// `#design`=レイアウト比較 / `#tones`=カラートーン比較 / `#admin` または /admin=管理者画面 /
+// それ以外=本体アプリ。hashchange に反応（同一ドキュメントのハッシュ変更でも切り替わる）。
 function Root() {
   const [hash, setHash] = useState(() => window.location.hash)
   useEffect(() => {
@@ -45,7 +55,7 @@ function Root() {
   if (hash.startsWith('#design')) return <DesignGallery />
   if (hash.startsWith('#tones')) return <ThemeGallery />
   if (hash.startsWith('#growth')) return <GrowthPreview />
-  if (hash.startsWith('#admin')) return <AdminScreen />
+  if (hash.startsWith('#admin') || isAdminPath()) return <AdminScreen />
   return <App />
 }
 
