@@ -4,7 +4,7 @@
 URL は本番の学習アプリと同じホストの `#admin`：<https://vocab-trainer.takemura-kohei.workers.dev/#admin>
 
 > **状態（2026-07-31）**：デプロイ済みで、**進捗の閲覧は使える**。
-> 利用者の**登録・削除だけ**は Secret 2つ（`CF_ACCESS_EMAIL_LIST_ID` / `CF_API_TOKEN`）待ち。詳細＝[§4](#4-セットアップ手順)。
+> 利用者の**登録・削除だけ**は Secret `CF_API_TOKEN` 待ち。詳細＝[§4](#4-セットアップ手順)。
 
 ---
 
@@ -129,7 +129,7 @@ D1 のテーブルは Worker が初回リクエスト時に `CREATE TABLE IF NOT
 | D1 `vocab-trainer-db`（APAC）作成・`wrangler.jsonc` に反映 | ✅ 完了 |
 | Secret `TEAM_DOMAIN` / `POLICY_AUD` / `ADMIN_EMAILS` / `CF_ACCOUNT_ID` | ✅ 設定済み |
 | main へ push・自動デプロイ・Access ゲートの維持を実測 | ✅ 完了 |
-| Secret `CF_ACCESS_EMAIL_LIST_ID` / `CF_API_TOKEN` | ❌ **未設定＝登録・削除だけ使えない**（進捗確認は使える） |
+| Secret `CF_API_TOKEN` | ❌ **未設定＝登録・削除だけ使えない**（進捗確認は使える） |
 | Access の Cookie を SameSite=Strict にする | ❌ 未実施（任意・下の⑤-b） |
 
 ### ⚠️ 一度だけ踏んだ罠：assets 専用 Worker → main 付き Worker への移行で Secret が消える
@@ -153,9 +153,16 @@ curl -sI https://vocab-trainer.takemura-kohei.workers.dev/ | grep -i location
 
 ダッシュボードから見る場合は **Zero Trust → Access → Applications → vocab-trainer → Overview → Application Audience (AUD) Tag**。
 
-### ③ ログイン許可リストの ID を控える
-1. **Zero Trust → 再利用可能なコンポーネント → リスト** → 使っている Emails 型リストを開く
-2. **ブラウザのURL末尾の UUID** をコピー（これがリストID）
+### ③ ログイン許可リストの ID（**通常は不要**）
+Worker が実行時に自動で解決する——**メール型のリストが1つだけならそれを使う**。
+今のアカウントはメール型リストが「Vocab Trainer User」1つだけなので、**何も設定しなくてよい**。
+
+メール型リストを複数持つようになったら、そのときだけ次のどちらかを Secret に足す：
+
+- `CF_ACCESS_EMAIL_LIST_NAME` … 対象リストの名前（例 `Vocab Trainer User`）※こちらが簡単
+- `CF_ACCESS_EMAIL_LIST_ID` … UUID（Zero Trust → 再利用可能なコンポーネント → リスト → 対象を開いて URL 末尾）
+
+複数あるのに指定が無いときは、間違ったリストを書き換えないよう**エラーにして止まる**（画面に候補名が出る）。
 
 ### ④ API トークンを作る
 1. ダッシュボード右上のプロフィール → **API トークン** → **トークンを作成** → **カスタムトークン**
@@ -174,10 +181,10 @@ curl -sI https://vocab-trainer.takemura-kohei.workers.dev/ | grep -i location
 | `POLICY_AUD` | ②の AUD タグ | ✅ |
 | `ADMIN_EMAILS` | 管理者のメール（複数ならカンマ区切り） | ✅ |
 | `CF_ACCOUNT_ID` | `wrangler whoami` で分かるアカウントID | ✅ |
-| `CF_ACCESS_EMAIL_LIST_ID` | ③のリストID | ❌ 未設定 |
-| `CF_API_TOKEN` | ④のトークン | ❌ 未設定 |
+| `CF_API_TOKEN` | ④のトークン | ❌ **未設定＝ここだけ残っている** |
+| `CF_ACCESS_EMAIL_LIST_ID` / `CF_ACCESS_EMAIL_LIST_NAME` | 任意（③参照。メール型リストが1つなら不要） | — |
 
-下2つが未設定の間、管理画面は**進捗の閲覧はできる**が、登録・削除ボタンは無効になり
+`CF_API_TOKEN` が未設定の間、管理画面は**進捗の閲覧はできる**が、登録・削除ボタンは無効になり
 「⚠️ ログイン許可リストに接続できません」の帯が出る（設計どおりのフォールバック）。
 
 ### ⑤-b Access の Cookie を SameSite=Strict にする（CSRF の二重防御）

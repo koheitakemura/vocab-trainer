@@ -29,8 +29,14 @@ export interface Env {
 
   // ── Cloudflare API（ログイン許可リストの編集）
   CF_ACCOUNT_ID: string
-  /** Zero Trust → 再利用可能なコンポーネント → リスト（Emails 型）の UUID */
-  CF_ACCESS_EMAIL_LIST_ID: string
+  /**
+   * Zero Trust → 再利用可能なコンポーネント → リスト（Emails 型）の UUID。
+   * **任意**——未設定なら実行時に名前かメール型が1つだけかで自動解決する（cf.ts の resolveListId）。
+   * UUID をダッシュボードで探す手間をなくすため。複数のメール型リストを使い分けるときだけ指定する。
+   */
+  CF_ACCESS_EMAIL_LIST_ID?: string
+  /** ↑を指定しないとき、対象リストを名前で選ぶ（例: "Vocab Trainer User"）。これも任意 */
+  CF_ACCESS_EMAIL_LIST_NAME?: string
   /** Secret。Zero Trust リスト編集権限のトークン（未設定なら登録/削除は 503 を返す） */
   CF_API_TOKEN?: string
   /**

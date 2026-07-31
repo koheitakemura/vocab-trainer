@@ -32,10 +32,14 @@ function simulating(env: Env): boolean {
   return env.CF_MODE === 'simulate' && isDevBypass(env)
 }
 
-/** Access リスト連携が使える設定になっているか */
+/**
+ * Access リスト連携が使える設定になっているか。
+ * リスト ID は必須にしない——設定されていなければ名前（または「メール型のリストが1つだけ」）
+ * から実行時に解決する（UUID をダッシュボードで探す手間をなくすため。下の resolveListId）。
+ */
 export function accessListConfigured(env: Env): boolean {
   if (simulating(env)) return true
-  return Boolean(env.CF_API_TOKEN?.trim() && env.CF_ACCOUNT_ID?.trim() && env.CF_ACCESS_EMAIL_LIST_ID?.trim())
+  return Boolean(env.CF_API_TOKEN?.trim() && env.CF_ACCOUNT_ID?.trim())
 }
 
 interface CfEnvelope<T> {
@@ -46,10 +50,7 @@ interface CfEnvelope<T> {
 
 async function cfFetch<T>(env: Env, path: string, init?: RequestInit): Promise<T | undefined> {
   if (!accessListConfigured(env)) {
-    throw new CloudflareError(
-      'Cloudflare 連携が未設定です（CF_API_TOKEN / CF_ACCOUNT_ID / CF_ACCESS_EMAIL_LIST_ID）',
-      503,
-    )
+    throw new CloudflareError('Cloudflare 連携が未設定です（CF_API_TOKEN / CF_ACCOUNT_ID）', 503)
   }
   const res = await fetch(`https://api.cloudflare.com/client/v4${path}`, {
     ...init,
@@ -83,12 +84,63 @@ async function simulatedList(env: Env): Promise<string[]> {
   return rows.filter((r) => r.user.status === 'active').map((r) => r.user.email)
 }
 
+interface GatewayList {
+  id?: string
+  name?: string
+  type?: string
+}
+
+// 解決したリスト ID は isolate 内で使い回す（毎リクエストで一覧を引かない）
+let cachedListId: string | null = null
+
+/**
+ * 操作対象の「ログイン許可リスト」の ID を決める。
+ *
+ * 優先順位：
+ *  1. `CF_ACCESS_EMAIL_LIST_ID`（明示指定。複数のメール型リストを使い分けたいときはこれ）
+ *  2. `CF_ACCESS_EMAIL_LIST_NAME` と名前が一致するメール型リスト
+ *  3. アカウントにメール型リストが**1つだけ**ならそれ
+ *
+ * 2・3 を用意したのは、UUID をダッシュボードから探す作業をなくすため。
+ * 候補が複数あるのに決め手が無いときは、間違ったリストを書き換えないよう明示的に失敗させる。
+ */
+export async function resolveListId(env: Env): Promise<string> {
+  const explicit = env.CF_ACCESS_EMAIL_LIST_ID?.trim()
+  if (explicit) return explicit
+  if (cachedListId) return cachedListId
+
+  const all = (await cfFetch<GatewayList[]>(env, `/accounts/${env.CF_ACCOUNT_ID}/gateway/lists`)) ?? []
+  const emailLists = all.filter((l) => (l.type ?? '').toUpperCase() === 'EMAIL' && l.id)
+
+  const wanted = env.CF_ACCESS_EMAIL_LIST_NAME?.trim()
+  const matched = wanted ? emailLists.filter((l) => l.name === wanted) : emailLists
+
+  if (matched.length === 0) {
+    throw new CloudflareError(
+      wanted
+        ? `メール型のリスト「${wanted}」が見つかりません（Zero Trust → 再利用可能なコンポーネント → リスト）`
+        : 'メール型の Zero Trust リストが1つも見つかりません',
+      503,
+    )
+  }
+  if (matched.length > 1) {
+    const names = matched.map((l) => l.name ?? '(名前なし)').join(' / ')
+    throw new CloudflareError(
+      `メール型のリストが複数あります（${names}）。CF_ACCESS_EMAIL_LIST_NAME か CF_ACCESS_EMAIL_LIST_ID で対象を指定してください`,
+      503,
+    )
+  }
+  cachedListId = matched[0].id as string
+  return cachedListId
+}
+
 /** 現在ログインを許可されているメール一覧 */
 export async function listAccessEmails(env: Env): Promise<string[]> {
   if (simulating(env)) return simulatedList(env)
+  const listId = await resolveListId(env)
   const result = await cfFetch<Array<{ value?: string }>>(
     env,
-    `/accounts/${env.CF_ACCOUNT_ID}/gateway/lists/${env.CF_ACCESS_EMAIL_LIST_ID}/items?per_page=1000`,
+    `/accounts/${env.CF_ACCOUNT_ID}/gateway/lists/${listId}/items?per_page=1000`,
   )
   return (result ?? [])
     .map((item) => (typeof item?.value === 'string' ? item.value.trim().toLowerCase() : ''))
@@ -104,7 +156,7 @@ export async function addAccessEmail(env: Env, email: string, description: strin
   if (simulating(env)) return
   const current = await listAccessEmails(env)
   if (current.includes(email)) return
-  await cfFetch(env, `/accounts/${env.CF_ACCOUNT_ID}/gateway/lists/${env.CF_ACCESS_EMAIL_LIST_ID}`, {
+  await cfFetch(env, `/accounts/${env.CF_ACCOUNT_ID}/gateway/lists/${await resolveListId(env)}`, {
     method: 'PATCH',
     body: JSON.stringify({ append: [{ value: email, description: description.slice(0, 200) }] }),
   })
@@ -113,7 +165,7 @@ export async function addAccessEmail(env: Env, email: string, description: strin
 /** 許可リストから削除（＝次回以降ログインできなくなる） */
 export async function removeAccessEmail(env: Env, email: string): Promise<void> {
   if (simulating(env)) return
-  await cfFetch(env, `/accounts/${env.CF_ACCOUNT_ID}/gateway/lists/${env.CF_ACCESS_EMAIL_LIST_ID}`, {
+  await cfFetch(env, `/accounts/${env.CF_ACCOUNT_ID}/gateway/lists/${await resolveListId(env)}`, {
     method: 'PATCH',
     body: JSON.stringify({ remove: [email] }),
   })
