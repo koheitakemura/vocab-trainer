@@ -3,6 +3,7 @@ import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel } from '../../srs/levels'
 import { pickClozeExample } from '../../srs/cloze'
 import { getRomaji } from '../../text/romaji'
+import { playTapSound } from '../../audio/tapSound'
 import type { BoardTile } from './useStudyBoard'
 import { TileMark } from './TileMark'
 import { useStrings, type UiLanguage } from '../../text/i18n'
@@ -61,6 +62,7 @@ export function FocusSheet({
   const cloze = tile.clozePromoted ? pickClozeExample(c.examples) : undefined
 
   const fire = (g: ReviewGrade) => {
+    playTapSound()
     const rect = cardRef.current?.getBoundingClientRect()
     if (rect) onGrade(g, rect)
   }

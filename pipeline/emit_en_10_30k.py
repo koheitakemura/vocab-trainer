@@ -3,12 +3,20 @@
 コース A（英語・calibrate-mine）の stage2: 5.4のLLMコンテンツバッチ出力を統合し、
 public/data/courses/en-10-30k/ へ最終データを書き出す。
 
-判断ログ#28/#29/#30/#31を反映:
+判断ログ#28/#29/#30/#31/#32を反映:
 - 既知語底面はNGSL+NAWLのみ（3,772語。引用元meta.jsonのsourcesには正確な値を残す）
 - isValidVocabulary=falseの語（固有名詞ノイズ等）とpos=数詞（NGSL漏れの数詞59語）を除外
 - 表示名・band・frequencyRankの起点は DISPLAY_BASELINE（10,000）を使う（判断ログ#31・Kohei判断で
   「英語10k→30k」という当初の企画名の座りの良さを優先し、技術的な既知語底面の実数(3,772)より
   丸めた開始番号を表示する）。収録語数(len(cards))自体は実データのまま変えない
+- 193語を追加除外（判断ログ#32）。#30の数詞除外と同根の問題——NGSL/NAWLは月・曜日名/国名・
+  国籍語/卑語・間投詞も収録していないため、"american"・"shit"・"london"・"june"のような
+  最基礎語が「未知語」としてすり抜けて帯の先頭に混入していた。zipf(wordfreqの頻度指標)でまず
+  455語に絞り込み、58エージェントのWorkflow（バッチ判定→独立verifyパスで誤検出を除去）で
+  最終193語に確定。zipfの素の閾値だけでは"infrastructure"「インフラ」"congress"「議会」
+  等の正当な中級語まで誤って巻き込むため不採用——zipfは学習者にとっての難易度ではなく
+  コーパス出現頻度（時事語・地名が理由もなく高くなる）を測る指標だと実測で判明したため。
+  EXCLUDED_HEADWORDSは確定リストそのもの（閾値の再計算ではなく固定集合として保持）
 
 入力:
   raw/en-wordfreq-ranked.json（rawWordfreqRank・reading付きの候補全量）
@@ -28,6 +36,46 @@ OUT_DIR = "../public/data/courses/en-10-30k"
 NGSL_NAWL_COUNT = 3772  # NGSL 2,809 + NAWL 963（判断ログ#28・技術的な既知語底面の実数。sources引用元用）
 DISPLAY_BASELINE = 10000  # タイトル・band・frequencyRankの起点（判断ログ#31・Kohei判断）
 EXCLUDED_POS = {"数詞"}  # NGSLが数字を収録していないため漏れた基礎語（判断ログ#30）
+
+# NGSL/NAWL漏れの基礎語193語（判断ログ#32）。zipf>=4.3の455候補をWorkflowでAIレビュー
+# ＋独立verifyパスにかけて確定した最終リスト（false positive除去済み）。
+EXCLUDED_HEADWORDS = frozenset({
+    "adam", "africa", "airport", "amazon", "america", "american", "americans", "anne",
+    "april", "arizona", "arthur", "asia", "asleep", "ass", "asshole", "atlanta",
+    "atlantic", "aug", "august", "austin", "australia", "australian", "awesome",
+    "baseball", "basketball", "bathroom", "bbc", "berlin", "birthday", "bitch",
+    "boston", "boyfriend", "brazil", "britain", "british", "bro", "bullshit",
+    "butter", "bye", "california", "cambridge", "canada", "canadian", "carolina",
+    "chicago", "china", "chinese", "christ", "christmas", "clinton", "colorado",
+    "columbia", "congratulations", "crap", "cute", "dallas", "daniel", "december",
+    "detroit", "dick", "dude", "egypt", "england", "english", "etc", "europe",
+    "fbi", "feb", "february", "florida", "france", "french", "friday", "fuck",
+    "fucked", "fuckin", "fucking", "georgia", "german", "germany", "girlfriend",
+    "goodbye", "gym", "hey", "hockey", "hollywood", "houston", "hungry", "illinois",
+    "india", "indiana", "iowa", "iphone", "iran", "iraq", "ireland", "israel",
+    "italian", "italy", "jackson", "january", "japan", "japanese", "jason", "jesus",
+    "jordan", "juice", "july", "june", "kansas", "kentucky", "korea", "lincoln",
+    "liverpool", "london", "luke", "mac", "madrid", "manchester", "massachusetts",
+    "matthew", "melbourne", "mexico", "miami", "michigan", "minnesota", "monday",
+    "moscow", "mrs", "mum", "nah", "nigeria", "nov", "november", "obama", "oct",
+    "october", "ohio", "oregon", "oscar", "oxford", "pacific", "pakistan", "paris",
+    "pennsylvania", "pet", "philadelphia", "pizza", "prince", "princess", "purple",
+    "queen", "rio", "rome", "russia", "russian", "santa", "saturday", "sauce",
+    "scotland", "seattle", "sept", "september", "shit", "singapore", "soccer",
+    "spain", "spanish", "sunday", "sweden", "sydney", "syria", "texas", "thursday",
+    "tiger", "toilet", "toronto", "tuesday", "turkey", "ukraine", "usa", "vacation",
+    "vegas", "victoria", "vietnam", "virginia", "washington", "wednesday",
+    "wisconsin", "wow", "yep", "youtube", "zero",
+})
+
+# band.to・タイトルの終点（判断ログ#33・Kohei判断）。#31時点では実収録語数(len(cards))に
+# 連動してスライドする方式だったが、#32のクリーンアップで語数が変わるたびに
+# 30,725→30,532のように半端な数字になり続けるため、実収録語数から切り離した固定値に
+# 変更——当初の企画名「英語10k→30k」の座りの良さをそのまま採用。実際のカード数が
+# これと多少ずれても（現状20,532語=DISPLAY_BASELINE+20,532）実害はない
+# ——band.toはタイトル・courseRegistry.ts表示にのみ使われ、進捗計算はcards.length基準
+DISPLAY_END = 30000
+
 BAND_SIZE = 1000
 
 
@@ -56,12 +104,16 @@ def main():
     valid = []
     excluded_pos = 0
     excluded_invalid = 0
+    excluded_easy = 0
     for it in all_items:
         if not it.get("isValidVocabulary"):
             excluded_invalid += 1
             continue
         if it.get("pos") in EXCLUDED_POS:
             excluded_pos += 1
+            continue
+        if it["headword"] in EXCLUDED_HEADWORDS:
+            excluded_easy += 1
             continue
         s = skeleton_by_headword.get(it["headword"])
         if not s:
@@ -71,7 +123,11 @@ def main():
             continue
         valid.append((raw_rank, it, s))
 
-    log(f"有効: {len(valid)} (除外: isValidVocabulary=false {excluded_invalid}件, pos=数詞 {excluded_pos}件)")
+    log(
+        f"有効: {len(valid)} (除外: isValidVocabulary=false {excluded_invalid}件, "
+        f"pos=数詞 {excluded_pos}件, 基礎語(判断ログ#32) {excluded_easy}件"
+        f"/{len(EXCLUDED_HEADWORDS)}件中)"
+    )
 
     valid.sort(key=lambda x: x[0])
 
@@ -131,8 +187,7 @@ def main():
         json.dump(manifest, f, ensure_ascii=False, indent=1)
 
     # ---------- meta.json ----------
-    final_total = DISPLAY_BASELINE + len(cards)
-    title = f"English {DISPLAY_BASELINE:,} → {final_total:,}"
+    title = f"English {DISPLAY_BASELINE:,} → {DISPLAY_END:,}"
     meta = {
         "id": "en-10-30k",
         "title": title,
@@ -140,7 +195,7 @@ def main():
         "glossLanguage": "Japanese",
         "uiLanguage": "en",
         "type": "calibrate-mine",
-        "band": {"from": DISPLAY_BASELINE, "to": final_total},
+        "band": {"from": DISPLAY_BASELINE, "to": DISPLAY_END},
         "sources": [
             {
                 "name": "EJDict-hand",

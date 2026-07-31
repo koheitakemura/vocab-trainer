@@ -55,6 +55,11 @@ export function CourseScreen({
   const [popNonce, setPopNonce] = useState(0)
   const nextBurstId = useRef(0)
   const [overlayMilestone, setOverlayMilestone] = useState<number | null>(null)
+  // 端末内の表示名（アカウント登録ではない。同じURLを別々の端末で使う人を区別するための
+  // ローカル専用ラベル。db.meta の汎用キー・バリュー行に載せるだけでスキーマ変更不要）。
+  // 登録・変更は管理者画面（別セッションで構築中）からのみ行う——ここは表示専用（読み取りのみ）。
+  const displayNameRow = useLiveQuery(() => db.meta.get('displayName'), [])
+  const displayName = typeof displayNameRow?.value === 'string' ? displayNameRow.value : null
   // StudyGrid（＝useStudyBoard）内の restart をタブ行のボタンから呼べるように受け取る。
   // StudyGrid がマウント中だけ埋まり、アンマウント（別タブ）で null に戻る。
   const studyRestartRef = useRef<(() => void) | null>(null)
@@ -85,9 +90,12 @@ export function CourseScreen({
   // だけをこの分だけ足して見せる（進捗計算・クロス判定・localStorageキー等の内部ロジックは
   // 常にコース内0起点のまま——表示とロジックの基準をずらすとバグの温床になるため）。
   const displayOffset = course.band.from
-  // 目標が感じられるよう 500 語ごとに目盛りを打つ（総数ちょうどの位置は末尾と被るので除外）。
+  // 目標が感じられるよう 1000 語ごとに目盛りを打つ（総数ちょうどの位置は末尾と被るので除外）。
+  // 500刻みだと帯つきコース（2万語超）で目盛りラベルが密集し読みにくいため1000に変更
+  // （2026-07-30 Kohei指摘）。跨ぎ検出・節目演出（500刻み）は据え置き——ここは表示専用の
+  // 目盛り粒度で、data-mが一致しない500刻みの節目はheaderへのフォールバック演出になるだけ。
   const milestones: number[] = []
-  for (let m = 500; m < total; m += 500) milestones.push(m)
+  for (let m = 1000; m < total; m += 1000) milestones.push(m)
 
   // ── A: 推定語彙数（retrievability 合計）＋既習語集合。マウント時に1回スキャンし、
   //    以後は採点結果で O(1) 追従。復元・リセット後は estNonce を進めて取り直す。
@@ -255,9 +263,12 @@ export function CourseScreen({
     const json = await exportProgress()
     const blob = new Blob([json], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
+    // 表示名があればファイル名に添える（複数人分のバックアップを受け取ったときに区別するため）。
+    // 中身側は exportProgress() が db.meta を丸ごと同梱するので displayName も自動で入る。
+    const nameSlug = displayName?.trim().toLowerCase().replace(/[^a-z0-9぀-ヿ一-鿿]+/gi, '-')
     const a = document.createElement('a')
     a.href = url
-    a.download = `vocab-progress-${course.id}-${localDate(new Date()).replace(/-/g, '')}.json`
+    a.download = `vocab-progress-${course.id}${nameSlug ? `-${nameSlug}` : ''}-${localDate(new Date()).replace(/-/g, '')}.json`
     a.click()
     URL.revokeObjectURL(url)
     await db.meta.put({ key: 'lastBackupAt', value: new Date().toISOString() })
@@ -310,7 +321,10 @@ export function CourseScreen({
           {/* 状況に応じて変わるコーチ・メッセージ（すべて端末内のデータから。外部送信なし）。
               日本語文（既習語だけで構成）のときは下に英訳を添える */}
           <div className="coach-block" key={coachMsg.text} aria-live="polite">
-            <p className="coach">{coachMsg.text}</p>
+            <p className="coach">
+              {displayName && t.nameGreetingPrefix(displayName)}
+              {coachMsg.text}
+            </p>
             {coachMsg.sub && <p className="coach-sub">{coachMsg.sub}</p>}
           </div>
         </div>

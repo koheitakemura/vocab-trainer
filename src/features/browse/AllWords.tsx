@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
+import { useWindowVirtualizer } from '@tanstack/react-virtual'
 import type { VocabCard, WordStatus } from '../../types'
 import { db } from '../../store/db'
 import { getRomaji } from '../../text/romaji'
@@ -34,12 +35,17 @@ export function AllWords({ cards, uiLanguage }: { cards: VocabCard[]; uiLanguage
     { value: 'known', label: t.statusKnown },
     { value: 'mastered', label: t.mastered },
   ]
+  // 表示中コースの進捗行だけを見る（courseId はインデックス済み・db.ts参照）。
+  // 以前は db.progress 全件（他コース分も含む）を毎回スキャンしていたため、
+  // 学習が進むほど・他コースを増やすほどこのタブが重くなる不要な依存があった。
+  const courseId = cards[0]?.courseId
   const statusById = useLiveQuery(
     async () => {
-      const rows = await db.progress.toArray()
+      if (!courseId) return new Map<string, WordStatus>()
+      const rows = await db.progress.where('courseId').equals(courseId).toArray()
       return new Map(rows.map((r) => [r.cardId, r.status]))
     },
-    [],
+    [courseId],
     new Map<string, WordStatus>(),
   )
   const [open, setOpen] = useState<string | null>(null)
@@ -75,6 +81,22 @@ export function AllWords({ cards, uiLanguage }: { cards: VocabCard[]; uiLanguage
   }, [cards, fWord, fReading, fMeaning, fCat, fStatus, statusById])
 
   const anyFilter = !!(fWord || fReading || fMeaning || fCat || fStatus)
+
+  // 仮想スクロール（最大3万語規模のコースで全行を一度にDOM化すると重くなるため）。
+  // ページ自体がスクロールする既存レイアウトを変えずに済む useWindowVirtualizer を使う
+  // （固定高のスクロール枠を新設しない）。行は通常40px固定だが展開時は可変高になるため
+  // measureElement で実測させる（estimateSize は初期見積もりのみ）。
+  const listRef = useRef<HTMLDivElement>(null)
+  const listOffsetRef = useRef(0)
+  useLayoutEffect(() => {
+    listOffsetRef.current = listRef.current?.offsetTop ?? 0
+  }, [])
+  const rowVirtualizer = useWindowVirtualizer({
+    count: filtered.length,
+    estimateSize: () => 40,
+    overscan: 8,
+    scrollMargin: listOffsetRef.current,
+  })
 
   return (
     <div className="allwords-scroll">
@@ -112,47 +134,63 @@ export function AllWords({ cards, uiLanguage }: { cards: VocabCard[]; uiLanguage
         {filtered.length === 0 ? (
           <div className="aw-empty">{t.noWordsMatch}</div>
         ) : (
-          filtered.map((c) => {
-            const group = statusGroup(statusById?.get(c.id) ?? 'new')
-            const isOpen = open === c.id
-            const romaji = getRomaji(c.reading)
-            const cat = c.category ? CATEGORY_BY_KEY[c.category] : undefined
-            return (
-              <div key={c.id} className={`aw-item${isOpen ? ' open' : ''}`}>
-                <div className="aw-row" onClick={() => setOpen(isOpen ? null : c.id)} role="button">
-                  <span className="aw-num">{c.frequencyRank}</span>
-                  <span className="aw-word">{c.headword}</span>
-                  <span className="aw-reading">
-                    {c.reading}
-                    {romaji && <span className="aw-romaji"> · {romaji}</span>}
-                  </span>
-                  <span className="aw-gloss">{c.gloss}</span>
-                  <span className="aw-cat">
-                    {cat ? (
-                      <>
-                        <span className="aw-cat-emoji">{cat.emoji}</span>
-                        <span className="aw-cat-label">{cat.label}</span>
-                      </>
-                    ) : (
-                      <span className="aw-cat-none">—</span>
-                    )}
-                  </span>
-                  <span className={`aw-pill st-${group}`}>{statusLabel(group, t)}</span>
-                </div>
-                {isOpen && (
-                  <div className="aw-ex">
-                    <span className="aw-pos">{c.pos}</span>
-                    {c.examples.map((ex, i) => (
-                      <div key={i} className="aw-exline">
-                        <span>{ex.text}</span>
-                        <span className="aw-exen">{ex.translation}</span>
-                      </div>
-                    ))}
+          <div ref={listRef} style={{ position: 'relative', width: '100%', height: rowVirtualizer.getTotalSize() }}>
+            {rowVirtualizer.getVirtualItems().map((item) => {
+              const c = filtered[item.index]
+              const group = statusGroup(statusById?.get(c.id) ?? 'new')
+              const isOpen = open === c.id
+              const isLast = item.index === filtered.length - 1
+              const romaji = getRomaji(c.reading)
+              const cat = c.category ? CATEGORY_BY_KEY[c.category] : undefined
+              return (
+                <div
+                  key={c.id}
+                  data-index={item.index}
+                  ref={rowVirtualizer.measureElement}
+                  className={`aw-item${isOpen ? ' open' : ''}${isLast ? ' last' : ''}`}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    transform: `translateY(${item.start - rowVirtualizer.options.scrollMargin}px)`,
+                  }}
+                >
+                  <div className="aw-row" onClick={() => setOpen(isOpen ? null : c.id)} role="button">
+                    <span className="aw-num">{c.frequencyRank}</span>
+                    <span className="aw-word">{c.headword}</span>
+                    <span className="aw-reading">
+                      {c.reading}
+                      {romaji && <span className="aw-romaji"> · {romaji}</span>}
+                    </span>
+                    <span className="aw-gloss">{c.gloss}</span>
+                    <span className="aw-cat">
+                      {cat ? (
+                        <>
+                          <span className="aw-cat-emoji">{cat.emoji}</span>
+                          <span className="aw-cat-label">{cat.label}</span>
+                        </>
+                      ) : (
+                        <span className="aw-cat-none">—</span>
+                      )}
+                    </span>
+                    <span className={`aw-pill st-${group}`}>{statusLabel(group, t)}</span>
                   </div>
-                )}
-              </div>
-            )
-          })
+                  {isOpen && (
+                    <div className="aw-ex">
+                      <span className="aw-pos">{c.pos}</span>
+                      {c.examples.map((ex, i) => (
+                        <div key={i} className="aw-exline">
+                          <span>{ex.text}</span>
+                          <span className="aw-exen">{ex.translation}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
         )}
       </div>
     </div>

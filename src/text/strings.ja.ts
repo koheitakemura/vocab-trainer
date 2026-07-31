@@ -17,6 +17,9 @@ export const ja: UIStrings = {
   selectCourseAria: 'コースを選択',
   meterAria: '進捗',
 
+  // 端末内の表示名
+  nameGreetingPrefix: (name) => `${name}さん、`,
+
   // ヘッダーのメーター
   wordsStarted: '開始した語数',
   meterEstTitle:

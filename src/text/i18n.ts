@@ -49,6 +49,12 @@ export interface UIStrings {
   selectCourseAria: string
   meterAria: string
 
+  // ── 端末内の表示名（CourseScreen.tsx。アカウント登録ではなく、同じ端末で使う人を
+  //    区別するためのローカル専用ラベル。登録・変更は管理者画面からのみ行う——ここは
+  //    表示のみなので文言は挨拶プレフィックスだけで足りる）
+  /** コーチ・メッセージの先頭に付ける挨拶（名前未設定なら呼ばれない） */
+  nameGreetingPrefix: (name: string) => string
+
   // ── ヘッダーのメーター（CourseScreen.tsx）
   wordsStarted: string
   meterEstTitle: string

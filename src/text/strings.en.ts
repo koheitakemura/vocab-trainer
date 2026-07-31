@@ -18,6 +18,9 @@ export const en: UIStrings = {
   selectCourseAria: 'Select course',
   meterAria: 'progress',
 
+  // 端末内の表示名
+  nameGreetingPrefix: (name) => `${name} — `,
+
   // ヘッダーのメーター
   wordsStarted: 'words started',
   meterEstTitle:
