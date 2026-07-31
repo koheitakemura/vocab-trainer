@@ -16,13 +16,14 @@
     "binding": "ASSETS"
   },
 
-  // 名簿・進捗サマリ・管理操作ログ。**database_id は `wrangler d1 create vocab-trainer-db` の出力を貼る**
-  // （プレースホルダのままだと deploy が失敗する）。この ID は資格情報ではないので public リポジトリに置いてよい。
+  // 名簿・進捗サマリ・管理操作ログ（2026-07-31 に `wrangler d1 create vocab-trainer-db` で作成・APAC）。
+  // database_id は資格情報ではない（アカウントの認証情報が別途必要）ので public リポジトリに置いてよい。
+  // テーブルは Worker が初回リクエスト時に CREATE TABLE IF NOT EXISTS で用意する（マイグレーション操作は不要）。
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "vocab-trainer-db",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+      "database_id": "7c5f825a-ca2c-484b-85a3-c2fdf0e0c6e8"
     }
   ],
 
