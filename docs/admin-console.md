@@ -3,8 +3,8 @@
 管理者（Kohei）が **①利用者のログイン許可を追加・削除** し、**②各自の進捗を一覧** するための画面。
 URL は本番の学習アプリと同じホストの `#admin`：<https://vocab-trainer.takemura-kohei.workers.dev/#admin>
 
-> **⚠️ 出荷前に Cloudflare 側の設定が要る。** [§4 セットアップ手順](#4-セットアップ手順kohei-の作業) を先に済ませてから push すること。
-> D1 の `database_id` がプレースホルダのままだと **デプロイが失敗する**（＝main への push が赤くなる）。
+> **状態（2026-07-31）**：デプロイ済みで、**進捗の閲覧は使える**。
+> 利用者の**登録・削除だけ**は Secret 2つ（`CF_ACCESS_EMAIL_LIST_ID` / `CF_API_TOKEN`）待ち。詳細＝[§4](#4-セットアップ手順)。
 
 ---
 
