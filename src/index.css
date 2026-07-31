@@ -815,6 +815,33 @@ body {
   background: var(--surface);
 }
 
+.sound-settings {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.sound-settings-icon {
+  font-size: 12px;
+}
+
+.sound-settings-select {
+  font: inherit;
+  font-size: 13px;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.sound-settings-select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 @media (max-width: 560px) {
   .topbar {
     flex-direction: column;
@@ -1258,6 +1285,100 @@ body {
   white-space: nowrap;
 }
 
+/* ── めくった面：カード全体をひと続きの1区画にする ──
+   採点ボタンの区画を廃止して内側を 108px→155px に広げ、単語・読み・訳・例文を
+   同じ縦のリズムで並べる。採点ボタンはカード下端に近づけたときだけ絶対配置で
+   例文の上に重ねる（区画を出し入れすると中身がガタつくため、重ねる方式にした）。
+   行数は全5コース45,229語の実測（英語 本文p90=74字／日本語コース 訳文p90=78字）に
+   基づき、本文2行・訳文1行に固定してある。例文の無いカードはこの姿にならず従来どおり。 */
+.tile.unified .tile-content {
+  /* ボタンの区画が無くなった分、カードの内側をすべて使う */
+  padding: 14px 12px 12px;
+  justify-content: center;
+  gap: 4px;
+}
+.tile.unified .tile-hw.sm {
+  font-size: 22px;
+  line-height: 1.2;
+}
+.tile.unified .tile-reading {
+  font-size: 11px;
+}
+.tile.unified .tile-gloss-box {
+  max-height: 26px;
+}
+
+/* 採点ボタンの置き場。1区画のときはレイアウトを持たない絶対配置＝中身を押し出さない。
+   ふだんは中身が空＝透明で、カーソルの当たり判定としてだけ存在する。 */
+.tile-grade-dock {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 46px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 8px 8px;
+}
+/* ボタンが出ている間だけ下地を敷く。真上はグラデーションで抜いて、隠れる例文が
+   文の途中でスパッと断ち切られて見えないようにする（切れ端が覗くと壊れて見える）。 */
+.tile-grade-dock.open {
+  background: var(--surface-2);
+}
+.tile-grade-dock.open::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  height: 22px;
+  background: linear-gradient(to top, var(--surface-2), transparent);
+  pointer-events: none;
+}
+.tile-grade-dock .tile-levels {
+  width: 100%;
+  animation: tile-dock-in 0.1s ease;
+}
+@keyframes tile-dock-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* 例文（本文＋訳文）。長さは行数で頭打ちにし、カードの高さを絶対に変えない。 */
+.tile-example {
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2px;
+}
+.tile-example-src,
+.tile-example-tr {
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.tile-example-src {
+  font-size: 11.5px;
+  line-height: 1.4;
+  max-height: 33px; /* 11.5px × 1.4 × 2行 */
+  color: var(--text);
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+.tile-example-tr {
+  font-size: 10.5px;
+  line-height: 1.4;
+  max-height: 15px; /* 10.5px × 1.4 × 1行 */
+  color: var(--text-dim);
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
 /* ── 文脈クローズ提示（cloze/較正コースの昇格カード。PLAN §4.2）──
    意味（gloss）をヒントに、空欄入りの文中の語を思い出させる。安定した既習語だけがこの姿になる。 */
 .tile.cloze {
@@ -1505,7 +1626,9 @@ body {
   transition: background 0.12s ease;
 }
 
-.aw-item:last-child .aw-row {
+/* 仮想スクロールでは真の末尾行だけがDOM上にいるとは限らないため :last-child ではなく
+   明示的な .last クラス（filtered配列上の最終行）で判定する */
+.aw-item.last .aw-row {
   border-bottom: none;
 }
 

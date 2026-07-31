@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
-import type { CourseType, VocabCard } from '../../types'
+import type { CourseType, Example, VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel } from '../../srs/levels'
 import { pickClozeExample } from '../../srs/cloze'
 import { useStudyBoard, type BoardTile, type GradeOutcome } from './useStudyBoard'
 import { useFitText } from './useFitText'
 import { getRomaji } from '../../text/romaji'
+import { playTapSound } from '../../audio/tapSound'
 import { FocusSheet } from './FocusSheet'
 import { TileMark } from './TileMark'
 import { WeeklyCard } from '../WeeklyCard'
@@ -158,7 +159,12 @@ function Tile({
   const rootRef = useRef<HTMLDivElement>(null)
   const lastPointerType = useRef<string>('mouse')
 
+  // カーソルが採点ボタンの帯（カード下端）に入っているか。読んでいる間はボタンを出さず、
+  // 採点しようと下へ動かした瞬間だけ出す（下の unified の説明を参照）。
+  const [overButtons, setOverButtons] = useState(false)
+
   const fire = (g: ReviewGrade) => {
+    playTapSound()
     const rect = rootRef.current?.getBoundingClientRect()
     if (rect) onGrade(g, rect)
   }
@@ -167,12 +173,28 @@ function Tile({
   // 語を産出させる。昇格対象でもクローズ可能な例文が無ければ undefined＝通常のフラッシュカードに戻す。
   const cloze = tile.clozePromoted ? pickClozeExample(c.examples) : undefined
 
+  // めくった面に出す例文。FocusSheet と同じく examples[0] 固定。
+  // cloze 昇格カードのめくり後は本文が既に .tile-cloze-sentence.revealed に出ているため、
+  // 例文欄では訳文だけ出す（同じ文を二重に見せない）。
+  const example: Example | undefined = cloze ? cloze.example : c.examples[0]
+  const showSource = !cloze
+
   // 枠線の色は「このセッションで実際に採点した」ときだけ付ける（state !== 'pending'）。
   // pending（前回までの評価が残っているだけで今回はまだ触っていないカード）は他の未採点カードと
   // 同じ既定色にする（前回の色が残っていると「もう採点済み」に見えて紛らわしい・Kohei 指定）。
   const gradedThisSession = tile.state !== 'pending'
   const level = gradedThisSession && tile.grade ? gradeLevel(tile.grade) : null
-  const cls = `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}${cloze ? ' cloze' : ''}`
+  /**
+   * めくったら採点ボタンの区画を廃止し、カード全体を「単語・読み・訳・例文」の
+   * ひと続きの1区画にする（内側が 108px→155px に広がり、例文に実寸を与えられる）。
+   * 採点ボタンはカード下端に近づけたときだけ絶対配置で例文の上に重ねる——区画を出し入れ
+   * すると中身がガタつくため、重ねる方式にした（盤面も中身も1pxも動かない）。
+   * 例文が無いカード（ja-3-10k で約2割）は明け渡す中身が無いので従来どおりボタンのまま。
+   */
+  const unified = flipped && Boolean(example)
+  const cls =
+    `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}${cloze ? ' cloze' : ''}` +
+    (unified ? ' unified' : '')
 
   return (
     <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
@@ -202,6 +224,7 @@ function Tile({
                 {romaji && <span className="tile-romaji"> · {romaji}</span>}
               </span>
               <div className="tile-cloze-sentence revealed">{cloze.example.text}</div>
+              <TileExample example={example} showSource={false} />
             </>
           ) : (
             <>
@@ -227,24 +250,52 @@ function Tile({
                 {t.rootLabel}: {c.root}
               </div>
             )}
+            <TileExample example={example} showSource={showSource} />
           </>
         ) : (
           <div className="tile-hw">{c.headword}</div>
         )}
       </div>
-      <div className="tile-btn-zone">
-        <div className="tile-levels">
-          <button type="button" className="tile-level lvl-good" onClick={() => fire(flipped ? 'good' : 'easy')}>
-            {t.gradeKnown}
-          </button>
-          <button type="button" className="tile-level lvl-hard" onClick={() => fire('hard')}>
-            {t.gradeFuzzy}
-          </button>
-          <button type="button" className="tile-level lvl-again" onClick={() => fire('again')}>
-            {t.gradeStudying}
-          </button>
-        </div>
+      <div
+        className={unified ? `tile-grade-dock${overButtons ? ' open' : ''}` : 'tile-btn-zone'}
+        onPointerEnter={(e) => {
+          if (e.pointerType === 'mouse') setOverButtons(true)
+        }}
+        onPointerLeave={(e) => {
+          if (e.pointerType === 'mouse') setOverButtons(false)
+        }}
+      >
+        {/* 1区画のとき、この帯はふだん空＝透明な当たり判定だけ。カーソルが下端に来たら
+            ボタンを例文の上に重ねる。1区画でないカード（例文なし・めくる前）は従来どおり常設。 */}
+        {(!unified || overButtons) && (
+          <div className="tile-levels">
+            <button type="button" className="tile-level lvl-good" onClick={() => fire(flipped ? 'good' : 'easy')}>
+              {t.gradeKnown}
+            </button>
+            <button type="button" className="tile-level lvl-hard" onClick={() => fire('hard')}>
+              {t.gradeFuzzy}
+            </button>
+            <button type="button" className="tile-level lvl-again" onClick={() => fire('again')}>
+              {t.gradeStudying}
+            </button>
+          </div>
+        )}
       </div>
+    </div>
+  )
+}
+
+/**
+ * めくった面の最後に置く例文（本文＋訳文）。1区画レイアウトの一部なので、
+ * 例文が無いカードでは何も描かない（枠を予約しない＝1区画が自然に詰まるだけ）。
+ * cloze 昇格カードは本文が既に上に出ているので showSource=false で訳文だけ出す。
+ */
+function TileExample({ example, showSource }: { example: Example | undefined; showSource: boolean }) {
+  if (!example) return null
+  return (
+    <div className="tile-example">
+      {showSource && <div className="tile-example-src">{example.text}</div>}
+      {example.translation && <div className="tile-example-tr">{example.translation}</div>}
     </div>
   )
 }
