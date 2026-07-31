@@ -4,13 +4,14 @@ import type { GradeLevel } from './srs/levels'
 
 /** コース識別子（1エンジン × 複数コース。MVP はまず ja-0-3k を実装） */
 export type CourseId =
+  | 'ja-kana' // かな導入（ja-0-3k の前段。ひらがな・カタカナ各104字）
   | 'ja-0-3k' // C: 日本語 0→3k（メンバー・レール型）
   | 'ja-3-10k' // D: 日本語 3k→10k（cloze 主軸）
   | 'ja-10-30k' // E: 日本語 10k→30k（較正＋マイニング）
   | 'en-10-30k' // A: 英語 10k→30k（Kohei）
   | 'tl-0-2k' // B: タガログ語 0→2k（Kohei。判断ログ#20で実質2,000語に確定）
 
-export type CourseType = 'rail' | 'cloze' | 'calibrate-mine'
+export type CourseType = 'rail' | 'cloze' | 'calibrate-mine' | 'kana'
 
 export interface Course {
   id: CourseId

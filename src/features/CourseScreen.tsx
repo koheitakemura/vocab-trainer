@@ -159,8 +159,11 @@ export function CourseScreen({
     } else if (crossed < stored) {
       safeSet(key, String(crossed))
     }
-    // 全語開始（コース完了）は 500 刻みと別に一度だけ祝う
-    if (prev !== null && prev < total && cur >= total && total > 0) setOverlayMilestone(total)
+    // 全語開始（コース完了）は 500 刻みと別に一度だけ祝う。
+    // かなコース(ja-kana)は総数が500語未満で「次の節目=コース完了」に潰れ、
+    // coverageAt(=0-3k会話ドメイン専用)由来の被覆率%文言が意味を成さないため対象外にする。
+    if (course.type !== 'kana' && prev !== null && prev < total && cur >= total && total > 0)
+      setOverlayMilestone(total)
   }, [started, course.id, total])
 
   /** 跨いだ目盛りへ金色スパークルを撃つ（目盛りが無い節目はヘッダーの数字へ） */
@@ -362,7 +365,10 @@ export function CourseScreen({
         </div>
       </div>
       {/* チップは情報テキストなので aria-hidden の飾りバーの外に置く（スクリーンリーダーにも読ませる） */}
-      <MilestoneChip introduced={introduced} total={total} displayOffset={displayOffset} uiLanguage={course.uiLanguage} />
+      {/* かなコース(ja-kana)は coverageAt 由来の被覆率%文言が意味を成さないため非表示 */}
+      {course.type !== 'kana' && (
+        <MilestoneChip introduced={introduced} total={total} displayOffset={displayOffset} uiLanguage={course.uiLanguage} />
+      )}
 
       <nav className="tabs">
         <button className={`tab${tab === 'study' ? ' on' : ''}`} onClick={() => setTab('study')}>

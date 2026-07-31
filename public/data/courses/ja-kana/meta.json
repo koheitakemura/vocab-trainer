@@ -1,0 +1,13 @@
+{
+  "id": "ja-kana",
+  "title": "Japanese Kana (Hiragana & Katakana)",
+  "learningLanguage": "Japanese",
+  "glossLanguage": "Romaji",
+  "uiLanguage": "en",
+  "type": "kana",
+  "band": {
+    "from": 0,
+    "to": 208
+  },
+  "sources": []
+}

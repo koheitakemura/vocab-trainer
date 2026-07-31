@@ -7,7 +7,9 @@ import type { Course } from '../types'
  *   - rail  (0-3k)  … 日常会話の語彙被覆率% が意味を持つ（会話ドメイン）
  *   - cloze (3k-10k)… 書き言葉の語彙被覆率% が意味を持つ（読解が目的＝書き言葉ドメイン）
  *   - calibrate-mine (10k-30k) … 語数が増えても被覆率は頭打ちで、価値が depth
- *       （コロケーション正答率）へ移る帯（PLAN §4.3）→ 被覆率% でなく「語数＋深度」の2軸
+ *       （コロケーション正答率）へ移る帯（PLAN §4.3）→ 被覆率% でなく「語数＋depth」の2軸
+ *   - kana (ja-kana) … かな文字208枚の導入コース。会話被覆率%が無意味な規模のため
+ *       calibrate-mine と同じ「語数のみ」表示を流用（depth は常に null）
  *
  * 呼び出し側は course.type で分岐する新API `courseProgress()` を使う（下の JSDoc 参照）。
  * 旧 `coverageAt(words)` は「0-3k 会話ドメイン」専用の下位関数として残す——3000語で95%頭打ちは
@@ -125,6 +127,10 @@ export function courseProgress(
     case 'calibrate-mine':
       // 10k-30k: 語数の限界効用が下がる帯。被覆率% でなく語数＋深度（PLAN §4.3）。
       return { mode: 'size-depth', words: Math.max(0, Math.round(words)), depth }
+    case 'kana':
+      // かな導入（ja-kana）: 208枚規模で「会話被覆率%」は意味を成さない語数のみ表示。
+      // depth 概念も無いので常に null（呼び出し側は既存の size-depth 表示をそのまま再利用）。
+      return { mode: 'size-depth', words: Math.max(0, Math.round(words)), depth: null }
     case 'cloze':
       // 3k-10k: 読解が目的＝書き言葉の被覆率で意味づける（3000語で頭打ちにしない）。
       return { mode: 'coverage-pct', pct: interpolate(WRITTEN_ANCHORS, words), domain: 'written' }
