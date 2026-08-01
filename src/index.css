@@ -151,6 +151,16 @@ body {
   background-color: var(--surface);
 }
 
+/* ネイティブの <select> は、閉じている見た目を CSS で暗くしても、**開いたときのリストは
+   OS 既定（白）で描かれる**。特に select の background が transparent だと必ず白くなる
+   （.course-select と .sound-settings-select が該当。2026-08-01 に実機で発生）。
+   :root の color-scheme だけでは足りないので、option を明示的に塗ってテーマに合わせる。
+   閉じているときの見た目は option の指定に影響されないため、既存の意匠はそのまま。 */
+select option {
+  background-color: var(--surface);
+  color: var(--text);
+}
+
 /* 状況に応じて変わるコーチ・メッセージ（切り替わり時にふわっと出る） */
 .coach-block {
   animation: coach-in 0.4s ease;
