@@ -76,6 +76,11 @@ export interface UIStrings {
   unsaved: (n: number) => string
   restoreComplete: (n: number) => string
 
+  // ── 1回に並べるカードの枚数（BoardSizeSettings.tsx）
+  cardsPerSessionLabel: string
+  /** プルダウンの各選択肢。枚数の数え方が言語で違うので関数にしている */
+  cardsPerSessionOption: (n: number) => string
+
   // ── 採点音の設定（SoundSettings.tsx）
   tapSoundLabel: string
   soundChime: string

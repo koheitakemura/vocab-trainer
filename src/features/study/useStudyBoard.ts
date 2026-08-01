@@ -6,8 +6,10 @@ import { approxLevelCounts, emptyLevelCounts, gradeLevel, isPromotionToKnown, ty
 import { shouldClozePromote } from '../../srs/cloze'
 import type { ReviewGrade } from '../../srs/scheduler'
 
-/** レール型は1セッションの新規語を絞る（完走率のため。PLAN §4.1） */
-const NEW_PER_SESSION = 16
+import { getBoardSize, onBoardSizeChange } from './boardSize'
+
+// 1セッションの新規語は絞る（完走率のため。PLAN §4.1）。
+// 枚数はフッターの設定で変えられる（既定 16）＝ boardSize.ts
 
 export type TileState = 'pending' | 'again' | 'done'
 export interface BoardTile {
@@ -105,7 +107,9 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
       const total = newCandidates.length
       const start = total > 0 ? newOffsetRef.current % total : 0
       const newTiles: BoardTile[] = []
-      for (let i = 0; i < Math.min(NEW_PER_SESSION, total); i++) {
+      // 枚数は設定を毎回読み直す（変更時は下の effect が nonce を進めてここへ戻ってくる）
+      const newPerSession = getBoardSize()
+      for (let i = 0; i < Math.min(newPerSession, total); i++) {
         // 未習語だけ "New" 表示（grade 未設定）＝初採点でスパークルが発火する。
         newTiles.push({ card: newCandidates[(start + i) % total], state: 'pending' })
       }
@@ -127,6 +131,10 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
       active = false
     }
   }, [cards, nonce, courseType])
+
+  // 表示枚数の設定が変わったら盤面を組み直す（未採点のカードは入れ替わる）。
+  // 再読み込みを挟まずに反映させたいので、localStorage の変更をイベントで受ける。
+  useEffect(() => onBoardSizeChange(() => setNonce((n) => n + 1)), [])
 
   /**
    * id を明示指定して採点する。どのカードも採点後にボタンが残り、いつでも採点しなおせる。
@@ -175,7 +183,9 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
 
   /** 新しいセッションを組み直す。未習語の窓を1つ進めて毎回別の語を出す（未採点でも変わる）。 */
   const restart = useCallback(() => {
-    newOffsetRef.current += NEW_PER_SESSION
+    // 窓を進める幅は「今の表示枚数」ぶん。固定値だと、枚数を変えたときに
+    // 語が飛ばされたり重複したりする（例: 32枚表示なのに16ずつ進めると半分が再登場）。
+    newOffsetRef.current += getBoardSize()
     setNonce((n) => n + 1)
   }, [])
 

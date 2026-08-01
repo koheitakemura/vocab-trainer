@@ -48,6 +48,10 @@ export const en: UIStrings = {
   unsaved: (n) => `${n} unsaved`,
   restoreComplete: (n) => `Restore complete — ${n} studied card(s).`,
 
+  // 1回に並べるカードの枚数
+  cardsPerSessionLabel: 'Cards per session',
+  cardsPerSessionOption: (n) => `${n} cards`,
+
   // 採点音の設定
   tapSoundLabel: 'Tap sound',
   soundChime: 'Chime',
