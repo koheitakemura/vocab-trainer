@@ -1,9 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
+import { useLiveQuery } from 'dexie-react-hooks'
 import type { Course, CourseId, VocabCard } from './types'
 import { repository } from './data/courseRepository'
 import { CourseScreen } from './features/CourseScreen'
 import { AVAILABLE_COURSES } from './data/courseRegistry'
 import { safeGet, safeSet } from './store/safeStorage'
+import { db } from './store/db'
 import { useStrings } from './text/i18n'
 
 const COURSE_ID_KEY = 'vt:courseId'
@@ -23,6 +25,25 @@ function uiLanguageOf(courseId: CourseId) {
   return (AVAILABLE_COURSES.find((c) => c.id === courseId) ?? AVAILABLE_COURSES[0]).uiLanguage
 }
 
+/**
+ * 管理者が「その人に使わせるコース」を設定していれば、コース一覧をそれに絞る。
+ *
+ * - 値は sync.ts が /api/me の応答から db.meta に保存する（オフラインでも直前の割り当てで動く）
+ * - **未設定・未取得なら全コース**（サーバーに繋がらない状況で学習が止まらないようにするため）
+ * - 絞った結果が空になる場合も全コースへ戻す（コースIDの改名などで全部消える事故を防ぐ）
+ *
+ * これは表示上の絞り込みであってセキュリティ境界ではない（語彙データは Access 配下の静的ファイル）。
+ */
+function useAvailableCourses() {
+  const row = useLiveQuery(() => db.meta.get('allowedCourses'), [])
+  const allowed = Array.isArray(row?.value) ? (row.value as string[]) : null
+  return useMemo(() => {
+    if (!allowed || allowed.length === 0) return AVAILABLE_COURSES
+    const filtered = AVAILABLE_COURSES.filter((c) => allowed.includes(c.id))
+    return filtered.length > 0 ? filtered : AVAILABLE_COURSES
+  }, [allowed])
+}
+
 export default function App() {
   const [courseId, setCourseId] = useState<CourseId>(loadInitialCourseId)
   const [course, setCourse] = useState<Course | null>(null)
@@ -30,7 +51,16 @@ export default function App() {
   const [loading, setLoading] = useState(true)
   const [failed, setFailed] = useState(false)
   const [retryNonce, setRetryNonce] = useState(0)
+  const availableCourses = useAvailableCourses()
   const t = useStrings(uiLanguageOf(courseId))
+
+  // 割り当てが変わって選択中コースが使えなくなったら、使えるコースの先頭へ移す
+  useEffect(() => {
+    if (!availableCourses.some((c) => c.id === courseId)) {
+      safeSet(COURSE_ID_KEY, availableCourses[0].id)
+      setCourseId(availableCourses[0].id)
+    }
+  }, [availableCourses, courseId])
 
   const handleSelectCourse = (id: CourseId) => {
     safeSet(COURSE_ID_KEY, id)
@@ -81,7 +111,7 @@ export default function App() {
     <CourseScreen
       course={course}
       cards={cards}
-      courses={AVAILABLE_COURSES}
+      courses={availableCourses}
       onSelectCourse={handleSelectCourse}
     />
   )

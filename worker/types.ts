@@ -94,5 +94,7 @@ export interface AdminUser {
   lastSeenAt: string | null
   /** Cloudflare Access の許可リストに実際に載っているか（null＝リストを取得できなかった） */
   inAccessList: boolean | null
+  /** その人が使えるコース ID。**null＝制限なし（全コース）** */
+  allowedCourses: string[] | null
   courses: CourseProgressInput[]
 }

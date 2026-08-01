@@ -6,17 +6,19 @@ import {
   getUser,
   listUsersWithProgress,
   markUserRemoved,
+  parseAllowedCourses,
   purgeUser,
   recentAdminLog,
   saveProgress,
   touchLastSeen,
+  updateAllowedCourses,
   updateUserProfile,
   upsertUser,
   writeAdminLog,
   type UserRow,
 } from './store'
 import type { AdminUser, Env, Identity } from './types'
-import { ValidationError, cleanText, normalizeEmail, parseSyncInput } from './validate'
+import { ValidationError, cleanText, normalizeEmail, parseCourseIdList, parseSyncInput } from './validate'
 
 /**
  * 管理者画面のバックエンド。
@@ -160,6 +162,8 @@ async function handleMe(env: Env, identity: Identity): Promise<Response> {
     isAdmin: identity.isAdmin,
     status: user ? user.status : 'unregistered',
     displayName: user?.display_name ?? '',
+    // null＝制限なし。端末側はこれで学習画面のコース一覧を絞る
+    allowedCourses: parseAllowedCourses(user?.allowed_courses),
   })
 }
 
@@ -176,7 +180,11 @@ async function handleSync(request: Request, env: Env, identity: Identity): Promi
   }
   const input = parseSyncInput(await readJson(request))
   await saveProgress(env, identity.email, input.courses)
-  return json({ ok: true, displayName: user.display_name })
+  return json({
+    ok: true,
+    displayName: user.display_name,
+    allowedCourses: parseAllowedCourses(user.allowed_courses),
+  })
 }
 
 /** 名簿＋進捗＋Access 許可リストとの突き合わせ */
@@ -207,6 +215,7 @@ async function handleListUsers(env: Env, identity: Identity): Promise<Response> 
     lastSeenAt: user.last_seen_at,
     inAccessList: accessEmails ? accessEmails.has(user.email) : null,
     isAdmin: admins.has(user.email),
+    allowedCourses: parseAllowedCourses(user.allowed_courses),
     courses,
   }))
 
@@ -238,11 +247,21 @@ async function handleUpdateUser(request: Request, env: Env, identity: Identity):
   requireAdmin(identity)
   const body = (await readJson(request)) as Record<string, unknown>
   const email = normalizeEmail(body.email)
-  if (!(await getUser(env, email))) return json({ error: '名簿にいません' }, 404)
-  const displayName = cleanText(body.displayName, 60)
-  const note = cleanText(body.note, 200)
+  const current = await getUser(env, email)
+  if (!current) return json({ error: '名簿にいません' }, 404)
+  // 送られてきたキーだけを更新する。コース割り当てだけを変えたいときに
+  // 表示名やメモが空で上書きされないようにするため（既存値をそのまま残す）。
+  const displayName = 'displayName' in body ? cleanText(body.displayName, 60) : current.display_name
+  const note = 'note' in body ? cleanText(body.note, 200) : current.note
   await updateUserProfile(env, email, displayName, note)
-  const logged = await writeLog(env, identity.email, 'update_user', email, displayName)
+  // allowedCourses はキーが来たときだけ触る（表示名だけの更新でコース割り当てを消さない）
+  let detail = displayName
+  if ('allowedCourses' in body) {
+    const courseIds = parseCourseIdList(body.allowedCourses)
+    await updateAllowedCourses(env, email, courseIds)
+    detail = courseIds.length > 0 ? `courses=${courseIds.join('|')}` : 'courses=all'
+  }
+  const logged = await writeLog(env, identity.email, 'update_user', email, detail)
   return json({ ok: true, logged })
 }
 

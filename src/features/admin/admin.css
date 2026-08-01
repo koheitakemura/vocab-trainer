@@ -359,6 +359,65 @@ details.admin-card[open] > summary.admin-h2 {
   color: var(--accent);
 }
 
+/* ── 使えるコースの割り当て（チップをトグル） */
+.admin-access {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  max-width: 340px;
+}
+
+.admin-coursechip {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-faint);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-family: inherit;
+  line-height: 1.5;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.admin-coursechip:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--text-dim);
+}
+
+.admin-coursechip.on {
+  border-color: color-mix(in srgb, var(--accent) 60%, var(--border));
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.admin-coursechip:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ── 進捗（1行の要約） */
+.admin-progress {
+  display: grid;
+  gap: 1px;
+  min-width: 170px;
+}
+
+.admin-progress-main {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.admin-progress-main strong {
+  color: var(--text);
+}
+
+.admin-progress-sub {
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
 /* ── コース別の進捗 */
 .admin-courses {
   list-style: none;

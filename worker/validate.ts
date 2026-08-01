@@ -46,6 +46,23 @@ function count(raw: unknown): number {
 const COURSE_ID_RE = /^[a-z0-9][a-z0-9-]{0,39}$/
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
 
+/**
+ * 「その人が使えるコース」の指定を検証する。空配列＝制限なし（全コース）。
+ * 未知のコース ID も受ける（コースを増やすたびに Worker を直さなくて済む）が、形式だけは縛る。
+ */
+export function parseCourseIdList(raw: unknown): string[] {
+  if (raw == null) return []
+  if (!Array.isArray(raw)) throw new ValidationError('コースの指定が配列ではありません')
+  if (raw.length > 50) throw new ValidationError('コースの指定が多すぎます')
+  const seen = new Set<string>()
+  for (const v of raw) {
+    const id = typeof v === 'string' ? v.trim() : ''
+    if (!COURSE_ID_RE.test(id)) throw new ValidationError(`コースIDの形式が不正です: ${clip(String(v), 40)}`)
+    seen.add(id)
+  }
+  return [...seen]
+}
+
 /** POST /api/sync の本体を検証して正規化する */
 export function parseSyncInput(raw: unknown): SyncInput {
   if (typeof raw !== 'object' || raw === null) throw new ValidationError('リクエスト本体が不正です')

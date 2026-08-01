@@ -28,6 +28,8 @@ export interface AdminUser {
   /** Cloudflare Access の許可リストに実際に載っているか（null＝リストを取得できなかった） */
   inAccessList: boolean | null
   isAdmin: boolean
+  /** その人が使えるコース ID。**null＝制限なし（全コース）** */
+  allowedCourses: string[] | null
   courses: AdminCourseProgress[]
 }
 
@@ -115,6 +117,18 @@ export function updateUser(email: string, displayName: string, note: string): Pr
     method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, displayName, note }),
+  })
+}
+
+/**
+ * その人が使えるコースを設定する。**空配列＝制限なし（全コース）**。
+ * 表示名・メモのキーは送らない＝サーバー側で既存値が保持される。
+ */
+export function setAllowedCourses(email: string, courseIds: string[]): Promise<MutationResult> {
+  return request('api/admin/users', {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, allowedCourses: courseIds }),
   })
 }
 

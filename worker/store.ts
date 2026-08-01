@@ -47,9 +47,23 @@ const SCHEMA = [
 // （マイグレーション CLI を必須にしないぶん、D1 を作ってバインドするだけで動き始める）。
 let schemaReady = false
 
+/**
+ * 既存テーブルへの列追加は CREATE TABLE IF NOT EXISTS では起きないので個別に流す。
+ * 既に列があれば "duplicate column name" で失敗するだけなので握りつぶす
+ *（マイグレーション CLI を持ち込まずに、後から列を足せるようにするための最小の仕組み）。
+ */
+const ADD_COLUMNS = [`ALTER TABLE users ADD COLUMN allowed_courses TEXT NOT NULL DEFAULT ''`]
+
 export async function ensureSchema(env: Env): Promise<void> {
   if (schemaReady) return
   await env.DB.batch(SCHEMA.map((sql) => env.DB.prepare(sql)))
+  for (const sql of ADD_COLUMNS) {
+    try {
+      await env.DB.prepare(sql).run()
+    } catch {
+      // 既に存在する＝正常
+    }
+  }
   schemaReady = true
 }
 
@@ -61,6 +75,21 @@ export interface UserRow {
   created_at: string
   updated_at: string
   last_seen_at: string | null
+  /**
+   * その人が使えるコース ID をカンマ区切りで持つ。**空文字＝制限なし（全コース）**。
+   * 学習画面のコース一覧をこれで絞る。あくまで表示上の絞り込みで、セキュリティ境界ではない
+   *（語彙データは Access 配下の静的ファイルなので、URL を知っていれば取得はできる）。
+   */
+  allowed_courses: string
+}
+
+/** 'a,b' 形式の保存値を配列に。空なら null（＝制限なし） */
+export function parseAllowedCourses(raw: string | null | undefined): string[] | null {
+  const list = (raw ?? '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean)
+  return list.length > 0 ? list : null
 }
 
 interface ProgressRow {
@@ -200,6 +229,13 @@ export async function updateUserProfile(
     `UPDATE users SET display_name = ?2, note = ?3, updated_at = ?4 WHERE email = ?1`,
   )
     .bind(email, displayName, note, new Date().toISOString())
+    .run()
+}
+
+/** 使えるコースを設定する。空配列＝制限なし（全コース） */
+export async function updateAllowedCourses(env: Env, email: string, courseIds: string[]): Promise<void> {
+  await env.DB.prepare(`UPDATE users SET allowed_courses = ?2, updated_at = ?3 WHERE email = ?1`)
+    .bind(email, courseIds.join(','), new Date().toISOString())
     .run()
 }
 

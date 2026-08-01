@@ -6,6 +6,7 @@ import {
   fetchMe,
   fetchUsers,
   removeUser,
+  setAllowedCourses,
   updateUser,
   type AdminCourseProgress,
   type AdminLogEntry,
@@ -156,7 +157,7 @@ export function AdminScreen() {
                 <tr>
                   <th>利用者</th>
                   <th>状態</th>
-                  <th>最終アクセス</th>
+                  <th>使えるコース</th>
                   <th>進捗</th>
                   <th aria-label="操作" />
                 </tr>
@@ -180,6 +181,16 @@ export function AdminScreen() {
                       run(async () => {
                         const res = await addUser(u.email, u.displayName, u.note)
                         return withLogWarning(`${u.email} を再登録しました`, res.logged)
+                      })
+                    }
+                    onSetCourses={(courseIds) =>
+                      run(async () => {
+                        const res = await setAllowedCourses(u.email, courseIds)
+                        const label =
+                          courseIds.length === 0
+                            ? `${u.email} は全コースを使えます`
+                            : `${u.email} に ${courseIds.length} コースを割り当てました`
+                        return withLogWarning(label, res.logged)
                       })
                     }
                     onRemove={(purge) =>
@@ -312,6 +323,7 @@ function UserRow({
   onRename,
   onRestore,
   onRemove,
+  onSetCourses,
 }: {
   user: AdminUser
   busy: boolean
@@ -321,6 +333,7 @@ function UserRow({
   onRename: (name: string) => void
   onRestore: () => void
   onRemove: (purge: boolean) => void
+  onSetCourses: (courseIds: string[]) => void
 }) {
   const [name, setName] = useState(user.displayName)
   useEffect(() => setName(user.displayName), [user.displayName])
@@ -341,6 +354,7 @@ function UserRow({
         />
         <div className="admin-mono admin-email">{user.email}</div>
         {user.note && <div className="admin-note">{user.note}</div>}
+        <div className="admin-when">最終アクセス {fmtDateTime(user.lastSeenAt)}</div>
       </td>
       <td>
         {user.isAdmin && <span className="admin-tag admin">管理者</span>}
@@ -354,17 +368,11 @@ function UserRow({
           <span className="admin-tag on">利用中</span>
         )}
       </td>
-      <td className="admin-when">{fmtDateTime(user.lastSeenAt)}</td>
       <td>
-        {user.courses.length === 0 ? (
-          <span className="admin-hint">まだ進捗の送信がありません</span>
-        ) : (
-          <ul className="admin-courses">
-            {user.courses.map((c) => (
-              <CourseProgressLine key={c.courseId} course={c} />
-            ))}
-          </ul>
-        )}
+        <CourseAccess allowed={user.allowedCourses} busy={busy} onChange={onSetCourses} />
+      </td>
+      <td>
+        <ProgressSummary courses={user.courses} />
       </td>
       <td className="admin-actions">
         {confirming ? (
@@ -409,21 +417,95 @@ function UserRow({
   )
 }
 
-function CourseProgressLine({ course }: { course: AdminCourseProgress }) {
-  const listing = AVAILABLE_COURSES.find((c) => c.id === course.courseId)
+/**
+ * コース名を詰めて表示する（「Japanese 10,000 → 23,000」→「Japanese 10k→23k」）。
+ * 割り当てチップを何個も並べるので、原題のままだと横に伸びすぎるため。
+ */
+function shortCourseLabel(title: string): string {
+  return title
+    .replace(/\s*→\s*/, '→')
+    .replace(/(\d),(\d{3})/g, (_m, head: string, tail: string) => (tail === '000' ? `${head}k` : `${head},${tail}`))
+    .replace(/\s*\(Hiragana & Katakana\)/, '')
+    .trim()
+}
+
+/**
+ * その人が使えるコースの割り当て。**何も選んでいない＝全コース利用可**。
+ * 「全コース」チップを明示的に置いているのは、空＝無制限という意味が
+ * チップの消灯だけでは伝わらないため。
+ */
+function CourseAccess({
+  allowed,
+  busy,
+  onChange,
+}: {
+  allowed: string[] | null
+  busy: boolean
+  onChange: (courseIds: string[]) => void
+}) {
+  const unrestricted = !allowed || allowed.length === 0
+  const toggle = (id: string) => {
+    const next = new Set(allowed ?? [])
+    if (next.has(id)) next.delete(id)
+    else next.add(id)
+    // 全部外したら「全コース」に戻す（誰も何も使えない状態は作らない）
+    onChange([...next])
+  }
   return (
-    <li className="admin-course">
-      <span className="admin-course-name">{listing?.title ?? course.courseId}</span>
-      <span className="admin-course-nums">
-        始めた <strong>{fmtNum(course.started)}</strong> ／ 覚えた <strong>{fmtNum(course.known)}</strong>
-        {course.mastered > 0 && <> ／ 卒業 {fmtNum(course.mastered)}</>}
+    <div className="admin-access">
+      <button
+        type="button"
+        className={`admin-coursechip${unrestricted ? ' on' : ''}`}
+        disabled={busy}
+        onClick={() => onChange([])}
+        title="コースを制限しない"
+      >
+        全コース
+      </button>
+      {AVAILABLE_COURSES.map((c) => (
+        <button
+          key={c.id}
+          type="button"
+          className={`admin-coursechip${!unrestricted && allowed?.includes(c.id) ? ' on' : ''}`}
+          disabled={busy}
+          onClick={() => toggle(c.id)}
+          title={c.title}
+        >
+          {shortCourseLabel(c.title)}
+        </button>
+      ))}
+    </div>
+  )
+}
+
+/**
+ * 進捗は利用者ごとに1行だけ。コース別に3行ずつ出すと縦に伸びすぎて
+ * 「誰がどれだけ進んでいるか」の見比べがしづらいため、要約に寄せている。
+ */
+function ProgressSummary({ courses }: { courses: AdminCourseProgress[] }) {
+  const active = courses.filter((c) => c.started > 0)
+  if (active.length === 0) return <span className="admin-hint">まだ学習の記録がありません</span>
+
+  const known = active.reduce((n, c) => n + c.known, 0)
+  const started = active.reduce((n, c) => n + c.started, 0)
+  const streak = Math.max(...active.map((c) => c.streak))
+  const last = active.map((c) => c.lastStudiedDate).filter(Boolean).sort().pop()
+  // 主に進めているコース（開始語数が最大）だけ名前を出す
+  const top = active.reduce((a, b) => (b.started > a.started ? b : a))
+  const topTitle = AVAILABLE_COURSES.find((c) => c.id === top.courseId)?.title ?? top.courseId
+
+  return (
+    <div className="admin-progress">
+      <span className="admin-progress-main">
+        覚えた <strong>{fmtNum(known)}</strong> / 始めた <strong>{fmtNum(started)}</strong>
       </span>
-      <span className="admin-course-sub">
-        {course.streak > 0 && <>🔥 {course.streak}日連続 ・ </>}
-        学習 {fmtNum(course.daysStudied)}日 ・ {fmtNum(course.reviews)}回
-        {course.lastStudiedDate && <> ・ 最終 {course.lastStudiedDate}</>}
+      <span className="admin-progress-sub">
+        {shortCourseLabel(topTitle)}
+        {active.length > 1 && ` ほか${active.length - 1}`}
+        {streak > 0 && ` ・ 🔥${streak}日`}
+        {last && ` ・ 最終 ${last.slice(5)}`}
       </span>
-    </li>
+    </div>
   )
 }
 

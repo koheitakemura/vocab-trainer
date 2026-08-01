@@ -73,6 +73,20 @@ export async function buildSyncPayload(): Promise<{ courses: SyncCourse[] }> {
   return { courses }
 }
 
+/**
+ * 管理者が設定した「その人が使えるコース」を端末へ反映する。
+ * null / 空 は「制限なし（全コース）」の意味なので meta から消す。
+ * 端末側に保存するのは**オフラインでも直前の割り当てで動かすため**（毎回サーバーに聞かない）。
+ */
+async function applyAllowedCourses(value: unknown): Promise<void> {
+  const next = Array.isArray(value) ? value.filter((v): v is string => typeof v === 'string') : []
+  const current = await db.meta.get('allowedCourses')
+  const currentList = Array.isArray(current?.value) ? (current.value as string[]) : []
+  if (currentList.join(',') === next.join(',')) return
+  if (next.length > 0) await db.meta.put({ key: 'allowedCourses', value: next })
+  else await db.meta.delete('allowedCourses')
+}
+
 /** サーバーの表示名を端末へ反映（差分があるときだけ書く＝liveQuery の無駄な再描画を避ける） */
 async function applyDisplayName(name: unknown): Promise<void> {
   if (typeof name !== 'string') return
@@ -100,8 +114,9 @@ export async function syncNow(): Promise<void> {
     })
     lastSyncAt = Date.now()
     if (!res.ok) return
-    const data = (await res.json()) as { displayName?: unknown }
+    const data = (await res.json()) as { displayName?: unknown; allowedCourses?: unknown }
     await applyDisplayName(data.displayName)
+    await applyAllowedCourses(data.allowedCourses)
   } catch {
     lastSyncAt = Date.now()
   }
@@ -120,7 +135,24 @@ function syncIfStale(): void {
  * 起動直後・離脱時・滞在中は10分ごと。最短間隔60秒で連打を抑える。
  * 起動時は 3 秒待つ——コースデータ（数MB）の取得と帯域を奪い合わせないため。
  */
+/**
+ * 表示名と「使えるコース」だけを先に取りにいく（進捗の送信より軽い）。
+ * 起動直後にコース一覧を正しく絞るため、3秒待つ本同期とは別に即座に呼ぶ。
+ */
+async function refreshEntitlements(): Promise<void> {
+  try {
+    const res = await fetch(apiUrl('api/me'), { credentials: 'same-origin' })
+    if (!res.ok) return
+    const data = (await res.json()) as { displayName?: unknown; allowedCourses?: unknown }
+    await applyDisplayName(data.displayName)
+    await applyAllowedCourses(data.allowedCourses)
+  } catch {
+    // オフライン等。端末に保存済みの直前の割り当てで動く
+  }
+}
+
 export function startProgressSync(): void {
+  void refreshEntitlements()
   window.setTimeout(() => void syncNow(), 3000)
   document.addEventListener('visibilitychange', () => {
     // タブを離れる/戻る両方で拾う（学習セッション終了直後の値をなるべく早く反映する）
