@@ -38,6 +38,12 @@ export const AVAILABLE_COURSES: CourseListing[] = [
     uiLanguage: 'en',
   },
   {
+    id: 'ja-kanji-advanced',
+    title: 'Japanese Kanji (Advanced)',
+    learningLanguage: 'Japanese',
+    uiLanguage: 'en',
+  },
+  {
     id: 'ja-0-3k',
     title: 'Japanese 0 → 3,000',
     learningLanguage: 'Japanese',

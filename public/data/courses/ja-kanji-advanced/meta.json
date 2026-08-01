@@ -1,0 +1,32 @@
+{
+  "id": "ja-kanji-advanced",
+  "title": "Japanese Kanji (Advanced)",
+  "learningLanguage": "Japanese",
+  "glossLanguage": "Tagalog",
+  "uiLanguage": "en",
+  "type": "kana",
+  "band": {
+    "from": 0,
+    "to": 740
+  },
+  "sources": [
+    {
+      "name": "KANJIDIC",
+      "url": "http://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+      "license": "EDRDG licence",
+      "note": "Readings, meanings and stroke counts. Property of the Electronic Dictionary Research and Development Group (EDRDG)."
+    },
+    {
+      "name": "Jonathan Waller's JLPT Resources (tanos.co.uk)",
+      "url": "https://www.tanos.co.uk/jlpt/",
+      "license": "CC BY",
+      "note": "JLPT level classification for kanji (shown when available; this course's selection itself is based on usage frequency, not JLPT level)."
+    },
+    {
+      "name": "kanji-data by David Gouveia",
+      "url": "https://github.com/davidluzgouveia/kanji-data",
+      "license": "MIT",
+      "note": "Combined KANJIDIC readings/meanings with tanos.co.uk JLPT levels into a single structured dataset; used as the data source for this course."
+    }
+  ]
+}
