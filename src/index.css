@@ -29,10 +29,14 @@
   --bg-grad: radial-gradient(1200px 600px at 50% -10%, #ffffff 0%, #eef2f9 55%);
   --surface: #ffffff;
   --surface-2: #eef2f8;
-  --border: #d8dfea;
+  /* ライト時のグレーは白背景に対して薄すぎて読みにくかったため濃くした（2026-08-01）。
+     白背景でのコントラスト比: --text-dim 8.86 / --text-faint 5.62（本文の一般基準 4.5 以上）。
+     旧値は #55617a / #8b97ad で、特に --text-faint は 2.95 と基準を大きく下回り、
+     11px の目盛りラベル（11k…30k）や小さなバッジがほとんど読めなかった。 */
+  --border: #c3cddd;
   --text: #182038;
-  --text-dim: #55617a;
-  --text-faint: #8b97ad;
+  --text-dim: #3f4a63;
+  --text-faint: #5b6880;
   --accent: #2563eb;
   --good: #059669;
   --good-strong: #047857;
