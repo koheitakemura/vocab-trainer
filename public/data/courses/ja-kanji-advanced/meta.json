@@ -7,7 +7,7 @@
   "type": "kana",
   "band": {
     "from": 0,
-    "to": 740
+    "to": 1974
   },
   "sources": [
     {
@@ -20,7 +20,7 @@
       "name": "Jonathan Waller's JLPT Resources (tanos.co.uk)",
       "url": "https://www.tanos.co.uk/jlpt/",
       "license": "CC BY",
-      "note": "JLPT level classification for kanji (shown when available; this course's selection itself is based on usage frequency, not JLPT level)."
+      "note": "JLPT level classification for kanji. This course's selection combines usage-frequency-based extraction with full N3-N1 coverage per this classification (N5/N4 are covered by the basic kanji course)."
     },
     {
       "name": "kanji-data by David Gouveia",

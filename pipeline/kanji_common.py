@@ -148,19 +148,24 @@ def build_kanji_records(
     usage_index: dict[str, list[dict]],
     manual_gloss: dict[str, str],
     jlpt_level_of: "callable[[str], str | None]",
+    manual_examples: dict[str, list[dict]] | None = None,
 ) -> list[dict]:
     """
     漢字1文字ずつのレコード（emit.py の records 形状）を組み立てる。
     gloss は ①既存の単字見出しグロスを流用 → ②無ければ manual_gloss（手動翻訳の表）を使う。
     manual_gloss にも無い字はここで例外にする（生成漏れをサイレントに欠落させない）。
+    使用例も同様に ①自コース語彙からの実例 → ②無ければ manual_examples（AI生成の実在単語表）。
+    どちらにも無い字は examples が空になり得るため、呼び出し側で検証すること
+    （カードは意味＋読み＋使用例を全部載せる方針のため、空はデータ不備として扱う）。
     """
+    manual_examples = manual_examples or {}
     records = []
     for ch in chars:
         info = kanji_data[ch]
         gloss = single_gloss.get(ch) or manual_gloss.get(ch)
         if not gloss:
             raise SystemExit(f"漢字 '{ch}' のタガログ語グロスが単字流用・手動表のどちらにも無い")
-        usage = usage_index.get(ch, [])
+        usage = usage_index.get(ch) or manual_examples.get(ch, [])
         readings_kun = KUN_READING_OVERRIDES.get(ch, info.get("readings_kun") or [])
         records.append({
             "headword": ch,
