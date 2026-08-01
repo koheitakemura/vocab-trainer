@@ -6,7 +6,6 @@ import { DesignGallery } from './design/DesignGallery'
 import { ThemeGallery } from './design/ThemeGallery'
 import { GrowthPreview } from './features/growth/GrowthPreview'
 import { AdminScreen } from './features/admin/AdminScreen'
-import { AdminEntry } from './features/admin/AdminEntry'
 import { startProgressSync } from './store/sync'
 import './index.css'
 
@@ -57,13 +56,8 @@ function Root() {
   if (hash.startsWith('#tones')) return <ThemeGallery />
   if (hash.startsWith('#growth')) return <GrowthPreview />
   if (hash.startsWith('#admin') || isAdminPath()) return <AdminScreen />
-  // 学習画面のときだけ、管理者には管理画面への入口を重ねる（管理者以外には何も出ない）
-  return (
-    <>
-      <App />
-      <AdminEntry />
-    </>
-  )
+  // 管理者画面への入口は CourseScreen のフッター（Backup/Restore と同じ行）に表示する
+  return <App />
 }
 
 createRoot(document.getElementById('root')!).render(

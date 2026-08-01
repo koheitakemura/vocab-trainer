@@ -23,6 +23,7 @@ import { MeterBreakdown } from './MeterBreakdown'
 import { MilestoneChip } from './MilestoneChip'
 import { MilestoneOverlay } from './MilestoneOverlay'
 import { CategorySelector } from './CategorySelector'
+import { AdminEntry } from './admin/AdminEntry'
 import { pickCoachMessage } from './coach'
 import { useStrings } from '../text/i18n'
 
@@ -466,6 +467,7 @@ export function CourseScreen({
             ⭱ {t.restore}
           </button>
           <input ref={fileRef} type="file" accept="application/json" hidden onChange={onImportFile} />
+          <AdminEntry />
         </div>
       </footer>
     </div>
