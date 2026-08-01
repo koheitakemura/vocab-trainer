@@ -142,6 +142,101 @@ STANDALONE_KANA_EXAMPLES = {
     "きゃ": ("きゃー！", "Kyaa! (a scream)"),
 }
 
+# カタカナ札には「その字で始まる外来語」を当てる（Kohei 依頼）。
+#
+# ひらがな側の間投詞をカタカナで書くのは漫画的な表記になってしまうが、外来語は
+# **カタカナで書くのが正しい表記**なので、字を覚えると同時に「カタカナはこういうときに使う」
+# という文字種の役割まで学べる。英語由来の語が多く、意味も推測しやすい。
+#
+# 選定の方針:
+#  - その字で始まること。拗音（シャ・チョ 等）は拗音の札に寄せ、清音の札には別語を当てる
+#    （例: シ＝システム／シャ＝シャツ、チ＝チーズ／チョ＝チョコレート）。
+#  - 日常語であること。専門語・カタカナ英語の造語は避ける。
+#  - 外来語が作れない字（ヌ・ヤ・ヲ・ン・ザ・ヂ・ヅ・拗音の多く）は**空のまま**にする。
+KATAKANA_LOANWORDS = {
+    # 清音
+    "ア": ("アイス", "ice cream"),
+    "イ": ("イベント", "event"),
+    "ウ": ("ウイルス", "virus"),
+    "エ": ("エアコン", "air conditioner"),
+    "オ": ("オレンジ", "orange"),
+    "カ": ("カメラ", "camera"),
+    "キ": ("キッチン", "kitchen"),
+    "ク": ("クラス", "class"),
+    "ケ": ("ケーキ", "cake"),
+    "コ": ("コーヒー", "coffee"),
+    "サ": ("サラダ", "salad"),
+    "シ": ("システム", "system"),
+    "ス": ("スープ", "soup"),
+    "セ": ("セット", "set"),
+    "ソ": ("ソース", "sauce"),
+    "タ": ("タクシー", "taxi"),
+    "チ": ("チーズ", "cheese"),
+    "ツ": ("ツアー", "tour"),
+    "テ": ("テレビ", "TV"),
+    "ト": ("トマト", "tomato"),
+    "ナ": ("ナイフ", "knife"),
+    "ニ": ("ニット", "knitwear"),
+    "ネ": ("ネクタイ", "necktie"),
+    "ノ": ("ノート", "notebook"),
+    "ハ": ("ハンバーガー", "hamburger"),
+    "ヒ": ("ヒーター", "heater"),
+    "フ": ("フォーク", "fork"),
+    "ヘ": ("ヘルメット", "helmet"),
+    "ホ": ("ホテル", "hotel"),
+    "マ": ("マンゴー", "mango"),
+    "ミ": ("ミルク", "milk"),
+    "ム": ("ムード", "mood"),
+    "メ": ("メニュー", "menu"),
+    "モ": ("モデル", "model"),
+    "ユ": ("ユニフォーム", "uniform"),
+    "ヨ": ("ヨーグルト", "yogurt"),
+    "ラ": ("ラジオ", "radio"),
+    "リ": ("リモコン", "TV remote"),
+    "ル": ("ルール", "rule"),
+    "レ": ("レモン", "lemon"),
+    "ロ": ("ロボット", "robot"),
+    "ワ": ("ワイン", "wine"),
+    # 濁音・半濁音
+    "ガ": ("ガス", "gas"),
+    "ギ": ("ギター", "guitar"),
+    "グ": ("グループ", "group"),
+    "ゲ": ("ゲーム", "game"),
+    "ゴ": ("ゴルフ", "golf"),
+    "ジ": ("ジーンズ", "jeans"),
+    "ズ": ("ズボン", "trousers"),
+    "ゼ": ("ゼロ", "zero"),
+    "ゾ": ("ゾーン", "zone"),
+    "ダ": ("ダンス", "dance"),
+    "デ": ("デザート", "dessert"),
+    "ド": ("ドア", "door"),
+    "バ": ("バス", "bus"),
+    "ビ": ("ビール", "beer"),
+    "ブ": ("ブラシ", "brush"),
+    "ベ": ("ベッド", "bed"),
+    "ボ": ("ボール", "ball"),
+    "パ": ("パン", "bread"),
+    "ピ": ("ピアノ", "piano"),
+    "プ": ("プール", "swimming pool"),
+    "ペ": ("ペン", "pen"),
+    "ポ": ("ポケット", "pocket"),
+    # 拗音
+    "キャ": ("キャンプ", "camp"),
+    "ギャ": ("ギャラリー", "gallery"),
+    "シャ": ("シャツ", "shirt"),
+    "シュ": ("シューズ", "shoes"),
+    "ショ": ("ショップ", "shop"),
+    "ジャ": ("ジャム", "jam"),
+    "ジュ": ("ジュース", "juice"),
+    "ジョ": ("ジョギング", "jogging"),
+    "チャ": ("チャンス", "chance"),
+    "チュ": ("チューリップ", "tulip"),
+    "チョ": ("チョコレート", "chocolate"),
+    "ニュ": ("ニュース", "news"),
+    "ミュ": ("ミュージック", "music"),
+    "リュ": ("リュック", "backpack"),
+}
+
 
 def build_records() -> list[dict]:
     records = []
@@ -152,8 +247,8 @@ def build_records() -> list[dict]:
             headword = kata if katakana_flag else hira
             cross_ref = hira if katakana_flag else kata
             cross_label = "hiragana" if katakana_flag else "katakana"
-            # 用例はひらがな札にだけ付ける（上の STANDALONE_KANA_EXAMPLES の方針）
-            phrase = None if katakana_flag else STANDALONE_KANA_EXAMPLES.get(hira)
+            # ひらがな札＝その字で始まる短い発話 ／ カタカナ札＝その字で始まる外来語
+            phrase = KATAKANA_LOANWORDS.get(kata) if katakana_flag else STANDALONE_KANA_EXAMPLES.get(hira)
             examples = []
             if phrase:
                 text, translation = phrase
