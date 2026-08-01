@@ -39,7 +39,7 @@ export const AVAILABLE_COURSES: CourseListing[] = [
   },
   {
     id: 'ja-kanji-advanced',
-    title: 'Japanese Kanji (Advanced)',
+    title: 'Japanese Kanji (JLPT N3–N1)',
     learningLanguage: 'Japanese',
     uiLanguage: 'en',
   },

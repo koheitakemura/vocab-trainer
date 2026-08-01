@@ -100,7 +100,11 @@ def main() -> None:
         ch for ch, info in kanji_data.items() if info.get("jlpt_new") in JLPT_COMPLETE_LEVELS
     }
     chars = list((freq_chars | jlpt_chars) - basic_chars)
-    chars.sort(key=lambda ch: -word_count.get(ch, 0))  # 出現頻度（語数）が多い字から
+    # 出現頻度（語数）が多い字から。同数のときは字そのもの（コードポイント）で決着させる
+    # ＝ set の反復順（ハッシュ値依存で実行のたびに変わりうる）に並び順を委ねない。
+    # frequencyRank・id はここでの並びで確定するため、非決定的だと再ビルドのたびに
+    # 同じ字のIDが変わり、既存ユーザーの学習進捗（cardId で紐付け）が壊れる。
+    chars.sort(key=lambda ch: (-word_count.get(ch, 0), ch))
 
     records = build_kanji_records(
         chars, kanji_data, single_gloss, usage_index, MANUAL_GLOSS,
@@ -126,7 +130,7 @@ def main() -> None:
 
     course_meta = {
         "id": COURSE_ID,
-        "title": "Japanese Kanji (Advanced)",
+        "title": "Japanese Kanji (JLPT N3–N1)",
         "learningLanguage": "Japanese",
         "glossLanguage": "Tagalog",
         "uiLanguage": "en",
