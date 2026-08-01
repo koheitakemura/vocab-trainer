@@ -72,74 +72,77 @@ KANA_TABLE = [
 #  - 方言色・世代色が強いもの、乱暴な語（ばか！等）は入れない。
 #  - 自然な言い回しが無い かな には**無理に付けない**（ぐ・ぞ・ぶ・ぼ・る・れ・ろ 等）。
 #    ぎこちない例文を出すくらいなら、用例なしのほうが教材として良い。
+#
+# 訳は**タガログ語**（メンバー向けコースのグロスをタガログ語にする方針と揃える）。
+# 右側のコメントに英語を残してあるのは、あとから語を足すときの照合用。
 STANDALONE_KANA_EXAMPLES = {
     # あ行
-    "あ": ("あ！", "Ah! (you just realized something)"),
-    "い": ("いいね！", "Nice! / Sounds good!"),
-    "う": ("うっ…", "Ugh! (a sudden pain)"),
-    "え": ("え！？", "Huh?! (surprise or disbelief)"),
-    "お": ("お！", "Oh! (you noticed something)"),
+    "あ": ("あ！", "Ah! (may napagtanto ka)"),                       # Ah! (you just realized something)
+    "い": ("いいね！", "Ang galing! / Maganda 'yan!"),                # Nice! / Sounds good!
+    "う": ("うっ…", "Aray! (biglang sakit)"),                        # Ugh! (a sudden pain)
+    "え": ("え！？", "Ha!? (gulat o hindi makapaniwala)"),            # Huh?! (surprise or disbelief)
+    "お": ("お！", "Oh! (may napansin ka)"),                          # Oh! (you noticed something)
     # か行
-    "か": ("かわいい！", "Cute!"),
-    "き": ("きれい！", "Beautiful! / So clean!"),
-    "く": ("ください。", "Please (give me that)."),
-    "け": ("けっこうです。", "No, thank you. (polite refusal)"),
-    "こ": ("こんにちは。", "Hello."),
+    "か": ("かわいい！", "Ang cute!"),                                # Cute!
+    "き": ("きれい！", "Ang ganda! / Ang linis!"),                    # Beautiful! / So clean!
+    "く": ("ください。", "Pahingi po nito."),                         # Please (give me that).
+    "け": ("けっこうです。", "Hindi na po, salamat."),                 # No, thank you.
+    "こ": ("こんにちは。", "Magandang araw po."),                      # Hello.
     # さ行
-    "さ": ("さようなら。", "Goodbye."),
-    "し": ("しまった！", "Oops! / I messed up!"),
-    "す": ("すごい！", "Wow! / Amazing!"),
-    "せ": ("せーの！", "Ready, set, go! (before lifting together)"),
-    "そ": ("そうそう！", "Yes, exactly!"),
+    "さ": ("さようなら。", "Paalam."),                                # Goodbye.
+    "し": ("しまった！", "Naku! Nagkamali ako!"),                     # Oops! / I messed up!
+    "す": ("すごい！", "Ang galing!"),                                # Wow! / Amazing!
+    "せ": ("せーの！", "Isa, dalawa, tatlo!"),                        # Ready, set, go!
+    "そ": ("そうそう！", "Oo, tama!"),                                # Yes, exactly!
     # た行
-    "た": ("たいへん！", "That's terrible! / What a mess!"),
-    "ち": ("ちがう！", "That's not right!"),
-    "つ": ("つかれた〜", "I'm exhausted."),
-    "て": ("てつだって！", "Help me!"),
-    "と": ("とまって！", "Stop!"),
+    "た": ("たいへん！", "Naku, grabe!"),                             # That's terrible!
+    "ち": ("ちがう！", "Mali 'yan!"),                                 # That's not right!
+    "つ": ("つかれた〜", "Pagod na pagod ako."),                      # I'm exhausted.
+    "て": ("てつだって！", "Tulungan mo ako!"),                        # Help me!
+    "と": ("とまって！", "Tigil! / Hinto!"),                          # Stop!
     # な行
-    "な": ("なに？", "What?"),
-    "に": ("にがい！", "It's bitter!"),
-    "ぬ": ("ぬるい。", "It's lukewarm."),
-    "ね": ("ね！", "Hey! / Right? (calling out or seeking agreement)"),
-    "の": ("のどかわいた。", "I'm thirsty."),
+    "な": ("なに？", "Ano?"),                                         # What?
+    "に": ("にがい！", "Ang pait!"),                                  # It's bitter!
+    "ぬ": ("ぬるい。", "Maligamgam."),                                # It's lukewarm.
+    "ね": ("ね！", "Uy! / Di ba?"),                                   # Hey! / Right?
+    "の": ("のどかわいた。", "Nauuhaw ako."),                          # I'm thirsty.
     # は行
-    "は": ("はい。", "Yes."),
-    "ひ": ("ひどい！", "That's awful!"),
-    "ふ": ("ふーん。", "Hmm, I see. (not very impressed)"),
-    "へ": ("へー！", "Oh, really! (that's interesting)"),
-    "ほ": ("ほー。", "Oh! (impressed)"),
+    "は": ("はい。", "Oo. / Opo."),                                   # Yes.
+    "ひ": ("ひどい！", "Ang sama naman!"),                            # That's awful!
+    "ふ": ("ふーん。", "Ganun ba. (hindi masyadong interesado)"),      # Hmm, I see. (not impressed)
+    "へ": ("へー！", "Talaga! (nakakainteres)"),                      # Oh, really! (interesting)
+    "ほ": ("ほー。", "Aba! (humanga)"),                               # Oh! (impressed)
     # ま行
-    "ま": ("ま、いいか。", "Oh well, never mind."),
-    "み": ("みて！", "Look!"),
-    "む": ("むずかしい。", "That's difficult."),
-    "め": ("めずらしい！", "That's rare!"),
-    "も": ("もういちど。", "One more time."),
+    "ま": ("ま、いいか。", "Hayaan mo na."),                           # Oh well, never mind.
+    "み": ("みて！", "Tingnan mo!"),                                  # Look!
+    "む": ("むずかしい。", "Mahirap 'yan."),                           # That's difficult.
+    "め": ("めずらしい！", "Bihira 'yan!"),                            # That's rare!
+    "も": ("もういちど。", "Isa pang beses."),                         # One more time.
     # や・ら・わ行
-    "や": ("やった！", "I did it! / Yay!"),
-    "ゆ": ("ゆっくり。", "Slowly. / Take your time."),
-    "よ": ("よ！", "Yo! (casual greeting between friends)"),
-    "り": ("りょうかい！", "Got it! / Roger!"),
-    "わ": ("わ！", "Wow! / Whoa! (surprise)"),
-    "ん": ("ん？", "Hm? (you didn't catch that)"),
+    "や": ("やった！", "Nagawa ko! / Yes!"),                          # I did it! / Yay!
+    "ゆ": ("ゆっくり。", "Dahan-dahan lang."),                        # Slowly. / Take your time.
+    "よ": ("よ！", "Uy! (pagbati sa kaibigan)"),                      # Yo! (casual greeting)
+    "り": ("りょうかい！", "Naintindihan ko!"),                        # Got it! / Roger!
+    "わ": ("わ！", "Wow! (nagulat)"),                                 # Wow! / Whoa! (surprise)
+    "ん": ("ん？", "Ha? (hindi mo narinig)"),                         # Hm? (you didn't catch that)
     # 濁音・半濁音
-    "が": ("がんばって！", "Good luck! / You can do it!"),
-    "ぎ": ("ぎりぎり！", "Just barely made it!"),
-    "げ": ("げんき？", "How are you?"),
-    "ご": ("ごめん！", "Sorry!"),
-    "ざ": ("ざんねん！", "What a shame!"),
-    "じ": ("じゃあね！", "See you!"),
-    "ず": ("ずるい！", "That's not fair!"),
-    "ぜ": ("ぜんぜん。", "Not at all."),
-    "だ": ("だいじょうぶ？", "Are you OK?"),
-    "で": ("できた！", "I did it! / It's done!"),
-    "ど": ("どうぞ。", "Please, go ahead."),
-    "ば": ("ばんざい！", "Hooray!"),
-    "び": ("びっくり！", "What a surprise!"),
-    "べ": ("べつに。", "Not really."),
-    "ぴ": ("ぴったり！", "A perfect fit!"),
+    "が": ("がんばって！", "Kaya mo 'yan!"),                           # Good luck! / You can do it!
+    "ぎ": ("ぎりぎり！", "Muntik na!"),                               # Just barely made it!
+    "げ": ("げんき？", "Kumusta ka?"),                                # How are you?
+    "ご": ("ごめん！", "Pasensya na!"),                               # Sorry!
+    "ざ": ("ざんねん！", "Sayang!"),                                  # What a shame!
+    "じ": ("じゃあね！", "Kita tayo!"),                               # See you!
+    "ず": ("ずるい！", "Ang daya!"),                                  # That's not fair!
+    "ぜ": ("ぜんぜん。", "Hindi talaga."),                            # Not at all.
+    "だ": ("だいじょうぶ？", "Ayos ka lang?"),                        # Are you OK?
+    "で": ("できた！", "Tapos na! / Nagawa ko!"),                     # I did it! / It's done!
+    "ど": ("どうぞ。", "Sige, tuloy lang."),                          # Please, go ahead.
+    "ば": ("ばんざい！", "Mabuhay!"),                                 # Hooray!
+    "び": ("びっくり！", "Nagulat ako!"),                             # What a surprise!
+    "べ": ("べつに。", "Wala lang."),                                 # Not really.
+    "ぴ": ("ぴったり！", "Sakto!"),                                   # A perfect fit!
     # 拗音
-    "きゃ": ("きゃー！", "Kyaa! (a scream)"),
+    "きゃ": ("きゃー！", "Aaah! (sigaw)"),                            # Kyaa! (a scream)
 }
 
 # カタカナ札には「その字で始まる外来語」を当てる（Kohei 依頼）。
@@ -155,86 +158,86 @@ STANDALONE_KANA_EXAMPLES = {
 #  - 外来語が作れない字（ヌ・ヤ・ヲ・ン・ザ・ヂ・ヅ・拗音の多く）は**空のまま**にする。
 KATAKANA_LOANWORDS = {
     # 清音
-    "ア": ("アイス", "ice cream"),
-    "イ": ("イベント", "event"),
-    "ウ": ("ウイルス", "virus"),
-    "エ": ("エアコン", "air conditioner"),
-    "オ": ("オレンジ", "orange"),
-    "カ": ("カメラ", "camera"),
-    "キ": ("キッチン", "kitchen"),
-    "ク": ("クラス", "class"),
-    "ケ": ("ケーキ", "cake"),
-    "コ": ("コーヒー", "coffee"),
-    "サ": ("サラダ", "salad"),
-    "シ": ("システム", "system"),
-    "ス": ("スープ", "soup"),
-    "セ": ("セット", "set"),
-    "ソ": ("ソース", "sauce"),
-    "タ": ("タクシー", "taxi"),
-    "チ": ("チーズ", "cheese"),
-    "ツ": ("ツアー", "tour"),
-    "テ": ("テレビ", "TV"),
-    "ト": ("トマト", "tomato"),
-    "ナ": ("ナイフ", "knife"),
-    "ニ": ("ニット", "knitwear"),
-    "ネ": ("ネクタイ", "necktie"),
-    "ノ": ("ノート", "notebook"),
-    "ハ": ("ハンバーガー", "hamburger"),
-    "ヒ": ("ヒーター", "heater"),
-    "フ": ("フォーク", "fork"),
-    "ヘ": ("ヘルメット", "helmet"),
-    "ホ": ("ホテル", "hotel"),
-    "マ": ("マンゴー", "mango"),
-    "ミ": ("ミルク", "milk"),
-    "ム": ("ムード", "mood"),
-    "メ": ("メニュー", "menu"),
-    "モ": ("モデル", "model"),
-    "ユ": ("ユニフォーム", "uniform"),
-    "ヨ": ("ヨーグルト", "yogurt"),
-    "ラ": ("ラジオ", "radio"),
-    "リ": ("リモコン", "TV remote"),
-    "ル": ("ルール", "rule"),
-    "レ": ("レモン", "lemon"),
-    "ロ": ("ロボット", "robot"),
-    "ワ": ("ワイン", "wine"),
+    "ア": ("アイス", "sorbetes"),                  # ice cream
+    "イ": ("イベント", "kaganapan"),               # event
+    "ウ": ("ウイルス", "virus"),                   # virus
+    "エ": ("エアコン", "aircon"),                  # air conditioner
+    "オ": ("オレンジ", "kahel"),                   # orange
+    "カ": ("カメラ", "kamera"),                    # camera
+    "キ": ("キッチン", "kusina"),                  # kitchen
+    "ク": ("クラス", "klase"),                     # class
+    "ケ": ("ケーキ", "cake"),                      # cake
+    "コ": ("コーヒー", "kape"),                    # coffee
+    "サ": ("サラダ", "salad"),                     # salad
+    "シ": ("システム", "sistema"),                 # system
+    "ス": ("スープ", "sabaw / sopas"),             # soup
+    "セ": ("セット", "set"),                       # set
+    "ソ": ("ソース", "sarsa"),                     # sauce
+    "タ": ("タクシー", "taksi"),                   # taxi
+    "チ": ("チーズ", "keso"),                      # cheese
+    "ツ": ("ツアー", "tour / paglilibot"),         # tour
+    "テ": ("テレビ", "telebisyon"),                # TV
+    "ト": ("トマト", "kamatis"),                   # tomato
+    "ナ": ("ナイフ", "kutsilyo"),                  # knife
+    "ニ": ("ニット", "damit na niniting"),         # knitwear
+    "ネ": ("ネクタイ", "kurbata"),                 # necktie
+    "ノ": ("ノート", "kuwaderno"),                 # notebook
+    "ハ": ("ハンバーガー", "hamburger"),            # hamburger
+    "ヒ": ("ヒーター", "pampainit"),               # heater
+    "フ": ("フォーク", "tinidor"),                 # fork
+    "ヘ": ("ヘルメット", "helmet"),                # helmet
+    "ホ": ("ホテル", "hotel"),                     # hotel
+    "マ": ("マンゴー", "mangga"),                  # mango
+    "ミ": ("ミルク", "gatas"),                     # milk
+    "ム": ("ムード", "mood / damdamin"),           # mood
+    "メ": ("メニュー", "menu"),                    # menu
+    "モ": ("モデル", "modelo"),                    # model
+    "ユ": ("ユニフォーム", "uniporme"),             # uniform
+    "ヨ": ("ヨーグルト", "yogurt"),                # yogurt
+    "ラ": ("ラジオ", "radyo"),                     # radio
+    "リ": ("リモコン", "remote ng TV"),            # TV remote
+    "ル": ("ルール", "patakaran"),                 # rule
+    "レ": ("レモン", "limon"),                     # lemon
+    "ロ": ("ロボット", "robot"),                   # robot
+    "ワ": ("ワイン", "alak (wine)"),               # wine
     # 濁音・半濁音
-    "ガ": ("ガス", "gas"),
-    "ギ": ("ギター", "guitar"),
-    "グ": ("グループ", "group"),
-    "ゲ": ("ゲーム", "game"),
-    "ゴ": ("ゴルフ", "golf"),
-    "ジ": ("ジーンズ", "jeans"),
-    "ズ": ("ズボン", "trousers"),
-    "ゼ": ("ゼロ", "zero"),
-    "ゾ": ("ゾーン", "zone"),
-    "ダ": ("ダンス", "dance"),
-    "デ": ("デザート", "dessert"),
-    "ド": ("ドア", "door"),
-    "バ": ("バス", "bus"),
-    "ビ": ("ビール", "beer"),
-    "ブ": ("ブラシ", "brush"),
-    "ベ": ("ベッド", "bed"),
-    "ボ": ("ボール", "ball"),
-    "パ": ("パン", "bread"),
-    "ピ": ("ピアノ", "piano"),
-    "プ": ("プール", "swimming pool"),
-    "ペ": ("ペン", "pen"),
-    "ポ": ("ポケット", "pocket"),
+    "ガ": ("ガス", "gas"),                         # gas
+    "ギ": ("ギター", "gitara"),                    # guitar
+    "グ": ("グループ", "grupo"),                   # group
+    "ゲ": ("ゲーム", "laro"),                      # game
+    "ゴ": ("ゴルフ", "golf"),                      # golf
+    "ジ": ("ジーンズ", "maong"),                   # jeans
+    "ズ": ("ズボン", "pantalon"),                  # trousers
+    "ゼ": ("ゼロ", "sero"),                        # zero
+    "ゾ": ("ゾーン", "sona"),                      # zone
+    "ダ": ("ダンス", "sayaw"),                     # dance
+    "デ": ("デザート", "panghimagas"),             # dessert
+    "ド": ("ドア", "pinto"),                       # door
+    "バ": ("バス", "bus"),                         # bus
+    "ビ": ("ビール", "serbesa"),                   # beer
+    "ブ": ("ブラシ", "brush"),                     # brush
+    "ベ": ("ベッド", "kama"),                      # bed
+    "ボ": ("ボール", "bola"),                      # ball
+    "パ": ("パン", "tinapay"),                     # bread
+    "ピ": ("ピアノ", "piyano"),                    # piano
+    "プ": ("プール", "swimming pool"),             # swimming pool
+    "ペ": ("ペン", "pen / panulat"),               # pen
+    "ポ": ("ポケット", "bulsa"),                   # pocket
     # 拗音
-    "キャ": ("キャンプ", "camp"),
-    "ギャ": ("ギャラリー", "gallery"),
-    "シャ": ("シャツ", "shirt"),
-    "シュ": ("シューズ", "shoes"),
-    "ショ": ("ショップ", "shop"),
-    "ジャ": ("ジャム", "jam"),
-    "ジュ": ("ジュース", "juice"),
-    "ジョ": ("ジョギング", "jogging"),
-    "チャ": ("チャンス", "chance"),
-    "チュ": ("チューリップ", "tulip"),
-    "チョ": ("チョコレート", "chocolate"),
-    "ニュ": ("ニュース", "news"),
-    "ミュ": ("ミュージック", "music"),
-    "リュ": ("リュック", "backpack"),
+    "キャ": ("キャンプ", "kamping"),               # camp
+    "ギャ": ("ギャラリー", "galerya"),             # gallery
+    "シャ": ("シャツ", "kamiseta"),                # shirt
+    "シュ": ("シューズ", "sapatos"),               # shoes
+    "ショ": ("ショップ", "tindahan"),              # shop
+    "ジャ": ("ジャム", "palaman"),                 # jam
+    "ジュ": ("ジュース", "juice"),                 # juice
+    "ジョ": ("ジョギング", "jogging"),             # jogging
+    "チャ": ("チャンス", "pagkakataon"),           # chance
+    "チュ": ("チューリップ", "tulip"),             # tulip
+    "チョ": ("チョコレート", "tsokolate"),         # chocolate
+    "ニュ": ("ニュース", "balita"),                # news
+    "ミュ": ("ミュージック", "musika"),            # music
+    "リュ": ("リュック", "backpack"),              # backpack
 }
 
 
