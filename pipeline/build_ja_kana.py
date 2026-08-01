@@ -57,6 +57,27 @@ KANA_TABLE = [
 ]
 
 
+# その1文字だけで実際の発話として成立する かな に、短い用例を付ける（Kohei 依頼）。
+# 「あ！」「え！？」のように、初学者がその場で使える間投詞・呼びかけに限定する。
+#
+# 選定の方針:
+#  - **ひらがなだけに付ける。** 同じ音のカタカナ札（ア／エ…）には付けない——間投詞を
+#    カタカナで書くのは漫画的な表記で、初学者に教える正書法としては不適切なため。
+#  - 助詞（を・か など）は単独の発話にならないので入れない。
+#  - 「う〜ん」「ふ〜ん」のように長音や複数文字が要るものは、1文字で成立しないので入れない。
+#  - 方言色・世代色が強いもの（や！＝関西寄りの挨拶 など）は、標準的でないので入れない。
+STANDALONE_KANA_EXAMPLES = {
+    "あ": ("あ！", "Ah! (you just realized something)"),
+    "え": ("え！？", "Huh?! (surprise or disbelief)"),
+    "お": ("お！", "Oh! (you noticed something)"),
+    "へ": ("へ？", "Huh? (you didn't expect that)"),
+    "ね": ("ね！", "Hey! / Right? (calling out or seeking agreement)"),
+    "ん": ("ん？", "Hm? (you didn't catch that)"),
+    "よ": ("よ！", "Yo! (casual greeting between friends)"),
+    "わ": ("わ！", "Wow! / Whoa! (surprise)"),
+}
+
+
 def build_records() -> list[dict]:
     records = []
     rank = 1
@@ -66,12 +87,19 @@ def build_records() -> list[dict]:
             headword = kata if katakana_flag else hira
             cross_ref = hira if katakana_flag else kata
             cross_label = "hiragana" if katakana_flag else "katakana"
+            # 用例はひらがな札にだけ付ける（上の STANDALONE_KANA_EXAMPLES の方針）
+            phrase = None if katakana_flag else STANDALONE_KANA_EXAMPLES.get(hira)
+            examples = []
+            if phrase:
+                text, translation = phrase
+                # 対訳コーパス由来ではなく書き起こしたものなので、他コースと同じく明示する（PLAN §3.4）
+                examples.append({"text": text, "translation": translation, "aiGenerated": True})
             records.append({
                 "headword": headword,
                 "reading": headword,
                 "gloss": f"{romaji} ({cross_label}: {cross_ref})",
                 "pos": "kana",
-                "examples": [],
+                "examples": examples,
                 "frequencyRank": rank,
             })
             rank += 1
@@ -104,8 +132,10 @@ def main() -> None:
     with open(cat_path, "w", encoding="utf-8") as f:
         json.dump({}, f)
 
+    with_examples = sum(1 for r in records if r["examples"])
     print(f"[build_ja_kana] {len(records)} kana cards built "
-          f"({len(KANA_TABLE)} hiragana + {len(KANA_TABLE)} katakana).")
+          f"({len(KANA_TABLE)} hiragana + {len(KANA_TABLE)} katakana), "
+          f"{with_examples} with a standalone phrase.")
 
 
 if __name__ == "__main__":
