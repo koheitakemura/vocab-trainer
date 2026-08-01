@@ -5,6 +5,7 @@ import type { GradeLevel } from './srs/levels'
 /** コース識別子（1エンジン × 複数コース。MVP はまず ja-0-3k を実装） */
 export type CourseId =
   | 'ja-kana' // かな導入（ja-0-3k の前段。ひらがな・カタカナ各104字）
+  | 'ja-katakana' // カタカナ語（ja-0-3k/ja-3-10k から抽出した外来語830語。文字を「速く読む」練習）
   | 'ja-0-3k' // C: 日本語 0→3k（メンバー・レール型）
   | 'ja-3-10k' // D: 日本語 3k→10k（cloze 主軸）
   | 'ja-10-30k' // E: 日本語 10k→30k（較正＋マイニング）
