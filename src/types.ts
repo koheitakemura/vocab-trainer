@@ -6,6 +6,7 @@ import type { GradeLevel } from './srs/levels'
 export type CourseId =
   | 'ja-kana' // かな導入（ja-0-3k の前段。ひらがな・カタカナ各104字）
   | 'ja-katakana' // カタカナ語（ja-0-3k/ja-3-10k から抽出した外来語830語。文字を「速く読む」練習）
+  | 'ja-kanji-basic' // 基本漢字（JLPT N5+N4・245字。意味＋読み＋使用例）
   | 'ja-0-3k' // C: 日本語 0→3k（メンバー・レール型）
   | 'ja-3-10k' // D: 日本語 3k→10k（cloze 主軸）
   | 'ja-10-30k' // E: 日本語 10k→30k（較正＋マイニング）
