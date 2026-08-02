@@ -19,6 +19,36 @@ from card_id import assign_ids
 BAND_SIZE = 1000
 
 
+def with_id_epoch(course_meta: dict, out_dir: str) -> dict:
+    """meta.json の idEpoch を保つ（既存値があれば必ず引き継ぐ・無ければ 1）。
+
+    idEpoch は「既存の cardId が別の単語を指すようになった世代」を表し、端末側が
+    自分の学習進捗を信用してよいかの判定に使う（src/types.ts の Course.idEpoch）。
+    ビルドスクリプトは course_meta にこれを持たないので、**再ビルドのたびに黙って
+    1 に戻る**のが一番危ない壊れ方。出荷済みの meta.json から読み戻して引き継ぐ。
+    世代を上げるのは出荷ファイルを直接編集する運用にする（ビルドが勝手に上げない）。
+
+    キーの位置は band の直後に固定する＝再生成しても順序由来の差分が出ない。
+    """
+    epoch = course_meta.get("idEpoch")
+    if epoch is None:
+        path = os.path.join(out_dir, "meta.json")
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                epoch = json.load(f).get("idEpoch")
+    epoch = 1 if epoch is None else epoch
+
+    out: dict = {}
+    for k, v in course_meta.items():
+        if k == "idEpoch":
+            continue
+        out[k] = v
+        if k == "band":
+            out["idEpoch"] = epoch
+    out.setdefault("idEpoch", epoch)
+    return out
+
+
 def band_filename(band_index: int, band_start: int = 0) -> str:
     lo = (band_index + band_start) * BAND_SIZE
     hi = lo + BAND_SIZE
@@ -79,7 +109,7 @@ def emit_course(
         bands.append(fname)
 
     with open(os.path.join(out_dir, "meta.json"), "w", encoding="utf-8") as f:
-        json.dump(course_meta, f, ensure_ascii=False, indent=2)
+        json.dump(with_id_epoch(course_meta, out_dir), f, ensure_ascii=False, indent=2)
 
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump({"bands": bands, "wordCount": len(cards)}, f, ensure_ascii=False, indent=2)

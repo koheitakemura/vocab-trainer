@@ -9,6 +9,7 @@
     "from": 0,
     "to": 1974
   },
+  "idEpoch": 2,
   "sources": [
     {
       "name": "KANJIDIC",

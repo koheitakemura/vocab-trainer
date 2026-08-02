@@ -9,6 +9,7 @@
     "from": 0,
     "to": 830
   },
+  "idEpoch": 1,
   "sources": [
     {
       "name": "JMdict/EDICT dictionary files",

@@ -101,6 +101,13 @@ export interface UIStrings {
   nothingDue: string
   resetProgressDemo: string
   resetProgressConfirm: string
+
+  // ── 進捗の健全性バナー（CourseScreen.tsx）
+  staleEpochTitle: string
+  staleEpochBody: (rows: number) => string
+  staleEpochReset: string
+  staleEpochKeep: string
+  orphanNote: (n: number) => string
   sessionComplete: string
   sessionSummary: (reviewed: number, again: number) => string
 

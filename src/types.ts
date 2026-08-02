@@ -27,6 +27,19 @@ export interface Course {
   uiLanguage: 'ja' | 'en'
   type: CourseType
   band: { from: number; to: number }
+  /**
+   * cardId の世代。**語の増減では絶対に変えない**。
+   * 「既存の cardId が別の単語を指すようになった」ときだけ +1 する。
+   *
+   * 学習進捗は cardId を主キーに持つので、ID が付け替わると「覚えた」判定が別の単語に付く。
+   * それが起きた世代をここに刻んでおくと、端末側が「自分の進捗はどの世代のものか」と
+   * 突き合わせて、信頼できない記録を検知できる（未指定＝1）。
+   *
+   * 実績: en-10-30k は a7b9dee(2026-07-31) の再ビルドで共通ID 20,532件中 20,531件が別語へ、
+   * ja-kanji-advanced も 8aaeee4→d29955c で 740件中664件が別字へ付け替わった＝この2つが epoch 2。
+   * 以後は pipeline/id_registry/ で ID を凍結したので、通常の語彙更新では上がらない。
+   */
+  idEpoch?: number
   /** データ出典（Credits 画面が読む。EDRDG/Tatoeba 等のライセンス条項が出典明記を要求するため） */
   sources?: CourseSource[]
 }

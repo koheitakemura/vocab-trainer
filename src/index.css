@@ -940,6 +940,53 @@ select option {
   place-self: center;
 }
 
+/* ---------- 進捗の健全性バナー（cardId が付け替わった世代の記録） ----------
+   盤面の上に居座らせる（選ぶまで消えない）。course-main は grid なので
+   place-self を指定しないと中央寄せの .done ルールに巻き込まれない＝幅いっぱいに出る。 */
+.stale-epoch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 14px;
+  padding: 12px 16px;
+  border: 1px solid var(--lvl-hard, #b8860b);
+  border-left-width: 4px;
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+.stale-epoch-text {
+  min-width: 260px;
+  flex: 1 1 380px;
+}
+
+.stale-epoch-text strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.stale-epoch-text p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--text-faint);
+  /* .hint は display:grid + 中央寄せなので、text-align だけでは行頭が揃わない
+     （グリッド項目の位置は justify-items が決めるため）。通常フローに戻して左揃えにする。 */
+  display: block;
+  text-align: left;
+}
+
+.stale-epoch-text p + p {
+  margin-top: 4px;
+}
+
+.stale-epoch-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 /* ---------- カテゴリー別学習プルダウン（タブ行内・カード領域を占有しない） ---------- */
 .cat-select-wrap {
   position: relative;

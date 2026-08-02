@@ -72,6 +72,14 @@ export const ja: UIStrings = {
   resetProgressDemo: '進捗をリセット（デモ）',
   resetProgressConfirm:
     'このコースの学習記録（覚えた語・復習の予定日・学習履歴）をすべて消します。元に戻せません。実行しますか？',
+
+  staleEpochTitle: 'このコースの学習記録は、いま表示されている単語と対応していません',
+  staleEpochBody: (rows) =>
+    `語彙データを作り直したときに単語の並びが変わり、${rows} 件の記録が別の単語に付いた可能性があります。` +
+    '「覚えた」と記録された語が実際には出てこない状態が続きます。リセットすると、このコースを最初からやり直します。',
+  staleEpochReset: 'このコースをリセット',
+  staleEpochKeep: 'このまま使う',
+  orphanNote: (n) => `いまのコースに存在しない単語の記録が ${n} 件あります`,
   sessionComplete: 'セッション完了',
   sessionSummary: (reviewed, again) => `${reviewed} 回復習${again > 0 ? ` · ${again} 語を「学習中」に` : ''}`,
 

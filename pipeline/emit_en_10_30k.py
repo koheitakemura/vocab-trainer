@@ -31,6 +31,7 @@ import json
 import os
 
 from card_id import assign_ids
+from emit import with_id_epoch
 
 RAW = "raw"
 OUT_DIR = "../public/data/courses/en-10-30k"
@@ -276,8 +277,10 @@ def main():
             },
         ],
     }
+    # idEpoch は出荷済み meta.json から必ず引き継ぐ（再ビルドで黙って 1 に戻さない）。
+    # このコースは a7b9dee で ID が総付け替えになった実績があり epoch=2。
     with open(f"{OUT_DIR}/meta.json", "w", encoding="utf-8") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=1)
+        json.dump(with_id_epoch(meta, OUT_DIR), f, ensure_ascii=False, indent=1)
 
     log("=" * 60)
     log(f"タイトル: {title}")

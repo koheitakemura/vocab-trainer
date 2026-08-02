@@ -146,6 +146,56 @@ export async function ensureSummary(courseId: CourseId): Promise<void> {
   })
 }
 
+/** 学習進捗が「いまのコースの語彙」と噛み合っているかの診断結果 */
+export interface ProgressIntegrity {
+  /** そのコースの progress 行数 */
+  rows: number
+  /** 学習記録はあるのに、いまのコースに存在しない cardId の数（＝どの単語にも紐付いていない記録） */
+  orphans: number
+  /**
+   * 記録が「cardId が付け替わる前の世代」のものである疑い。
+   * true のとき、覚えた判定が**別の単語に付いている**可能性がある。
+   */
+  staleEpoch: boolean
+}
+
+/** 「この端末の進捗はどの世代のものか」を覚えておく meta のキー */
+function epochKey(courseId: CourseId): string {
+  return `progressEpoch:${courseId}`
+}
+
+/**
+ * 進捗の健全性を1回だけ調べる（コースを開いたときに1回。liveQuery で常時監視しない）。
+ *
+ * recordReview の O(1) を壊さないため、ここは「開いたときのコスト」に閉じ込める。
+ * 進捗が1行も無いコースでは、その場で現在の世代を刻んで以後の誤検知を防ぐ
+ * （新規に始めた人に「記録が信頼できません」と出さないため）。
+ */
+export async function checkProgressIntegrity(
+  courseId: CourseId,
+  idEpoch: number,
+  presentCardIds: Set<string>,
+): Promise<ProgressIntegrity> {
+  const rows = await db.progress.where('courseId').equals(courseId).toArray()
+  if (rows.length === 0) {
+    await acknowledgeEpoch(courseId, idEpoch)
+    return { rows: 0, orphans: 0, staleEpoch: false }
+  }
+  const stored = await db.meta.get(epochKey(courseId))
+  // 記録があるのに刻印が無い＝刻印を始める前からの利用者。旧世代とみなす
+  const storedEpoch = typeof stored?.value === 'number' ? stored.value : 1
+  const orphans = rows.reduce((n, r) => (presentCardIds.has(r.cardId) ? n : n + 1), 0)
+  const staleEpoch = storedEpoch < idEpoch
+  // 世代が一致しているなら、刻印だけ更新して以後は何も出さない
+  if (!staleEpoch && stored === undefined) await acknowledgeEpoch(courseId, idEpoch)
+  return { rows: rows.length, orphans, staleEpoch }
+}
+
+/** 現在の世代を「確認済み」として刻む（リセットしても・そのまま使うことを選んでも呼ぶ） */
+export async function acknowledgeEpoch(courseId: CourseId, idEpoch: number): Promise<void> {
+  await db.meta.put({ key: epochKey(courseId), value: idEpoch })
+}
+
 /** 進捗を JSON 文字列に書き出す（手動バックアップ／端末移行用）。v2 = 日次ログ・設定も同梱 */
 export async function exportProgress(): Promise<string> {
   const [progress, dailyStats, meta] = await Promise.all([

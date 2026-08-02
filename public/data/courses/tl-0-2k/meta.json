@@ -9,6 +9,7 @@
     "from": 0,
     "to": 2000
   },
+  "idEpoch": 1,
   "sources": [
     {
       "name": "McFarland (1989) Tagalog frequency list",

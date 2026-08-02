@@ -73,6 +73,14 @@ export const en: UIStrings = {
   resetProgressDemo: 'Reset progress (demo)',
   resetProgressConfirm:
     'This erases every learning record for this course (known words, review schedule, history). It cannot be undone. Continue?',
+
+  staleEpochTitle: 'Your progress for this course no longer matches the words shown',
+  staleEpochBody: (rows) =>
+    `When this course's word data was rebuilt, the ordering changed, so ${rows} of your records may now be attached ` +
+    'to different words. Words marked “known” may never come up again. Resetting starts this course over.',
+  staleEpochReset: 'Reset this course',
+  staleEpochKeep: 'Keep it as is',
+  orphanNote: (n) => `${n} records point to words that are no longer in this course`,
   sessionComplete: 'Session complete',
   sessionSummary: (reviewed, again) => `${reviewed} reviews${again > 0 ? ` · ${again} marked “Studying”` : ''}`,
 

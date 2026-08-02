@@ -5,7 +5,17 @@ import type { Course, CourseId, VocabCard } from '../types'
 import type { CourseListing } from '../data/courseRegistry'
 import type { ReviewGrade } from '../srs/scheduler'
 import { db, emptyByGrade } from '../store/db'
-import { ensureSummary, exportProgress, importProgress, localDate, vocabSnapshot } from '../store/progress'
+import {
+  acknowledgeEpoch,
+  checkProgressIntegrity,
+  ensureSummary,
+  exportProgress,
+  importProgress,
+  localDate,
+  resetCourseProgress,
+  vocabSnapshot,
+  type ProgressIntegrity,
+} from '../store/progress'
 import { getCoachSentences, type CoachSentence } from '../data/coachSentences'
 import type { GradeOutcome } from './study/useStudyBoard'
 import { safeGet, safeSet } from '../store/safeStorage'
@@ -133,6 +143,36 @@ export function CourseScreen({
       return next
     })
   }, [])
+
+  // ── 進捗の健全性（コースを開いたときに1回だけ調べる）。
+  // cardId が付け替わった世代の記録は「覚えた」判定が別の単語に付いているので、
+  // 黙って使わせず本人に一度だけ選んでもらう（勝手に消さない・気づけない状態にもしない）。
+  const [integrity, setIntegrity] = useState<ProgressIntegrity | null>(null)
+  useEffect(() => {
+    let active = true
+    setIntegrity(null)
+    const ids = new Set(cards.map((c) => c.id))
+    void checkProgressIntegrity(course.id, course.idEpoch ?? 1, ids).then((r) => {
+      if (active) setIntegrity(r)
+    })
+    return () => {
+      active = false
+    }
+  }, [course.id, course.idEpoch, cards])
+
+  const dismissStaleEpoch = useCallback(
+    async (reset: boolean) => {
+      if (reset) await resetCourseProgress(course.id)
+      await acknowledgeEpoch(course.id, course.idEpoch ?? 1)
+      setIntegrity((prev) => (prev ? { ...prev, staleEpoch: false, orphans: reset ? 0 : prev.orphans } : prev))
+      if (reset) {
+        // ヘッダーの推定語彙数・メーターを作り直す（リセット直後の演出は抑止済みの経路に乗せる）
+        suppressMilestoneRef.current = true
+        setEstNonce((n) => n + 1)
+      }
+    },
+    [course.id, course.idEpoch],
+  )
 
   // ── コーチの日本語文バンク（静的 JSON・1回だけ読み込み）
   const [sentences, setSentences] = useState<CoachSentence[]>([])
@@ -417,6 +457,26 @@ export function CourseScreen({
       </nav>
 
       <main className="course-main">
+        {/* 記録が別の単語に付いている疑いがあるコースでだけ、一度だけ出す。
+            モーダルにしないのは、誤タップで消える/勝手に進む事故を避けるため
+            （選ぶまで残り、どちらを選んでも二度と出ない）。 */}
+        {integrity?.staleEpoch && (
+          <div className="stale-epoch" role="alert">
+            <div className="stale-epoch-text">
+              <strong>{t.staleEpochTitle}</strong>
+              <p>{t.staleEpochBody(integrity.rows)}</p>
+              {integrity.orphans > 0 && <p className="hint">{t.orphanNote(integrity.orphans)}</p>}
+            </div>
+            <div className="stale-epoch-actions">
+              <button type="button" className="btn primary" onClick={() => void dismissStaleEpoch(true)}>
+                {t.staleEpochReset}
+              </button>
+              <button type="button" className="btn ghost" onClick={() => void dismissStaleEpoch(false)}>
+                {t.staleEpochKeep}
+              </button>
+            </div>
+          </div>
+        )}
         {tab === 'study' ? (
           <StudyGrid
             cards={studyCards}
