@@ -39,7 +39,7 @@
 /* ---------- ① 濃紺 × 青（現行） ---------- */
 .theme-navy {
   --bg: #0b1120;
-  --bg-grad: radial-gradient(700px 300px at 50% -20%, #17233f 0%, #0b1120 60%);
+  --bg-grad: none;
   --surface: #131c30;
   --surface-2: #1b2740;
   --border: #263250;
@@ -57,7 +57,7 @@
 /* ---------- ② ダーク × ティール/緑 ---------- */
 .theme-teal {
   --bg: #071512;
-  --bg-grad: radial-gradient(700px 300px at 50% -20%, #103a31 0%, #071512 60%);
+  --bg-grad: none;
   --surface: #0e1f1a;
   --surface-2: #15302a;
   --border: #24493f;
@@ -75,7 +75,7 @@
 /* ---------- ③ ライトモード（白基調） ---------- */
 .theme-light {
   --bg: #f5f7fb;
-  --bg-grad: radial-gradient(700px 300px at 50% -20%, #ffffff 0%, #eef2f9 65%);
+  --bg-grad: none;
   --surface: #ffffff;
   --surface-2: #eef2f8;
   --border: #d8dfea;
@@ -93,7 +93,7 @@
 /* ---------- ④ ダーク × 暖色（オレンジ） ---------- */
 .theme-warm {
   --bg: #16110c;
-  --bg-grad: radial-gradient(700px 300px at 50% -20%, #3a2a16 0%, #16110c 60%);
+  --bg-grad: none;
   --surface: #211a11;
   --surface-2: #2c2317;
   --border: #3e3122;

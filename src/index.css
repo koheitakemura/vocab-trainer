@@ -1,6 +1,7 @@
 :root {
   --bg: #0b1120;
-  --bg-grad: radial-gradient(1200px 600px at 50% -10%, #17233f 0%, #0b1120 55%);
+  /* 放射状グラデーションは Mach バンド（見かけ上の境界線）が出るため廃止し、単色にした。 */
+  --bg-grad: none;
   --surface: #131c30;
   --surface-2: #1b2740;
   --border: #263250;
@@ -30,7 +31,7 @@
 /* ライトテーマ（③）— data-theme="light" で全体を上書き */
 :root[data-theme='light'] {
   --bg: #f5f7fb;
-  --bg-grad: radial-gradient(1200px 600px at 50% -10%, #ffffff 0%, #eef2f9 55%);
+  --bg-grad: none;
   --surface: #ffffff;
   --surface-2: #eef2f8;
   /* ライト時のグレーは白背景に対して薄すぎて読みにくかったため濃くした（2026-08-01）。
@@ -933,6 +934,10 @@ select option {
   font-size: 12px;
   color: var(--text-faint);
   white-space: nowrap;
+  /* .session-info の他の項目（ThemeToggle/SoundSettings/BoardSizeSettings/Credits）は
+     全て .link を持ちボタン扱いで左右10pxのパディングがある。この要素だけ素の <span> で
+     パディングが無く、隣（Credits）との間だけ見た目上10px狭くなっていた。揃える。 */
+  padding: 6px 10px;
 }
 
 .sync-status--blocked {
