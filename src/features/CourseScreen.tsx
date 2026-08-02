@@ -34,6 +34,7 @@ import { AllWords } from './browse/AllWords'
 import { StatsPanel } from './stats/StatsPanel'
 import { GrowthPanel } from './growth/GrowthPanel'
 import { ThemeToggle } from '../theme/ThemeToggle'
+import { VocabLockup } from '../brand/Logo'
 import { SoundSettings } from './SoundSettings'
 import { BoardSizeSettings } from './study/BoardSizeSettings'
 import { Credits } from './Credits'
@@ -435,23 +436,28 @@ export function CourseScreen({
     <div className="course-screen">
       <header className="topbar">
         <div className="course">
-          {/* コースが1つしかない間はドロップダウンを出さず見出しのまま（選ぶ意味がないUIを避ける） */}
-          {courses.length > 1 ? (
-            <select
-              className="course-select"
-              aria-label={t.selectCourseAria}
-              value={course.id}
-              onChange={(e) => onSelectCourse(e.target.value as CourseId)}
-            >
-              {courses.map((c) => (
-                <option key={c.id} value={c.id}>
-                  {c.title}
-                </option>
-              ))}
-            </select>
-          ) : (
-            <h1 className="course-name">{course.title}</h1>
-          )}
+          {/* 画面左上。ブランドをコース名と同じ行の左に置く。主役はコース名とコーチ・
+              メッセージなので、マークは compact・文字は一段落とした色で静かに添える */}
+          <div className="course-head">
+            <VocabLockup className="topbrand" size={20} variant="compact" />
+            {/* コースが1つしかない間はドロップダウンを出さず見出しのまま（選ぶ意味がないUIを避ける） */}
+            {courses.length > 1 ? (
+              <select
+                className="course-select"
+                aria-label={t.selectCourseAria}
+                value={course.id}
+                onChange={(e) => onSelectCourse(e.target.value as CourseId)}
+              >
+                {courses.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.title}
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <h1 className="course-name">{course.title}</h1>
+            )}
+          </div>
           {/* 状況に応じて変わるコーチ・メッセージ（すべて端末内のデータから。外部送信なし）。
               日本語文（既習語だけで構成）のときは下に英訳を添える */}
           <div className="coach-block" key={coachMsg.text} aria-live="polite">

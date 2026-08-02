@@ -121,6 +121,53 @@ body {
   color: var(--text);
 }
 
+/* 学習画面の左上。ブランドとコース名を同じ行に並べる。
+   コース名が長いときはコース名側だけを縮める（ブランドは折り返さない） */
+.course-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+/* .course-select は縦積みだった頃の align-self:flex-start を持っている。
+   横並びになった今はそれが効くと上に張り付くので、行の中央に戻す。
+   幅が足りないときはコース名側だけを詰めて省略記号にする（メーターを押し出さない） */
+.course-head > .course-name,
+.course-head > .course-select {
+  min-width: 0;
+  align-self: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ブランドは在るだけでよく、コース名とコーチ・メッセージより目立ってはいけないので、
+   マークは compact・文字は一段落とした色にする */
+.topbrand {
+  gap: 8px;
+  flex: none;
+}
+
+.topbrand .vt-wordmark {
+  font-size: 13px;
+  letter-spacing: 0;
+  color: var(--text-faint);
+}
+
+.topbrand .vt-wordmark b {
+  font-weight: 600;
+  color: var(--text-dim);
+}
+
+/* スマホではコース名（長い）と同居できないので、この行はマークだけにする。
+   アプリ名はホーム画面のアイコン名とタブのタイトルで足りている */
+@media (max-width: 620px) {
+  .topbrand .vt-wordmark {
+    display: none;
+  }
+}
+
 /* 起動中・起動失敗の画面。待っている間に「何のアプリか」が分かるようロゴを出す */
 .boot-brand {
   display: grid;

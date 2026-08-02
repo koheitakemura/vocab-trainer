@@ -106,17 +106,21 @@ export function BootBrand({ status }: { status?: string }) {
   )
 }
 
-/** マーク＋ワードマーク。縦組み（起動画面）と横組み（管理者画面）を切り替える。 */
+/** マーク＋ワードマーク。縦組み（起動画面）と横組み（学習画面・管理者画面）を切り替える。 */
 export function VocabLockup({
   size = 44,
   direction = 'row',
+  variant,
+  className,
 }: {
   size?: number
   direction?: 'row' | 'column'
+  variant?: 'standard' | 'compact'
+  className?: string
 }) {
   return (
-    <span className={`vt-lockup vt-lockup--${direction}`}>
-      <VocabMark size={size} />
+    <span className={`vt-lockup vt-lockup--${direction}${className ? ` ${className}` : ''}`}>
+      <VocabMark size={size} variant={variant} />
       <span className="vt-wordmark">
         <b>Vocab</b> Trainer
       </span>
