@@ -1,7 +1,7 @@
 {
  "courseId": "en-10-30k",
  "idWidth": 5,
- "maxIdNumber": 20532,
+ "maxIdNumber": 20533,
  "entries": [
   {"key":"numb␟/nˈʌm/","id":"en-10-30k-00001","frequencyRank":10001,"disambig":null,"rankKey":null},
   {"key":"grind␟/ɡɹˈaɪnd/","id":"en-10-30k-00002","frequencyRank":10002,"disambig":null,"rankKey":null},
@@ -12462,6 +12462,7 @@
   {"key":"showmanship␟/ʃˈoʊmənʃˌɪp/","id":"en-10-30k-20525","frequencyRank":30525,"disambig":null,"rankKey":null},
   {"key":"socratic␟/səkɹˈætɪk/","id":"en-10-30k-20530","frequencyRank":30530,"disambig":null,"rankKey":null},
   {"key":"sombrero␟/sɑmbɹˈɛɹoʊ/","id":"en-10-30k-20531","frequencyRank":30531,"disambig":null,"rankKey":null},
-  {"key":"southpaw␟/sˈaʊθpˌaʊ/","id":"en-10-30k-20532","frequencyRank":30532,"disambig":null,"rankKey":null}
+  {"key":"southpaw␟/sˈaʊθpˌaʊ/","id":"en-10-30k-20532","frequencyRank":30532,"disambig":null,"rankKey":null},
+  {"key":"bleep␟/blˈip/","id":"en-10-30k-20533","frequencyRank":15677,"disambig":null,"rankKey":null}
  ]
 }

@@ -279,8 +279,13 @@ def main():
     }
     # idEpoch は出荷済み meta.json から必ず引き継ぐ（再ビルドで黙って 1 に戻さない）。
     # このコースは a7b9dee で ID が総付け替えになった実績があり epoch=2。
+    # ⚠️ with_id_epoch() は open(..., "w") より必ず先に呼ぶこと——open("w") は呼んだ時点で
+    # 既存ファイルを0バイトに切り詰めるため、先にファイルを開いてから中で呼ぶと
+    # with_id_epoch() が読もうとする「既存の meta.json」が自分自身の0バイト版になり、
+    # idEpoch を失って JSONDecodeError で落ちる（実際に踏んで発覚）。
+    meta_out = with_id_epoch(meta, OUT_DIR)
     with open(f"{OUT_DIR}/meta.json", "w", encoding="utf-8") as f:
-        json.dump(with_id_epoch(meta, OUT_DIR), f, ensure_ascii=False, indent=1)
+        json.dump(meta_out, f, ensure_ascii=False, indent=1)
 
     log("=" * 60)
     log(f"タイトル: {title}")

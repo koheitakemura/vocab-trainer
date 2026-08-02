@@ -108,8 +108,13 @@ def emit_course(
             json.dump(chunk, f, ensure_ascii=False, indent=None, separators=(",", ":"))
         bands.append(fname)
 
+    # ⚠️ with_id_epoch() は open(..., "w") より必ず先に呼ぶこと——open("w") は呼んだ時点で
+    # 既存ファイルを0バイトに切り詰めるため、先にファイルを開いてから中で呼ぶと
+    # with_id_epoch() が読もうとする「既存の meta.json」が自分自身の0バイト版になり、
+    # idEpoch を失って JSONDecodeError で落ちる（emit_en_10_30k.py で実際に踏んで発覚）。
+    meta_out = with_id_epoch(course_meta, out_dir)
     with open(os.path.join(out_dir, "meta.json"), "w", encoding="utf-8") as f:
-        json.dump(with_id_epoch(course_meta, out_dir), f, ensure_ascii=False, indent=2)
+        json.dump(meta_out, f, ensure_ascii=False, indent=2)
 
     with open(os.path.join(out_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump({"bands": bands, "wordCount": len(cards)}, f, ensure_ascii=False, indent=2)
