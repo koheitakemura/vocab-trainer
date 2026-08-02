@@ -71,6 +71,8 @@ export const en: UIStrings = {
   allCaughtUp: 'All caught up',
   nothingDue: 'Nothing is due right now.',
   resetProgressDemo: 'Reset progress (demo)',
+  resetProgressConfirm:
+    'This erases every learning record for this course (known words, review schedule, history). It cannot be undone. Continue?',
   sessionComplete: 'Session complete',
   sessionSummary: (reviewed, again) => `${reviewed} reviews${again > 0 ? ` · ${again} marked “Studying”` : ''}`,
 

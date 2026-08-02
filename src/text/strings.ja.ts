@@ -70,6 +70,8 @@ export const ja: UIStrings = {
   allCaughtUp: 'すべて完了',
   nothingDue: '今すぐ復習する語はありません。',
   resetProgressDemo: '進捗をリセット（デモ）',
+  resetProgressConfirm:
+    'このコースの学習記録（覚えた語・復習の予定日・学習履歴）をすべて消します。元に戻せません。実行しますか？',
   sessionComplete: 'セッション完了',
   sessionSummary: (reviewed, again) => `${reviewed} 回復習${again > 0 ? ` · ${again} 語を「学習中」に` : ''}`,
 

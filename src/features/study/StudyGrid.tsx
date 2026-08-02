@@ -64,6 +64,10 @@ export function StudyGrid({
         <button
           className="btn ghost"
           onClick={async () => {
+            // 取り返しのつかない全消去なので必ず確認を挟む。このボタンは毎日必ず通る
+            // 「すべて完了」画面に常設されており、確認が無いと誤タップ1回で全消えする。
+            // サーバー同期を足すと、その誤操作が控えの側にも伝播して復旧不能になる。
+            if (!window.confirm(t.resetProgressConfirm)) return
             await b.reset()
             onProgressReset?.()
           }}

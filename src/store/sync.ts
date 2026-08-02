@@ -97,13 +97,25 @@ async function applyDisplayName(name: unknown): Promise<void> {
   else await db.meta.delete('displayName')
 }
 
-let lastSyncAt = 0
+/**
+ * 最後に**サーバーへ保存できた**時刻（ISO文字列）を入れる meta のキー。
+ *
+ * 「最後に試した時刻」（lastAttemptAt）と別に持つのが要点。ひとつの変数で兼ねると、
+ * サイズ超過や権限エラーで送信が全部弾かれていても「同期できている」ように見え続け、
+ * 機種変更の当日に初めて「サーバーに何も無い」と分かる——最悪の壊れ方をする。
+ */
+export const LAST_SERVER_SYNC_KEY = 'lastServerSyncAt'
+
+/** 連打抑止用の「最後に試した時刻」。成功・失敗を問わず更新する（失敗時に毎秒リトライさせない） */
+let lastAttemptAt = 0
 
 /**
  * 1回同期する。失敗（オフライン・未デプロイ・未ログイン）は握りつぶす——
  * 学習アプリ本体はサーバー無しで完結する設計なので、ここで例外を投げて画面を壊してはいけない。
+ * ただし**成功時刻は成功したときにしか書かない**（握りつぶすことと、成功を騙ることは別）。
  */
 export async function syncNow(): Promise<void> {
+  lastAttemptAt = Date.now()
   try {
     const payload = await buildSyncPayload()
     const res = await fetch(apiUrl('api/sync'), {
@@ -111,14 +123,17 @@ export async function syncNow(): Promise<void> {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
       credentials: 'same-origin',
+      // 離脱時（visibilitychange / pagehide）の送信をページ破棄で打ち切らせない。
+      // 本文はコース別の集計値だけなので keepalive の 64KiB 制限には当たらない。
+      keepalive: true,
     })
-    lastSyncAt = Date.now()
     if (!res.ok) return
     const data = (await res.json()) as { displayName?: unknown; allowedCourses?: unknown }
+    await db.meta.put({ key: LAST_SERVER_SYNC_KEY, value: new Date().toISOString() })
     await applyDisplayName(data.displayName)
     await applyAllowedCourses(data.allowedCourses)
   } catch {
-    lastSyncAt = Date.now()
+    // オフライン等。ここで成功時刻を書かないことが唯一の「届いていない」痕跡になる
   }
 }
 
@@ -126,7 +141,7 @@ const MIN_INTERVAL_MS = 60_000
 const PERIODIC_MS = 10 * 60_000
 
 function syncIfStale(): void {
-  if (Date.now() - lastSyncAt < MIN_INTERVAL_MS) return
+  if (Date.now() - lastAttemptAt < MIN_INTERVAL_MS) return
   void syncNow()
 }
 

@@ -100,6 +100,7 @@ export interface UIStrings {
   allCaughtUp: string
   nothingDue: string
   resetProgressDemo: string
+  resetProgressConfirm: string
   sessionComplete: string
   sessionSummary: (reviewed: number, again: number) => string
 
