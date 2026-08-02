@@ -8,11 +8,10 @@
 学習ロジック（FSRS-6 SRS・配置テスト・単語状態トラッキング・カバレッジ可視化）は全コース共通で、
 違いは語彙データと表示言語だけ。
 
-> フォルダ名 `Vocab_Trainer` は仮。正式名が決まったらリネーム。
-
 ## ドキュメント
 
 - [PLAN.md](PLAN.md) — 機能計画（コース構成・データパイプライン・フェーズ計画・判断ログ）
+- [docs/brand.md](docs/brand.md) — ロゴ・アイコン・色（資産の使い分けと再生成手順）
 - [docs/admin-console.md](docs/admin-console.md) — 管理者画面（利用者の登録・削除／進捗確認）の設計とセットアップ手順
 - [docs/new-courses-plan.md](docs/new-courses-plan.md) — 新コース検討（カタカナ語／基本漢字）。未着手の検討資料
 

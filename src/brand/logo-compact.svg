@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Vocab Trainer">
+  <title>Vocab Trainer (compact)</title>
+  <rect width="512" height="512" fill="#0b1120" />
+  <rect x="78" y="78" width="96" height="96" rx="22" fill="#6ea8fe" fill-opacity="0.45" />
+  <rect x="208" y="78" width="96" height="96" rx="22" fill="#22304e" />
+  <rect x="338" y="78" width="96" height="96" rx="22" fill="#22304e" />
+  <rect x="78" y="208" width="96" height="96" rx="22" fill="#6ea8fe" />
+  <rect x="208" y="208" width="96" height="96" rx="22" fill="#e8edf7" />
+  <rect x="338" y="208" width="96" height="96" rx="22" fill="#22304e" />
+  <rect x="78" y="338" width="96" height="96" rx="22" fill="#6ea8fe" />
+  <rect x="208" y="338" width="96" height="96" rx="22" fill="#6ea8fe" />
+  <rect x="338" y="338" width="96" height="96" rx="22" fill="#6ea8fe" />
+</svg>

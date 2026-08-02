@@ -4,6 +4,7 @@ import type { Course, CourseId, VocabCard } from './types'
 import { repository } from './data/courseRepository'
 import { CourseScreen } from './features/CourseScreen'
 import { AVAILABLE_COURSES } from './data/courseRegistry'
+import { BootBrand, VocabLockup } from './brand/Logo'
 import { safeGet, safeSet } from './store/safeStorage'
 import { db } from './store/db'
 import { useStrings } from './text/i18n'
@@ -99,6 +100,7 @@ export default function App() {
     return (
       <div className="boot">
         <div className="boot-msg">
+          <VocabLockup direction="column" size={52} />
           <p>{t.bootError}</p>
           <button className="btn primary" onClick={() => setRetryNonce((n) => n + 1)}>
             {t.retry}
@@ -106,7 +108,12 @@ export default function App() {
         </div>
       </div>
     )
-  if (loading || !course) return <div className="boot">{t.loading}</div>
+  if (loading || !course)
+    return (
+      <div className="boot">
+        <BootBrand status={t.loading} />
+      </div>
+    )
   return (
     <CourseScreen
       course={course}

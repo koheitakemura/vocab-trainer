@@ -49,6 +49,13 @@
   margin-bottom: 20px;
 }
 
+/* ロゴ＋見出し（2行ブロック）。ロゴは2行の中心に合わせる */
+.admin-brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
 .admin-title {
   margin: 0;
   font-size: 22px;

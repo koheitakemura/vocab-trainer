@@ -1,0 +1,147 @@
+/* #brand — ロゴ確認画面。内部プレビューなので装飾は最小限に留める。 */
+
+.brand-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 28px 20px 72px;
+}
+
+.brand-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand-head h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.brand-sub {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.brand-sec {
+  margin-top: 34px;
+}
+
+.brand-sec h2 {
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-dim);
+}
+
+.brand-note {
+  margin: -6px 0 14px;
+  font-size: 13px;
+  color: var(--text-faint);
+}
+
+.brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 32px;
+}
+
+.brand-row--baseline {
+  align-items: flex-end;
+}
+
+/* 縮小列は下端で揃える（並べたときに大きさの差が読み取れる） */
+.brand-ramp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 26px;
+  margin-bottom: 18px;
+}
+
+.brand-fig {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand-fig figcaption {
+  font-size: 11px;
+  color: var(--text-faint);
+}
+
+/* 起動画面は本番と同じ「面いっぱいの中央」に見えるよう、枠を作って中に置く */
+.brand-boot {
+  display: grid;
+  place-items: center;
+  height: 220px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.brand-files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.brand-file {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px 12px 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+/* PNG は濃紺を焼き込んであるので、ライトテーマでも角丸だけ添えてそのまま見せる */
+.brand-file img {
+  border-radius: 18%;
+  display: block;
+}
+
+.brand-file figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 12px;
+}
+
+.brand-file figcaption span {
+  color: var(--text-faint);
+}
+
+.brand-tokens {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+
+.brand-tokens td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand-tokens tr:last-child td {
+  border-bottom: 0;
+}
+
+.brand-tokens code {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.brand-hex {
+  color: var(--text-faint);
+  white-space: nowrap;
+}

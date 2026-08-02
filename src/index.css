@@ -16,6 +16,10 @@
   --again-strong: #e11d48;
   /* 卒業（Mastered/Burned）の金。ダークは明るめの金、ライトは沈んだ金で可読性を保つ */
   --mastered: #fbbf24;
+  /* ロゴの「いま出題中の 1 マス」。他のマスより一段強くして焦点を作る。
+     ダークは白。ライトで --text（ほぼ黒）にすると青いマスの中で「穴」に見えたので、
+     ライトは同じ青系のまま最も濃い段（blue-900）に置いて濃さの階段を続ける。 */
+  --logo-active: #e8edf7;
   --shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.7);
   --radius: 20px;
   color-scheme: dark;
@@ -45,6 +49,7 @@
   --again: #e11d48;
   --again-strong: #be123c;
   --mastered: #ca8a04;
+  --logo-active: #1e3a8a;
   --shadow: 0 14px 34px -18px rgba(20, 30, 60, 0.28);
   color-scheme: light;
 }
@@ -87,6 +92,47 @@ body {
   justify-items: center;
   text-align: center;
   padding: 0 20px;
+}
+
+/* ---------- ブランド ---------- */
+/* ロゴの色はテーマトークンを参照している（src/brand/Logo.tsx）ので、
+   ライト/ダークどちらでも地に馴染む。濃紺を焼き込んだ版は PWA アイコン用の PNG だけ。 */
+.vt-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.vt-lockup--column {
+  flex-direction: column;
+  gap: 14px;
+}
+
+.vt-wordmark {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.vt-wordmark b {
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* 起動中・起動失敗の画面。待っている間に「何のアプリか」が分かるようロゴを出す */
+.boot-brand {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.boot-status {
+  font-size: 14px;
+  color: var(--text-faint);
 }
 
 /* ---------- layout ---------- */
@@ -789,7 +835,19 @@ select option {
 
 .session-info {
   display: flex;
+  align-items: center;
   gap: 8px;
+}
+
+.sync-status {
+  font-size: 12px;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+
+.sync-status--blocked {
+  color: var(--lvl-hard, #b8860b);
+  cursor: pointer;
 }
 
 .pill {

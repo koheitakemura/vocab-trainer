@@ -32,6 +32,9 @@ export default defineConfig({
         // ここに含めない＝含めると全訪問者に全コース分（5コースなら数MB）を無条件配信してしまう。
         // コース JSON は下の runtimeCaching で「選んだコースだけ」オンデマンドにキャッシュする。
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        // OGP 画像はアプリ内で一度も表示しない（外部のリンクカード用）。precache に入れると
+        // 全利用者の初回ロードに 50KB 余計に載るだけなので除外する。
+        globIgnores: ['og.png'],
         runtimeCaching: [
           {
             // data/courses/ 配下の json（manifest/meta/categories/coach-sentences/words-*）。
@@ -51,16 +54,25 @@ export default defineConfig({
       manifest: {
         name: 'Vocab Trainer',
         short_name: 'Vocab',
-        description: '語彙特化学習アプリ（サーバーレス）',
-        theme_color: '#0f172a',
-        background_color: '#0f172a',
+        description: '語彙特化の学習アプリ｜英語・日本語',
+        // index.html の theme-color と同じ値に揃える（旧値 #0f172a は本体テーマとズレていた）
+        theme_color: '#0b1120',
+        background_color: '#0b1120',
         display: 'standalone',
         start_url: './',
         // icons が空だとインストール条件を満たさず「ホーム画面に追加」プロンプトが出ない。
+        // すべて scripts/gen_brand_assets.py の生成物。
         icons: [
           { src: 'pwa-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'pwa-512.png', sizes: '512x512', type: 'image/png' },
-          { src: 'pwa-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          // maskable は Android が内接円 80% の外を削るため、専用に一回り小さく組んだ別画像。
+          // any と同じ画像を使い回すと 4 隅のマスが欠ける。
+          {
+            src: 'pwa-512-maskable.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
+          },
         ],
       },
     }),

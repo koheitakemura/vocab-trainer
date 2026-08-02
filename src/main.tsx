@@ -5,6 +5,7 @@ import App from './App'
 import { DesignGallery } from './design/DesignGallery'
 import { ThemeGallery } from './design/ThemeGallery'
 import { GrowthPreview } from './features/growth/GrowthPreview'
+import { BrandPreview } from './brand/BrandPreview'
 import { AdminScreen } from './features/admin/AdminScreen'
 import { startProgressSync } from './store/sync'
 import './index.css'
@@ -42,8 +43,9 @@ function isAdminPath(): boolean {
   return window.location.pathname.replace(/\/+$/, '').endsWith('/admin')
 }
 
-// `#design`=レイアウト比較 / `#tones`=カラートーン比較 / `#admin` または /admin=管理者画面 /
-// それ以外=本体アプリ。hashchange に反応（同一ドキュメントのハッシュ変更でも切り替わる）。
+// `#design`=レイアウト比較 / `#tones`=カラートーン比較 / `#brand`=ロゴ確認 /
+// `#admin` または /admin=管理者画面 / それ以外=本体アプリ。
+// hashchange に反応（同一ドキュメントのハッシュ変更でも切り替わる）。
 function Root() {
   const [hash, setHash] = useState(() => window.location.hash)
   useEffect(() => {
@@ -55,6 +57,7 @@ function Root() {
   if (hash.startsWith('#design')) return <DesignGallery />
   if (hash.startsWith('#tones')) return <ThemeGallery />
   if (hash.startsWith('#growth')) return <GrowthPreview />
+  if (hash.startsWith('#brand')) return <BrandPreview />
   if (hash.startsWith('#admin') || isAdminPath()) return <AdminScreen />
   // 管理者画面への入口は CourseScreen のフッター（Backup/Restore と同じ行）に表示する
   return <App />

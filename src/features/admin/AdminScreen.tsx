@@ -15,6 +15,7 @@ import {
   type UsersResponse,
 } from './adminApi'
 import { AVAILABLE_COURSES } from '../../data/courseRegistry'
+import { VocabMark } from '../../brand/Logo'
 import { fmtNum } from '../../text/format'
 import './admin.css'
 
@@ -97,9 +98,12 @@ export function AdminScreen() {
   return (
     <div className="admin">
       <header className="admin-header">
-        <div>
-          <h1 className="admin-title">管理者画面</h1>
-          <p className="admin-sub">Vocab Trainer — 利用者とその進捗</p>
+        <div className="admin-brand">
+          <VocabMark size={38} />
+          <div>
+            <h1 className="admin-title">管理者画面</h1>
+            <p className="admin-sub">Vocab Trainer — 利用者とその進捗</p>
+          </div>
         </div>
         <div className="admin-meta">
           <span className="admin-who">{me.email}</span>
