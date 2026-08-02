@@ -164,6 +164,31 @@ export function InfoIcon(p: IconProps) {
   )
 }
 
+/** 単語検索（タブ行の検索ボックス） */
+export function SearchIcon(p: IconProps) {
+  return (
+    <Icon {...p}>
+      <g stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" fill="none">
+        <circle cx="7" cy="7" r="4.2" />
+        <path d="M10.2 10.2L14 14" />
+      </g>
+    </Icon>
+  )
+}
+
+/** AI生成（検索で見つからない語をAIに作らせるボタン） */
+export function SparkleIcon(p: IconProps) {
+  return (
+    <Icon {...p}>
+      <path
+        d="M8 1.6l1.1 3.3L12.4 6l-3.3 1.1L8 10.4 6.9 7.1 3.6 6l3.3-1.1z"
+        fill="currentColor"
+      />
+      <path d="M12.6 9.6l.55 1.65 1.65.55-1.65.55-.55 1.65-.55-1.65-1.65-.55 1.65-.55z" fill="currentColor" />
+    </Icon>
+  )
+}
+
 /** 連続学習日数 */
 export function FlameIcon(p: IconProps) {
   return (

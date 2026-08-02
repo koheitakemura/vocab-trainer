@@ -41,6 +41,38 @@ const SCHEMA = [
      target TEXT NOT NULL,
      detail TEXT NOT NULL DEFAULT ''
    )`,
+  // 検索して見つからない語をAI生成したときのキャッシュ（docs/word-request-design.md §7・§9）。
+  // 同じ語を別の人が引いたときはここを引くだけで済む＝AI呼び出しは語1件につき最大1回。
+  `CREATE TABLE IF NOT EXISTS extra_cards (
+     card_id     TEXT PRIMARY KEY,
+     course_id   TEXT NOT NULL,
+     content_key TEXT NOT NULL,
+     payload     TEXT NOT NULL,
+     model       TEXT NOT NULL,
+     created_at  TEXT NOT NULL
+   )`,
+  `CREATE INDEX IF NOT EXISTS idx_extra_cards_lookup ON extra_cards(course_id, content_key)`,
+  // 生成試行のログ。監査（誰が何を生成/却下したか）とレート制限（1日20語）の分母を兼ねる
+  `CREATE TABLE IF NOT EXISTS word_gen_log (
+     id        INTEGER PRIMARY KEY AUTOINCREMENT,
+     at        TEXT NOT NULL,
+     email     TEXT NOT NULL,
+     course_id TEXT NOT NULL,
+     headword  TEXT NOT NULL,
+     result    TEXT NOT NULL,
+     model     TEXT NOT NULL DEFAULT '',
+     detail    TEXT NOT NULL DEFAULT ''
+   )`,
+  // countTodayGenerations/countTodayReuses の WHERE email=? AND at>=? を全表スキャンにしないため
+  // （security-reviewer 指摘。テーブルが育つほど毎リクエストの読み取り行数と遅延が悪化していた）。
+  // ※ word_gen_log の CREATE TABLE より後に置くこと（CREATE INDEX は対象テーブルが
+  //   既に存在しないと SQLITE_ERROR になる。batch() は配列順に1トランザクションで実行される）。
+  `CREATE INDEX IF NOT EXISTS idx_word_gen_log_rate ON word_gen_log(email, at)`,
+  // 機能全体のキルスイッチ等、小さな設定値の汎用置き場（autonomous-agent-safety の7点セット #6）
+  `CREATE TABLE IF NOT EXISTS app_settings (
+     key   TEXT PRIMARY KEY,
+     value TEXT NOT NULL
+   )`,
 ]
 
 // isolate 内で 1 回だけ流す。CREATE TABLE IF NOT EXISTS なので何度実行しても安全
@@ -246,10 +278,13 @@ export async function markUserRemoved(env: Env, email: string): Promise<void> {
     .run()
 }
 
-/** 名簿と進捗を完全に削除（取り消し不可） */
+/** 名簿と進捗を完全に削除（取り消し不可）。word_gen_log は行動ログ（見出し語検索履歴）を
+ *  含むPIIなので、他のテーブル同様ここで必ず消す（security-reviewer 指摘：新設テーブルの
+ *  追加で「完全削除」の約束が静かに破られていた）。 */
 export async function purgeUser(env: Env, email: string): Promise<void> {
   await env.DB.batch([
     env.DB.prepare(`DELETE FROM course_progress WHERE email = ?1`).bind(email),
+    env.DB.prepare(`DELETE FROM word_gen_log WHERE email = ?1`).bind(email),
     env.DB.prepare(`DELETE FROM users WHERE email = ?1`).bind(email),
   ])
 }

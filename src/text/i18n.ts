@@ -63,6 +63,8 @@ export interface UIStrings {
   /** 「？」ツールチップのラベル（aria-label）と本文。本文は改行区切りの複数段落 */
   meterHelpLabel: string
   meterHelpBody: string[]
+  /** 検索して自分で追加した語の数（分母には混ぜない・メーター横に別枠で添える） */
+  meterAddedCount: (n: number) => string
 
   // ── タブ（CourseScreen.tsx）
   tabStudy: string
@@ -140,6 +142,19 @@ export interface UIStrings {
 
   // ── 文脈クローズ（StudyGrid.tsx・FocusSheet.tsx。cloze/較正コースの昇格カードにだけ出る小ラベル）
   clozeBadge: string
+
+  // ── 単語検索（WordSearch.tsx。タブ行に常設。現在のコース内を横断検索）
+  searchPlaceholder: string
+  searchAria: string
+  searchNoResults: string
+  /** 見つからなかった語を静的プールから追加するボタン（見出し語自体は隣の word-search-word に出るので繰り返さない） */
+  searchAddLabel: string
+  /** 静的プールにも無い語をAI生成するボタン（Phase 3・同上、見出し語は繰り返さない） */
+  searchGenerateLabel: string
+  searchGenerating: string
+  searchGenerateRateLimited: string
+  searchGenerateDisabled: string
+  searchGenerateFailed: string
 
   // ── 単語一覧のフィルター・状態（AllWords.tsx）
   statusNew: string

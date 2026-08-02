@@ -1,0 +1,1262 @@
+[
+ {
+  "id": "en-10-30k-x53db1141",
+  "courseId": "en-10-30k",
+  "headword": "youtube",
+  "reading": "/jˈutjˌub/",
+  "gloss": "ユーチューブ(動画共有サイト)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "YouTube is down.",
+    "translation": "YouTubeが落ちてるんだ。",
+    "cloze": "｟YouTube｠ is down."
+   },
+   {
+    "text": "Tom is a YouTuber.",
+    "translation": "トムってさ、ユーチューバーだよ。",
+    "cloze": "Tom is a ｟YouTuber｠."
+   }
+  ],
+  "frequencyRank": 162,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xb962d57f",
+  "courseId": "en-10-30k",
+  "headword": "yep",
+  "reading": "/jˈɛp/",
+  "gloss": "うん,そう(yesのくだけた言い方)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Yep.",
+    "translation": "うん。",
+    "cloze": "｟＿｠."
+   },
+   {
+    "text": "\"Ah, a raw egg for me!\" \"Is one enough?\" \"Yep, if I need more I'll top it up.\"",
+    "translation": "「あっ。あたし生卵！」「一個でいいですか？」「うん。足りなくなったらまた注ぎ足すから」",
+    "cloze": "\"Ah, a raw egg for me!\" \"Is one enough?\" \"｟＿｠, if I need more I'll top it up.\""
+   }
+  ],
+  "frequencyRank": 423,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x67520712",
+  "courseId": "en-10-30k",
+  "headword": "yea",
+  "reading": "/jˈeɪ/",
+  "gloss": "はい、そう(賛成の返事);(古風)しかり",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "yea",
+    "translation": "ああ",
+    "cloze": "｟＿｠"
+   },
+   {
+    "text": "go to sleep first. yea.",
+    "translation": "先 寝てて... はい",
+    "cloze": "go to sleep first. ｟＿｠."
+   }
+  ],
+  "frequencyRank": 690,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xfad216b4",
+  "courseId": "en-10-30k",
+  "headword": "yoga",
+  "reading": "/jˈoʊɡə/",
+  "gloss": "ヨガ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Yoga can help lower stress.",
+    "translation": "ヨガはストレス軽減に役立つ。",
+    "cloze": "｟＿｠ can help lower stress."
+   },
+   {
+    "text": "okay, yoga break is over. back to work.",
+    "translation": "よし ヨガ休憩終わり また仕事だ",
+    "cloze": "okay, ｟＿｠ break is over. back to work."
+   }
+  ],
+  "frequencyRank": 888,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x6cf798e1",
+  "courseId": "en-10-30k",
+  "headword": "yup",
+  "reading": "/jˈʌp/",
+  "gloss": "うん,そう(yesのくだけた言い方)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Yup! I'm going to give up cigarettes.",
+    "translation": "そう！煙草を止めるつもりです。",
+    "cloze": "｟＿｠! I'm going to give up cigarettes."
+   },
+   {
+    "text": "Yup, it seems like even the doctor was about to throw in the towel.",
+    "translation": "ああ、医者のほうも匙を投げていたらしい。",
+    "cloze": "｟＿｠, it seems like even the doctor was about to throw in the towel."
+   }
+  ],
+  "frequencyRank": 1413,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x4a406645",
+  "courseId": "en-10-30k",
+  "headword": "yell",
+  "reading": "/jˈɛl/",
+  "gloss": "叫ぶ、大声をあげる;叫び声",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Who yelled?",
+    "translation": "誰が叫んだの？",
+    "cloze": "Who ｟＿｠?"
+   },
+   {
+    "text": "Tom yelled.",
+    "translation": "トムは大声で叫んだ。",
+    "cloze": "Tom ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1508,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xf4fc669b",
+  "courseId": "en-10-30k",
+  "headword": "yorkshire",
+  "reading": "/jˈɔɹkʃɚ/",
+  "gloss": "ヨークシャー(イングランド北東部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Roast beef is usually accompanied by Yorkshire pudding.",
+    "translation": "ローストビーフにはたいていヨークシャープディングがついている。",
+    "cloze": "Roast beef is usually accompanied by ｟＿｠ pudding."
+   },
+   {
+    "text": "the first hostage from cornwall, the second from london, the third from yorkshire, judging by her accent.",
+    "translation": "人質はコーンウォールと ロンドン 3人目は訛りから ヨークシャーだ",
+    "cloze": "the first hostage from cornwall, the second from london, the third from ｟＿｠, judging by her accent."
+   }
+  ],
+  "frequencyRank": 1509,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd5ec8d16",
+  "courseId": "en-10-30k",
+  "headword": "yay",
+  "reading": "/jˈeɪ/",
+  "gloss": "やった!、いいね!(喜び・興奮を表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "yay! the pizza's here.",
+    "translation": "やった ピザが来たわ",
+    "cloze": "｟＿｠! the pizza's here."
+   },
+   {
+    "text": "yay! long time no see!",
+    "translation": "久しぶりね",
+    "cloze": "｟＿｠! long time no see!"
+   }
+  ],
+  "frequencyRank": 2200,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xf62a5079",
+  "courseId": "en-10-30k",
+  "headword": "yang",
+  "reading": "/jˈæŋ/",
+  "gloss": "陽(中国思想における陰陽の陽)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Ying Yang diviner may not predict his own fate.",
+    "translation": "陰陽師身の上知らず。",
+    "cloze": "The Ying ｟＿｠ diviner may not predict his own fate."
+   },
+   {
+    "text": "the dao de jing recognizes the yin and the yang... opposing forces inside all of us.",
+    "translation": "「 老子道德經\"では認められてる 陰と陽 私達全員の心の中で 対立する力",
+    "cloze": "the dao de jing recognizes the yin and the ｟＿｠... opposing forces inside all of us."
+   }
+  ],
+  "frequencyRank": 2273,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x634dd09a",
+  "courseId": "en-10-30k",
+  "headword": "yale",
+  "reading": "/jˈeɪl/",
+  "gloss": "エール大学(米国の名門私立大学)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "At that time, she was a student at Yale.",
+    "translation": "その頃彼女はエール大学の学生であった。",
+    "cloze": "At that time, she was a student at ｟＿｠."
+   },
+   {
+    "text": "He graduated from Yale with honors in 1921.",
+    "translation": "彼は１９２１年にエール大学を優等で卒業した。",
+    "cloze": "He graduated from ｟＿｠ with honors in 1921."
+   }
+  ],
+  "frequencyRank": 2481,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x313a0e6f",
+  "courseId": "en-10-30k",
+  "headword": "yearly",
+  "reading": "/jˈɪɹli/",
+  "gloss": "年1回の、毎年の、年間の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I worked on a yearly contract.",
+    "translation": "私は１年契約で働いた。",
+    "cloze": "I worked on a ｟＿｠ contract."
+   },
+   {
+    "text": "Our company holds a yearly meeting in April.",
+    "translation": "私たちの会社は4月に年次会議を開きます。",
+    "cloze": "Our company holds a ｟＿｠ meeting in April.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2482,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x0cfa8960",
+  "courseId": "en-10-30k",
+  "headword": "yemen",
+  "reading": "/jˈɛmən/",
+  "gloss": "イエメン(アラビア半島南西部の国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Yemen is a country in the Middle East.",
+    "translation": "イエメンは中東に位置する一国である。",
+    "cloze": "｟＿｠ is a country in the Middle East."
+   },
+   {
+    "text": "a lot of reporters come to yemen",
+    "translation": "イエメンを訪れる記者は",
+    "cloze": "a lot of reporters come to ｟＿｠"
+   }
+  ],
+  "frequencyRank": 2483,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xef833c71",
+  "courseId": "en-10-30k",
+  "headword": "yahoo",
+  "reading": "/jˈɑhˌu/",
+  "gloss": "無教養な乱暴者(俗;ガリバー旅行記の「ヤフー族」に由来);Yahoo(米国のIT企業)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I use \"Yahoo\" to browse the internet.",
+    "translation": "インターネットの閲覧にYahooを使っている。",
+    "cloze": "I use \"｟＿｠\" to browse the internet."
+   },
+   {
+    "text": "I also, same as you, don't trust Yahoo Auction ratings.",
+    "translation": "あなた同様私もヤフオクの評価が信じられません。",
+    "cloze": "I also, same as you, don't trust ｟＿｠ Auction ratings."
+   }
+  ],
+  "frequencyRank": 2614,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x689e3bfd",
+  "courseId": "en-10-30k",
+  "headword": "yogurt",
+  "reading": "/jˈoʊɡɚt/",
+  "gloss": "ヨーグルト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom hates yogurt.",
+    "translation": "トムはヨーグルトが大っ嫌いなのよ。",
+    "cloze": "Tom hates ｟yogurt｠."
+   },
+   {
+    "text": "Do you like yogurt?",
+    "translation": "ヨーグルトはお好きですか？",
+    "cloze": "Do you like ｟yogurt｠?"
+   }
+  ],
+  "frequencyRank": 4700,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xe10ecc0b",
+  "courseId": "en-10-30k",
+  "headword": "yankee",
+  "reading": "/jˈæŋki/",
+  "gloss": "アメリカ北部出身者;(俗に)アメリカ人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "yo! yankee detective!",
+    "translation": "よっ ヤンキー刑事!",
+    "cloze": "yo! ｟＿｠ detective!"
+   },
+   {
+    "text": "He is a Yankee, born and raised in New England.",
+    "translation": "彼はヤンキー、ニューイングランド生まれ育ちだ。",
+    "cloze": "He is a ｟＿｠, born and raised in New England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5053,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x24ac0f8f",
+  "courseId": "en-10-30k",
+  "headword": "yarn",
+  "reading": "/jˈɑɹn/",
+  "gloss": "(編み物用の)糸,毛糸;(話)ほら話,長話",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "That's just a yarn.",
+    "translation": "それはただの作り話だ。",
+    "cloze": "That's just a ｟＿｠."
+   },
+   {
+    "text": "The baby tangled the ball of yarn.",
+    "translation": "赤ん坊が毛糸の玉をもつれさせた。",
+    "cloze": "The baby tangled the ball of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5054,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xcba5d68e",
+  "courseId": "en-10-30k",
+  "headword": "youthful",
+  "reading": "/jˈuθfəl/",
+  "gloss": "若々しい,若者らしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Though he is old, he has a youthful spirit.",
+    "translation": "彼は年はとっているが気は若い。",
+    "cloze": "Though he is old, he has a ｟＿｠ spirit."
+   },
+   {
+    "text": "now, i'm older, and my youthful looks might belie that",
+    "translation": "私は歳をとっていて 一見若作りですけど",
+    "cloze": "now, i'm older, and my ｟＿｠ looks might belie that"
+   }
+  ],
+  "frequencyRank": 5274,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x542f47af",
+  "courseId": "en-10-30k",
+  "headword": "youngster",
+  "reading": "/jˈʌŋstɚ/",
+  "gloss": "若者、青年、子供",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I began to sing when I was a youngster.",
+    "translation": "まだ幼い時に歌を始めました。",
+    "cloze": "I began to sing when I was a ｟＿｠."
+   },
+   {
+    "text": "The youngster resented being treated as a coward.",
+    "translation": "その若者は臆病者扱いをされて憤慨した。",
+    "cloze": "The ｟＿｠ resented being treated as a coward."
+   }
+  ],
+  "frequencyRank": 5392,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x90212ec6",
+  "courseId": "en-10-30k",
+  "headword": "yummy",
+  "reading": "/jˈʌmi/",
+  "gloss": "(特に食べ物が)おいしい,うまい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Yummy!",
+    "translation": "美味しい！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "It was so yummy.",
+    "translation": "めっちゃ美味しかった。",
+    "cloze": "It was so ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5781,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x1e003b24",
+  "courseId": "en-10-30k",
+  "headword": "yugoslavia",
+  "reading": "/jˌuɡoʊslˈɑviə/",
+  "gloss": "ユーゴスラビア(旧ヨーロッパの連邦国家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Mother Teresa was born in Yugoslavia in 1910.",
+    "translation": "マザー・テレサは１９１０年にユーゴスラビアで生まれた。",
+    "cloze": "Mother Teresa was born in ｟＿｠ in 1910."
+   },
+   {
+    "text": "remember, the beginning of the '90s, yugoslavia is falling apart.",
+    "translation": "90年代初頭 ユーゴスラビアは崩壊寸前でした",
+    "cloze": "remember, the beginning of the '90s, ｟＿｠ is falling apart."
+   }
+  ],
+  "frequencyRank": 6294,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2b102c21",
+  "courseId": "en-10-30k",
+  "headword": "yum",
+  "reading": "/jˈʌm/",
+  "gloss": "うまい!、おいしい!(食べ物のおいしさを表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Yum!",
+    "translation": "うまい！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "mm, yum! i really am a genius.",
+    "translation": "うん うま! やっぱ私天才だわ",
+    "cloze": "mm, ｟＿｠! i really am a genius."
+   }
+  ],
+  "frequencyRank": 6848,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x125b3dde",
+  "courseId": "en-10-30k",
+  "headword": "yikes",
+  "reading": "/jˈaɪks/",
+  "gloss": "うわっ！、げっ！(驚き・困惑を表す)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Yikes!",
+    "translation": "キャー！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "“Yikes, my battery’s nearly dead.” “You should have charged it overnight while you were sleeping.”",
+    "translation": "「やばい、電池切れそう」「寝てる間に充電しとけばよかったのに」",
+    "cloze": "“｟＿｠, my battery’s nearly dead.” “You should have charged it overnight while you were sleeping.”"
+   }
+  ],
+  "frequencyRank": 7142,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x411523b8",
+  "courseId": "en-10-30k",
+  "headword": "yellowstone",
+  "reading": "/jˈɛloʊstˌoʊn/",
+  "gloss": "イエローストーン(米国の国立公園)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "yellowstone national park",
+    "translation": "イエローストーン国立公園",
+    "cloze": "｟＿｠ national park"
+   },
+   {
+    "text": "We visited Yellowstone last summer.",
+    "translation": "私たちは去年の夏イエローストーンを訪れた。",
+    "cloze": "We visited ｟＿｠ last summer.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9677,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x596f3da7",
+  "courseId": "en-10-30k",
+  "headword": "yosemite",
+  "reading": "/joʊsˈɛmɪti/",
+  "gloss": "ヨセミテ(米国の国立公園)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Yosemite National Park is famous for its waterfalls.",
+    "translation": "ヨセミテ国立公園は滝で有名だ。",
+    "cloze": "｟＿｠ National Park is famous for its waterfalls.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9679,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7717c6a9",
+  "courseId": "en-10-30k",
+  "headword": "yelp",
+  "reading": "/jˈɛlp/",
+  "gloss": "(犬などが)キャンキャン鳴く;(人が)悲鳴をあげる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The dog gave a yelp when I trod on its paw.",
+    "translation": "私が足を踏むと犬は鳴いた。",
+    "cloze": "The dog gave a ｟＿｠ when I trod on its paw."
+   },
+   {
+    "text": "did i just yelp? yeah.",
+    "translation": "ビックリした!",
+    "cloze": "did i just ｟＿｠? yeah."
+   }
+  ],
+  "frequencyRank": 10265,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xeffcdcc0",
+  "courseId": "en-10-30k",
+  "headword": "youtubers",
+  "reading": null,
+  "gloss": "ユーチューバー(YouTubeで動画配信する人)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many young people dream of becoming famous YouTubers.",
+    "translation": "多くの若者が有名なユーチューバーになることを夢見ている。",
+    "cloze": "Many young people dream of becoming famous ｟YouTubers｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10838,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x77089324",
+  "courseId": "en-10-30k",
+  "headword": "yukon",
+  "reading": "/jˈukˌɑn/",
+  "gloss": "ユーコン準州(カナダ北西部);ユーコン川",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in the north of siberia and yukon",
+    "translation": "ユーコン準州の一帯が",
+    "cloze": "in the north of siberia and ｟yukon｠"
+   },
+   {
+    "text": "i had picked my yukon gold or yellow finn, or whatever it was",
+    "translation": "ユーコン・ゴールドかイエロー・フィンか何かを選んで",
+    "cloze": "i had picked my ｟yukon｠ gold or yellow finn, or whatever it was"
+   }
+  ],
+  "frequencyRank": 11428,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc4633c5a",
+  "courseId": "en-10-30k",
+  "headword": "ymca",
+  "reading": null,
+  "gloss": "キリスト教青年会(YMCA)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and how i went to a ymca camp, christian camp",
+    "translation": "どうやって ymca キャンプ -- クリスチャンキャンプ -- に行ったのか",
+    "cloze": "and how i went to a ｟ymca｠ camp, christian camp"
+   },
+   {
+    "text": "belongs to the same ymca as car wash rashid.",
+    "translation": "洗車のラシッドと同じymca",
+    "cloze": "belongs to the same ｟ymca｠ as car wash rashid."
+   }
+  ],
+  "frequencyRank": 12006,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x5435973b",
+  "courseId": "en-10-30k",
+  "headword": "youtuber",
+  "reading": null,
+  "gloss": "ユーチューバー(YouTubeで動画配信する人)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She became a popular YouTuber by sharing cooking videos.",
+    "translation": "彼女は料理動画を共有して人気ユーチューバーになった。",
+    "cloze": "She became a popular ｟YouTuber｠ by sharing cooking videos.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12008,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xaefcdaac",
+  "courseId": "en-10-30k",
+  "headword": "yemeni",
+  "reading": "/jˈɛməni/",
+  "gloss": "イエメンの,イエメン人(の)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and then the yemeni military got its act together",
+    "translation": "イエメンの軍隊は それに対して態勢を整え",
+    "cloze": "and then the ｟yemeni｠ military got its act together"
+   },
+   {
+    "text": "Yemeni cuisine is known for its rich spices.",
+    "translation": "イエメン料理は豊かなスパイスで知られている。",
+    "cloze": "｟Yemeni｠ cuisine is known for its rich spices.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12442,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7c243dba",
+  "courseId": "en-10-30k",
+  "headword": "yak",
+  "reading": "/jˈæk/",
+  "gloss": "ヤク(チベットの毛長牛);のべつまくなくしゃべる",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "yak stew.",
+    "translation": "野牛のシチューか",
+    "cloze": "｟yak｠ stew."
+   },
+   {
+    "text": "he feels the way they are harvesting yaks nowadays.",
+    "translation": "この時期にはヤクが毛を刈られているのを感じています。",
+    "cloze": "he feels the way they are harvesting ｟yaks｠ nowadays."
+   }
+  ],
+  "frequencyRank": 12847,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xd586d504",
+  "courseId": "en-10-30k",
+  "headword": "yoruba",
+  "reading": "/jəɹˈubə/",
+  "gloss": "ヨルバ人;ヨルバ語(ナイジェリアなどの民族・言語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "gbe'borun is a yoruba phrase",
+    "translation": "ヨルバ族の言葉で",
+    "cloze": "gbe'borun is a ｟＿｠ phrase"
+   },
+   {
+    "text": "was told about igbo, yoruba and hausa",
+    "translation": "イボ ヨルバ そしてハウサ族のうち",
+    "cloze": "was told about igbo, ｟＿｠ and hausa"
+   }
+  ],
+  "frequencyRank": 13046,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc826ff99",
+  "courseId": "en-10-30k",
+  "headword": "yoke",
+  "reading": "/jˈoʊk/",
+  "gloss": "くびき(2頭の牛をつなぐ器具);束縛、支配",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Yoke the oxen to the plow.",
+    "translation": "牛にくびきをかけすきにつなぎなさい。",
+    "cloze": "｟＿｠ the oxen to the plow."
+   },
+   {
+    "text": "They were under the yoke of a tyrant.",
+    "translation": "彼らは暴君の支配下にあった。",
+    "cloze": "They were under the ｟＿｠ of a tyrant."
+   }
+  ],
+  "frequencyRank": 13562,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xc0de92e1",
+  "courseId": "en-10-30k",
+  "headword": "yawn",
+  "reading": "/jˈɔn/",
+  "gloss": "あくびをする;あくび",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I yawned.",
+    "translation": "あくびをした。",
+    "cloze": "I ｟yawned｠."
+   },
+   {
+    "text": "Tom is yawning.",
+    "translation": "トムはあくびをしている。",
+    "cloze": "Tom is ｟yawning｠."
+   }
+  ],
+  "frequencyRank": 14017,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xa69bbcc0",
+  "courseId": "en-10-30k",
+  "headword": "yiddish",
+  "reading": "/jˈɪdɪʃ/",
+  "gloss": "イディッシュ語(ドイツ語系ユダヤ人の言語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Yiddish isn't German.",
+    "translation": "イディッシュ語はドイツ語ではありません。",
+    "cloze": "｟Yiddish｠ isn't German."
+   },
+   {
+    "text": "My children can't speak Yiddish.",
+    "translation": "うちの子は、イディッシュ語は話せませんよ。",
+    "cloze": "My children can't speak ｟Yiddish｠."
+   }
+  ],
+  "frequencyRank": 14018,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x74cf0f61",
+  "courseId": "en-10-30k",
+  "headword": "yakuza",
+  "reading": null,
+  "gloss": "ヤクザ(日本の暴力団,暴力団員)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "\"Gang Wives\" is a Yakuza movie released in 1986 by Toei Distribution Network.",
+    "translation": "『極道の妻たち』は、1986年、東映配給網により公開されたヤクザ映画。",
+    "cloze": "\"Gang Wives\" is a ｟＿｠ movie released in 1986 by Toei Distribution Network."
+   },
+   {
+    "text": "he's way more like a yakuza than any of our yakuzas!",
+    "translation": "つーかむしろヤクザよりも凄みが",
+    "cloze": "he's way more like a ｟＿｠ than any of our yakuzas!"
+   }
+  ],
+  "frequencyRank": 14286,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x74408106",
+  "courseId": "en-10-30k",
+  "headword": "yuck",
+  "reading": "/jˈʌk/",
+  "gloss": "うえっ(嫌悪を表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Yuck!",
+    "translation": "うぇっ！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "Yuck, there's a hair floating in the soup.",
+    "translation": "オェッ、スープの中に髪の毛が浮いてるよ。",
+    "cloze": "｟＿｠, there's a hair floating in the soup."
+   }
+  ],
+  "frequencyRank": 14287,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x1b647a92",
+  "courseId": "en-10-30k",
+  "headword": "yokohama",
+  "reading": "/jˌoʊkəhˈɑmə/",
+  "gloss": "横浜(日本の都市、神奈川県)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I live in Yokohama.",
+    "translation": "私は横浜に住んでいる。",
+    "cloze": "I live in ｟＿｠."
+   },
+   {
+    "text": "She lives in Yokohama.",
+    "translation": "彼女は横浜に住んでいる。",
+    "cloze": "She lives in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14500,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x13288288",
+  "courseId": "en-10-30k",
+  "headword": "yolk",
+  "reading": "/jˈoʊk/",
+  "gloss": "(卵の)黄身、卵黄",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love egg yolks.",
+    "translation": "黄身が大好きなのよ。",
+    "cloze": "I love egg ｟＿｠."
+   },
+   {
+    "text": "My daughter likes egg yolks.",
+    "translation": "私の娘は卵の黄身が好きです。",
+    "cloze": "My daughter likes egg ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14753,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xf313e210",
+  "courseId": "en-10-30k",
+  "headword": "yangon",
+  "reading": null,
+  "gloss": "ヤンゴン(ミャンマー最大の都市,旧首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Yangon is the largest city in Myanmar.",
+    "translation": "ヤンゴンはミャンマー最大の都市です。",
+    "cloze": "｟Yangon｠ is the largest city in Myanmar.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15023,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x55904aea",
+  "courseId": "en-10-30k",
+  "headword": "yank",
+  "reading": "/jˈæŋk/",
+  "gloss": "…をぐいと引っ張る",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Mother yanked the bedclothes off Hiroshi.",
+    "translation": "母はひろしの夜具をぐいと引き剥がした。",
+    "cloze": "Mother ｟yanked｠ the bedclothes off Hiroshi."
+   },
+   {
+    "text": "yes. he yanks my arm hard, almost broke it. and what did you do?",
+    "translation": "はい 腕を強く掴まれ 骨折する所でした",
+    "cloze": "yes. he ｟yanks｠ my arm hard, almost broke it. and what did you do?"
+   }
+  ],
+  "frequencyRank": 15024,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xad880f66",
+  "courseId": "en-10-30k",
+  "headword": "yoghurt",
+  "reading": null,
+  "gloss": "ヨーグルト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I ate the yoghurt.",
+    "translation": "ヨーグルト、食べちゃった。",
+    "cloze": "I ate the ｟yoghurt｠."
+   },
+   {
+    "text": "There's yoghurt in the fridge.",
+    "translation": "冷蔵庫にヨーグルトが入ってるよ。",
+    "cloze": "There's ｟yoghurt｠ in the fridge."
+   }
+  ],
+  "frequencyRank": 15507,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x12512b1d",
+  "courseId": "en-10-30k",
+  "headword": "yahweh",
+  "reading": "/jˈɑwˌɛ/",
+  "gloss": "ヤハウェ,エホバ(聖書における神の名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "as does yahweh as does jesus christ.",
+    "translation": "イエス・キリストやエホバのように",
+    "cloze": "as does ｟＿｠ as does jesus christ."
+   },
+   {
+    "text": "yahweh and help your children... to stand together as one.",
+    "translation": "エホバよ 子どもたちを助けてください... 一つになるときだ",
+    "cloze": "｟＿｠ and help your children... to stand together as one."
+   }
+  ],
+  "frequencyRank": 16537,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x4d9ca2bf",
+  "courseId": "en-10-30k",
+  "headword": "yolo",
+  "reading": "/jˈoʊlˌoʊ/",
+  "gloss": "「人生は一度きり」(You Only Live Onceの略、ネットスラング)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "It's YOLO, you only live once.",
+    "translation": "「YOLO 人生は一度きり」だと思います。",
+    "cloze": "It's ｟＿｠, you only live once."
+   },
+   {
+    "text": "She quit her job and traveled the world — YOLO, she said.",
+    "translation": "彼女は仕事を辞めて世界を旅した。「人生は一度きりだから」と言って。",
+    "cloze": "She quit her job and traveled the world — ｟＿｠, she said.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17059,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xf4c06d52",
+  "courseId": "en-10-30k",
+  "headword": "yap",
+  "reading": "/jˈæp/",
+  "gloss": "(犬が)キャンキャンほえる;《俗》やかましくしゃべる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "It makes sounds similar to a fox yapping.",
+    "translation": "それはキツネのキャンキャン鳴く声のように鳴く。",
+    "cloze": "It makes sounds similar to a fox ｟yapping｠."
+   },
+   {
+    "text": "stop yapping.",
+    "translation": "キャンキャンほえるな",
+    "cloze": "stop ｟yapping｠."
+   }
+  ],
+  "frequencyRank": 17328,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x35435677",
+  "courseId": "en-10-30k",
+  "headword": "yunnan",
+  "reading": null,
+  "gloss": "雲南(中国南西部の省;雲南茶などで知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "from yunnan.",
+    "translation": "雲南省",
+    "cloze": "from ｟＿｠."
+   },
+   {
+    "text": "one yunnan tea.",
+    "translation": "雲南茶でございます",
+    "cloze": "one ｟＿｠ tea."
+   }
+  ],
+  "frequencyRank": 17942,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1a0b4148",
+  "courseId": "en-10-30k",
+  "headword": "yamato",
+  "reading": "/jɑmˈɑtoʊ/",
+  "gloss": "大和(古代日本の呼称;戦艦大和やアニメ「宇宙戦艦ヤマト」でも知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Yamato-kotoba is the language that has been used in Japan since ancient times, and whilst it has some phrases that can be easily translated into foreign language, there are also those that are difficult.",
+    "translation": "大和言葉は、日本で昔から使われてきた言葉で、外国語に翻訳し易いものもあれば、し難いものもあります。",
+    "cloze": "｟＿｠-kotoba is the language that has been used in Japan since ancient times, and whilst it has some phrases that can be easily translated into foreign language, there are also those that are difficult."
+   },
+   {
+    "text": "The battleship Yamato was the largest warship ever built by the Imperial Japanese Navy.",
+    "translation": "戦艦大和は大日本帝国海軍が建造した史上最大の軍艦だった。",
+    "cloze": "The battleship ｟＿｠ was the largest warship ever built by the Imperial Japanese Navy.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20603,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4c5d08e4",
+  "courseId": "en-10-30k",
+  "headword": "yorktown",
+  "reading": "/jˈɔɹktˌaʊn/",
+  "gloss": "ヨークタウン(米独立戦争の激戦地/第二次大戦の空母名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we found the bismarck in 16,000 feet. we then found the yorktown.",
+    "translation": "5300メートルで戦艦ビスマルクを見つけました ヨークタウンも",
+    "cloze": "we found the bismarck in 16,000 feet. we then found the ｟＿｠."
+   },
+   {
+    "text": "it said yorktown on the stern.",
+    "translation": "船尾に「ヨークタウン」と書いてありました",
+    "cloze": "it said ｟＿｠ on the stern."
+   }
+  ],
+  "frequencyRank": 22498,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9d59d2f5",
+  "courseId": "en-10-30k",
+  "headword": "ypres",
+  "reading": null,
+  "gloss": "イーペル（ベルギーの都市;第一次大戦の激戦地）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Battles of Ypres were fought during World War I.",
+    "translation": "イーペルの戦いは第一次世界大戦中に行われた。",
+    "cloze": "The Battles of ｟＿｠ were fought during World War I.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23172,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x46e3304b",
+  "courseId": "en-10-30k",
+  "headword": "yas",
+  "reading": null,
+  "gloss": "「イエーイ」「わーい」(強い興奮・称賛を表すスラングの間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Yas, we did it!",
+    "translation": "やったー、成功した!",
+    "cloze": "｟＿｠, we did it!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23792,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xff396b11",
+  "courseId": "en-10-30k",
+  "headword": "yule",
+  "reading": "/jˈul/",
+  "gloss": "クリスマス(の季節)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the yule log is...",
+    "translation": "\"クリスマスの丸太\"といわれて...",
+    "cloze": "the ｟＿｠ log is..."
+   },
+   {
+    "text": "Yule is celebrated near the winter solstice.",
+    "translation": "ユール(冬至祭)は冬至の頃に祝われる。",
+    "cloze": "｟＿｠ is celebrated near the winter solstice.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24466,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xa4c63aea",
+  "courseId": "en-10-30k",
+  "headword": "yangtze",
+  "reading": "/jˈæŋktsˈi/",
+  "gloss": "揚子江(長江)、中国最長の川",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "from the distant moonlit shores of the yangtze river, we present, for your pleasure, the deadly chinese bird spider.",
+    "translation": "月明かりの照らす 揚子江の河岸から来ました 出し物を お楽しみ下さい 危険な中国の 大土蜘蛛です",
+    "cloze": "from the distant moonlit shores of the ｟＿｠ river, we present, for your pleasure, the deadly chinese bird spider."
+   },
+   {
+    "text": "jingzhou is the heartland of the yangtze and a most valuable strategic location",
+    "translation": "荊州は揚子江の中心地です そして 最も価値のある要衝です",
+    "cloze": "jingzhou is the heartland of the ｟＿｠ and a most valuable strategic location"
+   }
+  ],
+  "frequencyRank": 24812,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x887c1def",
+  "courseId": "en-10-30k",
+  "headword": "yerevan",
+  "reading": "/jˈɛɹəvən/",
+  "gloss": "エレバン(アルメニアの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Yerevan is the capital of Armenia.",
+    "translation": "エレバンはアルメニアの首都です。",
+    "cloze": "｟＿｠ is the capital of Armenia.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We flew into Yerevan late at night.",
+    "translation": "私たちは夜遅くエレバンに到着した。",
+    "cloze": "We flew into ｟＿｠ late at night.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24813,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd1fbfd97",
+  "courseId": "en-10-30k",
+  "headword": "yada",
+  "reading": null,
+  "gloss": "など、うんぬん(繰り返し・省略を表す口語表現)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "fake updates, yada yada yada.",
+    "translation": "偽の更新 などなど",
+    "cloze": "fake updates, ｟＿｠."
+   },
+   {
+    "text": "Just tell me the important part, skip the yada yada.",
+    "translation": "重要な部分だけ話して、細かいことは省いて。",
+    "cloze": "Just tell me the important part, skip the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25212,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x4354efb1",
+  "courseId": "en-10-30k",
+  "headword": "yardstick",
+  "reading": "/jˈɑɹdstˌɪk/",
+  "gloss": "ヤード尺;(判断・比較の)基準、尺度",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "As yardsticks to measure the effectiveness of information retrieval there exist those called 'recall ratio' and 'precision ratio'.",
+    "translation": "情報検索の効率を測る尺度として、再現率と適合率というものがある。",
+    "cloze": "As ｟＿｠ to measure the effectiveness of information retrieval there exist those called 'recall ratio' and 'precision ratio'."
+   },
+   {
+    "text": "you can use yardstick competition",
+    "translation": "ヤードスティック競争によって",
+    "cloze": "you can use ｟＿｠ competition"
+   }
+  ],
+  "frequencyRank": 25213,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xef032dee",
+  "courseId": "en-10-30k",
+  "headword": "youngblood",
+  "reading": "/jˈʌŋblˌʌd/",
+  "gloss": "新人、若手；経験の浅い新参者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The coach gave the youngblood a chance to start tonight's game.",
+    "translation": "コーチは今夜の試合でその若手選手にスタメンのチャンスを与えた。",
+    "cloze": "The coach gave the ｟＿｠ a chance to start tonight's game.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28818,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x44deb6b6",
+  "courseId": "en-10-30k",
+  "headword": "yucatan",
+  "reading": "/jˈukətˌæn/",
+  "gloss": "ユカタン半島(メキシコ南東部、マヤ文明の地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "yucatan peninsula, if you recognize cozumel",
+    "translation": "ユカタン半島です コスメル島は",
+    "cloze": "｟＿｠ peninsula, if you recognize cozumel"
+   },
+   {
+    "text": "such as the classic maya in the yucatan, the easter islanders",
+    "translation": "例えば古代マヤ文明やユカタン州、イースター島",
+    "cloze": "such as the classic maya in the ｟＿｠, the easter islanders"
+   }
+  ],
+  "frequencyRank": 28819,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8a4491bd",
+  "courseId": "en-10-30k",
+  "headword": "yoyo",
+  "reading": "/jˈoʊjoʊ/",
+  "gloss": "ヨーヨー(糸の先の玉を上下させて遊ぶおもちゃ)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The child played with a yoyo in the park.",
+    "translation": "その子は公園でヨーヨーで遊んだ。",
+    "cloze": "The child played with a ｟yoyo｠ in the park.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He can do amazing tricks with his yoyo.",
+    "translation": "彼はヨーヨーですごい技ができる。",
+    "cloze": "He can do amazing tricks with his ｟yoyo｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29252,
+  "category": "activities"
+ }
+]

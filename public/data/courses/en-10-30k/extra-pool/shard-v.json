@@ -1,0 +1,2792 @@
+[
+ {
+  "id": "en-10-30k-x580d9970",
+  "courseId": "en-10-30k",
+  "headword": "virginia",
+  "reading": "/vɚdʒˈɪnjə/",
+  "gloss": "バージニア州(米国東部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "They decided to settle down in Virginia that year.",
+    "translation": "その年彼らはバージニアに定住することを決めた。",
+    "cloze": "They decided to settle down in ｟Virginia｠ that year."
+   },
+   {
+    "text": "They seized him and took him to Fort Monroe, Virginia.",
+    "translation": "彼らは彼を捕え、バージニアのモンロー砦に連行した。",
+    "cloze": "They seized him and took him to Fort Monroe, ｟Virginia｠."
+   }
+  ],
+  "frequencyRank": 182,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb416de5c",
+  "courseId": "en-10-30k",
+  "headword": "victoria",
+  "reading": "/vɪktˈɔɹiə/",
+  "gloss": "ビクトリア女王;ビクトリア湖;オーストラリア南東部の州",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Queen Victoria was the sovereign of Great Britain.",
+    "translation": "ビクトリア女王は英国の君主だった。",
+    "cloze": "Queen ｟Victoria｠ was the sovereign of Great Britain."
+   },
+   {
+    "text": "I went to Victoria Station, where I saw an old friend of mine.",
+    "translation": "私はビクトリア駅へ行った。そしてそこで旧友に会った。",
+    "cloze": "I went to ｟Victoria｠ Station, where I saw an old friend of mine."
+   }
+  ],
+  "frequencyRank": 332,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5108b40c",
+  "courseId": "en-10-30k",
+  "headword": "vegas",
+  "reading": "/vˈeɪɡəs/",
+  "gloss": "ベガス(ラスベガスの略称、米国ネバダ州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom went to Vegas.",
+    "translation": "トムならラスベガスに行ったよ。",
+    "cloze": "Tom went to ｟Vegas｠."
+   },
+   {
+    "text": "I really enjoyed betting in Las Vegas.",
+    "translation": "ラスベガスの賭け事は本当に楽しかった。",
+    "cloze": "I really enjoyed betting in Las ｟Vegas｠."
+   }
+  ],
+  "frequencyRank": 366,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x685e4b55",
+  "courseId": "en-10-30k",
+  "headword": "vol",
+  "reading": null,
+  "gloss": "巻,第~巻(volumeの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I bought vol. 2 of the manga.",
+    "translation": "その漫画の第2巻を買った。",
+    "cloze": "I bought ｟＿｠. 2 of the manga.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Vol. 3 of the series comes out next month.",
+    "translation": "そのシリーズの第3巻は来月発売される。",
+    "cloze": "｟＿｠. 3 of the series comes out next month.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 382,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x79f88640",
+  "courseId": "en-10-30k",
+  "headword": "vacation",
+  "reading": "/veɪkˈeɪʃən/",
+  "gloss": "休暇,休み",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm on vacation.",
+    "translation": "私は今休暇を取っています。",
+    "cloze": "I'm on ｟＿｠."
+   },
+   {
+    "text": "Enjoy your vacation.",
+    "translation": "休暇を楽しんでね。",
+    "cloze": "Enjoy your ｟＿｠."
+   }
+  ],
+  "frequencyRank": 403,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x200fe98a",
+  "courseId": "en-10-30k",
+  "headword": "vietnam",
+  "reading": "/viˌɛtnˈɑm/",
+  "gloss": "ベトナム(国名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "My father died in Vietnam.",
+    "translation": "僕のお父さんはベトナムで死んだ。",
+    "cloze": "My father died in ｟＿｠."
+   },
+   {
+    "text": "He died fighting in the Vietnam War.",
+    "translation": "彼はベトナム戦争で戦死した。",
+    "cloze": "He died fighting in the ｟＿｠ War."
+   }
+  ],
+  "frequencyRank": 576,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe498fbb1",
+  "courseId": "en-10-30k",
+  "headword": "viewer",
+  "reading": "/vjˈuɚ/",
+  "gloss": "視聴者、観客；見物人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Television viewers see only what the camera shows.",
+    "translation": "テレビ観戦者はカメラが捕らえるものしか見られない。",
+    "cloze": "Television ｟＿｠ see only what the camera shows."
+   },
+   {
+    "text": "The city of Mito was crowded with blossom viewers.",
+    "translation": "水戸市は花見客でいっぱいだった。",
+    "cloze": "The city of Mito was crowded with blossom ｟＿｠."
+   }
+  ],
+  "frequencyRank": 828,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf0458f78",
+  "courseId": "en-10-30k",
+  "headword": "villa",
+  "reading": "/vˈɪlə/",
+  "gloss": "別荘",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Who owns this villa?",
+    "translation": "この別荘の持ち主は誰ですか。",
+    "cloze": "Who owns this ｟＿｠?"
+   },
+   {
+    "text": "Her villa sits on the hill.",
+    "translation": "彼女の別荘は丘の上にあります。",
+    "cloze": "Her ｟＿｠ sits on the hill."
+   }
+  ],
+  "frequencyRank": 885,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xcbffbe61",
+  "courseId": "en-10-30k",
+  "headword": "vintage",
+  "reading": "/vˈɪntɪdʒ/",
+  "gloss": "(車・衣類などが)年代物の、由緒ある、上質の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Is this a vintage car?",
+    "translation": "旧車ですか。",
+    "cloze": "Is this a ｟vintage｠ car?"
+   },
+   {
+    "text": "is that vintage?",
+    "translation": "ビンテージかな?",
+    "cloze": "is that ｟vintage｠?"
+   }
+  ],
+  "frequencyRank": 960,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xbe6010dc",
+  "courseId": "en-10-30k",
+  "headword": "vancouver",
+  "reading": "/vænkˈuvɚ/",
+  "gloss": "バンクーバー(カナダの都市);バンクーバー島",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This ship is bound for Vancouver.",
+    "translation": "この船はバンクーバー行きである。",
+    "cloze": "This ship is bound for ｟Vancouver｠."
+   },
+   {
+    "text": "I'd like to reserve a flight to Vancouver.",
+    "translation": "バンクーバーまでのフライトを予約したいのですが。",
+    "cloze": "I'd like to reserve a flight to ｟Vancouver｠."
+   }
+  ],
+  "frequencyRank": 1038,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf4eec712",
+  "courseId": "en-10-30k",
+  "headword": "vocal",
+  "reading": "/vˈoʊkəl/",
+  "gloss": "声の,音声の;口頭の;遠慮なくしゃべる",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Do fish have vocal cords?",
+    "translation": "魚に声帯はありますか？",
+    "cloze": "Do fish have ｟vocal｠ cords?"
+   },
+   {
+    "text": "Public feeling against air pollution has at last become vocal.",
+    "translation": "大気汚染に対しての世論がついにやかましくなった。",
+    "cloze": "Public feeling against air pollution has at last become ｟vocal｠."
+   }
+  ],
+  "frequencyRank": 1039,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xd00915a6",
+  "courseId": "en-10-30k",
+  "headword": "victorian",
+  "reading": "/vɪktˈɔɹiən/",
+  "gloss": "ビクトリア女王時代の、ビクトリア朝の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The apartment was furnished in the Victorian style.",
+    "translation": "そのアパートはビクトリア朝風の家具を揃えてあった。",
+    "cloze": "The apartment was furnished in the ｟＿｠ style."
+   },
+   {
+    "text": "Victorian houses often have detailed wooden decorations.",
+    "translation": "ビクトリア朝様式の家にはしばしば手の込んだ木製装飾がある。",
+    "cloze": "｟＿｠ houses often have detailed wooden decorations.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1173,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x6d8bb0ce",
+  "courseId": "en-10-30k",
+  "headword": "vacuum",
+  "reading": "/vˈækjum/",
+  "gloss": "真空、空所;電気掃除機;掃除機をかける",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I need to vacuum.",
+    "translation": "掃除機かけなきゃ。",
+    "cloze": "I need to ｟＿｠."
+   },
+   {
+    "text": "Nature abhors a vacuum.",
+    "translation": "自然は真空を嫌う。",
+    "cloze": "Nature abhors a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1287,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xef8f3881",
+  "courseId": "en-10-30k",
+  "headword": "viral",
+  "reading": "/vˈaɪɹəl/",
+  "gloss": "ウイルスの、ウイルス性の;(俗)バズっている",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Which is the simplest method to go viral on TikTok?",
+    "translation": "ＴｉｋＴｏｋでバズる方法としては、どれが一番簡単ですか。",
+    "cloze": "Which is the simplest method to go ｟＿｠ on TikTok?"
+   },
+   {
+    "text": "Many people don't realize that antibiotics are ineffective against viral diseases.",
+    "translation": "抗生物質がウイルス性疾患に対して効果がないということはあまり知られていない。",
+    "cloze": "Many people don't realize that antibiotics are ineffective against ｟＿｠ diseases."
+   }
+  ],
+  "frequencyRank": 1333,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x310645b9",
+  "courseId": "en-10-30k",
+  "headword": "vampire",
+  "reading": "/vˈæmpaɪɹ/",
+  "gloss": "吸血鬼",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Are vampires real?",
+    "translation": "吸血鬼は本当にいるの？",
+    "cloze": "Are ｟＿｠s real?"
+   },
+   {
+    "text": "Vampires like darkness.",
+    "translation": "吸血鬼は暗闇が好きなんだよ。",
+    "cloze": "｟＿｠s like darkness."
+   }
+  ],
+  "frequencyRank": 1556,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x43533e53",
+  "courseId": "en-10-30k",
+  "headword": "vaccine",
+  "reading": "/vˌæksˈin/",
+  "gloss": "ワクチン;痘苗",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I haven't had the COVID vaccine.",
+    "translation": "コロナワクチンは打ってないです。",
+    "cloze": "I haven't had the COVID ｟＿｠."
+   },
+   {
+    "text": "I will not take the Corona vaccine.",
+    "translation": "コロナワクチンは受けないよ。",
+    "cloze": "I will not take the Corona ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1711,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xce3f36c5",
+  "courseId": "en-10-30k",
+  "headword": "vienna",
+  "reading": "/viˈɛnə/",
+  "gloss": "ウィーン(オーストリアの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Vienna is a beautiful city.",
+    "translation": "ウィーンは美しい都市だ。",
+    "cloze": "｟＿｠ is a beautiful city."
+   },
+   {
+    "text": "She disapproved of my trip to Vienna.",
+    "translation": "彼女は私がウィーンへ行くことに難色を示した。",
+    "cloze": "She disapproved of my trip to ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1822,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc8be99e9",
+  "courseId": "en-10-30k",
+  "headword": "venezuela",
+  "reading": "/vˌɛnɪzwˈeɪlə/",
+  "gloss": "ベネズエラ(南米北部の共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "why would she leave this one book out in this box along with, uh, a map of new york, a travel guide to venezuela, a compass and an unopened box of crackers?",
+    "translation": "なぜ彼女が この本を箱に入れて ニューヨークの地図や ベネズエラの旅行ガイド コンパス",
+    "cloze": "why would she leave this one book out in this box along with, uh, a map of new york, a travel guide to ｟＿｠, a compass and an unopened box of crackers?"
+   },
+   {
+    "text": "syria, venezuela, north korea.",
+    "translation": "シリア ベネズエラ 北朝鮮",
+    "cloze": "syria, ｟＿｠, north korea."
+   }
+  ],
+  "frequencyRank": 2138,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd540d860",
+  "courseId": "en-10-30k",
+  "headword": "venice",
+  "reading": "/vˈɛnəs/",
+  "gloss": "ベニス、ヴェネツィア(イタリア北東部の港市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Did you go to Venice?",
+    "translation": "あなたはベネチアへ行ってしまったの？",
+    "cloze": "Did you go to ｟＿｠?"
+   },
+   {
+    "text": "Venice is a city on water.",
+    "translation": "ヴェネツィアは水の都です。",
+    "cloze": "｟＿｠ is a city on water."
+   }
+  ],
+  "frequencyRank": 2139,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6e6c5618",
+  "courseId": "en-10-30k",
+  "headword": "vet",
+  "reading": "/vˈɛt/",
+  "gloss": "獣医;念入りに調べる",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My brother is a vet.",
+    "translation": "兄は獣医なんです。",
+    "cloze": "My brother is a ｟＿｠."
+   },
+   {
+    "text": "As a kid, Tom dreamt of being a vet.",
+    "translation": "トムは子どもの頃、獣医になるのが夢だった。",
+    "cloze": "As a kid, Tom dreamt of being a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2352,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xc5cf6ff0",
+  "courseId": "en-10-30k",
+  "headword": "voyage",
+  "reading": "/vˈɔɪədʒ/",
+  "gloss": "航海,船旅;空の旅",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They went on a voyage.",
+    "translation": "彼らは航海に出た。",
+    "cloze": "They went on a ｟＿｠."
+   },
+   {
+    "text": "I wish you a pleasant voyage.",
+    "translation": "楽しい旅行でありますように。",
+    "cloze": "I wish you a pleasant ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2416,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x5910cb39",
+  "courseId": "en-10-30k",
+  "headword": "vietnamese",
+  "reading": "/viˌɛtnɑmˈis/",
+  "gloss": "ベトナムの；ベトナム人；ベトナム語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "So you know Vietnamese. Cool!",
+    "translation": "ベトナム語が分かるんですね。いいですね。",
+    "cloze": "So you know ｟＿｠. Cool!"
+   },
+   {
+    "text": "Banh Mi are Vietnamese sandwiches.",
+    "translation": "バインミーはベトナムのサンドイッチだ。",
+    "cloze": "Banh Mi are ｟＿｠ sandwiches."
+   }
+  ],
+  "frequencyRank": 2676,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb2d92628",
+  "courseId": "en-10-30k",
+  "headword": "volleyball",
+  "reading": "/vˈɑlibˌɔl/",
+  "gloss": "バレーボール",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Let's play volleyball.",
+    "translation": "バレーボールをしよう。",
+    "cloze": "Let's play ｟＿｠."
+   },
+   {
+    "text": "I play volleyball a lot.",
+    "translation": "バレーボールをよくやります。",
+    "cloze": "I play ｟＿｠ a lot."
+   }
+  ],
+  "frequencyRank": 2677,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xf07654d1",
+  "courseId": "en-10-30k",
+  "headword": "vanilla",
+  "reading": "/vənˈɪlə/",
+  "gloss": "バニラ(香料);熱帯産のラン科のつる植物",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Two vanilla ice creams, please.",
+    "translation": "バニラアイスクリームを二つ下さい。",
+    "cloze": "Two ｟vanilla｠ ice creams, please."
+   },
+   {
+    "text": "\"Why don't we order some vanilla ice cream and split half?\" \"Sounds good!\"",
+    "translation": "「バニラアイス頼んで半分こしない？」「いいね！」",
+    "cloze": "\"Why don't we order some ｟vanilla｠ ice cream and split half?\" \"Sounds good!\""
+   }
+  ],
+  "frequencyRank": 2744,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x8321d270",
+  "courseId": "en-10-30k",
+  "headword": "vermont",
+  "reading": "/vɚmˈɑnt/",
+  "gloss": "バーモント州(米国北東部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and here's a solar park in vermont with real data",
+    "translation": "バーモント州にあるソーラーパークの実際の値では",
+    "cloze": "and here's a solar park in ｟vermont｠ with real data"
+   },
+   {
+    "text": "no, he was skiing in vermont. it was just during world war ii.",
+    "translation": "戦時中にバーモントで スキーをしてたんだ",
+    "cloze": "no, he was skiing in ｟vermont｠. it was just during world war ii."
+   }
+  ],
+  "frequencyRank": 2745,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x19315e9a",
+  "courseId": "en-10-30k",
+  "headword": "vii",
+  "reading": null,
+  "gloss": "ローマ数字の7;人名の後に付けて「7世」を表す(例:Henry VII ヘンリー7世)",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "King Henry VII ruled England.",
+    "translation": "ヘンリー7世はイングランドを統治した。",
+    "cloze": "King Henry ｟VII｠ ruled England.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Chapter VII begins on page fifty.",
+    "translation": "第7章は50ページから始まる。",
+    "cloze": "Chapter ｟VII｠ begins on page fifty.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2747,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xd65c4993",
+  "courseId": "en-10-30k",
+  "headword": "violet",
+  "reading": "/vˈaɪəlɪt/",
+  "gloss": "スミレ;すみれ色(の)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's a violet.",
+    "translation": "スミレだよ。",
+    "cloze": "It's a ｟violet｠."
+   },
+   {
+    "text": "This is a variety of violet.",
+    "translation": "これはスミレの一種です。",
+    "cloze": "This is a variety of ｟violet｠."
+   }
+  ],
+  "frequencyRank": 2748,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x7f027950",
+  "courseId": "en-10-30k",
+  "headword": "vikings",
+  "reading": "/vˈaɪkɪŋz/",
+  "gloss": "バイキング(中世北欧の航海民・海賊)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "They say that the Vikings discovered America before Columbus.",
+    "translation": "バイキングのほうがコロンブスより先にアメリカを発見したと言われている。",
+    "cloze": "They say that the ｟Vikings｠ discovered America before Columbus."
+   },
+   {
+    "text": "It is said that the Vikings preceded Columbus in discovering America.",
+    "translation": "バイキングのほうがコロンブスより先にアメリカを発見したと言われている。",
+    "cloze": "It is said that the ｟Vikings｠ preceded Columbus in discovering America."
+   }
+  ],
+  "frequencyRank": 2820,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x954ceb4c",
+  "courseId": "en-10-30k",
+  "headword": "venus",
+  "reading": "/vˈinəs/",
+  "gloss": "金星;ビーナス(ローマ神話の愛と美の女神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Look at Venus!",
+    "translation": "金星を見てくれ。",
+    "cloze": "Look at ｟＿｠!"
+   },
+   {
+    "text": "Venus has no moons.",
+    "translation": "金星は月がない。",
+    "cloze": "｟＿｠ has no moons."
+   }
+  ],
+  "frequencyRank": 2970,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x817dd18c",
+  "courseId": "en-10-30k",
+  "headword": "vatican",
+  "reading": "/vˈætɪkən/",
+  "gloss": "バチカン(市国)、ローマ教皇庁",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Sistine Chapel is a vast chapel built inside the Vatican Palace in 1473.",
+    "translation": "システィナ礼拝堂は、１４７３年にバティカン宮殿内に建立された壮大な礼拝堂です。",
+    "cloze": "The Sistine Chapel is a vast chapel built inside the ｟＿｠ Palace in 1473."
+   },
+   {
+    "text": "the japanese branch is connected to the vatican headquarters, isn't it?",
+    "translation": "ヴァチカン本部と つながってますよね?",
+    "cloze": "the japanese branch is connected to the ｟＿｠ headquarters, isn't it?"
+   }
+  ],
+  "frequencyRank": 3135,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc689aa39",
+  "courseId": "en-10-30k",
+  "headword": "valentine",
+  "reading": "/vˈæləntˌaɪn/",
+  "gloss": "バレンタインカード;《Valentine》バレンタインデーの恋人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i took a more conceptual approach to the valentine.",
+    "translation": "もっと概念的なアプローチを取りました",
+    "cloze": "i took a more conceptual approach to the ｟＿｠."
+   },
+   {
+    "text": "maekawa sensei gave richard valentine chocolate.",
+    "translation": "リチャードにバレンタインのチョコレート渡したって噂があるんだよ。",
+    "cloze": "maekawa sensei gave richard ｟＿｠ chocolate."
+   }
+  ],
+  "frequencyRank": 3304,
+  "category": "greetings"
+ },
+ {
+  "id": "en-10-30k-xcaf839cd",
+  "courseId": "en-10-30k",
+  "headword": "velvet",
+  "reading": "/vˈɛlvət/",
+  "gloss": "ビロード,ベルベット(織物);ビロードのような,柔らかな",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This cloth feels like velvet.",
+    "translation": "この布はビロードのような手ざわりがする。",
+    "cloze": "This cloth feels like ｟＿｠."
+   },
+   {
+    "text": "Little babies' cheeks feel like velvet.",
+    "translation": "赤ん坊のほっぺたはビロードのような手触りがする。",
+    "cloze": "Little babies' cheeks feel like ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3305,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x5ce809d8",
+  "courseId": "en-10-30k",
+  "headword": "vip",
+  "reading": "/vˌiˌaɪpˈi/",
+  "gloss": "重要人物、VIP",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This room is for VIPs.",
+    "translation": "この部屋は要人用です。",
+    "cloze": "This room is for ｟VIPs｠."
+   },
+   {
+    "text": "He is a VIP and we must treat him as such.",
+    "translation": "彼は要人だから、そのように扱わねばならない。",
+    "cloze": "He is a ｟VIP｠ and we must treat him as such."
+   }
+  ],
+  "frequencyRank": 3391,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5540ebf5",
+  "courseId": "en-10-30k",
+  "headword": "volcano",
+  "reading": "/vɑlkˈeɪnoʊ/",
+  "gloss": "火山",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I want to see a volcano.",
+    "translation": "火山を見たいよ。",
+    "cloze": "I want to see a ｟volcano｠."
+   },
+   {
+    "text": "This is an active volcano.",
+    "translation": "これは活火山です。",
+    "cloze": "This is an active ｟volcano｠."
+   }
+  ],
+  "frequencyRank": 3392,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x7d8ed48c",
+  "courseId": "en-10-30k",
+  "headword": "veterinary",
+  "reading": "/vˈɛtɹənˌɛɹi/",
+  "gloss": "獣医の、家畜医療の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "My daughter is studying veterinary medicine at university as she is intending to become a veterinarian in the future.",
+    "translation": "私の娘は大学で獣医学を学び、将来は獣医師になるつもりです。",
+    "cloze": "My daughter is studying ｟veterinary｠ medicine at university as she is intending to become a veterinarian in the future."
+   },
+   {
+    "text": "i spent two summers as a veterinary assistant during college.",
+    "translation": "大学時代 獣医の助手を",
+    "cloze": "i spent two summers as a ｟veterinary｠ assistant during college."
+   }
+  ],
+  "frequencyRank": 3481,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xdc891ca6",
+  "courseId": "en-10-30k",
+  "headword": "villager",
+  "reading": "/vˈɪlɪdʒɚ/",
+  "gloss": "村人、村民",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The villagers were offhand with us.",
+    "translation": "村人たちは我々にそっけなかった。",
+    "cloze": "The ｟villagers｠ were offhand with us."
+   },
+   {
+    "text": "The villagers supported a new road.",
+    "translation": "村民たちは新道に賛成した。",
+    "cloze": "The ｟villagers｠ supported a new road."
+   }
+  ],
+  "frequencyRank": 3482,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x63e1b6e3",
+  "courseId": "en-10-30k",
+  "headword": "violin",
+  "reading": "/vaɪəlˈɪn/",
+  "gloss": "バイオリン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I play violin.",
+    "translation": "私はバイオリンを弾きます。",
+    "cloze": "I play ｟＿｠."
+   },
+   {
+    "text": "Do you have a violin?",
+    "translation": "あなたはバイオリンを持っていますか。",
+    "cloze": "Do you have a ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 3586,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x965a94c8",
+  "courseId": "en-10-30k",
+  "headword": "vest",
+  "reading": "/vˈɛst/",
+  "gloss": "チョッキ、ベスト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Men don't wear vests much these days.",
+    "translation": "最近、男の人はあまりベストを着ない。",
+    "cloze": "Men don't wear ｟＿｠s much these days."
+   },
+   {
+    "text": "You need to reverse your vest. It's inside-out!",
+    "translation": "ベストを裏返さなくちゃ。表裏逆ですよ。",
+    "cloze": "You need to reverse your ｟＿｠. It's inside-out!"
+   }
+  ],
+  "frequencyRank": 3672,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x437412b5",
+  "courseId": "en-10-30k",
+  "headword": "vine",
+  "reading": "/vˈaɪn/",
+  "gloss": "つる植物、ブドウの木",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This vine winds around trees.",
+    "translation": "このつる草は木にからみつきます。",
+    "cloze": "This ｟＿｠ winds around trees."
+   },
+   {
+    "text": "There is a dense growth of vines in this forest.",
+    "translation": "この森には野ブドウが密集して生えている。",
+    "cloze": "There is a dense growth of ｟＿｠s in this forest."
+   }
+  ],
+  "frequencyRank": 3673,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xfbbb94ca",
+  "courseId": "en-10-30k",
+  "headword": "volcanic",
+  "reading": "/vɑlkˈænɪk/",
+  "gloss": "火山の、火山性の;激しい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Japan is made up of volcanic islands.",
+    "translation": "日本は火山列島だ。",
+    "cloze": "Japan is made up of ｟＿｠ islands."
+   },
+   {
+    "text": "The volcanic eruption threatened the village.",
+    "translation": "火山の爆発がその村をおびやかした。",
+    "cloze": "The ｟＿｠ eruption threatened the village."
+   }
+  ],
+  "frequencyRank": 3874,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x1f87381d",
+  "courseId": "en-10-30k",
+  "headword": "visually",
+  "reading": "/vˈɪʒwəli/",
+  "gloss": "視覚的に、見た目に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "This nude poster appeals visually to the young.",
+    "translation": "このヌードのポスターには若者の視覚に訴えるものがある。",
+    "cloze": "This nude poster appeals ｟visually｠ to the young."
+   },
+   {
+    "text": "It was proposed that the term \"blind person\" be replaced with the term \"visually impaired person\".",
+    "translation": "「盲人」を「目の不自由な人」とする言い換えが提案された。",
+    "cloze": "It was proposed that the term \"blind person\" be replaced with the term \"｟visually｠ impaired person\"."
+   }
+  ],
+  "frequencyRank": 4159,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x5935b3fb",
+  "courseId": "en-10-30k",
+  "headword": "vinegar",
+  "reading": "/vˈɪnəɡɚ/",
+  "gloss": "酢、食用酢",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I don't like vinegar.",
+    "translation": "酢は嫌いです。",
+    "cloze": "I don't like ｟＿｠."
+   },
+   {
+    "text": "Vinegar has a sharp taste.",
+    "translation": "酢はすっぱい味がする。",
+    "cloze": "｟＿｠ has a sharp taste."
+   }
+  ],
+  "frequencyRank": 4586,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x5f8d09d9",
+  "courseId": "en-10-30k",
+  "headword": "vomit",
+  "reading": "/vˈɑmət/",
+  "gloss": "吐く、嘔吐する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I vomited.",
+    "translation": "吐いてしまいました。",
+    "cloze": "I ｟vomited｠."
+   },
+   {
+    "text": "Tom vomited blood.",
+    "translation": "トムは血を吐いた。",
+    "cloze": "Tom ｟vomited｠ blood."
+   }
+  ],
+  "frequencyRank": 4695,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xa0e39e38",
+  "courseId": "en-10-30k",
+  "headword": "valencia",
+  "reading": "/vəlˈɛnsiə/",
+  "gloss": "バレンシア(スペイン東部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Valencia is the third largest city in Spain and is also known for being the birthplace of paella.",
+    "translation": "バレンシアはスペイン第3の都市で、パエリア発祥の地としても知られている。",
+    "cloze": "｟＿｠ is the third largest city in Spain and is also known for being the birthplace of paella."
+   },
+   {
+    "text": "valencia you said. i've never heard of it. is there a village?",
+    "translation": "バレンシアと言いましたね 聞いたことも無い国です",
+    "cloze": "｟＿｠ you said. i've never heard of it. is there a village?"
+   }
+  ],
+  "frequencyRank": 4808,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb3732db5",
+  "courseId": "en-10-30k",
+  "headword": "vastly",
+  "reading": "/vˈæstli/",
+  "gloss": "大いに、非常に;広範囲に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "These two are vastly different from each other.",
+    "translation": "これら二つの間には大きな違いがある。",
+    "cloze": "These two are ｟＿｠ different from each other."
+   },
+   {
+    "text": "I think this suit is vastly superior to that one in quality.",
+    "translation": "この服は品質においてあの服よりも優れていると思う。",
+    "cloze": "I think this suit is ｟＿｠ superior to that one in quality."
+   }
+  ],
+  "frequencyRank": 4809,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xc28d247e",
+  "courseId": "en-10-30k",
+  "headword": "violently",
+  "reading": "/vˈaɪələntli/",
+  "gloss": "激しく、猛烈に;乱暴に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He resisted arrest violently.",
+    "translation": "彼は激しく逮捕に反抗した。",
+    "cloze": "He resisted arrest ｟＿｠."
+   },
+   {
+    "text": "I felt my heart beat violently.",
+    "translation": "私は心臓が激しく打つのを感じた。",
+    "cloze": "I felt my heart beat ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4811,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x278ce7fb",
+  "courseId": "en-10-30k",
+  "headword": "viking",
+  "reading": "/vˈaɪkɪŋ/",
+  "gloss": "バイキング(中世スカンジナビアの海賊・航海民族)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Viking expansion from the 9th century onwards reached areas such as Normandy, Galicia, Andalusia, Sicily and Crimea.",
+    "translation": "９世紀以降のバイキングの勢力拡大はノルマンディ、ガリシア、アンダルシア、シチリア、クリミアといった地域へと達した。",
+    "cloze": "The ｟＿｠ expansion from the 9th century onwards reached areas such as Normandy, Galicia, Andalusia, Sicily and Crimea."
+   },
+   {
+    "text": "like our charming viking demeanor wouldn't do that.",
+    "translation": "\"バイキング\"で十分怖い",
+    "cloze": "like our charming ｟＿｠ demeanor wouldn't do that."
+   }
+  ],
+  "frequencyRank": 5048,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7becf8c0",
+  "courseId": "en-10-30k",
+  "headword": "vaccination",
+  "reading": "/væksənˈeɪʃən/",
+  "gloss": "ワクチン接種、予防注射",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Don't forget to get your vaccinations.",
+    "translation": "ワクチン接種を忘れずに。",
+    "cloze": "Don't forget to get your ｟＿｠s."
+   },
+   {
+    "text": "Vaccination helps prevent the spread of infectious diseases.",
+    "translation": "予防接種は感染症の広がりを防ぐのに役立つ。",
+    "cloze": "｟＿｠ helps prevent the spread of infectious diseases.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5171,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x11ac0765",
+  "courseId": "en-10-30k",
+  "headword": "venom",
+  "reading": "/vˈɛnəm/",
+  "gloss": "(動物の)毒、毒液;悪意、恨み",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the hope is to extract the venom from their glands and turn that into a cure.",
+    "translation": "彼らのリンパから 毒を取り出して それを薬に変える",
+    "cloze": "the hope is to extract the ｟＿｠ from their glands and turn that into a cure."
+   },
+   {
+    "text": "she has werewolf venom in her system.",
+    "translation": "狼毒にやられたらしい",
+    "cloze": "she has werewolf ｟＿｠ in her system."
+   }
+  ],
+  "frequencyRank": 5385,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x47e01505",
+  "courseId": "en-10-30k",
+  "headword": "vase",
+  "reading": "/vˈeɪs/",
+  "gloss": "花瓶",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He dropped a vase.",
+    "translation": "彼は花瓶を落とした。",
+    "cloze": "He dropped a ｟＿｠."
+   },
+   {
+    "text": "Who broke the vase?",
+    "translation": "だれがこの花瓶を壊したのですか。",
+    "cloze": "Who broke the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 5773,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x1b6bf82f",
+  "courseId": "en-10-30k",
+  "headword": "vaguely",
+  "reading": "/vˈeɪɡli/",
+  "gloss": "漠然と、かすかに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I vaguely remember meeting him.",
+    "translation": "彼に会ったのを薄々覚えている。",
+    "cloze": "I ｟＿｠ remember meeting him."
+   },
+   {
+    "text": "I vaguely recall his name.",
+    "translation": "彼の名前をかすかに覚えている。",
+    "cloze": "I ｟＿｠ recall his name.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6702,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x2ae04542",
+  "courseId": "en-10-30k",
+  "headword": "veggies",
+  "reading": "/vˈɛdʒiz/",
+  "gloss": "野菜(vegetablesの略式表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm thankful for miso soup with extra veggies.",
+    "translation": "野菜多めのみそ汁がありがたい。",
+    "cloze": "I'm thankful for miso soup with extra ｟＿｠."
+   },
+   {
+    "text": "Eat your veggies before dessert.",
+    "translation": "デザートの前に野菜を食べなさい。",
+    "cloze": "Eat your ｟＿｠ before dessert.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6703,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x7bdef6b1",
+  "courseId": "en-10-30k",
+  "headword": "vertically",
+  "reading": "/vˈɝtɪkli/",
+  "gloss": "垂直に、直立して",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "cut it vertically and then horizontally...",
+    "translation": "縦に入れて そのあと横に入れて...。",
+    "cloze": "cut it ｟＿｠ and then horizontally..."
+   },
+   {
+    "text": "Please arrange the books vertically on the shelf.",
+    "translation": "本を棚に縦に並べてください。",
+    "cloze": "Please arrange the books ｟＿｠ on the shelf.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6844,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x10f0b87d",
+  "courseId": "en-10-30k",
+  "headword": "venezuelan",
+  "reading": "/vˌɛnɪzwˈeɪlən/",
+  "gloss": "ベネズエラの;ベネズエラ人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "my wife is a venezuelan.",
+    "translation": "私の妻がベネズエラ人で",
+    "cloze": "my wife is a ｟＿｠."
+   },
+   {
+    "text": "until the collapse of the venezuelan economy",
+    "translation": "ベネズエラの経済が崩壊し",
+    "cloze": "until the collapse of the ｟＿｠ economy"
+   }
+  ],
+  "frequencyRank": 7283,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc08ef974",
+  "courseId": "en-10-30k",
+  "headword": "vega",
+  "reading": "/vˈeɪɡə/",
+  "gloss": "ベガ、織女星(こと座の一等星)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Vega is one of the brightest stars in the night sky.",
+    "translation": "ベガは夜空で最も明るい星の一つだ。",
+    "cloze": "｟＿｠ is one of the brightest stars in the night sky.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Ancient Chinese legend associates Vega with the Weaver Girl.",
+    "translation": "中国の伝説では、ベガは織姫と結び付けられている。",
+    "cloze": "Ancient Chinese legend associates ｟＿｠ with the Weaver Girl.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7425,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xc156786b",
+  "courseId": "en-10-30k",
+  "headword": "vin",
+  "reading": "/vˈɪn/",
+  "gloss": "車両識別番号(Vehicle Identification Number, VIN)の略",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i want a new vin number and some clean papers.",
+    "translation": "新しい自動車登録番号と クリーンな証明書類がいる",
+    "cloze": "i want a new ｟vin｠ number and some clean papers."
+   },
+   {
+    "text": "any way you can get the vin so we can trace the car?",
+    "translation": "追跡できるように 車両識別番号を見つけて",
+    "cloze": "any way you can get the ｟vin｠ so we can trace the car?"
+   }
+  ],
+  "frequencyRank": 7427,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xd355b63c",
+  "courseId": "en-10-30k",
+  "headword": "virgil",
+  "reading": "/vˈɝdʒəl/",
+  "gloss": "ウェルギリウス(古代ローマの詩人、叙事詩『アエネイス』の作者、前70-前19年)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "thanks,virgil.",
+    "translation": "ありがとう ヴァージル",
+    "cloze": "thanks,｟virgil｠."
+   },
+   {
+    "text": "hello? virgil?",
+    "translation": "もしもし ヴァージル?",
+    "cloze": "hello? ｟virgil｠?"
+   }
+  ],
+  "frequencyRank": 7428,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xeea820c7",
+  "courseId": "en-10-30k",
+  "headword": "verbally",
+  "reading": "/vɚbˈæli/",
+  "gloss": "口頭で、言葉で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "if you get a little baby, and you abuse it verbally",
+    "translation": "もし赤ん坊ができて その子を言葉で虐待したら",
+    "cloze": "if you get a little baby, and you abuse it ｟verbally｠"
+   },
+   {
+    "text": "verbally abused, treated with contempt",
+    "translation": "けなされ さげすまれ",
+    "cloze": "｟verbally｠ abused, treated with contempt"
+   }
+  ],
+  "frequencyRank": 7564,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xe1130aae",
+  "courseId": "en-10-30k",
+  "headword": "vpn",
+  "reading": null,
+  "gloss": "VPN（仮想プライベートネットワーク）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "whoever it is has covered his tracks with proxy servers and vpns.",
+    "translation": "いえ 追跡できませんでした プロキシサーバーや VPNを使ってます",
+    "cloze": "whoever it is has covered his tracks with proxy servers and ｟＿｠."
+   },
+   {
+    "text": "Many companies require employees to use a VPN when working remotely.",
+    "translation": "多くの企業はリモートワーク時に従業員にVPNの使用を義務付けている。",
+    "cloze": "Many companies require employees to use a ｟＿｠ when working remotely.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7857,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x6bb22187",
+  "courseId": "en-10-30k",
+  "headword": "voyager",
+  "reading": "/vˈɔɪədʒɚ/",
+  "gloss": "航海者,航行者;旅行者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we are voyagers, set on a course towards destiny... lo find the one person our miracle is meant for.",
+    "translation": "我々は旅人 運命の航路に置かれる... 奇跡を託す人を 探すために",
+    "cloze": "we are ｟＿｠, set on a course towards destiny... lo find the one person our miracle is meant for."
+   },
+   {
+    "text": "thanks to the efforts of intrepid voyagers in the last three centuries",
+    "translation": "過去3世紀の 勇敢な探検家たちの努力により",
+    "cloze": "thanks to the efforts of intrepid ｟＿｠ in the last three centuries"
+   }
+  ],
+  "frequencyRank": 8851,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa37a19e5",
+  "courseId": "en-10-30k",
+  "headword": "visualization",
+  "reading": "/vˌɪʒwələzˈeɪʃən/",
+  "gloss": "視覚化すること、思い浮かべること；可視化",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it appears transparent and is extremely thin allowing visualization of muscles and individual muscle fibers.",
+    "translation": "透明で極めて薄い 筋肉と個々の筋繊維が 識別できる",
+    "cloze": "it appears transparent and is extremely thin allowing ｟＿｠ of muscles and individual muscle fibers."
+   },
+   {
+    "text": "Visualization of the data helped the team spot the problem.",
+    "translation": "データの視覚化によって チームは問題を見つけることができた。",
+    "cloze": "｟＿｠ of the data helped the team spot the problem.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9011,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xed68b83f",
+  "courseId": "en-10-30k",
+  "headword": "voicemail",
+  "reading": "/vˈɔɪsmˌeɪl/",
+  "gloss": "留守番電話、ボイスメール",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you trying to get my voicemail?",
+    "translation": "留守電は?",
+    "cloze": "you trying to get my ｟＿｠?"
+   },
+   {
+    "text": "I left you a voicemail yesterday.",
+    "translation": "昨日 あなたに留守番電話を残しました。",
+    "cloze": "I left you a ｟＿｠ yesterday.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9012,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x03a735f4",
+  "courseId": "en-10-30k",
+  "headword": "veg",
+  "reading": null,
+  "gloss": "野菜",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We need to buy some fruit and veg.",
+    "translation": "果物と野菜を買わなきゃ。",
+    "cloze": "We need to buy some fruit and ｟＿｠."
+   },
+   {
+    "text": "\"Ugh! There's veg in that!\" \"What? That's exactly why it's so good!\"",
+    "translation": "「げっ。野菜が入ってる！」「えっ？野菜が入ってるから美味しいんだよっ」",
+    "cloze": "\"Ugh! There's ｟＿｠ in that!\" \"What? That's exactly why it's so good!\""
+   }
+  ],
+  "frequencyRank": 9324,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x34fe3b47",
+  "courseId": "en-10-30k",
+  "headword": "vhs",
+  "reading": null,
+  "gloss": "VHS(家庭用ビデオテープ規格)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "that play, you know, vhs and these vcds.",
+    "translation": "vhsやvcdを再生することができます",
+    "cloze": "that play, you know, ｟＿｠ and these vcds."
+   },
+   {
+    "text": "watch the old video of our concerts. there is one, it's still on vhs.",
+    "translation": "昔の公演のビデオでも見ようよ。 あるのよ まだ VHS。",
+    "cloze": "watch the old video of our concerts. there is one, it's still on ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9326,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xce6d1b0a",
+  "courseId": "en-10-30k",
+  "headword": "versailles",
+  "reading": "/vɛɹsˈaɪ/",
+  "gloss": "ベルサイユ(パリ郊外の都市、宮殿で有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i mean look, 1918, the treaty of versailles",
+    "translation": "1918年のベルサイユ条約を 振り返って見て下さい",
+    "cloze": "i mean look, 1918, the treaty of ｟＿｠"
+   },
+   {
+    "text": "i'm dying to see versailles.",
+    "translation": "ぜひ見たいわ - そうしましょ!",
+    "cloze": "i'm dying to see ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9670,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x79c59ab7",
+  "courseId": "en-10-30k",
+  "headword": "vanderbilt",
+  "reading": "/vˈændɚbɪlt/",
+  "gloss": "ヴァンダービルト(米国の実業家一族の姓;同名のヴァンダービルト大学でも知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "so vanderbilt ran a study asking people, we'd like to take",
+    "translation": "ヴァンダービルト大学は研究に際し",
+    "cloze": "so ｟vanderbilt｠ ran a study asking people, we'd like to take"
+   },
+   {
+    "text": "Cornelius Vanderbilt built a business empire in shipping and railroads.",
+    "translation": "コーネリアス・ヴァンダービルトは海運業と鉄道業で一大帝国を築いた。",
+    "cloze": "Cornelius ｟Vanderbilt｠ built a business empire in shipping and railroads.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9862,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xdcee3c85",
+  "courseId": "en-10-30k",
+  "headword": "vulcan",
+  "reading": "/vˈʌlkən/",
+  "gloss": "ウルカヌス(ローマ神話の火と鍛冶の神);(SF作品などで)バルカン(人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "my whole life, i've never really understood vulcans why they work so hard to suppress their emotions.",
+    "translation": "今までの人生の中では、ヴァルカンが なぜそんなに感情を抑えることに 一生懸命なのか、理解できなかった",
+    "cloze": "my whole life, i've never really understood ｟vulcans｠ why they work so hard to suppress their emotions."
+   },
+   {
+    "text": "you ever actually met a vulcan?",
+    "translation": "ヴァルカ人に実際に会ったことは?",
+    "cloze": "you ever actually met a ｟vulcan｠?"
+   }
+  ],
+  "frequencyRank": 9865,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0ba7fbb3",
+  "courseId": "en-10-30k",
+  "headword": "veggie",
+  "reading": "/vˈɛdʒi/",
+  "gloss": "野菜(vegetableの略式表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's veggie bacon.",
+    "translation": "野菜ベーコンだ",
+    "cloze": "It's ｟＿｠ bacon."
+   },
+   {
+    "text": "I was just gonna grab a veggie dog.",
+    "translation": "今のうちに 野菜バーガーでも食べようかと",
+    "cloze": "I was just gonna grab a ｟＿｠ dog."
+   }
+  ],
+  "frequencyRank": 10055,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xfc5040e1",
+  "courseId": "en-10-30k",
+  "headword": "vape",
+  "reading": "/vˈeɪp/",
+  "gloss": "電子タバコを吸う;電子タバコ(の煙)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He likes to vape flavored e-liquid after dinner.",
+    "translation": "彼は夕食後、フレーバー付きの電子タバコを吸うのが好きだ。",
+    "cloze": "He likes to ｟＿｠ flavored e-liquid after dinner.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10655,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xb16714f8",
+  "courseId": "en-10-30k",
+  "headword": "vids",
+  "reading": null,
+  "gloss": "動画、ビデオ(videoのくだけた略語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Check out these funny cat vids!",
+    "translation": "この面白い猫の動画を見て!",
+    "cloze": "Check out these funny cat｟vids｠!",
+    "aiGenerated": true
+   },
+   {
+    "text": "He posts new vids every week.",
+    "translation": "彼は毎週新しい動画を投稿している。",
+    "cloze": "He posts new｟vids｠every week.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11223,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x6de80dd6",
+  "courseId": "en-10-30k",
+  "headword": "variously",
+  "reading": "/vˈɛɹiəsli/",
+  "gloss": "いろいろに、さまざまに;別名で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "will you wait a little more to investigate variously",
+    "translation": "いろいろ調べるのはもう少し待ってもらえますか",
+    "cloze": "will you wait a little more to investigate ｟variously｠"
+   },
+   {
+    "text": "The problem can be interpreted variously depending on context.",
+    "translation": "その問題は文脈によって様々に解釈できる。",
+    "cloze": "The problem can be interpreted ｟variously｠ depending on context.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11418,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xabf6db39",
+  "courseId": "en-10-30k",
+  "headword": "viz",
+  "reading": null,
+  "gloss": "すなわち、つまり(ラテン語videlicetの略;文語で列挙する際に使う)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "The report covers three regions, viz. Asia, Europe, and Africa.",
+    "translation": "その報告書は3つの地域、すなわちアジア、ヨーロッパ、アフリカを扱っている。",
+    "cloze": "The report covers three regions, ｟viz｠. Asia, Europe, and Africa.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Only one solution remains, viz. to raise more funds.",
+    "translation": "残る解決策はただ一つ、すなわち資金をさらに集めることだ。",
+    "cloze": "Only one solution remains, ｟viz｠. to raise more funds.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11422,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-x8a4c6668",
+  "courseId": "en-10-30k",
+  "headword": "verona",
+  "reading": "/vɚˈoʊnə/",
+  "gloss": "ヴェローナ(イタリア北部の都市。『ロミオとジュリエット』の舞台として有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Verona is a beautiful city in northern Italy.",
+    "translation": "ヴェローナは北イタリアの美しい都市です。",
+    "cloze": "｟＿｠ is a beautiful city in northern Italy.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12624,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x265f1617",
+  "courseId": "en-10-30k",
+  "headword": "vaping",
+  "reading": null,
+  "gloss": "電子タバコを吸うこと、ベイピング",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Vaping has become popular among teenagers.",
+    "translation": "電子タバコの使用は10代の若者の間で人気になっている。",
+    "cloze": "｟＿｠ has become popular among teenagers.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many countries have banned vaping in public places.",
+    "translation": "多くの国が公共の場での電子タバコ使用を禁止している。",
+    "cloze": "Many countries have banned ｟＿｠ in public places.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13555,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x0de74462",
+  "courseId": "en-10-30k",
+  "headword": "videotape",
+  "reading": "/vˈɪdioʊtˈeɪp/",
+  "gloss": "ビデオテープ;（動詞）録画する",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I buy a videotape.",
+    "translation": "私はビデオテープを買います。",
+    "cloze": "I buy a ｟＿｠."
+   },
+   {
+    "text": "I rented a videotape this morning.",
+    "translation": "私は今朝、ビデオテープを借りてきた。",
+    "cloze": "I rented a ｟＿｠ this morning."
+   }
+  ],
+  "frequencyRank": 13770,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc98720c7",
+  "courseId": "en-10-30k",
+  "headword": "virgo",
+  "reading": "/vˈɝɡoʊ/",
+  "gloss": "乙女座(星座・黄道十二宮の一つ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces.",
+    "translation": "１２星座とは、おひつじ座、おうし座、ふたご座、かに座、しし座、おとめ座、てんびん座、さそり座、いて座、やぎ座、みずがめ座、うお座のことです。",
+    "cloze": "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, Leo, ｟Virgo｠, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces."
+   },
+   {
+    "text": "virgo is number one in fortune today! spider. virgo is number one in fortune today!",
+    "translation": "(静流) 乙女座はね 今日 占い一位だったんだよ",
+    "cloze": "｟virgo｠ is number one in fortune today! spider. virgo is number one in fortune today!"
+   }
+  ],
+  "frequencyRank": 14013,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x6d8bc36e",
+  "courseId": "en-10-30k",
+  "headword": "valkyrie",
+  "reading": "/vˌælkˈiɹˌiə/",
+  "gloss": "ワルキューレ(北欧神話で戦死者の魂を導くとされる戦乙女)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "In Norse mythology, a Valkyrie chooses who will die in battle.",
+    "translation": "北欧神話では、ワルキューレが戦場で誰が死ぬかを選ぶとされる。",
+    "cloze": "In Norse mythology, a ｟＿｠ chooses who will die in battle.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14274,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xad72f67f",
+  "courseId": "en-10-30k",
+  "headword": "vedic",
+  "reading": null,
+  "gloss": "ヴェーダの(古代インドの聖典ヴェーダに関する)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "you're referring to the memory palace of simonides and vedic mathematics?",
+    "translation": "シモニデスの記憶宮殿やヴェーダ数学なんかのことね",
+    "cloze": "you're referring to the memory palace of simonides and ｟＿｠ mathematics?"
+   },
+   {
+    "text": "Vedic scriptures are among the oldest religious texts in the world.",
+    "translation": "ヴェーダの聖典は世界最古の宗教文書の一つである。",
+    "cloze": "｟＿｠ scriptures are among the oldest religious texts in the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14275,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd65c6da4",
+  "courseId": "en-10-30k",
+  "headword": "voltaire",
+  "reading": "/voʊltˈɛɹ/",
+  "gloss": "ヴォルテール(1694-1778、フランス啓蒙期の思想家・文学者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "they're actually both proof of how right voltaire was",
+    "translation": "その両者はともに ヴォルテールの言葉が",
+    "cloze": "they're actually both proof of how right ｟＿｠ was"
+   },
+   {
+    "text": "[ boredom, vice and need. voltaire]",
+    "translation": "[「仕事をすることで 我々は倦怠 悪徳 貧困の三大悪から免れる」―ヴォルテール]",
+    "cloze": "[ boredom, vice and need. ｟＿｠]"
+   }
+  ],
+  "frequencyRank": 14491,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5b340dcc",
+  "courseId": "en-10-30k",
+  "headword": "vee",
+  "reading": "/vˈi/",
+  "gloss": "V字形(のもの);Vという文字",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The road forks into a vee shape.",
+    "translation": "その道はV字形に分岐している。",
+    "cloze": "The road forks into a ｟vee｠ shape.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15011,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa7be560e",
+  "courseId": "en-10-30k",
+  "headword": "videogames",
+  "reading": null,
+  "gloss": "テレビゲーム,ビデオゲーム",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What kind of videogames do you play?",
+    "translation": "君、どんなゲームやるの？",
+    "cloze": "What kind of ｟videogames｠ do you play?"
+   },
+   {
+    "text": "but during my high school years, thanks to the invader's boom, videogames spread everywhere",
+    "translation": "中学の頃 インベーダーブームでだぶついた テレビゲームを置き始めて➡",
+    "cloze": "but during my high school years, thanks to the invader's boom, ｟videogames｠ spread everywhere"
+   }
+  ],
+  "frequencyRank": 15012,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x13cda461",
+  "courseId": "en-10-30k",
+  "headword": "visor",
+  "reading": "/vˈaɪzɚ/",
+  "gloss": "(帽子・ヘルメットの)ひさし、面頬;(車の)サンバイザー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "now, when he engages in battle, the visor comes down and the software takes over.",
+    "translation": "今、彼は戦いになった場合に、 バイザーは下ろしています そしてソフトウェアが引き継ぎます",
+    "cloze": "now, when he engages in battle, the ｟visor｠ comes down and the software takes over."
+   },
+   {
+    "text": "then, show me your sun visor kick. here, right now!",
+    "translation": "じゃあ やってみてくださいよ。 サンバイザー キック。 今 ここで。",
+    "cloze": "then, show me your sun ｟visor｠ kick. here, right now!"
+   }
+  ],
+  "frequencyRank": 16260,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x320ecd9f",
+  "courseId": "en-10-30k",
+  "headword": "varanasi",
+  "reading": null,
+  "gloss": "バラナシ(インド北部の都市、ヒンドゥー教の聖地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Varanasi is one of the oldest cities in India.",
+    "translation": "バラナシはインドで最も古い都市の一つだ。",
+    "cloze": "｟＿｠ is one of the oldest cities in India.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many pilgrims visit Varanasi to bathe in the Ganges.",
+    "translation": "多くの巡礼者がガンジス川で沐浴するためにバラナシを訪れる。",
+    "cloze": "Many pilgrims visit ｟＿｠ to bathe in the Ganges.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16526,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa121a37f",
+  "courseId": "en-10-30k",
+  "headword": "valhalla",
+  "reading": "/vˌælhˈælə/",
+  "gloss": "ヴァルハラ(北欧神話における戦死者の霊が祭られる殿堂)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "see you in valhalla.",
+    "translation": "ヴァルハラ(英雄廟) で 会おう",
+    "cloze": "see you in ｟＿｠."
+   },
+   {
+    "text": "In Norse mythology, warriors who died in battle went to Valhalla.",
+    "translation": "北欧神話では、戦いで死んだ戦士たちはヴァルハラに行くとされている。",
+    "cloze": "In Norse mythology, warriors who died in battle went to ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16784,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1564602b",
+  "courseId": "en-10-30k",
+  "headword": "valium",
+  "reading": "/vˈeɪliəm/",
+  "gloss": "バリウム(抗不安薬ジアゼパムの商標名、精神安定剤)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I was knocking back Valium, shots at breakfast... two packs a day.",
+    "translation": "精神安定剤を一日に二箱も飲むようになって。",
+    "cloze": "I was knocking back ｟＿｠, shots at breakfast... two packs a day."
+   },
+   {
+    "text": "This is just a Valium.",
+    "translation": "ただの精神安定剤。",
+    "cloze": "This is just a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 17050,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x7338a83b",
+  "courseId": "en-10-30k",
+  "headword": "vcr",
+  "reading": null,
+  "gloss": "ビデオデッキ、ビデオカセットレコーダー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I don't know how to use a VCR.",
+    "translation": "ビデオデッキの使い方が分からないんだ。",
+    "cloze": "I don't know how to use a ｟＿｠."
+   },
+   {
+    "text": "I bought a VCR at that store for a low price.",
+    "translation": "私はあの店でビデオデッキを安く買った。",
+    "cloze": "I bought a ｟＿｠ at that store for a low price."
+   }
+  ],
+  "frequencyRank": 17051,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xf6ecbbfd",
+  "courseId": "en-10-30k",
+  "headword": "vide",
+  "reading": "/vˈaɪd/",
+  "gloss": "…を見よ,参照せよ(ラテン語由来、学術文献での参照指示語)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "For further details, vide the appendix.",
+    "translation": "詳細については付録を参照せよ。",
+    "cloze": "For further details, ｟＿｠ the appendix.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Vide infra for the complete list of references.",
+    "translation": "完全な参考文献リストについては下記を参照せよ。",
+    "cloze": "｟＿｠ infra for the complete list of references.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17310,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x45a44cdb",
+  "courseId": "en-10-30k",
+  "headword": "vitally",
+  "reading": "/vˈaɪtəli/",
+  "gloss": "きわめて重大に,極めて重要に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "now, this matter is vitally important to me.",
+    "translation": "これは 私にとって 極めて重大な問題です",
+    "cloze": "now, this matter is ｟＿｠ important to me."
+   },
+   {
+    "text": "Clean water is vitally important for public health.",
+    "translation": "清潔な水は公衆衛生にとって極めて重要である。",
+    "cloze": "Clean water is ｟＿｠ important for public health.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17312,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xcb07a3e7",
+  "courseId": "en-10-30k",
+  "headword": "vishnu",
+  "reading": "/vˈɪʃnu/",
+  "gloss": "ヴィシュヌ(ヒンドゥー教三大神の一柱、世界の維持を司る神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "so we could think of vishnu as the conservative god.",
+    "translation": "保守派の神",
+    "cloze": "so we could think of ｟＿｠ as the conservative god."
+   },
+   {
+    "text": "vishnu gave his judgment.",
+    "translation": "ビシュヌ神は判決を下しました",
+    "cloze": "｟＿｠ gave his judgment."
+   }
+  ],
+  "frequencyRank": 17629,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x90bffd22",
+  "courseId": "en-10-30k",
+  "headword": "voila",
+  "reading": "/vwˌɑlˈɑ/",
+  "gloss": "ほら、そら、これで完成(驚きや達成を表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "voila! welcome to chromosomally linkedin.",
+    "translation": "染色体版リンクトインの出来上がりです",
+    "cloze": "｟＿｠! welcome to chromosomally linkedin."
+   },
+   {
+    "text": "and, voila! i got in.",
+    "translation": "そして 見事 合格したのです",
+    "cloze": "and, ｟＿｠! i got in."
+   }
+  ],
+  "frequencyRank": 17631,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xd859f2b2",
+  "courseId": "en-10-30k",
+  "headword": "voip",
+  "reading": null,
+  "gloss": "IP電話、VoIP(インターネット回線を利用した音声通話技術)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and why are you calling over voip?",
+    "translation": "なぜ voipの上で電話してる?",
+    "cloze": "and why are you calling over ｟＿｠?"
+   },
+   {
+    "text": "i think where voip is really going to get interesting",
+    "translation": "VoIPが本当に面白くなる分野は",
+    "cloze": "i think where ｟＿｠ is really going to get interesting"
+   }
+  ],
+  "frequencyRank": 17632,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x761133ff",
+  "courseId": "en-10-30k",
+  "headword": "vips",
+  "reading": "/vˌiˌaɪpˈiz/",
+  "gloss": "要人,重要人物(たち)(VIP)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The hotel reserved a special lounge for VIPs.",
+    "translation": "そのホテルはVIPのために特別なラウンジを用意した。",
+    "cloze": "The hotel reserved a special lounge for ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Only VIPs were allowed backstage after the concert.",
+    "translation": "コンサートの後、楽屋に入れたのはVIPだけだった。",
+    "cloze": "Only ｟＿｠ were allowed backstage after the concert.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19991,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbdaf849d",
+  "courseId": "en-10-30k",
+  "headword": "vod",
+  "reading": null,
+  "gloss": "ビデオ・オン・デマンド(VOD),見逃し視聴サービス",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many people now watch dramas through VOD services instead of live TV.",
+    "translation": "多くの人は今、テレビの生放送ではなくVODサービスでドラマを見ている。",
+    "cloze": "Many people now watch dramas through ｟＿｠ services instead of live TV.",
+    "aiGenerated": true
+   },
+   {
+    "text": "You can catch up on missed episodes using the VOD app.",
+    "translation": "見逃した回はVODアプリで視聴できます。",
+    "cloze": "You can catch up on missed episodes using the ｟＿｠ app.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19994,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x944e352f",
+  "courseId": "en-10-30k",
+  "headword": "vicksburg",
+  "reading": "/vˈɪksbɚɡ/",
+  "gloss": "ヴィックスバーグ(米国ミシシッピ州の都市。南北戦争の激戦地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Battle of Vicksburg was a turning point in the Civil War.",
+    "translation": "ヴィックスバーグの戦いは南北戦争の転換点となった。",
+    "cloze": "The Battle of ｟Vicksburg｠ was a turning point in the Civil War.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20291,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9212c4ea",
+  "courseId": "en-10-30k",
+  "headword": "vilnius",
+  "reading": "/vˈɪlniəs/",
+  "gloss": "ビリニュス(リトアニアの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Vilnius is the capital and largest city of Lithuania.",
+    "translation": "ビリニュスはリトアニアの首都であり最大の都市である。",
+    "cloze": "｟＿｠ is the capital and largest city of Lithuania.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We visited the old town of Vilnius last summer.",
+    "translation": "私たちは昨年の夏、ビリニュスの旧市街を訪れた。",
+    "cloze": "We visited the old town of ｟＿｠ last summer.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20595,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb070a540",
+  "courseId": "en-10-30k",
+  "headword": "verdi",
+  "reading": "/vˈɛɹdi/",
+  "gloss": "ヴェルディ(ジュゼッペ・ヴェルディ、19世紀イタリアの歌劇作曲家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "no. no, it's an opera by verdi.",
+    "translation": "いや ヴェルディのオペラだ",
+    "cloze": "no. no, it's an opera by ｟＿｠."
+   },
+   {
+    "text": "i'll fix the dress, all right, but not for you, mr. director! for giuseppe verdi!",
+    "translation": "私は衣装を直すわ でもこれはベルディのためにね",
+    "cloze": "i'll fix the dress, all right, but not for you, mr. director! for giuseppe ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 20866,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xcdb306fa",
+  "courseId": "en-10-30k",
+  "headword": "viennese",
+  "reading": "/viˈɛnˌis/",
+  "gloss": "ウィーンの、ウィーン風の；ウィーン人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "you know viennese audiences usually don't interfere with the music.",
+    "translation": "普段はウィーンの聴衆が音楽を妨げることはありません",
+    "cloze": "you know ｟＿｠ audiences usually don't interfere with the music."
+   },
+   {
+    "text": "but viennese audiences do not do that.",
+    "translation": "しかしウィーンの聴衆はそんなことしません",
+    "cloze": "but ｟＿｠ audiences do not do that."
+   }
+  ],
+  "frequencyRank": 21184,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x855d644c",
+  "courseId": "en-10-30k",
+  "headword": "vga",
+  "reading": null,
+  "gloss": "VGA(ビデオグラフィックスアレイ;コンピュータの映像出力規格)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Connect the monitor using the VGA cable.",
+    "translation": "VGAケーブルを使ってモニターを接続してください。",
+    "cloze": "Connect the monitor using the ｟＿｠ cable.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Older computers often have a VGA port instead of HDMI.",
+    "translation": "古いコンピューターにはHDMIではなくVGAポートがついていることが多い。",
+    "cloze": "Older computers often have a ｟＿｠ port instead of HDMI.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21484,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xc02b54b6",
+  "courseId": "en-10-30k",
+  "headword": "vanuatu",
+  "reading": "/vænuˈɑtu/",
+  "gloss": "バヌアツ(南太平洋の島国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the cyclone pam, which destroyed vanuatu",
+    "translation": "サイクロン・パムが バヌアツに被害をもたらしました",
+    "cloze": "the cyclone pam, which destroyed ｟vanuatu｠"
+   }
+  ],
+  "frequencyRank": 22161,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x540ba432",
+  "courseId": "en-10-30k",
+  "headword": "varna",
+  "reading": null,
+  "gloss": "ヴァルナ(ブルガリア黒海沿岸の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "It is a six-hour drive from Sofia to Varna.",
+    "translation": "ソフィアからヴァルナまでは車で６時間です。",
+    "cloze": "It is a six-hour drive from Sofia to ｟Varna｠."
+   }
+  ],
+  "frequencyRank": 22162,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x50e4f4e7",
+  "courseId": "en-10-30k",
+  "headword": "vedas",
+  "reading": null,
+  "gloss": "ヴェーダ(古代インドの聖典群)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Hindus consider the Vedas to be sacred texts.",
+    "translation": "ヒンドゥー教徒はヴェーダを聖典とみなしている。",
+    "cloze": "Hindus consider the ｟Vedas｠ to be sacred texts.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22164,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x1d798a8b",
+  "courseId": "en-10-30k",
+  "headword": "virtualization",
+  "reading": null,
+  "gloss": "仮想化(コンピュータ資源をソフトウェア上で構成する技術)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The company adopted virtualization to reduce server costs.",
+    "translation": "その企業はサーバーコストを削減するために仮想化を導入した。",
+    "cloze": "The company adopted ｟virtualization｠ to reduce server costs.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22166,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x3f6f643a",
+  "courseId": "en-10-30k",
+  "headword": "veracruz",
+  "reading": null,
+  "gloss": "ベラクルス(メキシコの港湾都市・州名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "possible sightings in veracruz.",
+    "translation": "ベラクルスで目撃されている",
+    "cloze": "possible sightings in ｟veracruz｠."
+   },
+   {
+    "text": "she sank off the coast of veracruz in 1708 with all hands, including her captain, raphael serrano.",
+    "translation": "1708年にベラクルスで 乗員もろとも沈没 船長のラファエルも一緒に",
+    "cloze": "she sank off the coast of ｟veracruz｠ in 1708 with all hands, including her captain, raphael serrano."
+   }
+  ],
+  "frequencyRank": 22827,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xbde086a0",
+  "courseId": "en-10-30k",
+  "headword": "vlog",
+  "reading": null,
+  "gloss": "ビデオブログ,動画配信",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "yo, this trickster guy just posted a vlog. you gotta see this.",
+    "translation": "トリックスターが 動画を投稿した",
+    "cloze": "yo, this trickster guy just posted a ｟vlog｠. you gotta see this."
+   },
+   {
+    "text": "She started a vlog to document her travels around the world.",
+    "translation": "彼女は世界中の旅を記録するために動画ブログを始めた。",
+    "cloze": "She started a ｟vlog｠ to document her travels around the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22830,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x58409c74",
+  "courseId": "en-10-30k",
+  "headword": "voiceless",
+  "reading": "/vˈɔɪsləs/",
+  "gloss": "声の出ない,無言の;(音声学で)無声音の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It seems appropriate to apply these rules to the voiceless consonants.",
+    "translation": "無声子音にこれらの規則を適用することは適切だと思われる。",
+    "cloze": "It seems appropriate to apply these rules to the ｟voiceless｠ consonants."
+   },
+   {
+    "text": "because i had become a lawyer because i wanted to speak for the voiceless",
+    "translation": "なぜなら私は声なき者のために語り 防御なき者の盾となるために",
+    "cloze": "because i had become a lawyer because i wanted to speak for the ｟voiceless｠"
+   }
+  ],
+  "frequencyRank": 22831,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-xe7462748",
+  "courseId": "en-10-30k",
+  "headword": "volga",
+  "reading": "/vˈɑlɡə/",
+  "gloss": "ヴォルガ川(ロシアを流れるヨーロッパ最長の川)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "down where the volga flows there's a russian rendezvous",
+    "translation": "ヴォルガの岸辺は 恋人たちの場所",
+    "cloze": "down where the ｟volga｠ flows there's a russian rendezvous"
+   },
+   {
+    "text": "find any others? there's some sites along the volga river in russia",
+    "translation": "ロシアのヴォルガ川に沿って いくつかと、",
+    "cloze": "find any others? there's some sites along the ｟volga｠ river in russia"
+   }
+  ],
+  "frequencyRank": 22832,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x6dbc80c2",
+  "courseId": "en-10-30k",
+  "headword": "volgograd",
+  "reading": "/vˈoʊlɡoʊɡɹˌæd/",
+  "gloss": "ヴォルゴグラード(ロシア南西部の都市。旧名スターリングラード)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Volgograd was formerly known as Stalingrad.",
+    "translation": "ヴォルゴグラードはかつてスターリングラードと呼ばれていた。",
+    "cloze": "｟Volgograd｠ was formerly known as Stalingrad.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Battle of Volgograd was one of the deadliest battles in history.",
+    "translation": "ヴォルゴグラードの戦いは歴史上最も凄惨な戦いの一つだった。",
+    "cloze": "The Battle of ｟Volgograd｠ was one of the deadliest battles in history.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22833,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x95d029de",
+  "courseId": "en-10-30k",
+  "headword": "venn",
+  "reading": "/vˈɛn/",
+  "gloss": "ベン図（Venn diagram;集合の関係を表す図）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and i said, i've got powerpoint. let's do a venn diagram.",
+    "translation": "パワーポイントを使って ベン図で示してみましょう",
+    "cloze": "and i said, i've got powerpoint. let's do a ｟＿｠ diagram."
+   },
+   {
+    "text": "all right. venn diagram.",
+    "translation": "さすが ベン図です",
+    "cloze": "all right. ｟＿｠ diagram."
+   }
+  ],
+  "frequencyRank": 23154,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x0817c91e",
+  "courseId": "en-10-30k",
+  "headword": "vfx",
+  "reading": null,
+  "gloss": "視覚効果（Visual Effects）の略、VFX",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "called carlos monzon, and he's a very good vfx artist.",
+    "translation": "ケベック人で とても才能のある 視覚効果アーティストです",
+    "cloze": "called carlos monzon, and he's a very good ｟＿｠ artist."
+   },
+   {
+    "text": "The movie's VFX were praised by critics.",
+    "translation": "その映画の視覚効果は批評家から称賛された。",
+    "cloze": "The movie's ｟＿｠ were praised by critics.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23157,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x5fe40521",
+  "courseId": "en-10-30k",
+  "headword": "victorians",
+  "reading": "/vɪktˈɔɹiənz/",
+  "gloss": "ヴィクトリア朝時代の人々（19世紀英国）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Victorians were known for their strict social manners.",
+    "translation": "ヴィクトリア朝の人々は厳格な社会的マナーで知られていた。",
+    "cloze": "The ｟＿｠ were known for their strict social manners.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23158,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x142db06d",
+  "courseId": "en-10-30k",
+  "headword": "vichy",
+  "reading": "/vˈiʃi/",
+  "gloss": "ヴィシー政権(第二次大戦中の対独協力フランス政府);フランス中部の都市",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "During World War II, southern France was governed by the Vichy regime.",
+    "translation": "第二次世界大戦中、南フランスはヴィシー政権によって統治された。",
+    "cloze": "During World War II, southern France was governed by the ｟Vichy｠ regime.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23461,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf52a4beb",
+  "courseId": "en-10-30k",
+  "headword": "vax",
+  "reading": "/vˈæks/",
+  "gloss": "ワクチン;ワクチン接種する(vaccine/vaccinateの略式表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I got my vax yesterday.",
+    "translation": "昨日ワクチンを打った。",
+    "cloze": "I got my ｟＿｠ yesterday.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23776,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x02dde678",
+  "courseId": "en-10-30k",
+  "headword": "vom",
+  "reading": null,
+  "gloss": "吐く、げろ(vomitの略、英俗語)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "i'm gonna vom.",
+    "translation": "吐きそう",
+    "cloze": "i'm gonna ｟vom｠."
+   }
+  ],
+  "frequencyRank": 24101,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xb0ed4ed2",
+  "courseId": "en-10-30k",
+  "headword": "valparaiso",
+  "reading": "/vˌælpɚˈeɪsoʊ/",
+  "gloss": "バルパライソ(チリ中部の港湾都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Valparaíso is famous for its colorful hillside houses and historic funiculars.",
+    "translation": "バルパライソは色とりどりの丘の家々と歴史あるケーブルカーで有名だ。",
+    "cloze": "｟＿｠ is famous for its colorful hillside houses and historic funiculars.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24443,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x90576f99",
+  "courseId": "en-10-30k",
+  "headword": "velvety",
+  "reading": "/vˈɛlvəti/",
+  "gloss": "ビロードのように柔らかな,なめらかな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Now, I present a low-calorie, velvety tofu cake. Please enjoy.",
+    "translation": "今回ご紹介するのは、低カロリーで滑らかな口当たりの豆腐でできたケーキです。ぜひご賞味ください。",
+    "cloze": "Now, I present a low-calorie, ｟＿｠ tofu cake. Please enjoy."
+   },
+   {
+    "text": "The singer had a velvety voice that captivated the audience.",
+    "translation": "その歌手はまろやかで魅力的な声で聴衆を魅了した。",
+    "cloze": "The singer had a ｟＿｠ voice that captivated the audience.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25193,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x27e97acb",
+  "courseId": "en-10-30k",
+  "headword": "vesuvius",
+  "reading": "/vəsˈuviəs/",
+  "gloss": "ベスビオ山(イタリア南西部の活火山。ポンペイを埋没させたことで有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The eruption of the volcano Vesuvius destroyed the city of Pompeii.",
+    "translation": "ヴェスヴィオ火山の噴火は、ポンペイの街を壊滅させた。",
+    "cloze": "The eruption of the volcano ｟＿｠ destroyed the city of Pompeii."
+   },
+   {
+    "text": "if you have vesuvius, then the gulf of naples and pine trees are a must.",
+    "translation": "やっぱり ナポリ湾と 松の木ですよね。",
+    "cloze": "if you have ｟＿｠, then the gulf of naples and pine trees are a must."
+   }
+  ],
+  "frequencyRank": 25923,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7e7a1aea",
+  "courseId": "en-10-30k",
+  "headword": "videography",
+  "reading": null,
+  "gloss": "ビデオ撮影(の技術)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She started a small business offering wedding videography services.",
+    "translation": "彼女は結婚式のビデオ撮影サービスを提供する小さな会社を始めた。",
+    "cloze": "She started a small business offering wedding ｟＿｠ services.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25924,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x1c1fa50f",
+  "courseId": "en-10-30k",
+  "headword": "vastness",
+  "reading": "/vˈæstnəs/",
+  "gloss": "広大さ、莫大さ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's just the vastness of space makes it look like nothing's happening.",
+    "translation": "宇宙の壮大さのために 動きが見えなくなってしまったんです",
+    "cloze": "it's just the ｟＿｠ of space makes it look like nothing's happening."
+   },
+   {
+    "text": "and look out at the vastness",
+    "translation": "この広大で",
+    "cloze": "and look out at the ｟＿｠"
+   }
+  ],
+  "frequencyRank": 26322,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x60a71629",
+  "courseId": "en-10-30k",
+  "headword": "verdun",
+  "reading": "/vˈɝdən/",
+  "gloss": "ヴェルダン(フランス北東部の都市;第一次世界大戦の激戦地として有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "he's me. before verdun.",
+    "translation": "ベルダン以前の私よ",
+    "cloze": "he's me. before ｟＿｠."
+   },
+   {
+    "text": "and by the time we took verdun... the omega was gone.",
+    "translation": "だが ベルダンでの勝利の後 オメガは去った",
+    "cloze": "and by the time we took ｟＿｠... the omega was gone."
+   }
+  ],
+  "frequencyRank": 26325,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xac1ab5b0",
+  "courseId": "en-10-30k",
+  "headword": "venezuelans",
+  "reading": "/vˌɛnɪzwˈeɪlənz/",
+  "gloss": "ベネズエラ人(々)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Venezuelans have emigrated in recent years.",
+    "translation": "近年、多くのベネズエラ人が国外へ移住した。",
+    "cloze": "Many ｟Venezuelans｠ have emigrated in recent years.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27145,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1b83fc93",
+  "courseId": "en-10-30k",
+  "headword": "vit",
+  "reading": null,
+  "gloss": "ビタミン(vitaminの略記号。例:Vit C)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This juice is rich in Vit C.",
+    "translation": "このジュースはビタミンCが豊富だ。",
+    "cloze": "This juice is rich in ｟Vit｠ C.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27147,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x97e9c8a5",
+  "courseId": "en-10-30k",
+  "headword": "vladivostok",
+  "reading": "/vlˌædɪvˈɔstɑk/",
+  "gloss": "ウラジオストク(ロシア極東の港湾都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "An express train from Moscow to Vladivostok takes six days.",
+    "translation": "モスクワからウラジオストクまで特急列車で6日かかります。",
+    "cloze": "An express train from Moscow to ｟Vladivostok｠ takes six days."
+   },
+   {
+    "text": "Vladivostok is a major Russian port on the Pacific Ocean.",
+    "translation": "ウラジオストクは太平洋に面したロシアの主要な港湾都市だ。",
+    "cloze": "｟Vladivostok｠ is a major Russian port on the Pacific Ocean.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27148,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7bfe329f",
+  "courseId": "en-10-30k",
+  "headword": "vedanta",
+  "reading": null,
+  "gloss": "ヴェーダーンタ（インド哲学の主要な学派）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Vedanta is one of the major schools of Hindu philosophy.",
+    "translation": "ヴェーダーンタはヒンドゥー哲学の主要な学派の一つである。",
+    "cloze": "｟＿｠ is one of the major schools of Hindu philosophy.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many yoga philosophies draw on ideas from Vedanta.",
+    "translation": "多くのヨガ哲学はヴェーダーンタの思想を取り入れている。",
+    "cloze": "Many yoga philosophies draw on ideas from ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27972,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x5b47ae7f",
+  "courseId": "en-10-30k",
+  "headword": "vesta",
+  "reading": "/vˈɛstə/",
+  "gloss": "ベスタ(ローマ神話の炉と家庭の女神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "vesta, roman goddess of the hearth",
+    "translation": "ヴェスタ ローマの炉辺の女神",
+    "cloze": "｟＿｠, roman goddess of the hearth"
+   },
+   {
+    "text": "Vesta was worshipped by the Romans as the goddess of the hearth and home.",
+    "translation": "ベスタは炉と家庭の女神としてローマ人に崇拝された。",
+    "cloze": "｟＿｠ was worshipped by the Romans as the goddess of the hearth and home.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29231,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xfa70f4e4",
+  "courseId": "en-10-30k",
+  "headword": "vagueness",
+  "reading": "/vˈeɪɡnɪs/",
+  "gloss": "曖昧さ,漠然としていること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you're just hiding behind the vagueness of japanese!",
+    "translation": "日本語の曖昧さに 逃げてるだけでしょ!",
+    "cloze": "you're just hiding behind the ｟＿｠ of japanese!"
+   }
+  ],
+  "frequencyRank": 29618,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xec175c3d",
+  "courseId": "en-10-30k",
+  "headword": "virginians",
+  "reading": "/vɚdʒˈɪnjənz/",
+  "gloss": "バージニア州民,バージニア州出身者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Virginians take pride in their state's history.",
+    "translation": "バージニア州民は自分たちの州の歴史に誇りを持っている。",
+    "cloze": "｟＿｠ take pride in their state's history.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29620,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x34d1f368",
+  "courseId": "en-10-30k",
+  "headword": "vivaldi",
+  "reading": "/vɪvˈɑldi/",
+  "gloss": "ヴィヴァルディ(イタリア・バロック期の作曲家、「四季」で有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "vivaldi, cimento dell'armonia.",
+    "translation": "ヴィヴァルディの四季です 特に私は・・・",
+    "cloze": "｟＿｠, cimento dell'armonia."
+   }
+  ],
+  "frequencyRank": 29621,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x4b9b0dc3",
+  "courseId": "en-10-30k",
+  "headword": "vocab",
+  "reading": null,
+  "gloss": "語彙(vocabularyの略式表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the new vocab word from class.",
+    "translation": "新しく習った単語",
+    "cloze": "the new ｟＿｠ word from class."
+   }
+  ],
+  "frequencyRank": 29623,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x89a37902",
+  "courseId": "en-10-30k",
+  "headword": "voicemails",
+  "reading": null,
+  "gloss": "ボイスメール,留守番電話メッセージ(voicemailの複数形)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have three voicemails I haven't listened to yet.",
+    "translation": "まだ聞いていないボイスメールが3件ある。",
+    "cloze": "I have three ｟＿｠ I haven't listened to yet.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29624,
+  "category": "communication"
+ }
+]

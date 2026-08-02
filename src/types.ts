@@ -177,3 +177,16 @@ export interface MetaRow {
   key: string
   value: unknown
 }
+
+/**
+ * 検索して自分で追加した語（docs/word-request-design.md）。表示は追加した本人だけ
+ * （全員共有は不採用・判断ログ 2026-08-02）。VocabCard を丸ごと同梱する（オフラインでも
+ * 再取得なしで使えるようにするため。静的プール／将来の AI 生成のどちらから来た語かは
+ * 問わず同じ形で持つ）。
+ */
+export interface AddedCard {
+  cardId: string
+  courseId: CourseId
+  addedAt: string
+  card: VocabCard
+}

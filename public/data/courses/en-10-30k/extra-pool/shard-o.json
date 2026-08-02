@@ -1,0 +1,4188 @@
+[
+ {
+  "id": "en-10-30k-xb3724598",
+  "courseId": "en-10-30k",
+  "headword": "october",
+  "reading": "/ɑktˈoʊbɚ/",
+  "gloss": "10月",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's October.",
+    "translation": "10月だよ。",
+    "cloze": "It's ｟＿｠."
+   },
+   {
+    "text": "It's almost October.",
+    "translation": "もうすぐ10月だな。",
+    "cloze": "It's almost ｟＿｠."
+   }
+  ],
+  "frequencyRank": 28,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x228389f0",
+  "courseId": "en-10-30k",
+  "headword": "obama",
+  "reading": "/ˌoʊbˈɑmə/",
+  "gloss": "オバマ(バラク・オバマ、第44代米大統領)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I think Obama will win. It'll be a walkover!",
+    "translation": "オバマ氏が勝つと思う。楽勝だよ。",
+    "cloze": "I think ｟＿｠ will win. It'll be a walkover!"
+   },
+   {
+    "text": "Is it just me or does he look a bit like Obama?",
+    "translation": "あの人って、オバマに似てるって思うのは、私だけ？",
+    "cloze": "Is it just me or does he look a bit like ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 85,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x03c75ad4",
+  "courseId": "en-10-30k",
+  "headword": "ohio",
+  "reading": "/oʊhˈaɪoʊ/",
+  "gloss": "オハイオ州(米国中西部の州);オハイオ川",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He was born in Ohio.",
+    "translation": "彼はオハイオ州で生まれた。",
+    "cloze": "He was born in ｟Ohio｠."
+   },
+   {
+    "text": "The Smiths moved to Ohio.",
+    "translation": "スミス一家はオハイオウ州に引っ越した。",
+    "cloze": "The Smiths moved to ｟Ohio｠."
+   }
+  ],
+  "frequencyRank": 184,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x03b3f12c",
+  "courseId": "en-10-30k",
+  "headword": "officially",
+  "reading": "/əfˈɪʃəli/",
+  "gloss": "公式に、正式に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He officially announced himself as a candidate.",
+    "translation": "彼は立候補することを公式に発表した。",
+    "cloze": "He ｟＿｠ announced himself as a candidate."
+   },
+   {
+    "text": "Last month I officially divorced my wife.",
+    "translation": "先月正式に妻と離婚しました。",
+    "cloze": "Last month I ｟＿｠ divorced my wife."
+   }
+  ],
+  "frequencyRank": 239,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x588e8a82",
+  "courseId": "en-10-30k",
+  "headword": "outstanding",
+  "reading": "/ˌaʊtstˈændɪŋ/",
+  "gloss": "目立つ、傑出した；未払いの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She is an outstanding poet.",
+    "translation": "彼女は著名な詩人です。",
+    "cloze": "She is an ｟＿｠ poet."
+   },
+   {
+    "text": "Tom is an outstanding artist.",
+    "translation": "トムはずばぬけたアーティストだ。",
+    "cloze": "Tom is an ｟＿｠ artist."
+   }
+  ],
+  "frequencyRank": 260,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x854f89b7",
+  "courseId": "en-10-30k",
+  "headword": "olympic",
+  "reading": "/oʊlˈɪmpɪk/",
+  "gloss": "オリンピックの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm an Olympic medalist.",
+    "translation": "オリンピックのメダリストです。",
+    "cloze": "I'm an ｟＿｠ medalist."
+   },
+   {
+    "text": "He's an Olympic medal winner.",
+    "translation": "オリンピックのメダリストです。",
+    "cloze": "He's an ｟＿｠ medal winner."
+   }
+  ],
+  "frequencyRank": 274,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xf6f258d3",
+  "courseId": "en-10-30k",
+  "headword": "olympics",
+  "reading": "/oʊlˈɪmpɪks/",
+  "gloss": "オリンピック(4年に一度開催される国際スポーツ大会)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Many countries compete in the Olympics every four years.",
+    "translation": "多くの国が4年に一度オリンピックで競い合う。",
+    "cloze": "Many countries compete in the ｟Olympics｠ every four years.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 315,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x18cd41c4",
+  "courseId": "en-10-30k",
+  "headword": "oxford",
+  "reading": "/ˈɑksfɚd/",
+  "gloss": "オックスフォード(英国の大学都市;オックスフォード大学)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Is this the bus to Oxford?",
+    "translation": "これはオックスフォードへ行くバスですか。",
+    "cloze": "Is this the bus to ｟＿｠?"
+   },
+   {
+    "text": "He was educated at Oxford.",
+    "translation": "彼はオックスフォードで教育を受けた。",
+    "cloze": "He was educated at ｟＿｠."
+   }
+  ],
+  "frequencyRank": 433,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe4ae44c5",
+  "courseId": "en-10-30k",
+  "headword": "oct",
+  "reading": "/ˈɔkt/",
+  "gloss": "10月(Octoberの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The trip starts on Oct. 3rd.",
+    "translation": "旅行は10月3日に始まる。",
+    "cloze": "The trip starts on ｟＿｠. 3rd.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Halloween falls on Oct. 31st every year.",
+    "translation": "ハロウィンは毎年10月31日だ。",
+    "cloze": "Halloween falls on ｟＿｠. 31st every year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 487,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x19420659",
+  "courseId": "en-10-30k",
+  "headword": "ongoing",
+  "reading": "/ˈɑnɡˌoʊɪŋ/",
+  "gloss": "進行中の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The process is ongoing.",
+    "translation": "現在、処理中です。",
+    "cloze": "The process is ｟＿｠."
+   },
+   {
+    "text": "The investigation is ongoing.",
+    "translation": "その調査は進行中です。",
+    "cloze": "The investigation is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 545,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x51846299",
+  "courseId": "en-10-30k",
+  "headword": "oscar",
+  "reading": "/ˈɔskɚ/",
+  "gloss": "オスカー賞、アカデミー賞",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "She's the girl whose performance won an Oscar.",
+    "translation": "彼女は、その演技でオスカーを取った女の子である。",
+    "cloze": "She's the girl whose performance won an ｟＿｠."
+   },
+   {
+    "text": "She won an Oscar nomination for best supporting actress.",
+    "translation": "彼女はアカデミー賞の最優秀助演女優にノミネートされた。",
+    "cloze": "She won an ｟＿｠ nomination for best supporting actress."
+   }
+  ],
+  "frequencyRank": 570,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x93903ae8",
+  "courseId": "en-10-30k",
+  "headword": "oregon",
+  "reading": "/ˈɔɹəɡən/",
+  "gloss": "オレゴン州(米国太平洋岸北部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Mr. Brown, a friend from Oregon, will visit us tomorrow.",
+    "translation": "オレゴンの友人のブラウン氏があす私たちを訪ねてきます。",
+    "cloze": "Mr. Brown, a friend from ｟＿｠, will visit us tomorrow."
+   },
+   {
+    "text": "Portland is the largest city in Oregon.",
+    "translation": "ポートランドはオレゴン州最大の都市です。",
+    "cloze": "Portland is the largest city in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 589,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3f0d9d9a",
+  "courseId": "en-10-30k",
+  "headword": "oklahoma",
+  "reading": "/ˌoʊkləhˈoʊmə/",
+  "gloss": "オクラホマ州（米国南中部の州）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Oklahoma is a state in the south-central United States.",
+    "translation": "オクラホマ州はアメリカ南中部の州です。",
+    "cloze": "｟＿｠ is a state in the south-central United States.",
+    "aiGenerated": true
+   },
+   {
+    "text": "They moved to Oklahoma last year.",
+    "translation": "彼らは去年オクラホマに引っ越した。",
+    "cloze": "They moved to ｟＿｠ last year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 664,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd7ca7d5c",
+  "courseId": "en-10-30k",
+  "headword": "outdoor",
+  "reading": "/ˈaʊtdˌɔɹ/",
+  "gloss": "戸外の、野外の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Rugby is an outdoor game.",
+    "translation": "ラグビーは屋外競技である。",
+    "cloze": "Rugby is an ｟＿｠ game."
+   },
+   {
+    "text": "He is playing outdoors.",
+    "translation": "彼は外で遊んでいます。",
+    "cloze": "He is playing ｟＿｠."
+   }
+  ],
+  "frequencyRank": 780,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x328e79c7",
+  "courseId": "en-10-30k",
+  "headword": "outfit",
+  "reading": "/ˈaʊtfˌɪt/",
+  "gloss": "服装一式、衣装;道具一式;(話)集団、会社",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love your outfit.",
+    "translation": "その服いいね。",
+    "cloze": "I love your ｟＿｠."
+   },
+   {
+    "text": "That's a nice outfit.",
+    "translation": "素敵な服ですね。",
+    "cloze": "That's a nice ｟＿｠."
+   }
+  ],
+  "frequencyRank": 819,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x46037e33",
+  "courseId": "en-10-30k",
+  "headword": "ontario",
+  "reading": "/ɑntˈɛɹioʊ/",
+  "gloss": "オンタリオ(カナダ南部の州；オンタリオ湖)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This river runs into Lake Ontario.",
+    "translation": "この川はオンタリオ湖に流れ込む。",
+    "cloze": "This river runs into Lake ｟＿｠."
+   },
+   {
+    "text": "listen, i'm walking through ontario airport",
+    "translation": "オンタリオ空港を歩いて、",
+    "cloze": "listen, i'm walking through ｟＿｠ airport"
+   }
+  ],
+  "frequencyRank": 851,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x50f9ba10",
+  "courseId": "en-10-30k",
+  "headword": "operational",
+  "reading": "/ˌɑpɚˈeɪʃənəl/",
+  "gloss": "操作上の、運用上の；使用可能な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The plane is now operational.",
+    "translation": "その飛行機はいつでも使えます。",
+    "cloze": "The plane is now ｟＿｠."
+   },
+   {
+    "text": "VISUACT supports flexibly the varied environments and needs of our customers and offers a variety of operational procedures.",
+    "translation": "VISUACTは、お客様の多様な環境やニーズにも柔軟に対応し、さまざまな運用方法をご提供します。",
+    "cloze": "VISUACT supports flexibly the varied environments and needs of our customers and offers a variety of ｟＿｠ procedures."
+   }
+  ],
+  "frequencyRank": 852,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x0fe3209c",
+  "courseId": "en-10-30k",
+  "headword": "overnight",
+  "reading": "/ˈoʊvɚnˈaɪt/",
+  "gloss": "一晩じゅう、夜通し、一夜のうちに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "We stayed overnight in Hakone.",
+    "translation": "私たちは箱根で一泊した。",
+    "cloze": "We stayed ｟overnight｠ in Hakone."
+   },
+   {
+    "text": "The stock has gone down overnight.",
+    "translation": "株式は一晩のうちに下がった。",
+    "cloze": "The stock has gone down ｟overnight｠."
+   }
+  ],
+  "frequencyRank": 911,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x0bdd6834",
+  "courseId": "en-10-30k",
+  "headword": "oak",
+  "reading": "/ˈoʊk/",
+  "gloss": "オークの木、オーク材",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's an oak tree.",
+    "translation": "楢です。",
+    "cloze": "It's an ｟oak｠ tree."
+   },
+   {
+    "text": "From acorns come oaks.",
+    "translation": "どんぐりからオークが生まれる。",
+    "cloze": "From acorns come ｟oaks｠."
+   }
+  ],
+  "frequencyRank": 946,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x156a2022",
+  "courseId": "en-10-30k",
+  "headword": "occasional",
+  "reading": "/əkˈeɪʒənəl/",
+  "gloss": "時たまの、時折の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It was cloudy, with occasional rain.",
+    "translation": "曇り時々雨でした。",
+    "cloze": "It was cloudy, with ｟＿｠ rain."
+   },
+   {
+    "text": "I have occasional pains in the stomach.",
+    "translation": "時々、胃が痛むんだ。",
+    "cloze": "I have ｟＿｠ pains in the stomach."
+   }
+  ],
+  "frequencyRank": 1161,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x471d3036",
+  "courseId": "en-10-30k",
+  "headword": "openly",
+  "reading": "/ˈoʊpənli/",
+  "gloss": "公然と、あからさまに；率直に、包み隠さず",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He openly confessed his faults.",
+    "translation": "彼は過ちをあからさまに白状した。",
+    "cloze": "He ｟openly｠ confessed his faults."
+   },
+   {
+    "text": "Secret gifts are openly rewarded.",
+    "translation": "陰徳あれば陽報あり。",
+    "cloze": "Secret gifts are ｟openly｠ rewarded."
+   }
+  ],
+  "frequencyRank": 1201,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x94f19bbe",
+  "courseId": "en-10-30k",
+  "headword": "olive",
+  "reading": "/ˈɑləv/",
+  "gloss": "オリーブ（の木・実）；オリーブ色の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Add olive oil.",
+    "translation": "オリーブオイルを足して。",
+    "cloze": "Add ｟olive｠ oil."
+   },
+   {
+    "text": "Do you like olive oil?",
+    "translation": "オリーブオイルは好きですか？",
+    "cloze": "Do you like ｟olive｠ oil?"
+   }
+  ],
+  "frequencyRank": 1273,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xf52a1cc5",
+  "courseId": "en-10-30k",
+  "headword": "omg",
+  "reading": null,
+  "gloss": "ああ、なんてこと(oh my godの略・驚きの表現)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "omg a n00b pwned me!",
+    "translation": "何てこった、初心者にやられた！",
+    "cloze": "｟omg｠ a n00b pwned me!"
+   },
+   {
+    "text": "OMG, I can't believe it!",
+    "translation": "うそでしょ、信じられない！",
+    "cloze": "｟OMG｠, I can't believe it!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1442,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x3aabcbf9",
+  "courseId": "en-10-30k",
+  "headword": "oven",
+  "reading": "/ˈʌvən/",
+  "gloss": "オーブン、天火",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I want a new oven.",
+    "translation": "新しいオーブンが欲しいな。",
+    "cloze": "I want a new ｟oven｠."
+   },
+   {
+    "text": "The oven is broken.",
+    "translation": "オーブンが壊れた。",
+    "cloze": "The ｟oven｠ is broken."
+   }
+  ],
+  "frequencyRank": 1443,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x6a2364a6",
+  "courseId": "en-10-30k",
+  "headword": "orlando",
+  "reading": "/ɔɹlˈændˌoʊ/",
+  "gloss": "オーランド(米フロリダ州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this underwater keyboard in orlando, florida",
+    "translation": "フロリダ州オーランド エプコットセンターの",
+    "cloze": "this underwater keyboard in ｟orlando｠, florida"
+   },
+   {
+    "text": "yeah. the humidity in orlando is brutal",
+    "translation": "オーランドの湿度は残酷だ",
+    "cloze": "yeah. the humidity in ｟orlando｠ is brutal"
+   }
+  ],
+  "frequencyRank": 1492,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xde274c68",
+  "courseId": "en-10-30k",
+  "headword": "orbit",
+  "reading": "/ˈɔɹbət/",
+  "gloss": "軌道;(活動などの)範囲;軌道を回る",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The satellite is now in orbit.",
+    "translation": "衛星は今軌道に乗っている。",
+    "cloze": "The satellite is now in ｟＿｠."
+   },
+   {
+    "text": "The ESA put a satellite into orbit.",
+    "translation": "欧州宇宙機関が人工衛星を軌道に乗せました。",
+    "cloze": "The ESA put a satellite into ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1541,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x5e810521",
+  "courseId": "en-10-30k",
+  "headword": "orchestra",
+  "reading": "/ˈɔɹkəstɹə/",
+  "gloss": "オーケストラ、管弦楽団",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A conductor directs an orchestra.",
+    "translation": "指揮者はオーケストラの指揮をする。",
+    "cloze": "A conductor directs an ｟＿｠."
+   },
+   {
+    "text": "I'm going to join the school orchestra.",
+    "translation": "学校のオーケストラに入るつもりなのだ。",
+    "cloze": "I'm going to join the school ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1636,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xa0a3c78f",
+  "courseId": "en-10-30k",
+  "headword": "ottawa",
+  "reading": "/ˈɑtəwˌɑ/",
+  "gloss": "オタワ(カナダの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Ottawa is the capital of Canada.",
+    "translation": "オタワはカナダの首都です。",
+    "cloze": "｟＿｠ is the capital of Canada."
+   },
+   {
+    "text": "and the ottawa valley step dancing",
+    "translation": "オタワ・バレー・ステップダンスも",
+    "cloze": "and the ｟＿｠ valley step dancing"
+   }
+  ],
+  "frequencyRank": 1806,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8750e908",
+  "courseId": "en-10-30k",
+  "headword": "oval",
+  "reading": "/ˈoʊvəl/",
+  "gloss": "卵形の、長円形の;卵形のもの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "An egg is not round but oval.",
+    "translation": "卵は、真ん丸ではなく楕円です。",
+    "cloze": "An egg is not round but ｟＿｠."
+   },
+   {
+    "text": "Especially remarkable was her oval face.",
+    "translation": "とりわけ人目をひいたのは、彼女の卵型の顔立ちだった。",
+    "cloze": "Especially remarkable was her ｟＿｠ face."
+   }
+  ],
+  "frequencyRank": 1807,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x97dea973",
+  "courseId": "en-10-30k",
+  "headword": "oakland",
+  "reading": "/ˈoʊklənd/",
+  "gloss": "オークランド(米国カリフォルニア州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I visited American friends in Oakland.",
+    "translation": "私はオークランドに住むアメリカの友人を訪ねた。",
+    "cloze": "I visited American friends in ｟＿｠."
+   },
+   {
+    "text": "Oakland is located across the bay from San Francisco.",
+    "translation": "オークランドはサンフランシスコの対岸に位置しています。",
+    "cloze": "｟＿｠ is located across the bay from San Francisco.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2180,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x74deb48a",
+  "courseId": "en-10-30k",
+  "headword": "optional",
+  "reading": "/ˈɑpʃənəl/",
+  "gloss": "選択自由の、任意の、オプションの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "An air conditioner is available as an optional extra.",
+    "translation": "エアコンはオプションの付属品です。",
+    "cloze": "An air conditioner is available as an ｟＿｠ extra."
+   },
+   {
+    "text": "black tie optional.",
+    "translation": "黒ネクタイは任意だ",
+    "cloze": "black tie ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2248,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xf32b72ca",
+  "courseId": "en-10-30k",
+  "headword": "onion",
+  "reading": "/ˈʌnjən/",
+  "gloss": "タマネギ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I hate onions.",
+    "translation": "玉ねぎが嫌い。",
+    "cloze": "I hate ｟＿｠."
+   },
+   {
+    "text": "I love onions.",
+    "translation": "玉ねぎ、大好きなのよね。",
+    "cloze": "I love ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2399,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xe9be2df2",
+  "courseId": "en-10-30k",
+  "headword": "obstacle",
+  "reading": "/ˈɑbstəkəl/",
+  "gloss": "(…に対する)障害[物],邪魔[物]",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He met an unexpected obstacle.",
+    "translation": "彼は予期せぬ障害に出会った。",
+    "cloze": "He met an unexpected ｟＿｠."
+   },
+   {
+    "text": "He has overcome many obstacles.",
+    "translation": "彼は多くの困難を克服した。",
+    "cloze": "He has overcome many ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2462,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xdb9f35d6",
+  "courseId": "en-10-30k",
+  "headword": "opener",
+  "reading": "/ˈoʊpənɚ/",
+  "gloss": "開ける道具(栓抜きなど);開ける人;(番組・試合の)最初のもの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I need a bottle opener.",
+    "translation": "栓抜きがいるね。",
+    "cloze": "I need a bottle ｟＿｠."
+   },
+   {
+    "text": "Is that a bottle opener?",
+    "translation": "それって栓抜きなの？",
+    "cloze": "Is that a bottle ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 2463,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x95047f14",
+  "courseId": "en-10-30k",
+  "headword": "owl",
+  "reading": "/ˈaʊl/",
+  "gloss": "フクロウ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Owls are cute.",
+    "translation": "フクロウって可愛い。",
+    "cloze": "｟＿｠ are cute."
+   },
+   {
+    "text": "Baby owls are cute.",
+    "translation": "フクロウの赤ちゃんって、かわいい。",
+    "cloze": "Baby ｟＿｠ are cute."
+   }
+  ],
+  "frequencyRank": 2523,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xb2b71971",
+  "courseId": "en-10-30k",
+  "headword": "obey",
+  "reading": "/oʊbˈeɪ/",
+  "gloss": "〈人・命令〉に従う、服従する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "She obeys him.",
+    "translation": "彼女は彼の言いなりだ。",
+    "cloze": "She ｟obeys｠ him."
+   },
+   {
+    "text": "Don't obey him.",
+    "translation": "あの男の言うことに従ってはいけない。",
+    "cloze": "Don't ｟obey｠ him."
+   }
+  ],
+  "frequencyRank": 2790,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x3521bdaf",
+  "courseId": "en-10-30k",
+  "headword": "overly",
+  "reading": "/ˈoʊvɚli/",
+  "gloss": "過度に、あまりに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "You're overly funny!",
+    "translation": "おかしすぎる！あなたって、面白い人ね。",
+    "cloze": "You're ｟overly｠ funny!"
+   },
+   {
+    "text": "Your perfume is overly strong.",
+    "translation": "香水が強すぎるよ。",
+    "cloze": "Your perfume is ｟overly｠ strong."
+   }
+  ],
+  "frequencyRank": 2794,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xe4a8f4fb",
+  "courseId": "en-10-30k",
+  "headword": "ounce",
+  "reading": "/ˈaʊns/",
+  "gloss": "オンス(重量単位)；少量",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Cook about 12 ounces of rice.",
+    "translation": "お米2合炊いといて。",
+    "cloze": "Cook about 12 ｟＿｠ of rice."
+   },
+   {
+    "text": "An ounce of prevention is worth a pound of cure.",
+    "translation": "予防は治療にまさる。",
+    "cloze": "An ｟＿｠ of prevention is worth a pound of cure."
+   }
+  ],
+  "frequencyRank": 3028,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xd44fa8b6",
+  "courseId": "en-10-30k",
+  "headword": "ooh",
+  "reading": "/ˈu/",
+  "gloss": "驚きや感嘆を表す間投詞「おお」「わあ」",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "“Ooh, those fish cakes look tasty! Can I try them?” “No, don’t! They’re for New Year’s!” “Jeez, stingy much?”",
+    "translation": "「美味しそうな蒲鉾みっけ。食べていい？」「ダメよ。お節用なんだから」「けち」",
+    "cloze": "“｟＿｠, those fish cakes look tasty! Can I try them?” “No, don’t! They’re for New Year’s!” “Jeez, stingy much?”"
+   },
+   {
+    "text": "Just when she said \"Ooh, what a beautiful star,\" a star fell across the sky and a blue light quickly fainted in a diagonal trajectory, dragging behind a faint tail.",
+    "translation": "「ああ。きれいなお星様」 　呟いた時、ふと星が流れて、青い光がすっと斜に、あえかな尾を引いて、消えた。",
+    "cloze": "Just when she said \"｟＿｠, what a beautiful star,\" a star fell across the sky and a blue light quickly fainted in a diagonal trajectory, dragging behind a faint tail."
+   }
+  ],
+  "frequencyRank": 3356,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x1a5fb9e1",
+  "courseId": "en-10-30k",
+  "headword": "overweight",
+  "reading": "/ˌoʊvɚwˈeɪt/",
+  "gloss": "太り過ぎの、重量超過の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He is overweight.",
+    "translation": "彼は肥満体だ。",
+    "cloze": "He is ｟＿｠."
+   },
+   {
+    "text": "I think Tom is overweight.",
+    "translation": "トムって太りすぎだと思う。",
+    "cloze": "I think Tom is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3549,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x7dde1b36",
+  "courseId": "en-10-30k",
+  "headword": "oops",
+  "reading": "/ˈups/",
+  "gloss": "おっと、しまった",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Oops, my pen has run out of ink.",
+    "translation": "おっと、僕のペンのインクがきれちゃったよ。",
+    "cloze": "｟＿｠, my pen has run out of ink."
+   },
+   {
+    "text": "Oops, I shrunk my sister's favorite hoodie.",
+    "translation": "しまった！姉ちゃんの好きなパーカー縮んじゃった！",
+    "cloze": "｟＿｠, I shrunk my sister's favorite hoodie."
+   }
+  ],
+  "frequencyRank": 3638,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x4b7566e7",
+  "courseId": "en-10-30k",
+  "headword": "occupational",
+  "reading": "/ɑkjəpˈeɪʃənəl/",
+  "gloss": "職業の,職業上の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Demand for occupational therapy has surged in recent years.",
+    "translation": "近年作業療法の需要は急速に高まった。",
+    "cloze": "Demand for ｟occupational｠ therapy has surged in recent years."
+   },
+   {
+    "text": "why would you ever choose a career where this was an occupational hazard?",
+    "translation": "なぜ君は 一生の仕事に選んだんだ この種の 職業上の危険?",
+    "cloze": "why would you ever choose a career where this was an ｟occupational｠ hazard?"
+   }
+  ],
+  "frequencyRank": 3736,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x2746a051",
+  "courseId": "en-10-30k",
+  "headword": "outdoors",
+  "reading": "/ˈaʊtdˈɔɹz/",
+  "gloss": "戸外で、屋外で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "We like to play outdoors.",
+    "translation": "私たちは外で遊ぶのが好きです。",
+    "cloze": "We like to play ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "It's a beautiful day, so let's eat outdoors.",
+    "translation": "今日はいい天気だから外で食事をしましょう。",
+    "cloze": "It's a beautiful day, so let's eat ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3838,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x35cf3df8",
+  "courseId": "en-10-30k",
+  "headword": "ottoman",
+  "reading": "/ˈɑtəmən/",
+  "gloss": "オスマン帝国の、トルコ人の；(o-)背もたれのない長椅子",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Constantinople fell to the hands of the Ottoman Turks in 1453.",
+    "translation": "1453年、コンスタンティノープルはオスマン帝国の手に渡った。",
+    "cloze": "Constantinople fell to the hands of the ｟Ottoman｠ Turks in 1453."
+   },
+   {
+    "text": "and that's why the ottoman empire in its last decades",
+    "translation": "それゆえ、オスマントルコの最後の何十年間は、",
+    "cloze": "and that's why the ｟ottoman｠ empire in its last decades"
+   }
+  ],
+  "frequencyRank": 4775,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x69a0d4fc",
+  "courseId": "en-10-30k",
+  "headword": "omaha",
+  "reading": "/ˈoʊməhˌɑ/",
+  "gloss": "オマハ(米国ネブラスカ州最大の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in omaha?",
+    "translation": "オマハに行くんですか?",
+    "cloze": "in ｟＿｠?"
+   },
+   {
+    "text": "Omaha is the largest city in the state of Nebraska.",
+    "translation": "オマハはネブラスカ州最大の都市です。",
+    "cloze": "｟＿｠ is the largest city in the state of Nebraska.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4881,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x58f5310b",
+  "courseId": "en-10-30k",
+  "headword": "ohh",
+  "reading": "/ˈoʊ/",
+  "gloss": "おお,あら(驚き・感嘆を表す間投詞。ohのくだけた表記)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "the teacher is also welcome! ohh ... oh thanks.",
+    "translation": "先生も はいどうぞ! おっ... おう ありがとよ。",
+    "cloze": "the teacher is also welcome! ｟＿｠ ... oh thanks."
+   },
+   {
+    "text": "ohh... i thought you were dead.",
+    "translation": "死んだのかと・・・。",
+    "cloze": "｟＿｠... i thought you were dead."
+   }
+  ],
+  "frequencyRank": 5014,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xdbd3208c",
+  "courseId": "en-10-30k",
+  "headword": "oscars",
+  "reading": "/ˈɔskɚz/",
+  "gloss": "アカデミー賞(米国の映画賞;愛称オスカー)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Oscars are held every year in Los Angeles.",
+    "translation": "アカデミー賞授賞式は毎年ロサンゼルスで開催される。",
+    "cloze": "The ｟＿｠ are held every year in Los Angeles.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He was nominated for an Oscar but didn't win.",
+    "translation": "彼はアカデミー賞にノミネートされたが、受賞はしなかった。",
+    "cloze": "He was nominated for an ｟＿｠ but didn't win.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5017,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x8d900e37",
+  "courseId": "en-10-30k",
+  "headword": "overhaul",
+  "reading": "/ˈoʊvɚhˌɔl/",
+  "gloss": "分解修理する、オーバーホールする；(組織などを)徹底的に見直す／(名詞)分解修理、全面的な改革",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The car needs a complete engine overhaul.",
+    "translation": "その車はエンジンの全面的なオーバーホールが必要だ。",
+    "cloze": "The car needs a complete engine ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The government promised a major overhaul of the healthcare system.",
+    "translation": "政府は医療制度の抜本的な改革を約束した。",
+    "cloze": "The government promised a major ｟＿｠ of the healthcare system.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5137,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xbf54e436",
+  "courseId": "en-10-30k",
+  "headword": "orphan",
+  "reading": "/ˈɔɹfən/",
+  "gloss": "孤児",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is an orphan.",
+    "translation": "トムは孤児です。",
+    "cloze": "Tom is an ｟＿｠."
+   },
+   {
+    "text": "He is a war orphan.",
+    "translation": "彼は戦災孤児だ。",
+    "cloze": "He is a war ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5240,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x34e750ad",
+  "courseId": "en-10-30k",
+  "headword": "orchard",
+  "reading": "/ˈɔɹtʃɚd/",
+  "gloss": "果樹園",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They robbed my orchard.",
+    "translation": "彼らは私の果実園を荒らした。",
+    "cloze": "They robbed my ｟＿｠."
+   },
+   {
+    "text": "I caught him stealing pears in the orchard.",
+    "translation": "私は彼が果樹園でナシを盗んでいるところを見つけた。",
+    "cloze": "I caught him stealing pears in the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5355,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x1cd4d8b5",
+  "courseId": "en-10-30k",
+  "headword": "overdose",
+  "reading": "/ˈoʊvɚdˌoʊs/",
+  "gloss": "(薬などの)過剰摂取、飲み過ぎ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom died of a drug overdose in 2013.",
+    "translation": "トムは薬物の過剰摂取で2013年に死亡した。",
+    "cloze": "Tom died of a drug ｟＿｠ in 2013."
+   },
+   {
+    "text": "The addict died from a drug overdose.",
+    "translation": "その中毒者は麻薬の過剰摂取で死んだ。",
+    "cloze": "The addict died from a drug ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5356,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xc9c8cf84",
+  "courseId": "en-10-30k",
+  "headword": "oasis",
+  "reading": "/oʊˈeɪsɪs/",
+  "gloss": "オアシス、砂漠の緑地；(一般に)憩いの場所",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We saw what looked like an oasis in the desert.",
+    "translation": "私たちは砂漠でオアシスとおぼしきものを見た。",
+    "cloze": "We saw what looked like an ｟oasis｠ in the desert."
+   },
+   {
+    "text": "The small café was an oasis of calm in the busy city.",
+    "translation": "その小さなカフェは忙しい街の中の安らぎのオアシスだった。",
+    "cloze": "The small café was an ｟oasis｠ of calm in the busy city.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5465,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xc54bce71",
+  "courseId": "en-10-30k",
+  "headword": "osaka",
+  "reading": "/oʊsˈɑkə/",
+  "gloss": "大阪(日本の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I live in Osaka.",
+    "translation": "大阪に住んでいます。",
+    "cloze": "I live in ｟Osaka｠."
+   },
+   {
+    "text": "He lives in Osaka.",
+    "translation": "大阪に住んでいます。",
+    "cloze": "He lives in ｟Osaka｠."
+   }
+  ],
+  "frequencyRank": 5469,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb43095cc",
+  "courseId": "en-10-30k",
+  "headword": "ouch",
+  "reading": "/ˈaʊtʃ/",
+  "gloss": "痛い!(突然の痛みを表す感嘆詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Ouch!",
+    "translation": "痛！",
+    "cloze": "｟Ouch｠!"
+   },
+   {
+    "text": "Ouch! My foot!",
+    "translation": "あいたっ！足が！",
+    "cloze": "｟Ouch｠! My foot!"
+   }
+  ],
+  "frequencyRank": 5470,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x3c0f97a1",
+  "courseId": "en-10-30k",
+  "headword": "outsider",
+  "reading": "/aʊtsˈaɪdɚ/",
+  "gloss": "局外者、部外者；(競馬などで)本命外の馬",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I was an outsider.",
+    "translation": "私は部外者だった。",
+    "cloze": "I was an ｟outsider｠."
+   },
+   {
+    "text": "Stop treating us like outsiders.",
+    "translation": "よそ者扱いするのは止めてよ。",
+    "cloze": "Stop treating us like ｟outsiders｠."
+   }
+  ],
+  "frequencyRank": 5471,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2b685fd1",
+  "courseId": "en-10-30k",
+  "headword": "oyster",
+  "reading": "/ˈɔɪstɚ/",
+  "gloss": "カキ(牡蠣)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He loves oysters.",
+    "translation": "牡蠣が大好物なのよ。",
+    "cloze": "He loves ｟＿｠."
+   },
+   {
+    "text": "Do you like oysters?",
+    "translation": "牡蠣はお好きですか？",
+    "cloze": "Do you like ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 5737,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x324bff5b",
+  "courseId": "en-10-30k",
+  "headword": "oslo",
+  "reading": "/ˈɑzloʊ/",
+  "gloss": "オスロ(ノルウェーの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I've never been to Oslo.",
+    "translation": "オスロに行ったことがない。",
+    "cloze": "I've never been to ｟＿｠."
+   },
+   {
+    "text": "she's having a blast in oslo.",
+    "translation": "オスロでパーティーとか コンサートとか",
+    "cloze": "she's having a blast in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6115,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7b3c7b38",
+  "courseId": "en-10-30k",
+  "headword": "outlaw",
+  "reading": "/ˈaʊtlˌɔ/",
+  "gloss": "無法者、常習犯;…を非合法とする、禁止する",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The government acted boldly to deal with the outlaw uprising.",
+    "translation": "政府は無法者たちの激突に対して大胆に対処した。",
+    "cloze": "The government acted boldly to deal with the ｟＿｠ uprising."
+   },
+   {
+    "text": "we're outlaws. outlaws steal.",
+    "translation": "俺達は無法者だからな 無法者の盗人",
+    "cloze": "we're ｟＿｠. ｟＿｠ steal."
+   }
+  ],
+  "frequencyRank": 6116,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x0054a351",
+  "courseId": "en-10-30k",
+  "headword": "overdue",
+  "reading": "/ˈoʊvɚdˈu/",
+  "gloss": "(期限・予定より)遅れている,支払期限が過ぎた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The train is 30 minutes overdue.",
+    "translation": "列車は３０分遅れている。",
+    "cloze": "The train is 30 minutes ｟＿｠."
+   },
+   {
+    "text": "Your payment is now two months overdue.",
+    "translation": "お支払いが２ヶ月遅れています。",
+    "cloze": "Your payment is now two months ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6256,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3d320d33",
+  "courseId": "en-10-30k",
+  "headword": "overload",
+  "reading": "/ˈoʊvɚlˌoʊd/",
+  "gloss": "積み(負わせ)過ぎる,過充電する;過負荷,積み過ぎ",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The boat was off balance because it was overloaded.",
+    "translation": "ボートは定員オーバーでバランスを失った。",
+    "cloze": "The boat was off balance because it was ｟＿｠."
+   },
+   {
+    "text": "the warning about inadvertent overload?",
+    "translation": "不注意によるオーバーロード についての警告文です",
+    "cloze": "the warning about inadvertent ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 6257,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xe963f0a5",
+  "courseId": "en-10-30k",
+  "headword": "odor",
+  "reading": "/ˈoʊdɚ/",
+  "gloss": "におい、臭気",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It has a pleasant odor.",
+    "translation": "それはいい匂いがする。",
+    "cloze": "It has a pleasant ｟＿｠."
+   },
+   {
+    "text": "Garlic gives off a strong odor.",
+    "translation": "にんにくは強いにおいを放つ。",
+    "cloze": "Garlic gives off a strong ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6391,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x20df6f91",
+  "courseId": "en-10-30k",
+  "headword": "overwatch",
+  "reading": null,
+  "gloss": "(軍事)警戒監視、掩護任務",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "no, can't do that. we need you on overwatch.",
+    "translation": "アンタは屋根から 監視だ",
+    "cloze": "no, can't do that. we need you on ｟＿｠."
+   },
+   {
+    "text": "weimy and i are in good overwatch position, and i got to keep reporting back to blackbeard main.",
+    "translation": "ワイミーの狙撃の補助、 本部への報告をする",
+    "cloze": "weimy and i are in good ｟＿｠ position, and i got to keep reporting back to blackbeard main."
+   }
+  ],
+  "frequencyRank": 6394,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x38fe8abc",
+  "courseId": "en-10-30k",
+  "headword": "onstage",
+  "reading": "/ˌɑnstˈeɪdʒ/",
+  "gloss": "舞台の上で(に)、舞台上の",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "The actor was onstage for most of the play.",
+    "translation": "その男優は劇の間中ほとんど舞台上にいた。",
+    "cloze": "The actor was ｟onstage｠ for most of the play."
+   },
+   {
+    "text": "onstage, having the time of my life.",
+    "translation": "ステージで楽しむ私です。",
+    "cloze": "｟onstage｠, having the time of my life."
+   }
+  ],
+  "frequencyRank": 6666,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xa43d4763",
+  "courseId": "en-10-30k",
+  "headword": "octopus",
+  "reading": "/ˈɑktəpˌʊs/",
+  "gloss": "タコ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The octopus is in the sea.",
+    "translation": "たこは海にいる。",
+    "cloze": "The ｟octopus｠ is in the sea."
+   },
+   {
+    "text": "Octopuses are blue-blooded.",
+    "translation": "タコは血が青いです。",
+    "cloze": "｟Octopuses｠ are blue-blooded."
+   }
+  ],
+  "frequencyRank": 6798,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x73e9c628",
+  "courseId": "en-10-30k",
+  "headword": "oecd",
+  "reading": "/ˌoʊˌisˌidˈi/",
+  "gloss": "経済協力開発機構(OECD)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "In the OECD survey, northern European countries are keeping their high ranking in tax-rates.",
+    "translation": "ＯＥＣＤの調査で北欧諸国が税率において世界の上位をキープした。",
+    "cloze": "In the ｟＿｠ survey, northern European countries are keeping their high ranking in tax-rates."
+   },
+   {
+    "text": "oecd countries, by and large, you should think about these",
+    "translation": "oecd諸国は概して 裕福な先進工業国と言えるでしょう",
+    "cloze": "｟＿｠ countries, by and large, you should think about these"
+   }
+  ],
+  "frequencyRank": 7078,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x2d01b481",
+  "courseId": "en-10-30k",
+  "headword": "orderly",
+  "reading": "/ˈɔɹdɚli/",
+  "gloss": "整然とした、規則正しい、行儀のよい;(病院の)雑役夫、当番兵",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I have an orderly lifestyle.",
+    "translation": "私は規則正しい生活をしている。",
+    "cloze": "I have an ｟＿｠ lifestyle."
+   },
+   {
+    "text": "In Japan, you can see the orderly lines at stations.",
+    "translation": "日本では駅での整然とした行列を見ることができる。",
+    "cloze": "In Japan, you can see the ｟＿｠ lines at stations."
+   }
+  ],
+  "frequencyRank": 7080,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x5bc1e6e7",
+  "courseId": "en-10-30k",
+  "headword": "orion",
+  "reading": "/oʊɹˈaɪən/",
+  "gloss": "オリオン座;オリオン(ギリシャ神話の狩人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I know nothing about constellations. I can only recognize Orion and Cassiopeia. Oh, and the Big Dipper, too.",
+    "translation": "星座は全然詳しくないな。オリオン座とカシオペア座くらいしか見てもわからない。あと北斗七星もわかる。",
+    "cloze": "I know nothing about constellations. I can only recognize ｟＿｠ and Cassiopeia. Oh, and the Big Dipper, too."
+   },
+   {
+    "text": "Orion is one of the most recognizable constellations in the night sky.",
+    "translation": "オリオン座は夜空で最も見分けやすい星座の一つです。",
+    "cloze": "｟＿｠ is one of the most recognizable constellations in the night sky.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7081,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb56068b7",
+  "courseId": "en-10-30k",
+  "headword": "offseason",
+  "reading": "/ˈɔfsˈizən/",
+  "gloss": "オフシーズン、閑散期",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "to be able to grow crops in the offseason.",
+    "translation": "オフシーズンでも作物を育てられるようになります",
+    "cloze": "to be able to grow crops in the ｟＿｠."
+   },
+   {
+    "text": "Many hotels lower their prices during the offseason.",
+    "translation": "多くのホテルはオフシーズンには値段を下げる。",
+    "cloze": "Many hotels lower their prices during the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7245,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x136474f8",
+  "courseId": "en-10-30k",
+  "headword": "oat",
+  "reading": "/ˈoʊt/",
+  "gloss": "カラスムギ、オートムギ、エンバク",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I eat oats for breakfast every morning.",
+    "translation": "私は毎朝朝食にオートミールを食べる。",
+    "cloze": "I eat ｟oats｠ for breakfast every morning.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Oats are a healthy source of fiber.",
+    "translation": "オーツ麦は食物繊維の健康的な摂取源だ。",
+    "cloze": "｟Oats｠ are a healthy source of fiber.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7650,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x8ce55a8c",
+  "courseId": "en-10-30k",
+  "headword": "openness",
+  "reading": "/ˈoʊpənnəs/",
+  "gloss": "開放性、率直さ、心の広さ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "His openness is a very positive quality, although not without its drawbacks.",
+    "translation": "彼の寛容さは、難点が無いわけではないが、とても良い性向である。",
+    "cloze": "His ｟openness｠ is a very positive quality, although not without its drawbacks."
+   },
+   {
+    "text": "it increases our openness to change.",
+    "translation": "変化を容認するようになります",
+    "cloze": "it increases our ｟openness｠ to change."
+   }
+  ],
+  "frequencyRank": 7652,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x5d5c091b",
+  "courseId": "en-10-30k",
+  "headword": "oooh",
+  "reading": "/ˈu/",
+  "gloss": "おおっ、うわあ（驚き・落胆などを表す間投詞）",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Oooh, sick! What is that stuff? It's all spongy.",
+    "translation": "なんかそれ、ブヨブヨしていて気持ち悪いね。",
+    "cloze": "｟＿｠, sick! What is that stuff? It's all spongy."
+   },
+   {
+    "text": "Oooh, get a move on. We'll end up late! Come on, I'll tie your shoelaces for you.",
+    "translation": "も～う、モタモタしないの。遅刻になっちゃうでしょ。ほら、紐、結んであげる。",
+    "cloze": "｟＿｠, get a move on. We'll end up late! Come on, I'll tie your shoelaces for you."
+   }
+  ],
+  "frequencyRank": 7809,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xc703cd5f",
+  "courseId": "en-10-30k",
+  "headword": "ornament",
+  "reading": "/ˈɔɹnəmənt/",
+  "gloss": "装飾品、飾り；(…を)飾る",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It is merely an ornament.",
+    "translation": "それは飾りにすぎない。",
+    "cloze": "It is merely an ｟＿｠."
+   },
+   {
+    "text": "The bedroom was laden with beautiful ornaments.",
+    "translation": "その寝室には、美しい装飾品がいっぱいあった。",
+    "cloze": "The bedroom was laden with beautiful ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7810,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x02688171",
+  "courseId": "en-10-30k",
+  "headword": "overflow",
+  "reading": "/ˈoʊvɚflˌoʊ/",
+  "gloss": "あふれる、氾濫する；(あふれた)超過分",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "It overflows into a paper cup.",
+    "translation": "ペーパー・カップの中へとあふれでていく。",
+    "cloze": "It ｟＿｠ into a paper cup."
+   },
+   {
+    "text": "This river is going to overflow.",
+    "translation": "この川は氾濫しそうだ。",
+    "cloze": "This river is going to ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7812,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x0bd25798",
+  "courseId": "en-10-30k",
+  "headword": "obnoxious",
+  "reading": "/ɑbnˈɑkʃəs/",
+  "gloss": "非常に不愉快な、いやな、有害な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "when they can't strike, they become really obnoxious and awful",
+    "translation": "時期までは 酷くて 不愉快な動物になります",
+    "cloze": "when they can't strike, they become really ｟＿｠ and awful"
+   },
+   {
+    "text": "look at you, lister... obnoxious, ruthless, singleminded, insensitive",
+    "translation": "わがままで下品で粗野で ぶしつげで鈍感",
+    "cloze": "look at you, lister... ｟＿｠, ruthless, singleminded, insensitive"
+   }
+  ],
+  "frequencyRank": 7967,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8877ac72",
+  "courseId": "en-10-30k",
+  "headword": "oatmeal",
+  "reading": "/ˈoʊtmˌil/",
+  "gloss": "オートミール(挽き割りのカラスムギ、またはそのかゆ)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like oatmeal cookies.",
+    "translation": "オートミールクッキー好きだよ。",
+    "cloze": "I like ｟＿｠ cookies."
+   },
+   {
+    "text": "My grandma made oatmeal atole.",
+    "translation": "おばあちゃんが、オートミールのアトーレを作りました。",
+    "cloze": "My grandma made ｟＿｠ atole."
+   }
+  ],
+  "frequencyRank": 8120,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xb7673150",
+  "courseId": "en-10-30k",
+  "headword": "otter",
+  "reading": "/ˈɑtɚ/",
+  "gloss": "カワウソ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I saw an otter.",
+    "translation": "カワウソを見たよ。",
+    "cloze": "I saw an ｟＿｠."
+   },
+   {
+    "text": "Sea otters love to eat clams while swimming on their backs.",
+    "translation": "ラッコは背泳ぎをしながら蛤を食べるのが大好きです。",
+    "cloze": "Sea ｟＿｠ love to eat clams while swimming on their backs."
+   }
+  ],
+  "frequencyRank": 8123,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x444af588",
+  "courseId": "en-10-30k",
+  "headword": "oman",
+  "reading": "/oʊmˈɑn/",
+  "gloss": "オマーン(アラビア半島南東部の国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Oman is located on the southeastern coast of the Arabian Peninsula.",
+    "translation": "オマーンはアラビア半島の南東岸に位置する。",
+    "cloze": "｟Oman｠ is located on the southeastern coast of the Arabian Peninsula.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We visited the ancient forts of Oman during our trip.",
+    "translation": "私たちは旅行中にオマーンの古い要塞を訪れた。",
+    "cloze": "We visited the ancient forts of ｟Oman｠ during our trip.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8270,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x79548c35",
+  "courseId": "en-10-30k",
+  "headword": "oily",
+  "reading": "/ˈɔɪli/",
+  "gloss": "油の、油っぽい;(話し方などが)いやに巧みな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Is it true men have oilier skin than women?",
+    "translation": "男性の方が女性より肌が脂っぽいって本当ですか？",
+    "cloze": "Is it true men have ｟＿｠ skin than women?"
+   },
+   {
+    "text": "My clothes have an oily smell because I ate at an okonomiyaki place.",
+    "translation": "お好み焼き屋に行ったので、なんか服が油臭い！",
+    "cloze": "My clothes have an ｟＿｠ smell because I ate at an okonomiyaki place."
+   }
+  ],
+  "frequencyRank": 8431,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x80a4795d",
+  "courseId": "en-10-30k",
+  "headword": "ohhh",
+  "reading": null,
+  "gloss": "ああ、おお(驚き・納得などを表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Ohhh, I finally understand!",
+    "translation": "ああ、やっと分かった!",
+    "cloze": "｟Ohhh｠, I finally understand!",
+    "aiGenerated": true
+   },
+   {
+    "text": "Ohhh, that smells delicious.",
+    "translation": "うわあ、すごく美味しそうな匂い。",
+    "cloze": "｟Ohhh｠, that smells delicious.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8956,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x1ffaa9db",
+  "courseId": "en-10-30k",
+  "headword": "oem",
+  "reading": null,
+  "gloss": "相手先ブランド名製造、OEM(委託生産)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "in a southern oem manufacturing compound in china:",
+    "translation": "南部のOEM工場で起こりました",
+    "cloze": "in a southern ｟＿｠ manufacturing compound in china:"
+   },
+   {
+    "text": "The company sells its products through an OEM agreement with a larger manufacturer.",
+    "translation": "その会社は大手メーカーとのOEM契約を通じて製品を販売している。",
+    "cloze": "The company sells its products through an ｟＿｠ agreement with a larger manufacturer.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9109,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x57035d53",
+  "courseId": "en-10-30k",
+  "headword": "ollie",
+  "reading": "/ˈɑli/",
+  "gloss": "オーリー(スケートボードで板ごと跳び上がる技)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He landed a perfect ollie on his skateboard.",
+    "translation": "彼はスケートボードで見事なオーリーを決めた。",
+    "cloze": "He landed a perfect ｟＿｠ on his skateboard.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9272,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x564fa474",
+  "courseId": "en-10-30k",
+  "headword": "ocd",
+  "reading": null,
+  "gloss": "強迫性障害(Obsessive-Compulsive Disorder)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "from depression, mental atrophy, trauma onset ocd, ptsd and psychological rejection of his synthetic body parts.",
+    "translation": "\"鬱症状と精神衰退に加えて 強迫性障害にptsdを併発している\"",
+    "cloze": "from depression, mental atrophy, trauma onset ｟ocd｠, ptsd and psychological rejection of his synthetic body parts."
+   },
+   {
+    "text": "to look at ocd cat.",
+    "translation": "「強迫神経症 ネコ」を見ていただきたいです",
+    "cloze": "to look at ｟ocd｠ cat."
+   }
+  ],
+  "frequencyRank": 9455,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xf7c24b94",
+  "courseId": "en-10-30k",
+  "headword": "olympian",
+  "reading": "/oʊlˈɪmpiən/",
+  "gloss": "オリンピック選手;オリンポス山の神々の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "even did lessons with olympians nothing helped.",
+    "translation": "オリンピック選手に教わってもダメでした",
+    "cloze": "even did lessons with ｟olympians｠ nothing helped."
+   },
+   {
+    "text": "we do it for fun, or as olympians, or as professionals.",
+    "translation": "余暇として オリンピックや プロ選手として",
+    "cloze": "we do it for fun, or as ｟olympians｠, or as professionals."
+   }
+  ],
+  "frequencyRank": 9456,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x9fef04da",
+  "courseId": "en-10-30k",
+  "headword": "objectively",
+  "reading": "/ɑbdʒˈɛktɪvli/",
+  "gloss": "客観的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He tried to look at his situation objectively.",
+    "translation": "彼は自分の状況を客観的に見てみたのね。",
+    "cloze": "He tried to look at his situation ｟＿｠."
+   },
+   {
+    "text": "By taking a picture, one can look objectively at one's own room.",
+    "translation": "写真を撮ることで、自分の部屋を客観的に見ることができます。",
+    "cloze": "By taking a picture, one can look ｟＿｠ at one's own room."
+   }
+  ],
+  "frequencyRank": 9616,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x5859968a",
+  "courseId": "en-10-30k",
+  "headword": "olympia",
+  "reading": "/oʊlˈɪmpiə/",
+  "gloss": "オリンピア(古代ギリシャの祭典遺跡地;近代オリンピックの起源)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Olympia is famous as the birthplace of the ancient Olympic Games.",
+    "translation": "オリンピアは古代オリンピックの発祥地として知られている。",
+    "cloze": "｟Olympia｠ is famous as the birthplace of the ancient Olympic Games.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9995,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x40774bda",
+  "courseId": "en-10-30k",
+  "headword": "olympus",
+  "reading": "/oʊlˈɪmpəs/",
+  "gloss": "オリンポス山（ギリシャ神話で神々が住むとされる山）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "In 776 B.C., the first Olympic Games were held at the foot of Mount Olympus to honor the Greeks' chief god, Zeus.",
+    "translation": "紀元前776年、最初のオリンピック競技大会は、ギリシャ人の主神ゼウスを称えるため、オリンポス山の麓で開催された。",
+    "cloze": "In 776 B.C., the first Olympic Games were held at the foot of Mount ｟Olympus｠ to honor the Greeks' chief god, Zeus."
+   },
+   {
+    "text": "he died, joined his father on olympus",
+    "translation": "彼は死んで オリンポスの 父のもとに葬られた",
+    "cloze": "he died, joined his father on ｟olympus｠"
+   }
+  ],
+  "frequencyRank": 10199,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdf5a3088",
+  "courseId": "en-10-30k",
+  "headword": "odin",
+  "reading": "/ˈoʊdən/",
+  "gloss": "オーディン(北欧神話の最高神;知識・戦争などをつかさどる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "In Norse mythology, Odin is the king of the gods.",
+    "translation": "北欧神話では、オーディンは神々の王である。",
+    "cloze": "In Norse mythology, ｟Odin｠ is the king of the gods.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10593,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xdbe4995c",
+  "courseId": "en-10-30k",
+  "headword": "organiser",
+  "reading": null,
+  "gloss": "整理する人・物;(手帳型の)予定管理ツール;(イベントなどの)主催者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "she must have had a phone or an organiser.",
+    "translation": "携帯か手帳を持っているだろう。",
+    "cloze": "she must have had a phone or an ｟organiser｠."
+   },
+   {
+    "text": "both the organisers and participating students.",
+    "translation": "運営側と参加する生徒たちも",
+    "cloze": "both the ｟organisers｠ and participating students."
+   }
+  ],
+  "frequencyRank": 10966,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x9250525e",
+  "courseId": "en-10-30k",
+  "headword": "odessa",
+  "reading": "/oʊdˈɛsə/",
+  "gloss": "オデッサ(ウクライナ南西部の港湾都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "born in odessa, ukraine in 1982.",
+    "translation": "1982年ウクライナ オデッサ生まれ",
+    "cloze": "born in ｟＿｠, ukraine in 1982."
+   },
+   {
+    "text": "somebody shot out my tyres near odessa.",
+    "translation": "誰かがオデッサの近辺で 車のタイヤを撃った。",
+    "cloze": "somebody shot out my tyres near ｟＿｠."
+   }
+  ],
+  "frequencyRank": 11164,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x90ce6fb5",
+  "courseId": "en-10-30k",
+  "headword": "okinawa",
+  "reading": "/ˌoʊkˌɪnˈɑwə/",
+  "gloss": "沖縄(日本最南端の県)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "It rains a lot in Okinawa.",
+    "translation": "沖縄ではたくさん雨が降る。",
+    "cloze": "It rains a lot in ｟＿｠."
+   },
+   {
+    "text": "Did you ever go to Okinawa?",
+    "translation": "あなたは沖縄へ行った事がありますか。",
+    "cloze": "Did you ever go to ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 11165,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2b31fc75",
+  "courseId": "en-10-30k",
+  "headword": "organisational",
+  "reading": null,
+  "gloss": "組織の、組織上の(organizationalの英式つづり)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "If one has organisational skills, then work should proceed smoothly.",
+    "translation": "計画力があると業務がスムーズに進みます。",
+    "cloze": "If one has ｟＿｠ skills, then work should proceed smoothly."
+   },
+   {
+    "text": "The company improved its organisational structure last year.",
+    "translation": "その会社は昨年組織構造を改善した。",
+    "cloze": "The company improved its ｟＿｠ structure last year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11168,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x4098a639",
+  "courseId": "en-10-30k",
+  "headword": "oxfordshire",
+  "reading": null,
+  "gloss": "オックスフォードシャー(イングランド南部の州;オックスフォード大学で有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Oxford University is located in Oxfordshire, England.",
+    "translation": "オックスフォード大学はイングランドのオックスフォードシャー州にある。",
+    "cloze": "Oxford University is located in ｟＿｠, England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11169,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xda1bb044",
+  "courseId": "en-10-30k",
+  "headword": "overdrive",
+  "reading": "/ˈoʊvɚdɹˌaɪv/",
+  "gloss": "(自動車の)オーバードライブ;全開・フル稼働の状態",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it was as if all my girl hormones had kicked into overdrive, and i was out for blood.",
+    "translation": "まるで私の女性ホルモンが 猛烈に血を求めて 働きだしたみたい",
+    "cloze": "it was as if all my girl hormones had kicked into ｟overdrive｠, and i was out for blood."
+   },
+   {
+    "text": "The engine automatically shifts into overdrive on the highway.",
+    "translation": "エンジンは高速道路で自動的にオーバードライブに切り替わる。",
+    "cloze": "The engine automatically shifts into ｟overdrive｠ on the highway.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11555,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x18813506",
+  "courseId": "en-10-30k",
+  "headword": "otc",
+  "reading": null,
+  "gloss": "市販の、処方箋なしで買える(over-the-counterの略)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This is an OTC medication that doesn't require a prescription.",
+    "translation": "これは処方箋が不要な市販薬(OTC)です。",
+    "cloze": "This is an ｟OTC｠ medication that doesn't require a prescription.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11932,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-x8d61541b",
+  "courseId": "en-10-30k",
+  "headword": "opec",
+  "reading": "/ˈoʊpˌɛk/",
+  "gloss": "石油輸出国機構(OPEC)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "You can't cop out on explaining a price increase of that size by blaming OPEC; that won't wash.",
+    "translation": "大幅な値上げをＯＰＥＣのせいにしようとしたってそうはいかない。とても納得できないね。",
+    "cloze": "You can't cop out on explaining a price increase of that size by blaming ｟＿｠; that won't wash."
+   },
+   {
+    "text": "and yet what we proved then is the u.s. has more market power than opec.",
+    "translation": "その時に示されたのは、アメリカはopecよりも市場で力を持っているということでした",
+    "cloze": "and yet what we proved then is the u.s. has more market power than ｟＿｠."
+   }
+  ],
+  "frequencyRank": 12151,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x6c3585a3",
+  "courseId": "en-10-30k",
+  "headword": "orwell",
+  "reading": "/ˈɔɹwˌɛl/",
+  "gloss": "ジョージ・オーウェル(『1984年』などで知られる英国の作家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "george orwell.",
+    "translation": "ジョージ・オーウェル",
+    "cloze": "george ｟＿｠."
+   },
+   {
+    "text": "'george orwell, your time has come,' you see.",
+    "translation": "「ジョージ・オーウェルさん 君の時代が来たぞ!」ほら",
+    "cloze": "'george ｟＿｠, your time has come,' you see."
+   }
+  ],
+  "frequencyRank": 12152,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x92481764",
+  "courseId": "en-10-30k",
+  "headword": "orally",
+  "reading": "/ˈɔɹəli/",
+  "gloss": "口頭で、口から(経口で)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "And of course, a speaker usually communicates in two ways, orally as well as through gestures.",
+    "translation": "それに、もちろん、話をする人は、普通言葉の他にジェスチャーという、２つの方法によって意志の伝達をしているのである。",
+    "cloze": "And of course, a speaker usually communicates in two ways, ｟orally｠ as well as through gestures."
+   },
+   {
+    "text": "we have to stimulate the central nervous system, and we can do that orally, or with ointments, or... ah... the most efficacious way, subcutaneous.",
+    "translation": "中枢神経への刺激が必要で それを口から 又は皮膚吸収か えー... もっとも効果のある...",
+    "cloze": "we have to stimulate the central nervous system, and we can do that ｟orally｠, or with ointments, or... ah... the most efficacious way, subcutaneous."
+   }
+  ],
+  "frequencyRank": 12767,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xf2f4a356",
+  "courseId": "en-10-30k",
+  "headword": "overpriced",
+  "reading": "/ˈoʊvɚpɹˌaɪst/",
+  "gloss": "値段が高すぎる、法外な値段の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I agree with the opinion that real estate is overpriced.",
+    "translation": "不動産が高すぎるという意見に賛成だ。",
+    "cloze": "I agree with the opinion that real estate is ｟overpriced｠."
+   },
+   {
+    "text": "they've just bought an overpriced baseball.",
+    "translation": "今買った 高値の野球ボールは",
+    "cloze": "they've just bought an ｟overpriced｠ baseball."
+   }
+  ],
+  "frequencyRank": 12769,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-x971c2440",
+  "courseId": "en-10-30k",
+  "headword": "outfield",
+  "reading": "/ˈaʊtfˌild/",
+  "gloss": "(野球などの)外野;外野手",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He plays in the outfield today.",
+    "translation": "彼は今日外野を守っている。",
+    "cloze": "He plays in the ｟＿｠ today."
+   },
+   {
+    "text": "now we've got great defense in the outfield!",
+    "translation": "これで外野の守備もバッチシだぜ",
+    "cloze": "now we've got great defense in the ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 12970,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x945e0e7f",
+  "courseId": "en-10-30k",
+  "headword": "overheat",
+  "reading": "/ˈoʊvɚhˌit/",
+  "gloss": "過熱する;〈人を〉過度に興奮させる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The emerging labor shortage is viewed as a sign of economic overheating.",
+    "translation": "労働力不足の発生は経済の過熱兆候と見られている。",
+    "cloze": "The emerging labor shortage is viewed as a sign of economic ｟overheating｠."
+   },
+   {
+    "text": "The disadvantage of excellent insulation is that it quickly leads to overheating.",
+    "translation": "断熱性が優れていることの欠点は、すぐに過熱状態になってしまうということである。",
+    "cloze": "The disadvantage of excellent insulation is that it quickly leads to ｟overheating｠."
+   }
+  ],
+  "frequencyRank": 13231,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x62812e1e",
+  "courseId": "en-10-30k",
+  "headword": "overreact",
+  "reading": "/ˈoʊvɚɹiˈækt/",
+  "gloss": "過剰に反応する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Am I overreacting?",
+    "translation": "大袈裟かな？",
+    "cloze": "Am I ｟overreacting｠?"
+   },
+   {
+    "text": "You're overreacting.",
+    "translation": "大袈裟だな。",
+    "cloze": "You're ｟overreacting｠."
+   }
+  ],
+  "frequencyRank": 13232,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x30033c5b",
+  "courseId": "en-10-30k",
+  "headword": "octave",
+  "reading": "/ˈɑktɪv/",
+  "gloss": "(音楽)オクターブ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "they can actually hear amazing things. your ears can hear 10 octaves.",
+    "translation": "でも耳では なんと10オクターブも聞こえます",
+    "cloze": "they can actually hear amazing things. your ears can hear 10 ｟octaves｠."
+   },
+   {
+    "text": "If I change key, I can't hold the pitch. It's better if we go with the original key, and I sometimes sing an octave lower.",
+    "translation": "俺キーチェンジしたら音取れないんだよね。原曲のキーで行ってたまにオクターブ下げて歌うっていう方がいい。",
+    "cloze": "If I change key, I can't hold the pitch. It's better if we go with the original key, and I sometimes sing an ｟octave｠ lower."
+   }
+  ],
+  "frequencyRank": 13695,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x63c07560",
+  "courseId": "en-10-30k",
+  "headword": "oda",
+  "reading": "/ˈoʊdə/",
+  "gloss": "政府開発援助(ODA=Official Development Assistanceの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Japan was the world's largest donor of ODA in 1991.",
+    "translation": "日本は１９９１年、世界最大の政府援助供与国だった。",
+    "cloze": "Japan was the world's largest donor of ｟ODA｠ in 1991."
+   },
+   {
+    "text": "The largest recipient of Japan's ODA that year was China.",
+    "translation": "その年の日本のＯＤＡの最大の受け手は中国だった。",
+    "cloze": "The largest recipient of Japan's ｟ODA｠ that year was China."
+   }
+  ],
+  "frequencyRank": 13696,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd282d4e4",
+  "courseId": "en-10-30k",
+  "headword": "oldie",
+  "reading": "/ˈoʊldi/",
+  "gloss": "(特に音楽の)懐メロ、昔流行った曲",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Listening to oldies reminds me of my hometown.",
+    "translation": "オールディーズを聞くと故郷を思い出します。",
+    "cloze": "Listening to ｟oldies｠ reminds me of my hometown."
+   },
+   {
+    "text": "here comes johnny singing oldies, goldies",
+    "translation": "♪ ジョニーがやってくる オールディーズを歌いながら",
+    "cloze": "here comes johnny singing ｟oldies｠, goldies"
+   }
+  ],
+  "frequencyRank": 13697,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x927b4c4e",
+  "courseId": "en-10-30k",
+  "headword": "omni",
+  "reading": "/ˈɑmni/",
+  "gloss": "全方向の、全方位の(接頭辞omni-に由来。例：omni wheel＝オムニホイール)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and each of these robots has what are called omni wheels.",
+    "translation": "それぞれのロボットには オムニホイールという",
+    "cloze": "and each of these robots has what are called ｟omni｠ wheels."
+   },
+   {
+    "text": "The new controller uses omni sensors for full coverage.",
+    "translation": "その新しいコントローラーは全方位センサーを使用している。",
+    "cloze": "The new controller uses ｟omni｠ sensors for full coverage.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13698,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-x4f1b56eb",
+  "courseId": "en-10-30k",
+  "headword": "opioids",
+  "reading": null,
+  "gloss": "オピオイド、麻薬性鎮痛薬",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Doctors are prescribing fewer opioids to prevent addiction.",
+    "translation": "医師たちは依存症を防ぐためオピオイドの処方を減らしている。",
+    "cloze": "Doctors are prescribing fewer ｟＿｠ to prevent addiction.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14430,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x6e701f3b",
+  "courseId": "en-10-30k",
+  "headword": "ostrich",
+  "reading": "/ˈɔstɹɪtʃ/",
+  "gloss": "ダチョウ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Ostriches can't fly.",
+    "translation": "ダチョウは空を飛べない。",
+    "cloze": "｟＿｠ can't fly."
+   },
+   {
+    "text": "What do ostriches eat?",
+    "translation": "ダチョウって、何食べるの？",
+    "cloze": "What do ｟＿｠ eat?"
+   }
+  ],
+  "frequencyRank": 14431,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x394a3cf7",
+  "courseId": "en-10-30k",
+  "headword": "osiris",
+  "reading": null,
+  "gloss": "オシリス(古代エジプト神話の冥界の神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Osiris was worshipped by the ancient Egyptians as the god of the afterlife.",
+    "translation": "オシリスは古代エジプト人によって冥界の神として崇拝されていた。",
+    "cloze": "｟＿｠ was worshipped by the ancient Egyptians as the god of the afterlife.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15171,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x4ae67576",
+  "courseId": "en-10-30k",
+  "headword": "oar",
+  "reading": "/ˈɔɹ/",
+  "gloss": "オール、かい；(オールで)こぐ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This boat has six oars.",
+    "translation": "このボートは６本オールだ。",
+    "cloze": "This boat has six ｟oars｠."
+   },
+   {
+    "text": "He hung an old, wooden oar on his wall as a decoration.",
+    "translation": "彼は古い木製のオールを壁にかけて飾っている。",
+    "cloze": "He hung an old, wooden ｟oar｠ on his wall as a decoration."
+   }
+  ],
+  "frequencyRank": 15401,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x2a508c3d",
+  "courseId": "en-10-30k",
+  "headword": "olympians",
+  "reading": "/oʊlˈɪmpiənz/",
+  "gloss": "オリンピック選手たち;(ギリシャ神話の)オリンポスの神々",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Olympians competed for gold medals.",
+    "translation": "オリンピック選手たちは金メダルを目指して競い合った。",
+    "cloze": "The ｟＿｠ competed for gold medals.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Zeus was the king of the Olympians.",
+    "translation": "ゼウスはオリンポスの神々の王だった。",
+    "cloze": "Zeus was the king of the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15659,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf623421e",
+  "courseId": "en-10-30k",
+  "headword": "orkney",
+  "reading": "/ˈɔɹkni/",
+  "gloss": "オークニー諸島(スコットランド北方の諸島)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Orkney Islands are known for their Neolithic monuments.",
+    "translation": "オークニー諸島は新石器時代の遺跡で知られている。",
+    "cloze": "The ｟＿｠ Islands are known for their Neolithic monuments.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15661,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xead62ec6",
+  "courseId": "en-10-30k",
+  "headword": "outbound",
+  "reading": "/ˈaʊtbˌaʊnd/",
+  "gloss": "外国[遠方]行きの、出発する",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "outbound for shanghai!",
+    "translation": "上海行きだ!",
+    "cloze": "｟＿｠ for shanghai!"
+   },
+   {
+    "text": "The outbound flight departs at noon.",
+    "translation": "出発便は正午に出発する。",
+    "cloze": "The ｟＿｠ flight departs at noon.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15662,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x4b1a10cf",
+  "courseId": "en-10-30k",
+  "headword": "overalls",
+  "reading": "/ˈoʊvɚˌɔlz/",
+  "gloss": "オーバーオール、つなぎ服",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and then my steel brace, my baggy overalls",
+    "translation": "ギブス 金属のブレース だぶだぶのオーバーオールに",
+    "cloze": "and then my steel brace, my baggy ｟＿｠"
+   },
+   {
+    "text": "He wore denim overalls to the farm.",
+    "translation": "彼はデニムのオーバーオールを着て農場へ行った。",
+    "cloze": "He wore denim ｟＿｠ to the farm.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15663,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x9b2f3765",
+  "courseId": "en-10-30k",
+  "headword": "overpower",
+  "reading": "/ˌoʊvɚpˈaʊɚ/",
+  "gloss": "(力で)圧倒する、打ち負かす",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Your perfume is overpowering.",
+    "translation": "香水が強すぎるよ。",
+    "cloze": "Your perfume is ｟＿｠."
+   },
+   {
+    "text": "A sudden wave of nausea overpowered him.",
+    "translation": "突然の吐き気が彼は抑えきれなかった。",
+    "cloze": "A sudden wave of nausea ｟＿｠ him."
+   }
+  ],
+  "frequencyRank": 15664,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x76d24239",
+  "courseId": "en-10-30k",
+  "headword": "oahu",
+  "reading": "/ˌoʊˈɑhu/",
+  "gloss": "オアフ島(ハワイ諸島の島の一つ、ホノルルがある)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "on the hawaiian island of oahu.",
+    "translation": "ハワイのオアフ島だ",
+    "cloze": "on the hawaiian island of ｟＿｠."
+   },
+   {
+    "text": "sir! higashida's property is in hawaii on oahu!",
+    "translation": "統括! 東田の海外物件は ハワイ オアフ島です",
+    "cloze": "sir! higashida's property is in hawaii on ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 15927,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x405a8899",
+  "courseId": "en-10-30k",
+  "headword": "oceania",
+  "reading": "/ˌoʊʃˌiˈænjə/",
+  "gloss": "オセアニア、大洋州(オーストラリア・太平洋諸島地域)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i chose to be the representative of oceania because i knew how peaceful it is working there.",
+    "translation": "オセアニア担当を選んだのも 平和で仕事が楽だから。",
+    "cloze": "i chose to be the representative of ｟＿｠ because i knew how peaceful it is working there."
+   },
+   {
+    "text": "Oceania includes Australia, New Zealand, and many Pacific islands.",
+    "translation": "オセアニアにはオーストラリア、ニュージーランド、そして多くの太平洋の島々が含まれる。",
+    "cloze": "｟＿｠ includes Australia, New Zealand, and many Pacific islands.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15928,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3554ba48",
+  "courseId": "en-10-30k",
+  "headword": "oppa",
+  "reading": null,
+  "gloss": "オッパ(韓国語で女性が親しい年上の男性・お兄さんを呼ぶ語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "oppa, think of my joon hyeon and just please...",
+    "translation": "オッパ ジュニョンの事を考えて お願い・・・",
+    "cloze": "｟＿｠, think of my joon hyeon and just please..."
+   },
+   {
+    "text": "She always calls her boyfriend oppa.",
+    "translation": "彼女はいつも彼氏のことをオッパと呼ぶ。",
+    "cloze": "She always calls her boyfriend ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15932,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xaca1aa6d",
+  "courseId": "en-10-30k",
+  "headword": "othello",
+  "reading": "/əθˈɛloʊ/",
+  "gloss": "オセロ(シェイクスピア四大悲劇の一つ、その主人公);オセロゲーム(盤上ゲーム)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Othello board turned entirely to white.",
+    "translation": "オセロの盤面は真っ白になった。",
+    "cloze": "The ｟＿｠ board turned entirely to white."
+   },
+   {
+    "text": "i'm getting tired of othello since we play it all the time.",
+    "translation": "オセロばかりでは飽きてしまいますからね。",
+    "cloze": "i'm getting tired of ｟＿｠ since we play it all the time."
+   }
+  ],
+  "frequencyRank": 15934,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x70570aa0",
+  "courseId": "en-10-30k",
+  "headword": "ointment",
+  "reading": "/ˈɔɪntmənt/",
+  "gloss": "軟膏、こう薬",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm itching from mosquito bites. Do you have any ointment?",
+    "translation": "蚊にかまれて、痒くて痒くて。ぬり薬ある？",
+    "cloze": "I'm itching from mosquito bites. Do you have any ｟＿｠?"
+   },
+   {
+    "text": "It's a good paying job, but the fly in the ointment is that I'll have to spend a lot of time traveling.",
+    "translation": "その仕事はいい金になるんだが、一つ気に入らないのが旅行にかなり時間を取られることだ。",
+    "cloze": "It's a good paying job, but the fly in the ｟＿｠ is that I'll have to spend a lot of time traveling."
+   }
+  ],
+  "frequencyRank": 16183,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xdd415734",
+  "courseId": "en-10-30k",
+  "headword": "oss",
+  "reading": "/ˈɔs/",
+  "gloss": "OSS（戦略事務局；第二次大戦時の米国諜報機関、CIAの前身）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "by scotland yard, mi5, the oss...",
+    "translation": "MI5、OSSからの...",
+    "cloze": "by scotland yard, mi5, the ｟＿｠..."
+   },
+   {
+    "text": "During World War II, the OSS conducted secret intelligence operations.",
+    "translation": "第二次世界大戦中、OSSは秘密の諜報活動を行った。",
+    "cloze": "During World War II, the ｟＿｠ conducted secret intelligence operations.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16188,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x96d5e955",
+  "courseId": "en-10-30k",
+  "headword": "ottomans",
+  "reading": null,
+  "gloss": "オットマン（足を乗せる背もたれのない椅子）；《the Ottomans》オスマン帝国の人々",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The living room had two soft ottomans for extra seating.",
+    "translation": "リビングには予備の椅子として柔らかいオットマンが2つあった。",
+    "cloze": "The living room had two soft ｟＿｠ for extra seating.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Ottomans ruled a vast empire that spanned three continents.",
+    "translation": "オスマン帝国の人々は3つの大陸にまたがる広大な帝国を統治した。",
+    "cloze": "The ｟＿｠ ruled a vast empire that spanned three continents.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16189,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xdcae0fd5",
+  "courseId": "en-10-30k",
+  "headword": "overjoyed",
+  "reading": "/ˌoʊvɚdʒˈɔɪd/",
+  "gloss": "大喜びの、狂喜した",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "We were overjoyed.",
+    "translation": "大喜びでした。",
+    "cloze": "We were ｟＿｠."
+   },
+   {
+    "text": "He was overjoyed to find out that his son had succeeded.",
+    "translation": "彼は息子が成功した事を知って狂喜した。",
+    "cloze": "He was ｟＿｠ to find out that his son had succeeded."
+   }
+  ],
+  "frequencyRank": 16456,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x5c7314f7",
+  "courseId": "en-10-30k",
+  "headword": "occupiers",
+  "reading": "/ˈɑkjəpˌaɪɚz/",
+  "gloss": "占領者、占拠者、居住者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "these occupiers are going to make some noise then sing kumbayah and smoke a little weed and eat soy burgers.",
+    "translation": "そうでもない この連中は騒いで歌を歌い 食べ物とか散らかす程度さ",
+    "cloze": "these ｟＿｠ are going to make some noise then sing kumbayah and smoke a little weed and eat soy burgers."
+   },
+   {
+    "text": "or the occupiers or the colonizers",
+    "translation": "植民地支配者に対する戦いではありません",
+    "cloze": "or the ｟＿｠ or the colonizers"
+   }
+  ],
+  "frequencyRank": 16701,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x09ff3d61",
+  "courseId": "en-10-30k",
+  "headword": "origami",
+  "reading": "/ˌɔɹiɡˈɑmˌi/",
+  "gloss": "折り紙",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is an origami artist.",
+    "translation": "トムは折り紙アーティストだ。",
+    "cloze": "Tom is an ｟＿｠ artist."
+   },
+   {
+    "text": "Tom folded an origami crane.",
+    "translation": "トムは折り鶴を折った。",
+    "cloze": "Tom folded an ｟＿｠ crane."
+   }
+  ],
+  "frequencyRank": 17228,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xd2c2fe4a",
+  "courseId": "en-10-30k",
+  "headword": "ooooh",
+  "reading": null,
+  "gloss": "おおっ、ああっ(驚き・感嘆を表す間投詞、'ooh'の強調形)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "ooooh, 38 and 55 fall out of bounds!",
+    "translation": "おおっと 38番と55番がコースアウト!",
+    "cloze": "｟＿｠, 38 and 55 fall out of bounds!"
+   },
+   {
+    "text": "ooooh. almost. here.",
+    "translation": "惜しかったな",
+    "cloze": "｟＿｠. almost. here."
+   }
+  ],
+  "frequencyRank": 17526,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x67f29062",
+  "courseId": "en-10-30k",
+  "headword": "oppenheimer",
+  "reading": "/ˈɑpənhˌaɪmɚ/",
+  "gloss": "オッペンハイマー(原爆開発を主導した物理学者ロバート・オッペンハイマー)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i don't know. why would oppenheimer invent the bomb?",
+    "translation": "オッペンハイマーも爆弾を",
+    "cloze": "i don't know. why would ｟＿｠ invent the bomb?"
+   },
+   {
+    "text": "j. robert oppenheimer quoted a fragment of the bhagavad ga, declaring",
+    "translation": "j・ロバート・オッペンハイマーは... バガヴァッド・ギーターの 一節を引用して, 宣言した...",
+    "cloze": "j. robert ｟＿｠ quoted a fragment of the bhagavad ga, declaring"
+   }
+  ],
+  "frequencyRank": 17529,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x22b3fe8c",
+  "courseId": "en-10-30k",
+  "headword": "osage",
+  "reading": "/oʊsˈeɪdʒ/",
+  "gloss": "オーセージ族(北米先住民の一部族);オーセージオレンジ(の木)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "is just a piece of osage orange.",
+    "translation": "オーセージ・オレンジの木でできています",
+    "cloze": "is just a piece of ｟＿｠ orange."
+   },
+   {
+    "text": "those branches there are made out of bois d'arc or osage orange",
+    "translation": "枝状の部分はオーセージ・オレンジで作られています",
+    "cloze": "those branches there are made out of bois d'arc or ｟＿｠ orange"
+   }
+  ],
+  "frequencyRank": 17531,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb44f1db7",
+  "courseId": "en-10-30k",
+  "headword": "onsite",
+  "reading": "/ˈɑnsˈaɪt/",
+  "gloss": "現場の、現地の(で)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "we usually get about a week's notice before an onsite inspection.",
+    "translation": "通常 裁量臨店が行われる場合 1週間前後の準備期間があるはず",
+    "cloze": "we usually get about a week's notice before an ｟＿｠ inspection."
+   },
+   {
+    "text": "how long you been onsite?",
+    "translation": "いつから現場にいるんだ?",
+    "cloze": "how long you been ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 17842,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xb5fd9338",
+  "courseId": "en-10-30k",
+  "headword": "octagon",
+  "reading": "/ˈɑktəɡˌɑn/",
+  "gloss": "八角形",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "they call your names, head right up to the octagon.",
+    "translation": "k 呼んだら オクタゴンに向かってくれ",
+    "cloze": "they call your names, head right up to the ｟＿｠."
+   },
+   {
+    "text": "huge. it's not an octagon ... nahaha ... it's an old woman.",
+    "translation": "フッ。 8角形じゃないよ。 ニハハッ。 はっかけ婆さんじゃよ。",
+    "cloze": "huge. it's not an ｟＿｠ ... nahaha ... it's an old woman."
+   }
+  ],
+  "frequencyRank": 18141,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x6c085c1a",
+  "courseId": "en-10-30k",
+  "headword": "organist",
+  "reading": "/ˈɔɹɡənəst/",
+  "gloss": "オルガン奏者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "had studied as an organist at the vienna conservatory",
+    "translation": "博士はオルガン奏者として ウィーン音楽院で学び",
+    "cloze": "had studied as an ｟＿｠ at the vienna conservatory"
+   }
+  ],
+  "frequencyRank": 18145,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x548e0413",
+  "courseId": "en-10-30k",
+  "headword": "oxen",
+  "reading": "/ˈɑksən/",
+  "gloss": "牛(oxの複数形)。特に去勢された労役用・食肉用の雄牛。",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Yoke the oxen to the plow.",
+    "translation": "牛にくびきをかけすきにつなぎなさい。",
+    "cloze": "Yoke the ｟＿｠ to the plow."
+   },
+   {
+    "text": "don't let the oxen spoil the neighbours' grass.",
+    "translation": "他人の草を牛に食わせるなよ",
+    "cloze": "don't let the ｟＿｠ spoil the neighbours' grass."
+   }
+  ],
+  "frequencyRank": 18451,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xfc8d1cb3",
+  "courseId": "en-10-30k",
+  "headword": "ooze",
+  "reading": "/ˈuz/",
+  "gloss": "(液体などが)にじみ出る；(川底・海底の)泥、軟泥",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The wound is still oozing.",
+    "translation": "傷口はまだグジュグジュしています。",
+    "cloze": "The wound is still ｟＿｠."
+   },
+   {
+    "text": "if i can write with this blood oozing from my fingertip",
+    "translation": "指先に滲む血で認めたら",
+    "cloze": "if i can write with this blood ｟＿｠ from my fingertip"
+   }
+  ],
+  "frequencyRank": 18708,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xff9abd47",
+  "courseId": "en-10-30k",
+  "headword": "outscored",
+  "reading": "/aʊtskˈɔɹd/",
+  "gloss": "…より得点で上回る、…に得点で勝る",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The home team outscored their rivals in the second half.",
+    "translation": "地元チームは後半で相手より多く得点した。",
+    "cloze": "The home team ｟＿｠ their rivals in the second half.",
+    "aiGenerated": true
+   },
+   {
+    "text": "In the first half, the visiting team outscored the home side by twelve points.",
+    "translation": "前半、ビジターチームはホームチームより12点多く得点した。",
+    "cloze": "In the first half, the visiting team ｟＿｠ the home side by twelve points.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18712,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x54980296",
+  "courseId": "en-10-30k",
+  "headword": "och",
+  "reading": "/ˈɑk/",
+  "gloss": "ああ、おや(スコットランド・アイルランド英語の間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Och, I forgot my umbrella again!",
+    "translation": "ああ、また傘を忘れた!",
+    "cloze": "｟Och｠, I forgot my umbrella again!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19014,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x8485c645",
+  "courseId": "en-10-30k",
+  "headword": "odysseus",
+  "reading": "/oʊdˈɪsiəs/",
+  "gloss": "オデュッセウス(ギリシャ神話の英雄、『オデュッセイア』の主人公)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and then odysseus says, i see that you can get it.",
+    "translation": "するとオデュッセウスは「よくやった。それでいい。",
+    "cloze": "and then ｟odysseus｠ says, i see that you can get it."
+   },
+   {
+    "text": "In Homer's epic, Odysseus spends ten years trying to return home after the Trojan War.",
+    "translation": "ホメロスの叙事詩で、オデュッセウスはトロイア戦争の後、故郷に帰るのに10年を費やす。",
+    "cloze": "In Homer's epic, ｟Odysseus｠ spends ten years trying to return home after the Trojan War.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19015,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x45cab358",
+  "courseId": "en-10-30k",
+  "headword": "oedipus",
+  "reading": "/ˈɛdɪpəs/",
+  "gloss": "オイディプス(ギリシャ神話の王)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Finally, Oedipus replied.",
+    "translation": "ついに、オイデイプスは答えを出した。",
+    "cloze": "Finally, ｟＿｠ replied."
+   },
+   {
+    "text": "The man, Oedipus, trembled.",
+    "translation": "その男、オイデイプスは、震えた。",
+    "cloze": "The man, ｟＿｠, trembled."
+   }
+  ],
+  "frequencyRank": 19310,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x009d84aa",
+  "courseId": "en-10-30k",
+  "headword": "orpheus",
+  "reading": "/ˈɔɹfiəs/",
+  "gloss": "オルフェウス(ギリシャ神話の詩人・音楽家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "orpheus should never have looked back.",
+    "translation": "オルフェウスは 後ろを 振り返るべきではなかった",
+    "cloze": "｟＿｠ should never have looked back."
+   },
+   {
+    "text": "According to the myth, Orpheus tried to bring his wife back from the underworld.",
+    "translation": "神話によると、オルフェウスは冥界から妻を連れ戻そうとした。",
+    "cloze": "According to the myth, ｟＿｠ tried to bring his wife back from the underworld.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19312,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x101dd958",
+  "courseId": "en-10-30k",
+  "headword": "odisha",
+  "reading": null,
+  "gloss": "オディシャ州(インド東部の州、旧称オリッサ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "gang rapes in badaun and acid attacks in odisha",
+    "translation": "バダウンのギャングレイプ事件や オリッサ州とアリーガルの",
+    "cloze": "gang rapes in badaun and acid attacks in ｟＿｠"
+   },
+   {
+    "text": "Odisha is a state on the eastern coast of India.",
+    "translation": "オディシャ州はインド東部沿岸の州である。",
+    "cloze": "｟＿｠ is a state on the eastern coast of India.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19611,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xadba5416",
+  "courseId": "en-10-30k",
+  "headword": "oled",
+  "reading": null,
+  "gloss": "有機EL、有機ELディスプレイ(Organic Light-Emitting Diodeの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The new smartphone features an OLED display.",
+    "translation": "その新しいスマートフォンは有機ELディスプレイを搭載している。",
+    "cloze": "The new smartphone features an ｟＿｠ display.",
+    "aiGenerated": true
+   },
+   {
+    "text": "OLED screens produce deeper blacks than LCD screens.",
+    "translation": "有機ELスクリーンはLCDスクリーンより深い黒を再現する。",
+    "cloze": "｟＿｠ screens produce deeper blacks than LCD screens.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19613,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x0038b0b6",
+  "courseId": "en-10-30k",
+  "headword": "overthinking",
+  "reading": null,
+  "gloss": "考えすぎること,思い悩みすぎること",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "You're overthinking it.",
+    "translation": "それは、思い過ごしだよ。",
+    "cloze": "You're ｟＿｠ it."
+   },
+   {
+    "text": "You're overthinking things.",
+    "translation": "考えすぎよ。",
+    "cloze": "You're ｟＿｠ things."
+   }
+  ],
+  "frequencyRank": 19895,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xdff5f77b",
+  "courseId": "en-10-30k",
+  "headword": "orissa",
+  "reading": null,
+  "gloss": "オリッサ(インド東部の州。現オディシャ州の旧称)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "but i grew up in sindhekela, a village in orissa, in india.",
+    "translation": "出身はインドで オリッサ州の シンデケラという村で育ちました",
+    "cloze": "but i grew up in sindhekela, a village in ｟＿｠, in india."
+   },
+   {
+    "text": "Orissa, now known as Odisha, is located on India's eastern coast.",
+    "translation": "オリッサ州(現在のオディシャ州)はインド東海岸に位置する。",
+    "cloze": "｟＿｠, now known as Odisha, is located on India's eastern coast.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20488,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x333c7d52",
+  "courseId": "en-10-30k",
+  "headword": "outliers",
+  "reading": "/ˈaʊtlaɪɚz/",
+  "gloss": "外れ値、統計上の異常値;(集団から)外れた人、異端児",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The data contained a few outliers that skewed the results.",
+    "translation": "そのデータにはいくつかの外れ値があり、結果を歪めていた。",
+    "cloze": "The data contained a few ｟＿｠ that skewed the results.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Steve Jobs is often cited as an example of an outlier in business success.",
+    "translation": "スティーブ・ジョブズはビジネスでの成功における異端児の例としてしばしば挙げられる。",
+    "cloze": "Steve Jobs is often cited as an example of an ｟＿｠ in business success.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20491,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xec4e2a2e",
+  "courseId": "en-10-30k",
+  "headword": "oxy",
+  "reading": "/ˈɑksi/",
+  "gloss": "(俗語)オキシコドン/オキシコンチン(鎮痛剤)の略称",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "of course, six months later, he's in rehab for oxy.",
+    "translation": "もちろん6ヶ月経った今は オキシコドン中毒でリハビリ施設にいるが",
+    "cloze": "of course, six months later, he's in rehab for ｟＿｠."
+   },
+   {
+    "text": "He was prescribed oxy after his surgery but became addicted to it.",
+    "translation": "彼は手術後にオキシコドンを処方されたが、それに依存するようになった。",
+    "cloze": "He was prescribed ｟＿｠ after his surgery but became addicted to it.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20494,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xdc223b87",
+  "courseId": "en-10-30k",
+  "headword": "outgrow",
+  "reading": "/ˌaʊtɡɹˈoʊ/",
+  "gloss": "(服などが)大きくなって着られなくなる／(年齢とともに)〜から卒業する／〜より背が高くなる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Weeds will soon outgrow the flowers.",
+    "translation": "雑草は花より伸びてしまいます。",
+    "cloze": "Weeds will soon ｟＿｠ the flowers."
+   },
+   {
+    "text": "I hope you never outgrow your curiosity.",
+    "translation": "君の好奇心が、決してなくならないといいな。",
+    "cloze": "I hope you never ｟＿｠ your curiosity.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20777,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x401652ba",
+  "courseId": "en-10-30k",
+  "headword": "ortho",
+  "reading": "/ˈɔɹθˌoʊ/",
+  "gloss": "整形外科・歯科矯正の略式呼称;(接頭辞)正しい、まっすぐな",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have an ortho appointment tomorrow.",
+    "translation": "明日、歯科矯正の予約がある。",
+    "cloze": "I have an ｟ortho｠ appointment tomorrow.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21099,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-x72243693",
+  "courseId": "en-10-30k",
+  "headword": "obsessively",
+  "reading": "/ɑbsˈɛsɪvli/",
+  "gloss": "執拗に、取りつかれたように",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "clearly, our suspect is someone who studied red john obsessively.",
+    "translation": "この犯人は 異常なほど レッド・ジョンを研究した奴よ",
+    "cloze": "clearly, our suspect is someone who studied red john ｟＿｠."
+   },
+   {
+    "text": "which led to me obsessively and incessantly",
+    "translation": "それから 取りつかれたように 絶え間なく",
+    "cloze": "which led to me ｟＿｠ and incessantly"
+   }
+  ],
+  "frequencyRank": 21395,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x1739de00",
+  "courseId": "en-10-30k",
+  "headword": "olde",
+  "reading": "/ˈoʊld/",
+  "gloss": "(擬古的な表記)昔ながらの、古風な('old'を装飾的に綴った表記。店名などで使われる)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Welcome to Ye Olde Tea Shoppe.",
+    "translation": "「ジ・オールド・ティー・ショップ」へようこそ。",
+    "cloze": "Welcome to Ye ｟＿｠ Tea Shoppe.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The sign read 'Ye Olde Inn' in curly letters.",
+    "translation": "看板には装飾文字で「ジ・オールド・イン」と書かれていた。",
+    "cloze": "The sign read 'Ye ｟＿｠ Inn' in curly letters.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21396,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x67e22e25",
+  "courseId": "en-10-30k",
+  "headword": "orangutan",
+  "reading": "/ɔɹˈæŋətæn/",
+  "gloss": "オランウータン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "\"What anthropoid would your girlfriend be most like?\" \"What a question... Well, um... An orangutan, I guess.\"",
+    "translation": "「お前の彼女、類人猿で言うと何に似てる？」「何ちゅう質問だ・・・。うーん・・・オランウータンかな」",
+    "cloze": "\"What anthropoid would your girlfriend be most like?\" \"What a question... Well, um... An ｟＿｠, I guess.\""
+   },
+   {
+    "text": "gorillas, orangutans, what have you.",
+    "translation": "ゴリラ、オラウータン なんかよりもね",
+    "cloze": "gorillas, ｟＿｠, what have you."
+   }
+  ],
+  "frequencyRank": 21397,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xfe348ede",
+  "courseId": "en-10-30k",
+  "headword": "outrageously",
+  "reading": "/ˌaʊtɹˈeɪdʒəsli/",
+  "gloss": "とんでもなく、法外に、人並み外れて",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "behind her glass mask is her outrageously black heart!",
+    "translation": "綺麗なガラスの仮面の裏側は人並み外れた腹黒さ",
+    "cloze": "behind her glass mask is her ｟＿｠ black heart!"
+   },
+   {
+    "text": "The prices at that restaurant are outrageously expensive.",
+    "translation": "あのレストランの値段はとんでもなく高い。",
+    "cloze": "The prices at that restaurant are ｟＿｠ expensive.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21403,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x9d5c1c6f",
+  "courseId": "en-10-30k",
+  "headword": "outro",
+  "reading": null,
+  "gloss": "アウトロ(曲・映像などの終わりの部分。イントロの対義語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The song's outro fades out slowly with just a piano.",
+    "translation": "その曲のアウトロはピアノだけでゆっくりフェードアウトする。",
+    "cloze": "The song's ｟＿｠ fades out slowly with just a piano.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He recorded a short outro thanking his subscribers.",
+    "translation": "彼は視聴者への感謝を伝える短いアウトロを収録した。",
+    "cloze": "He recorded a short ｟＿｠ thanking his subscribers.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21404,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xcf583476",
+  "courseId": "en-10-30k",
+  "headword": "oaxaca",
+  "reading": "/ˈoʊksəkə/",
+  "gloss": "オアハカ（メキシコ南部の州・都市名）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "oaxaca, san francisco it's very easy:",
+    "translation": "オアハカとサンフランシスコは非常に簡単な構造をしています",
+    "cloze": "｟＿｠, san francisco it's very easy:"
+   },
+   {
+    "text": "i did paramilitary training with enrique outside of oaxaca.",
+    "translation": "エンリケとはオアハカの外れで 民兵訓練をしたの.",
+    "cloze": "i did paramilitary training with enrique outside of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 21711,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5b0d98c8",
+  "courseId": "en-10-30k",
+  "headword": "oktoberfest",
+  "reading": null,
+  "gloss": "オクトーバーフェスト(ドイツ・ミュンヘン発祥のビール祭り)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "last month we needed a sitter for penny but you didn't want to miss oktoberfest.",
+    "translation": "えぇ 先月 ペニーのお守りを頼んだ時",
+    "cloze": "last month we needed a sitter for penny but you didn't want to miss ｟＿｠."
+   },
+   {
+    "text": "you call in sick the day after receiving a longawaited careerboosting promotion so you can play oktoberfest in your man cave?",
+    "translation": "病欠ですって? 長い間 待ちわびた 昇進が決まった翌日に? ビール祭りごっこしてる 場合じゃない",
+    "cloze": "you call in sick the day after receiving a longawaited careerboosting promotion so you can play ｟＿｠ in your man cave?"
+   }
+  ],
+  "frequencyRank": 22057,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x1bca4225",
+  "courseId": "en-10-30k",
+  "headword": "optimally",
+  "reading": null,
+  "gloss": "最適に、最も効果的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "the present portable device is far from optimally designed",
+    "translation": "現在の携帯機器はうまく設計されているとは とても言えません",
+    "cloze": "the present portable device is far from ｟＿｠ designed"
+   },
+   {
+    "text": "your blue tears is optimally equipped for oneagainstmany.",
+    "translation": "お前のブルー・ティアーズの装備は 1対複数向きだ",
+    "cloze": "your blue tears is ｟＿｠ equipped for oneagainstmany."
+   }
+  ],
+  "frequencyRank": 22061,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x63c84537",
+  "courseId": "en-10-30k",
+  "headword": "overcoat",
+  "reading": "/ˈoʊvɚkˌoʊt/",
+  "gloss": "オーバーコート、外套",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "That is my overcoat.",
+    "translation": "あれは私のオーバーです。",
+    "cloze": "That is my ｟＿｠."
+   },
+   {
+    "text": "He took off his overcoat.",
+    "translation": "彼はオーバーを脱いだ。",
+    "cloze": "He took off his ｟＿｠."
+   }
+  ],
+  "frequencyRank": 22390,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xd9440b32",
+  "courseId": "en-10-30k",
+  "headword": "otago",
+  "reading": null,
+  "gloss": "オタゴ(ニュージーランド南島の地方)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Otago is a region in the South Island of New Zealand known for its stunning landscapes.",
+    "translation": "オタゴはニュージーランド南島にある地方で、美しい景観で知られている。",
+    "cloze": "｟Otago｠ is a region in the South Island of New Zealand known for its stunning landscapes.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The University of Otago is one of New Zealand's oldest universities.",
+    "translation": "オタゴ大学はニュージーランドで最も古い大学の一つである。",
+    "cloze": "The University of ｟Otago｠ is one of New Zealand's oldest universities.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22727,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7219de0b",
+  "courseId": "en-10-30k",
+  "headword": "oxfam",
+  "reading": "/ˈɑksfˌæm/",
+  "gloss": "オックスファム(貧困撲滅を目指す国際NGO)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "oxfam and swiss re, together with rockefeller foundation",
+    "translation": "オックスファムやスイス・リーは ロックフェラー財団とともに",
+    "cloze": "｟oxfam｠ and swiss re, together with rockefeller foundation"
+   },
+   {
+    "text": "is this oxfam donation form",
+    "translation": "オックスファムに寄付する時のフォームは",
+    "cloze": "is this ｟oxfam｠ donation form"
+   }
+  ],
+  "frequencyRank": 22729,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb7bbd90c",
+  "courseId": "en-10-30k",
+  "headword": "opa",
+  "reading": null,
+  "gloss": "オパ!(祝いの場などで発するギリシャ語由来の掛け声)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "The dancers shouted 'Opa!' as they smashed the plates.",
+    "translation": "踊り手たちは皿を割りながら「オパ!」と叫んだ。",
+    "cloze": "The dancers shouted '｟＿｠!' as they smashed the plates.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23038,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x0ea33cda",
+  "courseId": "en-10-30k",
+  "headword": "orcas",
+  "reading": "/ˈɔɹkəs/",
+  "gloss": "シャチ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Orcas are highly intelligent marine mammals.",
+    "translation": "シャチは非常に知能の高い海生哺乳類です。",
+    "cloze": "｟＿｠ are highly intelligent marine mammals.",
+    "aiGenerated": true
+   },
+   {
+    "text": "A pod of orcas was spotted near the coast.",
+    "translation": "シャチの群れが沿岸付近で目撃された。",
+    "cloze": "A pod of ｟＿｠ was spotted near the coast.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23371,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x71893df0",
+  "courseId": "en-10-30k",
+  "headword": "ouija",
+  "reading": null,
+  "gloss": "ウィジャボード、こっくりさん盤(占いに使う板)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Don't you need a ouija board and chicken bones?",
+    "translation": "占い盤とかニワトリの骨は?",
+    "cloze": "Don't you need a ｟＿｠ board and chicken bones?"
+   },
+   {
+    "text": "That's not from a magic 8ball or a ouija board or some kind of vision.",
+    "translation": "これは手品でも占いでもないのよ ビジョンのなかでもない",
+    "cloze": "That's not from a magic 8ball or a ｟＿｠ board or some kind of vision."
+   }
+  ],
+  "frequencyRank": 23375,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xb3d087cc",
+  "courseId": "en-10-30k",
+  "headword": "optimisation",
+  "reading": null,
+  "gloss": "最適化",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The team worked on optimisation of the search algorithm.",
+    "translation": "チームは検索アルゴリズムの最適化に取り組んだ。",
+    "cloze": "The team worked on ｟＿｠ of the search algorithm.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Optimisation can improve both speed and efficiency.",
+    "translation": "最適化は速度と効率の両方を改善できる。",
+    "cloze": "｟＿｠ can improve both speed and efficiency.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23686,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xa51d9a13",
+  "courseId": "en-10-30k",
+  "headword": "ozark",
+  "reading": "/ˈoʊzˌɑɹk/",
+  "gloss": "オザーク高原(米国中南部、ミズーリ州・アーカンソー州などにまたがる高原地帯)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the kind of appalachians, ozarks, highlands region, as i call it:",
+    "translation": "アパラチアやオザークといった 高地地域です",
+    "cloze": "the kind of appalachians, ｟＿｠, highlands region, as i call it:"
+   },
+   {
+    "text": "you ever been to the ozarks?",
+    "translation": "オザーク高原に行ってみろ",
+    "cloze": "you ever been to the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 23689,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xcdb47ff1",
+  "courseId": "en-10-30k",
+  "headword": "optically",
+  "reading": "/ˈɑptɪkli/",
+  "gloss": "光学的に;視覚的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "and much like in the dvd, you can read it out optically.",
+    "translation": "dvdのように光学的に情報を読み取れます",
+    "cloze": "and much like in the dvd, you can read it out ｟＿｠."
+   },
+   {
+    "text": "if the critic was among the optically activated cells",
+    "translation": "光で活性化する細胞の中にクリティックが含まれていれば、",
+    "cloze": "if the critic was among the ｟＿｠ activated cells"
+   }
+  ],
+  "frequencyRank": 24004,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xd4f92a49",
+  "courseId": "en-10-30k",
+  "headword": "orgs",
+  "reading": null,
+  "gloss": "組織,団体(organizationsの略式表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We partnered with several nonprofit orgs this year.",
+    "translation": "今年はいくつかの非営利団体と提携した。",
+    "cloze": "We partnered with several nonprofit ｟＿｠ this year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24005,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x15899f42",
+  "courseId": "en-10-30k",
+  "headword": "ossetia",
+  "reading": "/ˌɑsˈɛʃjə/",
+  "gloss": "オセチア(コーカサス地方の地域;北オセチアと南オセチアがある)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the regions of south ossetia and abkhazia remain occupied by russian forces.",
+    "translation": "南オセチアとアブハジア地方は ロシア軍に占領され続けている",
+    "cloze": "the regions of south ｟ossetia｠ and abkhazia remain occupied by russian forces."
+   },
+   {
+    "text": "i was transferred from north ossetia to chechnya",
+    "translation": "北オセチアからチェチェンに移されました",
+    "cloze": "i was transferred from north ｟ossetia｠ to chechnya"
+   }
+  ],
+  "frequencyRank": 24333,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x84689b08",
+  "courseId": "en-10-30k",
+  "headword": "operationally",
+  "reading": "/ˈɑpɚˈeɪʃənəli/",
+  "gloss": "運用上、操作的に、作戦上",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "such a system is operationally rigid",
+    "translation": "中国の体制は運営的に柔軟性がなく",
+    "cloze": "such a system is ｟operationally｠ rigid"
+   },
+   {
+    "text": "if not physically dead, operationally dead.",
+    "translation": "肉体的に死んでないなら 作戦上は死んだ",
+    "cloze": "if not physically dead, ｟operationally｠ dead."
+   }
+  ],
+  "frequencyRank": 24695,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x71447284",
+  "courseId": "en-10-30k",
+  "headword": "overthink",
+  "reading": null,
+  "gloss": "考えすぎる、思い詰めすぎる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "You really overthink things.",
+    "translation": "あんたは、物事を思い詰めすぎよ。",
+    "cloze": "You really ｟overthink｠ things."
+   },
+   {
+    "text": "don't overthink it.",
+    "translation": "考えすぎるな",
+    "cloze": "don't ｟overthink｠ it."
+   }
+  ],
+  "frequencyRank": 24699,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xb0d5d4f0",
+  "courseId": "en-10-30k",
+  "headword": "ovid",
+  "reading": null,
+  "gloss": "オウィディウス(古代ローマの詩人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Ovid wrote the famous poem called Metamorphoses.",
+    "translation": "オウィディウスは『変身物語』という有名な詩を書いた。",
+    "cloze": "｟Ovid｠ wrote the famous poem called Metamorphoses.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many English poets were influenced by Ovid's mythology.",
+    "translation": "多くの英詩人はオウィディウスの神話に影響を受けた。",
+    "cloze": "Many English poets were influenced by ｟Ovid｠'s mythology.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24701,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbc80f1b1",
+  "courseId": "en-10-30k",
+  "headword": "onesie",
+  "reading": null,
+  "gloss": "つなぎ服、ロンパース(赤ちゃん用の上下一体の衣類);(大人用)着ぐるみ風パジャマ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What's the difference between a fursuit and an animal onesie?",
+    "translation": "ファースーツと着ぐるみって何が違うの？",
+    "cloze": "What's the difference between a fursuit and an animal ｟＿｠?"
+   },
+   {
+    "text": "we all got our own puff paints... and made these little customized onesies.",
+    "translation": "ホント可愛いかった 皆 パフ・ペイントを...",
+    "cloze": "we all got our own puff paints... and made these little customized ｟＿｠."
+   }
+  ],
+  "frequencyRank": 25070,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xd34e73e2",
+  "courseId": "en-10-30k",
+  "headword": "oppo",
+  "reading": null,
+  "gloss": "(英・略式)相棒、仲間;(政治)反対陣営の身辺調査(oppo research)の略",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He's been my oppo since basic training.",
+    "translation": "彼は基礎訓練の頃からの相棒だ。",
+    "cloze": "He's been my ｟＿｠ since basic training.",
+    "aiGenerated": true
+   },
+   {
+    "text": "In politics, the campaign team hired researchers to dig up oppo on their rival.",
+    "translation": "選挙戦では 陣営が対立候補の弱みを探る調査員を雇った。",
+    "cloze": "In politics, the campaign team hired researchers to dig up ｟＿｠ on their rival.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25072,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x4fb8810d",
+  "courseId": "en-10-30k",
+  "headword": "overeat",
+  "reading": "/ˈoʊvɚˌit/",
+  "gloss": "食べ過ぎる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "It's not good to overeat.",
+    "translation": "食べすぎはいいことじゃないわ。",
+    "cloze": "It's not good to ｟＿｠."
+   },
+   {
+    "text": "Overeating can lead to disease.",
+    "translation": "過食は病気のもと。",
+    "cloze": "｟＿｠ can lead to disease."
+   }
+  ],
+  "frequencyRank": 25076,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xa7f1b1ec",
+  "courseId": "en-10-30k",
+  "headword": "oceanside",
+  "reading": "/ˈoʊʃənsˌaɪd/",
+  "gloss": "海辺の、海に面した；海岸沿い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "They stayed in a small oceanside cottage.",
+    "translation": "彼らは小さな海辺のコテージに滞在した。",
+    "cloze": "They stayed in a small ｟＿｠ cottage.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We had dinner at an oceanside restaurant.",
+    "translation": "私たちは海辺のレストランで夕食を取った。",
+    "cloze": "We had dinner at an ｟＿｠ restaurant.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25815,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x623c5a32",
+  "courseId": "en-10-30k",
+  "headword": "overcook",
+  "reading": "/ˌoʊvɚkˈʊk/",
+  "gloss": "(食べ物を)煮過ぎる、焼き過ぎる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Today's broccoli is overcooked and tasteless.",
+    "translation": "今日のブロッコリー、ゆだりすぎでおいしくないよ。",
+    "cloze": "Today's broccoli is ｟＿｠ and tasteless."
+   },
+   {
+    "text": "The broccoli is overcooked today and so I don't like it.",
+    "translation": "今日のブロッコリー、ゆですぎでおいしくないよ。",
+    "cloze": "The broccoli is ｟＿｠ today and so I don't like it."
+   }
+  ],
+  "frequencyRank": 25819,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xbbaa733e",
+  "courseId": "en-10-30k",
+  "headword": "ordovician",
+  "reading": null,
+  "gloss": "オルドビス紀（古生代の地質年代の一つ）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Trilobites were common marine animals during the Ordovician period.",
+    "translation": "オルドビス紀には三葉虫が海に広く生息していた。",
+    "cloze": "Trilobites were common marine animals during the ｟＿｠ period.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26190,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x47839590",
+  "courseId": "en-10-30k",
+  "headword": "otaku",
+  "reading": null,
+  "gloss": "オタク（特定の趣味に強く熱中する人。英語圏にも定着した借用語）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "this dude's just some anime otaku!",
+    "translation": "このおっさん ただのアニメオタクやろ!",
+    "cloze": "this dude's just some anime ｟＿｠!"
+   },
+   {
+    "text": "and an idol otaku graduates from fandom.",
+    "translation": "アイドルオタクは ファンを卒業してゆく。",
+    "cloze": "and an idol ｟＿｠ graduates from fandom."
+   }
+  ],
+  "frequencyRank": 26191,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbc42fd40",
+  "courseId": "en-10-30k",
+  "headword": "overprotective",
+  "reading": "/ˌoʊvɚpɹətˈɛktəv/",
+  "gloss": "過保護な、保護しすぎる",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and maybe a bit overprotective.",
+    "translation": "少し過保護 じゃないかな",
+    "cloze": "and maybe a bit ｟＿｠."
+   },
+   {
+    "text": "okay, now i am sure that the visitors have overprotective mothers, too.",
+    "translation": "過保護な母親って ビジターの世界にも? 居ます",
+    "cloze": "okay, now i am sure that the visitors have ｟＿｠ mothers, too."
+   }
+  ],
+  "frequencyRank": 26193,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x5cf7462e",
+  "courseId": "en-10-30k",
+  "headword": "oas",
+  "reading": "/ˈoʊˈeɪˈɛs/",
+  "gloss": "米州機構(Organization of American States)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The OAS promotes cooperation among countries in the Americas.",
+    "translation": "米州機構(OAS)は、米州諸国間の協力を促進している。",
+    "cloze": "The ｟OAS｠ promotes cooperation among countries in the Americas.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26598,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf658a9cd",
+  "courseId": "en-10-30k",
+  "headword": "oberon",
+  "reading": "/ˈoʊbɚˌɑn/",
+  "gloss": "オベロン(シェイクスピア劇に登場する妖精の王;天王星の衛星名でもある)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "is that someone fairy king oberon?",
+    "translation": "妖精王オベイロンのことか",
+    "cloze": "is that someone fairy king ｟oberon｠?"
+   },
+   {
+    "text": "the fairy king oberon and the fairies of light, the alf, live there",
+    "translation": "妖精王オベイロンと光の妖精アルフが住んでいて",
+    "cloze": "the fairy king ｟oberon｠ and the fairies of light, the alf, live there"
+   }
+  ],
+  "frequencyRank": 26599,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc3cc49e2",
+  "courseId": "en-10-30k",
+  "headword": "optimise",
+  "reading": null,
+  "gloss": "最適化する(optimizeの英式つづり)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "We need to optimise the website for mobile users.",
+    "translation": "モバイルユーザー向けにウェブサイトを最適化する必要がある。",
+    "cloze": "We need to ｟＿｠ the website for mobile users.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The team optimised the delivery route to save fuel.",
+    "translation": "チームは燃料を節約するため配送ルートを最適化した。",
+    "cloze": "The team ｟＿｠ the delivery route to save fuel.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27030,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xbd590d4b",
+  "courseId": "en-10-30k",
+  "headword": "outhouse",
+  "reading": "/ˈaʊthˌaʊs/",
+  "gloss": "屋外便所、離れ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "septic's out, too, but there's an outhouse in the woods.",
+    "translation": "中の下水道も壊れている。 でも、外にトイレがある。",
+    "cloze": "septic's out, too, but there's an ｟＿｠ in the woods."
+   },
+   {
+    "text": "a double outhouse over here on the side.",
+    "translation": "便所小屋も見えた",
+    "cloze": "a double ｟＿｠ over here on the side."
+   }
+  ],
+  "frequencyRank": 27036,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x4cf3b9f1",
+  "courseId": "en-10-30k",
+  "headword": "oakwood",
+  "reading": "/ˈoʊkwˌʊd/",
+  "gloss": "オークの森;オーク材",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The old cabin was built from solid oakwood.",
+    "translation": "その古い小屋は頑丈なオーク材で建てられていた。",
+    "cloze": "The old cabin was built from solid ｟oakwood｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27440,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x9998a34e",
+  "courseId": "en-10-30k",
+  "headword": "omelet",
+  "reading": "/ˈɑmlət/",
+  "gloss": "オムレツ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Can you cook an omelet?",
+    "translation": "オムレツって作れる？",
+    "cloze": "Can you cook an ｟omelet｠?"
+   },
+   {
+    "text": "You have to break an egg to make an omelet.",
+    "translation": "卵を割らなければオムレツは作れない。",
+    "cloze": "You have to break an egg to make an ｟omelet｠."
+   }
+  ],
+  "frequencyRank": 27446,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xf6b1739c",
+  "courseId": "en-10-30k",
+  "headword": "orwellian",
+  "reading": "/ˌɔɹwˈɛliən/",
+  "gloss": "オーウェル的な(監視・統制の効いた全体主義社会を指す)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "orwellian dystopias and shadowy cabals",
+    "translation": "オーウェル的ディストピアや 秘密結社",
+    "cloze": "｟orwellian｠ dystopias and shadowy cabals"
+   },
+   {
+    "text": "someone who represents everything that's wrong with an unchecked orwellian state.",
+    "translation": "代弁する人 間違ってるすべてのもの 歯止めが利かない オーウェル状態",
+    "cloze": "someone who represents everything that's wrong with an unchecked ｟orwellian｠ state."
+   }
+  ],
+  "frequencyRank": 27449,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x42e31a85",
+  "courseId": "en-10-30k",
+  "headword": "otp",
+  "reading": null,
+  "gloss": "ワンタイムパスワード(使い捨ての認証コード)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The bank sent an OTP to verify the transaction.",
+    "translation": "銀行は取引を確認するためにOTPを送信した。",
+    "cloze": "The bank sent an ｟OTP｠ to verify the transaction.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Enter the OTP you received by text message.",
+    "translation": "テキストメッセージで受け取ったOTPを入力してください。",
+    "cloze": "Enter the ｟OTP｠ you received by text message.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27450,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc8398c8d",
+  "courseId": "en-10-30k",
+  "headword": "overvalued",
+  "reading": "/ˈoʊvɚvˌæljud/",
+  "gloss": "過大評価された,割高な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "When it comes to Chinese books that are overvalued worldwide I suppose it's Sun Tzu, isn't it?",
+    "translation": "世界的に過大に評価された中国書といえば、『孫子』ですかね。",
+    "cloze": "When it comes to Chinese books that are ｟＿｠ worldwide I suppose it's Sun Tzu, isn't it?"
+   },
+   {
+    "text": "yeah, the market might be overvalued",
+    "translation": "「ディディエ君 市場は過剰評価されているかもしれない",
+    "cloze": "yeah, the market might be ｟＿｠"
+   }
+  ],
+  "frequencyRank": 27867,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc75b1485",
+  "courseId": "en-10-30k",
+  "headword": "ordinates",
+  "reading": null,
+  "gloss": "座標(特にy座標);縦座標",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Plot the ordinates on the graph to find the curve.",
+    "translation": "曲線を求めるためグラフに座標(y座標)をプロットしなさい。",
+    "cloze": "Plot the ｟＿｠ on the graph to find the curve.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28678,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x9d8deee0",
+  "courseId": "en-10-30k",
+  "headword": "oems",
+  "reading": null,
+  "gloss": "相手先ブランド製造(OEM)、納入先ブランドで製品を作るメーカー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many smartphone components are supplied by OEMs in Asia.",
+    "translation": "多くのスマートフォン部品はアジアのOEM企業から供給されている。",
+    "cloze": "Many smartphone components are supplied by ｟＿｠s in Asia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29082,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x580a53eb",
+  "courseId": "en-10-30k",
+  "headword": "ombre",
+  "reading": null,
+  "gloss": "オンブレ(色が濃淡にグラデーションする染め方・デザイン)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She dyed her hair in an ombre style, dark at the roots and light at the tips.",
+    "translation": "彼女は根元が濃く毛先が明るいオンブレスタイルに髪を染めた。",
+    "cloze": "She dyed her hair in an ｟＿｠ style, dark at the roots and light at the tips.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29084,
+  "category": "colors"
+ },
+ {
+  "id": "en-10-30k-x830acca6",
+  "courseId": "en-10-30k",
+  "headword": "oxycodone",
+  "reading": null,
+  "gloss": "オキシコドン(オピオイド系の鎮痛剤)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "they had security footage of me stealing oxycodone from the hospital pharmacy.",
+    "translation": "彼らは私が病院の薬局から 薬を盗んだ映像を持ってた",
+    "cloze": "they had security footage of me stealing ｟＿｠ from the hospital pharmacy."
+   },
+   {
+    "text": "oxycodone from medical.",
+    "translation": "鎮痛剤 医務室から?",
+    "cloze": "｟＿｠ from medical."
+   }
+  ],
+  "frequencyRank": 29088,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x3d6c3cda",
+  "courseId": "en-10-30k",
+  "headword": "odeon",
+  "reading": "/ˈoʊdiən/",
+  "gloss": "(古代ギリシャ・ローマの)音楽堂、演奏会場;(英国の)映画館(チェーン名としても使用)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i heard they were coming to the manchester odeon",
+    "translation": "マンチェスター・オデオンへ 来るって聞いたんだ",
+    "cloze": "i heard they were coming to the manchester ｟odeon｠"
+   },
+   {
+    "text": "across the street from the odeon",
+    "translation": "オデヲン座の向かいだ",
+    "cloze": "across the street from the ｟odeon｠"
+   }
+  ],
+  "frequencyRank": 29914,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x98d51bcb",
+  "courseId": "en-10-30k",
+  "headword": "outerwear",
+  "reading": "/ˈaʊtɚwˌɛɹ/",
+  "gloss": "上着、アウター(コート・ジャケットなど外側に着る衣類)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "surely this is kimura's outerwear.",
+    "translation": "確かに これは 木村さんの上着ですね。",
+    "cloze": "surely this is kimura's ｟outerwear｠."
+   },
+   {
+    "text": "far be it for me to, yeah, speculate on the state of your marriage, but i looked in your coat closet, and i saw it was full of, uh, topoftheline outerwear.",
+    "translation": "僕には 君たちの結婚生活をあれこれ 憶測しようという気は まったくないが 洋服戸棚のコートを見ると",
+    "cloze": "far be it for me to, yeah, speculate on the state of your marriage, but i looked in your coat closet, and i saw it was full of, uh, topoftheline ｟outerwear｠."
+   }
+  ],
+  "frequencyRank": 29918,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x2580d37f",
+  "courseId": "en-10-30k",
+  "headword": "outflows",
+  "reading": "/ˈaʊtflˌoʊz/",
+  "gloss": "流出(量)、(資金などの)流出",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The country experienced large capital outflows last year.",
+    "translation": "その国は昨年大規模な資本流出を経験した。",
+    "cloze": "The country experienced large capital ｟outflows｠ last year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29919,
+  "category": "work"
+ }
+]

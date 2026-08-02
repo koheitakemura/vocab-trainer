@@ -1,0 +1,5379 @@
+[
+ {
+  "id": "en-10-30k-xcdcdc0ca",
+  "courseId": "en-10-30k",
+  "headword": "washington",
+  "reading": "/wˈɑʃɪŋtən/",
+  "gloss": "ワシントン(米国の首都、または北西部の州);ジョージ・ワシントン(米国初代大統領)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "George Washington was born in 1732.",
+    "translation": "ジョージ・ワシントンは１７３２年に生まれた。",
+    "cloze": "George ｟＿｠ was born in 1732."
+   },
+   {
+    "text": "I'm at my friend's house in Washington.",
+    "translation": "ワシントンの友達んちにいるんだ。",
+    "cloze": "I'm at my friend's house in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 38,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfd8fc252",
+  "courseId": "en-10-30k",
+  "headword": "wow",
+  "reading": "/wˈaʊ/",
+  "gloss": "わあ、すごい(驚き・感嘆を表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Wow!",
+    "translation": "すごい！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "Wow! What's that?",
+    "translation": "わぉ！何それ？",
+    "cloze": "｟＿｠! What's that?"
+   }
+  ],
+  "frequencyRank": 58,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x974d9821",
+  "courseId": "en-10-30k",
+  "headword": "wale",
+  "reading": "/wˈeɪl/",
+  "gloss": "ウェールズ(英国を構成する地域;主都カーディフ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He comes from Wales.",
+    "translation": "彼はウェールズ出身です。",
+    "cloze": "He comes from ｟Wales｠."
+   },
+   {
+    "text": "In Wales we have a proverb.",
+    "translation": "ウェールズに諺があります。",
+    "cloze": "In ｟Wales｠ we have a proverb."
+   }
+  ],
+  "frequencyRank": 189,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd8c3d255",
+  "courseId": "en-10-30k",
+  "headword": "wednesday",
+  "reading": "/wˈɛnzdi/",
+  "gloss": "水曜日",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Today is Wednesday.",
+    "translation": "今日は水曜日です。",
+    "cloze": "Today is ｟Wednesday｠."
+   },
+   {
+    "text": "I have work on Wednesday.",
+    "translation": "水曜日は仕事があります。",
+    "cloze": "I have work on ｟Wednesday｠."
+   }
+  ],
+  "frequencyRank": 197,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x250f0663",
+  "courseId": "en-10-30k",
+  "headword": "worldwide",
+  "reading": "/wˈɝldwˈaɪd/",
+  "gloss": "世界的な、全世界に及ぶ",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tolstoy achieved worldwide fame.",
+    "translation": "トルストイは世界的名声を博した。",
+    "cloze": "Tolstoy achieved ｟＿｠ fame."
+   },
+   {
+    "text": "A worldwide plague of theft emptied museums.",
+    "translation": "世界的な美術品窃盗という疫病が美術館をからにしてしまった。",
+    "cloze": "A ｟＿｠ plague of theft emptied museums."
+   }
+  ],
+  "frequencyRank": 233,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x62e63dc1",
+  "courseId": "en-10-30k",
+  "headword": "walker",
+  "reading": "/wˈɔkɚ/",
+  "gloss": "歩く人;歩行器",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm a slow walker.",
+    "translation": "私は歩くのが遅い。",
+    "cloze": "I'm a slow ｟walker｠."
+   },
+   {
+    "text": "He's a fast walker.",
+    "translation": "彼は歩くのが速い。",
+    "cloze": "He's a fast ｟walker｠."
+   }
+  ],
+  "frequencyRank": 367,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa68849ef",
+  "courseId": "en-10-30k",
+  "headword": "wisconsin",
+  "reading": "/wɪskˈɑnsən/",
+  "gloss": "ウィスコンシン州(米国中北部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "so we have a watermelon from wisconsin.",
+    "translation": "ウィスコンシン州産です",
+    "cloze": "so we have a watermelon from ｟＿｠."
+   },
+   {
+    "text": "she is paid the same amount as the postmaster of sheboygan, wisconsin.",
+    "translation": "ウィスコンシンのシボイガン郡の 郵便局長の給料と同じだ",
+    "cloze": "she is paid the same amount as the postmaster of sheboygan, ｟＿｠."
+   }
+  ],
+  "frequencyRank": 474,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x61375b1c",
+  "courseId": "en-10-30k",
+  "headword": "wolf",
+  "reading": "/wˈʊlf/",
+  "gloss": "オオカミ；貪欲な人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm a wolf.",
+    "translation": "私は狼だ。",
+    "cloze": "I'm a ｟＿｠."
+   },
+   {
+    "text": "That's a wolf.",
+    "translation": "あれはオオカミだ。",
+    "cloze": "That's a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 496,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x3589a473",
+  "courseId": "en-10-30k",
+  "headword": "wildlife",
+  "reading": "/wˈaɪldlˌaɪf/",
+  "gloss": "野生生物、野生動物",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The area is notable for its scenery and wildlife.",
+    "translation": "その地域は風景と野生動物で注目に値する。",
+    "cloze": "The area is notable for its scenery and ｟＿｠."
+   },
+   {
+    "text": "The organization plays a principal role in wildlife conservation.",
+    "translation": "その団体は野生動物の保護において、最も重要な役割を果たしている。",
+    "cloze": "The organization plays a principal role in ｟＿｠ conservation."
+   }
+  ],
+  "frequencyRank": 533,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x714f9c83",
+  "courseId": "en-10-30k",
+  "headword": "worship",
+  "reading": "/wˈɝʃəp/",
+  "gloss": "崇拝する、礼拝する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "They worship every Sunday.",
+    "translation": "彼らは毎週日曜日に礼拝に行く。",
+    "cloze": "They ｟＿｠ every Sunday."
+   },
+   {
+    "text": "The Hindus worship in temples.",
+    "translation": "ヒンズー教徒は寺院で礼拝をします。",
+    "cloze": "The Hindus ｟＿｠ in temples."
+   }
+  ],
+  "frequencyRank": 617,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x3527e624",
+  "courseId": "en-10-30k",
+  "headword": "weed",
+  "reading": "/wˈid/",
+  "gloss": "雑草",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Ill weeds grow apace.",
+    "translation": "憎まれっ子世に憚る。",
+    "cloze": "Ill ｟＿｠ grow apace."
+   },
+   {
+    "text": "Mint grows like a weed.",
+    "translation": "ミントは雑草のように育ちます。",
+    "cloze": "Mint grows like a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 669,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xc0a795c7",
+  "courseId": "en-10-30k",
+  "headword": "wtf",
+  "reading": null,
+  "gloss": "一体全体、なんだよ(驚き・困惑を表すスラング。\"what the fuck\"の略)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "wtf, gary. wtf.",
+    "translation": "なんだこれ?",
+    "cloze": "｟＿｠, gary. ｟＿｠."
+   },
+   {
+    "text": "gary, wtf?",
+    "translation": "ゲイリー 何してくれるんだ?",
+    "cloze": "gary, ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 829,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x5d85effe",
+  "courseId": "en-10-30k",
+  "headword": "wireless",
+  "reading": "/wˈaɪɹlɪs/",
+  "gloss": "無線の；(英)ラジオ",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm using wireless headphones.",
+    "translation": "私はワイヤレスイヤホンを使っている。",
+    "cloze": "I'm using ｟＿｠ headphones."
+   },
+   {
+    "text": "My wireless mouse started malfunctioning, so I immediately ordered a new one.",
+    "translation": "ワイヤレスマウスの調子が悪くなって、すぐに新しいものを注文した。",
+    "cloze": "My ｟＿｠ mouse started malfunctioning, so I immediately ordered a new one."
+   }
+  ],
+  "frequencyRank": 886,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xa61e6bae",
+  "courseId": "en-10-30k",
+  "headword": "wright",
+  "reading": "/ɹˈaɪt/",
+  "gloss": "ライト(ライト兄弟；米国の飛行機発明者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Mr. Wright speaks Japanese like a native speaker.",
+    "translation": "ライトさんは、まるで母国語の様に日本語を話します。",
+    "cloze": "Mr. ｟＿｠ speaks Japanese like a native speaker."
+   },
+   {
+    "text": "The Wright brothers succeeded in flying an airplane driven by an engine.",
+    "translation": "ライト兄弟はエンジンで動く飛行機を飛ばすことに成功した。",
+    "cloze": "The ｟＿｠ brothers succeeded in flying an airplane driven by an engine."
+   }
+  ],
+  "frequencyRank": 887,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd5597e9e",
+  "courseId": "en-10-30k",
+  "headword": "wallet",
+  "reading": "/wˈɔlət/",
+  "gloss": "(折りたたみ式の)財布、紙入れ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Here's my wallet.",
+    "translation": "ほら財布だ。",
+    "cloze": "Here's my ｟＿｠."
+   },
+   {
+    "text": "I lost my wallet.",
+    "translation": "私の財布が無くなった。",
+    "cloze": "I lost my ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1063,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-xdd4ff56e",
+  "courseId": "en-10-30k",
+  "headword": "welsh",
+  "reading": "/wˈɛltʃ/",
+  "gloss": "ウェールズの、ウェールズ人(語)の;ウェールズ人;ウェールズ語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He was a very likeable Welsh bloke and he hung out with us for a few days.",
+    "translation": "彼はとても好感の持てるウェールズ人で、数日僕らと過ごしたんだ。",
+    "cloze": "He was a very likeable ｟＿｠ bloke and he hung out with us for a few days."
+   },
+   {
+    "text": "She has a strong Welsh accent.",
+    "translation": "彼女には強いウェールズ訛りがある。",
+    "cloze": "She has a strong ｟＿｠ accent.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1064,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xffc6d364",
+  "courseId": "en-10-30k",
+  "headword": "wrestle",
+  "reading": "/ɹˈɛsəl/",
+  "gloss": "格闘する、レスリングをする;(問題などに)取り組む",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Let's arm wrestle.",
+    "translation": "腕相撲しよう。",
+    "cloze": "Let's arm ｟＿｠."
+   },
+   {
+    "text": "You wanna arm wrestle?",
+    "translation": "腕相撲しようか。",
+    "cloze": "You wanna arm ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1099,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xa830987d",
+  "courseId": "en-10-30k",
+  "headword": "witch",
+  "reading": "/wˈɪtʃ/",
+  "gloss": "魔女、女の魔法使い",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I am not a witch.",
+    "translation": "私は魔女ではありません。",
+    "cloze": "I am not a ｟witch｠."
+   },
+   {
+    "text": "I think she's a witch.",
+    "translation": "彼女は魔法使いだと思うよ。",
+    "cloze": "I think she's a ｟witch｠."
+   }
+  ],
+  "frequencyRank": 1214,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x9d55101d",
+  "courseId": "en-10-30k",
+  "headword": "workplace",
+  "reading": "/wˈɝkplˌeɪs/",
+  "gloss": "職場、仕事場",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Always keep your workplace organized.",
+    "translation": "いつも仕事場をきちんと整理しておきなさい。",
+    "cloze": "Always keep your ｟＿｠ organized."
+   },
+   {
+    "text": "Tomorrow is my first day at the new workplace.",
+    "translation": "明日は新しい職場の初日です。",
+    "cloze": "Tomorrow is my first day at the new ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1507,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x847f7eef",
+  "courseId": "en-10-30k",
+  "headword": "width",
+  "reading": "/wˈɪdθ/",
+  "gloss": "幅、広さ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The road is ten feet in width.",
+    "translation": "その道路は幅が１０フィートだ。",
+    "cloze": "The road is ten feet in ｟＿｠."
+   },
+   {
+    "text": "What's the width of this road?",
+    "translation": "この道の幅はどれくらいですか。",
+    "cloze": "What's the ｟＿｠ of this road?"
+   }
+  ],
+  "frequencyRank": 1603,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa12a8ae0",
+  "courseId": "en-10-30k",
+  "headword": "workout",
+  "reading": "/wˈɝkˌaʊt/",
+  "gloss": "運動、トレーニング",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My sister is old enough to go to a workout studio by herself.",
+    "translation": "妹は一人でエアロビクスクラスに行ける年齢だ。",
+    "cloze": "My sister is old enough to go to a ｟＿｠ studio by herself."
+   },
+   {
+    "text": "I do a workout every morning.",
+    "translation": "私は毎朝トレーニングをする。",
+    "cloze": "I do a ｟＿｠ every morning.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1604,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xd8a4bfc1",
+  "courseId": "en-10-30k",
+  "headword": "whip",
+  "reading": "/wˈɪp/",
+  "gloss": "むちで打つ;(卵・クリームを)泡立てる;さっと動く;〈名〉むち",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He whipped around the corner.",
+    "translation": "彼はさっと角を曲がった。",
+    "cloze": "He ｟＿｠ around the corner."
+   },
+   {
+    "text": "He wants whipping for saying that.",
+    "translation": "彼はあんなことを言ったから、むちで打たれるのも当然だ。",
+    "cloze": "He wants ｟＿｠ for saying that."
+   }
+  ],
+  "frequencyRank": 1659,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x014e28d6",
+  "courseId": "en-10-30k",
+  "headword": "wrist",
+  "reading": "/ɹˈɪst/",
+  "gloss": "手首(関節)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I took him by the wrist.",
+    "translation": "私は彼の手首をつかまえた。",
+    "cloze": "I took him by the ｟＿｠."
+   },
+   {
+    "text": "He seized me by the wrist.",
+    "translation": "彼は私の手首を掴んだ。",
+    "cloze": "He seized me by the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1660,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xe53779b1",
+  "courseId": "en-10-30k",
+  "headword": "westminster",
+  "reading": "/wˌɛstmˈɪnstɚ/",
+  "gloss": "ウェストミンスター(ロンドンの地区、英国議会・国会議事堂を指すことも)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom stood on the platform in Westminster Underground Station.",
+    "translation": "トムは地下鉄ウェストミンスター駅のプラットホームに立っていた。",
+    "cloze": "Tom stood on the platform in ｟＿｠ Underground Station."
+   },
+   {
+    "text": "from the calm of westminster and whitehall? (laughter)",
+    "translation": "静かな議会と政治の場を離れられて...",
+    "cloze": "from the calm of ｟＿｠ and whitehall? (laughter)"
+   }
+  ],
+  "frequencyRank": 1713,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x30864946",
+  "courseId": "en-10-30k",
+  "headword": "wick",
+  "reading": "/wˈɪk/",
+  "gloss": "(ろうそく・ランプなどの)芯、灯心",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The candle's wick burned slowly through the night.",
+    "translation": "そのろうそくの芯は夜通しゆっくりと燃えた。",
+    "cloze": "The candle's ｟＿｠ burned slowly through the night.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Trim the wick before lighting the candle.",
+    "translation": "ろうそくに火をつける前に芯を切りなさい。",
+    "cloze": "Trim the ｟＿｠ before lighting the candle.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1767,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xb0d183dd",
+  "courseId": "en-10-30k",
+  "headword": "whale",
+  "reading": "/wˈeɪl/",
+  "gloss": "クジラ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is that a whale?",
+    "translation": "あれって、クジラ？",
+    "cloze": "Is that a ｟＿｠?"
+   },
+   {
+    "text": "Whales are mammals.",
+    "translation": "鯨は哺乳類である。",
+    "cloze": "｟＿｠ are mammals."
+   }
+  ],
+  "frequencyRank": 1824,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xc2b31e73",
+  "courseId": "en-10-30k",
+  "headword": "waist",
+  "reading": "/wˈeɪst/",
+  "gloss": "腰、ウエスト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She has a small waist.",
+    "translation": "彼女のウエストは細い。",
+    "cloze": "She has a small ｟＿｠."
+   },
+   {
+    "text": "What's your waist size?",
+    "translation": "ウエストのサイズはいくつですか。",
+    "cloze": "What's your ｟＿｠ size?"
+   }
+  ],
+  "frequencyRank": 1945,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x6fe3c3ba",
+  "courseId": "en-10-30k",
+  "headword": "wreck",
+  "reading": "/ɹˈɛk/",
+  "gloss": "難破させる、大破させる;残骸",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Robbers wrecked the mail train.",
+    "translation": "強盗が郵便列車をめちゃくちゃにした。",
+    "cloze": "Robbers ｟＿｠ the mail train."
+   },
+   {
+    "text": "The ship was wrecked on the rocks.",
+    "translation": "船は岩にぶつかって難破した。",
+    "cloze": "The ship was ｟＿｠ on the rocks."
+   }
+  ],
+  "frequencyRank": 1947,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xf0598039",
+  "courseId": "en-10-30k",
+  "headword": "wilderness",
+  "reading": "/wˈɪldɚnəs/",
+  "gloss": "荒野、荒れ地",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The garden is turning into a wilderness.",
+    "translation": "その庭園は荒れ地に変わりつつある。",
+    "cloze": "The garden is turning into a ｟＿｠."
+   },
+   {
+    "text": "There is nothing here but remote wilderness.",
+    "translation": "ここには人里離れた荒野のほかに何もありません。",
+    "cloze": "There is nothing here but remote ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2015,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x88a89ffe",
+  "courseId": "en-10-30k",
+  "headword": "wifi",
+  "reading": "/wˈaɪfˌaɪ/",
+  "gloss": "ワイファイ,無線LAN",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Can you tell me the WiFi password?",
+    "translation": "Wi-Fiのパスワードを教えていただけますか？",
+    "cloze": "Can you tell me the ｟WiFi｠ password?"
+   },
+   {
+    "text": "ordinary phones, including a blackberry, that have wifi.",
+    "translation": "ブラックベリーやwi-fiの付いた 普通の電話の話です",
+    "cloze": "ordinary phones, including a blackberry, that have ｟wifi｠."
+   }
+  ],
+  "frequencyRank": 2068,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xbcf02b7a",
+  "courseId": "en-10-30k",
+  "headword": "workforce",
+  "reading": "/wˈɝkfˌɔɹs/",
+  "gloss": "労働力,労働人口",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Exploitative companies are avoided by the workforce.",
+    "translation": "ブラック企業は労働者から敬遠されます。",
+    "cloze": "Exploitative companies are avoided by the ｟workforce｠."
+   },
+   {
+    "text": "Management has threatened to lock out the workforce if they do not accept the proposed changes.",
+    "translation": "経営側は、労働側が、提案された変更点を受け入れないなら工場閉鎖すると、脅している。",
+    "cloze": "Management has threatened to lock out the ｟workforce｠ if they do not accept the proposed changes."
+   }
+  ],
+  "frequencyRank": 2069,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x2a2047d5",
+  "courseId": "en-10-30k",
+  "headword": "wizard",
+  "reading": "/wˈɪzɚd/",
+  "gloss": "魔法使い、名人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Are you a wizard?",
+    "translation": "あなたは魔法使いなの？",
+    "cloze": "Are you a ｟＿｠?"
+   },
+   {
+    "text": "So, was there a time when you were a wizard, too?",
+    "translation": "じゃぁ、あなたって魔法使いだった時もあるの？",
+    "cloze": "So, was there a time when you were a ｟＿｠, too?"
+   }
+  ],
+  "frequencyRank": 2141,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc033b2b9",
+  "courseId": "en-10-30k",
+  "headword": "wax",
+  "reading": "/wˈæks/",
+  "gloss": "(…に)ワックスをかける、つや出しをする；(月が)満ちる、増大する；ろう、ワックス(材料)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Wax the floor.",
+    "translation": "床にワックスをかけなさい。",
+    "cloze": "｟＿｠ the floor."
+   },
+   {
+    "text": "The car is waxed and shiny.",
+    "translation": "車にはワックスがかけられ、ツヤツヤしている。",
+    "cloze": "The car is ｟＿｠ and shiny."
+   }
+  ],
+  "frequencyRank": 2197,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xf52e9840",
+  "courseId": "en-10-30k",
+  "headword": "wikipedia",
+  "reading": "/wˈɪkipˌidˌiə/",
+  "gloss": "ウィキペディア(オンライン百科事典)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Welcome to Wikipedia.",
+    "translation": "ウィキペディアへようこそ。",
+    "cloze": "Welcome to ｟＿｠."
+   },
+   {
+    "text": "Have you ever added an article to Wikipedia?",
+    "translation": "ウィキペディアに記事を投稿したことはありますか？",
+    "cloze": "Have you ever added an article to ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 2198,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x7a69866f",
+  "courseId": "en-10-30k",
+  "headword": "wool",
+  "reading": "/wˈʊl/",
+  "gloss": "羊毛、毛糸、毛織物",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Wool dyes nicely.",
+    "translation": "羊毛は染め上がりがきれいです。",
+    "cloze": "｟＿｠ dyes nicely."
+   },
+   {
+    "text": "Sheep wool is fluffy.",
+    "translation": "羊の毛は、ふわふわです。",
+    "cloze": "Sheep ｟＿｠ is fluffy."
+   }
+  ],
+  "frequencyRank": 2272,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x17398561",
+  "courseId": "en-10-30k",
+  "headword": "wagon",
+  "reading": "/wˈæɡən/",
+  "gloss": "馬車,ワゴン車",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Then I'll help you overturn the wagon.",
+    "translation": "そしたら横転したの手伝ってやっからよ。",
+    "cloze": "Then I'll help you overturn the ｟＿｠."
+   },
+   {
+    "text": "The farmer pitched the hay onto the wagon.",
+    "translation": "農夫は荷馬車の上へ干し草を放り上げた。",
+    "cloze": "The farmer pitched the hay onto the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2354,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x273ce450",
+  "courseId": "en-10-30k",
+  "headword": "whistle",
+  "reading": "/wˈɪsəl/",
+  "gloss": "口笛を吹く、笛を鳴らす(名詞:口笛、警笛)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom whistled.",
+    "translation": "トムは口笛を吹きました。",
+    "cloze": "Tom ｟＿｠."
+   },
+   {
+    "text": "Mary whistled.",
+    "translation": "マリーが口笛を吹いていた。",
+    "cloze": "Mary ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2480,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x8e43b0aa",
+  "courseId": "en-10-30k",
+  "headword": "wee",
+  "reading": "/wˈi/",
+  "gloss": "とても小さい、ちっぽけな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She has a wee bit of trouble sleeping at night.",
+    "translation": "彼女は夜、少しばかり眠れないことがある。",
+    "cloze": "She has a ｟＿｠ bit of trouble sleeping at night.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Just wait a wee moment, please.",
+    "translation": "ほんの少しだけお待ちください。",
+    "cloze": "Just wait a ｟＿｠ moment, please.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2542,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x88134ffb",
+  "courseId": "en-10-30k",
+  "headword": "wheelchair",
+  "reading": "/wˈiltʃˌɛɹ/",
+  "gloss": "車いす",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is it wheelchair-accessible?",
+    "translation": "車いすでも大丈夫ですか？",
+    "cloze": "Is it ｟＿｠-accessible?"
+   },
+   {
+    "text": "Tom didn't need a wheelchair.",
+    "translation": "トムに車いすは必要なかった。",
+    "cloze": "Tom didn't need a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2612,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x46f83a16",
+  "courseId": "en-10-30k",
+  "headword": "wholly",
+  "reading": "/hˈoʊli/",
+  "gloss": "全く、完全に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I don't wholly agree with you.",
+    "translation": "私は全面的に君に同意しているわけではない。",
+    "cloze": "I don't ｟wholly｠ agree with you."
+   },
+   {
+    "text": "The statement is not wholly true.",
+    "translation": "その陳述は全くの真実とは限らない。",
+    "cloze": "The statement is not ｟wholly｠ true."
+   }
+  ],
+  "frequencyRank": 2822,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x05189066",
+  "courseId": "en-10-30k",
+  "headword": "wellington",
+  "reading": "/wˈɛlɪŋtən/",
+  "gloss": "ウェリントン(ニュージーランドの首都);ひざまでのゴム長靴",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm from Wellington, the capital of New Zealand.",
+    "translation": "ニュージーランドの首都ウエリントンからきました。",
+    "cloze": "I'm from ｟＿｠, the capital of New Zealand."
+   },
+   {
+    "text": "The population of Wellington is only about a fortieth of that of Tokyo.",
+    "translation": "ウェリントンの人口は東京の約４０分の１しかないのです。",
+    "cloze": "The population of ｟＿｠ is only about a fortieth of that of Tokyo."
+   }
+  ],
+  "frequencyRank": 2890,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8441511e",
+  "courseId": "en-10-30k",
+  "headword": "whoa",
+  "reading": "/wˈoʊ/",
+  "gloss": "おっと,わあ;どうどう(馬を止める掛け声)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Whoa, are you serious?",
+    "translation": "わ〜、マジで？",
+    "cloze": "｟＿｠, are you serious?"
+   },
+   {
+    "text": "Whoa, if we keep chatting, despite actually arriving early, we'll end up late!",
+    "translation": "おっと、せっかく時間前に来たのに、ダベッてたら遅刻しちまう。",
+    "cloze": "｟＿｠, if we keep chatting, despite actually arriving early, we'll end up late!"
+   }
+  ],
+  "frequencyRank": 2891,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xde3a7a46",
+  "courseId": "en-10-30k",
+  "headword": "willingness",
+  "reading": "/wˈɪlɪŋnəs/",
+  "gloss": "喜んですること,進んでする気持ち",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Dick showed a willingness to help us.",
+    "translation": "ディックは私たちを喜んで助けようとする様子を見せた。",
+    "cloze": "Dick showed a ｟＿｠ to help us."
+   },
+   {
+    "text": "Willingness to take responsibility is a sign of maturity.",
+    "translation": "進んで責任を取るということは成熟の印である。",
+    "cloze": "｟＿｠ to take responsibility is a sign of maturity."
+   }
+  ],
+  "frequencyRank": 2892,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x15ecfa58",
+  "courseId": "en-10-30k",
+  "headword": "worthless",
+  "reading": "/wˈɝθləs/",
+  "gloss": "価値のない,つまらない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This machine is worthless.",
+    "translation": "この機械は価値がない。",
+    "cloze": "This machine is ｟＿｠."
+   },
+   {
+    "text": "His opinions are worthless.",
+    "translation": "彼の意見はくだらない。",
+    "cloze": "His opinions are ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2894,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x062d4453",
+  "courseId": "en-10-30k",
+  "headword": "wardrobe",
+  "reading": "/wˈɔɹdɹˌoʊb/",
+  "gloss": "衣装だんす、洋服だんす；持ち衣装",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Put the clothes in the wardrobe.",
+    "translation": "服は、洋服ダンスにおさめといて。",
+    "cloze": "Put the clothes in the ｟＿｠."
+   },
+   {
+    "text": "She selected a blue dress from the wardrobe.",
+    "translation": "彼女は洋服ダンスから青いドレスを選んだ。",
+    "cloze": "She selected a blue dress from the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3060,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x8faa41f7",
+  "courseId": "en-10-30k",
+  "headword": "warmth",
+  "reading": "/wˈɔɹmθ/",
+  "gloss": "暖かさ；心の温かさ、温情",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I remember the warmth of his arms.",
+    "translation": "彼の腕の温かさを思い出す。",
+    "cloze": "I remember the ｟＿｠ of his arms."
+   },
+   {
+    "text": "The warmth of Tom's hug soothed me.",
+    "translation": "トムのハグのぬくもりに癒されました。",
+    "cloze": "The ｟＿｠ of Tom's hug soothed me."
+   }
+  ],
+  "frequencyRank": 3061,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xced2867c",
+  "courseId": "en-10-30k",
+  "headword": "whiskey",
+  "reading": "/wˈɪski/",
+  "gloss": "ウイスキー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He deals in whiskey.",
+    "translation": "彼はウイスキーの商売をしています。",
+    "cloze": "He deals in ｟＿｠."
+   },
+   {
+    "text": "Do you drink whiskey?",
+    "translation": "ウィスキーを飲みますか。",
+    "cloze": "Do you drink ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 3224,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x8b7e80c6",
+  "courseId": "en-10-30k",
+  "headword": "worm",
+  "reading": "/wˈɝm/",
+  "gloss": "虫(ミミズ・うじ虫など)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The worm turns.",
+    "translation": "一寸の虫にも五分の魂。",
+    "cloze": "The ｟＿｠ turns."
+   },
+   {
+    "text": "Even a worm will turn.",
+    "translation": "虫ですら向かってくるものだ。",
+    "cloze": "Even a ｟＿｠ will turn."
+   }
+  ],
+  "frequencyRank": 3225,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x7b110946",
+  "courseId": "en-10-30k",
+  "headword": "wyoming",
+  "reading": "/wˌaɪˈoʊmɪŋ/",
+  "gloss": "ワイオミング州(米国西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the wastelands of wyoming, idaho, utah, colorado",
+    "translation": "ワイオミング アイダホ ユタ コロラドの荒れ地に",
+    "cloze": "the wastelands of ｟＿｠, idaho, utah, colorado"
+   },
+   {
+    "text": "it is twice the size of wyoming.",
+    "translation": "それはちょうど ワイオミング州の二倍ほど",
+    "cloze": "it is twice the size of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3226,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2f6a780e",
+  "courseId": "en-10-30k",
+  "headword": "wheeler",
+  "reading": "/wˈilɚ/",
+  "gloss": "荷馬車の御者,トラック運転者;《英》車大工;(wheeler-dealerで)やり手",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is a real wheeler-dealer.",
+    "translation": "彼はやり手です。",
+    "cloze": "He is a real ｟＿｠-dealer."
+   },
+   {
+    "text": "The old wheeler repaired wagon wheels for the whole village.",
+    "translation": "その老いた車大工は村中の荷馬車の車輪を修理した。",
+    "cloze": "The old ｟＿｠ repaired wagon wheels for the whole village.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3307,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x72c0884e",
+  "courseId": "en-10-30k",
+  "headword": "webster",
+  "reading": "/wˈɛbstɚ/",
+  "gloss": "ウエブスター(Noah Webster;米国の辞書編集者。「ウエブスター辞典」で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "what, do you need a websters?",
+    "translation": "通訳がいる?",
+    "cloze": "what, do you need a ｟websters｠?"
+   },
+   {
+    "text": "I looked up the word in Webster's dictionary.",
+    "translation": "私はウェブスター辞典でその単語を調べた。",
+    "cloze": "I looked up the word in ｟Webster's｠ dictionary.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3393,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb5369481",
+  "courseId": "en-10-30k",
+  "headword": "weaken",
+  "reading": "/wˈikən/",
+  "gloss": "弱める；弱くなる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "My sense of smell is weakening.",
+    "translation": "嗅覚が鈍っています。",
+    "cloze": "My sense of smell is ｟＿｠ing."
+   },
+   {
+    "text": "European currencies weakened against the dollar.",
+    "translation": "欧州通貨はドルに対して弱くなった。",
+    "cloze": "European currencies ｟＿｠ against the dollar."
+   }
+  ],
+  "frequencyRank": 3675,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xcbd2775e",
+  "courseId": "en-10-30k",
+  "headword": "windsor",
+  "reading": "/wˈɪnzɚ/",
+  "gloss": "ウィンザー(英国の町・ウィンザー城で有名);ウィンザー家(英国王室の名称)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Queen lived at Windsor Castle.",
+    "translation": "女王はウィンザー城に住んでいた。",
+    "cloze": "The Queen lived at ｟Windsor｠ Castle.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3676,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xec12ee8e",
+  "courseId": "en-10-30k",
+  "headword": "wagner",
+  "reading": "/wˈæɡnɚ/",
+  "gloss": "ワーグナー(ドイツの作曲家、1813-1883)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "that's an opera, that's wagner.",
+    "translation": "オペラだ それはワーグナーだ",
+    "cloze": "that's an opera, that's ｟＿｠."
+   },
+   {
+    "text": "this is the opera house that wagner built for himself.",
+    "translation": "これはワグナーが自分の為に建てたオペラハウスです",
+    "cloze": "this is the opera house that ｟＿｠ built for himself."
+   }
+  ],
+  "frequencyRank": 3875,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x56eeba40",
+  "courseId": "en-10-30k",
+  "headword": "wildly",
+  "reading": "/wˈaɪldli/",
+  "gloss": "乱暴に、荒々しく;むやみに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Her heart was beating wildly.",
+    "translation": "彼女は胸がドキドキしていた。",
+    "cloze": "Her heart was beating ｟＿｠."
+   },
+   {
+    "text": "Don't run about wildly in the room.",
+    "translation": "部屋の中で暴れまわってはいけない。",
+    "cloze": "Don't run about ｟＿｠ in the room."
+   }
+  ],
+  "frequencyRank": 3876,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x97a12945",
+  "courseId": "en-10-30k",
+  "headword": "wallpaper",
+  "reading": "/wˈɔlpˌeɪpɚ/",
+  "gloss": "壁紙;(動詞で)壁紙を貼る",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I used a photo of my dog for my desktop wallpaper.",
+    "translation": "デスクトップの壁紙を犬の写真にした。",
+    "cloze": "I used a photo of my dog for my desktop ｟wallpaper｠."
+   },
+   {
+    "text": "staring at the yellow wallpaper day after day... she begins to hallucinate that there are women trapped in the pattern.",
+    "translation": "来る日も来る日も 黄色の壁紙を見つめ... \"窮地に陥った 別の女性がいる\" と ─ 幻覚を見始めました",
+    "cloze": "staring at the yellow ｟wallpaper｠ day after day... she begins to hallucinate that there are women trapped in the pattern."
+   }
+  ],
+  "frequencyRank": 4079,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xdbb99839",
+  "courseId": "en-10-30k",
+  "headword": "willow",
+  "reading": "/wˈɪlˌoʊ/",
+  "gloss": "ヤナギ(柳)、ヤナギ材",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Willow branches don't break under the weight of snow.",
+    "translation": "柳の枝に雪折れなし。",
+    "cloze": "｟Willow｠ branches don't break under the weight of snow."
+   },
+   {
+    "text": "The Firework's displays final \"Weeping Willow\" display brilliantly launched into the night sky, slowly dripping down as it drew a gentle slope until finally its blossoming figure gradually vanished.",
+    "translation": "花火のフィナーレを飾った「しだれ柳」は、夜空に華やかに舞い上がり、緩やかな弧を描きながらゆっくりと垂れ下がって、やがてその可憐な姿を消していった。",
+    "cloze": "The Firework's displays final \"Weeping ｟Willow｠\" display brilliantly launched into the night sky, slowly dripping down as it drew a gentle slope until finally its blossoming figure gradually vanished."
+   }
+  ],
+  "frequencyRank": 4081,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x67bb127b",
+  "courseId": "en-10-30k",
+  "headword": "warsaw",
+  "reading": "/wˈɔɹsˌɔ/",
+  "gloss": "ワルシャワ(ポーランドの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The capital of Poland is Warsaw.",
+    "translation": "ポーランドの首都はワルシャワです。",
+    "cloze": "The capital of Poland is ｟＿｠."
+   },
+   {
+    "text": "The ambassador was recalled from Warsaw.",
+    "translation": "大使はワルシャワから召還された。",
+    "cloze": "The ambassador was recalled from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4367,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5b047b8e",
+  "courseId": "en-10-30k",
+  "headword": "woodland",
+  "reading": "/wˈʊdlˌænd/",
+  "gloss": "森林地",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The woodland was parceled into farms.",
+    "translation": "森林地はいくつかの農場に分けられた。",
+    "cloze": "The ｟＿｠ was parceled into farms."
+   },
+   {
+    "text": "Right, while we're taking a walk anyway, we could like go along the woodland path and enjoy a little stroll through the forest...",
+    "translation": "そうだ、どうせなら散歩がてらに、林道に行ってプチ森林浴でも・・・。",
+    "cloze": "Right, while we're taking a walk anyway, we could like go along the ｟＿｠ path and enjoy a little stroll through the forest..."
+   }
+  ],
+  "frequencyRank": 4482,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x3d3b5462",
+  "courseId": "en-10-30k",
+  "headword": "wig",
+  "reading": "/wˈɪɡ/",
+  "gloss": "かつら",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom used to wear a wig.",
+    "translation": "トムは昔、かつらをつけていた。",
+    "cloze": "Tom used to wear a ｟＿｠."
+   },
+   {
+    "text": "Don't tell anybody else, but director Tanaka wears a wig.",
+    "translation": "ここだけの話だけど、田中部長、実はカツラなんだって。",
+    "cloze": "Don't tell anybody else, but director Tanaka wears a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4587,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xc6d23dd6",
+  "courseId": "en-10-30k",
+  "headword": "wisely",
+  "reading": "/wˈaɪzli/",
+  "gloss": "賢明にも、思慮深く",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He has acted wisely.",
+    "translation": "彼は賢明に行動した。",
+    "cloze": "He has acted ｟＿｠."
+   },
+   {
+    "text": "You must act more wisely.",
+    "translation": "もっと賢明に振る舞いなさい。",
+    "cloze": "You must act more ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4813,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x47fcfb31",
+  "courseId": "en-10-30k",
+  "headword": "waiter",
+  "reading": "/wˈeɪtɚ/",
+  "gloss": "(レストランなどの)給仕、ウエイター",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Jim got a job as a waiter.",
+    "translation": "ジムはボーイの仕事にありついた。",
+    "cloze": "Jim got a job as a ｟＿｠."
+   },
+   {
+    "text": "Waiter, I'd like to order.",
+    "translation": "ウエーターさん、注文お願いします。",
+    "cloze": "｟＿｠, I'd like to order."
+   }
+  ],
+  "frequencyRank": 4927,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xc33eabe3",
+  "courseId": "en-10-30k",
+  "headword": "wimbledon",
+  "reading": "/wˈɪmbəldən/",
+  "gloss": "ウィンブルドン(ロンドンの地区;世界的に有名なテニス選手権の開催地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Wimbledon has eighteen grass courts, including the Center Court.",
+    "translation": "ウィンブルドンには、センターコートを含めて１８の芝生コートがある。",
+    "cloze": "｟＿｠ has eighteen grass courts, including the Center Court."
+   },
+   {
+    "text": "At Wimbledon there are now special electronic machines to judge the serves.",
+    "translation": "ウィンブルドンでは、現在、サーブを判定するための特別な電子機器がある。",
+    "cloze": "At ｟＿｠ there are now special electronic machines to judge the serves."
+   }
+  ],
+  "frequencyRank": 4931,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5901acb0",
+  "courseId": "en-10-30k",
+  "headword": "wwii",
+  "reading": null,
+  "gloss": "第二次世界大戦(World War IIの略)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Many countries were devastated by WWII.",
+    "translation": "多くの国々が第二次世界大戦によって壊滅的な被害を受けた。",
+    "cloze": "Many countries were devastated by ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "My grandfather fought in WWII.",
+    "translation": "私の祖父は第二次世界大戦で戦った。",
+    "cloze": "My grandfather fought in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4932,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x32e02def",
+  "courseId": "en-10-30k",
+  "headword": "winnipeg",
+  "reading": "/wˈɪnɪpəɡ/",
+  "gloss": "ウィニペグ（カナダ・マニトバ州の州都）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Operator, I'd like to place a call to Winnipeg, Canada, but I can't quite remember the number.",
+    "translation": "もしもし、カナダのウィニペグに電話をしたいんです。番号はちょっとわからないんですけど。",
+    "cloze": "Operator, I'd like to place a call to ｟＿｠, Canada, but I can't quite remember the number."
+   },
+   {
+    "text": "in manitoba, this is an image from the east side of lake winnipeg",
+    "translation": "マニトバ州ウィニペグ湖の 東側の写真です",
+    "cloze": "in manitoba, this is an image from the east side of lake ｟＿｠"
+   }
+  ],
+  "frequencyRank": 5175,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3972deac",
+  "courseId": "en-10-30k",
+  "headword": "worcester",
+  "reading": "/wˈʊstɚ/",
+  "gloss": "ウスター(米国マサチューセッツ州の都市)、英国ウスターシャー州の州都",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in the worcester public school system.",
+    "translation": "ウースター学区全体の 美術の予算がカットされ",
+    "cloze": "in the ｟＿｠ public school system."
+   },
+   {
+    "text": "She moved to Worcester, Massachusetts, last year.",
+    "translation": "彼女は昨年、マサチューセッツ州ウースターに引っ越した。",
+    "cloze": "She moved to ｟＿｠, Massachusetts, last year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5176,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd221e9d4",
+  "courseId": "en-10-30k",
+  "headword": "willingly",
+  "reading": "/wˈɪlɪŋli/",
+  "gloss": "喜んで,快く",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I did it willingly.",
+    "translation": "進んでそれをやりました。",
+    "cloze": "I did it ｟＿｠."
+   },
+   {
+    "text": "She willingly acceded to my request.",
+    "translation": "彼女は快く私の要求に応じてくれた。",
+    "cloze": "She ｟＿｠ acceded to my request."
+   }
+  ],
+  "frequencyRank": 5272,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x9051840d",
+  "courseId": "en-10-30k",
+  "headword": "woah",
+  "reading": null,
+  "gloss": "わあ,おっと(驚き・制止を表す間投詞。whoaの異形)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Woah, are you serious?",
+    "translation": "わ〜、マジで？",
+    "cloze": "｟＿｠, are you serious?"
+   },
+   {
+    "text": "Woah, you scared me! Don't just suddenly speak so loudly like that!",
+    "translation": "うわびっくりした！ いきなり大声出さないでよ。",
+    "cloze": "｟＿｠, you scared me! Don't just suddenly speak so loudly like that!"
+   }
+  ],
+  "frequencyRank": 5273,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x26b76bd2",
+  "courseId": "en-10-30k",
+  "headword": "wellness",
+  "reading": "/wˈɛlnəs/",
+  "gloss": "健康、健康であること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "wonderful wellness programs",
+    "translation": "素晴らしい健康プログラムがありますが",
+    "cloze": "wonderful ｟＿｠ programs"
+   },
+   {
+    "text": "and circled the first letter, and then wrote the word wellness",
+    "translation": "最初の I (私)を囲みました 次に“WELLNESS”(健康)と書き",
+    "cloze": "and circled the first letter, and then wrote the word ｟＿｠"
+   }
+  ],
+  "frequencyRank": 5388,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x927e9aa5",
+  "courseId": "en-10-30k",
+  "headword": "windy",
+  "reading": "/wˈɪndi/",
+  "gloss": "風の強い;(話)おしゃべりな、内容のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's windy.",
+    "translation": "風が強いな。",
+    "cloze": "It's ｟＿｠."
+   },
+   {
+    "text": "It's a windy day.",
+    "translation": "風の強い日です。",
+    "cloze": "It's a ｟＿｠ day."
+   }
+  ],
+  "frequencyRank": 5389,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x488c0541",
+  "courseId": "en-10-30k",
+  "headword": "waitress",
+  "reading": "/wˈeɪtɹəs/",
+  "gloss": "ウエートレス、女性給仕",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Waitress, I'd like to order.",
+    "translation": "ウエイトレスさん、注文お願いします。",
+    "cloze": "｟＿｠, I'd like to order."
+   },
+   {
+    "text": "A pretty waitress waited on us.",
+    "translation": "きれいなウエイトレスが給仕してくれた。",
+    "cloze": "A pretty ｟＿｠ waited on us."
+   }
+  ],
+  "frequencyRank": 5509,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xf2afee87",
+  "courseId": "en-10-30k",
+  "headword": "walnut",
+  "reading": "/wˈɔlnˌʌt/",
+  "gloss": "クルミ、クルミの木",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They filled their bags with walnuts.",
+    "translation": "彼らは袋にクルミを詰めた。",
+    "cloze": "They filled their bags with ｟＿｠."
+   },
+   {
+    "text": "Her pockets were bulging with walnuts.",
+    "translation": "彼女のポケットはくるみで膨らんでいた。",
+    "cloze": "Her pockets were bulging with ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5510,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x835bd689",
+  "courseId": "en-10-30k",
+  "headword": "waterfront",
+  "reading": "/wˈɔtɚfɹˌʌnt/",
+  "gloss": "海岸通り、波止場、埠頭地区",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "looks like they've gone to the waterfront to rendezvous with bette.",
+    "translation": "無線を傍受した 海岸通りでベットと共に 集合してる",
+    "cloze": "looks like they've gone to the ｟＿｠ to rendezvous with bette."
+   },
+   {
+    "text": "two miles of abandoned, degraded waterfront",
+    "translation": "放置され荒廃した 3 キロのウォーターフロントは",
+    "cloze": "two miles of abandoned, degraded ｟＿｠"
+   }
+  ],
+  "frequencyRank": 5511,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x118d498b",
+  "courseId": "en-10-30k",
+  "headword": "waterproof",
+  "reading": "/wˈɔtɚpɹˌuf/",
+  "gloss": "防水の；(名詞)防水布",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "My watch is waterproof.",
+    "translation": "私の時計は防水になっています。",
+    "cloze": "My watch is ｟＿｠."
+   },
+   {
+    "text": "My camera is waterproof.",
+    "translation": "私のカメラは防水だよ。",
+    "cloze": "My camera is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5641,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x47999fc1",
+  "courseId": "en-10-30k",
+  "headword": "whine",
+  "reading": "/wˈaɪn/",
+  "gloss": "泣き言を言う、駄々をこねる；(動物が)クンクン鳴く",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Don't whine.",
+    "translation": "駄々をこねないで。",
+    "cloze": "Don't ｟＿｠."
+   },
+   {
+    "text": "Tom started whining.",
+    "translation": "トムは駄々をこね始めた。",
+    "cloze": "Tom started ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5642,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x11c5be47",
+  "courseId": "en-10-30k",
+  "headword": "wonderfully",
+  "reading": "/wˈʌndɚfəli/",
+  "gloss": "素晴らしく、驚くほど",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I am feeling wonderfully refreshed.",
+    "translation": "私はとても気分がさわやかだ。",
+    "cloze": "I am feeling ｟＿｠ refreshed."
+   },
+   {
+    "text": "He had a wonderfully powerful memory.",
+    "translation": "彼は驚異的な記憶力を持っていた。",
+    "cloze": "He had a ｟＿｠ powerful memory."
+   }
+  ],
+  "frequencyRank": 5643,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x23331cec",
+  "courseId": "en-10-30k",
+  "headword": "waterfall",
+  "reading": "/wˈɔtɚfˌɔl/",
+  "gloss": "滝,瀑布",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A man was hit by a waterfall.",
+    "translation": "男が１人滝に打たれていた。",
+    "cloze": "A man was hit by a ｟＿｠."
+   },
+   {
+    "text": "There is a waterfall above the bridge.",
+    "translation": "橋の上流に滝がある。",
+    "cloze": "There is a ｟＿｠ above the bridge."
+   }
+  ],
+  "frequencyRank": 5777,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x863886f8",
+  "courseId": "en-10-30k",
+  "headword": "warwick",
+  "reading": "/wˈɔɹwɪk/",
+  "gloss": "ウォーリック(英国イングランドの都市;ウォーリック城で有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Warwick Castle is one of the most visited tourist attractions in England.",
+    "translation": "ウォーリック城はイングランドで最も人気のある観光地の一つだ。",
+    "cloze": "｟＿｠ Castle is one of the most visited tourist attractions in England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6031,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd2bfd42b",
+  "courseId": "en-10-30k",
+  "headword": "waterloo",
+  "reading": "/wˈɔtɚlˌu/",
+  "gloss": "ワーテルロー(ベルギーの古戦場;ナポレオンが大敗した地);(比喩)大敗,痛手",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The French were defeated at Waterloo.",
+    "translation": "フランス軍はワーテルローの戦いで敗北した。",
+    "cloze": "The French were defeated at ｟＿｠."
+   },
+   {
+    "text": "Napoleon's army lost the battle of Waterloo in 1815.",
+    "translation": "ナポレオンの軍隊は１８１５年にワーテルローの戦いに敗れた。",
+    "cloze": "Napoleon's army lost the battle of ｟＿｠ in 1815."
+   }
+  ],
+  "frequencyRank": 6032,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa656064d",
+  "courseId": "en-10-30k",
+  "headword": "wonderland",
+  "reading": "/wˈʌndɚlˌænd/",
+  "gloss": "不思議の国,おとぎの国;すばらしい場所",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Disneyland is often called a wonderland for children.",
+    "translation": "ディズニーランドはよく子供たちのおとぎの国と呼ばれる。",
+    "cloze": "Disneyland is often called a ｟＿｠ for children.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6036,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x582e0a71",
+  "courseId": "en-10-30k",
+  "headword": "wrestler",
+  "reading": "/ɹˈɛsəlɚ/",
+  "gloss": "レスリング選手,レスラー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They are wrestlers.",
+    "translation": "彼らはレスラーです。",
+    "cloze": "They are ｟＿｠."
+   },
+   {
+    "text": "They are Japanese sumo wrestlers.",
+    "translation": "彼らは日本のお相撲さんだよ。",
+    "cloze": "They are Japanese sumo ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6037,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe1824081",
+  "courseId": "en-10-30k",
+  "headword": "wink",
+  "reading": "/wˈɪŋk/",
+  "gloss": "ウインクする;まばたきする;ウインク",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom winked.",
+    "translation": "トムはウィンクした。",
+    "cloze": "Tom ｟＿｠."
+   },
+   {
+    "text": "He winked at me.",
+    "translation": "彼は私にウインクした。",
+    "cloze": "He ｟＿｠ at me."
+   }
+  ],
+  "frequencyRank": 6292,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xa622e71c",
+  "courseId": "en-10-30k",
+  "headword": "wand",
+  "reading": "/wˈɑnd/",
+  "gloss": "(魔法使い・奇術師の)杖",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The magician waved his wand and the rabbit disappeared.",
+    "translation": "手品師が杖を振ると、ウサギが消えた。",
+    "cloze": "The magician waved his ｟＿｠ and the rabbit disappeared.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The wizard raised his wand toward the sky.",
+    "translation": "魔法使いは杖を空に向かって掲げた。",
+    "cloze": "The wizard raised his ｟＿｠ toward the sky.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6705,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x122d934b",
+  "courseId": "en-10-30k",
+  "headword": "wrongly",
+  "reading": "/ɹˈɔŋli/",
+  "gloss": "間違って、誤って；不当に、不正に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Her name was wrongly spelled.",
+    "translation": "彼女の名前は誤記されていた。",
+    "cloze": "Her name was ｟＿｠ spelled."
+   },
+   {
+    "text": "The letter was wrongly addressed.",
+    "translation": "その手紙は宛名が間違っていた。",
+    "cloze": "The letter was ｟＿｠ addressed."
+   }
+  ],
+  "frequencyRank": 6847,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x837a0b70",
+  "courseId": "en-10-30k",
+  "headword": "workload",
+  "reading": "/wˈɝklˌoʊd/",
+  "gloss": "仕事量、作業負荷",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "anything you can add to help lighten my workload would be greatly appreciated, trust me.",
+    "translation": "仕事を助けてくれれば 感謝するよ 頼むぜ",
+    "cloze": "anything you can add to help lighten my ｟＿｠ would be greatly appreciated, trust me."
+   },
+   {
+    "text": "it requires very little mental workload",
+    "translation": "精神労働負荷は ほとんどありません",
+    "cloze": "it requires very little mental ｟＿｠"
+   }
+  ],
+  "frequencyRank": 6996,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xed760c8b",
+  "courseId": "en-10-30k",
+  "headword": "widen",
+  "reading": "/wˈaɪdən/",
+  "gloss": "広げる、拡張する;広くなる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "They widened the road.",
+    "translation": "彼らは道幅を広げた。",
+    "cloze": "They ｟＿｠ the road."
+   },
+   {
+    "text": "Television helps us widen our knowledge.",
+    "translation": "テレビのおかげで我々は知識を広めることができる。",
+    "cloze": "Television helps us ｟＿｠ our knowledge."
+   }
+  ],
+  "frequencyRank": 7137,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xb3b3cb40",
+  "courseId": "en-10-30k",
+  "headword": "wrought",
+  "reading": "/ɹˈɔt/",
+  "gloss": "(workの古い過去・過去分詞)作り上げた、もたらした;(金属を)打って形作った",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "mr. franklin, what have you wrought?",
+    "translation": "「フランクリンさん 何を作ったのですか?」",
+    "cloze": "mr. franklin, what have you ｟＿｠?"
+   },
+   {
+    "text": "she wrought terrible destruction across the land but the warlord refused to see her die a second time.",
+    "translation": "彼女は大陸中に 破壊をもたらした 父は娘の死を 見たくなかった",
+    "cloze": "she ｟＿｠ terrible destruction across the land but the warlord refused to see her die a second time."
+   }
+  ],
+  "frequencyRank": 7139,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xc69eda88",
+  "courseId": "en-10-30k",
+  "headword": "whack",
+  "reading": "/wˈæk/",
+  "gloss": "ピシャッと打つ、強打する;《話》試み;《話》分け前",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He gave the ball a hard whack with the bat.",
+    "translation": "彼はバットでボールを強く打った。",
+    "cloze": "He gave the ball a hard ｟＿｠ with the bat.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She whacked the piñata until it broke open.",
+    "translation": "彼女はピニャータを叩き割れるまで打った。",
+    "cloze": "She ｟＿｠ the piñata until it broke open.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7288,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x3ae4e9c7",
+  "courseId": "en-10-30k",
+  "headword": "wichita",
+  "reading": "/wˈɪtʃətˌɔ/",
+  "gloss": "ウィチタ(米国カンザス州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and so i'll take you to wichita, kansas",
+    "translation": "カンサス州ウィチタを例にとってみましょう",
+    "cloze": "and so i'll take you to ｟＿｠, kansas"
+   },
+   {
+    "text": "says she's in a forest in wichita.",
+    "translation": "ウィチタの森に居たって",
+    "cloze": "says she's in a forest in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7290,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x39dffabf",
+  "courseId": "en-10-30k",
+  "headword": "wilde",
+  "reading": "/wˈaɪld/",
+  "gloss": "ワイルド(オスカー・ワイルド;アイルランド出身の劇作家・小説家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Oscar Wilde wrote many famous plays and novels.",
+    "translation": "オスカー・ワイルドは多くの有名な戯曲や小説を書いた。",
+    "cloze": "Oscar ｟＿｠ wrote many famous plays and novels.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Picture of Dorian Gray is Wilde's only novel.",
+    "translation": "「ドリアン・グレイの肖像」はワイルドの唯一の小説である。",
+    "cloze": "The Picture of Dorian Gray is ｟＿｠'s only novel.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7291,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xdb2222b9",
+  "courseId": "en-10-30k",
+  "headword": "wilmington",
+  "reading": "/wˈɪlmɪŋtən/",
+  "gloss": "ウィルミントン(米国デラウェア州の港市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it's the assault on wilmington port.",
+    "translation": "ウイルミントンの戦いね",
+    "cloze": "it's the assault on ｟＿｠ port."
+   },
+   {
+    "text": "it defends wilmington port.",
+    "translation": "こいつがウイルミントン港の守りだ",
+    "cloze": "it defends ｟＿｠ port."
+   }
+  ],
+  "frequencyRank": 7292,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x375fe961",
+  "courseId": "en-10-30k",
+  "headword": "windshield",
+  "reading": "/wˈɪndʃˌild/",
+  "gloss": "(自動車の)フロントガラス",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Should I clean your windshield?",
+    "translation": "フロントガラスをふきますか。",
+    "cloze": "Should I clean your ｟windshield｠?"
+   },
+   {
+    "text": "The windshield of my car was broken.",
+    "translation": "車のフロントガラスが割れてしまった。",
+    "cloze": "The ｟windshield｠ of my car was broken."
+   }
+  ],
+  "frequencyRank": 7567,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x9a060e71",
+  "courseId": "en-10-30k",
+  "headword": "wildcat",
+  "reading": "/wˈaɪldkˌæt/",
+  "gloss": "ヤマネコ;(事業などが)無謀な、非合法の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "like... like a wildcat bringing me a dead mouse as some kind of sick offering.",
+    "translation": "山猫が病気の見舞いに",
+    "cloze": "like... like a ｟wildcat｠ bringing me a dead mouse as some kind of sick offering."
+   },
+   {
+    "text": "that is, if you said to them, cats are like wildcats.",
+    "translation": "例えば 「ネコはヤマネコに似ているが",
+    "cloze": "that is, if you said to them, cats are like ｟wildcats｠."
+   }
+  ],
+  "frequencyRank": 7704,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x5e42609c",
+  "courseId": "en-10-30k",
+  "headword": "waterway",
+  "reading": "/wˈɔtɚwˌeɪ/",
+  "gloss": "水路、水道",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The waterways ramify across the plain.",
+    "translation": "平野を横切って水路が枝分かれしている。",
+    "cloze": "The ｟＿｠ ramify across the plain."
+   },
+   {
+    "text": "this waterway was originally a river...",
+    "translation": "この水脈は もともと川だったんだ",
+    "cloze": "this ｟＿｠ was originally a river..."
+   }
+  ],
+  "frequencyRank": 7858,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xd78297b1",
+  "courseId": "en-10-30k",
+  "headword": "wetland",
+  "reading": "/wˈɛtlˌænd/",
+  "gloss": "湿地(帯)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Wetlands play important roles in the ecosystem in purifying water, protecting against flood and erosion, and as both a source of food and habitat for wild animals.",
+    "translation": "湿地帯は生態系において水の浄化、洪水と侵食の防止、野生生物への食料とすみかの提供という重要な役割を演じる。",
+    "cloze": "｟＿｠ play important roles in the ecosystem in purifying water, protecting against flood and erosion, and as both a source of food and habitat for wild animals."
+   },
+   {
+    "text": "the waters are all taken in to construct the wetlands for habitat restorations.",
+    "translation": "トイレからの水は全て集められ 生息地を修復する ための湿地帯作りに使われます",
+    "cloze": "the waters are all taken in to construct the ｟＿｠ for habitat restorations."
+   }
+  ],
+  "frequencyRank": 7859,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x5e1c80d0",
+  "courseId": "en-10-30k",
+  "headword": "whitman",
+  "reading": "/wˈɪtmən/",
+  "gloss": "ホイットマン（ウォルト・ホイットマン、米国の詩人）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "my book. walt whitman.",
+    "translation": "私の本さ ウォルト・ホイットマン",
+    "cloze": "my book. walt ｟＿｠."
+   },
+   {
+    "text": "walt whitman also did this back in the day",
+    "translation": "かつてウォルト・ホイットマンも同じことをしました",
+    "cloze": "walt ｟＿｠ also did this back in the day"
+   }
+  ],
+  "frequencyRank": 7860,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3577061e",
+  "courseId": "en-10-30k",
+  "headword": "welch",
+  "reading": "/wˈɛltʃ/",
+  "gloss": "(賭け金・借金などの支払いを)踏み倒す、約束を破る",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "twenty grand it is, but if you lose and you welch",
+    "translation": "もし払わなかったり 逃げたら─",
+    "cloze": "twenty grand it is, but if you lose and you ｟＿｠"
+   },
+   {
+    "text": "He promised to pay but welched on the deal.",
+    "translation": "彼は支払うと約束したが、その取引を反故にした。",
+    "cloze": "He promised to pay but ｟＿｠ on the deal.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8165,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x57b1c3ad",
+  "courseId": "en-10-30k",
+  "headword": "wrench",
+  "reading": "/ɹˈɛntʃ/",
+  "gloss": "レンチ、スパナ／ぐいとねじる",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Hand me the wrench.",
+    "translation": "そのスパナを取ってくれ。",
+    "cloze": "Hand me the ｟＿｠."
+   },
+   {
+    "text": "Could you pass me that wrench?",
+    "translation": "あのレンチを取っていただけますか？",
+    "cloze": "Could you pass me that ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 8167,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xdf5a7923",
+  "courseId": "en-10-30k",
+  "headword": "www",
+  "reading": null,
+  "gloss": "ワールドワイドウェブ(インターネット上の情報網)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's www.randi.org.",
+    "translation": "www.randi.org です",
+    "cloze": "it's ｟＿｠.randi.org."
+   },
+   {
+    "text": "You can visit our site at www.example.com.",
+    "translation": "www.example.comで私たちのサイトを訪問できます。",
+    "cloze": "You can visit our site at ｟＿｠.example.com.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8169,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xb22dbff8",
+  "courseId": "en-10-30k",
+  "headword": "webpage",
+  "reading": "/wˈɛbpɪdʒ/",
+  "gloss": "ウェブページ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "You may link to this webpage freely.",
+    "translation": "このページはリンクフリーです。",
+    "cloze": "You may link to this ｟webpage｠ freely."
+   },
+   {
+    "text": "Visit my webpage and find out more about me.",
+    "translation": "私のウェブページに来て私のことをもっと知ってください。",
+    "cloze": "Visit my ｟webpage｠ and find out more about me."
+   }
+  ],
+  "frequencyRank": 8322,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xd3349150",
+  "courseId": "en-10-30k",
+  "headword": "wildfire",
+  "reading": "/wˈaɪldfˌaɪɚ/",
+  "gloss": "野火;(比喩)瞬く間に広がるもの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The news spread like wildfire.",
+    "translation": "そのニュースは瞬く間に広まった。",
+    "cloze": "The news spread like ｟wildfire｠."
+   },
+   {
+    "text": "Malicious gossip spreads like wildfire. I guess that's why they say bad news travels fast.",
+    "translation": "悪事千里を走るって言うだろう。悪い噂はアッという間に広まっちゃうのさ。",
+    "cloze": "Malicious gossip spreads like ｟wildfire｠. I guess that's why they say bad news travels fast."
+   }
+  ],
+  "frequencyRank": 8323,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x81b16289",
+  "courseId": "en-10-30k",
+  "headword": "wreath",
+  "reading": "/ɹˈiθ/",
+  "gloss": "花輪、花冠",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A wreath was bound around his head.",
+    "translation": "花環が彼の頭に巻かれた。",
+    "cloze": "A ｟wreath｠ was bound around his head."
+   },
+   {
+    "text": "I'm thinking of making a Christmas wreath out of these pinecones.",
+    "translation": "この松ぼっくりで、クリスマスのリースを作ろうと思ってるんだ。",
+    "cloze": "I'm thinking of making a Christmas ｟wreath｠ out of these pinecones."
+   }
+  ],
+  "frequencyRank": 8325,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x52dddbf2",
+  "courseId": "en-10-30k",
+  "headword": "wasp",
+  "reading": "/wˈɑsp/",
+  "gloss": "スズメバチ,ジガバチ;《WASP》白人アングロサクソン系プロテスタント;怒りっぽい人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I got a nasty sting from a wasp.",
+    "translation": "スズメバチにこっぴどく刺された。",
+    "cloze": "I got a nasty sting from a ｟wasp｠."
+   },
+   {
+    "text": "Wasps and hornets are flying about.",
+    "translation": "蜂が飛び回る。",
+    "cloze": "｟Wasps｠ and hornets are flying about."
+   }
+  ],
+  "frequencyRank": 8485,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x104e0a00",
+  "courseId": "en-10-30k",
+  "headword": "watermelon",
+  "reading": "/wˈɔtɚmˌɛlən/",
+  "gloss": "スイカ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like watermelon.",
+    "translation": "わたしはスイカが好きです。",
+    "cloze": "I like ｟watermelon｠."
+   },
+   {
+    "text": "Do you eat watermelon?",
+    "translation": "西瓜を食べますか。",
+    "cloze": "Do you eat ｟watermelon｠?"
+   }
+  ],
+  "frequencyRank": 8486,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x2a69edac",
+  "courseId": "en-10-30k",
+  "headword": "washer",
+  "reading": "/wˈɑʃɚ/",
+  "gloss": "洗う人；洗濯機；座金(ワッシャー)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "that window washer...",
+    "translation": "ウィンドウ・ウォッシャーは",
+    "cloze": "that window ｟＿｠..."
+   },
+   {
+    "text": "he said something about a window washer and a chemical.",
+    "translation": "窓拭きのことを言っていた 薬品のことも",
+    "cloze": "he said something about a window ｟＿｠ and a chemical."
+   }
+  ],
+  "frequencyRank": 8675,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x39ba5dbc",
+  "courseId": "en-10-30k",
+  "headword": "worldly",
+  "reading": "/wˈɝldli/",
+  "gloss": "この世の、現世の；名誉や利益のみを追う、俗世間的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "No one is free from worldly cares.",
+    "translation": "浮世の心配事のない人はない。",
+    "cloze": "No one is free from ｟＿｠ cares."
+   },
+   {
+    "text": "He is indifferent to worldly success.",
+    "translation": "彼は世俗的な成功には無関心だ。",
+    "cloze": "He is indifferent to ｟＿｠ success."
+   }
+  ],
+  "frequencyRank": 8677,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8a7ca2e9",
+  "courseId": "en-10-30k",
+  "headword": "werewolf",
+  "reading": "/wˈɛɹwˌʊlf/",
+  "gloss": "(伝説上の)人狼,狼男",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "\"Oh, right, you're a werewolf, aren't you?\" \"I'm mixed blood, so I don't transform or anything.\"",
+    "translation": "「そっかぁ、アルクさんはワーウルフなんですね」「俺は混血だから変身したりはしねーよ」",
+    "cloze": "\"Oh, right, you're a ｟＿｠, aren't you?\" \"I'm mixed blood, so I don't transform or anything.\""
+   },
+   {
+    "text": "tell me, i look anything like a bloody werewolf?",
+    "translation": "俺がにっくきオオカミ人間に 見えるか?",
+    "cloze": "tell me, i look anything like a bloody ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 8853,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x10df7062",
+  "courseId": "en-10-30k",
+  "headword": "wrongful",
+  "reading": "/ɹˈɔŋfəl/",
+  "gloss": "不当な,不法な,悪い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "the primary cause of their wrongful conviction",
+    "translation": "えん罪を受けた第一の原因は",
+    "cloze": "the primary cause of their ｟＿｠ conviction"
+   },
+   {
+    "text": "the mildred drummond foundation for wrongful withdrawal of funds.",
+    "translation": "ミルドレッド・ドラムンド財団 資金流用の疑惑について",
+    "cloze": "the mildred drummond foundation for ｟＿｠ withdrawal of funds."
+   }
+  ],
+  "frequencyRank": 8854,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x72ffec29",
+  "courseId": "en-10-30k",
+  "headword": "weekday",
+  "reading": "/wˈikdˌeɪ/",
+  "gloss": "平日",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Shops are quiet on weekdays.",
+    "translation": "商店街は平日ひっそりしている。",
+    "cloze": "Shops are quiet on ｟＿｠s."
+   },
+   {
+    "text": "She's always busy on weekdays.",
+    "translation": "彼女の平日はいつも忙しい。",
+    "cloze": "She's always busy on ｟＿｠s."
+   }
+  ],
+  "frequencyRank": 9172,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x607f8c0c",
+  "courseId": "en-10-30k",
+  "headword": "whitehall",
+  "reading": "/wˈaɪthˌɔl/",
+  "gloss": "ホワイトホール(英国政府の官庁街);《比喩的に》英国政府",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "so we need to go to whitehall.",
+    "translation": "じゃ政府に相談だ",
+    "cloze": "so we need to go to ｟＿｠."
+   },
+   {
+    "text": "from the calm of westminster and whitehall? (laughter)",
+    "translation": "静かな議会と政治の場を離れられて...",
+    "cloze": "from the calm of westminster and ｟＿｠? (laughter)"
+   }
+  ],
+  "frequencyRank": 9174,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe5c27fd1",
+  "courseId": "en-10-30k",
+  "headword": "wrinkle",
+  "reading": "/ɹˈɪŋkəl/",
+  "gloss": "(布・皮膚の)しわ;しわを寄せる、しわが寄る",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She wrinkled her brows.",
+    "translation": "彼女は額に皺を寄せた。",
+    "cloze": "She ｟＿｠ her brows."
+   },
+   {
+    "text": "His slacks are all wrinkled.",
+    "translation": "彼のスラックスはしわくちゃだ。",
+    "cloze": "His slacks are all ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9177,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xea15959b",
+  "courseId": "en-10-30k",
+  "headword": "waffle",
+  "reading": "/wˈɑfəl/",
+  "gloss": "ワッフル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm making waffles.",
+    "translation": "ワッフルを作っている。",
+    "cloze": "I'm making ｟＿｠s."
+   },
+   {
+    "text": "Yesterday morning I ate a waffle.",
+    "translation": "昨日の朝は、ワッフルを食べました。",
+    "cloze": "Yesterday morning I ate a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9327,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x7e72f0aa",
+  "courseId": "en-10-30k",
+  "headword": "welp",
+  "reading": "/wˈɛlp/",
+  "gloss": "まあ、えーと(wellの砕けた言い方)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "this is an awfully complicated day. welp! i'll leave it to you.",
+    "translation": "やけに 複雑な一日だな。 おっと! あとは よろしく。",
+    "cloze": "this is an awfully complicated day. ｟＿｠! i'll leave it to you."
+   },
+   {
+    "text": "Welp, I guess we'll have to start over.",
+    "translation": "まあ、また最初からやり直すしかないね。",
+    "cloze": "｟＿｠, I guess we'll have to start over.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9330,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x91687246",
+  "courseId": "en-10-30k",
+  "headword": "wacky",
+  "reading": "/wˈæki/",
+  "gloss": "風変わりな、とっぴな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "wasn't she amazing? muriel cooper. she was wacky.",
+    "translation": "驚くべき女性だと思いませんか。ミュリエル クーパーは奇抜な人でした。",
+    "cloze": "wasn't she amazing? muriel cooper. she was ｟wacky｠."
+   },
+   {
+    "text": "maybe this is all wacky to folks like you, i don't know.",
+    "translation": "ここまでの話も全部 パンチに関したものですが",
+    "cloze": "maybe this is all ｟wacky｠ to folks like you, i don't know."
+   }
+  ],
+  "frequencyRank": 9516,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x6650a301",
+  "courseId": "en-10-30k",
+  "headword": "wearable",
+  "reading": "/wˈɛɹəbəl/",
+  "gloss": "着用できる、身に着けられる;(名)ウェアラブル端末",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and wearable electronics.",
+    "translation": "装着型電子工学を教えていて",
+    "cloze": "and ｟wearable｠ electronics."
+   },
+   {
+    "text": "so we're really entering the era of wearable robotics actually.",
+    "translation": "私たちはウェアラブルロボットの時代に突入しているのです",
+    "cloze": "so we're really entering the era of ｟wearable｠ robotics actually."
+   }
+  ],
+  "frequencyRank": 9517,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x3ce7aa42",
+  "courseId": "en-10-30k",
+  "headword": "wiltshire",
+  "reading": "/wˈɪltʃˌaɪɹ/",
+  "gloss": "ウィルトシャー(イングランド南西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and long tunnels such as the one at box, in wiltshire.",
+    "translation": "さらにウィルトシャーのボックストンネルなどの長いトンネルが必要でした",
+    "cloze": "and long tunnels such as the one at box, in ｟wiltshire｠."
+   },
+   {
+    "text": "Stonehenge is located in Wiltshire, England.",
+    "translation": "ストーンヘンジはイングランドのウィルトシャーにあります。",
+    "cloze": "Stonehenge is located in ｟Wiltshire｠, England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9519,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x189f1438",
+  "courseId": "en-10-30k",
+  "headword": "watcher",
+  "reading": "/wˈɑtʃɚ/",
+  "gloss": "見張り人、監視者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we are the watchers on the wall.",
+    "translation": "俺たちは壁の番人だ...",
+    "cloze": "we are the ｟＿｠ on the wall."
+   },
+   {
+    "text": "i'm a watcher.",
+    "translation": "私はウオッチャーだ。",
+    "cloze": "i'm a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9673,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe250af42",
+  "courseId": "en-10-30k",
+  "headword": "wasteful",
+  "reading": "/wˈeɪstfəl/",
+  "gloss": "浪費する、無駄の多い、不経済な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's wasteful to leave the land lying idle.",
+    "translation": "この土地を遊ばせておくのはもったいない。",
+    "cloze": "It's ｟wasteful｠ to leave the land lying idle."
+   },
+   {
+    "text": "Taxpayers are angry about wasteful government spending.",
+    "translation": "納税者は政府支出の無駄に怒っている。",
+    "cloze": "Taxpayers are angry about ｟wasteful｠ government spending."
+   }
+  ],
+  "frequencyRank": 9866,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x11277350",
+  "courseId": "en-10-30k",
+  "headword": "wiggle",
+  "reading": "/wˈɪɡəl/",
+  "gloss": "小刻みに動かす(揺する)、くねくね動く",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Can you wiggle your ears?",
+    "translation": "耳を自力で動かすことはできますか？",
+    "cloze": "Can you ｟＿｠ your ears?"
+   },
+   {
+    "text": "Now, I wiggle up and down to break the tissue around the insertion point.",
+    "translation": "今は挿入箇所周辺の組織を 壊すために動かしてるんだ",
+    "cloze": "Now, I ｟＿｠ up and down to break the tissue around the insertion point."
+   }
+  ],
+  "frequencyRank": 10060,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x1e10fe3c",
+  "courseId": "en-10-30k",
+  "headword": "webinar",
+  "reading": "/wˈɛbɪnɚ/",
+  "gloss": "ウェビナー,オンラインセミナー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We attended a webinar about digital marketing.",
+    "translation": "私たちはデジタルマーケティングについてのウェビナーに参加した。",
+    "cloze": "We attended a ｟＿｠ about digital marketing.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The company hosts a free webinar every month.",
+    "translation": "その会社は毎月無料のウェビナーを開催している。",
+    "cloze": "The company hosts a free ｟＿｠ every month.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10260,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x847f7f05",
+  "courseId": "en-10-30k",
+  "headword": "warmly",
+  "reading": "/wˈɔɹmli/",
+  "gloss": "暖かく;心から、熱心に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "We were welcomed warmly.",
+    "translation": "私たちは温かく迎えられた。",
+    "cloze": "We were welcomed ｟warmly｠."
+   },
+   {
+    "text": "They welcomed her warmly.",
+    "translation": "彼らは彼女を暖かく迎えた。",
+    "cloze": "They welcomed her ｟warmly｠."
+   }
+  ],
+  "frequencyRank": 10467,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x049a2c05",
+  "courseId": "en-10-30k",
+  "headword": "watergate",
+  "reading": "/wˈɔtɚɡˌeɪt/",
+  "gloss": "ウォーターゲート事件(1972年、ニクソン米大統領の盗聴事件が発覚し1974年の辞任につながった政治スキャンダル)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nixon tried to stonewall through Watergate by ignoring it, but it didn't work.",
+    "translation": "ニクソンはウォーターゲート事件に関し、黙秘権を行使して無視しようとしたが、結局明るみにでた。",
+    "cloze": "Nixon tried to stonewall through ｟Watergate｠ by ignoring it, but it didn't work."
+   },
+   {
+    "text": "The Watergate scandal changed how Americans viewed their government.",
+    "translation": "ウォーターゲート事件はアメリカ人の政府に対する見方を変えた。",
+    "cloze": "The ｟Watergate｠ scandal changed how Americans viewed their government.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10468,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xc2b2840c",
+  "courseId": "en-10-30k",
+  "headword": "wavy",
+  "reading": "/wˈeɪvi/",
+  "gloss": "波打った、波形の(特に髪について)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "yeah, the wavy hair, the blue eyes",
+    "translation": "このウェーブのかかった髪と言い、青い瞳と言い・・・",
+    "cloze": "yeah, the ｟wavy｠ hair, the blue eyes"
+   },
+   {
+    "text": "hey you, with the naturally wavy hair.",
+    "translation": "おい そこの天然パーマ!",
+    "cloze": "hey you, with the naturally ｟wavy｠ hair."
+   }
+  ],
+  "frequencyRank": 10469,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x55c1bfc0",
+  "courseId": "en-10-30k",
+  "headword": "wednesdays",
+  "reading": "/wˈɛnzdˌeɪz/",
+  "gloss": "水曜日(複数形;「毎週水曜日に」の意味でも使う)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The store is closed on Wednesdays.",
+    "translation": "その店は毎週水曜日は休みだ。",
+    "cloze": "The store is closed on ｟Wednesdays｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "I go to the gym on Wednesdays and Fridays.",
+    "translation": "私は毎週水曜日と金曜日にジムに行く。",
+    "cloze": "I go to the gym on ｟Wednesdays｠ and Fridays.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10470,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xf635b163",
+  "courseId": "en-10-30k",
+  "headword": "watercolor",
+  "reading": "/wˈɔtɚkˌʌlɚ/",
+  "gloss": "水彩絵の具;水彩画",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He used watercolors in short vertical brush-strokes.",
+    "translation": "彼は水彩絵具を短くほぼ直角の筆使いで用いた。",
+    "cloze": "He used ｟＿｠ in short vertical brush-strokes."
+   },
+   {
+    "text": "but let me now add some watercolors to it.",
+    "translation": "水彩絵の具を加えてみます",
+    "cloze": "but let me now add some ｟＿｠ to it."
+   }
+  ],
+  "frequencyRank": 10660,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xdc73c79a",
+  "courseId": "en-10-30k",
+  "headword": "wto",
+  "reading": null,
+  "gloss": "世界貿易機関(World Trade Organization)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The WTO sets rules for international trade between member countries.",
+    "translation": "WTOは加盟国間の国際貿易に関するルールを定めている。",
+    "cloze": "The ｟＿｠ sets rules for international trade between member countries.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10663,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xe4d7ed57",
+  "courseId": "en-10-30k",
+  "headword": "wilt",
+  "reading": "/wˈɪlt/",
+  "gloss": "〈草花が〉しおれる、しぼむ;〈人が〉弱る、衰える",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The flowers wilted.",
+    "translation": "花が萎れたよ。",
+    "cloze": "The flowers ｟wilted｠."
+   },
+   {
+    "text": "Without water, the flowers wilted.",
+    "translation": "水がなくて、花がしおれちゃった。",
+    "cloze": "Without water, the flowers ｟wilted｠."
+   }
+  ],
+  "frequencyRank": 10836,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x7ec56f8c",
+  "courseId": "en-10-30k",
+  "headword": "woodstock",
+  "reading": "/wˈʊdstˌɑk/",
+  "gloss": "ウッドストック(1969年の伝説的ロック音楽フェスティバル;米国ニューヨーク州の町)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i missed the '60s free love, drop acid, woodstock.",
+    "translation": "私は60年代に間に合わなかった... フリー・ラブ lsd ウッドストック",
+    "cloze": "i missed the '60s free love, drop acid, ｟woodstock｠."
+   },
+   {
+    "text": "we had such a... wild six months together in woodstock.",
+    "translation": "私達はウッドストックで ワイルドな6ヶ月を過ごした",
+    "cloze": "we had such a... wild six months together in ｟woodstock｠."
+   }
+  ],
+  "frequencyRank": 10837,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf707ae3d",
+  "courseId": "en-10-30k",
+  "headword": "williamsburg",
+  "reading": "/wˈɪljəmzbɚɡ/",
+  "gloss": "ウィリアムズバーグ(米国バージニア州の町;植民地時代の首都/ブルックリンの地区名としても使用)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Williamsburg was the colonial capital of Virginia.",
+    "translation": "ウィリアムズバーグはバージニア植民地時代の首都だった。",
+    "cloze": "｟Williamsburg｠was the colonial capital of Virginia.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many tourists visit historic Williamsburg every year.",
+    "translation": "多くの観光客が毎年、歴史あるウィリアムズバーグを訪れる。",
+    "cloze": "Many tourists visit historic｟Williamsburg｠every year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11227,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb4ed08a9",
+  "courseId": "en-10-30k",
+  "headword": "watery",
+  "reading": "/wˈɔtɚi/",
+  "gloss": "水っぽい、水気の多い;(色が)薄い;(目が)涙ぐんだ",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I have watery stools.",
+    "translation": "便が水のようです。",
+    "cloze": "I have ｟watery｠ stools."
+   },
+   {
+    "text": "itching, rashes, watery eyes, watery eyes, watery eyes...",
+    "translation": "皮膚病、吹き出物、涙目、 涙目、涙目...",
+    "cloze": "itching, rashes, ｟watery｠ eyes, watery eyes, watery eyes..."
+   }
+  ],
+  "frequencyRank": 11425,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8ede2f42",
+  "courseId": "en-10-30k",
+  "headword": "weasel",
+  "reading": "/wˈizəl/",
+  "gloss": "イタチ;(米俗)(義務などから)ずるく逃げる、責任回避する",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The weasel is noted for its bad smell.",
+    "translation": "いたちはその悪臭で知られている。",
+    "cloze": "The ｟weasel｠ is noted for its bad smell."
+   },
+   {
+    "text": "Hey, can you stop weaseling your way in, especially at times like this?",
+    "translation": "ちょっと、こういう時にだけしゃしゃり出るのはやめてよ。",
+    "cloze": "Hey, can you stop ｟weaseling｠ your way in, especially at times like this?"
+   }
+  ],
+  "frequencyRank": 11426,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x91cd5958",
+  "courseId": "en-10-30k",
+  "headword": "weakly",
+  "reading": "/wˈikli/",
+  "gloss": "弱く、力なく;じょうぶでない、ひ弱な",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "[weakly] help me.",
+    "translation": "助けて",
+    "cloze": "[｟weakly｠] help me."
+   },
+   {
+    "text": "She smiled weakly and nodded.",
+    "translation": "彼女は弱々しく微笑んでうなずいた。",
+    "cloze": "She smiled ｟weakly｠ and nodded.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11804,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xc2a72cbc",
+  "courseId": "en-10-30k",
+  "headword": "westchester",
+  "reading": "/wˈɛsttʃˌɛstɚ/",
+  "gloss": "ウェストチェスター(米ニューヨーク州の郡)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "davis' reaction was to sell the apartment, move to westchester, start over.",
+    "translation": "デイビスは家を売ってウェストチェスターに越して 再出発したいって",
+    "cloze": "davis' reaction was to sell the apartment, move to ｟westchester｠, start over."
+   },
+   {
+    "text": "this trip to westchester, is this some kind of punishment?",
+    "translation": "ウエストチェスターへの旅行",
+    "cloze": "this trip to ｟westchester｠, is this some kind of punishment?"
+   }
+  ],
+  "frequencyRank": 11805,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6e08c6b6",
+  "courseId": "en-10-30k",
+  "headword": "wiener",
+  "reading": "/wˈinɚ/",
+  "gloss": "ウインナーソーセージ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This wiener has a taste similar to a fish sausage.",
+    "translation": "このウインナーは魚肉ソーセージみたいな味がする。",
+    "cloze": "This ｟wiener｠ has a taste similar to a fish sausage."
+   },
+   {
+    "text": "Wiener sausages are called Frankfurter sausages in Vienna.",
+    "translation": "ウィンナーソーセージは、ウィーンではフランクフルターソーセージと呼ばれている。",
+    "cloze": "｟Wiener｠ sausages are called Frankfurter sausages in Vienna."
+   }
+  ],
+  "frequencyRank": 11806,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xa53190ec",
+  "courseId": "en-10-30k",
+  "headword": "wildcard",
+  "reading": "/wˈaɪldkˌɑɹd/",
+  "gloss": "ワイルドカード(何にでも対応できる要素、予測不能な要素);(スポーツの)ワイルドカード出場枠",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "play is our adaptive wildcard.",
+    "translation": "何にでもなれるワイルドカードです",
+    "cloze": "play is our adaptive ｟wildcard｠."
+   },
+   {
+    "text": "The team earned a wildcard spot in the playoffs.",
+    "translation": "そのチームはプレーオフのワイルドカード枠を獲得した。",
+    "cloze": "The team earned a ｟wildcard｠ spot in the playoffs.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11807,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x0c3b6ef2",
+  "courseId": "en-10-30k",
+  "headword": "walkway",
+  "reading": "/wˈɔkwˌeɪ/",
+  "gloss": "歩行者用通路、歩道",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i'd rather not go back through that walkway again",
+    "translation": "あの地下道を もういっぺん引き返す気には とてもなれん",
+    "cloze": "i'd rather not go back through that ｟walkway｠ again"
+   },
+   {
+    "text": "and the rest of them are up on that walkway. you know that, don't you?",
+    "translation": "残りは陸橋の上です",
+    "cloze": "and the rest of them are up on that ｟walkway｠. you know that, don't you?"
+   }
+  ],
+  "frequencyRank": 11999,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5f157806",
+  "courseId": "en-10-30k",
+  "headword": "windmill",
+  "reading": "/wˈɪndmˌɪl/",
+  "gloss": "風車",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Go where you will in Holland, you will see windmills.",
+    "translation": "オランダでは、どこへ行っても風車が見られる。",
+    "cloze": "Go where you will in Holland, you will see ｟windmills｠."
+   },
+   {
+    "text": "In Netherlands you can see windmills wherever you go.",
+    "translation": "オランダでは、どこへ行っても風車が見られる。",
+    "cloze": "In Netherlands you can see ｟windmills｠ wherever you go."
+   }
+  ],
+  "frequencyRank": 12002,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6a589b9c",
+  "courseId": "en-10-30k",
+  "headword": "wrapper",
+  "reading": "/ɹˈæpɚ/",
+  "gloss": "包み紙、包装紙;(本の)カバー;包装する人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Don't eat the wrapper.",
+    "translation": "包み紙は食べちゃダメよ。",
+    "cloze": "Don't eat the ｟wrapper｠."
+   },
+   {
+    "text": "I slowly opened the candy wrapper, quietly so that I wouldn't wake my parents.",
+    "translation": "父さんと母さんが目を覚まさないように、音を立てず、そぉ〜っとキャンディの包みを開けました。",
+    "cloze": "I slowly opened the candy ｟wrapper｠, quietly so that I wouldn't wake my parents."
+   }
+  ],
+  "frequencyRank": 12005,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-x3c5a2c79",
+  "courseId": "en-10-30k",
+  "headword": "widowed",
+  "reading": "/wˈɪdoʊd/",
+  "gloss": "やもめになった,未亡人[やもめ]になった",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She has been widowed for ten years.",
+    "translation": "彼女は未亡人になって10年になる。",
+    "cloze": "She has been ｟＿｠ for ten years.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He was widowed at a young age.",
+    "translation": "彼は若くして配偶者を亡くした。",
+    "cloze": "He was ｟＿｠ at a young age.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12236,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd894f699",
+  "courseId": "en-10-30k",
+  "headword": "wwi",
+  "reading": null,
+  "gloss": "第一次世界大戦(World War Iの略)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "WWI lasted from 1914 until 1918.",
+    "translation": "第一次世界大戦は1914年から1918年まで続いた。",
+    "cloze": "｟＿｠ lasted from 1914 until 1918."
+   },
+   {
+    "text": "Many countries were involved in WWI.",
+    "translation": "多くの国がWWIに関わった。",
+    "cloze": "Many countries were involved in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12240,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa6ef0a52",
+  "courseId": "en-10-30k",
+  "headword": "wafer",
+  "reading": "/wˈeɪfɚ/",
+  "gloss": "ウエハース(薄焼き菓子)；(一般に)薄く丸い物",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "hey, kagami, do you like wafer chocolates?",
+    "translation": "ねぇ かがみウェハースチョコって好き?",
+    "cloze": "hey, kagami, do you like ｟＿｠ chocolates?"
+   },
+   {
+    "text": "These wafers are thin and crispy.",
+    "translation": "これらのウエハースは薄くてパリパリしている。",
+    "cloze": "These ｟＿｠ are thin and crispy.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12629,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xf33233cd",
+  "courseId": "en-10-30k",
+  "headword": "wiz",
+  "reading": "/wˈɪz/",
+  "gloss": "達人、名人(whizの略式表記)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "he's the technology wiz.",
+    "translation": "テクノロジーの天才です",
+    "cloze": "he's the technology ｟＿｠."
+   },
+   {
+    "text": "She's a real wiz at math.",
+    "translation": "彼女は数学の達人だ。",
+    "cloze": "She's a real ｟＿｠ at math.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12632,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x24274c38",
+  "courseId": "en-10-30k",
+  "headword": "woof",
+  "reading": "/wˈuf/",
+  "gloss": "(犬の鳴き声)ワンワン;(織物の)横糸",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "\"Meow\" means \"woof\" in cat.",
+    "translation": "ニャーって猫語でワンです。",
+    "cloze": "\"Meow\" means \"｟woof｠\" in cat."
+   },
+   {
+    "text": "The dog goes \"woof-woof\".",
+    "translation": "犬は「ワンワン」と鳴く。",
+    "cloze": "The dog goes \"｟woof｠-｟woof｠\"."
+   }
+  ],
+  "frequencyRank": 12845,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xf328b18c",
+  "courseId": "en-10-30k",
+  "headword": "workable",
+  "reading": "/wˈɝkəbəl/",
+  "gloss": "実行可能な,運転できる",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "all kinds of workable systems.",
+    "translation": "すべて実行可能なやり方だ",
+    "cloze": "all kinds of ｟workable｠ systems."
+   },
+   {
+    "text": "We need a workable solution to this problem.",
+    "translation": "この問題には実行可能な解決策が必要だ。",
+    "cloze": "We need a ｟workable｠ solution to this problem.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12846,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x0c35680d",
+  "courseId": "en-10-30k",
+  "headword": "warwickshire",
+  "reading": null,
+  "gloss": "ウォリックシャー(イングランド中部の州;シェイクスピアの故郷ストラトフォード・アポン・エイボンがある)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Warwickshire is famous as Shakespeare's home county.",
+    "translation": "ウォリックシャーはシェイクスピアの故郷の州として有名だ。",
+    "cloze": "｟＿｠ is famous as Shakespeare's home county.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13041,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb1e99e56",
+  "courseId": "en-10-30k",
+  "headword": "wishful",
+  "reading": "/wˈɪʃfəl/",
+  "gloss": "望んでいる,願望による(wishful thinking=希望的観測)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This business plan of yours seems almost too optimistic. All I can say is I hope it's more than just wishful thinking.",
+    "translation": "君の夢一杯のビジネスプラン、絵に描いた餅にならんことを切に望むよ。",
+    "cloze": "This business plan of yours seems almost too optimistic. All I can say is I hope it's more than just ｟＿｠ thinking."
+   },
+   {
+    "text": "but it looks like that was wishful thinking.",
+    "translation": "でも先生がいらしてくれて 本当によかった",
+    "cloze": "but it looks like that was ｟＿｠ thinking."
+   }
+  ],
+  "frequencyRank": 13043,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb86b4cc1",
+  "courseId": "en-10-30k",
+  "headword": "watchful",
+  "reading": "/wˈɑtʃfəl/",
+  "gloss": "警戒する、油断のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He was watchful for any sign of diabetes.",
+    "translation": "彼は糖尿病のどんな兆しにも注意していた。",
+    "cloze": "He was ｟＿｠ for any sign of diabetes."
+   },
+   {
+    "text": "we will leave ortoplutonia under the watchful eyes of the talz from this day forth and recognize your sovereignty as a free and equal people.",
+    "translation": "今後タルズ人がオルト・プルトオニアを注意深く見ている中 我々は出て、 自由と平等でタルズの主権を認める",
+    "cloze": "we will leave ortoplutonia under the ｟＿｠ eyes of the talz from this day forth and recognize your sovereignty as a free and equal people."
+   }
+  ],
+  "frequencyRank": 13556,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb0b2d589",
+  "courseId": "en-10-30k",
+  "headword": "wearer",
+  "reading": "/wˈɛɹɚ/",
+  "gloss": "着用者、身につけている人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The wearer knows best where the shoe pinches.",
+    "translation": "自分の靴の具合の悪いところは、自分が一番よく知っている。",
+    "cloze": "The ｟＿｠ knows best where the shoe pinches."
+   },
+   {
+    "text": "thirty thousand years ago, masks invested their wearer with authority.",
+    "translation": "3万年前に マスクは その着用者に権限を与えた",
+    "cloze": "thirty thousand years ago, masks invested their ｟＿｠ with authority."
+   }
+  ],
+  "frequencyRank": 13772,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xbb8e7e38",
+  "courseId": "en-10-30k",
+  "headword": "willful",
+  "reading": "/wˈɪlfəl/",
+  "gloss": "故意の;わがままな、強情な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "you could see willful blindness",
+    "translation": "意図的な無視は",
+    "cloze": "you could see ｟＿｠ blindness"
+   },
+   {
+    "text": "does that man's reliance on hazy metaphor seem almost willful to you?",
+    "translation": "あの男が漠然とした喩えを使ったのは わざとじゃないか?",
+    "cloze": "does that man's reliance on hazy metaphor seem almost ｟＿｠ to you?"
+   }
+  ],
+  "frequencyRank": 13773,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x6b9ee785",
+  "courseId": "en-10-30k",
+  "headword": "worcestershire",
+  "reading": "/wˈʊstɚʃɚ/",
+  "gloss": "ウスターソース（大豆・酢・香辛料で作るソース）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "How about adding some Worcestershire sauce?",
+    "translation": "ウスターソースがいいんじゃない？",
+    "cloze": "How about adding some ｟＿｠ sauce?"
+   },
+   {
+    "text": "She added a dash of Worcestershire sauce to the stew.",
+    "translation": "彼女はシチューにウスターソースを少し加えた。",
+    "cloze": "She added a dash of ｟＿｠ sauce to the stew.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13775,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x27462a4c",
+  "courseId": "en-10-30k",
+  "headword": "weirdly",
+  "reading": "/wˈɪɹdli/",
+  "gloss": "奇妙に,妙に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "My leg fell asleep because I sat weirdly.",
+    "translation": "変な座り方したから足がしびれた。",
+    "cloze": "My leg fell asleep because I sat ｟＿｠."
+   },
+   {
+    "text": "I get weirdly sleepy when I listen to this song.",
+    "translation": "この曲を聞いてると、不思議と眠くなる。",
+    "cloze": "I get ｟＿｠ sleepy when I listen to this song."
+   }
+  ],
+  "frequencyRank": 14280,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x0481cde4",
+  "courseId": "en-10-30k",
+  "headword": "worshipper",
+  "reading": "/wˈɝʃɪpɚz/",
+  "gloss": "崇拝者;礼拝者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "a civilian girl and a few of our guys were stuck inside a building, being held by the followers of this gifted individual ... or worshippers.",
+    "translation": "民間人の少女と我々の仲間がビルに囚われていた、 民間の有能な信者により囚われて・・・ もしくは礼拝者。",
+    "cloze": "a civilian girl and a few of our guys were stuck inside a building, being held by the followers of this gifted individual ... or ｟＿｠."
+   },
+   {
+    "text": "Worshippers gathered at the temple every morning.",
+    "translation": "礼拝者たちは毎朝その寺院に集まった。",
+    "cloze": "｟＿｠ gathered at the temple every morning.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14283,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf1588e10",
+  "courseId": "en-10-30k",
+  "headword": "wolverhampton",
+  "reading": null,
+  "gloss": "ウルヴァーハンプトン(イングランド中部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Wolverhampton is a city in the West Midlands of England.",
+    "translation": "ウルヴァーハンプトンはイングランド中部ウェスト・ミッドランズにある都市です。",
+    "cloze": "｟＿｠ is a city in the West Midlands of England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14498,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf40e10ee",
+  "courseId": "en-10-30k",
+  "headword": "walkin",
+  "reading": null,
+  "gloss": "予約なしの客；(戸口から直接入れる)造りの(walk-in)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "[tv] this is just a walkin closet",
+    "translation": "[テレビ]ここは ただのウォークインクローゼットよ",
+    "cloze": "[tv] this is just a ｟＿｠ closet"
+   },
+   {
+    "text": "no, i'm afraid they were walkins and it appears they paid by cash.",
+    "translation": "ないです 飛び込みですね 現金でお支払いです",
+    "cloze": "no, i'm afraid they were ｟＿｠s and it appears they paid by cash."
+   }
+  ],
+  "frequencyRank": 14743,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xcf02d7ed",
+  "courseId": "en-10-30k",
+  "headword": "workstation",
+  "reading": "/wˈɝkstˌeɪʃən/",
+  "gloss": "作業台、ワークステーション",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "no, it's not. i didn't have time to print out every single message that came through erika's workstation.",
+    "translation": "いや、全部は印刷できなかった",
+    "cloze": "no, it's not. i didn't have time to print out every single message that came through erika's ｟＿｠."
+   },
+   {
+    "text": "oh, our workstation.",
+    "translation": "なるほど作業台ね",
+    "cloze": "oh, our ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14751,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xcbfc74c4",
+  "courseId": "en-10-30k",
+  "headword": "wag",
+  "reading": "/wˈæɡ/",
+  "gloss": "〈尾・頭など〉を振る,揺り動かす",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The dog wagged its tail.",
+    "translation": "その犬は尾を震えさせていた。",
+    "cloze": "The dog ｟wagged｠ its tail."
+   },
+   {
+    "text": "My dog is wagging his tail.",
+    "translation": "私の犬が尾を振っている。",
+    "cloze": "My dog is ｟wagging｠ his tail."
+   }
+  ],
+  "frequencyRank": 15015,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x3df10a02",
+  "courseId": "en-10-30k",
+  "headword": "widower",
+  "reading": "/wˈɪdoʊɚ/",
+  "gloss": "男やもめ,妻を失った男",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He has been a widower for five years.",
+    "translation": "彼は男やもめになって5年になる。",
+    "cloze": "He has been a ｟widower｠ for five years.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15018,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa6bd641c",
+  "courseId": "en-10-30k",
+  "headword": "wobbly",
+  "reading": "/wˈɑbəli/",
+  "gloss": "ぐらぐらする,不安定な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's a bit wobbly.",
+    "translation": "ちょっと危なっかしいなあ。",
+    "cloze": "It's a bit ｟wobbly｠."
+   },
+   {
+    "text": "The table is wobbly.",
+    "translation": "テーブルがぐらついてるよ。",
+    "cloze": "The table is ｟wobbly｠."
+   }
+  ],
+  "frequencyRank": 15020,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa3cd3cc1",
+  "courseId": "en-10-30k",
+  "headword": "wobble",
+  "reading": "/wˈɑbəl/",
+  "gloss": "よろよろする、ぐらぐらする、揺れる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The table is wobbling.",
+    "translation": "テーブルがぐらついてるよ。",
+    "cloze": "The table is ｟＿｠."
+   },
+   {
+    "text": "I always use the steps, but...it's scary how they wobble...so I'd like you to hold them steady.",
+    "translation": "いつもは脚立を使ってるんですけど、・・・揺れて怖くて・・・だから押さえていて欲しいんです。",
+    "cloze": "I always use the steps, but...it's scary how they ｟＿｠...so I'd like you to hold them steady."
+   }
+  ],
+  "frequencyRank": 15256,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x809068b5",
+  "courseId": "en-10-30k",
+  "headword": "wart",
+  "reading": "/wˈɔɹt/",
+  "gloss": "いぼ；（木の）こぶ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm troubled by this wart.",
+    "translation": "このいぼに悩まされています。",
+    "cloze": "I'm troubled by this ｟wart｠."
+   },
+   {
+    "text": "warts, boils, and moles, in that order.",
+    "translation": "イボ 吹き出物にほくろ",
+    "cloze": "｟warts｠, boils, and moles, in that order."
+   }
+  ],
+  "frequencyRank": 15498,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x54469559",
+  "courseId": "en-10-30k",
+  "headword": "whiteness",
+  "reading": "/wˈaɪtnəs/",
+  "gloss": "白さ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The whiteness of the lily is a symbol of purity.",
+    "translation": "ゆりの白さは純潔の象徴だ。",
+    "cloze": "The ｟＿｠ of the lily is a symbol of purity."
+   },
+   {
+    "text": "the softness, whiteness, roundness",
+    "translation": "あの柔らかさ 白さ 丸さ",
+    "cloze": "the softness, ｟＿｠, roundness"
+   }
+  ],
+  "frequencyRank": 15748,
+  "category": "colors"
+ },
+ {
+  "id": "en-10-30k-xf984c70e",
+  "courseId": "en-10-30k",
+  "headword": "wsj",
+  "reading": null,
+  "gloss": "ウォール・ストリート・ジャーナル(米国の経済専門有力紙)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He reads the WSJ every morning before work.",
+    "translation": "彼は仕事前に毎朝ウォール・ストリート・ジャーナルを読む。",
+    "cloze": "He reads the ｟＿｠ every morning before work.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The merger was announced in an exclusive WSJ report.",
+    "translation": "その合併はウォール・ストリート・ジャーナルの独占記事で発表された。",
+    "cloze": "The merger was announced in an exclusive ｟＿｠ report.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15750,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x879ca0fe",
+  "courseId": "en-10-30k",
+  "headword": "whig",
+  "reading": "/wˈɪɡ/",
+  "gloss": "(英国史の)ホイッグ党員；(米国史の)ホイッグ党員",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Whig Party played an important role in early American politics.",
+    "translation": "ホイッグ党はアメリカ初期の政治において重要な役割を果たした。",
+    "cloze": "The ｟Whig｠ Party played an important role in early American politics.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16007,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x40ca620d",
+  "courseId": "en-10-30k",
+  "headword": "whisker",
+  "reading": "/wˈɪskɚ/",
+  "gloss": "(猫・ネズミなどの)ひげ；(まれに)ほおひげ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "kouta, say. what is this cats whiskers?",
+    "translation": "光太 あのう。 ネコひげって 何だ?",
+    "cloze": "kouta, say. what is this cats ｟whiskers｠?"
+   },
+   {
+    "text": "this thing originated from a cats whiskers.",
+    "translation": "これ もともとは ネコひげだったんだ。",
+    "cloze": "this thing originated from a cats ｟whiskers｠."
+   }
+  ],
+  "frequencyRank": 16009,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x55baee3d",
+  "courseId": "en-10-30k",
+  "headword": "wishlist",
+  "reading": "/wˈɪʃlɪst/",
+  "gloss": "欲しいものリスト、ウィッシュリスト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm adding that to my wishlist.",
+    "translation": "ウィッシュリストに追加します。",
+    "cloze": "I'm adding that to my ｟wishlist｠."
+   },
+   {
+    "text": "and i'm gonna read everything on my amazon wishlist...",
+    "translation": "Amazonウィッシュリストにあるすべての本を読むつもり",
+    "cloze": "and i'm gonna read everything on my amazon ｟wishlist｠..."
+   }
+  ],
+  "frequencyRank": 16013,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-xb6ae1c94",
+  "courseId": "en-10-30k",
+  "headword": "woulda",
+  "reading": null,
+  "gloss": "would have の口語的な短縮形(～だっただろうに)",
+  "pos": "助動詞",
+  "examples": [
+   {
+    "text": "woulda been quite a mess.",
+    "translation": "バラバラだろう",
+    "cloze": "｟woulda｠ been quite a mess."
+   },
+   {
+    "text": "but if you called it fantasizing, it woulda been hard to argue.",
+    "translation": "ただの妄想と言われると 反論は難しい",
+    "cloze": "but if you called it fantasizing, it ｟woulda｠ been hard to argue."
+   }
+  ],
+  "frequencyRank": 16014,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-x30d90da4",
+  "courseId": "en-10-30k",
+  "headword": "walrus",
+  "reading": "/wˈɔlɹəs/",
+  "gloss": "セイウチ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "walruses adapted with layers of fat. sea lions got sleek.",
+    "translation": "セイウチは脂肪の層を身に付け アシカは流線型を取りました",
+    "cloze": "｟walruses｠ adapted with layers of fat. sea lions got sleek."
+   },
+   {
+    "text": "The walrus used its long tusks to climb onto the ice.",
+    "translation": "セイウチは長い牙を使って氷の上によじ登った。",
+    "cloze": "The ｟walrus｠ used its long tusks to climb onto the ice.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16262,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x71c60272",
+  "courseId": "en-10-30k",
+  "headword": "wrongfully",
+  "reading": "/ɹˈɔŋfəli/",
+  "gloss": "不当に、間違って",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "and i photographed all of the wrongfully convicted",
+    "translation": "間違って有罪となる過程で",
+    "cloze": "and i photographed all of the ｟wrongfully｠ convicted"
+   },
+   {
+    "text": "how dare you command me, threaten me with what you wrongfully perceive to be my weaknesses?",
+    "translation": "どの口で私に命じる気だ 私を脅すのか 不当に知り得た私の弱点で?",
+    "cloze": "how dare you command me, threaten me with what you ｟wrongfully｠ perceive to be my weaknesses?"
+   }
+  ],
+  "frequencyRank": 16263,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xbedbef01",
+  "courseId": "en-10-30k",
+  "headword": "weirdos",
+  "reading": "/wˈɪɹdoʊz/",
+  "gloss": "変わり者たち、奇妙な人たち",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The party was full of weirdos and misfits.",
+    "translation": "そのパーティーは変わり者やはみ出し者でいっぱいだった。",
+    "cloze": "The party was full of ｟＿｠ and misfits.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Some people think artists are all weirdos.",
+    "translation": "アーティストはみんな変わり者だと思う人もいる。",
+    "cloze": "Some people think artists are all ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16788,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe2744d84",
+  "courseId": "en-10-30k",
+  "headword": "whirl",
+  "reading": "/wˈɝl/",
+  "gloss": "ぐるぐる回る、旋回する；回転",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Let's give it a whirl.",
+    "translation": "やってみようよ。",
+    "cloze": "Let's give it a ｟＿｠."
+   },
+   {
+    "text": "The leaves whirled in the yard.",
+    "translation": "木の葉が庭でくるくる舞っていた。",
+    "cloze": "The leaves ｟＿｠ in the yard."
+   }
+  ],
+  "frequencyRank": 16791,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x27612605",
+  "courseId": "en-10-30k",
+  "headword": "workman",
+  "reading": "/wˈɝkmən/",
+  "gloss": "職人、労働者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I found the workman very good.",
+    "translation": "私はその職人がとても腕がよいと分かった。",
+    "cloze": "I found the ｟＿｠ very good."
+   },
+   {
+    "text": "A bad workman blames his tools.",
+    "translation": "下手な職人は道具にけちをつける。",
+    "cloze": "A bad ｟＿｠ blames his tools."
+   }
+  ],
+  "frequencyRank": 16795,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x5ffcb0de",
+  "courseId": "en-10-30k",
+  "headword": "whatcha",
+  "reading": null,
+  "gloss": "(口語)「何を~」「何してるの」(what are you/what do youの短縮形)",
+  "pos": "代名詞",
+  "examples": [
+   {
+    "text": "Whatcha readin'?",
+    "translation": "何読んでるの？",
+    "cloze": "｟＿｠ readin'?"
+   },
+   {
+    "text": "whatcha doing here?",
+    "translation": "何してんだ?",
+    "cloze": "｟＿｠ doing here?"
+   }
+  ],
+  "frequencyRank": 17319,
+  "category": "question-words"
+ },
+ {
+  "id": "en-10-30k-x3e10d6d1",
+  "courseId": "en-10-30k",
+  "headword": "weymouth",
+  "reading": "/wˈeɪməθ/",
+  "gloss": "ウェイマス(英国ドーセット州の港町。米国マサチューセッツ州の都市名でもある)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "weymouth parking. you little bastard.",
+    "translation": "ウェーマス駐車か",
+    "cloze": "｟＿｠ parking. you little bastard."
+   },
+   {
+    "text": "pick me up outside weymouth street car park.",
+    "translation": "ウェーマス駐車場前で待ってる",
+    "cloze": "pick me up outside ｟＿｠ street car park."
+   }
+  ],
+  "frequencyRank": 17635,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdf9dc2d7",
+  "courseId": "en-10-30k",
+  "headword": "wickedness",
+  "reading": "/wˈɪkədnəs/",
+  "gloss": "邪悪さ、不正、悪事",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He's capable of wickedness of any kind.",
+    "translation": "彼はどんな悪事でもやりかねない。",
+    "cloze": "He's capable of ｟＿｠ of any kind."
+   },
+   {
+    "text": "He cloaks his wickedness under a smiling face.",
+    "translation": "彼は笑顔の陰に邪悪な心を隠している。",
+    "cloze": "He cloaks his ｟＿｠ under a smiling face."
+   }
+  ],
+  "frequencyRank": 17637,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x02f8f2f8",
+  "courseId": "en-10-30k",
+  "headword": "worksheet",
+  "reading": "/wˈɝkʃˌit/",
+  "gloss": "作業用紙、ワークシート、学習用プリント",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i've put worksheets online",
+    "translation": "ワークシートはネットにあるので",
+    "cloze": "i've put ｟＿｠ online"
+   },
+   {
+    "text": "hey, that's a good book. be sure you do the worksheets in back.",
+    "translation": "それはいい本だ ふろくもやれ",
+    "cloze": "hey, that's a good book. be sure you do the ｟＿｠ in back."
+   }
+  ],
+  "frequencyRank": 17640,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x28461553",
+  "courseId": "en-10-30k",
+  "headword": "weimar",
+  "reading": "/vˈaɪmɑɹ/",
+  "gloss": "ワイマール(ドイツ中部の都市;ワイマール共和国で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "your grandfather left the ashes of the weimar republic",
+    "translation": "あなたのお爺様は 灰になったワイマール共和国を離れて",
+    "cloze": "your grandfather left the ashes of the ｟＿｠ republic"
+   }
+  ],
+  "frequencyRank": 17931,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3adb472e",
+  "courseId": "en-10-30k",
+  "headword": "weirdness",
+  "reading": "/wˈɪɹdnəs/",
+  "gloss": "奇妙さ、奇異なこと",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we find other kinds of weirdness in terms of what their rights are.",
+    "translation": "他にも権利に関するおかしなことがあります",
+    "cloze": "we find other kinds of ｟＿｠ in terms of what their rights are."
+   },
+   {
+    "text": "you see, this weirdness is very delicate;",
+    "translation": "この奇妙な現象はとても繊細で",
+    "cloze": "you see, this ｟＿｠ is very delicate;"
+   }
+  ],
+  "frequencyRank": 17932,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x7753a8af",
+  "courseId": "en-10-30k",
+  "headword": "whiten",
+  "reading": "/wˈaɪtən/",
+  "gloss": "白くする,漂白する;白くなる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "We carry out treatments like whitening. We also do tobacco stain removal and other cleaning procedures.",
+    "translation": "ホワイトニングなどの治療を行います。ヤニ取りなどのクリーニングも行っています。",
+    "cloze": "We carry out treatments like ｟＿｠. We also do tobacco stain removal and other cleaning procedures."
+   },
+   {
+    "text": "the owner loved these. scrubbed them clean. whitened them where they got discoloured.",
+    "translation": "持ち主は大事にしてて 丁寧に洗って白くした",
+    "cloze": "the owner loved these. scrubbed them clean. ｟＿｠ them where they got discoloured."
+   }
+  ],
+  "frequencyRank": 18537,
+  "category": "colors"
+ },
+ {
+  "id": "en-10-30k-xf95fb79a",
+  "courseId": "en-10-30k",
+  "headword": "wessex",
+  "reading": "/wˈɛsəks/",
+  "gloss": "ウェセックス(中世イングランド南西部にあったアングロサクソン七王国の一つ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "wessex police tonight announce they have made an arrest in the murder of 11yearold danny latimer.",
+    "translation": "ウェセックス警察が今夜 ダニー・ラティマー君11歳を 殺害した犯人を 逮捕したと発表しました",
+    "cloze": "｟wessex｠ police tonight announce they have made an arrest in the murder of 11yearold danny latimer."
+   },
+   {
+    "text": "di alec hardy, wessex police.",
+    "translation": "ウェセックス警察の アレク・ハーディ警部補だ",
+    "cloze": "di alec hardy, ｟wessex｠ police."
+   }
+  ],
+  "frequencyRank": 18797,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6c219a2c",
+  "courseId": "en-10-30k",
+  "headword": "whiny",
+  "reading": "/wˈaɪni/",
+  "gloss": "泣き言を言う、愚痴っぽい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Huh? Don't be so whiny! And you call yourself a man!",
+    "translation": "は？グダグダ抜かすんじゃねぇ。それでもオトコか。",
+    "cloze": "Huh? Don't be so ｟whiny｠! And you call yourself a man!"
+   },
+   {
+    "text": "Or rather, is it not just pathetic that I think such whiny thoughts like this?",
+    "translation": "ってゆーか、こうやってぐじぐじ考えるのが情けないんじゃないのか？",
+    "cloze": "Or rather, is it not just pathetic that I think such ｟whiny｠ thoughts like this?"
+   }
+  ],
+  "frequencyRank": 18799,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x4b447569",
+  "courseId": "en-10-30k",
+  "headword": "whistleblowers",
+  "reading": "/wˈɪsəlblˌoʊɚz/",
+  "gloss": "内部告発者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The whistleblowers exposed corruption within the company.",
+    "translation": "内部告発者たちは会社内の不正を暴露した。",
+    "cloze": "The ｟＿｠ exposed corruption within the company.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Laws protect whistleblowers from retaliation.",
+    "translation": "法律は内部告発者を報復から保護する。",
+    "cloze": "Laws protect ｟＿｠ from retaliation.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19406,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x05b94d91",
+  "courseId": "en-10-30k",
+  "headword": "wordsworth",
+  "reading": "/wˈɝdzwɚθ/",
+  "gloss": "ワーズワース(ウィリアム・ワーズワース;英国の詩人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "rather than emily dickinson, coleridge and wordsworth",
+    "translation": "エミリー・ディキンソンや コールリッジや ワーズワースよりむしろ",
+    "cloze": "rather than emily dickinson, coleridge and ｟＿｠"
+   },
+   {
+    "text": "Wordsworth is famous for his poems celebrating nature.",
+    "translation": "ワーズワースは自然を讃える詩で有名だ。",
+    "cloze": "｟＿｠ is famous for his poems celebrating nature.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19408,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2eff7282",
+  "courseId": "en-10-30k",
+  "headword": "walkie",
+  "reading": "/wˈɔki/",
+  "gloss": "トランシーバー,携帯無線機(walkie-talkieの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "ricco's not answering his walkie. check it out.",
+    "translation": "リコは無線に答えてない 確認してくれ",
+    "cloze": "ricco's not answering his ｟＿｠. check it out."
+   },
+   {
+    "text": "The security guard spoke into his walkie to call for backup.",
+    "translation": "警備員は応援を呼ぶために無線に向かって話した。",
+    "cloze": "The security guard spoke into his ｟＿｠ to call for backup.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19995,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xf0037780",
+  "courseId": "en-10-30k",
+  "headword": "watchtower",
+  "reading": null,
+  "gloss": "見張り塔,物見やぐら",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "this watchtower will be completely surrounded, there'll be no way out.",
+    "translation": "この見張り塔は、完全に包囲されます、 出口がない",
+    "cloze": "this ｟＿｠ will be completely surrounded, there'll be no way out."
+   },
+   {
+    "text": "Soldiers kept watch from the old watchtower at the edge of the fort.",
+    "translation": "兵士たちは砦の端にある古い見張り塔から見張りをしていた。",
+    "cloze": "Soldiers kept watch from the old ｟＿｠ at the edge of the fort.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19996,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xeae3a663",
+  "courseId": "en-10-30k",
+  "headword": "workbook",
+  "reading": "/wˈɝkbˌʊk/",
+  "gloss": "ワークブック,学習帳,問題集",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do the first example in your workbook.",
+    "translation": "君のワークブックの最初の例題をしなさい。",
+    "cloze": "Do the first example in your ｟＿｠."
+   },
+   {
+    "text": "\"I wonder if I should buy this workbook.\" \"Even though you won't do the exercises?\" \"Did you say something?\"",
+    "translation": "「この問題集、買おっかな」「やらないくせに」「なんか言った？」",
+    "cloze": "\"I wonder if I should buy this ｟＿｠.\" \"Even though you won't do the exercises?\" \"Did you say something?\""
+   }
+  ],
+  "frequencyRank": 20001,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x6cb61853",
+  "courseId": "en-10-30k",
+  "headword": "workspace",
+  "reading": "/wˈɝkspˌeɪs/",
+  "gloss": "仕事場,作業スペース",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "also just like paper, around our workspace",
+    "translation": "仕事場では、後で思い出せるように-",
+    "cloze": "also just like paper, around our ｟＿｠"
+   },
+   {
+    "text": "clean up your workspace. it's chaotic.",
+    "translation": "机を整頓なさい まるで...",
+    "cloze": "clean up your ｟＿｠. it's chaotic."
+   }
+  ],
+  "frequencyRank": 20002,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x254698a0",
+  "courseId": "en-10-30k",
+  "headword": "woodpecker",
+  "reading": "/wˈʊdpˌɛkɚ/",
+  "gloss": "キツツキ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's a woodpecker.",
+    "translation": "キツツキだよ。",
+    "cloze": "It's a ｟＿｠."
+   },
+   {
+    "text": "The woodpecker is gathering acorns for the winter.",
+    "translation": "啄木鳥は、冬に向けてドングリを集めています。",
+    "cloze": "The ｟＿｠ is gathering acorns for the winter."
+   }
+  ],
+  "frequencyRank": 20871,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xa0ca979e",
+  "courseId": "en-10-30k",
+  "headword": "wtc",
+  "reading": null,
+  "gloss": "世界貿易センター(ニューヨークにあった超高層ビル、2001年の同時多発テロで崩壊)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The WTC towers once stood in Lower Manhattan.",
+    "translation": "WTCタワーはかつてマンハッタン南部にそびえ立っていた。",
+    "cloze": "The ｟＿｠ towers once stood in Lower Manhattan.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20873,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x56d0178a",
+  "courseId": "en-10-30k",
+  "headword": "wiper",
+  "reading": "/wˈaɪpɚ/",
+  "gloss": "拭く人；(車の)ワイパー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and began drawing what would become the world's first windshield wiper.",
+    "translation": "のちに世界初の フロントガラス用 ワイパーとなるものを描き始めたのです",
+    "cloze": "and began drawing what would become the world's first windshield ｟＿｠."
+   },
+   {
+    "text": "i say, it doesn't matter if you're a washer or a wiper",
+    "translation": "皆さんが「洗う派」でも「拭く派」でも",
+    "cloze": "i say, it doesn't matter if you're a washer or a ｟＿｠"
+   }
+  ],
+  "frequencyRank": 21196,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x7bb2fa9e",
+  "courseId": "en-10-30k",
+  "headword": "wristband",
+  "reading": null,
+  "gloss": "リストバンド、腕輪；(袖口の)カフス",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "that's an odd wristband.",
+    "translation": "変わったリストバンドだな。",
+    "cloze": "that's an odd ｟＿｠."
+   },
+   {
+    "text": "i see you already got your wristbands.",
+    "translation": "もうパスは着けてるわね",
+    "cloze": "i see you already got your ｟＿｠."
+   }
+  ],
+  "frequencyRank": 21197,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x8143fd50",
+  "courseId": "en-10-30k",
+  "headword": "washroom",
+  "reading": "/wˈɑʃɹˌum/",
+  "gloss": "(公共施設などの)洗面所,お手洗い",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Where's the washroom?",
+    "translation": "お手洗いは、どこですか？",
+    "cloze": "Where's the ｟＿｠?"
+   },
+   {
+    "text": "Where is the washroom?",
+    "translation": "洗面所はどこですか？",
+    "cloze": "Where is the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 21491,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x0c1ff8fd",
+  "courseId": "en-10-30k",
+  "headword": "whigs",
+  "reading": "/wˈɪɡz/",
+  "gloss": "ホイッグ党(英国・米国の歴史的政党)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Whigs opposed the policies of King George III.",
+    "translation": "ホイッグ党はジョージ3世の政策に反対した。",
+    "cloze": "The ｟＿｠ opposed the policies of King George III.",
+    "aiGenerated": true
+   },
+   {
+    "text": "In American history, the Whigs were a major political party before the Civil War.",
+    "translation": "アメリカ史において、ホイッグ党は南北戦争前の主要な政党だった。",
+    "cloze": "In American history, the ｟＿｠ were a major political party before the Civil War.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21493,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x6bb63d9a",
+  "courseId": "en-10-30k",
+  "headword": "whoo",
+  "reading": "/wˈu/",
+  "gloss": "ウー、わあ(驚き・興奮・感嘆を表す声)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Whoo! Today's practice is tough - much harder than usual.",
+    "translation": "ウーッ、今日の練習はいつになくハードで辛い。",
+    "cloze": "｟＿｠! Today's practice is tough - much harder than usual."
+   },
+   {
+    "text": "Whoo! I'm feeling that sake. I'm getting blurred vision and I can't walk straight.",
+    "translation": "うっ！日本酒が効いてきた。視点があわなくてまっすぐ歩けない。",
+    "cloze": "｟＿｠! I'm feeling that sake. I'm getting blurred vision and I can't walk straight."
+   }
+  ],
+  "frequencyRank": 21841,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xd453fc22",
+  "courseId": "en-10-30k",
+  "headword": "wildflowers",
+  "reading": "/wˈaɪldflˌaʊɹz/",
+  "gloss": "野草の花、野生の花",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There are many wildflowers here.",
+    "translation": "ここに野の花がたくさんある。",
+    "cloze": "There are many ｟＿｠ here."
+   },
+   {
+    "text": "He found some wildflowers in the woods.",
+    "translation": "彼は森で野花を見つけた。",
+    "cloze": "He found some ｟＿｠ in the woods."
+   }
+  ],
+  "frequencyRank": 21842,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xc8f4553c",
+  "courseId": "en-10-30k",
+  "headword": "webcams",
+  "reading": null,
+  "gloss": "ウェブカメラ(インターネットに接続したカメラ)の複数形",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many online classes use webcams for video calls.",
+    "translation": "多くのオンライン授業ではビデオ通話にウェブカメラを使う。",
+    "cloze": "Many online classes use ｟webcams｠ for video calls.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22169,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x5fc35ebb",
+  "courseId": "en-10-30k",
+  "headword": "wham",
+  "reading": "/wˈæm/",
+  "gloss": "ドカン(という音)、激突、強打",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "and then... wham.",
+    "translation": "だが直ぐに ドシャン",
+    "cloze": "and then... ｟wham｠."
+   },
+   {
+    "text": "wham! never in my life ...",
+    "translation": "経験した事のない強烈な痛みが走り・・・",
+    "cloze": "｟wham｠! never in my life ..."
+   }
+  ],
+  "frequencyRank": 22173,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x0c68c70d",
+  "courseId": "en-10-30k",
+  "headword": "woohoo",
+  "reading": null,
+  "gloss": "わーい、やったー(喜び・興奮を表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Woohoo! We won the game!",
+    "translation": "やったー！試合に勝ったぞ！",
+    "cloze": "｟Woohoo｠! We won the game!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22176,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x571df040",
+  "courseId": "en-10-30k",
+  "headword": "wuhan",
+  "reading": "/wˈuən/",
+  "gloss": "武漢(中国湖北省の省都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Wuhan is a large city in central China.",
+    "translation": "武漢は中国中部にある大都市です。",
+    "cloze": "｟Wuhan｠ is a large city in central China.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22179,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3f2a600b",
+  "courseId": "en-10-30k",
+  "headword": "waterworks",
+  "reading": "/wˈɔtɚwˌɝks/",
+  "gloss": "水道,給水設備;(口語)涙,大泣き",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the waterworks were... ridiculous.",
+    "translation": "涙なんか流しちゃって あほらしかった",
+    "cloze": "the ｟＿｠ were... ridiculous."
+   },
+   {
+    "text": "oh, for crying out loud, here come the waterworks.",
+    "translation": "よし 頼むから",
+    "cloze": "oh, for crying out loud, here come the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 22487,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xb1ddb558",
+  "courseId": "en-10-30k",
+  "headword": "whitechapel",
+  "reading": null,
+  "gloss": "ホワイトチャペル(ロンドン東部の地区、切り裂きジャック事件で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "yeah, he was a whitechapel lad.",
+    "translation": "ホワイト・チャペルの若者が",
+    "cloze": "yeah, he was a ｟＿｠ lad."
+   },
+   {
+    "text": "Whitechapel became infamous due to the Jack the Ripper murders.",
+    "translation": "ホワイトチャペルは切り裂きジャック事件で悪名高くなった。",
+    "cloze": "｟＿｠ became infamous due to the Jack the Ripper murders.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22490,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x15f35d01",
+  "courseId": "en-10-30k",
+  "headword": "wolfsburg",
+  "reading": "/wˈʊlfsbɚɡ/",
+  "gloss": "ヴォルフスブルク(ドイツの都市、フォルクスワーゲン本社所在地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Wolfsburg is home to the headquarters of Volkswagen.",
+    "translation": "ヴォルフスブルクはフォルクスワーゲンの本社がある町だ。",
+    "cloze": "｟＿｠ is home to the headquarters of Volkswagen.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22495,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x33bd4b0f",
+  "courseId": "en-10-30k",
+  "headword": "wye",
+  "reading": "/wˈaɪ/",
+  "gloss": "Y字形のもの(配管・線路の分岐など);アルファベットのYの綴り名",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The plumber installed a wye fitting to split the pipe.",
+    "translation": "配管工は管を分岐させるためY字継手を取り付けた。",
+    "cloze": "The plumber installed a ｟＿｠ fitting to split the pipe.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22496,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-x87f5b322",
+  "courseId": "en-10-30k",
+  "headword": "wearables",
+  "reading": null,
+  "gloss": "ウェアラブル端末(身に着けて使うデジタル機器)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Fitness wearables can track your heart rate all day.",
+    "translation": "フィットネス用ウェアラブル端末は一日中心拍数を計測できる。",
+    "cloze": "Fitness ｟wearables｠ can track your heart rate all day.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Wearables like smartwatches are becoming more popular every year.",
+    "translation": "スマートウォッチのようなウェアラブル端末は年々人気が高まっている。",
+    "cloze": "｟Wearables｠ like smartwatches are becoming more popular every year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22836,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x40ad2442",
+  "courseId": "en-10-30k",
+  "headword": "willamette",
+  "reading": "/wəlˈæmət/",
+  "gloss": "ウィラメット(米オレゴン州の川・渓谷。ワイン産地として有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "can't go wrong with a willamette valley wine, which, for my money, beats the pantalones off any of that french cte d'or stuff.",
+    "translation": "品質を落とせないのは ウィラメットワインも同じで お金を出して買うなら 地元のワインを買う",
+    "cloze": "can't go wrong with a ｟willamette｠ valley wine, which, for my money, beats the pantalones off any of that french cte d'or stuff."
+   },
+   {
+    "text": "The Willamette Valley is famous for its Pinot Noir wines.",
+    "translation": "ウィラメット渓谷はピノ・ノワールのワインで有名だ。",
+    "cloze": "The ｟Willamette｠ Valley is famous for its Pinot Noir wines.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22838,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9903b1b5",
+  "courseId": "en-10-30k",
+  "headword": "wehrmacht",
+  "reading": null,
+  "gloss": "ドイツ国防軍（第二次世界大戦時のナチス・ドイツ軍）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "sent 6,000 miserable wehrmacht and nazi sympathizers to the bottom of gdask bay.",
+    "translation": "6000人の哀れなドイツ国防軍と ナチ信者が グダニスク湾の 底に沈んだ",
+    "cloze": "sent 6,000 miserable ｟＿｠ and nazi sympathizers to the bottom of gdask bay."
+   },
+   {
+    "text": "The Wehrmacht invaded Poland in 1939.",
+    "translation": "ドイツ国防軍は1939年にポーランドに侵攻した。",
+    "cloze": "The ｟＿｠ invaded Poland in 1939.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23163,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xdcba6bfe",
+  "courseId": "en-10-30k",
+  "headword": "wmd",
+  "reading": null,
+  "gloss": "大量破壊兵器（Weapons of Mass Destruction）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "he says, l've got a story for you. the truth about saddam's wmd programs.",
+    "translation": "サダムの 大量破壊兵器の情報があると",
+    "cloze": "he says, l've got a story for you. the truth about saddam's ｟＿｠ programs."
+   },
+   {
+    "text": "this is a wmd site. this is a highpriority site.",
+    "translation": "ここはWMD格納庫だぞ",
+    "cloze": "this is a ｟＿｠ site. this is a highpriority site."
+   }
+  ],
+  "frequencyRank": 23167,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa5aa421b",
+  "courseId": "en-10-30k",
+  "headword": "waistband",
+  "reading": null,
+  "gloss": "(ズボン・スカートの)ウエストバンド部分",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "no one wears trousers with a waistband quite that high",
+    "translation": "ウエストバンドを高くしたズボンを",
+    "cloze": "no one wears trousers with a ｟waistband｠ quite that high"
+   },
+   {
+    "text": "literally. guy's spleen just hanging out over his waistband.",
+    "translation": "それに脾臓をベルトの上で ぶらぶらさせていた",
+    "cloze": "literally. guy's spleen just hanging out over his ｟waistband｠."
+   }
+  ],
+  "frequencyRank": 23466,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x4ad88c57",
+  "courseId": "en-10-30k",
+  "headword": "wipeout",
+  "reading": "/wˈaɪpˌaʊt/",
+  "gloss": "壊滅的な失敗、大損失;(サーフィンなどでの)転倒",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's almost two trillion. it's gonna be a wipeout.",
+    "translation": "約2兆ドル相当 暴落だ",
+    "cloze": "it's almost two trillion. it's gonna be a ｟wipeout｠."
+   },
+   {
+    "text": "there are a lot of wipeouts.",
+    "translation": "失敗ばかりです",
+    "cloze": "there are a lot of ｟wipeouts｠."
+   }
+  ],
+  "frequencyRank": 23473,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x3b7024eb",
+  "courseId": "en-10-30k",
+  "headword": "worshiper",
+  "reading": "/wˈɝʃəpɚ/",
+  "gloss": "崇拝者;礼拝者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i once had a runin with some devil worshipers.",
+    "translation": "前に悪魔崇拝者と もめたことがあった",
+    "cloze": "i once had a runin with some devil ｟＿｠."
+   }
+  ],
+  "frequencyRank": 23789,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf2d99014",
+  "courseId": "en-10-30k",
+  "headword": "wav",
+  "reading": null,
+  "gloss": "WAV形式(音声ファイルの一形式)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "but its just a fakeout. it's a wav file of a dial tone",
+    "translation": "でもこれはまやかしに過ぎません 発信音はwavファイルで",
+    "cloze": "but its just a fakeout. it's a ｟wav｠ file of a dial tone"
+   }
+  ],
+  "frequencyRank": 24106,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xd3063e7d",
+  "courseId": "en-10-30k",
+  "headword": "wimp",
+  "reading": "/wˈɪmp/",
+  "gloss": "弱虫、意気地なし",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "You wimp!",
+    "translation": "この弱虫！",
+    "cloze": "You ｟wimp｠!"
+   },
+   {
+    "text": "I wimped out.",
+    "translation": "意気地がなかったんだ。",
+    "cloze": "I ｟wimped｠ out."
+   }
+  ],
+  "frequencyRank": 24110,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf531f301",
+  "courseId": "en-10-30k",
+  "headword": "wizarding",
+  "reading": null,
+  "gloss": "魔法使いの、魔法(界)の(例:the wizarding world=魔法使いの世界)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Harry entered the wizarding world for the first time.",
+    "translation": "ハリーは初めて魔法使いの世界に足を踏み入れた。",
+    "cloze": "Harry entered the ｟＿｠ world for the first time.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24458,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8be22b92",
+  "courseId": "en-10-30k",
+  "headword": "waistline",
+  "reading": "/wˈeɪstlˌaɪn/",
+  "gloss": "胴回り、ウエストライン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "is called shifting waistline.",
+    "translation": "私の「ウエストライン」も変化しています",
+    "cloze": "is called shifting ｟＿｠."
+   },
+   {
+    "text": "She measured her waistline with a tape measure.",
+    "translation": "彼女はメジャーでウエストラインを測った。",
+    "cloze": "She measured her ｟＿｠ with a tape measure.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24804,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xb9eb03c5",
+  "courseId": "en-10-30k",
+  "headword": "weatherman",
+  "reading": "/wˈɛðɚmˌæn/",
+  "gloss": "天気予報係、気象予報士",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The weatherman predicts snow for tonight.",
+    "translation": "天気予報では、今夜は雪だ。",
+    "cloze": "The ｟＿｠ predicts snow for tonight."
+   },
+   {
+    "text": "The weatherman says there is a storm on the way.",
+    "translation": "天気予報では、嵐になりそうだと言っている。",
+    "cloze": "The ｟＿｠ says there is a storm on the way."
+   }
+  ],
+  "frequencyRank": 24805,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xe44d1acc",
+  "courseId": "en-10-30k",
+  "headword": "whopper",
+  "reading": "/wˈɑpɚ/",
+  "gloss": "ばかでかいもの;途方もない大うそ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "just like that. a whopper of a puzzle piece falls smack in my lap.",
+    "translation": "そうやってデカいパズルが 俺の膝に落ちてくる",
+    "cloze": "just like that. a ｟＿｠ of a puzzle piece falls smack in my lap."
+   },
+   {
+    "text": "ugh. here's a whopper for you.",
+    "translation": "みんなぶっ飛ぶわよ",
+    "cloze": "ugh. here's a ｟＿｠ for you."
+   }
+  ],
+  "frequencyRank": 24806,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2608ab6c",
+  "courseId": "en-10-30k",
+  "headword": "woolen",
+  "reading": "/wˈʊlən/",
+  "gloss": "羊毛の、毛織りの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I bought a woolen sweater.",
+    "translation": "私はウールのセーターを買った。",
+    "cloze": "I bought a ｟＿｠ sweater."
+   },
+   {
+    "text": "I'm looking for a warm, woolen skirt.",
+    "translation": "温かいウールのスカートを探しているのですが。",
+    "cloze": "I'm looking for a warm, ｟＿｠ skirt."
+   }
+  ],
+  "frequencyRank": 24808,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xa6c17762",
+  "courseId": "en-10-30k",
+  "headword": "wristwatch",
+  "reading": "/ɹˈɪstwˌɑtʃ/",
+  "gloss": "腕時計",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My wristwatch keeps good time.",
+    "translation": "私の腕時計は正確だ。",
+    "cloze": "My ｟＿｠ keeps good time."
+   },
+   {
+    "text": "My wristwatch is running a bit too fast.",
+    "translation": "私の腕時計は少し進む。",
+    "cloze": "My ｟＿｠ is running a bit too fast."
+   }
+  ],
+  "frequencyRank": 24810,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x803f9ce1",
+  "courseId": "en-10-30k",
+  "headword": "webcomic",
+  "reading": null,
+  "gloss": "ウェブコミック(インターネット上で公開される漫画)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She started drawing a webcomic that quickly gained a large following.",
+    "translation": "彼女はウェブコミックを描き始め、すぐに多くの読者を獲得した。",
+    "cloze": "She started drawing a ｟＿｠ that quickly gained a large following.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25199,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xdecce289",
+  "courseId": "en-10-30k",
+  "headword": "wheelie",
+  "reading": null,
+  "gloss": "ウィリー(バイク・自転車の前輪を浮かせて走る技)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He popped a wheelie on his bike to impress his friends.",
+    "translation": "彼は友達を驚かせようと自転車でウィリーをした。",
+    "cloze": "He popped a ｟＿｠ on his bike to impress his friends.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25200,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x5395831c",
+  "courseId": "en-10-30k",
+  "headword": "wildflower",
+  "reading": "/wˈaɪldflˌaʊɚ/",
+  "gloss": "野の花、野生の草花",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "blooming wildflower...",
+    "translation": "♪♪「咲いた 野の花よ」",
+    "cloze": "blooming ｟＿｠..."
+   },
+   {
+    "text": "The meadow was covered with colorful wildflowers.",
+    "translation": "その草原は色とりどりの野の花で覆われていた。",
+    "cloze": "The meadow was covered with colorful ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25201,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x65e1aaea",
+  "courseId": "en-10-30k",
+  "headword": "wouldve",
+  "reading": null,
+  "gloss": "~しただろうに(would haveの口語短縮形)",
+  "pos": "助動詞",
+  "examples": [
+   {
+    "text": "if you had entered, it wouldve been bad for them.",
+    "translation": "片方に入れたら、もう片方に悪いもんな。",
+    "cloze": "if you had entered, it ｟＿｠ been bad for them."
+   },
+   {
+    "text": "I wouldve called you if I had known.",
+    "translation": "知っていたら電話していたのに。",
+    "cloze": "I ｟＿｠ called you if I had known.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25207,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-x7b797545",
+  "courseId": "en-10-30k",
+  "headword": "warmup",
+  "reading": "/wˈɔɹmˌʌp/",
+  "gloss": "ウォームアップ,準備運動;前哨戦",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "listen closely to the warmup protocol and do exactly as i say.",
+    "translation": "いいか ウォームアッププロトコルに 接近して 私の言う通りにしろ",
+    "cloze": "listen closely to the ｟＿｠ protocol and do exactly as i say."
+   },
+   {
+    "text": "We did a short warmup before the main workout.",
+    "translation": "本番の運動の前に軽いウォームアップをした。",
+    "cloze": "We did a short ｟＿｠ before the main workout.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25580,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x5e98153f",
+  "courseId": "en-10-30k",
+  "headword": "wilberforce",
+  "reading": "/wˈɪlbɚfˌɔɹs/",
+  "gloss": "ウィルバーフォース(英国の政治家。奴隷貿易廃止運動の指導者として知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i feel like william wilberforce. who'll free the dogs?",
+    "translation": "ウィルバーフォース曰く「誰が犬を解放するか」",
+    "cloze": "i feel like william ｟＿｠. who'll free the dogs?"
+   },
+   {
+    "text": "under pressure from william wilberforce and all the protesters.",
+    "translation": "ウィリアム ウィルバーフォース達の反対を受けていました",
+    "cloze": "under pressure from william ｟＿｠ and all the protesters."
+   }
+  ],
+  "frequencyRank": 25929,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2ab3f380",
+  "courseId": "en-10-30k",
+  "headword": "waikiki",
+  "reading": "/wˌaɪkikˈi/",
+  "gloss": "ワイキキ(ハワイ・ホノルルの有名な海水浴場)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "What number bus do I take to get to Waikiki?",
+    "translation": "ワイキキに行くには何番のバスに乗ればいいか教えてください。",
+    "cloze": "What number bus do I take to get to ｟＿｠?"
+   },
+   {
+    "text": "and while a student at hawaii, i worked at the waikiki aquarium.",
+    "translation": "ハワイ大学在籍中 ワイキキ水族館で働きました",
+    "cloze": "and while a student at hawaii, i worked at the ｟＿｠ aquarium."
+   }
+  ],
+  "frequencyRank": 26331,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc9059b9f",
+  "courseId": "en-10-30k",
+  "headword": "wankers",
+  "reading": "/wˈɑŋkɚz/",
+  "gloss": "嫌な奴、間抜け(英俗語・軽蔑語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Stop being such a wanker and apologise.",
+    "translation": "そんな嫌な奴になるのはやめて謝れよ。",
+    "cloze": "Stop being such a ｟＿｠ and apologise.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He called his boss a wanker behind his back.",
+    "translation": "彼は陰で上司を嫌な奴呼ばわりした。",
+    "cloze": "He called his boss a ｟＿｠ behind his back.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26334,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xea2b9fef",
+  "courseId": "en-10-30k",
+  "headword": "wheelbarrow",
+  "reading": "/wˈilbˌɛɹoʊ/",
+  "gloss": "手押し車、猫車",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A wheelbarrow fills the bill for moving concrete blocks.",
+    "translation": "手押し車を上手に使って、コンクリートブロックを運んでいる。",
+    "cloze": "A ｟＿｠ fills the bill for moving concrete blocks."
+   },
+   {
+    "text": "we'd need to burn 34 of these wheelbarrows",
+    "translation": "あの手車 34 台分を",
+    "cloze": "we'd need to burn 34 of these ｟＿｠"
+   }
+  ],
+  "frequencyRank": 26337,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x811c7d92",
+  "courseId": "en-10-30k",
+  "headword": "weightless",
+  "reading": "/wˈeɪtləs/",
+  "gloss": "無重力の,重さを感じない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Astronauts are weightless and can sleep in any orientation. However, they have to attach themselves so they don't float around and bump into something.",
+    "translation": "宇宙飛行士は重力を感じないので、どんな方向にも寝ることができる。しかし、体が浮き上がって何かに衝突してしまわないように自分の身を固定しなくてはいけない。",
+    "cloze": "Astronauts are ｟＿｠ and can sleep in any orientation. However, they have to attach themselves so they don't float around and bump into something."
+   },
+   {
+    "text": "In space, objects become weightless.",
+    "translation": "宇宙では物体は無重力になる。",
+    "cloze": "In space, objects become ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26739,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x66e7da29",
+  "courseId": "en-10-30k",
+  "headword": "warplanes",
+  "reading": "/wˈɔɹplˌeɪnz/",
+  "gloss": "軍用機,戦闘機",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The warplanes flew low over the city.",
+    "translation": "軍用機が街の上空を低空飛行した。",
+    "cloze": "The ｟warplanes｠ flew low over the city.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27153,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xd134b306",
+  "courseId": "en-10-30k",
+  "headword": "warzone",
+  "reading": null,
+  "gloss": "戦争地帯,交戦地域",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "don't shoot or you're gonna turn it into a warzone!",
+    "translation": "撃つんじゃない 戦争になる! 何それ?",
+    "cloze": "don't shoot or you're gonna turn it into a ｟warzone｠!"
+   },
+   {
+    "text": "the warzone in ariake!",
+    "translation": "戦場の有明っ",
+    "cloze": "the ｟warzone｠ in ariake!"
+   }
+  ],
+  "frequencyRank": 27154,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x79a624fd",
+  "courseId": "en-10-30k",
+  "headword": "westphalia",
+  "reading": "/wˈɛstfˌeɪliə/",
+  "gloss": "ウェストファリア(ドイツ北西部の地方名。ウェストファリア条約で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "was the sort of organizing political force to the treaty of westphalia",
+    "translation": "政治的な力に秩序が与えられていたところから ウェストファリア条約が結ばれ",
+    "cloze": "was the sort of organizing political force to the treaty of ｟westphalia｠"
+   },
+   {
+    "text": "the treaty of westphalia and everything else",
+    "translation": "ヴェストファーレン条約を―",
+    "cloze": "the treaty of ｟westphalia｠ and everything else"
+   }
+  ],
+  "frequencyRank": 27155,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x697a03c4",
+  "courseId": "en-10-30k",
+  "headword": "wholeness",
+  "reading": "/hˈoʊlnɪs/",
+  "gloss": "全体性、完全であること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the torus provides a template for a society based on integrity and wholeness.",
+    "translation": "トーラスは、統合性と完全性に基づく社会のひな形となります。",
+    "cloze": "the torus provides a template for a society based on integrity and ｟＿｠."
+   },
+   {
+    "text": "bringing us into wholeness",
+    "translation": "全体性 信頼性 そして知性へと",
+    "cloze": "bringing us into ｟＿｠"
+   }
+  ],
+  "frequencyRank": 27599,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xdb43215f",
+  "courseId": "en-10-30k",
+  "headword": "woot",
+  "reading": null,
+  "gloss": "やったー、うれしい(喜びを表すくだけた間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Woot! We won the game!",
+    "translation": "やったー! 試合に勝った!",
+    "cloze": "｟＿｠! We won the game!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27604,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x4a0b0846",
+  "courseId": "en-10-30k",
+  "headword": "walkman",
+  "reading": "/wˈɔkmˌæn/",
+  "gloss": "ウォークマン(携帯用カセット/音楽プレーヤー、商標が一般名詞化したもの)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm listening to a Harry Potter audio book with the Walkman I just bought.",
+    "translation": "最近買ったウォークマンでハリポタのオーディオブック聴いてる。",
+    "cloze": "I'm listening to a Harry Potter audio book with the ｟＿｠ I just bought."
+   },
+   {
+    "text": "Since you can change the playback speed on the walkman, I use it to learn French.",
+    "translation": "ウォークマンで再生のスピードが変えられるので、フランス語を学習するのに活用している。",
+    "cloze": "Since you can change the playback speed on the ｟＿｠, I use it to learn French."
+   }
+  ],
+  "frequencyRank": 27978,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x24e87eb4",
+  "courseId": "en-10-30k",
+  "headword": "weeknight",
+  "reading": null,
+  "gloss": "平日の夜",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's a weeknight!",
+    "translation": "バカ 平日だぞ!",
+    "cloze": "it's a ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 27982,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x185784d7",
+  "courseId": "en-10-30k",
+  "headword": "weenie",
+  "reading": null,
+  "gloss": "(米俗)フランクフルトソーセージ、ホットドッグ;弱虫、意気地なし",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i got you some beanie weenie.",
+    "translation": "缶詰を持ってきた",
+    "cloze": "i got you some beanie ｟＿｠."
+   },
+   {
+    "text": "kiss me, you weenie.",
+    "translation": "キスしてよ、鈍感ね。",
+    "cloze": "kiss me, you ｟＿｠."
+   }
+  ],
+  "frequencyRank": 27983,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x2bf90bf0",
+  "courseId": "en-10-30k",
+  "headword": "washable",
+  "reading": "/wˈɑʃəbəl/",
+  "gloss": "洗濯のきく",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Is this dress washable?",
+    "translation": "このドレスは水洗いができますか。",
+    "cloze": "Is this dress ｟＿｠?"
+   },
+   {
+    "text": "These curtains are machine washable.",
+    "translation": "このカーテンは洗濯機で洗える。",
+    "cloze": "These curtains are machine ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28408,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xeddbe6a6",
+  "courseId": "en-10-30k",
+  "headword": "weaponized",
+  "reading": null,
+  "gloss": "兵器化した、武器として使用可能にした",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "these guys in detroit weaponized a piece of computer code.",
+    "translation": "デトロイトの奴らは コンピューターコードを兵器化した",
+    "cloze": "these guys in detroit ｟＿｠ a piece of computer code."
+   },
+   {
+    "text": "or was it a defense department weaponized virus that escaped the lab?",
+    "translation": "それとも、ウイルス兵器が 研究室から漏れたのか?",
+    "cloze": "or was it a defense department ｟＿｠ virus that escaped the lab?"
+   }
+  ],
+  "frequencyRank": 28412,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8e2cb74c",
+  "courseId": "en-10-30k",
+  "headword": "wetness",
+  "reading": "/wˈɛtnəs/",
+  "gloss": "湿り気、濡れていること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the messy days, the lousy days, that wetness.",
+    "translation": "その汚らしい日々 そのうんざりする日々 そのべっとりぬれた感触を",
+    "cloze": "the messy days, the lousy days, that ｟＿｠."
+   },
+   {
+    "text": "woolenness and wetness aren't exactly",
+    "translation": "毛糸と水なんて",
+    "cloze": "woolenness and ｟＿｠ aren't exactly"
+   }
+  ],
+  "frequencyRank": 28415,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x03133abf",
+  "courseId": "en-10-30k",
+  "headword": "walkable",
+  "reading": null,
+  "gloss": "徒歩で行ける、歩きやすい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "by living in a walkable neighborhood",
+    "translation": "歩きやすい町に住むことと比べれば",
+    "cloze": "by living in a ｟＿｠ neighborhood"
+   },
+   {
+    "text": "in terms of how walkable it is",
+    "translation": "歩きやすさの目安となるでしょう",
+    "cloze": "in terms of how ｟＿｠ it is"
+   }
+  ],
+  "frequencyRank": 28808,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xcded8cd7",
+  "courseId": "en-10-30k",
+  "headword": "wicca",
+  "reading": "/wˈɪkə/",
+  "gloss": "ウィッカ(現代の異教信仰・魔女術の一派)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i make and sell wicca healing powders on the internet. you should check out my web site.",
+    "translation": "オンラインで 自分の作った 魔女の癒しの粉を 売ってるの",
+    "cloze": "i make and sell ｟＿｠ healing powders on the internet. you should check out my web site."
+   },
+   {
+    "text": "i am a priestess of wicca. you can't hurt me.",
+    "translation": "私は魔女のタムジン・ダヴ 私を傷つける事は出来ない",
+    "cloze": "i am a priestess of ｟＿｠. you can't hurt me."
+   }
+  ],
+  "frequencyRank": 28812,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9e7303eb",
+  "courseId": "en-10-30k",
+  "headword": "wolfpack",
+  "reading": null,
+  "gloss": "オオカミの群れ；(比喩的に)徒党、仲間集団",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "there is no wolfpack.",
+    "translation": "仲間専用なんてことはない",
+    "cloze": "there is no ｟＿｠."
+   },
+   {
+    "text": "find another chair. there's no wolfpack, alan.",
+    "translation": "仲間専用だ 他を当たれ",
+    "cloze": "find another chair. there's no ｟＿｠, alan."
+   }
+  ],
+  "frequencyRank": 28814,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x109f7bad",
+  "courseId": "en-10-30k",
+  "headword": "wanking",
+  "reading": null,
+  "gloss": "自慰行為(をすること)〈俗語〉",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He got caught wanking by his roommate.",
+    "translation": "彼はルームメイトに自慰行為をしているところを見つかった。",
+    "cloze": "He got caught ｟＿｠ by his roommate.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29236,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x42595c92",
+  "courseId": "en-10-30k",
+  "headword": "workbench",
+  "reading": "/wˈɝkbˌɛntʃ/",
+  "gloss": "作業台、仕事台",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i remember him sitting behind the workbench smiling.",
+    "translation": "作業台の向こうで微笑んていたのを覚えています",
+    "cloze": "i remember him sitting behind the ｟＿｠ smiling."
+   },
+   {
+    "text": "olivia's father leaves the spare on the workbench.",
+    "translation": "オリビアの親父が 仕事机の上にスペアを置いてる。",
+    "cloze": "olivia's father leaves the spare on the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 29246,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x965661a5",
+  "courseId": "en-10-30k",
+  "headword": "wriggle",
+  "reading": "/ɹˈɪɡəl/",
+  "gloss": "身をよじる、くねらせる;(話)身をかわして逃げる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He will wriggle out of the fix.",
+    "translation": "窮地から足掻き出る。",
+    "cloze": "He will ｟＿｠ out of the fix."
+   },
+   {
+    "text": "He wriggled his way through the chairs.",
+    "translation": "彼はいすの間をなんとかうまく進んでいった。",
+    "cloze": "He ｟＿｠ his way through the chairs."
+   }
+  ],
+  "frequencyRank": 29247,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x416e394d",
+  "courseId": "en-10-30k",
+  "headword": "waddle",
+  "reading": "/wˈɑdəl/",
+  "gloss": "よちよち歩く、よたよた歩く",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "She pulled herself out of the water and waddled along the sand at the edge of the creek.",
+    "translation": "水から上がり、入江のほとりの砂の上を、よちよち歩き出しました。",
+    "cloze": "She pulled herself out of the water and ｟＿｠ along the sand at the edge of the creek."
+   },
+   {
+    "text": "Penguins look strange when they waddle on land, but the way they swim so smoothly through the water is pretty cool.",
+    "translation": "ペンギンって、陸上ではヨチヨチのイメージだけど、水の中ではスイスイとカッコよく泳ぐんだね。",
+    "cloze": "Penguins look strange when they ｟＿｠ on land, but the way they swim so smoothly through the water is pretty cool."
+   }
+  ],
+  "frequencyRank": 29626,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xc2f80e27",
+  "courseId": "en-10-30k",
+  "headword": "watchable",
+  "reading": null,
+  "gloss": "見るに値する、見応えのある",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The movie was surprisingly watchable despite its low budget.",
+    "translation": "その映画は低予算にもかかわらず驚くほど見応えがあった。",
+    "cloze": "The movie was surprisingly ｟＿｠ despite its low budget.",
+    "aiGenerated": true
+   },
+   {
+    "text": "This documentary is watchable even without a background in the subject.",
+    "translation": "このドキュメンタリーはその分野の背景知識がなくても十分見応えがある。",
+    "cloze": "This documentary is ｟＿｠ even without a background in the subject.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29627,
+  "category": "descriptors"
+ }
+]

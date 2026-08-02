@@ -1,0 +1,4967 @@
+[
+ {
+  "id": "en-10-30k-x155c06b0",
+  "courseId": "en-10-30k",
+  "headword": "english",
+  "reading": "/ˈɪŋɡlɪʃ/",
+  "gloss": "英語;イギリス人の、英語の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm English.",
+    "translation": "私はイギリス人です。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "He is English.",
+    "translation": "彼はイギリス人です。",
+    "cloze": "He is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 19,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1b6417a5",
+  "courseId": "en-10-30k",
+  "headword": "england",
+  "reading": "/ˈɪŋɡlənd/",
+  "gloss": "イングランド;英国",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm from England.",
+    "translation": "イングランド出身です。",
+    "cloze": "I'm from ｟＿｠."
+   },
+   {
+    "text": "I come from England.",
+    "translation": "イギリスから来ました。",
+    "cloze": "I come from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 25,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9dbd0cea",
+  "courseId": "en-10-30k",
+  "headword": "european",
+  "reading": "/jˌʊɹəpˈiən/",
+  "gloss": "ヨーロッパの、欧州人の;ヨーロッパ人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "You look European.",
+    "translation": "ヨーロッパ人に見える。",
+    "cloze": "You look ｟＿｠."
+   },
+   {
+    "text": "Europeans love wine.",
+    "translation": "ヨーロッパ人ってワインが大好きだよな。",
+    "cloze": "｟＿｠ love wine."
+   }
+  ],
+  "frequencyRank": 35,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x9ae3da15",
+  "courseId": "en-10-30k",
+  "headword": "europe",
+  "reading": "/jˈʊɹəp/",
+  "gloss": "ヨーロッパ、欧州",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Italy is in Europe.",
+    "translation": "イタリアはヨーロッパにある。",
+    "cloze": "Italy is in ｟＿｠."
+   },
+   {
+    "text": "Are you from Europe?",
+    "translation": "ヨーロッパから来たの？",
+    "cloze": "Are you from ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 43,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1853173e",
+  "courseId": "en-10-30k",
+  "headword": "etc",
+  "reading": "/ˌɛtsˈɛtɚə/",
+  "gloss": "〜など、その他(et ceteraの略)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Two, four, six, etc. are even numbers.",
+    "translation": "２、４、６などは偶数です。",
+    "cloze": "Two, four, six, ｟＿｠. are even numbers."
+   },
+   {
+    "text": "It's not fiction or rumour, etc., it's a true story.",
+    "translation": "作り話やうわさなどでなく、本当にあった話です。",
+    "cloze": "It's not fiction or rumour, ｟＿｠., it's a true story."
+   }
+  ],
+  "frequencyRank": 46,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-x3f63b390",
+  "courseId": "en-10-30k",
+  "headword": "eight",
+  "reading": "/ˈeɪt/",
+  "gloss": "数字の8;八つの、八人の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "He is eight.",
+    "translation": "彼は８歳だ。",
+    "cloze": "He is ｟＿｠."
+   },
+   {
+    "text": "We open at eight.",
+    "translation": "8時に開店します。",
+    "cloze": "We open at ｟＿｠."
+   }
+  ],
+  "frequencyRank": 49,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x6e4a0f81",
+  "courseId": "en-10-30k",
+  "headword": "egypt",
+  "reading": "/ˈidʒəpt/",
+  "gloss": "エジプト(アフリカ北東部の国、首都カイロ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I am from Egypt.",
+    "translation": "私はエジプト出身です。",
+    "cloze": "I am from ｟Egypt｠."
+   },
+   {
+    "text": "What do people eat in Egypt?",
+    "translation": "エジプトでは何を食べて生活していますか。",
+    "cloze": "What do people eat in ｟Egypt｠?"
+   }
+  ],
+  "frequencyRank": 309,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x97c309e5",
+  "courseId": "en-10-30k",
+  "headword": "electrical",
+  "reading": "/ɪlˈɛktɹɪkəl/",
+  "gloss": "電気の,電気に関する",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tom is an electrical engineer.",
+    "translation": "トムは電気技師です。",
+    "cloze": "Tom is an ｟electrical｠ engineer."
+   },
+   {
+    "text": "Lightning is an electrical phenomenon.",
+    "translation": "稲妻は電気による一現象である。",
+    "cloze": "Lightning is an ｟electrical｠ phenomenon."
+   }
+  ],
+  "frequencyRank": 350,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xbad2d952",
+  "courseId": "en-10-30k",
+  "headword": "eve",
+  "reading": "/ˈiv/",
+  "gloss": "(祝祭日などの)前夜、前日;(重要な事の)直前",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We decorated the tree on Christmas Eve.",
+    "translation": "クリスマスイブにツリーを飾った。",
+    "cloze": "We decorated the tree on Christmas ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "On the eve of the wedding, she couldn't sleep.",
+    "translation": "結婚式前夜、彼女は眠れなかった。",
+    "cloze": "On the ｟＿｠ of the wedding, she couldn't sleep.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 539,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xb6102fcb",
+  "courseId": "en-10-30k",
+  "headword": "edinburgh",
+  "reading": "/ˈɛdənbɚoʊ/",
+  "gloss": "エディンバラ（スコットランドの首都）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "What will this mean for Edinburgh?",
+    "translation": "これはエディンバラにとって何を意味するだろう？",
+    "cloze": "What will this mean for ｟＿｠?"
+   },
+   {
+    "text": "They went to Edinburgh to escape from the summer heat.",
+    "translation": "夏の暑さを逃れるために彼らはエディンバラへ行った。",
+    "cloze": "They went to ｟＿｠ to escape from the summer heat."
+   }
+  ],
+  "frequencyRank": 625,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfb314c5a",
+  "courseId": "en-10-30k",
+  "headword": "eagle",
+  "reading": "/ˈiɡəl/",
+  "gloss": "ワシ(鷲)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Eagles don't hunt flies.",
+    "translation": "鷲はハエを狩らない。",
+    "cloze": "｟＿｠ don't hunt flies."
+   },
+   {
+    "text": "The eagle is king of birds.",
+    "translation": "鷲は鳥の王だ。",
+    "cloze": "The ｟＿｠ is king of birds."
+   }
+  ],
+  "frequencyRank": 810,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xae8890ea",
+  "courseId": "en-10-30k",
+  "headword": "explosion",
+  "reading": "/ɪksplˈoʊʒən/",
+  "gloss": "爆発;(怒り・笑いなどの)急激な高まり",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was alarmed by the explosion.",
+    "translation": "彼はその爆発にぎょっとした。",
+    "cloze": "He was alarmed by the ｟＿｠."
+   },
+   {
+    "text": "We were startled at the explosion.",
+    "translation": "私たちはその爆発にぎょっとした。",
+    "cloze": "We were startled at the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 812,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xec5cf841",
+  "courseId": "en-10-30k",
+  "headword": "egyptian",
+  "reading": "/ɪdʒˈɪpʃən/",
+  "gloss": "エジプトの、エジプト人(語)の",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I am Egyptian.",
+    "translation": "私はエジプト人です。",
+    "cloze": "I am ｟＿｠."
+   },
+   {
+    "text": "I hope you like Egyptian food.",
+    "translation": "エジプト料理をお気に召していただけるといいのですが。",
+    "cloze": "I hope you like ｟＿｠ food."
+   }
+  ],
+  "frequencyRank": 838,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x159e80c2",
+  "courseId": "en-10-30k",
+  "headword": "eighth",
+  "reading": "/ˈeɪtθ/",
+  "gloss": "第8の、8番目の；8分の1",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "I'm an eighth grader.",
+    "translation": "私は中学二年生です。",
+    "cloze": "I'm an ｟＿｠ grader."
+   },
+   {
+    "text": "I'm on the eighth floor.",
+    "translation": "８階にいます。",
+    "cloze": "I'm on the ｟＿｠ floor."
+   }
+  ],
+  "frequencyRank": 870,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xaba458c1",
+  "courseId": "en-10-30k",
+  "headword": "earl",
+  "reading": "/ˈɝl/",
+  "gloss": "伯爵(英国貴族の位)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was made an earl by the king.",
+    "translation": "彼は王によって伯爵に叙せられた。",
+    "cloze": "He was made an ｟earl｠ by the king.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The earl owned a large estate in the countryside.",
+    "translation": "その伯爵は田舎に広大な領地を所有していた。",
+    "cloze": "The ｟earl｠ owned a large estate in the countryside.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 938,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x88f5d716",
+  "courseId": "en-10-30k",
+  "headword": "endless",
+  "reading": "/ˈɛndləs/",
+  "gloss": "無限の、果てしない、絶え間ない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The universe is endless.",
+    "translation": "宇宙は無限だ。",
+    "cloze": "The universe is ｟endless｠."
+   },
+   {
+    "text": "Their argument seemed endless.",
+    "translation": "彼らの議論はいつ終わるかわからなかった。",
+    "cloze": "Their argument seemed ｟endless｠."
+   }
+  ],
+  "frequencyRank": 939,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc74b47b8",
+  "courseId": "en-10-30k",
+  "headword": "earthquake",
+  "reading": "/ˈɝθkwˌeɪk/",
+  "gloss": "地震",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Was it an earthquake?",
+    "translation": "地震だった？",
+    "cloze": "Was it an ｟earthquake｠?"
+   },
+   {
+    "text": "Was there an earthquake?",
+    "translation": "地震があったの？",
+    "cloze": "Was there an ｟earthquake｠?"
+   }
+  ],
+  "frequencyRank": 1046,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x05504c54",
+  "courseId": "en-10-30k",
+  "headword": "easter",
+  "reading": "/ˈistɚ/",
+  "gloss": "復活祭、イースター",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Happy Easter!",
+    "translation": "イースターおめでとう。",
+    "cloze": "Happy ｟＿｠!"
+   },
+   {
+    "text": "Easter is near at hand.",
+    "translation": "復活祭はもうすぐだ。",
+    "cloze": "｟＿｠ is near at hand."
+   }
+  ],
+  "frequencyRank": 1149,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xcbe9e9c1",
+  "courseId": "en-10-30k",
+  "headword": "eleven",
+  "reading": "/ɪlˈɛvən/",
+  "gloss": "11(の)；11時；11歳",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "It's already eleven.",
+    "translation": "１１時になっているよ。",
+    "cloze": "It's already ｟＿｠."
+   },
+   {
+    "text": "I woke up at eleven.",
+    "translation": "私は十一時に起きました。",
+    "cloze": "I woke up at ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1151,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xbd196640",
+  "courseId": "en-10-30k",
+  "headword": "est",
+  "reading": "/ˈɛst/",
+  "gloss": "米国東部標準時(Eastern Standard Time)の略",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The meeting starts at 3 PM EST.",
+    "translation": "会議は米国東部標準時午後3時に始まります。",
+    "cloze": "The meeting starts at 3 PM ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The store closes at 9 EST.",
+    "translation": "その店は米国東部標準時9時に閉まる。",
+    "cloze": "The store closes at 9 ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1187,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xb8ee35ec",
+  "courseId": "en-10-30k",
+  "headword": "euro",
+  "reading": "/jˈuɹoʊ/",
+  "gloss": "ユーロ（欧州連合の共通通貨）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "That'll be three euros.",
+    "translation": "３ユーロとなります。",
+    "cloze": "That'll be three ｟euros｠."
+   },
+   {
+    "text": "I earn 100 Euros a day.",
+    "translation": "私は一日に100ユーロ稼ぎます。",
+    "cloze": "I earn 100 ｟Euros｠ a day."
+   }
+  ],
+  "frequencyRank": 1261,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-xe1fe5df8",
+  "courseId": "en-10-30k",
+  "headword": "elephant",
+  "reading": "/ˈɛləfənt/",
+  "gloss": "象",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "You like elephants.",
+    "translation": "貴方は、象が好き。",
+    "cloze": "You like ｟＿｠."
+   },
+   {
+    "text": "Elephants eat grass.",
+    "translation": "象は草を食べる。",
+    "cloze": "｟＿｠ eat grass."
+   }
+  ],
+  "frequencyRank": 1305,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x245ddabe",
+  "courseId": "en-10-30k",
+  "headword": "excellence",
+  "reading": "/ˈɛksələns/",
+  "gloss": "優秀さ、卓越",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We fully appreciate his excellence as a skier.",
+    "translation": "彼のスキーヤーとしての優秀性は十分に買っています。",
+    "cloze": "We fully appreciate his ｟＿｠ as a skier."
+   },
+   {
+    "text": "He won the prize for excellence in all subjects.",
+    "translation": "彼は全科目優等で賞を得た。",
+    "cloze": "He won the prize for ｟＿｠ in all subjects."
+   }
+  ],
+  "frequencyRank": 1346,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xe777e21e",
+  "courseId": "en-10-30k",
+  "headword": "echo",
+  "reading": "/ˈɛkoʊ/",
+  "gloss": "反響する、こだまする;(意見などを)繰り返す",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I just echoed his opinion.",
+    "translation": "私はただ彼の意見をそのまま言ったまでだ。",
+    "cloze": "I just ｟echoed｠ his opinion."
+   },
+   {
+    "text": "The valley echoed with his call.",
+    "translation": "谷は彼の呼び声でこだました。",
+    "cloze": "The valley ｟echoed｠ with his call."
+   }
+  ],
+  "frequencyRank": 1475,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xd3d9c589",
+  "courseId": "en-10-30k",
+  "headword": "emotionally",
+  "reading": "/ɪmˈoʊʃnəli/",
+  "gloss": "感情的に、情緒的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "political persuasion begins with being emotionally correct.",
+    "translation": "政治的な説得力は 「エモーショナル・コレクトネス」から得られます",
+    "cloze": "political persuasion begins with being ｟emotionally｠ correct."
+   },
+   {
+    "text": "i was emotionally... off, because you had died.",
+    "translation": "感情的で... 離れて あなたが死んだから",
+    "cloze": "i was ｟emotionally｠... off, because you had died."
+   }
+  ],
+  "frequencyRank": 1477,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x426832c3",
+  "courseId": "en-10-30k",
+  "headword": "eager",
+  "reading": "/ˈiɡɚ/",
+  "gloss": "熱望している、熱心な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He is eager to please.",
+    "translation": "彼は人を楽しませようと一生懸命だ。",
+    "cloze": "He is ｟＿｠ to please."
+   },
+   {
+    "text": "He is eager to succeed.",
+    "translation": "彼はうまくいくように強く願っている。",
+    "cloze": "He is ｟＿｠ to succeed."
+   }
+  ],
+  "frequencyRank": 1522,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xacf7ab02",
+  "courseId": "en-10-30k",
+  "headword": "escort",
+  "reading": "/ɛskˈɔɹt/",
+  "gloss": "〈人〉に付き添う、護衛する;〈名〉付き添い、護衛(者)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "May I escort you home?",
+    "translation": "お宅までお送りしましょうか？",
+    "cloze": "May I ｟＿｠ you home?"
+   },
+   {
+    "text": "He traveled with a large escort.",
+    "translation": "彼は多数の護衛を連れて旅行した。",
+    "cloze": "He traveled with a large ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1680,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xc4c2f23d",
+  "courseId": "en-10-30k",
+  "headword": "elevator",
+  "reading": "/ˈɛləvˌeɪtɚ/",
+  "gloss": "エレベーター;(飛行機の)昇降舵",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is there an elevator?",
+    "translation": "エレベーターはありますか？",
+    "cloze": "Is there an ｟＿｠?"
+   },
+   {
+    "text": "The elevator arrived.",
+    "translation": "エレベーター来たよ。",
+    "cloze": "The ｟＿｠ arrived."
+   }
+  ],
+  "frequencyRank": 1968,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x21ee27b5",
+  "courseId": "en-10-30k",
+  "headword": "essex",
+  "reading": "/ˈɛsɪks/",
+  "gloss": "エセックス(イングランド東部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i think the end of the story of the whaleship essex",
+    "translation": "エセックス号の話は",
+    "cloze": "i think the end of the story of the whaleship ｟＿｠"
+   },
+   {
+    "text": "She grew up in Essex, England.",
+    "translation": "彼女はイギリスのエセックスで育った。",
+    "cloze": "She grew up in ｟＿｠, England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2160,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x929be88b",
+  "courseId": "en-10-30k",
+  "headword": "enjoyable",
+  "reading": "/ˌɛndʒˈɔɪəbəl/",
+  "gloss": "楽しい、愉快な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Life is enjoyable.",
+    "translation": "人生は楽しい。",
+    "cloze": "Life is ｟＿｠."
+   },
+   {
+    "text": "It was a very enjoyable afternoon.",
+    "translation": "とても楽しい午後でした。",
+    "cloze": "It was a very ｟＿｠ afternoon."
+   }
+  ],
+  "frequencyRank": 2220,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xb49fd596",
+  "courseId": "en-10-30k",
+  "headword": "exotic",
+  "reading": "/ɪɡzˈɑtɪk/",
+  "gloss": "外来の、外国産の；異国風の、風変わりな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Her exotic perfume has a subtle scent.",
+    "translation": "彼女の外国製の香水はほのかな香りがする。",
+    "cloze": "Her ｟＿｠ perfume has a subtle scent."
+   },
+   {
+    "text": "In woodworking, we classify wood as hardwood, softwood or exotic wood.",
+    "translation": "木工芸では、木を、硬木、軟木と、唐木に分類します。",
+    "cloze": "In woodworking, we classify wood as hardwood, softwood or ｟＿｠ wood."
+   }
+  ],
+  "frequencyRank": 2221,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x86827563",
+  "courseId": "en-10-30k",
+  "headword": "epa",
+  "reading": "/ˌipˌiˈeɪ/",
+  "gloss": "米国環境保護庁(Environmental Protection Agency)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "there is no area of the government not the epa or the fda",
+    "translation": "epa や fda またそれ以外のどの部署も",
+    "cloze": "there is no area of the government not the ｟＿｠ or the fda"
+   },
+   {
+    "text": "from the head of the epa in california",
+    "translation": "今度はカリフォルニアの環境保護庁からあり",
+    "cloze": "from the head of the ｟＿｠ in california"
+   }
+  ],
+  "frequencyRank": 2299,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf168e41f",
+  "courseId": "en-10-30k",
+  "headword": "europeans",
+  "reading": "/jˌʊɹəpˈiənz/",
+  "gloss": "ヨーロッパ人(の)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Europeans enjoy traveling by train.",
+    "translation": "多くのヨーロッパ人は列車での旅行を楽しむ。",
+    "cloze": "Many ｟＿｠ enjoy traveling by train.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Europeans have a long history of trade with Asia.",
+    "translation": "ヨーロッパ人はアジアとの交易の長い歴史を持つ。",
+    "cloze": "｟＿｠ have a long history of trade with Asia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2496,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x74819875",
+  "courseId": "en-10-30k",
+  "headword": "extensively",
+  "reading": "/ɪkstˈɛnsɪvli/",
+  "gloss": "広範囲に、徹底的に、大々的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "i searched extensively for a solution that could help my family's problems",
+    "translation": "家族の抱える問題に役立つような 解決法を色々と探しましたが",
+    "cloze": "i searched ｟＿｠ for a solution that could help my family's problems"
+   },
+   {
+    "text": "you diagnosed his condition, your lab has researched the disease extensively.",
+    "translation": "あなたが彼の病状を診断し この研究所は この病気を広く研究してきた",
+    "cloze": "you diagnosed his condition, your lab has researched the disease ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2497,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xacaeed79",
+  "courseId": "en-10-30k",
+  "headword": "explorer",
+  "reading": "/ɪksplˈɔɹɚ/",
+  "gloss": "探検家",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The second man was a Spanish explorer.",
+    "translation": "第２番目の男はスペインの探検家でした。",
+    "cloze": "The second man was a Spanish ｟＿｠."
+   },
+   {
+    "text": "Early explorers used the stars for navigation.",
+    "translation": "昔の探検家たちは航海するのに星を利用した。",
+    "cloze": "Early ｟＿｠ used the stars for navigation."
+   }
+  ],
+  "frequencyRank": 2635,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x18009d1c",
+  "courseId": "en-10-30k",
+  "headword": "elbow",
+  "reading": "/ˈɛlbˌoʊ/",
+  "gloss": "ひじ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I hurt my elbow.",
+    "translation": "ひじを痛めました。",
+    "cloze": "I hurt my ｟＿｠."
+   },
+   {
+    "text": "He leaned on his elbows.",
+    "translation": "彼はひじに身をもたせかけた。",
+    "cloze": "He leaned on his ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2695,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x4f93a474",
+  "courseId": "en-10-30k",
+  "headword": "eden",
+  "reading": "/ˈidən/",
+  "gloss": "エデンの園(聖書に出てくる楽園)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Some creationists believe that Adam and Eve had no navels, and that the trees in the Garden of Eden had no growth rings.",
+    "translation": "創造論者の中には、アダムとイブにへそはなくエデンの園の木には年輪がなかったと信じる人もいる。",
+    "cloze": "Some creationists believe that Adam and Eve had no navels, and that the trees in the Garden of ｟Eden｠ had no growth rings."
+   },
+   {
+    "text": "According to the Bible, Adam and Eve lived in the Garden of Eden.",
+    "translation": "聖書によれば、アダムとイブはエデンの園に住んでいた。",
+    "cloze": "According to the Bible, Adam and Eve lived in the Garden of ｟Eden｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2849,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x57c4a7e9",
+  "courseId": "en-10-30k",
+  "headword": "eighteen",
+  "reading": "/eɪtˈin/",
+  "gloss": "18(の);18歳",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "I'm eighteen.",
+    "translation": "年齢は１８歳です。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "I'm over eighteen.",
+    "translation": "私は18歳以上です。",
+    "cloze": "I'm over ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2918,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x02a52614",
+  "courseId": "en-10-30k",
+  "headword": "enjoyment",
+  "reading": "/ˌɛndʒˈɔɪmənt/",
+  "gloss": "楽しむこと,享受",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The music added to our enjoyment.",
+    "translation": "音楽は私達の楽しみを増やしてくれた。",
+    "cloze": "The music added to our ｟＿｠."
+   },
+   {
+    "text": "I find much enjoyment in fishing.",
+    "translation": "私は釣りが大きな楽しみだ。",
+    "cloze": "I find much ｟＿｠ in fishing."
+   }
+  ],
+  "frequencyRank": 2920,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x573eedd1",
+  "courseId": "en-10-30k",
+  "headword": "expire",
+  "reading": "/ɪkspˈaɪɹ/",
+  "gloss": "(期限が)満了する,切れる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "This bread isn't expired?",
+    "translation": "このパンって賞味期限大丈夫か？",
+    "cloze": "This bread isn't ｟＿｠?"
+   },
+   {
+    "text": "This can of beans is expired.",
+    "translation": "この豆の缶詰、消費期限が切れてるよ。",
+    "cloze": "This can of beans is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2921,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x0bcc1e3c",
+  "courseId": "en-10-30k",
+  "headword": "explode",
+  "reading": "/ɪksplˈoʊd/",
+  "gloss": "爆発する;(感情が)爆発する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom exploded in anger.",
+    "translation": "トムは怒りを爆発させた。",
+    "cloze": "Tom ｟＿｠ in anger."
+   },
+   {
+    "text": "Steam boilers may explode.",
+    "translation": "蒸気ボイラーは爆発する可能性がある。",
+    "cloze": "Steam boilers may ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3000,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x8bc56cab",
+  "courseId": "en-10-30k",
+  "headword": "efficiently",
+  "reading": "/ɪfˈɪʃəntli/",
+  "gloss": "効率的に、能率よく",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "If you make a study plan, you can make progress efficiently.",
+    "translation": "勉強の計画を立てておくと、効率よく進められる。",
+    "cloze": "If you make a study plan, you can make progress ｟＿｠."
+   },
+   {
+    "text": "The office staff worked quickly and efficiently to resolve the problem.",
+    "translation": "事務所の職員は迅速かつ効率的に働いて、その問題を解決した。",
+    "cloze": "The office staff worked quickly and ｟＿｠ to resolve the problem."
+   }
+  ],
+  "frequencyRank": 3079,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x8c998b41",
+  "courseId": "en-10-30k",
+  "headword": "encouragement",
+  "reading": "/ɛnkˈɝɪdʒmənt/",
+  "gloss": "激励、奨励；励みになるもの、刺激",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Thanks for the encouragement.",
+    "translation": "励ましてくれてありがとう。",
+    "cloze": "Thanks for the ｟＿｠."
+   },
+   {
+    "text": "My advice acted as an encouragement to her.",
+    "translation": "私の忠告は彼女に刺激となった。",
+    "cloze": "My advice acted as an ｟＿｠ to her."
+   }
+  ],
+  "frequencyRank": 3081,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x586eec0a",
+  "courseId": "en-10-30k",
+  "headword": "elvis",
+  "reading": "/ˈɛlvɪs/",
+  "gloss": "エルビス・プレスリー(米国のロック歌手)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom's favorite Elvis Presley song is \"Jailhouse Rock.\"",
+    "translation": "トムが一番気に入っているエルビス・プレスリーの曲は「ジェイルハウス・ロック」だ。",
+    "cloze": "Tom's favorite ｟＿｠ Presley song is \"Jailhouse Rock.\""
+   },
+   {
+    "text": "you went to see those movies with elvis or somebody in them in liverpool",
+    "translation": "リバプールじゃエルビスの映画を みんなと見に行ったよ",
+    "cloze": "you went to see those movies with ｟＿｠ or somebody in them in liverpool"
+   }
+  ],
+  "frequencyRank": 3167,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5426ac2e",
+  "courseId": "en-10-30k",
+  "headword": "euros",
+  "reading": "/jˈuɹˌoʊz/",
+  "gloss": "ユーロ(EUの通貨単位)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The meal cost twenty euros.",
+    "translation": "その食事は20ユーロだった。",
+    "cloze": "The meal cost twenty ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Can I pay in euros?",
+    "translation": "ユーロで支払えますか？",
+    "cloze": "Can I pay in ｟＿｠?",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3168,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-xb7819501",
+  "courseId": "en-10-30k",
+  "headword": "embarrassment",
+  "reading": "/ɪmbˈɛɹəsmənt/",
+  "gloss": "困惑、当惑、きまりの悪さ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He noticed her embarrassment.",
+    "translation": "彼は彼女が当惑しているのに気づいた。",
+    "cloze": "He noticed her ｟＿｠."
+   },
+   {
+    "text": "I was feverish with embarrassment.",
+    "translation": "私は気まずい思いで体がほてった。",
+    "cloze": "I was feverish with ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3251,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x4ce4afac",
+  "courseId": "en-10-30k",
+  "headword": "elder",
+  "reading": "/ˈɛldɚ/",
+  "gloss": "年上の,年長の;(名詞で)年長者,長老",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She is my elder sister.",
+    "translation": "彼女は私の姉です。",
+    "cloze": "She is my ｟＿｠ sister."
+   },
+   {
+    "text": "Tom is my elder brother.",
+    "translation": "トムは私の兄です。",
+    "cloze": "Tom is my ｟＿｠ brother."
+   }
+  ],
+  "frequencyRank": 3337,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7310c4bc",
+  "courseId": "en-10-30k",
+  "headword": "eighty",
+  "reading": "/ˈeɪti/",
+  "gloss": "80、80の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "He is eighty years old.",
+    "translation": "八十歳です。",
+    "cloze": "He is ｟eighty｠ years old."
+   },
+   {
+    "text": "The lady is over eighty.",
+    "translation": "その婦人は８０歳を越えている。",
+    "cloze": "The lady is over ｟eighty｠."
+   }
+  ],
+  "frequencyRank": 3411,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x625113f8",
+  "courseId": "en-10-30k",
+  "headword": "eyebrow",
+  "reading": "/ˈaɪbɹˌaʊ/",
+  "gloss": "まゆ、まゆ毛",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He arched his eyebrows in surprise.",
+    "translation": "彼は驚いてまゆをつりあげた。",
+    "cloze": "He arched his ｟eyebrows｠ in surprise."
+   },
+   {
+    "text": "He's got the biggest eyebrows I've ever seen.",
+    "translation": "彼は今まで見た中ではもっとも大きな眉毛をしている。",
+    "cloze": "He's got the biggest ｟eyebrows｠ I've ever seen."
+   }
+  ],
+  "frequencyRank": 3417,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x15085145",
+  "courseId": "en-10-30k",
+  "headword": "einstein",
+  "reading": "/ˈaɪnstaɪn/",
+  "gloss": "アインシュタイン（物理学者）／(転じて)天才",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I want you to be an Einstein.",
+    "translation": "あなたにアインシュタインのような人になってもらいたい。",
+    "cloze": "I want you to be an ｟Einstein｠."
+   },
+   {
+    "text": "Einstein was a mathematical genius.",
+    "translation": "アインシュタインは数学の天才だった。",
+    "cloze": "｟Einstein｠ was a mathematical genius."
+   }
+  ],
+  "frequencyRank": 3514,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x92ef94fa",
+  "courseId": "en-10-30k",
+  "headword": "emirates",
+  "reading": "/ˈɛmɚəts/",
+  "gloss": "首長国；《the Emirates》アラブ首長国連邦(UAE)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "oh, he's from the emirates.",
+    "translation": "オゥ、彼は首長国からってこと.",
+    "cloze": "oh, he's from the ｟＿｠."
+   },
+   {
+    "text": "The Emirates is home to some of the tallest buildings in the world.",
+    "translation": "首長国連邦には世界で最も高い建物のいくつかがある。",
+    "cloze": "The ｟＿｠ is home to some of the tallest buildings in the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3611,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xad822731",
+  "courseId": "en-10-30k",
+  "headword": "emmy",
+  "reading": "/ˈɛmi/",
+  "gloss": "エミー賞(米国のテレビ番組・俳優などに贈られる賞)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "She won an Emmy for her performance in the drama series.",
+    "translation": "彼女はそのドラマシリーズでの演技でエミー賞を受賞した。",
+    "cloze": "She won an ｟＿｠ for her performance in the drama series.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The show was nominated for five Emmys this year.",
+    "translation": "その番組は今年5部門でエミー賞にノミネートされた。",
+    "cloze": "The show was nominated for five ｟＿｠s this year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3612,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb8d1561f",
+  "courseId": "en-10-30k",
+  "headword": "ethiopia",
+  "reading": "/ˌiθiˈoʊpiə/",
+  "gloss": "エチオピア(アフリカ東部の国、首都アディスアベバ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Ethiopia is a very mountainous country.",
+    "translation": "エチオピアは山国です。",
+    "cloze": "｟＿｠ is a very mountainous country."
+   },
+   {
+    "text": "Unless it rains in Ethiopia soon, there could be severe drought problems.",
+    "translation": "すぐにでもエチオピアに雨が降らなければ、深刻な干ばつの問題が起こるだろう。",
+    "cloze": "Unless it rains in ｟＿｠ soon, there could be severe drought problems."
+   }
+  ],
+  "frequencyRank": 3613,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1f305047",
+  "courseId": "en-10-30k",
+  "headword": "eco",
+  "reading": "/ˈikoʊ/",
+  "gloss": "エコ、環境に優しいこと(の略);環境配慮の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "some places are doing this with new eco districts",
+    "translation": "いくつかの地域ではこの取り組みを新しいエコ特区として",
+    "cloze": "some places are doing this with new ｟eco｠ districts"
+   },
+   {
+    "text": "a little rough on your new eco, don't you think?",
+    "translation": "新しいECOに少し厳しくないか",
+    "cloze": "a little rough on your new ｟eco｠, don't you think?"
+   }
+  ],
+  "frequencyRank": 3808,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-xf7d16805",
+  "courseId": "en-10-30k",
+  "headword": "energetic",
+  "reading": "/ˌɛnɚdʒˈɛtɪk/",
+  "gloss": "精力的な、元気旺盛な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Kate is very energetic.",
+    "translation": "ケイトはとても元気です。",
+    "cloze": "Kate is very ｟energetic｠."
+   },
+   {
+    "text": "He is an energetic politician.",
+    "translation": "彼は精力的な政治家だ。",
+    "cloze": "He is an ｟energetic｠ politician."
+   }
+  ],
+  "frequencyRank": 3809,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3d87eeec",
+  "courseId": "en-10-30k",
+  "headword": "erin",
+  "reading": "/ˈɛɹɪn/",
+  "gloss": "アイルランド(詩的な呼び名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Erin is a poetic name for Ireland.",
+    "translation": "エリンはアイルランドの詩的な呼び名である。",
+    "cloze": "｟Erin｠ is a poetic name for Ireland.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The old song calls out, 'Erin go bragh.'",
+    "translation": "その古い歌は「エリン万歳」と歌う。",
+    "cloze": "The old song calls out, '｟Erin｠ go bragh.'",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4100,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x55d99f01",
+  "courseId": "en-10-30k",
+  "headword": "extinct",
+  "reading": "/ɪkstˈɪŋkt/",
+  "gloss": "絶滅した;(火山などが)活動をやめた;(火が)消えた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Dinosaurs are now extinct.",
+    "translation": "恐竜は現在では死滅してしまった。",
+    "cloze": "Dinosaurs are now ｟extinct｠."
+   },
+   {
+    "text": "Barbary lions have gone extinct in Algeria.",
+    "translation": "アルジェリアではバーバリライオンが絶滅した。",
+    "cloze": "Barbary lions have gone ｟extinct｠ in Algeria."
+   }
+  ],
+  "frequencyRank": 4303,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x1e072e7c",
+  "courseId": "en-10-30k",
+  "headword": "elf",
+  "reading": "/ˈɛlf/",
+  "gloss": "小妖精,エルフ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm an elf.",
+    "translation": "私はエルフです。",
+    "cloze": "I'm an ｟＿｠."
+   },
+   {
+    "text": "Mary is an elf.",
+    "translation": "メアリーは妖精なの。",
+    "cloze": "Mary is an ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4398,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb82bd02e",
+  "courseId": "en-10-30k",
+  "headword": "evenly",
+  "reading": "/ˈivənli/",
+  "gloss": "等しく,平等に;平らに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "The money will probably be split evenly between those two.",
+    "translation": "そのお金は彼ら二人で平等に分けられるでしょう。",
+    "cloze": "The money will probably be split ｟＿｠ between those two."
+   },
+   {
+    "text": "your weight is evenly distributed",
+    "translation": "重さが、重力センサーの基盤上で",
+    "cloze": "your weight is ｟＿｠ distributed"
+   }
+  ],
+  "frequencyRank": 4399,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xdb6be2a2",
+  "courseId": "en-10-30k",
+  "headword": "ecuador",
+  "reading": "/ˈɛkwədˌɔɹ/",
+  "gloss": "エクアドル(南米の共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "These bananas are from Ecuador.",
+    "translation": "このバナナはエクアドル産です。",
+    "cloze": "These bananas are from ｟Ecuador｠."
+   },
+   {
+    "text": "I went to Ecuador when I was eight years old.",
+    "translation": "八つの時にエクアドルに行ったよ。",
+    "cloze": "I went to ｟Ecuador｠ when I was eight years old."
+   }
+  ],
+  "frequencyRank": 4514,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8635f60e",
+  "courseId": "en-10-30k",
+  "headword": "edmonton",
+  "reading": "/ˈɛdməntən/",
+  "gloss": "エドモントン(カナダ・アルバータ州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "A few days ago, my girlfriend Sophie moved from Edmonton, Alberta to Victoria, British Columbia.",
+    "translation": "数日前、ガールフレンドのソフィーちゃんがアルバータ州・エドモントンから隣のブリティッシュ・コロンビア州・ビクトリアへ引越しをした。",
+    "cloze": "A few days ago, my girlfriend Sophie moved from ｟Edmonton｠, Alberta to Victoria, British Columbia."
+   },
+   {
+    "text": "leaves seattle's blast zone for edmonton.",
+    "translation": "シアトルのブラスト地区から エドモントンへ向かった",
+    "cloze": "leaves seattle's blast zone for ｟edmonton｠."
+   }
+  ],
+  "frequencyRank": 4515,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa651a786",
+  "courseId": "en-10-30k",
+  "headword": "expo",
+  "reading": "/ˈɛkspoʊ/",
+  "gloss": "博覧会、万博",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I learned about your portable copier at the Tokyo-Office '97 Expo.",
+    "translation": "貴社の小型コピー機を東京オフィス・エキスポ９７でしりました。",
+    "cloze": "I learned about your portable copier at the Tokyo-Office '97 ｟Expo｠."
+   },
+   {
+    "text": "the theme of the expo is better city, better life.",
+    "translation": "万博のテーマが「より良い街、より良い生活」だからです",
+    "cloze": "the theme of the ｟expo｠ is better city, better life."
+   }
+  ],
+  "frequencyRank": 4518,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x8c365e00",
+  "courseId": "en-10-30k",
+  "headword": "edible",
+  "reading": "/ˈɛdəbəl/",
+  "gloss": "食べられる、食用になる",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Is THIS edible?",
+    "translation": "これって食べられる？",
+    "cloze": "Is THIS ｟＿｠?"
+   },
+   {
+    "text": "Are starfish edible?",
+    "translation": "ヒトデって、食べれるの？",
+    "cloze": "Are starfish ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 4625,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x8d00941f",
+  "courseId": "en-10-30k",
+  "headword": "emerson",
+  "reading": "/ˈɛmɚsən/",
+  "gloss": "エマソン(ラルフ・ウォルドー・エマソン;19世紀米国の思想家・随筆家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Emerson wrote extensively about individualism and self-reliance.",
+    "translation": "エマソンは個人主義と自己信頼について数多くの文章を書いた。",
+    "cloze": "｟＿｠ wrote extensively about individualism and self-reliance.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Ralph Waldo Emerson influenced many American writers of his time.",
+    "translation": "ラルフ・ウォルドー・エマソンは当時の多くのアメリカ人作家に影響を与えた。",
+    "cloze": "Ralph Waldo ｟＿｠ influenced many American writers of his time.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4628,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0a721531",
+  "courseId": "en-10-30k",
+  "headword": "earring",
+  "reading": "/ˈɪɹɪŋ/",
+  "gloss": "イヤリング、耳飾り",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I lost an earring.",
+    "translation": "イヤリングを片方失くしたんです。",
+    "cloze": "I lost an ｟earring｠."
+   },
+   {
+    "text": "Are those my earrings?",
+    "translation": "あれって、私のイヤリングかな？",
+    "cloze": "Are those my ｟earrings｠?"
+   }
+  ],
+  "frequencyRank": 4731,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x1d3c1a1a",
+  "courseId": "en-10-30k",
+  "headword": "ebola",
+  "reading": "/ibˈoʊlə/",
+  "gloss": "エボラ出血熱(急性ウイルス性感染症)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we just had to give them the tools and place to survey for ebola.",
+    "translation": "彼らにはエボラを検査するツールと 場所を提供すれば良いだけでした",
+    "cloze": "we just had to give them the tools and place to survey for ｟ebola｠."
+   },
+   {
+    "text": "The Ebola outbreak spread quickly across several countries.",
+    "translation": "エボラの流行はいくつもの国に急速に広がった。",
+    "cloze": "The ｟Ebola｠ outbreak spread quickly across several countries.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4732,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xc28c7af4",
+  "courseId": "en-10-30k",
+  "headword": "emerald",
+  "reading": "/ˈɛmɹəld/",
+  "gloss": "エメラルド(緑色の宝石);エメラルド色",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Dorothy and her friends continued their journey heading for Emerald city.",
+    "translation": "ドロシーたちはエメラルドの都を目指して旅を続けた。",
+    "cloze": "Dorothy and her friends continued their journey heading for ｟＿｠ city."
+   },
+   {
+    "text": "it leads to the emerald city!",
+    "translation": "エメラルドシティに続いてる",
+    "cloze": "it leads to the ｟＿｠ city!"
+   }
+  ],
+  "frequencyRank": 4980,
+  "category": "colors"
+ },
+ {
+  "id": "en-10-30k-x0f329588",
+  "courseId": "en-10-30k",
+  "headword": "europa",
+  "reading": "/jʊɹˈoʊpə/",
+  "gloss": "エウロパ(木星の衛星;ギリシャ神話の女性名にちなむ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "so what you're looking at is the surface of the moon europa",
+    "translation": "画面では表面しか見えませんが",
+    "cloze": "so what you're looking at is the surface of the moon ｟＿｠"
+   },
+   {
+    "text": "if life exists on europa, it will be the single most profound discovery in human history.",
+    "translation": "もし生命が 存在すれば 人類史上 単独で 最も 意味深い発見に なるでしょう",
+    "cloze": "if life exists on ｟＿｠, it will be the single most profound discovery in human history."
+   }
+  ],
+  "frequencyRank": 4981,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3d70a5d4",
+  "courseId": "en-10-30k",
+  "headword": "evidently",
+  "reading": "/ˈɛvədəntli/",
+  "gloss": "明らかに,どうやら",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "She's evidently sick.",
+    "translation": "彼女は明らかに病気だ。",
+    "cloze": "She's ｟＿｠ sick."
+   },
+   {
+    "text": "Evidently, he's made a mistake.",
+    "translation": "明らかに彼はミスをした。",
+    "cloze": "｟＿｠, he's made a mistake."
+   }
+  ],
+  "frequencyRank": 4983,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xe1f7024b",
+  "courseId": "en-10-30k",
+  "headword": "edison",
+  "reading": "/ˈɛdɪsən/",
+  "gloss": "エジソン(米国の発明家。転じて偉大な発明家の代名詞)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He is an Edison in Japan.",
+    "translation": "彼は日本のエジソンのような人だ。",
+    "cloze": "He is an ｟＿｠ in Japan."
+   },
+   {
+    "text": "He thinks he is an Edison.",
+    "translation": "彼は自分をエジソンのような発明家だと思っている。",
+    "cloze": "He thinks he is an ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5307,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x87528462",
+  "courseId": "en-10-30k",
+  "headword": "erie",
+  "reading": "/ˈɪɹi/",
+  "gloss": "エリー湖(北米五大湖の一つ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the pilot puts it down in lake erie.",
+    "translation": "パイロットはエリー湖に不時着",
+    "cloze": "the pilot puts it down in lake ｟＿｠."
+   },
+   {
+    "text": "this former congressman from erie, pennsylvania",
+    "translation": "ペンシルバニアの元下院議員が",
+    "cloze": "this former congressman from ｟＿｠, pennsylvania"
+   }
+  ],
+  "frequencyRank": 5311,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xefb28dea",
+  "courseId": "en-10-30k",
+  "headword": "esp",
+  "reading": null,
+  "gloss": "超感覚的知覚,超能力(extrasensory perceptionの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "His guess was so good it could be called ESP.",
+    "translation": "あいつの察しの良さは超能力と言っていい。",
+    "cloze": "His guess was so good it could be called ｟ESP｠."
+   },
+   {
+    "text": "Some people claim to have ESP and can predict events before they happen.",
+    "translation": "ESP(超感覚的知覚)を持っていて、物事が起こる前に予知できると主張する人もいる。",
+    "cloze": "Some people claim to have ｟ESP｠ and can predict events before they happen.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5560,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9421ec64",
+  "courseId": "en-10-30k",
+  "headword": "elijah",
+  "reading": "/ɛlˈaɪdʒə/",
+  "gloss": "エリヤ（旧約聖書に登場するヘブライの預言者）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Then who are you? Are you Elijah?",
+    "translation": "では、いったい誰ですか。あなたはエリヤですか。",
+    "cloze": "Then who are you? Are you ｟＿｠?"
+   },
+   {
+    "text": "Why then do you baptize if you are not the Christ, nor Elijah, nor the Prophet?",
+    "translation": "キリストでもなく、エリヤでもなく、またあの預言者でもないなら、なぜ、あなたはバプテスマを授けているのですか。",
+    "cloze": "Why then do you baptize if you are not the Christ, nor ｟＿｠, nor the Prophet?"
+   }
+  ],
+  "frequencyRank": 5688,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1470eb19",
+  "courseId": "en-10-30k",
+  "headword": "encyclopedia",
+  "reading": "/ɪnsˌaɪkləpˈidiə/",
+  "gloss": "百科事典",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This encyclopedia belongs to my wife.",
+    "translation": "この百科事典は、妻のものです。",
+    "cloze": "This ｟＿｠ belongs to my wife."
+   },
+   {
+    "text": "An encyclopedia is a mine of information.",
+    "translation": "百科事典は知識の宝庫だ。",
+    "cloze": "An ｟＿｠ is a mine of information."
+   }
+  ],
+  "frequencyRank": 5946,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x5f69d300",
+  "courseId": "en-10-30k",
+  "headword": "eruption",
+  "reading": "/ˌiɹˈʌpʃən/",
+  "gloss": "噴火、突発、爆発",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have a skin eruption.",
+    "translation": "発疹が出ました。",
+    "cloze": "I have a skin ｟＿｠."
+   },
+   {
+    "text": "The volcanic eruption threatened the village.",
+    "translation": "火山の爆発がその村をおびやかした。",
+    "cloze": "The volcanic ｟＿｠ threatened the village."
+   }
+  ],
+  "frequencyRank": 5951,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb9180c74",
+  "courseId": "en-10-30k",
+  "headword": "exeter",
+  "reading": "/ˈɛksɪtɚ/",
+  "gloss": "エクセター(イングランド南西部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the first train from exeter to london leaves at 5.46am.",
+    "translation": "エクセターからの始発は5: 46",
+    "cloze": "the first train from ｟＿｠ to london leaves at 5.46am."
+   },
+   {
+    "text": "Exeter is a historic city in the southwest of England.",
+    "translation": "エクセターはイングランド南西部にある歴史ある都市だ。",
+    "cloze": "｟＿｠ is a historic city in the southwest of England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5953,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x206e3753",
+  "courseId": "en-10-30k",
+  "headword": "ethiopian",
+  "reading": "/ˌiθiˈoʊpiən/",
+  "gloss": "エチオピアの、エチオピア人の;エチオピア人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I don't really feel like eating Ethiopian food tonight.",
+    "translation": "今夜はエチオピア料理を食べる気分じゃないんだよなあ。",
+    "cloze": "I don't really feel like eating ｟＿｠ food tonight."
+   },
+   {
+    "text": "this is birhan, who was the ethiopian girl",
+    "translation": "こちらはエチオピアの少女 バーハン",
+    "cloze": "this is birhan, who was the ｟＿｠ girl"
+   }
+  ],
+  "frequencyRank": 6083,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xda962ab8",
+  "courseId": "en-10-30k",
+  "headword": "egyptians",
+  "reading": "/ɪdʒˈɪpʃənz/",
+  "gloss": "エジプト人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The ancient Egyptians built the pyramids.",
+    "translation": "古代エジプト人はピラミッドを建てた。",
+    "cloze": "The ancient ｟＿｠ built the pyramids.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6332,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbb6633c4",
+  "courseId": "en-10-30k",
+  "headword": "elk",
+  "reading": "/ˈɛlk/",
+  "gloss": "ヘラジカ、エルク",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We saw an elk grazing near the forest.",
+    "translation": "森の近くでヘラジカが草を食べているのを見た。",
+    "cloze": "We saw an ｟＿｠ grazing near the forest.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The elk has large antlers.",
+    "translation": "そのヘラジカは大きな角を持っている。",
+    "cloze": "The ｟＿｠ has large antlers.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6333,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xe35bca46",
+  "courseId": "en-10-30k",
+  "headword": "eur",
+  "reading": null,
+  "gloss": "ユーロ(EUの通貨単位、通貨コード)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "r & d at least eur 40 million",
+    "translation": "研究開発 少なくとも4000万ユーロ",
+    "cloze": "r & d at least ｟＿｠ 40 million"
+   },
+   {
+    "text": "The price is listed in EUR.",
+    "translation": "価格はユーロ建てで表示されている。",
+    "cloze": "The price is listed in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6335,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x2e55e9e9",
+  "courseId": "en-10-30k",
+  "headword": "exhaustion",
+  "reading": "/ɪɡzˈɔstʃən/",
+  "gloss": "極度の疲労、消耗",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Mr. Sato collapsed from exhaustion.",
+    "translation": "佐藤さんは疲れ切って倒れた。",
+    "cloze": "Mr. Sato collapsed from ｟＿｠."
+   },
+   {
+    "text": "A sailor saw his fellow sailor sink from exhaustion.",
+    "translation": "水夫は仲間の水夫が力尽きて沈むのを目撃した。",
+    "cloze": "A sailor saw his fellow sailor sink from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6336,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x5eaac48b",
+  "courseId": "en-10-30k",
+  "headword": "eighteenth",
+  "reading": "/eɪtˈinθ/",
+  "gloss": "第18の,18番目の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Fashion in the eighteenth century emphasized the bosom.",
+    "translation": "１８世紀の流行は胸の部分を強調していた。",
+    "cloze": "Fashion in the ｟＿｠ century emphasized the bosom."
+   },
+   {
+    "text": "We're going to the party in eighteenth century costumes.",
+    "translation": "私たちは１８世紀の衣装を着てそのパーティーに行きます。",
+    "cloze": "We're going to the party in ｟＿｠ century costumes."
+   }
+  ],
+  "frequencyRank": 6486,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x459d8adb",
+  "courseId": "en-10-30k",
+  "headword": "eleventh",
+  "reading": "/ɪlˈɛvənθ/",
+  "gloss": "第11の,11番目の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "I'm an eleventh grader.",
+    "translation": "私は高校2年生だ。",
+    "cloze": "I'm an ｟＿｠ grader."
+   },
+   {
+    "text": "This is his eleventh hour.",
+    "translation": "これは彼の土壇場だ。",
+    "cloze": "This is his ｟＿｠ hour."
+   }
+  ],
+  "frequencyRank": 6487,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xc0d1e69f",
+  "courseId": "en-10-30k",
+  "headword": "estonia",
+  "reading": "/ɛstˈoʊniə/",
+  "gloss": "エストニア(バルト三国の一つ、北欧の共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tallinn is the capital of Estonia.",
+    "translation": "タリンはエストニアの首都である。",
+    "cloze": "Tallinn is the capital of ｟＿｠."
+   },
+   {
+    "text": "We're going to travel to Estonia next month.",
+    "translation": "来月私たちはエストニアに行く予定です。",
+    "cloze": "We're going to travel to ｟＿｠ next month."
+   }
+  ],
+  "frequencyRank": 6491,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe5e8de8c",
+  "courseId": "en-10-30k",
+  "headword": "expressly",
+  "reading": "/ɛkspɹˈɛsli/",
+  "gloss": "明確に,はっきりと;わざわざ",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "this is something nasa expressly rejected.",
+    "translation": "NASAははっきり 否定している",
+    "cloze": "this is something nasa ｟＿｠ rejected."
+   },
+   {
+    "text": "The rules expressly forbid smoking in this building.",
+    "translation": "規則ではこの建物内での喫煙が明確に禁じられている。",
+    "cloze": "The rules ｟＿｠ forbid smoking in this building.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6493,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x38ddbb76",
+  "courseId": "en-10-30k",
+  "headword": "endlessly",
+  "reading": "/ˈɛndləsli/",
+  "gloss": "果てしなく、延々と",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "The schoolboys teased each other endlessly.",
+    "translation": "男子学生たちはひっきりなしにふざけあっていた。",
+    "cloze": "The schoolboys teased each other ｟＿｠."
+   },
+   {
+    "text": "Mr. Koizumi talks endlessly without stopping.",
+    "translation": "小泉さんは話の切れ目のない人です。",
+    "cloze": "Mr. Koizumi talks ｟＿｠ without stopping."
+   }
+  ],
+  "frequencyRank": 6749,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x35c95f6f",
+  "courseId": "en-10-30k",
+  "headword": "entertainer",
+  "reading": "/ˌɛntɚtˈeɪnɚ/",
+  "gloss": "人を楽しませる人、芸人、エンターテイナー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He made good as an entertainer.",
+    "translation": "彼は芸人として成功した。",
+    "cloze": "He made good as an ｟＿｠."
+   },
+   {
+    "text": "He is not so much a teacher as an entertainer.",
+    "translation": "彼は教師というよりは芸人です。",
+    "cloze": "He is not so much a teacher as an ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6896,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x8b793b54",
+  "courseId": "en-10-30k",
+  "headword": "enchant",
+  "reading": "/ɛntʃˈænt/",
+  "gloss": "魔法をかける;うっとりさせる、魅了する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I was enchanted with the music.",
+    "translation": "その音楽にうっとりした。",
+    "cloze": "I was ｟＿｠ with the music."
+   },
+   {
+    "text": "He is enchanted by the girl's beauty.",
+    "translation": "彼はその女性の美しさにうっとりしている。",
+    "cloze": "He is ｟＿｠ by the girl's beauty."
+   }
+  ],
+  "frequencyRank": 7031,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xf5d70552",
+  "courseId": "en-10-30k",
+  "headword": "environmentally",
+  "reading": "/ɪnvˌaɪɹənmˈɛntəli/",
+  "gloss": "環境的に、環境面で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Germans are very environmentally conscious.",
+    "translation": "ドイツ人は環境に対する意識が非常に高い。",
+    "cloze": "Germans are very ｟＿｠ conscious."
+   },
+   {
+    "text": "it isn't sustainable environmentally;",
+    "translation": "環境的に持続不可能です",
+    "cloze": "it isn't sustainable ｟＿｠;"
+   }
+  ],
+  "frequencyRank": 7032,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x094b5a7e",
+  "courseId": "en-10-30k",
+  "headword": "escalate",
+  "reading": "/ˈɛskəlˌeɪt/",
+  "gloss": "段階的に拡大する、エスカレートする",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "It gradually escalated.",
+    "translation": "だんだんエスカレートしてきた。",
+    "cloze": "It gradually ｟＿｠."
+   },
+   {
+    "text": "The man's demands escalated even further.",
+    "translation": "その男の要求は、さらにエスカレートしていった。",
+    "cloze": "The man's demands ｟＿｠ even further."
+   }
+  ],
+  "frequencyRank": 7034,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x035a504e",
+  "courseId": "en-10-30k",
+  "headword": "excellency",
+  "reading": "/ˈɛkslˈɛnsi/",
+  "gloss": "閣下(高位者への敬称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "your excellency. thank you for seeing me.",
+    "translation": "閣下 お会いできて光栄です",
+    "cloze": "your ｟＿｠. thank you for seeing me."
+   },
+   {
+    "text": "i don't know, your excellency.",
+    "translation": "わかりません",
+    "cloze": "i don't know, your ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7036,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8b79941b",
+  "courseId": "en-10-30k",
+  "headword": "eisenhower",
+  "reading": "/ˈaɪzənhˌaʊɚ/",
+  "gloss": "アイゼンハワー(第二次世界大戦の連合軍最高司令官、米国第34代大統領)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Eisenhower served as the 34th President of the United States.",
+    "translation": "アイゼンハワーはアメリカ合衆国第34代大統領を務めた。",
+    "cloze": "｟＿｠ served as the 34th President of the United States.",
+    "aiGenerated": true
+   },
+   {
+    "text": "General Eisenhower led the Allied forces during World War II.",
+    "translation": "アイゼンハワー将軍は第二次世界大戦で連合軍を率いた。",
+    "cloze": "General ｟＿｠ led the Allied forces during World War II.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7190,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x873c42e1",
+  "courseId": "en-10-30k",
+  "headword": "everest",
+  "reading": "/ˈɛvɚəst/",
+  "gloss": "エベレスト山(世界最高峰、8,848m)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He conquered Mt. Everest.",
+    "translation": "彼はエベレストを征服した。",
+    "cloze": "He conquered Mt. ｟＿｠."
+   },
+   {
+    "text": "Mt. Fuji isn't as tall as Mt. Everest.",
+    "translation": "富士山はエベレストほど高くはない。",
+    "cloze": "Mt. Fuji isn't as tall as Mt. ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7193,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa8a0b368",
+  "courseId": "en-10-30k",
+  "headword": "eater",
+  "reading": "/ˈitɚ/",
+  "gloss": "食べる人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What a big eater!",
+    "translation": "なんて大食いなのだろう。",
+    "cloze": "What a big ｟＿｠!"
+   },
+   {
+    "text": "I'm a fast eater.",
+    "translation": "俺、早食いなんだ。",
+    "cloze": "I'm a fast ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7343,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x21f87969",
+  "courseId": "en-10-30k",
+  "headword": "englishman",
+  "reading": "/ˈɪŋɡlɪʃmən/",
+  "gloss": "イギリス人、英国人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He's an Englishman.",
+    "translation": "彼はイギリス人です。",
+    "cloze": "He's an ｟＿｠."
+   },
+   {
+    "text": "Tom's a typical Englishman.",
+    "translation": "トムは典型的なイギリス人だ。",
+    "cloze": "Tom's a typical ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7348,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x38016993",
+  "courseId": "en-10-30k",
+  "headword": "eff",
+  "reading": null,
+  "gloss": "(卑語の婉曲的な言い換え)くそ,いまいましい(fuckの婉曲語)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "and it's effing sexy.",
+    "translation": "超セクシーだ」と言いました",
+    "cloze": "and it's ｟＿｠ sexy."
+   },
+   {
+    "text": "are you effing stupid?",
+    "translation": "ふざけてんのか?",
+    "cloze": "are you ｟＿｠ stupid?"
+   }
+  ],
+  "frequencyRank": 7749,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x256ed0a6",
+  "courseId": "en-10-30k",
+  "headword": "eta",
+  "reading": null,
+  "gloss": "到着予定時刻(estimated time of arrival);ギリシア文字η",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Could you tell me the ETA?",
+    "translation": "予定到着時刻を教えてください。",
+    "cloze": "Could you tell me the ｟＿｠?"
+   },
+   {
+    "text": "waterloo. eta, four minutes.",
+    "translation": "ウォータールー 4分後です",
+    "cloze": "waterloo. ｟＿｠, four minutes."
+   }
+  ],
+  "frequencyRank": 8062,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x2679d0bd",
+  "courseId": "en-10-30k",
+  "headword": "ebooks",
+  "reading": null,
+  "gloss": "電子書籍",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I bought several ebooks for my trip.",
+    "translation": "旅行のために電子書籍を何冊か買った。",
+    "cloze": "I bought several ｟＿｠ for my trip.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Ebooks are often cheaper than printed books.",
+    "translation": "電子書籍は印刷版の本より安いことが多い。",
+    "cloze": "｟＿｠ are often cheaper than printed books.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8215,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x13647de5",
+  "courseId": "en-10-30k",
+  "headword": "ems",
+  "reading": "/ˈiˈɛmˈɛs/",
+  "gloss": "救急医療サービス、救急隊(Emergency Medical Services)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "roger that. ems on the way.",
+    "translation": "ロジャーだ、EMSと同じ道だ",
+    "cloze": "roger that. ｟＿｠ on the way."
+   },
+   {
+    "text": "ems. took him to st. barnabas.",
+    "translation": "救急車で聖バルナバに 搬送されました",
+    "cloze": "｟＿｠. took him to st. barnabas."
+   }
+  ],
+  "frequencyRank": 8217,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xfe5c72a0",
+  "courseId": "en-10-30k",
+  "headword": "exceedingly",
+  "reading": "/ɪksˈidɪŋli/",
+  "gloss": "非常に、大いに、とても",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Ann is exceedingly fond of chocolate.",
+    "translation": "アンはチョコレートに目がない。",
+    "cloze": "Ann is ｟exceedingly｠ fond of chocolate."
+   },
+   {
+    "text": "She is exceedingly sensitive to the cold.",
+    "translation": "彼女はひどい寒がりだ。",
+    "cloze": "She is ｟exceedingly｠ sensitive to the cold."
+   }
+  ],
+  "frequencyRank": 8373,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xb078c52d",
+  "courseId": "en-10-30k",
+  "headword": "earthly",
+  "reading": "/ˈɝθli/",
+  "gloss": "この世の,現世の;(疑問・否定を強めて)いったい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Hawaii is an earthly paradise.",
+    "translation": "ハワイは地上の楽園です。",
+    "cloze": "Hawaii is an ｟＿｠ paradise."
+   },
+   {
+    "text": "Your plan is of no earthly use.",
+    "translation": "君の計画は全然役に立たない。",
+    "cloze": "Your plan is of no ｟＿｠ use."
+   }
+  ],
+  "frequencyRank": 8896,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8dfd8a58",
+  "courseId": "en-10-30k",
+  "headword": "eureka",
+  "reading": "/jʊɹˈikə/",
+  "gloss": "分かった!,やった!(発見の喜びを表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Eureka!",
+    "translation": "見つかったよ。",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "\"Eureka!\" shouted Tom suddenly.",
+    "translation": "「分かったぞ！」トムが出し抜けに叫んだ。",
+    "cloze": "\"｟＿｠!\" shouted Tom suddenly."
+   }
+  ],
+  "frequencyRank": 8902,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xa8ef9fc8",
+  "courseId": "en-10-30k",
+  "headword": "exec",
+  "reading": "/ˌɛɡzˈɛk/",
+  "gloss": "(企業の)重役,幹部(executiveの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The top execs are gathering for a power breakfast.",
+    "translation": "重役たちは朝食会に集まっています。",
+    "cloze": "The top ｟＿｠ are gathering for a power breakfast."
+   },
+   {
+    "text": "ed here is a lumber exec, recently took early retirement.",
+    "translation": "エドは木材の会社を 最近早期定年退職しました",
+    "cloze": "ed here is a lumber ｟＿｠, recently took early retirement."
+   }
+  ],
+  "frequencyRank": 8903,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x4bb4bbb9",
+  "courseId": "en-10-30k",
+  "headword": "errand",
+  "reading": "/ˈɛɹənd/",
+  "gloss": "使い、用足し;用向き",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have a few errands.",
+    "translation": "野暮用があるんだ。",
+    "cloze": "I have a few ｟＿｠s."
+   },
+   {
+    "text": "He went to run errands.",
+    "translation": "彼は用事で出かけた。",
+    "cloze": "He went to run ｟＿｠s."
+   }
+  ],
+  "frequencyRank": 9223,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x8cef5370",
+  "courseId": "en-10-30k",
+  "headword": "esque",
+  "reading": "/ˈɛsk/",
+  "gloss": "接尾辞:...ふうの、...様式の",
+  "pos": null,
+  "examples": [
+   {
+    "text": "His Kafkaesque situation left everyone confused.",
+    "translation": "彼のカフカ的な(不条理な)状況は皆を困惑させた。",
+    "cloze": "His Kafka｟＿｠ situation left everyone confused.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The old mansion had a gothic-esque charm.",
+    "translation": "その古い邸宅にはゴシック風の魅力があった。",
+    "cloze": "The old mansion had a gothic-｟＿｠ charm.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9224,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-x133bb555",
+  "courseId": "en-10-30k",
+  "headword": "exponentially",
+  "reading": "/ˌɛkspoʊnˈɛnʃəli/",
+  "gloss": "指数関数的に,急激に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "i can grow your business exponentially.",
+    "translation": "私なら 飛躍的に 事業を拡大できる",
+    "cloze": "i can grow your business ｟＿｠."
+   },
+   {
+    "text": "initial calculations indicate that there are 219 potential routes he could've taken in the time he's been missing, but the possibilities branch out exponentially the longer that he's out there.",
+    "translation": "初計算では─ 失踪時に取りうる 逃走ルートは219通り でも手間取るほど その数は増える",
+    "cloze": "initial calculations indicate that there are 219 potential routes he could've taken in the time he's been missing, but the possibilities branch out ｟＿｠ the longer that he's out there."
+   }
+  ],
+  "frequencyRank": 9227,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x20976fbd",
+  "courseId": "en-10-30k",
+  "headword": "externally",
+  "reading": "/ɪkstˈɝnəli/",
+  "gloss": "外部から,対外的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "has led to large repercussions for the police, both internally and externally.",
+    "translation": "衝撃的な事件は 内外に 大きな波紋を広げています」",
+    "cloze": "has led to large repercussions for the police, both internally and ｟＿｠."
+   },
+   {
+    "text": "not to leak it out externally.",
+    "translation": "くれぐれも 外部に漏れることのないように",
+    "cloze": "not to leak it out ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9229,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x19ec723b",
+  "courseId": "en-10-30k",
+  "headword": "electronically",
+  "reading": "/ˌɪlˌɛktɹˈɑnɪkəlˌi/",
+  "gloss": "電子的に、電子機器を使って",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Therefore, we try to persuade people not to have cash, to have money electronically transferred.",
+    "translation": "ですから私たちは、社員が現金ではなく、エレクトロニクスによる振替でお金を受け取るよう、説得に努めているのです。",
+    "cloze": "Therefore, we try to persuade people not to have cash, to have money ｟＿｠ transferred."
+   },
+   {
+    "text": "You can pay the bill electronically instead of using cash.",
+    "translation": "現金を使う代わりに、電子的に請求書を支払うことができます。",
+    "cloze": "You can pay the bill ｟＿｠ instead of using cash.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9572,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xd351233f",
+  "courseId": "en-10-30k",
+  "headword": "esa",
+  "reading": null,
+  "gloss": "欧州宇宙機関（European Space Agency）の略称",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The ESA put a satellite into orbit.",
+    "translation": "欧州宇宙機関が人工衛星を軌道に乗せました。",
+    "cloze": "The ｟＿｠ put a satellite into orbit."
+   },
+   {
+    "text": "in 1983, esa set up its longterm horizon 2000 program",
+    "translation": "1983年 欧州宇宙機関が 「ホライゾン2000」という長期計画を立て",
+    "cloze": "in 1983, ｟＿｠ set up its longterm horizon 2000 program"
+   }
+  ],
+  "frequencyRank": 9576,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xf7dbfb87",
+  "courseId": "en-10-30k",
+  "headword": "ethernet",
+  "reading": "/ˈiθɚnˌɛt/",
+  "gloss": "イーサネット（有線LANの通信規格）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we need to rip apart the library's ethernet!",
+    "translation": "図書館の イーサネットを切断しないと!",
+    "cloze": "we need to rip apart the library's ｟＿｠!"
+   },
+   {
+    "text": "so we disconnect the ethernet cable to create an air gap",
+    "translation": "ではネットワークケーブルを抜いて エアギャップを作ればどうか?",
+    "cloze": "so we disconnect the ｟＿｠ cable to create an air gap"
+   }
+  ],
+  "frequencyRank": 9577,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x7c9ba92b",
+  "courseId": "en-10-30k",
+  "headword": "eyesight",
+  "reading": "/ˈaɪsˌaɪt/",
+  "gloss": "視力",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "His eyesight is bad.",
+    "translation": "彼は目が悪い。",
+    "cloze": "His ｟＿｠ is bad."
+   },
+   {
+    "text": "I have bad eyesight.",
+    "translation": "視力は悪いです。",
+    "cloze": "I have bad ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9579,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x2fd2bd2a",
+  "courseId": "en-10-30k",
+  "headword": "emptiness",
+  "reading": "/ˈɛmptinəs/",
+  "gloss": "空虚、むなしさ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I feel an overbearing emptiness inside of me.",
+    "translation": "自分が空っぽすぎて辛い。",
+    "cloze": "I feel an overbearing ｟＿｠ inside of me."
+   },
+   {
+    "text": "and of the emptiness that i felt was within me.",
+    "translation": "空虚感に怯えていました",
+    "cloze": "and of the ｟＿｠ that i felt was within me."
+   }
+  ],
+  "frequencyRank": 9724,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xb207d13f",
+  "courseId": "en-10-30k",
+  "headword": "eid",
+  "reading": "/ˈaɪd/",
+  "gloss": "イード(イスラム教の祝祭日。断食明けの祝い「イード・アル=フィトル」等)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I hope you had a great Eid.",
+    "translation": "素敵なイードをお迎えのことでしょう。",
+    "cloze": "I hope you had a great ｟＿｠."
+   },
+   {
+    "text": "We will celebrate Eid ul-Fitr tomorrow.",
+    "translation": "明日はイード・アル＝フィトルを祝います。",
+    "cloze": "We will celebrate ｟＿｠ ul-Fitr tomorrow."
+   }
+  ],
+  "frequencyRank": 10119,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xcdafbe30",
+  "courseId": "en-10-30k",
+  "headword": "ezekiel",
+  "reading": "/ˈɛzɪkˌil/",
+  "gloss": "エゼキエル(旧約聖書の預言者;エゼキエル書)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Book of Ezekiel is found in the Old Testament.",
+    "translation": "エゼキエル書は旧約聖書に収められている。",
+    "cloze": "The Book of ｟＿｠ is found in the Old Testament.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Ezekiel was one of the major prophets of the Hebrew Bible.",
+    "translation": "エゼキエルはヘブライ聖書の主要な預言者の一人である。",
+    "cloze": "｟＿｠ was one of the major prophets of the Hebrew Bible.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10125,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xbc0705ac",
+  "courseId": "en-10-30k",
+  "headword": "emo",
+  "reading": "/ˈimˌoʊ/",
+  "gloss": "エモ（感情表現を重視するロック音楽・スタイル）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She has an emo look with dark clothes and eyeliner.",
+    "translation": "彼女はダークな服とアイライナーでエモな見た目をしている。",
+    "cloze": "She has an ｟emo｠ look with dark clothes and eyeliner.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Emo music often deals with themes of heartbreak and sadness.",
+    "translation": "エモ音楽はしばしば失恋や悲しみをテーマにする。",
+    "cloze": "｟Emo｠ music often deals with themes of heartbreak and sadness.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10317,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x88157a28",
+  "courseId": "en-10-30k",
+  "headword": "eel",
+  "reading": "/ˈil/",
+  "gloss": "ウナギ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I caught an eel in my net.",
+    "translation": "網にウナギがかかったよ。",
+    "cloze": "I caught an ｟＿｠ in my net."
+   },
+   {
+    "text": "I was bitten by a moray eel.",
+    "translation": "ウツボに噛まれた。",
+    "cloze": "I was bitten by a moray ｟＿｠."
+   }
+  ],
+  "frequencyRank": 10527,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xa6eef2a8",
+  "courseId": "en-10-30k",
+  "headword": "emoji",
+  "reading": null,
+  "gloss": "絵文字",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Emojis originated in Japan.",
+    "translation": "絵文字は日本が発祥です。",
+    "cloze": "｟＿｠ originated in Japan."
+   },
+   {
+    "text": "Tom answered Mary's text with an emoji.",
+    "translation": "トムね、メアリーのメッセージに絵文字で返したんだよ。",
+    "cloze": "Tom answered Mary's text with an ｟＿｠."
+   }
+  ],
+  "frequencyRank": 10530,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x902261fc",
+  "courseId": "en-10-30k",
+  "headword": "erm",
+  "reading": null,
+  "gloss": "えーと、あの(言いよどみの間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "erm... wait a sec.",
+    "translation": "えっと... ちょっと 待ってろ。",
+    "cloze": "｟＿｠... wait a sec."
+   },
+   {
+    "text": "erm... chief okazaki? he's not come in yet.",
+    "translation": "あの~ 岡崎課長は... まだだけど",
+    "cloze": "｟＿｠... chief okazaki? he's not come in yet."
+   }
+  ],
+  "frequencyRank": 10712,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x78ed0a82",
+  "courseId": "en-10-30k",
+  "headword": "edm",
+  "reading": null,
+  "gloss": "EDM(エレクトロニック・ダンス・ミュージック)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom likes EDM.",
+    "translation": "トムはエレクトロニック・ダンス・ミュージックが好きだ。",
+    "cloze": "Tom likes ｟EDM｠."
+   },
+   {
+    "text": "EDM festivals attract huge crowds every summer.",
+    "translation": "EDMフェスティバルは毎年夏に大勢の観客を集める。",
+    "cloze": "｟EDM｠ festivals attract huge crowds every summer.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10897,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x3f5ff269",
+  "courseId": "en-10-30k",
+  "headword": "edo",
+  "reading": "/ˈidoʊ/",
+  "gloss": "江戸(東京の旧称、江戸時代)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This custom began in the Edo Period.",
+    "translation": "この習慣は江戸時代に始まった。",
+    "cloze": "This custom began in the ｟Edo｠ Period."
+   },
+   {
+    "text": "A samurai in the Edo era carried two swords.",
+    "translation": "江戸時代、武士は刀を２本刺していた。",
+    "cloze": "A samurai in the ｟Edo｠ era carried two swords."
+   }
+  ],
+  "frequencyRank": 10898,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x06cadb5a",
+  "courseId": "en-10-30k",
+  "headword": "esports",
+  "reading": null,
+  "gloss": "eスポーツ(競技として行うビデオゲーム)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Esports tournaments now fill huge stadiums.",
+    "translation": "eスポーツの大会は今や巨大なスタジアムを満員にする。",
+    "cloze": "｟Esports｠ tournaments now fill huge stadiums.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He makes a living as a professional esports player.",
+    "translation": "彼はプロのeスポーツ選手として生計を立てている。",
+    "cloze": "He makes a living as a professional ｟esports｠ player.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10903,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x3ebf3467",
+  "courseId": "en-10-30k",
+  "headword": "ethereum",
+  "reading": null,
+  "gloss": "イーサリアム(暗号資産・ブロックチェーンプラットフォームの名称)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "ethereum, which is a project which tries to link up",
+    "translation": "Ethereumは ネットに繋がっているが 使われていない",
+    "cloze": "｟Ethereum｠, which is a project which tries to link up"
+   },
+   {
+    "text": "Many investors bought Ethereum hoping its price would rise.",
+    "translation": "多くの投資家は価格上昇を期待してイーサリアムを購入した。",
+    "cloze": "Many investors bought ｟Ethereum｠ hoping its price would rise.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10905,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x214b57e5",
+  "courseId": "en-10-30k",
+  "headword": "eyeball",
+  "reading": "/ˈaɪbˌɔl/",
+  "gloss": "眼球、目玉",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is it safe to eat a pig's eyeball?",
+    "translation": "豚の眼球は食べても大丈夫なんですか？",
+    "cloze": "Is it safe to eat a pig's ｟eyeball｠?"
+   },
+   {
+    "text": "so, the needle... pierces the middle of the eye... pushing the dimmed lens to the back of the eyeball.",
+    "translation": "そして針を... 目の中央に突き通し... 灰色のレンズを眼球の 後ろの方に押す",
+    "cloze": "so, the needle... pierces the middle of the eye... pushing the dimmed lens to the back of the ｟eyeball｠."
+   }
+  ],
+  "frequencyRank": 10906,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x97703427",
+  "courseId": "en-10-30k",
+  "headword": "eurovision",
+  "reading": null,
+  "gloss": "ユーロビジョン(欧州放送連合が主催する国際歌唱コンテスト)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Does Finland have a chance to win Eurovision this year?",
+    "translation": "今年のユーロビジョンでフィンランドには勝ち目がありますか？",
+    "cloze": "Does Finland have a chance to win ｟＿｠ this year?"
+   },
+   {
+    "text": "Every May, millions of Europeans watch the Eurovision Song Contest.",
+    "translation": "毎年5月、何百万人ものヨーロッパ人がユーロビジョン・ソング・コンテストを観る。",
+    "cloze": "Every May, millions of Europeans watch the ｟＿｠ Song Contest.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11101,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf8f74619",
+  "courseId": "en-10-30k",
+  "headword": "eurozone",
+  "reading": null,
+  "gloss": "ユーロ圏(ユーロを通貨とするEU加盟国の総称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and the eurozone avoided a collapse.",
+    "translation": "ユーロ圏は崩壊を免れました",
+    "cloze": "and the ｟＿｠ avoided a collapse."
+   },
+   {
+    "text": "in the united states, in britain and in the eurozone",
+    "translation": "アメリカ、イギリス そしてユーロ圏にて",
+    "cloze": "in the united states, in britain and in the ｟＿｠"
+   }
+  ],
+  "frequencyRank": 11684,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3ae312b9",
+  "courseId": "en-10-30k",
+  "headword": "eyelid",
+  "reading": "/ˈaɪlˌɪd/",
+  "gloss": "まぶた",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My eyelid feels hot.",
+    "translation": "まぶたが熱を持っています。",
+    "cloze": "My ｟＿｠ feels hot."
+   },
+   {
+    "text": "An eyelid opens wide.",
+    "translation": "瞼が大きく開く。",
+    "cloze": "An ｟＿｠ opens wide."
+   }
+  ],
+  "frequencyRank": 11868,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x98aee594",
+  "courseId": "en-10-30k",
+  "headword": "eyeliner",
+  "reading": "/ˈaɪlˌaɪnɚ/",
+  "gloss": "アイライナー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Could I borrow your eyeliner?",
+    "translation": "アイライナー貸してもらえないかな？",
+    "cloze": "Could I borrow your ｟＿｠?"
+   },
+   {
+    "text": "eyeliner, too?",
+    "translation": "目張りも入ってんじゃ ないっすか",
+    "cloze": "｟＿｠, too?"
+   }
+  ],
+  "frequencyRank": 11869,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xc26c540f",
+  "courseId": "en-10-30k",
+  "headword": "esq",
+  "reading": null,
+  "gloss": "「様、殿」を意味する敬称(Esquireの略、氏名の後に付ける)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The letter was addressed to John Smith, Esq.",
+    "translation": "その手紙はジョン・スミス様(エスクワイア)宛てだった。",
+    "cloze": "The letter was addressed to John Smith, ｟Esq.｠",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12073,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd2d482d6",
+  "courseId": "en-10-30k",
+  "headword": "effortless",
+  "reading": "/ˈɛfɚtləs/",
+  "gloss": "努力を要しない、骨が折れない、容易な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "it's effortless, it literally pours in.",
+    "translation": "苦もなく 文字通り流れ込んでくるのです",
+    "cloze": "it's ｟effortless｠, it literally pours in."
+   },
+   {
+    "text": "you can see they're very blas and kind of effortless.",
+    "translation": "とても 無関心に 簡単そうにしていますね",
+    "cloze": "you can see they're very blas and kind of ｟effortless｠."
+   }
+  ],
+  "frequencyRank": 12304,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xfb1a733f",
+  "courseId": "en-10-30k",
+  "headword": "erasmus",
+  "reading": "/ɪɹˈæzməs/",
+  "gloss": "エラスムス(1466?-1536;オランダの人文主義者・神学者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "such as the father of modernity, erasmus.",
+    "translation": "近代思想の父 エラスムスがいい例よ",
+    "cloze": "such as the father of modernity, ｟erasmus｠."
+   },
+   {
+    "text": "erasmus: the advantages derived from peace",
+    "translation": "(エラスムス) 平和から生じた利益は",
+    "cloze": "｟erasmus｠: the advantages derived from peace"
+   }
+  ],
+  "frequencyRank": 12700,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7dd8031e",
+  "courseId": "en-10-30k",
+  "headword": "esl",
+  "reading": null,
+  "gloss": "第二言語としての英語(English as a Second Language)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "is basically teaching a dog esl.",
+    "translation": "第二言語としての英語を教えているようなものです。",
+    "cloze": "is basically teaching a dog ｟esl｠."
+   },
+   {
+    "text": "He signed up for an ESL course to improve his English.",
+    "translation": "彼は英語力を向上させるためにESLコースに申し込んだ。",
+    "cloze": "He signed up for an ｟ESL｠ course to improve his English.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12701,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xbe0d940d",
+  "courseId": "en-10-30k",
+  "headword": "eyelash",
+  "reading": "/ˈaɪlˌæʃ/",
+  "gloss": "まつ毛",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have in-growing eyelashes.",
+    "translation": "逆さまつげがあります。",
+    "cloze": "I have in-growing ｟eyelashes｠."
+   },
+   {
+    "text": "I hate it when I get an eyelash in my eye.",
+    "translation": "目にまつ毛が入るのが、すごく嫌なんだ。",
+    "cloze": "I hate it when I get an ｟eyelash｠ in my eye."
+   }
+  ],
+  "frequencyRank": 12705,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xcb9d53f9",
+  "courseId": "en-10-30k",
+  "headword": "econ",
+  "reading": "/ˈikˌɑn/",
+  "gloss": "経済学(economicsの略・口語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so the classic econ 101 playbook is going to work just fine:",
+    "translation": "ないでしょうから 経済学入門にでてくる 古典的な戦略は十分効果があるでしょう",
+    "cloze": "so the classic ｟econ｠ 101 playbook is going to work just fine:"
+   },
+   {
+    "text": "I'm majoring in econ at university.",
+    "translation": "私は大学で経済学を専攻している。",
+    "cloze": "I'm majoring in ｟econ｠ at university.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12899,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x11a4a98d",
+  "courseId": "en-10-30k",
+  "headword": "ethically",
+  "reading": "/ˈɛθɪkəli/",
+  "gloss": "倫理的に、道徳的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "and it's much more easy even ethically.",
+    "translation": "倫理的には更に楽になります",
+    "cloze": "and it's much more easy even ｟＿｠."
+   },
+   {
+    "text": "absolutely. but i try my best, you know, ethically, in my duty...",
+    "translation": "私はベストを尽くさないといけない 倫理的、義務がある...",
+    "cloze": "absolutely. but i try my best, you know, ｟＿｠, in my duty..."
+   }
+  ],
+  "frequencyRank": 12906,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xa47a736f",
+  "courseId": "en-10-30k",
+  "headword": "estonian",
+  "reading": "/ɛstˈoʊniən/",
+  "gloss": "エストニア人；エストニア語；エストニアの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Most Estonians are very good at technology.",
+    "translation": "大抵のエストニア人は、技術がとても得意です。",
+    "cloze": "Most ｟＿｠ are very good at technology."
+   },
+   {
+    "text": "i'll pull our analytical brief on the estonians.",
+    "translation": "エストニア人を良く調べてみるわ",
+    "cloze": "i'll pull our analytical brief on the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 13129,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa5d4363a",
+  "courseId": "en-10-30k",
+  "headword": "eton",
+  "reading": "/ˈitən/",
+  "gloss": "イートン(英国の名門私立校イートン校で知られる町)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Many British prime ministers were educated at Eton.",
+    "translation": "多くの英国首相はイートン校で教育を受けた。",
+    "cloze": "Many British prime ministers were educated at ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Eton is a small town near Windsor, England.",
+    "translation": "イートンはイングランドのウィンザー近くにある小さな町です。",
+    "cloze": "｟＿｠ is a small town near Windsor, England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13131,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8ecde550",
+  "courseId": "en-10-30k",
+  "headword": "emp",
+  "reading": null,
+  "gloss": "電磁パルス(EMP)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "an emp was triggered before we got in position.",
+    "translation": "配置に着く前にEMPが作動した",
+    "cloze": "an ｟＿｠ was triggered before we got in position."
+   },
+   {
+    "text": "looks like the emp blast fried the circuits.",
+    "translation": "電磁パルスで焦げたみたいだ",
+    "cloze": "looks like the ｟＿｠ blast fried the circuits."
+   }
+  ],
+  "frequencyRank": 13399,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x83dfbe39",
+  "courseId": "en-10-30k",
+  "headword": "etf",
+  "reading": null,
+  "gloss": "ETF、上場投資信託",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She invested her savings in a low-cost ETF.",
+    "translation": "彼女は貯金を低コストのETFに投資した。",
+    "cloze": "She invested her savings in a low-cost ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "This ETF tracks the performance of the S&P 500.",
+    "translation": "このETFはS&P500の値動きに連動する。",
+    "cloze": "This ｟＿｠ tracks the performance of the S&P 500.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13404,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x706aaec4",
+  "courseId": "en-10-30k",
+  "headword": "exclamation",
+  "reading": "/ˌɛkskləmˈeɪʃən/",
+  "gloss": "叫び、絶叫；感嘆文、感嘆詞",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "An exclamation mark is a punctuation mark.",
+    "translation": "感嘆符は句読点です。",
+    "cloze": "An ｟＿｠ mark is a punctuation mark."
+   },
+   {
+    "text": "I like the final exclamation mark to be a full-width character.",
+    "translation": "最後の感嘆符、全角がいいな。",
+    "cloze": "I like the final ｟＿｠ mark to be a full-width character."
+   }
+  ],
+  "frequencyRank": 13405,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-x5c735002",
+  "courseId": "en-10-30k",
+  "headword": "earbuds",
+  "reading": null,
+  "gloss": "イヤホン(耳栓型のイヤフォン)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The dollar store earbuds worked better than I expected.",
+    "translation": "百均のイヤホンも思ったより使えるものがあります。",
+    "cloze": "The dollar store ｟＿｠ worked better than I expected."
+   },
+   {
+    "text": "a pair of apple earbuds.",
+    "translation": "Appleのイヤホンです",
+    "cloze": "a pair of apple ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14091,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x8d4b4d2a",
+  "courseId": "en-10-30k",
+  "headword": "epi",
+  "reading": null,
+  "gloss": "(略式)エピネフリン、アドレナリン(医療現場の略称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "too early for the epi to have been administered.",
+    "translation": "エピが投与された時刻には 早過ぎる",
+    "cloze": "too early for the ｟＿｠ to have been administered."
+   },
+   {
+    "text": "how many epis did you put in?",
+    "translation": "エピネフィリンは何回 使いました?",
+    "cloze": "how many ｟＿｠s did you put in?"
+   }
+  ],
+  "frequencyRank": 14095,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x88ae5742",
+  "courseId": "en-10-30k",
+  "headword": "excitedly",
+  "reading": "/ɪksˈaɪtədli/",
+  "gloss": "興奮して、わくわくして",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Even though we still had an hour until closing time, my colleague Junko excitedly started getting ready to go home.",
+    "translation": "終業時間までまだ一時間もあるのに、同僚の順子はいそいそと帰り支度を始めた。",
+    "cloze": "Even though we still had an hour until closing time, my colleague Junko ｟＿｠ started getting ready to go home."
+   },
+   {
+    "text": "i excitedly presented this to the big boss",
+    "translation": "わくわくしてボスにプレゼンをしたら",
+    "cloze": "i ｟＿｠ presented this to the big boss"
+   }
+  ],
+  "frequencyRank": 14100,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xbef4e634",
+  "courseId": "en-10-30k",
+  "headword": "eastbound",
+  "reading": "/ˈistbˌaʊnd/",
+  "gloss": "東行きの,東へ向かう",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The train is eastbound toward Boston.",
+    "translation": "その列車はボストン方面、東行きです。",
+    "cloze": "The train is ｟＿｠ toward Boston.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Traffic on the eastbound lanes is heavy today.",
+    "translation": "今日は東行き車線の交通量が多い。",
+    "cloze": "Traffic on the ｟＿｠ lanes is heavy today.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14355,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x7646c332",
+  "courseId": "en-10-30k",
+  "headword": "eritrea",
+  "reading": "/ˌɛɹɪtɹˈiə/",
+  "gloss": "エリトリア(アフリカ東部の国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "What language do they speak in Eritrea?",
+    "translation": "エリトリアでは何語が話されていますか。",
+    "cloze": "What language do they speak in ｟＿｠?"
+   },
+   {
+    "text": "i need you to close out abu dhabi and eritrea.",
+    "translation": "アブダビとエリトリアだ",
+    "cloze": "i need you to close out abu dhabi and ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14358,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6aeeecdb",
+  "courseId": "en-10-30k",
+  "headword": "ecu",
+  "reading": null,
+  "gloss": "エンジン制御ユニット(ECU)、自動車のコンピュータ制御装置",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "someone has hacked into the car's ecu and installed malware, locked the car in third gear at 50 miles an hour.",
+    "translation": "誰かが車のECUにハッキングした 破壊工作ソフトをインストールしてる サードギアで車をロックして",
+    "cloze": "someone has hacked into the car's ｟＿｠ and installed malware, locked the car in third gear at 50 miles an hour."
+   }
+  ],
+  "frequencyRank": 14563,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xe126b911",
+  "courseId": "en-10-30k",
+  "headword": "elizabethan",
+  "reading": "/ˌɛlɪzəbˈiθən/",
+  "gloss": "エリザベス朝の,エリザベス1世時代の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "as shakespeare is in illuminating the world of elizabethan england.",
+    "translation": "エリザベス朝イングランドを 理解するのと同じことなのです",
+    "cloze": "as shakespeare is in illuminating the world of ｟＿｠ england."
+   },
+   {
+    "text": "Shakespeare wrote his plays during the Elizabethan era.",
+    "translation": "シェイクスピアはエリザベス朝時代に戯曲を書いた。",
+    "cloze": "Shakespeare wrote his plays during the ｟＿｠ era.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14836,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x8d8bf73d",
+  "courseId": "en-10-30k",
+  "headword": "escalator",
+  "reading": "/ˈɛskəlˌeɪtɚ/",
+  "gloss": "エスカレーター",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Where is the escalator?",
+    "translation": "エスカレーターはどこですか？",
+    "cloze": "Where is the ｟escalator｠?"
+   },
+   {
+    "text": "The sign indicates the location of the escalator.",
+    "translation": "標識はエスカレーターの位置を示している。",
+    "cloze": "The sign indicates the location of the ｟escalator｠."
+   }
+  ],
+  "frequencyRank": 15088,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x8ec4c5ed",
+  "courseId": "en-10-30k",
+  "headword": "eventful",
+  "reading": "/ɪvˈɛntfəl/",
+  "gloss": "出来事の多い、波乱に富んだ",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "it's been eventful.",
+    "translation": "盛り沢山だったわ",
+    "cloze": "it's been ｟eventful｠."
+   },
+   {
+    "text": "it's been an eventful night.",
+    "translation": "波乱万丈の夜だった",
+    "cloze": "it's been an ｟eventful｠ night."
+   }
+  ],
+  "frequencyRank": 15090,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xee6a0791",
+  "courseId": "en-10-30k",
+  "headword": "eeg",
+  "reading": "/ˈiɡ/",
+  "gloss": "脳波(検査);脳波計(Electroencephalogram)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'll take your EEG.",
+    "translation": "脳波をとります。",
+    "cloze": "I'll take your ｟EEG｠."
+   },
+   {
+    "text": "eeg acquisition system.",
+    "translation": "脳波捕捉システムです",
+    "cloze": "｟eeg｠ acquisition system."
+   }
+  ],
+  "frequencyRank": 15320,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x91a24523",
+  "courseId": "en-10-30k",
+  "headword": "eurasia",
+  "reading": "/jʊɹˈeɪʒə/",
+  "gloss": "ユーラシア(ヨーロッパとアジアを合わせた大陸)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "eastern eurasia.",
+    "translation": "ユーラシア東部です",
+    "cloze": "eastern ｟eurasia｠."
+   },
+   {
+    "text": "Eurasia is the largest landmass on Earth.",
+    "translation": "ユーラシア大陸は地球上で最大の陸地である。",
+    "cloze": "｟Eurasia｠ is the largest landmass on Earth.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15326,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xac2d1814",
+  "courseId": "en-10-30k",
+  "headword": "experimentally",
+  "reading": "/ɪkspˌɛɹəmˈɛntəli/",
+  "gloss": "実験的に,試験的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "when we experimentally manipulated classrooms.",
+    "translation": "講義室を操作した様子を お見せします",
+    "cloze": "when we ｟experimentally｠ manipulated classrooms."
+   },
+   {
+    "text": "The new drug was tested experimentally on mice.",
+    "translation": "その新薬はマウスで実験的に試された。",
+    "cloze": "The new drug was tested ｟experimentally｠ on mice.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15332,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x2cdba3ba",
+  "courseId": "en-10-30k",
+  "headword": "eros",
+  "reading": "/ˈɪɹɑs/",
+  "gloss": "エロス(ギリシャ神話の愛の神。ローマ神話のキューピッドに当たる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "In Greek mythology, Eros is the god of love and desire.",
+    "translation": "ギリシャ神話において、エロスは愛と欲望の神である。",
+    "cloze": "In Greek mythology, ｟Eros｠ is the god of love and desire.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Eros was often depicted as a young winged boy with a bow and arrow.",
+    "translation": "エロスはしばしば弓矢を持つ翼のある少年として描かれた。",
+    "cloze": "｟Eros｠ was often depicted as a young winged boy with a bow and arrow.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15579,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x58043bc4",
+  "courseId": "en-10-30k",
+  "headword": "eskimo",
+  "reading": "/ˈɛskəmˌoʊ/",
+  "gloss": "エスキモー(人);エスキモー語;エスキモーの",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "an eskimo, actually.",
+    "translation": "実際はエスキモーだった",
+    "cloze": "an ｟eskimo｠, actually."
+   },
+   {
+    "text": "for the eskimo curlew, for the caribbean monk seal",
+    "translation": "エスキモーコシャクシギ カリブモンクアザラシ",
+    "cloze": "for the ｟eskimo｠ curlew, for the caribbean monk seal"
+   }
+  ],
+  "frequencyRank": 15580,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x169035f4",
+  "courseId": "en-10-30k",
+  "headword": "eurasian",
+  "reading": "/jʊɹˈeɪʒɪn/",
+  "gloss": "欧亜大陸の；欧亜混血の(混血児)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The Eurasian continent stretches from Portugal to Japan.",
+    "translation": "ユーラシア大陸はポルトガルから日本まで広がっている。",
+    "cloze": "The ｟＿｠ continent stretches from Portugal to Japan.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She has an exotic look due to her Eurasian heritage.",
+    "translation": "彼女はユーラシア系(欧亜混血)の血筋のため、エキゾチックな容姿をしている。",
+    "cloze": "She has an exotic look due to her ｟＿｠ heritage.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15832,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd90dd29a",
+  "courseId": "en-10-30k",
+  "headword": "earphone",
+  "reading": "/ˈɪɹfˌoʊn/",
+  "gloss": "イヤホン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do you have earphones?",
+    "translation": "イヤホン持ってる？",
+    "cloze": "Do you have ｟＿｠?"
+   },
+   {
+    "text": "These earphones don't work.",
+    "translation": "このイヤホンは壊れています。",
+    "cloze": "These ｟＿｠ don't work."
+   }
+  ],
+  "frequencyRank": 16086,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x2d12c0cc",
+  "courseId": "en-10-30k",
+  "headword": "emmys",
+  "reading": "/ˈɛmiz/",
+  "gloss": "エミー賞(米国のテレビ番組・俳優を対象とする賞)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "She won an Emmy for her performance.",
+    "translation": "彼女はその演技でエミー賞を受賞した。",
+    "cloze": "She won an ｟＿｠ for her performance.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Emmys are held every year in Los Angeles.",
+    "translation": "エミー賞授賞式は毎年ロサンゼルスで開催される。",
+    "cloze": "The ｟＿｠ are held every year in Los Angeles.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16358,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x01cf08e5",
+  "courseId": "en-10-30k",
+  "headword": "edwardian",
+  "reading": "/ɛdwˈɔɹdiən/",
+  "gloss": "エドワード朝時代の(英国王エドワード7世治世,1901-1910年頃の様式・時代を指す)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The house has beautiful ｟＿｠ architecture with large windows and high ceilings.",
+    "translation": "その家は大きな窓と高い天井を持つ美しいエドワード朝様式の建築だ。",
+    "cloze": "The house has beautiful ｟＿｠ architecture with large windows and high ceilings.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16615,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x5f88e165",
+  "courseId": "en-10-30k",
+  "headword": "emojis",
+  "reading": null,
+  "gloss": "絵文字(複数形)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She replied to the message with a string of ｟＿｠ instead of words.",
+    "translation": "彼女は言葉の代わりに絵文字を並べてメッセージに返信した。",
+    "cloze": "She replied to the message with a string of ｟＿｠ instead of words.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16617,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x5bc66328",
+  "courseId": "en-10-30k",
+  "headword": "ephesians",
+  "reading": null,
+  "gloss": "エペソ人への手紙(新約聖書の一書)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the fatal verse for sea demons is usually the line from ephesians chapter 1, verse 18, but...",
+    "translation": "「エペソ人への手紙」の 1章18節といわれているが...。",
+    "cloze": "the fatal verse for sea demons is usually the line from ｟ephesians｠ chapter 1, verse 18, but..."
+   }
+  ],
+  "frequencyRank": 17144,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd2ff383e",
+  "courseId": "en-10-30k",
+  "headword": "eraser",
+  "reading": "/ɪɹˈeɪsɚ/",
+  "gloss": "消しゴム、黒板ふき",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Gimme back my eraser.",
+    "translation": "消しゴム返してよ。",
+    "cloze": "Gimme back my ｟eraser｠."
+   },
+   {
+    "text": "Tom has lost his eraser.",
+    "translation": "トムね、消しゴムをなくしちゃったの。",
+    "cloze": "Tom has lost his ｟eraser｠."
+   }
+  ],
+  "frequencyRank": 17145,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x60dd83bc",
+  "courseId": "en-10-30k",
+  "headword": "excalibur",
+  "reading": "/ˌɛkskˈæləbɚ/",
+  "gloss": "エクスカリバー(アーサー王伝説に登場する聖剣)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "holy sword, excalibur.",
+    "translation": "聖剣excalibur",
+    "cloze": "holy sword, ｟excalibur｠."
+   },
+   {
+    "text": "kiba wants to destroy the excaliburs for vengeance",
+    "translation": "木場はエクスカリバーに打ち勝って 復讐を果たしたい",
+    "cloze": "kiba wants to destroy the ｟excaliburs｠ for vengeance"
+   }
+  ],
+  "frequencyRank": 17148,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x7d26a5b7",
+  "courseId": "en-10-30k",
+  "headword": "ehh",
+  "reading": null,
+  "gloss": "え?,えっ(驚き・聞き返しを表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "throw it away please. ehh?",
+    "translation": "捨てといてください。 えっ?",
+    "cloze": "throw it away please. ｟＿｠?"
+   },
+   {
+    "text": "Ehh? Are you sure about that?",
+    "translation": "えっ?本当にそうなの?",
+    "cloze": "｟＿｠? Are you sure about that?",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17410,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x90a91e14",
+  "courseId": "en-10-30k",
+  "headword": "emt",
+  "reading": null,
+  "gloss": "救急救命士,救急隊員(Emergency Medical Technicianの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "emts are with him now.",
+    "translation": "emtは 彼と一緒にいる",
+    "cloze": "｟＿｠ are with him now."
+   },
+   {
+    "text": "The EMTs arrived within five minutes of the call.",
+    "translation": "救急隊員は通報から5分以内に到着した。",
+    "cloze": "The ｟＿｠ arrived within five minutes of the call.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17413,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x75ab0fe9",
+  "courseId": "en-10-30k",
+  "headword": "everglades",
+  "reading": "/ˈɛvɚɡlˌeɪdz/",
+  "gloss": "エバーグレーズ(米国フロリダ州の広大な湿地帯・国立公園)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "these birds are great, but they've had a really tough time in the everglades",
+    "translation": "素晴らしい鳥ですが エバーグレーズでは苦難の時期がありました",
+    "cloze": "these birds are great, but they've had a really tough time in the ｟＿｠"
+   },
+   {
+    "text": "the everglades?",
+    "translation": "エバーグレーズ湿原?",
+    "cloze": "the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 17420,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdec2f555",
+  "courseId": "en-10-30k",
+  "headword": "expats",
+  "reading": null,
+  "gloss": "海外在住者,国外居住者(expatriateの略式表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There is a large community of expats living in Singapore.",
+    "translation": "シンガポールには多くの海外在住者のコミュニティがある。",
+    "cloze": "There is a large community of ｟＿｠ living in Singapore.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She met other expats at the international school.",
+    "translation": "彼女はインターナショナルスクールで他の海外在住者たちと出会った。",
+    "cloze": "She met other ｟＿｠ at the international school.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17422,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xad294e16",
+  "courseId": "en-10-30k",
+  "headword": "expertly",
+  "reading": "/ˈɛkspɚtli/",
+  "gloss": "巧みに,見事に,熟練した手腕で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "the most i can tell you is that it was expertly cut out three to five days ago.",
+    "translation": "4日くらい前に 綺麗に切り取られてて",
+    "cloze": "the most i can tell you is that it was ｟＿｠ cut out three to five days ago."
+   },
+   {
+    "text": "She expertly repaired the old clock in under an hour.",
+    "translation": "彼女はその古い時計を1時間もかけずに見事に修理した。",
+    "cloze": "She ｟＿｠ repaired the old clock in under an hour.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17423,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x7df250fc",
+  "courseId": "en-10-30k",
+  "headword": "extinguisher",
+  "reading": "/ɪkstˈɪŋɡwɪʃɚ/",
+  "gloss": "消火器",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "tomoki! you should never put fire extinguishers into the fire!",
+    "translation": "友喜! 二度と消火器を 火の中に入れちゃダメ!",
+    "cloze": "tomoki! you should never put fire ｟＿｠ into the fire!"
+   },
+   {
+    "text": "nowadays, fire extinguishers are not supposed to explode.",
+    "translation": "今時の消火器は 爆発しないはずなんだけどなぁ。",
+    "cloze": "nowadays, fire ｟＿｠ are not supposed to explode."
+   }
+  ],
+  "frequencyRank": 17742,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x518e8f26",
+  "courseId": "en-10-30k",
+  "headword": "etfs",
+  "reading": null,
+  "gloss": "上場投資信託(ETF)。取引所で株式のように売買される投資信託",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many investors prefer ETFs because they are easy to trade and diversify risk.",
+    "translation": "多くの投資家は取引が容易でリスクを分散できるためETFを好む。",
+    "cloze": "Many investors prefer ｟＿｠ because they are easy to trade and diversify risk.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The price of gold ETFs rose sharply this month.",
+    "translation": "今月、金ETFの価格が急上昇した。",
+    "cloze": "The price of gold ｟＿｠ rose sharply this month.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18030,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x0a162213",
+  "courseId": "en-10-30k",
+  "headword": "eagerness",
+  "reading": "/ˈiɡɚnəs/",
+  "gloss": "熱心さ、熱望",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was all eagerness to see her.",
+    "translation": "彼は彼女に会いたくてたまらなかった。",
+    "cloze": "He was all ｟＿｠ to see her."
+   },
+   {
+    "text": "I noted a trace of eagerness in her voice.",
+    "translation": "私は彼女の声に熱意があることに気づいた。",
+    "cloze": "I noted a trace of ｟＿｠ in her voice."
+   }
+  ],
+  "frequencyRank": 18316,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xc5cc2ba4",
+  "courseId": "en-10-30k",
+  "headword": "elba",
+  "reading": null,
+  "gloss": "エルバ島(イタリアの島。1814年にナポレオンが流刑された地として有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Napoleon was banished to Elba in 1814.",
+    "translation": "ナポレオンはエルバ島に１８１４年に追放された。",
+    "cloze": "Napoleon was banished to ｟＿｠ in 1814."
+   },
+   {
+    "text": "Napoleon's exile on Elba lasted less than a year.",
+    "translation": "ナポレオンのエルバ島での流刑は1年足らずで終わった。",
+    "cloze": "Napoleon's exile on ｟＿｠ lasted less than a year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18317,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x840d1c8c",
+  "courseId": "en-10-30k",
+  "headword": "eastbourne",
+  "reading": null,
+  "gloss": "イーストボーン(イギリス南部の海辺の町)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "We spent our summer holiday in Eastbourne, by the sea.",
+    "translation": "私たちは海辺の町イーストボーンで夏休みを過ごした。",
+    "cloze": "We spent our summer holiday in ｟＿｠, by the sea.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18625,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xcaa2f342",
+  "courseId": "en-10-30k",
+  "headword": "euphrates",
+  "reading": "/jufɹˈeɪtiz/",
+  "gloss": "ユーフラテス川(メソポタミア文明発祥の大河)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this song is from mesopotamia which means the land between the two rivers the tigris and the euphrates, where the homo sapiens learned to write, to count, and mark the stars.",
+    "translation": "メソポタミアの歌です 意味は \"2本の川に挟まれた土地\" チグリス川とユーフラテス川です",
+    "cloze": "this song is from mesopotamia which means the land between the two rivers the tigris and the ｟＿｠, where the homo sapiens learned to write, to count, and mark the stars."
+   }
+  ],
+  "frequencyRank": 18631,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2213f24d",
+  "courseId": "en-10-30k",
+  "headword": "empirically",
+  "reading": "/ɛmpˈɪɹɪkəli/",
+  "gloss": "経験的に、実証的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "even though that can't be confirmed empirically.",
+    "translation": "実験で確認することは 出来ないけど",
+    "cloze": "even though that can't be confirmed ｟empirically｠."
+   },
+   {
+    "text": "and until we can prove empirically that we were the cause of this",
+    "translation": "そして経験主義的に 我々が原因だと証明できるまでは",
+    "cloze": "and until we can prove ｟empirically｠ that we were the cause of this"
+   }
+  ],
+  "frequencyRank": 18911,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x91b5bd1d",
+  "courseId": "en-10-30k",
+  "headword": "englishmen",
+  "reading": "/ˌɛŋlˈɪʃmən/",
+  "gloss": "イングランド人(男性、複数形)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Englishmen are, on the whole, conservative.",
+    "translation": "英国人は概して保守的である。",
+    "cloze": "｟＿｠ are, on the whole, conservative."
+   },
+   {
+    "text": "Aren't they Englishmen?",
+    "translation": "彼らはイギリス人ではありませんか。",
+    "cloze": "Aren't they ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 19195,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x28890b11",
+  "courseId": "en-10-30k",
+  "headword": "eww",
+  "reading": null,
+  "gloss": "うえっ(嫌悪を表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "eww... that's disgusting!",
+    "translation": "うげ~ 気持悪いだら~!",
+    "cloze": "｟＿｠... that's disgusting!"
+   },
+   {
+    "text": "and she'd go, eww, yuck, crackers.",
+    "translation": "「うえっ クラッカー",
+    "cloze": "and she'd go, ｟＿｠, yuck, crackers."
+   }
+  ],
+  "frequencyRank": 19200,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x3be7fe9d",
+  "courseId": "en-10-30k",
+  "headword": "ecuadorian",
+  "reading": "/ˌɛkwədˈɔɹiən/",
+  "gloss": "エクアドルの、エクアドル人の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "the address was for the ecuadorian consulate in san francisco.",
+    "translation": "サンフランシスコの エクアドル領事館です",
+    "cloze": "the address was for the ｟ecuadorian｠ consulate in san francisco."
+   },
+   {
+    "text": "and if you're in the ecuadorian pramo",
+    "translation": "エクアドルの高地にいれば",
+    "cloze": "and if you're in the ｟ecuadorian｠ pramo"
+   }
+  ],
+  "frequencyRank": 19489,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x9233fb77",
+  "courseId": "en-10-30k",
+  "headword": "equaliser",
+  "reading": null,
+  "gloss": "同点ゴール(サッカーなどで同点に追いつく得点);(音響機器の)イコライザー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "United scored a late equaliser to draw the match.",
+    "translation": "ユナイテッドは終盤に同点ゴールを決めて引き分けた。",
+    "cloze": "United scored a late ｟equaliser｠ to draw the match.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He adjusted the equaliser to boost the bass.",
+    "translation": "彼は低音を強めるためにイコライザーを調整した。",
+    "cloze": "He adjusted the ｟equaliser｠ to boost the bass.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19493,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x39aea0ec",
+  "courseId": "en-10-30k",
+  "headword": "euclid",
+  "reading": "/jˈuklɪd/",
+  "gloss": "ユークリッド(古代ギリシアの数学者、幾何学の父);ユークリッド幾何学",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and euclid said, how can i define parallel lines?",
+    "translation": "ユークリッドの定義で質問します",
+    "cloze": "and ｟euclid｠ said, how can i define parallel lines?"
+   },
+   {
+    "text": "Euclid's Elements is one of the most influential works in mathematics.",
+    "translation": "ユークリッドの『原論』は数学史上最も影響力のある著作の一つである。",
+    "cloze": "｟Euclid｠'s Elements is one of the most influential works in mathematics.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19497,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xcbbc11f6",
+  "courseId": "en-10-30k",
+  "headword": "exe",
+  "reading": null,
+  "gloss": "実行可能ファイル(拡張子.exe)、実行ファイル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "or funnycats.exe, which rumor has it",
+    "translation": "それから funnycats.exe 噂によれば",
+    "cloze": "or funnycats.｟exe｠, which rumor has it"
+   },
+   {
+    "text": "Double-click the .exe file to install the program.",
+    "translation": "そのプログラムをインストールするには.exeファイルをダブルクリックしてください。",
+    "cloze": "Double-click the .｟exe｠ file to install the program.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19499,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x78a9ceda",
+  "courseId": "en-10-30k",
+  "headword": "eocene",
+  "reading": "/ˈiəsˌin/",
+  "gloss": "始新世(の)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Fossils from the Eocene period reveal early forms of horses.",
+    "translation": "始新世の化石は初期の馬の姿を明らかにしている。",
+    "cloze": "Fossils from the ｟＿｠ period reveal early forms of horses.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20665,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xdd9b54fb",
+  "courseId": "en-10-30k",
+  "headword": "ecologically",
+  "reading": "/ikəlˈɑdʒɪkli/",
+  "gloss": "生態学的に、環境保護の観点から",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "because it's ecologically a very, very dangerous thing to do.",
+    "translation": "なぜならそれはエコロジーにとって 非常に危険なことだからです",
+    "cloze": "because it's ｟＿｠ a very, very dangerous thing to do."
+   },
+   {
+    "text": "economically, equitably, ecologically and elegantly enjoyed, period.",
+    "translation": "経済的にも公平の観点からも環境面からも 美的にも楽しめるようにすることです",
+    "cloze": "economically, equitably, ｟＿｠ and elegantly enjoyed, period."
+   }
+  ],
+  "frequencyRank": 21290,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xbc8ffa94",
+  "courseId": "en-10-30k",
+  "headword": "eames",
+  "reading": "/ˈimz/",
+  "gloss": "イームズ(米国の家具デザイナー夫妻チャールズ&レイ・イームズ。イームズチェアで知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "now, if the eameses had stopped with that first great solution",
+    "translation": "もしイームズがその最初の素晴らしいアイデアに満足してしまっていたら",
+    "cloze": "now, if the ｟＿｠ had stopped with that first great solution"
+   },
+   {
+    "text": "The Eames chair is a famous piece of mid-century furniture design.",
+    "translation": "イームズチェアは20世紀半ばを代表する有名な家具デザインである。",
+    "cloze": "The ｟＿｠ chair is a famous piece of mid-century furniture design.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21592,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x04c5ab6b",
+  "courseId": "en-10-30k",
+  "headword": "ebitda",
+  "reading": null,
+  "gloss": "EBITDA(利払い前・税引き前・減価償却前利益。企業の収益力を示す会計指標)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The company's EBITDA grew by 15% last year.",
+    "translation": "その会社のEBITDA(利払い前・税引き前・償却前利益)は昨年15%増加した。",
+    "cloze": "The company's ｟＿｠ grew by 15% last year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21594,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x470da19d",
+  "courseId": "en-10-30k",
+  "headword": "endorphins",
+  "reading": "/ɛndˈɔɹfɪnz/",
+  "gloss": "エンドルフィン(脳内で分泌され鎮痛・多幸感をもたらす物質)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "When the body is touched, receptors in the skin send messages to the brain causing the release of chemicals such as endorphins.",
+    "translation": "体が触れられたとき肌の感覚器官は脳に信号を送り、エンドルフィンのような化学物質が放出される。",
+    "cloze": "When the body is touched, receptors in the skin send messages to the brain causing the release of chemicals such as ｟＿｠."
+   },
+   {
+    "text": "endorphins!",
+    "translation": "エンドルフィン!",
+    "cloze": "｟＿｠!"
+   }
+  ],
+  "frequencyRank": 21598,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x6060eca3",
+  "courseId": "en-10-30k",
+  "headword": "eyeglass",
+  "reading": "/ˈaɪɡlˌæs/",
+  "gloss": "眼鏡、片眼鏡",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's used for the frames in the eyeglasses.",
+    "translation": "眼鏡のフレームの原料です",
+    "cloze": "it's used for the frames in the ｟＿｠."
+   },
+   {
+    "text": "on long shoot days, that bandage on the bridge of his nose that would keep the nose pads on his eyeglasses from digging into his skin.",
+    "translation": "眼鏡をかけて長く写真を撮っていると 肌に眼鏡のブリッジの痕がつくから それを防ぐために鼻あてをつける",
+    "cloze": "on long shoot days, that bandage on the bridge of his nose that would keep the nose pads on his ｟＿｠ from digging into his skin."
+   }
+  ],
+  "frequencyRank": 21608,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x1aff0ffd",
+  "courseId": "en-10-30k",
+  "headword": "electronica",
+  "reading": null,
+  "gloss": "エレクトロニカ(電子音楽のジャンル)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He listens to electronica while working.",
+    "translation": "彼は仕事中にエレクトロニカを聴く。",
+    "cloze": "He listens to ｟＿｠ while working.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21929,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x15ba8967",
+  "courseId": "en-10-30k",
+  "headword": "eskimos",
+  "reading": "/ˈɛskəmˌoʊz/",
+  "gloss": "エスキモー(北極圏の先住民族)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Eskimos traditionally lived by hunting and fishing in the Arctic.",
+    "translation": "エスキモーは伝統的に北極圏で狩猟と漁業を営んで暮らしてきた。",
+    "cloze": "The ｟＿｠ traditionally lived by hunting and fishing in the Arctic.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21935,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc60cc18b",
+  "courseId": "en-10-30k",
+  "headword": "eyewear",
+  "reading": "/ˈaɪwˌɛɹ/",
+  "gloss": "アイウェア、メガネ類",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i've now made prescription eyewear to my prescription.",
+    "translation": "これで私の処方に合った眼鏡が調製できました。",
+    "cloze": "i've now made prescription ｟＿｠ to my prescription."
+   },
+   {
+    "text": "which shows us that the global need for corrective eyewear",
+    "translation": "視覚矯正器具は世界の約半数の人から",
+    "cloze": "which shows us that the global need for corrective ｟＿｠"
+   }
+  ],
+  "frequencyRank": 21939,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xcb1b069b",
+  "courseId": "en-10-30k",
+  "headword": "embarrassingly",
+  "reading": "/ɪmbˈɛɹəsɪŋli/",
+  "gloss": "恥ずかしいことに,きまり悪いほど",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "and we came up with an embarrassingly simple solution",
+    "translation": "我々はお恥ずかしいほど 単純な解決法を思いつきました",
+    "cloze": "and we came up with an ｟＿｠ simple solution"
+   },
+   {
+    "text": "shy guys don't wear such embarrassingly short pants.",
+    "translation": "シャイなヤツは そんな丈の短い 恥ずかしいズボン はかねえよ。",
+    "cloze": "shy guys don't wear such ｟＿｠ short pants."
+   }
+  ],
+  "frequencyRank": 22274,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x83c78716",
+  "courseId": "en-10-30k",
+  "headword": "elaborately",
+  "reading": "/ɪlˈæbɹətli/",
+  "gloss": "入念に、手の込んだ方法で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "to be able to accommodate elaborately",
+    "translation": "ニュウネンに対応出来るように 致します。",
+    "cloze": "to be able to accommodate ｟elaborately｠"
+   },
+   {
+    "text": "because they were all elaborately artdirected",
+    "translation": "精巧に演出されていたし、実際に",
+    "cloze": "because they were all ｟elaborately｠ artdirected"
+   }
+  ],
+  "frequencyRank": 22593,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x27ff5dfd",
+  "courseId": "en-10-30k",
+  "headword": "excellently",
+  "reading": "/ˈɛksələntli/",
+  "gloss": "見事に、素晴らしく",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Mariko speaks English excellently.",
+    "translation": "まりこは英語をとても上手に話す。",
+    "cloze": "Mariko speaks English ｟excellently｠."
+   }
+  ],
+  "frequencyRank": 22599,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x55d27b3d",
+  "courseId": "en-10-30k",
+  "headword": "endpoints",
+  "reading": "/ˈɛndpˌɔɪnts/",
+  "gloss": "端点、終点;(ネットワークの)エンドポイント",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The two endpoints of the line segment are labeled A and B.",
+    "translation": "その線分の両端点はAとBと表示されている。",
+    "cloze": "The two ｟＿｠ of the line segment are labeled A and B.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23269,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x1abd565d",
+  "courseId": "en-10-30k",
+  "headword": "excitable",
+  "reading": "/ɪksˈaɪtəbəl/",
+  "gloss": "興奮しやすい、激しやすい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "it's okay, we're fine. the kid's just excitable.",
+    "translation": "構わない 大丈夫だ 子供は興奮し易い",
+    "cloze": "it's okay, we're fine. the kid's just ｟＿｠."
+   },
+   {
+    "text": "they're excitable.",
+    "translation": "彼は興奮してる",
+    "cloze": "they're ｟＿｠."
+   }
+  ],
+  "frequencyRank": 23275,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xaa57aaab",
+  "courseId": "en-10-30k",
+  "headword": "eindhoven",
+  "reading": "/ˈaɪndhˌoʊvən/",
+  "gloss": "アイントホーフェン(オランダ南部の都市。フィリップス発祥の地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this is a team in eindhoven, it's a school of engineering.",
+    "translation": "アイントホーフェンの工科大学の チームがそれを作り",
+    "cloze": "this is a team in ｟＿｠, it's a school of engineering."
+   },
+   {
+    "text": "Eindhoven is known as a center for technology and design in the Netherlands.",
+    "translation": "アイントホーフェンはオランダにおける技術とデザインの中心地として知られている。",
+    "cloze": "｟＿｠ is known as a center for technology and design in the Netherlands.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23576,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x101b896a",
+  "courseId": "en-10-30k",
+  "headword": "emotionless",
+  "reading": null,
+  "gloss": "感情のない,無表情な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "But robots are emotionless.",
+    "translation": "しかし機械には感情が無いので",
+    "cloze": "But robots are ｟＿｠."
+   },
+   {
+    "text": "War crimes? Robots are emotionless, so",
+    "translation": "機械に感情はありませんから",
+    "cloze": "War crimes? Robots are ｟＿｠, so"
+   }
+  ],
+  "frequencyRank": 23896,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x45f0a0b7",
+  "courseId": "en-10-30k",
+  "headword": "endometriosis",
+  "reading": "/ˌɛndoʊmˌɛtɹiˈoʊsɪs/",
+  "gloss": "子宮内膜症",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She was diagnosed with endometriosis after years of pain.",
+    "translation": "彼女は長年の痛みの末、子宮内膜症と診断された。",
+    "cloze": "She was diagnosed with ｟＿｠after years of pain.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Endometriosis can cause severe abdominal pain.",
+    "translation": "子宮内膜症はひどい腹痛を引き起こすことがある。",
+    "cloze": "｟＿｠can cause severe abdominal pain.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23898,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x4b2baaaa",
+  "courseId": "en-10-30k",
+  "headword": "eritrean",
+  "reading": "/ˌɛɹɪtɹˈiən/",
+  "gloss": "エリトリアの;エリトリア人(の)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He is Eritrean and grew up in Asmara.",
+    "translation": "彼はエリトリア人で、アスマラで育った。",
+    "cloze": "He is ｟＿｠and grew up in Asmara.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Eritrean coffee ceremonies can last for hours.",
+    "translation": "エリトリアのコーヒーセレモニーは何時間も続くことがある。",
+    "cloze": "｟＿｠coffee ceremonies can last for hours.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23899,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x39102163",
+  "courseId": "en-10-30k",
+  "headword": "expandable",
+  "reading": "/ɪkspˈændəbəl/",
+  "gloss": "拡張可能な,伸ばせる",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Make it infinitely expandable and affordable to the poor.",
+    "translation": "無限に拡張出来 貧しい人に手が届くように作る",
+    "cloze": "Make it infinitely ｟＿｠and affordable to the poor."
+   },
+   {
+    "text": "It has an indefinitely expandable page for each species.",
+    "translation": "あらゆる種の記述は無限に拡張可能です",
+    "cloze": "It has an indefinitely ｟＿｠page for each species."
+   }
+  ],
+  "frequencyRank": 23904,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x53f95ab2",
+  "courseId": "en-10-30k",
+  "headword": "emf",
+  "reading": null,
+  "gloss": "起電力(electromotive forceの略);(俗に)電磁波,電磁場",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "a little emf activity, but mostly...silence.",
+    "translation": "EMFは少しだけで ほとんど無い",
+    "cloze": "a little ｟＿｠ activity, but mostly...silence."
+   },
+   {
+    "text": "i tried emf.",
+    "translation": "emfは試したし",
+    "cloze": "i tried ｟＿｠."
+   }
+  ],
+  "frequencyRank": 24200,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xc74dcaa8",
+  "courseId": "en-10-30k",
+  "headword": "ene",
+  "reading": null,
+  "gloss": "東北東(east-northeastの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The wind is blowing from the ENE today.",
+    "translation": "今日は東北東(ENE)から風が吹いている。",
+    "cloze": "The wind is blowing from the ｟＿｠ today.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24201,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x4b4336e0",
+  "courseId": "en-10-30k",
+  "headword": "ephesus",
+  "reading": "/ˈɛfʊsəs/",
+  "gloss": "エフェソス(古代小アジアの都市;新約聖書ゆかりの地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Ephesus was once a great city in ancient Anatolia.",
+    "translation": "エフェソスはかつて古代アナトリアの偉大な都市だった。",
+    "cloze": "｟＿｠ was once a great city in ancient Anatolia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24203,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf2d905ec",
+  "courseId": "en-10-30k",
+  "headword": "ethiopians",
+  "reading": "/ˌiθiˈoʊpiənz/",
+  "gloss": "エチオピア人(たち)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Ethiopians are known for their long-distance runners.",
+    "translation": "エチオピア人は長距離走者で知られている。",
+    "cloze": "The ｟＿｠ are known for their long-distance runners.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24206,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2290ef0b",
+  "courseId": "en-10-30k",
+  "headword": "eec",
+  "reading": null,
+  "gloss": "欧州経済共同体(現在のEUの前身の一つ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The EEC was established in 1957 to promote economic cooperation among European countries.",
+    "translation": "EECは1957年にヨーロッパ諸国間の経済協力を促進するために設立された。",
+    "cloze": "The ｟＿｠ was established in 1957 to promote economic cooperation among European countries.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24550,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa9ef4f06",
+  "courseId": "en-10-30k",
+  "headword": "easel",
+  "reading": "/ˈizəl/",
+  "gloss": "画架,イーゼル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "see, this is a easel.",
+    "translation": "これは \" イーゼル \" だ",
+    "cloze": "see, this is a ｟easel｠."
+   },
+   {
+    "text": "i can take the easel to your apartment?",
+    "translation": "君のアパートに 道具を持って行っていい?",
+    "cloze": "i can take the ｟easel｠ to your apartment?"
+   }
+  ],
+  "frequencyRank": 25291,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x6369ba4e",
+  "courseId": "en-10-30k",
+  "headword": "eastwards",
+  "reading": null,
+  "gloss": "東へ,東方に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "The hikers continued eastwards along the ridge until sunset.",
+    "translation": "ハイカーたちは日没まで尾根沿いに東へ進み続けた。",
+    "cloze": "The hikers continued ｟eastwards｠ along the ridge until sunset.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The river flows eastwards before joining the sea.",
+    "translation": "その川は東へ流れ、やがて海に注ぐ。",
+    "cloze": "The river flows ｟eastwards｠ before joining the sea.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25292,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xa15d1bf3",
+  "courseId": "en-10-30k",
+  "headword": "eek",
+  "reading": null,
+  "gloss": "きゃっ!,ひえっ!(驚き・恐怖を表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "eek! what are you doing?!",
+    "translation": "夏目 一体どうなってんだ",
+    "cloze": "｟eek｠! what are you doing?!"
+   },
+   {
+    "text": "eek? all of a sudden...",
+    "translation": "はひ!? なんだか 急に...。",
+    "cloze": "｟eek｠? all of a sudden..."
+   }
+  ],
+  "frequencyRank": 25295,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x68ddc176",
+  "courseId": "en-10-30k",
+  "headword": "eldorado",
+  "reading": "/ˌɛldɚˈɑdoʊ/",
+  "gloss": "エルドラド(伝説の黄金郷);(転じて)理想郷,黄金の地",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the eldorado of the united states of america:",
+    "translation": "「米国にも黄金の国 エルドラド発見」",
+    "cloze": "the ｟eldorado｠ of the united states of america:"
+   },
+   {
+    "text": "Prospectors dreamed of finding a new Eldorado deep in the jungle.",
+    "translation": "山師たちはジャングルの奥に新たなエルドラドを見つけることを夢見た。",
+    "cloze": "Prospectors dreamed of finding a new ｟Eldorado｠ deep in the jungle.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25296,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6a1d005d",
+  "courseId": "en-10-30k",
+  "headword": "elysium",
+  "reading": "/ɪlˈɪziəm/",
+  "gloss": "楽園,至福の地(ギリシャ神話で善人の魂が行くとされる場所)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "get her to elysium.",
+    "translation": "エリジウムよ",
+    "cloze": "get her to ｟elysium｠."
+   },
+   {
+    "text": "this isn't elysium. we can't just heal her.",
+    "translation": "ここはエリジウムじゃない 救えないんだ",
+    "cloze": "this isn't ｟elysium｠. we can't just heal her."
+   }
+  ],
+  "frequencyRank": 25298,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc6b866c4",
+  "courseId": "en-10-30k",
+  "headword": "eeoc",
+  "reading": null,
+  "gloss": "雇用機会均等委員会(米国の連邦政府機関、雇用差別を監視・是正する)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The EEOC investigates complaints of workplace discrimination.",
+    "translation": "EEOCは職場での差別に関する苦情を調査する。",
+    "cloze": "The ｟EEOC｠ investigates complaints of workplace discrimination.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25688,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xd5435ad9",
+  "courseId": "en-10-30k",
+  "headword": "enrollees",
+  "reading": "/ɛnɹˈoʊlˈiz/",
+  "gloss": "登録者、加入者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "New enrollees must complete the orientation program by Friday.",
+    "translation": "新規加入者は金曜日までにオリエンテーションを終える必要がある。",
+    "cloze": "New ｟＿｠ must complete the orientation program by Friday.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26045,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x7d3a3801",
+  "courseId": "en-10-30k",
+  "headword": "exceptionalism",
+  "reading": null,
+  "gloss": "例外主義(自国・自民族を特別視する考え方)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i feel that tug of human exceptionalism",
+    "translation": "人間が特別だという思いに傾きます",
+    "cloze": "i feel that tug of human ｟＿｠"
+   },
+   {
+    "text": "american exceptionalism, so out of touch.",
+    "translation": "例外主義のアメリカも まるでわかってない",
+    "cloze": "american ｟＿｠, so out of touch."
+   }
+  ],
+  "frequencyRank": 26050,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x93901940",
+  "courseId": "en-10-30k",
+  "headword": "exchangers",
+  "reading": "/ɪkstʃˈeɪndʒɚz/",
+  "gloss": "交換する人、交換機、熱交換器",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The building uses heat exchangers to save energy.",
+    "translation": "この建物はエネルギー節約のために熱交換器を使用している。",
+    "cloze": "The building uses heat ｟＿｠ to save energy.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26051,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x5fb64885",
+  "courseId": "en-10-30k",
+  "headword": "etruscan",
+  "reading": "/ɪtɹˈʌskən/",
+  "gloss": "古代エトルリアの,エトルリア人の;〈名〉エトルリア人,エトルリア語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "became an etruscan.",
+    "translation": "エトルリア人となった",
+    "cloze": "became an ｟etruscan｠."
+   },
+   {
+    "text": "etruscan vases.",
+    "translation": "エルトリアの花瓶",
+    "cloze": "｟etruscan｠ vases."
+   }
+  ],
+  "frequencyRank": 26461,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7ded0332",
+  "courseId": "en-10-30k",
+  "headword": "euripides",
+  "reading": null,
+  "gloss": "エウリピデス(古代ギリシャの三大悲劇詩人の一人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "euripides and sophocles",
+    "translation": "「オイディプス王」で",
+    "cloze": "｟＿｠ and sophocles"
+   },
+   {
+    "text": "reread the euripides assignment. papers from all of you friday.",
+    "translation": "課題を見直して 金曜日に提出を",
+    "cloze": "reread the ｟＿｠ assignment. papers from all of you friday."
+   }
+  ],
+  "frequencyRank": 26876,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x56408a67",
+  "courseId": "en-10-30k",
+  "headword": "earplug",
+  "reading": "/ˈɪɹplˌʌɡ/",
+  "gloss": "耳栓",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'd like to buy some earplugs.",
+    "translation": "耳栓を買いたいのですが。",
+    "cloze": "I'd like to buy some ｟＿｠."
+   },
+   {
+    "text": "i want some earplugs.",
+    "translation": "耳栓が欲しい。",
+    "cloze": "i want some ｟＿｠."
+   }
+  ],
+  "frequencyRank": 27278,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x09129eb0",
+  "courseId": "en-10-30k",
+  "headword": "elven",
+  "reading": null,
+  "gloss": "エルフの、妖精の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "the elven gate.",
+    "translation": "エルフの門だ",
+    "cloze": "the ｟＿｠ gate."
+   },
+   {
+    "text": "we will the elven road.",
+    "translation": "わし達はエルフの道を行くつもりじゃ あそこは安全じゃ",
+    "cloze": "we will the ｟＿｠ road."
+   }
+  ],
+  "frequencyRank": 27285,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2c07c787",
+  "courseId": "en-10-30k",
+  "headword": "etudes",
+  "reading": "/ˈeɪtˌudz/",
+  "gloss": "エチュード、練習曲",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The pianist practiced Chopin's etudes every morning.",
+    "translation": "そのピアニストは毎朝ショパンのエチュードを練習した。",
+    "cloze": "The pianist practiced Chopin's ｟＿｠ every morning.",
+    "aiGenerated": true
+   },
+   {
+    "text": "These etudes are designed to improve finger technique.",
+    "translation": "これらの練習曲は指の技術を向上させるために作られている。",
+    "cloze": "These ｟＿｠ are designed to improve finger technique.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27290,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x97b986e7",
+  "courseId": "en-10-30k",
+  "headword": "esperanto",
+  "reading": "/ˌɛspɚˈæntoʊ/",
+  "gloss": "エスペラント語(国際補助語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Do you speak Esperanto?",
+    "translation": "エスペラントを話しますか。",
+    "cloze": "Do you speak ｟＿｠?"
+   },
+   {
+    "text": "I began to learn Esperanto.",
+    "translation": "エスペラントの勉強を始めました。",
+    "cloze": "I began to learn ｟＿｠."
+   }
+  ],
+  "frequencyRank": 27720,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x51665bee",
+  "courseId": "en-10-30k",
+  "headword": "eval",
+  "reading": null,
+  "gloss": "(略式)評価、査定(evaluationの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The team is scheduling a performance eval next week.",
+    "translation": "チームは来週、人事評価を予定している。",
+    "cloze": "The team is scheduling a performance ｟＿｠ next week.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He had to undergo a psych eval before returning to duty.",
+    "translation": "彼は職務に復帰する前に精神鑑定(心理評価)を受けなければならなかった。",
+    "cloze": "He had to undergo a psych ｟＿｠ before returning to duty.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27721,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xa84f300c",
+  "courseId": "en-10-30k",
+  "headword": "eyesore",
+  "reading": "/ˈaɪsˌɔɹ/",
+  "gloss": "目障りなもの,見苦しいもの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's an eyesore.",
+    "translation": "見た目が邪魔だもんな。",
+    "cloze": "It's an ｟＿｠."
+   },
+   {
+    "text": "It's really an eyesore.",
+    "translation": "実に目障りだな。",
+    "cloze": "It's really an ｟＿｠."
+   }
+  ],
+  "frequencyRank": 28115,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x74d0a767",
+  "courseId": "en-10-30k",
+  "headword": "exoplanets",
+  "reading": null,
+  "gloss": "太陽系外惑星",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "let's zoom in and look at one of the favorite exoplanets.",
+    "translation": "注目されている系外惑星に 近づいて見てみましょう",
+    "cloze": "let's zoom in and look at one of the favorite ｟＿｠."
+   },
+   {
+    "text": "and by the way, most of these exoplanets, we don't know too much about.",
+    "translation": "実はこれらの惑星については あまり情報がありません",
+    "cloze": "and by the way, most of these ｟＿｠, we don't know too much about."
+   }
+  ],
+  "frequencyRank": 28539,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x7ec19481",
+  "courseId": "en-10-30k",
+  "headword": "elam",
+  "reading": "/ˈɛləm/",
+  "gloss": "エラム(古代メソポタミア東部にあった王国;現在のイラン南西部)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Elam was an ancient civilization located in present-day southwestern Iran.",
+    "translation": "エラムは現在のイラン南西部に位置した古代文明である。",
+    "cloze": "｟＿｠ was an ancient civilization located in present-day southwestern Iran.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28937,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x17d810db",
+  "courseId": "en-10-30k",
+  "headword": "emoluments",
+  "reading": null,
+  "gloss": "給与、報酬、手当",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "As a company director, he received generous emoluments each year.",
+    "translation": "会社役員として、彼は毎年気前の良い報酬を受け取っていた。",
+    "cloze": "As a company director, he received generous ｟＿｠ each year.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The board approved an increase in the executives' emoluments.",
+    "translation": "取締役会は役員報酬の増額を承認した。",
+    "cloze": "The board approved an increase in the executives' ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29384,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x875ded22",
+  "courseId": "en-10-30k",
+  "headword": "exoplanet",
+  "reading": null,
+  "gloss": "太陽系外惑星、系外惑星",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and so far, we've been able to study dozens of exoplanet atmospheres",
+    "translation": "これまでに 何十もの系外惑星の大気を観測し",
+    "cloze": "and so far, we've been able to study dozens of ｟＿｠ atmospheres"
+   },
+   {
+    "text": "Astronomers have discovered thousands of exoplanets orbiting distant stars.",
+    "translation": "天文学者たちは遠くの恒星を周回する数千もの系外惑星を発見してきた。",
+    "cloze": "Astronomers have discovered thousands of ｟＿｠ orbiting distant stars.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29391,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x1a10f14f",
+  "courseId": "en-10-30k",
+  "headword": "esau",
+  "reading": "/ˈisˌɔ/",
+  "gloss": "エサウ(旧約聖書に登場するイサクの子、ヤコブの兄)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "In the Bible, Esau sold his birthright to his brother Jacob for a bowl of stew.",
+    "translation": "聖書の中で、エサウは一杯のシチューと引き換えに長子の権利を弟ヤコブに売った。",
+    "cloze": "In the Bible, ｟＿｠ sold his birthright to his brother Jacob for a bowl of stew.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29752,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9f0f12f5",
+  "courseId": "en-10-30k",
+  "headword": "externalities",
+  "reading": null,
+  "gloss": "外部性(経済活動が第三者に及ぼす影響)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Pollution from factories is a classic example of a negative externality.",
+    "translation": "工場からの汚染は負の外部性の典型的な例だ。",
+    "cloze": "Pollution from factories is a classic example of a negative ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Economists study externalities to understand how markets affect society.",
+    "translation": "経済学者は市場が社会に与える影響を理解するために外部性を研究する。",
+    "cloze": "Economists study ｟＿｠ to understand how markets affect society.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29757,
+  "category": "work"
+ }
+]

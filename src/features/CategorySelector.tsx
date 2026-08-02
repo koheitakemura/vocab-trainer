@@ -26,6 +26,7 @@ export function CategorySelector({
     const counts = new Map<string, number>()
     for (const c of cards) if (c.category) counts.set(c.category, (counts.get(c.category) ?? 0) + 1)
     const byGroup: Record<CategoryGroup, { key: string; label: string; emoji: string; count: number }[]> = {
+      personal: [],
       topic: [],
       expressions: [],
       grammar: [],

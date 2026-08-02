@@ -26,11 +26,13 @@ import {
   type RestoreCheckResult,
 } from '../store/snapshot'
 import { relativeTimeLabel } from '../text/format'
+import { listAddedCards } from '../store/extraCards'
 import type { GradeOutcome } from './study/useStudyBoard'
 import { safeGet, safeSet } from '../store/safeStorage'
 import { courseProgress } from '../data/coverage'
 import { StudyGrid } from './study/StudyGrid'
 import { AllWords } from './browse/AllWords'
+import { WordSearch } from './search/WordSearch'
 import { StatsPanel } from './stats/StatsPanel'
 import { GrowthPanel } from './growth/GrowthPanel'
 import { ThemeToggle } from '../theme/ThemeToggle'
@@ -82,9 +84,16 @@ export function CourseScreen({
   const [tab, setTab] = useState<Tab>('study')
   // カテゴリー別学習：選択中カテゴリー（null=全体）。盤面に渡す cards をこのレンズで絞る。
   const [category, setCategory] = useState<string | null>(null)
+
+  // 検索して自分で追加した語（docs/word-request-design.md）。表示は自分だけ・この端末限定。
+  // コース本体の cards とは別に持ち、学習盤面・単語一覧・検索用には先頭に足した mergedCards を、
+  // メーター・目盛り・被覆率（total = cards.length）には手を付けない“コース本体そのまま”の
+  // cards を使い分ける——追加語がコースの「レベル感を示す数字」を汚さないようにするため。
+  const addedCards = useLiveQuery(() => listAddedCards(course.id), [course.id], [] as VocabCard[])
+  const mergedCards = useMemo(() => [...addedCards, ...cards], [addedCards, cards])
   const studyCards = useMemo(
-    () => (category ? cards.filter((c) => c.category === category) : cards),
-    [cards, category],
+    () => (category ? mergedCards.filter((c) => c.category === category) : mergedCards),
+    [mergedCards, category],
   )
   const fileRef = useRef<HTMLInputElement>(null)
   const meterRef = useRef<HTMLDivElement>(null)
@@ -102,6 +111,14 @@ export function CourseScreen({
   const studyRestartRef = useRef<(() => void) | null>(null)
   const exposeStudyRestart = useCallback((fn: (() => void) | null) => {
     studyRestartRef.current = fn
+  }, [])
+
+  // 検索（WordSearch）で選んだ語を単語一覧タブへ開く。タブを跨いで渡すだけの受け渡し役なので
+  // ここに置く（AllWords はタブ切替のたびアンマウント/再マウントするため、選択結果はここで持つ）。
+  const [openWordId, setOpenWordId] = useState<string | null>(null)
+  const handleOpenWord = useCallback((cardId: string) => {
+    setTab('all')
+    setOpenWordId(cardId)
   }, [])
 
   // メーターはコース別サマリ1行だけを読む（recordReview が増分更新）。
@@ -494,6 +511,9 @@ export function CourseScreen({
               {introduced}
             </span>
             <span className="meter-den">/ {total}</span>
+            {/* 検索して自分で追加した語は分母（total）に混ぜない——コースのレベル感を示す
+                数字を汚さないため（docs/word-request-design.md §4）。別枠で添えるだけ。 */}
+            {addedCards.length > 0 && <span className="meter-added">{t.meterAddedCount(addedCards.length)}</span>}
           </div>
           <div className="meter-label">{t.wordsStarted}</div>
           <MeterBreakdown counts={byGrade} burned={burned} uiLanguage={course.uiLanguage} />
@@ -555,7 +575,7 @@ export function CourseScreen({
           {t.tabStudy}
         </button>
         <button className={`tab${tab === 'all' ? ' on' : ''}`} onClick={() => setTab('all')}>
-          {t.tabAllWords} <span className="tab-count">{total}</span>
+          {t.tabAllWords} <span className="tab-count">{mergedCards.length}</span>
         </button>
         <button className={`tab${tab === 'stats' ? ' on' : ''}`} onClick={() => setTab('stats')}>
           {t.tabStats}
@@ -563,20 +583,23 @@ export function CourseScreen({
         <button className={`tab${tab === 'growth' ? ' on' : ''}`} onClick={() => setTab('growth')}>
           {t.tabGrowth}
         </button>
-        {tab === 'study' && (
-          <div className="tab-tools">
-            <CategorySelector cards={cards} selected={category} onSelect={setCategory} uiLanguage={course.uiLanguage} />
-            <button
-              type="button"
-              className="tab-refresh"
-              onClick={() => studyRestartRef.current?.()}
-              aria-label={t.startAnotherSession}
-              title={t.startAnotherSession}
-            >
-              ↻ <span className="tab-refresh-label">{t.startAnotherSession}</span>
-            </button>
-          </div>
-        )}
+        <div className="tab-tools">
+          {tab === 'study' && (
+            <>
+              <CategorySelector cards={mergedCards} selected={category} onSelect={setCategory} uiLanguage={course.uiLanguage} />
+              <button
+                type="button"
+                className="tab-refresh"
+                onClick={() => studyRestartRef.current?.()}
+                aria-label={t.startAnotherSession}
+                title={t.startAnotherSession}
+              >
+                ↻ <span className="tab-refresh-label">{t.startAnotherSession}</span>
+              </button>
+            </>
+          )}
+          <WordSearch cards={mergedCards} uiLanguage={course.uiLanguage} onOpenWord={handleOpenWord} />
+        </div>
       </nav>
 
       <main className="course-main">
@@ -631,7 +654,12 @@ export function CourseScreen({
             uiLanguage={course.uiLanguage}
           />
         ) : tab === 'all' ? (
-          <AllWords cards={cards} uiLanguage={course.uiLanguage} />
+          <AllWords
+            cards={mergedCards}
+            uiLanguage={course.uiLanguage}
+            openId={openWordId}
+            onOpenIdHandled={() => setOpenWordId(null)}
+          />
         ) : tab === 'stats' ? (
           <StatsPanel course={course} cards={cards} />
         ) : (

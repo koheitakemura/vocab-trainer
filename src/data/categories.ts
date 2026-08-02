@@ -3,7 +3,10 @@
  * 各語には categories.json（データと分離した overlay）で1つの key が付く。
  * ここは表示用のラベル・絵文字・並び順・グループを定義する。'other'（真の未分類）はセレクタに出さない。
  */
-export type CategoryGroup = 'topic' | 'expressions' | 'grammar'
+export type CategoryGroup = 'personal' | 'topic' | 'expressions' | 'grammar'
+
+/** 自分で検索して追加した語に自動で付くカテゴリーキー（VocabCard.category と一致させる） */
+export const REQUESTED_CATEGORY_KEY = 'requested'
 
 export interface CategoryDef {
   key: string
@@ -13,6 +16,8 @@ export interface CategoryDef {
 }
 
 export const CATEGORIES: CategoryDef[] = [
+  // 自分で検索して追加した語（docs/word-request-design.md）
+  { key: REQUESTED_CATEGORY_KEY, label: 'My additions', emoji: '➕', group: 'personal' },
   // 意味（トピック）
   { key: 'food', label: 'Food & Drink', emoji: '🍚', group: 'topic' },
   { key: 'people', label: 'People & Family', emoji: '👪', group: 'topic' },
@@ -52,10 +57,11 @@ export const CATEGORY_BY_KEY: Record<string, CategoryDef> = Object.fromEntries(
 )
 
 export const GROUP_LABEL: Record<CategoryGroup, string> = {
+  personal: 'Your words',
   topic: 'Topics',
   expressions: 'Greetings & expressions',
   grammar: 'Grammar & function words',
 }
 
 /** グループの表示順（セレクタ・Stats 共通） */
-export const GROUP_ORDER: CategoryGroup[] = ['topic', 'expressions', 'grammar']
+export const GROUP_ORDER: CategoryGroup[] = ['personal', 'topic', 'expressions', 'grammar']

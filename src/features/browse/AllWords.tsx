@@ -1,4 +1,4 @@
-import { useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useWindowVirtualizer } from '@tanstack/react-virtual'
 import type { VocabCard, WordStatus } from '../../types'
@@ -27,7 +27,18 @@ function statusLabel(s: StatusGroup, t: UIStrings): string {
 const norm = (s: string) => s.toLowerCase().trim()
 
 /** 案④ Dense List — コースの全語を一覧俯瞰。カテゴリー列＋各列フィルター付き。行クリックで例文を展開。 */
-export function AllWords({ cards, uiLanguage }: { cards: VocabCard[]; uiLanguage: UiLanguage }) {
+export function AllWords({
+  cards,
+  uiLanguage,
+  openId,
+  onOpenIdHandled,
+}: {
+  cards: VocabCard[]
+  uiLanguage: UiLanguage
+  /** 検索（WordSearch）から開いてほしいカードID。渡されたら展開＋スクロールし、消費したら親へ通知する */
+  openId?: string | null
+  onOpenIdHandled?: () => void
+}) {
   const t = useStrings(uiLanguage)
   const STATUS_OPTIONS: { value: StatusGroup; label: string }[] = [
     { value: 'new', label: t.statusNew },
@@ -97,6 +108,29 @@ export function AllWords({ cards, uiLanguage }: { cards: VocabCard[]; uiLanguage
     overscan: 8,
     scrollMargin: listOffsetRef.current,
   })
+
+  // 検索から開いてほしいカードが来たら展開し、フィルターに隠れていれば全解除する
+  // （フィルターをかけたままだと filtered から消えてスクロール先が見つからないため）。
+  useEffect(() => {
+    if (!openId) return
+    setOpen(openId)
+    setFWord('')
+    setFReading('')
+    setFMeaning('')
+    setFCat('')
+    setFStatus('')
+  }, [openId])
+
+  // 上の effect でフィルターが解除されて filtered が openId を含むようになった時点でスクロールする。
+  // 消費（onOpenIdHandled）は展開が完了してから呼ぶ——呼んだ瞬間 openId が親側で null に戻っても
+  // ローカルの open（展開状態）は別 state なので開いたままになる。
+  useEffect(() => {
+    if (!openId) return
+    const idx = filtered.findIndex((c) => c.id === openId)
+    if (idx === -1) return
+    rowVirtualizer.scrollToIndex(idx, { align: 'center' })
+    onOpenIdHandled?.()
+  }, [openId, filtered, rowVirtualizer, onOpenIdHandled])
 
   return (
     <div className="allwords-scroll">

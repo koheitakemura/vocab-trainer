@@ -1,0 +1,5006 @@
+[
+ {
+  "id": "en-10-30k-xa97433c6",
+  "courseId": "en-10-30k",
+  "headword": "november",
+  "reading": "/noʊvˈɛmbɚ/",
+  "gloss": "11月",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My birthday is in November.",
+    "translation": "私の誕生日は１１月です。",
+    "cloze": "My birthday is in ｟＿｠."
+   },
+   {
+    "text": "Today is 23 November 2016.",
+    "translation": "今日は、二千十六年十一月二十三日です。",
+    "cloze": "Today is 23 ｟＿｠ 2016."
+   }
+  ],
+  "frequencyRank": 32,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x2b9b8915",
+  "courseId": "en-10-30k",
+  "headword": "nine",
+  "reading": "/nˈaɪn/",
+  "gloss": "9、九つ",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "I'm on cloud nine.",
+    "translation": "私は最高に幸せだ。",
+    "cloze": "I'm on cloud ｟＿｠."
+   },
+   {
+    "text": "I woke up at nine.",
+    "translation": "９時に目が覚めたよ。",
+    "cloze": "I woke up at ｟＿｠."
+   }
+  ],
+  "frequencyRank": 81,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xab00a7a2",
+  "courseId": "en-10-30k",
+  "headword": "nick",
+  "reading": "/nˈɪk/",
+  "gloss": "刻み目,かすり傷;(in the nick of timeで)きわどい時に",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We arrived just in the nick of time.",
+    "translation": "私たちはまさにぎりぎり間に合った。",
+    "cloze": "We arrived just in the ｟nick｠ of time.",
+    "aiGenerated": true
+   },
+   {
+    "text": "There's a small nick in the blade.",
+    "translation": "刃に小さな刻み目がある。",
+    "cloze": "There's a small ｟nick｠ in the blade.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 193,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xd5d0eca4",
+  "courseId": "en-10-30k",
+  "headword": "navy",
+  "reading": "/nˈeɪvi/",
+  "gloss": "海軍;濃紺色(ネイビー)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I went into the navy.",
+    "translation": "私は海軍に入った。",
+    "cloze": "I went into the ｟navy｠."
+   },
+   {
+    "text": "Mary was wearing a navy blue skirt.",
+    "translation": "メアリーはネービーブルーのスカートをはいていた。",
+    "cloze": "Mary was wearing a ｟navy｠ blue skirt."
+   }
+  ],
+  "frequencyRank": 208,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb2e4994c",
+  "courseId": "en-10-30k",
+  "headword": "nah",
+  "reading": "/nˈɑ/",
+  "gloss": "いや,ううん(noのくだけた言い方)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "\"Have you been here before?\" \"Nah, this is my first time.\"",
+    "translation": "「ここ来たことある？」「いや、初めて来た」",
+    "cloze": "\"Have you been here before?\" \"｟＿｠, this is my first time.\""
+   },
+   {
+    "text": "\"Do you know what floppy disks are?\" \"Of course I do!\" \"Have you ever used one?\" \"Nah, I haven't.\"",
+    "translation": "「フロッピーディスクって知ってる？」「知ってますよ」「使ったことある？」「使ったことはないですね」",
+    "cloze": "\"Do you know what floppy disks are?\" \"Of course I do!\" \"Have you ever used one?\" \"｟＿｠, I haven't.\""
+   }
+  ],
+  "frequencyRank": 397,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xf8b788b1",
+  "courseId": "en-10-30k",
+  "headword": "nov",
+  "reading": "/nˈoʊv/",
+  "gloss": "11月(Novemberの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the pigs were indeed purchased on nov 15.",
+    "translation": "確かに 豚は11月15日付で 買い付けられたようですが",
+    "cloze": "the pigs were indeed purchased on ｟＿｠ 15."
+   },
+   {
+    "text": "the taiwan branch office bought the pigs on nov 15.",
+    "translation": "確かに 台湾支社が11月15日に 豚を買い付けてるようですが",
+    "cloze": "the taiwan branch office bought the pigs on ｟＿｠ 15."
+   }
+  ],
+  "frequencyRank": 451,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x21cd5926",
+  "courseId": "en-10-30k",
+  "headword": "nigeria",
+  "reading": "/naɪdʒˈɪɹiə/",
+  "gloss": "ナイジェリア(アフリカ西部の共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "At one time Nigeria was a British colony.",
+    "translation": "ナイジェリアはかつてイギリスの植民地であった。",
+    "cloze": "At one time ｟＿｠ was a British colony."
+   },
+   {
+    "text": "he loves going to nigeria",
+    "translation": "彼はナイジェリアに行くのが大好きです",
+    "cloze": "he loves going to ｟＿｠"
+   }
+  ],
+  "frequencyRank": 523,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb2ea13d2",
+  "courseId": "en-10-30k",
+  "headword": "nut",
+  "reading": "/nˈʌt/",
+  "gloss": "木の実、ナッツ;(俗)変人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "You're nuts!",
+    "translation": "馬鹿だな、おまえ！",
+    "cloze": "You're ｟＿｠!"
+   },
+   {
+    "text": "Is Tom nuts?",
+    "translation": "トムってバカ？",
+    "cloze": "Is Tom ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 588,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xb27281c1",
+  "courseId": "en-10-30k",
+  "headword": "nazi",
+  "reading": "/nˈɑtsi/",
+  "gloss": "ナチ党員；ナチ党の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm not a Nazi!",
+    "translation": "俺はナチじゃない！",
+    "cloze": "I'm not a ｟＿｠!"
+   },
+   {
+    "text": "Tom is a neo-Nazi.",
+    "translation": "トムはネオナチです。",
+    "cloze": "Tom is a neo-｟＿｠."
+   }
+  ],
+  "frequencyRank": 640,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xe9ee2757",
+  "courseId": "en-10-30k",
+  "headword": "netherlands",
+  "reading": "/nˈɛðɚləndz/",
+  "gloss": "オランダ",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Germany adjoins the Netherlands.",
+    "translation": "ドイツはオランダと接している。",
+    "cloze": "Germany adjoins the ｟＿｠."
+   },
+   {
+    "text": "The Netherlands is a small country.",
+    "translation": "オランダは狭い国です。",
+    "cloze": "The ｟＿｠ is a small country."
+   }
+  ],
+  "frequencyRank": 641,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x287c59ba",
+  "courseId": "en-10-30k",
+  "headword": "nope",
+  "reading": "/nˈoʊp/",
+  "gloss": "いいや、いえ",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Nope.",
+    "translation": "いいえ。",
+    "cloze": "｟＿｠."
+   },
+   {
+    "text": "Nope, not at all.",
+    "translation": "いや、全然。",
+    "cloze": "｟＿｠, not at all."
+   }
+  ],
+  "frequencyRank": 685,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x9e8c618d",
+  "courseId": "en-10-30k",
+  "headword": "nelson",
+  "reading": "/nˈɛlsən/",
+  "gloss": "(レスリングの)ネルソン固め、首固め",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The wrestler locked his opponent in a full nelson.",
+    "translation": "そのレスラーは相手にフルネルソン（両腕を極める首固め）をかけた。",
+    "cloze": "The wrestler locked his opponent in a full ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 739,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xda58bc5f",
+  "courseId": "en-10-30k",
+  "headword": "nail",
+  "reading": "/nˈeɪl/",
+  "gloss": "(手足の)爪；くぎ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I broke a nail.",
+    "translation": "爪が割れちゃった。",
+    "cloze": "I broke a ｟＿｠."
+   },
+   {
+    "text": "Cut your nails.",
+    "translation": "爪を切りなさい。",
+    "cloze": "Cut your ｟＿｠."
+   }
+  ],
+  "frequencyRank": 848,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xb82fae9c",
+  "courseId": "en-10-30k",
+  "headword": "nasa",
+  "reading": "/nˈæsə/",
+  "gloss": "NASA(米国航空宇宙局)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I have a friend who works for NASA.",
+    "translation": "私にはＮＡＳＡで働いている友達がいるんです。",
+    "cloze": "I have a friend who works for ｟＿｠."
+   },
+   {
+    "text": "NASA says three of 22 space missions that carried generators similar to Galileo's ended in accidents.",
+    "translation": "米航空宇宙局によれば、ガリレオ搭載のものと類似した発電機を搭載して行った宇宙飛行２２回のうち、３回の飛行で事故が発生したとのことです。",
+    "cloze": "｟＿｠ says three of 22 space missions that carried generators similar to Galileo's ended in accidents."
+   }
+  ],
+  "frequencyRank": 849,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8aecc7f6",
+  "courseId": "en-10-30k",
+  "headword": "nonsense",
+  "reading": "/nˈɑnsɛns/",
+  "gloss": "たわごと、ばかげたこと",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Nonsense!",
+    "translation": "馬鹿げている！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "What nonsense!",
+    "translation": "バカバカしい！",
+    "cloze": "What ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 850,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xd7eb336c",
+  "courseId": "en-10-30k",
+  "headword": "nightmare",
+  "reading": "/nˈaɪtmˌɛɹ/",
+  "gloss": "悪夢、恐ろしい経験",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I had a nightmare.",
+    "translation": "悪夢に魘された。",
+    "cloze": "I had a ｟nightmare｠."
+   },
+   {
+    "text": "I often have nightmares.",
+    "translation": "よく悪夢を見ます。",
+    "cloze": "I often have ｟nightmares｠."
+   }
+  ],
+  "frequencyRank": 910,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x3cdb2e7b",
+  "courseId": "en-10-30k",
+  "headword": "nominate",
+  "reading": "/nˈɑmənət/",
+  "gloss": "指名する、任命する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Mr Togawa was nominated for mayor.",
+    "translation": "戸川さんは市長候補に指名された。",
+    "cloze": "Mr Togawa was ｟nominated｠ for mayor."
+   },
+   {
+    "text": "He was nominated for the presidency.",
+    "translation": "彼は大統領候補者に指名された。",
+    "cloze": "He was ｟nominated｠ for the presidency."
+   }
+  ],
+  "frequencyRank": 945,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xdf3d1b02",
+  "courseId": "en-10-30k",
+  "headword": "norway",
+  "reading": "/nˈɔɹwˌeɪ/",
+  "gloss": "ノルウェー(北欧の国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm from Norway.",
+    "translation": "私はノルウェー出身です。",
+    "cloze": "I'm from ｟＿｠."
+   },
+   {
+    "text": "I originate from Norway.",
+    "translation": "私はノルウェー出身です。",
+    "cloze": "I originate from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1052,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x37e0f5e8",
+  "courseId": "en-10-30k",
+  "headword": "norman",
+  "reading": "/nˈɔɹmən/",
+  "gloss": "ノルマン人;ノルマン式の(建築)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Normans conquered England in 1066.",
+    "translation": "ノルマン人は１０６６年にイングランドを征服した。",
+    "cloze": "The ｟＿｠ conquered England in 1066."
+   },
+   {
+    "text": "This is what is called the Norman Conquest.",
+    "translation": "これが、いわゆるノルマン征服である。",
+    "cloze": "This is what is called the ｟＿｠ Conquest."
+   }
+  ],
+  "frequencyRank": 1086,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc0c0daa7",
+  "courseId": "en-10-30k",
+  "headword": "northwest",
+  "reading": "/nˌɔɹθwˈɛst/",
+  "gloss": "北西;北西の、北西からの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Ecuador is a country situated in the northwest part of South America.",
+    "translation": "エクアドルは南米の北西部に位置する国である。",
+    "cloze": "Ecuador is a country situated in the ｟＿｠ part of South America."
+   },
+   {
+    "text": "The storm is moving in from the northwest.",
+    "translation": "嵐は北西から近づいている。",
+    "cloze": "The storm is moving in from the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1087,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdba0ddec",
+  "courseId": "en-10-30k",
+  "headword": "noon",
+  "reading": "/nˈun/",
+  "gloss": "正午",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It is just noon.",
+    "translation": "いま、ちょうど正午です。",
+    "cloze": "It is just ｟＿｠."
+   },
+   {
+    "text": "He comes at noon.",
+    "translation": "彼は正午にやって来る。",
+    "cloze": "He comes at ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1200,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xafd94cd4",
+  "courseId": "en-10-30k",
+  "headword": "nationwide",
+  "reading": "/nˈeɪʃənwˈaɪd/",
+  "gloss": "全国的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He had got nationwide fame.",
+    "translation": "彼は全国的名声があった。",
+    "cloze": "He had got ｟＿｠ fame."
+   },
+   {
+    "text": "The police have started a nationwide hunt for the criminal.",
+    "translation": "警察は犯人の全国的な捜索を開始した。",
+    "cloze": "The police have started a ｟＿｠ hunt for the criminal."
+   }
+  ],
+  "frequencyRank": 1358,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x5e57947a",
+  "courseId": "en-10-30k",
+  "headword": "newcastle",
+  "reading": "/nˈukˌæsəl/",
+  "gloss": "ニューカッスル(イングランド北部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "That's like carrying coals to Newcastle.",
+    "translation": "それは釈迦に説法というもの。",
+    "cloze": "That's like carrying coals to ｟＿｠."
+   },
+   {
+    "text": "Newcastle is famous for its shipbuilding history.",
+    "translation": "ニューカッスルは造船の歴史で有名だ。",
+    "cloze": "｟＿｠ is famous for its shipbuilding history.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1359,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xffcfca8c",
+  "courseId": "en-10-30k",
+  "headword": "ninth",
+  "reading": "/nˈaɪnθ/",
+  "gloss": "第9の,9番目の;9分の1",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "I was in the ninth grade last year.",
+    "translation": "私は去年中学３年生だった。",
+    "cloze": "I was in the ｟＿｠ grade last year."
+   },
+   {
+    "text": "Tell me the name of the ninth month.",
+    "translation": "第９番目の月の名を言ってごらん。",
+    "cloze": "Tell me the name of the ｟＿｠ month."
+   }
+  ],
+  "frequencyRank": 1360,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x08d7b74a",
+  "courseId": "en-10-30k",
+  "headword": "nomination",
+  "reading": "/nˌɑmənˈeɪʃən/",
+  "gloss": "指名,任命;ノミネート",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I second his nomination.",
+    "translation": "私は彼を指名するのを支持します。",
+    "cloze": "I second his ｟＿｠."
+   },
+   {
+    "text": "She won an Oscar nomination for best supporting actress.",
+    "translation": "彼女はアカデミー賞の最優秀助演女優にノミネートされた。",
+    "cloze": "She won an Oscar ｟＿｠ for best supporting actress."
+   }
+  ],
+  "frequencyRank": 1361,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x99602d80",
+  "courseId": "en-10-30k",
+  "headword": "nigerian",
+  "reading": "/naɪdʒˈɪɹiən/",
+  "gloss": "ナイジェリア(人)の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "My neighbor is Nigerian.",
+    "translation": "私の隣人はナイジェリア人です。",
+    "cloze": "My neighbor is ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Nigerian music has become popular worldwide.",
+    "translation": "ナイジェリアの音楽は世界的に人気になっている。",
+    "cloze": "｟＿｠ music has become popular worldwide.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1399,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb5a25e3d",
+  "courseId": "en-10-30k",
+  "headword": "northeast",
+  "reading": "/nˌɔɹθˈist/",
+  "gloss": "北東;北東部",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The land to the northeast was low-lying.",
+    "translation": "北東方向に土地が低く横たわっていた。",
+    "cloze": "The land to the ｟＿｠ was low-lying."
+   },
+   {
+    "text": "The wind is blowing from the northeast.",
+    "translation": "北東から風が吹いている。",
+    "cloze": "The wind is blowing from the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1400,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xbe4b947c",
+  "courseId": "en-10-30k",
+  "headword": "nyc",
+  "reading": null,
+  "gloss": "ニューヨーク市(の略)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and while, yes, my family's firm is one of tonight's sponsors, it has nothing to do with tonight's 2014 nyc gives back hero award",
+    "translation": "今夜はうちの会社が主宰ですが それは関係ない 2014年ニューヨーク英雄賞は",
+    "cloze": "and while, yes, my family's firm is one of tonight's sponsors, it has nothing to do with tonight's 2014 ｟nyc｠ gives back hero award"
+   },
+   {
+    "text": "I moved to NYC last year.",
+    "translation": "私は去年ニューヨークに引っ越した。",
+    "cloze": "I moved to ｟NYC｠ last year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1441,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xba45c712",
+  "courseId": "en-10-30k",
+  "headword": "nevada",
+  "reading": "/nəvˈɑdə/",
+  "gloss": "ネバダ州(米国西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "California and Nevada border on each other.",
+    "translation": "カリフォルニアとネバダは互いに接している。",
+    "cloze": "California and ｟Nevada｠ border on each other."
+   },
+   {
+    "text": "boss, nevada county sheriff's office called.",
+    "translation": "ボス ネバダ郡保安官事務所から 電話です",
+    "cloze": "boss, ｟nevada｠ county sheriff's office called."
+   }
+  ],
+  "frequencyRank": 1491,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc5ddfc34",
+  "courseId": "en-10-30k",
+  "headword": "navigation",
+  "reading": "/nˈævəɡˈeɪʃən/",
+  "gloss": "航行、航海;ナビゲーション",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The harbor is closed to navigation.",
+    "translation": "その港は船の航行が止められている。",
+    "cloze": "The harbor is closed to ｟＿｠."
+   },
+   {
+    "text": "He has a superficial knowledge of navigation.",
+    "translation": "彼は航海については表面的な知識しか持っていない。",
+    "cloze": "He has a superficial knowledge of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1539,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xdd907053",
+  "courseId": "en-10-30k",
+  "headword": "nicholas",
+  "reading": "/nˈɪkələs/",
+  "gloss": "聖ニコラス(サンタクロースの由来とされる4世紀の聖人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "all right, nicholas. second question.",
+    "translation": "良し ニコラス 2番目の質問",
+    "cloze": "all right, ｟＿｠. second question."
+   },
+   {
+    "text": "Saint Nicholas is said to be the origin of Santa Claus.",
+    "translation": "聖ニコラスはサンタクロースの由来とされている。",
+    "cloze": "Saint ｟＿｠ is said to be the origin of Santa Claus.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1540,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbbf1c07c",
+  "courseId": "en-10-30k",
+  "headword": "nato",
+  "reading": "/nˈeɪtoʊ/",
+  "gloss": "NATO、北大西洋条約機構",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "At that time, NATO bombed the bases of the Bosnian Serbs.",
+    "translation": "ＮＡＴＯはそのときにボスニアのセルビア人の基地などを空爆した。",
+    "cloze": "At that time, ｟＿｠ bombed the bases of the Bosnian Serbs."
+   },
+   {
+    "text": "and oh, by the way, what is nato?",
+    "translation": "ところでnatoって何ですか?」",
+    "cloze": "and oh, by the way, what is ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1633,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xfbff06c9",
+  "courseId": "en-10-30k",
+  "headword": "nephew",
+  "reading": "/nˈɛfju/",
+  "gloss": "甥",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "John is my nephew.",
+    "translation": "ジョンは私の甥です。",
+    "cloze": "John is my ｟＿｠."
+   },
+   {
+    "text": "My nephew is twelve.",
+    "translation": "甥は１２歳です。",
+    "cloze": "My ｟＿｠ is twelve."
+   }
+  ],
+  "frequencyRank": 1634,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb76238df",
+  "courseId": "en-10-30k",
+  "headword": "nhs",
+  "reading": null,
+  "gloss": "NHS(英国の国民保健サービス、国営医療制度)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "or if you got one percent of the patients in the nhs",
+    "translation": "国民保険を利用する患者の1%が",
+    "cloze": "or if you got one percent of the patients in the ｟＿｠"
+   },
+   {
+    "text": "The NHS provides free healthcare to UK residents.",
+    "translation": "NHSは英国居住者に無料で医療を提供している。",
+    "cloze": "The ｟＿｠ provides free healthcare to UK residents.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1695,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xce0e2e16",
+  "courseId": "en-10-30k",
+  "headword": "nude",
+  "reading": "/nˈud/",
+  "gloss": "裸の、裸体の;〈名〉裸体画、ヌード",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The children were swimming in the nude.",
+    "translation": "子供たちは裸で泳いでいた。",
+    "cloze": "The children were swimming in the ｟＿｠."
+   },
+   {
+    "text": "What's wrong with being nude in your own house?",
+    "translation": "家の中で全裸で何が悪い！",
+    "cloze": "What's wrong with being ｟＿｠ in your own house?"
+   }
+  ],
+  "frequencyRank": 1696,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xeb39c414",
+  "courseId": "en-10-30k",
+  "headword": "nashville",
+  "reading": "/nˈæʃvɪl/",
+  "gloss": "ナッシュビル(米国テネシー州の州都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and these days, that's nashville, tennessee.",
+    "translation": "最近はテネシー州 ナッシュヴィル",
+    "cloze": "and these days, that's ｟＿｠, tennessee."
+   },
+   {
+    "text": "i live in nashville, tennessee, health care capital of america.",
+    "translation": "米国医療の中心 テネシー州ナッシュビルに住んでいますが",
+    "cloze": "i live in ｟＿｠, tennessee, health care capital of america."
+   }
+  ],
+  "frequencyRank": 1803,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfcc61baf",
+  "courseId": "en-10-30k",
+  "headword": "nebraska",
+  "reading": "/nəbɹˈæskə/",
+  "gloss": "ネブラスカ州(米国中西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i myself grew up in nebraska.",
+    "translation": "私はネブラスカ育ち",
+    "cloze": "i myself grew up in ｟＿｠."
+   },
+   {
+    "text": "there's no i.d. on her nothing on her, actually, except for a bus ticket out of nebraska.",
+    "translation": "彼女にはidも何も無かった ネブラスカからの バスチケットだけ",
+    "cloze": "there's no i.d. on her nothing on her, actually, except for a bus ticket out of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1804,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8acc8f65",
+  "courseId": "en-10-30k",
+  "headword": "needle",
+  "reading": "/nˈidəl/",
+  "gloss": "縫い針、編み針;注射針;(レコード針・磁針など)針状のもの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She's handy with a needle.",
+    "translation": "彼女は針仕事が上手だ。",
+    "cloze": "She's handy with a ｟＿｠."
+   },
+   {
+    "text": "They're on pins and needles.",
+    "translation": "彼らはそわそわしている。",
+    "cloze": "They're on pins and ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1805,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xa883e81b",
+  "courseId": "en-10-30k",
+  "headword": "norwegian",
+  "reading": "/nˌɔɹwˈidʒən/",
+  "gloss": "ノルウェーの;ノルウェー人;ノルウェー語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm Norwegian.",
+    "translation": "私は、ノルウェー人です。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "The Norwegian diplomat mediated the secret negotiations that produced the historic document.",
+    "translation": "ノルウェー人外交官が、歴史的文書を生んだ秘密交渉を取り持った。",
+    "cloze": "The ｟＿｠ diplomat mediated the secret negotiations that produced the historic document."
+   }
+  ],
+  "frequencyRank": 1989,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf56a219c",
+  "courseId": "en-10-30k",
+  "headword": "nazis",
+  "reading": "/nˈɑtsiz/",
+  "gloss": "ナチス(党員);ナチ党の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Nazis rose to power in Germany during the 1930s.",
+    "translation": "ナチスは1930年代にドイツで権力を握った。",
+    "cloze": "The ｟Nazis｠ rose to power in Germany during the 1930s.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many Jews fled Europe to escape persecution by the Nazis.",
+    "translation": "多くのユダヤ人はナチスの迫害を逃れるためヨーロッパから逃げた。",
+    "cloze": "Many Jews fled Europe to escape persecution by the ｟Nazis｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2041,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xde58fd4f",
+  "courseId": "en-10-30k",
+  "headword": "newton",
+  "reading": "/nˈutən/",
+  "gloss": "ニュートン(力の単位);(転じて)ニュートンのような天才科学者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is a Newton of our day.",
+    "translation": "彼は現代のニュートンだ。",
+    "cloze": "He is a ｟Newton｠ of our day."
+   },
+   {
+    "text": "The boy wants to become a Newton.",
+    "translation": "その子はニュートンのような人になりたがっている。",
+    "cloze": "The boy wants to become a ｟Newton｠."
+   }
+  ],
+  "frequencyRank": 2042,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf42b1080",
+  "courseId": "en-10-30k",
+  "headword": "noah",
+  "reading": "/nˈoʊə/",
+  "gloss": "ノア(旧約聖書の人物。大洪水の際に箱舟を作った)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "They forgot all about Noah, who had saved them.",
+    "translation": "彼らは、自分たちを救ってくれたノアのことをすっかり忘れてしまった。",
+    "cloze": "They forgot all about ｟＿｠, who had saved them."
+   },
+   {
+    "text": "and after noah built his ark",
+    "translation": "ノアが箱舟を作った後",
+    "cloze": "and after ｟＿｠ built his ark"
+   }
+  ],
+  "frequencyRank": 2109,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8f702788",
+  "courseId": "en-10-30k",
+  "headword": "nova",
+  "reading": "/nˈoʊvə/",
+  "gloss": "新星(突然明るくなり、また元に戻る恒星)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Astronomers observed a bright nova in the night sky.",
+    "translation": "天文学者たちは夜空に明るい新星を観測した。",
+    "cloze": "Astronomers observed a bright ｟＿｠ in the night sky.",
+    "aiGenerated": true
+   },
+   {
+    "text": "A nova occurs when a white dwarf star suddenly brightens.",
+    "translation": "新星は白色矮星が突然明るくなる現象だ。",
+    "cloze": "A ｟＿｠ occurs when a white dwarf star suddenly brightens.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2179,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x55020f95",
+  "courseId": "en-10-30k",
+  "headword": "nickname",
+  "reading": "/nˈɪknˌeɪm/",
+  "gloss": "あだ名、愛称",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Rick is my nickname.",
+    "translation": "リックは、僕のあだ名だよ。",
+    "cloze": "Rick is my ｟＿｠."
+   },
+   {
+    "text": "What is your nickname?",
+    "translation": "あなたのあだ名は何て言うの？",
+    "cloze": "What is your ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 2245,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xeb8bedaa",
+  "courseId": "en-10-30k",
+  "headword": "nixon",
+  "reading": "/nˈɪksən/",
+  "gloss": "ニクソン(リチャード・ニクソン;米国第37代大統領)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Richard Nixon dropped from public attention.",
+    "translation": "ニクソンは世間から忘れられた。",
+    "cloze": "Richard ｟＿｠ dropped from public attention."
+   },
+   {
+    "text": "Nixon was caught lying because he bugged his own office.",
+    "translation": "ニクソンはオフィスに盗聴器をしかけておきながらシラを切ったので見付かった。",
+    "cloze": "｟＿｠ was caught lying because he bugged his own office."
+   }
+  ],
+  "frequencyRank": 2246,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb9e78878",
+  "courseId": "en-10-30k",
+  "headword": "nursery",
+  "reading": "/nˈɝsɚi/",
+  "gloss": "子供部屋;保育園,託児所",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My little sister goes to nursery school.",
+    "translation": "僕の妹は幼稚園に通っている。",
+    "cloze": "My little sister goes to ｟＿｠ school."
+   },
+   {
+    "text": "The youngest child spent every morning at a nursery.",
+    "translation": "一番下の子は毎日午前中を保育園ですごしました。",
+    "cloze": "The youngest child spent every morning at a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2397,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x38326fc8",
+  "courseId": "en-10-30k",
+  "headword": "nike",
+  "reading": "/nˈaɪki/",
+  "gloss": "ニケ(ギリシャ神話の勝利の女神);ナイキ(米国のスポーツ用品ブランド)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "With just one commercial, Nike has managed to provoke a lot of Japanese people.",
+    "translation": "ナイキはたった一つのコマーシャルで、多くの日本人の反感を買ってしまった。",
+    "cloze": "With just one commercial, ｟＿｠ has managed to provoke a lot of Japanese people."
+   },
+   {
+    "text": "In Greek mythology, Nike is the goddess of victory.",
+    "translation": "ギリシャ神話において、ニケは勝利の女神である。",
+    "cloze": "In Greek mythology, ｟＿｠ is the goddess of victory.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2461,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbf825854",
+  "courseId": "en-10-30k",
+  "headword": "ninja",
+  "reading": "/nˈɪndʒə/",
+  "gloss": "忍者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He's a ninja.",
+    "translation": "彼は忍者だよ。",
+    "cloze": "He's a ｟＿｠."
+   },
+   {
+    "text": "Tom is dressed like a ninja.",
+    "translation": "トムが忍者のような格好してるよ。",
+    "cloze": "Tom is dressed like a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2521,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x52c7c550",
+  "courseId": "en-10-30k",
+  "headword": "nsa",
+  "reading": null,
+  "gloss": "米国家安全保障局(NSA)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the truth is that the nsa has never in its history collected more than it does now.",
+    "translation": "「NSA の歴史上、今ほど大量の情報を 収集した事など、かつてありません」",
+    "cloze": "the truth is that the ｟＿｠ has never in its history collected more than it does now."
+   },
+   {
+    "text": "they're programs through which the nsa",
+    "translation": "このプログラムを通じて NSAは",
+    "cloze": "they're programs through which the ｟＿｠"
+   }
+  ],
+  "frequencyRank": 2593,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd0c64221",
+  "courseId": "en-10-30k",
+  "headword": "necklace",
+  "reading": "/nˈɛkləs/",
+  "gloss": "首飾り、ネックレス",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like your necklace.",
+    "translation": "すてきなネックレスしてるね。",
+    "cloze": "I like your ｟＿｠."
+   },
+   {
+    "text": "This is a pearl necklace.",
+    "translation": "これは、真珠のネックレスです。",
+    "cloze": "This is a pearl ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2654,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x00c7ea25",
+  "courseId": "en-10-30k",
+  "headword": "nationally",
+  "reading": "/nˈæʃənəli/",
+  "gloss": "国家的に,全国的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "made the spring nationally renowned as a power spot.",
+    "translation": "泉をパワースポットとして 全国的に有名にした➡",
+    "cloze": "made the spring ｟nationally｠ renowned as a power spot."
+   },
+   {
+    "text": "and so controlling things nationally",
+    "translation": "国レベルで管理できるというのは",
+    "cloze": "and so controlling things ｟nationally｠"
+   }
+  ],
+  "frequencyRank": 2719,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3abe25ca",
+  "courseId": "en-10-30k",
+  "headword": "nobel",
+  "reading": "/noʊbˈɛl/",
+  "gloss": "ノーベル(アルフレッド・ノーベル);多くは「ノーベル賞」として使われる",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom won a Nobel Prize in physics.",
+    "translation": "トムは、ノーベル物理学賞に輝いた。",
+    "cloze": "Tom won a ｟Nobel｠ Prize in physics."
+   },
+   {
+    "text": "Mother Teresa was given the Nobel prize.",
+    "translation": "マザー・テレサはノーベル賞を受賞した。",
+    "cloze": "Mother Teresa was given the ｟Nobel｠ prize."
+   }
+  ],
+  "frequencyRank": 2720,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x5bd54fe2",
+  "courseId": "en-10-30k",
+  "headword": "norfolk",
+  "reading": "/nˈɔɹfək/",
+  "gloss": "ノーフォーク(英国の州、または米国バージニア州の都市・海軍基地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "all available resources should be directed to naval station norfolk.",
+    "translation": "利用可能資源は ノーフォーク海軍基地へ",
+    "cloze": "all available resources should be directed to naval station ｟norfolk｠."
+   },
+   {
+    "text": "Norfolk is a historic city in Virginia.",
+    "translation": "ノーフォークはバージニア州にある歴史的な都市だ。",
+    "cloze": "｟Norfolk｠ is a historic city in Virginia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2721,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb97583df",
+  "courseId": "en-10-30k",
+  "headword": "naughty",
+  "reading": "/nˈɔti/",
+  "gloss": "いたずらな、わんぱくな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "You are naughty.",
+    "translation": "君はいたずらっ子だな。",
+    "cloze": "You are ｟naughty｠."
+   },
+   {
+    "text": "I was a naughty boy.",
+    "translation": "私はわんぱくだった。",
+    "cloze": "I was a ｟naughty｠ boy."
+   }
+  ],
+  "frequencyRank": 2785,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb07882b6",
+  "courseId": "en-10-30k",
+  "headword": "nepal",
+  "reading": "/nəpˈɔl/",
+  "gloss": "ネパール(南アジアの国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I like Nepal.",
+    "translation": "ネパールが好きです。",
+    "cloze": "I like ｟Nepal｠."
+   },
+   {
+    "text": "The capital of Nepal is Kathmandu.",
+    "translation": "ネパールの首都はカトマンズです。",
+    "cloze": "The capital of ｟Nepal｠ is Kathmandu."
+   }
+  ],
+  "frequencyRank": 2786,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1ea42d95",
+  "courseId": "en-10-30k",
+  "headword": "nap",
+  "reading": "/nˈæp/",
+  "gloss": "(特に日中の)ひと眠り,昼寝",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I need a nap.",
+    "translation": "少し眠らないと。",
+    "cloze": "I need a ｟＿｠."
+   },
+   {
+    "text": "It's nap time.",
+    "translation": "お昼寝の時間です。",
+    "cloze": "It's ｟＿｠ time."
+   }
+  ],
+  "frequencyRank": 2868,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x18fdc67f",
+  "courseId": "en-10-30k",
+  "headword": "nickel",
+  "reading": "/nˈɪkəl/",
+  "gloss": "ニッケル(金属元素);(米加の)5セント硬貨",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A nickel is a five-cent coin.",
+    "translation": "ニッケルは５セント玉です。",
+    "cloze": "A ｟＿｠ is a five-cent coin."
+   },
+   {
+    "text": "Nickel is a hard, silver-white metal.",
+    "translation": "ニッケルは硬い銀白色の金属です。",
+    "cloze": "｟＿｠ is a hard, silver-white metal."
+   }
+  ],
+  "frequencyRank": 2869,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb0e13e75",
+  "courseId": "en-10-30k",
+  "headword": "niece",
+  "reading": "/nˈis/",
+  "gloss": "姪(めい)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Mary's my niece.",
+    "translation": "メアリーは私の姪です。",
+    "cloze": "Mary's my ｟＿｠."
+   },
+   {
+    "text": "I have two nieces.",
+    "translation": "私には姪が二人いる。",
+    "cloze": "I have two ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2870,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd8aa33e5",
+  "courseId": "en-10-30k",
+  "headword": "narrator",
+  "reading": "/nˈɛɹeɪtɚ/",
+  "gloss": "語り手、ナレーター",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "(video) narrator: you want to look through your target's eyes.",
+    "translation": "ナレーター:標的を追跡したいのなら",
+    "cloze": "(video) ｟＿｠: you want to look through your target's eyes."
+   },
+   {
+    "text": "and i did like, you know, the narrator, and i read it.",
+    "translation": "私は ナレーター役で 朗読したんです",
+    "cloze": "and i did like, you know, the ｟＿｠, and i read it."
+   }
+  ],
+  "frequencyRank": 2941,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x89165c0f",
+  "courseId": "en-10-30k",
+  "headword": "northwestern",
+  "reading": "/nˌɔɹθwˈɛstɚn/",
+  "gloss": "北西の、北西部の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "\"Is this Arabic?\" \"No, it's Uyghur - a language that's spoken in northwestern China.\"",
+    "translation": "「これはアラビア語ですか？」「いいえ、それはウイグル語といって、中国の北西部で話されている言語です」",
+    "cloze": "\"Is this Arabic?\" \"No, it's Uyghur - a language that's spoken in ｟＿｠ China.\""
+   },
+   {
+    "text": "northwestern mediterranean.",
+    "translation": "地中海の北西部です",
+    "cloze": "｟＿｠ mediterranean."
+   }
+  ],
+  "frequencyRank": 3109,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xbc29ebac",
+  "courseId": "en-10-30k",
+  "headword": "newborn",
+  "reading": "/nˈubɔɹn/",
+  "gloss": "生まれたばかりの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "A newborn baby is liable to fall ill.",
+    "translation": "生まれたばかりの赤ん坊は病気になりやすい。",
+    "cloze": "A ｟＿｠ baby is liable to fall ill."
+   },
+   {
+    "text": "Mr Tanaka showed us many pictures of his newborn baby.",
+    "translation": "田中さんは今度生まれた赤ちゃんの写真をたくさん見せてくれた。",
+    "cloze": "Mr Tanaka showed us many pictures of his ｟＿｠ baby."
+   }
+  ],
+  "frequencyRank": 3183,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xfa1f94dc",
+  "courseId": "en-10-30k",
+  "headword": "newport",
+  "reading": "/nˈupɔɹt/",
+  "gloss": "ニューポート(英語圏各地にある地名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Seaside resorts, such as Newport, are very crowded in summer.",
+    "translation": "海岸の避暑地は、例えばニューボートがそうだが、夏には非常に混雑する。",
+    "cloze": "Seaside resorts, such as ｟＿｠, are very crowded in summer."
+   },
+   {
+    "text": "newport, 4th of july weekend.",
+    "translation": "ニューポートで父たちと 話した後―",
+    "cloze": "｟＿｠, 4th of july weekend."
+   }
+  ],
+  "frequencyRank": 3184,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf8773437",
+  "courseId": "en-10-30k",
+  "headword": "napoleon",
+  "reading": "/nəpˈoʊliən/",
+  "gloss": "ナポレオン(フランスの皇帝;歴史上の人物)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Napoleon was a man of authority.",
+    "translation": "ナポレオンは権威がある男だった。",
+    "cloze": "｟＿｠ was a man of authority."
+   },
+   {
+    "text": "Napoleon was exiled to St. Helena.",
+    "translation": "ナポレオンはセントヘレナ島へ流された。",
+    "cloze": "｟＿｠ was exiled to St. Helena."
+   }
+  ],
+  "frequencyRank": 3278,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6af5c7cb",
+  "courseId": "en-10-30k",
+  "headword": "newsletter",
+  "reading": "/nˈuzlˌɛtɚ/",
+  "gloss": "会報,時事通信,ニュースレター",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "In fact, I receive email newsletters with difficult-to-read kanji, too. But I think that learning to read kanji that we don't see that often won't help us.",
+    "translation": "実は難読漢字のメルマガも取ってる。しかし見かけることのない漢字読めてもしゃーないとは思う。",
+    "cloze": "In fact, I receive email ｟＿｠ with difficult-to-read kanji, too. But I think that learning to read kanji that we don't see that often won't help us."
+   },
+   {
+    "text": "and i write a newsletter that goes out every week",
+    "translation": "さて 私は毎週ニュースレターを 発刊していますが",
+    "cloze": "and i write a ｟＿｠ that goes out every week"
+   }
+  ],
+  "frequencyRank": 3354,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc3d28a17",
+  "courseId": "en-10-30k",
+  "headword": "nineteenth",
+  "reading": "/nˈaɪntˈinθ/",
+  "gloss": "第19の,19番目の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "My great-grandmother was born in the nineteenth century.",
+    "translation": "ひいばあちゃんは、19世紀生まれです。",
+    "cloze": "My great-grandmother was born in the ｟＿｠ century."
+   },
+   {
+    "text": "The nineteenth century was the age of the white man's civilization.",
+    "translation": "１９世紀は白人文明の時代だった。",
+    "cloze": "The ｟＿｠ century was the age of the white man's civilization."
+   }
+  ],
+  "frequencyRank": 3355,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x102f0bdb",
+  "courseId": "en-10-30k",
+  "headword": "noticeable",
+  "reading": "/nˈoʊtəsəbəl/",
+  "gloss": "目立つ、著しい、人目を引く",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "There are noticeable differences between the two.",
+    "translation": "両者の間には著しい違いがある。",
+    "cloze": "There are ｟noticeable｠ differences between the two."
+   },
+   {
+    "text": "The taste of sugar is too noticeable.",
+    "translation": "この味は砂糖が勝ち過ぎている。",
+    "cloze": "The taste of sugar is too ｟noticeable｠."
+   }
+  ],
+  "frequencyRank": 3447,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xac42d1b6",
+  "courseId": "en-10-30k",
+  "headword": "newark",
+  "reading": "/nˈuɚk/",
+  "gloss": "ニューアーク(米国ニュージャージー州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it's a club over in newark.",
+    "translation": "ニューワークのクラブだよ",
+    "cloze": "it's a club over in ｟＿｠."
+   },
+   {
+    "text": "now we're in newark, of all places.",
+    "translation": "ニューアークだぞ",
+    "cloze": "now we're in ｟＿｠, of all places."
+   }
+  ],
+  "frequencyRank": 3545,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9357c214",
+  "courseId": "en-10-30k",
+  "headword": "nod",
+  "reading": "/nˈɑd/",
+  "gloss": "うなずく、会釈する;うなずき",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom nodded.",
+    "translation": "トムは頷いた。",
+    "cloze": "Tom ｟＿｠."
+   },
+   {
+    "text": "He nodded yes.",
+    "translation": "彼は「うん」とうなずいた。",
+    "cloze": "He ｟＿｠ yes."
+   }
+  ],
+  "frequencyRank": 3546,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc765636d",
+  "courseId": "en-10-30k",
+  "headword": "notebook",
+  "reading": "/nˈoʊtbˌʊk/",
+  "gloss": "ノート、筆記帳",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I want a notebook.",
+    "translation": "私はノートがほしい。",
+    "cloze": "I want a ｟＿｠."
+   },
+   {
+    "text": "This is my notebook.",
+    "translation": "これは私のノートです。",
+    "cloze": "This is my ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3547,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x768d7e58",
+  "courseId": "en-10-30k",
+  "headword": "negro",
+  "reading": "/nˈiɡɹoʊ/",
+  "gloss": "黒人(やや古い言い方。現代では使用に注意が必要)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and negro pilots aren't part of that story.",
+    "translation": "そこに黒人パイロットは 邪魔だと",
+    "cloze": "and ｟＿｠ pilots aren't part of that story."
+   },
+   {
+    "text": "when the war ends, i intend to push for full equality, the negro vote, and much more.",
+    "translation": "戦争が終わったら 参政権をはじめ 黒人の完全な平等を 推進するつもりだ",
+    "cloze": "when the war ends, i intend to push for full equality, the ｟＿｠ vote, and much more."
+   }
+  ],
+  "frequencyRank": 3636,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbf83ad5c",
+  "courseId": "en-10-30k",
+  "headword": "nationality",
+  "reading": "/nˌæʃənˈæləti/",
+  "gloss": "国籍;民族",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What is his nationality?",
+    "translation": "彼の国籍はどこですか。",
+    "cloze": "What is his ｟nationality｠?"
+   },
+   {
+    "text": "His nationality counted against him.",
+    "translation": "彼には国籍が不利に働いた。",
+    "cloze": "His ｟nationality｠ counted against him."
+   }
+  ],
+  "frequencyRank": 3734,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xaec48904",
+  "courseId": "en-10-30k",
+  "headword": "nottingham",
+  "reading": "/nˈɑtɪŋhˌæm/",
+  "gloss": "ノッティンガム(イングランド中部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and so i rang up nottingham university",
+    "translation": "それでノッティンガム大学に電話して",
+    "cloze": "and so i rang up ｟nottingham｠ university"
+   },
+   {
+    "text": "Nottingham is a city in central England, famous for the legend of Robin Hood.",
+    "translation": "ノッティンガムはイングランド中部の都市で、ロビン・フッドの伝説で有名だ。",
+    "cloze": "｟Nottingham｠ is a city in central England, famous for the legend of Robin Hood.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3735,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x979dcc33",
+  "courseId": "en-10-30k",
+  "headword": "ninety",
+  "reading": "/nˈaɪnti/",
+  "gloss": "90;90の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "He lived to be ninety.",
+    "translation": "彼は生きて９０歳になった。",
+    "cloze": "He lived to be ｟＿｠."
+   },
+   {
+    "text": "The old man is above ninety.",
+    "translation": "その老人は９０歳を超えている。",
+    "cloze": "The old man is above ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3836,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xa0599a4d",
+  "courseId": "en-10-30k",
+  "headword": "noodle",
+  "reading": "/nˈudəl/",
+  "gloss": "ヌードル,麺",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I eat noodles.",
+    "translation": "私はラーメンを食べます。",
+    "cloze": "I eat ｟＿｠."
+   },
+   {
+    "text": "I like noodles.",
+    "translation": "麺類が好きです。",
+    "cloze": "I like ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3938,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xc0315f47",
+  "courseId": "en-10-30k",
+  "headword": "negatively",
+  "reading": "/nˈɛɡətɪvli/",
+  "gloss": "否定的に、消極的に;悪く",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "People don't grow when you only talk negatively.",
+    "translation": "否定形ばかり使っても、人は伸びないよ。",
+    "cloze": "People don't grow when you only talk ｟＿｠."
+   },
+   {
+    "text": "Excessive stress can negatively impact your health.",
+    "translation": "ストレスを溜めすぎると健康に悪影響を及ぼす。",
+    "cloze": "Excessive stress can ｟＿｠ impact your health."
+   }
+  ],
+  "frequencyRank": 4042,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xf7aec2b3",
+  "courseId": "en-10-30k",
+  "headword": "norwich",
+  "reading": "/nˈɔɹwɪtʃ/",
+  "gloss": "ノリッジ(イングランド東部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "there's three more outside. i knew a mr. parks who was in service in norwich. is he any relation of yours?",
+    "translation": "ノリッジにパークスと いう執事が...",
+    "cloze": "there's three more outside. i knew a mr. parks who was in service in ｟＿｠. is he any relation of yours?"
+   },
+   {
+    "text": "Norwich is a historic city in the east of England.",
+    "translation": "ノリッジはイングランド東部にある歴史的な都市だ。",
+    "cloze": "｟＿｠ is a historic city in the east of England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4044,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfb9ef418",
+  "courseId": "en-10-30k",
+  "headword": "navigate",
+  "reading": "/nˈævəɡˌeɪt/",
+  "gloss": "(船・飛行機を)操縦する、航行する;うまくやっていく",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "we can navigate the ship through the bilges.",
+    "translation": "艦橋外から 船を誘導できます",
+    "cloze": "we can ｟navigate｠ the ship through the bilges."
+   },
+   {
+    "text": "you want to navigate around the museum?",
+    "translation": "いろんな部屋を覗いてみたいですか?",
+    "cloze": "you want to ｟navigate｠ around the museum?"
+   }
+  ],
+  "frequencyRank": 4120,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xff3c32b0",
+  "courseId": "en-10-30k",
+  "headword": "needless",
+  "reading": "/nˈidləs/",
+  "gloss": "不必要な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Needless to say, he is right.",
+    "translation": "言うまでもなく、彼が正しい。",
+    "cloze": "｟Needless｠ to say, he is right."
+   },
+   {
+    "text": "Needless to say, health is above wealth.",
+    "translation": "言うまでもないことだが、健康の方が富より大事だ。",
+    "cloze": "｟Needless｠ to say, health is above wealth."
+   }
+  ],
+  "frequencyRank": 4325,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x5f4feab0",
+  "courseId": "en-10-30k",
+  "headword": "nerd",
+  "reading": "/nˈɝd/",
+  "gloss": "オタク、専門ばか、マニア",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is a math nerd.",
+    "translation": "トムは数学オタクなんだ。",
+    "cloze": "Tom is a math ｟nerd｠."
+   },
+   {
+    "text": "Tom is a language nerd.",
+    "translation": "トムは言語オタクだ。",
+    "cloze": "Tom is a language ｟nerd｠."
+   }
+  ],
+  "frequencyRank": 4326,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6627423b",
+  "courseId": "en-10-30k",
+  "headword": "narrowly",
+  "reading": "/nˈɛɹoʊli/",
+  "gloss": "かろうじて、辛うじて;狭く",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I narrowly escaped death.",
+    "translation": "九死に一生を得ました。",
+    "cloze": "I ｟＿｠ escaped death."
+   },
+   {
+    "text": "He narrowly escaped death.",
+    "translation": "彼はかろうじて命をとりとめた。",
+    "cloze": "He ｟＿｠ escaped death."
+   }
+  ],
+  "frequencyRank": 4446,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x370409a8",
+  "courseId": "en-10-30k",
+  "headword": "neon",
+  "reading": "/nˈiɑn/",
+  "gloss": "ネオン(気体元素);ネオンサイン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The neon sign shone as if to invite us.",
+    "translation": "私たちを招くようにネオンサインが輝いていた。",
+    "cloze": "The ｟neon｠ sign shone as if to invite us."
+   },
+   {
+    "text": "it has neon concert posters, a bar",
+    "translation": "ネオン、コンサートポスター、バー、",
+    "cloze": "it has ｟neon｠ concert posters, a bar"
+   }
+  ],
+  "frequencyRank": 4551,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x4524babd",
+  "courseId": "en-10-30k",
+  "headword": "nile",
+  "reading": "/nˈaɪl/",
+  "gloss": "ナイル川(アフリカの大河)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Nile is in Africa.",
+    "translation": "ナイル川はアフリカにあります。",
+    "cloze": "The ｟Nile｠ is in Africa."
+   },
+   {
+    "text": "We associate Egypt with the Nile.",
+    "translation": "私たちはエジプトといえばナイル川を思い出す。",
+    "cloze": "We associate Egypt with the ｟Nile｠."
+   }
+  ],
+  "frequencyRank": 4552,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x295f6e9a",
+  "courseId": "en-10-30k",
+  "headword": "naples",
+  "reading": "/nˈeɪpəlz/",
+  "gloss": "ナポリ(イタリア南部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "See Naples and then die.",
+    "translation": "ナポリを見てから死ね。",
+    "cloze": "See ｟Naples｠ and then die."
+   },
+   {
+    "text": "Naples is a picturesque city.",
+    "translation": "ナポリは絵のように美しい都市です。",
+    "cloze": "｟Naples｠ is a picturesque city."
+   }
+  ],
+  "frequencyRank": 4660,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8201eec2",
+  "courseId": "en-10-30k",
+  "headword": "noel",
+  "reading": "/noʊˈɛl/",
+  "gloss": "クリスマス；クリスマス祝歌(キャロル)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They sang 'The First Noel' at the Christmas concert.",
+    "translation": "彼らはクリスマスコンサートで『ザ・ファースト・ノエル』を歌った。",
+    "cloze": "They sang 'The First ｟Noel｠' at the Christmas concert.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Noel is another word for Christmas.",
+    "translation": "「ノエル」はクリスマスの別称です。",
+    "cloze": "｟Noel｠ is another word for Christmas.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4662,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x0256bdc0",
+  "courseId": "en-10-30k",
+  "headword": "nsfw",
+  "reading": null,
+  "gloss": "職場閲覧注意(性的・グロテスクな内容などを含み職場での閲覧に適さないことを示すネットスラング)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This forum thread was marked NSFW because of the graphic images.",
+    "translation": "そのフォーラムのスレッドはグロテスクな画像のためNSFW(閲覧注意)マークが付けられた。",
+    "cloze": "This forum thread was marked ｟＿｠ because of the graphic images.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Please don't open that video at work, it's NSFW.",
+    "translation": "職場ではその動画を開かないで、閲覧注意(NSFW)だから。",
+    "cloze": "Please don't open that video at work, it's ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4880,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xf01bf251",
+  "courseId": "en-10-30k",
+  "headword": "nanny",
+  "reading": "/nˈæni/",
+  "gloss": "乳母、ベビーシッター",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The nanny takes care of the children every day.",
+    "translation": "その乳母は毎日子供たちの世話をする。",
+    "cloze": "The ｟＿｠ takes care of the children every day.",
+    "aiGenerated": true
+   },
+   {
+    "text": "They hired a nanny to help with the baby.",
+    "translation": "彼らは赤ちゃんの世話をするために乳母を雇った。",
+    "cloze": "They hired a ｟＿｠ to help with the baby.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5132,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x02e8f0dd",
+  "courseId": "en-10-30k",
+  "headword": "nineteen",
+  "reading": "/nˈaɪntˈin/",
+  "gloss": "19、19の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "The girl with fair skin passes for nineteen.",
+    "translation": "その色白の女の子は１９歳でとおっている。",
+    "cloze": "The girl with fair skin passes for ｟＿｠."
+   },
+   {
+    "text": "The captain went to sea when he was nineteen.",
+    "translation": "その船長は１９歳のとき船乗りになった。",
+    "cloze": "The captain went to sea when he was ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5133,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xbe9a289c",
+  "courseId": "en-10-30k",
+  "headword": "needy",
+  "reading": "/nˈidi/",
+  "gloss": "困窮している,貧しい;(the~)貧困者たち",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "We should help the needy.",
+    "translation": "我々は貧しい人たちを援助すべきだ。",
+    "cloze": "We should help the ｟＿｠."
+   },
+   {
+    "text": "The city supplied the needy with blankets.",
+    "translation": "市は困窮者に毛布を支給した。",
+    "cloze": "The city supplied the ｟＿｠ with blankets."
+   }
+  ],
+  "frequencyRank": 5238,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe961f58a",
+  "courseId": "en-10-30k",
+  "headword": "nairobi",
+  "reading": "/nˌaɪɹˈoʊbi/",
+  "gloss": "ナイロビ(ケニアの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "at the south parts of the nairobi national park.",
+    "translation": "ナイロビ国立公園の南部に住んでいます",
+    "cloze": "at the south parts of the ｟＿｠ national park."
+   },
+   {
+    "text": "it's on the outskirts of nairobi",
+    "translation": "ケニアの首都ナイロビの",
+    "cloze": "it's on the outskirts of ｟＿｠"
+   }
+  ],
+  "frequencyRank": 5731,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4369c87a",
+  "courseId": "en-10-30k",
+  "headword": "nana",
+  "reading": "/nˈænə/",
+  "gloss": "(幼児語・愛称で)おばあちゃん",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "what is it? nana.",
+    "translation": "おばあちゃん",
+    "cloze": "what is it? ｟＿｠."
+   },
+   {
+    "text": "I'm going to visit my nana this weekend.",
+    "translation": "今週末はおばあちゃんに会いに行くんだ。",
+    "cloze": "I'm going to visit my ｟＿｠ this weekend.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5732,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe578d4ca",
+  "courseId": "en-10-30k",
+  "headword": "nfc",
+  "reading": "/ˈɛnˈɛfsˈi/",
+  "gloss": "NFC(近距離無線通信。Near Field Communicationの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the nfc was in his inhaler.",
+    "translation": "nfcは吸入器の中だ",
+    "cloze": "the ｟＿｠ was in his inhaler."
+   },
+   {
+    "text": "how was he gonna get an nfc past us?",
+    "translation": "どうやってnfcをパスした?",
+    "cloze": "how was he gonna get an ｟＿｠ past us?"
+   }
+  ],
+  "frequencyRank": 5993,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x8ddbbecd",
+  "courseId": "en-10-30k",
+  "headword": "niagara",
+  "reading": "/naɪˈæɡɹə/",
+  "gloss": "ナイアガラ(ナイアガラの滝で有名な地名。米国とカナダの国境)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Niagara Falls are famous as a world leading tourist resort.",
+    "translation": "ナイアガラの滝は世界有数の観光地として名高い。",
+    "cloze": "The ｟＿｠ Falls are famous as a world leading tourist resort."
+   },
+   {
+    "text": "no, that's niagara falls. so is that.",
+    "translation": "いや ナイアガラの滝だよ それもそう",
+    "cloze": "no, that's ｟＿｠ falls. so is that."
+   }
+  ],
+  "frequencyRank": 5994,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7d24282f",
+  "courseId": "en-10-30k",
+  "headword": "nordic",
+  "reading": "/nˈɔɹdɪk/",
+  "gloss": "北欧の、北欧人の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I like Alpine skiing better than Nordic skiing.",
+    "translation": "アルペンスキーの方がノルディックより好きです。",
+    "cloze": "I like Alpine skiing better than ｟＿｠ skiing."
+   },
+   {
+    "text": "Nordic Combined is held as a combination of two events, ski-jump and cross-country ski.",
+    "translation": "ノルディックコンバインドは、スキージャンプとクロスカントリースキーの2つの競技を組み合わせて行われる。",
+    "cloze": "｟＿｠ Combined is held as a combination of two events, ski-jump and cross-country ski."
+   }
+  ],
+  "frequencyRank": 5997,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xef3b0f6a",
+  "courseId": "en-10-30k",
+  "headword": "nugget",
+  "reading": "/nˈʌɡɪt/",
+  "gloss": "(天然の)金塊,貴重なひとかけら;(チキン)ナゲット",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "now i don't know if any of you out there invented chicken nuggets",
+    "translation": "ここにチキンナゲットの発明者がいるか分かりませんが",
+    "cloze": "now i don't know if any of you out there invented chicken ｟＿｠"
+   },
+   {
+    "text": "another daily nugget of recorded wisdom.",
+    "translation": "日課の助言のテープだ",
+    "cloze": "another daily ｟＿｠ of recorded wisdom."
+   }
+  ],
+  "frequencyRank": 6252,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x33ec5ed9",
+  "courseId": "en-10-30k",
+  "headword": "nan",
+  "reading": "/nˈæn/",
+  "gloss": "(英口語)おばあちゃん、ばあば",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "\"Where's Nan?\" \"In the kitchen.\"",
+    "translation": "「ばあばはどこ？」「台所だよ」",
+    "cloze": "\"Where's ｟＿｠?\" \"In the kitchen.\""
+   },
+   {
+    "text": "My nan makes the best apple pie.",
+    "translation": "私のおばあちゃんは最高のアップルパイを作る。",
+    "cloze": "My ｟＿｠ makes the best apple pie.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6384,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x843af7d6",
+  "courseId": "en-10-30k",
+  "headword": "neatly",
+  "reading": "/nˈitli/",
+  "gloss": "きちんと、こぎれいに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "She is neatly dressed.",
+    "translation": "彼女はさっぱりした服装をしている。",
+    "cloze": "She is ｟＿｠ dressed."
+   },
+   {
+    "text": "Can you wrap these neatly for me?",
+    "translation": "きれいに包んでいただけますか。",
+    "cloze": "Can you wrap these ｟＿｠ for me?"
+   }
+  ],
+  "frequencyRank": 6387,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3c34a25a",
+  "courseId": "en-10-30k",
+  "headword": "negativity",
+  "reading": "/nˌɛɡətˈɪvəti/",
+  "gloss": "消極性、否定的な態度",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "decide to rid your life of negativity.",
+    "translation": "あなたの人生から消極性をなくして下さい",
+    "cloze": "decide to rid your life of ｟＿｠."
+   },
+   {
+    "text": "Try not to let negativity affect your mood.",
+    "translation": "ネガティブな感情に気分を左右されないようにしましょう。",
+    "cloze": "Try not to let ｟＿｠ affect your mood.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6388,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xa43ef223",
+  "courseId": "en-10-30k",
+  "headword": "northampton",
+  "reading": "/nˌɔɹθˈæmptən/",
+  "gloss": "ノーサンプトン（イギリスの都市）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Northampton is a town in central England.",
+    "translation": "ノーサンプトンはイングランド中部の町です。",
+    "cloze": "｟＿｠ is a town in central England.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We visited Northampton on our trip to the UK.",
+    "translation": "私たちはイギリス旅行でノーサンプトンを訪れた。",
+    "cloze": "We visited ｟＿｠ on our trip to the UK.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6389,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfe899421",
+  "courseId": "en-10-30k",
+  "headword": "nightly",
+  "reading": "/nˈaɪtli/",
+  "gloss": "毎晩の,夜ごとの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The policeman was on his usual nightly round.",
+    "translation": "巡査はいつものように夜間の巡回中だった。",
+    "cloze": "The policeman was on his usual ｟＿｠ round."
+   },
+   {
+    "text": "when a security guard was making his nightly rounds and noticed the door ajar",
+    "translation": "研究室のドアが開いてるのを 不審に思った 巡回中の警備員が",
+    "cloze": "when a security guard was making his ｟＿｠ rounds and noticed the door ajar"
+   }
+  ],
+  "frequencyRank": 6525,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x4c1d0a1e",
+  "courseId": "en-10-30k",
+  "headword": "normandy",
+  "reading": "/nˈɔɹməndi/",
+  "gloss": "ノルマンディー(フランス北部、英仏海峡に面した地方)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Viking expansion from the 9th century onwards reached areas such as Normandy, Galicia, Andalusia, Sicily and Crimea.",
+    "translation": "９世紀以降のバイキングの勢力拡大はノルマンディ、ガリシア、アンダルシア、シチリア、クリミアといった地域へと達した。",
+    "cloze": "The Viking expansion from the 9th century onwards reached areas such as ｟Normandy｠, Galicia, Andalusia, Sicily and Crimea."
+   },
+   {
+    "text": "right, there's a... there's a route up to normandy already.",
+    "translation": "そこに... そこにノルマンディーまでの 道筋があるんだ",
+    "cloze": "right, there's a... there's a route up to ｟normandy｠ already."
+   }
+  ],
+  "frequencyRank": 6527,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9374f46a",
+  "courseId": "en-10-30k",
+  "headword": "nano",
+  "reading": "/nˈɑnoʊ/",
+  "gloss": "ナノ(10億分の1を表す接頭辞;転じて非常に小さいことを表す)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Apparently the iPod nano has good sound.",
+    "translation": "ｉＰｏｄ nano は音質がいいらしい。",
+    "cloze": "Apparently the iPod ｟nano｠ has good sound."
+   },
+   {
+    "text": "so this whole world, the nano world, this area in here",
+    "translation": "このサイズの世界を",
+    "cloze": "so this whole world, the ｟nano｠ world, this area in here"
+   }
+  ],
+  "frequencyRank": 6662,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-x8927791d",
+  "courseId": "en-10-30k",
+  "headword": "ngos",
+  "reading": "/ɛŋɡˈoʊz/",
+  "gloss": "NGO、非政府組織",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we've seen that thinkcycle has enabled ngos in developing countries",
+    "translation": "我々は thinkcycle が発展途上国のngoが抱える問題を掲示して",
+    "cloze": "we've seen that thinkcycle has enabled ｟ngos｠ in developing countries"
+   },
+   {
+    "text": "between government, ngos and private sector.",
+    "translation": "民間企業の区別が 曖昧になりがちです",
+    "cloze": "between government, ｟ngos｠ and private sector."
+   }
+  ],
+  "frequencyRank": 6664,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xbcbdb715",
+  "courseId": "en-10-30k",
+  "headword": "niger",
+  "reading": "/nˈaɪdʒɚ/",
+  "gloss": "ニジェール(西アフリカの共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Half a million children still face malnutrition in Niger.",
+    "translation": "ニジェールでは50万人もの子供たちが未だ栄養失調に直面している。",
+    "cloze": "Half a million children still face malnutrition in ｟＿｠."
+   },
+   {
+    "text": "niger is equally important, and i'm trying desperately",
+    "translation": "ニジェールでも同様に重大で",
+    "cloze": "｟＿｠ is equally important, and i'm trying desperately"
+   }
+  ],
+  "frequencyRank": 6940,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xcf6dac0f",
+  "courseId": "en-10-30k",
+  "headword": "nra",
+  "reading": null,
+  "gloss": "全米ライフル協会(National Rifle Association)の略",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom is a member of the NRA.",
+    "translation": "トムは全米ライフル協会の会員だ。",
+    "cloze": "Tom is a member of the ｟＿｠."
+   },
+   {
+    "text": "the national rifle association yes, the american nra",
+    "translation": "NRA つまり米国ライフル協会が",
+    "cloze": "the national rifle association yes, the american ｟＿｠"
+   }
+  ],
+  "frequencyRank": 6942,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x6acf7567",
+  "courseId": "en-10-30k",
+  "headword": "nicaragua",
+  "reading": "/nˌɪkɚˈɑɡwə/",
+  "gloss": "ニカラグア(中米の国;首都マナグア)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the contras in nicaragua, created by the cia",
+    "translation": "CIAが作ったニカラグアのコントラで",
+    "cloze": "the contras in ｟＿｠, created by the cia"
+   },
+   {
+    "text": "Nicaragua is a country in Central America.",
+    "translation": "ニカラグアは中央アメリカの国です。",
+    "cloze": "｟＿｠ is a country in Central America.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7076,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7810e938",
+  "courseId": "en-10-30k",
+  "headword": "ngo",
+  "reading": "/ɛŋɡˈoʊ/",
+  "gloss": "非政府組織(NGO)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i decided to join the ngo",
+    "translation": "ngoで働くことにしました",
+    "cloze": "i decided to join the ｟＿｠"
+   },
+   {
+    "text": "when i talk to ngo fellows",
+    "translation": "私がNGO のフェローに話す機会があれば、",
+    "cloze": "when i talk to ｟＿｠ fellows"
+   }
+  ],
+  "frequencyRank": 7241,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x2c8678c6",
+  "courseId": "en-10-30k",
+  "headword": "nutshell",
+  "reading": "/nˈʌtʃˌɛl/",
+  "gloss": "(クルミなどの)殻;《in a nutshell》要するに、かいつまんで言うと",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "That's it in a nutshell.",
+    "translation": "早い話が、そういうことですな。",
+    "cloze": "That's it in a ｟＿｠."
+   },
+   {
+    "text": "and there is a whole childhood in a nutshell.",
+    "translation": "子供時代を殻に 閉じこもって過ごす奴もいる",
+    "cloze": "and there is a whole childhood in a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7243,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x4528d528",
+  "courseId": "en-10-30k",
+  "headword": "nylon",
+  "reading": "/nˈaɪlˌɑn/",
+  "gloss": "ナイロン;《複数形で》ナイロン製ストッキング",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Nylon stockings often run.",
+    "translation": "ナイロンストッキングはすぐ伝線する。",
+    "cloze": "｟＿｠ stockings often run."
+   },
+   {
+    "text": "These nylon socks wash well.",
+    "translation": "このナイロンソックスは、洗濯がきく。",
+    "cloze": "These ｟＿｠ socks wash well."
+   }
+  ],
+  "frequencyRank": 7392,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xab316b6d",
+  "courseId": "en-10-30k",
+  "headword": "nudity",
+  "reading": "/nˈudɪti/",
+  "gloss": "裸であること、裸体",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "nudity...?",
+    "translation": "丸裸...?",
+    "cloze": "｟＿｠...?"
+   },
+   {
+    "text": "The film was criticized for its nudity.",
+    "translation": "その映画は裸体表現について批判された。",
+    "cloze": "The film was criticized for its ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7806,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x93bf1c99",
+  "courseId": "en-10-30k",
+  "headword": "newfoundland",
+  "reading": "/nˈufəndlənd/",
+  "gloss": "ニューファンドランド(カナダ東部の島・州);ニューファンドランド犬",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in newfoundland. antarctica. latest studies from nasa.",
+    "translation": "これはカナダ東部のニューファンドランド島です。NASAの最新の研究によると",
+    "cloze": "in ｟＿｠. antarctica. latest studies from nasa."
+   },
+   {
+    "text": "the newfoundland moose",
+    "translation": "通称「ニューファンドランドの大鹿」が",
+    "cloze": "the ｟＿｠ moose"
+   }
+  ],
+  "frequencyRank": 7966,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb420aed9",
+  "courseId": "en-10-30k",
+  "headword": "neptune",
+  "reading": "/nˈɛptun/",
+  "gloss": "海王星;ネプチューン(ローマ神話の海神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Neptune is dark, cold, and very windy.",
+    "translation": "海王星は暗く寒く、かつ烈風が吹き荒れている。",
+    "cloze": "｟Neptune｠ is dark, cold, and very windy."
+   },
+   {
+    "text": "Neptune is the eighth planet of the solar system.",
+    "translation": "海王星は太陽系の8番目の惑星だ。",
+    "cloze": "｟Neptune｠ is the eighth planet of the solar system."
+   }
+  ],
+  "frequencyRank": 8266,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x5779c47b",
+  "courseId": "en-10-30k",
+  "headword": "nero",
+  "reading": "/nˈɪɹoʊ/",
+  "gloss": "ネロ(暴君として知られる古代ローマ皇帝)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Emperor Nero was an extremely evil tyrant.",
+    "translation": "皇帝ネロは極めて邪悪な暴君だった。",
+    "cloze": "Emperor ｟Nero｠ was an extremely evil tyrant."
+   },
+   {
+    "text": "I will be reminded of tyranny and cruelty, if Nero is said.",
+    "translation": "私はネロと言えば暴政と残虐を連想する。",
+    "cloze": "I will be reminded of tyranny and cruelty, if ｟Nero｠ is said."
+   }
+  ],
+  "frequencyRank": 8267,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x4dc93705",
+  "courseId": "en-10-30k",
+  "headword": "netanyahu",
+  "reading": "/nˌɛtənjˈɑhˌu/",
+  "gloss": "ネタニヤフ(イスラエルの政治家、首相)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "netanyahu, when he got elected in 1996",
+    "translation": "1996年に当選した イスラエルのネタニヤフ首相は",
+    "cloze": "｟netanyahu｠, when he got elected in 1996"
+   },
+   {
+    "text": "Netanyahu served as the Prime Minister of Israel.",
+    "translation": "ネタニヤフはイスラエルの首相を務めた。",
+    "cloze": "｟Netanyahu｠ served as the Prime Minister of Israel.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8794,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5c988c2a",
+  "courseId": "en-10-30k",
+  "headword": "napa",
+  "reading": "/nˈæpə/",
+  "gloss": "ナパ(米国カリフォルニア州のワイン産地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "she's not in napa.",
+    "translation": "ナパじゃないわ",
+    "cloze": "she's not in ｟napa｠."
+   },
+   {
+    "text": "that's because we didn't go to napa.",
+    "translation": "ナパには行かなかった",
+    "cloze": "that's because we didn't go to ｟napa｠."
+   }
+  ],
+  "frequencyRank": 8948,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x753085aa",
+  "courseId": "en-10-30k",
+  "headword": "narration",
+  "reading": "/nɛɹˈeɪʃən/",
+  "gloss": "語り、ナレーション;(文法上の)話法",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "All I watch is let's plays with text-to-speech narration.",
+    "translation": "私が見るのはゆっくり動画だけです。",
+    "cloze": "All I watch is let's plays with text-to-speech ｟narration｠."
+   },
+   {
+    "text": "there's too much narration and the lines are very expositional too.",
+    "translation": "ナレーション 多すぎるし セリフも説明口調。",
+    "cloze": "there's too much ｟narration｠ and the lines are very expositional too."
+   }
+  ],
+  "frequencyRank": 8949,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x32f13389",
+  "courseId": "en-10-30k",
+  "headword": "nassau",
+  "reading": "/nˈæsɔ/",
+  "gloss": "ナッソー(バハマの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "only reason you're in studio band to begin with is because i told you... what i'd be asking for in nassau.",
+    "translation": "そもそも君がスタジオバンドにいるのは 私が誘ったからだ 私がナッソーから連れてきた",
+    "cloze": "only reason you're in studio band to begin with is because i told you... what i'd be asking for in ｟nassau｠."
+   },
+   {
+    "text": "Nassau is the capital of the Bahamas.",
+    "translation": "ナッソーはバハマの首都です。",
+    "cloze": "｟Nassau｠ is the capital of the Bahamas.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8950,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfb006507",
+  "courseId": "en-10-30k",
+  "headword": "nip",
+  "reading": "/nˈɪp/",
+  "gloss": "…をつねる、ぎゅっとかむ、はさむ;すばやく行く",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The dog nipped at me.",
+    "translation": "その犬は私に噛み付こうとした。",
+    "cloze": "The dog ｟nipped｠ at me."
+   },
+   {
+    "text": "i'm just going to nip to the loo, i'll be back in one second.",
+    "translation": "ちょっと トイレ スグ戻るわね",
+    "cloze": "i'm just going to ｟nip｠ to the loo, i'll be back in one second."
+   }
+  ],
+  "frequencyRank": 8952,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x45ac1225",
+  "courseId": "en-10-30k",
+  "headword": "navigator",
+  "reading": "/nˈævəɡˌeɪtɚ/",
+  "gloss": "航海士,航空士;航海熟練者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the pilot is feared dead, but his navigator is believed to have survived.",
+    "translation": "パイロットは既に死んでいると思われています しかし彼のナビゲータは生存しているもようです",
+    "cloze": "the pilot is feared dead, but his ｟＿｠ is believed to have survived."
+   },
+   {
+    "text": "bosnian serb forces announced they'd found the body of the american navigator, lieutenant chris burnett, whose plane was shot down two days ago.",
+    "translation": "2日前に撃墜された戦闘機の アメリカ人ナビゲータ: クリス・バーネット海軍大尉",
+    "cloze": "bosnian serb forces announced they'd found the body of the american ｟＿｠, lieutenant chris burnett, whose plane was shot down two days ago."
+   }
+  ],
+  "frequencyRank": 9450,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x0e0e7418",
+  "courseId": "en-10-30k",
+  "headword": "nervously",
+  "reading": "/nˈɝvəsli/",
+  "gloss": "神経質に,びくびくして,いらいらして",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Annie ate nervously.",
+    "translation": "アニーは不安な気持ちで食事をしたものだ。",
+    "cloze": "Annie ate ｟＿｠."
+   },
+   {
+    "text": "and actually, i'm also a little nervously excited!",
+    "translation": "かくいう 俺も少しソワソワしている。",
+    "cloze": "and actually, i'm also a little ｟＿｠ excited!"
+   }
+  ],
+  "frequencyRank": 9793,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xe103d338",
+  "courseId": "en-10-30k",
+  "headword": "nighttime",
+  "reading": "/nˈaɪttˌaɪm/",
+  "gloss": "夜間,夜の時間帯",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "If I eat this maybe it will sustain me until nighttime.",
+    "translation": "これ食べたら夜まで持つな。",
+    "cloze": "If I eat this maybe it will sustain me until ｟＿｠."
+   },
+   {
+    "text": "Even at nighttime, it was not quiet and peaceful any more.",
+    "translation": "もう夜になっても静かで平和ではありませんでした。",
+    "cloze": "Even at ｟＿｠, it was not quiet and peaceful any more."
+   }
+  ],
+  "frequencyRank": 9794,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xd80e65fd",
+  "courseId": "en-10-30k",
+  "headword": "northumberland",
+  "reading": null,
+  "gloss": "ノーサンバーランド(イングランド北部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the one who stopped outside northumberland street.",
+    "translation": "ノーサンバーランド通りに停まったやつの?",
+    "cloze": "the one who stopped outside ｟＿｠ street."
+   },
+   {
+    "text": "captain john watson, fifth northumberland fusiliers. sir.",
+    "translation": "ジョン・ワトスン大尉 フュージリア連隊所属",
+    "cloze": "captain john watson, fifth ｟＿｠ fusiliers. sir."
+   }
+  ],
+  "frequencyRank": 9796,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x260529c9",
+  "courseId": "en-10-30k",
+  "headword": "nav",
+  "reading": "/nˈæv/",
+  "gloss": "(略式)ナビ、ナビゲーション装置",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i'm just checking the nav equipment.",
+    "translation": "ナビゲーション装置をチェックしてるの",
+    "cloze": "i'm just checking the ｟nav｠ equipment."
+   },
+   {
+    "text": "i checked out the last destinations on his nav system.",
+    "translation": "奴のカーナビで 最近の走行履歴を調べた",
+    "cloze": "i checked out the last destinations on his ｟nav｠ system."
+   }
+  ],
+  "frequencyRank": 9991,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xe44712f7",
+  "courseId": "en-10-30k",
+  "headword": "namibia",
+  "reading": "/nəmˈɪbiə/",
+  "gloss": "ナミビア（アフリカ南西部の国）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and it lives only in parts of coastal namibia and angola",
+    "translation": "ナミビアとアンゴラの一部沿岸のみに自生し",
+    "cloze": "and it lives only in parts of coastal ｟namibia｠ and angola"
+   },
+   {
+    "text": "Namibia is located in southern Africa.",
+    "translation": "ナミビアはアフリカ南部に位置する。",
+    "cloze": "｟Namibia｠ is located in southern Africa.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10193,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x216c287c",
+  "courseId": "en-10-30k",
+  "headword": "navajo",
+  "reading": "/nˈɑvəhˌoʊ/",
+  "gloss": "ナバホ族（北米先住民の一部族）、ナバホ語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it's... sacred navajo herbs and...",
+    "translation": "神聖なナバホのハーブだ",
+    "cloze": "it's... sacred ｟navajo｠ herbs and..."
+   },
+   {
+    "text": "a spot in the navajo nation with a classroom in seattle.",
+    "translation": "ナバホ・ネイションと シアトルの教室です",
+    "cloze": "a spot in the ｟navajo｠ nation with a classroom in seattle."
+   }
+  ],
+  "frequencyRank": 10194,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xacf135e2",
+  "courseId": "en-10-30k",
+  "headword": "nectar",
+  "reading": "/nˈɛktɚ/",
+  "gloss": "（花の）蜜／（ギリシャ神話の）神々の飲み物、甘美な飲み物",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The bee flew to the flower and drank the nectar.",
+    "translation": "蜂は花に飛んで、花蜜を飲んだ。",
+    "cloze": "The bee flew to the flower and drank the ｟nectar｠."
+   },
+   {
+    "text": "that are what are called spurs. these are nectar spurs.",
+    "translation": "これは距(きょ)というもので 中に蜜が入っています",
+    "cloze": "that are what are called spurs. these are ｟nectar｠ spurs."
+   }
+  ],
+  "frequencyRank": 10195,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xfd14b0c5",
+  "courseId": "en-10-30k",
+  "headword": "naw",
+  "reading": "/nˈɑ/",
+  "gloss": "いや、いいえ(noのくだけた口語表現)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "naw, man, let's use the tape.",
+    "translation": "いや、だめだ",
+    "cloze": "｟naw｠, man, let's use the tape."
+   },
+   {
+    "text": "naw, i'm kidding. but you know what?",
+    "translation": "ふざけてるだけ だけど知ってる?",
+    "cloze": "｟naw｠, i'm kidding. but you know what?"
+   }
+  ],
+  "frequencyRank": 10384,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xcddba1f6",
+  "courseId": "en-10-30k",
+  "headword": "nevermind",
+  "reading": "/nˈɛvɚmˌaɪnd/",
+  "gloss": "気にしないで、なんでもない",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Nevermind.",
+    "translation": "いい。",
+    "cloze": "｟Nevermind｠."
+   },
+   {
+    "text": "nevermind that. what is this?",
+    "translation": "そんなことより これ誰の?",
+    "cloze": "｟nevermind｠ that. what is this?"
+   }
+  ],
+  "frequencyRank": 10385,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x6ae6b789",
+  "courseId": "en-10-30k",
+  "headword": "nozzle",
+  "reading": "/nˈɑzəl/",
+  "gloss": "(ホースなどの)筒先、噴出口、ノズル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and one of the fire hose nozzles",
+    "translation": "すると 消火用のホースの先端の",
+    "cloze": "and one of the fire hose ｟nozzles｠"
+   },
+   {
+    "text": "Attach the nozzle to the end of the hose.",
+    "translation": "ホースの先端にノズルを取り付けてください。",
+    "cloze": "Attach the ｟nozzle｠ to the end of the hose.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10388,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x8e946a5e",
+  "courseId": "en-10-30k",
+  "headword": "newt",
+  "reading": "/nˈut/",
+  "gloss": "イモリ(小型の両生類)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "How can you distinguish between a Gecko and a Newt?",
+    "translation": "「イモリ」と「ヤモリ」って、どうやって見分けるの？",
+    "cloze": "How can you distinguish between a Gecko and a ｟Newt｠?"
+   },
+   {
+    "text": "this is a newt regrowing its limb.",
+    "translation": "これは再生中のイモリの手です",
+    "cloze": "this is a ｟newt｠ regrowing its limb."
+   }
+  ],
+  "frequencyRank": 10586,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x3ccb7b4b",
+  "courseId": "en-10-30k",
+  "headword": "nietzsche",
+  "reading": "/nˈitʃi/",
+  "gloss": "ニーチェ(1844-1900;ドイツの哲学者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nietzsche said, \"Battle ye not with monsters, lest monsters ye become.\"",
+    "translation": "ニーチェは「化け物に成らないように，化け物と喧嘩するな」と言いました。",
+    "cloze": "｟Nietzsche｠ said, \"Battle ye not with monsters, lest monsters ye become.\""
+   },
+   {
+    "text": "you know nietzsche, right?",
+    "translation": "ニーチェを知ってるでしょう?",
+    "cloze": "you know ｟nietzsche｠, right?"
+   }
+  ],
+  "frequencyRank": 10588,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5b21a39d",
+  "courseId": "en-10-30k",
+  "headword": "nitro",
+  "reading": "/nˈɪtɹoʊ/",
+  "gloss": "ニトロ(ニトログリセリンの略;高出力燃料・火薬などを指す俗称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The car raced ahead after using a burst of nitro.",
+    "translation": "その車はニトロを使って一気に加速した。",
+    "cloze": "The car raced ahead after using a burst of ｟nitro｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10589,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xca63f330",
+  "courseId": "en-10-30k",
+  "headword": "norse",
+  "reading": "/nˈɔɹs/",
+  "gloss": "古代スカンジナビア(北欧)の;《the Norse》古代スカンジナビア人、北欧語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tom is an expert on Norse mythology. He's read every Thor comic.",
+    "translation": "トムは北欧神話の専門家、すべてのマイティ・ソーのコミックを読んだから。",
+    "cloze": "Tom is an expert on ｟Norse｠ mythology. He's read every Thor comic."
+   },
+   {
+    "text": "in the case of norse greenland, the hostiles were the inuit",
+    "translation": "グリーンランドのノース人の場合 敵はイヌイット族でした",
+    "cloze": "in the case of ｟norse｠ greenland, the hostiles were the inuit"
+   }
+  ],
+  "frequencyRank": 10591,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd93486db",
+  "courseId": "en-10-30k",
+  "headword": "nehru",
+  "reading": "/nˈeɪɹˌu/",
+  "gloss": "ネルー(Jawaharlal Nehru;1889‐1964;インド共和国の初代首相)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "therefore nehru thought of new delhi as an unindian city.",
+    "translation": "ネルーはニューデリーを 非インド的な都市と位置づけました",
+    "cloze": "therefore ｟＿｠ thought of new delhi as an unindian city."
+   },
+   {
+    "text": "between nehru and edwina mountbatten.",
+    "translation": "ネルーとエドウィナ・マウントバッテンの 会話を耳にしたり",
+    "cloze": "between ｟＿｠ and edwina mountbatten."
+   }
+  ],
+  "frequencyRank": 11158,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1e92cb02",
+  "courseId": "en-10-30k",
+  "headword": "nutty",
+  "reading": "/nˈʌti/",
+  "gloss": "木の実(ナッツ)風味の;《話》気が変な、いかれた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "well, maybe because aunt maya is nuttier than a snickers bar.",
+    "translation": "まあ 多分 マヤ叔母さんが スニッカーズバーよりいかれてるから",
+    "cloze": "well, maybe because aunt maya is ｟＿｠ than a snickers bar."
+   },
+   {
+    "text": "gave me every bit of evidence i need on you and duke, that nutty reverend coggins.",
+    "translation": "あんたやデューク あのいかれた牧師に必要な 証拠を逐一ね",
+    "cloze": "gave me every bit of evidence i need on you and duke, that ｟＿｠ reverend coggins."
+   }
+  ],
+  "frequencyRank": 11353,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x57b3d2bf",
+  "courseId": "en-10-30k",
+  "headword": "napkin",
+  "reading": "/nˈæpkɪn/",
+  "gloss": "ナプキン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There is a napkin missing.",
+    "translation": "ナプキンがありません。",
+    "cloze": "There is a ｟＿｠ missing."
+   },
+   {
+    "text": "May I have a napkin, please?",
+    "translation": "ナプキンを頂けますか。",
+    "cloze": "May I have a ｟＿｠, please?"
+   }
+  ],
+  "frequencyRank": 11925,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xe47ecf4b",
+  "courseId": "en-10-30k",
+  "headword": "nigerians",
+  "reading": "/naɪdʒˈɪɹiənz/",
+  "gloss": "ナイジェリア人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There are many Nigerians living in London.",
+    "translation": "ロンドンには多くのナイジェリア人が住んでいる。",
+    "cloze": "There are many ｟Nigerians｠ living in London.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11929,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc693d671",
+  "courseId": "en-10-30k",
+  "headword": "nameless",
+  "reading": "/nˈeɪmləs/",
+  "gloss": "名前のついていない;名の知られていない,無名の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This poem was written by a nameless poet.",
+    "translation": "この詩は無名の詩人によって書かれた。",
+    "cloze": "This poem was written by a ｟nameless｠ poet."
+   },
+   {
+    "text": "These words were spoken by someone who shall be nameless.",
+    "translation": "この言葉は、名前は伏せておくがある人が言ったものだ。",
+    "cloze": "These words were spoken by someone who shall be ｟nameless｠."
+   }
+  ],
+  "frequencyRank": 12142,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x58698fe5",
+  "courseId": "en-10-30k",
+  "headword": "nada",
+  "reading": "/nˈɑdɑ/",
+  "gloss": "(口語)何もない、ゼロ、無(スペイン語由来)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "i ran fingerprints, dna, ultraviolet. nothing. nada.",
+    "translation": "DNAや指紋は 全くなかったわ",
+    "cloze": "i ran fingerprints, dna, ultraviolet. nothing. ｟nada｠."
+   },
+   {
+    "text": "\"Did you find anything?\" \"Nada.\"",
+    "translation": "「何か見つかった?」「何も」",
+    "cloze": "\"Did you find anything?\" \"｟Nada｠.\"",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12371,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xd35e6974",
+  "courseId": "en-10-30k",
+  "headword": "nafta",
+  "reading": "/nˈæftə/",
+  "gloss": "北米自由貿易協定(NAFTA)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "nafta created it.",
+    "translation": "[北米自由貿易協定で作られた]",
+    "cloze": "｟nafta｠ created it."
+   },
+   {
+    "text": "NAFTA was replaced by a new trade agreement in 2020.",
+    "translation": "NAFTAは2020年に新しい貿易協定に置き換えられた。",
+    "cloze": "｟NAFTA｠ was replaced by a new trade agreement in 2020.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12372,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x172345d1",
+  "courseId": "en-10-30k",
+  "headword": "nineties",
+  "reading": "/nˈaɪntiz/",
+  "gloss": "90年代(1990年代);(人の)90歳代",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She grew up in the nineties.",
+    "translation": "彼女は90年代に育った。",
+    "cloze": "She grew up in the ｟nineties｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "This song was popular in the nineties.",
+    "translation": "この曲は90年代に人気があった。",
+    "cloze": "This song was popular in the ｟nineties｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12377,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x103181f7",
+  "courseId": "en-10-30k",
+  "headword": "npc",
+  "reading": null,
+  "gloss": "(ゲームの)ノンプレイヤーキャラクター;(俗語で)没個性的で周囲に流される人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "You can buy potions from the NPC in the village.",
+    "translation": "村にいるNPCからポーションを買うことができる。",
+    "cloze": "You can buy potions from the ｟＿｠ in the village.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12555,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x42e7f551",
+  "courseId": "en-10-30k",
+  "headword": "nab",
+  "reading": "/nˈæb/",
+  "gloss": "(現行犯で)逮捕する、ひっつかむ",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The robber was nabbed this morning.",
+    "translation": "盗人は今朝あげられた。",
+    "cloze": "The robber was ｟nabbed｠ this morning."
+   },
+   {
+    "text": "reese and carter nabbed the head of hr.",
+    "translation": "リースとカーターは hrのボスを捕まえた",
+    "cloze": "reese and carter ｟nabbed｠ the head of hr."
+   }
+  ],
+  "frequencyRank": 12759,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x20233431",
+  "courseId": "en-10-30k",
+  "headword": "nanoparticles",
+  "reading": null,
+  "gloss": "ナノ粒子",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "is actually filled with nanoparticles",
+    "translation": "ナノ粒子で埋めつくされ",
+    "cloze": "is actually filled with ｟＿｠"
+   },
+   {
+    "text": "nanoparticles into the water.",
+    "translation": "ナノ粒子を放出しています",
+    "cloze": "｟＿｠ into the water."
+   }
+  ],
+  "frequencyRank": 12963,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xd5569bac",
+  "courseId": "en-10-30k",
+  "headword": "nazareth",
+  "reading": "/nˈæzəɹɪθ/",
+  "gloss": "ナザレ(イスラエル北部の都市。イエスが少年時代を過ごした地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nazareth! Can anything good come from there?",
+    "translation": "ナザレから何かよいものが出るだろう。",
+    "cloze": "｟Nazareth｠! Can anything good come from there?"
+   },
+   {
+    "text": "We have found him of whom Moses in the law and also the prophets wrote, Jesus of Nazareth, the son of Joseph.",
+    "translation": "わたしたちは、モーセが律法に記し、預言者たちも書いている方に出会った。それはナザレの人で、ヨセフの子イエスだ。",
+    "cloze": "We have found him of whom Moses in the law and also the prophets wrote, Jesus of ｟Nazareth｠, the son of Joseph."
+   }
+  ],
+  "frequencyRank": 13219,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xaafe06c4",
+  "courseId": "en-10-30k",
+  "headword": "nazism",
+  "reading": "/nˈæzɪzəm/",
+  "gloss": "ナチズム,ドイツ国家社会主義",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Was Nazism peculiar to Germany?",
+    "translation": "ナチズムはドイツ独特のものでしたか。",
+    "cloze": "Was ｟Nazism｠ peculiar to Germany?"
+   },
+   {
+    "text": "democracy versus nazism.",
+    "translation": "\"民主主義 対 ナチズム\"",
+    "cloze": "democracy versus ｟nazism｠."
+   }
+  ],
+  "frequencyRank": 13220,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xc82df5ec",
+  "courseId": "en-10-30k",
+  "headword": "nominally",
+  "reading": "/nˈɑmənəli/",
+  "gloss": "名目上は,表向きは",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "at least nominally.",
+    "translation": "少なくとも名目上だ",
+    "cloze": "at least ｟nominally｠."
+   },
+   {
+    "text": "He is nominally the leader, but she makes the real decisions.",
+    "translation": "彼は名目上のリーダーだが、実際に決定を下すのは彼女だ。",
+    "cloze": "He is ｟nominally｠ the leader, but she makes the real decisions.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13223,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x1f2fa888",
+  "courseId": "en-10-30k",
+  "headword": "nostril",
+  "reading": "/nˈɑstɹɪl/",
+  "gloss": "鼻孔",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There's a pea in my right nostril.",
+    "translation": "右の鼻に豆が入ってしまいました。",
+    "cloze": "There's a pea in my right ｟nostril｠."
+   },
+   {
+    "text": "Hold your breath and pinch your nostrils.",
+    "translation": "息を止めて鼻をつまみなさい。",
+    "cloze": "Hold your breath and pinch your ｟nostrils｠."
+   }
+  ],
+  "frequencyRank": 13226,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x545335b9",
+  "courseId": "en-10-30k",
+  "headword": "nrc",
+  "reading": null,
+  "gloss": "NRC(米国原子力規制委員会。Nuclear Regulatory Commissionの略)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the nrc is saying that contamination was contained",
+    "translation": "汚染が封じ込められたと NRCは述べている",
+    "cloze": "the ｟＿｠ is saying that contamination was contained"
+   },
+   {
+    "text": "nrc emergency.",
+    "translation": "NRC 緊急対応室です",
+    "cloze": "｟＿｠ emergency."
+   }
+  ],
+  "frequencyRank": 13927,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xca56ef8a",
+  "courseId": "en-10-30k",
+  "headword": "nuremberg",
+  "reading": "/nˈʊɹəmbɚɡ/",
+  "gloss": "ニュルンベルク(ドイツの都市。ニュルンベルク裁判で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we'll meet up in nuremberg.",
+    "translation": "ニュールンベルクで落ち合おう",
+    "cloze": "we'll meet up in ｟＿｠."
+   },
+   {
+    "text": "who's pictured here being interrogated at nuremberg.",
+    "translation": "ニュルンベルクで尋問されている写真です",
+    "cloze": "who's pictured here being interrogated at ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14198,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7760451e",
+  "courseId": "en-10-30k",
+  "headword": "nervousness",
+  "reading": "/nˈɝvəsnəs/",
+  "gloss": "神経質、緊張；不安",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom couldn't hide his nervousness at being surrounded by a group of excessively lovely maidens.",
+    "translation": "花も恥じらう乙女たちに囲まれ、トムは緊張を隠せなかった。",
+    "cloze": "Tom couldn't hide his ｟＿｠ at being surrounded by a group of excessively lovely maidens."
+   },
+   {
+    "text": "and i wanted more. but i knew i had to get past this nervousness.",
+    "translation": "でも もっと繋がりたかった それには恐怖症を克服する必要がありました",
+    "cloze": "and i wanted more. but i knew i had to get past this ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14667,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x12d0b81d",
+  "courseId": "en-10-30k",
+  "headword": "nutmeg",
+  "reading": "/nˈʌtmˌɛɡ/",
+  "gloss": "ナツメグ（香辛料）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I need some nutmeg.",
+    "translation": "ナツメグがいるんですけど。",
+    "cloze": "I need some ｟＿｠."
+   },
+   {
+    "text": "Add salt, pepper and a pinch of nutmeg.",
+    "translation": "塩コショウして、ナツメグを一つまみ加えます。",
+    "cloze": "Add salt, pepper and a pinch of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14671,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xce48bfd3",
+  "courseId": "en-10-30k",
+  "headword": "nmr",
+  "reading": "/ˌɛnˌɛmˈɑɹ/",
+  "gloss": "核磁気共鳴(NMR)。分析化学やMRIなどの医療画像診断で使われる技術",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The chemist used NMR to identify the molecule's structure.",
+    "translation": "化学者はNMRを使ってその分子の構造を特定した。",
+    "cloze": "The chemist used ｟＿｠ to identify the molecule's structure.",
+    "aiGenerated": true
+   },
+   {
+    "text": "NMR spectroscopy is widely used in organic chemistry.",
+    "translation": "NMR分光法は有機化学で広く使われている。",
+    "cloze": "｟＿｠ spectroscopy is widely used in organic chemistry.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14913,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xb3005a8e",
+  "courseId": "en-10-30k",
+  "headword": "nacho",
+  "reading": "/nˈætʃˌoʊ/",
+  "gloss": "ナチョス(トウモロコシチップスにチーズなどをのせた料理)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We ordered a plate of nachos to share.",
+    "translation": "私たちはシェアするためにナチョスを一皿注文した。",
+    "cloze": "We ordered a plate of ｟＿｠ to share.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The nachos were covered in melted cheese and jalapeños.",
+    "translation": "そのナチョスは溶けたチーズとハラペーニョで覆われていた。",
+    "cloze": "The ｟＿｠ were covered in melted cheese and jalapeños.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15164,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x59fe9bd8",
+  "courseId": "en-10-30k",
+  "headword": "negroes",
+  "reading": "/nˈiɡɹoʊz/",
+  "gloss": "黒人(現在では差別的とされ、歴史的文脈でのみ用いられる語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "In the 1950s, Negroes were often required to use separate facilities under segregation laws.",
+    "translation": "1950年代、隔離法の下で黒人(ニグロ)はしばしば別々の施設を使うことを強いられていた。",
+    "cloze": "In the 1950s, ｟＿｠ were often required to use separate facilities under segregation laws.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15166,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0bc8b02a",
+  "courseId": "en-10-30k",
+  "headword": "nanjing",
+  "reading": "/nˈændʒɪŋ/",
+  "gloss": "南京(中国江蘇省の省都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "delivered to a server at the nanjing grand hotel.",
+    "translation": "南京グランドホテルに 送信されました",
+    "cloze": "delivered to a server at the ｟＿｠ grand hotel."
+   },
+   {
+    "text": "Nanjing was once the capital of China.",
+    "translation": "南京はかつて中国の首都だった。",
+    "cloze": "｟＿｠ was once the capital of China.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15652,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfe7e4705",
+  "courseId": "en-10-30k",
+  "headword": "nda",
+  "reading": null,
+  "gloss": "秘密保持契約(Non-Disclosure Agreementの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "they're not under nda either.",
+    "translation": "彼らも守秘義務がないのですから",
+    "cloze": "they're not under ｟＿｠ either."
+   },
+   {
+    "text": "perhaps you give us the name of the person who asked you to sign the nda and we can pose our questions to them?",
+    "translation": "君に秘密保持契約書にサインさせた人の名前を 言ってくれれば 直接その人物に尋ねよう",
+    "cloze": "perhaps you give us the name of the person who asked you to sign the ｟＿｠ and we can pose our questions to them?"
+   }
+  ],
+  "frequencyRank": 15653,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x06298cd6",
+  "courseId": "en-10-30k",
+  "headword": "nepali",
+  "reading": "/nəpˈɔli/",
+  "gloss": "ネパールの、ネパール人(語)の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "\"Resham Firiri\" is a very popular Nepali song.",
+    "translation": "「レシャム・フィリリ」はとても人気のあるネパールの歌です。",
+    "cloze": "\"Resham Firiri\" is a very popular ｟＿｠ song."
+   },
+   {
+    "text": "a mexican gardener in los angeles and a nepali housekeeper in delhi",
+    "translation": "ロサンジェルスで働くメキシコ人庭師と デリーで働くネパール人の家政婦は",
+    "cloze": "a mexican gardener in los angeles and a ｟＿｠ housekeeper in delhi"
+   }
+  ],
+  "frequencyRank": 15655,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xfca8db40",
+  "courseId": "en-10-30k",
+  "headword": "nola",
+  "reading": "/nˈoʊlə/",
+  "gloss": "ニューオーリンズ(の略称、通称NOLA)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "jim corrigan, nola pd homicide.",
+    "translation": "ジム・コーリガンだ ニューオリンズ警察殺人課だ",
+    "cloze": "jim corrigan, ｟＿｠ pd homicide."
+   },
+   {
+    "text": "don't they tease people down in nola?",
+    "translation": "ニューオリンズの人は 冗談通じないの?",
+    "cloze": "don't they tease people down in ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 15657,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4be62965",
+  "courseId": "en-10-30k",
+  "headword": "navigational",
+  "reading": "/nˌævəɡˈeɪʃənəl/",
+  "gloss": "航海の、航法の、ナビゲーションの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "we need your navigational maps and celestial almanacs.",
+    "translation": "航海図と天体暦が必要だ",
+    "cloze": "we need your ｟＿｠ maps and celestial almanacs."
+   },
+   {
+    "text": "it may have been a navigational error and they jumped to the wrong coordinates... or the cylons destroyed the ship before the jump...",
+    "translation": "単純な航法ミスなのかも 違う座標にジャンプしたのかも あるいはジャンプ前にサイロンが 破壊したのかもしれません",
+    "cloze": "it may have been a ｟＿｠ error and they jumped to the wrong coordinates... or the cylons destroyed the ship before the jump..."
+   }
+  ],
+  "frequencyRank": 15923,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xd8d7f73e",
+  "courseId": "en-10-30k",
+  "headword": "nagasaki",
+  "reading": "/nˌɑɡɑsˈɑki/",
+  "gloss": "長崎（日本の都市）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I went to Nagasaki.",
+    "translation": "私は、長崎に行った。",
+    "cloze": "I went to ｟＿｠."
+   },
+   {
+    "text": "He lives in Nagasaki.",
+    "translation": "彼は長崎に住んでいる。",
+    "cloze": "He lives in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 16174,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x92001a53",
+  "courseId": "en-10-30k",
+  "headword": "naga",
+  "reading": null,
+  "gloss": "ナーガ(ヒンドゥー教・仏教神話に登場する蛇の神);インド北東部のナガ族",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "In Hindu mythology, a naga is a divine serpent being.",
+    "translation": "ヒンドゥー教の神話では、ナーガは神聖な蛇の存在とされる。",
+    "cloze": "In Hindu mythology, a ｟＿｠ is a divine serpent being.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16447,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x2ee8e2b9",
+  "courseId": "en-10-30k",
+  "headword": "nothingness",
+  "reading": "/nˈʌθɪŋnəs/",
+  "gloss": "無、空虚;虚無",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we have sheer nothingness on one side",
+    "translation": "一方は全くの空虚で 最も簡素な現実です",
+    "cloze": "we have sheer ｟＿｠ on one side"
+   },
+   {
+    "text": "why not no laws at all? why not sheer nothingness?",
+    "translation": "どうして他の法則が何もないのか? どうして全くの無でないのか?",
+    "cloze": "why not no laws at all? why not sheer ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 16451,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe189a6f5",
+  "courseId": "en-10-30k",
+  "headword": "northamptonshire",
+  "reading": null,
+  "gloss": "ノーサンプトンシャー(イングランドの州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Northamptonshire is a county in the East Midlands of England.",
+    "translation": "ノーサンプトンシャーはイングランド東ミッドランズにある州だ。",
+    "cloze": "｟＿｠ is a county in the East Midlands of England.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She grew up in a small village in Northamptonshire.",
+    "translation": "彼女はノーサンプトンシャーの小さな村で育った。",
+    "cloze": "She grew up in a small village in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16699,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc51fd31c",
+  "courseId": "en-10-30k",
+  "headword": "neanderthal",
+  "reading": "/niˈændɚθˌɔl/",
+  "gloss": "ネアンデルタール人(旧人類の一種);(俗に)野蛮な人、原始的な人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "yeah, from the neanderthals.",
+    "translation": "ネアンデルタール人のね",
+    "cloze": "yeah, from the ｟＿｠."
+   },
+   {
+    "text": "the same things as for the neanderthals:",
+    "translation": "同じ質問ができます",
+    "cloze": "the same things as for the ｟＿｠:"
+   }
+  ],
+  "frequencyRank": 16964,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x381d7d3b",
+  "courseId": "en-10-30k",
+  "headword": "newbies",
+  "reading": null,
+  "gloss": "初心者、新参者(俗語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Newbies often ask a lot of questions when they join.",
+    "translation": "新参者は加入したばかりの頃はよく質問をする。",
+    "cloze": "｟＿｠ often ask a lot of questions when they join.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Be patient with newbies; everyone was new once.",
+    "translation": "初心者には辛抱強く接しよう。誰もが最初は初心者だったのだから。",
+    "cloze": "Be patient with ｟＿｠; everyone was new once.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16965,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5d5146ed",
+  "courseId": "en-10-30k",
+  "headword": "nippon",
+  "reading": "/nˌɪpˈɑn/",
+  "gloss": "日本(日本語による国名表記)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Japan is called \"Nippon\" in Japanese.",
+    "translation": "日本は日本で「にっぽん」と言われてるんだ。",
+    "cloze": "Japan is called \"｟＿｠\" in Japanese."
+   },
+   {
+    "text": "Nippon Steel is one of the largest steel companies in the world.",
+    "translation": "日本製鉄は世界最大級の鉄鋼会社の一つだ。",
+    "cloze": "｟＿｠ Steel is one of the largest steel companies in the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16966,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfa8afb31",
+  "courseId": "en-10-30k",
+  "headword": "nauru",
+  "reading": null,
+  "gloss": "ナウル(南太平洋の島国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "of micronesia, marshall islands, nauru, niue, palau and tonga.",
+    "translation": "ミクロネシア、マーシャル諸島 ナウル、ニウエ、パラオ、トンガです",
+    "cloze": "of micronesia, marshall islands, ｟＿｠, niue, palau and tonga."
+   },
+   {
+    "text": "Nauru is one of the smallest countries in the world.",
+    "translation": "ナウルは世界最小の国の一つである。",
+    "cloze": "｟＿｠ is one of the smallest countries in the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17220,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x29f88fd0",
+  "courseId": "en-10-30k",
+  "headword": "nepalese",
+  "reading": "/nˌɛpəlˈiz/",
+  "gloss": "ネパールの、ネパール人(の)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and nepalese, these laborers risk everything",
+    "translation": "そしてネパール人の労働者が全てのリスクを負います",
+    "cloze": "and ｟＿｠, these laborers risk everything"
+   },
+   {
+    "text": "pakistanis, sri lankans, bangladeshis, nepalese",
+    "translation": "パキスタン人、スリランカ人、バングラディシュ人、ネパール人が",
+    "cloze": "pakistanis, sri lankans, bangladeshis, ｟＿｠"
+   }
+  ],
+  "frequencyRank": 17221,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1bb5369e",
+  "courseId": "en-10-30k",
+  "headword": "nsc",
+  "reading": null,
+  "gloss": "国家安全保障会議(米国NSC:National Security Council)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The NSC held an emergency meeting after the crisis began.",
+    "translation": "危機発生後、NSCは緊急会議を開いた。",
+    "cloze": "The ｟＿｠ held an emergency meeting after the crisis began.",
+    "aiGenerated": true
+   },
+   {
+    "text": "As national security adviser, she reports directly to the NSC.",
+    "translation": "国家安全保障担当補佐官として、彼女はNSCに直接報告する。",
+    "cloze": "As national security adviser, she reports directly to the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17222,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xc574a1f6",
+  "courseId": "en-10-30k",
+  "headword": "narnia",
+  "reading": "/nˈɑɹnˌiɑ/",
+  "gloss": "ナルニア国(C・S・ルイスのファンタジー小説『ナルニア国物語』の舞台)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and that'll take us where? narnia?",
+    "translation": "それでどこに出るの ナルニア?",
+    "cloze": "and that'll take us where? ｟＿｠?"
+   },
+   {
+    "text": "peter, there is a deep magic... more powerful than any of us... that rules over all of narnia.",
+    "translation": "ピーター 大きい魔法がある どんな魔法より強力なものだ それはナルニア国の全てを支配し",
+    "cloze": "peter, there is a deep magic... more powerful than any of us... that rules over all of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 17519,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x628abda5",
+  "courseId": "en-10-30k",
+  "headword": "ngl",
+  "reading": null,
+  "gloss": "正直言うと、実は(not gonna lieの略、SNS・チャットで使われる)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Ngl, this movie was better than I expected.",
+    "translation": "正直言うと、この映画は思ったよりよかった。",
+    "cloze": "｟＿｠, this movie was better than I expected.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17522,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x405bf435",
+  "courseId": "en-10-30k",
+  "headword": "nad",
+  "reading": "/nˈæd/",
+  "gloss": "《俗》金玉、睾丸(通常nadsと複数形で使う)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "my nads are freezing off.",
+    "translation": "凍えそうだぜ",
+    "cloze": "my ｟＿｠ are freezing off."
+   }
+  ],
+  "frequencyRank": 18133,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x65bfa4ea",
+  "courseId": "en-10-30k",
+  "headword": "nagoya",
+  "reading": "/nəɡˈɔɪə/",
+  "gloss": "名古屋(日本の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "What's the stop after Nagoya?",
+    "translation": "名古屋の次はどこですか。",
+    "cloze": "What's the stop after ｟Nagoya｠?"
+   },
+   {
+    "text": "He went to Nagoya on business.",
+    "translation": "彼は仕事で名古屋に行った。",
+    "cloze": "He went to ｟Nagoya｠ on business."
+   }
+  ],
+  "frequencyRank": 19004,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe06a429d",
+  "courseId": "en-10-30k",
+  "headword": "neanderthals",
+  "reading": "/niˈændɚθˌɔlz/",
+  "gloss": "ネアンデルタール人(絶滅した人類の一種)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Neanderthals lived in Europe and Asia until about 40,000 years ago.",
+    "translation": "ネアンデルタール人は約4万年前までヨーロッパとアジアに住んでいた。",
+    "cloze": "｟Neanderthals｠ lived in Europe and Asia until about 40,000 years ago.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19007,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xc39d04d3",
+  "courseId": "en-10-30k",
+  "headword": "norwegians",
+  "reading": "/nɔɹwˈidʒənz/",
+  "gloss": "ノルウェー人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Norwegians are known for their love of skiing and the outdoors.",
+    "translation": "ノルウェー人はスキーとアウトドアを愛することで知られている。",
+    "cloze": "｟Norwegians｠ are known for their love of skiing and the outdoors.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19011,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x03211e9f",
+  "courseId": "en-10-30k",
+  "headword": "nvm",
+  "reading": null,
+  "gloss": "気にしないで、なんでもない(never mindの略・チャット用語)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Wait, nvm, I found it already.",
+    "translation": "あ、気にしないで、もう見つけたから。",
+    "cloze": "Wait, ｟nvm｠, I found it already.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19012,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x96fc4951",
+  "courseId": "en-10-30k",
+  "headword": "nara",
+  "reading": "/nˈɑɹə/",
+  "gloss": "奈良(日本の都市・県名、古都として有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He went to Nara.",
+    "translation": "彼は奈良に行った。",
+    "cloze": "He went to ｟＿｠."
+   },
+   {
+    "text": "I've visited Nara.",
+    "translation": "私は奈良を訪れたことがあります。",
+    "cloze": "I've visited ｟＿｠."
+   }
+  ],
+  "frequencyRank": 19604,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xaaa5763b",
+  "courseId": "en-10-30k",
+  "headword": "numerically",
+  "reading": "/numˈɛɹɪkli/",
+  "gloss": "数的に、数の上で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "it's very difficult numerically.",
+    "translation": "数字の上では かなり難しいです",
+    "cloze": "it's very difficult ｟＿｠."
+   },
+   {
+    "text": "The two teams are numerically equal in strength.",
+    "translation": "その2チームは数の上では戦力が同等だ。",
+    "cloze": "The two teams are ｟＿｠ equal in strength.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19608,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x7b738282",
+  "courseId": "en-10-30k",
+  "headword": "nutcracker",
+  "reading": "/nˈʌtkɹˌækɚ/",
+  "gloss": "クルミ割り(器具)；ホシガラス(鳥)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "frederick fuchtner nutcracker.",
+    "translation": "くるみ割りがあるんだ",
+    "cloze": "frederick fuchtner ｟＿｠."
+   },
+   {
+    "text": "i mean, he created the first nutcracker in like 1870 or something.",
+    "translation": "彼は1870年くらいに初めて くるみ割りを発明したんだよ",
+    "cloze": "i mean, he created the first ｟＿｠ in like 1870 or something."
+   }
+  ],
+  "frequencyRank": 19609,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x796baf40",
+  "courseId": "en-10-30k",
+  "headword": "nibble",
+  "reading": "/nˈɪbəl/",
+  "gloss": "少しずつかじる,つつく;少量,一口",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He managed to cure himself of his habit of nibbling his nails.",
+    "translation": "彼は爪を噛む癖をやっと直した。",
+    "cloze": "He managed to cure himself of his habit of ｟＿｠ his nails."
+   },
+   {
+    "text": "You say you had a nibble, it looked to me like you'd polished it off.",
+    "translation": "つまみ食いと言うか、完食していたように見えたが。",
+    "cloze": "You say you had a ｟＿｠, it looked to me like you'd polished it off."
+   }
+  ],
+  "frequencyRank": 19884,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x1b338a72",
+  "courseId": "en-10-30k",
+  "headword": "nosy",
+  "reading": "/nˈoʊzi/",
+  "gloss": "せんさく好きの,おせっかいな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "My neighbor is what we call a nosy person.",
+    "translation": "私の隣人はいわゆる詮索好きなのです。",
+    "cloze": "My neighbor is what we call a ｟＿｠ person."
+   },
+   {
+    "text": "well,me... i'm just nosy.",
+    "translation": "僕は・・・ただ詮索好きだから",
+    "cloze": "well,me... i'm just ｟＿｠."
+   }
+  ],
+  "frequencyRank": 19886,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb9c763d5",
+  "courseId": "en-10-30k",
+  "headword": "nantucket",
+  "reading": "/næntˈʌkɪt/",
+  "gloss": "ナンタケット島(米国マサチューセッツ州沖の島)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "when you get to your little place on nantucket island",
+    "translation": "ナンタケット島に落ち着いたら...",
+    "cloze": "when you get to your little place on ｟＿｠ island"
+   },
+   {
+    "text": "Nantucket is a small island known for its beaches.",
+    "translation": "ナンタケットはビーチで知られる小さな島だ。",
+    "cloze": "｟＿｠ is a small island known for its beaches.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20182,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x82d2cf1a",
+  "courseId": "en-10-30k",
+  "headword": "nines",
+  "reading": "/nˈaɪnz/",
+  "gloss": "9(数字);(dressed to the nines で)めかしこんで",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She was dressed to the nines for the party.",
+    "translation": "彼女はパーティーのためにめかしこんでいた。",
+    "cloze": "She was dressed to the ｟＿｠ for the party.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20190,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xde3db9fd",
+  "courseId": "en-10-30k",
+  "headword": "neg",
+  "reading": "/nˈɛɡ/",
+  "gloss": "(略式)陰性(の);(写真の)ネガ,陰画",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "hey, how long has this neg roll been here... out in the open?",
+    "translation": "このネガいつからここに? 出しっ放しで",
+    "cloze": "hey, how long has this ｟＿｠ roll been here... out in the open?"
+   },
+   {
+    "text": "let's start two bags of o neg.",
+    "translation": "2つのOネガを開始",
+    "cloze": "let's start two bags of o ｟＿｠."
+   }
+  ],
+  "frequencyRank": 20771,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x01f304af",
+  "courseId": "en-10-30k",
+  "headword": "nicaraguan",
+  "reading": "/nˌɪkɚˈɑɡwən/",
+  "gloss": "ニカラグアの;ニカラグア人(の)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "it's like a goddamn nicaraguan death squad.",
+    "translation": "まるで ニカラグアの暗殺部隊です",
+    "cloze": "it's like a goddamn ｟＿｠ death squad."
+   },
+   {
+    "text": "of a nicaraguan drug cartel.",
+    "translation": "ニカラグアの麻薬カルテルに潜入する",
+    "cloze": "of a ｟＿｠ drug cartel."
+   }
+  ],
+  "frequencyRank": 20772,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf7b9c63e",
+  "courseId": "en-10-30k",
+  "headword": "nim",
+  "reading": null,
+  "gloss": "ニム(石や棒を交互に取り除く数学的な陣取りゲーム)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Nim is a simple strategy game in which players take turns removing objects from piles.",
+    "translation": "ニムは、プレイヤーが交互に山から物を取り除いていくシンプルな戦略ゲームである。",
+    "cloze": "｟＿｠ is a simple strategy game in which players take turns removing objects from piles.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20773,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xc4321b2d",
+  "courseId": "en-10-30k",
+  "headword": "nudist",
+  "reading": "/nˈudɪst/",
+  "gloss": "裸体主義者、ヌーディスト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There are many nudist beaches in East Germany.",
+    "translation": "東ドイツには多くのヌーディストビーチがある。",
+    "cloze": "There are many ｟nudist｠ beaches in East Germany."
+   },
+   {
+    "text": "this is a nudist beach.",
+    "translation": "ここ ヌーディスト・ビーチだ",
+    "cloze": "this is a ｟nudist｠ beach."
+   }
+  ],
+  "frequencyRank": 21096,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb394207b",
+  "courseId": "en-10-30k",
+  "headword": "nagpur",
+  "reading": null,
+  "gloss": "ナグプール(インド、マハーラーシュトラ州の主要都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nagpur is known as the orange city of India.",
+    "translation": "ナグプールはインドの「オレンジの都市」として知られている。",
+    "cloze": "｟＿｠ is known as the orange city of India.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We took an overnight train to Nagpur.",
+    "translation": "私たちは夜行列車でナグプールへ向かった。",
+    "cloze": "We took an overnight train to ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21386,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe3e0f216",
+  "courseId": "en-10-30k",
+  "headword": "neverland",
+  "reading": "/nˈɛvɚlænd/",
+  "gloss": "ネバーランド（『ピーター・パン』に登場する空想上の島。転じて理想郷・現実逃避先を指す）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i used to say to myself he'd gone to neverland.",
+    "translation": "ネバーランドに 行った どこ?",
+    "cloze": "i used to say to myself he'd gone to ｟＿｠."
+   },
+   {
+    "text": "off we go, to neverland!",
+    "translation": "ゆくぞ ネバーランドへ!",
+    "cloze": "off we go, to ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 21706,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4f1a7e5f",
+  "courseId": "en-10-30k",
+  "headword": "nineveh",
+  "reading": "/nˈɪnəvə/",
+  "gloss": "ニネヴェ(古代アッシリア帝国の都、現在のイラク北部)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The ancient city of Nineveh was once the capital of the Assyrian Empire.",
+    "translation": "古代都市ニネヴェは、かつてアッシリア帝国の首都だった。",
+    "cloze": "The ancient city of ｟＿｠ was once the capital of the Assyrian Empire.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22377,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4f5da494",
+  "courseId": "en-10-30k",
+  "headword": "neapolitan",
+  "reading": "/nˌiəpˈɑlətən/",
+  "gloss": "ナポリの、ナポリ風の;ナポリ生まれの人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "a classic neapolitan dessert, with almond milk.",
+    "translation": "伝統的なナポリのデザート、 それにアーモンドミルクを加えた",
+    "cloze": "a classic ｟＿｠ dessert, with almond milk."
+   },
+   {
+    "text": "Her grandmother was a proud Neapolitan, born near Mount Vesuvius.",
+    "translation": "彼女の祖母は誇り高きナポリ人で、ヴェスヴィオ山の近くで生まれた。",
+    "cloze": "Her grandmother was a proud ｟＿｠, born near Mount Vesuvius.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23027,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xafd104d8",
+  "courseId": "en-10-30k",
+  "headword": "nucleotides",
+  "reading": "/nˈukliətˌaɪdz/",
+  "gloss": "ヌクレオチド(DNA・RNAを構成する単位分子)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "DNA is made up of building blocks called nucleotides.",
+    "translation": "DNAはヌクレオチドと呼ばれる構成単位からできている。",
+    "cloze": "DNA is made up of building blocks called ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Each strand of RNA is a chain of nucleotides.",
+    "translation": "RNAの各鎖はヌクレオチドの連なりである。",
+    "cloze": "Each strand of RNA is a chain of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23033,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x88a22015",
+  "courseId": "en-10-30k",
+  "headword": "namaste",
+  "reading": "/nˈɑmɑstˌeɪ/",
+  "gloss": "ナマステ(ヒンディー語のあいさつ・別れの言葉。ヨガでも使われる)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Namaste!",
+    "translation": "ナマステ!",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "Namaste. Salaam.",
+    "translation": "ナマステ、サラーム、",
+    "cloze": "｟＿｠. Salaam."
+   }
+  ],
+  "frequencyRank": 23359,
+  "category": "greetings"
+ },
+ {
+  "id": "en-10-30k-x6c147e15",
+  "courseId": "en-10-30k",
+  "headword": "nanotubes",
+  "reading": null,
+  "gloss": "ナノチューブ(特にカーボンナノチューブ。直径ナノメートル単位の筒状構造)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We engineered a virus to pick up carbon nanotubes.",
+    "translation": "ウイルスを改良して 一部分でカーボンナノチューブを",
+    "cloze": "We engineered a virus to pick up carbon ｟＿｠."
+   },
+   {
+    "text": "Imagine you have carbon nanotubes growing.",
+    "translation": "3dプリンタの中で カーボンナノチューブが",
+    "cloze": "Imagine you have carbon ｟＿｠ growing."
+   }
+  ],
+  "frequencyRank": 23360,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x50d63836",
+  "courseId": "en-10-30k",
+  "headword": "noob",
+  "reading": null,
+  "gloss": "初心者、素人(特にゲームやネットのスラング)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I want to point out right now that eHome, they are not noobs.",
+    "translation": "ご存知の通り イーホームは 初心者ではありません",
+    "cloze": "I want to point out right now that eHome, they are not ｟＿｠."
+   },
+   {
+    "text": "Don't laugh at him, everyone's a noob at first.",
+    "translation": "彼を笑うなよ、誰でも最初は初心者なんだから。",
+    "cloze": "Don't laugh at him, everyone's a ｟＿｠ at first.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23365,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb7f771b7",
+  "courseId": "en-10-30k",
+  "headword": "nhk",
+  "reading": null,
+  "gloss": "NHK(日本放送協会)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Can you direct me to NHK?",
+    "translation": "ＮＨＫへの行き方を教えていただきませんか。",
+    "cloze": "Can you direct me to ｟＿｠?"
+   },
+   {
+    "text": "NHK is a public broadcaster.",
+    "translation": "ＮＨＫは公共放送です。",
+    "cloze": "｟＿｠ is a public broadcaster."
+   }
+  ],
+  "frequencyRank": 23995,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc670ba5c",
+  "courseId": "en-10-30k",
+  "headword": "nightstand",
+  "reading": "/nˈaɪtstˌænd/",
+  "gloss": "枕元用の小机,ナイトテーブル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "well, if you finish your magazine, there's a bible in the nightstand.",
+    "translation": "雑誌を読み終わったら スタンドの下に聖書を置いてますから",
+    "cloze": "well, if you finish your magazine, there's a bible in the ｟＿｠."
+   },
+   {
+    "text": "okay, i'm gonna hide one of these in your nightstand, probably put one in the kitchen somewhere.",
+    "translation": "1つを ナイトスタンドに隠します もう1つは 台所のどこかに置いてください",
+    "cloze": "okay, i'm gonna hide one of these in your ｟＿｠, probably put one in the kitchen somewhere."
+   }
+  ],
+  "frequencyRank": 23997,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x22c88cd1",
+  "courseId": "en-10-30k",
+  "headword": "noh",
+  "reading": "/nˈoʊ/",
+  "gloss": "能(日本の伝統的な仮面劇)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Noh is a traditional Japanese art.",
+    "translation": "能は伝統的な日本の芸術である。",
+    "cloze": "｟＿｠ is a traditional Japanese art."
+   },
+   {
+    "text": "Hannya refers to the Noh mask of a female demon.",
+    "translation": "般若とは鬼女の能面の事です。",
+    "cloze": "Hannya refers to the ｟＿｠ mask of a female demon."
+   }
+  ],
+  "frequencyRank": 23998,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb4d737f0",
+  "courseId": "en-10-30k",
+  "headword": "ntsc",
+  "reading": null,
+  "gloss": "NTSC方式(米国・日本などで使われていたアナログテレビ放送規格)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Old TVs in Japan used the NTSC standard.",
+    "translation": "日本の古いテレビはNTSC方式を使用していた。",
+    "cloze": "Old TVs in Japan used the ｟＿｠ standard.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24001,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x2eb589d4",
+  "courseId": "en-10-30k",
+  "headword": "nunavut",
+  "reading": "/nˈʊnəvət/",
+  "gloss": "ヌナブト準州(カナダ北部の準州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it's our new homeland. it's called nunavut.",
+    "translation": "ヌナブトという彼らの新しい故郷です",
+    "cloze": "it's our new homeland. it's called ｟＿｠."
+   },
+   {
+    "text": "this is the turnoff to nunavut.",
+    "translation": "ここは ヌナブットへのわき道だ",
+    "cloze": "this is the turnoff to ｟＿｠."
+   }
+  ],
+  "frequencyRank": 24002,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x89202b83",
+  "courseId": "en-10-30k",
+  "headword": "newtonian",
+  "reading": "/nutˈoʊniən/",
+  "gloss": "ニュートン(力学・物理学)の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Perry is mistaken in thinking that Emmet's theory was constructed without reference to Newtonian physics.",
+    "translation": "ペリーはエメット理論がニュートン物理学とは無関係に構築されたと考えているが、それは誤っている。",
+    "cloze": "Perry is mistaken in thinking that Emmet's theory was constructed without reference to ｟Newtonian｠ physics."
+   },
+   {
+    "text": "Of course Darwin, like many of his contemporaries, wished to be seen as following the Newtonian method.",
+    "translation": "もちろん、ダーウィンは同時代の多くの学者と同様、ニュートンの方法論に従っていると見られることを欲した。",
+    "cloze": "Of course Darwin, like many of his contemporaries, wished to be seen as following the ｟Newtonian｠ method."
+   }
+  ],
+  "frequencyRank": 24321,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x44e8d158",
+  "courseId": "en-10-30k",
+  "headword": "normans",
+  "reading": null,
+  "gloss": "ノルマン人(11世紀にイングランドを征服した北フランス出身の民族)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Normans conquered England in 1066.",
+    "translation": "ノルマン人は1066年にイングランドを征服した。",
+    "cloze": "The ｟Normans｠ conquered England in 1066.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24322,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x754a8447",
+  "courseId": "en-10-30k",
+  "headword": "neckline",
+  "reading": null,
+  "gloss": "(服の)えりぐり、ネックライン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so, what these designers do is they find a way to lower the neckline",
+    "translation": "そこでデザイナー達は ネックラインを下げる方法を模索しました",
+    "cloze": "so, what these designers do is they find a way to lower the ｟neckline｠"
+   },
+   {
+    "text": "i love what you've done with the neckline.",
+    "translation": "この襟元 とてもいいわ",
+    "cloze": "i love what you've done with the ｟neckline｠."
+   }
+  ],
+  "frequencyRank": 24684,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x14a7cb48",
+  "courseId": "en-10-30k",
+  "headword": "nanking",
+  "reading": "/nˈæŋkɪŋ/",
+  "gloss": "南京(中国江蘇省の都市。かつての中国の首都。現在はNanjing表記が一般的)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nanking was once the capital of China.",
+    "translation": "南京はかつて中国の首都だった。",
+    "cloze": "｟＿｠ was once the capital of China.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The ancient walls of Nanking still stand today.",
+    "translation": "南京の古い城壁は今も残っている。",
+    "cloze": "The ancient walls of ｟＿｠ still stand today.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25057,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd11fafbd",
+  "courseId": "en-10-30k",
+  "headword": "noida",
+  "reading": null,
+  "gloss": "ノイダ(インド・デリー近郊の都市。IT・アウトソーシング企業が集積)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Many IT companies have offices in Noida.",
+    "translation": "多くのIT企業がノイダにオフィスを構えている。",
+    "cloze": "Many IT companies have offices in ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Noida has become a major hub for IT and outsourcing companies.",
+    "translation": "ノイダはIT・アウトソーシング企業の一大拠点となった。",
+    "cloze": "｟＿｠ has become a major hub for IT and outsourcing companies.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25061,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfdeaa7e8",
+  "courseId": "en-10-30k",
+  "headword": "netizens",
+  "reading": null,
+  "gloss": "ネット市民、インターネット利用者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so even that when the netizens criticize the local government",
+    "translation": "従ってネット市民が地方政府を非難しても",
+    "cloze": "so even that when the ｟＿｠ criticize the local government"
+   },
+   {
+    "text": "he wanted to prevent the netizens [from criticizing] him.",
+    "translation": "彼はネット市民が批判できないようにしました",
+    "cloze": "he wanted to prevent the ｟＿｠ [from criticizing] him."
+   }
+  ],
+  "frequencyRank": 25804,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x6d0b300c",
+  "courseId": "en-10-30k",
+  "headword": "newscast",
+  "reading": "/nˈuzkˌæst/",
+  "gloss": "（ラジオ・テレビの）ニュース放送番組",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The TV newscast informs us of daily news.",
+    "translation": "テレビのニュースでその日の出来事を知ります。",
+    "cloze": "The TV ｟＿｠ informs us of daily news."
+   },
+   {
+    "text": "We watched the evening newscast to catch up on local events.",
+    "translation": "地元の出来事を知るために夕方のニュース番組を見た。",
+    "cloze": "We watched the evening ｟＿｠ to catch up on local events.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26180,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xa87325c3",
+  "courseId": "en-10-30k",
+  "headword": "nicu",
+  "reading": null,
+  "gloss": "新生児集中治療室（NICU）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The premature baby was moved to the NICU right after birth.",
+    "translation": "その未熟児は出生直後にNICU（新生児集中治療室）に運ばれた。",
+    "cloze": "The premature baby was moved to the ｟＿｠ right after birth.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26183,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf813336e",
+  "courseId": "en-10-30k",
+  "headword": "nanoscale",
+  "reading": null,
+  "gloss": "ナノスケールの,ナノメートル単位の(極めて微小な尺度)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "one of the things about working at the nanoscale",
+    "translation": "ナノスケールの作業において一つ言えるのは",
+    "cloze": "one of the things about working at the ｟nanoscale｠"
+   },
+   {
+    "text": "that we can combine the world of the nanoscale programmable adaptive materials",
+    "translation": "つまりナノスケールの プログラム可能で適応性のある素材と",
+    "cloze": "that we can combine the world of the ｟nanoscale｠ programmable adaptive materials"
+   }
+  ],
+  "frequencyRank": 26587,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xd720738f",
+  "courseId": "en-10-30k",
+  "headword": "nob",
+  "reading": null,
+  "gloss": "(英俗語)金持ち,上流階級の人;(俗)頭",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "did you know nob is a slang term which means rich or wealthy?",
+    "translation": "「ノブ」という俗語は '裕福な'とか '金持ち'という意味だって",
+    "cloze": "did you know ｟nob｠ is a slang term which means rich or wealthy?"
+   }
+  ],
+  "frequencyRank": 26595,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd636d4e9",
+  "courseId": "en-10-30k",
+  "headword": "nother",
+  "reading": "/nˈʌðɚ/",
+  "gloss": "(略式)別の,もう一つの(\"another\"のくだけた変形。\"a whole nother\"の形で使う)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "nother month... could've been your viable human.",
+    "translation": "もう一月あれば 産まれてた",
+    "cloze": "｟nother｠ month... could've been your viable human."
+   },
+   {
+    "text": "you looked great, like a whole nother fighter.",
+    "translation": "まるで別人のように見えた",
+    "cloze": "you looked great, like a whole ｟nother｠ fighter."
+   }
+  ],
+  "frequencyRank": 26596,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x0015424f",
+  "courseId": "en-10-30k",
+  "headword": "natively",
+  "reading": "/nˈeɪtɪvli/",
+  "gloss": "生まれつき、母語として;(ITで)ネイティブに、本来的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "The language both I and the people in my country speak natively is Japanese.",
+    "translation": "私は、母語も母国語も日本語だよ。",
+    "cloze": "The language both I and the people in my country speak ｟＿｠ is Japanese."
+   },
+   {
+    "text": "This app runs natively on both iPhone and Android.",
+    "translation": "このアプリはiPhoneとAndroidの両方でネイティブに動作する。",
+    "cloze": "This app runs ｟＿｠ on both iPhone and Android.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27017,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xbf4a43d4",
+  "courseId": "en-10-30k",
+  "headword": "nikkei",
+  "reading": "/nɪkˈeɪ/",
+  "gloss": "日経(日本経済新聞、または日経平均株価指数の通称)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Nikkei in Tokyo was closed for a public holiday.",
+    "translation": "東京の日経新聞は、祝日のため休刊日でした。",
+    "cloze": "The ｟＿｠ in Tokyo was closed for a public holiday."
+   },
+   {
+    "text": "The Nikkei Stock Average lost nearly 200 points to close yesterday at 18,000.",
+    "translation": "日経平均は200ポイント下げ、昨日は18,000で終えた。",
+    "cloze": "The ｟＿｠ Stock Average lost nearly 200 points to close yesterday at 18,000."
+   }
+  ],
+  "frequencyRank": 27024,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x2769d598",
+  "courseId": "en-10-30k",
+  "headword": "norad",
+  "reading": null,
+  "gloss": "北米防空司令部(NORAD、北米の防空・航空宇宙防衛を担う軍の機関)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "sir. norad confirms...",
+    "translation": "航空宇宙防衛司令部 から報告です",
+    "cloze": "sir. ｟＿｠ confirms..."
+   },
+   {
+    "text": "norad is fully compromised. martin walker now has the ability to launch missiles at any target in the united states.",
+    "translation": "ミサイル発射のシステムは 奪われました",
+    "cloze": "｟＿｠ is fully compromised. martin walker now has the ability to launch missiles at any target in the united states."
+   }
+  ],
+  "frequencyRank": 27027,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x77fab2b5",
+  "courseId": "en-10-30k",
+  "headword": "nand",
+  "reading": null,
+  "gloss": "NAND、否定論理積(論理回路の一種)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's an array of floating gate transistors, configured as a series of nand gates.",
+    "translation": "これはフローティングゲートの トランジスタのアレイだ nandゲートの シリーズとして構成される",
+    "cloze": "it's an array of floating gate transistors, configured as a series of ｟nand｠ gates."
+   }
+  ],
+  "frequencyRank": 27428,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xc8908f8c",
+  "courseId": "en-10-30k",
+  "headword": "nubian",
+  "reading": "/njˈubiən/",
+  "gloss": "ヌビアの、ヌビア人の(古代アフリカ・ナイル上流域の文明)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "you beautiful nubian man!",
+    "translation": "見事なアフリカーン!",
+    "cloze": "you beautiful ｟nubian｠ man!"
+   },
+   {
+    "text": "The ancient Nubian kingdom thrived along the Nile River.",
+    "translation": "古代ヌビア王国はナイル川沿いで栄えた。",
+    "cloze": "The ancient ｟Nubian｠ kingdom thrived along the Nile River.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27438,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x50ac83c0",
+  "courseId": "en-10-30k",
+  "headword": "neet",
+  "reading": "/nˈit/",
+  "gloss": "ニート(就学・就労・職業訓練のいずれもしていない若者)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm still a NEET.",
+    "translation": "俺は相変わらずニートしてますよ。",
+    "cloze": "I'm still a ｟＿｠."
+   },
+   {
+    "text": "its the duty of neets and shutins to watch latenight anime.",
+    "translation": "深夜アニメを見るのはニートと引きこもりの義務だよ☆",
+    "cloze": "its the duty of ｟＿｠ and shutins to watch latenight anime."
+   }
+  ],
+  "frequencyRank": 27859,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x0289e1a6",
+  "courseId": "en-10-30k",
+  "headword": "nog",
+  "reading": null,
+  "gloss": "(エッグ)ノッグ,卵酒(卵と乳製品で作る飲み物)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She poured a glass of nog and added a dash of nutmeg.",
+    "translation": "彼女はノッグ(卵酒)をグラスに注ぎ、ナツメグを少々加えた。",
+    "cloze": "She poured a glass of ｟＿｠ and added a dash of nutmeg.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27861,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xf8689ee4",
+  "courseId": "en-10-30k",
+  "headword": "nsaids",
+  "reading": null,
+  "gloss": "非ステロイド性抗炎症薬(NSAIDs)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i've given you the highest dosage of nsaid... nsaids i can.",
+    "translation": "非ステロイド性抗炎症薬の 最高量を与えた",
+    "cloze": "i've given you the highest dosage of nsaid... ｟＿｠ i can."
+   }
+  ],
+  "frequencyRank": 28271,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xce1a6f6f",
+  "courseId": "en-10-30k",
+  "headword": "nuff",
+  "reading": null,
+  "gloss": "(俗語)十分な,たくさんの(=enough)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "that's nuff. don't wanna watch anymore.",
+    "translation": "もう いいよ これ これ以上 見ても無駄だ。",
+    "cloze": "that's ｟＿｠. don't wanna watch anymore."
+   }
+  ],
+  "frequencyRank": 28272,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x6dd0e4aa",
+  "courseId": "en-10-30k",
+  "headword": "nagano",
+  "reading": "/nɑɡˈɑnoʊ/",
+  "gloss": "長野(日本の県・市名。1998年冬季オリンピック開催地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nagano beat Tokyo 2 to 3.",
+    "translation": "長野は東京を２対３で破った。",
+    "cloze": "｟＿｠ beat Tokyo 2 to 3."
+   },
+   {
+    "text": "He is from some small town in Nagano.",
+    "translation": "彼は長野県のある小さな町の出身です。",
+    "cloze": "He is from some small town in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 28662,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x71dc3f25",
+  "courseId": "en-10-30k",
+  "headword": "nawab",
+  "reading": null,
+  "gloss": "(インドの)太守、知事;ムガル帝国時代の高官の称号",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The nawab ruled the province with great wealth and power.",
+    "translation": "その太守は莫大な富と権力をもって州を統治した。",
+    "cloze": "The ｟＿｠ ruled the province with great wealth and power.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28664,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6d6f1a48",
+  "courseId": "en-10-30k",
+  "headword": "newness",
+  "reading": "/nˈunəs/",
+  "gloss": "新しさ、目新しさ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love the newness of a freshly opened notebook.",
+    "translation": "新しく開いたノートの新しさが好きだ。",
+    "cloze": "I love the ｟＿｠ of a freshly opened notebook.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28669,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3d6f8ed2",
+  "courseId": "en-10-30k",
+  "headword": "nori",
+  "reading": null,
+  "gloss": "海苔(のり)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Today, too, will be a nori bento day.",
+    "translation": "今日ものり弁。",
+    "cloze": "Today, too, will be a ｟＿｠ bento day."
+   },
+   {
+    "text": "Today, too, I'll be eating a nori bento.",
+    "translation": "今日ものり弁。",
+    "cloze": "Today, too, I'll be eating a ｟＿｠ bento."
+   }
+  ],
+  "frequencyRank": 28673,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xd4a80159",
+  "courseId": "en-10-30k",
+  "headword": "naan",
+  "reading": "/nˈɑn/",
+  "gloss": "ナン(インド料理の平たいパン)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I had naan with the tea for breakfast.",
+    "translation": "朝食は、紅茶とナンを食べました。",
+    "cloze": "I had ｟＿｠ with the tea for breakfast."
+   },
+   {
+    "text": "i guess it's called naan.",
+    "translation": "二人ともピタパンが好き 確か ナン って言うんだ",
+    "cloze": "i guess it's called ｟＿｠."
+   }
+  ],
+  "frequencyRank": 29497,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xa467cfef",
+  "courseId": "en-10-30k",
+  "headword": "nastiness",
+  "reading": "/nˈæstinəs/",
+  "gloss": "不快さ,意地悪さ,みだらさ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "smell this. you can smell the fear and nastiness coming off that cornbread.",
+    "translation": "かいで そのパンは 恐怖や悪意のニオイがする",
+    "cloze": "smell this. you can smell the fear and ｟＿｠ coming off that cornbread."
+   },
+   {
+    "text": "There was real nastiness in the way he criticized her work.",
+    "translation": "彼が彼女の作品を批評する態度には本当の意地悪さがあった。",
+    "cloze": "There was real ｟＿｠ in the way he criticized her work.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29501,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x982494b9",
+  "courseId": "en-10-30k",
+  "headword": "novgorod",
+  "reading": "/nˈɑvɡɚˌɑd/",
+  "gloss": "ノヴゴロド(ロシア北西部の歴史ある古都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Novgorod was one of the most important trading cities in medieval Russia.",
+    "translation": "ノヴゴロドは中世ロシアで最も重要な交易都市の一つだった。",
+    "cloze": "｟＿｠ was one of the most important trading cities in medieval Russia.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Tourists visit Novgorod to see its ancient kremlin.",
+    "translation": "観光客は古代のクレムリンを見るためにノヴゴロドを訪れる。",
+    "cloze": "Tourists visit ｟＿｠ to see its ancient kremlin.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29509,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5d7d0930",
+  "courseId": "en-10-30k",
+  "headword": "narco",
+  "reading": "/nˈɑɹkoʊ/",
+  "gloss": "(俗語)麻薬密売人;麻薬取締関連の、麻薬の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we gotta hand this to narco, and i'm sorry, but we gotta put your friend's case on hold.",
+    "translation": "この件を麻薬対策本部に報告する 友達の件は保留に",
+    "cloze": "we gotta hand this to ｟narco｠, and i'm sorry, but we gotta put your friend's case on hold."
+   },
+   {
+    "text": "couldn't find much before your stint in narco.",
+    "translation": "前の任務の麻薬捜査官では あまり見つけられなかった",
+    "cloze": "couldn't find much before your stint in ｟narco｠."
+   }
+  ],
+  "frequencyRank": 29895,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9c2330f7",
+  "courseId": "en-10-30k",
+  "headword": "nicosia",
+  "reading": "/nɪkəsˈiə/",
+  "gloss": "ニコシア(キプロス共和国の首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nicosia is the capital and largest city of Cyprus.",
+    "translation": "ニコシアはキプロスの首都であり最大の都市である。",
+    "cloze": "｟Nicosia｠ is the capital and largest city of Cyprus.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29902,
+  "category": "places"
+ }
+]

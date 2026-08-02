@@ -1,0 +1,3348 @@
+[
+ {
+  "id": "en-10-30k-x0502fd47",
+  "courseId": "en-10-30k",
+  "headword": "korea",
+  "reading": "/kˌɔɹˈiə/",
+  "gloss": "朝鮮,韓国(大韓民国・朝鮮民主主義人民共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I was born in Korea.",
+    "translation": "韓国生まれです。",
+    "cloze": "I was born in ｟Korea｠."
+   },
+   {
+    "text": "I want to visit Korea.",
+    "translation": "わたしは韓国を訪れたい。",
+    "cloze": "I want to visit ｟Korea｠."
+   }
+  ],
+  "frequencyRank": 166,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe0690c57",
+  "courseId": "en-10-30k",
+  "headword": "kingdom",
+  "reading": "/kˈɪŋdəm/",
+  "gloss": "王国;(学問・活動などの)分野,領域;(生物の)界",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He ruled his kingdom fairly.",
+    "translation": "彼は自分の王国に善政を施した。",
+    "cloze": "He ruled his ｟kingdom｠ fairly."
+   },
+   {
+    "text": "Our army attacked the kingdom.",
+    "translation": "我が軍はその王国を襲った。",
+    "cloze": "Our army attacked the ｟kingdom｠."
+   }
+  ],
+  "frequencyRank": 180,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x16c2485d",
+  "courseId": "en-10-30k",
+  "headword": "korean",
+  "reading": "/kˌɔɹˈiən/",
+  "gloss": "韓国の、韓国人の；韓国語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm Korean.",
+    "translation": "私は韓国人です。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "I study Korean.",
+    "translation": "私は韓国語を勉強します。",
+    "cloze": "I study ｟＿｠."
+   }
+  ],
+  "frequencyRank": 272,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x9151f94b",
+  "courseId": "en-10-30k",
+  "headword": "killer",
+  "reading": "/kˈɪlɚ/",
+  "gloss": "殺人者、殺し屋",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is a professional killer.",
+    "translation": "トムはプロの殺し屋だ。",
+    "cloze": "Tom is a professional ｟＿｠."
+   },
+   {
+    "text": "I don't think that Tom is the killer.",
+    "translation": "トムが人殺しだとは思えないよ。",
+    "cloze": "I don't think that Tom is the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 292,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe558aa8d",
+  "courseId": "en-10-30k",
+  "headword": "kit",
+  "reading": "/kˈɪt/",
+  "gloss": "用具一式;道具箱",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Where's your first aid kit?",
+    "translation": "救急箱はどこ？",
+    "cloze": "Where's your first aid ｟kit｠?"
+   },
+   {
+    "text": "Don't forget to take the first-aid kit.",
+    "translation": "救急箱、忘れずに持ってきてよ。",
+    "cloze": "Don't forget to take the first-aid ｟kit｠."
+   }
+  ],
+  "frequencyRank": 356,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x4cbdbe05",
+  "courseId": "en-10-30k",
+  "headword": "kansas",
+  "reading": "/kˈænzəs/",
+  "gloss": "カンザス州(米国中部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "We have just received an inquiry from Kansas concerning your brother.",
+    "translation": "ご兄弟のことはカンザス州から問い合わせを受けたばかりです。",
+    "cloze": "We have just received an inquiry from ｟＿｠ concerning your brother."
+   },
+   {
+    "text": "Kansas is known for its wheat fields.",
+    "translation": "カンザスは小麦畑で知られている。",
+    "cloze": "｟＿｠ is known for its wheat fields.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 448,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x19f48d1e",
+  "courseId": "en-10-30k",
+  "headword": "kentucky",
+  "reading": "/kəntˈʌki/",
+  "gloss": "ケンタッキー州(米国中部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Abraham Lincoln, the 16th president of the United States, was born in a log cabin in Kentucky.",
+    "translation": "合衆国の第１６代大統領であるアブラハム・リンカーンは、ケンタッキー州の丸太小屋で生まれた。",
+    "cloze": "Abraham Lincoln, the 16th president of the United States, was born in a log cabin in ｟＿｠."
+   },
+   {
+    "text": "Louisville is a major city in Kentucky.",
+    "translation": "ルイビルはケンタッキー州の主要都市です。",
+    "cloze": "Louisville is a major city in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 586,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd30510b3",
+  "courseId": "en-10-30k",
+  "headword": "kennedy",
+  "reading": "/kˈɛnədi/",
+  "gloss": "ケネディ（米国第35代大統領J.F.ケネディ）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kennedy Airport, please.",
+    "translation": "ケネディ空港まで頼むよ。",
+    "cloze": "｟＿｠ Airport, please."
+   },
+   {
+    "text": "Mr Kennedy pointed out our mistakes.",
+    "translation": "ケネディ氏は、私達のミスを指摘しました。",
+    "cloze": "Mr ｟＿｠ pointed out our mistakes."
+   }
+  ],
+  "frequencyRank": 632,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3229e49a",
+  "courseId": "en-10-30k",
+  "headword": "knight",
+  "reading": "/nˈaɪt/",
+  "gloss": "騎士；ナイト爵",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Look at that knight on the horse.",
+    "translation": "馬上の騎士をみてごらん。",
+    "cloze": "Look at that ｟＿｠ on the horse."
+   },
+   {
+    "text": "The knight is not so much brave as reckless.",
+    "translation": "その騎士は勇敢と言うよりも向こう見ずだ。",
+    "cloze": "The ｟＿｠ is not so much brave as reckless."
+   }
+  ],
+  "frequencyRank": 633,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xae393e9c",
+  "courseId": "en-10-30k",
+  "headword": "khan",
+  "reading": "/kˈɑn/",
+  "gloss": "汗(かん)(モンゴル・タタール族の首長、皇帝の尊称);隊商宿",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "In medieval Central Asia, a khan ruled over the nomadic tribes.",
+    "translation": "中世の中央アジアでは、汗(ハン)が遊牧民族を統治していた。",
+    "cloze": "In medieval Central Asia, a ｟＿｠ ruled over the nomadic tribes.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 704,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x69c3a412",
+  "courseId": "en-10-30k",
+  "headword": "ken",
+  "reading": "/kˈɛn/",
+  "gloss": "理解、知識の及ぶ範囲(beyond one's ken=理解の範囲を超えて)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Such technical details are beyond my ken.",
+    "translation": "そのような専門的な詳細は私の理解の範囲を超えている。",
+    "cloze": "Such technical details are beyond my ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The full scope of the plan was beyond his ken.",
+    "translation": "その計画の全容は彼の理解の範囲を超えていた。",
+    "cloze": "The full scope of the plan was beyond his ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 846,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x091f63fa",
+  "courseId": "en-10-30k",
+  "headword": "kenya",
+  "reading": "/kˈɛnjə/",
+  "gloss": "ケニア(アフリカ東部の国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kenya became independent in 1963.",
+    "translation": "ケニアは1963年に独立した。",
+    "cloze": "｟＿｠ became independent in 1963."
+   },
+   {
+    "text": "Kenya used to be a British colony.",
+    "translation": "ケニアはかつてイギリスの植民地であった。",
+    "cloze": "｟＿｠ used to be a British colony."
+   }
+  ],
+  "frequencyRank": 1118,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdd5f8b88",
+  "courseId": "en-10-30k",
+  "headword": "keyboard",
+  "reading": "/kˈibˌɔɹd/",
+  "gloss": "キーボード、鍵盤",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My keyboard is dirty.",
+    "translation": "僕のキーボード、汚れてるよ。",
+    "cloze": "My ｟＿｠ is dirty."
+   },
+   {
+    "text": "The keyboard is filthy.",
+    "translation": "キーボードはばっちい。",
+    "cloze": "The ｟＿｠ is filthy."
+   }
+  ],
+  "frequencyRank": 1198,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x843a7bd2",
+  "courseId": "en-10-30k",
+  "headword": "keeper",
+  "reading": "/kˈipɚ/",
+  "gloss": "管理人、番人、店主",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Finders keepers.",
+    "translation": "拾った者が持ち主。",
+    "cloze": "Finders ｟＿｠."
+   },
+   {
+    "text": "He told the bookstore keeper that he would come there again to buy the book that afternoon.",
+    "translation": "彼は書店の主人に、今日の午後もう一度ここへ来てこの本を買いますと言った。",
+    "cloze": "He told the bookstore ｟＿｠ that he would come there again to buy the book that afternoon."
+   }
+  ],
+  "frequencyRank": 1585,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x36c9d338",
+  "courseId": "en-10-30k",
+  "headword": "kindly",
+  "reading": "/kˈaɪndli/",
+  "gloss": "親切に、優しく;どうぞ;(形容詞)親切な、温和な",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Thank you kindly.",
+    "translation": "本当にありがとう。",
+    "cloze": "Thank you ｟＿｠."
+   },
+   {
+    "text": "Speak kindly to others.",
+    "translation": "人にはやさしく話しなさい。",
+    "cloze": "Speak ｟＿｠ to others."
+   }
+  ],
+  "frequencyRank": 1691,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xfea27f6a",
+  "courseId": "en-10-30k",
+  "headword": "kindness",
+  "reading": "/kˈaɪndnəs/",
+  "gloss": "親切、思いやり;親切な行い",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Kindness is a virtue.",
+    "translation": "親切は１つの美学である。",
+    "cloze": "｟＿｠ is a virtue."
+   },
+   {
+    "text": "He is kindness itself.",
+    "translation": "彼は親切そのものだ。",
+    "cloze": "He is ｟＿｠ itself."
+   }
+  ],
+  "frequencyRank": 1692,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xa544107f",
+  "courseId": "en-10-30k",
+  "headword": "kitty",
+  "reading": "/kˈɪti/",
+  "gloss": "(話し言葉で)子猫",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love kitties.",
+    "translation": "猫が大好きよ。",
+    "cloze": "I love ｟＿｠."
+   },
+   {
+    "text": "I'm a kitty cat.",
+    "translation": "吾輩は子猫である。",
+    "cloze": "I'm a ｟＿｠ cat."
+   }
+  ],
+  "frequencyRank": 1797,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xda6dbb6e",
+  "courseId": "en-10-30k",
+  "headword": "kidnap",
+  "reading": "/kˈɪdnˌæp/",
+  "gloss": "誘拐する、拉致する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "They kidnapped me.",
+    "translation": "彼女たちは私をさらった。",
+    "cloze": "They ｟＿｠ me."
+   },
+   {
+    "text": "Tom was kidnapped.",
+    "translation": "トムさんがさらわれました。",
+    "cloze": "Tom was ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1913,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd915f504",
+  "courseId": "en-10-30k",
+  "headword": "kirk",
+  "reading": "/kˈɝk/",
+  "gloss": "（スコットランド・北イングランド方言で）教会",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The old kirk stood at the edge of the village.",
+    "translation": "古い教会が村の外れに立っていた。",
+    "cloze": "The old ｟＿｠ stood at the edge of the village.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Villagers still worship at the ancient kirk.",
+    "translation": "村人たちは今でも古い教会で礼拝する。",
+    "cloze": "Villagers still worship at the ancient ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2648,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc39cfd3b",
+  "courseId": "en-10-30k",
+  "headword": "kindergarten",
+  "reading": "/kˈɪndɚɡˌɑɹtən/",
+  "gloss": "幼稚園",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He goes to kindergarten.",
+    "translation": "彼は幼稚園に通っている。",
+    "cloze": "He goes to ｟＿｠."
+   },
+   {
+    "text": "Tom and I've been friends since kindergarten.",
+    "translation": "トムとは幼稚園の時からの友達なんだ。",
+    "cloze": "Tom and I've been friends since ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3103,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x55eb67b1",
+  "courseId": "en-10-30k",
+  "headword": "kashmir",
+  "reading": "/kˈæʃmɪɹ/",
+  "gloss": "カシミール(インド・パキスタン・中国に隣接する地方)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "earthquake in the pakistan kashmir region where 85,000 people died in 2005",
+    "translation": "2005年に8万5千人が死亡した パキスタン カシミール地方の地震",
+    "cloze": "earthquake in the pakistan ｟kashmir｠ region where 85,000 people died in 2005"
+   },
+   {
+    "text": "Kashmir is a region in the Himalayas known for its natural beauty.",
+    "translation": "カシミールはヒマラヤ山脈にある、自然の美しさで知られる地方だ。",
+    "cloze": "｟Kashmir｠ is a region in the Himalayas known for its natural beauty.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3433,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf1ec17c3",
+  "courseId": "en-10-30k",
+  "headword": "kingston",
+  "reading": "/kˈɪŋstən/",
+  "gloss": "キングストン(ジャマイカの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "looks like you were first activated in kingston heights.",
+    "translation": "どうやら君は- キングストン・ハイツで 誕生したようだね",
+    "cloze": "looks like you were first activated in ｟＿｠ heights."
+   },
+   {
+    "text": "and yet, you go down to downtown kingston",
+    "translation": "しかしジャマイカの首都の中心には",
+    "cloze": "and yet, you go down to downtown ｟＿｠"
+   }
+  ],
+  "frequencyRank": 3536,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x80e470cf",
+  "courseId": "en-10-30k",
+  "headword": "knot",
+  "reading": "/nˈɑt/",
+  "gloss": "結び目;ノット(速度の単位)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I can't tie a very good knot.",
+    "translation": "私は結び目をあまり上手にはつくらない。",
+    "cloze": "I can't tie a very good ｟knot｠."
+   },
+   {
+    "text": "Tom can't do a butterfly knot.",
+    "translation": "トムって蝶々結びができないんだ。",
+    "cloze": "Tom can't do a butterfly ｟knot｠."
+   }
+  ],
+  "frequencyRank": 3725,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x1bd61d64",
+  "courseId": "en-10-30k",
+  "headword": "knit",
+  "reading": "/nˈɪt/",
+  "gloss": "(毛糸などを)編む;(眉を)寄せる;編み物をする",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom knits.",
+    "translation": "トムは編み物をする。",
+    "cloze": "Tom ｟knits｠."
+   },
+   {
+    "text": "She knit him a sweater.",
+    "translation": "彼女は彼にセーターを編んであげた。",
+    "cloze": "She ｟knit｠ him a sweater."
+   }
+  ],
+  "frequencyRank": 4315,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x810131ff",
+  "courseId": "en-10-30k",
+  "headword": "kuwait",
+  "reading": "/kuwˈeɪt/",
+  "gloss": "クウェート(中東の国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This tanker is bound for Kuwait.",
+    "translation": "このタンカーはクウェート行きです。",
+    "cloze": "This tanker is bound for ｟Kuwait｠."
+   },
+   {
+    "text": "Kuwait is a small but wealthy country in the Middle East.",
+    "translation": "クウェートは中東の小さいながら裕福な国です。",
+    "cloze": "｟Kuwait｠ is a small but wealthy country in the Middle East.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4317,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb6d0437d",
+  "courseId": "en-10-30k",
+  "headword": "kin",
+  "reading": "/kˈɪn/",
+  "gloss": "親族、親類;血族関係",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we've got to check phone records and find next of kin.",
+    "translation": "通話記録を調べて 近親者を当たってみよう",
+    "cloze": "we've got to check phone records and find next of ｟＿｠."
+   },
+   {
+    "text": "the last of our kin.",
+    "translation": "我ら一族の最後だ",
+    "cloze": "the last of our ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4430,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3aab166c",
+  "courseId": "en-10-30k",
+  "headword": "kobe",
+  "reading": "/kˈoʊbeɪ/",
+  "gloss": "神戸(日本兵庫県の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I live in Kobe.",
+    "translation": "私は神戸に住んでいます。",
+    "cloze": "I live in ｟＿｠."
+   },
+   {
+    "text": "Tony lives in Kobe.",
+    "translation": "トニー君は神戸に住んでいます。",
+    "cloze": "Tony lives in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4432,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7fc15334",
+  "courseId": "en-10-30k",
+  "headword": "kitten",
+  "reading": "/kˈɪtən/",
+  "gloss": "子猫",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love kittens.",
+    "translation": "子ネコは大好きだな。",
+    "cloze": "I love ｟kittens｠."
+   },
+   {
+    "text": "Kittens are cute.",
+    "translation": "子猫ちゃん、かわいい。",
+    "cloze": "｟Kittens｠ are cute."
+   }
+  ],
+  "frequencyRank": 4537,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x6d09183d",
+  "courseId": "en-10-30k",
+  "headword": "karachi",
+  "reading": "/kɑɹˈɑtʃi/",
+  "gloss": "カラチ（パキスタン最大の都市・港湾都市）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Karachi is the largest city in Pakistan.",
+    "translation": "カラチはパキスタン最大の都市だ。",
+    "cloze": "｟＿｠ is the largest city in Pakistan.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We flew from Dubai to Karachi last week.",
+    "translation": "先週ドバイからカラチへ飛行機で行った。",
+    "cloze": "We flew from Dubai to ｟＿｠ last week.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5116,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7f6f5e16",
+  "courseId": "en-10-30k",
+  "headword": "kurdish",
+  "reading": "/kˈɝdɪʃ/",
+  "gloss": "クルド人の、クルド語の；(名詞)クルド語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Kurdish is spoken by millions of people in the Middle East.",
+    "translation": "クルド語は中東で何百万人もの人々に話されている。",
+    "cloze": "｟＿｠ is spoken by millions of people in the Middle East.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She learned some Kurdish phrases before her trip.",
+    "translation": "彼女は旅行前にクルド語のフレーズをいくつか覚えた。",
+    "cloze": "She learned some ｟＿｠ phrases before her trip.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5118,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x207eb510",
+  "courseId": "en-10-30k",
+  "headword": "keller",
+  "reading": "/kˈɛlɚ/",
+  "gloss": "ケラー(ヘレン・ケラー;視覚・聴覚・言語障害を克服した米国の著述家・社会活動家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Helen Keller was deaf and blind.",
+    "translation": "ヘレン・ケラーは耳が聞こえない上に目も見えなかった。",
+    "cloze": "Helen ｟＿｠ was deaf and blind."
+   },
+   {
+    "text": "Helen Keller was blind, deaf and dumb.",
+    "translation": "ヘレン・ケラーは目と耳と口が不自由だった。",
+    "cloze": "Helen ｟＿｠ was blind, deaf and dumb."
+   }
+  ],
+  "frequencyRank": 5229,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa613fc85",
+  "courseId": "en-10-30k",
+  "headword": "kazakhstan",
+  "reading": "/kˌɑzɑkstˈɑn/",
+  "gloss": "カザフスタン(中央アジアの共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This is made in Kazakhstan.",
+    "translation": "これはカザフスタンで作られた。",
+    "cloze": "This is made in ｟＿｠."
+   },
+   {
+    "text": "to land in a soyuz, in kazakhstan.",
+    "translation": "ソユーズでカザフスタンに着陸した光景です",
+    "cloze": "to land in a soyuz, in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5341,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7cce65aa",
+  "courseId": "en-10-30k",
+  "headword": "kenyan",
+  "reading": "/kˈɛnjən/",
+  "gloss": "ケニア人;ケニアの、ケニア人の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "most kenyans did not see the violence.",
+    "translation": "殆どのケニア人は暴力を目にしていません",
+    "cloze": "most ｟＿｠ did not see the violence."
+   },
+   {
+    "text": "the images that i took were just a number to many kenyans.",
+    "translation": "それは多くのケニア人にとって 数多ある 紙切れに過ぎませんでした",
+    "cloze": "the images that i took were just a number to many ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5342,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xfbba633a",
+  "courseId": "en-10-30k",
+  "headword": "karate",
+  "reading": "/kɚˈɑti/",
+  "gloss": "空手",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I belong to the karate club.",
+    "translation": "ぼくは、空手部に所属しています。",
+    "cloze": "I belong to the ｟karate｠ club."
+   },
+   {
+    "text": "Karate is an art of unarmed defense.",
+    "translation": "空手は武器を用いない護身術である。",
+    "cloze": "｟Karate｠ is an art of unarmed defense."
+   }
+  ],
+  "frequencyRank": 5581,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x35268fc5",
+  "courseId": "en-10-30k",
+  "headword": "kite",
+  "reading": "/kˈaɪt/",
+  "gloss": "凧;トビ(猛禽類)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He flew a kite.",
+    "translation": "彼はたこを揚げた。",
+    "cloze": "He flew a ｟kite｠."
+   },
+   {
+    "text": "Let's fly kites.",
+    "translation": "凧揚げをしよう。",
+    "cloze": "Let's fly ｟kites｠."
+   }
+  ],
+  "frequencyRank": 5582,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x4871cce6",
+  "courseId": "en-10-30k",
+  "headword": "kaiser",
+  "reading": "/kˈaɪzɚ/",
+  "gloss": "(特にドイツ・オーストリアの)皇帝",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Kaiser Wilhelm II was the last German emperor.",
+    "translation": "ヴィルヘルム2世は最後のドイツ皇帝(カイザー)だった。",
+    "cloze": "｟＿｠ Wilhelm II was the last German emperor.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Kaiser declared war on France.",
+    "translation": "カイザー(皇帝)はフランスに宣戦布告した。",
+    "cloze": "The ｟＿｠ declared war on France.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5713,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x4f2f9aa3",
+  "courseId": "en-10-30k",
+  "headword": "kettle",
+  "reading": "/kˈɛtəl/",
+  "gloss": "やかん,湯沸かし",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The kettle is boiling.",
+    "translation": "薬缶のお湯が沸いている。",
+    "cloze": "The ｟＿｠ is boiling."
+   },
+   {
+    "text": "The kettle is steaming.",
+    "translation": "薬缶から湯気が立っている。",
+    "cloze": "The ｟＿｠ is steaming."
+   }
+  ],
+  "frequencyRank": 5714,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xd6df32d7",
+  "courseId": "en-10-30k",
+  "headword": "kerala",
+  "reading": "/kˌɛɹˈɑlə/",
+  "gloss": "ケーララ州(インド南西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the leading real estate company in my home state, kerala",
+    "translation": "故郷のケララ州に大手不動産会社を設立し、",
+    "cloze": "the leading real estate company in my home state, ｟＿｠"
+   },
+   {
+    "text": "the other day i was in kerala, my home state",
+    "translation": "先日 私は故郷のケーララ州にいたのですが",
+    "cloze": "the other day i was in ｟＿｠, my home state"
+   }
+  ],
+  "frequencyRank": 5835,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa660df97",
+  "courseId": "en-10-30k",
+  "headword": "knowledgeable",
+  "reading": "/nˈɑlədʒəbəl/",
+  "gloss": "博識の,物知りの;詳しい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tom is very knowledgeable about Japanese art.",
+    "translation": "トムは日本のアートについてすごく詳しいんだ。",
+    "cloze": "Tom is very ｟＿｠ about Japanese art."
+   },
+   {
+    "text": "He is very knowledgeable about French literature.",
+    "translation": "彼はフランス文学に精通している。",
+    "cloze": "He is very ｟＿｠ about French literature."
+   }
+  ],
+  "frequencyRank": 5836,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2375ebad",
+  "courseId": "en-10-30k",
+  "headword": "kensington",
+  "reading": "/kˈɛnzɪŋtən/",
+  "gloss": "ケンジントン(ロンドンの地区名。ケンジントン宮殿などがある)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and here in south kensington, that sometimes",
+    "translation": "ここ南ケンジントンでも見られますが",
+    "cloze": "and here in south ｟＿｠, that sometimes"
+   },
+   {
+    "text": "Kensington Palace is one of London's most famous royal residences.",
+    "translation": "ケンジントン宮殿はロンドンで最も有名な王室の邸宅の一つだ。",
+    "cloze": "｟＿｠ Palace is one of London's most famous royal residences.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5983,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa3137ed0",
+  "courseId": "en-10-30k",
+  "headword": "kangaroo",
+  "reading": "/kˌæŋɡɚˈu/",
+  "gloss": "カンガルー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Have you ever seen a kangaroo?",
+    "translation": "カンガルーを見たことはありますか？",
+    "cloze": "Have you ever seen a ｟＿｠?"
+   },
+   {
+    "text": "Koalas are more popular than kangaroos.",
+    "translation": "コアラはカンガルーよりも人気があります。",
+    "cloze": "Koalas are more popular than ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6229,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xc33698e4",
+  "courseId": "en-10-30k",
+  "headword": "knowingly",
+  "reading": "/nˈoʊɪŋli/",
+  "gloss": "知っていながら,故意に,わざと",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "but i'm not knowingly putting someone through what we've been through.",
+    "translation": "知ってる でも 私達が経験したことを ─ 知っておいて欲しいのよ",
+    "cloze": "but i'm not ｟＿｠ putting someone through what we've been through."
+   },
+   {
+    "text": "you were supposed to get off at portland to meet jack but i knowingly saved you from him.",
+    "translation": "分かっていて、ポートランドにいる ジャックから君を救ったんだ",
+    "cloze": "you were supposed to get off at portland to meet jack but i ｟＿｠ saved you from him."
+   }
+  ],
+  "frequencyRank": 6231,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xc37d2307",
+  "courseId": "en-10-30k",
+  "headword": "knob",
+  "reading": "/nˈɑb/",
+  "gloss": "取っ手、つまみ、節",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I tried the knob.",
+    "translation": "私はドアの取っ手を回した。",
+    "cloze": "I tried the ｟＿｠."
+   },
+   {
+    "text": "Turn the knob clockwise.",
+    "translation": "ノブを時計回りに回して。",
+    "cloze": "Turn the ｟＿｠ clockwise."
+   }
+  ],
+  "frequencyRank": 6364,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xeb73ab33",
+  "courseId": "en-10-30k",
+  "headword": "kiev",
+  "reading": "/kˌiˈɛv/",
+  "gloss": "キーウ,キエフ(ウクライナの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kiev is the capital of Ukraine.",
+    "translation": "キエフはウクライナの首都です。",
+    "cloze": "｟＿｠ is the capital of Ukraine."
+   },
+   {
+    "text": "there's a journalist from a newspaper in kiev.",
+    "translation": "'ジャーナリストがいるキエフの新聞の",
+    "cloze": "there's a journalist from a newspaper in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6515,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf445a332",
+  "courseId": "en-10-30k",
+  "headword": "koreans",
+  "reading": "/kˌɔɹˈiənz/",
+  "gloss": "韓国人,朝鮮人(たち)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Koreans enjoy spicy food.",
+    "translation": "多くの韓国人は辛い食べ物を好む。",
+    "cloze": "Many ｟＿｠ enjoy spicy food.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Koreans celebrate Chuseok as a major holiday.",
+    "translation": "韓国人はチュソク(秋夕)を主要な祝日として祝う。",
+    "cloze": "｟＿｠ celebrate Chuseok as a major holiday.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6516,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x8e2211fe",
+  "courseId": "en-10-30k",
+  "headword": "krishna",
+  "reading": "/kɹˈɪʃnə/",
+  "gloss": "クリシュナ(ヒンドゥー教の神,ヴィシュヌ神の化身)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Hindus worship Krishna as a manifestation of the god Vishnu.",
+    "translation": "ヒンドゥー教徒はクリシュナをヴィシュヌ神の化身として崇拝する。",
+    "cloze": "Hindus worship ｟＿｠ as a manifestation of the god Vishnu.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The temple is dedicated to Krishna.",
+    "translation": "その寺院はクリシュナに捧げられている。",
+    "cloze": "The temple is dedicated to ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6517,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf95843cb",
+  "courseId": "en-10-30k",
+  "headword": "ketchup",
+  "reading": "/kˈɛtʃəp/",
+  "gloss": "ケチャップ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Pass the ketchup.",
+    "translation": "ケチャップ を渡して。",
+    "cloze": "Pass the ｟ketchup｠."
+   },
+   {
+    "text": "Is there ketchup?",
+    "translation": "ケチャップってある？",
+    "cloze": "Is there ｟ketchup｠?"
+   }
+  ],
+  "frequencyRank": 6780,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x88ba77cb",
+  "courseId": "en-10-30k",
+  "headword": "kia",
+  "reading": "/kˈiɚ/",
+  "gloss": "戦死者、戦死(killed in actionの略;軍事用語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "counted five kias so far.",
+    "translation": "今のところ5人死亡",
+    "cloze": "counted five ｟＿｠ so far."
+   },
+   {
+    "text": "to our government, to our families, but especially to our enemy, we were kia at 0600 hours in the indus valley desert.",
+    "translation": "政府に 私たちの家族に 特に敵に 我々はインダス川 バレー砂漠にいた",
+    "cloze": "to our government, to our families, but especially to our enemy, we were ｟＿｠ at 0600 hours in the indus valley desert."
+   }
+  ],
+  "frequencyRank": 7059,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x046b9fd7",
+  "courseId": "en-10-30k",
+  "headword": "karaoke",
+  "reading": "/kˌɛɹiˈoʊki/",
+  "gloss": "カラオケ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love karaoke.",
+    "translation": "カラオケ、大好き。",
+    "cloze": "I love ｟＿｠."
+   },
+   {
+    "text": "Let's go to karaoke.",
+    "translation": "カラオケに行こう。",
+    "cloze": "Let's go to ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7218,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xf7d485d2",
+  "courseId": "en-10-30k",
+  "headword": "kosovo",
+  "reading": "/kˈoʊsoʊvˌoʊ/",
+  "gloss": "コソボ(バルカン半島の国・地域)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "when serbia attacked kosovo",
+    "translation": "セルビアがコソボを襲撃したときは",
+    "cloze": "when serbia attacked ｟＿｠"
+   },
+   {
+    "text": "and two things happened in kosovo",
+    "translation": "コソボでは二つのことが起きました",
+    "cloze": "and two things happened in ｟＿｠"
+   }
+  ],
+  "frequencyRank": 7220,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb7faf162",
+  "courseId": "en-10-30k",
+  "headword": "keyword",
+  "reading": "/kˈiwˌɝd/",
+  "gloss": "キーワード、鍵となる語",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Before adding a new sentence, please check that your sentence brings new vocabulary by searching the keywords.",
+    "translation": "新しい文を追加するまえに、その文によって当サイトに新しい語彙がもたらされるかどうか、キーワード検索してご確認ください。",
+    "cloze": "Before adding a new sentence, please check that your sentence brings new vocabulary by searching the ｟＿｠s."
+   },
+   {
+    "text": "just press 'd' when you hear the keyword.",
+    "translation": "番組放送中にdボタンを押すとキーワードが出て来ます。",
+    "cloze": "just press 'd' when you hear the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7376,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x06a57732",
+  "courseId": "en-10-30k",
+  "headword": "kicker",
+  "reading": "/kˈɪkɚ/",
+  "gloss": "(球技の)キッカー,ける人;(話)決め手,重要なポイント,オチ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "here's the kicker. i don't remember that.",
+    "translation": "ここが重要です 私には記憶がないんです",
+    "cloze": "here's the ｟kicker｠. i don't remember that."
+   },
+   {
+    "text": "The kicker scored the winning goal in the final minute.",
+    "translation": "そのキッカーは終了間際に決勝点を決めた。",
+    "cloze": "The ｟kicker｠ scored the winning goal in the final minute.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7499,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7c254e68",
+  "courseId": "en-10-30k",
+  "headword": "kyoto",
+  "reading": "/kjˈoʊtoʊ/",
+  "gloss": "京都(日本の都市、古都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I go to Kyoto.",
+    "translation": "私は、京都に行く。",
+    "cloze": "I go to ｟Kyoto｠."
+   },
+   {
+    "text": "I'm from Kyoto.",
+    "translation": "私は京都の出身です。",
+    "cloze": "I'm from ｟Kyoto｠."
+   }
+  ],
+  "frequencyRank": 7500,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa4a29537",
+  "courseId": "en-10-30k",
+  "headword": "kabul",
+  "reading": "/kˈɑbʊl/",
+  "gloss": "カブール(アフガニスタンの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kabul is the capital of Afghanistan.",
+    "translation": "カブールはアフガニスタンの首都です。",
+    "cloze": "｟Kabul｠ is the capital of Afghanistan."
+   },
+   {
+    "text": "the taliban had taken over in kabul",
+    "translation": "タリバンはカブールを占拠したのです",
+    "cloze": "the taliban had taken over in ｟kabul｠"
+   }
+  ],
+  "frequencyRank": 7631,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb86fee67",
+  "courseId": "en-10-30k",
+  "headword": "kickoff",
+  "reading": "/kˈɪkˌɔf/",
+  "gloss": "(試合の)キックオフ;(物事の)開始",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "now, let's kickoff!",
+    "translation": "さぁ キックオフだ!",
+    "cloze": "now, let's ｟kickoff｠!"
+   },
+   {
+    "text": "we'll proceed as planned, starting at the kickoff party tonight.",
+    "translation": "今夜 決起集会が始まります 分かった",
+    "cloze": "we'll proceed as planned, starting at the ｟kickoff｠ party tonight."
+   }
+  ],
+  "frequencyRank": 7633,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x66cd179f",
+  "courseId": "en-10-30k",
+  "headword": "kremlin",
+  "reading": "/kɹˈɛmlən/",
+  "gloss": "クレムリン宮殿;(比喩的に)ロシア政府",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "you understand the kremlin must remain entirely distanced.",
+    "translation": "わかっているだろうが ロシア政府は一切関わりない",
+    "cloze": "you understand the ｟＿｠ must remain entirely distanced."
+   },
+   {
+    "text": "nsa intercepted a dispatch to the kremlin from paris.",
+    "translation": "NSAがパリからクレムリンへの 報告を傍受した",
+    "cloze": "nsa intercepted a dispatch to the ｟＿｠ from paris."
+   }
+  ],
+  "frequencyRank": 7786,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x108bf369",
+  "courseId": "en-10-30k",
+  "headword": "kraft",
+  "reading": "/kɹˈæft/",
+  "gloss": "クラフト紙(強靭な茶色い包装紙);クラフト法(製紙法)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it uses steam and salt to crimp kraft paper for cardboard.",
+    "translation": "ダンボール紙を圧着する",
+    "cloze": "it uses steam and salt to crimp ｟＿｠ paper for cardboard."
+   },
+   {
+    "text": "The gift was wrapped in kraft paper.",
+    "translation": "その贈り物はクラフト紙で包まれていた。",
+    "cloze": "The gift was wrapped in ｟＿｠ paper.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7946,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x22bdd5e3",
+  "courseId": "en-10-30k",
+  "headword": "kurds",
+  "reading": "/kˈɝdz/",
+  "gloss": "クルド人",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Kurds do not have their own nation.",
+    "translation": "クルド人には自分の国家がない。",
+    "cloze": "The ｟Kurds｠ do not have their own nation."
+   },
+   {
+    "text": "when he was gassing the kurds and gassing iran",
+    "translation": "フセインがクルド人やイランを攻撃しても",
+    "cloze": "when he was gassing the ｟kurds｠ and gassing iran"
+   }
+  ],
+  "frequencyRank": 8252,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x98d8cddd",
+  "courseId": "en-10-30k",
+  "headword": "kiwi",
+  "reading": "/kˈiwi/",
+  "gloss": "キウィ（ニュージーランド産の飛べない鳥）；キウイフルーツ；（俗語）ニュージーランド人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Are kiwis a fruit or a bird?",
+    "translation": "キウイって、果物それとも鳥？",
+    "cloze": "Are ｟＿｠ a fruit or a bird?"
+   },
+   {
+    "text": "Organic kiwi fruit. Feel free to help yourself.",
+    "translation": "有機キウイです。どうぞご自由にお採り下さい。",
+    "cloze": "Organic ｟＿｠ fruit. Feel free to help yourself."
+   }
+  ],
+  "frequencyRank": 8764,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xda8367eb",
+  "courseId": "en-10-30k",
+  "headword": "kneel",
+  "reading": "/nˈil/",
+  "gloss": "ひざまずく、ひざをつく",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom kneeled.",
+    "translation": "トムはひざまずいた。",
+    "cloze": "Tom ｟kneeled｠."
+   },
+   {
+    "text": "Tom is kneeling.",
+    "translation": "トムはひざまずいている。",
+    "cloze": "Tom is ｟kneeling｠."
+   }
+  ],
+  "frequencyRank": 8930,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x6fc18e8d",
+  "courseId": "en-10-30k",
+  "headword": "knuckle",
+  "reading": "/nˈʌkəl/",
+  "gloss": "指の関節;(動物の)ひざ肉",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom cracked his knuckles.",
+    "translation": "トムは指を鳴らした。",
+    "cloze": "Tom cracked his ｟knuckles｠."
+   },
+   {
+    "text": "Stop cracking your knuckles.",
+    "translation": "指を鳴らすのはやめろ。",
+    "cloze": "Stop cracking your ｟knuckles｠."
+   }
+  ],
+  "frequencyRank": 8931,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xd82616c8",
+  "courseId": "en-10-30k",
+  "headword": "kgb",
+  "reading": "/kˌeɪdʒˌibˈi/",
+  "gloss": "KGB(旧ソ連の国家保安委員会)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it evolved later into the wellknown kgb.",
+    "translation": "後に良く知られたKGBへと発展しました",
+    "cloze": "it evolved later into the wellknown ｟＿｠."
+   },
+   {
+    "text": "The KGB was the main security agency of the former Soviet Union.",
+    "translation": "KGBはかつてのソ連の主要な治安機関だった。",
+    "cloze": "The ｟＿｠ was the main security agency of the former Soviet Union.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9255,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x706e384e",
+  "courseId": "en-10-30k",
+  "headword": "knoxville",
+  "reading": "/nˈɑksvɪl/",
+  "gloss": "ノックスビル(米国テネシー州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "to knoxville, tennessee.",
+    "translation": "テネシー州のノッククスビルまで",
+    "cloze": "to ｟＿｠, tennessee."
+   },
+   {
+    "text": "She moved to Knoxville, Tennessee for college.",
+    "translation": "彼女は大学のためにテネシー州ノックスビルに引っ越した。",
+    "cloze": "She moved to ｟＿｠, Tennessee for college.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9256,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfb08a736",
+  "courseId": "en-10-30k",
+  "headword": "kart",
+  "reading": null,
+  "gloss": "(競走・娯楽用の)ゴーカート",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We raced go-karts around the track all afternoon.",
+    "translation": "私たちは午後じゅうサーキットでゴーカートのレースをした。",
+    "cloze": "We raced go-｟＿｠s around the track all afternoon.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The kids lined up to ride the karts at the amusement park.",
+    "translation": "子供たちは遊園地でカートに乗るために並んだ。",
+    "cloze": "The kids lined up to ride the ｟＿｠s at the amusement park.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9419,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x97806d71",
+  "courseId": "en-10-30k",
+  "headword": "kolkata",
+  "reading": null,
+  "gloss": "コルカタ(インド東部の都市;旧称カルカッタ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kolkata is one of the largest cities in India.",
+    "translation": "コルカタはインド最大級の都市の一つだ。",
+    "cloze": "｟＿｠ is one of the largest cities in India.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We visited Kolkata during our trip to eastern India.",
+    "translation": "私たちはインド東部を旅行した際にコルカタを訪れた。",
+    "cloze": "We visited ｟＿｠ during our trip to eastern India.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9421,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4d16ddd2",
+  "courseId": "en-10-30k",
+  "headword": "karnataka",
+  "reading": null,
+  "gloss": "カルナータカ州（インド南西部の州）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "who lives and works here in the state of karnataka",
+    "translation": "カルナタカ州を拠点としており",
+    "cloze": "who lives and works here in the state of ｟karnataka｠"
+   },
+   {
+    "text": "Karnataka is a state in southern India.",
+    "translation": "カルナータカはインド南部の州です。",
+    "cloze": "｟Karnataka｠ is a state in southern India.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10168,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xda8b1d36",
+  "courseId": "en-10-30k",
+  "headword": "kilo",
+  "reading": "/kˈɪlˌoʊ/",
+  "gloss": "キロ（キログラムまたはキロメートルの略）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is over 80 kilos.",
+    "translation": "彼は８０キロを超えている。",
+    "cloze": "He is over 80 ｟kilos｠."
+   },
+   {
+    "text": "I gained five kilos.",
+    "translation": "体重が５キロ増えた。",
+    "cloze": "I gained five ｟kilos｠."
+   }
+  ],
+  "frequencyRank": 10172,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x5acaa26b",
+  "courseId": "en-10-30k",
+  "headword": "kurdistan",
+  "reading": "/kˈɝdɪstˌæn/",
+  "gloss": "クルディスタン（クルド人が多く住む地域の総称）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the lesson from kurdistan and from palestine",
+    "translation": "クルディスタンとパレスチナの状況から得られる教訓とは",
+    "cloze": "the lesson from ｟kurdistan｠ and from palestine"
+   },
+   {
+    "text": "these are pipeline routes, which emerge from kurdistan",
+    "translation": "これらはクルディスタンから出ている パイプラインのルートです",
+    "cloze": "these are pipeline routes, which emerge from ｟kurdistan｠"
+   }
+  ],
+  "frequencyRank": 10173,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x52f9aa38",
+  "courseId": "en-10-30k",
+  "headword": "kilogram",
+  "reading": "/kˈɪləɡɹˌæm/",
+  "gloss": "キログラム(重さの単位、記号kg)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I weigh 58 kilograms.",
+    "translation": "私の体重は５８キログラムです。",
+    "cloze": "I weigh 58 ｟kilograms｠."
+   },
+   {
+    "text": "Tom lost 30 kilograms.",
+    "translation": "トムは30kg減量した。",
+    "cloze": "Tom lost 30 ｟kilograms｠."
+   }
+  ],
+  "frequencyRank": 10357,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xda79ab87",
+  "courseId": "en-10-30k",
+  "headword": "kkk",
+  "reading": "/kˈeɪkˈeɪkˈeɪ/",
+  "gloss": "クー・クラックス・クラン(米国の白人至上主義の秘密結社)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The KKK was a white supremacist organization founded after the Civil War.",
+    "translation": "KKKは南北戦争後に設立された白人至上主義の組織だった。",
+    "cloze": "The ｟＿｠ was a white supremacist organization founded after the Civil War.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The museum has an exhibit about the history of the KKK in the South.",
+    "translation": "その博物館には南部におけるKKKの歴史に関する展示がある。",
+    "cloze": "The museum has an exhibit about the history of the ｟＿｠ in the South.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10559,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x18ae323c",
+  "courseId": "en-10-30k",
+  "headword": "koran",
+  "reading": "/kɔɹˈɑn/",
+  "gloss": "コーラン(イスラム教の聖典)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Koran is Islamic scripture.",
+    "translation": "コーランはイスラム教徒の聖典です。",
+    "cloze": "The ｟＿｠ is Islamic scripture."
+   },
+   {
+    "text": "as the koran promises, patience is rewarded",
+    "translation": "コーランが定める通り 忍耐は尊ばれます",
+    "cloze": "as the ｟＿｠ promises, patience is rewarded"
+   }
+  ],
+  "frequencyRank": 10560,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x7a453ffd",
+  "courseId": "en-10-30k",
+  "headword": "kiddo",
+  "reading": null,
+  "gloss": "(親しみを込めた呼びかけ)坊や,君",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What's up, kiddo?",
+    "translation": "ぼく、どうしたの？",
+    "cloze": "What's up, ｟＿｠?"
+   },
+   {
+    "text": "Kiddo! Two medium-size drafts here.",
+    "translation": "兄ちゃん、こっち生中二つー。",
+    "cloze": "｟＿｠! Two medium-size drafts here."
+   }
+  ],
+  "frequencyRank": 10747,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf85db6c8",
+  "courseId": "en-10-30k",
+  "headword": "khmer",
+  "reading": "/kmˈɛɹ/",
+  "gloss": "クメール人(の)；クメール語；(史)クメール・ルージュ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "to explain the khmer rouge regime",
+    "translation": "クメールルージュ政権を",
+    "cloze": "to explain the ｟＿｠ rouge regime"
+   },
+   {
+    "text": "and my parents were told by the khmer rouge",
+    "translation": "私の両親はクメールルージュに",
+    "cloze": "and my parents were told by the ｟＿｠ rouge"
+   }
+  ],
+  "frequencyRank": 11903,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x49edfd3c",
+  "courseId": "en-10-30k",
+  "headword": "kepler",
+  "reading": "/kˈɛplɚ/",
+  "gloss": "ケプラー(ドイツの天文学者;惑星運動の法則を発見した)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "J. Kepler, astronomer and mathematician, made a study of planets and their movements.",
+    "translation": "天文学者で数学者であった、J.ケプラーは、惑星とその運動についての研究をした。",
+    "cloze": "J. ｟Kepler｠, astronomer and mathematician, made a study of planets and their movements."
+   },
+   {
+    "text": "The smaller planets hovering around the planet Jupiter reminded him of the guards surrounding a king when he walked outdoors, and Kepler called them satellites.",
+    "translation": "木星の周辺を回っているもっと小さな惑星を見てケプラーは、外出中の王の回りを取り囲む護衛を思いだしたので、それを衛星と名付けたのだ。",
+    "cloze": "The smaller planets hovering around the planet Jupiter reminded him of the guards surrounding a king when he walked outdoors, and ｟Kepler｠ called them satellites."
+   }
+  ],
+  "frequencyRank": 12355,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb2e6c35b",
+  "courseId": "en-10-30k",
+  "headword": "kyrgyzstan",
+  "reading": "/kˈɪɹɡɪstˌæn/",
+  "gloss": "キルギスタン(中央アジアの国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in kyrgyzstan, just over the last few weeks",
+    "translation": "キルギスでは ほんの数週間前のことですが",
+    "cloze": "in ｟kyrgyzstan｠, just over the last few weeks"
+   },
+   {
+    "text": "waziristan, kyrgyzstan",
+    "translation": "ワジリスタン、キルギスタンか",
+    "cloze": "waziristan, ｟kyrgyzstan｠"
+   }
+  ],
+  "frequencyRank": 12356,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0d250a39",
+  "courseId": "en-10-30k",
+  "headword": "kant",
+  "reading": "/kˈænt/",
+  "gloss": "カント(1724-1804;ドイツの哲学者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "is it plato, is it aristotle, is it kant, is it mill?",
+    "translation": "プラトンかアリストテレス カントかミル",
+    "cloze": "is it plato, is it aristotle, is it ｟kant｠, is it mill?"
+   },
+   {
+    "text": "kant was very good on this point",
+    "translation": "カントはこの点を巧みに捕らえて",
+    "cloze": "｟kant｠ was very good on this point"
+   }
+  ],
+  "frequencyRank": 12738,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xaf8933b3",
+  "courseId": "en-10-30k",
+  "headword": "kathmandu",
+  "reading": null,
+  "gloss": "カトマンズ(ネパールの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The capital of Nepal is Kathmandu.",
+    "translation": "ネパールの首都はカトマンズです。",
+    "cloze": "The capital of Nepal is ｟＿｠."
+   },
+   {
+    "text": "we have one in kathmandu, nepal;",
+    "translation": "ネパールのカトマンズ",
+    "cloze": "we have one in ｟＿｠, nepal;"
+   }
+  ],
+  "frequencyRank": 13181,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9cb6cda6",
+  "courseId": "en-10-30k",
+  "headword": "keenly",
+  "reading": "/kˈinli/",
+  "gloss": "鋭く、激しく；熱心に、強く",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "i know it's just talk now, helen, but i feel the loss of your father as keenly as you do.",
+    "translation": "口先だけに 聞こえるだろうが... 私も君と同様 彼の死を悼んでる",
+    "cloze": "i know it's just talk now, helen, but i feel the loss of your father as ｟keenly｠ as you do."
+   },
+   {
+    "text": "i'm very keenly aware of my aloneness.",
+    "translation": "孤独感に襲われた",
+    "cloze": "i'm very ｟keenly｠ aware of my aloneness."
+   }
+  ],
+  "frequencyRank": 13655,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xdd77195d",
+  "courseId": "en-10-30k",
+  "headword": "kyiv",
+  "reading": null,
+  "gloss": "キーウ、キエフ(ウクライナの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kyiv is the capital of Ukraine.",
+    "translation": "キエフはウクライナの首都です。",
+    "cloze": "｟Kyiv｠ is the capital of Ukraine."
+   },
+   {
+    "text": "Many people visited Kyiv last summer.",
+    "translation": "多くの人が昨年の夏キーウを訪れた。",
+    "cloze": "Many people visited ｟Kyiv｠ last summer.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13659,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd32b06af",
+  "courseId": "en-10-30k",
+  "headword": "kissinger",
+  "reading": "/kˈɪsɪndʒɚ/",
+  "gloss": "キッシンジャー(ヘンリー・キッシンジャー。元米国国務長官・外交官)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "secretary of state henry kissinger says he will ask congress for funds.",
+    "translation": "国務長官いわく 資金を議会に 要求するそうです",
+    "cloze": "secretary of state henry ｟＿｠ says he will ask congress for funds."
+   },
+   {
+    "text": "Kissinger played a key role in US foreign policy during the Cold War.",
+    "translation": "キッシンジャーは冷戦時代のアメリカ外交政策で重要な役割を果たした。",
+    "cloze": "｟＿｠ played a key role in US foreign policy during the Cold War.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13894,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x20382f56",
+  "courseId": "en-10-30k",
+  "headword": "kidnapper",
+  "reading": "/kˈɪdnˌæpɚ/",
+  "gloss": "誘拐犯,誘拐者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He put me in touch with the kidnappers.",
+    "translation": "彼は私が誘拐犯人と接触出来るようにしてくれた。",
+    "cloze": "He put me in touch with the ｟＿｠."
+   },
+   {
+    "text": "The kidnappers showed no sign of giving up.",
+    "translation": "誘拐犯は降参する気配を見せなかった。",
+    "cloze": "The ｟＿｠ showed no sign of giving up."
+   }
+  ],
+  "frequencyRank": 14397,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x00e44757",
+  "courseId": "en-10-30k",
+  "headword": "kawasaki",
+  "reading": "/kˌɑwɑsˈɑki/",
+  "gloss": "川崎（日本の都市名）；川崎病（小児の血管炎疾患）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "There are a lot of factories in Kawasaki.",
+    "translation": "川崎には工場が多い。",
+    "cloze": "There are a lot of factories in ｟＿｠."
+   },
+   {
+    "text": "The children appear to be suffering from Kawasaki disease.",
+    "translation": "子供たちは川崎病にかかったように思われる。",
+    "cloze": "The children appear to be suffering from ｟＿｠ disease."
+   }
+  ],
+  "frequencyRank": 14626,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xbcb93cd9",
+  "courseId": "en-10-30k",
+  "headword": "koala",
+  "reading": "/koʊˈɑlə/",
+  "gloss": "コアラ（オーストラリア産の有袋類）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I saw a koala.",
+    "translation": "コアラを見たよ。",
+    "cloze": "I saw a ｟＿｠."
+   },
+   {
+    "text": "Koalas are cute.",
+    "translation": "コアラ、かわいい。",
+    "cloze": "｟＿｠ are cute."
+   }
+  ],
+  "frequencyRank": 14631,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x8bd85dfe",
+  "courseId": "en-10-30k",
+  "headword": "kos",
+  "reading": "/kˈɑs/",
+  "gloss": "KO（ノックアウト）の複数形。ボクシングなどで相手を打ち倒すこと",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "8 matches, 8 wins, 5 kos...",
+    "translation": "8戦8勝5ko",
+    "cloze": "8 matches, 8 wins, 5 ｟＿｠..."
+   },
+   {
+    "text": "He recorded five KOs this season.",
+    "translation": "彼は今シーズン5KOを記録した。",
+    "cloze": "He recorded five ｟＿｠ this season.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14633,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x817d50dc",
+  "courseId": "en-10-30k",
+  "headword": "keto",
+  "reading": "/kˈeɪtoʊ/",
+  "gloss": "ケトジェニックダイエット(低糖質・高脂質の食事法)の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She lost weight quickly after starting a keto diet.",
+    "translation": "彼女はケトジェニックダイエットを始めてから急速に体重が減った。",
+    "cloze": "She lost weight quickly after starting a ｟keto｠ diet.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Keto meals are typically low in carbs and high in fat.",
+    "translation": "ケト食は通常、炭水化物が少なく脂肪が多い。",
+    "cloze": "｟Keto｠ meals are typically low in carbs and high in fat.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15145,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xbef239b4",
+  "courseId": "en-10-30k",
+  "headword": "kpop",
+  "reading": null,
+  "gloss": "K-POP,韓国のポピュラー音楽",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "K-pop has become popular around the world.",
+    "translation": "K-POPは世界中で人気になった。",
+    "cloze": "｟K-pop｠ has become popular around the world.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She listens to kpop every day.",
+    "translation": "彼女は毎日K-POPを聴いている。",
+    "cloze": "She listens to ｟kpop｠ every day.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15371,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8e8db994",
+  "courseId": "en-10-30k",
+  "headword": "kush",
+  "reading": "/kˈʊʃ/",
+  "gloss": "(俗語)クシュ,パープルクシュ(マリファナの品種名)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the young man at the dispensary calls this purple kush.",
+    "translation": "これを「紫のクシュ」 (※マリワナの隠語)と呼んでる。",
+    "cloze": "the young man at the dispensary calls this purple ｟kush｠."
+   },
+   {
+    "text": "That kush has a strong smell.",
+    "translation": "そのクシュは匂いが強い。",
+    "cloze": "That ｟kush｠ has a strong smell.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15372,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x7014baee",
+  "courseId": "en-10-30k",
+  "headword": "khartoum",
+  "reading": "/kˌɑɹtˈum/",
+  "gloss": "ハルツーム(スーダンの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "khartoum to atlanta.",
+    "translation": "ハルツームからアトランタに",
+    "cloze": "｟＿｠ to atlanta."
+   },
+   {
+    "text": "i was born in one of the poorest cities in the world, khartoum.",
+    "translation": "私は世界で最も貧しい街の一つ ハルツームで産まれました",
+    "cloze": "i was born in one of the poorest cities in the world, ｟＿｠."
+   }
+  ],
+  "frequencyRank": 15880,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x447f016b",
+  "courseId": "en-10-30k",
+  "headword": "khrushchev",
+  "reading": "/kɹˈustʃˌɛv/",
+  "gloss": "フルシチョフ（ソ連の政治家、旧共産党第一書記）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Nikita Khrushchev was at the height of his powers.",
+    "translation": "ニキータ・フルシチョフは、権力の絶頂にあった。",
+    "cloze": "Nikita ｟＿｠ was at the height of his powers."
+   },
+   {
+    "text": "the picture there is khrushchev.",
+    "translation": "写真はフルシチョフです",
+    "cloze": "the picture there is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 16140,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1b151f23",
+  "courseId": "en-10-30k",
+  "headword": "kafka",
+  "reading": "/kˈɑfkə/",
+  "gloss": "カフカ(チェコ出身の作家、代表作『変身』)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "franz kafka saw incompletion",
+    "translation": "フランツ・カフカは",
+    "cloze": "franz ｟＿｠ saw incompletion"
+   },
+   {
+    "text": "mr. o'brien, how do you think kafka would explain this?",
+    "translation": "オブライエンさん カフカなら これをどう説明しますかね?",
+    "cloze": "mr. o'brien, how do you think ｟＿｠ would explain this?"
+   }
+  ],
+  "frequencyRank": 16419,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1498d1ed",
+  "courseId": "en-10-30k",
+  "headword": "kashmiri",
+  "reading": "/kæʃmˈiɹi/",
+  "gloss": "カシミール地方の、カシミール人(語)の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "250,000 dead, the kashmiri earthquake in pakistan, 2005",
+    "translation": "2005年に8万5千人が死亡した パキスタン カシミール地方の地震",
+    "cloze": "250,000 dead, the ｟＿｠ earthquake in pakistan, 2005"
+   },
+   {
+    "text": "Kashmiri shawls are famous for their fine wool.",
+    "translation": "カシミールのショールは上質なウールで有名です。",
+    "cloze": "｟＿｠ shawls are famous for their fine wool.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16660,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3cd1b733",
+  "courseId": "en-10-30k",
+  "headword": "kazakh",
+  "reading": "/kˈæzæk/",
+  "gloss": "カザフの、カザフ人、カザフ語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Let's also learn Kazakh!",
+    "translation": "私たちもカザフ語を学びましょう。",
+    "cloze": "Let's also learn ｟＿｠!"
+   },
+   {
+    "text": "Kazakh is spoken by millions of people in Central Asia.",
+    "translation": "カザフ語は中央アジアで何百万人もの人々に話されている。",
+    "cloze": "｟＿｠ is spoken by millions of people in Central Asia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16662,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd0ae1852",
+  "courseId": "en-10-30k",
+  "headword": "keats",
+  "reading": "/kˈits/",
+  "gloss": "キーツ(John Keats;1795-1821;英国のロマン派詩人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "She quoted a poem by Keats.",
+    "translation": "彼女はキーツの詩を引用した。",
+    "cloze": "She quoted a poem by ｟Keats｠."
+   },
+   {
+    "text": "The poet Keats belongs to the Romantic school.",
+    "translation": "詩人キーツはロマン派に属する。",
+    "cloze": "The poet ｟Keats｠ belongs to the Romantic school."
+   }
+  ],
+  "frequencyRank": 16932,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xec5e56f4",
+  "courseId": "en-10-30k",
+  "headword": "kampala",
+  "reading": "/kəmpˈɑlə/",
+  "gloss": "カンパラ(ウガンダの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Machrine Birungi walked around several streets in Kampala where some of the counterfeit products, such as shoes, clothes, and cutlery, are being sold.",
+    "translation": "マクリネ・ビルンギは、靴・衣服・刃物などの偽造品が売られているカンパラのいくつかの通りを歩き回った。",
+    "cloze": "Machrine Birungi walked around several streets in ｟＿｠ where some of the counterfeit products, such as shoes, clothes, and cutlery, are being sold."
+   },
+   {
+    "text": "Kampala is the capital and largest city of Uganda.",
+    "translation": "カンパラはウガンダの首都であり最大の都市である。",
+    "cloze": "｟＿｠ is the capital and largest city of Uganda.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17195,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x86d877f8",
+  "courseId": "en-10-30k",
+  "headword": "kharkiv",
+  "reading": null,
+  "gloss": "ハルキウ(ウクライナ第2の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm calling my friend from Kharkiv.",
+    "translation": "ハルキウから友達に電話をしている。",
+    "cloze": "I'm calling my friend from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 17480,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x22ba04d8",
+  "courseId": "en-10-30k",
+  "headword": "kipling",
+  "reading": "/kˈɪplɪŋ/",
+  "gloss": "キプリング(『ジャングル・ブック』の作者、ノーベル賞受賞の英国人作家ラドヤード・キプリング)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "sir, i'm gonna need a pass phrase, the prompt is kipling.",
+    "translation": "パスフレーズが必要なんです 鍵はキップリングです",
+    "cloze": "sir, i'm gonna need a pass phrase, the prompt is ｟＿｠."
+   },
+   {
+    "text": "[kipling] said, the colonel's lady and judy o'grady",
+    "translation": "彼の言葉です 「大佐の奥方も 卑しい女も",
+    "cloze": "[｟＿｠] said, the colonel's lady and judy o'grady"
+   }
+  ],
+  "frequencyRank": 17482,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x84892285",
+  "courseId": "en-10-30k",
+  "headword": "kandahar",
+  "reading": "/kˈændəhɑɹ/",
+  "gloss": "カンダハール(アフガニスタン南部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it's literally like we're trying to have lunch in kandahar.",
+    "translation": "まるで カンダハルで ランチする感じだな",
+    "cloze": "it's literally like we're trying to have lunch in ｟＿｠."
+   },
+   {
+    "text": "special forces out of kandahar. it's perfect.",
+    "translation": "カンダハルの特殊部隊 完璧だ",
+    "cloze": "special forces out of ｟＿｠. it's perfect."
+   }
+  ],
+  "frequencyRank": 18091,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8fed2c88",
+  "courseId": "en-10-30k",
+  "headword": "kpa",
+  "reading": null,
+  "gloss": "キロパスカル(圧力の単位、kilopascalの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "pressure's at 30 kpa.",
+    "translation": "\"気圧 30 KPA\"",
+    "cloze": "pressure's at 30 ｟＿｠."
+   }
+  ],
+  "frequencyRank": 18096,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xa2709a33",
+  "courseId": "en-10-30k",
+  "headword": "kuwaiti",
+  "reading": "/kuwˈeɪti/",
+  "gloss": "クウェートの、クウェート人の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "they were created by a kuwaiti psychologist",
+    "translation": "クウェート人の心理学者―",
+    "cloze": "they were created by a ｟＿｠ psychologist"
+   }
+  ],
+  "frequencyRank": 18097,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7499c1df",
+  "courseId": "en-10-30k",
+  "headword": "kazan",
+  "reading": "/kˈeɪzən/",
+  "gloss": "カザン(ロシア・タタルスタン共和国の都市);人名(例:映画監督エリア・カザン)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "There is a metro in Kazan.",
+    "translation": "カザンに地下鉄がある。",
+    "cloze": "There is a metro in ｟Kazan｠."
+   },
+   {
+    "text": "oh, this one a actually really good about the arthur miller elia kazan stuff.",
+    "translation": "面白かったですよ アーサー ミラーとエリア カザンの話は",
+    "cloze": "oh, this one a actually really good about the arthur miller elia ｟kazan｠ stuff."
+   }
+  ],
+  "frequencyRank": 18395,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x131cb367",
+  "courseId": "en-10-30k",
+  "headword": "klingon",
+  "reading": "/klˈɪŋɡən/",
+  "gloss": "クリンゴン語(『スタートレック』の架空言語);クリンゴン人",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Do you speak Klingon?",
+    "translation": "クリンゴン語を話せますか？",
+    "cloze": "Do you speak ｟Klingon｠?"
+   },
+   {
+    "text": "our augments might have looked human, but they were klingon stronger, more intelligent.",
+    "translation": "オーグメントは姿を人間に見せるが 中身はクリンゴン人だ より強く、より知能が高い",
+    "cloze": "our augments might have looked human, but they were ｟klingon｠ stronger, more intelligent."
+   }
+  ],
+  "frequencyRank": 18399,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x8d0cda35",
+  "courseId": "en-10-30k",
+  "headword": "kryptonite",
+  "reading": "/kɹˈɪptənˌaɪt/",
+  "gloss": "クリプトナイト(スーパーマンを弱らせる架空の鉱物)；転じて(人・物の)弱点、天敵",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i mean, that's how i knew about the kryptonite he kept hidden in the barn.",
+    "translation": "クリプトナイトの事は納屋に隠してあったから",
+    "cloze": "i mean, that's how i knew about the ｟＿｠ he kept hidden in the barn."
+   },
+   {
+    "text": "no one ever called me frank moses' kryptonite.",
+    "translation": "私はフランクの 急所じゃないの?",
+    "cloze": "no one ever called me frank moses' ｟＿｠."
+   }
+  ],
+  "frequencyRank": 18679,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xfcc967c1",
+  "courseId": "en-10-30k",
+  "headword": "kauai",
+  "reading": "/kˈaʊˌaɪ/",
+  "gloss": "カウアイ島(ハワイ諸島の一つ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kauai is known as the Garden Isle of Hawaii.",
+    "translation": "カウアイ島はハワイの「庭園の島」として知られている。",
+    "cloze": "｟Kauai｠ is known as the Garden Isle of Hawaii.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18961,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1a6990d5",
+  "courseId": "en-10-30k",
+  "headword": "kenyans",
+  "reading": "/kˈɛnjənz/",
+  "gloss": "ケニア人(たち)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Kenyans are famous for their success in long-distance running.",
+    "translation": "ケニア人は長距離走での活躍で有名だ。",
+    "cloze": "｟Kenyans｠ are famous for their success in long-distance running.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18962,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7defc5cf",
+  "courseId": "en-10-30k",
+  "headword": "kickboxing",
+  "reading": null,
+  "gloss": "キックボクシング",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "turns out anna won honors in both judo and kickboxing in college.",
+    "translation": "アンナが名誉を 獲得したと分かる 大学で柔道と キックボクシングの両方で",
+    "cloze": "turns out anna won honors in both judo and ｟kickboxing｠ in college."
+   },
+   {
+    "text": "He trains in kickboxing three times a week.",
+    "translation": "彼は週に3回キックボクシングのトレーニングをしている。",
+    "cloze": "He trains in ｟kickboxing｠ three times a week.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18963,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x6bcb3f3c",
+  "courseId": "en-10-30k",
+  "headword": "kona",
+  "reading": "/kˈoʊnə/",
+  "gloss": "コナ(ハワイ島の地域名。高級コーヒーの産地として有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "they use hawaiian kona extra fancy beans.",
+    "translation": "ハワイコナのエクストラファンシー",
+    "cloze": "they use hawaiian ｟kona｠ extra fancy beans."
+   },
+   {
+    "text": "Kona coffee is grown on the slopes of Hawaii's Big Island.",
+    "translation": "コナコーヒーはハワイ島の山の斜面で栽培されている。",
+    "cloze": "｟Kona｠ coffee is grown on the slopes of Hawaii's Big Island.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18966,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xba69cbb5",
+  "courseId": "en-10-30k",
+  "headword": "koko",
+  "reading": "/kˈoʊkoʊ/",
+  "gloss": "ココ(手話を用いたことで知られる有名なメスのゴリラ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Koko chose the tree.",
+    "translation": "ココは木を選んだ。",
+    "cloze": "｟＿｠ chose the tree."
+   },
+   {
+    "text": "Koko is a female gorilla.",
+    "translation": "ココは雌のゴリラである。",
+    "cloze": "｟＿｠ is a female gorilla."
+   }
+  ],
+  "frequencyRank": 19567,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xcd5a57b2",
+  "courseId": "en-10-30k",
+  "headword": "kiddos",
+  "reading": null,
+  "gloss": "(親しみを込めた呼びかけで)子どもたち,坊やたち",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Come on, kiddos, it's time for bed.",
+    "translation": "さあ、子どもたち、寝る時間よ。",
+    "cloze": "Come on, ｟kiddos｠, it's time for bed.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She waved goodbye to the kiddos as the bus left.",
+    "translation": "バスが出発する時、彼女は子どもたちに手を振って別れを告げた。",
+    "cloze": "She waved goodbye to the ｟kiddos｠ as the bus left.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19849,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x62a2a927",
+  "courseId": "en-10-30k",
+  "headword": "kaleidoscope",
+  "reading": "/kəlˈaɪdəskˌoʊp/",
+  "gloss": "万華鏡;めまぐるしく変化する様子",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's like a kaleidoscope.",
+    "translation": "万華鏡のようです",
+    "cloze": "it's like a ｟kaleidoscope｠."
+   },
+   {
+    "text": "life is a kaleidoscope.",
+    "translation": "この世は まるで万華鏡のようだな",
+    "cloze": "life is a ｟kaleidoscope｠."
+   }
+  ],
+  "frequencyRank": 20142,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x7bff4817",
+  "courseId": "en-10-30k",
+  "headword": "keypad",
+  "reading": "/kˈipˌæd/",
+  "gloss": "キーパッド,テンキー(数字ボタンが並んだ入力装置)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "get me a keypad override on 217.",
+    "translation": "217号室を開けてくれ",
+    "cloze": "get me a ｟keypad｠ override on 217."
+   },
+   {
+    "text": "can you hack from there to the keypad?",
+    "translation": "そっちからキーパッドにハッキングできない?",
+    "cloze": "can you hack from there to the ｟keypad｠?"
+   }
+  ],
+  "frequencyRank": 20144,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xe8b435f9",
+  "courseId": "en-10-30k",
+  "headword": "kimchi",
+  "reading": "/kˈɪmtʃi/",
+  "gloss": "キムチ(白菜などを漬け込んだ韓国の伝統的な発酵食品)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "put the kimchi in the refrigerator after a day.",
+    "translation": "キムチは一日たったら冷蔵庫に入れてね総菜は一食分ずつに分けて入れてね",
+    "cloze": "put the ｟kimchi｠ in the refrigerator after a day."
+   },
+   {
+    "text": "dad, let's bake them and eat them with kimchi.",
+    "translation": "蒸してキムチと食べたら・・・ 最高だよ!",
+    "cloze": "dad, let's bake them and eat them with ｟kimchi｠."
+   }
+  ],
+  "frequencyRank": 20145,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xf87b0825",
+  "courseId": "en-10-30k",
+  "headword": "krakow",
+  "reading": "/kɹˈɑkaʊ/",
+  "gloss": "クラクフ(ポーランド南部の古都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "krakow, poland.",
+    "translation": "クラコフだ ポーランドの",
+    "cloze": "｟krakow｠, poland."
+   },
+   {
+    "text": "We spent three days exploring the old town of Krakow.",
+    "translation": "私たちはクラクフの旧市街を3日かけて見て回った。",
+    "cloze": "We spent three days exploring the old town of ｟Krakow｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20147,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1dca6afe",
+  "courseId": "en-10-30k",
+  "headword": "keyhole",
+  "reading": "/kˈihˌoʊl/",
+  "gloss": "鍵穴",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Having forgotten his key, he was able to open the door by inserting a wire in the keyhole.",
+    "translation": "彼は鍵を忘れたが、針金を鍵穴に差し込むことで扉を開けることができた。",
+    "cloze": "Having forgotten his key, he was able to open the door by inserting a wire in the ｟＿｠."
+   },
+   {
+    "text": "Tom and Mary watched through the keyhole as their father put on a Father Christmas costume.",
+    "translation": "トムとメアリーは、お父さんがサンタクロースに扮装しているのを鍵穴から覗いて見ていた。",
+    "cloze": "Tom and Mary watched through the ｟＿｠ as their father put on a Father Christmas costume."
+   }
+  ],
+  "frequencyRank": 20448,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x6c8ef0ba",
+  "courseId": "en-10-30k",
+  "headword": "kyu",
+  "reading": "/kjˈu/",
+  "gloss": "級(柔道・空手などの段位制度で黒帯(段)より下の等級)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A white belt begins at the lowest kyu grade in judo.",
+    "translation": "柔道では白帯は最も低い級から始まる。",
+    "cloze": "A white belt begins at the lowest ｟＿｠ grade in judo.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20451,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x4b3e000a",
+  "courseId": "en-10-30k",
+  "headword": "kana",
+  "reading": "/kˈænə/",
+  "gloss": "仮名(日本語の音節文字。ひらがな・カタカナ)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My grandfather sometimes writes in the old kana orthography.",
+    "translation": "祖父は古い仮名遣いで書くことがあるの。",
+    "cloze": "My grandfather sometimes writes in the old ｟＿｠ orthography."
+   },
+   {
+    "text": "When learning Japanese, I quickly discovered that many kanji are rarely used, and are often replaced with kana.",
+    "translation": "日本語を勉強していたとき、漢字はたくさんは使われてなく、仮名に置き換わっていることに気づいた。",
+    "cloze": "When learning Japanese, I quickly discovered that many kanji are rarely used, and are often replaced with ｟＿｠."
+   }
+  ],
+  "frequencyRank": 20730,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x07a64a28",
+  "courseId": "en-10-30k",
+  "headword": "kiel",
+  "reading": "/kˈil/",
+  "gloss": "キール(ドイツ北部の港湾都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we recieved intel about night shipments of military equipment in kiel.",
+    "translation": "キールでの軍隊の動きに関しての 情報を受け取った",
+    "cloze": "we recieved intel about night shipments of military equipment in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 20733,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6eef9301",
+  "courseId": "en-10-30k",
+  "headword": "kenyatta",
+  "reading": null,
+  "gloss": "ケニヤッタ(ジョモ・ケニヤッタ、ケニア初代大統領)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "kwame nkrumah, nyerere, kenyatta somebody mentioned idi amin.",
+    "translation": "他はクワメ・エンクルマ ニエレレやケンヤッタなど イディ・アミンと言う人もいました",
+    "cloze": "kwame nkrumah, nyerere, ｟＿｠ somebody mentioned idi amin."
+   },
+   {
+    "text": "Jomo Kenyatta became the first president of independent Kenya.",
+    "translation": "ジョモ・ケニヤッタはケニア独立後の初代大統領になった。",
+    "cloze": "Jomo ｟＿｠ became the first president of independent Kenya.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21046,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x25efe4cc",
+  "courseId": "en-10-30k",
+  "headword": "kyrgyz",
+  "reading": null,
+  "gloss": "キルギス(人)の;キルギス人;キルギス語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "between ethnic kyrgyz",
+    "translation": "キルギス人と",
+    "cloze": "between ethnic ｟＿｠"
+   },
+   {
+    "text": "Many Kyrgyz families still live a nomadic lifestyle in the mountains.",
+    "translation": "多くのキルギス人の家族は今も山岳地帯で遊牧生活を送っている。",
+    "cloze": "Many ｟＿｠ families still live a nomadic lifestyle in the mountains.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21053,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7aaa99fe",
+  "courseId": "en-10-30k",
+  "headword": "kannada",
+  "reading": null,
+  "gloss": "カンナダ語(インド南部で話される言語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I can't speak Kannada.",
+    "translation": "私はカンナダ語を話しません。",
+    "cloze": "I can't speak ｟＿｠."
+   },
+   {
+    "text": "My dream is to study Kannada in Bengaluru.",
+    "translation": "私の夢は、ベンガルールでカンナダ語を勉強することです。",
+    "cloze": "My dream is to study ｟＿｠ in Bengaluru."
+   }
+  ],
+  "frequencyRank": 21344,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x66731ecd",
+  "courseId": "en-10-30k",
+  "headword": "knesset",
+  "reading": "/nˈɛsət/",
+  "gloss": "クネセト（イスラエルの国会）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Knesset passed a new law last week.",
+    "translation": "クネセト（イスラエル国会）は先週新しい法律を可決した。",
+    "cloze": "The ｟＿｠ passed a new law last week.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22332,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xae14659c",
+  "courseId": "en-10-30k",
+  "headword": "krypton",
+  "reading": "/kɹˈɪptɑn/",
+  "gloss": "クリプトン（元素記号Kr、貴ガスの一種）；（固有名詞）クリプトン星（スーパーマンの故郷）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "krypton is doomed.",
+    "translation": "クリプトン星は死にかけてる",
+    "cloze": "｟＿｠ is doomed."
+   },
+   {
+    "text": "i'm sorry! they killed krypton",
+    "translation": "彼らはクリプトンを殺した",
+    "cloze": "i'm sorry! they killed ｟＿｠"
+   }
+  ],
+  "frequencyRank": 22334,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xae65add6",
+  "courseId": "en-10-30k",
+  "headword": "kcal",
+  "reading": "/kˈeɪkɑl/",
+  "gloss": "キロカロリー(熱量の単位。食品のカロリー表示などで使用)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This meal contains about 500 kcal.",
+    "translation": "この食事には約500キロカロリーが含まれている。",
+    "cloze": "This meal contains about 500 ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The label shows 250 kcal per serving.",
+    "translation": "ラベルには一人前あたり250kcalと表示されている。",
+    "cloze": "The label shows 250 ｟＿｠ per serving.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22669,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x0fa65b40",
+  "courseId": "en-10-30k",
+  "headword": "keychain",
+  "reading": null,
+  "gloss": "キーホルダー,キーチェーン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you saw how he was tapping his keychain.",
+    "translation": "キーホルダーで コツコツやってたのを見ただろ",
+    "cloze": "you saw how he was tapping his ｟＿｠."
+   },
+   {
+    "text": "the a.a. chip on your keychain.",
+    "translation": "あなたのキーチェーンの \"A\"の札",
+    "cloze": "the a.a. chip on your ｟＿｠."
+   }
+  ],
+  "frequencyRank": 22671,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x3c28144b",
+  "courseId": "en-10-30k",
+  "headword": "khorasan",
+  "reading": null,
+  "gloss": "ホラーサーン(現在のイラン北東部からアフガニスタン、中央アジアにまたがる歴史的地域名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Khorasan was once a great center of Persian culture and learning.",
+    "translation": "ホラーサーンはかつてペルシャ文化と学問の一大中心地だった。",
+    "cloze": "｟＿｠ was once a great center of Persian culture and learning.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The historical region of Khorasan spanned parts of modern Iran, Afghanistan, and Central Asia.",
+    "translation": "歴史的なホラーサーン地方は、現在のイラン・アフガニスタン・中央アジアの一部にまたがっていた。",
+    "cloze": "The historical region of ｟＿｠ spanned parts of modern Iran, Afghanistan, and Central Asia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22672,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x106315b7",
+  "courseId": "en-10-30k",
+  "headword": "kinshasa",
+  "reading": "/kɪnʃˈɑsə/",
+  "gloss": "キンシャサ(コンゴ民主共和国の首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "damien runs a hotel outside of kinshasa.",
+    "translation": "キンシャサの郊外でホテルを経営しています",
+    "cloze": "damien runs a hotel outside of ｟kinshasa｠."
+   },
+   {
+    "text": "he went back to the streets of kinshasa;",
+    "translation": "若者はキンシャサの街に消えて行き",
+    "cloze": "he went back to the streets of ｟kinshasa｠;"
+   }
+  ],
+  "frequencyRank": 22976,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1afa3cca",
+  "courseId": "en-10-30k",
+  "headword": "keynesian",
+  "reading": "/kˈeɪnziən/",
+  "gloss": "ケインズ主義の、ケインズ経済学の(ジョン・メイナード・ケインズの経済理論に関する)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Keynesian economics emphasizes government spending to boost demand.",
+    "translation": "ケインズ経済学は需要を喚起するために政府支出を重視する。",
+    "cloze": "｟＿｠ economics emphasizes government spending to boost demand.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She studies Keynesian theory at graduate school.",
+    "translation": "彼女は大学院でケインズ理論を学んでいる。",
+    "cloze": "She studies ｟＿｠ theory at graduate school.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23326,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x127fd9ef",
+  "courseId": "en-10-30k",
+  "headword": "kidnapping",
+  "reading": "/kˈɪdnˌæpɪŋ/",
+  "gloss": "誘拐、誘拐すること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is accused of kidnapping.",
+    "translation": "彼は誘拐罪で起訴されている。",
+    "cloze": "He is accused of ｟＿｠."
+   },
+   {
+    "text": "The prosecution condemned the defendant for kidnapping a child.",
+    "translation": "検察側は被告が子供を誘拐したと激しく非難した。",
+    "cloze": "The prosecution condemned the defendant for ｟＿｠ a child."
+   }
+  ],
+  "frequencyRank": 23327,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xe37139c6",
+  "courseId": "en-10-30k",
+  "headword": "kochi",
+  "reading": null,
+  "gloss": "高知(日本の都市・県名);コーチ(インド・ケーララ州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kochi Prefecture's capital is Kochi City.",
+    "translation": "高知県の県庁所在地は高知市です。",
+    "cloze": "｟＿｠ Prefecture's capital is Kochi City."
+   },
+   {
+    "text": "The climate of Kochi is warmer than that of Kyoto.",
+    "translation": "高知の気候は京都の気候よりも暖かい。",
+    "cloze": "The climate of ｟＿｠ is warmer than that of Kyoto."
+   }
+  ],
+  "frequencyRank": 23645,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7e40a279",
+  "courseId": "en-10-30k",
+  "headword": "kiddies",
+  "reading": "/kˈɪdiz/",
+  "gloss": "子供たち(くだけた言い方)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The kiddies are playing in the park.",
+    "translation": "子供たちが公園で遊んでいる。",
+    "cloze": "The ｟＿｠ are playing in the park.",
+    "aiGenerated": true
+   },
+   {
+    "text": "This section of the pool is for the kiddies.",
+    "translation": "プールのこのエリアは子供たち用です。",
+    "cloze": "This section of the pool is for the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23960,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x703afa7a",
+  "courseId": "en-10-30k",
+  "headword": "kilimanjaro",
+  "reading": "/kɪlˌiməndʒˈɑɹoʊ/",
+  "gloss": "キリマンジャロ(アフリカ大陸最高峰の山)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "there is a new face of kilimanjaro without ice.",
+    "translation": "これは 雪のないキリマンジャロの姿です",
+    "cloze": "there is a new face of ｟＿｠ without ice."
+   },
+   {
+    "text": "within the decade there will be no more snows of kilimanjaro.",
+    "translation": "10年の内に、キリマンジェロに雪は 無くなるでしょう",
+    "cloze": "within the decade there will be no more snows of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 23961,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x21e452b9",
+  "courseId": "en-10-30k",
+  "headword": "khamenei",
+  "reading": "/kəmˈeɪnˌi/",
+  "gloss": "アリー・ハーメネイー(イランの最高指導者、1989年から現職)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Khamenei has served as Iran's Supreme Leader since 1989.",
+    "translation": "ハーメネイーは1989年からイランの最高指導者を務めている。",
+    "cloze": "｟＿｠ has served as Iran's Supreme Leader since 1989.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24634,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2ebfc492",
+  "courseId": "en-10-30k",
+  "headword": "kisser",
+  "reading": "/kˈɪsɚ/",
+  "gloss": "(俗語)顔、口;キスする人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is a good kisser.",
+    "translation": "トムはキスがうまい人です。",
+    "cloze": "Tom is a good ｟＿｠."
+   },
+   {
+    "text": "Is Tom a good kisser?",
+    "translation": "トムってキスが上手なの？",
+    "cloze": "Is Tom a good ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 24638,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xa9f8edf5",
+  "courseId": "en-10-30k",
+  "headword": "kyushu",
+  "reading": "/kjˈʌʃu/",
+  "gloss": "九州(日本南西部にある主要な島)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "She is away in Kyushu.",
+    "translation": "彼女は九州に行って留守です。",
+    "cloze": "She is away in ｟＿｠."
+   },
+   {
+    "text": "He has left for Kyushu.",
+    "translation": "彼は九州へ旅立った。",
+    "cloze": "He has left for ｟＿｠."
+   }
+  ],
+  "frequencyRank": 24640,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x873149a9",
+  "courseId": "en-10-30k",
+  "headword": "ketones",
+  "reading": null,
+  "gloss": "ケトン体(脂肪分解で生じる化合物)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "During a fast, the body produces ketones for energy.",
+    "translation": "断食中、体はエネルギー源としてケトン体を作り出す。",
+    "cloze": "During a fast, the body produces ｟ketones｠ for energy.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24999,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x6b455a65",
+  "courseId": "en-10-30k",
+  "headword": "kleenex",
+  "reading": "/klˈinəks/",
+  "gloss": "クリネックス,ティッシュペーパー(商標名から一般化した語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Bring me the Kleenex.",
+    "translation": "ティッシュを持ってきて。",
+    "cloze": "Bring me the ｟Kleenex｠."
+   },
+   {
+    "text": "Does anybody have a kleenex?",
+    "translation": "誰かティッシュ持ってない？",
+    "cloze": "Does anybody have a ｟kleenex｠?"
+   }
+  ],
+  "frequencyRank": 25002,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x6c7e4b2f",
+  "courseId": "en-10-30k",
+  "headword": "kickass",
+  "reading": null,
+  "gloss": "最高の、いかす、強烈な(俗語)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She wrote a kickass essay that impressed everyone.",
+    "translation": "彼女はみんなを感心させるすごいエッセイを書いた。",
+    "cloze": "She wrote a ｟kickass｠ essay that impressed everyone.",
+    "aiGenerated": true
+   },
+   {
+    "text": "That was a kickass performance!",
+    "translation": "あれは最高のパフォーマンスだった!",
+    "cloze": "That was a ｟kickass｠ performance!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25377,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x445f442b",
+  "courseId": "en-10-30k",
+  "headword": "kowloon",
+  "reading": null,
+  "gloss": "九龍(香港の地区名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "he's in kowloon. right here.",
+    "translation": "彼はコウローン(九龍)にいる ここに",
+    "cloze": "he's in ｟kowloon｠. right here."
+   }
+  ],
+  "frequencyRank": 25380,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x74497c3f",
+  "courseId": "en-10-30k",
+  "headword": "khomeini",
+  "reading": "/koʊmˈeɪni/",
+  "gloss": "ホメイニ師(イラン・イスラム革命を指導した最高指導者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this is tal'at basari, a concertlevel pianist whose cousin had ties to khomeini.",
+    "translation": "これはタラット バサリ 著名なピアニスト 従兄弟がホメイニと繋がってた",
+    "cloze": "this is tal'at basari, a concertlevel pianist whose cousin had ties to ｟khomeini｠."
+   },
+   {
+    "text": "Khomeini led the Iranian Revolution in 1979.",
+    "translation": "ホメイニ師は1979年のイラン革命を指導した。",
+    "cloze": "｟Khomeini｠ led the Iranian Revolution in 1979.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26129,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6a47b148",
+  "courseId": "en-10-30k",
+  "headword": "kodiak",
+  "reading": "/kˈoʊdiˌæk/",
+  "gloss": "コディアックヒグマ(アラスカ産の大型のヒグマ);コディアック島",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "like a kodiak?",
+    "translation": "熊とか?",
+    "cloze": "like a ｟kodiak｠?"
+   }
+  ],
+  "frequencyRank": 26131,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x95cdc757",
+  "courseId": "en-10-30k",
+  "headword": "kronos",
+  "reading": "/kɹˈoʊnoʊs/",
+  "gloss": "クロノス(ギリシャ神話のティタン神族の王、ゼウスの父)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "they destroyed kronos... and banished his remains to the depths of tartarus.",
+    "translation": "彼らは父クロノスを滅ぼし その死体をタルタロスの深みに追放した",
+    "cloze": "they destroyed ｟kronos｠... and banished his remains to the depths of tartarus."
+   },
+   {
+    "text": "the remains of kronos.",
+    "translation": "クロノスの残骸さ",
+    "cloze": "the remains of ｟kronos｠."
+   }
+  ],
+  "frequencyRank": 26133,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe8d8db73",
+  "courseId": "en-10-30k",
+  "headword": "kunming",
+  "reading": null,
+  "gloss": "昆明(中国雲南省の省都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kunming is known as the City of Eternal Spring.",
+    "translation": "昆明は「常春の都」として知られている。",
+    "cloze": "｟Kunming｠ is known as the City of Eternal Spring.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26134,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4248ccbb",
+  "courseId": "en-10-30k",
+  "headword": "kigali",
+  "reading": "/kiɡˈɑli/",
+  "gloss": "キガリ(ルワンダの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Rwandan rebels are pushing their offensive south as fighting continues in the capital Kigali.",
+    "translation": "首都キガリで戦闘が続く中、ルワンダの反政府勢力は南に向かって攻勢を強めています。",
+    "cloze": "Rwandan rebels are pushing their offensive south as fighting continues in the capital ｟Kigali｠."
+   },
+   {
+    "text": "we were going to corner the snack food business in kigali",
+    "translation": "キガリでスナック食品ビジネスを独占するつもりでした",
+    "cloze": "we were going to corner the snack food business in ｟kigali｠"
+   }
+  ],
+  "frequencyRank": 26540,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5a8bcda3",
+  "courseId": "en-10-30k",
+  "headword": "kanpur",
+  "reading": null,
+  "gloss": "カンプル(インド北部ウッタル・プラデーシュ州の工業都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Kanpur is a major industrial city in northern India.",
+    "translation": "カンプルはインド北部の主要な工業都市である。",
+    "cloze": "｟＿｠ is a major industrial city in northern India.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26959,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf3aca772",
+  "courseId": "en-10-30k",
+  "headword": "komodo",
+  "reading": "/kəmˈoʊdoʊ/",
+  "gloss": "コモド(インドネシアの島。コモドオオトカゲの生息地として有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Komodo Island is famous for its giant lizards.",
+    "translation": "コモド島は巨大なトカゲで有名だ。",
+    "cloze": "｟＿｠ Island is famous for its giant lizards.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26970,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe4b942a4",
+  "courseId": "en-10-30k",
+  "headword": "kaiju",
+  "reading": null,
+  "gloss": "怪獣(日本発の特撮・映画に登場する巨大な怪物、また同ジャンルを指す語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the kaiju are learning our defenses.",
+    "translation": "怪獣は我々を学び―",
+    "cloze": "the ｟＿｠ are learning our defenses."
+   },
+   {
+    "text": "The kaiju emerged from the ocean and attacked the city.",
+    "translation": "怪獣は海から現れて都市を襲った。",
+    "cloze": "The ｟＿｠ emerged from the ocean and attacked the city.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27796,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xfdc1d6e3",
+  "courseId": "en-10-30k",
+  "headword": "karts",
+  "reading": null,
+  "gloss": "ゴーカート、レース用の小型自動車",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The kids raced their karts around the track.",
+    "translation": "子供たちはコースでカートを走らせてレースをした。",
+    "cloze": "The kids raced their ｟＿｠ around the track.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27799,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x5bc9293d",
+  "courseId": "en-10-30k",
+  "headword": "kerouac",
+  "reading": "/kˈɛɹuæk/",
+  "gloss": "ケルアック(米国の作家、『路上』の著者、ビート世代を代表する人物)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "you keep quoting kerouac, an overrated bum.",
+    "translation": "君はケルアックを過大評価し 彼の言葉を引用し続けている",
+    "cloze": "you keep quoting ｟＿｠, an overrated bum."
+   },
+   {
+    "text": "kerouac.",
+    "translation": "ケルアックか",
+    "cloze": "｟＿｠."
+   }
+  ],
+  "frequencyRank": 27800,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x5ee45a5f",
+  "courseId": "en-10-30k",
+  "headword": "koji",
+  "reading": "/kˈoʊdʒi/",
+  "gloss": "麹(こうじ)。味噌・醤油・日本酒などの発酵に使うコウジカビ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Koji is used to ferment rice for making sake.",
+    "translation": "麹は日本酒を造るために米を発酵させるのに使われる。",
+    "cloze": "｟＿｠ is used to ferment rice for making sake.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27803,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x9bd14033",
+  "courseId": "en-10-30k",
+  "headword": "kanto",
+  "reading": null,
+  "gloss": "関東(地方)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The typhoon struck the Kanto district.",
+    "translation": "台風が関東地方に上陸した。",
+    "cloze": "The typhoon struck the ｟＿｠ district."
+   },
+   {
+    "text": "A lot of snow fell on the Kanto region last week.",
+    "translation": "先週、関東で大雪が降りました。",
+    "cloze": "A lot of snow fell on the ｟＿｠ region last week."
+   }
+  ],
+  "frequencyRank": 28195,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2abbf2d7",
+  "courseId": "en-10-30k",
+  "headword": "kabuki",
+  "reading": "/kəbˈukˌi/",
+  "gloss": "歌舞伎(日本の伝統的な演劇)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do you know kabuki?",
+    "translation": "歌舞伎はご存じですか。",
+    "cloze": "Do you know ｟＿｠?"
+   },
+   {
+    "text": "I saw a kabuki play in Tokyo.",
+    "translation": "東京で歌舞伎を見た。",
+    "cloze": "I saw a ｟＿｠ play in Tokyo."
+   }
+  ],
+  "frequencyRank": 29017,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x4632721c",
+  "courseId": "en-10-30k",
+  "headword": "kinases",
+  "reading": null,
+  "gloss": "キナーゼ(リン酸基を転移する酵素の総称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Protein kinases play a key role in controlling cell growth.",
+    "translation": "タンパク質キナーゼは細胞増殖の制御に重要な役割を果たす。",
+    "cloze": "Protein ｟＿｠ play a key role in controlling cell growth.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Researchers are developing drugs that block specific kinases in cancer cells.",
+    "translation": "研究者たちはがん細胞の特定のキナーゼを阻害する薬を開発している。",
+    "cloze": "Researchers are developing drugs that block specific ｟＿｠ in cancer cells.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29448,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x73f4cec2",
+  "courseId": "en-10-30k",
+  "headword": "kooky",
+  "reading": "/kˈuki/",
+  "gloss": "風変わりな、奇抜な、変な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "those kooky kids.",
+    "translation": "変わったガキだ",
+    "cloze": "those ｟＿｠ kids."
+   },
+   {
+    "text": "yeah, i mean, she's a little kooky, but she seems trustworthy, she knows the house really well, and i feel like i could just use the help.",
+    "translation": "ええ ちょっと変だけど ─ この家を良く知ってるし 信頼できる お手伝いも 必要かなって",
+    "cloze": "yeah, i mean, she's a little ｟＿｠, but she seems trustworthy, she knows the house really well, and i feel like i could just use the help."
+   }
+  ],
+  "frequencyRank": 29451,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3a1f3261",
+  "courseId": "en-10-30k",
+  "headword": "kandy",
+  "reading": null,
+  "gloss": "キャンディ(スリランカ中部の古都;世界遺産・仏歯寺で有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Temple of the Tooth in Kandy attracts many Buddhist pilgrims.",
+    "translation": "キャンディの仏歯寺には多くの仏教徒の巡礼者が訪れる。",
+    "cloze": "The Temple of the Tooth in ｟Kandy｠ attracts many Buddhist pilgrims.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29837,
+  "category": "places"
+ }
+]

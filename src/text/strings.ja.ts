@@ -40,6 +40,7 @@ export const ja: UIStrings = {
     '・Studying — 数時間で薄れ、まもなく復習に戻ってくる',
     'そのため、学習セッションの合間にFuzzy・Studyingの語が薄れて数字は自然に下がり、復習するたびにまた上がります。',
   ],
+  meterAddedCount: (n) => `＋自分の追加 ${n}`,
 
   // タブ
   tabStudy: '学習',
@@ -121,6 +122,17 @@ export const ja: UIStrings = {
 
   // 文脈クローズ
   clozeBadge: '穴埋め',
+
+  // 単語検索（タブ行に常設）
+  searchPlaceholder: 'このコース内を検索…',
+  searchAria: 'このコース内の単語を検索',
+  searchNoResults: '一致する単語がありません',
+  searchAddLabel: 'このコースに追加',
+  searchGenerateLabel: 'AIで生成',
+  searchGenerating: '生成中…',
+  searchGenerateRateLimited: '本日の上限（20語）に達しました。また明日お試しください',
+  searchGenerateDisabled: 'この機能は現在停止中です',
+  searchGenerateFailed: '生成できませんでした。しばらくしてからもう一度お試しください',
 
   // 単語一覧のフィルター・状態
   statusNew: '未学習',

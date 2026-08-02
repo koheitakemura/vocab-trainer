@@ -24,6 +24,12 @@ export interface Env {
    * （実測: 全コース学習で1語≈400B・約4,900語で2MB到達。snapshot.ts の冒頭を参照）。
    */
   SNAPSHOTS: R2Bucket
+  /**
+   * 検索して見つからない語の生成（docs/word-request-design.md §9・worker/wordgen.ts）。
+   * Workers AI はローカル開発でも実アカウントに到達する（ローカルシミュレーションが無い）ため、
+   * `wrangler dev` で試すだけでも実際の無料枠を消費する。
+   */
+  AI: Ai
 
   // ── Cloudflare Access（本人確認）
   /** 例: https://divine-bread-a024.cloudflareaccess.com（末尾スラッシュ無し） */

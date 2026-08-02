@@ -1,4 +1,4 @@
-import { db, emptySummary, summarize } from './db'
+import { db, emptySummary, isExtraCardId, summarize } from './db'
 import { BURN_STABILITY_DAYS, gradeCard, newCard, retrievabilityOf, State, type ReviewGrade } from '../srs/scheduler'
 import { approxLevelCounts, gradeLevel, isKnownRow, isPromotionToKnown } from '../srs/levels'
 import type { CourseId, DailyStat, MetaRow, VocabCard, WordProgress } from '../types'
@@ -81,16 +81,21 @@ export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise
 
     // コース別サマリの増分更新（ヘッダーのメーターはこの1行だけを読む）。
     // 卒業済みは byGrade でなく burned に数える（内訳の Mastered セグメント）。
+    // 自分で追加した語（isExtraCardId）はここに混ぜない——コースのレベル感を示す数字を
+    // 汚さないため（docs/word-request-design.md §4）。progress/dailyStats への記録は
+    // 通常どおり行う＝学習盤面・単語一覧・ストリークには変わらず反映される。
     const s = (await db.summary.get(card.courseId)) ?? emptySummary(card.courseId)
-    if (wasNew) s.introduced++
-    if (wasBurned) {
-      if (s.burned > 0) s.burned--
-    } else if (prevGrade && s.byGrade[prevGrade] > 0) {
-      s.byGrade[prevGrade]--
+    if (!isExtraCardId(card.id)) {
+      if (wasNew) s.introduced++
+      if (wasBurned) {
+        if (s.burned > 0) s.burned--
+      } else if (prevGrade && s.byGrade[prevGrade] > 0) {
+        s.byGrade[prevGrade]--
+      }
+      if (status === 'burned') s.burned++
+      else s.byGrade[grade]++
+      await db.summary.put(s)
     }
-    if (status === 'burned') s.burned++
-    else s.byGrade[grade]++
-    await db.summary.put(s)
 
     // 日次ログの追記（1コース×1日＝1行）
     const d = (await db.dailyStats.get([card.courseId, today])) ?? emptyDailyStat(card.courseId, today)
@@ -126,6 +131,10 @@ export async function vocabSnapshot(courseId: CourseId, now: Date = new Date()):
   let sum = 0
   const knownIds = new Set<string>()
   for (const r of rows) {
+    // 推定語彙数（メーター下の被覆率/depth の元になる）から自分の追加語を除く
+    // （docs/word-request-design.md §4）。学習盤面での既習判定（knownIds）自体は
+    // コーチ文の解禁材料に過ぎず害がないためこのループごと丸ごとスキップする。
+    if (isExtraCardId(r.cardId)) continue
     sum += retrievabilityOf(r.fsrs, now)
     if (isKnownRow(r)) knownIds.add(r.cardId)
   }
@@ -176,7 +185,12 @@ export async function checkProgressIntegrity(
   idEpoch: number,
   presentCardIds: Set<string>,
 ): Promise<ProgressIntegrity> {
-  const rows = await db.progress.where('courseId').equals(courseId).toArray()
+  // 自分で追加した語（isExtraCardId）は cardId レジストリの世代管理と無関係
+  // （内容ハッシュ由来のIDでそもそも付け替わらない）。ここに混ぜると「コースに存在しない
+  // cardId」として孤児カウントに誤って計上され、無用な警告バナーが出る。
+  const rows = (await db.progress.where('courseId').equals(courseId).toArray()).filter(
+    (r) => !isExtraCardId(r.cardId),
+  )
   if (rows.length === 0) {
     await acknowledgeEpoch(courseId, idEpoch)
     return { rows: 0, orphans: 0, staleEpoch: false }

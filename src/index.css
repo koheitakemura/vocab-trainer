@@ -421,6 +421,13 @@ select option {
   color: var(--text-faint);
 }
 
+/* 検索して自分で追加した語の数（分母には含めない・別枠） */
+.meter-added {
+  font-size: 12px;
+  color: var(--accent);
+  margin-left: 4px;
+}
+
 .meter-label {
   font-size: 11px;
   letter-spacing: 0.08em;
@@ -1309,8 +1316,130 @@ select option {
   border-color: var(--text-faint);
 }
 
+/* ---------- 単語検索（タブ行に常設・WordSearch.tsx） ---------- */
+.word-search {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.word-search-icon {
+  position: absolute;
+  left: 9px;
+  color: var(--text-faint);
+  pointer-events: none;
+}
+
+.word-search-input {
+  width: 180px;
+  font: inherit;
+  font-size: 12px;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 10px 6px 28px;
+  transition: width 0.15s ease, border-color 0.15s ease;
+}
+
+.word-search-input::placeholder {
+  color: var(--text-faint);
+}
+
+.word-search-input:focus {
+  outline: none;
+  width: 240px;
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+}
+
+/* ブラウザ既定の丸い×消去ボタン。1つで足りるので他の装飾は消す */
+.word-search-input::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
+.word-search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 30;
+  width: max(260px, 100%);
+  max-height: 320px;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+  padding: 4px;
+}
+
+.word-search-empty {
+  padding: 10px 12px;
+  font-size: 12px;
+  color: var(--text-faint);
+  text-align: center;
+}
+
+.word-search-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 10px;
+  cursor: pointer;
+  color: var(--text);
+  font: inherit;
+}
+
+.word-search-item:hover {
+  background: var(--surface-2);
+}
+
+.word-search-item:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* プール（在庫）から追加する行・AI生成する行。通常の検索結果と混同しないようアクセント色を添える */
+.word-search-item--add .word-search-word,
+.word-search-item--add .word-search-gloss,
+.word-search-item--generate .word-search-word,
+.word-search-item--generate .word-search-gloss {
+  color: var(--accent);
+}
+
+.word-search-add-icon {
+  flex: 0 0 auto;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.word-search-word {
+  font-weight: 600;
+  font-size: 14px;
+  flex: 0 0 auto;
+}
+
+.word-search-reading {
+  font-size: 12px;
+  color: var(--text-faint);
+  flex: 0 0 auto;
+}
+
+.word-search-gloss {
+  font-size: 12px;
+  color: var(--text-dim);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
 /* 狭い画面ではタブ名（特に All words）を折り返さず、更新ボタンはアイコンのみに縮める。
-   カテゴリー選択とツール群はタブの下に1行で回り込ませる（カード領域は占有しない）。 */
+   カテゴリー選択・検索・ツール群はタブの下に1行で回り込ませる（カード領域は占有しない）。 */
 @media (max-width: 620px) {
   .tabs {
     flex-wrap: wrap;
@@ -1323,6 +1452,7 @@ select option {
   .tab-tools {
     width: 100%;
     margin-bottom: 0;
+    flex-wrap: wrap;
   }
   .cat-select {
     flex: 1;
@@ -1333,6 +1463,19 @@ select option {
   }
   .tab-refresh {
     padding: 6px 10px;
+  }
+  .word-search-input,
+  .word-search-input:focus {
+    width: 100%;
+  }
+  /* 常に自分の行いっぱいに折り返す（カテゴリー選択＋更新ボタンと1行に収めようとすると
+     390px 幅で横スクロールが出るため） */
+  .word-search {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+  .word-search-results {
+    width: 100%;
   }
 }
 

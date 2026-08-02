@@ -1,0 +1,605 @@
+[
+ {
+  "id": "en-10-30k-x819571b8",
+  "courseId": "en-10-30k",
+  "headword": "queen",
+  "reading": "/kwˈin/",
+  "gloss": "女王",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "God save the Queen.",
+    "translation": "神様が女王をお守り下さいますように。",
+    "cloze": "God save the ｟＿｠."
+   },
+   {
+    "text": "He bowed to the Queen.",
+    "translation": "彼は女王様にお辞儀をした。",
+    "cloze": "He bowed to the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 86,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x8bcf7299",
+  "courseId": "en-10-30k",
+  "headword": "quit",
+  "reading": "/kwˈɪt/",
+  "gloss": "やめる、中止する；辞職する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I quit.",
+    "translation": "私、辞めます。",
+    "cloze": "I ｟＿｠."
+   },
+   {
+    "text": "He quit.",
+    "translation": "やめた。",
+    "cloze": "He ｟＿｠."
+   }
+  ],
+  "frequencyRank": 231,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x828a33a0",
+  "courseId": "en-10-30k",
+  "headword": "queensland",
+  "reading": "/kwˈinzlˌænd/",
+  "gloss": "クイーンズランド(オーストラリア北東部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Queensland is known for its beautiful beaches.",
+    "translation": "クイーンズランドは美しいビーチで知られている。",
+    "cloze": "｟＿｠ is known for its beautiful beaches.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She moved to Queensland last year.",
+    "translation": "彼女は昨年クイーンズランドに引っ越した。",
+    "cloze": "She moved to ｟＿｠ last year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 783,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x031ba8af",
+  "courseId": "en-10-30k",
+  "headword": "quarterly",
+  "reading": "/kwˈɔɹtɚli/",
+  "gloss": "年4回の、3か月ごとの／(名詞)季刊誌",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "When annualized, the quarterly gain represents a 4% growth.",
+    "translation": "年率に換算すると、この四半期の増加は４％の成長になる。",
+    "cloze": "When annualized, the ｟＿｠ gain represents a 4% growth."
+   },
+   {
+    "text": "A quarterly growth of 1.2% means an annual growth rate of 4.8%.",
+    "translation": "四半期１．２％の成長は年率４．８％の成長率を意味する。",
+    "cloze": "A ｟＿｠ growth of 1.2% means an annual growth rate of 4.8%."
+   }
+  ],
+  "frequencyRank": 1750,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xd4ed7603",
+  "courseId": "en-10-30k",
+  "headword": "quebec",
+  "reading": "/kwəbˈɛk/",
+  "gloss": "ケベック(カナダ東部の州、その州都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom learned French while living in Quebec.",
+    "translation": "トムはケベック滞在中、フランス語を習った。",
+    "cloze": "Tom learned French while living in ｟＿｠."
+   },
+   {
+    "text": "French from Quebec is spoken by more than 7 million speakers.",
+    "translation": "ケベックのフランス語はカナダのケベック州において700万以上の人々によって話されています。",
+    "cloze": "French from ｟＿｠ is spoken by more than 7 million speakers."
+   }
+  ],
+  "frequencyRank": 1865,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2679ca0d",
+  "courseId": "en-10-30k",
+  "headword": "quarterback",
+  "reading": "/kwˈɔɹtɚbˌæk/",
+  "gloss": "クォーターバック(アメリカンフットボールのポジション)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you're the quarterback.",
+    "translation": "君はクォーターバックだ",
+    "cloze": "you're the ｟＿｠."
+   },
+   {
+    "text": "The quarterback threw a long pass to win the game.",
+    "translation": "そのクォーターバックはロングパスを投げて試合に勝った。",
+    "cloze": "The ｟＿｠ threw a long pass to win the game.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1995,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x5705772e",
+  "courseId": "en-10-30k",
+  "headword": "qatar",
+  "reading": "/kˌʌtˈɑɹ/",
+  "gloss": "カタール(中東の国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He had a superb debut, appearing in the starting lineup against Qatar with one goal and two assists.",
+    "translation": "カタール戦スタメンで出場した彼は１ゴール２アシストと最高の代表デビューをかざった。",
+    "cloze": "He had a superb debut, appearing in the starting lineup against ｟＿｠ with one goal and two assists."
+   },
+   {
+    "text": "here we have qatar today, and there we have bangladesh today.",
+    "translation": "これが今日のカタール これが今日のバングラデシュです",
+    "cloze": "here we have ｟＿｠ today, and there we have bangladesh today."
+   }
+  ],
+  "frequencyRank": 3198,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfef94017",
+  "courseId": "en-10-30k",
+  "headword": "questionable",
+  "reading": "/kwˈɛstʃənəbəl/",
+  "gloss": "疑わしい,不審な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I think his job resume is questionable.",
+    "translation": "私は彼の経歴を疑わしいと思っている。",
+    "cloze": "I think his job resume is ｟＿｠."
+   },
+   {
+    "text": "There is nothing questionable about him.",
+    "translation": "彼には少しもやましい点がない。",
+    "cloze": "There is nothing ｟＿｠ about him."
+   }
+  ],
+  "frequencyRank": 3199,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb1898b47",
+  "courseId": "en-10-30k",
+  "headword": "quran",
+  "reading": null,
+  "gloss": "コーラン(イスラム教の聖典)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Why do Muslims memorize the Quran?",
+    "translation": "どうしてムスリムの方って、コーランを覚えるんですか？",
+    "cloze": "Why do Muslims memorize the ｟Quran｠?"
+   },
+   {
+    "text": "Tom wanted to be able to read the original Quran and solely for that reason he started learning Arabic.",
+    "translation": "トムはコーランを原文で読んで理解したいと思い、それだけのためにアラビア語の勉強を始めた。",
+    "cloze": "Tom wanted to be able to read the original ｟Quran｠ and solely for that reason he started learning Arabic."
+   }
+  ],
+  "frequencyRank": 5863,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xeae1aa85",
+  "courseId": "en-10-30k",
+  "headword": "quilt",
+  "reading": "/kwˈɪlt/",
+  "gloss": "キルト,刺し子の掛け布団;…を刺し子に縫う",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This quilt is very warm.",
+    "translation": "このキルト、めっちゃ暖かいよ。",
+    "cloze": "This ｟＿｠ is very warm."
+   },
+   {
+    "text": "I sleep with two quilts in the winter.",
+    "translation": "冬の時に掛け布団二枚使って寝るものです。",
+    "cloze": "I sleep with two ｟＿｠s in the winter."
+   }
+  ],
+  "frequencyRank": 10210,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xd9e25d84",
+  "courseId": "en-10-30k",
+  "headword": "quaker",
+  "reading": "/kwˈeɪkɚ/",
+  "gloss": "クエーカー教徒(キリスト教フレンド派)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it was a movement spearheaded by the quakers",
+    "translation": "運動を率いたのは クエーカー教徒だったし",
+    "cloze": "it was a movement spearheaded by the ｟＿｠s"
+   },
+   {
+    "text": "The Quakers are known for their belief in pacifism and simplicity.",
+    "translation": "クエーカー教徒は平和主義と質素な生活を重んじることで知られている。",
+    "cloze": "The ｟＿｠s are known for their belief in pacifism and simplicity.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12175,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x15b8f3a2",
+  "courseId": "en-10-30k",
+  "headword": "qing",
+  "reading": "/kˈɪŋ/",
+  "gloss": "清(しん)、清朝(中国最後の王朝)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in front of the qing envoy to prevent it.",
+    "translation": "清国の使臣団の前で",
+    "cloze": "in front of the ｟qing｠ envoy to prevent it."
+   },
+   {
+    "text": "wars after breaking the pledge with the qing.",
+    "translation": "過去に我が朝鮮は 清国との盟約を破った後2つの戦争に苦しみました",
+    "cloze": "wars after breaking the pledge with the ｟qing｠."
+   }
+  ],
+  "frequencyRank": 12789,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xba611b56",
+  "courseId": "en-10-30k",
+  "headword": "quack",
+  "reading": "/kwˈæk/",
+  "gloss": "にせ医者,いんちき医者;(アヒルの)ガアガーという鳴き声",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He must be a quack doctor.",
+    "translation": "彼はヤブ医者に違いない。",
+    "cloze": "He must be a ｟＿｠ doctor."
+   },
+   {
+    "text": "My mom thinks the doctor is a quack.",
+    "translation": "私のお母さん、その先生のことやぶ医者だって思ってるのよ。",
+    "cloze": "My mom thinks the doctor is a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14213,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xddd8c817",
+  "courseId": "en-10-30k",
+  "headword": "qin",
+  "reading": "/kˈɪn/",
+  "gloss": "秦(しん)王朝(中国最初の統一王朝);中国の伝統楽器「古琴」",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this was what china looked like with the victory of the qin dynasty",
+    "translation": "これは秦王朝が勝利を得た時の中国です",
+    "cloze": "this was what china looked like with the victory of the ｟＿｠ dynasty"
+   },
+   {
+    "text": "my husband has not played his qin for a long time",
+    "translation": "私の夫は長い間 演奏していません",
+    "cloze": "my husband has not played his ｟＿｠ for a long time"
+   }
+  ],
+  "frequencyRank": 14444,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xc5db896f",
+  "courseId": "en-10-30k",
+  "headword": "quart",
+  "reading": "/kwˈɔɹt/",
+  "gloss": "クォート(液量の単位)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I want a quart of milk.",
+    "translation": "牛乳を１クオート下さい。",
+    "cloze": "I want a ｟quart｠ of milk."
+   },
+   {
+    "text": "The recipe calls for one quart of chicken broth.",
+    "translation": "そのレシピには1クォートのチキンブロスが必要だ。",
+    "cloze": "The recipe calls for one ｟quart｠ of chicken broth.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15427,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x3dac0415",
+  "courseId": "en-10-30k",
+  "headword": "quakers",
+  "reading": "/kwˈeɪkɚz/",
+  "gloss": "クエーカー教徒(キリスト教の一派、フレンド派の信徒)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Quakers are known for their belief in pacifism and simplicity.",
+    "translation": "クエーカー教徒は平和主義と質素な生活を重んじることで知られている。",
+    "cloze": "The ｟＿｠ are known for their belief in pacifism and simplicity.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Some Quakers refuse to take oaths for religious reasons.",
+    "translation": "一部のクエーカー教徒は宗教上の理由で宣誓を拒否する。",
+    "cloze": "Some ｟＿｠ refuse to take oaths for religious reasons.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16984,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x990a6d20",
+  "courseId": "en-10-30k",
+  "headword": "qatari",
+  "reading": null,
+  "gloss": "カタール人(の)、カタールの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "to a qatari company.",
+    "translation": "カタールの会社が攻撃されました",
+    "cloze": "to a ｟＿｠ company."
+   },
+   {
+    "text": "i said, where are the qataris?",
+    "translation": "私は叫びましたよ 「カタール人はどこだ?」 (笑)",
+    "cloze": "i said, where are the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 18162,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc122d4f4",
+  "courseId": "en-10-30k",
+  "headword": "quezon",
+  "reading": null,
+  "gloss": "ケソン市(フィリピンの都市、旧首都);マヌエル・ケソン(フィリピン初代大統領)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Quezon City was once the capital of the Philippines.",
+    "translation": "ケソン市はかつてフィリピンの首都だった。",
+    "cloze": "｟＿｠ City was once the capital of the Philippines.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Manuel Quezon served as the first President of the Commonwealth of the Philippines.",
+    "translation": "マヌエル・ケソンはフィリピン・コモンウェルスの初代大統領を務めた。",
+    "cloze": "Manuel ｟＿｠ served as the first President of the Commonwealth of the Philippines.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20519,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa983b154",
+  "courseId": "en-10-30k",
+  "headword": "quickness",
+  "reading": "/kwˈɪknəs/",
+  "gloss": "速さ、迅速さ、機敏さ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "when i click my fingers, jack, you will open the safe with great ease... and quickness.",
+    "translation": "ジャック 僕が指をカチッと鳴らしたら 君は 簡単に素早く 金庫を開けるんだ",
+    "cloze": "when i click my fingers, jack, you will open the safe with great ease... and ｟＿｠."
+   },
+   {
+    "text": "last night, i discovered a direct correlation between the quickness with which the killer dispatched his victims and the extent of their parents' media exposure.",
+    "translation": "犯人が被害者を殺す速さと 被害者の両親がメディアに姿を現す頻度に 直接的な相関関係がある",
+    "cloze": "last night, i discovered a direct correlation between the ｟＿｠ with which the killer dispatched his victims and the extent of their parents' media exposure."
+   }
+  ],
+  "frequencyRank": 20520,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa061d509",
+  "courseId": "en-10-30k",
+  "headword": "quito",
+  "reading": "/kwˈitoʊ/",
+  "gloss": "キト(南米エクアドルの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Quito, Ecuador, is a little south of the equator.",
+    "translation": "エクアドルのキトは赤道のすぐ南にある。",
+    "cloze": "｟＿｠, Ecuador, is a little south of the equator."
+   },
+   {
+    "text": "Quito lies high in the Andes mountains.",
+    "translation": "キトはアンデス山脈の高地にある。",
+    "cloze": "｟＿｠ lies high in the Andes mountains.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20521,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x90256d02",
+  "courseId": "en-10-30k",
+  "headword": "quantico",
+  "reading": "/kwˈɑntɪkoʊ/",
+  "gloss": "クワンティコ(米バージニア州の町。FBIアカデミーの所在地として知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we'll consult with the profilers at quantico, help expand the search, and see if there's any other consistent patterns with the other victims.",
+    "translation": "クアンティコの プロファイラーに 犯人像を分析してもらってる 何か一貫性のパターンがないか",
+    "cloze": "we'll consult with the profilers at ｟＿｠, help expand the search, and see if there's any other consistent patterns with the other victims."
+   },
+   {
+    "text": "we need to contact the swat commander at quantico. roll a team out to the girl.",
+    "translation": "クアンティコにいるSWATの指揮官に 伝えて、今から少女を保護しに行くから",
+    "cloze": "we need to contact the swat commander at ｟＿｠. roll a team out to the girl."
+   }
+  ],
+  "frequencyRank": 21430,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x624c40b1",
+  "courseId": "en-10-30k",
+  "headword": "queenstown",
+  "reading": null,
+  "gloss": "クイーンズタウン(ニュージーランドの観光都市など)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "at queenstown tomorrow.",
+    "translation": "明日クイーンズタウンまで行けなくて残念だ",
+    "cloze": "at ｟＿｠ tomorrow."
+   },
+   {
+    "text": "i like to introduce you to andy harris. or harold. harold had got out of queenstown.",
+    "translation": "ヘラルドを紹介する クイーンズタウン出身",
+    "cloze": "i like to introduce you to andy harris. or harold. harold had got out of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 22086,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe83bc377",
+  "courseId": "en-10-30k",
+  "headword": "quidditch",
+  "reading": null,
+  "gloss": "クィディッチ(『ハリー・ポッター』シリーズに登場する架空の球技)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Harry played Seeker on his house's Quidditch team.",
+    "translation": "ハリーは寮のクィディッチチームでシーカーを務めた。",
+    "cloze": "Harry played Seeker on his house's ｟＿｠ team.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Quidditch is a fictional sport played on flying broomsticks.",
+    "translation": "クィディッチは空飛ぶほうきに乗って行う架空のスポーツである。",
+    "cloze": "｟＿｠ is a fictional sport played on flying broomsticks.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23398,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xfc1d9eaa",
+  "courseId": "en-10-30k",
+  "headword": "qingdao",
+  "reading": "/tʃˈɪŋdˈaʊ/",
+  "gloss": "青島(チンタオ)(中国の港湾都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Qingdao is a coastal city in eastern China.",
+    "translation": "青島は中国東部の沿岸都市です。",
+    "cloze": "｟＿｠ is a coastal city in eastern China.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26634,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xea294336",
+  "courseId": "en-10-30k",
+  "headword": "quantitatively",
+  "reading": "/kwˌɑntɪtˈeɪtəvli/",
+  "gloss": "量的に、定量的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "what is falling both quantitatively and qualitatively",
+    "translation": "量的にも質的にも 落ちてきていることは",
+    "cloze": "what is falling both ｟＿｠ and qualitatively"
+   },
+   {
+    "text": "and quantitatively determine how much better the performance is.",
+    "translation": "性能がどれだけ向上したかを量的に検証します",
+    "cloze": "and ｟＿｠ determine how much better the performance is."
+   }
+  ],
+  "frequencyRank": 27484,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x02e40c5c",
+  "courseId": "en-10-30k",
+  "headword": "qualitatively",
+  "reading": "/kwˌɑlətˈeɪtɪvli/",
+  "gloss": "質的に(量的にの対義語)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "what is falling both quantitatively and qualitatively",
+    "translation": "量的にも質的にも 落ちてきていることは",
+    "cloze": "what is falling both quantitatively and ｟＿｠"
+   },
+   {
+    "text": "qualitatively and quantitatively",
+    "translation": "質的にも量的にも",
+    "cloze": "｟＿｠ and quantitatively"
+   }
+  ],
+  "frequencyRank": 29950,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x0ddec0cb",
+  "courseId": "en-10-30k",
+  "headword": "quant",
+  "reading": "/kwˈænt/",
+  "gloss": "クオンツ(数量分析を用いる金融アナリスト)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i actually asked tim, who is the quant in our group",
+    "translation": "私はティムにたずねました 彼は私達のグループの金融アナリストです",
+    "cloze": "i actually asked tim, who is the ｟＿｠ in our group"
+   },
+   {
+    "text": "Quants use mathematical models to predict stock prices.",
+    "translation": "クオンツは数学モデルを用いて株価を予測する。",
+    "cloze": "｟＿｠ use mathematical models to predict stock prices.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29951,
+  "category": "work"
+ }
+]

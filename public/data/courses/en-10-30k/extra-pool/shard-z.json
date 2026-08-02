@@ -1,0 +1,703 @@
+[
+ {
+  "id": "en-10-30k-xff4f584b",
+  "courseId": "en-10-30k",
+  "headword": "zero",
+  "reading": "/zˈɪɹoʊ/",
+  "gloss": "ゼロ,零;無;どん底",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Zero comes before one.",
+    "translation": "一の前はゼロです。",
+    "cloze": "｟Zero｠ comes before one."
+   },
+   {
+    "text": "This has zero calories.",
+    "translation": "これは、カロリーゼロです。",
+    "cloze": "This has ｟zero｠ calories."
+   }
+  ],
+  "frequencyRank": 175,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xebf7ebfc",
+  "courseId": "en-10-30k",
+  "headword": "zoo",
+  "reading": "/zˈu/",
+  "gloss": "動物園",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom loves zoos.",
+    "translation": "トムは動物園が大好きなのよ。",
+    "cloze": "Tom loves ｟＿｠."
+   },
+   {
+    "text": "I went to the zoo.",
+    "translation": "私は動物園へ行った。",
+    "cloze": "I went to the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1100,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xebf4e0bd",
+  "courseId": "en-10-30k",
+  "headword": "zombie",
+  "reading": "/zˈɑmbi/",
+  "gloss": "ゾンビ;のろまな人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I was bitten by a zombie.",
+    "translation": "ゾンビに噛まれた。",
+    "cloze": "I was bitten by a ｟zombie｠."
+   },
+   {
+    "text": "I wonder which one I'll watch, the zombie one or the vampire one.",
+    "translation": "ゾンビものと吸血鬼もの、どっちを観るかなあ。",
+    "cloze": "I wonder which one I'll watch, the ｟zombie｠ one or the vampire one."
+   }
+  ],
+  "frequencyRank": 2070,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x84d526ef",
+  "courseId": "en-10-30k",
+  "headword": "zip",
+  "reading": "/zˈɪp/",
+  "gloss": "(ファスナーで)締める、ビュッと音を立てる、元気に進む",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Zip your lip.",
+    "translation": "お口チャックしてください。",
+    "cloze": "｟＿｠ your lip."
+   },
+   {
+    "text": "Can you zip me up?",
+    "translation": "ファスナーあげてくれない？",
+    "cloze": "Can you ｟＿｠ me up?"
+   }
+  ],
+  "frequencyRank": 2544,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xd186ab99",
+  "courseId": "en-10-30k",
+  "headword": "zimbabwe",
+  "reading": "/zɪmbˈɑbweɪ/",
+  "gloss": "ジンバブエ(アフリカ南部の共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Zimbabwe was once a colony of Britain.",
+    "translation": "ジンバブエはかつてイギリスの植民地だった。",
+    "cloze": "｟Zimbabwe｠ was once a colony of Britain."
+   },
+   {
+    "text": "There is a possibility of a currency crisis such as that of the former Zimbabwe dollar.",
+    "translation": "かつてのジンバブエ・ドルのように大暴落する可能性がある。",
+    "cloze": "There is a possibility of a currency crisis such as that of the former ｟Zimbabwe｠ dollar."
+   }
+  ],
+  "frequencyRank": 3679,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x33b4f150",
+  "courseId": "en-10-30k",
+  "headword": "zen",
+  "reading": "/zˈɛn/",
+  "gloss": "禅、禅宗(瞑想を重んじる仏教の一派)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He sat in Zen meditation.",
+    "translation": "彼は座禅を組んだ。",
+    "cloze": "He sat in ｟＿｠ meditation."
+   },
+   {
+    "text": "They say Zen cultivates our mind.",
+    "translation": "禅は私たちの心を鍛練するといわれる。",
+    "cloze": "They say ｟＿｠ cultivates our mind."
+   }
+  ],
+  "frequencyRank": 3984,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x6effd604",
+  "courseId": "en-10-30k",
+  "headword": "zurich",
+  "reading": "/zˈʊɹɪk/",
+  "gloss": "チューリッヒ(スイス最大の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Zurich is the second largest gold market in the world after London.",
+    "translation": "チューリッヒはロンドンに次ぐ世界第二位の金市場である。",
+    "cloze": "｟＿｠ is the second largest gold market in the world after London."
+   },
+   {
+    "text": "It takes eight hours to fly from Zurich to Boston, but only six for the return trip.",
+    "translation": "チューリッヒからボストンまでは空路で８時間かかるが、復路は６時間しかかからない。",
+    "cloze": "It takes eight hours to fly from ｟＿｠ to Boston, but only six for the return trip."
+   }
+  ],
+  "frequencyRank": 5177,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7aa94a26",
+  "courseId": "en-10-30k",
+  "headword": "zeus",
+  "reading": "/zˈus/",
+  "gloss": "ゼウス(ギリシア神話の最高神;ローマ神話のJupiterに相当)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Socrates was accused of atheism because he did not believe in Zeus.",
+    "translation": "ソクラテスは主神ゼウスを信じなかったので無神論の罪に問われた。",
+    "cloze": "Socrates was accused of atheism because he did not believe in ｟＿｠."
+   },
+   {
+    "text": "In 776 B.C., the first Olympic Games were held at the foot of Mount Olympus to honor the Greeks' chief god, Zeus.",
+    "translation": "紀元前776年、最初のオリンピック競技大会は、ギリシャ人の主神ゼウスを称えるため、オリンポス山の麓で開催された。",
+    "cloze": "In 776 B.C., the first Olympic Games were held at the foot of Mount Olympus to honor the Greeks' chief god, ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5782,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xedacd1ff",
+  "courseId": "en-10-30k",
+  "headword": "zion",
+  "reading": "/zˈaɪən/",
+  "gloss": "シオン(エルサレムの丘、ユダヤ人の聖地)；(転じて)神の国、理想郷",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jerusalem is often referred to as Mount Zion in religious texts.",
+    "translation": "エルサレムは宗教的な文献でしばしばシオンの丘と呼ばれる。",
+    "cloze": "Jerusalem is often referred to as Mount ｟＿｠ in religious texts.",
+    "aiGenerated": true
+   },
+   {
+    "text": "you are here because zion is about to be destroyed.",
+    "translation": "ザイオンを破壊するために 君はここにいる",
+    "cloze": "you are here because ｟＿｠ is about to be destroyed."
+   }
+  ],
+  "frequencyRank": 6849,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe7c6ce96",
+  "courseId": "en-10-30k",
+  "headword": "zambia",
+  "reading": "/zˈæmbiə/",
+  "gloss": "ザンビア(アフリカ南部の共和国;首都ルサカ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm from Zambia.",
+    "translation": "ザンビアからやって来ました。",
+    "cloze": "I'm from ｟＿｠."
+   },
+   {
+    "text": "a hospital in zambia.",
+    "translation": "ザンビアの病院です",
+    "cloze": "a hospital in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7293,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x93909ba8",
+  "courseId": "en-10-30k",
+  "headword": "zebra",
+  "reading": "/zˈibɹə/",
+  "gloss": "シマウマ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is that a zebra?",
+    "translation": "あれって、シマウマ？",
+    "cloze": "Is that a ｟zebra｠?"
+   },
+   {
+    "text": "Tom likes zebras.",
+    "translation": "トムはシマウマが好きなんだよ。",
+    "cloze": "Tom likes ｟zebras｠."
+   }
+  ],
+  "frequencyRank": 7706,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xb52916c9",
+  "courseId": "en-10-30k",
+  "headword": "zionist",
+  "reading": "/zˈaɪənɪst/",
+  "gloss": "シオニスト(ユダヤ人国家再建運動の支持者)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He identifies himself as a committed Zionist.",
+    "translation": "彼は自分を熱心なシオニストだと考えている。",
+    "cloze": "He identifies himself as a committed ｟Zionist｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7707,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb2215f47",
+  "courseId": "en-10-30k",
+  "headword": "zipper",
+  "reading": "/zˈɪpɚ/",
+  "gloss": "ジッパー、ファスナー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i looked in the zippered pocket of one",
+    "translation": "ポケットのジッパーを開けてみると",
+    "cloze": "i looked in the ｟＿｠ pocket of one"
+   },
+   {
+    "text": "She pulled up the zipper on her jacket.",
+    "translation": "彼女はジャケットのジッパーを引き上げた。",
+    "cloze": "She pulled up the ｟＿｠ on her jacket.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9337,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x62603722",
+  "courseId": "en-10-30k",
+  "headword": "zeppelin",
+  "reading": "/zˈɛpɪlɪn/",
+  "gloss": "(硬式)飛行船、ツェッペリン号",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "these zeppelins appear to be carriers and they are operating fully within the thermosphere.",
+    "translation": "これらの飛行船は母艦の様で 大気圏上層で運用されています",
+    "cloze": "these ｟zeppelins｠ appear to be carriers and they are operating fully within the thermosphere."
+   },
+   {
+    "text": "The zeppelin floated gracefully above the city.",
+    "translation": "その飛行船は街の上空をゆったりと漂っていた。",
+    "cloze": "The ｟zeppelin｠ floated gracefully above the city.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9523,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x5770765e",
+  "courseId": "en-10-30k",
+  "headword": "zulu",
+  "reading": "/zˈulˌu/",
+  "gloss": "ズールー族[の人](南アフリカ);ズールー語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Zulu tribe in South Africa has its own language.",
+    "translation": "南アフリカのズールー族は独自の言語を持っている。",
+    "cloze": "The ｟Zulu｠ tribe in South Africa has its own language."
+   },
+   {
+    "text": "and the zulu women use the symbols",
+    "translation": "ズールー族の女達は ビーズでブレスレットや",
+    "cloze": "and the ｟zulu｠ women use the symbols"
+   }
+  ],
+  "frequencyRank": 11432,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x49b8c5a7",
+  "courseId": "en-10-30k",
+  "headword": "zionism",
+  "reading": "/zˈaɪənˌɪzəm/",
+  "gloss": "シオニズム(ユダヤ人国家の建設・発展をめざす政治運動)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Zionism is a political movement that supported the establishment of a Jewish state.",
+    "translation": "シオニズムはユダヤ人国家の樹立を支持した政治運動である。",
+    "cloze": "｟＿｠ is a political movement that supported the establishment of a Jewish state.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13333,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x4ebc9ae4",
+  "courseId": "en-10-30k",
+  "headword": "zig",
+  "reading": "/zˈɪɡ/",
+  "gloss": "(ジグザグに)急に方向を変える、それる(反対方向のzagと対で使われる)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "you must've zagged when you should've zigged.",
+    "translation": "\"4\"が盗まれた",
+    "cloze": "you must've zagged when you should've ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14502,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xe3f668ef",
+  "courseId": "en-10-30k",
+  "headword": "zionists",
+  "reading": "/zˈaɪənɪsts/",
+  "gloss": "シオニスト(シオニズム運動の支持者)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Zionists advocated for the establishment of a Jewish homeland.",
+    "translation": "シオニストたちはユダヤ人の祖国建設を主張した。",
+    "cloze": "｟＿｠ advocated for the establishment of a Jewish homeland.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The conference was attended by Zionists from around the world.",
+    "translation": "その会議には世界中からシオニストが参加した。",
+    "cloze": "The conference was attended by ｟＿｠ from around the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16540,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x70c0cdad",
+  "courseId": "en-10-30k",
+  "headword": "zap",
+  "reading": "/zˈæp/",
+  "gloss": "(すばやく)…を撃つ、殺す；すばやく動く；活力",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Zap it in the microwave for thirty seconds.",
+    "translation": "30秒、レンジでチンして。",
+    "cloze": "｟＿｠ it in the microwave for thirty seconds."
+   },
+   {
+    "text": "The bug zapper zaps mosquitoes at night.",
+    "translation": "電撃殺虫器は夜に蚊を撃退する。",
+    "cloze": "The bug zapper ｟＿｠ mosquitoes at night.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16797,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x73edb95a",
+  "courseId": "en-10-30k",
+  "headword": "zucchini",
+  "reading": "/zukˈini/",
+  "gloss": "ズッキーニ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Zucchinis are green.",
+    "translation": "ズッキーニは緑色です。",
+    "cloze": "｟＿｠ are green."
+   },
+   {
+    "text": "Our sister bought some eggplants, potatoes, zucchinis and Chinese cabbage at the market.",
+    "translation": "お姉ちゃんがね、市場でナスとジャガイモとズッキーニあと白菜を買ってきたよ。",
+    "cloze": "Our sister bought some eggplants, potatoes, ｟＿｠ and Chinese cabbage at the market."
+   }
+  ],
+  "frequencyRank": 16798,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x57a60659",
+  "courseId": "en-10-30k",
+  "headword": "zagreb",
+  "reading": "/zˈɑɡɹˌɛb/",
+  "gloss": "ザグレブ(クロアチアの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Can you recommend a restaurant in downtown Zagreb?",
+    "translation": "ザグレブのレストランはどこがお勧めですか?",
+    "cloze": "Can you recommend a restaurant in downtown ｟＿｠?"
+   },
+   {
+    "text": "Zagreb is the capital and largest city of Croatia.",
+    "translation": "ザグレブはクロアチアの首都であり最大の都市である。",
+    "cloze": "｟＿｠ is the capital and largest city of Croatia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17060,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x39310824",
+  "courseId": "en-10-30k",
+  "headword": "zanzibar",
+  "reading": "/zˈænzəbˌɑɹ/",
+  "gloss": "ザンジバル(タンザニアの島)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we went out to zanzibar",
+    "translation": "ザンジバルに行き",
+    "cloze": "we went out to ｟＿｠"
+   }
+  ],
+  "frequencyRank": 18236,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdae230a3",
+  "courseId": "en-10-30k",
+  "headword": "zaire",
+  "reading": "/zaɪˈɪɹ/",
+  "gloss": "ザイール(現コンゴ民主共和国の1971年から1997年までの国名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "mobutu sese seko from zaire",
+    "translation": "ザイールのモブツ・セセ・セコとか",
+    "cloze": "mobutu sese seko from ｟zaire｠"
+   },
+   {
+    "text": "the fall of mobutu sese seko, the dictator, the brutal dictator in zaire",
+    "translation": "国から略奪し破壊させたザイールの 残忍な独裁者モブツ・セセ・セコの",
+    "cloze": "the fall of mobutu sese seko, the dictator, the brutal dictator in ｟zaire｠"
+   }
+  ],
+  "frequencyRank": 18805,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa61eaabe",
+  "courseId": "en-10-30k",
+  "headword": "zambian",
+  "reading": "/zˈæmbiən/",
+  "gloss": "ザンビア(人)の、ザンビア人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and we could not believe, and we were telling the zambians",
+    "translation": "信じられなかったけれど ザンビアの人には",
+    "cloze": "and we could not believe, and we were telling the ｟＿｠"
+   },
+   {
+    "text": "and the zambians said, yes, that's why we have no agriculture here.",
+    "translation": "彼らは答えて 「だから 農業はしないのさ」",
+    "cloze": "and the ｟＿｠ said, yes, that's why we have no agriculture here."
+   }
+  ],
+  "frequencyRank": 19705,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7f007e49",
+  "courseId": "en-10-30k",
+  "headword": "zimbabwean",
+  "reading": "/zɪmbˈɑbwiən/",
+  "gloss": "ジンバブエ(人)の、ジンバブエ人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "they are made from handpicked organic zimbabwean cotton",
+    "translation": "ジンバブエ産の手摘みの有機コットンを",
+    "cloze": "they are made from handpicked organic ｟＿｠ cotton"
+   },
+   {
+    "text": "like so many other zimbabwean children",
+    "translation": "ジンバブエの子供たちの場合と同様",
+    "cloze": "like so many other ｟＿｠ children"
+   }
+  ],
+  "frequencyRank": 19707,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc9735b0f",
+  "courseId": "en-10-30k",
+  "headword": "zhejiang",
+  "reading": "/ʒˈidʒˈɑŋ/",
+  "gloss": "浙江省(中国東部の省)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Zhejiang is a province on the east coast of China.",
+    "translation": "浙江省は中国東海岸に位置する省です。",
+    "cloze": "｟Zhejiang｠ is a province on the east coast of China.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20301,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x465ed281",
+  "courseId": "en-10-30k",
+  "headword": "zigzag",
+  "reading": "/zˈɪɡzæɡ/",
+  "gloss": "ジグザグ(の形、線)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The path zigzagged up the steep slope.",
+    "translation": "道は急斜面をジグザグにのぼっていた。",
+    "cloze": "The path ｟＿｠ up the steep slope."
+   },
+   {
+    "text": "The UFO, with a zigzag movement you couldn't think of as being a plane, flew off into the mountains in the east.",
+    "translation": "ＵＦＯは飛行物体とは到底思えないジグザグの動きで、東の山に飛んでいった。",
+    "cloze": "The UFO, with a ｟＿｠ movement you couldn't think of as being a plane, flew off into the mountains in the east."
+   }
+  ],
+  "frequencyRank": 20877,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xdf8a0082",
+  "courseId": "en-10-30k",
+  "headword": "zika",
+  "reading": "/zˈɪkə/",
+  "gloss": "ジカ熱、ジカウイルス",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Zika virus spread rapidly across central and south America.",
+    "translation": "ジカウイルスは中南米で急速に蔓延した。",
+    "cloze": "The ｟＿｠ virus spread rapidly across central and south America."
+   }
+  ],
+  "frequencyRank": 20878,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xa9e84a12",
+  "courseId": "en-10-30k",
+  "headword": "zag",
+  "reading": "/zˈæɡ/",
+  "gloss": "(ジグザグに)急に方向を変える、曲がる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "If you zig, don't forget to zag.",
+    "translation": "ジグに動いたら、次はザグに動くのを忘れずに(ジグザグに進め)。",
+    "cloze": "If you zig, don't forget to ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The dancers zig and zag across the stage.",
+    "translation": "ダンサーたちはステージ上をジグザグに動き回る。",
+    "cloze": "The dancers zig and ｟＿｠ across the stage.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21852,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x9cf4b22d",
+  "courseId": "en-10-30k",
+  "headword": "zumba",
+  "reading": null,
+  "gloss": "ズンバ(ダンスを取り入れたフィットネスプログラム)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "So you want to do zumba? Aren't you going to get tired of it fast, like everything else?",
+    "translation": "ズンバやりたいって？また三日坊主で終わっちゃうんじゃないの？",
+    "cloze": "So you want to do ｟zumba｠? Aren't you going to get tired of it fast, like everything else?"
+   }
+  ],
+  "frequencyRank": 22184,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xbdd3babc",
+  "courseId": "en-10-30k",
+  "headword": "zeitgeist",
+  "reading": "/tsˈaɪtɡˌaɪst/",
+  "gloss": "時代精神,時代思潮",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "together you have changed the zeitgeist from analog to digital",
+    "translation": "君たちが一緒に時代をアナログからデジタルに変え",
+    "cloze": "together you have changed the ｟＿｠ from analog to digital"
+   },
+   {
+    "text": "judging by the pack of reporters outside, either ballet is ascendant in the zeitgeist, or it's leaked that a murder has occurred here.",
+    "translation": "外にいたレポーターの大群から見て バレエ人気が日の出の勢いなのか ここで殺人があったことが 漏れたかだな",
+    "cloze": "judging by the pack of reporters outside, either ballet is ascendant in the ｟＿｠, or it's leaked that a murder has occurred here."
+   }
+  ],
+  "frequencyRank": 22500,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x2e86abd2",
+  "courseId": "en-10-30k",
+  "headword": "zapata",
+  "reading": "/zɑpˈɑtə/",
+  "gloss": "サパタ(エミリアーノ・サパタ、メキシコ革命の指導者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Emiliano Zapata led a peasant uprising in southern Mexico.",
+    "translation": "エミリアーノ・サパタはメキシコ南部で農民蜂起を率いた。",
+    "cloze": "Emiliano ｟＿｠ led a peasant uprising in southern Mexico.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Zapata mustache is named after the Mexican revolutionary.",
+    "translation": "サパタ・ヒゲはこのメキシコの革命家にちなんで名付けられた。",
+    "cloze": "The ｟＿｠ mustache is named after the Mexican revolutionary.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25593,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x962870e8",
+  "courseId": "en-10-30k",
+  "headword": "zeno",
+  "reading": "/zˈeɪnoʊ/",
+  "gloss": "ゼノン(古代ギリシャの哲学者。ゼノンのパラドックスで知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Zeno's paradoxes still challenge students of philosophy today.",
+    "translation": "ゼノンのパラドックスは今も哲学を学ぶ学生たちを悩ませている。",
+    "cloze": "｟＿｠'s paradoxes still challenge students of philosophy today.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25938,
+  "category": "people"
+ }
+]

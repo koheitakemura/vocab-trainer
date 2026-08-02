@@ -1,0 +1,333 @@
+[
+ {
+  "id": "en-10-30k-x7537ba71",
+  "courseId": "en-10-30k",
+  "headword": "xavier",
+  "reading": "/zˈeɪvjɚ/",
+  "gloss": "フランシスコ・ザビエル（日本にキリスト教を伝えた宣教師）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Francis Xavier arrived in Japan in 1549 to spread Christianity.",
+    "translation": "フランシスコ・ザビエルは1549年、キリスト教を広めるために日本へ来た。",
+    "cloze": "Francis ｟＿｠ arrived in Japan in 1549 to spread Christianity.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Xavier is remembered as one of the first Christian missionaries to visit Japan.",
+    "translation": "ザビエルは日本を訪れた最初のキリスト教宣教師の一人として記憶されている。",
+    "cloze": "｟＿｠ is remembered as one of the first Christian missionaries to visit Japan.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6435,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x4a4224d4",
+  "courseId": "en-10-30k",
+  "headword": "xii",
+  "reading": null,
+  "gloss": "ローマ数字の12",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Chapter XII discusses the fall of the empire.",
+    "translation": "第12章では帝国の没落について論じている。",
+    "cloze": "Chapter ｟＿｠ discusses the fall of the empire.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The old clock's face was engraved with the numeral XII at the top.",
+    "translation": "その古い時計の文字盤には、一番上にローマ数字のXII(12)が刻まれていた。",
+    "cloze": "The old clock's face was engraved with the numeral ｟＿｠ at the top.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6997,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x8bae7259",
+  "courseId": "en-10-30k",
+  "headword": "xml",
+  "reading": "/ˌɛksˌɛmˈɛl/",
+  "gloss": "XML(拡張マークアップ言語、データ記述用の言語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and what you can really think of xml in this case",
+    "translation": "この場合のXMLの意味合いは",
+    "cloze": "and what you can really think of ｟xml｠ in this case"
+   },
+   {
+    "text": "The data is stored in XML format.",
+    "translation": "そのデータはXML形式で保存されています。",
+    "cloze": "The data is stored in ｟XML｠ format.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9521,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x600d7a39",
+  "courseId": "en-10-30k",
+  "headword": "xanax",
+  "reading": "/zˈænæks/",
+  "gloss": "ザナックス(抗不安薬アルプラゾラムの商品名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i don't think i can take it. for some reason, my xanax isn't kicking in.",
+    "translation": "受け止められると思えないの 理由があって、抗不安剤が効かないのよ",
+    "cloze": "i don't think i can take it. for some reason, my ｟xanax｠ isn't kicking in."
+   },
+   {
+    "text": "did you forget to take your xanax this morning?",
+    "translation": "精神安定剤の飲み忘れ?",
+    "cloze": "did you forget to take your ｟xanax｠ this morning?"
+   }
+  ],
+  "frequencyRank": 11616,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x9da31f7f",
+  "courseId": "en-10-30k",
+  "headword": "xinjiang",
+  "reading": "/zˈɪndʒiˈæŋ/",
+  "gloss": "新疆(中国北西部の自治区)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this man, in kashgar, xinjiang province, in western china",
+    "translation": "この男性は中国西部の 新彊州の喀什という町の人ですが",
+    "cloze": "this man, in kashgar, ｟＿｠ province, in western china"
+   },
+   {
+    "text": "Xinjiang is a region in northwestern China.",
+    "translation": "新疆は中国北西部の地域です。",
+    "cloze": "｟＿｠ is a region in northwestern China.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12241,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x054e1d2b",
+  "courseId": "en-10-30k",
+  "headword": "xviii",
+  "reading": null,
+  "gloss": "18(ローマ数字)",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "This is Chapter XVIII of the novel.",
+    "translation": "これはその小説の第18章です。",
+    "cloze": "This is Chapter ｟XVIII｠ of the novel.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17327,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x6bf631a1",
+  "courseId": "en-10-30k",
+  "headword": "xix",
+  "reading": null,
+  "gloss": "19(ローマ数字)",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "oh, yeah, baby! just like super bowl xix!",
+    "translation": "いいぞベイビー 第19回スーパーボウルだ!",
+    "cloze": "oh, yeah, baby! just like super bowl ｟＿｠!"
+   },
+   {
+    "text": "The king's name was inscribed as Louis XIX.",
+    "translation": "その王の名前はルイ19世と刻まれていた。",
+    "cloze": "The king's name was inscribed as Louis ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19117,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xebf667aa",
+  "courseId": "en-10-30k",
+  "headword": "xinhua",
+  "reading": "/zˈɪnhjuə/",
+  "gloss": "新華社(中国の国営通信社)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The report was published by Xinhua, China's official news agency.",
+    "translation": "その報道は中国の国営通信社である新華社によって発表された。",
+    "cloze": "The report was published by ｟＿｠, China's official news agency.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Xinhua reported that the meeting had been postponed.",
+    "translation": "新華社はその会議が延期されたと報じた。",
+    "cloze": "｟＿｠ reported that the meeting had been postponed.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20601,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xbd8204e0",
+  "courseId": "en-10-30k",
+  "headword": "xvii",
+  "reading": null,
+  "gloss": "17(ローマ数字)",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Chapter XVII begins with a surprising twist.",
+    "translation": "第17章は驚きの展開で始まる。",
+    "cloze": "Chapter ｟＿｠ begins with a surprising twist.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20875,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x79ce5022",
+  "courseId": "en-10-30k",
+  "headword": "xxl",
+  "reading": null,
+  "gloss": "特大サイズ(XXL)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This shirt only comes in sizes up to XXL.",
+    "translation": "このシャツはXXLサイズまでしかありません。",
+    "cloze": "This shirt only comes in sizes up to ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He ordered an XXL jacket because he is quite tall.",
+    "translation": "彼はかなり背が高いのでXXLサイズのジャケットを注文した。",
+    "cloze": "He ordered an ｟＿｠ jacket because he is quite tall.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21198,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x37db6053",
+  "courseId": "en-10-30k",
+  "headword": "xian",
+  "reading": "/zjˈɑn/",
+  "gloss": "西安(中国陝西省の都市。兵馬俑で有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Xian is famous for its Terracotta Army.",
+    "translation": "西安は兵馬俑で有名です。",
+    "cloze": "｟＿｠ is famous for its Terracotta Army.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We flew from Beijing to Xian to see the ancient city walls.",
+    "translation": "私たちは古代の城壁を見るために北京から西安まで飛行機で行った。",
+    "cloze": "We flew from Beijing to ｟＿｠ to see the ancient city walls.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21500,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x80ec4c86",
+  "courseId": "en-10-30k",
+  "headword": "xenophon",
+  "reading": "/zˈɛnəfən/",
+  "gloss": "クセノフォン（古代ギリシアの歴史家）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the greek historian xenophon",
+    "translation": "ギリシャ人の歴史家 クセノフォンが",
+    "cloze": "the greek historian ｟＿｠"
+   },
+   {
+    "text": "Xenophon wrote about his military campaigns in Anabasis.",
+    "translation": "クセノフォンは『アナバシス』で自身の軍事遠征について記した。",
+    "cloze": "｟＿｠ wrote about his military campaigns in Anabasis.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23170,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe599bc16",
+  "courseId": "en-10-30k",
+  "headword": "xhosa",
+  "reading": "/zˈoʊʃə/",
+  "gloss": "コーサ人、コーサ語(南アフリカの民族とその言語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the piece was sung entirely in xhosa",
+    "translation": "曲は全部コーサ語で歌われています",
+    "cloze": "the piece was sung entirely in ｟＿｠"
+   },
+   {
+    "text": "in transkei, i witnessed a rite of passage into manhood, of the xhosa tribe.",
+    "translation": "トランスカイで、私はコサ族の成人の儀式を目撃しました",
+    "cloze": "in transkei, i witnessed a rite of passage into manhood, of the ｟＿｠ tribe."
+   }
+  ],
+  "frequencyRank": 25210,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x4b02ff13",
+  "courseId": "en-10-30k",
+  "headword": "xerxes",
+  "reading": "/zˈɝksiz/",
+  "gloss": "クセルクセス(古代ペルシアの王)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "xerxes, the son of darius is a wolf at our door.",
+    "translation": "ダリウスの息子 クセルクセスは狼だ",
+    "cloze": "｟＿｠, the son of darius is a wolf at our door."
+   },
+   {
+    "text": "leonidas, your victory will be complete if you but lay down your arms and kneel to holy xerxes.",
+    "translation": "レオニダス お前の勝利は実現する 武器を下ろし 神聖なクセルクセス に跪きさえすれば",
+    "cloze": "leonidas, your victory will be complete if you but lay down your arms and kneel to holy ｟＿｠."
+   }
+  ],
+  "frequencyRank": 25588,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6f6493e8",
+  "courseId": "en-10-30k",
+  "headword": "xoxo",
+  "reading": null,
+  "gloss": "(手紙・メッセージの結びで)ハグとキスを表す記号、愛情を込めた挨拶",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "xoxo, my love for you is xoxo.",
+    "translation": "抱擁とキス それが僕の君に向ける愛",
+    "cloze": "｟＿｠, my love for you is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 27990,
+  "category": "greetings"
+ }
+]

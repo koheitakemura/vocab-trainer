@@ -65,6 +65,17 @@ export function parseCourseIdList(raw: unknown): string[] {
   return [...seen]
 }
 
+/** POST /api/words/generate の本体を検証して正規化する（見出し語の中身の妥当性は wordgen.ts が見る） */
+export function parseWordGenInput(raw: unknown): { courseId: string; headword: string } {
+  if (typeof raw !== 'object' || raw === null) throw new ValidationError('リクエスト本体が不正です')
+  const o = raw as Record<string, unknown>
+  const courseId = typeof o.courseId === 'string' ? o.courseId.trim() : ''
+  if (!COURSE_ID_RE.test(courseId)) throw new ValidationError('コースIDの形式が不正です')
+  const headword = typeof o.headword === 'string' ? o.headword.trim() : ''
+  if (!headword || headword.length > 40) throw new ValidationError('見出し語の形式が不正です')
+  return { courseId, headword }
+}
+
 /** POST /api/sync の本体を検証して正規化する */
 export function parseSyncInput(raw: unknown): SyncInput {
   if (typeof raw !== 'object' || raw === null) throw new ValidationError('リクエスト本体が不正です')

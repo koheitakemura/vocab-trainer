@@ -1,0 +1,6451 @@
+[
+ {
+  "id": "en-10-30k-x9087366f",
+  "courseId": "en-10-30k",
+  "headword": "london",
+  "reading": "/lˈʌndən/",
+  "gloss": "ロンドン(英国の首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I am in London.",
+    "translation": "僕は今ロンドンにいます。",
+    "cloze": "I am in ｟＿｠."
+   },
+   {
+    "text": "I was in London.",
+    "translation": "ロンドンにいました。",
+    "cloze": "I was in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 15,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf49c2333",
+  "courseId": "en-10-30k",
+  "headword": "lord",
+  "reading": "/lˈɔɹd/",
+  "gloss": "主(しゅ)、神;領主、支配者;(英国貴族への敬称)卿",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Man is the lord of all creation.",
+    "translation": "人間は万物の霊長である。",
+    "cloze": "Man is the ｟＿｠ of all creation."
+   },
+   {
+    "text": "Praise the Lord and pass the ammunition.",
+    "translation": "神を称え、武器を配置せよ。",
+    "cloze": "Praise the ｟＿｠ and pass the ammunition."
+   }
+  ],
+  "frequencyRank": 31,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7d2c95c4",
+  "courseId": "en-10-30k",
+  "headword": "lee",
+  "reading": "/lˈi/",
+  "gloss": "風下側、物陰(風の当たらない場所)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They pitched their tent in the lee of the hill.",
+    "translation": "彼らは丘の風下側にテントを張った。",
+    "cloze": "They pitched their tent in the ｟＿｠ of the hill.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The boat sought shelter in the lee of the island.",
+    "translation": "船は島の風下側に避難した。",
+    "cloze": "The boat sought shelter in the ｟＿｠ of the island.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 130,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb5430ed5",
+  "courseId": "en-10-30k",
+  "headword": "lane",
+  "reading": "/lˈeɪn/",
+  "gloss": "小道,路地;(道路の)車線;(ボウリングの)レーン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This pool has six lanes.",
+    "translation": "ここのプールは、６レーンあります。",
+    "cloze": "This pool has six ｟lanes｠."
+   },
+   {
+    "text": "The town has many narrow lanes.",
+    "translation": "その町には狭い小路が多い。",
+    "cloze": "The town has many narrow ｟lanes｠."
+   }
+  ],
+  "frequencyRank": 207,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x39807636",
+  "courseId": "en-10-30k",
+  "headword": "latin",
+  "reading": "/lˈætən/",
+  "gloss": "ラテン語；ラテン系の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do you speak Latin?",
+    "translation": "ラテン語が話せますか。",
+    "cloze": "Do you speak ｟＿｠?"
+   },
+   {
+    "text": "Latin is a dead language.",
+    "translation": "ラテン語は死んだ言語である。",
+    "cloze": "｟＿｠ is a dead language."
+   }
+  ],
+  "frequencyRank": 279,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x0a46bc6b",
+  "courseId": "en-10-30k",
+  "headword": "ltd",
+  "reading": "/lˈɪmɪtɪd/",
+  "gloss": "有限会社(Limitedの略、社名に付す)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Could you introduce me to Mr Ono of Randolph, Ltd?",
+    "translation": "私をランドルフ社の大野氏に紹介していただけませんか。",
+    "cloze": "Could you introduce me to Mr Ono of Randolph, ｟＿｠?"
+   },
+   {
+    "text": "Do you have a business acquaintance in Randolph., Ltd?",
+    "translation": "ランドルフ社に知り合いはいませんか。",
+    "cloze": "Do you have a business acquaintance in Randolph., ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 293,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x2863fe6a",
+  "courseId": "en-10-30k",
+  "headword": "luke",
+  "reading": "/lˈuk/",
+  "gloss": "聖ルカ(新約聖書「ルカによる福音書」の著者とされる使徒の一人)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Luke, I am your father.",
+    "translation": "ルーク、お前のお父さんは私だ。",
+    "cloze": "｟Luke｠, I am your father."
+   },
+   {
+    "text": "Luke, I am your cousin.",
+    "translation": "ルーク、お前のいとこは私だ。",
+    "cloze": "｟Luke｠, I am your cousin."
+   }
+  ],
+  "frequencyRank": 313,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x56baef63",
+  "courseId": "en-10-30k",
+  "headword": "liverpool",
+  "reading": "/lˈɪvɚpˌul/",
+  "gloss": "リバプール(英国西部の港湾都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "They were from Liverpool.",
+    "translation": "彼らはリバプールの出身だった。",
+    "cloze": "They were from ｟Liverpool｠."
+   },
+   {
+    "text": "I came to Liverpool by chance.",
+    "translation": "私は偶然にリバプールに来たのだった。",
+    "cloze": "I came to ｟Liverpool｠ by chance."
+   }
+  ],
+  "frequencyRank": 342,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xcd1f3c03",
+  "courseId": "en-10-30k",
+  "headword": "lately",
+  "reading": "/lˈeɪtli/",
+  "gloss": "最近,近ごろ",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He died lately.",
+    "translation": "最近彼が亡くなった。",
+    "cloze": "He died ｟＿｠."
+   },
+   {
+    "text": "I can't sleep lately.",
+    "translation": "最近寝れないんだ。",
+    "cloze": "I can't sleep ｟＿｠."
+   }
+  ],
+  "frequencyRank": 376,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x4c53f880",
+  "courseId": "en-10-30k",
+  "headword": "lincoln",
+  "reading": "/lˈɪŋkən/",
+  "gloss": "リンカン(エイブラハム・リンカン;米国第16代大統領);ネブラスカ州の州都",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lincoln died in 1865.",
+    "translation": "リンカーンは１８６５年に死んだ。",
+    "cloze": "｟＿｠ died in 1865."
+   },
+   {
+    "text": "Lincoln set the slaves free.",
+    "translation": "リンカーンは奴隷を解放した。",
+    "cloze": "｟＿｠ set the slaves free."
+   }
+  ],
+  "frequencyRank": 565,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xee82978d",
+  "courseId": "en-10-30k",
+  "headword": "lmao",
+  "reading": null,
+  "gloss": "爆笑（笑いを表すネットスラング。laughing my ass offの略）",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "LMAO, that video is hilarious!",
+    "translation": "笑笑、その動画めっちゃ笑える！",
+    "cloze": "｟＿｠, that video is hilarious!",
+    "aiGenerated": true
+   },
+   {
+    "text": "I read his text and just said lmao.",
+    "translation": "彼のメッセージを読んで思わず「lmao」って返した。",
+    "cloze": "I read his text and just said ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 636,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x2baa464e",
+  "courseId": "en-10-30k",
+  "headword": "logo",
+  "reading": "/lˈoʊɡoʊ/",
+  "gloss": "ロゴ、ロゴマーク",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like the Tatoeba logo.",
+    "translation": "私はタトエバのロゴが好きだ。",
+    "cloze": "I like the Tatoeba ｟＿｠."
+   },
+   {
+    "text": "Have you ever seen this logo before?",
+    "translation": "このロゴ見たことある？",
+    "cloze": "Have you ever seen this ｟＿｠ before?"
+   }
+  ],
+  "frequencyRank": 637,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc3e04fc7",
+  "courseId": "en-10-30k",
+  "headword": "lion",
+  "reading": "/lˈaɪən/",
+  "gloss": "ライオン、しし",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's a lion.",
+    "translation": "ライオンです。",
+    "cloze": "It's a ｟＿｠."
+   },
+   {
+    "text": "A lion killed Tom.",
+    "translation": "ライオンがトムを殺したんだ。",
+    "cloze": "A ｟＿｠ killed Tom."
+   }
+  ],
+  "frequencyRank": 705,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xfe348274",
+  "courseId": "en-10-30k",
+  "headword": "lonely",
+  "reading": "/lˈoʊnli/",
+  "gloss": "孤独な、寂しい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm lonely.",
+    "translation": "淋しいです。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "Tom's lonely.",
+    "translation": "トムは寂しいんだよ。",
+    "cloze": "Tom's ｟＿｠."
+   }
+  ],
+  "frequencyRank": 706,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xada98e09",
+  "courseId": "en-10-30k",
+  "headword": "laptop",
+  "reading": "/lˈæptˌɑp/",
+  "gloss": "ノートパソコン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I need a laptop.",
+    "translation": "ノートパソコンが必要なの。",
+    "cloze": "I need a ｟＿｠."
+   },
+   {
+    "text": "My laptop broke.",
+    "translation": "パソコンが壊れちまったよ。",
+    "cloze": "My ｟＿｠ broke."
+   }
+  ],
+  "frequencyRank": 775,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x26c3c5ae",
+  "courseId": "en-10-30k",
+  "headword": "legendary",
+  "reading": "/lˈɛdʒəndˌɛɹi/",
+  "gloss": "伝説の、伝説的な;有名な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Bill is still a legendary figure in this company.",
+    "translation": "ビルはこの会社での語り草になっている。",
+    "cloze": "Bill is still a ｟＿｠ figure in this company."
+   },
+   {
+    "text": "You couldn't tell it by looking, but she has the legendary tale of having eaten two whole cakes when a child.",
+    "translation": "こう見えて、子供の頃はケーキを二ホール平らげた伝説を持っている。",
+    "cloze": "You couldn't tell it by looking, but she has the ｟＿｠ tale of having eaten two whole cakes when a child."
+   }
+  ],
+  "frequencyRank": 776,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x0e1216e7",
+  "courseId": "en-10-30k",
+  "headword": "leo",
+  "reading": "/lˈioʊ/",
+  "gloss": "獅子座(しし座);(占星術で)獅子宮",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces.",
+    "translation": "１２星座とは、おひつじ座、おうし座、ふたご座、かに座、しし座、おとめ座、てんびん座、さそり座、いて座、やぎ座、みずがめ座、うお座のことです。",
+    "cloze": "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, ｟＿｠, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces."
+   },
+   {
+    "text": "She was born under the sign of Leo.",
+    "translation": "彼女は獅子座生まれだ。",
+    "cloze": "She was born under the sign of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 777,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb81787ae",
+  "courseId": "en-10-30k",
+  "headword": "lightning",
+  "reading": "/lˈaɪtnɪŋ/",
+  "gloss": "稲妻、いなずま",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The lightning flashed.",
+    "translation": "稲妻が光った。",
+    "cloze": "The ｟＿｠ flashed."
+   },
+   {
+    "text": "What's a lightning rod?",
+    "translation": "避雷針って何？",
+    "cloze": "What's a ｟＿｠ rod?"
+   }
+  ],
+  "frequencyRank": 816,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xf7686fd1",
+  "courseId": "en-10-30k",
+  "headword": "legally",
+  "reading": "/lˈiɡəli/",
+  "gloss": "法律上、合法的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "All human beings are legally equal.",
+    "translation": "すべての人間は法律的には対等である。",
+    "cloze": "All human beings are ｟＿｠ equal."
+   },
+   {
+    "text": "This written pledge is not legally binding.",
+    "translation": "この誓約書には法的拘束力はありません。",
+    "cloze": "This written pledge is not ｟＿｠ binding."
+   }
+  ],
+  "frequencyRank": 847,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8bdf276b",
+  "courseId": "en-10-30k",
+  "headword": "laser",
+  "reading": "/lˈeɪzɚ/",
+  "gloss": "レーザー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the lasers scan the environment to detect obstacles",
+    "translation": "環境中の障害物をスキャンします",
+    "cloze": "the ｟＿｠ scan the environment to detect obstacles"
+   },
+   {
+    "text": "in our case, a cure lead by lasers.",
+    "translation": "私たちにおいて言えば レーザーが 導き出してくれる治療法なのです",
+    "cloze": "in our case, a cure lead by ｟＿｠."
+   }
+  ],
+  "frequencyRank": 875,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xb9f81b0c",
+  "courseId": "en-10-30k",
+  "headword": "loyal",
+  "reading": "/lˈɔɪəl/",
+  "gloss": "忠実な、忠誠な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He is loyal to his boss.",
+    "translation": "彼はボスに忠実だ。",
+    "cloze": "He is ｟＿｠ to his boss."
+   },
+   {
+    "text": "Tom is loyal to his wife.",
+    "translation": "トムは妻に忠実です。",
+    "cloze": "Tom is ｟＿｠ to his wife."
+   }
+  ],
+  "frequencyRank": 876,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc25363e1",
+  "courseId": "en-10-30k",
+  "headword": "louisiana",
+  "reading": "/luˌiziˈænə/",
+  "gloss": "ルイジアナ州(アメリカ合衆国南部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Louisiana is famous for its Cajun cuisine.",
+    "translation": "ルイジアナ州はケイジャン料理で有名です。",
+    "cloze": "｟Louisiana｠ is famous for its Cajun cuisine.",
+    "aiGenerated": true
+   },
+   {
+    "text": "New Orleans is the largest city in Louisiana.",
+    "translation": "ニューオーリンズはルイジアナ州最大の都市です。",
+    "cloze": "New Orleans is the largest city in ｟Louisiana｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 906,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb1ebedb9",
+  "courseId": "en-10-30k",
+  "headword": "lap",
+  "reading": "/lˈæp/",
+  "gloss": "ひざ、(競技の)1周",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Her hands rested on her lap.",
+    "translation": "彼女の手はひざの上に置かれていた。",
+    "cloze": "Her hands rested on her ｟lap｠."
+   },
+   {
+    "text": "Everything fell into my lap.",
+    "translation": "万事トントン拍子にいった。",
+    "cloze": "Everything fell into my ｟lap｠."
+   }
+  ],
+  "frequencyRank": 942,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x0adf5ea5",
+  "courseId": "en-10-30k",
+  "headword": "lens",
+  "reading": "/lˈɛnz/",
+  "gloss": "レンズ;(目の)水晶体",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I wear contact lenses.",
+    "translation": "私はコンタクトレンズを使っています。",
+    "cloze": "I wear contact ｟lenses｠."
+   },
+   {
+    "text": "Can I buy only the lenses?",
+    "translation": "レンズだけ交換できますか。",
+    "cloze": "Can I buy only the ｟lenses｠?"
+   }
+  ],
+  "frequencyRank": 984,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-xca701f00",
+  "courseId": "en-10-30k",
+  "headword": "loyalty",
+  "reading": "/lˈɔɪəlti/",
+  "gloss": "忠誠,忠実;忠節",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I appreciate her loyalty.",
+    "translation": "彼女の忠誠心を評価します。",
+    "cloze": "I appreciate her ｟loyalty｠."
+   },
+   {
+    "text": "Can I count on your loyalty?",
+    "translation": "君の忠誠を当てにしてもいいかい。",
+    "cloze": "Can I count on your ｟loyalty｠?"
+   }
+  ],
+  "frequencyRank": 985,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xbb0b2381",
+  "courseId": "en-10-30k",
+  "headword": "lesser",
+  "reading": "/lˈɛsɚ/",
+  "gloss": "より小さい、より劣った",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It is so easy to justify a lesser one.",
+    "translation": "それ以下の選択を正当化することも簡単です。",
+    "cloze": "It is so easy to justify a ｟＿｠ one."
+   },
+   {
+    "text": "He chose the lesser of two evils.",
+    "translation": "彼は二つの悪の中でよりましな方を選んだ。",
+    "cloze": "He chose the ｟＿｠ of two evils.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1119,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x726fb14f",
+  "courseId": "en-10-30k",
+  "headword": "lemon",
+  "reading": "/lˈɛmən/",
+  "gloss": "レモン；レモン色；（俗）欠陥品、不良品",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Lemon is sour.",
+    "translation": "レモンは酸っぱい。",
+    "cloze": "｟Lemon｠ is sour."
+   },
+   {
+    "text": "I ate your lemon.",
+    "translation": "私はあなたのレモンを食べた。",
+    "cloze": "I ate your ｟lemon｠."
+   }
+  ],
+  "frequencyRank": 1236,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xddf9f212",
+  "courseId": "en-10-30k",
+  "headword": "leak",
+  "reading": "/lˈik/",
+  "gloss": "漏れる、漏らす；漏えいする",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Gas has leaked.",
+    "translation": "ガスが漏出した。",
+    "cloze": "Gas has ｟leaked｠."
+   },
+   {
+    "text": "What if it leaks?",
+    "translation": "漏れたらどうするんだろう？",
+    "cloze": "What if it ｟leaks｠?"
+   }
+  ],
+  "frequencyRank": 1270,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xd91a5170",
+  "courseId": "en-10-30k",
+  "headword": "laundry",
+  "reading": "/lˈɔndɹi/",
+  "gloss": "洗濯,洗濯物;クリーニング屋",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is my laundry ready?",
+    "translation": "洗濯物は仕上がっていますか。",
+    "cloze": "Is my ｟＿｠ ready?"
+   },
+   {
+    "text": "Bring the laundry in.",
+    "translation": "洗濯物入れてきて。",
+    "cloze": "Bring the ｟＿｠ in."
+   }
+  ],
+  "frequencyRank": 1395,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x79e38233",
+  "courseId": "en-10-30k",
+  "headword": "lbs",
+  "reading": "/pˈaʊndz/",
+  "gloss": "ポンド(重さの単位,poundの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i'm seven feet, 2,000 lbs., with brown hair and eyes, long legs",
+    "translation": "身長2メートル 体重900キロ 毛と目は茶色 長い脚",
+    "cloze": "i'm seven feet, 2,000 ｟＿｠., with brown hair and eyes, long legs"
+   },
+   {
+    "text": "and at 110 lbs.",
+    "translation": "そして50キロというのは",
+    "cloze": "and at 110 ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1396,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x89f7b0cf",
+  "courseId": "en-10-30k",
+  "headword": "lamp",
+  "reading": "/lˈæmp/",
+  "gloss": "ランプ、灯火",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like that lamp.",
+    "translation": "あのランプ好きだな。",
+    "cloze": "I like that ｟lamp｠."
+   },
+   {
+    "text": "I bought an old lamp.",
+    "translation": "私は古いランプを買った。",
+    "cloze": "I bought an old ｟lamp｠."
+   }
+  ],
+  "frequencyRank": 1435,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x4d9f778d",
+  "courseId": "en-10-30k",
+  "headword": "lgbt",
+  "reading": null,
+  "gloss": "LGBT(性的マイノリティの総称:レズビアン・ゲイ・バイセクシュアル・トランスジェンダー)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and specializes in lgbt health.",
+    "translation": "lgbt専門の医師を 見つけたいと言っています",
+    "cloze": "and specializes in ｟lgbt｠ health."
+   },
+   {
+    "text": "and in that way, the status of lgbt people can be affirmed as well.",
+    "translation": "そうすることで lgbtの人々の地位も確立する」と",
+    "cloze": "and in that way, the status of ｟lgbt｠ people can be affirmed as well."
+   }
+  ],
+  "frequencyRank": 1486,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x22d6408d",
+  "courseId": "en-10-30k",
+  "headword": "ladder",
+  "reading": "/lˈædɚ/",
+  "gloss": "はしご",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This ladder is metal.",
+    "translation": "この梯子は金属製だ。",
+    "cloze": "This ｟＿｠ is metal."
+   },
+   {
+    "text": "Do you have a ladder?",
+    "translation": "梯子って持ってる？",
+    "cloze": "Do you have a ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1532,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xa77f1a16",
+  "courseId": "en-10-30k",
+  "headword": "lobby",
+  "reading": "/lˈɑbi/",
+  "gloss": "ロビー;(政治的な)圧力団体、陳情団;働きかける",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Wait in the lobby.",
+    "translation": "ロビーで待ってて。",
+    "cloze": "Wait in the ｟＿｠."
+   },
+   {
+    "text": "I'll meet you in the lobby at three.",
+    "translation": "３時にロビーで会いましょう。",
+    "cloze": "I'll meet you in the ｟＿｠ at three."
+   }
+  ],
+  "frequencyRank": 1534,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x03ad6951",
+  "courseId": "en-10-30k",
+  "headword": "lamb",
+  "reading": "/lˈæm/",
+  "gloss": "子羊、ラム肉",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Lambs are very cute.",
+    "translation": "仔羊って、すごくかわいい。",
+    "cloze": "｟＿｠ are very cute."
+   },
+   {
+    "text": "The lamb was killed by the wolf.",
+    "translation": "子羊は狼に殺された。",
+    "cloze": "The ｟＿｠ was killed by the wolf."
+   }
+  ],
+  "frequencyRank": 1586,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x7e4eea20",
+  "courseId": "en-10-30k",
+  "headword": "liar",
+  "reading": "/lˈaɪɚ/",
+  "gloss": "うそつき",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Liar!",
+    "translation": "嘘つき！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "I'm a liar.",
+    "translation": "僕は嘘つきだ。",
+    "cloze": "I'm a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1587,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x62b75a02",
+  "courseId": "en-10-30k",
+  "headword": "lebanon",
+  "reading": "/lˈɛbənən/",
+  "gloss": "レバノン(中東の共和国、首都ベイルート)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "From 1988 to 1994 he lived in Lebanon.",
+    "translation": "彼は１９８８年から１９９４年までレバノンで暮らした。",
+    "cloze": "From 1988 to 1994 he lived in ｟＿｠."
+   },
+   {
+    "text": "uh, egypt, lebanon oh, here we go",
+    "translation": "エジプト レバノン やはり行ってます",
+    "cloze": "uh, egypt, ｟＿｠ oh, here we go"
+   }
+  ],
+  "frequencyRank": 1624,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x91f109b5",
+  "courseId": "en-10-30k",
+  "headword": "leeds",
+  "reading": "/lˈidz/",
+  "gloss": "リーズ(英国イングランドの都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I live in Leeds.",
+    "translation": "リーズに住んでるんだ。",
+    "cloze": "I live in ｟＿｠."
+   },
+   {
+    "text": "He is a professor of English at Leeds.",
+    "translation": "彼はリーズ大学の英語の教授です。",
+    "cloze": "He is a professor of English at ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1625,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xda4bf34d",
+  "courseId": "en-10-30k",
+  "headword": "legit",
+  "reading": "/lˈɛdʒɪt/",
+  "gloss": "本物の、合法の、ちゃんとした(legitimateの略)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "no money exchanges hands unless i tell him you're legit.",
+    "translation": "私のほうから大丈夫と言わないと 金を渡さない。",
+    "cloze": "no money exchanges hands unless i tell him you're ｟＿｠."
+   },
+   {
+    "text": "i'm a lawyer. ray, hear her out. she's legit.",
+    "translation": "聞けよ 彼女は本物だ 確認済み",
+    "cloze": "i'm a lawyer. ray, hear her out. she's ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1626,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe5a9591a",
+  "courseId": "en-10-30k",
+  "headword": "loser",
+  "reading": "/lˈuzɚ/",
+  "gloss": "負ける人、敗北者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We are not losers!",
+    "translation": "俺たちは負け犬なんかじゃない。",
+    "cloze": "We are not ｟＿｠!"
+   },
+   {
+    "text": "Stop hanging out with losers.",
+    "translation": "負け犬とつるむな。",
+    "cloze": "Stop hanging out with ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1629,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x74f1d408",
+  "courseId": "en-10-30k",
+  "headword": "linux",
+  "reading": "/lˈɪnəks/",
+  "gloss": "リナックス(オープンソースのコンピュータ基本ソフト、OS)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Install Linux!",
+    "translation": "リナックスをインストールしろ！",
+    "cloze": "Install ｟＿｠!"
+   },
+   {
+    "text": "There are also vendors who support Linux.",
+    "translation": "リナックスをサポートしているベンダーもいます。",
+    "cloze": "There are also vendors who support ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1739,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xb19a2af8",
+  "courseId": "en-10-30k",
+  "headword": "lawn",
+  "reading": "/lˈɔn/",
+  "gloss": "芝生",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Mow the lawn.",
+    "translation": "芝刈りしてよ。",
+    "cloze": "Mow the ｟＿｠."
+   },
+   {
+    "text": "Get off the lawn!",
+    "translation": "芝生から出なさい。",
+    "cloze": "Get off the ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 1799,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x23ce4ffd",
+  "courseId": "en-10-30k",
+  "headword": "lightly",
+  "reading": "/lˈaɪtli/",
+  "gloss": "軽く、そっと;わずかに;軽率に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Don't behave lightly.",
+    "translation": "軽率な行動はするな。",
+    "cloze": "Don't behave ｟＿｠."
+   },
+   {
+    "text": "You're too lightly dressed.",
+    "translation": "薄着し過ぎだよ。",
+    "cloze": "You're too ｟＿｠ dressed."
+   }
+  ],
+  "frequencyRank": 1914,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3f7389f9",
+  "courseId": "en-10-30k",
+  "headword": "lily",
+  "reading": "/lˈɪli/",
+  "gloss": "ユリ(の花)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Lilies smell sweet.",
+    "translation": "ゆりは甘い香りがする。",
+    "cloze": "｟＿｠ smell sweet."
+   },
+   {
+    "text": "It is called a lily.",
+    "translation": "ｌｉｌｙと呼ばれています。",
+    "cloze": "It is called a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1984,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x4c271b75",
+  "courseId": "en-10-30k",
+  "headword": "locker",
+  "reading": "/lˈɑkɚ/",
+  "gloss": "ロッカー、鍵付き戸棚",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Where's the locker room?",
+    "translation": "更衣室はどこですか？",
+    "cloze": "Where's the ｟＿｠ room?"
+   },
+   {
+    "text": "Each student has a locker.",
+    "translation": "どの生徒もロッカーを持っている。",
+    "cloze": "Each student has a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1985,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x1cf9a7f5",
+  "courseId": "en-10-30k",
+  "headword": "lynch",
+  "reading": "/lˈɪntʃ/",
+  "gloss": "(暴徒が)…に私刑(リンチ)を加える",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "It is true that behavior cannot be legislated, and legislation cannot make you love me, but legislation can restrain you from lynching me, and I think that is kind of important.",
+    "translation": "確かに、人の行動を法で規制することはできない。法で君が僕を愛するようにすることはできない。しかし君が僕をリンチにかけることがないようにはできる。そういうことはある意味で重要なことだと思う。",
+    "cloze": "It is true that behavior cannot be legislated, and legislation cannot make you love me, but legislation can restrain you from ｟lynching｠ me, and I think that is kind of important."
+   },
+   {
+    "text": "The angry mob threatened to lynch the accused man.",
+    "translation": "怒った暴徒はその容疑者をリンチにかけると脅した。",
+    "cloze": "The angry mob threatened to ｟lynch｠ the accused man.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2039,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x3c49f861",
+  "courseId": "en-10-30k",
+  "headword": "leicester",
+  "reading": "/lˈɛstɚ/",
+  "gloss": "レスター(イングランド中部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "no, i grew up in leicester.",
+    "translation": "育ったのはレスターよ",
+    "cloze": "no, i grew up in ｟＿｠."
+   },
+   {
+    "text": "leicester? we all go to the abbey shop.",
+    "translation": "レスター? 私達みんなアビーのお店に行くんだけど。",
+    "cloze": "｟＿｠? we all go to the abbey shop."
+   }
+  ],
+  "frequencyRank": 2103,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1b4fda98",
+  "courseId": "en-10-30k",
+  "headword": "lounge",
+  "reading": "/lˈaʊndʒ/",
+  "gloss": "休憩室、ラウンジ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Where is the boarding lounge?",
+    "translation": "搭乗ラウンジはどこでしょう？",
+    "cloze": "Where is the boarding ｟＿｠?"
+   },
+   {
+    "text": "We ate lunch in a coffee lounge.",
+    "translation": "私たちは喫茶店で昼食を食べた。",
+    "cloze": "We ate lunch in a coffee ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2173,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x57e55259",
+  "courseId": "en-10-30k",
+  "headword": "lad",
+  "reading": "/lˈæd/",
+  "gloss": "若者、少年",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Hasten, my lads!",
+    "translation": "さあ君たち急いで！",
+    "cloze": "Hasten, my ｟＿｠!"
+   },
+   {
+    "text": "He is hardly more than a lad.",
+    "translation": "彼はまだ未成年でしかない。",
+    "cloze": "He is hardly more than a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2314,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x53e6e16e",
+  "courseId": "en-10-30k",
+  "headword": "landlord",
+  "reading": "/lˈændlˌɔɹd/",
+  "gloss": "家主",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The landlord barked at his servants.",
+    "translation": "宿の主人は召使い達にがなりたてた。",
+    "cloze": "The ｟＿｠ barked at his servants."
+   },
+   {
+    "text": "The landlord used to be quite well off.",
+    "translation": "その地主は以前かなり裕福な暮らしをしていた。",
+    "cloze": "The ｟＿｠ used to be quite well off."
+   }
+  ],
+  "frequencyRank": 2387,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x75feb1bf",
+  "courseId": "en-10-30k",
+  "headword": "luther",
+  "reading": "/lˈuθɚ/",
+  "gloss": "ルター(マルティン・ルター;宗教改革者);マーティン・ルーサー・キング(公民権運動指導者)の名",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Martin Luther King, Jr., was the son of a black minister.",
+    "translation": "マーテイン・ルーサー・キング・ジュニアは、黒人牧師を父として生まれた。",
+    "cloze": "Martin ｟＿｠ King, Jr., was the son of a black minister."
+   },
+   {
+    "text": "The nonviolent actions of Martin Luther King inspired many people.",
+    "translation": "マーティン・ルーサー・キングの非暴力的な活動は、多くの人々に影響を与えた。",
+    "cloze": "The nonviolent actions of Martin ｟＿｠ King inspired many people."
+   }
+  ],
+  "frequencyRank": 2454,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd58a8065",
+  "courseId": "en-10-30k",
+  "headword": "lime",
+  "reading": "/lˈaɪm/",
+  "gloss": "ライム(果物);石灰;ライムの木",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This is a lime tree.",
+    "translation": "これはライムの木です。",
+    "cloze": "This is a ｟＿｠ tree."
+   },
+   {
+    "text": "Lemons and limes are acidic fruits.",
+    "translation": "レモンやライムはすっぱい果物である。",
+    "cloze": "Lemons and ｟＿｠ are acidic fruits."
+   }
+  ],
+  "frequencyRank": 2579,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x209ff12b",
+  "courseId": "en-10-30k",
+  "headword": "lively",
+  "reading": "/lˈaɪvli/",
+  "gloss": "生き生きとした,活気のある;陽気な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He is a lively boy.",
+    "translation": "元気な男の子ですよ。",
+    "cloze": "He is a ｟＿｠ boy."
+   },
+   {
+    "text": "This street is lively.",
+    "translation": "この通りは賑やかだ。",
+    "cloze": "This street is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2580,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb82e0ea9",
+  "courseId": "en-10-30k",
+  "headword": "louisville",
+  "reading": "/lˈuivˌɪl/",
+  "gloss": "ルイビル(米国ケンタッキー州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "for the city of louisville, kentucky",
+    "translation": "ケンタッキー州ルイビル市の",
+    "cloze": "for the city of ｟louisville｠, kentucky"
+   },
+   {
+    "text": "the guy we arrested in louisville is still behind bars.",
+    "translation": "ルイビルで逮捕したヤツは 刑務所の中",
+    "cloze": "the guy we arrested in ｟louisville｠ is still behind bars."
+   }
+  ],
+  "frequencyRank": 2711,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8e7be620",
+  "courseId": "en-10-30k",
+  "headword": "livestock",
+  "reading": "/lˈaɪvstˌɑk/",
+  "gloss": "家畜",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "who protect our community and the livestock",
+    "translation": "僕達のコミュニティーや 家畜を守ってくれます",
+    "cloze": "who protect our community and the ｟livestock｠"
+   },
+   {
+    "text": "was there a figure 4 impression that looks like a livestock brand",
+    "translation": "焼き印みたいな 4という数字がなかったか?",
+    "cloze": "was there a figure 4 impression that looks like a ｟livestock｠ brand"
+   }
+  ],
+  "frequencyRank": 2778,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xc0b7412a",
+  "courseId": "en-10-30k",
+  "headword": "llc",
+  "reading": "/ˌɛlˌɛlsˌi/",
+  "gloss": "有限責任会社(LLC、会社形態の一種)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "articles of incorporation for a couple llcs.",
+    "translation": "去年に立ち上げた 2つの有限会社",
+    "cloze": "articles of incorporation for a couple ｟llcs｠."
+   },
+   {
+    "text": "incorporation papers for facebook, an llc registered in florida.",
+    "translation": "Facebook. LLCは フロリダで登記",
+    "cloze": "incorporation papers for facebook, an ｟llc｠ registered in florida."
+   }
+  ],
+  "frequencyRank": 2780,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x3b9c0799",
+  "courseId": "en-10-30k",
+  "headword": "lace",
+  "reading": "/lˈeɪs/",
+  "gloss": "ひも;レース(編み);(装飾用)モール",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She laced her shoes.",
+    "translation": "彼女は靴のひもを締めた。",
+    "cloze": "She ｟＿｠ her shoes."
+   },
+   {
+    "text": "Mary crochets lace every night.",
+    "translation": "メアリーは毎晩レースを編んでいる。",
+    "cloze": "Mary crochets ｟＿｠ every night."
+   }
+  ],
+  "frequencyRank": 2862,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x9f53539d",
+  "courseId": "en-10-30k",
+  "headword": "libya",
+  "reading": "/lˈɪbˌiə/",
+  "gloss": "リビア(北アフリカの共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Many people suffer from heart disease in Japan, but in Libya those having heart attacks have also increased a lot recently.",
+    "translation": "日本では心臓病を患う人が多いようですが、リビアでも心筋梗塞になる人が最近とても増えています。",
+    "cloze": "Many people suffer from heart disease in Japan, but in ｟＿｠ those having heart attacks have also increased a lot recently."
+   },
+   {
+    "text": "in somalia, in libya, uganda.",
+    "translation": "ソマリアの件の様に リビア ウガンダの件",
+    "cloze": "in somalia, in ｟＿｠, uganda."
+   }
+  ],
+  "frequencyRank": 2863,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x665edee3",
+  "courseId": "en-10-30k",
+  "headword": "lid",
+  "reading": "/lˈɪd/",
+  "gloss": "ふた;まぶた",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I opened the lid.",
+    "translation": "蓋を開けました。",
+    "cloze": "I opened the ｟＿｠."
+   },
+   {
+    "text": "The lid won't open.",
+    "translation": "蓋が開けられないんです。",
+    "cloze": "The ｟＿｠ won't open."
+   }
+  ],
+  "frequencyRank": 2933,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x397b2bd5",
+  "courseId": "en-10-30k",
+  "headword": "luggage",
+  "reading": "/lˈʌɡədʒ/",
+  "gloss": "手荷物、旅行かばん類",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Which is your luggage?",
+    "translation": "どれがあなたの荷物ですか？",
+    "cloze": "Which is your ｟＿｠?"
+   },
+   {
+    "text": "Has my luggage arrived?",
+    "translation": "私の荷物は届いていますか。",
+    "cloze": "Has my ｟＿｠ arrived?"
+   }
+  ],
+  "frequencyRank": 3015,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xeb34f9d7",
+  "courseId": "en-10-30k",
+  "headword": "lyon",
+  "reading": "/lˈaɪən/",
+  "gloss": "リヨン(フランスの都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "\"Where are you going?\" \"To Lyon!\" \"Where's that?\"",
+    "translation": "「どこ行くの？」「リヨン！」「どこよそれ？」",
+    "cloze": "\"Where are you going?\" \"To ｟＿｠!\" \"Where's that?\""
+   },
+   {
+    "text": "it's usually around lyons. you tell me about the time you went there with your family.",
+    "translation": "普段ならリヨンだな 君の家族の話をしてよ",
+    "cloze": "it's usually around ｟＿｠. you tell me about the time you went there with your family."
+   }
+  ],
+  "frequencyRank": 3016,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x30646c6e",
+  "courseId": "en-10-30k",
+  "headword": "latino",
+  "reading": "/lɑtˈinoʊ/",
+  "gloss": "ラテンアメリカ系の(米国)市民、ラテン系の人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "People from the so-called first world look at us Latinos as if we hadn't invented the wheel yet.",
+    "translation": "いわゆる先進国の人は、まだ車輪が発明されていなかった頃の人間を見るかのように我らラテン系を見ている。",
+    "cloze": "People from the so-called first world look at us ｟＿｠s as if we hadn't invented the wheel yet."
+   },
+   {
+    "text": "It's the answer that young people and old people, Republicans and Democrats, black people and white people, Latinos, Asians, and Native Americans, homosexuals and non-homosexuals, healthy and disabled people have given.",
+    "translation": "老いも若きも、共和党員も民主党員も、黒人も白人もラテン系もアジア系もネイティブアメリカンも、同性愛者もそうでない人も、健常者も障害者も、すべてが出した答えだ。",
+    "cloze": "It's the answer that young people and old people, Republicans and Democrats, black people and white people, ｟＿｠s, Asians, and Native Americans, homosexuals and non-homosexuals, healthy and disabled people have given."
+   }
+  ],
+  "frequencyRank": 3104,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x60657180",
+  "courseId": "en-10-30k",
+  "headword": "loudly",
+  "reading": "/lˈaʊdli/",
+  "gloss": "大声で、騒々しく；はでに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "It rang loudly.",
+    "translation": "大きな音をたてた。",
+    "cloze": "It rang ｟＿｠."
+   },
+   {
+    "text": "Tom groaned loudly.",
+    "translation": "トムは大きなうめき声を発した。",
+    "cloze": "Tom groaned ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3106,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x0b34f174",
+  "courseId": "en-10-30k",
+  "headword": "lancaster",
+  "reading": "/lˈænkˌæstɚ/",
+  "gloss": "ランカスター(英国北西部の都市;米国の地名にも使われる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in october 1997, in lancaster, ohio",
+    "translation": "1997年10月 オハイオ州ランカスターで",
+    "cloze": "in october 1997, in ｟＿｠, ohio"
+   },
+   {
+    "text": "Lancaster is a historic city in the north of England.",
+    "translation": "ランカスターはイングランド北部にある歴史ある都市です。",
+    "cloze": "｟＿｠ is a historic city in the north of England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3181,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x790df961",
+  "courseId": "en-10-30k",
+  "headword": "lightweight",
+  "reading": "/lˈaɪtwˈeɪt/",
+  "gloss": "重量の軽い;(俗)酒に弱い人,大したことのない人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tom is a lightweight.",
+    "translation": "トムはお酒に弱いのよ。",
+    "cloze": "Tom is a ｟＿｠."
+   },
+   {
+    "text": "I want some lightweight shoes.",
+    "translation": "私は軽い靴が欲しいです。",
+    "cloze": "I want some ｟＿｠ shoes."
+   }
+  ],
+  "frequencyRank": 3182,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x9f13ffce",
+  "courseId": "en-10-30k",
+  "headword": "lick",
+  "reading": "/lˈɪk/",
+  "gloss": "なめる;一なめ",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The cat licked Tom.",
+    "translation": "猫がトムのこと舐めたんだよ。",
+    "cloze": "The cat ｟＿｠ Tom."
+   },
+   {
+    "text": "Don't lick your fingers.",
+    "translation": "指をなめるな。",
+    "cloze": "Don't ｟＿｠ your fingers."
+   }
+  ],
+  "frequencyRank": 3267,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x0cb1ed3f",
+  "courseId": "en-10-30k",
+  "headword": "lib",
+  "reading": "/lˈɪb/",
+  "gloss": "解放(liberation);自由党(Liberal Party)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She played a part in the women's lib movement.",
+    "translation": "彼女は婦人解放運動で積極的な役割をした。",
+    "cloze": "She played a part in the women's ｟lib｠ movement."
+   },
+   {
+    "text": "She took an active part in the women's lib movement.",
+    "translation": "彼女は婦人解放運動で積極的に活躍した。",
+    "cloze": "She took an active part in the women's ｟lib｠ movement."
+   }
+  ],
+  "frequencyRank": 3436,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x1cee1448",
+  "courseId": "en-10-30k",
+  "headword": "liner",
+  "reading": "/lˈaɪnɚ/",
+  "gloss": "定期船;裏地;ライナー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They went on board a liner.",
+    "translation": "彼らは定期旅客船に乗り込んだ。",
+    "cloze": "They went on board a ｟liner｠."
+   },
+   {
+    "text": "The liner called at Hong Kong.",
+    "translation": "その汽船は香港に立ち寄った。",
+    "cloze": "The ｟liner｠ called at Hong Kong."
+   }
+  ],
+  "frequencyRank": 3439,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x035366fd",
+  "courseId": "en-10-30k",
+  "headword": "lava",
+  "reading": "/lˈɑvə/",
+  "gloss": "溶岩",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The volcano shoots out flames and lava.",
+    "translation": "火山は炎と溶岩を吹き出す。",
+    "cloze": "The volcano shoots out flames and ｟＿｠."
+   },
+   {
+    "text": "Can you give me a geological explanation of lava?",
+    "translation": "溶岩を地理学的に説明してくれませんか。",
+    "cloze": "Can you give me a geological explanation of ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 3629,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x75677254",
+  "courseId": "en-10-30k",
+  "headword": "lebanese",
+  "reading": "/lˈɛbənˌiz/",
+  "gloss": "レバノンの;レバノン人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I hope you like Lebanese food.",
+    "translation": "レバノン料理を気に入ってくれるといいんだけど。",
+    "cloze": "I hope you like ｟Lebanese｠ food."
+   },
+   {
+    "text": "you speak lebanese?",
+    "translation": "レバノン語を話せるの?",
+    "cloze": "you speak ｟lebanese｠?"
+   }
+  ],
+  "frequencyRank": 3726,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x8351b60b",
+  "courseId": "en-10-30k",
+  "headword": "litter",
+  "reading": "/lˈɪtɚ/",
+  "gloss": "ごみ、くず;(動物の)一腹の子;(家畜の)寝わら;散らかす",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tidy up the litter!",
+    "translation": "ごみくず片づけて。",
+    "cloze": "Tidy up the ｟＿｠!"
+   },
+   {
+    "text": "Littering is prohibited.",
+    "translation": "ポイ捨ては禁止です。",
+    "cloze": "｟＿｠ is prohibited."
+   }
+  ],
+  "frequencyRank": 3826,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xd5f19861",
+  "courseId": "en-10-30k",
+  "headword": "lastly",
+  "reading": "/lˈæstli/",
+  "gloss": "最後に、結局",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Lastly, cook on low heat for thirty minutes and it's done.",
+    "translation": "あとは弱火で３０分煮込めば完成。",
+    "cloze": "｟＿｠, cook on low heat for thirty minutes and it's done."
+   },
+   {
+    "text": "lastly, they made us identify a place where the body was hidden",
+    "translation": "で 最後に私たちに 遺体の隠し場所を特定させて",
+    "cloze": "｟＿｠, they made us identify a place where the body was hidden"
+   }
+  ],
+  "frequencyRank": 4029,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x7dcf403f",
+  "courseId": "en-10-30k",
+  "headword": "lipstick",
+  "reading": "/lˈɪpstˌɪk/",
+  "gloss": "口紅",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm putting on lipstick.",
+    "translation": "口紅つけてるとこ。",
+    "cloze": "I'm putting on ｟＿｠."
+   },
+   {
+    "text": "Are you wearing lipstick?",
+    "translation": "口紅付けてるの？",
+    "cloze": "Are you wearing ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 4030,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x8a70ff08",
+  "courseId": "en-10-30k",
+  "headword": "leonardo",
+  "reading": "/lˌiənˈɑɹdoʊ/",
+  "gloss": "レオナルド(多くはレオナルド・ダ・ヴィンチ、1452-1519、イタリアの芸術家・発明家を指す)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Mona Lisa was painted by Leonardo da Vinci.",
+    "translation": "モナリザはレオナルド・ダヴィンチによって描かれた。",
+    "cloze": "The Mona Lisa was painted by ｟Leonardo｠ da Vinci."
+   },
+   {
+    "text": "There remain approximately 900 art sketches by Leonardo da Vinci.",
+    "translation": "レオナルド・ダ・ヴィンチの美術素描は約９００点現存しています。",
+    "cloze": "There remain approximately 900 art sketches by ｟Leonardo｠ da Vinci."
+   }
+  ],
+  "frequencyRank": 4114,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbde63058",
+  "courseId": "en-10-30k",
+  "headword": "lobster",
+  "reading": "/lˈɑbstɚ/",
+  "gloss": "ロブスター、伊勢えびなど(はさみのある大型のエビ)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The lobster was good.",
+    "translation": "ロブスター美味しかった。",
+    "cloze": "The ｟＿｠ was good."
+   },
+   {
+    "text": "I'm allergic to spiny lobster.",
+    "translation": "僕は伊勢えびにアレルギーがあります。",
+    "cloze": "I'm allergic to spiny ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4436,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x926e3a40",
+  "courseId": "en-10-30k",
+  "headword": "loneliness",
+  "reading": "/lˈoʊnlinəs/",
+  "gloss": "孤独、寂しさ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Guinea pigs can die of loneliness.",
+    "translation": "モルモットは孤独死しちゃうんだ。",
+    "cloze": "Guinea pigs can die of ｟＿｠."
+   },
+   {
+    "text": "Sometimes I have feelings of being tormented by loneliness.",
+    "translation": "時々、孤独感に苛まれることがあります。",
+    "cloze": "Sometimes I have feelings of being tormented by ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4437,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x6640a05d",
+  "courseId": "en-10-30k",
+  "headword": "lagos",
+  "reading": "/lˈeɪɡɔs/",
+  "gloss": "ラゴス(ナイジェリア最大の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "who run around the streets of lagos at bus stations",
+    "translation": "ラゴス中の通りを駆け回り",
+    "cloze": "who run around the streets of ｟lagos｠ at bus stations"
+   },
+   {
+    "text": "imagine if every one of these buses in lagos was part of the mesh network.",
+    "translation": "ラゴスを走る全てのバスがメッシュネットワークに繋がっていると想像してみてください",
+    "cloze": "imagine if every one of these buses in ｟lagos｠ was part of the mesh network."
+   }
+  ],
+  "frequencyRank": 4540,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9e48857d",
+  "courseId": "en-10-30k",
+  "headword": "lan",
+  "reading": "/lˈæn/",
+  "gloss": "LAN、構内通信網(ローカルエリアネットワーク)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Please connect your computer to the LAN cable.",
+    "translation": "コンピューターをLANケーブルに接続してください。",
+    "cloze": "Please connect your computer to the ｟LAN｠ cable.",
+    "aiGenerated": true
+   },
+   {
+    "text": "All the office computers are linked through a LAN.",
+    "translation": "オフィスのすべてのコンピューターはLANで接続されている。",
+    "cloze": "All the office computers are linked through a ｟LAN｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4541,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x34fa1a5b",
+  "courseId": "en-10-30k",
+  "headword": "lisbon",
+  "reading": "/lˈɪzbən/",
+  "gloss": "リスボン(ポルトガルの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I want to live in Lisbon.",
+    "translation": "リスボンに住みたいの。",
+    "cloze": "I want to live in ｟Lisbon｠."
+   },
+   {
+    "text": "The best approach to Lisbon is by sea.",
+    "translation": "リスボンへ行くには海からが一番よい。",
+    "cloze": "The best approach to ｟Lisbon｠ is by sea."
+   }
+  ],
+  "frequencyRank": 4543,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfc8b44b9",
+  "courseId": "en-10-30k",
+  "headword": "lizard",
+  "reading": "/lˈɪzɚd/",
+  "gloss": "トカゲ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love lizards.",
+    "translation": "トカゲが大好きでね。",
+    "cloze": "I love ｟lizards｠."
+   },
+   {
+    "text": "This is not a lizard, it's a gecko.",
+    "translation": "これはトカゲじゃなくてヤモリだよ。",
+    "cloze": "This is not a ｟lizard｠, it's a gecko."
+   }
+  ],
+  "frequencyRank": 4658,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xf916612d",
+  "courseId": "en-10-30k",
+  "headword": "lawful",
+  "reading": "/lˈɔfəl/",
+  "gloss": "合法の、法律上正当な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He recognized his son as lawful heir.",
+    "translation": "彼は息子を正式の相続人と認めた。",
+    "cloze": "He recognized his son as ｟lawful｠ heir."
+   },
+   {
+    "text": "He is the lawful owner of the company.",
+    "translation": "彼はその会社の合法的な所有者だ。",
+    "cloze": "He is the ｟lawful｠ owner of the company."
+   }
+  ],
+  "frequencyRank": 4759,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xef06025f",
+  "courseId": "en-10-30k",
+  "headword": "loosely",
+  "reading": "/lˈusli/",
+  "gloss": "緩く、だらりと；大ざっぱに、漠然と",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "and together we sort of loosely formed a group",
+    "translation": "そこで ゆるやかな組織を作り",
+    "cloze": "and together we sort of ｟loosely｠ formed a group"
+   },
+   {
+    "text": "50 years in which loosely coordinated groups",
+    "translation": "今後50 年の間 緩く協調したグループが",
+    "cloze": "50 years in which ｟loosely｠ coordinated groups"
+   }
+  ],
+  "frequencyRank": 4762,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xab83682d",
+  "courseId": "en-10-30k",
+  "headword": "lantern",
+  "reading": "/lˈæntɚn/",
+  "gloss": "ランタン、ちょうちん、角灯",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom held up the lantern.",
+    "translation": "トムはランタンを掲げた。",
+    "cloze": "Tom held up the ｟＿｠."
+   },
+   {
+    "text": "Lanterns are floated to worship Great God Kuzuryū.",
+    "translation": "九頭竜明神を祭るために灯篭をながす。",
+    "cloze": "｟＿｠s are floated to worship Great God Kuzuryū."
+   }
+  ],
+  "frequencyRank": 4870,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x4135a3bc",
+  "courseId": "en-10-30k",
+  "headword": "linen",
+  "reading": "/lˈɪnən/",
+  "gloss": "リネン、亜麻布;(シーツなどの)リネン製品",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Don't wash your dirty linen in public.",
+    "translation": "汚い下着を人前で洗うな。",
+    "cloze": "Don't wash your dirty ｟＿｠ in public."
+   },
+   {
+    "text": "The tablecloth was made of fine linen.",
+    "translation": "そのテーブルクロスは上質なリネンでできていた。",
+    "cloze": "The tablecloth was made of fine ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4871,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x43d68541",
+  "courseId": "en-10-30k",
+  "headword": "lookout",
+  "reading": "/lˈʊkˌaʊt/",
+  "gloss": "見張り、警戒;見張り人;見晴らし",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They were on the lookout for a storm.",
+    "translation": "彼らは嵐を警戒していた。",
+    "cloze": "They were on the ｟＿｠ for a storm."
+   },
+   {
+    "text": "The soldier kept a sharp lookout in the darkness.",
+    "translation": "兵隊は暗闇で四方に目を配った。",
+    "cloze": "The soldier kept a sharp ｟＿｠ in the darkness."
+   }
+  ],
+  "frequencyRank": 4872,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x2f68b105",
+  "courseId": "en-10-30k",
+  "headword": "lancashire",
+  "reading": "/lˈæŋkəʃˌaɪɹ/",
+  "gloss": "ランカシャー(イングランド北西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "oh, lancashire is wonderful!",
+    "translation": "ランカシャーは素晴らしい!",
+    "cloze": "oh, ｟＿｠ is wonderful!"
+   },
+   {
+    "text": "Lancashire is a county in the northwest of England.",
+    "translation": "ランカシャーはイングランド北西部の州だ。",
+    "cloze": "｟＿｠ is a county in the northwest of England.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5002,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1c0f1899",
+  "courseId": "en-10-30k",
+  "headword": "leopard",
+  "reading": "/lˈɛpɚd/",
+  "gloss": "ヒョウ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is that a leopard?",
+    "translation": "あれはヒョウなの？",
+    "cloze": "Is that a ｟＿｠?"
+   },
+   {
+    "text": "Tom is as fast as a leopard.",
+    "translation": "トムは豹のようにすばしっこい。",
+    "cloze": "Tom is as fast as a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5119,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xc9c1c4bb",
+  "courseId": "en-10-30k",
+  "headword": "librarian",
+  "reading": "/laɪbɹˈɛɹˌiən/",
+  "gloss": "司書、図書館員",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The librarian classified the books according to subject.",
+    "translation": "司書は主題によって本を分類した。",
+    "cloze": "The ｟＿｠ classified the books according to subject."
+   },
+   {
+    "text": "I told the librarian that I needed the book for a report due on Friday; so she said she would call it in.",
+    "translation": "私は図書館の職員に金曜日締め切りのレポートのためにその本が必要だと言った。そうしたら彼女は借りている人に返却を求めるように言うと言った。",
+    "cloze": "I told the ｟＿｠ that I needed the book for a report due on Friday; so she said she would call it in."
+   }
+  ],
+  "frequencyRank": 5120,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x6e532d80",
+  "courseId": "en-10-30k",
+  "headword": "lumber",
+  "reading": "/lˈʌmbɚ/",
+  "gloss": "材木、木材；(英)がらくた",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They will send us lumber.",
+    "translation": "彼らは私達に材木を送ってくれるだろう。",
+    "cloze": "They will send us ｟＿｠."
+   },
+   {
+    "text": "Nowadays, finding good lumber is hard.",
+    "translation": "近頃はよい材木を見つけるのが難しいですね。",
+    "cloze": "Nowadays, finding good ｟＿｠ is hard."
+   }
+  ],
+  "frequencyRank": 5121,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x0a356d50",
+  "courseId": "en-10-30k",
+  "headword": "lexington",
+  "reading": "/lˈɛksɪŋtən/",
+  "gloss": "レキシントン(米国マサチューセッツ州の町;独立戦争最初の戦闘地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "links to an address in lexington, massachusetts.",
+    "translation": "マサチューセッツの レキシントンだ",
+    "cloze": "links to an address in ｟＿｠, massachusetts."
+   },
+   {
+    "text": "all right. how about lexington?",
+    "translation": "じゃあ レキシントンは?",
+    "cloze": "all right. how about ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 5233,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd9b355df",
+  "courseId": "en-10-30k",
+  "headword": "lima",
+  "reading": "/lˈaɪmə/",
+  "gloss": "リマ(ペルーの首都);(通信で)Lを表す語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i want tickets to lima, peru.",
+    "translation": "ペルーのリマまで2枚",
+    "cloze": "i want tickets to ｟＿｠, peru."
+   },
+   {
+    "text": "plate reads five, lima, tango, three, one, six. over. yeah, that's the plate.",
+    "translation": "ナンバーは 5ltの316だ",
+    "cloze": "plate reads five, ｟＿｠, tango, three, one, six. over. yeah, that's the plate."
+   }
+  ],
+  "frequencyRank": 5235,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x32767a50",
+  "courseId": "en-10-30k",
+  "headword": "lea",
+  "reading": "/lˈi/",
+  "gloss": "草原、牧草地(詩的表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The sheep grazed peacefully in the green lea.",
+    "translation": "羊たちは緑の牧草地で静かに草を食んでいた。",
+    "cloze": "The sheep grazed peacefully in the green ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "A narrow path led across the lea to the old mill.",
+    "translation": "細い小道が牧草地を横切って古い水車小屋へと続いていた。",
+    "cloze": "A narrow path led across the ｟＿｠ to the old mill.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5344,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x00fdc4d8",
+  "courseId": "en-10-30k",
+  "headword": "luxembourg",
+  "reading": "/lˈʌksəmbˌɔɹɡ/",
+  "gloss": "ルクセンブルク(西欧の大公国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Luxembourg is a small country.",
+    "translation": "ルクセンブルクは小さな国です。",
+    "cloze": "｟＿｠ is a small country."
+   },
+   {
+    "text": "I live in Germany and I work in Luxembourg.",
+    "translation": "ドイツに住んでて、ルクセンブルクで働いてるよ。",
+    "cloze": "I live in Germany and I work in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5346,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x321be00c",
+  "courseId": "en-10-30k",
+  "headword": "lettuce",
+  "reading": "/lˈɛtəs/",
+  "gloss": "レタス、チシャ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He washes lettuce.",
+    "translation": "彼はレタスを洗います。",
+    "cloze": "He washes ｟lettuce｠."
+   },
+   {
+    "text": "Tom shredded the lettuce.",
+    "translation": "トムはレタスを千切りにした。",
+    "cloze": "Tom shredded the ｟lettuce｠."
+   }
+  ],
+  "frequencyRank": 5451,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xcac169ac",
+  "courseId": "en-10-30k",
+  "headword": "lighthouse",
+  "reading": "/lˈaɪthˌaʊs/",
+  "gloss": "灯台",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My uncle works in a lighthouse.",
+    "translation": "私の叔父は灯台で働いてます。",
+    "cloze": "My uncle works in a ｟lighthouse｠."
+   },
+   {
+    "text": "We saw the gleam of a distant lighthouse.",
+    "translation": "遠い灯台のかすかな光を見た。",
+    "cloze": "We saw the gleam of a distant ｟lighthouse｠."
+   }
+  ],
+  "frequencyRank": 5583,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xce6c1c75",
+  "courseId": "en-10-30k",
+  "headword": "luxurious",
+  "reading": "/ləɡʒˈɝiəs/",
+  "gloss": "ぜいたくな,豪華な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The hotel was luxurious beyond description.",
+    "translation": "そのホテルは言葉で表現できないほど豪華だった。",
+    "cloze": "The hotel was ｟luxurious｠ beyond description."
+   },
+   {
+    "text": "I can not feel at home in a luxurious hotel.",
+    "translation": "私は豪華なホテルでは落ち着かない。",
+    "cloze": "I can not feel at home in a ｟luxurious｠ hotel."
+   }
+  ],
+  "frequencyRank": 5587,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x6c453711",
+  "courseId": "en-10-30k",
+  "headword": "lite",
+  "reading": "/lˈaɪt/",
+  "gloss": "(略式・商品表示で)「ライト」の,低カロリー(低脂肪)版の,軽量版の(=light)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This beer is labeled lite because it has fewer calories.",
+    "translation": "このビールはカロリーが少ないので「ライト」と表示されている。",
+    "cloze": "This beer is labeled ｟＿｠ because it has fewer calories.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5839,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8970f0f6",
+  "courseId": "en-10-30k",
+  "headword": "lafayette",
+  "reading": "/lˌɑfiˈɛt/",
+  "gloss": "ラファイエット(米国独立戦争で活躍したフランスの貴族・軍人。同名の地名にも使われる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Marquis de Lafayette fought alongside George Washington in the American Revolution.",
+    "translation": "ラファイエット侯爵はアメリカ独立戦争でジョージ・ワシントンと共に戦った。",
+    "cloze": "The Marquis de ｟＿｠ fought alongside George Washington in the American Revolution.",
+    "aiGenerated": true
+   },
+   {
+    "text": "There is a city named Lafayette in the state of Louisiana.",
+    "translation": "ルイジアナ州にはラファイエットという名の都市がある。",
+    "cloze": "There is a city named ｟＿｠ in the state of Louisiana.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5984,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x02d9a225",
+  "courseId": "en-10-30k",
+  "headword": "liberia",
+  "reading": "/lˌaɪbˈɪɹˌiə/",
+  "gloss": "リベリア(西アフリカの共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "They called their new country the Republic of Liberia.",
+    "translation": "彼らは自分たちの新しい国をリベリア共和国と呼んだ。",
+    "cloze": "They called their new country the Republic of ｟＿｠."
+   },
+   {
+    "text": "liberia had been torn apart by civil strife for decades.",
+    "translation": "リベリアは十数年続く内戦のためひどい状態でした",
+    "cloze": "｟＿｠ had been torn apart by civil strife for decades."
+   }
+  ],
+  "frequencyRank": 6235,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa61fe092",
+  "courseId": "en-10-30k",
+  "headword": "lithuania",
+  "reading": "/lˌɪθəwˈeɪniə/",
+  "gloss": "リトアニア(バルト三国の一つ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "next in lithuania with lace makers.",
+    "translation": "リトアニアのレース職人と作ったものです",
+    "cloze": "next in ｟＿｠ with lace makers."
+   },
+   {
+    "text": "latvia, lithuania, estonia",
+    "translation": "ラトビア、リトアニア、エストニア、",
+    "cloze": "latvia, ｟＿｠, estonia"
+   }
+  ],
+  "frequencyRank": 6236,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9489287a",
+  "courseId": "en-10-30k",
+  "headword": "locomotive",
+  "reading": "/lˌoʊkəmˈoʊtɪv/",
+  "gloss": "機関車",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Locomotives come more often than buses do.",
+    "translation": "汽車はバスよりひんぱんに来ます。",
+    "cloze": "｟＿｠ come more often than buses do."
+   },
+   {
+    "text": "The locomotive was pulling a long line of freight cars.",
+    "translation": "機関車は長い貨物車の列を引っ張って走っていた。",
+    "cloze": "The ｟＿｠ was pulling a long line of freight cars."
+   }
+  ],
+  "frequencyRank": 6237,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xf6f4a229",
+  "courseId": "en-10-30k",
+  "headword": "lahore",
+  "reading": "/lɑhˈɔɹ/",
+  "gloss": "ラホール(パキスタンの都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this is from the city of lahore",
+    "translation": "これはラホールの町で",
+    "cloze": "this is from the city of ｟＿｠"
+   },
+   {
+    "text": "i happened to be in lahore, pakistan",
+    "translation": "パキスタンのラホールで",
+    "cloze": "i happened to be in ｟＿｠, pakistan"
+   }
+  ],
+  "frequencyRank": 6366,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe63ffb14",
+  "courseId": "en-10-30k",
+  "headword": "loaf",
+  "reading": "/lˈoʊf/",
+  "gloss": "パンの一塊、(食品の)塊",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This loaf of bread is big.",
+    "translation": "このパンは大きい。",
+    "cloze": "This ｟＿｠ of bread is big."
+   },
+   {
+    "text": "She bought a loaf of fresh bread every morning.",
+    "translation": "彼女は毎朝焼きたてのパンを一斤買った。",
+    "cloze": "She bought a ｟＿｠ of fresh bread every morning.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6371,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x8df99011",
+  "courseId": "en-10-30k",
+  "headword": "learner",
+  "reading": "/lˈɝnɚ/",
+  "gloss": "学習者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm a slow learner.",
+    "translation": "僕は覚えるのが遅いんだ。",
+    "cloze": "I'm a slow ｟＿｠."
+   },
+   {
+    "text": "Tom is a fast learner.",
+    "translation": "トムは物覚えがいい。",
+    "cloze": "Tom is a fast ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6519,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xbd4a226b",
+  "courseId": "en-10-30k",
+  "headword": "lcd",
+  "reading": null,
+  "gloss": "液晶ディスプレイ(Liquid Crystal Display)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "You can't see too well with these LCD displays.",
+    "translation": "液晶画面は、見にくいなぁ。",
+    "cloze": "You can't see too well with these ｟LCD｠ displays."
+   },
+   {
+    "text": "In any case why was it only mine that had a line in the LCD?",
+    "translation": "そもそも何故私の物だけ液晶に線が入っていたのか。",
+    "cloze": "In any case why was it only mine that had a line in the ｟LCD｠?"
+   }
+  ],
+  "frequencyRank": 6648,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x0a129914",
+  "courseId": "en-10-30k",
+  "headword": "leash",
+  "reading": "/lˈiʃ/",
+  "gloss": "(犬などをつなぐ)引きひも、鎖；…をひもでつなぐ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom keeps Mary on a short leash.",
+    "translation": "トムはメアリーを束縛してるんだ。",
+    "cloze": "Tom keeps Mary on a short ｟leash｠."
+   },
+   {
+    "text": "As soon as I let go of the leash, the dog ran away.",
+    "translation": "綱を離すと犬は走り去った。",
+    "cloze": "As soon as I let go of the ｟leash｠, the dog ran away."
+   }
+  ],
+  "frequencyRank": 6650,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x80d666b4",
+  "courseId": "en-10-30k",
+  "headword": "lorraine",
+  "reading": "/lɚˈeɪn/",
+  "gloss": "ロレーヌ(フランス北東部の地方名。「キッシュ・ロレーヌ」でも有名);(女性の名前としても使われる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Quiche Lorraine is a savory dish named after the Lorraine region of France.",
+    "translation": "キッシュ・ロレーヌはフランスのロレーヌ地方にちなんで名付けられた料理です。",
+    "cloze": "Quiche ｟Lorraine｠ is a savory dish named after the Lorraine region of France.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6784,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0ab50fbc",
+  "courseId": "en-10-30k",
+  "headword": "lyons",
+  "reading": "/lˈaɪənz/",
+  "gloss": "リヨン(フランス東部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lyons is known for its cuisine and silk industry.",
+    "translation": "リヨンは料理と絹産業で知られています。",
+    "cloze": "｟Lyons｠ is known for its cuisine and silk industry.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6785,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd153d1ae",
+  "courseId": "en-10-30k",
+  "headword": "loch",
+  "reading": "/lˈɑk/",
+  "gloss": "(スコットランドの)湖、入り江",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Have you ever heard of the Loch Ness monster?",
+    "translation": "ネッシーって、知ってる？",
+    "cloze": "Have you ever heard of the ｟＿｠ Ness monster?"
+   },
+   {
+    "text": "what are we talking, a loch ness monster?",
+    "translation": "ネス湖の怪物が 出張ですか?",
+    "cloze": "what are we talking, a ｟＿｠ ness monster?"
+   }
+  ],
+  "frequencyRank": 6929,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x0ddf6554",
+  "courseId": "en-10-30k",
+  "headword": "lotion",
+  "reading": "/lˈoʊʃən/",
+  "gloss": "ローション、化粧水",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I need hand lotion.",
+    "translation": "ハンドローションが欲しいのよ。",
+    "cloze": "I need hand ｟＿｠."
+   },
+   {
+    "text": "She is putting on some face lotion.",
+    "translation": "彼女は化粧水をつけている。",
+    "cloze": "She is putting on some face ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6931,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x41488969",
+  "courseId": "en-10-30k",
+  "headword": "lam",
+  "reading": "/lˈæm/",
+  "gloss": "(俗)高飛びする、逃走する;〈古〉…を打つ、なぐる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The thief went on the lam after robbing the bank.",
+    "translation": "その泥棒は銀行強盗の後に逃走した。",
+    "cloze": "The thief went on the ｟＿｠ after robbing the bank.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He's been on the lam for three years, hiding from the police.",
+    "translation": "彼は3年間逃亡中で、警察から身を隠している。",
+    "cloze": "He's been on the ｟＿｠ for three years, hiding from the police.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7061,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x3e325e40",
+  "courseId": "en-10-30k",
+  "headword": "latvia",
+  "reading": "/lˈætviə/",
+  "gloss": "ラトビア(バルト三国の一つ;首都リガ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The capital of Latvia is Riga.",
+    "translation": "ラトビアの首都はリガです。",
+    "cloze": "The capital of ｟＿｠ is Riga."
+   },
+   {
+    "text": "latvia, lithuania, estonia",
+    "translation": "ラトビア、リトアニア、エストニア、",
+    "cloze": "｟＿｠, lithuania, estonia"
+   }
+  ],
+  "frequencyRank": 7063,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x7ef5876a",
+  "courseId": "en-10-30k",
+  "headword": "lavender",
+  "reading": "/lˈævəndɚ/",
+  "gloss": "ラベンダー(シソ科の植物・香料);ラベンダー色",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There was lavender as far as the eye could see.",
+    "translation": "見わたす限りラベンダーが咲いていた。",
+    "cloze": "There was ｟＿｠ as far as the eye could see."
+   },
+   {
+    "text": "oh, yes, hey, lend me that. lavender perfume. no good.",
+    "translation": "ああ、そうだ、ねぇ、あれ貸してよ。 ラベンダーの香水。だめ。",
+    "cloze": "oh, yes, hey, lend me that. ｟＿｠ perfume. no good."
+   }
+  ],
+  "frequencyRank": 7065,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x7574959a",
+  "courseId": "en-10-30k",
+  "headword": "lemonade",
+  "reading": "/lˈɛmənˈeɪd/",
+  "gloss": "レモネード(レモン果汁に水・砂糖を加えた飲み物)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The lemonade is cold.",
+    "translation": "レモネードは冷たい。",
+    "cloze": "The ｟＿｠ is cold."
+   },
+   {
+    "text": "Tom went out to buy lemonade.",
+    "translation": "トムはレモネードを買いに出かけた。",
+    "cloze": "Tom went out to buy ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7066,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x1ac6fa25",
+  "courseId": "en-10-30k",
+  "headword": "lenin",
+  "reading": "/lˈɛnən/",
+  "gloss": "レーニン(ロシア革命の指導者;1870-1924)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "someone assassinated lenin in 1916.",
+    "translation": "1916年に誰かがレーニンを暗殺しました - 誰が引き継いだ?",
+    "cloze": "someone assassinated ｟＿｠ in 1916."
+   },
+   {
+    "text": "no one. so without lenin, the bolsheviks never gained power.",
+    "translation": "レーニンを失い共産党は権力を 手にしませんでした",
+    "cloze": "no one. so without ｟＿｠, the bolsheviks never gained power."
+   }
+  ],
+  "frequencyRank": 7067,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2f24ca80",
+  "courseId": "en-10-30k",
+  "headword": "lagoon",
+  "reading": "/ləɡˈun/",
+  "gloss": "潟、礁湖(ラグーン)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and i flew over a lagoon with a shark in it",
+    "translation": "ラグーンでは サメが泳いでいるのも見えました",
+    "cloze": "and i flew over a ｟＿｠ with a shark in it"
+   },
+   {
+    "text": "The lagoon was calm and clear, perfect for snorkeling.",
+    "translation": "そのラグーンは穏やかで澄んでいて、シュノーケリングに最適だった。",
+    "cloze": "The ｟＿｠ was calm and clear, perfect for snorkeling.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7221,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x1a092929",
+  "courseId": "en-10-30k",
+  "headword": "limp",
+  "reading": "/lˈɪmp/",
+  "gloss": "足を引きずって歩く、びっこを引く;ぐにゃぐにゃの、力のない",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom was limping.",
+    "translation": "トムは足をひこずっていた。",
+    "cloze": "Tom was ｟＿｠."
+   },
+   {
+    "text": "He walked with a limp.",
+    "translation": "彼は片足を引きずってあるいた。",
+    "cloze": "He walked with a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7224,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x7282c980",
+  "courseId": "en-10-30k",
+  "headword": "logically",
+  "reading": "/lˈɑdʒɪkli/",
+  "gloss": "論理的に、理屈で言えば",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I'm not good at thinking logically.",
+    "translation": "論理的に考えるのが苦手。",
+    "cloze": "I'm not good at thinking ｟＿｠."
+   },
+   {
+    "text": "He has no ability to reason logically at all.",
+    "translation": "彼は論理的思考力が致命的に欠如している。",
+    "cloze": "He has no ability to reason ｟＿｠ at all."
+   }
+  ],
+  "frequencyRank": 7226,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xe19002ae",
+  "courseId": "en-10-30k",
+  "headword": "lucifer",
+  "reading": "/lˈusəfɚ/",
+  "gloss": "ルシファー(堕天使・悪魔の名;また明けの明星＝金星の古称)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "my great demon general lucifer?",
+    "translation": "悪魔大元聖ルシフェル",
+    "cloze": "my great demon general ｟＿｠?"
+   },
+   {
+    "text": "In the Bible, Lucifer is another name for Satan.",
+    "translation": "聖書では、ルシファーはサタンの別名である。",
+    "cloze": "In the Bible, ｟＿｠ is another name for Satan.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7227,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x38616221",
+  "courseId": "en-10-30k",
+  "headword": "libyan",
+  "reading": "/lˈɪbˌiən/",
+  "gloss": "リビアの;リビア人;リビア語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "i had no previous knowledge of any libyans being under investigation.",
+    "translation": "あの、リビア人の事は良く知らないんだ",
+    "cloze": "i had no previous knowledge of any ｟＿｠s being under investigation."
+   },
+   {
+    "text": "a surge in participation amongst libyan foreign fighters.",
+    "translation": "リビア出身の兵士が急増していたのです",
+    "cloze": "a surge in participation amongst ｟＿｠ foreign fighters."
+   }
+  ],
+  "frequencyRank": 7378,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x84e6da34",
+  "courseId": "en-10-30k",
+  "headword": "lgbtq",
+  "reading": null,
+  "gloss": "LGBTQ(性的マイノリティの総称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This event welcomes lesbians and other LGBTQ+ individuals.",
+    "translation": "このイベントはビアンや他のLGBTQ+の人たちも参加できます。",
+    "cloze": "This event welcomes lesbians and other ｟LGBTQ｠+ individuals."
+   },
+   {
+    "text": "self evident truths is a photographic record of lgbtq america today.",
+    "translation": "「自明の真実」はアメリカの lgbtq達の写真ドキュメンタリーです",
+    "cloze": "self evident truths is a photographic record of ｟lgbtq｠ america today."
+   }
+  ],
+  "frequencyRank": 7503,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd0c995f3",
+  "courseId": "en-10-30k",
+  "headword": "leftover",
+  "reading": "/lˈɛftˌoʊvɚ/",
+  "gloss": "残り物、食べ残し",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Leftovers are sufficient.",
+    "translation": "あまった食材で充分。",
+    "cloze": "｟Leftovers｠ are sufficient."
+   },
+   {
+    "text": "I ate leftovers for lunch.",
+    "translation": "お昼ご飯は、残り物を食べました。",
+    "cloze": "I ate ｟leftovers｠ for lunch."
+   }
+  ],
+  "frequencyRank": 7638,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x6ad81aa3",
+  "courseId": "en-10-30k",
+  "headword": "langley",
+  "reading": "/lˈæŋli/",
+  "gloss": "ラングレー(米バージニア州の地名;CIA本部所在地からCIAの代名詞としても使われる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "give langley a call.",
+    "translation": "ラングレーに電話するよ.",
+    "cloze": "give ｟＿｠ a call."
+   },
+   {
+    "text": "as the langley bomber.",
+    "translation": "ラングレー(cia)の爆弾犯としてだ",
+    "cloze": "as the ｟＿｠ bomber."
+   }
+  ],
+  "frequencyRank": 7787,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x29540755",
+  "courseId": "en-10-30k",
+  "headword": "latina",
+  "reading": "/lɑtˈinə/",
+  "gloss": "ラテンアメリカ系の女性,ラティーナ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She proudly identifies as a Latina from Mexico.",
+    "translation": "彼女はメキシコ出身のラティーナであることを誇りに思っている。",
+    "cloze": "She proudly identifies as a ｟＿｠ from Mexico.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7948,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x99fd6dbf",
+  "courseId": "en-10-30k",
+  "headword": "lte",
+  "reading": null,
+  "gloss": "LTE(Long Term Evolution;高速データ通信規格の一つ)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My phone switched from LTE to 5G automatically.",
+    "translation": "私のスマホは自動的にLTEから5Gに切り替わった。",
+    "cloze": "My phone switched from ｟＿｠ to 5G automatically.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7950,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xd96cb804",
+  "courseId": "en-10-30k",
+  "headword": "launcher",
+  "reading": "/lˈɔntʃɚ/",
+  "gloss": "(ミサイルなどの)発射装置",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "this is an m41a pulse rifle, 10mm, with an overandunder 30mm pumpaction grenade launcher.",
+    "translation": "M41 -A パルスライフル 上下にグレネードランチャーが 付いてる",
+    "cloze": "this is an m41a pulse rifle, 10mm, with an overandunder 30mm pumpaction grenade ｟＿｠."
+   },
+   {
+    "text": "gaynor wasn't running the rocket launcher.",
+    "translation": "ゲイナーは ロケット・ランチャーを撃たなかった",
+    "cloze": "gaynor wasn't running the rocket ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8099,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x57df8207",
+  "courseId": "en-10-30k",
+  "headword": "legality",
+  "reading": "/liɡˈæləti/",
+  "gloss": "合法性、適法",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i don't recall edward bates being any too certain about the legality of my proclamation.",
+    "translation": "ベイツは公布が法的に有効だと 思ってなかったが",
+    "cloze": "i don't recall edward bates being any too certain about the ｟＿｠ of my proclamation."
+   },
+   {
+    "text": "the contract at a glance is legal, but the actual condition of things isn't within the limits of legalities.",
+    "translation": "契約書は一見 合法でも➡",
+    "cloze": "the contract at a glance is legal, but the actual condition of things isn't within the limits of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8100,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x53210fc1",
+  "courseId": "en-10-30k",
+  "headword": "loosen",
+  "reading": "/lˈusən/",
+  "gloss": "緩める、ゆるむ／制限などを緩和する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I loosened my shoelaces.",
+    "translation": "私は靴の紐をほどいた。",
+    "cloze": "I ｟＿｠ my shoelaces."
+   },
+   {
+    "text": "Loosen the screws and remove the lamp cover.",
+    "translation": "ねじを緩めて、ランプ・カバーを取り外します。",
+    "cloze": "｟＿｠ the screws and remove the lamp cover."
+   }
+  ],
+  "frequencyRank": 8104,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x68f4028e",
+  "courseId": "en-10-30k",
+  "headword": "legitimately",
+  "reading": "/lədʒˈɪtəmətli/",
+  "gloss": "合法的に、正当に;本当に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "james, these patients are legitimately ill and need the counsel of real doctors.",
+    "translation": "本当に病気なら 医者に相談すべきだ",
+    "cloze": "james, these patients are ｟legitimately｠ ill and need the counsel of real doctors."
+   },
+   {
+    "text": "She earned her promotion legitimately, through hard work and talent.",
+    "translation": "彼女は真面目な努力と才能によって、正当に昇進を勝ち取った。",
+    "cloze": "She earned her promotion ｟legitimately｠, through hard work and talent.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8254,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x908a7226",
+  "courseId": "en-10-30k",
+  "headword": "lighten",
+  "reading": "/lˈaɪtən/",
+  "gloss": "…を明るくする、照らす;明るくなる;…の重さ・気持ちを軽くする;軽くなる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Lighten up.",
+    "translation": "気楽にいけよ。",
+    "cloze": "｟＿｠ up."
+   },
+   {
+    "text": "The sky lightened as it stopped raining.",
+    "translation": "雨がやんで空が明るくなった。",
+    "cloze": "The sky ｟＿｠ as it stopped raining."
+   }
+  ],
+  "frequencyRank": 8410,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xf8271f38",
+  "courseId": "en-10-30k",
+  "headword": "laos",
+  "reading": "/lˈɑoʊs/",
+  "gloss": "ラオス（東南アジアの国、首都はビエンチャン）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Vientiane is the capital of Laos.",
+    "translation": "ヴィエンチャンはラオスの首都。",
+    "cloze": "Vientiane is the capital of ｟＿｠."
+   },
+   {
+    "text": "i'm dr. sun, a virologist from laos, trained in beijing.",
+    "translation": "私はサン ラオスのウイルス学者 北京で訓練を受けたの",
+    "cloze": "i'm dr. sun, a virologist from ｟＿｠, trained in beijing."
+   }
+  ],
+  "frequencyRank": 8587,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9668e9f5",
+  "courseId": "en-10-30k",
+  "headword": "latch",
+  "reading": "/lˈætʃ/",
+  "gloss": "(ドアなどの)掛け金、留め金",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the fact that the door's chain is latched means...",
+    "translation": "チェーンが かかってるってことは...。",
+    "cloze": "the fact that the door's chain is ｟＿｠ means..."
+   },
+   {
+    "text": "a latch?",
+    "translation": "掛け金か",
+    "cloze": "a ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 8588,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x6639f3f5",
+  "courseId": "en-10-30k",
+  "headword": "likeness",
+  "reading": "/lˈaɪknəs/",
+  "gloss": "似ていること、類似点；肖像、姿",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He bears a strong likeness to my son.",
+    "translation": "彼は私の息子にとても似ている。",
+    "cloze": "He bears a strong ｟＿｠ to my son."
+   },
+   {
+    "text": "and he did rather a good job with the likeness.",
+    "translation": "彼は 極めてよく似た絵を描きあげた",
+    "cloze": "and he did rather a good job with the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8591,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe9fe7c90",
+  "courseId": "en-10-30k",
+  "headword": "latinos",
+  "reading": "/lɑtˈinoʊs/",
+  "gloss": "ラティーノ、ラテンアメリカ系の人々（主に米国で使われる呼称）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Latinos make up a large and growing part of the U.S. population.",
+    "translation": "ラティーノはアメリカの人口の大きく、増え続けている部分を占めている。",
+    "cloze": "｟＿｠ make up a large and growing part of the U.S. population.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8765,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3fa840bb",
+  "courseId": "en-10-30k",
+  "headword": "lunchtime",
+  "reading": "/lˈʌntʃtˌaɪm/",
+  "gloss": "昼食時間",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It'll soon be lunchtime.",
+    "translation": "もう、昼食の時間になる。",
+    "cloze": "It'll soon be ｟＿｠."
+   },
+   {
+    "text": "We should get to Chicago by lunchtime.",
+    "translation": "私たちはお昼までにシカゴに着かなければならない。",
+    "cloze": "We should get to Chicago by ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8770,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xfe15fb16",
+  "courseId": "en-10-30k",
+  "headword": "lux",
+  "reading": "/lˈʌks/",
+  "gloss": "ルクス（照度を表すSI単位）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The recommended lighting level for an office is around 500 lux.",
+    "translation": "オフィスの推奨照度は約500ルクスです。",
+    "cloze": "The recommended lighting level for an office is around 500 ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8771,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xe8e9af8d",
+  "courseId": "en-10-30k",
+  "headword": "lac",
+  "reading": "/lˈæk/",
+  "gloss": "ラック(セラックや染料の原料となる樹脂)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Lac is a resin used to make shellac and dyes.",
+    "translation": "ラックはセラックや染料の原料となる樹脂である。",
+    "cloze": "｟＿｠ is a resin used to make shellac and dyes.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9091,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xec53122d",
+  "courseId": "en-10-30k",
+  "headword": "lousy",
+  "reading": "/lˈaʊzi/",
+  "gloss": "ひどい、粗末な、質の悪い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I feel lousy.",
+    "translation": "気分がよくないんだ。",
+    "cloze": "I feel ｟＿｠."
+   },
+   {
+    "text": "i'm a lousy cook.",
+    "translation": "私は、お粗末な料理だ。",
+    "cloze": "i'm a ｟＿｠ cook."
+   }
+  ],
+  "frequencyRank": 9094,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa985ba0b",
+  "courseId": "en-10-30k",
+  "headword": "labrador",
+  "reading": "/lˈæbɹədˌɔɹ/",
+  "gloss": "ラブラドール(半島・地方名;またはラブラドール・レトリバー犬種)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Oh, your talking about the Labrador retriever. All of the sudden you mention love dolls so I was so confused.",
+    "translation": "何だ，ラブラドール・レトリバーの話か。急にラブドールとか言い出すからどうしたのかと思っちゃったよ。",
+    "cloze": "Oh, your talking about the ｟＿｠ retriever. All of the sudden you mention love dolls so I was so confused."
+   },
+   {
+    "text": "it stretches right across northern canada, in labrador",
+    "translation": "そこはラブラドール半島内で カナダ北部をまっすぐに横断し広がっており",
+    "cloze": "it stretches right across northern canada, in ｟＿｠"
+   }
+  ],
+  "frequencyRank": 9257,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x320b52cc",
+  "courseId": "en-10-30k",
+  "headword": "latte",
+  "reading": "/lˈɑtˌeɪ/",
+  "gloss": "カフェラテ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I ordered a latte with extra foam.",
+    "translation": "私はフォームを増量したラテを注文した。",
+    "cloze": "I ordered a ｟＿｠ with extra foam.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She drinks a hot latte every morning.",
+    "translation": "彼女は毎朝ホットラテを飲む。",
+    "cloze": "She drinks a hot ｟＿｠ every morning.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9258,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x55f7078c",
+  "courseId": "en-10-30k",
+  "headword": "leafy",
+  "reading": "/lˈifi/",
+  "gloss": "葉の多い,葉の茂った",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Foods rich in vitamin E include dark-green, leafy vegetables, beans, nuts and whole-grain cereals.",
+    "translation": "ビタミンＥを豊富に含む食物には、濃い緑色をした菜っ葉類・豆類・ナッツ類・全粒穀類がある。",
+    "cloze": "Foods rich in vitamin E include dark-green, ｟＿｠ vegetables, beans, nuts and whole-grain cereals."
+   },
+   {
+    "text": "green leafy vegetables, beetroot, lettuce",
+    "translation": "新鮮な葉野菜 ビーツ レタスから 採れるだろうと考えています",
+    "cloze": "green ｟＿｠ vegetables, beetroot, lettuce"
+   }
+  ],
+  "frequencyRank": 9259,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb0e8de34",
+  "courseId": "en-10-30k",
+  "headword": "loo",
+  "reading": "/lˈu/",
+  "gloss": "《英》トイレ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Where's the loo?",
+    "translation": "トイレはどこにあるのでしょうか。",
+    "cloze": "Where's the ｟＿｠?"
+   },
+   {
+    "text": "Where is the loo?",
+    "translation": "トイレはどこにありますか。",
+    "cloze": "Where is the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 9261,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xc21758ec",
+  "courseId": "en-10-30k",
+  "headword": "lincolnshire",
+  "reading": "/lˈɪŋkənʃˌɪɹ/",
+  "gloss": "リンカンシャー(イングランド東部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lincolnshire is known for its flat farmland and rich agriculture.",
+    "translation": "リンカンシャーは平坦な農地と豊かな農業で知られている。",
+    "cloze": "｟＿｠ is known for its flat farmland and rich agriculture.",
+    "aiGenerated": true
+   },
+   {
+    "text": "They moved to a small village in Lincolnshire.",
+    "translation": "彼らはリンカンシャーの小さな村に引っ越した。",
+    "cloze": "They moved to a small village in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9424,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf68e14b8",
+  "courseId": "en-10-30k",
+  "headword": "lawless",
+  "reading": "/lˈɔləs/",
+  "gloss": "無法の、法律に従わない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "folks, a town without a dulyelected sheriff... becomes a lawless town.",
+    "translation": "いいか みんな 保安官がいなくなって... 無法の町になったから",
+    "cloze": "...becomes a ｟＿｠ town."
+   },
+   {
+    "text": "when two billion of the world's poorest were drowning in a lawless chaos",
+    "translation": "世界の貧しい20億人が日常的に 暴力が蔓延する無法状態で",
+    "cloze": "...drowning in a ｟＿｠ chaos"
+   }
+  ],
+  "frequencyRank": 9604,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xf99a4972",
+  "courseId": "en-10-30k",
+  "headword": "lao",
+  "reading": "/lˈaʊ/",
+  "gloss": "ラオスの,ラオス人の;ラオス語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Many people in Laos speak the Lao language.",
+    "translation": "ラオスの多くの人々はラオス語を話します。",
+    "cloze": "Many people in Laos speak the ｟＿｠ language.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She learned some basic Lao phrases before her trip.",
+    "translation": "彼女は旅行前にラオス語の基本フレーズをいくつか覚えた。",
+    "cloze": "She learned some basic ｟＿｠ phrases before her trip.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9762,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x493b6c7f",
+  "courseId": "en-10-30k",
+  "headword": "leipzig",
+  "reading": "/lˈaɪpsɪɡ/",
+  "gloss": "ライプツィヒ(ドイツ南部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Two lions have escaped from a zoo in Leipzig, Germany.",
+    "translation": "ドイツのライプツィヒにある動物園からライオンが2頭逃げ出しました。",
+    "cloze": "Two lions have escaped from a zoo in ｟＿｠, Germany."
+   },
+   {
+    "text": "they were on the way to leipzig to find their old family home.",
+    "translation": "彼らは,古い家を見つけるために, ライプツィヒへ行く途中でした",
+    "cloze": "they were on the way to ｟＿｠ to find their old family home."
+   }
+  ],
+  "frequencyRank": 9765,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x352b8918",
+  "courseId": "en-10-30k",
+  "headword": "limitless",
+  "reading": "/lˈɪmətləs/",
+  "gloss": "無限の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Natural resources are not limitless.",
+    "translation": "天然資源は無限に存在するわけではない。",
+    "cloze": "Natural resources are not ｟＿｠."
+   },
+   {
+    "text": "We have used earth's energy resources as if they were limitless.",
+    "translation": "私達は、地球のエネルギー資源をまるで無尽蔵であるかのように使ってきた。",
+    "cloze": "We have used earth's energy resources as if they were ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9769,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xde3f1d58",
+  "courseId": "en-10-30k",
+  "headword": "lansing",
+  "reading": "/lˈænsɪŋ/",
+  "gloss": "ランシング(米国ミシガン州の州都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lansing is the state capital of Michigan.",
+    "translation": "ランシングはミシガンの州都である。",
+    "cloze": "｟＿｠ is the state capital of Michigan."
+   },
+   {
+    "text": "and the capital of michigan is lansing.",
+    "translation": "そしてミシガン州の州都は ランシングだ",
+    "cloze": "and the capital of michigan is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9969,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x95fac254",
+  "courseId": "en-10-30k",
+  "headword": "lazarus",
+  "reading": "/lˈæzɚəs/",
+  "gloss": "ラザロ(聖書の人物。キリストにより死からよみがえった)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "According to the Bible, Jesus raised Lazarus from the dead.",
+    "translation": "聖書によれば、イエスはラザロを死からよみがえらせた。",
+    "cloze": "According to the Bible, Jesus raised ｟＿｠ from the dead.",
+    "aiGenerated": true
+   },
+   {
+    "text": "that created the lazarus serum.",
+    "translation": "それがこの ラザロ血清です",
+    "cloze": "that created the ｟＿｠ serum."
+   }
+  ],
+  "frequencyRank": 9970,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x98e66470",
+  "courseId": "en-10-30k",
+  "headword": "lefty",
+  "reading": "/lˈɛfti/",
+  "gloss": "（くだけた言い方で）左利きの人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm a lefty.",
+    "translation": "僕は左利きです。",
+    "cloze": "I'm a ｟lefty｠."
+   },
+   {
+    "text": "Are you a lefty?",
+    "translation": "左利きなの？",
+    "cloze": "Are you a ｟lefty｠?"
+   }
+  ],
+  "frequencyRank": 10176,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x95e595d6",
+  "courseId": "en-10-30k",
+  "headword": "lsd",
+  "reading": "/ˌɛlˌɛsdˈi/",
+  "gloss": "LSD（幻覚を引き起こす合成麻薬）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "LSD is a powerful hallucinogenic drug.",
+    "translation": "LSDは強力な幻覚作用のある薬物だ。",
+    "cloze": "｟LSD｠ is a powerful hallucinogenic drug.",
+    "aiGenerated": true
+   },
+   {
+    "text": "that's crystal and lsd.",
+    "translation": "幻覚剤か",
+    "cloze": "that's crystal and ｟lsd｠."
+   }
+  ],
+  "frequencyRank": 10177,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x640179b4",
+  "courseId": "en-10-30k",
+  "headword": "lacy",
+  "reading": "/lˈeɪsi/",
+  "gloss": "レース(生地)の、レースのような",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "girls who skateboarded but did it in lacy underwear",
+    "translation": "レースの下着を着ながら スケートボードを楽しんだり",
+    "cloze": "girls who skateboarded but did it in ｟＿｠ underwear"
+   },
+   {
+    "text": "She wore a lacy white dress to the wedding.",
+    "translation": "彼女は結婚式にレースの白いドレスを着ていった。",
+    "cloze": "She wore a ｟＿｠ white dress to the wedding.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10561,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x52a32ca9",
+  "courseId": "en-10-30k",
+  "headword": "lifeless",
+  "reading": "/lˈaɪfləs/",
+  "gloss": "生命のない、死んだ;活気のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He seems really depressed and lifeless today. I wonder what took the wind out of his sails.",
+    "translation": "彼、今日、精彩がないね。青菜に塩だね。",
+    "cloze": "He seems really depressed and ｟＿｠ today. I wonder what took the wind out of his sails."
+   },
+   {
+    "text": "but these are just lifeless numbers.",
+    "translation": "これは死んだ数字の列に 過ぎません",
+    "cloze": "but these are just ｟＿｠ numbers."
+   }
+  ],
+  "frequencyRank": 10564,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xec635cbe",
+  "courseId": "en-10-30k",
+  "headword": "lovable",
+  "reading": "/lˈʌvəbəl/",
+  "gloss": "愛すべき、かわいらしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He is a lovable person.",
+    "translation": "彼は愛すべき男だ。",
+    "cloze": "He is a ｟＿｠ person."
+   },
+   {
+    "text": "He is a man with a lovable character.",
+    "translation": "彼は愛すべき性格の男ある。",
+    "cloze": "He is a man with a ｟＿｠ character."
+   }
+  ],
+  "frequencyRank": 10568,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x95532c26",
+  "courseId": "en-10-30k",
+  "headword": "levant",
+  "reading": "/ləvˈænt/",
+  "gloss": "レバント地方(地中海東部沿岸の地域)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we go to the levant to fight instead.",
+    "translation": "代わりにレバントに行って戦う",
+    "cloze": "we go to the ｟Levant｠ to fight instead."
+   },
+   {
+    "text": "the levant and north africa to join al qaeda in iraq.",
+    "translation": "アフリカの国々に家族を残し アル・カーイダ兵に志願した人々です",
+    "cloze": "the ｟Levant｠ and north africa to join al qaeda in iraq."
+   }
+  ],
+  "frequencyRank": 10947,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd354e1b1",
+  "courseId": "en-10-30k",
+  "headword": "lovin",
+  "reading": "/lˈoʊvɪn/",
+  "gloss": "「loving」のくだけた発音つづり;愛している,大好きな",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I'm lovin it!",
+    "translation": "最高に気に入ってる!",
+    "cloze": "I'm ｟lovin｠ it!",
+    "aiGenerated": true
+   },
+   {
+    "text": "She's just lovin every minute of her vacation.",
+    "translation": "彼女は休暇の一分一秒を心から楽しんでいる。",
+    "cloze": "She's just ｟lovin｠ every minute of her vacation.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10951,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x6bd6ff6a",
+  "courseId": "en-10-30k",
+  "headword": "limousine",
+  "reading": "/lˈɪməzˌin/",
+  "gloss": "リムジン(運転席と客席が仕切られた大型乗用車)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Car? Ah, if you mean that limousine, - I chartered it.",
+    "translation": "車？ああ・・・あのリムジンでしたら、私がチャーターした物ですわ。",
+    "cloze": "Car? Ah, if you mean that ｟＿｠, - I chartered it."
+   },
+   {
+    "text": "would you believe this is my first ride in a limousine?",
+    "translation": "初めてのリムジンなの",
+    "cloze": "would you believe this is my first ride in a ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 11138,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x4dab7cdc",
+  "courseId": "en-10-30k",
+  "headword": "lithuanian",
+  "reading": "/lˌɪθəwˈeɪniən/",
+  "gloss": "リトアニア人、リトアニア語;リトアニアの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do you speak Lithuanian?",
+    "translation": "リトアニア語を話せますか？",
+    "cloze": "Do you speak ｟＿｠?"
+   },
+   {
+    "text": "Lithuanian is a good language.",
+    "translation": "リトアニア語はいい言語だ。",
+    "cloze": "｟＿｠ is a good language."
+   }
+  ],
+  "frequencyRank": 11140,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x6784eb15",
+  "courseId": "en-10-30k",
+  "headword": "lyme",
+  "reading": "/lˈaɪm/",
+  "gloss": "(Lyme diseaseで)ライム病(ダニが媒介する感染症)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it's not lyme disease.",
+    "translation": "ライム病でもないんだ」",
+    "cloze": "it's not ｟＿｠ disease."
+   },
+   {
+    "text": "lyme disease.",
+    "translation": "ライム病。",
+    "cloze": "｟＿｠ disease."
+   }
+  ],
+  "frequencyRank": 11142,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x798ee091",
+  "courseId": "en-10-30k",
+  "headword": "lifeboat",
+  "reading": "/lˈaɪfbˌoʊt/",
+  "gloss": "救命艇、避難用ボート",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Ships carry lifeboats so that the crew can escape.",
+    "translation": "船は乗組員が避難できるように救命ボートを備えている。",
+    "cloze": "Ships carry ｟＿｠ so that the crew can escape."
+   },
+   {
+    "text": "alabama lifeboat, come in. move.",
+    "translation": "救命艇 応答を",
+    "cloze": "alabama ｟＿｠, come in. move."
+   }
+  ],
+  "frequencyRank": 11336,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xb8170cae",
+  "courseId": "en-10-30k",
+  "headword": "llp",
+  "reading": null,
+  "gloss": "有限責任事業組合(Limited Liability Partnership)の略称",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The law firm operates as an LLP to limit each partner's liability.",
+    "translation": "その法律事務所は各パートナーの責任を制限するためLLPとして運営されている。",
+    "cloze": "The law firm operates as an ｟＿｠ to limit each partner's liability.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11339,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x918d7729",
+  "courseId": "en-10-30k",
+  "headword": "laughable",
+  "reading": "/lˈæfəbəl/",
+  "gloss": "笑いを誘う、ばかばかしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The idea that he is going to make a speech is laughable.",
+    "translation": "あいつが演説するなんて片腹痛い。",
+    "cloze": "The idea that he is going to make a speech is ｟＿｠."
+   },
+   {
+    "text": "there's one that isn't immediately laughable.",
+    "translation": "すぐには 笑えないものだ",
+    "cloze": "there's one that isn't immediately ｟＿｠."
+   }
+  ],
+  "frequencyRank": 11533,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x301a6d2c",
+  "courseId": "en-10-30k",
+  "headword": "lvl",
+  "reading": null,
+  "gloss": "レベル（\"level\"の略、主にゲームで使用される略語）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My character reached lvl 50 last night.",
+    "translation": "昨夜、私のキャラクターはレベル50に到達した。",
+    "cloze": "My character reached ｟＿｠ 50 last night.",
+    "aiGenerated": true
+   },
+   {
+    "text": "What lvl are you on in this game?",
+    "translation": "このゲームで今何レベルですか？",
+    "cloze": "What ｟＿｠ are you on in this game?",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11538,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xc44252b6",
+  "courseId": "en-10-30k",
+  "headword": "laziness",
+  "reading": "/lˈeɪzinəs/",
+  "gloss": "怠惰,無精",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Laziness is my weak point.",
+    "translation": "怠惰が私の欠点である。",
+    "cloze": "｟Laziness｠ is my weak point."
+   },
+   {
+    "text": "I can't excuse his laziness.",
+    "translation": "彼の怠けぶりを許せない。",
+    "cloze": "I can't excuse his ｟laziness｠."
+   }
+  ],
+  "frequencyRank": 11730,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x855e30f4",
+  "courseId": "en-10-30k",
+  "headword": "leech",
+  "reading": "/lˈitʃ/",
+  "gloss": "ヒル(吸血する環形動物);(比喩的に)人に寄生する者,居候",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "oh... quickly, quietly, get the leeches.",
+    "translation": "ヒルを取って来い。 早く。 静かにな。",
+    "cloze": "oh... quickly, quietly, get the ｟leeches｠."
+   },
+   {
+    "text": "He always leeches off his friends instead of paying for his own meals.",
+    "translation": "彼はいつも自分の食事代を払わず友人にたかっている。",
+    "cloze": "He always ｟leeches｠ off his friends instead of paying for his own meals.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11731,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x78e46b29",
+  "courseId": "en-10-30k",
+  "headword": "lei",
+  "reading": "/lˈeɪ/",
+  "gloss": "レイ(ハワイで首にかける花輪)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She placed a flower lei around his neck at the airport.",
+    "translation": "彼女は空港で彼の首に花のレイをかけた。",
+    "cloze": "She placed a flower ｟lei｠ around his neck at the airport.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Every guest received a lei upon arriving at the luau.",
+    "translation": "ルアウに到着した客は皆レイを受け取った。",
+    "cloze": "Every guest received a ｟lei｠ upon arriving at the luau.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11732,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xc29a40d4",
+  "courseId": "en-10-30k",
+  "headword": "lev",
+  "reading": "/lˈɛv/",
+  "gloss": "レフ(ブルガリアの通貨単位)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The price was listed in Bulgarian lev.",
+    "translation": "価格はブルガリアのレフで表示されていた。",
+    "cloze": "The price was listed in Bulgarian ｟lev｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12122,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-xc0d1f49c",
+  "courseId": "en-10-30k",
+  "headword": "lollipop",
+  "reading": "/lˈɑlipˌɑp/",
+  "gloss": "棒付きキャンディー,ロリポップ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This lollipop is too sweet.",
+    "translation": "このペロペロキャンディ、甘ったるいわね。",
+    "cloze": "This ｟lollipop｠ is too sweet."
+   },
+   {
+    "text": "I loved lollipops when I was little.",
+    "translation": "幼い頃、ペロペロキャンディが大好きだったな。",
+    "cloze": "I loved ｟lollipops｠ when I was little."
+   }
+  ],
+  "frequencyRank": 12123,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x16072dbf",
+  "courseId": "en-10-30k",
+  "headword": "louvre",
+  "reading": "/lˈuvɹə/",
+  "gloss": "ルーブル美術館(パリにある世界的美術館)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Mona Lisa was stolen from the Louvre in 1911.",
+    "translation": "モナリザは、1911年にルーブル美術館から盗まれました。",
+    "cloze": "The Mona Lisa was stolen from the ｟Louvre｠ in 1911."
+   },
+   {
+    "text": "the director of the french national museum was scheduled to hold a press conference at the louvre this morning.",
+    "translation": "\"フランス国営博物館館長は\" \"今朝 ルーブル美術館において\" \"記者会見を行う予定でした\"",
+    "cloze": "the director of the french national museum was scheduled to hold a press conference at the ｟louvre｠ this morning."
+   }
+  ],
+  "frequencyRank": 12359,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x42fa890d",
+  "courseId": "en-10-30k",
+  "headword": "lovingly",
+  "reading": "/lˈʌvɪŋli/",
+  "gloss": "愛情を込めて、優しく",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "She caressed her baby lovingly.",
+    "translation": "彼女は赤ちゃんを優しく愛撫した。",
+    "cloze": "She caressed her baby ｟lovingly｠."
+   },
+   {
+    "text": "Father embraced Mother lovingly.",
+    "translation": "父は母のことを優しく抱きしめた。",
+    "cloze": "Father embraced Mother ｟lovingly｠."
+   }
+  ],
+  "frequencyRank": 12360,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3a0d4d96",
+  "courseId": "en-10-30k",
+  "headword": "lat",
+  "reading": "/lˈɑt/",
+  "gloss": "緯度(latitude)の略;ラトビアの旧通貨単位",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The pilot checked the lat and long before takeoff.",
+    "translation": "パイロットは離陸前に緯度と経度を確認した。",
+    "cloze": "The pilot checked the ｟＿｠ and long before takeoff.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Before joining the euro, Latvia's currency was the lat.",
+    "translation": "ユーロ導入前、ラトビアの通貨はラトだった。",
+    "cloze": "Before joining the euro, Latvia's currency was the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12528,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xec7c4253",
+  "courseId": "en-10-30k",
+  "headword": "lasagna",
+  "reading": "/lɑsˈɑnjə/",
+  "gloss": "ラザニア(層状のパスタ料理)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I love lasagna.",
+    "translation": "ラザニアが大好きです。",
+    "cloze": "I love ｟lasagna｠."
+   },
+   {
+    "text": "Lasagna is one of my favorite foods.",
+    "translation": "私はラザニアが大好物なんだ。",
+    "cloze": "｟Lasagna｠ is one of my favorite foods."
+   }
+  ],
+  "frequencyRank": 12741,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xaca7af4a",
+  "courseId": "en-10-30k",
+  "headword": "leds",
+  "reading": null,
+  "gloss": "LED、発光ダイオード",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "these blocks represent leds.",
+    "translation": "ここのブロックがLEDです。",
+    "cloze": "these blocks represent ｟leds｠."
+   },
+   {
+    "text": "simply by looking at which of the blue leds lights up.",
+    "translation": "どの青色ledが光っているかを見ることで認識することができます。",
+    "cloze": "simply by looking at which of the blue ｟leds｠ lights up."
+   }
+  ],
+  "frequencyRank": 12742,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xac1a9732",
+  "courseId": "en-10-30k",
+  "headword": "latvian",
+  "reading": "/lˈætviən/",
+  "gloss": "ラトビアの、ラトビア人の、ラトビア語の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "tonight. across the latvian border.",
+    "translation": "今夜よ ラトビアの国境でね",
+    "cloze": "tonight. across the ｟＿｠ border."
+   },
+   {
+    "text": "latvian mob.",
+    "translation": "ラトビアのギャング",
+    "cloze": "｟＿｠ mob."
+   }
+  ],
+  "frequencyRank": 12942,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x945417c1",
+  "courseId": "en-10-30k",
+  "headword": "lawfully",
+  "reading": "/lˈɔfəli/",
+  "gloss": "合法的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "When a president or a governor acts wisely and lawfully, Americans express their approval by reelecting him and by supporting his political party.",
+    "translation": "大統領や知事が立派に合法的に行動した場合には、米国民は彼らを再選し、彼らが属する政党に指示を送ることによって承認を表明する。",
+    "cloze": "When a president or a governor acts wisely and ｟＿｠, Americans express their approval by reelecting him and by supporting his political party."
+   },
+   {
+    "text": "gyu man, let's do this lawfully.",
+    "translation": "ギュマン 法に乗っ取ってやろう",
+    "cloze": "gyu man, let's do this ｟＿｠."
+   }
+  ],
+  "frequencyRank": 13188,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xbc534616",
+  "courseId": "en-10-30k",
+  "headword": "livingstone",
+  "reading": "/lˈɪvɪŋstˌoʊn/",
+  "gloss": "リビングストン(デイヴィッド・リビングストン;英国生まれの宣教師・アフリカ探検家、1813-1873)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "David Livingstone explored much of central Africa in the nineteenth century.",
+    "translation": "デイヴィッド・リビングストンは19世紀に中央アフリカの多くを探検した。",
+    "cloze": "David ｟＿｠ explored much of central Africa in the nineteenth century.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The missionary and explorer David Livingstone searched for the source of the Nile.",
+    "translation": "宣教師で探検家のデイヴィッド・リビングストンはナイル川の水源を探した。",
+    "cloze": "The missionary and explorer David ｟＿｠ searched for the source of the Nile.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13191,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x4615516f",
+  "courseId": "en-10-30k",
+  "headword": "lucknow",
+  "reading": null,
+  "gloss": "ラクナウ(インド北部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "or to the gomati in lucknow",
+    "translation": "ラクナウにあるゴマチ川",
+    "cloze": "or to the gomati in ｟＿｠"
+   },
+   {
+    "text": "Lucknow is famous for its rich culinary traditions.",
+    "translation": "ラクナウは豊かな料理の伝統で有名です。",
+    "cloze": "｟＿｠ is famous for its rich culinary traditions.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13193,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xaaa74288",
+  "courseId": "en-10-30k",
+  "headword": "leaderboard",
+  "reading": "/lˈidɚbˌɔɹd/",
+  "gloss": "(競技・ゲームの)順位表、リーダーボード",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and then upload your record to the online leaderboard...",
+    "translation": "オンライン リーダーボードに 記録をアップロードする」",
+    "cloze": "and then upload your record to the online ｟leaderboard｠..."
+   },
+   {
+    "text": "those top five on the leaderboard...",
+    "translation": "リ... リーダーボードの 上位5人 いるっしょ。",
+    "cloze": "those top five on the ｟leaderboard｠..."
+   }
+  ],
+  "frequencyRank": 13452,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x050cc094",
+  "courseId": "en-10-30k",
+  "headword": "lonesome",
+  "reading": "/lˈoʊnsəm/",
+  "gloss": "寂しい、心細い;人里離れた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She looks lonesome.",
+    "translation": "彼女は寂しそうに見える。",
+    "cloze": "She looks ｟lonesome｠."
+   },
+   {
+    "text": "The child is lonesome for its mother.",
+    "translation": "子供は母親にあいたがっている。",
+    "cloze": "The child is ｟lonesome｠ for its mother."
+   }
+  ],
+  "frequencyRank": 13456,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x02ae8fa1",
+  "courseId": "en-10-30k",
+  "headword": "lps",
+  "reading": null,
+  "gloss": "LP盤、レコード(long-playing recordの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Each year some 4500 different Pop LPs appear.",
+    "translation": "毎年およそ４５００種のポピュラーのＬＰが登場する。",
+    "cloze": "Each year some 4500 different Pop ｟LPs｠ appear."
+   },
+   {
+    "text": "it'll take more than a few lps to buy them off.",
+    "translation": "買収するのにもっと多くの レコードが必要だ",
+    "cloze": "it'll take more than a few ｟lps｠ to buy them off."
+   }
+  ],
+  "frequencyRank": 13457,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x83a967fb",
+  "courseId": "en-10-30k",
+  "headword": "luv",
+  "reading": null,
+  "gloss": "(俗語)愛;(呼びかけで)ねえ、あなた(loveのくだけたつづり)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "won't make the slightest bit of difference, luv.",
+    "translation": "何も変化はない",
+    "cloze": "won't make the slightest bit of difference, ｟luv｠."
+   },
+   {
+    "text": "there's no need to force it, luv.",
+    "translation": "無理しなくていい",
+    "cloze": "there's no need to force it, ｟luv｠."
+   }
+  ],
+  "frequencyRank": 13462,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x0d5792dd",
+  "courseId": "en-10-30k",
+  "headword": "lakhs",
+  "reading": null,
+  "gloss": "10万(インドなどで使われる数の単位)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The cost was estimated at fifty lakhs rupees.",
+    "translation": "費用は500万ルピーと見積もられた。",
+    "cloze": "The cost was estimated at fifty ｟lakhs｠ rupees.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He donated ten lakhs of rupees to the charity.",
+    "translation": "彼はその慈善団体に100万ルピーを寄付した。",
+    "cloze": "He donated ten ｟lakhs｠ of rupees to the charity.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13661,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xd3689a3f",
+  "courseId": "en-10-30k",
+  "headword": "lullaby",
+  "reading": "/lˈʌləbˌaɪ/",
+  "gloss": "子守歌",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Sing me a lullaby.",
+    "translation": "子守唄を歌って。",
+    "cloze": "Sing me a ｟lullaby｠."
+   },
+   {
+    "text": "Ann sang a lullaby for her little sister.",
+    "translation": "アンは妹のために子守唄を歌ってあげた。",
+    "cloze": "Ann sang a ｟lullaby｠ for her little sister."
+   }
+  ],
+  "frequencyRank": 13667,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xdea51396",
+  "courseId": "en-10-30k",
+  "headword": "lancet",
+  "reading": "/lˈænsət/",
+  "gloss": "ランセット、刃針(外科医が使う両刃の小刀);(the Lancetで)医学雑誌『ランセット』",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "a commission from the lancet",
+    "translation": "ランセット誌の委員会は",
+    "cloze": "a commission from the ｟＿｠"
+   },
+   {
+    "text": "it was actually retracted from the journal lancet",
+    "translation": "それを掲載した『lancet』誌が撤回しました",
+    "cloze": "it was actually retracted from the journal ｟＿｠"
+   }
+  ],
+  "frequencyRank": 13898,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x56e4d9eb",
+  "courseId": "en-10-30k",
+  "headword": "leningrad",
+  "reading": "/lˈɛnənɡɹˌæd/",
+  "gloss": "レニングラード(サンクトペテルブルクの旧称。ロシア北西部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we did leave something for our russian friends... to take back to leningrad.",
+    "translation": "レニングラードへ飾るために... ...我々はロシアの友達に一つ残してきました...",
+    "cloze": "we did leave something for our russian friends... to take back to ｟＿｠."
+   },
+   {
+    "text": "and you must gather the records of all dead children from moscow to leningrad.",
+    "translation": "同時にすべての記録を集める モスクワからレニングラードの間で死んだ子供の",
+    "cloze": "and you must gather the records of all dead children from moscow to ｟＿｠."
+   }
+  ],
+  "frequencyRank": 13901,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdb776589",
+  "courseId": "en-10-30k",
+  "headword": "lifeguard",
+  "reading": "/lˈaɪfɡˌɑɹd/",
+  "gloss": "(海水浴場・プールなどの)監視員、ライフガード",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We're lifeguards.",
+    "translation": "僕たちはライフガードなんです。",
+    "cloze": "We're ｟＿｠."
+   },
+   {
+    "text": "The lifeguard is ever ready to help others.",
+    "translation": "救命係はいつでもすぐ人を助ける用意をしている。",
+    "cloze": "The ｟＿｠ is ever ready to help others."
+   }
+  ],
+  "frequencyRank": 13903,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xe8e3ab50",
+  "courseId": "en-10-30k",
+  "headword": "lolita",
+  "reading": "/loʊlˈitə/",
+  "gloss": "ロリータ(ナボコフの小説の主人公名から、幼く見える少女的な魅力の女性や、そのファッションスタイル「ゴスロリ」などを指す語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "as a slight hint, i placed a gothic lolita dress in the young master's room.",
+    "translation": "軽いジャブとして 若の部屋に ゴスロリ衣装を 置いておく。",
+    "cloze": "as a slight hint, i placed a gothic ｟＿｠ dress in the young master's room."
+   },
+   {
+    "text": "Nabokov's novel Lolita caused controversy when it was first published.",
+    "translation": "ナボコフの小説『ロリータ』は発表当時、物議を醸した。",
+    "cloze": "Nabokov's novel ｟＿｠ caused controversy when it was first published.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13905,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x19d92d3c",
+  "courseId": "en-10-30k",
+  "headword": "leaky",
+  "reading": "/lˈiki/",
+  "gloss": "水が漏れる、漏れやすい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Hiring a non-native French speaker to translate the document into French is like hiring a carpenter to fix your leaky faucet.",
+    "translation": "文書をフランス語に翻訳するためにフランス語を母国語としない人を雇うのは、水が漏れる蛇口を修理するために大工を雇うのに似ている。",
+    "cloze": "Hiring a non-native French speaker to translate the document into French is like hiring a carpenter to fix your ｟＿｠ faucet."
+   },
+   {
+    "text": "what you also notice is that in any case our perception is leaky.",
+    "translation": "他にも知っておくべきなのは 私たちの感覚は完璧ではないということです",
+    "cloze": "what you also notice is that in any case our perception is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14158,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x012419a3",
+  "courseId": "en-10-30k",
+  "headword": "leicestershire",
+  "reading": null,
+  "gloss": "レスターシャー(英国イングランドの州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "leicestershire and somerset. and in stroud",
+    "translation": "レイシェスターシェアとサマセット州です",
+    "cloze": "｟＿｠ and somerset. and in stroud"
+   },
+   {
+    "text": "ak: mikey brett from leicestershire.",
+    "translation": "英国レスターシャー出身の マイキー・ブレットです",
+    "cloze": "ak: mikey brett from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14160,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd4cefa8e",
+  "courseId": "en-10-30k",
+  "headword": "leisurely",
+  "reading": "/lˈizɚli/",
+  "gloss": "ゆっくりした、のんびりした",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "In the morning, I just want to have a leisurely start.",
+    "translation": "やっぱり朝はこのくらいゆっくり出発したいものです。",
+    "cloze": "In the morning, I just want to have a ｟＿｠ start."
+   },
+   {
+    "text": "taking a leisurely stroll?",
+    "translation": "ゆっくりとした足どりで散歩ですか? 俺はただ?",
+    "cloze": "taking a ｟＿｠ stroll?"
+   }
+  ],
+  "frequencyRank": 14401,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb89f927b",
+  "courseId": "en-10-30k",
+  "headword": "londonderry",
+  "reading": "/lˈʌndəndˌɛɹi/",
+  "gloss": "ロンドンデリー（北アイルランドの都市。デリーとも呼ばれる）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Londonderry is the second-largest city in Northern Ireland.",
+    "translation": "ロンドンデリーは北アイルランド第2の都市である。",
+    "cloze": "｟＿｠ is the second-largest city in Northern Ireland.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We took a walking tour of the old city walls in Londonderry.",
+    "translation": "私たちはロンドンデリーの旧市街の城壁を歩いて見学した。",
+    "cloze": "We took a walking tour of the old city walls in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14639,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xccfad5ab",
+  "courseId": "en-10-30k",
+  "headword": "likeable",
+  "reading": "/lˈaɪkəbəl/",
+  "gloss": "好感の持てる、好ましい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "he was a very likeable welsh bloke and he hung out with us for a few days",
+    "translation": "彼はとても好感の持てるウェールズ人で 数日僕らと過ごしたんだ",
+    "cloze": "he was a very ｟likeable｠ welsh bloke and he hung out with us for a few days"
+   },
+   {
+    "text": "you know, most actors want to do characters that are likeable",
+    "translation": "役者は好かれる役を演じる事を 好むものですが",
+    "cloze": "you know, most actors want to do characters that are ｟likeable｠"
+   }
+  ],
+  "frequencyRank": 15147,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa9b9c06b",
+  "courseId": "en-10-30k",
+  "headword": "liberian",
+  "reading": "/lˌaɪbˈɪɹˌiən/",
+  "gloss": "リベリア(人)の,リベリア人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "neither did the liberians",
+    "translation": "リベリア人達にもわかりません",
+    "cloze": "neither did the ｟liberians｠"
+   },
+   {
+    "text": "and that's when the liberians came along.",
+    "translation": "リベリア人の一行がやって来ました",
+    "cloze": "and that's when the ｟liberians｠ came along."
+   }
+  ],
+  "frequencyRank": 15375,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x589552bd",
+  "courseId": "en-10-30k",
+  "headword": "looney",
+  "reading": "/lˈuni/",
+  "gloss": "気が変な、頭がおかしい(=loony)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He came up with a looney idea.",
+    "translation": "彼はおかしなアイデアを思いついた。",
+    "cloze": "He came up with a ｟＿｠ idea.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15632,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x70f9a2ee",
+  "courseId": "en-10-30k",
+  "headword": "lausanne",
+  "reading": "/lˌɔsˈæn/",
+  "gloss": "ローザンヌ(スイスの都市、国際オリンピック委員会本部所在地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "a home in lausanne. a small business.",
+    "translation": "家はローザンヌ 自営業",
+    "cloze": "a home in ｟＿｠. a small business."
+   },
+   {
+    "text": "on april 17th of this year, you went to lausanne under the name sanders and reactivated him.",
+    "translation": "その年の4月17日 あなたは偽名でローザンヌへ飛び 彼を呼び戻した",
+    "cloze": "on april 17th of this year, you went to ｟＿｠ under the name sanders and reactivated him."
+   }
+  ],
+  "frequencyRank": 15886,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xbdf4c6e3",
+  "courseId": "en-10-30k",
+  "headword": "lint",
+  "reading": "/lˈɪnt/",
+  "gloss": "(布などから出る)糸くず、ほこり",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Be sure to clear the lint trap before you run the dryer. Otherwise, you might start a fire.",
+    "translation": "乾燥機を動かす前には、フィルターの掃除を確実に行ってください。さもないと火災を招く可能性があります。",
+    "cloze": "Be sure to clear the ｟＿｠ trap before you run the dryer. Otherwise, you might start a fire."
+   },
+   {
+    "text": "like lint or a bottle cap.",
+    "translation": "糸クズ ビンの蓋",
+    "cloze": "like ｟＿｠ or a bottle cap."
+   }
+  ],
+  "frequencyRank": 15887,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xb975446e",
+  "courseId": "en-10-30k",
+  "headword": "lancelot",
+  "reading": "/lˈænsəlˌɑt/",
+  "gloss": "ランスロット（アーサー王伝説の円卓の騎士）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "sir lancelot, ladies and gentlemen. sir lancelot.",
+    "translation": "ランスロット卿だ 皆さん",
+    "cloze": "sir ｟＿｠, ladies and gentlemen. sir lancelot."
+   },
+   {
+    "text": "Sir Lancelot was the bravest knight of King Arthur's Round Table.",
+    "translation": "ランスロット卿はアーサー王の円卓の中で最も勇敢な騎士だった。",
+    "cloze": "Sir ｟＿｠ was the bravest knight of King Arthur's Round Table.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16144,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd9d757ae",
+  "courseId": "en-10-30k",
+  "headword": "lard",
+  "reading": "/lˈɑɹd/",
+  "gloss": "ラード（豚の脂肪、料理用）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it's all about the lard, isn't it?",
+    "translation": "ラードを使ったからなんでしょ?",
+    "cloze": "it's all about the ｟＿｠, isn't it?"
+   },
+   {
+    "text": "She used lard instead of butter to fry the chicken.",
+    "translation": "彼女はチキンを揚げるのにバターの代わりにラードを使った。",
+    "cloze": "She used ｟＿｠ instead of butter to fry the chicken.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16145,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x64c22d5a",
+  "courseId": "en-10-30k",
+  "headword": "lille",
+  "reading": "/lˈɪl/",
+  "gloss": "リール（フランス北部の都市）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lille is a major city in northern France.",
+    "translation": "リールはフランス北部の主要都市だ。",
+    "cloze": "｟＿｠ is a major city in northern France.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16150,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x94c7d611",
+  "courseId": "en-10-30k",
+  "headword": "lutz",
+  "reading": "/lˈʌts/",
+  "gloss": "（フィギュアスケートの）ルッツジャンプ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "at canada, the speed on your second triple lutz was greater than usual.",
+    "translation": "カナダでの二度目のトリプルルッツは",
+    "cloze": "at canada, the speed on your second triple ｟＿｠ was greater than usual."
+   },
+   {
+    "text": "the best and most perfect triple lutz i've ever performed!",
+    "translation": "今までの最高の 高く完璧なトリプルルッツを",
+    "cloze": "the best and most perfect triple ｟＿｠ i've ever performed!"
+   }
+  ],
+  "frequencyRank": 16154,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x518ce4c7",
+  "courseId": "en-10-30k",
+  "headword": "lightness",
+  "reading": "/lˈaɪtnəs/",
+  "gloss": "明るさ;軽さ;(色の)薄さ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Our planet moves in space with the lightness of a bird in flight.",
+    "translation": "私たちの惑星は飛ぶ鳥の気軽さで宇宙を動いている。",
+    "cloze": "Our planet moves in space with the ｟＿｠ of a bird in flight."
+   },
+   {
+    "text": "it has an extraordinary lightness",
+    "translation": "とても軽やかでありながら",
+    "cloze": "it has an extraordinary ｟＿｠"
+   }
+  ],
+  "frequencyRank": 16424,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xbd4a0f9e",
+  "courseId": "en-10-30k",
+  "headword": "likable",
+  "reading": "/lˈaɪkəbəl/",
+  "gloss": "好ましい、好感が持てる",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tom's a likable guy.",
+    "translation": "トムは感じのいいやつだ。",
+    "cloze": "Tom's a ｟＿｠ guy."
+   },
+   {
+    "text": "For all his faults, Sam is still a very likable person.",
+    "translation": "彼の欠点にもかかわらずサムはとても好ましい人物だ。",
+    "cloze": "For all his faults, Sam is still a very ｟＿｠ person."
+   }
+  ],
+  "frequencyRank": 16670,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x1fc97f3f",
+  "courseId": "en-10-30k",
+  "headword": "leiden",
+  "reading": null,
+  "gloss": "ライデン(オランダの都市;歴史ある大学都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Leiden is a historic university city in the Netherlands.",
+    "translation": "ライデンはオランダにある歴史ある大学都市です。",
+    "cloze": "｟Leiden｠ is a historic university city in the Netherlands.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16939,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfeaf2d8c",
+  "courseId": "en-10-30k",
+  "headword": "loudspeaker",
+  "reading": "/lˈaʊdspˌikɚ/",
+  "gloss": "拡声器、スピーカー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "there's music coming from the loudspeakers in the square.",
+    "translation": "広場の拡声器から音楽が聞こえてくる",
+    "cloze": "there's music coming from the ｟loudspeakers｠ in the square."
+   },
+   {
+    "text": "baska kava ka! this is not just a loudspeaker!",
+    "translation": "バ~カ バ~カ バ~カ! これは ただの拡声器じゃねえんだよ!!",
+    "cloze": "baska kava ka! this is not just a ｟loudspeaker｠!"
+   }
+  ],
+  "frequencyRank": 16944,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xa3e5be74",
+  "courseId": "en-10-30k",
+  "headword": "libra",
+  "reading": "/lˈibɹɑ/",
+  "gloss": "てんびん座(星座・占星術の星座名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Please tell me the degree of compatibility between a type B Capricorn man and a type O Libra woman.",
+    "translation": "山羊座B型の男性と天秤座O型の女性の相性を教えてください。",
+    "cloze": "Please tell me the degree of compatibility between a type B Capricorn man and a type O ｟＿｠ woman."
+   },
+   {
+    "text": "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces.",
+    "translation": "１２星座とは、おひつじ座、おうし座、ふたご座、かに座、しし座、おとめ座、てんびん座、さそり座、いて座、やぎ座、みずがめ座、うお座のことです。",
+    "cloze": "The twelve signs of the Zodiac are: Aries, Taurus, Gemini, Cancer, Leo, Virgo, ｟＿｠, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces."
+   }
+  ],
+  "frequencyRank": 17490,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x5d017f72",
+  "courseId": "en-10-30k",
+  "headword": "ldl",
+  "reading": null,
+  "gloss": "低比重リポタンパク、いわゆる悪玉コレステロール(LDLコレステロール)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Chocolate acts to prevent LDL oxidisation.",
+    "translation": "チョコレートにはＬＤＬの酸化を防止する力がある。",
+    "cloze": "Chocolate acts to prevent ｟＿｠ oxidisation."
+   },
+   {
+    "text": "and then break down into the hdl and the ldl if you so choose.",
+    "translation": "HOLとLDLに分解する事ができます。",
+    "cloze": "and then break down into the hdl and the ｟＿｠ if you so choose."
+   }
+  ],
+  "frequencyRank": 17808,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xff6cb36e",
+  "courseId": "en-10-30k",
+  "headword": "livestream",
+  "reading": null,
+  "gloss": "ライブ配信、生中継(する)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "our livestreams started to be broadcast even in regular televisions",
+    "translation": "緊迫した状態になると 我々のライブ中継が",
+    "cloze": "our ｟＿｠ started to be broadcast even in regular televisions"
+   },
+   {
+    "text": "that livestreaming the power of independent broadcasts through the web",
+    "translation": "ウェブを通じた 個人によるライブ中継は",
+    "cloze": "that ｟＿｠ the power of independent broadcasts through the web"
+   }
+  ],
+  "frequencyRank": 17810,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x42d22287",
+  "courseId": "en-10-30k",
+  "headword": "laterally",
+  "reading": "/lˈætɚəlˌi/",
+  "gloss": "側面に、横に、水平方向に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "for power is not just moving laterally",
+    "translation": "覇権は国から国へと水平方向に",
+    "cloze": "for power is not just moving ｟＿｠"
+   },
+   {
+    "text": "retract the duct a little more laterally.",
+    "translation": "血管を少しずらして",
+    "cloze": "retract the duct a little more ｟＿｠."
+   }
+  ],
+  "frequencyRank": 18103,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xb6cc9acf",
+  "courseId": "en-10-30k",
+  "headword": "liberally",
+  "reading": "/lˈɪbˌɝəlˌi/",
+  "gloss": "気前よく、豊富に;寛大に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "he was, by the way, the most liberally perfumed man i had ever encountered.",
+    "translation": "ところでグスタフ氏は 私が知る中でもっとも大量の 香水を使う男だった",
+    "cloze": "he was, by the way, the most ｟＿｠ perfumed man i had ever encountered."
+   },
+   {
+    "text": "She liberally sprinkled parmesan cheese over the pasta.",
+    "translation": "彼女はパスタにパルメザンチーズをたっぷりと振りかけた。",
+    "cloze": "She ｟＿｠ sprinkled parmesan cheese over the pasta.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18109,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x33b21b96",
+  "courseId": "en-10-30k",
+  "headword": "ligands",
+  "reading": "/lˈɪɡəndz/",
+  "gloss": "配位子(化学で中心原子に結合する分子・イオン)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The metal ion is surrounded by several ligands in the complex.",
+    "translation": "その錯体では金属イオンがいくつかの配位子に囲まれている。",
+    "cloze": "The metal ion is surrounded by several ｟ligands｠ in the complex.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Chemists study how ligands bind to receptor proteins.",
+    "translation": "化学者たちは配位子が受容体タンパク質にどのように結合するかを研究している。",
+    "cloze": "Chemists study how ｟ligands｠ bind to receptor proteins.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18407,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x51f561f6",
+  "courseId": "en-10-30k",
+  "headword": "lourdes",
+  "reading": "/lˈɔɹdz/",
+  "gloss": "ルルド(フランスの有名なカトリック巡礼地);女性の名前としても使用",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Every year, thousands of pilgrims travel to Lourdes in France.",
+    "translation": "毎年、何千人もの巡礼者がフランスのルルドを訪れる。",
+    "cloze": "Every year, thousands of pilgrims travel to ｟Lourdes｠ in France.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Lourdes is famous for its healing spring water.",
+    "translation": "ルルドはその癒しの泉の水で有名だ。",
+    "cloze": "｟Lourdes｠ is famous for its healing spring water.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18409,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5fe8cf07",
+  "courseId": "en-10-30k",
+  "headword": "luo",
+  "reading": "/lwˈoʊ/",
+  "gloss": "ルオ族(ケニア・タンザニアなどのナイル系民族)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Luo are one of the largest ethnic groups in Kenya.",
+    "translation": "ルオ族はケニアで最大級の民族集団の一つである。",
+    "cloze": "The ｟Luo｠ are one of the largest ethnic groups in Kenya.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Barack Obama's father belonged to the Luo people.",
+    "translation": "バラク・オバマの父はルオ族の出身だった。",
+    "cloze": "Barack Obama's father belonged to the ｟Luo｠ people.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18413,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x74455ab6",
+  "courseId": "en-10-30k",
+  "headword": "lengthen",
+  "reading": "/lˈɛŋθən/",
+  "gloss": "…を長くする、伸ばす；長くなる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "The average life span of the Japanese has lengthened to a great extent.",
+    "translation": "日本人の平均寿命は大いに伸びた。",
+    "cloze": "The average life span of the Japanese has ｟＿｠ to a great extent."
+   },
+   {
+    "text": "it lengthens, shortens and bends really easily",
+    "translation": "内外からの力に順応する形で",
+    "cloze": "it ｟＿｠, shortens and bends really easily"
+   }
+  ],
+  "frequencyRank": 18680,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xee1278d6",
+  "courseId": "en-10-30k",
+  "headword": "lifesaving",
+  "reading": "/lˈaɪfsˌeɪvɪŋ/",
+  "gloss": "命を救う、救命の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "nobody knew where the nearest lifesaving aed",
+    "translation": "誰も知らなかった命を救う aed のありかが",
+    "cloze": "nobody knew where the nearest ｟＿｠ aed"
+   },
+   {
+    "text": "so, to train lifesaving methods is really...",
+    "translation": "切実です。 そんな中 救命救急の 方法を 身に付けるというのは...。",
+    "cloze": "so, to train ｟＿｠ methods is really..."
+   }
+  ],
+  "frequencyRank": 18681,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe12317ad",
+  "courseId": "en-10-30k",
+  "headword": "lifesaver",
+  "reading": "/lˈaɪfsˌeɪvɚ/",
+  "gloss": "人命救助者；(比喩的に)窮地を救ってくれる人・物；救命具",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She thought of him as her lifesaver.",
+    "translation": "彼女は彼を命の恩人だと思っていた。",
+    "cloze": "She thought of him as her ｟lifesaver｠."
+   },
+   {
+    "text": "For someone like me who has suffered from hay fever for years, this medicine is a lifesaver.",
+    "translation": "長年花粉症に苦しんできた私にとって、この薬はまさに救世主のような存在でした。",
+    "cloze": "For someone like me who has suffered from hay fever for years, this medicine is a ｟lifesaver｠."
+   }
+  ],
+  "frequencyRank": 18970,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x974b8086",
+  "courseId": "en-10-30k",
+  "headword": "leviticus",
+  "reading": "/ləvˈɪtəkəs/",
+  "gloss": "レビ記(旧約聖書中の一書)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "are the books of genesis, exodus and leviticus.",
+    "translation": "出エジプト記 レビ記などを...。",
+    "cloze": "are the books of genesis, exodus and ｟＿｠."
+   },
+   {
+    "text": "and it comes from a passage in the book of leviticus",
+    "translation": "これはレビ記からの引用なのですが",
+    "cloze": "and it comes from a passage in the book of ｟＿｠"
+   }
+  ],
+  "frequencyRank": 19275,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xfb2ef7b8",
+  "courseId": "en-10-30k",
+  "headword": "lesotho",
+  "reading": "/lɛsˈoʊθoʊ/",
+  "gloss": "レソト(アフリカ南部の王国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we're also beginning to do this in malawi and lesotho.",
+    "translation": "さらに これをマラウィとレソトでも始めるところです",
+    "cloze": "we're also beginning to do this in malawi and ｟＿｠."
+   },
+   {
+    "text": "that here in lesotho, we've got two problems:",
+    "translation": "「レソトは、2つの問題を抱えている",
+    "cloze": "that here in ｟＿｠, we've got two problems:"
+   }
+  ],
+  "frequencyRank": 19572,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x34fbe898",
+  "courseId": "en-10-30k",
+  "headword": "libre",
+  "reading": null,
+  "gloss": "自由な、無料の(スペイン語/フランス語由来。「Cuba Libre」「lucha libre」などの複合語で使われる)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "A Cuba Libre is a cocktail with a rum base.",
+    "translation": "キューバリブレはラム酒をベースにしたカクテルです。",
+    "cloze": "A Cuba ｟＿｠ is a cocktail with a rum base."
+   },
+   {
+    "text": "ah, i just flipped him over my shoulder lucha libre style.",
+    "translation": "ルチャリブレで投げた",
+    "cloze": "ah, i just flipped him over my shoulder lucha ｟＿｠ style."
+   }
+  ],
+  "frequencyRank": 19574,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x9c7a2744",
+  "courseId": "en-10-30k",
+  "headword": "lookup",
+  "reading": "/lˈʊkəp/",
+  "gloss": "検索、調べること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "monster lookup!",
+    "translation": "妖怪検索",
+    "cloze": "monster ｟＿｠!"
+   },
+   {
+    "text": "I did a quick lookup of the word's definition.",
+    "translation": "その単語の定義をさっと調べた。",
+    "cloze": "I did a quick ｟＿｠ of the word's definition.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19580,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xfa989ede",
+  "courseId": "en-10-30k",
+  "headword": "leavers",
+  "reading": null,
+  "gloss": "去る人たち,離脱者(例:卒業生,EU離脱派など)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Leavers won the Brexit referendum in 2016.",
+    "translation": "離脱派は2016年のブレグジット国民投票に勝利した。",
+    "cloze": "The ｟Leavers｠ won the Brexit referendum in 2016.",
+    "aiGenerated": true
+   },
+   {
+    "text": "School leavers often struggle to find their first job.",
+    "translation": "学校を卒業したばかりの人はしばしば最初の仕事を見つけるのに苦労する。",
+    "cloze": "School ｟leavers｠ often struggle to find their first job.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19857,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x251bb0ae",
+  "courseId": "en-10-30k",
+  "headword": "lewes",
+  "reading": null,
+  "gloss": "ルイス(イギリス、イースト・サセックス州の町)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this is lewes in sussex",
+    "translation": "こちらはサセックス州のルイスです",
+    "cloze": "this is ｟lewes｠ in sussex"
+   },
+   {
+    "text": "who have recently launched the lewes pound",
+    "translation": "最近 ルイスポンドを導入しました",
+    "cloze": "who have recently launched the ｟lewes｠ pound"
+   }
+  ],
+  "frequencyRank": 19858,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x963f22e4",
+  "courseId": "en-10-30k",
+  "headword": "licorice",
+  "reading": "/lˈɪkɚɪʃ/",
+  "gloss": "甘草(カンゾウ);リコリス(菓子用の甘味料)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "eating the licorice the entire show.",
+    "translation": "ずーとリコリスを食ってたぞ",
+    "cloze": "eating the ｟licorice｠ the entire show."
+   },
+   {
+    "text": "I love the taste of black licorice.",
+    "translation": "私は黒いリコリスの味が好きです。",
+    "cloze": "I love the taste of black ｟licorice｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19859,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x52dab851",
+  "courseId": "en-10-30k",
+  "headword": "lighter",
+  "reading": "/lˈaɪtɚ/",
+  "gloss": "ライター(点火器);はしけ(貨物運搬用の平底船)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom kept my lighter.",
+    "translation": "トムが私のライターを持っていた。",
+    "cloze": "Tom kept my ｟lighter｠."
+   },
+   {
+    "text": "Do you have a lighter?",
+    "translation": "ライター持ってる？",
+    "cloze": "Do you have a ｟lighter｠?"
+   }
+  ],
+  "frequencyRank": 19860,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x1ff59f01",
+  "courseId": "en-10-30k",
+  "headword": "linearly",
+  "reading": "/lˈɪniɚli/",
+  "gloss": "直線的に,線形に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "our left hemisphere thinks linearly and methodically.",
+    "translation": "私たちの左脳は直線的 系統的に 考えます",
+    "cloze": "our left hemisphere thinks ｟linearly｠ and methodically."
+   },
+   {
+    "text": "if i take 30 steps linearly one, two, three, four, five",
+    "translation": "直線的に30回進むとしましょう。1,2,3,4,5,",
+    "cloze": "if i take 30 steps ｟linearly｠ one, two, three, four, five"
+   }
+  ],
+  "frequencyRank": 19861,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xe2df3b6b",
+  "courseId": "en-10-30k",
+  "headword": "lyra",
+  "reading": "/lˈaɪɹə/",
+  "gloss": "こと座(北天の星座の一つ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lyra is a small constellation known for its bright star Vega.",
+    "translation": "こと座は明るい星ベガで知られる小さな星座です。",
+    "cloze": "｟Lyra｠ is a small constellation known for its bright star Vega.",
+    "aiGenerated": true
+   },
+   {
+    "text": "You can see Lyra in the night sky during summer.",
+    "translation": "夏の夜空にこと座を見ることができます。",
+    "cloze": "You can see ｟Lyra｠ in the night sky during summer.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19865,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x689ad8be",
+  "courseId": "en-10-30k",
+  "headword": "lumpy",
+  "reading": "/lˈʌmpi/",
+  "gloss": "でこぼこの,塊の多い;ごつごつした",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "it's extremely lumpy.",
+    "translation": "とてもデコボコしているのです。",
+    "cloze": "it's extremely ｟lumpy｠."
+   },
+   {
+    "text": "look, we have a kind of lumpy idea of florida",
+    "translation": "何となくフロリダの場所は想像できますが",
+    "cloze": "look, we have a kind of ｟lumpy｠ idea of florida"
+   }
+  ],
+  "frequencyRank": 20159,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x30fbfe37",
+  "courseId": "en-10-30k",
+  "headword": "lazio",
+  "reading": null,
+  "gloss": "ラツィオ(イタリア中部の州。ローマを含む)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lazio is the Italian region that surrounds the city of Rome.",
+    "translation": "ラツィオはローマを取り囲むイタリアの州である。",
+    "cloze": "｟＿｠ is the Italian region that surrounds the city of Rome.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20739,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x040eb426",
+  "courseId": "en-10-30k",
+  "headword": "luftwaffe",
+  "reading": null,
+  "gloss": "ドイツ空軍(特に第二次世界大戦当時の)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and then he even volunteered for the german luftwaffe.",
+    "translation": "そしてドイツ空軍の志願兵になった",
+    "cloze": "and then he even volunteered for the german ｟＿｠."
+   },
+   {
+    "text": "basic knowledge in the german luftwaffe",
+    "translation": "ドイツ空軍では基本的な知識だ",
+    "cloze": "basic knowledge in the german ｟＿｠"
+   }
+  ],
+  "frequencyRank": 20747,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xebc9dc24",
+  "courseId": "en-10-30k",
+  "headword": "lolly",
+  "reading": "/lˈɑli/",
+  "gloss": "《英》棒付きキャンディ、ロリポップ;《俗》お金",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "just getting an ice lolly.",
+    "translation": "アイス食べようと思って",
+    "cloze": "just getting an ice ｟＿｠."
+   },
+   {
+    "text": "She gave the children a lolly each.",
+    "translation": "彼女は子供たちにそれぞれアメを一つずつあげた。",
+    "cloze": "She gave the children a ｟＿｠ each.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21058,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xce27b970",
+  "courseId": "en-10-30k",
+  "headword": "londoners",
+  "reading": "/lˈʌndənɚz/",
+  "gloss": "ロンドン子、ロンドン市民",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "londoners have 101 ways to say that it is raining...",
+    "translation": "ロンドン市民には101通りの 雨降りの表現があります...",
+    "cloze": "｟＿｠ have 101 ways to say that it is raining..."
+   },
+   {
+    "text": "Many Londoners commute by tube every day.",
+    "translation": "多くのロンドン子は毎日地下鉄で通勤する。",
+    "cloze": "Many ｟＿｠ commute by tube every day.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21059,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xdf08f5b1",
+  "courseId": "en-10-30k",
+  "headword": "lowercase",
+  "reading": null,
+  "gloss": "小文字(の)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's written in lowercase.",
+    "translation": "小文字で書いてあります。",
+    "cloze": "It's written in ｟＿｠."
+   },
+   {
+    "text": "with an uppercase letter, lowercase letter",
+    "translation": "大文字 小文字 を含むこと",
+    "cloze": "with an uppercase letter, ｟＿｠ letter"
+   }
+  ],
+  "frequencyRank": 21359,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-xf120a8d7",
+  "courseId": "en-10-30k",
+  "headword": "loos",
+  "reading": "/lˈuz/",
+  "gloss": "（英口語）トイレ、便所（loo の複数形）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The loos on this floor are out of order.",
+    "translation": "このフロアのトイレは故障中だ。",
+    "cloze": "The ｟＿｠ on this floor are out of order.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Excuse me, where are the loos?",
+    "translation": "すみません、お手洗いはどこですか？",
+    "cloze": "Excuse me, where are the ｟＿｠?",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21676,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x85a5da90",
+  "courseId": "en-10-30k",
+  "headword": "liberator",
+  "reading": "/lˈɪbˌɝˌeɪtəɹ/",
+  "gloss": "解放者;(捕虜などを)釈放する人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we are the occupying power... but we must be seen as liberators, not conquerors.",
+    "translation": "われわれは占領軍だ. だが支配者ではなく、解放者として 見られねばならない",
+    "cloze": "we are the occupying power... but we must be seen as ｟liberators｠, not conquerors."
+   },
+   {
+    "text": "swissbank socialists, crocodile liberators, vampire elites",
+    "translation": "スイス銀行社会主義者 ワニ解放者 吸血鬼エリート",
+    "cloze": "swissbank socialists, crocodile ｟liberators｠, vampire elites"
+   }
+  ],
+  "frequencyRank": 22016,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xdd737d20",
+  "courseId": "en-10-30k",
+  "headword": "loony",
+  "reading": "/lˈuni/",
+  "gloss": "《俗》気が変な,ばかげた;気違い,変人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Some of his friends think his conspiracy theories sound a bit loony.",
+    "translation": "彼の友人の何人かは、彼の陰謀論が少し頭がおかしいと思っている。",
+    "cloze": "Some of his friends think his conspiracy theories sound a bit ｟loony｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "It seems like a loony idea, but it might actually work.",
+    "translation": "それはばかげた考えのように思えるが、実際にはうまくいくかもしれない。",
+    "cloze": "It seems like a ｟loony｠ idea, but it might actually work.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22020,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x60c775da",
+  "courseId": "en-10-30k",
+  "headword": "lagrange",
+  "reading": "/lˈæɡɹˌeɪndʒ/",
+  "gloss": "ラグランジュ点（天体力学における重力平衡点）；数学者ラグランジュ",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the trajectory will take it beyond the lagrange point so that it doesn't hit herschel.",
+    "translation": "ラグランジュポイントを越えて軌道に乗るよ、 無事に、ハーシェルへ。",
+    "cloze": "the trajectory will take it beyond the ｟＿｠ point so that it doesn't hit herschel."
+   }
+  ],
+  "frequencyRank": 22337,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xbc5c2062",
+  "courseId": "en-10-30k",
+  "headword": "liechtenstein",
+  "reading": "/lˈɪktənstˌaɪn/",
+  "gloss": "リヒテンシュタイン（オーストリアとスイスに挟まれたヨーロッパの小国）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "on the bank accounts of liechtenstein",
+    "translation": "リヒテンシュタインの銀行口座にあり",
+    "cloze": "on the bank accounts of ｟＿｠"
+   },
+   {
+    "text": "due to that, if someone wants to get from austria to liechtenstein",
+    "translation": "オーストリアからリヒテンシュタインへと国境を越える際には",
+    "cloze": "due to that, if someone wants to get from austria to ｟＿｠"
+   }
+  ],
+  "frequencyRank": 22342,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x719ceb80",
+  "courseId": "en-10-30k",
+  "headword": "lindbergh",
+  "reading": "/lˈɪndbɚɡ/",
+  "gloss": "リンドバーグ（1902-74；1927年に大西洋単独無着陸飛行に世界初成功した米国の飛行家）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lindbergh was the first man to fly across the Atlantic.",
+    "translation": "リンドバーグは大西洋を横断飛行した最初の人だった。",
+    "cloze": "｟＿｠ was the first man to fly across the Atlantic."
+   },
+   {
+    "text": "Charles Lindbergh made the first solo flight across the Atlantic Ocean in 1927.",
+    "translation": "チャールズ・リンドバーグは１９２７年にはじめて大西洋単独横断飛行に成功した。",
+    "cloze": "Charles ｟＿｠ made the first solo flight across the Atlantic Ocean in 1927."
+   }
+  ],
+  "frequencyRank": 22343,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x53cddb29",
+  "courseId": "en-10-30k",
+  "headword": "lino",
+  "reading": "/lˈinoʊ/",
+  "gloss": "（英略式）リノリウム（床材）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She mopped the lino in the kitchen.",
+    "translation": "彼女は台所のリノリウムの床を拭いた。",
+    "cloze": "She mopped the ｟＿｠ in the kitchen.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The old lino was cracked and yellowed.",
+    "translation": "古いリノリウムの床はひび割れて黄ばんでいた。",
+    "cloze": "The old ｟＿｠ was cracked and yellowed.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22344,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x14f59dcd",
+  "courseId": "en-10-30k",
+  "headword": "latterly",
+  "reading": null,
+  "gloss": "近ごろ,最近,近年",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "that's how much of a latterly thing writing is.",
+    "translation": "書き言葉は最近のことなのです",
+    "cloze": "that's how much of a ｟＿｠ thing writing is."
+   },
+   {
+    "text": "Latterly, he has become more interested in painting than writing.",
+    "translation": "近ごろ、彼は執筆よりも絵画に興味を持つようになった。",
+    "cloze": "｟＿｠, he has become more interested in painting than writing.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22679,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3708ecbc",
+  "courseId": "en-10-30k",
+  "headword": "legos",
+  "reading": null,
+  "gloss": "レゴ,レゴブロック(組み立て式ブロック玩具)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The kids spent the afternoon building towers out of Legos.",
+    "translation": "子供たちはレゴでタワーを作って午後を過ごした。",
+    "cloze": "The kids spent the afternoon building towers out of ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He has a huge collection of Legos in his room.",
+    "translation": "彼は部屋にレゴの膨大なコレクションを持っている。",
+    "cloze": "He has a huge collection of ｟＿｠ in his room.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22680,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xdfb32af0",
+  "courseId": "en-10-30k",
+  "headword": "leukaemia",
+  "reading": null,
+  "gloss": "白血病",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "he's been fighting leukaemia for years.",
+    "translation": "白血病なの",
+    "cloze": "he's been fighting ｟＿｠ for years."
+   },
+   {
+    "text": "She was diagnosed with leukaemia at the age of ten.",
+    "translation": "彼女は10歳のときに白血病と診断された。",
+    "cloze": "She was diagnosed with ｟＿｠ at the age of ten.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22681,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x889bc851",
+  "courseId": "en-10-30k",
+  "headword": "leyte",
+  "reading": null,
+  "gloss": "レイテ島(フィリピン中部の島。第二次世界大戦のレイテ沖海戦で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Battle of Leyte Gulf was one of the largest naval battles in history.",
+    "translation": "レイテ沖海戦は史上最大級の海戦の一つだった。",
+    "cloze": "The Battle of ｟＿｠ Gulf was one of the largest naval battles in history.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Leyte is an island in the central Philippines.",
+    "translation": "レイテ島はフィリピン中部にある島です。",
+    "cloze": "｟＿｠ is an island in the central Philippines.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22682,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb42974d3",
+  "courseId": "en-10-30k",
+  "headword": "lioness",
+  "reading": null,
+  "gloss": "雌ライオン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "a lioness guarding her cub.",
+    "translation": "子ライオンを守る母ライオンね",
+    "cloze": "a ｟lioness｠ guarding her cub."
+   },
+   {
+    "text": "these lionesses, seen from a distance, looked like they were fighting.",
+    "translation": "これらの雌ライオンは遠目では 争っているように見えます",
+    "cloze": "these ｟lionesses｠, seen from a distance, looked like they were fighting."
+   }
+  ],
+  "frequencyRank": 22986,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xaec7796a",
+  "courseId": "en-10-30k",
+  "headword": "loire",
+  "reading": "/lˈɔɪɹ/",
+  "gloss": "ロワール川(フランス最長の川)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Loire flows through the beautiful châteaux region of France.",
+    "translation": "ロワール川はフランスの美しい城巡りの地域を流れている。",
+    "cloze": "The ｟Loire｠ flows through the beautiful châteaux region of France.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22989,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xd6a4174c",
+  "courseId": "en-10-30k",
+  "headword": "loveable",
+  "reading": null,
+  "gloss": "愛らしい、人に好かれる(=lovable)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "feisty, but loveable. sit down, dolan.",
+    "translation": "気は強いが たまらん女だ 座れよ ドーラン",
+    "cloze": "feisty, but ｟loveable｠. sit down, dolan."
+   },
+   {
+    "text": "i'm still the same guy. i'm still loveable, doitallforhisfriends charlie, so...",
+    "translation": "俺は今でも友達思いの 愛すべきチャーリーなんだ",
+    "cloze": "i'm still the same guy. i'm still ｟loveable｠, doitallforhisfriends charlie, so..."
+   }
+  ],
+  "frequencyRank": 22991,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8231b9f4",
+  "courseId": "en-10-30k",
+  "headword": "lyin",
+  "reading": null,
+  "gloss": "嘘をついている(lyingの口語つづり)",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Stop lyin' to me and tell the truth.",
+    "translation": "嘘をつくのはやめて本当のことを言ってよ。",
+    "cloze": "Stop ｟lyin'｠ to me and tell the truth.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22994,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x447a9a8f",
+  "courseId": "en-10-30k",
+  "headword": "lowkey",
+  "reading": null,
+  "gloss": "控えめな、目立たない;(俗語で)ひそかに、実は",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I had a very normal, lowkey kind of upbringing.",
+    "translation": "ごく普通に 地味に育てられました",
+    "cloze": "I had a very normal, ｟＿｠ kind of upbringing."
+   },
+   {
+    "text": "Let's keep the party lowkey, just close friends.",
+    "translation": "パーティーは内輪だけの、控えめなものにしよう。",
+    "cloze": "Let's keep the party ｟＿｠, just close friends.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23340,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x7adb12c3",
+  "courseId": "en-10-30k",
+  "headword": "lookalike",
+  "reading": "/lˈʊkəlˌaɪk/",
+  "gloss": "そっくりさん;よく似た人(物)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "but here i am, an exact lookalike, alone.",
+    "translation": "そっくりな姉が ここにいるのにね。",
+    "cloze": "but here i am, an exact ｟＿｠, alone."
+   },
+   {
+    "text": "She hired a celebrity lookalike for the party.",
+    "translation": "彼女はパーティーのために有名人のそっくりさんを雇った。",
+    "cloze": "She hired a celebrity ｟＿｠ for the party.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23654,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2952f253",
+  "courseId": "en-10-30k",
+  "headword": "loveless",
+  "reading": "/lˈʌvləs/",
+  "gloss": "愛のない;愛されない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "the other leads to loveless poverty.",
+    "translation": "他は愛のない貧困につながる",
+    "cloze": "the other leads to ｟＿｠ poverty."
+   },
+   {
+    "text": "he was a loveless, violent drunk and no good to anybody.",
+    "translation": "父には愛情がなく 酒乱で... 誰にでも嫌な人だった",
+    "cloze": "he was a ｟＿｠, violent drunk and no good to anybody."
+   }
+  ],
+  "frequencyRank": 23655,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x1c08221a",
+  "courseId": "en-10-30k",
+  "headword": "luzon",
+  "reading": "/lˈuzɑn/",
+  "gloss": "ルソン島(フィリピン諸島の主島)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Luzon is the largest island in the Philippines.",
+    "translation": "ルソン島はフィリピンで最も大きな島です。",
+    "cloze": "｟＿｠ is the largest island in the Philippines.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Manila, the capital of the Philippines, is located on Luzon.",
+    "translation": "フィリピンの首都マニラはルソン島にあります。",
+    "cloze": "Manila, the capital of the Philippines, is located on ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23657,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0a2da8ab",
+  "courseId": "en-10-30k",
+  "headword": "lviv",
+  "reading": null,
+  "gloss": "リヴィウ(ウクライナ西部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lviv is a historic city in western Ukraine.",
+    "translation": "リヴィウはウクライナ西部にある歴史的な都市です。",
+    "cloze": "｟＿｠ is a historic city in western Ukraine.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many refugees passed through Lviv during the war.",
+    "translation": "戦争中、多くの避難民がリヴィウを通過した。",
+    "cloze": "Many refugees passed through ｟＿｠ during the war.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23658,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9707c847",
+  "courseId": "en-10-30k",
+  "headword": "lunchbox",
+  "reading": null,
+  "gloss": "弁当箱",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Mary put a note in Tom's lunchbox telling him not to forget to buy bread on his way home.",
+    "translation": "メアリーは、帰りにパンを買うのを忘れないようにと書いたメモを、トムのお弁当箱に入れた。",
+    "cloze": "Mary put a note in Tom's ｟＿｠ telling him not to forget to buy bread on his way home."
+   },
+   {
+    "text": "eh? she forgot the lunchbox?",
+    "translation": "えっ お弁当忘れた!?",
+    "cloze": "eh? she forgot the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 23974,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x9d5d0f85",
+  "courseId": "en-10-30k",
+  "headword": "lightbulb",
+  "reading": "/lˈaɪtbˌʌlb/",
+  "gloss": "電球",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Edison invented the lightbulb.",
+    "translation": "エジソンが電球を発明した。",
+    "cloze": "Edison invented the ｟＿｠."
+   },
+   {
+    "text": "They rushed the woman to the hospital after she ate a lightbulb.",
+    "translation": "彼らは電球を飲み込んだ女性を急いで病院に運んだ。",
+    "cloze": "They rushed the woman to the hospital after she ate a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 24286,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xfa9ea8dd",
+  "courseId": "en-10-30k",
+  "headword": "lakeshore",
+  "reading": "/lˈeɪkʃˌɔɹ/",
+  "gloss": "湖畔、湖岸",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The cabin sits right on the lakeshore.",
+    "translation": "その山小屋はまさに湖畔に建っている。",
+    "cloze": "The cabin sits right on the ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We walked along the lakeshore at sunset.",
+    "translation": "私たちは夕暮れ時に湖畔を歩いた。",
+    "cloze": "We walked along the ｟＿｠ at sunset.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24642,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x7d29e933",
+  "courseId": "en-10-30k",
+  "headword": "lakota",
+  "reading": "/ləkˈoʊtə/",
+  "gloss": "ラコタ族(北米先住民スー族の一派)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "that these are not just images of the lakota;",
+    "translation": "これらはラコタ族の画像だけではないのです",
+    "cloze": "that these are not just images of the ｟＿｠;"
+   },
+   {
+    "text": "clearly marking the boundaries of the lakota nation.",
+    "translation": "ラコタ族の境界線を明確に作りました",
+    "cloze": "clearly marking the boundaries of the ｟＿｠ nation."
+   }
+  ],
+  "frequencyRank": 24643,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa9b69f85",
+  "courseId": "en-10-30k",
+  "headword": "lawnmower",
+  "reading": "/lˈɔnmoʊɚ/",
+  "gloss": "芝刈り機",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "why is there a lawnmower on the trunk?",
+    "translation": "トランクの芝刈り機は何だ?",
+    "cloze": "why is there a ｟＿｠ on the trunk?"
+   },
+   {
+    "text": "The house isn't huge and it's on about two-thirds of an acre, and when we first bought it I spent several hours every week getting the lawnmower fixed and cutting the lawn, in that order.",
+    "translation": "我が家は大きくなく、敷地は３分の２エーカーである。それを買った頃は毎週何時間もかけて芝刈り機を直し、芝を刈った。そうした手順でいつもやったのである。",
+    "cloze": "The house isn't huge and it's on about two-thirds of an acre, and when we first bought it I spent several hours every week getting the ｟＿｠ fixed and cutting the lawn, in that order."
+   }
+  ],
+  "frequencyRank": 24644,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x0b263b08",
+  "courseId": "en-10-30k",
+  "headword": "leibniz",
+  "reading": "/lˈibnɪz/",
+  "gloss": "ライプニッツ(ドイツの哲学者・数学者。微積分学の創始者の一人、1646-1716)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and leibniz was the first person to really talk about building such a machine.",
+    "translation": "コンピューターの構築について書いたのもライプニッツが最初で",
+    "cloze": "and ｟＿｠ was the first person to really talk about building such a machine."
+   },
+   {
+    "text": "but for leibniz, who asked why is there something rather than nothing",
+    "translation": "なぜ「無」ではなく 何かが「ある」のか―",
+    "cloze": "but for ｟＿｠, who asked why is there something rather than nothing"
+   }
+  ],
+  "frequencyRank": 24646,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2b252942",
+  "courseId": "en-10-30k",
+  "headword": "leninist",
+  "reading": "/lˈɛnɪnɪst/",
+  "gloss": "レーニン主義者;レーニン主義の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was a committed Leninist during his university years.",
+    "translation": "彼は大学時代、熱心なレーニン主義者だった。",
+    "cloze": "He was a committed ｟＿｠ during his university years.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24647,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xfc118805",
+  "courseId": "en-10-30k",
+  "headword": "leonidas",
+  "reading": "/liˈɔnɪdəz/",
+  "gloss": "レオニダス(古代スパルタの王。テルモピュライの戦いで有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this battle is over, leonidas.",
+    "translation": "戦闘は終わった レオニダス!",
+    "cloze": "this battle is over, ｟＿｠!"
+   },
+   {
+    "text": "i am the godking. i am the one who triumphed over leonidas.",
+    "translation": "私は神王であり レオニダスを倒した者だ",
+    "cloze": "i am the godking. i am the one who triumphed over ｟＿｠."
+   }
+  ],
+  "frequencyRank": 24649,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd1409ca7",
+  "courseId": "en-10-30k",
+  "headword": "longfellow",
+  "reading": "/lˈɔŋfˌɛloʊ/",
+  "gloss": "ロングフェロー(米国の詩人、1807-1882。代表作『ハイアワサの歌』)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "people like longfellow.",
+    "translation": "皆 彼の詩が好きだ",
+    "cloze": "people like ｟＿｠."
+   },
+   {
+    "text": "in the words of the poet longfellow",
+    "translation": "ヘンリー・ワーズワース・ロングフェローは",
+    "cloze": "in the words of the poet ｟＿｠"
+   }
+  ],
+  "frequencyRank": 24653,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0e02f311",
+  "courseId": "en-10-30k",
+  "headword": "leprechaun",
+  "reading": "/lˈɛpɚkaʊn/",
+  "gloss": "レプラコーン(アイルランド民話の小妖精)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you know, you actually do look quite a bit like a leprechaun.",
+    "translation": "お前は 肝っ玉の 小さい妖精みたいだな",
+    "cloze": "you know, you actually do look quite a bit like a ｟leprechaun｠."
+   },
+   {
+    "text": "that's where i keep my leprechauns.",
+    "translation": "そこは妖精が入ってる",
+    "cloze": "that's where i keep my ｟leprechauns｠."
+   }
+  ],
+  "frequencyRank": 25010,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8579a5e6",
+  "courseId": "en-10-30k",
+  "headword": "lua",
+  "reading": "/lˈuə/",
+  "gloss": "Lua(組み込み用途でよく使われるプログラミング言語;ポルトガル語で「月」の意)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lua is a lightweight scripting language often used in game development.",
+    "translation": "Luaはゲーム開発でよく使われる軽量なスクリプト言語だ。",
+    "cloze": "｟Lua｠ is a lightweight scripting language often used in game development.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25021,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x51c56f56",
+  "courseId": "en-10-30k",
+  "headword": "ldp",
+  "reading": null,
+  "gloss": "自民党(日本の自由民主党の略称)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The LDP needs a spiritual cleansing.",
+    "translation": "自民党はみそぎが必要ですね。",
+    "cloze": "The ｟LDP｠ needs a spiritual cleansing."
+   },
+   {
+    "text": "The LDP rode on the wave of Koizumi's popularity.",
+    "translation": "自民党が小泉人気の尻馬に乗った。",
+    "cloze": "The ｟LDP｠ rode on the wave of Koizumi's popularity."
+   }
+  ],
+  "frequencyRank": 25387,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x56476ba4",
+  "courseId": "en-10-30k",
+  "headword": "liftoff",
+  "reading": "/lˈɪftˌɔf/",
+  "gloss": "(ロケットなどの)打ち上げ、離昇",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "tango 1 down. liftoff.",
+    "translation": "目標1、達成だ",
+    "cloze": "tango 1 down. ｟liftoff｠."
+   },
+   {
+    "text": "The countdown reached zero, and liftoff occurred exactly on schedule.",
+    "translation": "カウントダウンがゼロになり、予定通りに打ち上げが行われた。",
+    "cloze": "The countdown reached zero, and ｟liftoff｠ occurred exactly on schedule.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25390,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x501a4487",
+  "courseId": "en-10-30k",
+  "headword": "linnaeus",
+  "reading": null,
+  "gloss": "リンネ(スウェーデンの博物学者。生物分類法(二名法)の確立者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the first person to do this systematically was linnaeus",
+    "translation": "体系的な形態学を作ったのは カール・リンネです",
+    "cloze": "the first person to do this systematically was ｟linnaeus｠"
+   },
+   {
+    "text": "Linnaeus developed the system of binomial nomenclature still used today.",
+    "translation": "リンネは今日も使われている二名法による命名体系を確立した。",
+    "cloze": "｟Linnaeus｠ developed the system of binomial nomenclature still used today.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25392,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x329be3cd",
+  "courseId": "en-10-30k",
+  "headword": "liszt",
+  "reading": "/lˈɪst/",
+  "gloss": "リスト(1811-86;ハンガリーの作曲家・ピアニスト)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The best-known compositions by Franz Liszt are his nineteen Hungarian Rhapsodies, but he also created beautiful sonatas, symphonies, concerti, songs, and religious compositions.",
+    "translation": "フランツ・リストの最も有名な作品は19のハンガリー狂詩曲だが、彼は他にもソナタ、交響曲、協奏曲、歌曲、宗教曲など見事な作品を生み出した。",
+    "cloze": "The best-known compositions by Franz ｟Liszt｠ are his nineteen Hungarian Rhapsodies, but he also created beautiful sonatas, symphonies, concerti, songs, and religious compositions."
+   },
+   {
+    "text": "Liszt was famous for his virtuosic piano performances across Europe.",
+    "translation": "リストはヨーロッパ各地での妙技的なピアノ演奏で有名だった。",
+    "cloze": "｟Liszt｠ was famous for his virtuosic piano performances across Europe.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25393,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x80712b7d",
+  "courseId": "en-10-30k",
+  "headword": "loudness",
+  "reading": null,
+  "gloss": "大きさ、音量、うるささ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so here we have the loudness of a call at the whale.",
+    "translation": "これがクジラの鳴き声の大きさで",
+    "cloze": "so here we have the ｟loudness｠ of a call at the whale."
+   },
+   {
+    "text": "quantities like the intensity of light or the loudness of a sound.",
+    "translation": "光の強さや音の大きさなどがそうです",
+    "cloze": "quantities like the intensity of light or the ｟loudness｠ of a sound."
+   }
+  ],
+  "frequencyRank": 25395,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xdfda5284",
+  "courseId": "en-10-30k",
+  "headword": "lowery",
+  "reading": "/lˈaʊɚi/",
+  "gloss": "(空模様が)どんよりとした、荒れ模様の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The sky looked lowery, threatening rain all afternoon.",
+    "translation": "空は今にも雨が降りそうな陰鬱な様子だった。",
+    "cloze": "The sky looked ｟lowery｠, threatening rain all afternoon.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25396,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x67d99ca2",
+  "courseId": "en-10-30k",
+  "headword": "luxor",
+  "reading": "/lˈʌksɚ/",
+  "gloss": "ルクソール(エジプトの古代遺跡で有名な都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "can you get a photo of the cutout in front of the luxor pyramid?",
+    "translation": "ルクソールのピラミッドの前で 写真を取れない?",
+    "cloze": "can you get a photo of the cutout in front of the ｟luxor｠ pyramid?"
+   },
+   {
+    "text": "Luxor is home to some of Egypt's most famous ancient temples.",
+    "translation": "ルクソールはエジプトで最も有名な古代神殿のいくつかがある。",
+    "cloze": "｟Luxor｠ is home to some of Egypt's most famous ancient temples.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25399,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc147f933",
+  "courseId": "en-10-30k",
+  "headword": "lacs",
+  "reading": null,
+  "gloss": "10万(インドなど南アジアの英語で用いる数の単位。lakhとも綴る)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The new house cost around fifteen lacs rupees.",
+    "translation": "その新しい家はおよそ150万ルピーした。",
+    "cloze": "The new house cost around fifteen ｟lacs｠ rupees.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25768,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x0045e661",
+  "courseId": "en-10-30k",
+  "headword": "ladybug",
+  "reading": "/lˈeɪdibˌʌɡ/",
+  "gloss": "テントウムシ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the ladybug samba, punk version...",
+    "translation": "てんとう虫のサンバ パンクバージョン",
+    "cloze": "the ｟ladybug｠ samba, punk version..."
+   },
+   {
+    "text": "a ladybug!",
+    "translation": "てんとう虫~",
+    "cloze": "a ｟ladybug｠!"
+   }
+  ],
+  "frequencyRank": 25769,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x99fe1890",
+  "courseId": "en-10-30k",
+  "headword": "loopy",
+  "reading": "/lˈupi/",
+  "gloss": "(俗語)頭がおかしい、もうろうとした、ふらふらする",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "hospital gave her pain meds. she's a little loopy.",
+    "translation": "鎮痛剤のせいで もうろうとしてる",
+    "cloze": "hospital gave her pain meds. she's a little ｟loopy｠."
+   },
+   {
+    "text": "it makes you loopy.",
+    "translation": "それにより頭がおかしくなります",
+    "cloze": "it makes you ｟loopy｠."
+   }
+  ],
+  "frequencyRank": 25776,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x45bc32a6",
+  "courseId": "en-10-30k",
+  "headword": "launchpad",
+  "reading": null,
+  "gloss": "発射台;(比喩的に)出発点、足がかり",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "heading out to the launchpad",
+    "translation": "発射台へ向います",
+    "cloze": "heading out to the ｟launchpad｠"
+   },
+   {
+    "text": "in the astro van heading out to the launchpad",
+    "translation": "この「アストロバン」で発射台に向かい",
+    "cloze": "in the astro van heading out to the ｟launchpad｠"
+   }
+  ],
+  "frequencyRank": 26136,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4d3dab8e",
+  "courseId": "en-10-30k",
+  "headword": "lavrov",
+  "reading": null,
+  "gloss": "ラブロフ(セルゲイ・ラブロフ、長年ロシア外相を務める政治家)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lavrov has served as Russia's foreign minister for many years.",
+    "translation": "ラブロフは長年ロシアの外相を務めている。",
+    "cloze": "｟Lavrov｠ has served as Russia's foreign minister for many years.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26139,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5ea2798e",
+  "courseId": "en-10-30k",
+  "headword": "lewisham",
+  "reading": null,
+  "gloss": "ルイシャム(ロンドン南東部の区)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lewisham is a borough in south-east London.",
+    "translation": "ルイシャムはロンドン南東部の区です。",
+    "cloze": "｟Lewisham｠ is a borough in south-east London.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26143,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xab030492",
+  "courseId": "en-10-30k",
+  "headword": "liston",
+  "reading": "/lˈɪstən/",
+  "gloss": "リストン(ソニー・リストン、元世界ヘビー級ボクシング王者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "sonny liston?",
+    "translation": "ソニー・リストン?",
+    "cloze": "sonny ｟liston｠?"
+   },
+   {
+    "text": "Liston shocked the world by winning the heavyweight title.",
+    "translation": "リストンは世界を驚かせてヘビー級王座を獲得した。",
+    "cloze": "｟Liston｠ shocked the world by winning the heavyweight title.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26145,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1e78f4e7",
+  "courseId": "en-10-30k",
+  "headword": "lusaka",
+  "reading": "/lusˈɑkə/",
+  "gloss": "ルサカ(ザンビアの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lusaka is the capital and largest city of Zambia.",
+    "translation": "ルサカはザンビアの首都であり最大の都市である。",
+    "cloze": "｟Lusaka｠ is the capital and largest city of Zambia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26148,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb03618fc",
+  "courseId": "en-10-30k",
+  "headword": "lapland",
+  "reading": "/lˈæplˌænd/",
+  "gloss": "ラップランド(スカンジナビア半島北部の地域、サンタクロースの故郷として知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "how was lapland?",
+    "translation": "フィンランドはどうだった?",
+    "cloze": "how was ｟＿｠?"
+   },
+   {
+    "text": "Lapland is famous as the home of Santa Claus.",
+    "translation": "ラップランドはサンタクロースの故郷として有名だ。",
+    "cloze": "｟＿｠ is famous as the home of Santa Claus.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26975,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb5d89c89",
+  "courseId": "en-10-30k",
+  "headword": "lhasa",
+  "reading": "/lˈɑsə/",
+  "gloss": "ラサ(チベット自治区の中心都市、チベット仏教の聖地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Lhasa is the capital city of Tibet.",
+    "translation": "ラサはチベットの首都である。",
+    "cloze": "｟＿｠ is the capital city of Tibet.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26976,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8168bcf2",
+  "courseId": "en-10-30k",
+  "headword": "lossless",
+  "reading": null,
+  "gloss": "無損失の、劣化のない(データ圧縮などで情報が失われない)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "FLAC is a popular lossless audio format.",
+    "translation": "FLACは人気のある可逆圧縮の音声フォーマットだ。",
+    "cloze": "FLAC is a popular ｟＿｠ audio format.",
+    "aiGenerated": true
+   },
+   {
+    "text": "This app supports lossless image compression.",
+    "translation": "このアプリは可逆圧縮の画像に対応している。",
+    "cloze": "This app supports ｟＿｠ image compression.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26984,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x19142d4d",
+  "courseId": "en-10-30k",
+  "headword": "libor",
+  "reading": "/lˈibɚ/",
+  "gloss": "LIBOR、ロンドン銀行間取引金利(国際金融の指標金利)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many mortgages were once linked to the LIBOR interest rate.",
+    "translation": "多くの住宅ローンはかつてLIBOR金利に連動していた。",
+    "cloze": "Many mortgages were once linked to the ｟LIBOR｠ interest rate.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27382,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x60d615d5",
+  "courseId": "en-10-30k",
+  "headword": "lucca",
+  "reading": "/lˈukə/",
+  "gloss": "ルッカ(イタリア・トスカーナ州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I wanna come back to Lucca.",
+    "translation": "私はルッカに帰りたい。",
+    "cloze": "I wanna come back to ｟Lucca｠."
+   }
+  ],
+  "frequencyRank": 27392,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1365723f",
+  "courseId": "en-10-30k",
+  "headword": "lutherans",
+  "reading": "/lˈuθɚənz/",
+  "gloss": "ルター派の人々,ルーテル教会信者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Lutherans in Germany trace their faith back to Martin Luther.",
+    "translation": "ドイツの多くのルター派信者は自分たちの信仰をマルティン・ルターに遡ります。",
+    "cloze": "Many ｟＿｠ in Germany trace their faith back to Martin Luther.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28218,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x3dada919",
+  "courseId": "en-10-30k",
+  "headword": "luxemburg",
+  "reading": null,
+  "gloss": "ルクセンブルク(西欧の小国;その首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Luxemburg is a small country bordered by Belgium, Germany, and France.",
+    "translation": "ルクセンブルクはベルギー、ドイツ、フランスに囲まれた小さな国です。",
+    "cloze": "｟＿｠ is a small country bordered by Belgium, Germany, and France.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28219,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1cee3652",
+  "courseId": "en-10-30k",
+  "headword": "lombardy",
+  "reading": null,
+  "gloss": "ロンバルディア(イタリア北部の州、州都ミラノ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Milan is the capital of the Lombardy region.",
+    "translation": "ミラノはロンバルディア州の州都である。",
+    "cloze": "Milan is the capital of the ｟＿｠ region.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28623,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa8189bd8",
+  "courseId": "en-10-30k",
+  "headword": "lsat",
+  "reading": null,
+  "gloss": "LSAT(米国のロースクール入学試験)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and i signed up for an lsat course.",
+    "translation": "だからね LSATの講座に申し込んだの.",
+    "cloze": "and i signed up for an ｟＿｠ course."
+   },
+   {
+    "text": "you quit your job and you enrolled in an lsat course.",
+    "translation": "君は仕事を辞めて lsatの講座に登録した.",
+    "cloze": "you quit your job and you enrolled in an ｟＿｠ course."
+   }
+  ],
+  "frequencyRank": 28625,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x1fa001a6",
+  "courseId": "en-10-30k",
+  "headword": "luhansk",
+  "reading": null,
+  "gloss": "ルハーンシク(ウクライナ東部の都市、州名としても使用)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Luhansk is a city in eastern Ukraine.",
+    "translation": "ルハーンシクはウクライナ東部の都市である。",
+    "cloze": "｟＿｠ is a city in eastern Ukraine.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28629,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1a268f79",
+  "courseId": "en-10-30k",
+  "headword": "ladakh",
+  "reading": "/lˈɑdək/",
+  "gloss": "ラダック(インド北部の高地地域、現在の連邦直轄地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and we went to ladakh",
+    "translation": "ラダックに行った時",
+    "cloze": "and we went to ｟＿｠"
+   },
+   {
+    "text": "Ladakh is known for its stunning Himalayan landscapes.",
+    "translation": "ラダックは壮大なヒマラヤの風景で知られている。",
+    "cloze": "｟＿｠ is known for its stunning Himalayan landscapes.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29023,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8aa7febc",
+  "courseId": "en-10-30k",
+  "headword": "laparoscopic",
+  "reading": "/lˌæpɚˈɑskəpɪk/",
+  "gloss": "腹腔鏡の、腹腔鏡を用いた(手術など)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "fundamentals of laparoscopic surgery.",
+    "translation": "腹腔鏡手術の基礎",
+    "cloze": "fundamentals of ｟＿｠ surgery."
+   },
+   {
+    "text": "The patient recovered quickly after laparoscopic surgery.",
+    "translation": "その患者は腹腔鏡手術後、速やかに回復した。",
+    "cloze": "The patient recovered quickly after ｟＿｠ surgery.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29025,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x034f62c7",
+  "courseId": "en-10-30k",
+  "headword": "ljubljana",
+  "reading": "/ljˈubljɑnə/",
+  "gloss": "リュブリャナ(スロベニアの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Ljubljana is the capital and largest city of Slovenia.",
+    "translation": "リュブリャナはスロベニアの首都であり最大の都市である。",
+    "cloze": "｟＿｠ is the capital and largest city of Slovenia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29031,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6654abc8",
+  "courseId": "en-10-30k",
+  "headword": "leaker",
+  "reading": "/lˈikɚ/",
+  "gloss": "(機密情報を)漏らす人、リーク元",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "most leakers, they tend to release their information to multiple sources at the same time.",
+    "translation": "同時に複数の発信源に流す傾向がある",
+    "cloze": "most ｟＿｠, they tend to release their information to multiple sources at the same time."
+   },
+   {
+    "text": "The company launched an internal investigation to find the leaker.",
+    "translation": "その会社は情報を漏らした人物を見つけるため社内調査を始めた。",
+    "cloze": "The company launched an internal investigation to find the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29455,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x625ff544",
+  "courseId": "en-10-30k",
+  "headword": "latinas",
+  "reading": null,
+  "gloss": "ラテン系の女性たち(ラテンアメリカ系の女性)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Latinas in the city speak both Spanish and English fluently.",
+    "translation": "その街の多くのラテン系女性はスペイン語と英語の両方を流暢に話す。",
+    "cloze": "Many ｟Latinas｠ in the city speak both Spanish and English fluently.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29849,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5bd67c9f",
+  "courseId": "en-10-30k",
+  "headword": "lav",
+  "reading": null,
+  "gloss": "(英・豪略式)トイレ、便所",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so i got up, went to the lav.",
+    "translation": "立ち上がって便所へ行ったんだ",
+    "cloze": "so i got up, went to the ｟lav｠."
+   },
+   {
+    "text": "nine guys packed into an lav.",
+    "translation": "9人の男が便所に ギュウギュウ詰め",
+    "cloze": "nine guys packed into an ｟lav｠."
+   }
+  ],
+  "frequencyRank": 29851,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x4df51e68",
+  "courseId": "en-10-30k",
+  "headword": "leapfrog",
+  "reading": "/lˈipfɹˌɔɡ/",
+  "gloss": "馬跳び・かえる跳びをする;(段階を飛ばして)一気に追い抜く、急成長する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "and they're leapfrogging the west.",
+    "translation": "西側諸国より進んでいます",
+    "cloze": "and they're ｟leapfrogging｠ the west."
+   },
+   {
+    "text": "but i'm gonna leapfrog ahead and meet you guys at record breaker.",
+    "translation": "しかし、先に飛び越えて、みんなとは レコードブレーカーでお会いしよう",
+    "cloze": "but i'm gonna ｟leapfrog｠ ahead and meet you guys at record breaker."
+   }
+  ],
+  "frequencyRank": 29852,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x99ca8db7",
+  "courseId": "en-10-30k",
+  "headword": "lieut",
+  "reading": null,
+  "gloss": "「中尉」「大尉」等(Lieutenant)の略記",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the committee would now like to invite lieut. col. james rhodes to the chamber.",
+    "translation": "次にこの委員会に呼んでいるのは ジェームス・ローズ中佐です、どうぞ",
+    "cloze": "the committee would now like to invite ｟lieut｠. col. james rhodes to the chamber."
+   }
+  ],
+  "frequencyRank": 29854,
+  "category": "work"
+ }
+]

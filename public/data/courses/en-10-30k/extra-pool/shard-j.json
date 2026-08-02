@@ -1,0 +1,2941 @@
+[
+ {
+  "id": "en-10-30k-x27a05474",
+  "courseId": "en-10-30k",
+  "headword": "june",
+  "reading": "/dʒˈun/",
+  "gloss": "6月",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It rains a lot in June.",
+    "translation": "６月にはたくさんの雨が降ります。",
+    "cloze": "It rains a lot in ｟＿｠."
+   },
+   {
+    "text": "June has many rainy days.",
+    "translation": "六月は雨の日が多い。",
+    "cloze": "｟＿｠ has many rainy days."
+   }
+  ],
+  "frequencyRank": 17,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x9d9657f9",
+  "courseId": "en-10-30k",
+  "headword": "july",
+  "reading": "/dʒˌulˈaɪ/",
+  "gloss": "7月",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's now July.",
+    "translation": "もう7月よ。",
+    "cloze": "It's now ｟＿｠."
+   },
+   {
+    "text": "It's cool today for July.",
+    "translation": "７月にしては今日はすずしい。",
+    "cloze": "It's cool today for ｟＿｠."
+   }
+  ],
+  "frequencyRank": 21,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x90ce540d",
+  "courseId": "en-10-30k",
+  "headword": "january",
+  "reading": "/dʒˈænjuˌɛɹi/",
+  "gloss": "1月",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It snows in January.",
+    "translation": "１月には雪が降ります。",
+    "cloze": "It snows in ｟＿｠."
+   },
+   {
+    "text": "I met him in January.",
+    "translation": "一月に彼に会いました。",
+    "cloze": "I met him in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 34,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x15da327f",
+  "courseId": "en-10-30k",
+  "headword": "jesus",
+  "reading": "/dʒˈizəs/",
+  "gloss": "イエス・キリスト;(驚き・苛立ちを表す間投詞)おやまあ、ちくしょう",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jesus wept.",
+    "translation": "イエスは嘆き悲しまれた。",
+    "cloze": "｟＿｠ wept."
+   },
+   {
+    "text": "Jesus was born of Mary.",
+    "translation": "イエスはマリアから生まれた。",
+    "cloze": "｟＿｠ was born of Mary."
+   }
+  ],
+  "frequencyRank": 54,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x660261d4",
+  "courseId": "en-10-30k",
+  "headword": "japan",
+  "reading": "/dʒəpˈæn/",
+  "gloss": "日本",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This is Japan.",
+    "translation": "これは日本です。",
+    "cloze": "This is ｟＿｠."
+   },
+   {
+    "text": "Japan is weird.",
+    "translation": "日本って変わってるな。",
+    "cloze": "｟＿｠ is weird."
+   }
+  ],
+  "frequencyRank": 73,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x14f2ce5a",
+  "courseId": "en-10-30k",
+  "headword": "jack",
+  "reading": "/dʒˈæk/",
+  "gloss": "ジャッキ(車を持ち上げる装置)；(トランプの)ジャック",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He used a jack to lift the car and change the tire.",
+    "translation": "彼はジャッキを使って車を持ち上げ、タイヤを交換した。",
+    "cloze": "He used a ｟＿｠ to lift the car and change the tire.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The mechanic placed the jack under the car.",
+    "translation": "整備士は車の下にジャッキを置いた。",
+    "cloze": "The mechanic placed the ｟＿｠ under the car.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 96,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x3ce9fcc5",
+  "courseId": "en-10-30k",
+  "headword": "japanese",
+  "reading": "/dʒˌæpənˈiz/",
+  "gloss": "日本の；日本人；日本語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm Japanese.",
+    "translation": "私は日本人です。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "He's Japanese.",
+    "translation": "彼は日本人です。",
+    "cloze": "He's ｟＿｠."
+   }
+  ],
+  "frequencyRank": 102,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2c65dfde",
+  "courseId": "en-10-30k",
+  "headword": "jewish",
+  "reading": "/dʒˈuɪʃ/",
+  "gloss": "ユダヤ人の;ユダヤ民族特有の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm Jewish.",
+    "translation": "ユダヤ人です。",
+    "cloze": "I'm ｟Jewish｠."
+   },
+   {
+    "text": "He's Jewish.",
+    "translation": "ユダヤ人です。",
+    "cloze": "He's ｟Jewish｠."
+   }
+  ],
+  "frequencyRank": 183,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xe340a51f",
+  "courseId": "en-10-30k",
+  "headword": "jackson",
+  "reading": "/dʒˈæksən/",
+  "gloss": "ジャクソン(姓;マイケル・ジャクソンなどで知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Michael Jackson has died.",
+    "translation": "マイケルジャクソンは死んでいる。",
+    "cloze": "Michael ｟Jackson｠ has died."
+   },
+   {
+    "text": "Where do the Jacksons live?",
+    "translation": "ジャクソンご一家はどちらにお住まいですか？",
+    "cloze": "Where do the ｟Jacksons｠ live?"
+   }
+  ],
+  "frequencyRank": 200,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x391fc2aa",
+  "courseId": "en-10-30k",
+  "headword": "jordan",
+  "reading": "/dʒˈɔɹdən/",
+  "gloss": "ヨルダン(中東の国)；ヨルダン川",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jordan is a country in the Middle East.",
+    "translation": "ヨルダンは中東にある国だ。",
+    "cloze": "｟＿｠ is a country in the Middle East.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Jordan River flows through several countries.",
+    "translation": "ヨルダン川はいくつかの国を流れている。",
+    "cloze": "The ｟＿｠ River flows through several countries.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 254,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xfaca2bc7",
+  "courseId": "en-10-30k",
+  "headword": "jews",
+  "reading": "/dʒˈuz/",
+  "gloss": "ユダヤ人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We're Jews.",
+    "translation": "私たちはユダヤ人です。",
+    "cloze": "We're ｟＿｠."
+   },
+   {
+    "text": "He has a prejudice against Jews.",
+    "translation": "彼はユダヤ人を毛嫌いする。",
+    "cloze": "He has a prejudice against ｟＿｠."
+   }
+  ],
+  "frequencyRank": 291,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3cd43c6b",
+  "courseId": "en-10-30k",
+  "headword": "jason",
+  "reading": "/dʒˈeɪsən/",
+  "gloss": "イアソン(ギリシャ神話の英雄。金の羊毛を求めてアルゴー船で航海した);男性の名前としても使われる",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "If Jason should call me, tell him I'm not in.",
+    "translation": "万一ジェイソンが電話してきたら、僕はいないといってくれ。",
+    "cloze": "If ｟Jason｠ should call me, tell him I'm not in."
+   },
+   {
+    "text": "I will never go shopping with Jason again.",
+    "translation": "もう二度とジェーソンなんかと買い物に行かない。",
+    "cloze": "I will never go shopping with ｟Jason｠ again."
+   }
+  ],
+  "frequencyRank": 301,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0d48805e",
+  "courseId": "en-10-30k",
+  "headword": "jimmy",
+  "reading": "/dʒˈɪmi/",
+  "gloss": "(泥棒などが使う)かなてこ,バール;…をこじ開ける",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He used a jimmy to pry open the window.",
+    "translation": "彼は窓をこじ開けるためにかなてこを使った。",
+    "cloze": "He used a ｟jimmy｠ to pry open the window.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 326,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x3b3104aa",
+  "courseId": "en-10-30k",
+  "headword": "jean",
+  "reading": "/dʒˈin/",
+  "gloss": "ジーン布(綿の綾織り生地)；(複数形で)ジーパン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He had jeans on.",
+    "translation": "彼はジーンズをはいていた。",
+    "cloze": "He had ｟＿｠ on."
+   },
+   {
+    "text": "I usually wear jeans.",
+    "translation": "普段はジーパンだよ。",
+    "cloze": "I usually wear ｟＿｠."
+   }
+  ],
+  "frequencyRank": 466,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x0649508b",
+  "courseId": "en-10-30k",
+  "headword": "juice",
+  "reading": "/dʒˈus/",
+  "gloss": "(果物・野菜の)汁、ジュース",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I want juice.",
+    "translation": "ジュースが欲しい。",
+    "cloze": "I want ｟＿｠."
+   },
+   {
+    "text": "Drink your juice.",
+    "translation": "ジュースを飲んで。",
+    "cloze": "Drink your ｟＿｠."
+   }
+  ],
+  "frequencyRank": 467,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xccf30786",
+  "courseId": "en-10-30k",
+  "headword": "josh",
+  "reading": "/dʒˈɑʃ/",
+  "gloss": "(悪意なく)からかう、冗談を言う",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Don't be mad, I was just joshing you.",
+    "translation": "怒らないで、からかっただけだよ。",
+    "cloze": "Don't be mad, I was just ｟＿｠ you.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He joshed his brother about the missed shot.",
+    "translation": "彼は外したシュートのことで弟をからかった。",
+    "cloze": "He ｟＿｠ his brother about the missed shot.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 485,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xfd2b42fe",
+  "courseId": "en-10-30k",
+  "headword": "jet",
+  "reading": "/dʒˈɛt/",
+  "gloss": "ジェット機；（水・ガスなどの）噴射、噴出",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Her son is a jet pilot.",
+    "translation": "彼女の息子はジェット機のパイロットです。",
+    "cloze": "Her son is a ｟＿｠ pilot."
+   },
+   {
+    "text": "The jet landed at Tokyo.",
+    "translation": "ジェット機は東京に着陸した。",
+    "cloze": "The ｟＿｠ landed at Tokyo."
+   }
+  ],
+  "frequencyRank": 611,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xbcde5ba4",
+  "courseId": "en-10-30k",
+  "headword": "jerry",
+  "reading": "/dʒˈɛɹi/",
+  "gloss": "おまる、尿瓶(英俗);(Jerryで)ドイツ兵(第二次大戦中の英俗称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There was an old jerry tucked under the bed.",
+    "translation": "ベッドの下に古いおまるがしまわれていた。",
+    "cloze": "There was an old ｟＿｠ tucked under the bed.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The old soldier still referred to German troops as 'Jerry'.",
+    "translation": "その老兵は今でもドイツ兵を「ジェリー」と呼んでいた。",
+    "cloze": "The old soldier still referred to German troops as '｟＿｠'.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 682,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x5a9d569f",
+  "courseId": "en-10-30k",
+  "headword": "jealous",
+  "reading": "/dʒˈɛləs/",
+  "gloss": "しっと深い;(…を)ねたんで、うらやんで",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm jealous.",
+    "translation": "羨ましいなあ。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "I'm so jealous.",
+    "translation": "うらやましいなぁ。",
+    "cloze": "I'm so ｟＿｠."
+   }
+  ],
+  "frequencyRank": 732,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xc56ccc39",
+  "courseId": "en-10-30k",
+  "headword": "jerusalem",
+  "reading": "/dʒɚˈusələm/",
+  "gloss": "エルサレム(イスラエルの首都；宗教上の聖地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jerusalem is Israel's capital.",
+    "translation": "エルサレムはイスラエルの首都です。",
+    "cloze": "｟＿｠ is Israel's capital."
+   },
+   {
+    "text": "Jerusalem is the capital of Israel.",
+    "translation": "エルサレムはイスラエルの首都です。",
+    "cloze": "｟＿｠ is the capital of Israel."
+   }
+  ],
+  "frequencyRank": 874,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xefe12ce3",
+  "courseId": "en-10-30k",
+  "headword": "jam",
+  "reading": "/dʒˈæm/",
+  "gloss": "ジャム;(狭い場所に)押し込む,詰め込む;混雑,窮地",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This is homemade jam.",
+    "translation": "これは自家製のジャムです。",
+    "cloze": "This is homemade ｟jam｠."
+   },
+   {
+    "text": "I want bread and jam.",
+    "translation": "パンとジャムが欲しいな。",
+    "cloze": "I want bread and ｟jam｠."
+   }
+  ],
+  "frequencyRank": 978,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x03a7c2a9",
+  "courseId": "en-10-30k",
+  "headword": "jewelry",
+  "reading": "/dʒˈuəlɹi/",
+  "gloss": "宝石類、装身具",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They broke into the jewelry shop.",
+    "translation": "彼らはその宝石店に押し入った。",
+    "cloze": "They broke into the ｟＿｠ shop."
+   },
+   {
+    "text": "My sister's jewelry box was stolen.",
+    "translation": "妹の宝石箱が盗まれてしまったの。",
+    "cloze": "My sister's ｟＿｠ box was stolen."
+   }
+  ],
+  "frequencyRank": 1156,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x07a2c2b0",
+  "courseId": "en-10-30k",
+  "headword": "journalism",
+  "reading": "/dʒˈɝnəlˌɪzəm/",
+  "gloss": "ジャーナリズム、報道業",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is a big man in journalism.",
+    "translation": "彼はジャーナリズム界の大物です。",
+    "cloze": "He is a big man in ｟＿｠."
+   },
+   {
+    "text": "I'd like to get into journalism in the future.",
+    "translation": "将来は、ジャーナリストになりたいと思っています。",
+    "cloze": "I'd like to get into ｟＿｠ in the future."
+   }
+  ],
+  "frequencyRank": 1157,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x5b975e08",
+  "courseId": "en-10-30k",
+  "headword": "jungle",
+  "reading": "/dʒˈʌŋɡəl/",
+  "gloss": "密林、ジャングル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He explored the Amazon jungle.",
+    "translation": "彼はアマゾンのジャングルを探検した。",
+    "cloze": "He explored the Amazon ｟＿｠."
+   },
+   {
+    "text": "Wild animals live in the jungle.",
+    "translation": "野生の動物はジャングルに住む。",
+    "cloze": "Wild animals live in the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1160,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x3cb6b6f7",
+  "courseId": "en-10-30k",
+  "headword": "jeans",
+  "reading": "/dʒˈinz/",
+  "gloss": "ジーンズ、デニムのズボン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She was wearing a pair of blue jeans.",
+    "translation": "彼女は青いジーンズをはいていた。",
+    "cloze": "She was wearing a pair of blue ｟jeans｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1266,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xb5013ac2",
+  "courseId": "en-10-30k",
+  "headword": "junk",
+  "reading": "/dʒˈʌŋk/",
+  "gloss": "がらくた、くず;(junk foodで)ジャンクフード",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like junk food.",
+    "translation": "ジャンクフードが好きなんだ。",
+    "cloze": "I like ｟＿｠ food."
+   },
+   {
+    "text": "I don't eat junk food.",
+    "translation": "ジャンクフードは食べないよ。",
+    "cloze": "I don't eat ｟＿｠ food."
+   }
+  ],
+  "frequencyRank": 1530,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xe797be23",
+  "courseId": "en-10-30k",
+  "headword": "java",
+  "reading": "/dʒˈɑvə/",
+  "gloss": "ジャワ島(インドネシア);《米俗》コーヒー;プログラミング言語Java",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This coffee is a blend of Java and Brazil.",
+    "translation": "このコーヒーはジャワとブラジルのブレンドだ。",
+    "cloze": "This coffee is a blend of ｟＿｠ and Brazil."
+   },
+   {
+    "text": "Java and Javascript are like India and Indonesia, they aren't the same thing.",
+    "translation": "JavaとJavaScriptはインドとインドネシアくらい違うものです。",
+    "cloze": "｟＿｠ and Javascript are like India and Indonesia, they aren't the same thing."
+   }
+  ],
+  "frequencyRank": 1687,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb1af2ba7",
+  "courseId": "en-10-30k",
+  "headword": "jefferson",
+  "reading": "/dʒˈɛfɚsən/",
+  "gloss": "ジェファーソン(トマス・ジェファーソン、米国第3代大統領・独立宣言起草者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Thomas Jefferson wrote the Declaration of Independence.",
+    "translation": "トマス・ジェファーソンは独立宣言を起草した。",
+    "cloze": "Thomas ｟＿｠ wrote the Declaration of Independence.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Jefferson served as the third President of the United States.",
+    "translation": "ジェファーソンはアメリカ合衆国第3代大統領を務めた。",
+    "cloze": "｟＿｠ served as the third President of the United States.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1688,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3a411864",
+  "courseId": "en-10-30k",
+  "headword": "julian",
+  "reading": "/dʒˈuliən/",
+  "gloss": "ユリウスの、ユリウス暦の(Julian calendar)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "What day is it today on the Julian calendar?",
+    "translation": "ユリウス暦で、今日は何月何日？",
+    "cloze": "What day is it today on the ｟＿｠ calendar?"
+   },
+   {
+    "text": "The Julian calendar was introduced by Julius Caesar in 45 BC.",
+    "translation": "ユリウス暦は紀元前45年にユリウス・カエサルによって導入された。",
+    "cloze": "The ｟＿｠ calendar was introduced by Julius Caesar in 45 BC.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1738,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xae308502",
+  "courseId": "en-10-30k",
+  "headword": "jaw",
+  "reading": "/dʒˈɔ/",
+  "gloss": "あご",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My jaw hurts.",
+    "translation": "あごが痛い。",
+    "cloze": "My ｟＿｠ hurts."
+   },
+   {
+    "text": "My jaw is sore.",
+    "translation": "あごが痛い。",
+    "cloze": "My ｟＿｠ is sore."
+   }
+  ],
+  "frequencyRank": 1795,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xb6b2ba74",
+  "courseId": "en-10-30k",
+  "headword": "jun",
+  "reading": "/dʒˈʌn/",
+  "gloss": "6月(Juneの略語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm afraid you must have misinterpreted my e-mail of Jun 8.",
+    "translation": "私の６月８日のｅ—ｍａｉｌを誤解されたようです。",
+    "cloze": "I'm afraid you must have misinterpreted my e-mail of ｟Jun｠ 8."
+   },
+   {
+    "text": "The meeting is scheduled for Jun 15.",
+    "translation": "会議は6月15日に予定されています。",
+    "cloze": "The meeting is scheduled for ｟Jun｠ 15.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2035,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xede14a4e",
+  "courseId": "en-10-30k",
+  "headword": "jar",
+  "reading": "/dʒˈɑɹ/",
+  "gloss": "瓶、つぼ、かめ(広口の容器)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The jar is empty.",
+    "translation": "瓶は空っぽだよ。",
+    "cloze": "The ｟＿｠ is empty."
+   },
+   {
+    "text": "Fill the jars with water.",
+    "translation": "水瓶に水を満たしなさい。",
+    "cloze": "Fill the ｟＿｠ with water."
+   }
+  ],
+  "frequencyRank": 2101,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x3d78ae8d",
+  "courseId": "en-10-30k",
+  "headword": "jamaica",
+  "reading": "/dʒəmˈeɪkə/",
+  "gloss": "ジャマイカ(カリブ海の島国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "He took up residence in Jamaica.",
+    "translation": "彼はジャマイカに住居を構えた。",
+    "cloze": "He took up residence in ｟＿｠."
+   },
+   {
+    "text": "He set up a new home in Jamaica.",
+    "translation": "彼はジャマイカに新居を構えた。",
+    "cloze": "He set up a new home in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2169,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xbf77268c",
+  "courseId": "en-10-30k",
+  "headword": "joey",
+  "reading": "/dʒˈoʊi/",
+  "gloss": "(カンガルーなどの)赤ちゃん、子",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The joey stayed in its mother's pouch.",
+    "translation": "その赤ちゃんカンガルーは母親の袋の中にいた。",
+    "cloze": "The ｟＿｠ stayed in its mother's pouch.",
+    "aiGenerated": true
+   },
+   {
+    "text": "A baby kangaroo is called a joey.",
+    "translation": "赤ちゃんカンガルーはジョーイと呼ばれる。",
+    "cloze": "A baby kangaroo is called a ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2170,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x92b8aa72",
+  "courseId": "en-10-30k",
+  "headword": "joshua",
+  "reading": "/dʒˈɑʃˌuə/",
+  "gloss": "ヨシュア(旧約聖書に登場する指導者、モーセの後継者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "go, joshua.",
+    "translation": "良いわ、ジョシュア 行って!",
+    "cloze": "go, ｟＿｠."
+   },
+   {
+    "text": "is joshua also robbery?",
+    "translation": "ジョシュアが また強盗を?",
+    "cloze": "is ｟＿｠ also robbery?"
+   }
+  ],
+  "frequencyRank": 2171,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xbed56e08",
+  "courseId": "en-10-30k",
+  "headword": "jenny",
+  "reading": "/dʒˈɛni/",
+  "gloss": "雌ロバ;紡績機(spinning jenny)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The jenny grazed peacefully in the field.",
+    "translation": "その雌ロバは野原で穏やかに草を食んでいた。",
+    "cloze": "The ｟＿｠ grazed peacefully in the field.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The spinning jenny revolutionized the textile industry.",
+    "translation": "紡績機(スピニング・ジェニー)は繊維産業に革命をもたらした。",
+    "cloze": "The spinning ｟＿｠ revolutionized the textile industry.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2386,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xf1b84eb8",
+  "courseId": "en-10-30k",
+  "headword": "jew",
+  "reading": "/dʒˈu/",
+  "gloss": "ユダヤ人、ユダヤ教徒",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm a Jew.",
+    "translation": "ユダヤ人です。",
+    "cloze": "I'm a ｟＿｠."
+   },
+   {
+    "text": "I'm an American Jew.",
+    "translation": "アメリカのユダヤ人です。",
+    "cloze": "I'm an American ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2509,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x63c8449c",
+  "courseId": "en-10-30k",
+  "headword": "joyce",
+  "reading": "/dʒˈɔɪs/",
+  "gloss": "ジョイス(ジェイムズ・ジョイス;1882-1941;アイルランド生まれの英国の小説家。代表作『ユリシーズ』)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "you know i actually had a professor that dined there, and saw james joyce!",
+    "translation": "そこで食事をした教授が いるんだけど あのジェイムスジョイス に会ってるんだ",
+    "cloze": "...and saw james ｟＿｠!"
+   },
+   {
+    "text": "James Joyce is famous for his novel \"Ulysses\".",
+    "translation": "ジェイムズ・ジョイスは小説『ユリシーズ』で有名だ。",
+    "cloze": "James ｟＿｠ is famous for his novel \"Ulysses\".",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2575,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xee74d4a2",
+  "courseId": "en-10-30k",
+  "headword": "jell",
+  "reading": "/dʒˈɛl/",
+  "gloss": "ゼリー状に固まる;(計画などが)まとまる,はっきりする",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Our travel plans finally gelled last week.",
+    "translation": "私たちの旅行計画がついに先週まとまった。",
+    "cloze": "Our travel plans finally ｟gelled｠ last week.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The mixture will jell in the refrigerator.",
+    "translation": "その混合物は冷蔵庫でゼリー状に固まるだろう。",
+    "cloze": "The mixture will ｟jell｠ in the refrigerator.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2701,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x8971fe0d",
+  "courseId": "en-10-30k",
+  "headword": "jointly",
+  "reading": "/dʒˈɔɪntli/",
+  "gloss": "共同して,連帯で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "We run the store jointly.",
+    "translation": "私たちはその店を共同で経営している。",
+    "cloze": "We run the store ｟＿｠."
+   },
+   {
+    "text": "They worked jointly on this project.",
+    "translation": "彼らはこの計画に連帯してあたった。",
+    "cloze": "They worked ｟＿｠ on this project."
+   }
+  ],
+  "frequencyRank": 3179,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xdc84d89e",
+  "courseId": "en-10-30k",
+  "headword": "jelly",
+  "reading": "/dʒˈɛli/",
+  "gloss": "ゼリー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He likes jelly.",
+    "translation": "彼の好きなのはゼリーです。",
+    "cloze": "He likes ｟＿｠."
+   },
+   {
+    "text": "Jelly sets as it cools.",
+    "translation": "ゼリーは冷えると固くなる。",
+    "cloze": "｟＿｠ sets as it cools."
+   }
+  ],
+  "frequencyRank": 3264,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x6e056123",
+  "courseId": "en-10-30k",
+  "headword": "jealousy",
+  "reading": "/dʒˈɛləsi/",
+  "gloss": "嫉妬、ねたみ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She is torn by jealousy.",
+    "translation": "彼女は嫉妬にかられて苦しんでいる。",
+    "cloze": "She is torn by ｟＿｠."
+   },
+   {
+    "text": "She burned with jealousy.",
+    "translation": "彼女は嫉妬の炎を燃やした。",
+    "cloze": "She burned with ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3532,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xca2fa38f",
+  "courseId": "en-10-30k",
+  "headword": "joker",
+  "reading": "/dʒˈoʊkɚ/",
+  "gloss": "冗談を言う人、おどけ者;(トランプの)ジョーカー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is a good joker.",
+    "translation": "あいつは、なかなかいい奴だぜ！",
+    "cloze": "He is a good ｟＿｠."
+   },
+   {
+    "text": "He has the Joker.",
+    "translation": "彼は、ジョーカーを持っています。",
+    "cloze": "He has the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3534,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x858f6d8a",
+  "courseId": "en-10-30k",
+  "headword": "jeep",
+  "reading": "/dʒˈip/",
+  "gloss": "ジープ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom got out of the jeep.",
+    "translation": "トムはジープから降りた。",
+    "cloze": "Tom got out of the ｟jeep｠."
+   },
+   {
+    "text": "He recently traded in his jeep for a new Mercedes.",
+    "translation": "彼は新しいメルセデスを買うのに彼のジープを出した。",
+    "cloze": "He recently traded in his ｟jeep｠ for a new Mercedes."
+   }
+  ],
+  "frequencyRank": 3724,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x03f94f82",
+  "courseId": "en-10-30k",
+  "headword": "juicy",
+  "reading": "/dʒˈusi/",
+  "gloss": "(果物などが)汁の多い,みずみずしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "These figs are juicy.",
+    "translation": "このイチジク、みずみずしい。",
+    "cloze": "These figs are ｟＿｠."
+   },
+   {
+    "text": "This steak is very juicy.",
+    "translation": "このステーキ、とてもジューシーね。",
+    "cloze": "This steak is very ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3927,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x7d836966",
+  "courseId": "en-10-30k",
+  "headword": "jumper",
+  "reading": "/dʒˈʌmpɚ/",
+  "gloss": "《英》セーター,頭からかぶる上着;ジャンパー線(ケーブル)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like that jumper.",
+    "translation": "そのジャンバー好きだな。",
+    "cloze": "I like that ｟＿｠."
+   },
+   {
+    "text": "Tom always keeps a set of jumper cables in the trunk of his car.",
+    "translation": "トムはいつも車のトランクにブースターケーブルを積んでいる。",
+    "cloze": "Tom always keeps a set of ｟＿｠ cables in the trunk of his car."
+   }
+  ],
+  "frequencyRank": 3928,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xf74eff95",
+  "courseId": "en-10-30k",
+  "headword": "jewel",
+  "reading": "/dʒˈuəl/",
+  "gloss": "宝石;貴重な人・もの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We paid customs on jewels.",
+    "translation": "宝石の関税を払った。",
+    "cloze": "We paid customs on ｟jewels｠."
+   },
+   {
+    "text": "She was tricked up in jewels.",
+    "translation": "彼女は宝石で飾りたてた。",
+    "cloze": "She was tricked up in ｟jewels｠."
+   }
+  ],
+  "frequencyRank": 4112,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x3e4379b6",
+  "courseId": "en-10-30k",
+  "headword": "jupiter",
+  "reading": "/dʒˈupətɚ/",
+  "gloss": "木星;(ローマ神話の)ジュピター(主神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jupiter is very large.",
+    "translation": "木星はとても大きいよ。",
+    "cloze": "｟Jupiter｠ is very large."
+   },
+   {
+    "text": "Jupiter is made of gas.",
+    "translation": "木星はガスでできてるんだ。",
+    "cloze": "｟Jupiter｠ is made of gas."
+   }
+  ],
+  "frequencyRank": 4113,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xf450eaf2",
+  "courseId": "en-10-30k",
+  "headword": "jakarta",
+  "reading": "/dʒəkˈɑɹtə/",
+  "gloss": "ジャカルタ（インドネシアの首都）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Potatoes were introduced by the Dutch from Jakarta.",
+    "translation": "ジャガイモはジャカルタからオランダ人によって伝えられました。",
+    "cloze": "Potatoes were introduced by the Dutch from ｟Jakarta｠."
+   },
+   {
+    "text": "i met a band of homeless children who'd come to jakarta from the countryside",
+    "translation": "私は田舎からジャカルタに出て来て、結局は駅舎で生活するようになった",
+    "cloze": "i met a band of homeless children who'd come to ｟jakarta｠ from the countryside"
+   }
+  ],
+  "frequencyRank": 4210,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5c472065",
+  "courseId": "en-10-30k",
+  "headword": "johannesburg",
+  "reading": "/dʒˌoʊhˈænɪsbɚɡ/",
+  "gloss": "ヨハネスブルグ（南アフリカ共和国の都市）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "a short time later, another died in johannesburg.",
+    "translation": "その後まもなく ヨハネスブルクで1名死亡",
+    "cloze": "a short time later, another died in ｟johannesburg｠."
+   },
+   {
+    "text": "200 kilometers outside of johannesburg city.",
+    "translation": "ヨハネスブルグから 200キロの場所です",
+    "cloze": "200 kilometers outside of ｟johannesburg｠ city."
+   }
+  ],
+  "frequencyRank": 4211,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdecd1f33",
+  "courseId": "en-10-30k",
+  "headword": "jul",
+  "reading": null,
+  "gloss": "7月(Julyの略記)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "On Jul 18th Mark/Space released an updated version of Missing Sync for Windows Mobile for the Mac OS X.",
+    "translation": "Ｍａｒｋ／Ｓｐａｃｅは７月１８日、Ｍａｃ　ＯＳ Ｘ用シンクロソフト、Ｍｉｓｓｉｎｇ　Ｓｙｎｃ　ｆｏｒ　Ｗｉｎｄｏｗｓ　Ｍｏｂｉｌｅのアップデート版をリリースした。",
+    "cloze": "On ｟Jul｠ 18th Mark/Space released an updated version of Missing Sync for Windows Mobile for the Mac OS X."
+   },
+   {
+    "text": "The report is due on Jul 5.",
+    "translation": "その報告書は7月5日締め切りだ。",
+    "cloze": "The report is due on ｟Jul｠ 5.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4534,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x0691af21",
+  "courseId": "en-10-30k",
+  "headword": "jacksonville",
+  "reading": "/dʒˈæksənvˌɪl/",
+  "gloss": "ジャクソンビル(アメリカ・フロリダ州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "mm, a social worker brought you and your sister up from jacksonville on the train.",
+    "translation": "ソーシャルワーカーと 列車でジャクソンビルから来たのよ",
+    "cloze": "mm, a social worker brought you and your sister up from ｟＿｠ on the train."
+   },
+   {
+    "text": "Jacksonville is the largest city in Florida by population.",
+    "translation": "ジャクソンビルは人口においてフロリダ州最大の都市である。",
+    "cloze": "｟＿｠ is the largest city in Florida by population.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4866,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc819daac",
+  "courseId": "en-10-30k",
+  "headword": "jasmine",
+  "reading": "/dʒˈæzmən/",
+  "gloss": "ジャスミン(常緑低木、その花の香り)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Is this jasmine tea?",
+    "translation": "これってジャスミン茶？",
+    "cloze": "Is this ｟＿｠ tea?"
+   },
+   {
+    "text": "The garden was filled with the sweet scent of jasmine.",
+    "translation": "庭は甘いジャスミンの香りで満ちていた。",
+    "cloze": "The garden was filled with the sweet scent of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4867,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x85fd3e8f",
+  "courseId": "en-10-30k",
+  "headword": "jasper",
+  "reading": "/dʒˈæspɚ/",
+  "gloss": "碧玉（へきぎょく）（石英の一種で宝石として使われる）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This bracelet is made of red jasper.",
+    "translation": "この腕輪は赤い碧玉でできている。",
+    "cloze": "This bracelet is made of red ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Jasper is often used in jewelry and decorative carvings.",
+    "translation": "碧玉は宝飾品や装飾彫刻によく使われる。",
+    "cloze": "｟＿｠ is often used in jewelry and decorative carvings.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5114,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xe0151941",
+  "courseId": "en-10-30k",
+  "headword": "juliet",
+  "reading": "/dʒˈuliˌɛt/",
+  "gloss": "ジュリエット（『ロミオとジュリエット』のヒロイン）；NATOフォネティックコードでアルファベットのJを表す語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Romeo is the man Juliet loves.",
+    "translation": "ロメオはジュリエットが愛している男だ。",
+    "cloze": "Romeo is the man ｟＿｠ loves."
+   },
+   {
+    "text": "Romeo and Juliet is on at the theatre.",
+    "translation": "「ロミオとジュリエット」が劇場で上演されている。",
+    "cloze": "Romeo and ｟＿｠ is on at the theatre."
+   }
+  ],
+  "frequencyRank": 5115,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2495756c",
+  "courseId": "en-10-30k",
+  "headword": "judaism",
+  "reading": "/dʒˈudeɪˌɪzəm/",
+  "gloss": "ユダヤ教",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Outside the mainstream of orthodox Judaism, apocalypticism was more successful with certain movements.",
+    "translation": "ユダヤ正統派の主流から外れた部分においては、黙示録はある種の運動に対して、より成功を収めたのである。",
+    "cloze": "Outside the mainstream of orthodox ｟＿｠, apocalypticism was more successful with certain movements."
+   },
+   {
+    "text": "reshaped judaism.",
+    "translation": "ユダヤ教は大きく発展しました",
+    "cloze": "reshaped ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5228,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xe200bc53",
+  "courseId": "en-10-30k",
+  "headword": "jamaican",
+  "reading": "/dʒəmˈeɪkən/",
+  "gloss": "ジャマイカの、ジャマイカ人の;ジャマイカ人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "when jamaican sprinter usain bolt finished",
+    "translation": "ゴールするジャマイカ人 スプリンター、ウサイン・ボルトの",
+    "cloze": "when ｟＿｠ sprinter usain bolt finished"
+   },
+   {
+    "text": "you as a child of a jamaican immigrant",
+    "translation": "「ジャマイカ系移民の子供として",
+    "cloze": "you as a child of a ｟＿｠ immigrant"
+   }
+  ],
+  "frequencyRank": 5337,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc3d31fee",
+  "courseId": "en-10-30k",
+  "headword": "jolly",
+  "reading": "/dʒˈɑli/",
+  "gloss": "陽気な、愉快な;(強意で)非常に",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The weather's rather jolly today.",
+    "translation": "今日は随分気持ちのいい天気だ。",
+    "cloze": "The weather's rather ｟＿｠ today."
+   },
+   {
+    "text": "for fear that they were expecting him this kind of jolly santa clauslike figure",
+    "translation": "無口な自分は 陽気なサンタのような—",
+    "cloze": "for fear that they were expecting him this kind of ｟＿｠ santa clauslike figure"
+   }
+  ],
+  "frequencyRank": 5339,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x57506780",
+  "courseId": "en-10-30k",
+  "headword": "jonah",
+  "reading": "/dʒˈoʊnə/",
+  "gloss": "ヨナ(旧約聖書の預言者;大魚に飲み込まれた話で有名);不運をもたらす人",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "According to the Bible, Jonah was swallowed by a great fish.",
+    "translation": "聖書によれば、ヨナは大きな魚に飲み込まれた。",
+    "cloze": "According to the Bible, ｟＿｠ was swallowed by a great fish.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5834,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x802fc506",
+  "courseId": "en-10-30k",
+  "headword": "jaguar",
+  "reading": "/dʒˈæɡwˌɑɹ/",
+  "gloss": "ジャガー(中南米産の大型ネコ科動物)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The jaguar is the largest cat species in the Americas.",
+    "translation": "ジャガーは南北アメリカ大陸最大のネコ科動物である。",
+    "cloze": "The ｟＿｠ is the largest cat species in the Americas.",
+    "aiGenerated": true
+   },
+   {
+    "text": "A jaguar can run very fast and climb trees easily.",
+    "translation": "ジャガーはとても速く走り、木にも簡単に登れる。",
+    "cloze": "A ｟＿｠ can run very fast and climb trees easily.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6103,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xeb59afd6",
+  "courseId": "en-10-30k",
+  "headword": "jackpot",
+  "reading": "/dʒˈækpˌɑt/",
+  "gloss": "(賭け事などの)大当たり,特賞;積み立て賞金",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I hit the jackpot.",
+    "translation": "くじは私に当たった。",
+    "cloze": "I hit the ｟＿｠."
+   },
+   {
+    "text": "My sister hit the jackpot!",
+    "translation": "僕の姉が大躍進だよ。",
+    "cloze": "My sister hit the ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 6226,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x126ed47a",
+  "courseId": "en-10-30k",
+  "headword": "javascript",
+  "reading": "/dʒˈɑvəskɹˌɪpt/",
+  "gloss": "JavaScript(プログラミング言語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "JavaScript is a programming language.",
+    "translation": "JavaScriptは、プログラミング言語です。",
+    "cloze": "｟＿｠ is a programming language."
+   },
+   {
+    "text": "it was somebody who was trying to ask a question about javascript.",
+    "translation": "javascriptについての質問をしています",
+    "cloze": "it was somebody who was trying to ask a question about ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6227,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xce9ab0ff",
+  "courseId": "en-10-30k",
+  "headword": "jurassic",
+  "reading": "/dʒʊɹˈæsɪk/",
+  "gloss": "ジュラ紀の;ジュラ紀(地質時代)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The dinosaurs in the film \"Jurassic Park\" were true-to-life.",
+    "translation": "映画『ジュラシック・パーク』の恐竜は本物そっくりだ。",
+    "cloze": "The dinosaurs in the film \"｟＿｠ Park\" were true-to-life."
+   },
+   {
+    "text": "thank you for visiting jurassic world.",
+    "translation": "ようこそ ジュラッシック・ワールドへ",
+    "cloze": "thank you for visiting ｟＿｠ world."
+   }
+  ],
+  "frequencyRank": 6228,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x871c26a8",
+  "courseId": "en-10-30k",
+  "headword": "jeremiah",
+  "reading": "/dʒˌɛɹəmˈaɪə/",
+  "gloss": "エレミヤ(旧約聖書の預言者);(j-)悲観論者",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The prophet Jeremiah warned of coming disaster.",
+    "translation": "預言者エレミヤは来るべき災いを警告した。",
+    "cloze": "The prophet ｟＿｠ warned of coming disaster.",
+    "aiGenerated": true
+   },
+   {
+    "text": "His friends called him a jeremiah because he always predicted the worst.",
+    "translation": "彼はいつも最悪の事態を予想するので、友人たちは彼を悲観論者と呼んだ。",
+    "cloze": "His friends called him a ｟＿｠ because he always predicted the worst.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6511,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe98d600e",
+  "courseId": "en-10-30k",
+  "headword": "jeez",
+  "reading": "/dʒˈiz/",
+  "gloss": "うわっ、げっ(驚き・いらだちを表す間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Jeez, what're you up to?",
+    "translation": "もう～、なにやってんだよ。",
+    "cloze": "｟Jeez｠, what're you up to?"
+   },
+   {
+    "text": "“Ooh, those fish cakes look tasty! Can I try them?” “No, don’t! They’re for New Year’s!” “Jeez, stingy much?”",
+    "translation": "「美味しそうな蒲鉾みっけ。食べていい？」「ダメよ。お節用なんだから」「けち」",
+    "cloze": "“Ooh, those fish cakes look tasty! Can I try them?” “No, don’t! They’re for New Year’s!” “｟Jeez｠, stingy much?”"
+   }
+  ],
+  "frequencyRank": 6776,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x58dc7552",
+  "courseId": "en-10-30k",
+  "headword": "jfk",
+  "reading": "/dʒˈiˌɛfkˈeɪ/",
+  "gloss": "JFK(ジョン・F・ケネディ;第35代米大統領);ニューヨークのケネディ国際空港の略称",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "cleared to jfk. expect flight level 280.",
+    "translation": "JFKへの飛行許可 高度28,000フィート",
+    "cloze": "cleared to ｟＿｠. expect flight level 280."
+   },
+   {
+    "text": "JFK was assassinated in Dallas in 1963.",
+    "translation": "JFKは1963年にダラスで暗殺された。",
+    "cloze": "｟＿｠ was assassinated in Dallas in 1963.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7057,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1d14d284",
+  "courseId": "en-10-30k",
+  "headword": "jubilee",
+  "reading": "/dʒˈubəlˌi/",
+  "gloss": "(25年・50年などの)記念祭、祝典",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "at our gold jubilee level.",
+    "translation": "祝典レベルで",
+    "cloze": "at our gold ｟＿｠ level."
+   },
+   {
+    "text": "that 50th year is called the jubilee year",
+    "translation": "この50年目の年はヨベルの年と呼ばれ",
+    "cloze": "that 50th year is called the ｟＿｠ year"
+   }
+  ],
+  "frequencyRank": 7058,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xc0ec1d16",
+  "courseId": "en-10-30k",
+  "headword": "joyful",
+  "reading": "/dʒˈɔɪfəl/",
+  "gloss": "うれしい、喜びに満ちた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "We saw a joyful sight.",
+    "translation": "私たちは楽しい光景を目にした。",
+    "cloze": "We saw a ｟joyful｠ sight."
+   },
+   {
+    "text": "We were filled with joyful expectation.",
+    "translation": "期待に胸を膨らませていた。",
+    "cloze": "We were filled with ｟joyful｠ expectation."
+   }
+  ],
+  "frequencyRank": 7629,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x7481d7c4",
+  "courseId": "en-10-30k",
+  "headword": "judah",
+  "reading": "/dʒˈudə/",
+  "gloss": "ユダ王国(古代ヘブライ人の王国、聖書に登場)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Kingdom of Judah existed in ancient Palestine.",
+    "translation": "ユダ王国は古代パレスチナに存在した。",
+    "cloze": "The Kingdom of ｟Judah｠ existed in ancient Palestine.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Judah was one of the twelve tribes of Israel.",
+    "translation": "ユダはイスラエルの十二部族の一つであった。",
+    "cloze": "｟Judah｠ was one of the twelve tribes of Israel.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7630,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe21a2423",
+  "courseId": "en-10-30k",
+  "headword": "jog",
+  "reading": "/dʒˈɑɡ/",
+  "gloss": "ゆっくり走る,ジョギングする;軽く揺り動かす",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I jog every day.",
+    "translation": "私は毎日走ります。",
+    "cloze": "I ｟＿｠ every day."
+   },
+   {
+    "text": "I jog twice a week.",
+    "translation": "私は週に２回ジョギングをします。",
+    "cloze": "I ｟＿｠ twice a week."
+   }
+  ],
+  "frequencyRank": 7942,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x77aea0ec",
+  "courseId": "en-10-30k",
+  "headword": "jumbo",
+  "reading": "/dʒˈʌmboʊ/",
+  "gloss": "巨大な,でかい;ジャンボジェット機",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I saw a jumbo jet take off.",
+    "translation": "私はジャンボ機が離陸するのを見た。",
+    "cloze": "I saw a ｟＿｠ jet take off."
+   },
+   {
+    "text": "That jumbo jet accommodates 400 passengers.",
+    "translation": "あのジャンボジェット機は４００人乗れる。",
+    "cloze": "That ｟＿｠ jet accommodates 400 passengers."
+   }
+  ],
+  "frequencyRank": 7943,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x54347a86",
+  "courseId": "en-10-30k",
+  "headword": "judas",
+  "reading": "/dʒˈudəs/",
+  "gloss": "ユダ(キリストを裏切った使徒);裏切り者",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "judas and pietro della vigna are linked in dante's inferno.",
+    "translation": "ユダとピエル・デッラ・ヴィーニャは ダンテの地獄において一括りにされております。",
+    "cloze": "｟＿｠ and pietro della vigna are linked in dante's inferno."
+   },
+   {
+    "text": "thanks a million, judas.",
+    "translation": "裏切り者めが",
+    "cloze": "thanks a million, ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8094,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7321aec0",
+  "courseId": "en-10-30k",
+  "headword": "jackass",
+  "reading": "/dʒˈækˌæs/",
+  "gloss": "（俗語）まぬけ、ばか者；雄ロバ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "what are you doing, jackass?",
+    "translation": "何してんだ 馬鹿か?",
+    "cloze": "what are you doing, ｟＿｠?"
+   },
+   {
+    "text": "chief jackass again?",
+    "translation": "またジャッカス主任?",
+    "cloze": "chief ｟＿｠ again?"
+   }
+  ],
+  "frequencyRank": 8759,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc531204d",
+  "courseId": "en-10-30k",
+  "headword": "jericho",
+  "reading": "/dʒˈɛɹɪkˌoʊ/",
+  "gloss": "エリコ（死海北方にあるパレスチナの古都、世界最古級の都市の一つ）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jericho is considered one of the oldest continuously inhabited cities in the world.",
+    "translation": "エリコは世界最古の居住都市の一つとされている。",
+    "cloze": "｟＿｠ is considered one of the oldest continuously inhabited cities in the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8760,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe46625b7",
+  "courseId": "en-10-30k",
+  "headword": "joyous",
+  "reading": "/dʒˈɔɪəs/",
+  "gloss": "喜ばしい、うれしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "May happiness and joy come to you as you celebrate this joyous day.",
+    "translation": "この喜ばしい日をお祝いし、幸せと喜びがあなたにきますように。",
+    "cloze": "May happiness and joy come to you as you celebrate this ｟＿｠ day."
+   },
+   {
+    "text": "i thought singing was a joyous expression of the soul.",
+    "translation": "歌うことは 魂の喜びの表現よ",
+    "cloze": "i thought singing was a ｟＿｠ expression of the soul."
+   }
+  ],
+  "frequencyRank": 8763,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x11c090e9",
+  "courseId": "en-10-30k",
+  "headword": "jug",
+  "reading": "/dʒˈʌɡ/",
+  "gloss": "水差し,つぼ;《俗》刑務所",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They filled the jug to the brim.",
+    "translation": "彼らは水瓶を縁まで一杯にした。",
+    "cloze": "They filled the ｟＿｠ to the brim."
+   },
+   {
+    "text": "but what's inside the jug is water.",
+    "translation": "でも壺の中に入っている 水がですね",
+    "cloze": "but what's inside the ｟＿｠ is water."
+   }
+  ],
+  "frequencyRank": 9254,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xf9fadf25",
+  "courseId": "en-10-30k",
+  "headword": "jellyfish",
+  "reading": "/dʒˈɛlifˌɪʃ/",
+  "gloss": "クラゲ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do jellyfish stings kill you?",
+    "translation": "クラゲに刺されると死ぬの？",
+    "cloze": "Do ｟jellyfish｠ stings kill you?"
+   },
+   {
+    "text": "Have you ever eaten jellyfish?",
+    "translation": "クラゲは、食べたことがある？",
+    "cloze": "Have you ever eaten ｟jellyfish｠?"
+   }
+  ],
+  "frequencyRank": 10165,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xc9ce7aa3",
+  "courseId": "en-10-30k",
+  "headword": "juggle",
+  "reading": "/dʒˈʌɡəl/",
+  "gloss": "(ボールなどを)曲芸のように操る、ジャグリングする",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Do you know how to juggle?",
+    "translation": "ジャグリングのやり方がわかりますか。",
+    "cloze": "Do you know how to ｟＿｠?"
+   },
+   {
+    "text": "We saw Tom juggling three balls.",
+    "translation": "俺たちトムが３つのボールをジャグリングしてるの見たんだよ。",
+    "cloze": "We saw Tom ｟＿｠ three balls."
+   }
+  ],
+  "frequencyRank": 10558,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x926b5b7d",
+  "courseId": "en-10-30k",
+  "headword": "jingle",
+  "reading": "/dʒˈɪŋɡəl/",
+  "gloss": "(鈴などが)リンリン鳴る音;コマーシャルソング",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "doggy is digging here, woof woof large gold coins jingling.",
+    "translation": "ポチが ここ掘れワンワンって 大判小判がザックザクよ!",
+    "cloze": "doggy is digging here, woof woof large gold coins ｟jingling｠."
+   },
+   {
+    "text": "freedom. the fatuous jingle of our civilization.",
+    "translation": "フリーダム 我々の文明で愚かな言葉",
+    "cloze": "freedom. the fatuous ｟jingle｠ of our civilization."
+   }
+  ],
+  "frequencyRank": 10939,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x9d557798",
+  "courseId": "en-10-30k",
+  "headword": "janitor",
+  "reading": "/dʒˈænətɚ/",
+  "gloss": "(米)用務員、管理人;(英)門番、守衛",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "did the janitor see anyone?",
+    "translation": "管理人は 誰か見た?",
+    "cloze": "did the ｟＿｠ see anyone?"
+   },
+   {
+    "text": "speaking of janitors, here come a few now.",
+    "translation": "管理人といえば すぐにここに数人来る",
+    "cloze": "speaking of ｟＿｠, here come a few now."
+   }
+  ],
+  "frequencyRank": 11134,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xb193b1b4",
+  "courseId": "en-10-30k",
+  "headword": "jokingly",
+  "reading": "/dʒˈoʊkɪŋli/",
+  "gloss": "冗談に、冗談半分に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "which we jokingly call searching inside yourself.",
+    "translation": "私たちは冗談でこれを「自分の内面探し」と呼んでいます",
+    "cloze": "which we ｟＿｠ call searching inside yourself."
+   },
+   {
+    "text": "and jokingly we refer to it as expensive scare.",
+    "translation": "冗談で「高くつく恐怖」と言っています",
+    "cloze": "and ｟＿｠ we refer to it as expensive scare."
+   }
+  ],
+  "frequencyRank": 11527,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xd1f13e82",
+  "courseId": "en-10-30k",
+  "headword": "jordanian",
+  "reading": "/dʒˌɔɹdˈeɪniən/",
+  "gloss": "ヨルダンの,ヨルダン人の;ヨルダン人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "sold it to a jordanian prince living up there.",
+    "translation": "あそこに住んでる ジョーダン王子に売った",
+    "cloze": "sold it to a ｟jordanian｠ prince living up there."
+   },
+   {
+    "text": "dr. maximillian aziz, jordanian, was actually in the auditorium the time the bomb went off.",
+    "translation": "ヨルダン人の アジズ博士は 爆発事件の時 セレモニーホールにいた",
+    "cloze": "dr. maximillian aziz, ｟jordanian｠, was actually in the auditorium the time the bomb went off."
+   }
+  ],
+  "frequencyRank": 11723,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x237b5f87",
+  "courseId": "en-10-30k",
+  "headword": "juno",
+  "reading": "/dʒˈunoʊ/",
+  "gloss": "(ローマ神話の)女神ユーノー(ジュピターの妻;結婚の女神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Romans worshiped their goddess, Juno.",
+    "translation": "ローマ人は彼らの女神であるジューノを崇拝した。",
+    "cloze": "The Romans worshiped their goddess, ｟Juno｠."
+   },
+   {
+    "text": "juno is known as hera in greek mythology",
+    "translation": "ユノはギリシャ神話ではヘラという女神で",
+    "cloze": "｟juno｠ is known as hera in greek mythology"
+   }
+  ],
+  "frequencyRank": 11724,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x7fccfb63",
+  "courseId": "en-10-30k",
+  "headword": "jehovah",
+  "reading": "/dʒəhˈoʊvə/",
+  "gloss": "エホバ(旧約聖書に登場するイスラエルの神の名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i got some jehovah witnesses or something at the door. all right. cbi, ma'am.",
+    "translation": "エホバの証人かなんか玄関に 来たのよ CBIです",
+    "cloze": "i got some ｟jehovah｠ witnesses or something at the door. all right. cbi, ma'am."
+   },
+   {
+    "text": "Jehovah is referred to as God in the Old Testament.",
+    "translation": "エホバは旧約聖書で神として言及されている。",
+    "cloze": "｟Jehovah｠ is referred to as God in the Old Testament.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12112,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xface67d4",
+  "courseId": "en-10-30k",
+  "headword": "jigsaw",
+  "reading": "/dʒˈɪɡsˌɔ/",
+  "gloss": "曲線びき用のこぎり,糸のこぎり(ジグソーパズル)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I felt it was a relatively difficult jigsaw puzzle.",
+    "translation": "比較的難しいジグソーだと感じました。",
+    "cloze": "I felt it was a relatively difficult ｟jigsaw｠ puzzle."
+   },
+   {
+    "text": "Jigsaw refers to a fret saw - that's how the name's origin was derived.",
+    "translation": "ジグソーとは糸鋸の事で、名前の由来はそこからきているの。",
+    "cloze": "｟Jigsaw｠ refers to a fret saw - that's how the name's origin was derived."
+   }
+  ],
+  "frequencyRank": 12113,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x5cdf2dec",
+  "courseId": "en-10-30k",
+  "headword": "jus",
+  "reading": "/dʒˈu/",
+  "gloss": "肉汁,ジュ(ロースト肉から出る汁を使ったソース)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The steak was served with a rich beef jus.",
+    "translation": "ステーキは濃厚な牛肉のジュ(肉汁ソース)と共に提供された。",
+    "cloze": "The steak was served with a rich beef ｟jus｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12115,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x32f91b89",
+  "courseId": "en-10-30k",
+  "headword": "jinx",
+  "reading": "/dʒˈɪŋks/",
+  "gloss": "縁起の悪いもの、ジンクス;不運をもたらす",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Don't say that out loud — you'll jinx it!",
+    "translation": "それを声に出して言わないで、縁起が悪くなるよ!",
+    "cloze": "Don't say that out loud — you'll ｟jinx｠ it!",
+    "aiGenerated": true
+   },
+   {
+    "text": "Losing three games in a row felt like a jinx.",
+    "translation": "3連敗したのは、まるでジンクスのようだった。",
+    "cloze": "Losing three games in a row felt like a ｟jinx｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12347,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x02362978",
+  "courseId": "en-10-30k",
+  "headword": "jobless",
+  "reading": "/dʒˈɑbləs/",
+  "gloss": "失業している、仕事のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The jobless rate in Japan was 3.4 percent in September 2015.",
+    "translation": "2015年9月の日本の失業率は3.4パーセントだった。",
+    "cloze": "The ｟jobless｠ rate in Japan was 3.4 percent in September 2015."
+   },
+   {
+    "text": "but 1 out of 3 will be a jobless university graduate.",
+    "translation": "それでも3人に1人が 就職浪人だよ。",
+    "cloze": "but 1 out of 3 will be a ｟jobless｠ university graduate."
+   }
+  ],
+  "frequencyRank": 12348,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x5c2fd321",
+  "courseId": "en-10-30k",
+  "headword": "jaipur",
+  "reading": null,
+  "gloss": "ジャイプール(インド北西部の都市、「ピンクシティ」として知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "this is near jaipur. this is called the jaigarh fort.",
+    "translation": "ここはジャイガー・フォートという ジャイプールに近い場所です",
+    "cloze": "this is near ｟＿｠. this is called the jaigarh fort."
+   },
+   {
+    "text": "Jaipur is known as the Pink City of India.",
+    "translation": "ジャイプールはインドのピンクシティとして知られている。",
+    "cloze": "｟＿｠ is known as the Pink City of India.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13173,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x24d25f75",
+  "courseId": "en-10-30k",
+  "headword": "jain",
+  "reading": "/dʒˈaɪn/",
+  "gloss": "ジャイナ教徒(の)、ジャイナ教の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "perhaps he was a jain monk",
+    "translation": "おそらくジャイナ教の僧侶で",
+    "cloze": "perhaps he was a ｟jain｠ monk"
+   },
+   {
+    "text": "There is a large Jain community in Gujarat.",
+    "translation": "グジャラートには大きなジャイナ教徒のコミュニティがある。",
+    "cloze": "There is a large ｟Jain｠ community in Gujarat.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13443,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x4ae0e287",
+  "courseId": "en-10-30k",
+  "headword": "jammu",
+  "reading": "/dʒəmˈu/",
+  "gloss": "ジャンムー(インド北部の都市;ジャンムー・カシミール地方の冬の州都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jammu is the winter capital of Jammu and Kashmir.",
+    "translation": "ジャンムーはジャンムー・カシミール地方の冬の州都である。",
+    "cloze": "｟Jammu｠ is the winter capital of Jammu and Kashmir.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13444,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc74bb78f",
+  "courseId": "en-10-30k",
+  "headword": "jesuits",
+  "reading": "/dʒˈɛʒuɪts/",
+  "gloss": "イエズス会士、イエズス会(の会員)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Jesuits founded many schools and universities around the world.",
+    "translation": "イエズス会は世界中に多くの学校や大学を設立した。",
+    "cloze": "The ｟＿｠ founded many schools and universities around the world.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He was educated by Jesuits in his youth.",
+    "translation": "彼は若い頃イエズス会士たちに教育を受けた。",
+    "cloze": "He was educated by ｟＿｠ in his youth.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14151,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xc8d20d12",
+  "courseId": "en-10-30k",
+  "headword": "jpeg",
+  "reading": null,
+  "gloss": "JPEG(画像ファイルの圧縮形式)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "this isn't a jpeg.",
+    "translation": "これはJPEGじゃない",
+    "cloze": "this isn't a ｟＿｠."
+   },
+   {
+    "text": "make sure to name the picture file breivik.jpeg.",
+    "translation": "ファイル名を「Breivik.jpeg」とするのです",
+    "cloze": "make sure to name the picture file breivik.｟＿｠."
+   }
+  ],
+  "frequencyRank": 14624,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x3f7e2dcb",
+  "courseId": "en-10-30k",
+  "headword": "janus",
+  "reading": "/dʒˈeɪnəs/",
+  "gloss": "ヤヌス(ローマ神話の二面神;1月Januaryの語源)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "it's the, um, roman god, janus.",
+    "translation": "これねローマの神ヤヌスよ",
+    "cloze": "it's the, um, roman god, ｟janus｠."
+   },
+   {
+    "text": "the tower of janus...",
+    "translation": "ヤヌスの塔",
+    "cloze": "the tower of ｟janus｠..."
+   }
+  ],
+  "frequencyRank": 15135,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb89056b6",
+  "courseId": "en-10-30k",
+  "headword": "jukebox",
+  "reading": "/dʒˈukbˌɑks/",
+  "gloss": "ジュークボックス(硬貨を入れて曲を選んで再生する機械)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and there's jukeboxes in bars",
+    "translation": "バーにはジュークボックスがあって",
+    "cloze": "and there's ｟jukeboxes｠ in bars"
+   },
+   {
+    "text": "hey, i'm gonna play a song on that jukebox.",
+    "translation": "ジュークボックスをかけるね",
+    "cloze": "hey, i'm gonna play a song on that ｟jukebox｠."
+   }
+  ],
+  "frequencyRank": 15139,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xda8ca060",
+  "courseId": "en-10-30k",
+  "headword": "jumpsuit",
+  "reading": "/dʒˈʌmpsˌut/",
+  "gloss": "ジャンプスーツ、上下つなぎの服",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you got a lot of rage in that jumpsuit.",
+    "translation": "怒りのジャンプスーツね",
+    "cloze": "you got a lot of rage in that ｟jumpsuit｠."
+   },
+   {
+    "text": "next apocalypse i'm wearing a paper jumpsuit.",
+    "translation": "次回は、ジャンプスーツを 着てこよう",
+    "cloze": "next apocalypse i'm wearing a paper ｟jumpsuit｠."
+   }
+  ],
+  "frequencyRank": 15140,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x36929dcf",
+  "courseId": "en-10-30k",
+  "headword": "jazzy",
+  "reading": "/dʒˈæzi/",
+  "gloss": "ジャズ風の、はでな、けばけばしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She has a jazzy new outfit.",
+    "translation": "彼女は派手な新しい服を着ている。",
+    "cloze": "She has a ｟＿｠ new outfit.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The song has a jazzy rhythm.",
+    "translation": "その曲はジャズ風のリズムを持っている。",
+    "cloze": "The song has a ｟＿｠ rhythm.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15618,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc24289a7",
+  "courseId": "en-10-30k",
+  "headword": "jekyll",
+  "reading": "/dʒˈɛkəl/",
+  "gloss": "ジキル博士(『ジキル博士とハイド氏』の主人公；転じて二重人格を指す)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "all right, mum. who's dr. jekyll?",
+    "translation": "仰せのままに ジキル博士とは?",
+    "cloze": "all right, mum. who's dr. ｟＿｠?"
+   },
+   {
+    "text": "dr. jekyll, are you there?",
+    "translation": "ジキル博士 いらしたの?",
+    "cloze": "dr. ｟＿｠, are you there?"
+   }
+  ],
+  "frequencyRank": 15874,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xddb83886",
+  "courseId": "en-10-30k",
+  "headword": "jaffa",
+  "reading": "/dʒˈæfə/",
+  "gloss": "ヤッファ（イスラエルの港湾都市；ヤッファオレンジでも知られる）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "get him to jaffa gate.",
+    "translation": "彼をヤッファ地区へ",
+    "cloze": "get him to ｟＿｠ gate."
+   },
+   {
+    "text": "Jaffa oranges are famous for their sweetness.",
+    "translation": "ヤッファオレンジは甘さで有名だ。",
+    "cloze": "｟＿｠ oranges are famous for their sweetness.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16132,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1ac37790",
+  "courseId": "en-10-30k",
+  "headword": "jamestown",
+  "reading": "/dʒˈeɪmztˌaʊn/",
+  "gloss": "ジェームズタウン（米国バージニア州の史跡；英国最初の植民地）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Jamestown was the first permanent English settlement in America.",
+    "translation": "ジェームズタウンはアメリカ最初の永続的な英国植民地だった。",
+    "cloze": "｟＿｠ was the first permanent English settlement in America.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16133,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xada719a1",
+  "courseId": "en-10-30k",
+  "headword": "jihadists",
+  "reading": "/dʒihˈɑdˌɪsts/",
+  "gloss": "ジハード主義者、聖戦士",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "like he's some kindergartner instead of a grown adult who's been smuggling drugs to jihadists.",
+    "translation": "彼はほとんど幼稚園児よ ジハードのために 薬をこっそり持ち出す 大人のフリをしたね",
+    "cloze": "like he's some kindergartner instead of a grown adult who's been smuggling drugs to ｟＿｠."
+   },
+   {
+    "text": "i don't know how you went from one more angry teenage girl to joining the fucking jihadists.",
+    "translation": "普通の怒れる少女がどう転んで 彼等の聖戦に加わったのか",
+    "cloze": "i don't know how you went from one more angry teenage girl to joining the fucking ｟＿｠."
+   }
+  ],
+  "frequencyRank": 16415,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8cb0cf17",
+  "courseId": "en-10-30k",
+  "headword": "jpg",
+  "reading": null,
+  "gloss": "JPG、JPEG形式の画像ファイル(拡張子)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i need you to take a jpg on your smartphone and then mail that to jo's computer.",
+    "translation": "ジョーにjpgの画像を 送って欲しいんだ",
+    "cloze": "i need you to take a ｟＿｠ on your smartphone and then mail that to jo's computer."
+   }
+  ],
+  "frequencyRank": 17478,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xb98a97d8",
+  "courseId": "en-10-30k",
+  "headword": "jacuzzi",
+  "reading": "/dʒəkˈuzi/",
+  "gloss": "ジャグジー、泡風呂(渦流式浴槽)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like to watch TV in my Jacuzzi.",
+    "translation": "泡風呂につかりながらテレビを見ることが好き。",
+    "cloze": "I like to watch TV in my ｟＿｠."
+   },
+   {
+    "text": "Candles gleamed brightly beside the jacuzzi.",
+    "translation": "ジャクージの傍には蝋燭が煌々と輝いていた。",
+    "cloze": "Candles gleamed brightly beside the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 17802,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x630e67ce",
+  "courseId": "en-10-30k",
+  "headword": "juarez",
+  "reading": "/wˈɑɹˌɛz/",
+  "gloss": "フアレス(メキシコ北部の都市シウダー・フアレス;人名ベニート・フアレス)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Ciudad Juárez is a major city on the US–Mexico border.",
+    "translation": "シウダー・フアレスは米墨国境にある主要都市だ。",
+    "cloze": "Ciudad ｟Juárez｠ is a major city on the US–Mexico border.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Benito Juárez served as President of Mexico in the 19th century.",
+    "translation": "ベニート・フアレスは19世紀にメキシコ大統領を務めた。",
+    "cloze": "Benito ｟Juárez｠ served as President of Mexico in the 19th century.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18393,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8365e852",
+  "courseId": "en-10-30k",
+  "headword": "judea",
+  "reading": "/dʒudˈiə/",
+  "gloss": "ユダヤ(古代パレスチナ南部の地方名、聖書に登場)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "when jesus wanted to return to judea",
+    "translation": "イエスがユダヤへ帰れば",
+    "cloze": "when jesus wanted to return to ｟judea｠"
+   },
+   {
+    "text": "Judea was a region of ancient Palestine mentioned frequently in the Bible.",
+    "translation": "ユダヤは聖書にしばしば登場する古代パレスチナの地方である。",
+    "cloze": "｟Judea｠ was a region of ancient Palestine mentioned frequently in the Bible.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18394,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0bb60e2b",
+  "courseId": "en-10-30k",
+  "headword": "jihadi",
+  "reading": "/dʒihˈɑdˌi/",
+  "gloss": "ジハード主義者、イスラム過激派の戦闘員",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "there's already a jihadi website",
+    "translation": "ジハードのウェブサイトでは",
+    "cloze": "there's already a ｟＿｠ website"
+   },
+   {
+    "text": "where you hear about armed jihadis",
+    "translation": "武装したジハードの戦士の話のある",
+    "cloze": "where you hear about armed ｟＿｠s"
+   }
+  ],
+  "frequencyRank": 18675,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf5bce7d1",
+  "courseId": "en-10-30k",
+  "headword": "joystick",
+  "reading": "/dʒˈɔɪstˌɪk/",
+  "gloss": "ジョイスティック、操縦桿、操作レバー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the vibrating joysticks or virtual surround sound.",
+    "translation": "振動コントローラー サラウンドなどではない",
+    "cloze": "the vibrating ｟＿｠s or virtual surround sound."
+   },
+   {
+    "text": "He controlled the drone using a joystick.",
+    "translation": "彼はジョイスティックを使ってドローンを操縦した。",
+    "cloze": "He controlled the drone using a ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19263,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xba665ae2",
+  "courseId": "en-10-30k",
+  "headword": "justly",
+  "reading": "/dʒˈʌstli/",
+  "gloss": "正しく,公平に,正当に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He is justly proud of his son.",
+    "translation": "彼が息子を自慢するのも当然だ。",
+    "cloze": "He is ｟justly｠ proud of his son."
+   },
+   {
+    "text": "The king ruled his kingdom justly.",
+    "translation": "王は自分の王国を公正に治めた。",
+    "cloze": "The king ruled his kingdom ｟justly｠."
+   }
+  ],
+  "frequencyRank": 20141,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3c9442cb",
+  "courseId": "en-10-30k",
+  "headword": "jah",
+  "reading": null,
+  "gloss": "ジャー(ラスタファリ運動で神・エホバを指す語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Rastafarians often say 'Jah bless' as a way of wishing someone well.",
+    "translation": "ラスタファリアンはよく祝福の言葉として「ジャー・ブレス」と言う。",
+    "cloze": "Rastafarians often say '｟＿｠ bless' as a way of wishing someone well.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20440,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x4b12553c",
+  "courseId": "en-10-30k",
+  "headword": "jeddah",
+  "reading": null,
+  "gloss": "ジッダ(サウジアラビアの都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "she's a saudi woman in the city of jeddah",
+    "translation": "彼女もサウジ人で ジッダに住んでいます",
+    "cloze": "she's a saudi woman in the city of ｟＿｠"
+   }
+  ],
+  "frequencyRank": 20724,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xcfad600b",
+  "courseId": "en-10-30k",
+  "headword": "juneau",
+  "reading": "/dʒˈunoʊ/",
+  "gloss": "ジュノー(米国アラスカ州の州都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the point is, if he finds out about this, he's gonna transfer your ass to juneau so fast",
+    "translation": "知られたら あなたは、ただでは済まないのよ",
+    "cloze": "the point is, if he finds out about this, he's gonna transfer your ass to ｟＿｠ so fast"
+   }
+  ],
+  "frequencyRank": 20729,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3d61e4f1",
+  "courseId": "en-10-30k",
+  "headword": "jumble",
+  "reading": "/dʒˈʌmbəl/",
+  "gloss": "ごたまぜにする;ごたまぜ、混乱[状態]",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so she went and bought these cushions for me from a local jumble sale",
+    "translation": "そこで彼女は地域のバザーセールへ行ってこのクッションを買ってきました。",
+    "cloze": "so she went and bought these cushions for me from a local ｟＿｠ sale"
+   },
+   {
+    "text": "The papers on his desk were a total jumble.",
+    "translation": "彼の机の上の書類は全くのごちゃ混ぜだった。",
+    "cloze": "The papers on his desk were a total ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21042,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xa8dee967",
+  "courseId": "en-10-30k",
+  "headword": "jeju",
+  "reading": "/dʒˈɛdʒˌu/",
+  "gloss": "済州(チェジュ)島・済州道(韓国南部の有名な観光地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and we go to the jeju island again",
+    "translation": "そして私たちは済州島にもう一度行きます",
+    "cloze": "and we go to the ｟jeju｠ island again"
+   },
+   {
+    "text": "is it a 3years? when we visited jeju",
+    "translation": "3年? 私たちが済州を訪れたときは",
+    "cloze": "is it a 3years? when we visited ｟jeju｠"
+   }
+  ],
+  "frequencyRank": 21994,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf17f863f",
+  "courseId": "en-10-30k",
+  "headword": "jizz",
+  "reading": null,
+  "gloss": "《俗語》精液;《話》(鳥などの)全体的な印象,特徴(バードウォッチング用語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Experienced birders can identify a species by its jizz alone.",
+    "translation": "経験豊富なバードウォッチャーは、鳥の全体的な印象だけで種を識別できる。",
+    "cloze": "Experienced birders can identify a species by its ｟jizz｠ alone.",
+    "aiGenerated": true
+   },
+   {
+    "text": "In birding slang, \"jizz\" refers to the subtle traits that help identify a species at a glance.",
+    "translation": "バードウォッチング俗語で「jizz」とは、一目で種を識別する手がかりとなる微妙な特徴を指す。",
+    "cloze": "In birding slang, \"｟jizz｠\" refers to the subtle traits that help identify a species at a glance.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21996,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xeaccc5da",
+  "courseId": "en-10-30k",
+  "headword": "juba",
+  "reading": "/dʒˈubə/",
+  "gloss": "ジュバ（南スーダンの首都）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Juba is the capital of South Sudan.",
+    "translation": "ジュバは南スーダンの首都です。",
+    "cloze": "｟＿｠ is the capital of South Sudan."
+   },
+   {
+    "text": "Juba is located along the White Nile River.",
+    "translation": "ジュバは白ナイル川沿いに位置している。",
+    "cloze": "｟＿｠ is located along the White Nile River.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22326,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5e72fd04",
+  "courseId": "en-10-30k",
+  "headword": "judgemental",
+  "reading": "/dʒədʒmˈɛntəl/",
+  "gloss": "批判的な、決めつけがちな（judgmentalの英式つづり）",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and don't give me that i'm the least judgemental person you'll ever meet crap.",
+    "translation": "\"僕は口出ししない\" ってやつだ",
+    "cloze": "and don't give me that i'm the least ｟＿｠ person you'll ever meet crap."
+   },
+   {
+    "text": "thank you for not being judgemental 24 hours a day.",
+    "translation": "批判的な言い方じゃないのは 感謝するわ",
+    "cloze": "thank you for not being ｟＿｠ 24 hours a day."
+   }
+  ],
+  "frequencyRank": 22327,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2ecd71b2",
+  "courseId": "en-10-30k",
+  "headword": "json",
+  "reading": null,
+  "gloss": "JSON(データ交換用のテキスト形式)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The API returns data in JSON format.",
+    "translation": "そのAPIはJSON形式でデータを返す。",
+    "cloze": "The API returns data in ｟JSON｠ format.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22969,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x1cbd90ef",
+  "courseId": "en-10-30k",
+  "headword": "junkyard",
+  "reading": "/dʒˈʌŋkjˌɑɹd/",
+  "gloss": "廃品置き場、くず鉄置き場",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "my father found that in a junkyard",
+    "translation": "父はこれを廃品置き場で見つけ",
+    "cloze": "my father found that in a ｟junkyard｠"
+   },
+   {
+    "text": "any of you who've been to africa or had a junkyard dog come after you",
+    "translation": "アフリカに行ったり 野犬に追われたりした人は",
+    "cloze": "any of you who've been to africa or had a ｟junkyard｠ dog come after you"
+   }
+  ],
+  "frequencyRank": 22970,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa07badd4",
+  "courseId": "en-10-30k",
+  "headword": "jihadis",
+  "reading": null,
+  "gloss": "ジハード戦士,イスラム過激派の戦闘員(jihadiの複数形)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The news report described the movements of jihadis in the region.",
+    "translation": "そのニュース報道はその地域のジハード戦士たちの動きを伝えた。",
+    "cloze": "The news report described the movements of ｟＿｠ in the region.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Several jihadis were arrested at the border.",
+    "translation": "数人のジハード戦士が国境で逮捕された。",
+    "cloze": "Several ｟＿｠ were arrested at the border.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24269,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xed83e68c",
+  "courseId": "en-10-30k",
+  "headword": "judeo",
+  "reading": "/dʒudˈeɪoʊ/",
+  "gloss": "ユダヤ(教)の(複合語で用いる連結形。例:Judeo-Christian=ユダヤ教とキリスト教の)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "the original sin of man, according to judeo christian morality.",
+    "translation": "人間特有の罪だ、 ユダヤ教とキリスト教の道徳によればね。",
+    "cloze": "the original sin of man, according to ｟＿｠ christian morality."
+   },
+   {
+    "text": "Judeo-Christian values have shaped much of Western law.",
+    "translation": "ユダヤ・キリスト教的価値観は西洋法の多くを形作ってきた。",
+    "cloze": "｟＿｠-Christian values have shaped much of Western law.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24271,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-xcf028a6c",
+  "courseId": "en-10-30k",
+  "headword": "jiangsu",
+  "reading": "/dʒjˈɑŋsu/",
+  "gloss": "江蘇省(中国東部の省;南京・蘇州などを含む)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Suzhou is a famous city in Jiangsu province.",
+    "translation": "蘇州は江蘇省にある有名な都市だ。",
+    "cloze": "Suzhou is a famous city in ｟Jiangsu｠ province.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24993,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc4bbcd4a",
+  "courseId": "en-10-30k",
+  "headword": "jiggle",
+  "reading": "/dʒˈɪɡəl/",
+  "gloss": "(…を)小刻みに揺する,揺れる;小刻みな動き",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "jordan, son, stop jiggling.",
+    "translation": "ジョーダン じっとして",
+    "cloze": "jordan, son, stop ｟jiggling｠."
+   },
+   {
+    "text": "by just keeping the tube in without jiggling it too much.",
+    "translation": "そうすることで患者は痛みを感じますが",
+    "cloze": "by just keeping the tube in without ｟jiggling｠ it too much."
+   }
+  ],
+  "frequencyRank": 24994,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xfaa4ee62",
+  "courseId": "en-10-30k",
+  "headword": "jawbone",
+  "reading": "/dʒˈɔbˌoʊn/",
+  "gloss": "あごの骨(特に下あご)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the jawbone you used to kill abel because he was god's favorite.",
+    "translation": "アベルを顎の骨で殺した 彼が神のお気に入りだったから",
+    "cloze": "the ｟jawbone｠ you used to kill abel because he was god's favorite."
+   },
+   {
+    "text": "The boxer's jawbone was fractured in the fight.",
+    "translation": "そのボクサーの顎の骨は試合で骨折した。",
+    "cloze": "The boxer's ｟jawbone｠ was fractured in the fight.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25369,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xcba0f03d",
+  "courseId": "en-10-30k",
+  "headword": "jittery",
+  "reading": "/dʒˈɪtɚi/",
+  "gloss": "神経過敏の、びくびくした",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "perhaps i am a bit jittery, sir.",
+    "translation": "おそらく 少し神経質に",
+    "cloze": "perhaps i am a bit ｟jittery｠, sir."
+   },
+   {
+    "text": "someone was jittery after they shot the guard.",
+    "translation": "警備員を撃った後 犯人がピリピリ緊張して",
+    "cloze": "someone was ｟jittery｠ after they shot the guard."
+   }
+  ],
+  "frequencyRank": 25370,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xd95641ee",
+  "courseId": "en-10-30k",
+  "headword": "jogger",
+  "reading": "/dʒˈɑɡɚ/",
+  "gloss": "ジョギングをする人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we've encountered joggers",
+    "translation": "ジョギングする人にも出会い",
+    "cloze": "we've encountered ｟joggers｠"
+   },
+   {
+    "text": "heather clarke. some joggers found her.",
+    "translation": "ヘザー・クラーク ジョギングしてる人が見つけた",
+    "cloze": "heather clarke. some ｟joggers｠ found her."
+   }
+  ],
+  "frequencyRank": 25755,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x78c33668",
+  "courseId": "en-10-30k",
+  "headword": "jumpy",
+  "reading": "/dʒˈʌmpi/",
+  "gloss": "びくびくした、神経質な、落ち着かない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "jumpy.",
+    "translation": "興奮してる?",
+    "cloze": "｟jumpy｠."
+   },
+   {
+    "text": "She gets jumpy whenever she hears a loud noise.",
+    "translation": "彼女は大きな音を聞くといつもびくびくする。",
+    "cloze": "She gets ｟jumpy｠ whenever she hears a loud noise.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25756,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x8818893b",
+  "courseId": "en-10-30k",
+  "headword": "johnstown",
+  "reading": "/dʒˈɑnztˌaʊn/",
+  "gloss": "ジョーンズタウン(米国ペンシルベニア州の都市。1889年の大洪水で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Johnstown is remembered for the catastrophic flood of 1889.",
+    "translation": "ジョーンズタウンは1889年の壊滅的な洪水で知られている。",
+    "cloze": "｟Johnstown｠ is remembered for the catastrophic flood of 1889.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26125,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xad8298a7",
+  "courseId": "en-10-30k",
+  "headword": "juilliard",
+  "reading": "/dʒˈuliɑɹd/",
+  "gloss": "ジュリアード音楽院(ニューヨークの名門芸術大学)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "mister, i have to use it... because i have an audition at juilliard next month... and i have to practice.",
+    "translation": "練習しなきゃならないの ジュリアード音楽院を受けるから",
+    "cloze": "mister, i have to use it... because i have an audition at ｟juilliard｠ next month... and i have to practice."
+   },
+   {
+    "text": "She was accepted into the dance program at Juilliard.",
+    "translation": "彼女はジュリアード音楽院のダンスプログラムに合格した。",
+    "cloze": "She was accepted into the dance program at ｟Juilliard｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26532,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x44f68ccc",
+  "courseId": "en-10-30k",
+  "headword": "jamaicans",
+  "reading": "/dʒəmˈeɪkənz/",
+  "gloss": "ジャマイカ人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Jamaicans are passionate about reggae music.",
+    "translation": "多くのジャマイカ人はレゲエ音楽に情熱を持っている。",
+    "cloze": "Many ｟＿｠ are passionate about reggae music.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26952,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa86da681",
+  "courseId": "en-10-30k",
+  "headword": "jiffy",
+  "reading": "/dʒˈɪfi/",
+  "gloss": "ちょっとの間、瞬時(口語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'll be back in a jiffy.",
+    "translation": "すぐに戻ります。",
+    "cloze": "I'll be back in a ｟＿｠."
+   },
+   {
+    "text": "I'll be ready in a jiffy.",
+    "translation": "もうちょっとで準備できる。",
+    "cloze": "I'll be ready in a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 26954,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x9a331b82",
+  "courseId": "en-10-30k",
+  "headword": "jailhouse",
+  "reading": "/dʒˈeɪlhˌaʊs/",
+  "gloss": "刑務所、拘置所(jailのくだけた言い方)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom's favorite Elvis Presley song is \"Jailhouse Rock.\"",
+    "translation": "トムが一番気に入っているエルビス・プレスリーの曲は「ジェイルハウス・ロック」だ。",
+    "cloze": "Tom's favorite Elvis Presley song is \"｟＿｠ Rock.\""
+   },
+   {
+    "text": "not for jailhouse payphones.",
+    "translation": "刑務所の電話にはね",
+    "cloze": "not for ｟＿｠ payphones."
+   }
+  ],
+  "frequencyRank": 27362,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc391fe2c",
+  "courseId": "en-10-30k",
+  "headword": "javanese",
+  "reading": "/dʒˌɑvənˈiz/",
+  "gloss": "ジャワの;ジャワ人;ジャワ語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Javanese is spoken by millions of people in Indonesia.",
+    "translation": "ジャワ語はインドネシアで何百万人もの人々に話されている。",
+    "cloze": "｟＿｠ is spoken by millions of people in Indonesia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27791,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x351ef47f",
+  "courseId": "en-10-30k",
+  "headword": "jodhpur",
+  "reading": "/dʒˈɔdpɚ/",
+  "gloss": "ジョードプル(インド・ラジャスタン州の都市、通称『青い街』)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the maharaja of jodhpur owns the blue orchid.",
+    "translation": "インドのジョードプルの大王が ブルーオーキッドの持ち主だ 《青い蘭》",
+    "cloze": "the maharaja of ｟＿｠ owns the blue orchid."
+   },
+   {
+    "text": "Jodhpur is famous for its blue-painted old town.",
+    "translation": "ジョードプルは青く塗られた旧市街で有名だ。",
+    "cloze": "｟＿｠ is famous for its blue-painted old town.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29011,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0743e91d",
+  "courseId": "en-10-30k",
+  "headword": "jura",
+  "reading": "/dʒˈʊɹə/",
+  "gloss": "ジュラ山脈(仏・スイス国境);ジュラ島(スコットランド)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Jura Mountains stretch along the border between France and Switzerland.",
+    "translation": "ジュラ山脈はフランスとスイスの国境沿いに連なっている。",
+    "cloze": "The ｟＿｠ Mountains stretch along the border between France and Switzerland.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Orwell wrote much of Nineteen Eighty-Four while living on the Isle of Jura.",
+    "translation": "オーウェルは『1984年』の多くをジュラ島で暮らしながら書いた。",
+    "cloze": "Orwell wrote much of Nineteen Eighty-Four while living on the Isle of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29443,
+  "category": "places"
+ }
+]

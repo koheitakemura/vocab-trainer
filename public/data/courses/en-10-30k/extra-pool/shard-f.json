@@ -1,0 +1,7504 @@
+[
+ {
+  "id": "en-10-30k-x420b50fa",
+  "courseId": "en-10-30k",
+  "headword": "four",
+  "reading": "/fˈɔɹ/",
+  "gloss": "数字の4;四つの、四人の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Twice two is four.",
+    "translation": "２の２倍は４です。",
+    "cloze": "Twice two is ｟＿｠."
+   },
+   {
+    "text": "You have four dogs.",
+    "translation": "あなたは４匹の犬を飼っています。",
+    "cloze": "You have ｟＿｠ dogs."
+   }
+  ],
+  "frequencyRank": 4,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x504a12e5",
+  "courseId": "en-10-30k",
+  "headword": "five",
+  "reading": "/fˈaɪv/",
+  "gloss": "数字の5;五つの、五人の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "High five!",
+    "translation": "ハイタッチ！",
+    "cloze": "High ｟＿｠!"
+   },
+   {
+    "text": "I saw five men.",
+    "translation": "私は5人の男性を見ました。",
+    "cloze": "I saw ｟＿｠ men."
+   }
+  ],
+  "frequencyRank": 7,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x10ac169f",
+  "courseId": "en-10-30k",
+  "headword": "fuck",
+  "reading": "/fˈʌk/",
+  "gloss": "(苛立ち・怒りを表す卑語の間投詞)くそっ;性交する",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Fuck!",
+    "translation": "くそっ！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "Fuck you!",
+    "translation": "死ね！",
+    "cloze": "｟＿｠ you!"
+   }
+  ],
+  "frequencyRank": 8,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xa8a7bcca",
+  "courseId": "en-10-30k",
+  "headword": "fucking",
+  "reading": "/fˈʌkɪŋ/",
+  "gloss": "(苛立ちや強調を表す卑語の強勢語)くそ、めちゃくちゃ",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "This fucking traffic is unbearable.",
+    "translation": "このクソみたいな渋滞は耐えられない。",
+    "cloze": "This ｟＿｠ traffic is unbearable.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xe1d47a72",
+  "courseId": "en-10-30k",
+  "headword": "french",
+  "reading": "/fɹˈɛntʃ/",
+  "gloss": "フランスの、フランス人の;フランス語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I am French.",
+    "translation": "私はフランス人です。",
+    "cloze": "I am ｟＿｠."
+   },
+   {
+    "text": "It's French.",
+    "translation": "それはフランス語よ。",
+    "cloze": "It's ｟＿｠."
+   }
+  ],
+  "frequencyRank": 33,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf53911ae",
+  "courseId": "en-10-30k",
+  "headword": "february",
+  "reading": "/fˈɛbjəwˌɛɹi/",
+  "gloss": "2月",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "February has only 28 days.",
+    "translation": "2月は28日しかない。",
+    "cloze": "｟＿｠ has only 28 days."
+   },
+   {
+    "text": "My birthday is in February.",
+    "translation": "私の誕生日は2月です。",
+    "cloze": "My birthday is in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 47,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x5a0d593d",
+  "courseId": "en-10-30k",
+  "headword": "friday",
+  "reading": "/fɹˈaɪdi/",
+  "gloss": "金曜日",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Today is Friday.",
+    "translation": "今日は金曜日だよ。",
+    "cloze": "Today is ｟＿｠."
+   },
+   {
+    "text": "How about Friday?",
+    "translation": "金曜日はどうですか？",
+    "cloze": "How about ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 57,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x53275000",
+  "courseId": "en-10-30k",
+  "headword": "france",
+  "reading": "/fɹˈæns/",
+  "gloss": "フランス",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I love France.",
+    "translation": "フランスが好きです。",
+    "cloze": "I love ｟＿｠."
+   },
+   {
+    "text": "I'm from France.",
+    "translation": "フランスから来ました。",
+    "cloze": "I'm from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 60,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9cdef96c",
+  "courseId": "en-10-30k",
+  "headword": "fourth",
+  "reading": "/fˈɔɹθ/",
+  "gloss": "第4の、4番目の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "My room is on the fourth floor.",
+    "translation": "私の部屋は４階にあります。",
+    "cloze": "My room is on the ｟＿｠ floor."
+   },
+   {
+    "text": "Happy Fourth of July!",
+    "translation": "アメリカ独立記念日おめでとうございます！",
+    "cloze": "Happy ｟＿｠ of July!"
+   }
+  ],
+  "frequencyRank": 92,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x640fc1d1",
+  "courseId": "en-10-30k",
+  "headword": "fifth",
+  "reading": "/fˈɪfθ/",
+  "gloss": "第5の、5番目の；5分の1",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "I live on the fifth floor.",
+    "translation": "私は5階に住んでいる。",
+    "cloze": "I live on the ｟＿｠ floor."
+   },
+   {
+    "text": "May fifth is Children's Day.",
+    "translation": "５月５日は子供の日です。",
+    "cloze": "May ｟＿｠ is Children's Day."
+   }
+  ],
+  "frequencyRank": 110,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x6dd13485",
+  "courseId": "en-10-30k",
+  "headword": "florida",
+  "reading": "/flˈɔɹədə/",
+  "gloss": "フロリダ州",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I have never gone to Florida.",
+    "translation": "私はフロリダへは行ったことがありません。",
+    "cloze": "I have never gone to ｟＿｠."
+   },
+   {
+    "text": "Bill came all the way from Florida.",
+    "translation": "ビルはフロリダからはるばるやってきました。",
+    "cloze": "Bill came all the way from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 120,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x185a5305",
+  "courseId": "en-10-30k",
+  "headword": "frank",
+  "reading": "/fɹˈæŋk/",
+  "gloss": "率直な、隠しだてのない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "My father is frank.",
+    "translation": "私の父親は気さくです。",
+    "cloze": "My father is ｟＿｠."
+   },
+   {
+    "text": "She is frank in speech.",
+    "translation": "彼女はあけっぴろげにものを言う。",
+    "cloze": "She is ｟＿｠ in speech."
+   }
+  ],
+  "frequencyRank": 122,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe25eac18",
+  "courseId": "en-10-30k",
+  "headword": "fox",
+  "reading": "/fˈɑks/",
+  "gloss": "キツネ;ずる賢い人;《俗》色っぽい人,セクシーな人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She's a fox.",
+    "translation": "あの女は実にセクシーだ。",
+    "cloze": "She's a ｟fox｠."
+   },
+   {
+    "text": "Mary is a fox.",
+    "translation": "メアリーは実にセクシーだ。",
+    "cloze": "Mary is a ｟fox｠."
+   }
+  ],
+  "frequencyRank": 156,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xd4a202e5",
+  "courseId": "en-10-30k",
+  "headword": "fake",
+  "reading": "/fˈeɪk/",
+  "gloss": "偽の,偽造の;偽物;〜のふりをする",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's a fake.",
+    "translation": "それは贋物よ。",
+    "cloze": "It's a ｟fake｠."
+   },
+   {
+    "text": "Is this fake?",
+    "translation": "これは偽物ですか？",
+    "cloze": "Is this ｟fake｠?"
+   }
+  ],
+  "frequencyRank": 165,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x342dd4aa",
+  "courseId": "en-10-30k",
+  "headword": "fucked",
+  "reading": "/fˈʌkt/",
+  "gloss": "《卑語》台無しになった,ひどい状況の;絶望的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "We're so fucked if the deadline isn't extended.",
+    "translation": "締め切りが延長されなければ俺たちは完全に終わりだ。",
+    "cloze": "We're so ｟fucked｠ if the deadline isn't extended.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Everything got fucked up after the storm.",
+    "translation": "嵐の後、何もかもめちゃくちゃになった。",
+    "cloze": "Everything got ｟fucked｠ up after the storm.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 191,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x4cab5380",
+  "courseId": "en-10-30k",
+  "headword": "fantasy",
+  "reading": "/fˈæntəsi/",
+  "gloss": "空想、想像；幻想的作品",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom lives in a fantasy world.",
+    "translation": "トムは空想の世界に生きている。",
+    "cloze": "Tom lives in a ｟＿｠ world."
+   },
+   {
+    "text": "I love reading fantasy novels.",
+    "translation": "ファンタジー小説を読むのが大好きなんだ。",
+    "cloze": "I love reading ｟＿｠ novels."
+   }
+  ],
+  "frequencyRank": 247,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xf375a4c3",
+  "courseId": "en-10-30k",
+  "headword": "ford",
+  "reading": "/fˈɔɹd/",
+  "gloss": "フォード(米国の自動車ブランド)；(川の)浅瀬",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom has a Ford.",
+    "translation": "トムはフォードを持ってるんだ。",
+    "cloze": "Tom has a ｟＿｠."
+   },
+   {
+    "text": "His car is a Ford.",
+    "translation": "彼の車はフォード製です。",
+    "cloze": "His car is a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 256,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x269cf97a",
+  "courseId": "en-10-30k",
+  "headword": "founder",
+  "reading": "/fˈaʊndɚ/",
+  "gloss": "創設者、設立者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The hall was built in memory of the founder.",
+    "translation": "そのホールは創立者を記念して立てられたものだ。",
+    "cloze": "The hall was built in memory of the ｟＿｠."
+   },
+   {
+    "text": "In the center of the university campus stands the statue of the founder.",
+    "translation": "大学構内の中央に、創立者の像が立っている。",
+    "cloze": "In the center of the university campus stands the statue of the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 298,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x755b0463",
+  "courseId": "en-10-30k",
+  "headword": "fort",
+  "reading": "/fˈɔɹt/",
+  "gloss": "とりで,砦",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The enemy occupied the fort.",
+    "translation": "敵はその砦を占領した。",
+    "cloze": "The enemy occupied the ｟fort｠."
+   },
+   {
+    "text": "Tom and Mary built a snow fort.",
+    "translation": "トムとメアリーが雪の砦を作ったんだ。",
+    "cloze": "Tom and Mary built a snow ｟fort｠."
+   }
+  ],
+  "frequencyRank": 310,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1092cd71",
+  "courseId": "en-10-30k",
+  "headword": "fbi",
+  "reading": "/ˈɛfbˈiˈaɪ/",
+  "gloss": "FBI(米連邦捜査局)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm from the FBI.",
+    "translation": "FBIのものですが。",
+    "cloze": "I'm from the ｟FBI｠."
+   },
+   {
+    "text": "She's an FBI agent.",
+    "translation": "彼女はFBIのエージェントだ。",
+    "cloze": "She's an ｟FBI｠ agent."
+   }
+  ],
+  "frequencyRank": 337,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x307581e9",
+  "courseId": "en-10-30k",
+  "headword": "fitness",
+  "reading": "/fˈɪtnəs/",
+  "gloss": "体調の良さ,健康;適性",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She exercises every day at a fitness club.",
+    "translation": "彼女はフィットネスクラブで毎日訓練する。",
+    "cloze": "She exercises every day at a ｟＿｠ club."
+   },
+   {
+    "text": "No one doubts her fitness for the post.",
+    "translation": "彼女がその地位にふさわしいということは、だれも疑っていない。",
+    "cloze": "No one doubts her ｟＿｠ for the post."
+   }
+  ],
+  "frequencyRank": 411,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x0065a3f7",
+  "courseId": "en-10-30k",
+  "headword": "feb",
+  "reading": "/fˈɛbjəwˌɛɹi/",
+  "gloss": "2月(Februaryの略)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "2003, 28th of feb.",
+    "translation": "2003年2月28日。",
+    "cloze": "2003, 28th of ｟＿｠."
+   },
+   {
+    "text": "for your information, i was born feb. 28th, blood type ab, pisces.",
+    "translation": "ちなみに 2月28日生まれ 魚座 ab型。",
+    "cloze": "for your information, i was born ｟＿｠. 28th, blood type ab, pisces."
+   }
+  ],
+  "frequencyRank": 430,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x7b42c37c",
+  "courseId": "en-10-30k",
+  "headword": "funeral",
+  "reading": "/fjˈunɚəl/",
+  "gloss": "葬式,葬儀,告別式",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I attended his funeral.",
+    "translation": "私は彼の葬儀に参加した。",
+    "cloze": "I attended his ｟＿｠."
+   },
+   {
+    "text": "Was Tom at the funeral?",
+    "translation": "トムって、お葬式の時いた？",
+    "cloze": "Was Tom at the ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 444,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x334b3435",
+  "courseId": "en-10-30k",
+  "headword": "fame",
+  "reading": "/fˈeɪm/",
+  "gloss": "名声、高名；評判",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I aspire to fame.",
+    "translation": "私は名声を熱望している。",
+    "cloze": "I aspire to ｟＿｠."
+   },
+   {
+    "text": "He is thirsty for fame.",
+    "translation": "彼は名声を強く望んでいる。",
+    "cloze": "He is thirsty for ｟＿｠."
+   }
+  ],
+  "frequencyRank": 502,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x7e8d60a9",
+  "courseId": "en-10-30k",
+  "headword": "fuckin",
+  "reading": "/fˈʌkɪn/",
+  "gloss": "(俗語)くそ、ものすごく(fuckingの略式表記、強意語)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "no fuckin way.",
+    "translation": "ありえねー",
+    "cloze": "no ｟＿｠ way."
+   },
+   {
+    "text": "i've been locked in a fuckin ice box all day!",
+    "translation": "製氷機に一日閉じ込められたんだぞ",
+    "cloze": "i've been locked in a ｟＿｠ ice box all day!"
+   }
+  ],
+  "frequencyRank": 517,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x93315171",
+  "courseId": "en-10-30k",
+  "headword": "fighter",
+  "reading": "/fˈaɪtɚ/",
+  "gloss": "戦う人、戦士;戦闘機",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Bill is a great fighter.",
+    "translation": "ビルは喧嘩が強い。",
+    "cloze": "Bill is a great ｟＿｠."
+   },
+   {
+    "text": "That fighter plane dropped a bomb.",
+    "translation": "その戦闘機は爆弾を投下した。",
+    "cloze": "That ｟＿｠ plane dropped a bomb."
+   }
+  ],
+  "frequencyRank": 540,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xccd57b57",
+  "courseId": "en-10-30k",
+  "headword": "fifty",
+  "reading": "/fˈɪfti/",
+  "gloss": "50、五十",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "He had fifty dollars.",
+    "translation": "彼は５０ドル持っていました。",
+    "cloze": "He had ｟＿｠ dollars."
+   },
+   {
+    "text": "He must be over fifty.",
+    "translation": "５０歳は超えているはずだ。",
+    "cloze": "He must be over ｟＿｠."
+   }
+  ],
+  "frequencyRank": 607,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xdb073505",
+  "courseId": "en-10-30k",
+  "headword": "follower",
+  "reading": "/fˈɑloʊɚ/",
+  "gloss": "信奉者、支持者；（SNSの）フォロワー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She is a follower of Freud.",
+    "translation": "彼女はフロイトの信奉者だ。",
+    "cloze": "She is a ｟＿｠ of Freud."
+   },
+   {
+    "text": "How many followers do you have on Twitter?",
+    "translation": "Twitterのフォロワーって何人ぐらいいるの？",
+    "cloze": "How many ｟＿｠ do you have on Twitter?"
+   }
+  ],
+  "frequencyRank": 608,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x332bc393",
+  "courseId": "en-10-30k",
+  "headword": "federation",
+  "reading": "/fˌɛdɚˈeɪʃən/",
+  "gloss": "連合、連盟;連邦制度、連邦政府",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the federation is our future.",
+    "translation": "連邦が我々の未来だ",
+    "cloze": "the ｟＿｠ is our future."
+   },
+   {
+    "text": "i'm not certain a federation could ever exist here.",
+    "translation": "この世界で連邦が存在できるかは疑問だ",
+    "cloze": "i'm not certain a ｟＿｠ could ever exist here."
+   }
+  ],
+  "frequencyRank": 678,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa83cfa13",
+  "courseId": "en-10-30k",
+  "headword": "forgive",
+  "reading": "/fɚɡˈɪv/",
+  "gloss": "…を許す、大目に見る",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Forgive me!",
+    "translation": "許して。",
+    "cloze": "｟＿｠ me!"
+   },
+   {
+    "text": "Forgive us.",
+    "translation": "お許しを。",
+    "cloze": "｟＿｠ us."
+   }
+  ],
+  "frequencyRank": 699,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x76963233",
+  "courseId": "en-10-30k",
+  "headword": "formerly",
+  "reading": "/fˈɔɹmɚli/",
+  "gloss": "以前は、かつて",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "She was formerly a bank clerk.",
+    "translation": "彼女はもと銀行員です。",
+    "cloze": "She was ｟＿｠ a bank clerk."
+   },
+   {
+    "text": "Formerly, this city was beautiful.",
+    "translation": "この町は昔きれいでした。",
+    "cloze": "｟＿｠, this city was beautiful."
+   }
+  ],
+  "frequencyRank": 729,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x0475e004",
+  "courseId": "en-10-30k",
+  "headword": "fifa",
+  "reading": "/fˈɪfɑ/",
+  "gloss": "FIFA(国際サッカー連盟)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The first winner of the FIFA World Cup was Uruguay.",
+    "translation": "FIFAワールドカップの初代王者はウルグアイだ。",
+    "cloze": "The first winner of the ｟＿｠ World Cup was Uruguay."
+   },
+   {
+    "text": "FIFA organizes the World Cup every four years.",
+    "translation": "FIFAは4年に一度ワールドカップを開催する。",
+    "cloze": "｟＿｠ organizes the World Cup every four years.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 839,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xefbd1013",
+  "courseId": "en-10-30k",
+  "headword": "franklin",
+  "reading": "/fɹˈæŋklɪn/",
+  "gloss": "フランクリン(ベンジャミン・フランクリン;米国の政治家・科学者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The proverb is quoted from Franklin.",
+    "translation": "その諺はフランクリンの言葉から引用した。",
+    "cloze": "The proverb is quoted from ｟＿｠."
+   },
+   {
+    "text": "Franklin was known for his common sense.",
+    "translation": "フランクリンは常識があるので有名だった。",
+    "cloze": "｟＿｠ was known for his common sense."
+   }
+  ],
+  "frequencyRank": 840,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x505e9501",
+  "courseId": "en-10-30k",
+  "headword": "forty",
+  "reading": "/fˈɔɹti/",
+  "gloss": "40(の)",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "He's over forty.",
+    "translation": "彼は４０歳を越している。",
+    "cloze": "He's over ｟＿｠."
+   },
+   {
+    "text": "He is about forty.",
+    "translation": "彼は４０歳くらいです。",
+    "cloze": "He is about ｟＿｠."
+   }
+  ],
+  "frequencyRank": 871,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x2510706e",
+  "courseId": "en-10-30k",
+  "headword": "fifteen",
+  "reading": "/fɪftˈin/",
+  "gloss": "15、15の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Only fifteen minutes.",
+    "translation": "ほんの１５分ですね。",
+    "cloze": "Only ｟＿｠ minutes."
+   },
+   {
+    "text": "We are fifteen in all.",
+    "translation": "全員で十五名です。",
+    "cloze": "We are ｟＿｠ in all."
+   }
+  ],
+  "frequencyRank": 1076,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xd78ba4f4",
+  "courseId": "en-10-30k",
+  "headword": "faithful",
+  "reading": "/fˈeɪθfəl/",
+  "gloss": "忠実な、誠実な；正確な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "A dog is faithful.",
+    "translation": "犬は忠実です。",
+    "cloze": "A dog is ｟faithful｠."
+   },
+   {
+    "text": "All dogs are faithful.",
+    "translation": "犬はすべて忠実だ。",
+    "cloze": "All dogs are ｟faithful｠."
+   }
+  ],
+  "frequencyRank": 1227,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3c4d361c",
+  "courseId": "en-10-30k",
+  "headword": "fig",
+  "reading": "/fˈɪɡ/",
+  "gloss": "いちじく（の木・実）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I like figs.",
+    "translation": "無花果が好きなんだ。",
+    "cloze": "I like ｟figs｠."
+   },
+   {
+    "text": "Try these figs.",
+    "translation": "このイチジク、食べてみて。",
+    "cloze": "Try these ｟figs｠."
+   }
+  ],
+  "frequencyRank": 1229,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x8d8ba5f6",
+  "courseId": "en-10-30k",
+  "headword": "fabulous",
+  "reading": "/fˈæbjələs/",
+  "gloss": "とてもすばらしい;信じられないような",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "That was fabulous.",
+    "translation": "信じられないくらいうまいね。",
+    "cloze": "That was ｟＿｠."
+   },
+   {
+    "text": "I can't imagine anything more fabulous.",
+    "translation": "これ以上素晴らしいものは想像もつかないわ。",
+    "cloze": "I can't imagine anything more ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1306,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x470a4651",
+  "courseId": "en-10-30k",
+  "headword": "fairy",
+  "reading": "/fˈɛɹi/",
+  "gloss": "妖精",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She likes fairy tales.",
+    "translation": "彼女はおとぎ話が好きだよ。",
+    "cloze": "She likes ｟＿｠ tales."
+   },
+   {
+    "text": "Do you believe in fairies?",
+    "translation": "妖精を信じてるの？",
+    "cloze": "Do you believe in ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1307,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x92489141",
+  "courseId": "en-10-30k",
+  "headword": "frustrate",
+  "reading": "/fɹˈʌstɹˌeɪt/",
+  "gloss": "(計画など)を挫折させる;(人)をいらだたせる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I was frustrated.",
+    "translation": "悔しかった。",
+    "cloze": "I was ｟＿｠."
+   },
+   {
+    "text": "Is the coach frustrated?",
+    "translation": "コーチはイライラしてる？",
+    "cloze": "Is the coach ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1309,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xfbb85793",
+  "courseId": "en-10-30k",
+  "headword": "flame",
+  "reading": "/flˈeɪm/",
+  "gloss": "炎;燃え上がる",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The city was all flame.",
+    "translation": "全市は火に包まれていた。",
+    "cloze": "The city was all ｟＿｠."
+   },
+   {
+    "text": "She easily flames up.",
+    "translation": "彼女はすぐぷんとなる。",
+    "cloze": "She easily ｟＿｠ up."
+   }
+  ],
+  "frequencyRank": 1347,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x2a31d9be",
+  "courseId": "en-10-30k",
+  "headword": "fry",
+  "reading": "/fɹˈaɪ/",
+  "gloss": "油で揚げる,炒める",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Fry me an egg.",
+    "translation": "卵を焼いてくれ。",
+    "cloze": "｟＿｠ me an egg."
+   },
+   {
+    "text": "Fry me some eggs.",
+    "translation": "卵を焼いてくれ。",
+    "cloze": "｟＿｠ me some eggs."
+   }
+  ],
+  "frequencyRank": 1387,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x4f66342e",
+  "courseId": "en-10-30k",
+  "headword": "foul",
+  "reading": "/fˈaʊl/",
+  "gloss": "汚い、不快な;(反則で)ファウルの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "You have foul breath.",
+    "translation": "君は息が臭い。",
+    "cloze": "You have ｟foul｠ breath."
+   },
+   {
+    "text": "He called the ball foul.",
+    "translation": "彼はボールをファウルと判定した。",
+    "cloze": "He called the ball ｟foul｠."
+   }
+  ],
+  "frequencyRank": 1429,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xcd9ffefd",
+  "courseId": "en-10-30k",
+  "headword": "frankly",
+  "reading": "/fɹˈæŋkli/",
+  "gloss": "率直に、あからさまに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "She speaks frankly.",
+    "translation": "彼女はあけっぴろげにものを言う。",
+    "cloze": "She speaks ｟frankly｠."
+   },
+   {
+    "text": "We talked quite frankly.",
+    "translation": "虚心坦懐に話し合った。",
+    "cloze": "We talked quite ｟frankly｠."
+   }
+  ],
+  "frequencyRank": 1430,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x51ed4896",
+  "courseId": "en-10-30k",
+  "headword": "finale",
+  "reading": "/fənˈæli/",
+  "gloss": "(曲・劇の)フィナーレ、終幕",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "did you see the special finale of love apron last night?",
+    "translation": "昨日の恋のエプロン最終回スペシャル見た?",
+    "cloze": "did you see the special ｟finale｠ of love apron last night?"
+   },
+   {
+    "text": "The concert ended with a spectacular finale.",
+    "translation": "コンサートは壮大なフィナーレで幕を閉じた。",
+    "cloze": "The concert ended with a spectacular ｟finale｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1478,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x48be632a",
+  "courseId": "en-10-30k",
+  "headword": "flavor",
+  "reading": "/flˈeɪvɚ/",
+  "gloss": "風味、味",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's lemon-flavored.",
+    "translation": "レモン味です。",
+    "cloze": "It's lemon-｟flavored｠."
+   },
+   {
+    "text": "I like the flavor of mushrooms.",
+    "translation": "きのこの風味が好きです。",
+    "cloze": "I like the ｟flavor｠ of mushrooms."
+   }
+  ],
+  "frequencyRank": 1479,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x544c0e6f",
+  "courseId": "en-10-30k",
+  "headword": "fork",
+  "reading": "/fˈɔɹk/",
+  "gloss": "フォーク;(道の)分岐点、分かれ道",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'd like a fork.",
+    "translation": "フォークを下さい。",
+    "cloze": "I'd like a ｟＿｠."
+   },
+   {
+    "text": "Can I have a fork?",
+    "translation": "フォークをいただけますか。",
+    "cloze": "Can I have a ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1523,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xc5863f8a",
+  "courseId": "en-10-30k",
+  "headword": "fur",
+  "reading": "/fˈɝ/",
+  "gloss": "毛皮",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Fur coats are on sale.",
+    "translation": "毛皮のコートが特売中です。",
+    "cloze": "｟＿｠ coats are on sale."
+   },
+   {
+    "text": "Sheep fur is fluffy.",
+    "translation": "羊の毛はもこもこしている。",
+    "cloze": "Sheep ｟＿｠ is fluffy."
+   }
+  ],
+  "frequencyRank": 1524,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-x24ebd79e",
+  "courseId": "en-10-30k",
+  "headword": "ferry",
+  "reading": "/fˈɛɹi/",
+  "gloss": "フェリー、連絡船、渡し船",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She's going by ferry.",
+    "translation": "フェリーで行くそうよ。",
+    "cloze": "She's going by ｟＿｠."
+   },
+   {
+    "text": "We rode a ferry to Japan.",
+    "translation": "我々はフェリーで日本に渡った。",
+    "cloze": "We rode a ｟＿｠ to Japan."
+   }
+  ],
+  "frequencyRank": 1577,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xde8b0e65",
+  "courseId": "en-10-30k",
+  "headword": "fridge",
+  "reading": "/fɹˈɪdʒ/",
+  "gloss": "冷蔵庫",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Our fridge broke.",
+    "translation": "冷蔵庫が壊れた。",
+    "cloze": "Our ｟＿｠ broke."
+   },
+   {
+    "text": "It's in the fridge.",
+    "translation": "冷蔵庫の中だよ。",
+    "cloze": "It's in the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1579,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x8f66cd23",
+  "courseId": "en-10-30k",
+  "headword": "flour",
+  "reading": "/flˈaʊɚ/",
+  "gloss": "小麦粉、メリケン粉;穀物の粉末",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "How much is rye flour?",
+    "translation": "ライ麦粉はいくらですか？",
+    "cloze": "How much is rye ｟＿｠?"
+   },
+   {
+    "text": "Bread is made from flour.",
+    "translation": "パンは小麦粉で作られる。",
+    "cloze": "Bread is made from ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1681,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xef31baae",
+  "courseId": "en-10-30k",
+  "headword": "financially",
+  "reading": "/fənˈænʃəli/",
+  "gloss": "財政的に、金銭的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "We helped him financially.",
+    "translation": "私たちは金銭的に彼を援助した。",
+    "cloze": "We helped him ｟＿｠."
+   },
+   {
+    "text": "He is financially embarrassed.",
+    "translation": "彼は財政上困難に陥っている。",
+    "cloze": "He is ｟＿｠ embarrassed."
+   }
+  ],
+  "frequencyRank": 1786,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x0446eeba",
+  "courseId": "en-10-30k",
+  "headword": "furious",
+  "reading": "/fjˈʊɹiəs/",
+  "gloss": "怒り狂った",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I got furious.",
+    "translation": "激怒してしまった。",
+    "cloze": "I got ｟＿｠."
+   },
+   {
+    "text": "Tom got furious.",
+    "translation": "トムは激怒した。",
+    "cloze": "Tom got ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1788,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x6a804afb",
+  "courseId": "en-10-30k",
+  "headword": "fortunately",
+  "reading": "/fˈɔɹtʃənətli/",
+  "gloss": "運よく、幸いにも",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Fortunately, nobody died.",
+    "translation": "幸いにも亡くなられた方はいません。",
+    "cloze": "｟＿｠, nobody died."
+   },
+   {
+    "text": "Fortunately, I was on time.",
+    "translation": "幸いなことに間に合った。",
+    "cloze": "｟＿｠, I was on time."
+   }
+  ],
+  "frequencyRank": 1844,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3a15c746",
+  "courseId": "en-10-30k",
+  "headword": "frustration",
+  "reading": "/fɹəstɹˈeɪʃən/",
+  "gloss": "欲求不満、失望;失敗、ざ折",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "His anger was born of frustration.",
+    "translation": "彼の怒りは欲求不満から生じた。",
+    "cloze": "His anger was born of ｟＿｠."
+   },
+   {
+    "text": "People react to the frustration in much the same way.",
+    "translation": "人は欲求不満に対してほとんど同じように反応する。",
+    "cloze": "People react to the ｟＿｠ in much the same way."
+   }
+  ],
+  "frequencyRank": 1846,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x042f0113",
+  "courseId": "en-10-30k",
+  "headword": "florence",
+  "reading": "/flˈɔɹəns/",
+  "gloss": "フィレンツェ、フローレンス(イタリア中部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Florence is the most beautiful city in Italy.",
+    "translation": "フィレンツェはイタリアのもっとも美しい都市です。",
+    "cloze": "｟＿｠ is the most beautiful city in Italy."
+   },
+   {
+    "text": "I spent a week in Florence last year. I'm sure you'll like it.",
+    "translation": "昨年一週間、フィレンツェで過ごしたんだ。君もきっと気に入ると思うよ。",
+    "cloze": "I spent a week in ｟＿｠ last year. I'm sure you'll like it."
+   }
+  ],
+  "frequencyRank": 1907,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0c2a59ff",
+  "courseId": "en-10-30k",
+  "headword": "flu",
+  "reading": "/flˈu/",
+  "gloss": "インフルエンザ、流感",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Mary had a flu.",
+    "translation": "メアリーはインフルエンザにかかった。",
+    "cloze": "Mary had a ｟＿｠."
+   },
+   {
+    "text": "Tom has the flu.",
+    "translation": "トムね、インフルエンザにかかってるの。",
+    "cloze": "Tom has the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1908,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x05f6c563",
+  "courseId": "en-10-30k",
+  "headword": "forbid",
+  "reading": "/fɚbˈɪd/",
+  "gloss": "禁じる、禁止する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I forbid you to smoke.",
+    "translation": "君の喫煙を禁じる。",
+    "cloze": "I ｟＿｠ you to smoke."
+   },
+   {
+    "text": "I am forbidden tobacco.",
+    "translation": "私は煙草を禁じられている。",
+    "cloze": "I am ｟＿｠ tobacco."
+   }
+  ],
+  "frequencyRank": 1909,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-xa4c1f620",
+  "courseId": "en-10-30k",
+  "headword": "feast",
+  "reading": "/fˈist/",
+  "gloss": "祝宴、ごちそう;祝祭日",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Enough is as good as a feast.",
+    "translation": "満腹はごちそうも同然。",
+    "cloze": "Enough is as good as a ｟＿｠."
+   },
+   {
+    "text": "My work is always feast or famine.",
+    "translation": "私の仕事はいつも多すぎるか少なすぎるかのどちらかである。",
+    "cloze": "My work is always ｟＿｠ or famine."
+   }
+  ],
+  "frequencyRank": 1970,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x901dbbfa",
+  "courseId": "en-10-30k",
+  "headword": "finland",
+  "reading": "/fˈɪnlˌænd/",
+  "gloss": "フィンランド(北欧の共和国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Santa lives in Finland.",
+    "translation": "サンタさんは、フィンランドに住んでるんだよ。",
+    "cloze": "Santa lives in ｟＿｠."
+   },
+   {
+    "text": "Do you come from Finland?",
+    "translation": "フィンランドご出身ですか？",
+    "cloze": "Do you come from ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1971,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x539ae957",
+  "courseId": "en-10-30k",
+  "headword": "frost",
+  "reading": "/fɹˈɔst/",
+  "gloss": "霜;霜が降りる、凍らせる",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Frost is frozen dew.",
+    "translation": "霜は露が凍ったものだ。",
+    "cloze": "｟＿｠ is frozen dew."
+   },
+   {
+    "text": "Frost touched the flower.",
+    "translation": "霜が花をいためた。",
+    "cloze": "｟＿｠ touched the flower."
+   }
+  ],
+  "frequencyRank": 1973,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xda7ff80d",
+  "courseId": "en-10-30k",
+  "headword": "fare",
+  "reading": "/fˈɛɹ/",
+  "gloss": "(乗り物の)運賃,料金;食べ物,料理",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What's the fare?",
+    "translation": "運賃はいくらですか？",
+    "cloze": "What's the ｟fare｠?"
+   },
+   {
+    "text": "Pay your fare here.",
+    "translation": "料金はここでお支払いください。",
+    "cloze": "Pay your ｟fare｠ here."
+   }
+  ],
+  "frequencyRank": 2028,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xa094f62f",
+  "courseId": "en-10-30k",
+  "headword": "fierce",
+  "reading": "/fˈɪɹs/",
+  "gloss": "凶暴な、激しい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She has a fierce temper.",
+    "translation": "彼女は気が強い方です。",
+    "cloze": "She has a ｟＿｠ temper."
+   },
+   {
+    "text": "They fought a fierce battle.",
+    "translation": "彼らは激しく戦った。",
+    "cloze": "They fought a ｟＿｠ battle."
+   }
+  ],
+  "frequencyRank": 2161,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x394f54d7",
+  "courseId": "en-10-30k",
+  "headword": "feminine",
+  "reading": "/fˈɛmənən/",
+  "gloss": "女性の、女らしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Ellie is very feminine.",
+    "translation": "エリーは本当に女性らしい女性だ。",
+    "cloze": "Ellie is very ｟＿｠."
+   },
+   {
+    "text": "We like to look feminine.",
+    "translation": "私達は女性らしく見せたい。",
+    "cloze": "We like to look ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2223,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xd35d0fca",
+  "courseId": "en-10-30k",
+  "headword": "fountain",
+  "reading": "/fˈaʊntən/",
+  "gloss": "泉、噴水；水源",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do you have a fountain pen?",
+    "translation": "万年筆って持ってる？",
+    "cloze": "Do you have a ｟＿｠ pen?"
+   },
+   {
+    "text": "Children were playing near the fountain in the park.",
+    "translation": "子どもたちは公園の噴水の近くで遊んでいた。",
+    "cloze": "Children were playing near the ｟＿｠ in the park.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2225,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x64530f1c",
+  "courseId": "en-10-30k",
+  "headword": "fury",
+  "reading": "/fjˈʊɹi/",
+  "gloss": "激しい怒り、激怒",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was bursting with fury.",
+    "translation": "彼は激怒で張り裂けんばかりだった。",
+    "cloze": "He was bursting with ｟＿｠."
+   },
+   {
+    "text": "The storm raged in all its fury.",
+    "translation": "暴風雨があらん限りの猛威を振るった。",
+    "cloze": "The storm raged in all its ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2226,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xcb468f15",
+  "courseId": "en-10-30k",
+  "headword": "fog",
+  "reading": "/fˈɑɡ/",
+  "gloss": "霧、もや",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The fog is dense.",
+    "translation": "霧が深い。",
+    "cloze": "The ｟＿｠ is dense."
+   },
+   {
+    "text": "The fog closed in.",
+    "translation": "霧が立ち込めた。",
+    "cloze": "The ｟＿｠ closed in."
+   }
+  ],
+  "frequencyRank": 2302,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xa81bce47",
+  "courseId": "en-10-30k",
+  "headword": "farewell",
+  "reading": "/fˌɛɹwˈɛl/",
+  "gloss": "さらば,ごきげんよう;別れの言葉",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Farewell!",
+    "translation": "さようなら！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "She bade farewell to me.",
+    "translation": "彼女は私に別れのあいさつを述べた。",
+    "cloze": "She bade ｟＿｠ to me."
+   }
+  ],
+  "frequencyRank": 2372,
+  "category": "greetings"
+ },
+ {
+  "id": "en-10-30k-x7de06895",
+  "courseId": "en-10-30k",
+  "headword": "fist",
+  "reading": "/fˈɪst/",
+  "gloss": "握りこぶし",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Never lose your fighting fists.",
+    "translation": "おまえも決して戦う拳を忘れるな。",
+    "cloze": "Never lose your fighting ｟＿｠."
+   },
+   {
+    "text": "He went at them with his fists.",
+    "translation": "彼らにこぶしで殴りかかった。",
+    "cloze": "He went at them with his ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2373,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xf980e9da",
+  "courseId": "en-10-30k",
+  "headword": "fond",
+  "reading": "/fˈɑnd/",
+  "gloss": "(…が)好きで;優しい,愛情のある",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I am fond of cars.",
+    "translation": "私は車が好きだ。",
+    "cloze": "I am ｟＿｠ of cars."
+   },
+   {
+    "text": "I was fond of cake.",
+    "translation": "私はケーキが大好きだった。",
+    "cloze": "I was ｟＿｠ of cake."
+   }
+  ],
+  "frequencyRank": 2374,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x0e20319e",
+  "courseId": "en-10-30k",
+  "headword": "foolish",
+  "reading": "/fˈulɪʃ/",
+  "gloss": "愚かな,ばかげた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "How foolish!",
+    "translation": "なんて愚かなことなんだろう。",
+    "cloze": "How ｟＿｠!"
+   },
+   {
+    "text": "He is foolish.",
+    "translation": "彼はばかだ。",
+    "cloze": "He is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2375,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa13023db",
+  "courseId": "en-10-30k",
+  "headword": "frog",
+  "reading": "/fɹˈɑɡ/",
+  "gloss": "カエル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I hate frogs.",
+    "translation": "カエルなんて、大っ嫌い。",
+    "cloze": "I hate ｟＿｠."
+   },
+   {
+    "text": "Frogs are slimy.",
+    "translation": "カエルはぬるぬるしてる。",
+    "cloze": "｟＿｠ are slimy."
+   }
+  ],
+  "frequencyRank": 2376,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xecd7ff50",
+  "courseId": "en-10-30k",
+  "headword": "fourteen",
+  "reading": "/fˈɔɹtˈin/",
+  "gloss": "14(じゅうよん)",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "I'm going to be fourteen.",
+    "translation": "私はもうすぐ１４歳になります。",
+    "cloze": "I'm going to be ｟＿｠."
+   },
+   {
+    "text": "Two times seven is fourteen.",
+    "translation": "二かける七は十四です。",
+    "cloze": "Two times seven is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2438,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x7ca11209",
+  "courseId": "en-10-30k",
+  "headword": "fda",
+  "reading": "/ˌɛfdˌiˈeɪ/",
+  "gloss": "米国食品医薬品局(FDA)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and the drug went to the fda",
+    "translation": "この薬は米国食品医薬品局(FDA)に送られました",
+    "cloze": "and the drug went to the ｟＿｠"
+   },
+   {
+    "text": "The new drug must be approved by the FDA before it goes on sale.",
+    "translation": "その新薬は発売前にFDAの承認を得なければならない。",
+    "cloze": "The new drug must be approved by the ｟＿｠ before it goes on sale.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2498,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xcb675142",
+  "courseId": "en-10-30k",
+  "headword": "forehead",
+  "reading": "/fˈɔɹhɛd/",
+  "gloss": "額(ひたい)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Come feel my forehead.",
+    "translation": "額にさわらせてちょうだい。",
+    "cloze": "Come feel my ｟＿｠."
+   },
+   {
+    "text": "Tom rubbed his forehead.",
+    "translation": "トムは額をさすった。",
+    "cloze": "Tom rubbed his ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2499,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x904aa4a2",
+  "courseId": "en-10-30k",
+  "headword": "foreigner",
+  "reading": "/fˈɔɹənɚ/",
+  "gloss": "外国人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We aren't foreigners.",
+    "translation": "僕ら、外国人じゃないよ。",
+    "cloze": "We aren't ｟＿｠."
+   },
+   {
+    "text": "Foreigners admire Mt. Fuji.",
+    "translation": "外国人は富士山を賛美する。",
+    "cloze": "｟＿｠ admire Mt. Fuji."
+   }
+  ],
+  "frequencyRank": 2500,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb4af9965",
+  "courseId": "en-10-30k",
+  "headword": "forgiveness",
+  "reading": "/fɚɡˈɪvnəs/",
+  "gloss": "許すこと、寛容",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I asked forgiveness for the mistake I made.",
+    "translation": "私は間違ってすみませんと謝った。",
+    "cloze": "I asked ｟＿｠ for the mistake I made."
+   },
+   {
+    "text": "She sought forgiveness for her guilty acts.",
+    "translation": "彼女は非難されるようなことをしたのを許してほしいと言った。",
+    "cloze": "She sought ｟＿｠ for her guilty acts."
+   }
+  ],
+  "frequencyRank": 2501,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xe546b89d",
+  "courseId": "en-10-30k",
+  "headword": "fictional",
+  "reading": "/fˈɪkʃənəl/",
+  "gloss": "架空の,作り事の;小説の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "That ugly butcher resembles that fictional monster.",
+    "translation": "その醜い肉屋の旦那はあの想像上の怪物に似ている。",
+    "cloze": "That ugly butcher resembles that ｟＿｠ monster."
+   },
+   {
+    "text": "depends on the decisions and wishes of fictional entities",
+    "translation": "架空の世界の決定や願いにかかっているのです",
+    "cloze": "depends on the decisions and wishes of ｟＿｠ entities"
+   }
+  ],
+  "frequencyRank": 2568,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x34b54156",
+  "courseId": "en-10-30k",
+  "headword": "fragile",
+  "reading": "/fɹˈædʒəl/",
+  "gloss": "壊れやすい,もろい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This vase is fragile.",
+    "translation": "この花瓶は割れやすい。",
+    "cloze": "This vase is ｟＿｠."
+   },
+   {
+    "text": "These boxes are fragile.",
+    "translation": "これらのダンボールは壊れ易い。",
+    "cloze": "These boxes are ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2569,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xac8e90fd",
+  "courseId": "en-10-30k",
+  "headword": "firework",
+  "reading": "/fˈaɪɹwˌɝk/",
+  "gloss": "花火;花火大会",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I see fireworks!",
+    "translation": "花火が見える！",
+    "cloze": "I see ｟fireworks｠!"
+   },
+   {
+    "text": "They set off fireworks.",
+    "translation": "彼らは花火を打ち上げた。",
+    "cloze": "They set off ｟fireworks｠."
+   }
+  ],
+  "frequencyRank": 2764,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x9fc52167",
+  "courseId": "en-10-30k",
+  "headword": "freeman",
+  "reading": "/fɹˈimən/",
+  "gloss": "自由民;公民(citizen)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "In ancient times, a freeman had rights that a slave did not.",
+    "translation": "古代において、自由民は奴隷にはない権利を持っていた。",
+    "cloze": "In ancient times, a ｟freeman｠ had rights that a slave did not.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2766,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd69947e2",
+  "courseId": "en-10-30k",
+  "headword": "fundraising",
+  "reading": "/fˈʌndɹˌeɪsɪŋ/",
+  "gloss": "資金調達,募金活動",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "new york elects a new mayor, and i'm very curious about the illegal fundraising you've done for ed griffin's campaign.",
+    "translation": "あなたがエド・グリフィンの選挙活動に 不正な資金調達を行ったこと",
+    "cloze": "new york elects a new mayor, and i'm very curious about the illegal ｟＿｠ you've done for ed griffin's campaign."
+   },
+   {
+    "text": "the solution is to have them spend less time fundraising",
+    "translation": "議員の資金集めの時間を 削減させて",
+    "cloze": "the solution is to have them spend less time ｟＿｠"
+   }
+  ],
+  "frequencyRank": 2923,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x19b11213",
+  "courseId": "en-10-30k",
+  "headword": "fatty",
+  "reading": "/fˈæti/",
+  "gloss": "脂肪の多い、脂っこい；(俗)でぶ、太っちょ",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "when you eat a big fatty meal, how do you feel?",
+    "translation": "脂っこい食事をしたらどんな気分？",
+    "cloze": "when you eat a big ｟＿｠ meal, how do you feel?"
+   },
+   {
+    "text": "hey, hey! fatty! hey!",
+    "translation": "おい おい! 太っちょ! おい!",
+    "cloze": "hey, hey! ｟＿｠! hey!"
+   }
+  ],
+  "frequencyRank": 3002,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb89b9cc3",
+  "courseId": "en-10-30k",
+  "headword": "filthy",
+  "reading": "/fˈɪlθi/",
+  "gloss": "不潔な、汚い；下品な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tom's filthy.",
+    "translation": "トムって、不潔ね。",
+    "cloze": "Tom's ｟＿｠."
+   },
+   {
+    "text": "The floor was filthy after the storm.",
+    "translation": "嵐の後、床は汚れていた。",
+    "cloze": "The floor was ｟＿｠ after the storm.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3003,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x79c71552",
+  "courseId": "en-10-30k",
+  "headword": "flush",
+  "reading": "/flˈʌʃ/",
+  "gloss": "(トイレの)水を流す、水洗；(顔が)赤らむ、紅潮",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "You're flushed.",
+    "translation": "顔赤いよ。",
+    "cloze": "You're ｟＿｠."
+   },
+   {
+    "text": "The toilet flushes.",
+    "translation": "トイレの水が流れます。",
+    "cloze": "The toilet ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3005,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x6f77901a",
+  "courseId": "en-10-30k",
+  "headword": "font",
+  "reading": "/fˈɑnt/",
+  "gloss": "フォント(書体)；(教会の)洗礼盤",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The font is too large.",
+    "translation": "フォントが大きすぎます。",
+    "cloze": "The ｟＿｠ is too large."
+   },
+   {
+    "text": "Why do you use this font?",
+    "translation": "なんでこのフォント使ってるの？",
+    "cloze": "Why do you use this ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 3006,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x66fa13a3",
+  "courseId": "en-10-30k",
+  "headword": "freestyle",
+  "reading": "/fɹˈistˌaɪl/",
+  "gloss": "自由形(水泳・レスリング)；フリースタイル(即興表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you have a freestyle artist",
+    "translation": "フリースタイルアーティストを招いて",
+    "cloze": "you have a ｟＿｠ artist"
+   },
+   {
+    "text": "take a look at the record for the 100meter freestyle swim.",
+    "translation": "100メートル自由型競泳の 記録を見てみましょう",
+    "cloze": "take a look at the record for the 100meter ｟＿｠ swim."
+   }
+  ],
+  "frequencyRank": 3007,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x79e1435a",
+  "courseId": "en-10-30k",
+  "headword": "feather",
+  "reading": "/fˈɛðɚ/",
+  "gloss": "(1枚の)羽、羽毛",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We're birds of a feather.",
+    "translation": "俺たちは同じ穴の狢さ。",
+    "cloze": "We're birds of a ｟＿｠."
+   },
+   {
+    "text": "Fine feathers make fine birds.",
+    "translation": "立派な羽が立派な鳥をつくる。",
+    "cloze": "Fine ｟＿｠s make fine birds."
+   }
+  ],
+  "frequencyRank": 3085,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x99e3d639",
+  "courseId": "en-10-30k",
+  "headword": "faint",
+  "reading": "/fˈeɪnt/",
+  "gloss": "気を失う,気絶する;かすかな,弱々しい",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I fainted.",
+    "translation": "私は気を失いました。",
+    "cloze": "I ｟＿｠."
+   },
+   {
+    "text": "Tom fainted.",
+    "translation": "トムは気を失った。",
+    "cloze": "Tom ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3170,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x88666551",
+  "courseId": "en-10-30k",
+  "headword": "finn",
+  "reading": "/fˈɪn/",
+  "gloss": "フィンランド人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Finns drink a lot of coffee.",
+    "translation": "フィンランド人はコーヒーをたくさん飲みます。",
+    "cloze": "｟＿｠ drink a lot of coffee."
+   },
+   {
+    "text": "That Hawaiian restaurant is a favorite with locals in Boston, but it's also frequented by Finns and Japanese.",
+    "translation": "そのハワイアンレストランは、ボストンの地元住民に愛用されていますが、フィンランドの方や日本の方もよく利用されてます。",
+    "cloze": "That Hawaiian restaurant is a favorite with locals in Boston, but it's also frequented by ｟＿｠ and Japanese."
+   }
+  ],
+  "frequencyRank": 3171,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x80912ace",
+  "courseId": "en-10-30k",
+  "headword": "foam",
+  "reading": "/fˈoʊm/",
+  "gloss": "泡;泡立つ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The sea was white with foam.",
+    "translation": "波は白波が立っていた。",
+    "cloze": "The sea was white with ｟＿｠."
+   },
+   {
+    "text": "The breaking waves formed foam.",
+    "translation": "くだける波が泡を作った。",
+    "cloze": "The breaking waves formed ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3173,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xfeb22847",
+  "courseId": "en-10-30k",
+  "headword": "fairness",
+  "reading": "/fˈɛɹnəs/",
+  "gloss": "公平、公正",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "In all fairness, he did do his best.",
+    "translation": "公平に評すれば、彼は最善を尽くした。",
+    "cloze": "In all ｟＿｠, he did do his best."
+   },
+   {
+    "text": "The verdict is a tribute to their fairness.",
+    "translation": "評決は公平な審議の証拠である。",
+    "cloze": "The verdict is a tribute to their ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3252,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x199c5092",
+  "courseId": "en-10-30k",
+  "headword": "floral",
+  "reading": "/flˈɔɹəl/",
+  "gloss": "花の、花柄の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "created this fairly floral typography",
+    "translation": "1週間かけて花模様の入った文字を作りました",
+    "cloze": "created this fairly ｟＿｠ typography"
+   },
+   {
+    "text": "sometimes quite freshly floral",
+    "translation": "時に花のさわやかな香りだが",
+    "cloze": "sometimes quite freshly ｟＿｠"
+   }
+  ],
+  "frequencyRank": 3255,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb61d79bb",
+  "courseId": "en-10-30k",
+  "headword": "foil",
+  "reading": "/fˈɔɪl/",
+  "gloss": "〈計画・企てなど〉をくじく,阻止する,失敗させる;(名詞で)金属の薄片,箔",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I was foiled in my attempt.",
+    "translation": "私は企てに失敗した。",
+    "cloze": "I was ｟＿｠ in my attempt."
+   },
+   {
+    "text": "The coup attempt was foiled at the last moment.",
+    "translation": "クーデター計画はぎりぎりのところで阻止されました。",
+    "cloze": "The coup attempt was ｟＿｠ at the last moment."
+   }
+  ],
+  "frequencyRank": 3339,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xad294813",
+  "courseId": "en-10-30k",
+  "headword": "fcc",
+  "reading": "/ˌɛfsˌisˈi/",
+  "gloss": "米連邦通信委員会(Federal Communications Commission)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "but i'm sure the fcc and this network will investigate and prosecute those responsible.",
+    "translation": "しかし 連盟および当放送局は・・・ 今回の件を調査し 責任の所在を明らかにすると",
+    "cloze": "but i'm sure the ｟fcc｠ and this network will investigate and prosecute those responsible."
+   },
+   {
+    "text": "The FCC regulates television and radio broadcasting in the United States.",
+    "translation": "FCCは米国のテレビとラジオ放送を規制している。",
+    "cloze": "The ｟FCC｠ regulates television and radio broadcasting in the United States.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3418,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x10c57dcc",
+  "courseId": "en-10-30k",
+  "headword": "falcon",
+  "reading": "/fˈælkən/",
+  "gloss": "ハヤブサ、タカ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The falcon is a very fast bird.",
+    "translation": "隼はとても速い鳥です。",
+    "cloze": "The ｟falcon｠ is a very fast bird."
+   },
+   {
+    "text": "A smart falcon hides its talons.",
+    "translation": "能ある鷹は爪を隠す。",
+    "cloze": "A smart ｟falcon｠ hides its talons."
+   }
+  ],
+  "frequencyRank": 3522,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x4e1f582d",
+  "courseId": "en-10-30k",
+  "headword": "folder",
+  "reading": "/fˈoʊldɚ/",
+  "gloss": "紙ばさみ、フォルダー（書類・データ整理用）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The folder is empty.",
+    "translation": "フォルダーは空です。",
+    "cloze": "The ｟folder｠ is empty."
+   },
+   {
+    "text": "Check your spam folder.",
+    "translation": "迷惑メールを確認してみて。",
+    "cloze": "Check your spam ｟folder｠."
+   }
+  ],
+  "frequencyRank": 3524,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xd932d432",
+  "courseId": "en-10-30k",
+  "headword": "flex",
+  "reading": "/flˈɛks/",
+  "gloss": "(筋肉・手足を)曲げる、伸縮させる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "the whole limb extends out. the body flexes backwards",
+    "translation": "脚は伸びきって 体がのけ反っています",
+    "cloze": "the whole limb extends out. the body ｟＿｠s backwards"
+   },
+   {
+    "text": "flex at the wrist",
+    "translation": "繊細なモーター制御と 手首や肘の自由度",
+    "cloze": "｟＿｠ at the wrist"
+   }
+  ],
+  "frequencyRank": 3618,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x091299c8",
+  "courseId": "en-10-30k",
+  "headword": "fest",
+  "reading": "/fˈɛst/",
+  "gloss": "(略式)～祭り、～大会(festivalの略・接尾辞的用法)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The party turned into a total gossip fest.",
+    "translation": "そのパーティーはすっかり噂話大会になった。",
+    "cloze": "The party turned into a total gossip ｟fest｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Fans gathered for the annual music fest.",
+    "translation": "ファンたちは毎年恒例の音楽祭に集まった。",
+    "cloze": "Fans gathered for the annual music ｟fest｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3810,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-x75aa4207",
+  "courseId": "en-10-30k",
+  "headword": "flock",
+  "reading": "/flˈɑk/",
+  "gloss": "(羊・鳥などの)群れ;群がる",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I saw a flock of sheep.",
+    "translation": "私は羊の群を見た。",
+    "cloze": "I saw a ｟＿｠ of sheep."
+   },
+   {
+    "text": "Wolves stalked the flock.",
+    "translation": "オオカミが羊の群れに忍び寄った。",
+    "cloze": "Wolves stalked the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4015,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x6f5e46ac",
+  "courseId": "en-10-30k",
+  "headword": "flyer",
+  "reading": "/flˈaɪɚ/",
+  "gloss": "ちらし、ビラ;飛行士",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I created the new flyers.",
+    "translation": "新しいチラシを作成した。",
+    "cloze": "I created the new ｟＿｠."
+   },
+   {
+    "text": "That woman gave me a flyer.",
+    "translation": "あの女性がチラシをくれたのよ。",
+    "cloze": "That woman gave me a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4016,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x711bdf2e",
+  "courseId": "en-10-30k",
+  "headword": "footballer",
+  "reading": null,
+  "gloss": "サッカー選手(主に英で使用)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Footballers make a lot of money.",
+    "translation": "サッカー選手は儲かる。",
+    "cloze": "｟＿｠ make a lot of money."
+   },
+   {
+    "text": "I'd like to be a famous footballer.",
+    "translation": "有名なサッカー選手になりたいです。",
+    "cloze": "I'd like to be a famous ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4017,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x124774cd",
+  "courseId": "en-10-30k",
+  "headword": "footstep",
+  "reading": "/fˈʊtstˌɛp/",
+  "gloss": "足音;足跡",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I hear footsteps.",
+    "translation": "足音がする。",
+    "cloze": "I hear ｟＿｠."
+   },
+   {
+    "text": "He followed in his father's footsteps.",
+    "translation": "彼は父親の例にならっていった。",
+    "cloze": "He followed in his father's ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4018,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xb78cac6f",
+  "courseId": "en-10-30k",
+  "headword": "filipino",
+  "reading": "/fˌɪləpˈinoʊ/",
+  "gloss": "フィリピン人;フィリピンの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Are you a Filipino?",
+    "translation": "あなたはフィリピン人ですか。",
+    "cloze": "Are you a ｟Filipino｠?"
+   },
+   {
+    "text": "\"Are you from Australia?\" asked the Filipino.",
+    "translation": "「オーストラリアからですか」とフィリピン人はたずねました。",
+    "cloze": "\"Are you from Australia?\" asked the ｟Filipino｠."
+   }
+  ],
+  "frequencyRank": 4103,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7d007601",
+  "courseId": "en-10-30k",
+  "headword": "finnish",
+  "reading": "/fˈɪnɪʃ/",
+  "gloss": "フィンランドの、フィンランド人(語)の;フィンランド語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I speak Finnish.",
+    "translation": "私はフィンランド語を話します。",
+    "cloze": "I speak ｟Finnish｠."
+   },
+   {
+    "text": "I am Finnish, but I speak also Swedish.",
+    "translation": "私はフィンランド人なのに、スウェーデン語も話せる。",
+    "cloze": "I am ｟Finnish｠, but I speak also Swedish."
+   }
+  ],
+  "frequencyRank": 4188,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa36c92c8",
+  "courseId": "en-10-30k",
+  "headword": "freezer",
+  "reading": "/fɹˈizɚ/",
+  "gloss": "冷凍庫、冷凍室",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have ice cream in the freezer.",
+    "translation": "冷凍室にアイスがあるよ。",
+    "cloze": "I have ice cream in the ｟freezer｠."
+   },
+   {
+    "text": "There's chocolate ice cream in the freezer.",
+    "translation": "冷凍室にチョコレートアイスがあるよ。",
+    "cloze": "There's chocolate ice cream in the ｟freezer｠."
+   }
+  ],
+  "frequencyRank": 4304,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x66878dcd",
+  "courseId": "en-10-30k",
+  "headword": "fashionable",
+  "reading": "/fˈæʃənəbəl/",
+  "gloss": "流行の,はやりの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "She's fashionable.",
+    "translation": "彼女はオシャレだ。",
+    "cloze": "She's ｟＿｠."
+   },
+   {
+    "text": "She always wears fashionable clothes.",
+    "translation": "彼女はいつも流行の服を着ている。",
+    "cloze": "She always wears ｟＿｠ clothes."
+   }
+  ],
+  "frequencyRank": 4401,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc4d4efe4",
+  "courseId": "en-10-30k",
+  "headword": "fetch",
+  "reading": "/fˈɛtʃ/",
+  "gloss": "(行って)取ってくる;連れてくる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Fetch me my hat.",
+    "translation": "僕の帽子をとってきてくれ。",
+    "cloze": "｟＿｠ me my hat."
+   },
+   {
+    "text": "Please fetch me a piece of paper.",
+    "translation": "紙切れを取ってきてください。",
+    "cloze": "Please ｟＿｠ me a piece of paper."
+   }
+  ],
+  "frequencyRank": 4402,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x6fbb7d28",
+  "courseId": "en-10-30k",
+  "headword": "fisherman",
+  "reading": "/fˈɪʃɚmˌæn/",
+  "gloss": "漁師;釣り人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The fisherman cast his line into the water.",
+    "translation": "漁師は釣り糸を水中に投げた。",
+    "cloze": "The ｟＿｠ cast his line into the water."
+   },
+   {
+    "text": "The fishermen cast their nets into the sea.",
+    "translation": "その漁師達は網を海に投げた。",
+    "cloze": "The ｟＿｠ cast their nets into the sea."
+   }
+  ],
+  "frequencyRank": 4403,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xe0a90650",
+  "courseId": "en-10-30k",
+  "headword": "fuzzy",
+  "reading": "/fˈʌzi/",
+  "gloss": "毛羽立った;ぼやけた,はっきりしない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Peaches are fuzzy.",
+    "translation": "桃はケバケバしてます。",
+    "cloze": "Peaches are ｟＿｠."
+   },
+   {
+    "text": "The picture is fuzzy.",
+    "translation": "写真がボケてる。",
+    "cloze": "The picture is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4407,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x986f7410",
+  "courseId": "en-10-30k",
+  "headword": "forex",
+  "reading": "/fˈɔɹɛks/",
+  "gloss": "外国為替(市場)(foreign exchangeの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He trades currencies on the forex market every day.",
+    "translation": "彼は毎日外国為替市場で通貨を取引している。",
+    "cloze": "He trades currencies on the ｟forex｠ market every day.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Forex trading can be highly volatile.",
+    "translation": "外国為替取引は変動が激しいことがある。",
+    "cloze": "｟Forex｠ trading can be highly volatile.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4523,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x34a2fe6b",
+  "courseId": "en-10-30k",
+  "headword": "fax",
+  "reading": "/fˈæks/",
+  "gloss": "ファックス、ファクシミリ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What is a fax?",
+    "translation": "FAXって、何？",
+    "cloze": "What is a ｟＿｠?"
+   },
+   {
+    "text": "Tom is sending a fax.",
+    "translation": "トムはファックスを送ってるよ。",
+    "cloze": "Tom is sending a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4630,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xbeb6366c",
+  "courseId": "en-10-30k",
+  "headword": "firefighter",
+  "reading": "/fˈaɪɹfˌaɪtɚ/",
+  "gloss": "消防士",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is a firefighter.",
+    "translation": "トムは消防士だ。",
+    "cloze": "Tom is a ｟＿｠."
+   },
+   {
+    "text": "Tom wanted to be a firefighter.",
+    "translation": "トムは消防士になりたかった。",
+    "cloze": "Tom wanted to be a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4633,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x4f27c538",
+  "courseId": "en-10-30k",
+  "headword": "flick",
+  "reading": "/flˈɪk/",
+  "gloss": "(指などで)軽くはじく;素早い一振り",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He flicked me in the face.",
+    "translation": "彼は私の顔を指先でぽんとはじいた。",
+    "cloze": "He ｟＿｠ me in the face."
+   },
+   {
+    "text": "Finger flicks are the strongest weapon for killing cockroaches.",
+    "translation": "ゴキブリを殺すにはデコピンが一番強力な武器だ。",
+    "cloze": "Finger ｟＿｠ are the strongest weapon for killing cockroaches."
+   }
+  ],
+  "frequencyRank": 4634,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x5cc7ef29",
+  "courseId": "en-10-30k",
+  "headword": "frankfurt",
+  "reading": "/fɹˈæŋkfɚt/",
+  "gloss": "フランクフルト(ドイツの都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "It was named after Frankfurt, a German city.",
+    "translation": "それは、ドイツの一都市であるフランクフルトにちなんで名づけられた。",
+    "cloze": "It was named after ｟Frankfurt｠, a German city."
+   },
+   {
+    "text": "Frankfurt is one of the most important financial centers in Europe.",
+    "translation": "フランクフルトはヨーロッパで最も重要な金融都市の一つだ。",
+    "cloze": "｟Frankfurt｠ is one of the most important financial centers in Europe.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4740,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xbe1764ff",
+  "courseId": "en-10-30k",
+  "headword": "fuss",
+  "reading": "/fˈʌs/",
+  "gloss": "騒ぎ立てること、大騒ぎ；やきもきすること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Don't make a fuss.",
+    "translation": "ゴチャゴチャ文句を言いなさんな。",
+    "cloze": "Don't make a ｟fuss｠."
+   },
+   {
+    "text": "Stop making a fuss.",
+    "translation": "ぎゃあぎゃあ言うのはやめてください。",
+    "cloze": "Stop making a ｟fuss｠."
+   }
+  ],
+  "frequencyRank": 4743,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xba05e04c",
+  "courseId": "en-10-30k",
+  "headword": "falsely",
+  "reading": "/fˈɔlsli/",
+  "gloss": "誤って、偽って",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I was falsely accused.",
+    "translation": "濡れ衣を着せられた。",
+    "cloze": "I was ｟＿｠ accused."
+   },
+   {
+    "text": "Tom was falsely accused.",
+    "translation": "トムは濡れ衣を着せられた。",
+    "cloze": "Tom was ｟＿｠ accused."
+   }
+  ],
+  "frequencyRank": 4844,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x3dd9d21f",
+  "courseId": "en-10-30k",
+  "headword": "fiji",
+  "reading": "/fˈidʒi/",
+  "gloss": "フィジー(南太平洋の島国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "If I had all the time in the world, I'd build a boat and sail to Fiji.",
+    "translation": "もしも時間が無限にあったら、ボートを造ってフィジーに向けて帆を上げる。",
+    "cloze": "If I had all the time in the world, I'd build a boat and sail to ｟＿｠."
+   },
+   {
+    "text": "you're joining the crew in fiji as a deckhand.",
+    "translation": "清掃員として フィジーで合流する",
+    "cloze": "you're joining the crew in ｟＿｠ as a deckhand."
+   }
+  ],
+  "frequencyRank": 4846,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x29f77f13",
+  "courseId": "en-10-30k",
+  "headword": "freeway",
+  "reading": "/fɹˈiwˌeɪ/",
+  "gloss": "(無料の)高速道路",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He came by the freeway.",
+    "translation": "彼は高速道路を通ってやってきた。",
+    "cloze": "He came by the ｟＿｠."
+   },
+   {
+    "text": "There was a terrible accident on the freeway.",
+    "translation": "高速道路で悲惨な事故があった。",
+    "cloze": "There was a terrible accident on the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4848,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xd678e81c",
+  "courseId": "en-10-30k",
+  "headword": "freshly",
+  "reading": "/fɹˈɛʃli/",
+  "gloss": "新たに、新しく;新鮮に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "They're freshly made.",
+    "translation": "できたてほやほやだよ。",
+    "cloze": "They're ｟＿｠ made."
+   },
+   {
+    "text": "It's freshly caught fish.",
+    "translation": "とれたての魚です。",
+    "cloze": "It's ｟＿｠ caught fish."
+   }
+  ],
+  "frequencyRank": 4849,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xacbf95e2",
+  "courseId": "en-10-30k",
+  "headword": "fargo",
+  "reading": "/fˈɑɹɡˌoʊ/",
+  "gloss": "ファーゴ(米国ノースダコタ州の都市;同名映画でも有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "captain said wait on going up to fargo.",
+    "translation": "警部に ファーゴに行くのは 待ってくれと言われた",
+    "cloze": "captain said wait on going up to ｟＿｠."
+   },
+   {
+    "text": "Fargo is the largest city in North Dakota.",
+    "translation": "ファーゴはノースダコタ州最大の都市だ。",
+    "cloze": "｟＿｠ is the largest city in North Dakota.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4984,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3463e6ca",
+  "courseId": "en-10-30k",
+  "headword": "flawless",
+  "reading": "/flˈɔləs/",
+  "gloss": "傷のない,完璧な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Your English is flawless.",
+    "translation": "君の英語は完璧だ。",
+    "cloze": "Your English is ｟＿｠."
+   },
+   {
+    "text": "Flawless precision is required in the measurements.",
+    "translation": "測定には寸分の狂いもない精度が要求される。",
+    "cloze": "｟＿｠ precision is required in the measurements."
+   }
+  ],
+  "frequencyRank": 4986,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x05d6e9ae",
+  "courseId": "en-10-30k",
+  "headword": "fart",
+  "reading": "/fˈɑɹt/",
+  "gloss": "おならをする;(名詞)おなら",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I farted.",
+    "translation": "屁をこきました。",
+    "cloze": "I ｟＿｠."
+   },
+   {
+    "text": "You farted again!",
+    "translation": "またおならしたな！",
+    "cloze": "You ｟＿｠ again!"
+   }
+  ],
+  "frequencyRank": 5093,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x0fcaeb44",
+  "courseId": "en-10-30k",
+  "headword": "fluffy",
+  "reading": "/flˈʌfi/",
+  "gloss": "けばの,綿毛の,ふわふわの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Sheep fur is fluffy.",
+    "translation": "羊の毛はもこもこしている。",
+    "cloze": "Sheep fur is ｟＿｠."
+   },
+   {
+    "text": "The snow was soft and fluffy.",
+    "translation": "雪は柔らかくてふわふわしてた。",
+    "cloze": "The snow was soft and ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5096,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb5a44c2e",
+  "courseId": "en-10-30k",
+  "headword": "fundraiser",
+  "reading": "/fˈʌndɹˌeɪzɚ/",
+  "gloss": "資金集めイベント,募金活動;資金調達者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "okay, look, i helped plan a fundraiser for the hospital, two years ago, that was before the surgeries.",
+    "translation": "いいか 2年前 私は病院のための 資金調達の計画を練っていた それは その整形手術の前だった",
+    "cloze": "okay, look, i helped plan a ｟＿｠ for the hospital, two years ago, that was before the surgeries."
+   },
+   {
+    "text": "i have that art fundraiser th the park today, but i'm gonna check in on you, okay?",
+    "translation": "今日は公園で芸術資金調達者を待つわ。 行ってくるわね- あなたは、大丈夫なの?",
+    "cloze": "i have that art ｟＿｠ th the park today, but i'm gonna check in on you, okay?"
+   }
+  ],
+  "frequencyRank": 5097,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x2e6e729f",
+  "courseId": "en-10-30k",
+  "headword": "fearful",
+  "reading": "/fˈɪɹfəl/",
+  "gloss": "恐ろしい,こわい;心配して",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "That was a fearful scene.",
+    "translation": "それはさんたんたる有様だった。",
+    "cloze": "That was a ｟＿｠ scene."
+   },
+   {
+    "text": "A fearful thought entered my mind.",
+    "translation": "恐ろしい考えが私の心をよぎった。",
+    "cloze": "A ｟＿｠ thought entered my mind."
+   }
+  ],
+  "frequencyRank": 5214,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xc291ef47",
+  "courseId": "en-10-30k",
+  "headword": "finalist",
+  "reading": "/fˈaɪnəlɪst/",
+  "gloss": "決勝進出者,決勝戦出場選手",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "now for the third finalist!",
+    "translation": "ええ では 三人目のファイナリストの方",
+    "cloze": "now for the third ｟＿｠!"
+   },
+   {
+    "text": "and was a finalist in the new yorker caption contest.",
+    "translation": "ニューヨーカー・キャプション・コンテスト 決勝進出",
+    "cloze": "and was a ｟＿｠ in the new yorker caption contest."
+   }
+  ],
+  "frequencyRank": 5313,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x62f10dd2",
+  "courseId": "en-10-30k",
+  "headword": "flop",
+  "reading": "/flˈɑp/",
+  "gloss": "ばたんと倒れる、どさっと落ちる；(話)失敗する；失敗、大失敗",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom flopped down on his bed.",
+    "translation": "トムはベッドにごろりと寝転がった。",
+    "cloze": "Tom ｟flopped｠ down on his bed."
+   },
+   {
+    "text": "The fish flopped around on the deck of the boat.",
+    "translation": "魚は船の甲板でばたばたと跳ねた。",
+    "cloze": "The fish ｟flopped｠ around on the deck of the boat.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5436,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x0fbab6f2",
+  "courseId": "en-10-30k",
+  "headword": "furry",
+  "reading": "/fˈɝi/",
+  "gloss": "毛皮の、毛で覆われた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The dog has a soft, furry coat.",
+    "translation": "その犬は柔らかく毛で覆われた毛並みをしている。",
+    "cloze": "The dog has a soft, ｟furry｠ coat.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She has a furry white cat.",
+    "translation": "彼女はふわふわした白い猫を飼っている。",
+    "cloze": "She has a ｟furry｠ white cat.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5438,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xd8bfae32",
+  "courseId": "en-10-30k",
+  "headword": "fearless",
+  "reading": "/fˈɪɹləs/",
+  "gloss": "恐れを知らない,大胆な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm fearless.",
+    "translation": "私、怖いもの知らずなの。",
+    "cloze": "I'm ｟fearless｠."
+   },
+   {
+    "text": "Tom is fearless.",
+    "translation": "トムって、物怖じしないよな。",
+    "cloze": "Tom is ｟fearless｠."
+   }
+  ],
+  "frequencyRank": 5562,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb6150667",
+  "courseId": "en-10-30k",
+  "headword": "fireplace",
+  "reading": "/fˈaɪɚplˌeɪs/",
+  "gloss": "暖炉",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom sat by the fireplace.",
+    "translation": "トムは暖炉のそばに腰かけた。",
+    "cloze": "Tom sat by the ｟＿｠."
+   },
+   {
+    "text": "This is a very nice fireplace.",
+    "translation": "これはたいそう快適な暖炉ですね。",
+    "cloze": "This is a very nice ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5691,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x14cde0ab",
+  "courseId": "en-10-30k",
+  "headword": "fragrance",
+  "reading": "/fɹˈeɪɡɹəns/",
+  "gloss": "香り,芳香,かぐわしさ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Roses have a nice fragrance.",
+    "translation": "バラはいい香りがします。",
+    "cloze": "Roses have a nice ｟＿｠."
+   },
+   {
+    "text": "The fragrance of roses is in the air.",
+    "translation": "バラの香りが漂っている。",
+    "cloze": "The ｟＿｠ of roses is in the air."
+   }
+  ],
+  "frequencyRank": 5820,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x3b6a611e",
+  "courseId": "en-10-30k",
+  "headword": "fam",
+  "reading": null,
+  "gloss": "《俗》仲間、家族(親しい相手への呼びかけ語としても使う)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "What's good, fam?",
+    "translation": "元気か、相棒?",
+    "cloze": "What's good, ｟＿｠?",
+    "aiGenerated": true
+   },
+   {
+    "text": "Fam, you won't believe what just happened.",
+    "translation": "おい相棒、信じられないことが起きたんだ。",
+    "cloze": "｟＿｠, you won't believe what just happened.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5955,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x45ff4685",
+  "courseId": "en-10-30k",
+  "headword": "feds",
+  "reading": "/fˈɛdz/",
+  "gloss": "《米俗》連邦捜査官、FBI(the fedsで)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "feds just uncovered evidence suggesting he camouflaged a van stolen from work.",
+    "translation": "仕事場から盗んだバンを カモフラージュした形跡を fbiが発見",
+    "cloze": "｟＿｠ just uncovered evidence suggesting he camouflaged a van stolen from work."
+   },
+   {
+    "text": "bellamy. it's only a few hours before the feds start to head our way.",
+    "translation": "FBIがこっちへ向かうまで あと数時間しかない",
+    "cloze": "bellamy. it's only a few hours before the ｟＿｠ start to head our way."
+   }
+  ],
+  "frequencyRank": 5957,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9c212053",
+  "courseId": "en-10-30k",
+  "headword": "finely",
+  "reading": "/fˈaɪnli/",
+  "gloss": "細かく、見事に、繊細に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Chop the pickled cabbage finely.",
+    "translation": "塩漬けキャベツを細かく切る。",
+    "cloze": "Chop the pickled cabbage ｟＿｠."
+   },
+   {
+    "text": "1. Finely chop the chicken breast meat.",
+    "translation": "１．とりむね肉を細切りにする。",
+    "cloze": "1. ｟＿｠ chop the chicken breast meat."
+   }
+  ],
+  "frequencyRank": 5959,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xb31660aa",
+  "courseId": "en-10-30k",
+  "headword": "flute",
+  "reading": "/flˈut/",
+  "gloss": "フルート、横笛",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He can play a flute.",
+    "translation": "彼はフルートを吹くことが出来る。",
+    "cloze": "He can play a ｟＿｠."
+   },
+   {
+    "text": "Tom can play a flute.",
+    "translation": "トムはフルートが吹けます。",
+    "cloze": "Tom can play a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5962,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xd82a0cc6",
+  "courseId": "en-10-30k",
+  "headword": "footprint",
+  "reading": "/fˈʊtpɹˌɪnt/",
+  "gloss": "足跡",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There were footprints.",
+    "translation": "足跡があったの。",
+    "cloze": "There were ｟＿｠."
+   },
+   {
+    "text": "The criminal left footprints.",
+    "translation": "犯人は足跡を残していた。",
+    "cloze": "The criminal left ｟＿｠."
+   }
+  ],
+  "frequencyRank": 5963,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x57bb4d95",
+  "courseId": "en-10-30k",
+  "headword": "freshwater",
+  "reading": "/fɹˈɛʃwˌɔtɚ/",
+  "gloss": "淡水の、淡水産の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I believe this fish is a freshwater fish.",
+    "translation": "これは確か淡水魚だと思います。",
+    "cloze": "I believe this fish is a ｟＿｠ fish."
+   },
+   {
+    "text": "no, they're freshwater snakes. somebody put them there.",
+    "translation": "いや 川にいるヘビだ 誰かが入れた",
+    "cloze": "no, they're ｟＿｠ snakes. somebody put them there."
+   }
+  ],
+  "frequencyRank": 5967,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x6586c698",
+  "courseId": "en-10-30k",
+  "headword": "foe",
+  "reading": "/fˈoʊ/",
+  "gloss": "敵、かたき;(競技・論争の)相手、敵対者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He makes no friend who never made a foe.",
+    "translation": "敵を持ったことのないものには友はできない。",
+    "cloze": "He makes no friend who never made a ｟＿｠."
+   },
+   {
+    "text": "You shall judge of a man by his foes as well as by his friends.",
+    "translation": "ある男を判断するには、その人の友人によるのと同様に敵によって判断するのがいいだろう。",
+    "cloze": "You shall judge of a man by his ｟＿｠s as well as by his friends."
+   }
+  ],
+  "frequencyRank": 6090,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x447d4d1a",
+  "courseId": "en-10-30k",
+  "headword": "faa",
+  "reading": null,
+  "gloss": "米国連邦航空局（Federal Aviation Administrationの略）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The FAA regulates civil aviation in the United States.",
+    "translation": "FAAはアメリカ合衆国の民間航空を規制している。",
+    "cloze": "The ｟＿｠ regulates civil aviation in the United States.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Pilots must follow FAA safety rules.",
+    "translation": "パイロットはFAAの安全規則に従わなければならない。",
+    "cloze": "Pilots must follow ｟＿｠ safety rules.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6202,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x09afd1bf",
+  "courseId": "en-10-30k",
+  "headword": "fellas",
+  "reading": "/fˈɛləs/",
+  "gloss": "（口語）やつら、仲間たち",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Come on, fellas, let's get to work.",
+    "translation": "さあ、みんな、仕事に取りかかろう。",
+    "cloze": "Come on, ｟＿｠, let's get to work.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The fellas are heading to the game tonight.",
+    "translation": "その仲間たちは今夜試合を見に行く。",
+    "cloze": "The ｟＿｠ are heading to the game tonight.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 6203,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xbcfda97e",
+  "courseId": "en-10-30k",
+  "headword": "famously",
+  "reading": "/fˈeɪməsli/",
+  "gloss": "有名に、すばらしく",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "sir, you're aa famously thrifty man, aren't you?",
+    "translation": "あなたは倹約家として有名ですよね?",
+    "cloze": "sir, you're aa ｟＿｠ thrifty man, aren't you?"
+   },
+   {
+    "text": "i'm sure your dad will get along with them famously.",
+    "translation": "きっとうまくやっていけるわ",
+    "cloze": "i'm sure your dad will get along with them ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6338,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x2cf0ddd3",
+  "courseId": "en-10-30k",
+  "headword": "fingerprint",
+  "reading": "/fˈɪŋɡɚpɹˌɪnt/",
+  "gloss": "指紋",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The police dusted the van for fingerprints.",
+    "translation": "警察はバンの指紋を採取した。",
+    "cloze": "The police dusted the van for ｟＿｠."
+   },
+   {
+    "text": "The fingerprints on the knife attest to her guilt.",
+    "translation": "ナイフの指紋が彼女の有罪の証拠である。",
+    "cloze": "The ｟＿｠ on the knife attest to her guilt."
+   }
+  ],
+  "frequencyRank": 6340,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x3967ec13",
+  "courseId": "en-10-30k",
+  "headword": "flap",
+  "reading": "/flˈæp/",
+  "gloss": "はためく、羽ばたく、ぴしゃりと打つ",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "He flapped the flies away.",
+    "translation": "彼はハエをたたいて追い払った。",
+    "cloze": "He ｟＿｠ the flies away."
+   },
+   {
+    "text": "The bird flapped its wings.",
+    "translation": "鳥が翼をはばたかせた。",
+    "cloze": "The bird ｟＿｠ its wings."
+   }
+  ],
+  "frequencyRank": 6341,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x36421834",
+  "courseId": "en-10-30k",
+  "headword": "fascination",
+  "reading": "/fˌæsənˈeɪʃən/",
+  "gloss": "魅了(されること),魅惑",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I can't run away from the fascination of music.",
+    "translation": "私は音楽の魅力から逃れることはできない。",
+    "cloze": "I can't run away from the ｟＿｠ of music."
+   },
+   {
+    "text": "I have a fascination with the state-of-the-art A.I. research.",
+    "translation": "人工知能の最先端の研究は私を蠱惑する。",
+    "cloze": "I have a ｟＿｠ with the state-of-the-art A.I. research."
+   }
+  ],
+  "frequencyRank": 6496,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x4ca26185",
+  "courseId": "en-10-30k",
+  "headword": "flashback",
+  "reading": "/flˈæʃbˌæk/",
+  "gloss": "(映画・小説などの)回想シーン；(記憶が)突然よみがえること、フラッシュバック",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "from the accident flashback, the feeling of feeling breathless. even now, i can still feel it.",
+    "translation": "息が 止まりそうに なるときがある。 今でも。",
+    "cloze": "from the accident ｟flashback｠, the feeling of feeling breathless. even now, i can still feel it."
+   },
+   {
+    "text": "i'm sorry, i was having a flashback.",
+    "translation": "「すみません。 頭がワープしてました」",
+    "cloze": "i'm sorry, i was having a ｟flashback｠."
+   }
+  ],
+  "frequencyRank": 6626,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x3732c08f",
+  "courseId": "en-10-30k",
+  "headword": "freud",
+  "reading": "/fɹˈɔɪd/",
+  "gloss": "フロイト(ジークムント・~;1856-1939;精神分析学の創始者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "She is a follower of Freud.",
+    "translation": "彼女はフロイトの信奉者だ。",
+    "cloze": "She is a follower of ｟Freud｠."
+   },
+   {
+    "text": "Freud originated psychoanalysis.",
+    "translation": "フロイトは精神分析を考案した。",
+    "cloze": "｟Freud｠ originated psychoanalysis."
+   }
+  ],
+  "frequencyRank": 6628,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xeda195fa",
+  "courseId": "en-10-30k",
+  "headword": "feeder",
+  "reading": "/fˈidɚ/",
+  "gloss": "給餌器、飼料箱;(鉄道・航空路の)支線;送り装置",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "example of this cat feeder.",
+    "translation": "この猫の給餌器です",
+    "cloze": "example of this cat ｟feeder｠."
+   },
+   {
+    "text": "is a bad feeder lot operation for beef",
+    "translation": "牛にたくさん飼料をあたえることは",
+    "cloze": "is a bad ｟feeder｠ lot operation for beef"
+   }
+  ],
+  "frequencyRank": 6753,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x3f07e9dc",
+  "courseId": "en-10-30k",
+  "headword": "flashlight",
+  "reading": "/flˈæʃlˌaɪt/",
+  "gloss": "懐中電灯",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's Tom's flashlight.",
+    "translation": "それはトムの懐中電灯です。",
+    "cloze": "It's Tom's ｟flashlight｠."
+   },
+   {
+    "text": "No one had a flashlight.",
+    "translation": "誰も懐中電灯を持ってなかったんだ。",
+    "cloze": "No one had a ｟flashlight｠."
+   }
+  ],
+  "frequencyRank": 6754,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xab630491",
+  "courseId": "en-10-30k",
+  "headword": "federally",
+  "reading": "/fˈɛdɚəli/",
+  "gloss": "連邦(政府)レベルで",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "and federally, there's no such thing as legal marijuana use.",
+    "translation": "それはつまり 公式には大麻を許すことが できないわけ",
+    "cloze": "and ｟＿｠, there's no such thing as legal marijuana use."
+   },
+   {
+    "text": "like, federally you can't.",
+    "translation": "連邦政府のお達しで",
+    "cloze": "like, ｟＿｠ you can't."
+   }
+  ],
+  "frequencyRank": 7038,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf0d610e2",
+  "courseId": "en-10-30k",
+  "headword": "fridays",
+  "reading": "/fɹˈaɪdiz/",
+  "gloss": "金曜日(に、毎週)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We usually go out for dinner on Fridays.",
+    "translation": "私たちはたいてい毎週金曜日に外食に行く。",
+    "cloze": "We usually go out for dinner on ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The store is closed on Fridays.",
+    "translation": "その店は金曜日は休業だ。",
+    "cloze": "The store is closed on ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7042,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x5d509e7b",
+  "courseId": "en-10-30k",
+  "headword": "farmhouse",
+  "reading": "/fˈɑɹmhˌaʊs/",
+  "gloss": "農場内の家屋、農家の母屋",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Farmhouses have barns.",
+    "translation": "農業住宅には納屋がある。",
+    "cloze": "｟＿｠ have barns."
+   },
+   {
+    "text": "He lives in a farmhouse remote from the world.",
+    "translation": "彼は人里離れた農家に住んでいる。",
+    "cloze": "He lives in a ｟＿｠ remote from the world."
+   }
+  ],
+  "frequencyRank": 7351,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x95638643",
+  "courseId": "en-10-30k",
+  "headword": "fertilizer",
+  "reading": "/fˈɝtəlˌaɪzɚ/",
+  "gloss": "肥料、(特に)化学肥料",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It is cheaper than chemical fertilizers.",
+    "translation": "それは化学肥料よりも安い。",
+    "cloze": "It is cheaper than chemical ｟＿｠."
+   },
+   {
+    "text": "As a result, when it rains, large amounts of topsoil, clay, chemical fertilizers, and pesticides are washed into the sea.",
+    "translation": "その結果、雨が降れば、大量の表土、赤土、化学肥料、農薬が、海に流れだす。",
+    "cloze": "As a result, when it rains, large amounts of topsoil, clay, chemical ｟＿｠, and pesticides are washed into the sea."
+   }
+  ],
+  "frequencyRank": 7352,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xdfcb7920",
+  "courseId": "en-10-30k",
+  "headword": "flea",
+  "reading": "/flˈi/",
+  "gloss": "ノミ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Where's the flea market going to be?",
+    "translation": "フリマって、どこでやってるの？",
+    "cloze": "Where's the ｟＿｠ market going to be?"
+   },
+   {
+    "text": "Let's go to the flea market tomorrow.",
+    "translation": "明日フリーマーケットに行こうよ！",
+    "cloze": "Let's go to the ｟＿｠ market tomorrow."
+   }
+  ],
+  "frequencyRank": 7354,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x12714bb4",
+  "courseId": "en-10-30k",
+  "headword": "footwear",
+  "reading": "/fˈʊtwˌɛɹ/",
+  "gloss": "履物(靴・スリッパ・サンダル・ブーツなど)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "From this point outdoor footwear is prohibited.",
+    "translation": "ここから先は、土足禁止です。",
+    "cloze": "From this point outdoor ｟＿｠ is prohibited."
+   },
+   {
+    "text": "Outdoor footwear is prohibited from this point.",
+    "translation": "ここから先は、土足禁止です。",
+    "cloze": "Outdoor ｟＿｠ is prohibited from this point."
+   }
+  ],
+  "frequencyRank": 7355,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xa9ebc8fd",
+  "courseId": "en-10-30k",
+  "headword": "filth",
+  "reading": "/fˈɪlθ/",
+  "gloss": "汚物,不潔なもの;(道徳的な)堕落",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Filth breeds illnesses.",
+    "translation": "不潔は病気を生み出す。",
+    "cloze": "｟Filth｠ breeds illnesses."
+   },
+   {
+    "text": "Standing pools gather filth.",
+    "translation": "水の淀む所には汚物が溜る。",
+    "cloze": "Standing pools gather ｟filth｠."
+   }
+  ],
+  "frequencyRank": 7476,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xd7bc4264",
+  "courseId": "en-10-30k",
+  "headword": "fender",
+  "reading": "/fˈɛndɚ/",
+  "gloss": "(車の)泥よけ、フェンダー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The front fender of the car was dented in the accident.",
+    "translation": "その車のフロントフェンダーは事故でへこんだ。",
+    "cloze": "The front ｟fender｠ of the car was dented in the accident.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He replaced the rusty fender on his old truck.",
+    "translation": "彼は古いトラックの錆びたフェンダーを交換した。",
+    "cloze": "He replaced the rusty ｟fender｠ on his old truck.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7615,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xdc35b621",
+  "courseId": "en-10-30k",
+  "headword": "fab",
+  "reading": "/fˈæb/",
+  "gloss": "(略式・英)素晴らしい,最高の(fabulousの略)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "That's a fab idea!",
+    "translation": "それは最高のアイデアだね!",
+    "cloze": "That's a ｟＿｠ idea!",
+    "aiGenerated": true
+   },
+   {
+    "text": "We had a fab time at the party.",
+    "translation": "パーティーで最高の時間を過ごした。",
+    "cloze": "We had a ｟＿｠ time at the party.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7757,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x1f15d136",
+  "courseId": "en-10-30k",
+  "headword": "freaky",
+  "reading": "/fɹˈiki/",
+  "gloss": "異様な,奇妙な,不気味な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The old house looked freaky at night.",
+    "translation": "その古い家は夜には不気味に見えた。",
+    "cloze": "The old house looked ｟＿｠ at night.",
+    "aiGenerated": true
+   },
+   {
+    "text": "That mask is kind of freaky.",
+    "translation": "その仮面はちょっと不気味だ。",
+    "cloze": "That mask is kind of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7758,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe62775d7",
+  "courseId": "en-10-30k",
+  "headword": "flake",
+  "reading": "/flˈeɪk/",
+  "gloss": "薄片,一片(雪・雲などの);ちらちら降る",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Snow fell in large flakes.",
+    "translation": "大きな雪片がひらひらと降った。",
+    "cloze": "Snow fell in large ｟＿｠s."
+   },
+   {
+    "text": "Corn flakes and milk certainly go well together.",
+    "translation": "確かに牛乳とコーンフレークの相性は抜群だ。",
+    "cloze": "Corn ｟＿｠s and milk certainly go well together."
+   }
+  ],
+  "frequencyRank": 7914,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x020db92a",
+  "courseId": "en-10-30k",
+  "headword": "freakin",
+  "reading": null,
+  "gloss": "(俗、freakingの婉曲形)くそ、めっちゃ(強調語)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "freakin daisy cutters.",
+    "translation": "デージーカッター弾で 根こそぎだわ",
+    "cloze": "｟＿｠ daisy cutters."
+   },
+   {
+    "text": "This freakin' printer never works.",
+    "translation": "このクソプリンター、全然動かない。",
+    "cloze": "This ｟＿｠ printer never works.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8066,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x609fbc85",
+  "courseId": "en-10-30k",
+  "headword": "fulham",
+  "reading": null,
+  "gloss": "フラム(ロンドン西部の地区;サッカークラブでも有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i'm meant to be at a party in fulham. now i'm trapped in this bloody block.",
+    "translation": "僕はこの肥溜め団地に 遊びに来てて・・・",
+    "cloze": "i'm meant to be at a party in ｟＿｠. now i'm trapped in this bloody block."
+   }
+  ],
+  "frequencyRank": 8067,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe0edd08a",
+  "courseId": "en-10-30k",
+  "headword": "flatten",
+  "reading": "/flˈætən/",
+  "gloss": "平らにする、平らになる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "That new company could flatten the competition.",
+    "translation": "あの新しい会社は競争を制するかもしれません。",
+    "cloze": "That new company could ｟＿｠ the competition."
+   },
+   {
+    "text": "he had a theory that if he could solve the equations, space and time could be flattened, so they would all be on a level plane.",
+    "translation": "それを解けば 空間と時間を平らにし 同じ平面に出来ると",
+    "cloze": "he had a theory that if he could solve the equations, space and time could be ｟＿｠, so they would all be on a level plane."
+   }
+  ],
+  "frequencyRank": 8225,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x7f9d73e5",
+  "courseId": "en-10-30k",
+  "headword": "farmland",
+  "reading": "/fˈɑɹmlˌænd/",
+  "gloss": "農地、耕地",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The basin of a river usually has rich farmland.",
+    "translation": "河川の盆地には普通肥沃な農地がある。",
+    "cloze": "The basin of a river usually has rich ｟farmland｠."
+   },
+   {
+    "text": "set aside farmland.",
+    "translation": "農地を守ってください",
+    "cloze": "set aside ｟farmland｠."
+   }
+  ],
+  "frequencyRank": 8375,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xef35ebc6",
+  "courseId": "en-10-30k",
+  "headword": "fourteenth",
+  "reading": "/fˈɔɹtˈinθ/",
+  "gloss": "第14の、14番目の;(月の)14日",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Miraculously, during the fourteenth century, Prague was spared from the Black Death.",
+    "translation": "14世紀、プラハは奇跡的にペストから免れた。",
+    "cloze": "Miraculously, during the ｟fourteenth｠ century, Prague was spared from the Black Death."
+   },
+   {
+    "text": "In January of that year, we saw snow for four days, from the fourteenth to the seventeenth.",
+    "translation": "この年の正月は十四日から十七日まで四日間の雪を見た。",
+    "cloze": "In January of that year, we saw snow for four days, from the ｟fourteenth｠ to the seventeenth."
+   }
+  ],
+  "frequencyRank": 8377,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x3069576f",
+  "courseId": "en-10-30k",
+  "headword": "fps",
+  "reading": null,
+  "gloss": "フィート毎秒(速度の単位);(俗)フレーム毎秒",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "barrel's a little long. between that and the wide gauge, it's going to diminish your fps.",
+    "translation": "その銃身で その口径だと 初速が落ちる",
+    "cloze": "barrel's a little long. between that and the wide gauge, it's going to diminish your ｟fps｠."
+   },
+   {
+    "text": "This rifle has a muzzle velocity of over 1,200 fps.",
+    "translation": "このライフルの銃口初速は毎秒1,200フィートを超える。",
+    "cloze": "This rifle has a muzzle velocity of over 1,200 ｟fps｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8378,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x3f918ecc",
+  "courseId": "en-10-30k",
+  "headword": "frenchman",
+  "reading": "/fɹˈɛntʃmæn/",
+  "gloss": "フランス人（特に男性）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He's a Frenchman.",
+    "translation": "彼はフランス人です。",
+    "cloze": "He's a ｟＿｠."
+   },
+   {
+    "text": "He is not an American but a Frenchman.",
+    "translation": "彼はアメリカ人ではなくフランス人です。",
+    "cloze": "He is not an American but a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8556,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xf33dc89e",
+  "courseId": "en-10-30k",
+  "headword": "flanders",
+  "reading": "/flˈændɚz/",
+  "gloss": "フランドル地方（現在のベルギー西部・フランス北部一帯にまたがる歴史的地域名）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the people that cry watching the dog of flanders and stuff, right?",
+    "translation": "フランダースの犬見て泣いちゃったりするんですよね",
+    "cloze": "the people that cry watching the dog of ｟＿｠ and stuff, right?"
+   }
+  ],
+  "frequencyRank": 8729,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x524b2661",
+  "courseId": "en-10-30k",
+  "headword": "frankenstein",
+  "reading": "/fɹˈæŋkənstˌaɪn/",
+  "gloss": "フランケンシュタイン（怪物を創り出した科学者、転じてその怪物自身；自ら生み出した物に苦しめられる人の比喩）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "you're telling me my father is dr. frankenstein",
+    "translation": "俺の親父は フランケンシュタイン博士か?",
+    "cloze": "you're telling me my father is dr. ｟＿｠"
+   },
+   {
+    "text": "most people don't like the electrodes first time out. makes 'em feel like frankenstein.",
+    "translation": "電極が着いてるとフランケンシュタインに なったような気がするものよ",
+    "cloze": "most people don't like the electrodes first time out. makes 'em feel like ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8732,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf6cd559a",
+  "courseId": "en-10-30k",
+  "headword": "fudge",
+  "reading": "/fˈʌdʒ/",
+  "gloss": "ファッジ（キャンディーの一種）；ごまかす、いいかげんにする",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "mr. causwell likes the hot fudge sundae at sardi's.",
+    "translation": "コーズウェルさんには S店のチョコサンデーを",
+    "cloze": "mr. causwell likes the hot ｟＿｠ sundae at sardi's."
+   },
+   {
+    "text": "i got a popcorn ball! i got a fudge bar!",
+    "translation": "ボップコーンだ",
+    "cloze": "i got a popcorn ball! i got a ｟＿｠ bar!"
+   }
+  ],
+  "frequencyRank": 8734,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xbb0f8d3a",
+  "courseId": "en-10-30k",
+  "headword": "fag",
+  "reading": "/fˈæɡ/",
+  "gloss": "《英話》巻きたばこ,一服;《話》骨の折れる仕事",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "have you any fags? i smoked 'em all on the bus.",
+    "translation": "バスで全部吸ったよ",
+    "cloze": "have you any ｟＿｠? i smoked 'em all on the bus."
+   },
+   {
+    "text": "Can I bum a fag off you?",
+    "translation": "たばこ一本もらえる?",
+    "cloze": "Can I bum a ｟＿｠ off you?",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 8905,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x1c91f445",
+  "courseId": "en-10-30k",
+  "headword": "fracking",
+  "reading": null,
+  "gloss": "水圧破砕法、フラッキング(シェールガス採掘技術)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "a body was found this morning on a fracking site.",
+    "translation": "今朝 シェールガスの採掘場で 死体が発見された",
+    "cloze": "a body was found this morning on a ｟＿｠ site."
+   },
+   {
+    "text": "how did you get from a caf to a fracking site?",
+    "translation": "フラッキングサイトから どうやってカフェへ?",
+    "cloze": "how did you get from a caf to a ｟＿｠ site?"
+   }
+  ],
+  "frequencyRank": 9066,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xe65e694e",
+  "courseId": "en-10-30k",
+  "headword": "fanbase",
+  "reading": null,
+  "gloss": "ファン層,支持者の基盤",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The band's fanbase grew rapidly after their world tour.",
+    "translation": "そのバンドのファン層はワールドツアー後に急速に拡大した。",
+    "cloze": "The band's ｟＿｠ grew rapidly after their world tour.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9230,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x47711318",
+  "courseId": "en-10-30k",
+  "headword": "fifteenth",
+  "reading": "/fɪftˈinθ/",
+  "gloss": "第15の,15番目の;(月の)15日",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Who is the fifteenth?",
+    "translation": "15番目はどなたですか？",
+    "cloze": "Who is the ｟＿｠?"
+   },
+   {
+    "text": "It has to be ready by the fifteenth.",
+    "translation": "１５日までに準備出来ていなければならない。",
+    "cloze": "It has to be ready by the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9233,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xa66228a9",
+  "courseId": "en-10-30k",
+  "headword": "fright",
+  "reading": "/fɹˈaɪt/",
+  "gloss": "(突然の)恐怖,驚き",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I was shaking with fright.",
+    "translation": "恐怖におののいた。",
+    "cloze": "I was shaking with ｟＿｠."
+   },
+   {
+    "text": "He turned pale with fright.",
+    "translation": "彼は恐怖で青ざめた。",
+    "cloze": "He turned pale with ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9236,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x6a1f177b",
+  "courseId": "en-10-30k",
+  "headword": "fruitful",
+  "reading": "/fɹˈutfəl/",
+  "gloss": "実り多い,成果の多い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Their year-long stay in Germany was very fruitful.",
+    "translation": "ドイツに滞在した１年間は非常に実りの多いものだった。",
+    "cloze": "Their year-long stay in Germany was very ｟＿｠."
+   },
+   {
+    "text": "I hope that your business trip to France was fruitful.",
+    "translation": "フランス出張が実り多きものであるといいね。",
+    "cloze": "I hope that your business trip to France was ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9237,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb4365238",
+  "courseId": "en-10-30k",
+  "headword": "finder",
+  "reading": "/fˈaɪndɚ/",
+  "gloss": "発見者；（カメラの）ファインダー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Finders keepers.",
+    "translation": "拾った者が持ち主。",
+    "cloze": "｟＿｠ keepers."
+   },
+   {
+    "text": "I quietly take out my camera, so as not to be noticed by my photographic subject, and peek through the finder.",
+    "translation": "被写体に気づかれないようにそぉっとカメラを取り出し、ファインダーを覗く。",
+    "cloze": "I quietly take out my camera, so as not to be noticed by my photographic subject, and peek through the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9581,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x995239af",
+  "courseId": "en-10-30k",
+  "headword": "fishy",
+  "reading": "/fˈɪʃi/",
+  "gloss": "魚くさい；（話などが）怪しい、うさんくさい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "That's an awfully fishy story.",
+    "translation": "随分と胡散臭い話だな。",
+    "cloze": "That's an awfully ｟＿｠ story."
+   },
+   {
+    "text": "The chopping board smells fishy.",
+    "translation": "まな板が生臭いです。",
+    "cloze": "The chopping board smells ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9582,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xad44ebea",
+  "courseId": "en-10-30k",
+  "headword": "faq",
+  "reading": null,
+  "gloss": "よくある質問(Frequently Asked Questions)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Have you read the FAQ?",
+    "translation": "「よくある質問」はお読みになりましたか？",
+    "cloze": "Have you read the ｟＿｠?"
+   },
+   {
+    "text": "Take a look at the FAQ before you call tech support.",
+    "translation": "サポートセンターに電話するまえにＦＡＱを読んで下さい。",
+    "cloze": "Take a look at the ｟＿｠ before you call tech support."
+   }
+  ],
+  "frequencyRank": 9727,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x32b2318d",
+  "courseId": "en-10-30k",
+  "headword": "fingertip",
+  "reading": "/fˈɪŋɡɚtˌɪp/",
+  "gloss": "指先",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I burnt my fingertip.",
+    "translation": "指先を火傷しました。",
+    "cloze": "I burnt my ｟＿｠."
+   },
+   {
+    "text": "He blew on his fingertips.",
+    "translation": "彼は指先に息を吹きかけた。",
+    "cloze": "He blew on his ｟＿｠."
+   }
+  ],
+  "frequencyRank": 9729,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x0d362a72",
+  "courseId": "en-10-30k",
+  "headword": "frown",
+  "reading": "/fɹˈaʊn/",
+  "gloss": "顔をしかめる、まゆをひそめる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom frowned.",
+    "translation": "トムは眉をひそめた。",
+    "cloze": "Tom ｟＿｠."
+   },
+   {
+    "text": "He frowned in puzzlement.",
+    "translation": "彼は当惑して顔をしかめた。",
+    "cloze": "He ｟＿｠ in puzzlement."
+   }
+  ],
+  "frequencyRank": 9934,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xa1de66ca",
+  "courseId": "en-10-30k",
+  "headword": "fruity",
+  "reading": "/fɹˈuti/",
+  "gloss": "果物味の、フルーティーな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "slightly more tannic than the '59, and i prefer a smoky feeling to a fruity feeling.",
+    "translation": "僕はフルーティーな物より スモーキーな方が好みだ",
+    "cloze": "...and i prefer a smoky feeling to a ｟＿｠ feeling."
+   },
+   {
+    "text": "This cocktail has a fruity taste with hints of mango and pineapple.",
+    "translation": "このカクテルはマンゴーとパイナップルを感じさせるフルーティーな味わいだ。",
+    "cloze": "This cocktail has a ｟＿｠ taste with hints of mango and pineapple.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 9935,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xd45a8d5a",
+  "courseId": "en-10-30k",
+  "headword": "fukushima",
+  "reading": "/fukuʃˈimə/",
+  "gloss": "福島(日本の県・市名。2011年の原発事故で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "On the 11th of March 2011, an unprecedented accident took place in Fukushima.",
+    "translation": "2011年（平成23年）3月11日に、福島で空前絶後の事故が起きた。",
+    "cloze": "On the 11th of March 2011, an unprecedented accident took place in ｟＿｠."
+   },
+   {
+    "text": "At the Fukushima No.1 nuclear power plant, all the reactors stopped just after the quake.",
+    "translation": "福島第一原子力発電所では、地震直後にすべての原子炉が停止した。",
+    "cloze": "At the ｟＿｠ No.1 nuclear power plant, all the reactors stopped just after the quake."
+   }
+  ],
+  "frequencyRank": 9936,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x266a6697",
+  "courseId": "en-10-30k",
+  "headword": "flashy",
+  "reading": "/flˈæʃi/",
+  "gloss": "けばけばしい、派手な、うわべだけ華美な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's too flashy.",
+    "translation": "派手すぎるよ。",
+    "cloze": "It's too ｟flashy｠."
+   },
+   {
+    "text": "She always wears flashy clothes.",
+    "translation": "彼女はいつも派手な服を着ている。",
+    "cloze": "She always wears ｟flashy｠ clothes."
+   }
+  ],
+  "frequencyRank": 10131,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x9acdc090",
+  "courseId": "en-10-30k",
+  "headword": "floppy",
+  "reading": "/flˈɑpi/",
+  "gloss": "だらりと垂れた、しなやかな／（古い用法で）フロッピーディスクの",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "You mustn't format this floppy disk.",
+    "translation": "このフロッピーをフォーマットしてはいけません。",
+    "cloze": "You mustn't format this ｟floppy｠ disk."
+   },
+   {
+    "text": "Make that floppy uncopiable, just in case.",
+    "translation": "そのフロッピー、念の為書きこみ禁止にしておいて。",
+    "cloze": "Make that ｟floppy｠ uncopiable, just in case."
+   }
+  ],
+  "frequencyRank": 10132,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x083a829a",
+  "courseId": "en-10-30k",
+  "headword": "fahrenheit",
+  "reading": "/fˈɛɹənhˌaɪt/",
+  "gloss": "華氏（温度の単位）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Water freezes at 32 degrees Fahrenheit.",
+    "translation": "水は華氏３２度で凍る。",
+    "cloze": "Water freezes at 32 degrees ｟Fahrenheit｠."
+   },
+   {
+    "text": "Do you know how to convert from Celsius to Fahrenheit?",
+    "translation": "摂氏から華氏の換算方法って知ってる？",
+    "cloze": "Do you know how to convert from Celsius to ｟Fahrenheit｠?"
+   }
+  ],
+  "frequencyRank": 10322,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xcb8242ca",
+  "courseId": "en-10-30k",
+  "headword": "firewall",
+  "reading": "/fˈaɪɹwɑl/",
+  "gloss": "ファイアウォール（不正アクセスを防ぐ仕組み）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A firewall will guarantee Internet security.",
+    "translation": "ファイアーウォールがインターネットの安全性を保証する。",
+    "cloze": "A ｟firewall｠ will guarantee Internet security."
+   },
+   {
+    "text": "i cracked the cell company's firewall.",
+    "translation": "会社にハッキングした",
+    "cloze": "i cracked the cell company's ｟firewall｠."
+   }
+  ],
+  "frequencyRank": 10324,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x790f2a59",
+  "courseId": "en-10-30k",
+  "headword": "forceful",
+  "reading": "/fˈɔɹsfəl/",
+  "gloss": "力強い、力のこもった；強引な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I also need to get people to understand the real me! My forceful behaviour is one way I try to do this!",
+    "translation": "内面を理解して貰うためのアピールも必要なのさ！ボクのアグレッシブな行動もその中の一つ！",
+    "cloze": "I also need to get people to understand the real me! My ｟forceful｠ behaviour is one way I try to do this!"
+   },
+   {
+    "text": "i adore forceful men.",
+    "translation": "うー、強い男が大好き",
+    "cloze": "i adore ｟forceful｠ men."
+   }
+  ],
+  "frequencyRank": 10326,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xca1e6375",
+  "courseId": "en-10-30k",
+  "headword": "fav",
+  "reading": null,
+  "gloss": "(略式)お気に入り(favoriteの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "my top two favs are the ones where they have a half lid stuck to the paper.",
+    "translation": "お気に入りトップ2は糊でくっついちゃってるのよね",
+    "cloze": "my top two ｟＿｠ are the ones where they have a half lid stuck to the paper."
+   },
+   {
+    "text": "This song is one of my favs.",
+    "translation": "この曲は私のお気に入りの一つです。",
+    "cloze": "This song is one of my ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10533,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xdc31344b",
+  "courseId": "en-10-30k",
+  "headword": "filmmaking",
+  "reading": "/fˈɪlmˌeɪkɪŋ/",
+  "gloss": "映画製作",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we had zero reporting and zero filmmaking experience.",
+    "translation": "私たちにはレポートも フィルム作成の経験も全くなかったのです",
+    "cloze": "we had zero reporting and zero ｟＿｠ experience."
+   },
+   {
+    "text": "so, filmmaking was the way to put pictures and stories",
+    "translation": "映画制作なら 映像とストーリーを",
+    "cloze": "so, ｟＿｠ was the way to put pictures and stories"
+   }
+  ],
+  "frequencyRank": 10534,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xf00ea1b3",
+  "courseId": "en-10-30k",
+  "headword": "ftc",
+  "reading": null,
+  "gloss": "連邦取引委員会(米国, Federal Trade Commission)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This company is under investigation by the FTC.",
+    "translation": "この会社はFTCの調査を受けています。",
+    "cloze": "This company is under investigation by the ｟＿｠."
+   },
+   {
+    "text": "The FTC nailed down new evidence in the fraud investigation.",
+    "translation": "連邦取引委員会は不正取引の調査で新たな確証を握りました。",
+    "cloze": "The ｟＿｠ nailed down new evidence in the fraud investigation."
+   }
+  ],
+  "frequencyRank": 10538,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x4b623747",
+  "courseId": "en-10-30k",
+  "headword": "fuji",
+  "reading": "/fˈudʒi/",
+  "gloss": "富士山(日本を象徴する山)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I've seen Mt. Fuji.",
+    "translation": "私は富士山を見たことがあります。",
+    "cloze": "I've seen Mt. ｟＿｠."
+   },
+   {
+    "text": "I climbed Mt. Fuji.",
+    "translation": "私は富士山に登った。",
+    "cloze": "I climbed Mt. ｟＿｠."
+   }
+  ],
+  "frequencyRank": 10722,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x726909c0",
+  "courseId": "en-10-30k",
+  "headword": "fairytale",
+  "reading": "/fˈɛɹitˌeɪl/",
+  "gloss": "おとぎ話;作り話",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "oh, i tell them fairytales.",
+    "translation": "彼らにおとぎ話をします",
+    "cloze": "oh, i tell them ｟fairytales｠."
+   },
+   {
+    "text": "we can explain it scientifically, not with fairytales!",
+    "translation": "おとぎ話だ 科学的に説明できない",
+    "cloze": "we can explain it scientifically, not with ｟fairytales｠!"
+   }
+  ],
+  "frequencyRank": 10907,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x68512571",
+  "courseId": "en-10-30k",
+  "headword": "fifties",
+  "reading": "/fˈɪftiz/",
+  "gloss": "50年代;(年齢の)50代",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My grandmother grew up in the fifties.",
+    "translation": "祖母は50年代に育った。",
+    "cloze": "My grandmother grew up in the ｟fifties｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "He is in his fifties but still runs marathons.",
+    "translation": "彼は50代だがまだマラソンを走っている。",
+    "cloze": "He is in his ｟fifties｠ but still runs marathons.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10912,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-xc53fa966",
+  "courseId": "en-10-30k",
+  "headword": "filipinos",
+  "reading": "/fˌɪləpˈinoʊz/",
+  "gloss": "フィリピン人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Filipinos work abroad to support their families.",
+    "translation": "多くのフィリピン人が家族を養うため海外で働いている。",
+    "cloze": "Many ｟Filipinos｠ work abroad to support their families.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Filipinos are known for their hospitality.",
+    "translation": "フィリピン人はおもてなしの精神で知られている。",
+    "cloze": "｟Filipinos｠ are known for their hospitality.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10913,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6d4edbf8",
+  "courseId": "en-10-30k",
+  "headword": "fragrant",
+  "reading": "/fɹˈeɪɡɹənt/",
+  "gloss": "香りのよい、かぐわしい;快い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The garden is fragrant with the smell of roses.",
+    "translation": "庭には薔薇の花が香っている。",
+    "cloze": "The garden is ｟fragrant｠ with the smell of roses."
+   },
+   {
+    "text": "These flowers are not only beautiful but also fragrant.",
+    "translation": "この花は美しいだけでなく、よい香りがします。",
+    "cloze": "These flowers are not only beautiful but also ｟fragrant｠."
+   }
+  ],
+  "frequencyRank": 10915,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x6cb78a4c",
+  "courseId": "en-10-30k",
+  "headword": "fidel",
+  "reading": "/fɪdˈɛl/",
+  "gloss": "フィデル・カストロ(1926‐2016;キューバの元最高指導者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "so, you really met fidel?",
+    "translation": "本当にフィデル・カストロに 会ったのか?",
+    "cloze": "so, you really met ｟＿｠?"
+   },
+   {
+    "text": "it's not that i was fidel castro",
+    "translation": "私はフィデル・カストロや",
+    "cloze": "it's not that i was ｟＿｠ castro"
+   }
+  ],
+  "frequencyRank": 11106,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3176a655",
+  "courseId": "en-10-30k",
+  "headword": "fingernail",
+  "reading": "/fˈɪŋɡɚnˌeɪl/",
+  "gloss": "指のつめ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Cut your fingernails.",
+    "translation": "爪を切りなさい。",
+    "cloze": "Cut your ｟＿｠."
+   },
+   {
+    "text": "I broke my fingernail.",
+    "translation": "爪が割れちゃった。",
+    "cloze": "I broke my ｟＿｠."
+   }
+  ],
+  "frequencyRank": 11107,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xcbd0e67c",
+  "courseId": "en-10-30k",
+  "headword": "fireman",
+  "reading": "/fˈaɪɹmən/",
+  "gloss": "消防士",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom wanted to be a fireman.",
+    "translation": "トムは消防士になりたかった。",
+    "cloze": "Tom wanted to be a ｟＿｠."
+   },
+   {
+    "text": "The fireman soon put the fire out.",
+    "translation": "消防士はまもなく火事を消した。",
+    "cloze": "The ｟＿｠ soon put the fire out."
+   }
+  ],
+  "frequencyRank": 11108,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x54228c7e",
+  "courseId": "en-10-30k",
+  "headword": "fluff",
+  "reading": "/flˈʌf/",
+  "gloss": "綿毛、けば、ふわふわしたもの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "don't do that! the fluff is the life of the dough!",
+    "translation": "スポンジは 空気が命なんや!",
+    "cloze": "don't do that! the ｟＿｠ is the life of the dough!"
+   },
+   {
+    "text": "She brushed the fluff off her sweater before leaving home.",
+    "translation": "彼女は家を出る前にセーターの綿毛を払った。",
+    "cloze": "She brushed the ｟＿｠ off her sweater before leaving home.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11110,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x7e670c59",
+  "courseId": "en-10-30k",
+  "headword": "frosty",
+  "reading": "/fɹˈɔsti/",
+  "gloss": "霜の降りる、凍るような;(態度が)冷淡な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "stay frosty.",
+    "translation": "冷静に",
+    "cloze": "stay ｟＿｠."
+   },
+   {
+    "text": "It was a frosty morning in December.",
+    "translation": "12月のある霜の降りた朝だった。",
+    "cloze": "It was a ｟＿｠ morning in December.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11113,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xb03cef70",
+  "courseId": "en-10-30k",
+  "headword": "foggy",
+  "reading": "/fˈɑɡi/",
+  "gloss": "霧のかかった,霧の多い;ぼんやりした,はっきりしない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Is it foggy?",
+    "translation": "霧が出ていますか？",
+    "cloze": "Is it ｟＿｠?"
+   },
+   {
+    "text": "It's foggy out.",
+    "translation": "外は霧がかかっている。",
+    "cloze": "It's ｟＿｠ out."
+   }
+  ],
+  "frequencyRank": 11301,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x75338d86",
+  "courseId": "en-10-30k",
+  "headword": "fremantle",
+  "reading": null,
+  "gloss": "フリーマントル(オーストラリア西部、パース近郊の港湾都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Fremantle is a historic port city near Perth, Australia.",
+    "translation": "フリーマントルはオーストラリア・パース近郊にある歴史ある港湾都市だ。",
+    "cloze": "｟＿｠ is a historic port city near Perth, Australia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11303,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x28730292",
+  "courseId": "en-10-30k",
+  "headword": "functionally",
+  "reading": "/fˈʌŋkʃənəli/",
+  "gloss": "機能的に,機能の面では",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "that's why the price is different. functionally...",
+    "translation": "ですから お値段が変わるんですが 機能的には...",
+    "cloze": "that's why the price is different. ｟＿｠..."
+   },
+   {
+    "text": "i suggest you consider it in comparison to one of our... functionally designed human doorways.",
+    "translation": "私は、諸君に理解する為に 比較する事を提案する・・ ・・このような出入口は 使う者にとって機能的に設計される",
+    "cloze": "i suggest you consider it in comparison to one of our... ｟＿｠ designed human doorways."
+   }
+  ],
+  "frequencyRank": 11304,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x4527d631",
+  "courseId": "en-10-30k",
+  "headword": "fireball",
+  "reading": "/fˈaɪɚbˌɔl/",
+  "gloss": "火の玉、流星；(爆発の)火球",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "she is the fireball girl.",
+    "translation": "まさに 火の玉ガールだね。",
+    "cloze": "she is the ｟＿｠ girl."
+   },
+   {
+    "text": "A fireball streaked across the night sky.",
+    "translation": "夜空を火球が横切った。",
+    "cloze": "A ｟＿｠ streaked across the night sky.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11492,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xe9d026b4",
+  "courseId": "en-10-30k",
+  "headword": "flannel",
+  "reading": "/flˈænəl/",
+  "gloss": "フランネル(生地)；フランネル製の衣類",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "one's wearing a red flannel shirt. they're there to help you.",
+    "translation": "一人は、赤いフランネルを 着ている",
+    "cloze": "one's wearing a red ｟＿｠ shirt. they're there to help you."
+   },
+   {
+    "text": "abed saw me, my jeans and flannel and cane",
+    "translation": "アベッドは僕と 僕のジーンズ フランネルの服 杖を見た",
+    "cloze": "abed saw me, my jeans and ｟＿｠ and cane"
+   }
+  ],
+  "frequencyRank": 11494,
+  "category": "clothing"
+ },
+ {
+  "id": "en-10-30k-xaf2076d7",
+  "courseId": "en-10-30k",
+  "headword": "floss",
+  "reading": "/flˈɑs/",
+  "gloss": "デンタルフロス(歯間清掃用の糸)；綿あめ(candy floss)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "See! Candy floss is being sold.",
+    "translation": "見て、綿あめ売ってるよ。",
+    "cloze": "See! Candy ｟＿｠ is being sold."
+   },
+   {
+    "text": "You should floss your teeth every day.",
+    "translation": "毎日デンタルフロスを使うべきです。",
+    "cloze": "You should ｟＿｠ your teeth every day.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11495,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xa87e166c",
+  "courseId": "en-10-30k",
+  "headword": "friggin",
+  "reading": null,
+  "gloss": "すごく、めちゃくちゃ(fuckingの婉曲的な強調語)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "it's friggin cold...",
+    "translation": "寒っ。",
+    "cloze": "it's ｟＿｠ cold..."
+   },
+   {
+    "text": "damn, it's so friggin cold.",
+    "translation": "くそっ さすがに 寒いな...。",
+    "cloze": "damn, it's so ｟＿｠ cold."
+   }
+  ],
+  "frequencyRank": 11691,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x9894953b",
+  "courseId": "en-10-30k",
+  "headword": "firewood",
+  "reading": "/fˈaɪɚwˌʊd/",
+  "gloss": "まき、たきぎ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is chopping firewood.",
+    "translation": "トムは薪割りしてるよ。",
+    "cloze": "Tom is chopping ｟＿｠."
+   },
+   {
+    "text": "He set up a bundle of firewood.",
+    "translation": "彼は、まきを束ねた。",
+    "cloze": "He set up a bundle of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 11873,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x48672667",
+  "courseId": "en-10-30k",
+  "headword": "footy",
+  "reading": null,
+  "gloss": "《英・豪話》サッカー,フットボール(の愛称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "do you want to watch the footy after?",
+    "translation": "後でフットボール見る?",
+    "cloze": "do you want to watch the ｟footy｠ after?"
+   }
+  ],
+  "frequencyRank": 12079,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xe27a8fe9",
+  "courseId": "en-10-30k",
+  "headword": "fave",
+  "reading": "/fˈeɪv/",
+  "gloss": "お気に入り(favoriteの略式表現)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it was his new fave.",
+    "translation": "パパの最新のお気に入り",
+    "cloze": "it was his new ｟fave｠."
+   },
+   {
+    "text": "sigur rs is my fave.",
+    "translation": "\"シガー・ロスは お気に入りなの\"",
+    "cloze": "sigur rs is my ｟fave｠."
+   }
+  ],
+  "frequencyRank": 12308,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xe9d887de",
+  "courseId": "en-10-30k",
+  "headword": "firefly",
+  "reading": "/fˈaɪɚflˌaɪ/",
+  "gloss": "ホタル",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It's a firefly.",
+    "translation": "それは蛍だよ。",
+    "cloze": "It's a ｟＿｠."
+   },
+   {
+    "text": "There were lots of fireflies.",
+    "translation": "たくさんの蛍がいたよ。",
+    "cloze": "There were lots of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 12501,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xa2296ea6",
+  "courseId": "en-10-30k",
+  "headword": "freshness",
+  "reading": "/fɹˈɛʃnəs/",
+  "gloss": "新しさ、新鮮さ;すがすがしさ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This cuttlefish has started to lose its freshness.",
+    "translation": "このイカは鮮度が落ちはじめた。",
+    "cloze": "This cuttlefish has started to lose its ｟freshness｠."
+   },
+   {
+    "text": "The freshness of the vegetables impressed all the customers.",
+    "translation": "その野菜の新鮮さは全ての客を感心させた。",
+    "cloze": "The ｟freshness｠ of the vegetables impressed all the customers.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12712,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x11820c9a",
+  "courseId": "en-10-30k",
+  "headword": "fives",
+  "reading": "/fˈaɪvz/",
+  "gloss": "ファイブズ(壁にボールを打ちつける球技)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They played fives against the school wall every lunchtime.",
+    "translation": "彼らは昼休みにいつも学校の壁を使ってファイブズをした。",
+    "cloze": "They played ｟＿｠ against the school wall every lunchtime.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12911,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-xdfcc65e2",
+  "courseId": "en-10-30k",
+  "headword": "flemish",
+  "reading": "/flˈɛmɪʃ/",
+  "gloss": "フランダース(フラマン)人の、フラマン語の；フラマン語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "In Belgium, here is a mix between people who speak Flemish and French.",
+    "translation": "ベルギーにはフラマン語とフランス語を話す人が混在しています。",
+    "cloze": "In Belgium, here is a mix between people who speak ｟＿｠ and French."
+   },
+   {
+    "text": "you can speak flemish, chief.",
+    "translation": "オランダ語が 話せるのか やっと まともな 会話ができる",
+    "cloze": "you can speak ｟＿｠, chief."
+   }
+  ],
+  "frequencyRank": 13409,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd6b64747",
+  "courseId": "en-10-30k",
+  "headword": "faucet",
+  "reading": "/fˈɔsət/",
+  "gloss": "蛇口",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The faucet is leaking.",
+    "translation": "蛇口から水が漏れていますよ。",
+    "cloze": "The ｟faucet｠ is leaking."
+   },
+   {
+    "text": "You can't use this faucet. It's out of order.",
+    "translation": "この蛇口は使えません。故障しています。",
+    "cloze": "You can't use this ｟faucet｠. It's out of order."
+   }
+  ],
+  "frequencyRank": 13853,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x74e53694",
+  "courseId": "en-10-30k",
+  "headword": "faust",
+  "reading": "/fˈaʊst/",
+  "gloss": "ファウスト(ゲーテの戯曲の主人公;悪魔に魂を売った伝説上の人物)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Dr. Faust was well versed in alchemy.",
+    "translation": "ファウスト博士は、錬金術に精通していた。",
+    "cloze": "Dr. ｟Faust｠ was well versed in alchemy."
+   },
+   {
+    "text": "and contemptuous of faust.",
+    "translation": "ファウストを軽蔑していた。",
+    "cloze": "and contemptuous of ｟faust｠."
+   }
+  ],
+  "frequencyRank": 13854,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x84ed43ce",
+  "courseId": "en-10-30k",
+  "headword": "fdr",
+  "reading": null,
+  "gloss": "フランクリン・D・ルーズベルト(米第32代大統領)の愛称;(ニューヨークの)FDRドライブ",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "well, fdr, he sailed the great white fleet",
+    "translation": "ルーズベルトは グレート・ホワイト・フリートと言った",
+    "cloze": "well, ｟fdr｠, he sailed the great white fleet"
+   },
+   {
+    "text": "FDR led the United States through the Great Depression.",
+    "translation": "FDRは大恐慌の時代にアメリカを率いた。",
+    "cloze": "｟FDR｠ led the United States through the Great Depression.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13855,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x0b67d9bd",
+  "courseId": "en-10-30k",
+  "headword": "fink",
+  "reading": "/fˈɪŋk/",
+  "gloss": "密告者、裏切り者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Nobody wants to be labeled a fink at school.",
+    "translation": "学校で密告者呼ばわりされたい人はいない。",
+    "cloze": "Nobody wants to be labeled a ｟fink｠ at school.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13857,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb82d89a0",
+  "courseId": "en-10-30k",
+  "headword": "fourier",
+  "reading": "/fˈʊɹieɪ/",
+  "gloss": "フーリエ(数学者;「フーリエ変換」などの用語に名を残す)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we sat around talking about fourier transforms",
+    "translation": "私たちは座ってフーリエ変換とか",
+    "cloze": "we sat around talking about ｟fourier｠ transforms"
+   },
+   {
+    "text": "The Fourier transform converts a signal into its frequency components.",
+    "translation": "フーリエ変換は信号を周波数成分に変換する。",
+    "cloze": "The ｟Fourier｠ transform converts a signal into its frequency components.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13860,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x8890b37f",
+  "courseId": "en-10-30k",
+  "headword": "flamingo",
+  "reading": "/fləmˈɪŋɡoʊ/",
+  "gloss": "フラミンゴ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I see flamingos everywhere.",
+    "translation": "方方でフラミンゴを見かけます。",
+    "cloze": "I see ｟＿｠ everywhere."
+   },
+   {
+    "text": "because we don't actually have flamingos in chicago.",
+    "translation": "シカゴには フラミンゴはいなくて",
+    "cloze": "because we don't actually have ｟＿｠ in chicago."
+   }
+  ],
+  "frequencyRank": 14109,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xdd09eefe",
+  "courseId": "en-10-30k",
+  "headword": "foolishness",
+  "reading": "/fˈulɪʃnəs/",
+  "gloss": "愚かさ、愚かな行為",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was amazed at his foolishness.",
+    "translation": "彼の思慮の無さには驚いた。",
+    "cloze": "He was amazed at his ｟＿｠."
+   },
+   {
+    "text": "That is the height of foolishness.",
+    "translation": "それは愚の骨頂だ。",
+    "cloze": "That is the height of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14112,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8dad8148",
+  "courseId": "en-10-30k",
+  "headword": "fuzz",
+  "reading": "/fˈʌz/",
+  "gloss": "綿毛、うぶ毛;(俗)警察",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the fuzz! let's split!",
+    "translation": "警察だ 逃げろ",
+    "cloze": "the ｟＿｠! let's split!"
+   },
+   {
+    "text": "The peach had a soft fuzz on its skin.",
+    "translation": "その桃の皮には柔らかい綿毛があった。",
+    "cloze": "The peach had a soft ｟＿｠ on its skin.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14116,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9b541d5a",
+  "courseId": "en-10-30k",
+  "headword": "fastball",
+  "reading": "/fˈæstbˌɔl/",
+  "gloss": "(野球の)速球,ファストボール",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'll throw a fastball.",
+    "translation": "速球を投げる。",
+    "cloze": "I'll throw a ｟＿｠."
+   },
+   {
+    "text": "He has a good fastball.",
+    "translation": "彼は剛速球投手です。",
+    "cloze": "He has a good ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14364,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x26773dd8",
+  "courseId": "en-10-30k",
+  "headword": "fearsome",
+  "reading": "/fˈɪɹsəm/",
+  "gloss": "恐ろしい,ものすごい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "team unicorn, they're fearsome opponents.",
+    "translation": "チーム・ユニコーン... 恐ろしい相手だ。",
+    "cloze": "team unicorn, they're ｟＿｠ opponents."
+   },
+   {
+    "text": "you just said the winners are the most fearsome monsters on campus.",
+    "translation": "優勝者は大学一の モンスターだと聞きました",
+    "cloze": "you just said the winners are the most ｟＿｠ monsters on campus."
+   }
+  ],
+  "frequencyRank": 14365,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xef16e640",
+  "courseId": "en-10-30k",
+  "headword": "fayetteville",
+  "reading": "/fˈeɪˌɛtvˌɪl/",
+  "gloss": "フェイエットビル(米国ノースカロライナ州などの都市名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "fayetteville, north carolina.",
+    "translation": "ノースカロライナ州",
+    "cloze": "｟＿｠, north carolina."
+   },
+   {
+    "text": "family moved from biloxi to charleston to fayetteville in the last three years.",
+    "translation": "過去3年間で 3カ所に引っ越し",
+    "cloze": "family moved from biloxi to charleston to ｟＿｠ in the last three years."
+   }
+  ],
+  "frequencyRank": 14571,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x931fba37",
+  "courseId": "en-10-30k",
+  "headword": "fixer",
+  "reading": "/fˈɪksɚ/",
+  "gloss": "調整役、まとめ役；(裏で)取引をする人、黒幕",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is an excellent fixer, and has always been regarded as such.",
+    "translation": "彼は優れた調整役で、ずっとそのように見られていた。",
+    "cloze": "He is an excellent ｟＿｠, and has always been regarded as such."
+   },
+   {
+    "text": "it looks like chad bryson hired some sort of a fixer to make sure he's found not guilty.",
+    "translation": "それはチャド・ブライソンのようだ ある種の黒幕を雇った 彼が無罪判決を受けたのを確認する",
+    "cloze": "it looks like chad bryson hired some sort of a ｟＿｠ to make sure he's found not guilty."
+   }
+  ],
+  "frequencyRank": 14578,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x706298ca",
+  "courseId": "en-10-30k",
+  "headword": "flavoured",
+  "reading": null,
+  "gloss": "風味をつけた、〜味の(flavoredの英国式つづり)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This ice cream is strawberry flavoured.",
+    "translation": "このアイスクリームはイチゴ味です。",
+    "cloze": "This ice cream is strawberry ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14579,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xb8c2bac7",
+  "courseId": "en-10-30k",
+  "headword": "forties",
+  "reading": "/fˈɔɹtiz/",
+  "gloss": "40代；(the forties)1940年代",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She is in her forties.",
+    "translation": "彼女は40代だ。",
+    "cloze": "She is in her ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14582,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x7a977846",
+  "courseId": "en-10-30k",
+  "headword": "fruitless",
+  "reading": "/fɹˈutləs/",
+  "gloss": "実を結ばない、むだな、効果のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Let's stop this fruitless argument.",
+    "translation": "水掛け論はやめよう。",
+    "cloze": "Let's stop this ｟＿｠ argument."
+   },
+   {
+    "text": "It's fruitless to press him further.",
+    "translation": "これ以上彼を責め立ててもむだだ。",
+    "cloze": "It's ｟＿｠ to press him further."
+   }
+  ],
+  "frequencyRank": 14584,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb434be5d",
+  "courseId": "en-10-30k",
+  "headword": "fussy",
+  "reading": "/fˈʌsi/",
+  "gloss": "小うるさい、口やかましい；好き嫌いが激しい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm fussy.",
+    "translation": "私は几帳面なんだ。",
+    "cloze": "I'm ｟＿｠."
+   },
+   {
+    "text": "Tom is a fussy eater.",
+    "translation": "トムは好き嫌いが激しい。",
+    "cloze": "Tom is a ｟＿｠ eater."
+   }
+  ],
+  "frequencyRank": 14585,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa5536f7e",
+  "courseId": "en-10-30k",
+  "headword": "flirty",
+  "reading": null,
+  "gloss": "いちゃつく,浮ついた,セクシーな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "then my perfect flirty plan...",
+    "translation": "では私のパーフェクトなイチャイチャ計画は",
+    "cloze": "then my perfect ｟＿｠ plan..."
+   },
+   {
+    "text": "well, did he at least say it in a flirty tone that says...",
+    "translation": "彼は言った? 少なくともセクシーなトーンで...",
+    "cloze": "well, did he at least say it in a ｟＿｠ tone that says..."
+   }
+  ],
+  "frequencyRank": 14841,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xdb50015e",
+  "courseId": "en-10-30k",
+  "headword": "fullness",
+  "reading": "/fˈʊlnəs/",
+  "gloss": "満ちていること,充足",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "From the fullness of his grace we have all received one blessing after another.",
+    "translation": "わたし達は皆、この方の満ち満ちた豊かさの中から、恵みの上に更に恵みを受けたのである。",
+    "cloze": "From the ｟＿｠ of his grace we have all received one blessing after another."
+   },
+   {
+    "text": "but they fall infinitely short of complete fullness.",
+    "translation": "完全な充足が永遠に足りないのです",
+    "cloze": "but they fall infinitely short of complete ｟＿｠."
+   }
+  ],
+  "frequencyRank": 14842,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xa4b2dfc0",
+  "courseId": "en-10-30k",
+  "headword": "fasten",
+  "reading": "/fˈæsən/",
+  "gloss": "締める、留める、固定する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Fasten the gate.",
+    "translation": "門にかぎを掛けなさい。",
+    "cloze": "｟Fasten｠ the gate."
+   },
+   {
+    "text": "Fasten your seat belt.",
+    "translation": "座席のベルトをお締めください。",
+    "cloze": "｟Fasten｠ your seat belt."
+   }
+  ],
+  "frequencyRank": 15094,
+  "category": "basic-verbs"
+ },
+ {
+  "id": "en-10-30k-x870bd02c",
+  "courseId": "en-10-30k",
+  "headword": "frickin",
+  "reading": null,
+  "gloss": "(fuckingの婉曲・強調表現)くそ、めちゃくちゃ(な)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "we were having a friendly meal this was a nice evening dont talk shit to me i just asked you a question you know, your a frickin snob you think your all cool cos you work at some fancy shit place",
+    "translation": "楽しい夕食の筈だろ バカにしないでよ 質問しただけよ",
+    "cloze": "...you know, your a ｟frickin｠ snob you think your all cool cos you work at some fancy shit place"
+   },
+   {
+    "text": "Stop being such a frickin idiot!",
+    "translation": "いい加減にしろよ、まったく間抜けなんだから!",
+    "cloze": "Stop being such a ｟frickin｠ idiot!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15098,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x7a98dfcc",
+  "courseId": "en-10-30k",
+  "headword": "florist",
+  "reading": "/flˈɑɹɪst/",
+  "gloss": "花屋(店・人)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "There is a florist nearby.",
+    "translation": "近くに花屋があります。",
+    "cloze": "There is a ｟florist｠ nearby."
+   },
+   {
+    "text": "Is there a florist in the hotel?",
+    "translation": "ホテルの中に花屋はありますか。",
+    "cloze": "Is there a ｟florist｠ in the hotel?"
+   }
+  ],
+  "frequencyRank": 15337,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-xdd18f14d",
+  "courseId": "en-10-30k",
+  "headword": "ftp",
+  "reading": "/ˌɛftˌipˈi/",
+  "gloss": "ファイル転送プロトコル(File Transfer Protocol)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have attached instructions on how to use FTP to access our files.",
+    "translation": "私どものファイルにアクセスするためのＦＴＰの使い方を添付します。",
+    "cloze": "I have attached instructions on how to use ｟FTP｠ to access our files."
+   },
+   {
+    "text": "added for access to the ftp and snmp.",
+    "translation": "ftpとsnmpへの アクセスを追加した",
+    "cloze": "added for access to the ｟ftp｠ and snmp."
+   }
+  ],
+  "frequencyRank": 15339,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x5c3d1a1c",
+  "courseId": "en-10-30k",
+  "headword": "fowl",
+  "reading": "/fˈaʊl/",
+  "gloss": "鶏、家禽;鳥肉",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The fowls were well roasted by the cook.",
+    "translation": "鳥は料理人がほどよく焼いた。",
+    "cloze": "The ｟fowls｠ were well roasted by the cook."
+   },
+   {
+    "text": "there were plants and fish and fowl and beast, each after their own kind.",
+    "translation": "植物 魚 動物 それぞれ生きていた",
+    "cloze": "there were plants and fish and ｟fowl｠ and beast, each after their own kind."
+   }
+  ],
+  "frequencyRank": 15590,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-xf3f8bcee",
+  "courseId": "en-10-30k",
+  "headword": "freckle",
+  "reading": "/fɹˈɛkəl/",
+  "gloss": "そばかす",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have freckles.",
+    "translation": "私には、そばかすがある。",
+    "cloze": "I have ｟freckles｠."
+   },
+   {
+    "text": "Tom has freckles.",
+    "translation": "トムには、そばかすがあります。",
+    "cloze": "Tom has ｟freckles｠."
+   }
+  ],
+  "frequencyRank": 15593,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x261268ed",
+  "courseId": "en-10-30k",
+  "headword": "fundraisers",
+  "reading": "/fˈʌndɹˌeɪzɚz/",
+  "gloss": "資金調達者;募金イベント",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The school organized several fundraisers to build a new library.",
+    "translation": "学校は新しい図書館を建てるためにいくつかの募金活動を行った。",
+    "cloze": "The school organized several ｟fundraisers｠ to build a new library.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Local businesses often sponsor school fundraisers.",
+    "translation": "地元企業はしばしば学校の募金活動を支援する。",
+    "cloze": "Local businesses often sponsor school ｟fundraisers｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 15596,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x9738d6b6",
+  "courseId": "en-10-30k",
+  "headword": "faraway",
+  "reading": "/fˈɑɹəwˈeɪ/",
+  "gloss": "遠い；(目つきなどが)夢見るような、ぼんやりした",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "One can see faraway objects with a telescope.",
+    "translation": "遠くの物が望遠鏡で見える。",
+    "cloze": "One can see ｟＿｠ objects with a telescope."
+   },
+   {
+    "text": "A good neighbor is better than a faraway brother.",
+    "translation": "遠くの兄弟より、良き隣人。",
+    "cloze": "A good neighbor is better than a ｟＿｠ brother."
+   }
+  ],
+  "frequencyRank": 15834,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xcc6e4d1c",
+  "courseId": "en-10-30k",
+  "headword": "footpath",
+  "reading": "/fˈʊtpˌæθ/",
+  "gloss": "(歩行者用の)小道",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I walked along the footpath.",
+    "translation": "小道を歩いて行った。",
+    "cloze": "I walked along the ｟＿｠."
+   },
+   {
+    "text": "then he pointed toward this barely visible footpath",
+    "translation": "それから 彼は道なき道を指さして言いました",
+    "cloze": "then he pointed toward this barely visible ｟＿｠"
+   }
+  ],
+  "frequencyRank": 15841,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5ce886c9",
+  "courseId": "en-10-30k",
+  "headword": "faceless",
+  "reading": "/fˈeɪsləs/",
+  "gloss": "顔のない;特徴のない,個性のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "for whatever you want. to be a faceless man.",
+    "translation": "顔無しの男になるための",
+    "cloze": "for whatever you want. to be a ｟＿｠ man."
+   },
+   {
+    "text": "Large corporations can feel faceless and impersonal.",
+    "translation": "大企業は没個性的で人間味がないように感じられることがある。",
+    "cloze": "Large corporations can feel ｟＿｠ and impersonal.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16092,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xab6a52f5",
+  "courseId": "en-10-30k",
+  "headword": "fizz",
+  "reading": "/fˈɪz/",
+  "gloss": "シューシュー音を立てて発泡する;発泡性飲料",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This cola has lost its fizz and doesn't taste any good.",
+    "translation": "このコーラ、炭酸が抜けちゃっておいしくない。",
+    "cloze": "This cola has lost its ｟＿｠ and doesn't taste any good."
+   },
+   {
+    "text": "Pouring bubbly-water into the glass with ice in it made a cold fizzing sound.",
+    "translation": "氷の入ったグラスにサイダーを注ぐとシュワシュワと涼しげな音がしました。",
+    "cloze": "Pouring bubbly-water into the glass with ice in it made a cold ｟＿｠ sound."
+   }
+  ],
+  "frequencyRank": 16098,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x43b65060",
+  "courseId": "en-10-30k",
+  "headword": "frick",
+  "reading": "/fɹˈɪk/",
+  "gloss": "(fuckの婉曲表現)くそっ,ちくしょう(俗語の間投詞)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "fricking kidding me, right?",
+    "translation": "クソ なめやがって",
+    "cloze": "｟＿｠ kidding me, right?"
+   },
+   {
+    "text": "Oh frick, I forgot my keys again!",
+    "translation": "ああ、しまった、また鍵を忘れた!",
+    "cloze": "Oh ｟＿｠, I forgot my keys again!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16102,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xb3571fef",
+  "courseId": "en-10-30k",
+  "headword": "faraday",
+  "reading": "/fˈæɹədˌeɪ/",
+  "gloss": "ファラデー(英国の物理学者・化学者;電磁誘導の発見者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i know what a faraday cage is! a baboon would.",
+    "translation": "電磁シールドくらい ヒヒでも知っとる!",
+    "cloze": "i know what a ｟＿｠ cage is! a baboon would."
+   },
+   {
+    "text": "you let faraday talk to him?",
+    "translation": "ファラデーと話をさせたのか?",
+    "cloze": "you let ｟＿｠ talk to him?"
+   }
+  ],
+  "frequencyRank": 16369,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3a8269da",
+  "courseId": "en-10-30k",
+  "headword": "falkirk",
+  "reading": null,
+  "gloss": "フォルカーク(スコットランドの都市;フォルカーク・ホイールで有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The ｟＿｠ Wheel is a unique rotating boat lift in Scotland.",
+    "translation": "フォルカーク・ホイールはスコットランドにあるユニークな回転式ボートリフトだ。",
+    "cloze": "The ｟＿｠ Wheel is a unique rotating boat lift in Scotland.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16619,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x764b8d97",
+  "courseId": "en-10-30k",
+  "headword": "falklands",
+  "reading": "/fˈɔkləndz/",
+  "gloss": "フォークランド諸島(南大西洋の英領諸島;1982年のフォークランド紛争で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "that date, i'd say ｟＿｠ veteran.",
+    "translation": "フォークランド従軍兵?",
+    "cloze": "that date, i'd say ｟＿｠ veteran."
+   },
+   {
+    "text": "The ｟＿｠ War took place between Argentina and the United Kingdom in 1982.",
+    "translation": "フォークランド紛争は1982年にアルゼンチンとイギリスの間で起きた。",
+    "cloze": "The ｟＿｠ War took place between Argentina and the United Kingdom in 1982.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16620,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1edb03a8",
+  "courseId": "en-10-30k",
+  "headword": "filipina",
+  "reading": null,
+  "gloss": "フィリピン人女性",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "a ｟＿｠ activist once said to me",
+    "translation": "フィリピン人の活動家が私に言いました",
+    "cloze": "a ｟＿｠ activist once said to me"
+   },
+   {
+    "text": "who is working on ｟＿｠ migrant women",
+    "translation": "祖国に子供を残したフィリピン女性移民について",
+    "cloze": "who is working on ｟＿｠ migrant women"
+   }
+  ],
+  "frequencyRank": 16625,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd9b6599b",
+  "courseId": "en-10-30k",
+  "headword": "flattery",
+  "reading": "/flˈætɚi/",
+  "gloss": "お世辞,へつらい",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She is proof against ｟＿｠.",
+    "translation": "彼女にはおべっかは通用しない。",
+    "cloze": "She is proof against ｟＿｠."
+   },
+   {
+    "text": "He took her remarks as ｟＿｠.",
+    "translation": "彼は彼女の言葉をお世辞ととった。",
+    "cloze": "He took her remarks as ｟＿｠."
+   }
+  ],
+  "frequencyRank": 16626,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x54e12acc",
+  "courseId": "en-10-30k",
+  "headword": "frisbee",
+  "reading": "/fɹˈɪsbi/",
+  "gloss": "フリスビー(投げて遊ぶ円盤;商標由来の一般名称)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Our dog missed the ｟＿｠ and collided right into the camera.",
+    "translation": "うちの犬はフリスビーをつかみ損ねてカメラに激突した。",
+    "cloze": "Our dog missed the ｟＿｠ and collided right into the camera."
+   },
+   {
+    "text": "can't we change them to ｟＿｠s or something?",
+    "translation": "フリスビーか 何かに変更してよ!",
+    "cloze": "can't we change them to ｟＿｠s or something?"
+   }
+  ],
+  "frequencyRank": 16630,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x6d43bc00",
+  "courseId": "en-10-30k",
+  "headword": "fgm",
+  "reading": null,
+  "gloss": "女性器切除(Female Genital Mutilationの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "fgm is child abuse.",
+    "translation": "FGMは児童虐待です",
+    "cloze": "｟fgm｠ is child abuse."
+   },
+   {
+    "text": "because from what i knew about fgm",
+    "translation": "私がFGMについて 知っていることからすると",
+    "cloze": "because from what i knew about ｟fgm｠"
+   }
+  ],
+  "frequencyRank": 17152,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xef087f5e",
+  "courseId": "en-10-30k",
+  "headword": "freya",
+  "reading": "/fɹˈeɪə/",
+  "gloss": "フレイヤ(北欧神話の愛と美の女神。Fridayの語源)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "In Norse mythology, Freya is the goddess of love and beauty.",
+    "translation": "北欧神話では、フレイヤは愛と美の女神である。",
+    "cloze": "In Norse mythology, ｟Freya｠ is the goddess of love and beauty.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The English word 'Friday' comes from the name Freya.",
+    "translation": "英語の'Friday'という単語はフレイヤという名前に由来する。",
+    "cloze": "The English word 'Friday' comes from the name ｟Freya｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17156,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x26913f33",
+  "courseId": "en-10-30k",
+  "headword": "fanboy",
+  "reading": null,
+  "gloss": "(俗語)熱狂的なファン,オタク",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you know you went a little, uh, fanboy back there, right?",
+    "translation": "熱狂的なファンぶりに驚いたわ",
+    "cloze": "you know you went a little, uh, ｟＿｠ back there, right?"
+   },
+   {
+    "text": "you're definitely a fanboy.",
+    "translation": "確かに オタクっすね。",
+    "cloze": "you're definitely a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 17426,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xec07c0d2",
+  "courseId": "en-10-30k",
+  "headword": "fao",
+  "reading": "/fˈaʊ/",
+  "gloss": "国連食糧農業機関(Food and Agriculture Organization)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "there was an fao conference last october",
+    "translation": "食糧危機問題は 昨年10月に開催された",
+    "cloze": "there was an ｟＿｠ conference last october"
+   },
+   {
+    "text": "according to fao",
+    "translation": "FAO (国連食料農業機関)によると",
+    "cloze": "according to ｟＿｠"
+   }
+  ],
+  "frequencyRank": 17427,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x2db20952",
+  "courseId": "en-10-30k",
+  "headword": "fishers",
+  "reading": "/fˈɪʃɚz/",
+  "gloss": "漁師,漁民(fishermanの中性的な代替表現);フィッシャー(北米産のイタチ科の動物)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Local fishers depend on the lake for their livelihood.",
+    "translation": "地元の漁師たちはその湖に生計を頼っている。",
+    "cloze": "Local ｟＿｠ depend on the lake for their livelihood.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The fishers set out early in the morning before sunrise.",
+    "translation": "漁師たちは日の出前の早朝に出発した。",
+    "cloze": "The ｟＿｠ set out early in the morning before sunrise.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17431,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7e6533d4",
+  "courseId": "en-10-30k",
+  "headword": "friendliness",
+  "reading": "/fɹˈɛndlinɪs/",
+  "gloss": "友好的なこと,親しみやすさ,親切",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was deceived by her apparent friendliness.",
+    "translation": "彼は彼女のうわべだけの好意にだまされた。",
+    "cloze": "He was deceived by her apparent ｟＿｠."
+   },
+   {
+    "text": "What strikes me here is people's friendliness.",
+    "translation": "当地で私の心を打つ物と言えば、みんなが親切なことです。",
+    "cloze": "What strikes me here is people's ｟＿｠."
+   }
+  ],
+  "frequencyRank": 17438,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x2d0765c5",
+  "courseId": "en-10-30k",
+  "headword": "firefighting",
+  "reading": "/fˈaɪɹfˌaɪtɪŋ/",
+  "gloss": "消火活動、消防",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He says firefighting is a feast or famine job.",
+    "translation": "彼が言うには、消防の仕事というのは大忙しか全く暇かのいずれかだそうだ。",
+    "cloze": "He says ｟＿｠ is a feast or famine job."
+   },
+   {
+    "text": "the first volunteer firefighting company in philadelphia",
+    "translation": "初となるボランティアの消防隊を結成しました",
+    "cloze": "the first volunteer ｟＿｠ company in philadelphia"
+   }
+  ],
+  "frequencyRank": 17750,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x83d9602d",
+  "courseId": "en-10-30k",
+  "headword": "flinch",
+  "reading": "/flˈɪntʃ/",
+  "gloss": "たじろぐ、しりごみする",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "I did not flinch.",
+    "translation": "私はひるまなかった。",
+    "cloze": "I did not ｟＿｠."
+   },
+   {
+    "text": "He is not such a man as to flinch from danger.",
+    "translation": "彼は危険から尻込みするような人ではない。",
+    "cloze": "He is not such a man as to ｟＿｠ from danger."
+   }
+  ],
+  "frequencyRank": 17755,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xa2a2c7c2",
+  "courseId": "en-10-30k",
+  "headword": "florentine",
+  "reading": "/flˈɔɹəntˌin/",
+  "gloss": "フィレンツェの;フィレンツェ人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "assembled a dream team of florentine art",
+    "translation": "フィレンツェ画壇の ドリームチームを結集しました",
+    "cloze": "assembled a dream team of ｟＿｠ art"
+   },
+   {
+    "text": "in florentine studios was not equipped for this kind of a narrative.",
+    "translation": "絵画の技法は このような物語を 描くには不十分でした",
+    "cloze": "in ｟＿｠ studios was not equipped for this kind of a narrative."
+   }
+  ],
+  "frequencyRank": 17756,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xb79f20f1",
+  "courseId": "en-10-30k",
+  "headword": "forefather",
+  "reading": "/fˈɔɹfˌɑðɚ/",
+  "gloss": "祖先",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Do you know your forefather?",
+    "translation": "あなたの祖先をご存知ですか。",
+    "cloze": "Do you know your ｟＿｠?"
+   },
+   {
+    "text": "nonetheless, our forefathers, right?",
+    "translation": "いずれにしても我々の先祖ですよね",
+    "cloze": "nonetheless, our ｟＿｠, right?"
+   }
+  ],
+  "frequencyRank": 17758,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb2a16c3f",
+  "courseId": "en-10-30k",
+  "headword": "freeport",
+  "reading": "/fɹˈipˌɔɹt/",
+  "gloss": "自由港、保税地域(関税のかからない港・地域)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The goods were stored in a freeport to avoid import taxes.",
+    "translation": "その商品は輸入税を避けるため保税地域(フリーポート)に保管された。",
+    "cloze": "The goods were stored in a ｟＿｠ to avoid import taxes.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17761,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x3031b785",
+  "courseId": "en-10-30k",
+  "headword": "fdi",
+  "reading": null,
+  "gloss": "海外直接投資(Foreign Direct Investment)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "a tripling of aid, a tenfold increase in fdi",
+    "translation": "10倍になった外国直接投資は",
+    "cloze": "a tripling of aid, a tenfold increase in ｟＿｠"
+   },
+   {
+    "text": "but 60 percent of the fdi in the last couple of years",
+    "translation": "でも 過去2年間の 外国直接投資の60%は",
+    "cloze": "but 60 percent of the ｟＿｠ in the last couple of years"
+   }
+  ],
+  "frequencyRank": 18040,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa7944311",
+  "courseId": "en-10-30k",
+  "headword": "flatly",
+  "reading": "/flˈætli/",
+  "gloss": "きっぱりと、にべもなく",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I flatly refused.",
+    "translation": "きっぱりお断りしました。",
+    "cloze": "I ｟＿｠ refused."
+   },
+   {
+    "text": "Tom flatly refused.",
+    "translation": "トムはきっぱりと断った。",
+    "cloze": "Tom ｟＿｠ refused."
+   }
+  ],
+  "frequencyRank": 18045,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xb9f7e3ac",
+  "courseId": "en-10-30k",
+  "headword": "fluently",
+  "reading": "/flˈuəntli/",
+  "gloss": "流暢に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Tom speaks fluently.",
+    "translation": "トムは流暢に話す。",
+    "cloze": "Tom speaks ｟＿｠."
+   },
+   {
+    "text": "He speaks French fluently.",
+    "translation": "彼はフランス語が流暢だ。",
+    "cloze": "He speaks French ｟＿｠."
+   }
+  ],
+  "frequencyRank": 18046,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc2a3bdbb",
+  "courseId": "en-10-30k",
+  "headword": "fanfic",
+  "reading": null,
+  "gloss": "ファンフィクション(ファンが書いた二次創作小説)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i thought it was fanfic at first, but it was clearly edlund's work.",
+    "translation": "初めはファンの創作だと 思ったけど 間違いなくエドランドの 作品だった",
+    "cloze": "i thought it was ｟＿｠ at first, but it was clearly edlund's work."
+   },
+   {
+    "text": "She spends her weekends writing fanfic about her favorite anime characters.",
+    "translation": "彼女は週末を大好きなアニメキャラクターについてのファンフィクションを書いて過ごしている。",
+    "cloze": "She spends her weekends writing ｟＿｠ about her favorite anime characters.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18331,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xe0234d0b",
+  "courseId": "en-10-30k",
+  "headword": "fsb",
+  "reading": null,
+  "gloss": "ロシア連邦保安庁(旧KGBの後継機関。ロシアの国内治安・防諜を担当)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "former fsb.",
+    "translation": "元FSBだな",
+    "cloze": "former ｟＿｠."
+   },
+   {
+    "text": "the fsb will carry out a raid in two days.",
+    "translation": "fsbのガサ入れが 2日後にある。",
+    "cloze": "the ｟＿｠ will carry out a raid in two days."
+   }
+  ],
+  "frequencyRank": 18338,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa893662a",
+  "courseId": "en-10-30k",
+  "headword": "fem",
+  "reading": null,
+  "gloss": "女性の、女性的な(female/feminineの略・俗語)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "On the form, she checked the box marked 'fem' for gender.",
+    "translation": "その用紙で、彼女は性別欄の「女性(fem)」にチェックを入れた。",
+    "cloze": "On the form, she checked the box marked '｟＿｠' for gender.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18637,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3b7a702c",
+  "courseId": "en-10-30k",
+  "headword": "fijian",
+  "reading": "/fˈidʒiən/",
+  "gloss": "フィジー(諸島)の、フィジー人の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "it's extremely difficult for me to get fijian news",
+    "translation": "フィジーのニュースを入手するのは、非常に困難です。",
+    "cloze": "it's extremely difficult for me to get ｟＿｠ news"
+   },
+   {
+    "text": "fijian war club?",
+    "translation": "フィジーの武器だって?",
+    "cloze": "｟＿｠ war club?"
+   }
+  ],
+  "frequencyRank": 18640,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x7acf8b2a",
+  "courseId": "en-10-30k",
+  "headword": "fillmore",
+  "reading": "/fˈɪlmɔɹ/",
+  "gloss": "フィルモア(ミラード・フィルモア、第13代米大統領)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "although i suppose if i lived in the age of millard fillmore",
+    "translation": "もしミラード・フィルモア大統領の時代に 生きてたら",
+    "cloze": "although i suppose if i lived in the age of millard ｟＿｠"
+   }
+  ],
+  "frequencyRank": 18642,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0a105777",
+  "courseId": "en-10-30k",
+  "headword": "foia",
+  "reading": "/fˈoʊjə/",
+  "gloss": "情報公開法(Freedom of Information Act、米国の法律)の略称",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Journalists filed a FOIA request to obtain the government documents.",
+    "translation": "記者たちは政府文書を入手するためFOIA(情報公開法)請求を行った。",
+    "cloze": "Journalists filed a ｟＿｠ request to obtain the government documents.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18643,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x6e27121f",
+  "courseId": "en-10-30k",
+  "headword": "faqs",
+  "reading": null,
+  "gloss": "よくある質問(集)、FAQ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Please check the FAQs before contacting support.",
+    "translation": "お問い合わせの前にFAQをご確認ください。",
+    "cloze": "Please check the ｟FAQs｠ before contacting support.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18918,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xed0f3056",
+  "courseId": "en-10-30k",
+  "headword": "finns",
+  "reading": "/fˈɪnz/",
+  "gloss": "フィンランド人(たち)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Finns are known for their love of sauna.",
+    "translation": "フィンランド人はサウナを愛することで知られている。",
+    "cloze": "The ｟Finns｠ are known for their love of sauna.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18921,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x866017e7",
+  "courseId": "en-10-30k",
+  "headword": "firstborn",
+  "reading": "/fˈɝstbˈɔɹn/",
+  "gloss": "最初に生まれた(子)、長子",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm the firstborn.",
+    "translation": "長子です。",
+    "cloze": "I'm the ｟firstborn｠."
+   },
+   {
+    "text": "Tom is my firstborn.",
+    "translation": "トムが私の長子だ。",
+    "cloze": "Tom is my ｟firstborn｠."
+   }
+  ],
+  "frequencyRank": 18924,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc4f49965",
+  "courseId": "en-10-30k",
+  "headword": "foss",
+  "reading": "/fˈɑs/",
+  "gloss": "(城・要塞を囲む)堀、濠",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The castle was surrounded by a deep foss.",
+    "translation": "その城は深い堀に囲まれていた。",
+    "cloze": "The castle was surrounded by a deep ｟foss｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18926,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x03d983b7",
+  "courseId": "en-10-30k",
+  "headword": "firehouse",
+  "reading": "/fˈaɪɚhˌaʊs/",
+  "gloss": "消防署",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "paul satterfield was a legend at the firehouse.",
+    "translation": "ポール・サターフィールドは 消防署の伝説の男です",
+    "cloze": "paul satterfield was a legend at the ｟＿｠."
+   },
+   {
+    "text": "The firefighters returned to the firehouse after putting out the blaze.",
+    "translation": "消防士たちは火事を消した後、消防署に戻った。",
+    "cloze": "The firefighters returned to the ｟＿｠ after putting out the blaze.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19203,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x4c5d0ead",
+  "courseId": "en-10-30k",
+  "headword": "followup",
+  "reading": "/fˈɑloʊˌʌp/",
+  "gloss": "追跡調査、経過観察;その後の対応、続報",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "that's a doubtful followup.",
+    "translation": "微妙なフォローだ",
+    "cloze": "that's a doubtful ｟＿｠."
+   },
+   {
+    "text": "this does not look like a man who's collected a sevenfigure ransom three years previously and has masterminded a followup.",
+    "translation": "3年前に7桁の身代金を 手に入れて その後の計画まで",
+    "cloze": "this does not look like a man who's collected a sevenfigure ransom three years previously and has masterminded a ｟＿｠."
+   }
+  ],
+  "frequencyRank": 19208,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xe7539510",
+  "courseId": "en-10-30k",
+  "headword": "forgetful",
+  "reading": "/fɔɹɡˈɛtfəl/",
+  "gloss": "忘れっぽい、物忘れしやすい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Tom is forgetful.",
+    "translation": "トムは忘れっぽい。",
+    "cloze": "Tom is ｟＿｠."
+   },
+   {
+    "text": "I've become forgetful.",
+    "translation": "物忘れがひどいんです。",
+    "cloze": "I've become ｟＿｠."
+   }
+  ],
+  "frequencyRank": 19210,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x96cf6543",
+  "courseId": "en-10-30k",
+  "headword": "forgettable",
+  "reading": "/fɔɹɡˈɛtəbəl/",
+  "gloss": "忘れられやすい、印象に残らない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "wonderful but forgettable. that sounds like a picture i've seen.",
+    "translation": "素晴らしいけどすぐ忘れる なんか聞いたことある",
+    "cloze": "wonderful but ｟＿｠. that sounds like a picture i've seen."
+   },
+   {
+    "text": "This movie is a completely forgettable experience.",
+    "translation": "この映画は全く印象に残らない。",
+    "cloze": "This movie is a completely ｟＿｠ experience.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19211,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3083a96c",
+  "courseId": "en-10-30k",
+  "headword": "forklift",
+  "reading": "/fˈɔɹklˌɪft/",
+  "gloss": "フォークリフト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "got machines running, forklifts, people coming and going.",
+    "translation": "機械が動き フォークリフトと人が行き来し",
+    "cloze": "got machines running, ｟＿｠s, people coming and going."
+   },
+   {
+    "text": "i have the license for forklift too.",
+    "translation": "フォークリフトの資格も 持ってる...。",
+    "cloze": "i have the license for ｟＿｠ too."
+   }
+  ],
+  "frequencyRank": 19212,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x6be28b95",
+  "courseId": "en-10-30k",
+  "headword": "faves",
+  "reading": null,
+  "gloss": "お気に入りの人・物(informalなfavorite(s)の略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "These are my faves from the new album.",
+    "translation": "これらは新しいアルバムの中で私のお気に入りです。",
+    "cloze": "These are my ｟＿｠ from the new album.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19501,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x92f32f81",
+  "courseId": "en-10-30k",
+  "headword": "fintech",
+  "reading": null,
+  "gloss": "フィンテック(金融とITを融合させた金融サービス・技術)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The startup develops fintech solutions for online banking.",
+    "translation": "そのスタートアップはオンラインバンキング向けのフィンテックソリューションを開発している。",
+    "cloze": "The startup develops ｟＿｠ solutions for online banking.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19507,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x6e17931a",
+  "courseId": "en-10-30k",
+  "headword": "fdic",
+  "reading": null,
+  "gloss": "連邦預金保険公社(米国の銀行預金保険機関)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The FDIC insures deposits at U.S. banks up to a certain limit.",
+    "translation": "FDIC(連邦預金保険公社)は米国の銀行預金を一定額まで保証する。",
+    "cloze": "The ｟FDIC｠ insures deposits at U.S. banks up to a certain limit.",
+    "aiGenerated": true
+   },
+   {
+    "text": "If a bank fails, the FDIC protects depositors' money.",
+    "translation": "銀行が破綻した場合、FDICは預金者のお金を保護する。",
+    "cloze": "If a bank fails, the ｟FDIC｠ protects depositors' money.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19802,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xfe10c2b4",
+  "courseId": "en-10-30k",
+  "headword": "flappy",
+  "reading": null,
+  "gloss": "パタパタする、垂れ下がってはためく",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "he was all flappy.",
+    "translation": "バタバタしてて ロングコートを着ていたような...",
+    "cloze": "he was all ｟＿｠."
+   },
+   {
+    "text": "The dog's flappy ears bounced as it ran across the yard.",
+    "translation": "その犬のパタパタした耳は庭を走ると揺れた。",
+    "cloze": "The dog's ｟＿｠ ears bounced as it ran across the yard.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20093,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2adcff8e",
+  "courseId": "en-10-30k",
+  "headword": "fanart",
+  "reading": null,
+  "gloss": "(インターネットスラング)ファンアート、二次創作イラスト",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She posted her fanart of the anime character online.",
+    "translation": "彼女はそのアニメキャラクターのファンアートをネットに投稿した。",
+    "cloze": "She posted her ｟＿｠ of the anime character online.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The convention had a gallery full of fanart.",
+    "translation": "そのイベント会場にはファンアートのギャラリーがあった。",
+    "cloze": "The convention had a gallery full of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20385,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x28f839f0",
+  "courseId": "en-10-30k",
+  "headword": "freetown",
+  "reading": "/fɹˈitˌaʊn/",
+  "gloss": "フリータウン(シエラレオネの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Freetown is the capital of Sierra Leone.",
+    "translation": "フリータウンはシエラレオネの首都です。",
+    "cloze": "｟＿｠ is the capital of Sierra Leone.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The ship arrived at the port of Freetown.",
+    "translation": "その船はフリータウンの港に到着した。",
+    "cloze": "The ship arrived at the port of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20394,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xce59a9a1",
+  "courseId": "en-10-30k",
+  "headword": "fanfiction",
+  "reading": null,
+  "gloss": "ファンフィクション、二次創作小説",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "she writes twilight fanfiction.",
+    "translation": "「トワイライト」の 同人作家よ",
+    "cloze": "she writes twilight ｟＿｠."
+   },
+   {
+    "text": "He posts his Harry Potter fanfiction online every week.",
+    "translation": "彼は毎週ハリー・ポッターのファンフィクションをネットに投稿している。",
+    "cloze": "He posts his Harry Potter ｟＿｠ online every week.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20674,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x74df096e",
+  "courseId": "en-10-30k",
+  "headword": "fizzy",
+  "reading": null,
+  "gloss": "泡立つ、発泡性の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I want to drink something fizzy.",
+    "translation": "ああ、なんかシュワシュワしたものが飲みたい。",
+    "cloze": "I want to drink something ｟＿｠."
+   },
+   {
+    "text": "She poured a glass of fizzy lemonade.",
+    "translation": "彼女はシュワシュワしたレモネードをグラスに注いだ。",
+    "cloze": "She poured a glass of ｟＿｠ lemonade.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20679,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x41a53057",
+  "courseId": "en-10-30k",
+  "headword": "freudian",
+  "reading": "/fɹˈudiən/",
+  "gloss": "フロイト(学派)の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "or the superego, if you're freudian",
+    "translation": "フロイト派の超自我、もしくは",
+    "cloze": "or the superego, if you're ｟＿｠"
+   },
+   {
+    "text": "i call them freudian cities.",
+    "translation": "それらをフロイトの街と読んでいます",
+    "cloze": "i call them ｟＿｠ cities."
+   }
+  ],
+  "frequencyRank": 20682,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x5f4564dc",
+  "courseId": "en-10-30k",
+  "headword": "frightful",
+  "reading": "/fɹˈaɪtfəl/",
+  "gloss": "恐ろしい、ひどい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "a frightful beam bringing disaster is approaching earth.",
+    "translation": "恐るべき災いの光が 地球へと迫りつつあった>",
+    "cloze": "a ｟＿｠ beam bringing disaster is approaching earth."
+   },
+   {
+    "text": "It was frightful when my car skidded on the ice.",
+    "translation": "車が凍てついた路面を滑った時は「ひやっ」とした。",
+    "cloze": "It was ｟＿｠ when my car skidded on the ice."
+   }
+  ],
+  "frequencyRank": 20683,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x8ed64d0e",
+  "courseId": "en-10-30k",
+  "headword": "faker",
+  "reading": "/fˈeɪkɚ/",
+  "gloss": "偽物、詐称者、ペテン師",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i gotta say though, this guy he made a big point of saying how brilliant you were and with so many fakers out there, someone who had a genuine gift.",
+    "translation": "彼は きみの能力に驚いてた 今まで 偽サイキックばかり だったから... 感動して つい 人に言ってしまったって",
+    "cloze": "i gotta say though, this guy he made a big point of saying how brilliant you were and with so many ｟＿｠ out there, someone who had a genuine gift."
+   },
+   {
+    "text": "He turned out to be a total faker.",
+    "translation": "彼は全くの偽者だと判明した。",
+    "cloze": "He turned out to be a total ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20984,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x65fa7512",
+  "courseId": "en-10-30k",
+  "headword": "firmness",
+  "reading": "/fˈɝmnəs/",
+  "gloss": "堅固さ、しっかりしていること；断固たる態度",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i thought he had a natural firmness. so he was an important guy.",
+    "translation": "道理で堅いと思った。 お偉いさんだったんだ。",
+    "cloze": "i thought he had a natural ｟＿｠. so he was an important guy."
+   },
+   {
+    "text": "with firmness in the right, as god gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle",
+    "translation": "神から与えられた正義を固く信じ 我々がやるべき仕事を 終わらせましょう 国家の傷を癒し",
+    "cloze": "with ｟＿｠ in the right, as god gives us to see the right, let us strive on to finish the work we are in, to bind up the nation's wounds, to care for him who shall have borne the battle"
+   }
+  ],
+  "frequencyRank": 21299,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x26c01701",
+  "courseId": "en-10-30k",
+  "headword": "frenchmen",
+  "reading": "/fɹˈɛntʃmɛn/",
+  "gloss": "フランス人(男性、複数形)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "should we be looking over our shoulders for angry frenchmen for the rest of our lives?",
+    "translation": "僕らは これからずっと 怒れるフランス人に怯えて生きるのか?",
+    "cloze": "should we be looking over our shoulders for angry ｟＿｠ for the rest of our lives?"
+   },
+   {
+    "text": "are these the 2 frenchmen you are looking for?",
+    "translation": "これが探している2人のフランス人ですか?",
+    "cloze": "are these the 2 ｟＿｠ you are looking for?"
+   }
+  ],
+  "frequencyRank": 21304,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa0c3c156",
+  "courseId": "en-10-30k",
+  "headword": "fairground",
+  "reading": "/fˈɛɹɡɹˌaʊnd/",
+  "gloss": "移動遊園地・品評会などが開かれる広場",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The fairground was full of rides and games.",
+    "translation": "その遊園地の広場は乗り物やゲームでいっぱいだった。",
+    "cloze": "The ｟＿｠ was full of rides and games.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21940,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xab6a1446",
+  "courseId": "en-10-30k",
+  "headword": "fireproof",
+  "reading": "/fˈaɪɚpɹˌuf/",
+  "gloss": "防火の、耐火性の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This house is fireproof.",
+    "translation": "この家は火事でも燃えない。",
+    "cloze": "This house is ｟＿｠."
+   },
+   {
+    "text": "fireproof clothing.",
+    "translation": "耐火性の服",
+    "cloze": "｟＿｠ clothing."
+   }
+  ],
+  "frequencyRank": 21944,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x470f90e3",
+  "courseId": "en-10-30k",
+  "headword": "fuckery",
+  "reading": null,
+  "gloss": "ばかげたこと、めちゃくちゃな行為、ふざけた振る舞い（俗語）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "this fuckery stops now.",
+    "translation": "いい加減にしてちょうだい",
+    "cloze": "this ｟＿｠ stops now."
+   }
+  ],
+  "frequencyRank": 22287,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf1ffbab8",
+  "courseId": "en-10-30k",
+  "headword": "formosa",
+  "reading": "/fɔɹmˈoʊsə/",
+  "gloss": "フォルモサ(台湾の旧称)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Formosa was the name given to Taiwan by Portuguese sailors.",
+    "translation": "フォルモサはポルトガルの船乗りが台湾に付けた名前だった。",
+    "cloze": "｟Formosa｠ was the name given to Taiwan by Portuguese sailors.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22606,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2f062d1a",
+  "courseId": "en-10-30k",
+  "headword": "ftse",
+  "reading": null,
+  "gloss": "FTSE100種指数(ロンドン証券取引所の代表的株価指数)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in business news, the ftse 100 fell again this morning and sterling continued to slide against the dollar, the euro and other major trading currencies.",
+    "translation": "ビジネス・ニュースでは ロンドン株価指数が今朝再び下落しました 英国通貨は ドルとユーロに対して下がり続けています 他の主要取引通貨を アナリストは予測しています",
+    "cloze": "in business news, the ｟ftse｠ 100 fell again this morning and sterling continued to slide against the dollar, the euro and other major trading currencies."
+   },
+   {
+    "text": "i hear the ftse 100, the dow jones, the dollar pound ratio",
+    "translation": "株価や為替の情報が流れていますが",
+    "cloze": "i hear the ｟ftse｠ 100, the dow jones, the dollar pound ratio"
+   }
+  ],
+  "frequencyRank": 22608,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x98109f52",
+  "courseId": "en-10-30k",
+  "headword": "ferro",
+  "reading": "/fˈɛɹoʊ/",
+  "gloss": "鉄の、鉄を含む(接頭辞 ferro-)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Bricks never take the place of ferro-concrete here.",
+    "translation": "ここでは決して、レンガは鉄筋コンクリートの代わりになりません。",
+    "cloze": "Bricks never take the place of ｟＿｠-concrete here."
+   },
+   {
+    "text": "Ferro-oxide gives the rock its reddish color.",
+    "translation": "酸化鉄がその岩に赤みを与えている。",
+    "cloze": "｟＿｠-oxide gives the rock its reddish color.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23276,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-xff162e52",
+  "courseId": "en-10-30k",
+  "headword": "fatten",
+  "reading": "/fˈætən/",
+  "gloss": "太らせる;太る",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "You'll fatten up if you eat that much.",
+    "translation": "そんなに食べると太るよ。",
+    "cloze": "You'll ｟＿｠ up if you eat that much."
+   },
+   {
+    "text": "When she was young, she would never eat anything fattening.",
+    "translation": "彼女は若い時、ふとるものは何も食べようとしなかった。",
+    "cloze": "When she was young, she would never eat anything ｟＿｠."
+   }
+  ],
+  "frequencyRank": 23586,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x360d08e0",
+  "courseId": "en-10-30k",
+  "headword": "feller",
+  "reading": "/fˈɛlɚ/",
+  "gloss": "《方言・くだけた表現》やつ,男(=fellow)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He's a good feller, always ready to lend a hand.",
+    "translation": "彼はいい奴で、いつも手を貸してくれる。",
+    "cloze": "He's a good ｟＿｠, always ready to lend a hand.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23587,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x590fdbfb",
+  "courseId": "en-10-30k",
+  "headword": "foodies",
+  "reading": null,
+  "gloss": "《くだけた表現》食通,グルメ愛好家",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The city's food festival attracts foodies from all over the country.",
+    "translation": "その街のフードフェスティバルは全国から食通たちを引き寄せる。",
+    "cloze": "The city's food festival attracts ｟＿｠ from all over the country.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23594,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xda0b434f",
+  "courseId": "en-10-30k",
+  "headword": "funders",
+  "reading": "/fˈʌndɚz/",
+  "gloss": "資金提供者,出資者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "but of course, the funders said, wait a second",
+    "translation": "もちろん資金提供者からは 「こんなに成功したんだから",
+    "cloze": "but of course, the ｟＿｠ said, wait a second"
+   },
+   {
+    "text": "a democracy dependent upon the funders",
+    "translation": "ただし この民主主義は 資金提供者に依存し",
+    "cloze": "a democracy dependent upon the ｟＿｠"
+   }
+  ],
+  "frequencyRank": 23598,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xc5929900",
+  "courseId": "en-10-30k",
+  "headword": "floorboard",
+  "reading": "/flˈɔɹbˌɔɹd/",
+  "gloss": "床板;(車の)底板",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The money was hidden beneath the floorboards.",
+    "translation": "金は床板の下に隠されていた。",
+    "cloze": "The money was hidden beneath the ｟＿｠."
+   },
+   {
+    "text": "you make the floorboards strong enough to stand on.",
+    "translation": "皆が立てるくらいに 床を十分に強くするだろう",
+    "cloze": "you make the ｟＿｠ strong enough to stand on."
+   }
+  ],
+  "frequencyRank": 24214,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x82ea9c35",
+  "courseId": "en-10-30k",
+  "headword": "fricking",
+  "reading": "/fɹˈɪkɪŋ/",
+  "gloss": "(婉曲的に)すごく,めちゃくちゃ(fuckingの婉曲表現)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "This fricking computer won't turn on!",
+    "translation": "このいまいましいパソコンが起動しない!",
+    "cloze": "This ｟＿｠ computer won't turn on!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24220,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x39bb3e43",
+  "courseId": "en-10-30k",
+  "headword": "futsal",
+  "reading": null,
+  "gloss": "フットサル(5人制の室内サッカー)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and, at 35 he has a globetrotting career, and his hobby is futsal!",
+    "translation": "でね 外務省のキャリア フットサルが趣味の35歳!",
+    "cloze": "and, at 35 he has a globetrotting career, and his hobby is ｟＿｠!"
+   },
+   {
+    "text": "They play futsal every weekend at the local gym.",
+    "translation": "彼らは毎週末、地元の体育館でフットサルをしている。",
+    "cloze": "They play ｟＿｠ every weekend at the local gym.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24223,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x7048cdf9",
+  "courseId": "en-10-30k",
+  "headword": "fawkes",
+  "reading": "/fˈɔks/",
+  "gloss": "ガイ・フォークス(1605年の火薬陰謀事件の首謀者。ガイ・フォークス・ナイトの由来となった人物)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Guy Fawkes, he doesn't like it.",
+    "translation": "ガイ・フォークスは これ好きじゃないよ",
+    "cloze": "Guy ｟＿｠, he doesn't like it."
+   },
+   {
+    "text": "I, er, killed a king and I'm not Guy Fawkes.",
+    "translation": "俺は王殺しのガイ・フォークスじゃない",
+    "cloze": "I, er, killed a king and I'm not Guy ｟＿｠."
+   }
+  ],
+  "frequencyRank": 24565,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa93d8095",
+  "courseId": "en-10-30k",
+  "headword": "faithless",
+  "reading": null,
+  "gloss": "不誠実な,信頼できない,不信心な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "infidel, from the latin for faithless.",
+    "translation": "“infidel” 語源はラテン語の「信仰心がない」",
+    "cloze": "infidel, from the latin for ｟faithless｠."
+   },
+   {
+    "text": "we don't want the faithless catholics in hagia sophia.",
+    "translation": "アヤソフィアで、無信仰のカトリック教徒を 目にしたくありません",
+    "cloze": "we don't want the ｟faithless｠ catholics in hagia sophia."
+   }
+  ],
+  "frequencyRank": 24927,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3087aabf",
+  "courseId": "en-10-30k",
+  "headword": "fibonacci",
+  "reading": "/fˌɪbənˈɑtʃi/",
+  "gloss": "フィボナッチ(数学者;「フィボナッチ数列」で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Fibonacci numbers show up occasionally in nature.",
+    "translation": "フィボナッチ数は自然界のあちこちに顔を出す。",
+    "cloze": "｟Fibonacci｠ numbers show up occasionally in nature."
+   },
+   {
+    "text": "because fibonacci and golden section",
+    "translation": "フィボナッチ数と黄金分割は",
+    "cloze": "because ｟fibonacci｠ and golden section"
+   }
+  ],
+  "frequencyRank": 24930,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xfb9cf7fc",
+  "courseId": "en-10-30k",
+  "headword": "firecracker",
+  "reading": "/fˈaɪɚkɹˌækɚ/",
+  "gloss": "爆竹,かんしゃく玉",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The firecrackers for New Year's Eve are similar to the firecrackers for weddings.",
+    "translation": "除夜の爆竹は、結婚式の爆竹のようである。",
+    "cloze": "The ｟firecrackers｠ for New Year's Eve are similar to the firecrackers for weddings."
+   },
+   {
+    "text": "tomas does tricks with firecrackers, huh?",
+    "translation": "トーマスが爆竹を使うんだ",
+    "cloze": "tomas does tricks with ｟firecrackers｠, huh?"
+   }
+  ],
+  "frequencyRank": 24931,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x14267fe8",
+  "courseId": "en-10-30k",
+  "headword": "fortran",
+  "reading": null,
+  "gloss": "フォートラン(プログラミング言語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "FORTRAN is a programming language.",
+    "translation": "FORTRANは、プログラミング言語だよ。",
+    "cloze": "｟FORTRAN｠ is a programming language."
+   },
+   {
+    "text": "we do still use fortran.",
+    "translation": "まだFortranは使っています",
+    "cloze": "we do still use ｟fortran｠."
+   }
+  ],
+  "frequencyRank": 24935,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x7130ac3c",
+  "courseId": "en-10-30k",
+  "headword": "fukuoka",
+  "reading": "/fˌukˌuˈoʊkə/",
+  "gloss": "福岡(日本の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm from Fukuoka in Kyushu.",
+    "translation": "私は九州の福岡の生まれです。",
+    "cloze": "I'm from ｟Fukuoka｠ in Kyushu."
+   },
+   {
+    "text": "I visited Fukuoka ten years ago.",
+    "translation": "私は１０年前に福岡に訪れた。",
+    "cloze": "I visited ｟Fukuoka｠ ten years ago."
+   }
+  ],
+  "frequencyRank": 24939,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd0540954",
+  "courseId": "en-10-30k",
+  "headword": "fmri",
+  "reading": null,
+  "gloss": "機能的磁気共鳴画像法(fMRI、脳活動を計測する画像技術)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "both used fmri technology",
+    "translation": "どちらもfMRI つまり ―",
+    "cloze": "both used ｟fmri｠ technology"
+   },
+   {
+    "text": "and using fmri, we should be able to measure",
+    "translation": "fMRIを使えば 酸素を含む血流の量だけでなく",
+    "cloze": "and using ｟fmri｠, we should be able to measure"
+   }
+  ],
+  "frequencyRank": 25312,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xe17ec990",
+  "courseId": "en-10-30k",
+  "headword": "fridges",
+  "reading": "/fɹˈɪdʒəz/",
+  "gloss": "冷蔵庫(fridgeの複数形)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Most modern fridges have a built-in ice maker.",
+    "translation": "最近の冷蔵庫の多くには製氷機能が内蔵されている。",
+    "cloze": "Most modern ｟fridges｠ have a built-in ice maker.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We keep leftovers in the fridges at the back of the kitchen.",
+    "translation": "残り物は厨房の奥にある冷蔵庫に保管している。",
+    "cloze": "We keep leftovers in the ｟fridges｠ at the back of the kitchen.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 25323,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-xa33388e1",
+  "courseId": "en-10-30k",
+  "headword": "flavorful",
+  "reading": "/flˈeɪvɚfəl/",
+  "gloss": "風味豊かな、味わい深い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "more flavorful, or so they say.",
+    "translation": "より風味が増す、とも言うわね",
+    "cloze": "more ｟flavorful｠, or so they say."
+   },
+   {
+    "text": "flavorful, textured, meaty",
+    "translation": "味 歯ごたえ 肉質 文句なし",
+    "cloze": "｟flavorful｠, textured, meaty"
+   }
+  ],
+  "frequencyRank": 25707,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-x5a0b73c3",
+  "courseId": "en-10-30k",
+  "headword": "freemasons",
+  "reading": null,
+  "gloss": "フリーメイソン(友愛結社の会員)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "the freemasons?",
+    "translation": "フリーメイソンか",
+    "cloze": "the ｟freemasons｠?"
+   },
+   {
+    "text": "it's a secret society far older than the freemasons or zionists.",
+    "translation": "ずっと古い秘密結社よ。",
+    "cloze": "it's a secret society far older than the ｟freemasons｠ or zionists."
+   }
+  ],
+  "frequencyRank": 25708,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8d97c43c",
+  "courseId": "en-10-30k",
+  "headword": "ftl",
+  "reading": null,
+  "gloss": "光速を超える(faster-than-light)ことを表す略語。SF作品で超光速航行を指す",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we had trouble with our ftl drive.",
+    "translation": "fltドライブに問題が発生",
+    "cloze": "we had trouble with our ｟ftl｠ drive."
+   },
+   {
+    "text": "pilot says he's had to reboot the ftl computer again.",
+    "translation": "パイロットがFLT制御コンピューターを リモーブしなければと言っています",
+    "cloze": "pilot says he's had to reboot the ｟ftl｠ computer again."
+   }
+  ],
+  "frequencyRank": 25709,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x25201ea8",
+  "courseId": "en-10-30k",
+  "headword": "farsi",
+  "reading": "/fˈɑɹsi/",
+  "gloss": "ペルシア語(イランの公用語)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i believe this is a farsi word for immortal.",
+    "translation": "これは確かペルシア語で「不死」の意味です",
+    "cloze": "i believe this is a ｟＿｠ word for immortal."
+   },
+   {
+    "text": "i also speak farsi.",
+    "translation": "ペルシャ語も話せますしね",
+    "cloze": "i also speak ｟＿｠."
+   }
+  ],
+  "frequencyRank": 26056,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xfc7ddbc3",
+  "courseId": "en-10-30k",
+  "headword": "fib",
+  "reading": "/fˈɪb/",
+  "gloss": "(罪のない)ちょっとしたうそ、うそをつく",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "in the last 24 hours think back have told a little fib",
+    "translation": "皆さんの中で24時間以内に小さい嘘",
+    "cloze": "in the last 24 hours think back have told a little ｟＿｠"
+   },
+   {
+    "text": "i'm not john, i can tell when you're fibbing.",
+    "translation": "ジョンじゃない 嘘はわかる",
+    "cloze": "i'm not john, i can tell when you're ｟＿｠."
+   }
+  ],
+  "frequencyRank": 26059,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xdf28af53",
+  "courseId": "en-10-30k",
+  "headword": "fraudsters",
+  "reading": "/fɹˈɔdstɚz/",
+  "gloss": "詐欺師",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "fraudsters, catching the cleverest is the difference",
+    "translation": "最もずる賢い詐欺師を 捕まえられるかどうかが",
+    "cloze": "｟＿｠, catching the cleverest is the difference"
+   },
+   {
+    "text": "The police arrested a group of fraudsters who targeted elderly people.",
+    "translation": "警察は高齢者を狙った詐欺師グループを逮捕した。",
+    "cloze": "The police arrested a group of ｟＿｠ who targeted elderly people.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26068,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd76533a1",
+  "courseId": "en-10-30k",
+  "headword": "fallujah",
+  "reading": null,
+  "gloss": "ファルージャ(イラク中部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "we're a long way from fallujah.",
+    "translation": "ファルージャは遠い彼方だ",
+    "cloze": "we're a long way from ｟fallujah｠."
+   },
+   {
+    "text": "Fallujah is a city in central Iraq.",
+    "translation": "ファルージャはイラク中部の都市である。",
+    "cloze": "｟Fallujah｠ is a city in central Iraq.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26463,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd3d65ec9",
+  "courseId": "en-10-30k",
+  "headword": "frankfurter",
+  "reading": "/fɹˈæŋkfɚtɚ/",
+  "gloss": "フランクフルトソーセージ、フランクフルター(牛肉または牛肉・豚肉で作るソーセージ)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Americans called frankfurters \"dachshund sausages.\"",
+    "translation": "アメリカ人はフランクフルターを「ダックスフント・ソーセージ」と呼んだ。",
+    "cloze": "Americans called ｟frankfurters｠ \"dachshund sausages.\""
+   },
+   {
+    "text": "Frankfurters were first sold in the United States in the 1860s.",
+    "translation": "フランクフルターは１８６０年代に初めてアメリカで販売された。",
+    "cloze": "｟Frankfurters｠ were first sold in the United States in the 1860s."
+   }
+  ],
+  "frequencyRank": 26476,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xfbc807a3",
+  "courseId": "en-10-30k",
+  "headword": "fulani",
+  "reading": "/fˌulˈɑni/",
+  "gloss": "フラニ族(西アフリカの遊牧民族)、フラニ語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Fulani are traditionally nomadic cattle herders in West Africa.",
+    "translation": "フラニ族は伝統的に西アフリカの遊牧牛飼いである。",
+    "cloze": "The ｟Fulani｠ are traditionally nomadic cattle herders in West Africa.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She speaks Fulani as her native language.",
+    "translation": "彼女はフラニ語を母語として話す。",
+    "cloze": "She speaks ｟Fulani｠ as her native language.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26479,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xa6f2b428",
+  "courseId": "en-10-30k",
+  "headword": "fanboys",
+  "reading": null,
+  "gloss": "熱狂的なファン、オタク(男性のマニアックなファンを指す俗語)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The comic-con was packed with fanboys in costume.",
+    "translation": "コミコンはコスプレをしたファンで溢れていた。",
+    "cloze": "The comic-con was packed with ｟＿｠ in costume.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26884,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xc7838a4d",
+  "courseId": "en-10-30k",
+  "headword": "fibroblasts",
+  "reading": null,
+  "gloss": "線維芽細胞(結合組織を作る細胞)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Fibroblasts help repair damaged skin tissue.",
+    "translation": "線維芽細胞は損傷した皮膚組織の修復を助ける。",
+    "cloze": "｟＿｠ help repair damaged skin tissue.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26887,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xa40a0bc2",
+  "courseId": "en-10-30k",
+  "headword": "flagpole",
+  "reading": "/flˈæɡpˌoʊl/",
+  "gloss": "旗ざお",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "she chained herself to a flagpole at a nuclear test site.",
+    "translation": "彼女は核実験場の旗に自分を縛り付けたのよ",
+    "cloze": "she chained herself to a ｟＿｠ at a nuclear test site."
+   },
+   {
+    "text": "They raised the flag to the top of the flagpole.",
+    "translation": "彼らは旗を旗ざおの先まで掲げた。",
+    "cloze": "They raised the flag to the top of the ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26892,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd18f3d74",
+  "courseId": "en-10-30k",
+  "headword": "fibromyalgia",
+  "reading": null,
+  "gloss": "線維筋痛症(全身に慢性的な痛みが生じる病気)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "you can see fibromyalgia, hiv, als, depression.",
+    "translation": "線維筋痛 HIV ALS うつ病が見えますね",
+    "cloze": "you can see ｟＿｠, hiv, als, depression."
+   },
+   {
+    "text": "She was diagnosed with fibromyalgia after years of chronic pain.",
+    "translation": "彼女は長年の慢性的な痛みの末、線維筋痛症と診断された。",
+    "cloze": "She was diagnosed with ｟＿｠ after years of chronic pain.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27295,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xddc03c53",
+  "courseId": "en-10-30k",
+  "headword": "fiftieth",
+  "reading": "/fˈɪftiɪθ/",
+  "gloss": "第50の、50番目の／50分の1の",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "Shortly before her fiftieth birthday, she received the news about the birth of her grandchild.",
+    "translation": "50歳の誕生日を迎える少し前に、彼女は孫が生まれたという知らせを聞いた。",
+    "cloze": "Shortly before her ｟＿｠ birthday, she received the news about the birth of her grandchild."
+   },
+   {
+    "text": "The company celebrated its fiftieth anniversary this year.",
+    "translation": "その会社は今年、創立50周年を祝った。",
+    "cloze": "The company celebrated its ｟＿｠ anniversary this year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27296,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-x16de6a24",
+  "courseId": "en-10-30k",
+  "headword": "fucken",
+  "reading": null,
+  "gloss": "(くだけた発音表記)ものすごく、くそ～(fuckingのくだけた変化形、強調語)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "drive the fucken car faster.",
+    "translation": "もっと速く運転しろ",
+    "cloze": "drive the ｟＿｠ car faster."
+   },
+   {
+    "text": "Get that fucken dog off my lawn!",
+    "translation": "そのクソ犬を俺の芝生から追い出せ!",
+    "cloze": "Get that ｟＿｠ dog off my lawn!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27305,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb3b3a5da",
+  "courseId": "en-10-30k",
+  "headword": "favs",
+  "reading": null,
+  "gloss": "(略式)お気に入り(favoritesの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "These songs are among my favs on this album.",
+    "translation": "この曲たちはこのアルバムの中でお気に入りだ。",
+    "cloze": "These songs are among my ｟＿｠ on this album.",
+    "aiGenerated": true
+   },
+   {
+    "text": "I added the article to my favs for later reading.",
+    "translation": "後で読むためにその記事をお気に入りに追加した。",
+    "cloze": "I added the article to my ｟＿｠ for later reading.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27729,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc526f270",
+  "courseId": "en-10-30k",
+  "headword": "fie",
+  "reading": "/fˈi/",
+  "gloss": "(軽蔑・非難を表す間投詞)ちぇっ、ええい、まあ",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "fie upon the wicked who dare to throw sand in our eyes.",
+    "translation": "我らの目に砂を投げ込む様な 不届き者に",
+    "cloze": "｟＿｠ upon the wicked who dare to throw sand in our eyes."
+   },
+   {
+    "text": "Fie on such cowardice!",
+    "translation": "何と卑怯な!",
+    "cloze": "｟＿｠ on such cowardice!",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27732,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-x7f181a9c",
+  "courseId": "en-10-30k",
+  "headword": "faceoff",
+  "reading": null,
+  "gloss": "対決,衝突;(アイスホッケーの)フェイスオフ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and i kind of want to do this scientist faceoff.",
+    "translation": "でね 科学者対決 やりたいんだって。",
+    "cloze": "and i kind of want to do this scientist ｟＿｠."
+   },
+   {
+    "text": "The game began with a faceoff at center ice.",
+    "translation": "試合はセンターアイスでのフェイスオフで始まった。",
+    "cloze": "The game began with a ｟＿｠ at center ice.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28116,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x4bbbf3db",
+  "courseId": "en-10-30k",
+  "headword": "fatherless",
+  "reading": "/fˈɑðɚləs/",
+  "gloss": "父のない,父親不在の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "this child is fatherless.",
+    "translation": "《この子には 父親がいません》➡",
+    "cloze": "this child is ｟＿｠."
+   },
+   {
+    "text": "no. my wife would be a widow, and my son fatherless.",
+    "translation": "いや 妻は未亡人に 息子は父を失う",
+    "cloze": "no. my wife would be a widow, and my son ｟＿｠."
+   }
+  ],
+  "frequencyRank": 28119,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3a3903b6",
+  "courseId": "en-10-30k",
+  "headword": "fittingly",
+  "reading": "/fˈɪtɪŋli/",
+  "gloss": "ふさわしく,ぴったりと",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "one of them actually, fittingly enough",
+    "translation": "そのうちの1つはそれにふさわしく",
+    "cloze": "one of them actually, ｟＿｠ enough"
+   },
+   {
+    "text": "and as he said, i think fittingly",
+    "translation": "神様はよくやった と言ってくれていると表現した彼の言葉はぴったりだと思いました",
+    "cloze": "and as he said, i think ｟＿｠"
+   }
+  ],
+  "frequencyRank": 28123,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x34e84133",
+  "courseId": "en-10-30k",
+  "headword": "fairytales",
+  "reading": "/fˈɛɹitˌeɪlz/",
+  "gloss": "おとぎ話、童話",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Fairytales often have a happy ending.",
+    "translation": "おとぎ話はしばしばハッピーエンドを迎える。",
+    "cloze": "｟＿｠ often have a happy ending.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28540,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xcabac925",
+  "courseId": "en-10-30k",
+  "headword": "fatherly",
+  "reading": "/fˈɑðɚli/",
+  "gloss": "父親らしい、父親のように優しい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "you mean like fatherly advice?",
+    "translation": "父さんの助言に従う",
+    "cloze": "you mean like ｟＿｠ advice?"
+   },
+   {
+    "text": "oh, i am so moved by your newfound sense of fatherly duty towards the werewolf carrying your hybrid bun in her oven.",
+    "translation": "あ〜とても感動したわ 父としての性が 芽生えたのね 焼いてくれる狼さんに",
+    "cloze": "oh, i am so moved by your newfound sense of ｟＿｠ duty towards the werewolf carrying your hybrid bun in her oven."
+   }
+  ],
+  "frequencyRank": 28541,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x2d819a2d",
+  "courseId": "en-10-30k",
+  "headword": "faultless",
+  "reading": null,
+  "gloss": "欠点のない、申し分のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Is she faultless herself?",
+    "translation": "自分には欠点がないというのだろうか。",
+    "cloze": "Is she ｟＿｠ herself?"
+   },
+   {
+    "text": "A faultless plan is stifling, isn't it?",
+    "translation": "非の打ち所がない計画は、窮屈だなあ。",
+    "cloze": "A ｟＿｠ plan is stifling, isn't it?"
+   }
+  ],
+  "frequencyRank": 28542,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x977be065",
+  "courseId": "en-10-30k",
+  "headword": "filesystem",
+  "reading": null,
+  "gloss": "ファイルシステム(コンピュータでファイルを管理・保存する仕組み)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The new filesystem improves file access speed.",
+    "translation": "新しいファイルシステムはファイルアクセス速度を向上させる。",
+    "cloze": "The new ｟＿｠ improves file access speed.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28958,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xc8ea76a0",
+  "courseId": "en-10-30k",
+  "headword": "fistful",
+  "reading": "/fˈɪstfəl/",
+  "gloss": "一握り、ひとつかみ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "scoop a fistful of moist earth",
+    "translation": "湿り気を帯びた一握りの土を取り",
+    "cloze": "scoop a ｟＿｠ of moist earth"
+   },
+   {
+    "text": "better you tell me before i get a fistful of evidence.",
+    "translation": "儂らが証拠を掴む前に話した方がいい",
+    "cloze": "better you tell me before i get a ｟＿｠ of evidence."
+   }
+  ],
+  "frequencyRank": 29395,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xd1bdb65f",
+  "courseId": "en-10-30k",
+  "headword": "forgetfulness",
+  "reading": null,
+  "gloss": "物忘れ、忘れっぽさ、忘却",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "forgetfulness.",
+    "translation": "『忘却』",
+    "cloze": "｟＿｠."
+   },
+   {
+    "text": "the next poem is called forgetfulness",
+    "translation": "次の詩は『忘却』という作品で",
+    "cloze": "the next poem is called ｟＿｠"
+   }
+  ],
+  "frequencyRank": 29399,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x58193585",
+  "courseId": "en-10-30k",
+  "headword": "fujian",
+  "reading": "/fˌudʒˈiən/",
+  "gloss": "福建省(中国南東部の省)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i fell in love with lapsang souchong when i lived in fujian.",
+    "translation": "福建に住んでたとき",
+    "cloze": "i fell in love with lapsang souchong when i lived in ｟＿｠."
+   },
+   {
+    "text": "She grew up in Fujian province, on the coast of southeastern China.",
+    "translation": "彼女は中国南東部沿岸にある福建省で育った。",
+    "cloze": "She grew up in ｟＿｠ province, on the coast of southeastern China.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29401,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8975265d",
+  "courseId": "en-10-30k",
+  "headword": "floodwaters",
+  "reading": "/flˈʌdwˌɔtɚz/",
+  "gloss": "洪水の水、氾濫水",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "it was carried there by floodwaters up to the roof",
+    "translation": "屋根の高さまで氾濫した 水が運んできたものです",
+    "cloze": "it was carried there by ｟＿｠ up to the roof"
+   },
+   {
+    "text": "The floodwaters rose quickly after days of heavy rain.",
+    "translation": "数日間の大雨の後、洪水の水は急速に増えた。",
+    "cloze": "The ｟＿｠ rose quickly after days of heavy rain.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29769,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x6efcb9d4",
+  "courseId": "en-10-30k",
+  "headword": "fortaleza",
+  "reading": null,
+  "gloss": "フォルタレザ(ブラジル北東部の都市;セアラ州の州都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Fortaleza is a major city on the northeastern coast of Brazil.",
+    "translation": "フォルタレザはブラジル北東部沿岸の主要都市である。",
+    "cloze": "｟＿｠ is a major city on the northeastern coast of Brazil.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29772,
+  "category": "places"
+ }
+]

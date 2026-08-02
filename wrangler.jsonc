@@ -38,6 +38,14 @@
     }
   ],
 
+  // 検索して見つからない語をAI生成する（docs/word-request-design.md §9・worker/wordgen.ts）。
+  // Workers AI は無料プランでも1日10,000ニューロンまで無料。ローカル検証でもローカル
+  // シミュレーションが存在せず実アカウントに到達する（公式Doc "Workers AI local development
+  // usage charges"）——`wrangler dev` で試すだけでも実際に無料枠を消費する点に注意。
+  "ai": {
+    "binding": "AI"
+  },
+
   // 本番エラーを後から追えるようにする（console.error が Workers Logs に残る）
   "observability": { "enabled": true }
 

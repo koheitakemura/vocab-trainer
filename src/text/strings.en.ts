@@ -41,6 +41,7 @@ export const en: UIStrings = {
     '• Studying — fades within hours, and the word comes back for review soon',
     'So this number naturally drops between study sessions as Fuzzy and Studying words fade, then rises again each time you review.',
   ],
+  meterAddedCount: (n) => `+ ${n} of your own`,
 
   // タブ
   tabStudy: 'Study',
@@ -122,6 +123,17 @@ export const en: UIStrings = {
 
   // 文脈クローズ
   clozeBadge: 'Fill in',
+
+  // 単語検索（タブ行に常設）
+  searchPlaceholder: 'Search this course…',
+  searchAria: 'Search words in this course',
+  searchNoResults: 'No matches',
+  searchAddLabel: 'Add to this course',
+  searchGenerateLabel: 'Generate with AI',
+  searchGenerating: 'Generating…',
+  searchGenerateRateLimited: "You've reached today's limit (20 words). Try again tomorrow.",
+  searchGenerateDisabled: 'Word generation is temporarily unavailable.',
+  searchGenerateFailed: "Couldn't generate this word. Try again later.",
 
   // 単語一覧のフィルター・状態
   statusNew: 'New',

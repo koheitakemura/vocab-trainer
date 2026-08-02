@@ -1,0 +1,4901 @@
+[
+ {
+  "id": "en-10-30k-x3e555feb",
+  "courseId": "en-10-30k",
+  "headword": "internet",
+  "reading": "/ˈɪntɚnˌɛt/",
+  "gloss": "インターネット",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He is into the Internet.",
+    "translation": "彼、インターネットにはまってるよね。",
+    "cloze": "He is into the ｟＿｠."
+   },
+   {
+    "text": "Welcome to the Internet!",
+    "translation": "インターネットへようこそ！",
+    "cloze": "Welcome to the ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 41,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x3f52d0e4",
+  "courseId": "en-10-30k",
+  "headword": "india",
+  "reading": "/ˈɪndiə/",
+  "gloss": "インド",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "India is populous.",
+    "translation": "インドは人口が多い。",
+    "cloze": "｟＿｠ is populous."
+   },
+   {
+    "text": "I have been to India.",
+    "translation": "私はインドに行ったことがある。",
+    "cloze": "I have been to ｟＿｠."
+   }
+  ],
+  "frequencyRank": 45,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9d9c1dbe",
+  "courseId": "en-10-30k",
+  "headword": "indian",
+  "reading": "/ˈɪndiən/",
+  "gloss": "インドの、インド人の;アメリカ先住民の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This lady is Indian.",
+    "translation": "この女性はインド人です。",
+    "cloze": "This lady is ｟＿｠."
+   },
+   {
+    "text": "He likes Indian food.",
+    "translation": "彼はインド料理が好きです。",
+    "cloze": "He likes ｟＿｠ food."
+   }
+  ],
+  "frequencyRank": 68,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x74ef4405",
+  "courseId": "en-10-30k",
+  "headword": "inc",
+  "reading": "/ˈɪŋk/",
+  "gloss": "…株式会社、法人(Incorporatedの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "SCOTT Inc.'s stocks are blue chip stocks.",
+    "translation": "SCOTT株式会社の株は優良株です。",
+    "cloze": "SCOTT ｟＿｠.'s stocks are blue chip stocks."
+   },
+   {
+    "text": "If you do not pass the N1, you cannot take the entrance test to Sakura Inc.",
+    "translation": "N1に合格しなければ、さくら株式会社の入社試験は受けられません。",
+    "cloze": "If you do not pass the N1, you cannot take the entrance test to Sakura ｟＿｠."
+   }
+  ],
+  "frequencyRank": 115,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xb9db89d1",
+  "courseId": "en-10-30k",
+  "headword": "israel",
+  "reading": "/ˈɪzɹiəl/",
+  "gloss": "イスラエル",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I'm from Israel.",
+    "translation": "イスラエルから来ました。",
+    "cloze": "I'm from ｟＿｠."
+   },
+   {
+    "text": "Will Israel attack Iran?",
+    "translation": "イスラエルはイランを攻撃するか。",
+    "cloze": "Will ｟＿｠ attack Iran?"
+   }
+  ],
+  "frequencyRank": 116,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x108aa4bb",
+  "courseId": "en-10-30k",
+  "headword": "ireland",
+  "reading": "/ˈaɪɚlənd/",
+  "gloss": "アイルランド(首都ダブリン)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Dublin is in Ireland.",
+    "translation": "ダブリンはアイルランドにあります。",
+    "cloze": "Dublin is in ｟Ireland｠."
+   },
+   {
+    "text": "Ireland is famous for lace.",
+    "translation": "アイルランドは刺繍で有名である。",
+    "cloze": "｟Ireland｠ is famous for lace."
+   }
+  ],
+  "frequencyRank": 157,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd629af54",
+  "courseId": "en-10-30k",
+  "headword": "italian",
+  "reading": "/ˌɪtˈæljən/",
+  "gloss": "イタリア人;イタリア語;イタリアの",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I'm Italian.",
+    "translation": "私はイタリア人です。",
+    "cloze": "I'm ｟Italian｠."
+   },
+   {
+    "text": "He is an Italian.",
+    "translation": "彼はイタリア人だ。",
+    "cloze": "He is an ｟Italian｠."
+   }
+  ],
+  "frequencyRank": 158,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x4597337a",
+  "courseId": "en-10-30k",
+  "headword": "italy",
+  "reading": "/ˈɪtəli/",
+  "gloss": "イタリア(首都ローマ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "This is Italy.",
+    "translation": "これがイタリアだよ。",
+    "cloze": "This is ｟Italy｠."
+   },
+   {
+    "text": "Rome is in Italy.",
+    "translation": "ローマはイタリアにある。",
+    "cloze": "Rome is in ｟Italy｠."
+   }
+  ],
+  "frequencyRank": 159,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x40fea555",
+  "courseId": "en-10-30k",
+  "headword": "iii",
+  "reading": null,
+  "gloss": "3世(人名・称号の後に付ける序数);ローマ数字の3",
+  "pos": "数詞",
+  "examples": [
+   {
+    "text": "George III has been unfairly maligned by historians.",
+    "translation": "ジョージ３世は歴史家によって不当に悪し様に言われてきた。",
+    "cloze": "George ｟III｠ has been unfairly maligned by historians."
+   },
+   {
+    "text": "Should World War III come about, there would be no winners at all.",
+    "translation": "万一第三次世界大戦が起こるようなことがあれば、勝者はあり得ないだろう。",
+    "cloze": "Should World War ｟III｠ come about, there would be no winners at all."
+   }
+  ],
+  "frequencyRank": 172,
+  "category": "numbers"
+ },
+ {
+  "id": "en-10-30k-xce884835",
+  "courseId": "en-10-30k",
+  "headword": "iran",
+  "reading": "/ˌɪɹˈɑn/",
+  "gloss": "イラン(旧称ペルシャ;首都テヘラン)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I came from Iran.",
+    "translation": "イランから来ました。",
+    "cloze": "I came from ｟Iran｠."
+   },
+   {
+    "text": "Will Israel attack Iran?",
+    "translation": "イスラエルはイランを攻撃するか。",
+    "cloze": "Will Israel attack ｟Iran｠?"
+   }
+  ],
+  "frequencyRank": 178,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xa7a370cf",
+  "courseId": "en-10-30k",
+  "headword": "info",
+  "reading": "/ˈɪnfoʊ/",
+  "gloss": "情報(informationの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Thanks for the info.",
+    "translation": "教えていただいてありがとう。",
+    "cloze": "Thanks for the ｟info｠."
+   },
+   {
+    "text": "I'll get you the info you need by next week.",
+    "translation": "来週中にあなたが必要な情報を送ります。",
+    "cloze": "I'll get you the ｟info｠ you need by next week."
+   }
+  ],
+  "frequencyRank": 187,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x18a7769e",
+  "courseId": "en-10-30k",
+  "headword": "irish",
+  "reading": "/ˈaɪɹɪʃ/",
+  "gloss": "アイルランドの、アイルランド人の；アイルランド語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I like Irish music.",
+    "translation": "私はアイルランドの音楽が大好きです。",
+    "cloze": "I like ｟＿｠ music."
+   },
+   {
+    "text": "It's an old Irish custom.",
+    "translation": "それは、アイルランドの古くからのしきたりです。",
+    "cloze": "It's an old ｟＿｠ custom."
+   }
+  ],
+  "frequencyRank": 228,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb18c4ec6",
+  "courseId": "en-10-30k",
+  "headword": "illinois",
+  "reading": "/ˌɪlənˈɔɪ/",
+  "gloss": "イリノイ州(米国中部の州、州都はスプリングフィールド)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Monopoly sure takes me back. I remember Illinois Avenue. It's red, isn't it?",
+    "translation": "モノポリーか懐かしいな。イリノイ通りってのがあったのを覚えてるわ。確か赤かったよね？",
+    "cloze": "Monopoly sure takes me back. I remember ｟Illinois｠ Avenue. It's red, isn't it?"
+   },
+   {
+    "text": "she wound up working in illinois for a time",
+    "translation": "不本意ながら しばらくイリノイで働いた後",
+    "cloze": "she wound up working in ｟illinois｠ for a time"
+   }
+  ],
+  "frequencyRank": 324,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0f2ab240",
+  "courseId": "en-10-30k",
+  "headword": "islamic",
+  "reading": "/ˌɪzlˈɑmɪk/",
+  "gloss": "イスラム教の,イスラム教徒の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The Koran is Islamic scripture.",
+    "translation": "コーランはイスラム教徒の聖典です。",
+    "cloze": "The Koran is ｟Islamic｠ scripture."
+   },
+   {
+    "text": "called the islamic league for world peace.",
+    "translation": "平和イスラム同盟という",
+    "cloze": "called the ｟islamic｠ league for world peace."
+   }
+  ],
+  "frequencyRank": 325,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xa3d274a8",
+  "courseId": "en-10-30k",
+  "headword": "iphone",
+  "reading": "/ˈaɪfˌoʊn/",
+  "gloss": "iPhone(Apple社のスマートフォン)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Tom has an iPhone.",
+    "translation": "トムはiPhoneを持っています。",
+    "cloze": "Tom has an ｟iPhone｠."
+   },
+   {
+    "text": "Does anyone have an iPhone charger?",
+    "translation": "誰かiPhoneの充電器持ってませんか？",
+    "cloze": "Does anyone have an ｟iPhone｠ charger?"
+   }
+  ],
+  "frequencyRank": 340,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xb8c92131",
+  "courseId": "en-10-30k",
+  "headword": "iraq",
+  "reading": "/ˌɪɹˈɑk/",
+  "gloss": "イラク(アジア南西部の共和国、首都バグダッド)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Self Defense Forces were sent to Iraq.",
+    "translation": "自衛隊がイラクに派遣されたわ。",
+    "cloze": "The Self Defense Forces were sent to ｟Iraq｠."
+   },
+   {
+    "text": "Tom doesn't know the difference between Iraq and Iran.",
+    "translation": "トムはイラクとイランの違いがわからない。",
+    "cloze": "Tom doesn't know the difference between ｟Iraq｠ and Iran."
+   }
+  ],
+  "frequencyRank": 341,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1e8fb927",
+  "courseId": "en-10-30k",
+  "headword": "islam",
+  "reading": "/ˌɪslˈɑm/",
+  "gloss": "イスラム教;(集合的に)イスラム教徒",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I have a question about Islam.",
+    "translation": "イスラム教について、質問があるんだけど。",
+    "cloze": "I have a question about ｟Islam｠."
+   },
+   {
+    "text": "Fadil converted to Islam in 1977.",
+    "translation": "1977年には、ファディルさんがイスラム教へ改宗しました。",
+    "cloze": "Fadil converted to ｟Islam｠ in 1977."
+   }
+  ],
+  "frequencyRank": 354,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9b549eb2",
+  "courseId": "en-10-30k",
+  "headword": "inspiration",
+  "reading": "/ˌɪnspɚˈeɪʃən/",
+  "gloss": "霊感,インスピレーション;すばらしい考え",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I lost my inspiration.",
+    "translation": "私はひらめきを失った。",
+    "cloze": "I lost my ｟inspiration｠."
+   },
+   {
+    "text": "Where do you get your inspiration from?",
+    "translation": "その発想力はどこから来てるの？",
+    "cloze": "Where do you get your ｟inspiration｠ from?"
+   }
+  ],
+  "frequencyRank": 375,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x4d61ead2",
+  "courseId": "en-10-30k",
+  "headword": "insane",
+  "reading": "/ˌɪnsˈeɪn/",
+  "gloss": "狂気の,正気でない;《話》ばかげた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Are you insane?",
+    "translation": "お前正気か？",
+    "cloze": "Are you ｟＿｠?"
+   },
+   {
+    "text": "You're all insane.",
+    "translation": "お前ら狂ってる。",
+    "cloze": "You're all ｟＿｠."
+   }
+  ],
+  "frequencyRank": 395,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x1bfeb5e7",
+  "courseId": "en-10-30k",
+  "headword": "israeli",
+  "reading": "/ˌɪzɹˈeɪli/",
+  "gloss": "イスラエルの;イスラエル人",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The symbol used for the Israeli Shekel is \"₪\".",
+    "translation": "イスラエルシュケルを表す記号は「₪」です。",
+    "cloze": "The symbol used for the ｟＿｠ Shekel is \"₪\"."
+   },
+   {
+    "text": "can you do it? it's israeli made.",
+    "translation": "できるか?",
+    "cloze": "can you do it? it's ｟＿｠ made."
+   }
+  ],
+  "frequencyRank": 396,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x16d93939",
+  "courseId": "en-10-30k",
+  "headword": "idiot",
+  "reading": "/ˈɪdˌiət/",
+  "gloss": "ばか,あほ,愚か者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Idiot!",
+    "translation": "バカ！",
+    "cloze": "｟＿｠!"
+   },
+   {
+    "text": "You idiot!",
+    "translation": "このおたんこなす！",
+    "cloze": "You ｟＿｠!"
+   }
+  ],
+  "frequencyRank": 414,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6ea21710",
+  "courseId": "en-10-30k",
+  "headword": "instant",
+  "reading": "/ˈɪnstənt/",
+  "gloss": "一瞬の間、瞬間；即時の、即席の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "It changed in an instant.",
+    "translation": "それは、一瞬で変わりました。",
+    "cloze": "It changed in an ｟＿｠."
+   },
+   {
+    "text": "He disappeared in an instant.",
+    "translation": "あっという間に逃げてしまった。",
+    "cloze": "He disappeared in an ｟＿｠."
+   }
+  ],
+  "frequencyRank": 503,
+  "category": "time"
+ },
+ {
+  "id": "en-10-30k-x23d92cdc",
+  "courseId": "en-10-30k",
+  "headword": "iowa",
+  "reading": "/ˈaɪəwə/",
+  "gloss": "アイオワ州(米国中西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The climate of Florida in the wintertime is milder than that of Iowa.",
+    "translation": "冬季のフロリダの気候はアイオワより穏和だ。",
+    "cloze": "The climate of Florida in the wintertime is milder than that of ｟＿｠."
+   },
+   {
+    "text": "In November 1997, in the US state of Iowa, the first living septuplets were born.",
+    "translation": "１９９７年１１月、アメリカのアイオワ州で初の７つ子が誕生した。",
+    "cloze": "In November 1997, in the US state of ｟＿｠, the first living septuplets were born."
+   }
+  ],
+  "frequencyRank": 522,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x453a2b69",
+  "courseId": "en-10-30k",
+  "headword": "indiana",
+  "reading": "/ˌɪndiˈænə/",
+  "gloss": "インディアナ州(米国中西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "i was raised on a farm in mooresville, indiana.",
+    "translation": "インディアナ州モーズビル の農場で生まれた",
+    "cloze": "i was raised on a farm in mooresville, ｟＿｠."
+   },
+   {
+    "text": "Indianapolis is the capital of Indiana.",
+    "translation": "インディアナポリスはインディアナ州の州都です。",
+    "cloze": "Indianapolis is the capital of ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 561,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x28dbc7d2",
+  "courseId": "en-10-30k",
+  "headword": "intelligent",
+  "reading": "/ˌɪntˈɛlədʒənt/",
+  "gloss": "知能の高い、理解力のある、賢い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He's intelligent.",
+    "translation": "彼は頭がいい。",
+    "cloze": "He's ｟＿｠."
+   },
+   {
+    "text": "Tom is intelligent.",
+    "translation": "トムは頭がいい。",
+    "cloze": "Tom is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 610,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3e0369b1",
+  "courseId": "en-10-30k",
+  "headword": "intent",
+  "reading": "/ˌɪntˈɛnt/",
+  "gloss": "意図、目的",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I have no real intent.",
+    "translation": "何も意思がない。",
+    "cloze": "I have no real ｟＿｠."
+   },
+   {
+    "text": "That wasn't my intent.",
+    "translation": "そんなつもりではなかったんだ。",
+    "cloze": "That wasn't my ｟＿｠."
+   }
+  ],
+  "frequencyRank": 631,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xdd10ba37",
+  "courseId": "en-10-30k",
+  "headword": "isis",
+  "reading": "/ˈaɪsəs/",
+  "gloss": "イシス（古代エジプトの女神。豊穣・母性を司る）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Isis was worshipped as a powerful goddess in ancient Egypt.",
+    "translation": "イシスは古代エジプトで強大な女神として崇拝された。",
+    "cloze": "｟＿｠ was worshipped as a powerful goddess in ancient Egypt.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The temple was dedicated to the goddess Isis.",
+    "translation": "その神殿は女神イシスに捧げられていた。",
+    "cloze": "The temple was dedicated to the goddess ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 660,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x8321ba6b",
+  "courseId": "en-10-30k",
+  "headword": "indians",
+  "reading": "/ˈɪndiənz/",
+  "gloss": "インド人(たち)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Indians enjoy playing cricket.",
+    "translation": "多くのインド人はクリケットを楽しむ。",
+    "cloze": "Many ｟＿｠ enjoy playing cricket.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Indians celebrate Diwali, the festival of lights.",
+    "translation": "インドの人々は光の祭りディワリを祝う。",
+    "cloze": "｟＿｠ celebrate Diwali, the festival of lights.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 701,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xe8b6123b",
+  "courseId": "en-10-30k",
+  "headword": "indonesia",
+  "reading": "/ˌɪndoʊnˈiʒə/",
+  "gloss": "インドネシア(東南アジアの共和国、首都ジャカルタ)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I live in Indonesia.",
+    "translation": "私はインドネシアに住んでいます。",
+    "cloze": "I live in ｟＿｠."
+   },
+   {
+    "text": "Indonesia frequently experiences earthquakes.",
+    "translation": "インドネシアは何度も地震を経験しています。",
+    "cloze": "｟＿｠ frequently experiences earthquakes."
+   }
+  ],
+  "frequencyRank": 702,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf8feb72a",
+  "courseId": "en-10-30k",
+  "headword": "instantly",
+  "reading": "/ˈɪnstəntli/",
+  "gloss": "ただちに、即座に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He instantly denied it.",
+    "translation": "彼は、すぐにそれを否定した。",
+    "cloze": "He ｟＿｠ denied it."
+   },
+   {
+    "text": "Tom responded instantly.",
+    "translation": "トムは間髪を入れず、返答した。",
+    "cloze": "Tom responded ｟＿｠."
+   }
+  ],
+  "frequencyRank": 773,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x44dc8d4c",
+  "courseId": "en-10-30k",
+  "headword": "idk",
+  "reading": null,
+  "gloss": "さあね、わからない(I don't knowの略。ネットスラング)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "IDK what time the meeting starts.",
+    "translation": "会議が何時に始まるか分からない。",
+    "cloze": "｟IDK｠ what time the meeting starts.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 976,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xdaf4c3a7",
+  "courseId": "en-10-30k",
+  "headword": "icon",
+  "reading": "/ˈaɪkɑn/",
+  "gloss": "像,肖像(聖画像);(コンピュータの)アイコン",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This icon is definitely better than the skeleton one. I'm sure of it.",
+    "translation": "骸骨のアイコンより、こっちのアイコンの方が絶対いいって。私が保証する。",
+    "cloze": "This ｟icon｠ is definitely better than the skeleton one. I'm sure of it."
+   },
+   {
+    "text": "It's troublesome that Internet Explorer's stop icon looks like a shiitake mushroom.",
+    "translation": "Internet Explorerの中止ボタンがしいたけに見えて困る。",
+    "cloze": "It's troublesome that Internet Explorer's stop ｟icon｠ looks like a shiitake mushroom."
+   }
+  ],
+  "frequencyRank": 1011,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xdf3fab04",
+  "courseId": "en-10-30k",
+  "headword": "iranian",
+  "reading": "/ˌɪɹˈɑniən/",
+  "gloss": "イランの;イラン人;イラン語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "reached out to the iranians to see",
+    "translation": "イランに歩み寄り",
+    "cloze": "reached out to the ｟iranians｠ to see"
+   },
+   {
+    "text": "say i'm an iranian official whose job it is to fund terrorist operations in the western hemisphere.",
+    "translation": "私がイランの官僚だとしよう 役割はテロ活動資金の調達 西側を狙うんだ",
+    "cloze": "say i'm an ｟iranian｠ official whose job it is to fund terrorist operations in the western hemisphere."
+   }
+  ],
+  "frequencyRank": 1014,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x81657a6e",
+  "courseId": "en-10-30k",
+  "headword": "ingredient",
+  "reading": "/ˌɪnɡɹˈidiənt/",
+  "gloss": "(料理の)材料、成分",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Mix the ingredients well.",
+    "translation": "材料をよく混ぜ合わせます。",
+    "cloze": "Mix the ｟＿｠ well."
+   },
+   {
+    "text": "What's the secret ingredient?",
+    "translation": "隠し味は何？",
+    "cloze": "What's the secret ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 1079,
+  "category": "food"
+ },
+ {
+  "id": "en-10-30k-xbc40492e",
+  "courseId": "en-10-30k",
+  "headword": "iconic",
+  "reading": "/ˌaɪkˈɑnɪk/",
+  "gloss": "象徴的な、代表的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The view of the Earth from the Moon is one of the iconic images of the 20th century.",
+    "translation": "月から見た地球、それは二十世紀の象徴的な「絵」の一つである。",
+    "cloze": "The view of the Earth from the Moon is one of the ｟＿｠ images of the 20th century."
+   },
+   {
+    "text": "This song has become an iconic anthem for the movement.",
+    "translation": "この曲はその運動の象徴的な賛歌となった。",
+    "cloze": "This song has become an ｟＿｠ anthem for the movement.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1117,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc8c86bbd",
+  "courseId": "en-10-30k",
+  "headword": "indoor",
+  "reading": "/ˈɪndˌɔɹ/",
+  "gloss": "室内の、屋内の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Nancy enjoys indoor games.",
+    "translation": "ナンシーは屋内競技が好きです。",
+    "cloze": "Nancy enjoys ｟indoor｠ games."
+   },
+   {
+    "text": "I told him to stay indoors.",
+    "translation": "室内にいるように言ったんだけどな。",
+    "cloze": "I told him to stay ｟indoors｠."
+   }
+  ],
+  "frequencyRank": 1264,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x06042af9",
+  "courseId": "en-10-30k",
+  "headword": "invisible",
+  "reading": "/ˌɪnvˈɪzəbəl/",
+  "gloss": "目に見えない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Air is invisible.",
+    "translation": "空気は目に見えない。",
+    "cloze": "Air is ｟invisible｠."
+   },
+   {
+    "text": "The moon is invisible behind the clouds.",
+    "translation": "雲の陰に隠れて月は見えません。",
+    "cloze": "The moon is ｟invisible｠ behind the clouds."
+   }
+  ],
+  "frequencyRank": 1265,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2cf2f7bd",
+  "courseId": "en-10-30k",
+  "headword": "ink",
+  "reading": "/ˈɪŋk/",
+  "gloss": "インク;(イカなどの)墨",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She wrote in ink.",
+    "translation": "彼女はインクで書いた。",
+    "cloze": "She wrote in ｟＿｠."
+   },
+   {
+    "text": "Don't write in ink.",
+    "translation": "インクで書いたらダメだよ。",
+    "cloze": "Don't write in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1351,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xc936521b",
+  "courseId": "en-10-30k",
+  "headword": "inn",
+  "reading": "/ˈɪn/",
+  "gloss": "宿屋,旅館",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I took it back to the inn.",
+    "translation": "私は、それを旅館に持って帰った。",
+    "cloze": "I took it back to the ｟＿｠."
+   },
+   {
+    "text": "This inn gives good service.",
+    "translation": "この旅館は客の扱いがよい。",
+    "cloze": "This ｟＿｠ gives good service."
+   }
+  ],
+  "frequencyRank": 1352,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xaac402c7",
+  "courseId": "en-10-30k",
+  "headword": "intel",
+  "reading": "/ˌɪntˈɛl/",
+  "gloss": "(略式)情報,諜報",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i know because he keeps trying to hack into our system for intel.",
+    "translation": "我々のシステムを ハッカーしてるのよ",
+    "cloze": "i know because he keeps trying to hack into our system for ｟＿｠."
+   },
+   {
+    "text": "The spy gathered valuable intel on enemy movements.",
+    "translation": "そのスパイは敵の動きに関する貴重な情報を集めた。",
+    "cloze": "The spy gathered valuable ｟＿｠ on enemy movements.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1353,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x86f1d423",
+  "courseId": "en-10-30k",
+  "headword": "interactive",
+  "reading": "/ˌɪntɚˈæktɪv/",
+  "gloss": "双方向の,対話式の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "More and more people are rushing to make use of the interactive nature of the medium.",
+    "translation": "ますます多くの人が、その媒体の双方向的な性質を利用しようと躍起になっている。",
+    "cloze": "More and more people are rushing to make use of the ｟＿｠ nature of the medium."
+   },
+   {
+    "text": "The museum has an interactive exhibit for children.",
+    "translation": "その博物館には子供向けの体験型展示がある。",
+    "cloze": "The museum has an ｟＿｠ exhibit for children.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 1393,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x0c4a275c",
+  "courseId": "en-10-30k",
+  "headword": "intimate",
+  "reading": "/ˈɪntəmət/",
+  "gloss": "たいへん親しい,親密な;個人的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This party is an intimate gathering.",
+    "translation": "このパーティーは親しい人の集まりです。",
+    "cloze": "This party is an ｟＿｠ gathering."
+   },
+   {
+    "text": "The two boys became intimate friends at the camp.",
+    "translation": "２人の少年はキャンプで親しい友達になった。",
+    "cloze": "The two boys became ｟＿｠ friends at the camp."
+   }
+  ],
+  "frequencyRank": 1394,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x4f940066",
+  "courseId": "en-10-30k",
+  "headword": "invention",
+  "reading": "/ˌɪnvˈɛnʃən/",
+  "gloss": "発明;発明品",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Radio is a great invention.",
+    "translation": "ラジオは偉大な発明品である。",
+    "cloze": "Radio is a great ｟invention｠."
+   },
+   {
+    "text": "What a wonderful invention!",
+    "translation": "なんと素晴らしい発明だろう。",
+    "cloze": "What a wonderful ｟invention｠!"
+   }
+  ],
+  "frequencyRank": 1484,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x0e42aaf2",
+  "courseId": "en-10-30k",
+  "headword": "inning",
+  "reading": "/ˈɪnɪŋ/",
+  "gloss": "(野球・クリケットの)回、イニング",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He went 5 innings.",
+    "translation": "彼は５回を投げた。",
+    "cloze": "He went 5 ｟＿｠."
+   },
+   {
+    "text": "After the second innings, the opposing pitcher recovered too, and it turned into a pitching duel.",
+    "translation": "２回以降、相手チームの投手も立ち直って、投手戦となった。",
+    "cloze": "After the second ｟＿｠, the opposing pitcher recovered too, and it turned into a pitching duel."
+   }
+  ],
+  "frequencyRank": 1582,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x0a998691",
+  "courseId": "en-10-30k",
+  "headword": "instructor",
+  "reading": "/ˌɪnstɹˈʌktɚ/",
+  "gloss": "教師、指導者、インストラクター",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is a ski instructor.",
+    "translation": "トムはスキーのインストラクターだ。",
+    "cloze": "Tom is a ski ｟＿｠."
+   },
+   {
+    "text": "Tom is a skydiving instructor.",
+    "translation": "トムはスカイダイビングのインストラクターなんだ。",
+    "cloze": "Tom is a skydiving ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1583,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x6c4abc7d",
+  "courseId": "en-10-30k",
+  "headword": "insult",
+  "reading": "/ˌɪnsˈʌlt/",
+  "gloss": "(人・物)を侮辱する、はずかしめる／(名詞用法)侮辱",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom insulted Mary.",
+    "translation": "トムはメアリーを侮辱した。",
+    "cloze": "Tom ｟＿｠ Mary."
+   },
+   {
+    "text": "He insulted our team.",
+    "translation": "彼は我がチームを侮辱した。",
+    "cloze": "He ｟＿｠ our team."
+   }
+  ],
+  "frequencyRank": 1735,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x92b434e8",
+  "courseId": "en-10-30k",
+  "headword": "interstate",
+  "reading": "/ˌɪntɚstˈeɪt/",
+  "gloss": "(米)州間高速道路(the interstate)／2つ以上の州にまたがる、州間の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The other day I ran out of gas in the middle of a busy Interstate.",
+    "translation": "この前、混雑した幹線道路の真ん中でガス欠してしまったんです。",
+    "cloze": "The other day I ran out of gas in the middle of a busy ｟＿｠."
+   },
+   {
+    "text": "this isn't the interstate.",
+    "translation": "高速道路じゃないわ",
+    "cloze": "this isn't the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1737,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xa6e5741a",
+  "courseId": "en-10-30k",
+  "headword": "intact",
+  "reading": "/ˌɪntˈækt/",
+  "gloss": "手をつけていない、損なわれていない、無傷の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "you are to secure the vials and turn them over intact to a contact already en route.",
+    "translation": "だが - - 小瓶を確保して 完全なまま無事に運んでくれ",
+    "cloze": "you are to secure the vials and turn them over ｟＿｠ to a contact already en route."
+   },
+   {
+    "text": "i'm here to help you keep all that cosmetic work intact.",
+    "translation": "整形の仕事が失わないようにね",
+    "cloze": "i'm here to help you keep all that cosmetic work ｟＿｠."
+   }
+  ],
+  "frequencyRank": 1793,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x09296092",
+  "courseId": "en-10-30k",
+  "headword": "internationally",
+  "reading": "/ˌɪntɚnˈæʃənəli/",
+  "gloss": "国際的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Kyoto is internationally famous for its scenic beauty.",
+    "translation": "京都は景色が美しい点で国際的にも有名です。",
+    "cloze": "Kyoto is ｟＿｠ famous for its scenic beauty."
+   },
+   {
+    "text": "We are internationally competitive in production technology.",
+    "translation": "私たちは生産技術では国際的に競争力がある。",
+    "cloze": "We are ｟＿｠ competitive in production technology."
+   }
+  ],
+  "frequencyRank": 1979,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xf12c5e44",
+  "courseId": "en-10-30k",
+  "headword": "iraqi",
+  "reading": "/ˌɪɹˈæki/",
+  "gloss": "イラクの;イラク人;イラク語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "that iraqi patrol is, what, a minute away?",
+    "translation": "イラクの警備は 近くか?",
+    "cloze": "that ｟＿｠ patrol is, what, a minute away?"
+   },
+   {
+    "text": "israel feared an iraqi victory",
+    "translation": "イスラエルはイラクの勝利を恐れ",
+    "cloze": "israel feared an ｟＿｠ victory"
+   }
+  ],
+  "frequencyRank": 1980,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xfcd17f57",
+  "courseId": "en-10-30k",
+  "headword": "idol",
+  "reading": "/ˈaɪdəl/",
+  "gloss": "偶像;アイドル,崇拝される人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He was the idol of children.",
+    "translation": "彼は子供たちのアイドルだった。",
+    "cloze": "He was the ｟idol｠ of children."
+   },
+   {
+    "text": "That singer is a teenage idol.",
+    "translation": "その歌手は若者たちのアイドルだ。",
+    "cloze": "That singer is a teenage ｟idol｠."
+   }
+  ],
+  "frequencyRank": 2033,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x1ee8228d",
+  "courseId": "en-10-30k",
+  "headword": "incorrect",
+  "reading": "/ˌɪnkɚˈɛkt/",
+  "gloss": "不正確な,誤った;適切でない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This is incorrect.",
+    "translation": "これは間違っている。",
+    "cloze": "This is ｟incorrect｠."
+   },
+   {
+    "text": "This data is incorrect.",
+    "translation": "このデータは不正確である。",
+    "cloze": "This data is ｟incorrect｠."
+   }
+  ],
+  "frequencyRank": 2034,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x1a4336cd",
+  "courseId": "en-10-30k",
+  "headword": "isaac",
+  "reading": "/ˈaɪzək/",
+  "gloss": "イサク(旧約聖書の人物。アブラハムの子);アイザック(人名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Isaac was a leader of the Jewish people.",
+    "translation": "イサクはユダヤ人の指導者であった。",
+    "cloze": "｟Isaac｠ was a leader of the Jewish people."
+   },
+   {
+    "text": "Isaac Newton was born on December 25, 1642.",
+    "translation": "アイザック・ニュートンは1642年12月25日に生まれた。",
+    "cloze": "｟Isaac｠ Newton was born on December 25, 1642."
+   }
+  ],
+  "frequencyRank": 2100,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0d4a13fc",
+  "courseId": "en-10-30k",
+  "headword": "idaho",
+  "reading": "/ˈaɪdəhˌoʊ/",
+  "gloss": "アイダホ州(米国北西部の州)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "but eventually, we left l.a., and we moved to idaho",
+    "translation": "そしてロスを離れ アイダホに移動しました",
+    "cloze": "but eventually, we left l.a., and we moved to ｟＿｠"
+   },
+   {
+    "text": "the wastelands of wyoming, idaho, utah, colorado",
+    "translation": "ワイオミング アイダホ ユタ コロラドの荒れ地に",
+    "cloze": "the wastelands of wyoming, ｟＿｠, utah, colorado"
+   }
+  ],
+  "frequencyRank": 2234,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6f98a961",
+  "courseId": "en-10-30k",
+  "headword": "indonesian",
+  "reading": "/ˌɪndoʊnˈiʒən/",
+  "gloss": "インドネシアの;インドネシア人,インドネシア語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Can you speak Indonesian?",
+    "translation": "インドネシア語ができますか。",
+    "cloze": "Can you speak ｟＿｠?"
+   },
+   {
+    "text": "Do you like Indonesian food?",
+    "translation": "インドネシア料理はお好きですか？",
+    "cloze": "Do you like ｟＿｠ food?"
+   }
+  ],
+  "frequencyRank": 2384,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd00f4618",
+  "courseId": "en-10-30k",
+  "headword": "intersection",
+  "reading": "/ˌɪntɚsˈɛkʃən/",
+  "gloss": "(道路の)交差点;交差",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Turn right at the intersection.",
+    "translation": "その交差点を右に曲がってください。",
+    "cloze": "Turn right at the ｟＿｠."
+   },
+   {
+    "text": "What happened at that intersection?",
+    "translation": "あの交差点で何が起こったのか。",
+    "cloze": "What happened at that ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 2447,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xa2d10779",
+  "courseId": "en-10-30k",
+  "headword": "investigator",
+  "reading": "/ˌɪnvˈɛstəɡˌeɪtɚ/",
+  "gloss": "調査員,捜査官,研究者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Investigators uncovered an assassination plot.",
+    "translation": "捜査員らは暗殺計画を摘発しました。",
+    "cloze": "｟＿｠ uncovered an assassination plot."
+   },
+   {
+    "text": "The crime investigators are looking into the murder case.",
+    "translation": "犯罪調査官がこの殺人事件を調べている。",
+    "cloze": "The crime ｟＿｠ are looking into the murder case."
+   }
+  ],
+  "frequencyRank": 2448,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x6471df40",
+  "courseId": "en-10-30k",
+  "headword": "illegally",
+  "reading": "/ˌɪlˈiɡəli/",
+  "gloss": "違法に、不法に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "A lot of bicycles are illegally parked in front of the station.",
+    "translation": "駅前には多くの自転車が違法に止められています。",
+    "cloze": "A lot of bicycles are ｟＿｠ parked in front of the station."
+   },
+   {
+    "text": "If you continue staying here illegally, the police will catch you.",
+    "translation": "不法滞在を続ければ、警察につかまります。",
+    "cloze": "If you continue staying here ｟＿｠, the police will catch you."
+   }
+  ],
+  "frequencyRank": 2508,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x7dab62be",
+  "courseId": "en-10-30k",
+  "headword": "incomplete",
+  "reading": "/ˌɪnkəmplˈit/",
+  "gloss": "不完全な、未完成の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This list is incomplete.",
+    "translation": "このリストは未完成です。",
+    "cloze": "This list is ｟＿｠."
+   },
+   {
+    "text": "This report is incomplete.",
+    "translation": "このレポート、中途半端だな。",
+    "cloze": "This report is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2645,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xb08496af",
+  "courseId": "en-10-30k",
+  "headword": "ira",
+  "reading": "/ˈaɪɹə/",
+  "gloss": "IRA(アイルランド共和国軍);(米)個人退職勘定の略としても使われる",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "our embeds have ruled out the major players. it's not aq, not ira.",
+    "translation": "この犯行は aqでもiraでもありません",
+    "cloze": "our embeds have ruled out the major players. it's not aq, not ｟ira｠."
+   },
+   {
+    "text": "an ira driver was shot",
+    "translation": "iraの運転手が撃たれ",
+    "cloze": "an ｟ira｠ driver was shot"
+   }
+  ],
+  "frequencyRank": 2708,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xb42ed29a",
+  "courseId": "en-10-30k",
+  "headword": "indianapolis",
+  "reading": "/ˌɪndiənˈæpəlɪs/",
+  "gloss": "インディアナポリス(米国インディアナ州の州都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "at the moment it's in indianapolis",
+    "translation": "今はインディアナポリスに行っています",
+    "cloze": "at the moment it's in ｟＿｠"
+   },
+   {
+    "text": "pierpont's mother in indianapolis",
+    "translation": "インディアナポリスの ピアポンツの母親",
+    "cloze": "pierpont's mother in ｟＿｠"
+   }
+  ],
+  "frequencyRank": 2860,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe9d4a433",
+  "courseId": "en-10-30k",
+  "headword": "intentionally",
+  "reading": "/ˌɪntˈɛnʃənəli/",
+  "gloss": "意図的に,わざと",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "You did this intentionally!",
+    "translation": "わざとやったのね！",
+    "cloze": "You did this ｟＿｠!"
+   },
+   {
+    "text": "He broke the window intentionally.",
+    "translation": "彼は意図的に窓を割った。",
+    "cloze": "He broke the window ｟＿｠."
+   }
+  ],
+  "frequencyRank": 2861,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xa9b9ffc7",
+  "courseId": "en-10-30k",
+  "headword": "intro",
+  "reading": "/ˈɪntɹoʊ/",
+  "gloss": "導入部、イントロ;紹介、序論",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "When I heard the intro, I had the feeling it was going to be a legendary song, but as I progressed further in, it felt more and more disappointing.",
+    "translation": "イントロを聴いたときは名曲の予感がしたが、聴き進めるほどに残念な感じになった。",
+    "cloze": "When I heard the ｟＿｠, I had the feeling it was going to be a legendary song, but as I progressed further in, it felt more and more disappointing."
+   },
+   {
+    "text": "The intro of that song gave me chills.",
+    "translation": "その曲のイントロで鳥肌が立った。",
+    "cloze": "The ｟＿｠ of that song gave me chills.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 2930,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xfd3a64c1",
+  "courseId": "en-10-30k",
+  "headword": "ironic",
+  "reading": "/aɪɹˈɑnɪk/",
+  "gloss": "皮肉な；反語的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's ironic.",
+    "translation": "皮肉だな。",
+    "cloze": "It's ｟＿｠."
+   },
+   {
+    "text": "ironic, isn't it?",
+    "translation": "皮肉よね。",
+    "cloze": "｟＿｠, isn't it?"
+   }
+  ],
+  "frequencyRank": 3013,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x5aaa5cbe",
+  "courseId": "en-10-30k",
+  "headword": "iceland",
+  "reading": "/ˈaɪslənd/",
+  "gloss": "アイスランド(北大西洋の島国)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Iceland has many volcanoes.",
+    "translation": "アイスランドには多くの火山があります。",
+    "cloze": "｟＿｠ has many volcanoes."
+   },
+   {
+    "text": "Iceland belonged to Denmark.",
+    "translation": "アイスランドはデンマークに属していた。",
+    "cloze": "｟＿｠ belonged to Denmark."
+   }
+  ],
+  "frequencyRank": 3094,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x5747988a",
+  "courseId": "en-10-30k",
+  "headword": "imaginary",
+  "reading": "/ˌɪmˈædʒənˌɛɹi/",
+  "gloss": "想像上の、架空の、実在しない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's just imaginary.",
+    "translation": "これはただ頭で想像して出て来たものでしかない。",
+    "cloze": "It's just ｟＿｠."
+   },
+   {
+    "text": "Dragons are imaginary animals.",
+    "translation": "龍は空想の動物だ。",
+    "cloze": "Dragons are ｟＿｠ animals."
+   }
+  ],
+  "frequencyRank": 3095,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xed2f032e",
+  "courseId": "en-10-30k",
+  "headword": "immortal",
+  "reading": "/ˌɪmˈɔɹtəl/",
+  "gloss": "不死の、不滅の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Man's soul is immortal.",
+    "translation": "人間の霊魂は不滅である。",
+    "cloze": "Man's soul is ｟＿｠."
+   },
+   {
+    "text": "Do you really want to be immortal?",
+    "translation": "本当に不死身になりたいか？",
+    "cloze": "Do you really want to be ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 3261,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x486146bf",
+  "courseId": "en-10-30k",
+  "headword": "insider",
+  "reading": "/ˌɪnsˈaɪdɚ/",
+  "gloss": "内部の人、内情に詳しい人",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The politician tried to cover up the insider trading.",
+    "translation": "政治家が、インサイダー取引を包み隠そうとした。",
+    "cloze": "The politician tried to cover up the ｟＿｠ trading."
+   },
+   {
+    "text": "The insider trading scandal put a lot of people out of business.",
+    "translation": "インサイダー取引スキャンダルによって多数の人が破産しました。",
+    "cloze": "The ｟＿｠ trading scandal put a lot of people out of business."
+   }
+  ],
+  "frequencyRank": 3262,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xff292b75",
+  "courseId": "en-10-30k",
+  "headword": "insufficient",
+  "reading": "/ˌɪnsəfˈɪʃənt/",
+  "gloss": "不十分な、不適当な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "This is insufficient.",
+    "translation": "これは十分ではありません。",
+    "cloze": "This is ｟＿｠."
+   },
+   {
+    "text": "There is insufficient light for reading.",
+    "translation": "読書には不十分な明かりである。",
+    "cloze": "There is ｟＿｠ light for reading."
+   }
+  ],
+  "frequencyRank": 3263,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2a2a5803",
+  "courseId": "en-10-30k",
+  "headword": "ideally",
+  "reading": "/aɪdˈili/",
+  "gloss": "理想的には、理想を言えば",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "ideally, it is a law of nature.",
+    "translation": "理想的には自然の法則なのです",
+    "cloze": "｟ideally｠, it is a law of nature."
+   },
+   {
+    "text": "Ideally, we would finish the project by Friday.",
+    "translation": "理想を言えば、金曜日までにプロジェクトを終えたい。",
+    "cloze": "｟Ideally｠, we would finish the project by Friday.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3429,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x22c33af0",
+  "courseId": "en-10-30k",
+  "headword": "internally",
+  "reading": "/ˌɪntˈɝnəli/",
+  "gloss": "内部で、内面的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "thready pulse, multiple fractures, bleeding internally.",
+    "translation": "脈拍弱い、複雑骨折 内出血してます",
+    "cloze": "thready pulse, multiple fractures, bleeding ｟internally｠."
+   },
+   {
+    "text": "The document is only shared internally within the company.",
+    "translation": "その文書は社内でのみ共有されている。",
+    "cloze": "The document is only shared ｟internally｠ within the company.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3432,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x9bc3c741",
+  "courseId": "en-10-30k",
+  "headword": "istanbul",
+  "reading": "/ˌɪstɑnbˈul/",
+  "gloss": "イスタンブール(トルコ最大の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "I spent a week in Istanbul.",
+    "translation": "イスタンブールで1週間過ごしました。",
+    "cloze": "I spent a week in ｟＿｠."
+   },
+   {
+    "text": "Istanbul lies on two continents, Europe and Asia.",
+    "translation": "イスタンブールはヨーロッパとアジアの2つの大陸にまたがっている。",
+    "cloze": "｟＿｠ lies on two continents, Europe and Asia.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 3530,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9cda6289",
+  "courseId": "en-10-30k",
+  "headword": "insanity",
+  "reading": "/ˌɪnsˈænəti/",
+  "gloss": "狂気,精神錯乱",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Genius is only one remove from insanity.",
+    "translation": "天才と狂人の差は紙一重。",
+    "cloze": "Genius is only one remove from ｟insanity｠."
+   },
+   {
+    "text": "Yanni pled non-guilty by reason of insanity.",
+    "translation": "ヤニーは精神異常のゆえの無罪を主張した。",
+    "cloze": "Yanni pled non-guilty by reason of ｟insanity｠."
+   }
+  ],
+  "frequencyRank": 3720,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x5522fb0f",
+  "courseId": "en-10-30k",
+  "headword": "intentional",
+  "reading": "/ˌɪntˈɛnʃənəl/",
+  "gloss": "故意の,意図的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Was that intentional?",
+    "translation": "あれは、わざとなの？",
+    "cloze": "Was that ｟intentional｠?"
+   },
+   {
+    "text": "His mistake was intentional.",
+    "translation": "彼の誤りは意図的なものだった。",
+    "cloze": "His mistake was ｟intentional｠."
+   }
+  ],
+  "frequencyRank": 3722,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xa9b2310d",
+  "courseId": "en-10-30k",
+  "headword": "ish",
+  "reading": "/ˈɪʃ/",
+  "gloss": "(数字などに付けて)~くらい,~っぽい;(返答で)まあまあ,そんな感じ",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "probably 25ish.",
+    "translation": "おそらく25歳くらい",
+    "cloze": "probably 25｟ish｠."
+   },
+   {
+    "text": "37...ish.",
+    "translation": "37歳か そこら",
+    "cloze": "37...｟ish｠."
+   }
+  ],
+  "frequencyRank": 3723,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-x975e412c",
+  "courseId": "en-10-30k",
+  "headword": "indirectly",
+  "reading": "/ˌɪndɚˈɛktlˌi/",
+  "gloss": "間接的に、遠回しに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "His letter indirectly refers to the matter.",
+    "translation": "彼の手紙はその事件にそれとなくふれている。",
+    "cloze": "His letter ｟indirectly｠ refers to the matter."
+   },
+   {
+    "text": "I tried to investigate his opinion indirectly.",
+    "translation": "遠まわしに彼の意見を探った。",
+    "cloze": "I tried to investigate his opinion ｟indirectly｠."
+   }
+  ],
+  "frequencyRank": 3819,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x746c2e9f",
+  "courseId": "en-10-30k",
+  "headword": "irregular",
+  "reading": "/ˌɪɹˈɛɡjəlɚ/",
+  "gloss": "不規則な,不定の;不ぞろいな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I have an irregular pulse.",
+    "translation": "不整脈があります。",
+    "cloze": "I have an ｟＿｠ pulse."
+   },
+   {
+    "text": "His attendance is irregular.",
+    "translation": "彼は出席が不規則だ。",
+    "cloze": "His attendance is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 3926,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xef7704f4",
+  "courseId": "en-10-30k",
+  "headword": "ipod",
+  "reading": "/ˈaɪpˌɑd/",
+  "gloss": "iPod(アップル社の携帯音楽プレーヤー)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Apparently the iPod nano has good sound.",
+    "translation": "ｉＰｏｄ nano は音質がいいらしい。",
+    "cloze": "Apparently the ｟＿｠ nano has good sound."
+   },
+   {
+    "text": "Tom was listening to his iPod as he worked out.",
+    "translation": "トムはトレーニングをしながらiPodを聞いていた。",
+    "cloze": "Tom was listening to his ｟＿｠ as he worked out."
+   }
+  ],
+  "frequencyRank": 4028,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x8013f4ae",
+  "courseId": "en-10-30k",
+  "headword": "investigative",
+  "reading": "/ˌɪnvˈɛstəɡˌeɪtɪv/",
+  "gloss": "調査の、捜査の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "i'm with a special investigative section in the pentagon.",
+    "translation": "俺はペンタゴンで 諜報部にいるんだ",
+    "cloze": "i'm with a special ｟investigative｠ section in the pentagon."
+   },
+   {
+    "text": "let me quote from an investigative summary",
+    "translation": "調査概要から引用します",
+    "cloze": "let me quote from an ｟investigative｠ summary"
+   }
+  ],
+  "frequencyRank": 4111,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x66725c3e",
+  "courseId": "en-10-30k",
+  "headword": "irresponsible",
+  "reading": "/ˌɪɹəspˈɑnsəbəl/",
+  "gloss": "無責任な、責任感のない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I wonder why Tom is so irresponsible.",
+    "translation": "トムって、何でああもチャランポランなのかしら。",
+    "cloze": "I wonder why Tom is so ｟irresponsible｠."
+   },
+   {
+    "text": "She charged me with being irresponsible.",
+    "translation": "彼女は私を無責任だと非難した。",
+    "cloze": "She charged me with being ｟irresponsible｠."
+   }
+  ],
+  "frequencyRank": 4209,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xd21e74ed",
+  "courseId": "en-10-30k",
+  "headword": "icc",
+  "reading": null,
+  "gloss": "国際刑事裁判所(International Criminal Court)などの略称",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "think he'll hesitate to hand you over to the icc?",
+    "translation": "国際裁判所にあなたをすぐに 引渡しますよ?",
+    "cloze": "think he'll hesitate to hand you over to the ｟icc｠?"
+   },
+   {
+    "text": "The ICC investigates war crimes around the world.",
+    "translation": "ICCは世界中の戦争犯罪を捜査する。",
+    "cloze": "The ｟ICC｠ investigates war crimes around the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4531,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xdfc71287",
+  "courseId": "en-10-30k",
+  "headword": "italians",
+  "reading": "/ˌɪtˈæljənz/",
+  "gloss": "イタリア人(々)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Italians are famous for their delicious cuisine.",
+    "translation": "イタリア人はおいしい料理で有名だ。",
+    "cloze": "｟Italians｠ are famous for their delicious cuisine.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Many Italians enjoy a strong cup of coffee after dinner.",
+    "translation": "多くのイタリア人は夕食後に濃いコーヒーを楽しむ。",
+    "cloze": "Many ｟Italians｠ enjoy a strong cup of coffee after dinner.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4533,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x5b44cbd6",
+  "courseId": "en-10-30k",
+  "headword": "irritate",
+  "reading": "/ˈɪɹɪtˌeɪt/",
+  "gloss": "…を苛立たせる、怒らせる;刺激する",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tom was irritated.",
+    "translation": "トムは苛立っていた。",
+    "cloze": "Tom was ｟＿｠."
+   },
+   {
+    "text": "He became irritated.",
+    "translation": "彼は腹をたてた。",
+    "cloze": "He became ｟＿｠."
+   }
+  ],
+  "frequencyRank": 4865,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xfa68e872",
+  "courseId": "en-10-30k",
+  "headword": "indoors",
+  "reading": "/ˈɪndˌɔɹz/",
+  "gloss": "屋内で,室内で",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "It was raining, so we stayed indoors all day.",
+    "translation": "雨が降っていたので、私たちは一日中屋内にいた。",
+    "cloze": "It was raining, so we stayed ｟＿｠ all day.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The children played indoors because of the cold weather.",
+    "translation": "寒い天気のため、子供たちは室内で遊んだ。",
+    "cloze": "The children played ｟＿｠ because of the cold weather.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 4997,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x0997e9d7",
+  "courseId": "en-10-30k",
+  "headword": "isaiah",
+  "reading": "/ˌaɪzˈeɪə/",
+  "gloss": "イザヤ(旧約聖書の預言者);イザヤ書",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "book of isaiah, chapter six.",
+    "translation": "イザヤ書第六章",
+    "cloze": "book of ｟＿｠, chapter six."
+   },
+   {
+    "text": "isaiah berlin put it this way:",
+    "translation": "アイザィア バーリンは次のように述べています",
+    "cloze": "｟＿｠ berlin put it this way:"
+   }
+  ],
+  "frequencyRank": 4999,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x8cda85b7",
+  "courseId": "en-10-30k",
+  "headword": "inventor",
+  "reading": "/ˌɪnvˈɛntɚ/",
+  "gloss": "発明者、考案者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Who was the inventor of the radio?",
+    "translation": "ラジオを発明した人は誰ですか。",
+    "cloze": "Who was the ｟＿｠ of the radio?"
+   },
+   {
+    "text": "The inventor is known all over the world.",
+    "translation": "その発明家は世界中に知られている。",
+    "cloze": "The ｟＿｠ is known all over the world."
+   }
+  ],
+  "frequencyRank": 5112,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x8ba6c92e",
+  "courseId": "en-10-30k",
+  "headword": "irrational",
+  "reading": "/ˌɪɹˈæʃənəl/",
+  "gloss": "理性のない、不合理な、ばかげた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The irrational conversation continued.",
+    "translation": "非合理的な会話が続いた。",
+    "cloze": "The ｟irrational｠ conversation continued."
+   },
+   {
+    "text": "Fear can make people act in irrational ways.",
+    "translation": "恐怖は人を不合理な行動に走らせることがある。",
+    "cloze": "Fear can make people act in ｟irrational｠ ways.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5448,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x141e0972",
+  "courseId": "en-10-30k",
+  "headword": "impatient",
+  "reading": "/ˌɪmpˈeɪʃənt/",
+  "gloss": "我慢できない,せっかちな;待ちきれない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'm impatient.",
+    "translation": "私は気が短いんだ。",
+    "cloze": "I'm ｟impatient｠."
+   },
+   {
+    "text": "Tom is impatient.",
+    "translation": "トムはせっかちなんだ。",
+    "cloze": "Tom is ｟impatient｠."
+   }
+  ],
+  "frequencyRank": 5574,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x2132ec86",
+  "courseId": "en-10-30k",
+  "headword": "icy",
+  "reading": "/ˈaɪsi/",
+  "gloss": "氷に覆われた,氷のように冷たい;(態度が)冷淡な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The water is icy.",
+    "translation": "水はひえひえだよ。",
+    "cloze": "The water is ｟＿｠."
+   },
+   {
+    "text": "An icy north wind is blowing.",
+    "translation": "凍てつく北風が吹いている。",
+    "cloze": "An ｟＿｠ north wind is blowing."
+   }
+  ],
+  "frequencyRank": 5705,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xa41e2cb6",
+  "courseId": "en-10-30k",
+  "headword": "imf",
+  "reading": null,
+  "gloss": "IMF,国際通貨基金",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "IMF stands for International Monetary Fund.",
+    "translation": "ＩＭＦというのは国際通貨基金を表している。",
+    "cloze": "｟＿｠ stands for International Monetary Fund."
+   },
+   {
+    "text": "The IMF ruled out any new loans to that country.",
+    "translation": "国際通貨基金は同国に対する新たな借款も認めませんでした。",
+    "cloze": "The ｟＿｠ ruled out any new loans to that country."
+   }
+  ],
+  "frequencyRank": 5829,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xd5d56d39",
+  "courseId": "en-10-30k",
+  "headword": "ieee",
+  "reading": "/ˌaɪtɹˌɪpləˈi/",
+  "gloss": "IEEE(米国電気電子学会。Institute of Electrical and Electronics Engineersの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The IEEE publishes technical standards for electronics.",
+    "translation": "IEEEは電子工学の技術標準を発行している。",
+    "cloze": "The ｟＿｠ publishes technical standards for electronics.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She presented her research at an IEEE conference.",
+    "translation": "彼女はIEEEの学会で自分の研究を発表した。",
+    "cloze": "She presented her research at an ｟＿｠ conference.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 5977,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xdec115f8",
+  "courseId": "en-10-30k",
+  "headword": "intensely",
+  "reading": "/ˌɪntˈɛnsli/",
+  "gloss": "激しく、熱心に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I intensely dislike foot races.",
+    "translation": "徒競走って、大っ嫌い。",
+    "cloze": "I ｟＿｠ dislike foot races."
+   },
+   {
+    "text": "i was intensely moved during all this.",
+    "translation": "私は強く心動かされました",
+    "cloze": "i was ｟＿｠ moved during all this."
+   }
+  ],
+  "frequencyRank": 5979,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x9031b23d",
+  "courseId": "en-10-30k",
+  "headword": "inbox",
+  "reading": "/ˈɪnbˌɑks/",
+  "gloss": "(メールの)受信トレイ、受信箱",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "My inbox is full.",
+    "translation": "受信トレイがいっぱいだ。",
+    "cloze": "My ｟＿｠ is full."
+   },
+   {
+    "text": "Emails have started suddenly disappearing from my inbox.",
+    "translation": "受信トレイからメールが突然消えはじめた。",
+    "cloze": "Emails have started suddenly disappearing from my ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6095,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xd7032284",
+  "courseId": "en-10-30k",
+  "headword": "infinitely",
+  "reading": "/ˈɪnfənətli/",
+  "gloss": "無限に;(程度が)非常に、はるかに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Many astronomers assume that the universe expands infinitely.",
+    "translation": "多くの天文学者は、宇宙は永遠に膨張してゆくものだと考えている。",
+    "cloze": "Many astronomers assume that the universe expands ｟＿｠."
+   },
+   {
+    "text": "in universe, there's kind of no end. it just goes infinitely",
+    "translation": "Universeでは、終わりというものはありません ただ無限に進み",
+    "cloze": "in universe, there's kind of no end. it just goes ｟＿｠"
+   }
+  ],
+  "frequencyRank": 6097,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xcd212cc0",
+  "courseId": "en-10-30k",
+  "headword": "influenza",
+  "reading": "/ˌɪnfluˈɛnzə/",
+  "gloss": "インフルエンザ、流行性感冒",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom has influenza.",
+    "translation": "トムね、インフルエンザにかかってるの。",
+    "cloze": "Tom has ｟＿｠."
+   },
+   {
+    "text": "He is ill with influenza.",
+    "translation": "彼はインフルエンザにかかっている。",
+    "cloze": "He is ill with ｟＿｠."
+   }
+  ],
+  "frequencyRank": 6099,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x9eeb4dfb",
+  "courseId": "en-10-30k",
+  "headword": "ibn",
+  "reading": "/ˈɪbən/",
+  "gloss": "(アラビア語で)「〜の息子」(人名に用いる。例:イブン・シーナ)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "my name is ibn sina and these are my students.",
+    "translation": "私はイーブン・シーナです 彼らは私の生徒です",
+    "cloze": "my name is ｟ibn｠ sina and these are my students."
+   },
+   {
+    "text": "from ibn sina's house which i search after his arrest.",
+    "translation": "逮捕後に捜索した イブン・シーナの家からです",
+    "cloze": "from ｟ibn｠ sina's house which i search after his arrest."
+   }
+  ],
+  "frequencyRank": 6639,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-xbb8bf4b3",
+  "courseId": "en-10-30k",
+  "headword": "imitation",
+  "reading": "/ˌɪmətˈeɪʃən/",
+  "gloss": "まね、模倣；模造品、にせ物；模造の",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "That's an imitation.",
+    "translation": "それは偽物です。",
+    "cloze": "That's an ｟imitation｠."
+   },
+   {
+    "text": "Beware of imitations.",
+    "translation": "偽物にご注意。",
+    "cloze": "Beware of ｟imitations｠."
+   }
+  ],
+  "frequencyRank": 6640,
+  "category": "shopping"
+ },
+ {
+  "id": "en-10-30k-x7ce7e24a",
+  "courseId": "en-10-30k",
+  "headword": "illustrator",
+  "reading": "/ˈɪləstɹˌeɪtɚ/",
+  "gloss": "イラストレーター、挿絵画家",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Tom is an illustrator.",
+    "translation": "トムはイラストレーターなんだ。",
+    "cloze": "Tom is an ｟illustrator｠."
+   },
+   {
+    "text": "My older sister says it's her dream to become a pro illustrator.",
+    "translation": "私の姉はプロのイラストレーターになるのが夢と言っている。",
+    "cloze": "My older sister says it's her dream to become a pro ｟illustrator｠."
+   }
+  ],
+  "frequencyRank": 6768,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xf83dacdc",
+  "courseId": "en-10-30k",
+  "headword": "islander",
+  "reading": "/ˈaɪləndɚ/",
+  "gloss": "島の住民",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The islanders are nice.",
+    "translation": "島の人たちは、優しいです。",
+    "cloze": "The ｟＿｠s are nice."
+   },
+   {
+    "text": "The islanders are friendly.",
+    "translation": "島の人たちは、優しいです。",
+    "cloze": "The ｟＿｠s are friendly."
+   }
+  ],
+  "frequencyRank": 6922,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x8806580d",
+  "courseId": "en-10-30k",
+  "headword": "iss",
+  "reading": null,
+  "gloss": "国際宇宙ステーション(International Space Station)の略称",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "houston, in the blind, we have a visual of the iss.",
+    "translation": "ヒューストン ISSが見えた",
+    "cloze": "houston, in the blind, we have a visual of the ｟＿｠."
+   },
+   {
+    "text": "dr. stone and i have determined to proceed to iss and use one of their soyuz for reentry.",
+    "translation": "ストーンとISSへ向かう ソユーズで帰還する",
+    "cloze": "dr. stone and i have determined to proceed to ｟＿｠ and use one of their soyuz for reentry."
+   }
+  ],
+  "frequencyRank": 6923,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xcf6eb29c",
+  "courseId": "en-10-30k",
+  "headword": "interception",
+  "reading": "/ˌɪntɚsˈɛpʃən/",
+  "gloss": "途中で捕まえること、横取り;(通信などの)傍受、妨害",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i know the location of most domestic interception points",
+    "translation": "「私は国内最大の傍受施設を知っていますし」",
+    "cloze": "i know the location of most domestic ｟＿｠ points"
+   },
+   {
+    "text": "it uses frequencyhopping spread spectrum. which means zero chance of interception.",
+    "translation": "周波数ホッピング方式で 妨害もされない",
+    "cloze": "it uses frequencyhopping spread spectrum. which means zero chance of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 7214,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xe612c7ff",
+  "courseId": "en-10-30k",
+  "headword": "invader",
+  "reading": "/ˌɪnvˈeɪdɚ/",
+  "gloss": "侵略者、侵入者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "They resisted the invaders.",
+    "translation": "彼らは侵略者に抵抗した。",
+    "cloze": "They resisted the ｟＿｠s."
+   },
+   {
+    "text": "They yielded their land to the invaders.",
+    "translation": "彼らは土地を侵入者に明け渡した。",
+    "cloze": "They yielded their land to the ｟＿｠s."
+   }
+  ],
+  "frequencyRank": 7215,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xcc5b05c5",
+  "courseId": "en-10-30k",
+  "headword": "irl",
+  "reading": null,
+  "gloss": "(ネットスラング)実生活で、リアルでは(in real lifeの略)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I finally met my online friend IRL.",
+    "translation": "オンラインの友達についに実際に(リアルで)会った。",
+    "cloze": "I finally met my online friend ｟＿｠.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We should hang out IRL sometime.",
+    "translation": "そのうちリアルで会って遊ぼうよ。",
+    "cloze": "We should hang out ｟＿｠ sometime.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7216,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc6cb9db8",
+  "courseId": "en-10-30k",
+  "headword": "israelis",
+  "reading": "/ˌɪzɹˈeɪliz/",
+  "gloss": "イスラエル人(々)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Israelis speak both Hebrew and English.",
+    "translation": "多くのイスラエル人はヘブライ語と英語の両方を話す。",
+    "cloze": "Many ｟＿｠ speak both Hebrew and English.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Israelis celebrated their independence day with fireworks.",
+    "translation": "イスラエル人たちは花火で独立記念日を祝った。",
+    "cloze": "The ｟＿｠ celebrated their independence day with fireworks.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 7217,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6d8f728c",
+  "courseId": "en-10-30k",
+  "headword": "irritation",
+  "reading": "/ˌɪɹɪtˈeɪʃən/",
+  "gloss": "いらだち、立腹;炎症",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Her mood graduated to irritation.",
+    "translation": "彼女の気分は次第にいら立ちはじめた。",
+    "cloze": "Her mood graduated to ｟＿｠."
+   },
+   {
+    "text": "There was no irritation on his part.",
+    "translation": "彼としては少しもいらいらしてなかった。",
+    "cloze": "There was no ｟＿｠ on his part."
+   }
+  ],
+  "frequencyRank": 7373,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x2eeeebcf",
+  "courseId": "en-10-30k",
+  "headword": "insightful",
+  "reading": "/ˈɪnsˌaɪtfəl/",
+  "gloss": "洞察力のある,鋭い",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "oh my, you're awfully insightful, aren't you?",
+    "translation": "あら 何だか 鋭いこと言うねえ",
+    "cloze": "oh my, you're awfully ｟insightful｠, aren't you?"
+   },
+   {
+    "text": "also, bennett doesn't know it by heart.. so he'll think you're insightful.",
+    "translation": "教授は読んでないから 君に感心するかと",
+    "cloze": "also, bennett doesn't know it by heart.. so he'll think you're ｟insightful｠."
+   }
+  ],
+  "frequencyRank": 7495,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc1db5167",
+  "courseId": "en-10-30k",
+  "headword": "intimidation",
+  "reading": "/ˌɪntˌɪmɪdˈeɪʃən/",
+  "gloss": "威嚇,脅迫",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "intimidation?",
+    "translation": "脅迫か?",
+    "cloze": "｟＿｠?"
+   },
+   {
+    "text": "there were claims of intimidation",
+    "translation": "投票所では「脅された」",
+    "cloze": "there were claims of ｟＿｠"
+   }
+  ],
+  "frequencyRank": 7782,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9c37a8ce",
+  "courseId": "en-10-30k",
+  "headword": "islamist",
+  "reading": "/ˈɪsləmɪst/",
+  "gloss": "イスラム主義者,イスラム原理主義者",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "if we bow down to the islamists",
+    "translation": "もしイスラム原理主義者に屈すれば",
+    "cloze": "if we bow down to the ｟＿｠"
+   },
+   {
+    "text": "many of them islamist governments",
+    "translation": "その多くがイスラム教政府です",
+    "cloze": "many of them ｟＿｠ governments"
+   }
+  ],
+  "frequencyRank": 7783,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xaf12abd5",
+  "courseId": "en-10-30k",
+  "headword": "inward",
+  "reading": "/ˈɪnwɚd/",
+  "gloss": "内側の、内面の、心の中の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Hands reveal our inward emotions.",
+    "translation": "手は我々の内なる感情を明らかに映し出す。",
+    "cloze": "Hands reveal our ｟＿｠ emotions."
+   },
+   {
+    "text": "The Japanese are often criticized for being inward looking and insufficiently international in their outlook.",
+    "translation": "日本人はものの見方が内向的であるとか、国際性が不十分であると言って非難されることが多い。",
+    "cloze": "The Japanese are often criticized for being ｟＿｠ looking and insufficiently international in their outlook."
+   }
+  ],
+  "frequencyRank": 8086,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc7eea984",
+  "courseId": "en-10-30k",
+  "headword": "ipo",
+  "reading": null,
+  "gloss": "新規株式公開(Initial Public Offering)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "finding companies to take public. ipos.",
+    "translation": "株式公開する 会社を見いだすIPO",
+    "cloze": "finding companies to take public. ｟＿｠."
+   },
+   {
+    "text": "this was the day, that we launched the steve madden ipo.",
+    "translation": "スティーヴまだ? 我々がスティーブ・マデンのIPOを 開始した日だった",
+    "cloze": "this was the day, that we launched the steve madden ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8087,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x30bfe843",
+  "courseId": "en-10-30k",
+  "headword": "itch",
+  "reading": "/ˈɪtʃ/",
+  "gloss": "かゆい、かゆみを感じる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "My eyes itch.",
+    "translation": "目がかゆいです。",
+    "cloze": "My eyes ｟＿｠."
+   },
+   {
+    "text": "My nose itches.",
+    "translation": "鼻がムズムズする。",
+    "cloze": "My nose ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8088,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x83e0d1a3",
+  "courseId": "en-10-30k",
+  "headword": "idiotic",
+  "reading": "/ˌɪdiˈɑtɪk/",
+  "gloss": "ばかげた、愚かな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "Forty percent of the workforce are white-collar workers, most of whom have some of the most tedious and idiotic jobs ever concocted.",
+    "translation": "労働力の４０パーセントはホワイトカラー労働者であり、その大部分は、退屈でばかばかしいデッチアゲ仕事をしている。",
+    "cloze": "Forty percent of the workforce are white-collar workers, most of whom have some of the most tedious and ｟＿｠ jobs ever concocted."
+   },
+   {
+    "text": "\"It's been a while since we had a serious conversation, eh.\" \"That's for sure. We usually only have idiotic conversations.\"",
+    "translation": "「久しぶりに真面目な話したね」「確かに。普段アホみたいな話しかしないもんね」",
+    "cloze": "\"It's been a while since we had a serious conversation, eh.\" \"That's for sure. We usually only have ｟＿｠ conversations.\""
+   }
+  ],
+  "frequencyRank": 8245,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc6a5b0b8",
+  "courseId": "en-10-30k",
+  "headword": "interruption",
+  "reading": "/ˌɪntɚˈʌpʃən/",
+  "gloss": "(…の)じゃま、妨害、中断",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Sorry for the interruption.",
+    "translation": "お邪魔しました。",
+    "cloze": "Sorry for the ｟＿｠."
+   },
+   {
+    "text": "Discussion resumed after a short interruption.",
+    "translation": "ちょっと中断したあとで討議が再び始まった。",
+    "cloze": "Discussion resumed after a short ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8249,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xc501111c",
+  "courseId": "en-10-30k",
+  "headword": "illumination",
+  "reading": "/ˌɪlˌumənˈeɪʃən/",
+  "gloss": "照明、明かり;《複数形で》(電飾の)イルミネーション",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "A small, naked bulb gave the only illumination.",
+    "translation": "小さな裸電球が唯一の明りだった。",
+    "cloze": "A small, naked bulb gave the only ｟illumination｠."
+   },
+   {
+    "text": "Electric illuminations add to the attraction at night.",
+    "translation": "電気のイルミネーションが夜景の魅力を増す。",
+    "cloze": "Electric ｟illuminations｠ add to the attraction at night."
+   }
+  ],
+  "frequencyRank": 8400,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x654f28a3",
+  "courseId": "en-10-30k",
+  "headword": "inquisition",
+  "reading": "/ˌɪnkwəzˈɪʃən/",
+  "gloss": "きびしい尋問、取り調べ;(the Inquisition)宗教裁判、異端審問",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "until orbadono returns, the inquisition will be frozen.",
+    "translation": "オールバ殿が戻るまで 審問会は凍結 新しい責任者のもと",
+    "cloze": "until orbadono returns, the ｟＿｠ will be frozen."
+   },
+   {
+    "text": "turns our javier mendoza was a grand inquisitor during the spanish inquisition.",
+    "translation": "ハビエル・メンドーサは 宗教裁判長 スペイン異端審問のね",
+    "cloze": "turns our javier mendoza was a grand inquisitor during the spanish ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8404,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x119435e0",
+  "courseId": "en-10-30k",
+  "headword": "intellectually",
+  "reading": "/ˌɪntəlˈɛktʃuəli/",
+  "gloss": "知的に、理知的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Intellectually we know prejudice is wrong.",
+    "translation": "私たちは頭では偏見が間違っていることを知っている。",
+    "cloze": "｟＿｠ we know prejudice is wrong."
+   },
+   {
+    "text": "to create works of intellectually impenetrable complexity",
+    "translation": "コンピューターやシンセサイザーを使い 知性では不可能なほど複雑な",
+    "cloze": "to create works of ｟＿｠ impenetrable complexity"
+   }
+  ],
+  "frequencyRank": 8577,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x71dbf4d9",
+  "courseId": "en-10-30k",
+  "headword": "itchy",
+  "reading": "/ˈɪtʃi/",
+  "gloss": "かゆい、むずむずする",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "My nose is itchy.",
+    "translation": "鼻がむずむずします。",
+    "cloze": "My nose is ｟＿｠."
+   },
+   {
+    "text": "My back is itchy.",
+    "translation": "背中がかゆい。",
+    "cloze": "My back is ｟＿｠."
+   }
+  ],
+  "frequencyRank": 8583,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xb2668cb2",
+  "courseId": "en-10-30k",
+  "headword": "ict",
+  "reading": null,
+  "gloss": "情報通信技術（Information and Communication Technology の略）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "another ict, and yet another on warehousing, or warehouse receipts.",
+    "translation": "ほかにもICTや貨物保管について 作業する人々がバラバラにいる状態です",
+    "cloze": "another ｟＿｠, and yet another on warehousing, or warehouse receipts."
+   },
+   {
+    "text": "and we'll have to align the financial sector, as well as the ict sector",
+    "translation": "金融機関とictを提携させて",
+    "cloze": "and we'll have to align the financial sector, as well as the ｟＿｠ sector"
+   }
+  ],
+  "frequencyRank": 8755,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xd7b1e96e",
+  "courseId": "en-10-30k",
+  "headword": "intra",
+  "reading": "/ˈɪntɹɑ/",
+  "gloss": "内部の、〜内の(接頭辞)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I'd like to have an intra-uterine device.",
+    "translation": "避妊リングをしたいのです。",
+    "cloze": "I'd like to have an ｟intra｠-uterine device."
+   }
+  ],
+  "frequencyRank": 8926,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-x10836c07",
+  "courseId": "en-10-30k",
+  "headword": "islamabad",
+  "reading": "/ˌɪslˈæməbæd/",
+  "gloss": "イスラマバード(パキスタンの首都)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "obviously, we need to talk about recent events in islamabad.",
+    "translation": "当然 イスラマバードのこの間の ことについて話す必要があるわ",
+    "cloze": "obviously, we need to talk about recent events in ｟islamabad｠."
+   },
+   {
+    "text": "i'm going back to islamabad.",
+    "translation": "私はイスラマバードに戻るわ",
+    "cloze": "i'm going back to ｟islamabad｠."
+   }
+  ],
+  "frequencyRank": 8927,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xc4f0275a",
+  "courseId": "en-10-30k",
+  "headword": "inverness",
+  "reading": "/ˈɪnvɚnˌɛs/",
+  "gloss": "インバネス(スコットランド北部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "there are only two trains from inverness to edinburgh on wednesdays...",
+    "translation": "インバネス - エディンバラ間の列車は 水曜日は2便しかない",
+    "cloze": "there are only two trains from ｟＿｠ to edinburgh on wednesdays..."
+   },
+   {
+    "text": "well instead of a coach to inverness, you might consider taking the line back to tyndrum and changing for oban.",
+    "translation": "さて、インバネスまでバスで行く代わりに 鉄道でティンドラムまで戻って オバン行の列車に乗り換える",
+    "cloze": "well instead of a coach to ｟＿｠, you might consider taking the line back to tyndrum and changing for oban."
+   }
+  ],
+  "frequencyRank": 9252,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xd401b68d",
+  "courseId": "en-10-30k",
+  "headword": "icelandic",
+  "reading": "/aɪslˈændɪk/",
+  "gloss": "アイスランドの;アイスランド語",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "German is not as difficult as Icelandic.",
+    "translation": "ドイツ語はアイスランド語ほど難しくない。",
+    "cloze": "German is not as difficult as ｟＿｠."
+   },
+   {
+    "text": "One of my dreams is to study the Icelandic language.",
+    "translation": "私の夢のひとつはアイスランド語を学ぶことだ。",
+    "cloze": "One of my dreams is to study the ｟＿｠ language."
+   }
+  ],
+  "frequencyRank": 9955,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xff27cd18",
+  "courseId": "en-10-30k",
+  "headword": "inventive",
+  "reading": "/ˌɪnvˈɛntɪv/",
+  "gloss": "発明の才がある、独創的な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "He is inventive of excuses.",
+    "translation": "彼は言い訳を考え出すのがうまい。",
+    "cloze": "He is ｟＿｠ of excuses."
+   },
+   {
+    "text": "Edison was an inventive genius of the United States.",
+    "translation": "エジソンは米国の発明の天才であった。",
+    "cloze": "Edison was an ｟＿｠ genius of the United States."
+   }
+  ],
+  "frequencyRank": 9958,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x3ecd2597",
+  "courseId": "en-10-30k",
+  "headword": "icu",
+  "reading": null,
+  "gloss": "集中治療室（Intensive Care Unit）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "we have the trauma surgeon, the icu nurse",
+    "translation": "集中治療室の看護師 救急治療室の医師などの",
+    "cloze": "we have the trauma surgeon, the ｟icu｠ nurse"
+   },
+   {
+    "text": "the patient from icu, parker crane?",
+    "translation": "集中治療室の パーカー・クレーン",
+    "cloze": "the patient from ｟icu｠, parker crane?"
+   }
+  ],
+  "frequencyRank": 10152,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x59b5d7bc",
+  "courseId": "en-10-30k",
+  "headword": "inhale",
+  "reading": "/ˌɪnhˈeɪl/",
+  "gloss": "（空気・煙などを）吸い込む",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Inhale, and exhale.",
+    "translation": "息を吸って、吐いて。",
+    "cloze": "｟Inhale｠, and exhale."
+   },
+   {
+    "text": "Inhaling diesel exhaust is bad for our health.",
+    "translation": "ディーゼルの排気ガスは体に悪い。",
+    "cloze": "｟Inhaling｠ diesel exhaust is bad for our health."
+   }
+  ],
+  "frequencyRank": 10160,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x61998b30",
+  "courseId": "en-10-30k",
+  "headword": "interconnect",
+  "reading": "/ˌɪntɚkənˈɛkt/",
+  "gloss": "相互に連結する、つながる",
+  "pos": "動詞",
+  "examples": [
+   {
+    "text": "Tatoeba is really multilingual. All the languages are interconnected.",
+    "translation": "Tatoebaは本当に多言語なところです。全ての言語がお互いにつながっています。",
+    "cloze": "Tatoeba is really multilingual. All the languages are ｟interconnected｠."
+   },
+   {
+    "text": "it's a part of our interconnected world.",
+    "translation": "繋がり合った 世界の一部です",
+    "cloze": "it's a part of our ｟interconnected｠ world."
+   }
+  ],
+  "frequencyRank": 10162,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x9ea6afbe",
+  "courseId": "en-10-30k",
+  "headword": "isp",
+  "reading": null,
+  "gloss": "インターネットサービスプロバイダ（Internet Service Provider）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "to access the isp servers.",
+    "translation": "ispのサーバーにアクセスして",
+    "cloze": "to access the ｟isp｠ servers."
+   },
+   {
+    "text": "and the isp threw them away unopened",
+    "translation": "ISP は中身を見ずに捨て",
+    "cloze": "and the ｟isp｠ threw them away unopened"
+   }
+  ],
+  "frequencyRank": 10164,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xddda4674",
+  "courseId": "en-10-30k",
+  "headword": "intimately",
+  "reading": "/ˈɪntəmətli/",
+  "gloss": "親密に、深く",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "I have known intimately a great many persons who were absorbed in the arts.",
+    "translation": "芸術に没頭しているとてもたくさんの人たちとも懇意にしてきた。",
+    "cloze": "I have known ｟intimately｠ a great many persons who were absorbed in the arts."
+   },
+   {
+    "text": "i know him intimately.",
+    "translation": "彼とは親密な間柄なの",
+    "cloze": "i know him ｟intimately｠."
+   }
+  ],
+  "frequencyRank": 10350,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x0e966621",
+  "courseId": "en-10-30k",
+  "headword": "ioc",
+  "reading": null,
+  "gloss": "国際オリンピック委員会(IOC)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The IOC decided to postpone the Olympic Games.",
+    "translation": "IOCはオリンピック大会の延期を決定した。",
+    "cloze": "The ｟IOC｠ decided to postpone the Olympic Games.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The IOC is responsible for organizing the Olympic Games.",
+    "translation": "IOCはオリンピック大会の運営を担っている。",
+    "cloze": "The ｟IOC｠ is responsible for organizing the Olympic Games.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10351,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xcfa18eef",
+  "courseId": "en-10-30k",
+  "headword": "implicitly",
+  "reading": "/ˌɪmplˈɪsətli/",
+  "gloss": "暗に、それとなく、暗黙のうちに",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "this worldview is implicitly grounded",
+    "translation": "この世界観が暗に根拠とする 考え方があります",
+    "cloze": "this worldview is ｟＿｠ grounded"
+   },
+   {
+    "text": "i can only think that he's implicitly stalling for time.",
+    "translation": "暗に時間稼ぎをしてる としか思えません",
+    "cloze": "i can only think that he's ｟＿｠ stalling for time."
+   }
+  ],
+  "frequencyRank": 10553,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xab89a2ac",
+  "courseId": "en-10-30k",
+  "headword": "incl",
+  "reading": null,
+  "gloss": "~を含めて(includingの略;価格表示などで使用)",
+  "pos": "前置詞",
+  "examples": [
+   {
+    "text": "The price is $50, incl tax.",
+    "translation": "価格は50ドルです、税込みです。",
+    "cloze": "The price is $50, ｟＿｠ tax.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Rent is $1,200 per month, incl utilities.",
+    "translation": "家賃は月1,200ドルで、光熱費込みです。",
+    "cloze": "Rent is $1,200 per month, ｟＿｠ utilities.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 10742,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-xac4ca9f9",
+  "courseId": "en-10-30k",
+  "headword": "iranians",
+  "reading": "/aɪɹˈeɪniənz/",
+  "gloss": "イラン人(たち)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Iranians are proud of their ancient history.",
+    "translation": "多くのイラン人は自国の古代の歴史を誇りに思っている。",
+    "cloze": "Many ｟＿｠ are proud of their ancient history.",
+    "aiGenerated": true
+   },
+   {
+    "text": "Iranians celebrate Nowruz as their New Year.",
+    "translation": "イラン人はノウルーズを新年として祝う。",
+    "cloze": "｟＿｠ celebrate Nowruz as their New Year.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11133,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6d610dff",
+  "courseId": "en-10-30k",
+  "headword": "ibiza",
+  "reading": "/ˌibˈizə/",
+  "gloss": "イビサ島（スペイン、地中海の島。ナイトライフで有名）",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "ibiza, it's a small island off the coast of spain.",
+    "translation": "イビーサ スペインの沖の小島",
+    "cloze": "｟＿｠, it's a small island off the coast of spain."
+   },
+   {
+    "text": "Ibiza is famous for its nightlife and beaches.",
+    "translation": "イビサ島は夜遊び文化とビーチで有名だ。",
+    "cloze": "｟＿｠ is famous for its nightlife and beaches.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11516,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xe2f977d5",
+  "courseId": "en-10-30k",
+  "headword": "improv",
+  "reading": "/ˈɪmpɹˌɑv/",
+  "gloss": "即興演技、即興（コメディなどのインプロビゼーション）",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "We took an improv class at the theater.",
+    "translation": "劇場で即興演技のクラスを受けた。",
+    "cloze": "We took an ｟＿｠ class at the theater.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The comedians performed a hilarious improv scene.",
+    "translation": "コメディアンたちは爆笑必至の即興寸劇を披露した。",
+    "cloze": "The comedians performed a hilarious ｟＿｠ scene.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11517,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x12620ccb",
+  "courseId": "en-10-30k",
+  "headword": "informational",
+  "reading": "/ˌɪnfɚmˈeɪʃənəl/",
+  "gloss": "情報の、情報に関する",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and this was purely an informational feedback",
+    "translation": "これは純粋に情報を フィードバックする為で",
+    "cloze": "and this was purely an ｟＿｠ feedback"
+   },
+   {
+    "text": "This is just an informational session, not a sales pitch.",
+    "translation": "これは単なる情報提供のためのセッションで、営業トークではありません。",
+    "cloze": "This is just an ｟＿｠ session, not a sales pitch.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11520,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x59acbbc3",
+  "courseId": "en-10-30k",
+  "headword": "ithaca",
+  "reading": "/ˈɪθəkə/",
+  "gloss": "イサカ(ギリシャ神話でオデュッセウスの故郷の島；また米国ニューヨーク州の都市、コーネル大学所在地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "outside of ithaca the other one.",
+    "translation": "イサカの郊外辺りなどきっといいですね。",
+    "cloze": "outside of ｟＿｠ the other one."
+   },
+   {
+    "text": "In Homer's Odyssey, Ithaca is the home of Odysseus.",
+    "translation": "ホメロスの『オデュッセイア』において、イサカはオデュッセウスの故郷である。",
+    "cloze": "In Homer's Odyssey, ｟＿｠ is the home of Odysseus.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 11896,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x9c7079d4",
+  "courseId": "en-10-30k",
+  "headword": "interpol",
+  "reading": "/ˈɪntɚpˌoʊl/",
+  "gloss": "インターポール(国際刑事警察機構)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "was arrested in frankfurt germany by interpol",
+    "translation": "インターポールがフランクフルトで",
+    "cloze": "was arrested in frankfurt germany by ｟interpol｠"
+   },
+   {
+    "text": "yes! we also have an arrest warrant issued by both interpol and the fbi.",
+    "translation": "インターポールとFBIから 逮捕状が出てる",
+    "cloze": "yes! we also have an arrest warrant issued by both ｟interpol｠ and the fbi."
+   }
+  ],
+  "frequencyRank": 12109,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x24bea34b",
+  "courseId": "en-10-30k",
+  "headword": "israelites",
+  "reading": "/ˈɪzɹəlˌaɪts/",
+  "gloss": "イスラエル人(古代イスラエルの民)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Israelites speak Hebrew.",
+    "translation": "イスラエル人はヘブライ語を話します。",
+    "cloze": "｟Israelites｠ speak Hebrew."
+   },
+   {
+    "text": "what, so now you're moses leading the israelites?",
+    "translation": "お前はイスラエルの民を率いる モーゼ気取りかい?",
+    "cloze": "what, so now you're moses leading the ｟israelites｠?"
+   }
+  ],
+  "frequencyRank": 12111,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xab5415c2",
+  "courseId": "en-10-30k",
+  "headword": "islamists",
+  "reading": "/ˈɪsləmɪsts/",
+  "gloss": "イスラム主義者(政治的イスラム主義を支持する人々)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The report examined how different Islamists view democracy.",
+    "translation": "その報告書は、イスラム主義者たちが民主主義をどう捉えているかを検証した。",
+    "cloze": "The report examined how different ｟Islamists｠ view democracy.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12342,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xf61cc49b",
+  "courseId": "en-10-30k",
+  "headword": "isps",
+  "reading": null,
+  "gloss": "インターネットサービスプロバイダ(ISP)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Most ISPs offer several internet plans at different speeds.",
+    "translation": "ほとんどのISP(インターネットサービスプロバイダ)は 速度の異なる複数のプランを提供している。",
+    "cloze": "Most ｟ISPs｠ offer several internet plans at different speeds.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12343,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xa6e74716",
+  "courseId": "en-10-30k",
+  "headword": "italics",
+  "reading": "/aɪtˈælɪks/",
+  "gloss": "イタリック体、斜体",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "i've shown you just a few things in italics here.",
+    "translation": "いくつかの要素に焦点を当てて紹介しましたが",
+    "cloze": "i've shown you just a few things in ｟italics｠ here."
+   },
+   {
+    "text": "Book titles are usually written in italics.",
+    "translation": "書籍のタイトルは通常イタリック体で書かれる。",
+    "cloze": "Book titles are usually written in ｟italics｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12344,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x97d2edd7",
+  "courseId": "en-10-30k",
+  "headword": "ivf",
+  "reading": null,
+  "gloss": "体外受精",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "anyway, in vitro technology, ivf",
+    "translation": "体外受精は家畜の繁殖と同様に 意図的なものです",
+    "cloze": "anyway, in vitro technology, ｟ivf｠"
+   },
+   {
+    "text": "the result of ivf technology, in vitro fertilization technology",
+    "translation": "IVF つまり体外授精の結果です",
+    "cloze": "the result of ｟ivf｠ technology, in vitro fertilization technology"
+   }
+  ],
+  "frequencyRank": 12345,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x75f04924",
+  "courseId": "en-10-30k",
+  "headword": "incubator",
+  "reading": "/ˈɪŋkjəbˌeɪtɚ/",
+  "gloss": "保育器、ふ卵器；育成機関",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "and as a result, we had to wipe down the incubator room",
+    "translation": "それで 培養室を隅々まで拭くはめに",
+    "cloze": "and as a result, we had to wipe down the ｟＿｠ room"
+   },
+   {
+    "text": "Premature babies are often placed in an incubator.",
+    "translation": "未熟児はしばしば保育器に入れられる。",
+    "cloze": "Premature babies are often placed in an ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12519,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xdf942f71",
+  "courseId": "en-10-30k",
+  "headword": "informally",
+  "reading": "/ˌɪnfˈɔɹməli/",
+  "gloss": "非公式に、略式に;くつろいで",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "The two leaders met informally to discuss the issue.",
+    "translation": "両首脳はその問題について非公式に会談した。",
+    "cloze": "The two leaders met ｟informally｠ to discuss the issue.",
+    "aiGenerated": true
+   },
+   {
+    "text": "She was dressed informally for the party.",
+    "translation": "彼女はパーティーにくだけた服装で来ていた。",
+    "cloze": "She was dressed ｟informally｠ for the party.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12732,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x2c11ce86",
+  "courseId": "en-10-30k",
+  "headword": "isbn",
+  "reading": "/ˌaɪˌɛsbˌiˈɛn/",
+  "gloss": "国際標準図書番号(International Standard Book Numberの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Every published book has a unique ISBN.",
+    "translation": "出版されたすべての本には固有のISBNがある。",
+    "cloze": "Every published book has a unique ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 12936,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x2d114456",
+  "courseId": "en-10-30k",
+  "headword": "influencers",
+  "reading": null,
+  "gloss": "影響力を持つ人々、インフルエンサー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "suppose we double the number of influencers",
+    "translation": "影響力を持つ人の数を",
+    "cloze": "suppose we double the number of ｟＿｠"
+   },
+   {
+    "text": "the world's ambitious innovators and influencers",
+    "translation": "世界のイノベーターや有力者たちは",
+    "cloze": "the world's ambitious innovators and ｟＿｠"
+   }
+  ],
+  "frequencyRank": 13164,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xcbfa1e5a",
+  "courseId": "en-10-30k",
+  "headword": "illuminati",
+  "reading": null,
+  "gloss": "イルミナティ(18世紀に結成された秘密結社;転じて陰謀論で語られる秘密組織)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and what the illuminati have done, by creating the norms, they have created an absolute army of people, to impose those norms on eachother.",
+    "translation": "イルミナティは、規範を創り上げることによって その規範をお互いに共有する 一大集団を創りだしたのです。",
+    "cloze": "and what the ｟illuminati｠ have done, by creating the norms, they have created an absolute army of people, to impose those norms on eachother."
+   },
+   {
+    "text": "the illuminati?",
+    "translation": "イルミナティか",
+    "cloze": "the ｟illuminati｠?"
+   }
+  ],
+  "frequencyRank": 13431,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x6be68da6",
+  "courseId": "en-10-30k",
+  "headword": "irritable",
+  "reading": "/ˈɪɹətəbəl/",
+  "gloss": "怒りっぽい、いらいらした",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "They're all irritable.",
+    "translation": "みんな気が立っている。",
+    "cloze": "They're all ｟irritable｠."
+   },
+   {
+    "text": "I'm really irritable lately. My favorite soccer team is in a slump.",
+    "translation": "応援しているサッカーチームが負けつづけているので、苛々する。",
+    "cloze": "I'm really ｟irritable｠ lately. My favorite soccer team is in a slump."
+   }
+  ],
+  "frequencyRank": 13441,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-x8e8e471c",
+  "courseId": "en-10-30k",
+  "headword": "indus",
+  "reading": "/ˈɪndəs/",
+  "gloss": "インダス川(南アジアの大河、インダス文明で知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "to our government, to our families, but especially to our enemy, we were kia at 0600 hours in the indus valley desert.",
+    "translation": "政府に 私たちの家族に 特に敵に 我々はインダス川 バレー砂漠にいた",
+    "cloze": "to our government, to our families, but especially to our enemy, we were kia at 0600 hours in the ｟＿｠ valley desert."
+   },
+   {
+    "text": "The ancient Indus Valley Civilization flourished along the banks of the river.",
+    "translation": "古代インダス文明は、その川の岸辺で栄えた。",
+    "cloze": "The ancient ｟＿｠ Valley Civilization flourished along the banks of the river.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13650,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf970b131",
+  "courseId": "en-10-30k",
+  "headword": "infographic",
+  "reading": "/ˈɪnfoʊɡɹˈæfɪk/",
+  "gloss": "インフォグラフィック(情報やデータを視覚的にわかりやすく示した図表)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "are the interactive infographics.",
+    "translation": "インタラクティブな インフォグラフィックです",
+    "cloze": "are the interactive ｟＿｠."
+   },
+   {
+    "text": "the unvaccinated people you see in infographics are not just hypothetical.",
+    "translation": "この図表で見る ワクチンを受けていない人々の割合は実際のものです",
+    "cloze": "the unvaccinated people you see in ｟＿｠ are not just hypothetical."
+   }
+  ],
+  "frequencyRank": 13887,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x58c34e51",
+  "courseId": "en-10-30k",
+  "headword": "islington",
+  "reading": null,
+  "gloss": "イズリントン(ロンドン北部の区名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Islington is a borough in north London known for its markets.",
+    "translation": "イズリントンはロンドン北部にある、市場で知られる区だ。",
+    "cloze": "｟＿｠ is a borough in north London known for its markets.",
+    "aiGenerated": true
+   },
+   {
+    "text": "We had dinner at a small restaurant in Islington.",
+    "translation": "私たちはイズリントンの小さなレストランで夕食をとった。",
+    "cloze": "We had dinner at a small restaurant in ｟＿｠.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 13890,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf24e73bf",
+  "courseId": "en-10-30k",
+  "headword": "iraqis",
+  "reading": "/ˌɪɹˈækiz/",
+  "gloss": "イラク人(々)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Many Iraqis have rebuilt their lives after years of conflict.",
+    "translation": "多くのイラク人が紛争の後、生活を再建してきた。",
+    "cloze": "Many ｟＿｠ have rebuilt their lives after years of conflict.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Iraqis welcomed the foreign visitors warmly.",
+    "translation": "イラクの人々は外国からの訪問者を温かく迎えた。",
+    "cloze": "The ｟＿｠ welcomed the foreign visitors warmly.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 14144,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x79168f31",
+  "courseId": "en-10-30k",
+  "headword": "irishman",
+  "reading": "/ˈaɪɹɪʃmən/",
+  "gloss": "アイルランド人(男性)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The Irishman replies.",
+    "translation": "アイルランド人は答える。",
+    "cloze": "The ｟＿｠ replies."
+   },
+   {
+    "text": "He is an Irishman by origin.",
+    "translation": "彼の出身はアイルランドである。",
+    "cloze": "He is an ｟＿｠ by origin."
+   }
+  ],
+  "frequencyRank": 14145,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x69000c48",
+  "courseId": "en-10-30k",
+  "headword": "iaea",
+  "reading": null,
+  "gloss": "国際原子力機関(IAEA)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Korea allowed an inspection by the IAEA.",
+    "translation": "朝鮮は国際原子力委員会の査察を受け入れた。",
+    "cloze": "Korea allowed an inspection by the ｟IAEA｠."
+   },
+   {
+    "text": "iranian diplomats have offered iaea inspectors full and unfettered access to the regime's nuclear sites in exchange for the lifting of economic sanctions.",
+    "translation": "イランの外交官は経済制裁の撤廃を 条件に IAEAの査察を申し出た そして現体制の核施設への立ち入りを許可した",
+    "cloze": "iranian diplomats have offered ｟iaea｠ inspectors full and unfettered access to the regime's nuclear sites in exchange for the lifting of economic sanctions."
+   }
+  ],
+  "frequencyRank": 15124,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x08278756",
+  "courseId": "en-10-30k",
+  "headword": "inappropriately",
+  "reading": "/ˌɪnəpɹˈɑpɹiətli/",
+  "gloss": "不適切に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "it's veneering commercial spaces, often inappropriately.",
+    "translation": "適切でない形で商用空間に流されていることもしばしばです",
+    "cloze": "it's veneering commercial spaces, often ｟inappropriately｠."
+   },
+   {
+    "text": "inappropriately large knife.",
+    "translation": "規格外のナイフよ。",
+    "cloze": "｟inappropriately｠ large knife."
+   }
+  ],
+  "frequencyRank": 15127,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x23e44cbe",
+  "courseId": "en-10-30k",
+  "headword": "inca",
+  "reading": "/ˈɪŋkə/",
+  "gloss": "インカ族,インカ帝国(南米古代文明)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Inca were religious people.",
+    "translation": "インカ人は信心深い民族だった。",
+    "cloze": "The ｟Inca｠ were religious people."
+   },
+   {
+    "text": "He was the ruler of the Inca Empire.",
+    "translation": "インカ帝国の支配者でした。",
+    "cloze": "He was the ruler of the ｟Inca｠ Empire."
+   }
+  ],
+  "frequencyRank": 15363,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x05dffee1",
+  "courseId": "en-10-30k",
+  "headword": "impatience",
+  "reading": "/ˌɪmpˈeɪʃəns/",
+  "gloss": "じれったさ、待ちきれないこと、我慢できないこと",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "He made a gesture of impatience.",
+    "translation": "彼はもう我慢がならないという身振りをした。",
+    "cloze": "He made a gesture of ｟＿｠."
+   },
+   {
+    "text": "The audience showed their impatience by stamping of feet.",
+    "translation": "聴衆は足を踏みならしていらだちを示した。",
+    "cloze": "The audience showed their ｟＿｠ by stamping of feet."
+   }
+  ],
+  "frequencyRank": 16126,
+  "category": "emotions"
+ },
+ {
+  "id": "en-10-30k-xafe713c6",
+  "courseId": "en-10-30k",
+  "headword": "icarus",
+  "reading": "/ˈɪkˌɝəs/",
+  "gloss": "イカロス(ギリシア神話で、蝋の翼で飛び太陽に近づきすぎて墜落した人物)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "birdman, like icarus...",
+    "translation": "バードマンは イカロスのような...",
+    "cloze": "birdman, like ｟＿｠..."
+   },
+   {
+    "text": "Icarus flew too close to the sun, and his wax wings melted.",
+    "translation": "イカロスは太陽に近づきすぎて、蝋の翼が溶けてしまった。",
+    "cloze": "｟＿｠ flew too close to the sun, and his wax wings melted.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 16404,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x6ab3c991",
+  "courseId": "en-10-30k",
+  "headword": "impressively",
+  "reading": "/ˌɪmpɹˈɛsɪvli/",
+  "gloss": "印象的に、感銘深く",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "i think are just incredibly impressively simple and interesting.",
+    "translation": "感銘を受けるほど シンプルで面白いものです",
+    "cloze": "i think are just incredibly ｟＿｠ simple and interesting."
+   },
+   {
+    "text": "but most impressively, he is one hell of a singer.",
+    "translation": "でも 最も印象的なのは 歌がとても下手なんですが",
+    "cloze": "but most ｟＿｠, he is one hell of a singer."
+   }
+  ],
+  "frequencyRank": 16409,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xa658e6e5",
+  "courseId": "en-10-30k",
+  "headword": "impactful",
+  "reading": null,
+  "gloss": "影響力のある,インパクトのある(やや口語的で議論の余地もある新しい語法)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "There's nothing really ｟＿｠ about this commercial, but I remember it well.",
+    "translation": "このコマーシャル、インパクトないけどよく覚えてる。",
+    "cloze": "There's nothing really ｟＿｠ about this commercial, but I remember it well."
+   },
+   {
+    "text": "in terms of whether ｟＿｠ is becoming common usage",
+    "translation": "問題は「impactful」が一般的に 使われており",
+    "cloze": "in terms of whether ｟＿｠ is becoming common usage"
+   }
+  ],
+  "frequencyRank": 16649,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x2b7ba19a",
+  "courseId": "en-10-30k",
+  "headword": "incheon",
+  "reading": "/ˈɪntʃɔn/",
+  "gloss": "仁川(インチョン)(韓国の都市;仁川国際空港がある)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "but, we're going to incheon airport right?",
+    "translation": "そうですよね? 仁川空港?",
+    "cloze": "but, we're going to ｟incheon｠ airport right?"
+   },
+   {
+    "text": "mom said she will be on the night flight. she'll arrive at incheon airport tomorrow.",
+    "translation": "オンマは夜の便に乗るそうだから 明日仁川空港に着くわ",
+    "cloze": "mom said she will be on the night flight. she'll arrive at ｟incheon｠ airport tomorrow."
+   }
+  ],
+  "frequencyRank": 16922,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xf5d53951",
+  "courseId": "en-10-30k",
+  "headword": "inexcusable",
+  "reading": "/ˌɪnɪkskjˈuzəbəl/",
+  "gloss": "許しがたい、言い訳の立たない",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "leaving your sister here and going overseas is inexcusable!",
+    "translation": "妹を置いて海外に行くなんて 言語道断だよ",
+    "cloze": "leaving your sister here and going overseas is ｟inexcusable｠!"
+   },
+   {
+    "text": "but redirecting a loan to his mistress's company is inexcusable.",
+    "translation": "愛人の会社に 融資を転貸するなんて言語道断だ",
+    "cloze": "but redirecting a loan to his mistress's company is ｟inexcusable｠."
+   }
+  ],
+  "frequencyRank": 16923,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x895bf16c",
+  "courseId": "en-10-30k",
+  "headword": "inuit",
+  "reading": "/ˈɪnut/",
+  "gloss": "イヌイット(北極圏に住む先住民族)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "in the case of norse greenland, the hostiles were the inuit",
+    "translation": "グリーンランドのノース人の場合 敵はイヌイット族でした",
+    "cloze": "in the case of norse greenland, the hostiles were the ｟inuit｠"
+   },
+   {
+    "text": "in the tiny inuit community of 200 inuit people",
+    "translation": "200人ほどのイヌイットの集落の中で",
+    "cloze": "in the tiny ｟inuit｠ community of 200 inuit people"
+   }
+  ],
+  "frequencyRank": 16928,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x551cf0be",
+  "courseId": "en-10-30k",
+  "headword": "invisibility",
+  "reading": "/ˌɪnvˌɪzəbˈɪləti/",
+  "gloss": "目に見えないこと、透明であること",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so i used invisibility magic to follow sigurd around since morning.",
+    "translation": "今朝からずっと透明化の魔法でシグルドをつけてたんだ",
+    "cloze": "so i used ｟invisibility｠ magic to follow sigurd around since morning."
+   },
+   {
+    "text": "the power of social invisibility.",
+    "translation": "存在を感じさせない力があるの",
+    "cloze": "the power of social ｟invisibility｠."
+   }
+  ],
+  "frequencyRank": 16929,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x7b65b720",
+  "courseId": "en-10-30k",
+  "headword": "interoperability",
+  "reading": null,
+  "gloss": "相互運用性(異なるシステム間で連携・互換動作できること)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Interoperability between the two systems allows them to share data easily.",
+    "translation": "2つのシステム間の相互運用性により、データを容易に共有できる。",
+    "cloze": "｟＿｠ between the two systems allows them to share data easily.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The new standard improves interoperability among different software platforms.",
+    "translation": "新しい規格は異なるソフトウェアプラットフォーム間の相互運用性を向上させる。",
+    "cloze": "The new standard improves ｟＿｠ among different software platforms.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17190,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x65f91f1d",
+  "courseId": "en-10-30k",
+  "headword": "imho",
+  "reading": null,
+  "gloss": "私見では,率直に言うと(In My Humble/Honest Opinionの略)",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "What does IMHO mean?",
+    "translation": "ＩＭＨＯってどういう意味なの？",
+    "cloze": "What does ｟＿｠ mean?"
+   },
+   {
+    "text": "IMHO, we should postpone the meeting until next week.",
+    "translation": "私見では、会議は来週まで延期すべきだと思う。",
+    "cloze": "｟＿｠, we should postpone the meeting until next week.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 17471,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xf8d2b365",
+  "courseId": "en-10-30k",
+  "headword": "ipcc",
+  "reading": null,
+  "gloss": "気候変動に関する政府間パネル(IPCC。国連気候変動の専門機関)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "which is far ahead of what the ipcc are talking about.",
+    "translation": "しかもそのデータというのは IPCCが発表した物よりも最新のデータなのです",
+    "cloze": "which is far ahead of what the ｟＿｠ are talking about."
+   },
+   {
+    "text": "and in paris, the ipcc released its study confirming man's impact on global warming.",
+    "translation": "パリでは、ipccが人間による温暖化への影響が確認された研究論文を公開しました",
+    "cloze": "and in paris, the ｟＿｠ released its study confirming man's impact on global warming."
+   }
+  ],
+  "frequencyRank": 17475,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x326072a0",
+  "courseId": "en-10-30k",
+  "headword": "ied",
+  "reading": null,
+  "gloss": "即席爆発装置(IED)、手製爆弾",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "tom's down. ied in the breaker box.",
+    "translation": "トムがやられた ブレーカーボックスにIED(手製爆弾)が",
+    "cloze": "tom's down. ｟＿｠ in the breaker box."
+   },
+   {
+    "text": "the iraqi insurgent had placed the ied",
+    "translation": "IED という即席爆弾が",
+    "cloze": "the iraqi insurgent had placed the ｟＿｠"
+   }
+  ],
+  "frequencyRank": 18072,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-xbb1c8f74",
+  "courseId": "en-10-30k",
+  "headword": "iit",
+  "reading": null,
+  "gloss": "インド工科大学(Indian Institute of Technology)の略。インドの名門工科大学群",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "speak of the iits, the indian institutes of technology",
+    "translation": "IIT(インド工科大学)に対してかつてMIT",
+    "cloze": "speak of the ｟＿｠s, the indian institutes of technology"
+   },
+   {
+    "text": "Many talented engineers in India study at an IIT before working abroad.",
+    "translation": "インドの多くの優秀な技術者は海外で働く前にIITで学ぶ。",
+    "cloze": "Many talented engineers in India study at an ｟＿｠ before working abroad.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18073,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-xdce01b52",
+  "courseId": "en-10-30k",
+  "headword": "iliad",
+  "reading": "/ˈɪliəd/",
+  "gloss": "イーリアス(ホメロス作とされる古代ギリシャの叙事詩。トロイア戦争を題材とする)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "whenever he's mentioned in the iliad",
+    "translation": "イーリアスにおいて言及される時はいつも、",
+    "cloze": "whenever he's mentioned in the ｟＿｠"
+   },
+   {
+    "text": "many of you have probably read the iliad.",
+    "translation": "『イーリアス』を読んだことがあるでしょうか",
+    "cloze": "many of you have probably read the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 18074,
+  "category": "school"
+ },
+ {
+  "id": "en-10-30k-x1eb04ada",
+  "courseId": "en-10-30k",
+  "headword": "iroquois",
+  "reading": "/ˈɪɹəkwˌɔɪ/",
+  "gloss": "イロコイ族、イロコイ同盟(北米先住民の部族連合)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "you know, the iroquois used to eat their enemies to take their strength.",
+    "translation": "イロコイ族は敵を食べていた、 その力を受け継ぐだめに。",
+    "cloze": "you know, the ｟＿｠ used to eat their enemies to take their strength."
+   },
+   {
+    "text": "huh? you don't know the helicopter called iroquois?",
+    "translation": "えッ 何でヘリコプター? あれ イロコイスってヘリコプター知らない?",
+    "cloze": "huh? you don't know the helicopter called ｟＿｠?"
+   }
+  ],
+  "frequencyRank": 18084,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x0144e293",
+  "courseId": "en-10-30k",
+  "headword": "issuers",
+  "reading": "/ˈɪʃuɚz/",
+  "gloss": "発行者、発行体(証券・カードなどの)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Credit card issuers charge different interest rates.",
+    "translation": "クレジットカード発行会社によって金利は異なる。",
+    "cloze": "Credit card ｟＿｠ charge different interest rates.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18086,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x9f3f4a02",
+  "courseId": "en-10-30k",
+  "headword": "ibs",
+  "reading": null,
+  "gloss": "過敏性腸症候群(Irritable Bowel Syndromeの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Stress can make IBS symptoms worse.",
+    "translation": "ストレスは過敏性腸症候群の症状を悪化させることがある。",
+    "cloze": "Stress can make ｟＿｠ symptoms worse.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18367,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-x63838eee",
+  "courseId": "en-10-30k",
+  "headword": "idlib",
+  "reading": null,
+  "gloss": "イドリブ(シリア北西部の都市・県。シリア内戦の激戦地として知られる)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The city of Idlib has been at the center of the Syrian conflict.",
+    "translation": "イドリブの街はシリア紛争の中心地となってきた。",
+    "cloze": "The city of ｟＿｠ has been at the center of the Syrian conflict.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18368,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x01e837d1",
+  "courseId": "en-10-30k",
+  "headword": "intercom",
+  "reading": "/ˈɪntɚkˌɑm/",
+  "gloss": "インターホン、構内通話装置",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "She pressed the intercom button and asked who was at the door.",
+    "translation": "彼女はインターホンのボタンを押し、誰が玄関にいるのか尋ねた。",
+    "cloze": "She pressed the ｟＿｠ button and asked who was at the door.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 18670,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x498350c8",
+  "courseId": "en-10-30k",
+  "headword": "internationale",
+  "reading": "/ɪntɚnˌæʃənˈɑli/",
+  "gloss": "インターナショナル(労働者階級の革命歌)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "all you have to do is wait until you're called upon to give a toast and then destroy the wedding hall, while singing the internationale.",
+    "translation": "あなたは乾杯の音頭を取るよう 依頼されるまで待てばいいだけです さらに「インターナショナル」を歌ってる 間 結婚式場を壊して下さい",
+    "cloze": "all you have to do is wait until you're called upon to give a toast and then destroy the wedding hall, while singing the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 18671,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x062cca65",
+  "courseId": "en-10-30k",
+  "headword": "igbo",
+  "reading": null,
+  "gloss": "イボ族(ナイジェリアの民族)；イボ語",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the first igbo bible was translated from english",
+    "translation": "最初のイボ語の聖書は 1800年代に",
+    "cloze": "the first ｟igbo｠ bible was translated from english"
+   },
+   {
+    "text": "was told about igbo, yoruba and hausa",
+    "translation": "イボ ヨルバ そしてハウサ族のうち",
+    "cloze": "was told about ｟igbo｠, yoruba and hausa"
+   }
+  ],
+  "frequencyRank": 18946,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xb8d6d063",
+  "courseId": "en-10-30k",
+  "headword": "innocently",
+  "reading": "/ˈɪnəsəntli/",
+  "gloss": "無邪気に、悪意なく",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "we thoroughly and innocently enjoyed those short summer days.",
+    "translation": "≪短い夏を 僕たちは 無邪気に 徹底的に楽しんだんだ≫",
+    "cloze": "we thoroughly and ｟innocently｠ enjoyed those short summer days."
+   },
+   {
+    "text": "that innocently opened window",
+    "translation": "あの無防備に開け放たれた窓は",
+    "cloze": "that ｟innocently｠ opened window"
+   }
+  ],
+  "frequencyRank": 18953,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x0ac59314",
+  "courseId": "en-10-30k",
+  "headword": "intensively",
+  "reading": "/ˌɪntˈɛnsɪvli/",
+  "gloss": "集中的に、徹底的に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "Yumi is studying English intensively.",
+    "translation": "由美は、英語を猛勉強中です。",
+    "cloze": "Yumi is studying English ｟＿｠."
+   },
+   {
+    "text": "trains intensively",
+    "translation": "集中して訓練し",
+    "cloze": "trains ｟＿｠"
+   }
+  ],
+  "frequencyRank": 19252,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-x27d11daf",
+  "courseId": "en-10-30k",
+  "headword": "ims",
+  "reading": null,
+  "gloss": "インスタントメッセージ,チャットメッセージ(IM)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "but there were 3,211 emails and ims and text messages",
+    "translation": "それでも メール 、インスタント・メッセージ テキスト・メッセージが3211通となりました",
+    "cloze": "but there were 3,211 emails and ｟ims｠ and text messages"
+   },
+   {
+    "text": "no contacts, no ims.",
+    "translation": "接触も無し",
+    "cloze": "no contacts, no ｟ims｠."
+   }
+  ],
+  "frequencyRank": 19837,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x33f6c701",
+  "courseId": "en-10-30k",
+  "headword": "indica",
+  "reading": "/ˈɪdəkə/",
+  "gloss": "インディカ種(大麻の品種の一つ。鎮静作用が強いとされる)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "well, not that. it's indica.",
+    "translation": "これは違う インディカだ",
+    "cloze": "well, not that. it's ｟indica｠."
+   },
+   {
+    "text": "Indica strains are known for their relaxing effects.",
+    "translation": "インディカ種はリラックス効果で知られている。",
+    "cloze": "｟Indica｠ strains are known for their relaxing effects.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 19838,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-xadd44ff7",
+  "courseId": "en-10-30k",
+  "headword": "interceptor",
+  "reading": "/ˌɪntɚsˈɛptɚ/",
+  "gloss": "迎撃機,迎撃艦",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "but there's no ship as can match the interceptor for speed .",
+    "translation": "でも インターセプター号に 速度で勝る船はない",
+    "cloze": "but there's no ship as can match the ｟interceptor｠ for speed ."
+   },
+   {
+    "text": "orion interceptors!",
+    "translation": "オリオンの迎撃船です",
+    "cloze": "orion ｟interceptors｠!"
+   }
+  ],
+  "frequencyRank": 19842,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-xcf21f25b",
+  "courseId": "en-10-30k",
+  "headword": "iberian",
+  "reading": "/aɪbˈɪɹiən/",
+  "gloss": "イベリアの,イベリア半島の(スペイン・ポルトガルを含む地域)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "and here's the iberian pig i've prepared for the prize winner.",
+    "translation": "優勝者にはね イベリコ豚 用意してんですよ。",
+    "cloze": "and here's the ｟iberian｠ pig i've prepared for the prize winner."
+   },
+   {
+    "text": "because we wholesale our iberian pig there.",
+    "translation": "うちのイベリコ豚 卸してるから。",
+    "cloze": "because we wholesale our ｟iberian｠ pig there."
+   }
+  ],
+  "frequencyRank": 20126,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-xdbfa182e",
+  "courseId": "en-10-30k",
+  "headword": "indra",
+  "reading": null,
+  "gloss": "インドラ(ヴェーダ・ヒンドゥー神話に登場する雷と戦いの神)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "so, indra arrived",
+    "translation": "インドラがやって来て",
+    "cloze": "so, ｟indra｠ arrived"
+   },
+   {
+    "text": "indra and ashra walked on different paths.",
+    "translation": "インドラとアシュラは違う道を歩いた。",
+    "cloze": "｟indra｠ and ashra walked on different paths."
+   }
+  ],
+  "frequencyRank": 20131,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xd991b69c",
+  "courseId": "en-10-30k",
+  "headword": "islamophobia",
+  "reading": null,
+  "gloss": "イスラム嫌悪,反イスラム感情(イスラム教徒への偏見・差別)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "so islamophobia isn't just the natural response to muslim terrorism",
+    "translation": "予想に反して イスラム嫌悪は イスラム教徒のテロリストに対する",
+    "cloze": "so ｟islamophobia｠ isn't just the natural response to muslim terrorism"
+   },
+   {
+    "text": "about how islamophobia affects me and my family.",
+    "translation": "イスラム嫌いが 私や家族に どう影響しているかお話ししました",
+    "cloze": "about how ｟islamophobia｠ affects me and my family."
+   }
+  ],
+  "frequencyRank": 20138,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x118cd7fc",
+  "courseId": "en-10-30k",
+  "headword": "instrumentals",
+  "reading": "/ˌɪnstɹəmˈɛntəlz/",
+  "gloss": "(ボーカルなしの)インストゥルメンタル曲、楽器演奏曲",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "This album has three instrumentals without any vocals.",
+    "translation": "このアルバムにはボーカルのない曲が3曲収録されている。",
+    "cloze": "This album has three ｟＿｠ without any vocals.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 20436,
+  "category": "activities"
+ },
+ {
+  "id": "en-10-30k-x90f9093b",
+  "courseId": "en-10-30k",
+  "headword": "ibadan",
+  "reading": null,
+  "gloss": "イバダン(ナイジェリア南西部の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "and this quest took me to a community in ibadan, where i lived",
+    "translation": "私が住んでいたイバダンにある サボというコミュニティを",
+    "cloze": "and this quest took me to a community in ｟＿｠, where i lived"
+   }
+  ],
+  "frequencyRank": 20707,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x1fb35fb8",
+  "courseId": "en-10-30k",
+  "headword": "indochina",
+  "reading": "/ˌɪndoʊtʃˈaɪnə/",
+  "gloss": "インドシナ(東南アジアの地域。ベトナム・ラオス・カンボジアなど)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "last year the us government gave $210 million in military assistance to the french in indochina.",
+    "translation": "昨年 米国政府はインドシナのフランス人に対して 2億1000万ドルを経済援助した",
+    "cloze": "last year the us government gave $210 million in military assistance to the french in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 20713,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x6389061e",
+  "courseId": "en-10-30k",
+  "headword": "inglewood",
+  "reading": "/ˈɪŋɡəlwˌʊd/",
+  "gloss": "イングルウッド(米国カリフォルニア州の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "inglewood by noon.",
+    "translation": "昼までにイングルウッドだ",
+    "cloze": "｟＿｠ by noon."
+   },
+   {
+    "text": "actually, i'm in my office, miss lorna, on my way to the courthouse in inglewood.",
+    "translation": "ああ 俺は今オフィスだ ローナ イングレウッド裁判所に向かう",
+    "cloze": "actually, i'm in my office, miss lorna, on my way to the courthouse in ｟＿｠."
+   }
+  ],
+  "frequencyRank": 20715,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x06a61d2f",
+  "courseId": "en-10-30k",
+  "headword": "iga",
+  "reading": null,
+  "gloss": "伊賀(三重県の地名。忍者(伊賀忍者)で有名)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "the iga of tsubagakure, and the koga of manjidani.",
+    "translation": "つばがく まんじだに 伊賀 鍔隠れ 甲賀 卍谷と呼ばれ",
+    "cloze": "the ｟＿｠ of tsubagakure, and the koga of manjidani."
+   },
+   {
+    "text": "why is it that iga and koga, have to fight?",
+    "translation": "なぜ 伊賀と甲賀は",
+    "cloze": "why is it that ｟＿｠ and koga, have to fight?"
+   }
+  ],
+  "frequencyRank": 21646,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x988ce3e0",
+  "courseId": "en-10-30k",
+  "headword": "ilo",
+  "reading": "/ˈaɪloʊ/",
+  "gloss": "国際労働機関(ILO、国連の専門機関)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The ILO works to promote fair labor standards around the world.",
+    "translation": "ILOは世界中で公正な労働基準を促進するために活動している。",
+    "cloze": "The ｟＿｠ works to promote fair labor standards around the world.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 21648,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x84af155b",
+  "courseId": "en-10-30k",
+  "headword": "iffy",
+  "reading": "/ˈɪfi/",
+  "gloss": "不確かな,疑わしい;あやしい",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "It's kind of iffy, don't you think?",
+    "translation": "なんか微妙でしょ？",
+    "cloze": "It's kind of ｟iffy｠, don't you think?"
+   },
+   {
+    "text": "\"When did you buy this minced meat?\" \"The day before yesterday.\" \"Looks iffy. Chuck it.\" \"But you should be able to use it in a fry-up.\"",
+    "translation": "「このひき肉って、いつ買ったの？」「一昨日よ」「やばそう。ポイしろポイ」「いや、炒めれば使えるはず」",
+    "cloze": "\"When did you buy this minced meat?\" \"The day before yesterday.\" \"Looks ｟iffy｠. Chuck it.\" \"But you should be able to use it in a fry-up.\""
+   }
+  ],
+  "frequencyRank": 21984,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xc0c198bd",
+  "courseId": "en-10-30k",
+  "headword": "iberia",
+  "reading": "/aɪbˈɪɹiə/",
+  "gloss": "イベリア半島",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Iberia is the peninsula that includes Spain and Portugal.",
+    "translation": "イベリアはスペインとポルトガルを含む半島だ。",
+    "cloze": "｟Iberia｠ is the peninsula that includes Spain and Portugal.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 22642,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x2e7114c4",
+  "courseId": "en-10-30k",
+  "headword": "icky",
+  "reading": null,
+  "gloss": "気持ち悪い、いやな;ねばねばした",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "a lot of illegal, icky shit.",
+    "translation": "沢山の違法 ひどく不快な事",
+    "cloze": "a lot of illegal, ｟icky｠ shit."
+   },
+   {
+    "text": "i burned myself. feel a little icky today.",
+    "translation": "火傷をしちゃって 今日はついてない",
+    "cloze": "i burned myself. feel a little ｟icky｠ today."
+   }
+  ],
+  "frequencyRank": 22643,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x86fc7156",
+  "courseId": "en-10-30k",
+  "headword": "identically",
+  "reading": null,
+  "gloss": "同一に、まったく同様に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "the present and the future, you speak about them identically.",
+    "translation": "現在と未来が一体化しています",
+    "cloze": "the present and the future, you speak about them ｟identically｠."
+   },
+   {
+    "text": "if that subtly nudges you to feel about them identically",
+    "translation": "日頃から現在と未来を同一視していると",
+    "cloze": "if that subtly nudges you to feel about them ｟identically｠"
+   }
+  ],
+  "frequencyRank": 22644,
+  "category": "adverbs"
+ },
+ {
+  "id": "en-10-30k-xeead5af7",
+  "courseId": "en-10-30k",
+  "headword": "israelite",
+  "reading": "/ˈɪzɹəlˌaɪt/",
+  "gloss": "イスラエル人,ユダヤ人(特に古代の)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Here is a true Israelite, in whom there is nothing false.",
+    "translation": "これこそ、本当のイスラエル人だ。彼の内には偽りがない。",
+    "cloze": "Here is a true ｟＿｠, in whom there is nothing false."
+   },
+   {
+    "text": "When Jesus saw Nathanael approaching, he said of him, \"Here truly is an Israelite in whom there is no deceit.\"",
+    "translation": "イエスはナタナエルが自分の方に来るのを見て、彼について言われた「見よ、あの人こそ、ほんとうのイスラエル人である。その心には偽りがない」。",
+    "cloze": "When Jesus saw Nathanael approaching, he said of him, \"Here truly is an ｟＿｠ in whom there is no deceit.\""
+   }
+  ],
+  "frequencyRank": 22659,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-xef257e35",
+  "courseId": "en-10-30k",
+  "headword": "iguana",
+  "reading": "/aɪɡwˈɑnə/",
+  "gloss": "イグアナ",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Iguanas are reptiles.",
+    "translation": "イグアナは爬虫類だよ。",
+    "cloze": "｟＿｠ are reptiles."
+   },
+   {
+    "text": "i studied marine iguanas at that point.",
+    "translation": "同じ場所でウミイグアナの研究もしましたが",
+    "cloze": "i studied marine ｟＿｠ at that point."
+   }
+  ],
+  "frequencyRank": 23305,
+  "category": "animals"
+ },
+ {
+  "id": "en-10-30k-x1db31782",
+  "courseId": "en-10-30k",
+  "headword": "init",
+  "reading": null,
+  "gloss": "初期化;(プログラミングで)初期化処理・関数(initializeの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The init script runs automatically when the system boots.",
+    "translation": "initスクリプトはシステム起動時に自動的に実行される。",
+    "cloze": "The ｟＿｠ script runs automatically when the system boots.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23310,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-xeee69748",
+  "courseId": "en-10-30k",
+  "headword": "innit",
+  "reading": null,
+  "gloss": "でしょ、だよね(isn't it?のくだけた略、主に英国口語)",
+  "pos": "感嘆詞",
+  "examples": [
+   {
+    "text": "Beautiful day, innit?",
+    "translation": "いい天気ですね。",
+    "cloze": "Beautiful day, ｟＿｠?"
+   },
+   {
+    "text": "It's a great plan, innit.",
+    "translation": "すごく良く練られた計画じゃん。",
+    "cloze": "It's a great plan, ｟＿｠."
+   }
+  ],
+  "frequencyRank": 23311,
+  "category": "interjections"
+ },
+ {
+  "id": "en-10-30k-xddf12500",
+  "courseId": "en-10-30k",
+  "headword": "italic",
+  "reading": "/aɪtˈælɪk/",
+  "gloss": "イタリック体の;斜字体",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "here's the lowercase h from georgia italic.",
+    "translation": "これはジョージア・イタリックの 小文字の「h」です",
+    "cloze": "here's the lowercase h from georgia ｟＿｠."
+   },
+   {
+    "text": "Titles of books are usually written in italic type.",
+    "translation": "本のタイトルは通常イタリック体で書かれる。",
+    "cloze": "Titles of books are usually written in ｟＿｠ type.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23632,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x527996cf",
+  "courseId": "en-10-30k",
+  "headword": "itll",
+  "reading": null,
+  "gloss": "それは〜だろう、それは〜でしょう(it will の短縮形)",
+  "pos": "代名詞",
+  "examples": [
+   {
+    "text": "itll be all right!",
+    "translation": "大丈夫ですから!",
+    "cloze": "｟＿｠ be all right!"
+   },
+   {
+    "text": "It'll take about ten minutes to get there.",
+    "translation": "そこに着くまで10分くらいかかるだろう。",
+    "cloze": "｟＿｠ take about ten minutes to get there.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 23633,
+  "category": "grammar"
+ },
+ {
+  "id": "en-10-30k-x389a239d",
+  "courseId": "en-10-30k",
+  "headword": "ibd",
+  "reading": null,
+  "gloss": "炎症性腸疾患(Inflammatory Bowel Disease)の略称。クローン病・潰瘍性大腸炎などを含む",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "IBD includes both Crohn's disease and ulcerative colitis.",
+    "translation": "IBDにはクローン病と潰瘍性大腸炎の両方が含まれる。",
+    "cloze": "｟＿｠ includes both Crohn's disease and ulcerative colitis.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24609,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xbdd2b9df",
+  "courseId": "en-10-30k",
+  "headword": "icann",
+  "reading": null,
+  "gloss": "ICANN(インターネットのドメイン名やIPアドレスを管理する国際的な非営利組織)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "thank you chris. i'm rod beckstrom, ceo of icann.",
+    "translation": "私はロッド・ベックストームです icannのceoです",
+    "cloze": "thank you chris. i'm rod beckstrom, ceo of ｟＿｠."
+   }
+  ],
+  "frequencyRank": 24610,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x835da595",
+  "courseId": "en-10-30k",
+  "headword": "igg",
+  "reading": null,
+  "gloss": "IgG、免疫グロブリンG(血液中に最も多く存在する抗体の一種)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "IgG antibodies protect the body against infection.",
+    "translation": "IgG抗体は体を感染から守る。",
+    "cloze": "｟＿｠ antibodies protect the body against infection.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24611,
+  "category": "body"
+ },
+ {
+  "id": "en-10-30k-xd734103f",
+  "courseId": "en-10-30k",
+  "headword": "itis",
+  "reading": null,
+  "gloss": "(接尾辞)炎症を意味する接尾辞(例: appendicitis=虫垂炎、bronchitis=気管支炎)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "in english, itis is a suffix that signifies infection.",
+    "translation": "英語で\"itis\"とは 体の一部に生じる炎症のことで",
+    "cloze": "in english, ｟＿｠ is a suffix that signifies infection."
+   },
+   {
+    "text": "Doctors use itis to describe inflammation, as in tonsillitis.",
+    "translation": "医師は炎症を表すのに itis という語(接尾辞)を使う。扁桃炎のように。",
+    "cloze": "Doctors use ｟＿｠ to describe inflammation, as in tonsillitis.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24623,
+  "category": "affixes"
+ },
+ {
+  "id": "en-10-30k-xde65b072",
+  "courseId": "en-10-30k",
+  "headword": "inactivated",
+  "reading": "/ˌɪnˈæktɪvˌeɪtɪd/",
+  "gloss": "不活化された,働きを止められた",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The vaccine contains an inactivated virus.",
+    "translation": "そのワクチンには不活化されたウイルスが含まれている。",
+    "cloze": "The vaccine contains an ｟inactivated｠ virus.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24978,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xe810cf38",
+  "courseId": "en-10-30k",
+  "headword": "indonesians",
+  "reading": "/ˌɪndoʊnˈisiənz/",
+  "gloss": "インドネシア人(インドネシアの国民・民族)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Indonesians celebrate their independence day every August 17th.",
+    "translation": "インドネシア人は毎年8月17日に独立記念日を祝う。",
+    "cloze": "｟Indonesians｠ celebrate their independence day every August 17th.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24982,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x3904850f",
+  "courseId": "en-10-30k",
+  "headword": "infographics",
+  "reading": null,
+  "gloss": "インフォグラフィック(図解でわかりやすく伝える視覚資料)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The report uses infographics to explain the data clearly.",
+    "translation": "その報告書はデータを分かりやすく説明するためにインフォグラフィックを使っている。",
+    "cloze": "The report uses ｟infographics｠ to explain the data clearly.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 24983,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-xdd8fba9d",
+  "courseId": "en-10-30k",
+  "headword": "indore",
+  "reading": null,
+  "gloss": "インドール(インド中部マディヤプラデーシュ州最大の都市)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Indore is one of the largest cities in central India.",
+    "translation": "インドールはインド中部最大級の都市の一つです。",
+    "cloze": "｟Indore｠ is one of the largest cities in central India.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 26106,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x39fe06d3",
+  "courseId": "en-10-30k",
+  "headword": "islamism",
+  "reading": null,
+  "gloss": "イスラム主義(政治思想としてのイスラム教)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "in the '80s and '90s when islamism started in the region",
+    "translation": "80・90年代に イスラム原理主義が",
+    "cloze": "in the '80s and '90s when ｟islamism｠ started in the region"
+   },
+   {
+    "text": "so islamism is the problematic idea",
+    "translation": "つまり、今のイスラム教は、",
+    "cloze": "so ｟islamism｠ is the problematic idea"
+   }
+  ],
+  "frequencyRank": 26523,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x2ad1d5f1",
+  "courseId": "en-10-30k",
+  "headword": "igloo",
+  "reading": "/ˈɪɡlu/",
+  "gloss": "イグルー(雪や氷で作るドーム型の家)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "I want to build an igloo.",
+    "translation": "かまくらを作りたい。",
+    "cloze": "I want to build an ｟＿｠."
+   },
+   {
+    "text": "Tom built an igloo in his backyard.",
+    "translation": "トムは裏庭にかまくらを作った。",
+    "cloze": "Tom built an ｟＿｠ in his backyard."
+   }
+  ],
+  "frequencyRank": 26941,
+  "category": "home"
+ },
+ {
+  "id": "en-10-30k-x72cc38e7",
+  "courseId": "en-10-30k",
+  "headword": "iff",
+  "reading": null,
+  "gloss": "敵味方識別装置(IFF;Identification Friend or Foe);(論理学)～の場合に限り(if and only ifの略)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "no iff response!",
+    "translation": "iff応答無し 敵と判断",
+    "cloze": "no ｟＿｠ response!"
+   },
+   {
+    "text": "iff confirmed.",
+    "translation": "iff 確認",
+    "cloze": "｟＿｠ confirmed."
+   }
+  ],
+  "frequencyRank": 27353,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x3c68f185",
+  "courseId": "en-10-30k",
+  "headword": "iucn",
+  "reading": null,
+  "gloss": "国際自然保護連合(IUCN;絶滅危惧種のレッドリストで知られる)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "now the fish is on the iucn red list.",
+    "translation": "国際自然保護連合の レッドリストに載っています",
+    "cloze": "now the fish is on the ｟＿｠ red list."
+   },
+   {
+    "text": "they're now listed as vulnerable under the iucn.",
+    "translation": "現在ウバザメはIUCNで絶滅危惧種とされています",
+    "cloze": "they're now listed as vulnerable under the ｟＿｠."
+   }
+  ],
+  "frequencyRank": 27361,
+  "category": "nature"
+ },
+ {
+  "id": "en-10-30k-x8bc96846",
+  "courseId": "en-10-30k",
+  "headword": "ibsen",
+  "reading": "/ˈɪbsən/",
+  "gloss": "イプセン(ノルウェーの劇作家、『人形の家』の作者)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Ibsen's plays often explore social issues.",
+    "translation": "イプセンの戯曲はしばしば社会問題を描いている。",
+    "cloze": "｟＿｠'s plays often explore social issues.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27777,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x93348141",
+  "courseId": "en-10-30k",
+  "headword": "impolite",
+  "reading": "/ˌɪmpəlˈaɪt/",
+  "gloss": "無作法な、失礼な",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "I was impolite.",
+    "translation": "私は無礼だった。",
+    "cloze": "I was ｟＿｠."
+   },
+   {
+    "text": "It would be impolite to refuse.",
+    "translation": "断るのは失礼なんじゃないかな。",
+    "cloze": "It would be ｟＿｠ to refuse."
+   }
+  ],
+  "frequencyRank": 27780,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-xaeb94ab9",
+  "courseId": "en-10-30k",
+  "headword": "inbetween",
+  "reading": null,
+  "gloss": "中間の、間の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "inbetween male and female, we is exist.",
+    "translation": "男と女の間に 俺たちみたいなISがいる。",
+    "cloze": "｟＿｠ male and female, we is exist."
+   },
+   {
+    "text": "now i want something inbetween.",
+    "translation": "今の私は普通の 生活を望みます",
+    "cloze": "now i want something ｟＿｠."
+   }
+  ],
+  "frequencyRank": 27781,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x895ecd99",
+  "courseId": "en-10-30k",
+  "headword": "installers",
+  "reading": "/ˌɪnstˈɔlɚz/",
+  "gloss": "設置業者、取り付け業者;(ソフトウェアの)インストーラー",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "The installers will arrive tomorrow morning to set up the new windows.",
+    "translation": "設置業者は明日の朝、新しい窓を取り付けに来ます。",
+    "cloze": "The ｟＿｠ will arrive tomorrow morning to set up the new windows.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27783,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x3820726a",
+  "courseId": "en-10-30k",
+  "headword": "ionian",
+  "reading": null,
+  "gloss": "イオニアの(古代ギリシャの地方・イオニア海に関する)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The Ionian Sea lies between Italy and Greece.",
+    "translation": "イオニア海はイタリアとギリシャの間にある。",
+    "cloze": "The ｟＿｠ Sea lies between Italy and Greece.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 27785,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x8561b3c1",
+  "courseId": "en-10-30k",
+  "headword": "intermodal",
+  "reading": "/ˌɪntɚmˈoʊdəl/",
+  "gloss": "複合輸送の(異なる輸送手段を組み合わせた)",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The port handles intermodal containers that move by ship, rail, and truck.",
+    "translation": "その港は船・鉄道・トラックで運ばれる複合輸送用コンテナを扱っている。",
+    "cloze": "The port handles ｟＿｠ containers that move by ship, rail, and truck.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28185,
+  "category": "transport"
+ },
+ {
+  "id": "en-10-30k-x1141917d",
+  "courseId": "en-10-30k",
+  "headword": "intraday",
+  "reading": "/ˌɪntɹədˈeɪ/",
+  "gloss": "(取引などが)一日の内の、日中の",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "The stock showed high intraday volatility before closing lower.",
+    "translation": "その株は取引時間中に大きく変動し、安値で引けた。",
+    "cloze": "The stock showed high ｟＿｠ volatility before closing lower.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28186,
+  "category": "work"
+ },
+ {
+  "id": "en-10-30k-x8dea6a95",
+  "courseId": "en-10-30k",
+  "headword": "innsbruck",
+  "reading": null,
+  "gloss": "インスブルック(オーストリア・チロル州の都市、冬季オリンピック開催地)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "Innsbruck hosted the Winter Olympics twice.",
+    "translation": "インスブルックは冬季オリンピックを2度開催した。",
+    "cloze": "｟＿｠ hosted the Winter Olympics twice.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28596,
+  "category": "places"
+ },
+ {
+  "id": "en-10-30k-x446734f0",
+  "courseId": "en-10-30k",
+  "headword": "intros",
+  "reading": "/ˈɪntɹoʊz/",
+  "gloss": "イントロ,導入部;(複数人の)自己紹介",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "Let's skip the intros and get straight to business.",
+    "translation": "自己紹介は飛ばして早速本題に入りましょう。",
+    "cloze": "Let's skip the ｟＿｠ and get straight to business.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 28599,
+  "category": "communication"
+ },
+ {
+  "id": "en-10-30k-x8f969c45",
+  "courseId": "en-10-30k",
+  "headword": "irishmen",
+  "reading": null,
+  "gloss": "アイルランド人(男性)",
+  "pos": "名詞",
+  "examples": [
+   {
+    "text": "free irishmen will never bow down before the english crown.",
+    "translation": "アイルランドは イギリスに屈しない",
+    "cloze": "free ｟＿｠ will never bow down before the english crown."
+   },
+   {
+    "text": "Many Irishmen emigrated to America in the 19th century.",
+    "translation": "多くのアイルランド人が19世紀にアメリカへ移住した。",
+    "cloze": "Many ｟＿｠ emigrated to America in the 19th century.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29004,
+  "category": "people"
+ },
+ {
+  "id": "en-10-30k-x568a458d",
+  "courseId": "en-10-30k",
+  "headword": "incas",
+  "reading": "/ˈɪŋkəz/",
+  "gloss": "インカ族、インカ帝国(南米アンデスに栄えた古代文明)",
+  "pos": "固有名詞",
+  "examples": [
+   {
+    "text": "The Incas built an extensive network of roads across the Andes.",
+    "translation": "インカ帝国はアンデス山脈一帯に広大な道路網を築いた。",
+    "cloze": "The ｟＿｠ built an extensive network of roads across the Andes.",
+    "aiGenerated": true
+   },
+   {
+    "text": "The Incas worshipped the sun god Inti as their supreme deity.",
+    "translation": "インカ帝国は太陽神インティを最高神として崇めていた。",
+    "cloze": "The ｟＿｠ worshipped the sun god Inti as their supreme deity.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29432,
+  "category": "society"
+ },
+ {
+  "id": "en-10-30k-x44a56bd1",
+  "courseId": "en-10-30k",
+  "headword": "itty",
+  "reading": "/ˈɪti/",
+  "gloss": "(itty bittyで)とても小さい、ちっちゃな",
+  "pos": "形容詞",
+  "examples": [
+   {
+    "text": "that itty bitty guy's wife is",
+    "translation": "あの ちっちゃいのの嫁は",
+    "cloze": "that ｟＿｠ bitty guy's wife is"
+   },
+   {
+    "text": "you don't think that itty bitty thing of a man",
+    "translation": "あんな ちっちゃい ちっちゃいのに お前",
+    "cloze": "you don't think that ｟＿｠ bitty thing of a man"
+   }
+  ],
+  "frequencyRank": 29440,
+  "category": "descriptors"
+ },
+ {
+  "id": "en-10-30k-x6eb054c1",
+  "courseId": "en-10-30k",
+  "headword": "inaccurately",
+  "reading": "/ˌɪnˈækjɚətli/",
+  "gloss": "不正確に",
+  "pos": "副詞",
+  "examples": [
+   {
+    "text": "He described the accident inaccurately to the police.",
+    "translation": "彼は事故の様子を警察に不正確に説明した。",
+    "cloze": "He described the accident ｟inaccurately｠ to the police.",
+    "aiGenerated": true
+   }
+  ],
+  "frequencyRank": 29818,
+  "category": "adverbs"
+ }
+]

@@ -1,6 +1,17 @@
 import Dexie, { type Table } from 'dexie'
 import type { ReviewGrade } from '../srs/scheduler'
-import type { CourseId, CourseSummary, DailyStat, MetaRow, WordProgress } from '../types'
+import type { AddedCard, CourseId, CourseSummary, DailyStat, MetaRow, WordProgress } from '../types'
+
+/**
+ * 検索して追加した語の cardId かどうか（docs/word-request-design.md §3）。
+ * `<courseId>-x<8桁16進>` 形式で、パイプラインの連番採番（id_registry.py・数字サフィックスのみ）
+ * とは非交差——`isValidVocabulary` 相当の判定は要らず、パターンだけで安全に見分けられる。
+ * コース本体の「レベル感を示す数字」（メーター・目盛り・被覆率・管理画面送信）から
+ * 追加語を除外するための唯一の判定関数。summarize() と store/progress.ts の両方から使う。
+ */
+export function isExtraCardId(cardId: string): boolean {
+  return /-x[0-9a-f]{8}$/.test(cardId)
+}
 
 /**
  * ローカルファーストの進捗ストア（IndexedDB）。
@@ -18,6 +29,7 @@ export class VocabDB extends Dexie {
   summary!: Table<CourseSummary, string>
   dailyStats!: Table<DailyStat, [string, string]>
   meta!: Table<MetaRow, string>
+  addedCards!: Table<AddedCard, string>
 
   constructor() {
     super('vocab-trainer')
@@ -46,6 +58,11 @@ export class VocabDB extends Dexie {
       await tx.table('summary').clear()
       await tx.table('summary').bulkPut(summarize(rows))
     })
+    // v4: addedCards（検索して自分で追加した語。docs/word-request-design.md）。
+    // 主キー=cardId、courseId で絞り込めるようインデックスを付ける（progress 系と同じ形）。
+    this.version(4).stores({
+      addedCards: 'cardId, courseId',
+    })
   }
 }
 
@@ -64,6 +81,10 @@ export function summarize(rows: WordProgress[]): CourseSummary[] {
   const byCourse = new Map<string, CourseSummary>()
   for (const r of rows) {
     if (r.status === 'new') continue
+    // 自分で追加した語はコースの「レベル感を示す数字」（メーター・被覆率・管理画面送信）に
+    // 混ぜない（docs/word-request-design.md §4）。学習盤面・単語一覧では変わらず使える——
+    // ここは progress → summary の集計だけを絞る。
+    if (isExtraCardId(r.cardId)) continue
     let s = byCourse.get(r.courseId)
     if (!s) {
       s = emptySummary(r.courseId)

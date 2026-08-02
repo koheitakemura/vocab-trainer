@@ -27,7 +27,8 @@ import {
   type UserRow,
 } from './store'
 import type { AdminUser, Env, Identity } from './types'
-import { ValidationError, cleanText, normalizeEmail, parseCourseIdList, parseSyncInput } from './validate'
+import { ValidationError, cleanText, normalizeEmail, parseCourseIdList, parseSyncInput, parseWordGenInput } from './validate'
+import { WordGenError, generateOrReuseCard } from './wordgen'
 
 /**
  * 管理者画面のバックエンド。
@@ -53,6 +54,7 @@ function errorResponse(err: unknown): Response {
   if (err instanceof ValidationError) return json({ error: err.message }, 400)
   if (err instanceof CloudflareError) return json({ error: err.message }, err.status)
   if (err instanceof SnapshotError) return json({ error: err.message }, err.status)
+  if (err instanceof WordGenError) return json({ error: err.message }, err.status)
   console.error('unhandled API error:', err)
   return json({ error: 'サーバー側でエラーが発生しました' }, 500)
 }
@@ -123,6 +125,8 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
       return await handleSnapshotGet(env, identity)
     case 'GET /api/snapshot/meta':
       return await handleSnapshotMeta(env, identity)
+    case 'POST /api/words/generate':
+      return await handleWordGenerate(request, env, identity)
     case 'GET /api/admin/users':
       return await handleListUsers(env, identity)
     case 'POST /api/admin/users':
@@ -261,6 +265,18 @@ async function handleSnapshotMeta(env: Env, identity: Identity): Promise<Respons
   const obj = await env.SNAPSHOTS.head(latestKey(identity.email))
   if (!obj) return json({ exists: false })
   return json({ exists: true, uploadedAt: obj.uploaded.toISOString(), bytes: obj.size })
+}
+
+/**
+ * 検索して見つからない語をAI生成する（docs/word-request-design.md §7・worker/wordgen.ts）。
+ * 認証・アクティブ判定は既存の進捗系エンドポイントと同じ ensureActiveUser を通す
+ * （生成も「学習を続けるための機能」として同じ信頼境界に置く）。
+ */
+async function handleWordGenerate(request: Request, env: Env, identity: Identity): Promise<Response> {
+  await ensureActiveUser(env, identity)
+  const { courseId, headword } = parseWordGenInput(await readJson(request))
+  const { card, source } = await generateOrReuseCard(env, identity, courseId, headword)
+  return json({ ok: true, card, source })
 }
 
 /**
