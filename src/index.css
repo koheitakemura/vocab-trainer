@@ -269,7 +269,7 @@ body {
      margin-topだと箱の高さ自体が変わり中央寄せの計算に巻き込まれるため、
      レイアウトに影響しないposition:relativeでずらす。 */
   position: relative;
-  top: 4px;
+  top: 2.5px;
   border-left: 4.5px solid transparent;
   border-right: 4.5px solid transparent;
   border-top: 5px solid var(--text-faint);
