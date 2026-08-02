@@ -442,18 +442,26 @@ export function CourseScreen({
             <VocabLockup className="topbrand" size={26} variant="compact" />
             {/* コースが1つしかない間はドロップダウンを出さず見出しのまま（選ぶ意味がないUIを避ける） */}
             {courses.length > 1 ? (
-              <select
-                className="course-select"
-                aria-label={t.selectCourseAria}
-                value={course.id}
-                onChange={(e) => onSelectCourse(e.target.value as CourseId)}
-              >
-                {courses.map((c) => (
-                  <option key={c.id} value={c.id}>
-                    {c.title}
-                  </option>
-                ))}
-              </select>
+              // 見えている文字は span（今のコース名の幅ちょうど）、その上に透明な
+              // select を重ねる。select は最長の選択肢の幅になるので、そのまま出すと
+              // ▾ が文字から離れてしまうため。選択 UI は OS ネイティブのまま。
+              <span className="course-picker">
+                <span className="course-picker-label" aria-hidden="true">
+                  {course.title}
+                </span>
+                <select
+                  className="course-select"
+                  aria-label={t.selectCourseAria}
+                  value={course.id}
+                  onChange={(e) => onSelectCourse(e.target.value as CourseId)}
+                >
+                  {courses.map((c) => (
+                    <option key={c.id} value={c.id}>
+                      {c.title}
+                    </option>
+                  ))}
+                </select>
+              </span>
             ) : (
               <h1 className="course-name">{course.title}</h1>
             )}

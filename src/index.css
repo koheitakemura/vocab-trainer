@@ -130,11 +130,9 @@ body {
   min-width: 0;
 }
 
-/* .course-select は縦積みだった頃の align-self:flex-start を持っている。
-   横並びになった今はそれが効くと上に張り付くので、行の中央に戻す。
-   幅が足りないときはコース名側だけを詰めて省略記号にする（メーターを押し出さない） */
+/* 幅が足りないときはコース名側だけを詰めて省略記号にする（メーターを押し出さない） */
 .course-head > .course-name,
-.course-head > .course-select {
+.course-head > .course-picker {
   min-width: 0;
   align-self: center;
   overflow: hidden;
@@ -227,35 +225,69 @@ body {
   color: var(--text-dim);
 }
 
-/* 複数コース選択時の切替プルダウン（.course-name と同じ見た目 + ▾） */
-.course-select {
-  align-self: flex-start;
+/* 複数コース選択時の切替プルダウン（.course-name と同じ見た目 + ▾）。
+   ネイティブの <select> は **いちばん長い選択肢に合わせた幅** になるため、短いコース名を
+   選ぶと ▾ が文字からずっと右へ離れて見える（実測: 選択中の文字 235px に対して箱は 337px）。
+   そこで「見えている文字」は普通の span で描き、透明にした select をその上に重ねる。
+   選択 UI は OS ネイティブのまま、幅だけが今のコース名にぴったり合う。 */
+.course-picker {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
   margin: 0 0 2px;
-  font: inherit;
+  padding: 2px 6px 2px 4px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.course-picker-label {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0;
   color: var(--text-dim);
-  background: transparent;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  padding: 2px 22px 2px 4px;
-  cursor: pointer;
-  max-width: 100%;
-  appearance: none;
-  -webkit-appearance: none;
-  background-image: linear-gradient(45deg, transparent 50%, var(--text-faint) 50%),
-    linear-gradient(135deg, var(--text-faint) 50%, transparent 50%);
-  background-position: right 9px center, right 4px center;
-  background-size: 5px 5px, 5px 5px;
-  background-repeat: no-repeat;
-  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color 0.15s ease;
 }
 
-.course-select:hover {
-  color: var(--text);
+/* ▾（旧実装は select の background-image で描いていたが、箱の右端に貼り付くので使えない） */
+.course-picker::after {
+  content: '';
+  flex: none;
+  width: 0;
+  height: 0;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  border-top: 5px solid var(--text-faint);
+}
+
+.course-picker:hover {
   border-color: var(--border);
   background-color: var(--surface);
+}
+
+.course-picker:hover .course-picker-label {
+  color: var(--text);
+}
+
+/* キーボード操作のフォーカスは、透明な select ではなく枠側に出す */
+.course-picker:has(.course-select:focus-visible) {
+  border-color: var(--accent);
+}
+
+.course-select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  font: inherit;
 }
 
 /* ネイティブの <select> は、閉じている見た目を CSS で暗くしても、**開いたときのリストは
