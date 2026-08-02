@@ -124,8 +124,14 @@ async function uploadIfDue(): Promise<void> {
  * **pagehide / keepalive は使わない**——keepalive 付き fetch の本文上限は 64KiB で、
  * MB 級になりうるスナップショットでは静かに送信が打ち切られる。visibilitychange(hidden) と
  * 可視中の定期タイマーだけに頼り、「閉じる瞬間に必ず送る」ことは最初から狙わない。
+ *
+ * 起動直後に1回だけ試す（6秒後）——これが無いと、タブを開いたまま学習し続ける限り
+ * 「隠す」も「30分経過」も起きず、shouldUpload() が stale=true を返せる状態のまま
+ * 永久にアップロードされない（実機で確認済みの不具合）。3秒はコース JSON の取得・
+ * sync.ts 自身の初回送信と帯域を奪い合うため、それより少し後ろにずらす。
  */
 export function startSnapshotSync(): void {
+  window.setTimeout(() => void uploadIfDue(), 6000)
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') void uploadIfDue()
   })
