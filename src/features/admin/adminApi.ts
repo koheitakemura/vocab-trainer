@@ -150,3 +150,32 @@ export function removeUser(
 export function fetchAdminLog(): Promise<{ entries: AdminLogEntry[] }> {
   return request('api/admin/log')
 }
+
+/**
+ * 指定ユーザーの端末移行スナップショット（gzip バイト列）を取得する。
+ * JSON を返す request() は使えない（本文がバイナリのため）ので、fetch を直接叩く。
+ */
+export async function downloadUserSnapshot(email: string): Promise<Blob> {
+  let res: Response
+  try {
+    res = await fetch(apiUrl('api/admin/snapshot'), {
+      method: 'POST',
+      credentials: 'same-origin',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    })
+  } catch {
+    throw new ApiError('サーバーに接続できませんでした（オフラインの可能性があります）', 0)
+  }
+  if (!res.ok) {
+    let message = `HTTP ${res.status}`
+    try {
+      const body = (await res.json()) as { error?: string } | null
+      if (body?.error) message = body.error
+    } catch {
+      /* 失敗時は JSON、成功時はバイナリ。ここに来るのは失敗時だけなので JSON のはず */
+    }
+    throw new ApiError(message, res.status)
+  }
+  return await res.blob()
+}

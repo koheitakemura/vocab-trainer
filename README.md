@@ -18,10 +18,13 @@
 ## スタック
 
 **学習部分はクライアントサイド完結**。Vite + React + TypeScript の静的 SPA（PWA）／ ts-fsrs（MIT）／
-学習の進捗は IndexedDB ローカルファースト＋手動 JSON バックアップ（学習ロジックはサーバーに依存せず、オフラインでも完結）。
+学習の進捗は IndexedDB ローカルファースト（学習ロジックはサーバーに依存せず、オフラインでも完結）。
+バックアップ・端末移行の手段は3系統：手動 JSON エクスポート／サーバーへの自動スナップショット（R2・単語ごとの
+学習状態を丸ごと gzip 保存し、機種変更時に自動・確認付きで復元）／コース別集計値の管理者向けミラー（D1）。
 配信は Cloudflare Workers（静的アセット）＋ Cloudflare Access のログインゲート：https://vocab-trainer.takemura-kohei.workers.dev/
-同じ Worker に管理者用の API（`/api/*`）と D1 を持たせ、**利用者の登録・削除**と**コース別の進捗サマリの集約**だけを行う
-（語ごとの学習データは送らない。詳細＝ [docs/admin-console.md](docs/admin-console.md)）。
+同じ Worker に管理者用の API（`/api/*`）と D1・R2 を持たせる。D1 へは**利用者の登録・削除**と
+**コース別の進捗サマリ**（管理者が見る集計値）だけを送り、R2 へは**単語ごとの学習状態**（端末移行専用。
+本人のみ読み書きでき、管理画面からは個別ダウンロードのみ可能）を送る（詳細＝ [docs/admin-console.md](docs/admin-console.md)）。
 語彙データは再配布可能なオープンデータのみ（BCCWJ・jpdb 不使用）。音声は不採用、発音は表記（かな/IPA/アクセント付き）で伝える。
 データパイプラインは Python ローカルバッチ（wordfreq・Sudachi・JMdict/CMUdict 変換等）で本体と分離。
 

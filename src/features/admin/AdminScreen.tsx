@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import {
   ApiError,
   addUser,
+  downloadUserSnapshot,
   fetchAdminLog,
   fetchMe,
   fetchUsers,
@@ -48,6 +49,9 @@ export function AdminScreen() {
   const [notice, setNotice] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
   const [confirmTarget, setConfirmTarget] = useState<ConfirmTarget>(null)
+  // スナップショット取得は削除系（confirmTarget）とは別の確認フロー
+  // （破壊的操作ではないが「個人の学習データをダウンロードする」ので無確認の即実行にはしない）
+  const [confirmSnapshotEmail, setConfirmSnapshotEmail] = useState<string | null>(null)
 
   const reload = useCallback(async () => {
     setData(await fetchUsers())
@@ -80,6 +84,7 @@ export function AdminScreen() {
       } finally {
         setBusy(false)
         setConfirmTarget(null)
+        setConfirmSnapshotEmail(null)
       }
     },
     [reload],
@@ -208,6 +213,20 @@ export function AdminScreen() {
                         return withLogWarning(message, res.logged)
                       })
                     }
+                    confirmingSnapshot={confirmSnapshotEmail === u.email}
+                    onConfirmSnapshot={setConfirmSnapshotEmail}
+                    onDownloadSnapshot={() =>
+                      run(async () => {
+                        const blob = await downloadUserSnapshot(u.email)
+                        const url = URL.createObjectURL(blob)
+                        const a = document.createElement('a')
+                        a.href = url
+                        a.download = `vocab-snapshot-${u.email}.json.gz`
+                        a.click()
+                        URL.revokeObjectURL(url)
+                        return `${u.email} のスナップショットをダウンロードしました`
+                      })
+                    }
                   />
                 ))}
               </tbody>
@@ -328,6 +347,9 @@ function UserRow({
   onRestore,
   onRemove,
   onSetCourses,
+  confirmingSnapshot,
+  onConfirmSnapshot,
+  onDownloadSnapshot,
 }: {
   user: AdminUser
   busy: boolean
@@ -338,6 +360,9 @@ function UserRow({
   onRestore: () => void
   onRemove: (purge: boolean) => void
   onSetCourses: (courseIds: string[]) => void
+  confirmingSnapshot: boolean
+  onConfirmSnapshot: (email: string | null) => void
+  onDownloadSnapshot: () => void
 }) {
   const [name, setName] = useState(user.displayName)
   useEffect(() => setName(user.displayName), [user.displayName])
@@ -389,6 +414,17 @@ function UserRow({
               やめる
             </button>
           </div>
+        ) : confirmingSnapshot ? (
+          // 破壊的操作ではないが「個人の学習データ（単語ごとの記録）」を取り出すので無確認にはしない
+          <div className="admin-confirm">
+            <span>{user.email} の学習記録（単語ごとの状態）をダウンロードします。</span>
+            <button className="admin-btn" disabled={busy} onClick={onDownloadSnapshot}>
+              ダウンロード
+            </button>
+            <button className="admin-btn ghost" disabled={busy} onClick={() => onConfirmSnapshot(null)}>
+              やめる
+            </button>
+          </div>
         ) : user.isAdmin ? (
           <span className="admin-hint">—</span>
         ) : (
@@ -407,6 +443,13 @@ function UserRow({
                 アクセス取消
               </button>
             )}
+            <button
+              className="admin-btn ghost small"
+              disabled={busy || !canManageAccess}
+              onClick={() => onConfirmSnapshot(user.email)}
+            >
+              スナップショット取得
+            </button>
             <button
               className="admin-btn ghost small"
               disabled={busy || !canManageAccess}

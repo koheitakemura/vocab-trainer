@@ -133,6 +133,10 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
     // invocation log に URL ごと残り、消したはずの人のメールがログに残るため）
     case 'POST /api/admin/users/remove':
       return await handleRemoveUser(request, env, identity)
+    // 個別ユーザーの端末移行スナップショットを管理者が取り出す（本人からのサポート依頼対応用）。
+    // GET+クエリにしないのは他の管理APIと同じ理由（Workers Logs にメールを残さないため）
+    case 'POST /api/admin/snapshot':
+      return await handleAdminSnapshotDownload(request, env, identity)
     case 'GET /api/admin/log':
       requireAdmin(identity)
       return json({ entries: await recentAdminLog(env) })
@@ -257,6 +261,27 @@ async function handleSnapshotMeta(env: Env, identity: Identity): Promise<Respons
   const obj = await env.SNAPSHOTS.head(latestKey(identity.email))
   if (!obj) return json({ exists: false })
   return json({ exists: true, uploadedAt: obj.uploaded.toISOString(), bytes: obj.size })
+}
+
+/**
+ * 管理者が指定ユーザーの端末移行スナップショットを取り出す（本人からのサポート依頼対応用）。
+ * 本人確認は経由しない——管理者権限だけで足りる（データそのものは gzip バイト列で、
+ * Worker は中身を一切見ない方針をここでも保つ）。
+ */
+async function handleAdminSnapshotDownload(request: Request, env: Env, identity: Identity): Promise<Response> {
+  requireAdmin(identity)
+  const body = (await readJson(request)) as Record<string, unknown>
+  const email = normalizeEmail(body.email)
+  const obj = await env.SNAPSHOTS.get(latestKey(email))
+  if (!obj) return json({ error: 'この利用者のスナップショットはまだありません' }, 404)
+  return new Response(obj.body, {
+    headers: {
+      ...BINARY_HEADERS,
+      // email は normalizeEmail() の EMAIL_RE で検証済み（" ; などを含まない）ので
+      // ヘッダ値として安全に埋め込める
+      'Content-Disposition': `attachment; filename="vocab-snapshot-${email}.json.gz"`,
+    },
+  })
 }
 
 /** 名簿＋進捗＋Access 許可リストとの突き合わせ */
