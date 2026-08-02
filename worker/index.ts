@@ -292,7 +292,7 @@ async function handleSnapshotMeta(env: Env, identity: Identity): Promise<Respons
 async function handleWordGenerate(request: Request, env: Env, identity: Identity): Promise<Response> {
   await ensureActiveUser(env, identity)
   const { courseId, headword } = parseWordGenInput(await readJson(request))
-  const { card, source } = await generateOrReuseCard(env, identity, courseId, headword)
+  const { card, source } = await generateOrReuseCard(env, identity, courseId, headword, request.url)
   return json({ ok: true, card, source })
 }
 

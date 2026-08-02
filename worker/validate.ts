@@ -65,7 +65,13 @@ export function parseCourseIdList(raw: unknown): string[] {
   return [...seen]
 }
 
-/** POST /api/words/generate の本体を検証して正規化する（見出し語の中身の妥当性は wordgen.ts が見る） */
+/**
+ * POST /api/words/generate の本体を検証して正規化する（見出し語の中身の妥当性は wordgen.ts が見る）。
+ * 生成対象の言語（学習言語・訳の言語）はここでは受け取らない——クライアント申告を信用すると
+ * ① AI プロンプトへの injection 経路になる ②生成キャッシュが言語を鍵に含まないため誤った言語の
+ * カードが恒久的に配信され続ける、の2つの実害がある（2026-08-02 security-reviewer 指摘）。
+ * courseId から Worker 自身がコースの meta.json を読んで言語を決める（wordgen.ts 参照）。
+ */
 export function parseWordGenInput(raw: unknown): { courseId: string; headword: string } {
   if (typeof raw !== 'object' || raw === null) throw new ValidationError('リクエスト本体が不正です')
   const o = raw as Record<string, unknown>
