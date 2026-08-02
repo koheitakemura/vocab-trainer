@@ -1045,6 +1045,41 @@ select option {
   flex-wrap: wrap;
 }
 
+/* サーバー復元の提案バナーは .stale-epoch の見た目を流用しつつ、警告色ではなく
+   通常のアクセント色にする（危険な操作ではなく前向きな提案のため）。 */
+.restore-offer {
+  border-color: var(--accent, #4f8cff);
+}
+
+/* ---------- 自動復元トースト（非モーダル・数秒で自動的に消える） ---------- */
+.restore-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  font-size: 0.9em;
+  max-width: min(90vw, 420px);
+}
+
+.restore-toast-close {
+  border: none;
+  background: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  font-size: 1.1em;
+  line-height: 1;
+  padding: 0 2px;
+}
+
 /* ---------- カテゴリー別学習プルダウン（タブ行内・カード領域を占有しない） ---------- */
 .cat-select-wrap {
   position: relative;

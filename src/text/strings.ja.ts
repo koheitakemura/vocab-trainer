@@ -87,6 +87,18 @@ export const ja: UIStrings = {
   serverSyncBlockedConfirm:
     'サーバーに保存されている記録より大幅に小さいデータで上書きしようとしています。' +
     '端末のデータが消えた直後などにこの警告が出ます。本当にこのデータで上書きしますか？',
+
+  restoreAutoToast: (n) => `サーバーの学習記録を復元しました（${n} 語）`,
+  restoreOfferTitle: 'サーバーに新しい学習記録があります',
+  restoreOfferBody: (n) => `別の端末で保存された記録（${n} 語）があります。読み込むとこの端末の記録は置き換わります。`,
+  restoreOfferEpochWarning:
+    'このコースの単語IDが作り直されているため、復元すると記録が別の単語に付く可能性があります。',
+  restoreOfferAction: '読み込む',
+  restoreOfferDismiss: '今はしない',
+  restoreConfirmDialog: 'この端末の学習記録をサーバーの内容で置き換えます。よろしいですか？',
+  restoreUndo: '元に戻す',
+  restoreUndoConfirm: '復元前の状態に戻します。よろしいですか？',
+  restoreUndoDone: (n) => `元に戻しました（${n} 語）`,
   sessionComplete: 'セッション完了',
   sessionSummary: (reviewed, again) => `${reviewed} 回復習${again > 0 ? ` · ${again} 語を「学習中」に` : ''}`,
 

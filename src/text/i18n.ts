@@ -114,6 +114,16 @@ export interface UIStrings {
   serverSyncNever: string
   serverSyncBlocked: string
   serverSyncBlockedConfirm: string
+  restoreAutoToast: (n: number) => string
+  restoreOfferTitle: string
+  restoreOfferBody: (n: number) => string
+  restoreOfferEpochWarning: string
+  restoreOfferAction: string
+  restoreOfferDismiss: string
+  restoreConfirmDialog: string
+  restoreUndo: string
+  restoreUndoConfirm: string
+  restoreUndoDone: (n: number) => string
   sessionComplete: string
   sessionSummary: (reviewed: number, again: number) => string
 

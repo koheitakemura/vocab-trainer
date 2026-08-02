@@ -88,6 +88,18 @@ export const en: UIStrings = {
   serverSyncBlockedConfirm:
     "You're about to overwrite the server record with data much smaller than what's saved there. " +
     'This warning usually means the data on this device was recently wiped. Overwrite anyway?',
+
+  restoreAutoToast: (n) => `Restored your learning record from the server (${n} words)`,
+  restoreOfferTitle: 'New learning record available on the server',
+  restoreOfferBody: (n) => `Another device saved a record (${n} words). Loading it will replace what's on this device.`,
+  restoreOfferEpochWarning:
+    "This course's word IDs were rebuilt, so restoring may attach your record to different words.",
+  restoreOfferAction: 'Load it',
+  restoreOfferDismiss: 'Not now',
+  restoreConfirmDialog: "This replaces this device's learning record with the server's copy. Continue?",
+  restoreUndo: 'Undo',
+  restoreUndoConfirm: 'This reverts to the state before the restore. Continue?',
+  restoreUndoDone: (n) => `Reverted (${n} words)`,
   sessionComplete: 'Session complete',
   sessionSummary: (reviewed, again) => `${reviewed} reviews${again > 0 ? ` · ${again} marked “Studying”` : ''}`,
 

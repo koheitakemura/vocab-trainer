@@ -1,6 +1,8 @@
 import { db } from './db'
 import { exportProgress, importProgress } from './progress'
 import { apiUrl } from './sync'
+import { repository } from '../data/courseRepository'
+import type { CourseId, MetaRow, WordProgress } from '../types'
 
 /**
  * 端末移行用の進捗スナップショット同期（学習した単語ごとの状態を丸ごとサーバーへ）。
@@ -15,6 +17,8 @@ const LAST_UPLOAD_KEY = 'lastSnapshotUploadAt'
 const REVIEW_BASELINE_KEY = 'snapshotReviewBaseline'
 /** 空上書きガード（409）に引っかかって止まっている場合の時刻。ある間は自動リトライしない */
 const GUARD_BLOCKED_KEY = 'snapshotGuardBlockedAt'
+/** 復元直前の状態を1回分だけ退避しておくキー（「元に戻す」用） */
+const PRE_RESTORE_STASH_KEY = 'preRestoreStash'
 
 const MIN_INTERVAL_MS = 30 * 60_000 // 30分
 const STALE_MS = 6 * 60 * 60_000 // 6時間
@@ -147,11 +151,160 @@ export async function fetchSnapshotMeta(): Promise<SnapshotMeta | null> {
   }
 }
 
-/** サーバーから復元する。取り込んだ progress 行数を返す（Phase 6 の復元 UI が使う） */
-export async function downloadAndRestoreSnapshot(): Promise<number> {
+/**
+ * importProgress() は db.meta を丸ごと clear する（progress.ts の復元＝全置換という仕様）。
+ * つまり同期系のフラグ（lastSnapshotUploadAt 等）も毎回消える。放置すると：
+ * - サーバー復元直後は「サーバーの方が新しい」判定が復活し、次に開いたときまた復元を promptする
+ * - 手動 Restore（古いバックアップファイル）直後は、今の内容をまだサーバーへ送っていないのに
+ *   「同期済み」の時刻が残ってしまう（あるいは逆に消えたままで永久に stale 判定になる）
+ * どちらの復元経路でも importProgress() の直後に必ずこれを通す。
+ */
+async function reconcileSyncFlags(source: 'server' | 'manual', serverUploadedAt?: string): Promise<void> {
+  const current = await totalReviewCount()
+  const rows: MetaRow[] = [{ key: REVIEW_BASELINE_KEY, value: current }]
+  if (source === 'server') {
+    // サーバーの中身をそのまま書き戻しただけなので「同期済み」を名乗ってよい
+    rows.push({ key: LAST_UPLOAD_KEY, value: serverUploadedAt ?? new Date().toISOString() })
+  }
+  await db.meta.bulkPut(rows)
+  if (source === 'manual') {
+    // 手動復元は「今の内容がサーバーにあるか」を知らない。正直に「未同期」へ戻し、
+    // 次のタイマーで自然に再アップロードされるようにする（嘘の同期済み表示を残さない）。
+    await db.meta.delete(LAST_UPLOAD_KEY)
+  }
+  await db.meta.delete(GUARD_BLOCKED_KEY)
+}
+
+/**
+ * 手動 Restore（ファイルからの復元・CourseScreen の既存機能）の直後に呼ぶ。
+ * importProgress() 自体は変更しない（既存の「全置換」の意味論をそのまま保つ）。
+ */
+export async function reconcileAfterManualImport(): Promise<void> {
+  await reconcileSyncFlags('manual')
+}
+
+/** スナップショット中の cardId 世代スタンプ（progressEpoch:*）をコース別に取り出す */
+function epochsFromMeta(meta: MetaRow[] | undefined): Map<string, number> {
+  const map = new Map<string, number>()
+  for (const m of meta ?? []) {
+    if (typeof m.key === 'string' && m.key.startsWith('progressEpoch:') && typeof m.value === 'number') {
+      map.set(m.key.slice('progressEpoch:'.length), m.value)
+    }
+  }
+  return map
+}
+
+export interface RestorePreflight {
+  totalRows: number
+  courseIds: string[]
+  /** true なら、いずれかのコースで cardId が付け替わった後のスナップショット＝自動復元しない */
+  epochMismatch: boolean
+}
+
+/**
+ * 復元前に中身を軽く覗いて判定する（Worker 側は中身を見ないので、版チェックはここでしかできない）。
+ * 実際に importProgress() するかどうかは呼び出し側が決める（このシグネチャは副作用を持たない）。
+ */
+async function preflight(json: string): Promise<RestorePreflight> {
+  const parsed = JSON.parse(json) as { progress?: WordProgress[]; meta?: MetaRow[] }
+  const rows = parsed.progress ?? []
+  const courseIds = [...new Set(rows.map((p) => p.courseId))]
+  const snapshotEpochs = epochsFromMeta(parsed.meta)
+
+  let epochMismatch = false
+  for (const cid of courseIds) {
+    const snapshotEpoch = snapshotEpochs.get(cid) ?? 1
+    const course = await repository.getCourse(cid as CourseId).catch(() => null)
+    const liveEpoch = course?.idEpoch ?? 1
+    if (snapshotEpoch < liveEpoch) {
+      epochMismatch = true
+      break
+    }
+  }
+  return { totalRows: rows.length, courseIds, epochMismatch }
+}
+
+/** このデバイスがまだ何も学習していないか（新端末判定）。progress が1行も無ければ true */
+async function isLocalProgressEmpty(): Promise<boolean> {
+  return (await db.progress.count()) === 0
+}
+
+async function downloadSnapshotJson(): Promise<string> {
   const res = await fetch(apiUrl('api/snapshot'), { credentials: 'same-origin' })
   if (!res.ok) throw new Error(`スナップショットの取得に失敗しました（${res.status}）`)
   const buf = await res.arrayBuffer()
-  const json = await gunzipToText(buf)
-  return await importProgress(json)
+  return await gunzipToText(buf)
+}
+
+/** 復元本体。退避 → 全置換 → 同期フラグの書き直し、を1つのトランザクション的な手順としてまとめる */
+async function applyRestore(json: string, serverUploadedAt: string): Promise<number> {
+  const stash = await exportProgress()
+  const n = await importProgress(json)
+  await reconcileSyncFlags('server', serverUploadedAt)
+  await db.meta.put({ key: PRE_RESTORE_STASH_KEY, value: stash })
+  return n
+}
+
+/** 直前の復元を取り消す（1回分だけ）。退避が無ければ null */
+export async function undoLastRestore(): Promise<number | null> {
+  const stash = await getMeta(PRE_RESTORE_STASH_KEY)
+  if (typeof stash !== 'string') return null
+  const n = await importProgress(stash)
+  await reconcileSyncFlags('manual') // 巻き戻した内容がサーバーと一致する保証は無いので正直に「未同期」
+  await db.meta.delete(PRE_RESTORE_STASH_KEY)
+  return n
+}
+
+export type RestoreCheckResult =
+  | { kind: 'none' }
+  | { kind: 'auto-restored'; rows: number }
+  | { kind: 'offer'; totalRows: number; epochMismatch: boolean }
+
+let restoreCheckStarted = false
+/** 'offer' を返したときに保持しておく本体（確認後の再ダウンロードを避けるため） */
+let offeredSnapshot: { json: string; uploadedAt: string } | null = null
+
+/**
+ * アプリ起動時に1回だけ呼ぶ。ローカルが空でサーバーに記録があれば自動復元し、
+ * ローカルに進捗が既にある場合は絶対に黙って上書きせず「offer」を返すだけに留める
+ * （実際の復元は confirmOfferedRestore() を呼んだときだけ）。
+ */
+export async function checkForServerRestore(): Promise<RestoreCheckResult> {
+  if (restoreCheckStarted) return { kind: 'none' }
+  restoreCheckStarted = true
+  if (!supportsCompression()) return { kind: 'none' }
+
+  const meta = await fetchSnapshotMeta()
+  if (!meta?.exists || !meta.uploadedAt) return { kind: 'none' }
+
+  const localEmpty = await isLocalProgressEmpty()
+  const lastUpload = await getMeta(LAST_UPLOAD_KEY)
+  const lastUploadMs = typeof lastUpload === 'string' ? Date.parse(lastUpload) : 0
+  const serverIsNewer = Date.parse(meta.uploadedAt) > lastUploadMs
+  // ローカルが空でなく、かつサーバー側が特に新しくもないなら何もしない（毎起動チェックが軽く済む）
+  if (!localEmpty && !serverIsNewer) return { kind: 'none' }
+
+  let json: string
+  try {
+    json = await downloadSnapshotJson()
+  } catch {
+    return { kind: 'none' } // オフライン等。学習は一切妨げない
+  }
+  const pf = await preflight(json)
+
+  if (localEmpty && !pf.epochMismatch) {
+    const rows = await applyRestore(json, meta.uploadedAt)
+    return { kind: 'auto-restored', rows }
+  }
+  // ローカルに何かある／版が食い違う、のどちらかなら必ず本人の確認を挟む
+  offeredSnapshot = { json, uploadedAt: meta.uploadedAt }
+  return { kind: 'offer', totalRows: pf.totalRows, epochMismatch: pf.epochMismatch }
+}
+
+/** checkForServerRestore() が 'offer' を返した後、本人が確認して選んだときだけ呼ぶ */
+export async function confirmOfferedRestore(): Promise<number | null> {
+  if (!offeredSnapshot) return null
+  const { json, uploadedAt } = offeredSnapshot
+  offeredSnapshot = null
+  return await applyRestore(json, uploadedAt)
 }

@@ -17,7 +17,14 @@ import {
   type ProgressIntegrity,
 } from '../store/progress'
 import { getCoachSentences, type CoachSentence } from '../data/coachSentences'
-import { uploadSnapshot } from '../store/snapshot'
+import {
+  checkForServerRestore,
+  confirmOfferedRestore,
+  reconcileAfterManualImport,
+  undoLastRestore,
+  uploadSnapshot,
+  type RestoreCheckResult,
+} from '../store/snapshot'
 import { relativeTimeLabel } from '../text/format'
 import type { GradeOutcome } from './study/useStudyBoard'
 import { safeGet, safeSet } from '../store/safeStorage'
@@ -263,6 +270,62 @@ export function CourseScreen({
     }
   }, [snapshotStatus?.blocked, confirmingOverwrite, t])
 
+  // ── 復元（サーバー→この端末）。アプリ起動時に1回だけ判定する（snapshot.ts 側の
+  //   モジュール変数がガードしているので、course 切り替えでの再実行やコンポーネント
+  //   の再マウントでも二重には走らない）。ローカルに何かある場合は絶対に自動実行しない。
+  const [restoreCheck, setRestoreCheck] = useState<RestoreCheckResult | null>(null)
+  const [restoring, setRestoring] = useState(false)
+  useEffect(() => {
+    let active = true
+    void checkForServerRestore().then((r) => {
+      if (active) setRestoreCheck(r)
+    })
+    return () => {
+      active = false
+    }
+  }, [])
+
+  const refreshAfterFullReplace = useCallback(() => {
+    // importProgress は全置換なので、ヘッダーの推定語彙数・演出抑止も復元直後に作り直す
+    // （handleProgressReset と同じ経路——コースを開き直すのに近い状態を1回だけ起こす）
+    suppressMilestoneRef.current = true
+    setEstNonce((n) => n + 1)
+  }, [])
+
+  const handleRestoreOfferConfirm = useCallback(async () => {
+    if (restoring) return
+    if (!window.confirm(t.restoreConfirmDialog)) return
+    setRestoring(true)
+    try {
+      const n = await confirmOfferedRestore()
+      setRestoreCheck(n === null ? null : { kind: 'auto-restored', rows: n })
+      if (n !== null) refreshAfterFullReplace()
+    } finally {
+      setRestoring(false)
+    }
+  }, [restoring, t, refreshAfterFullReplace])
+
+  const dismissRestoreOffer = useCallback(() => setRestoreCheck(null), [])
+
+  // 自動復元のトーストは非モーダル＝操作をブロックしない。数秒で自動的に消える
+  useEffect(() => {
+    if (restoreCheck?.kind !== 'auto-restored') return
+    const id = window.setTimeout(() => setRestoreCheck(null), 8000)
+    return () => window.clearTimeout(id)
+  }, [restoreCheck])
+
+  // 「元に戻す」の可否は db.meta.preRestoreStash の有無そのもの（サーバー復元・元に戻す、
+  //  どちらの直後でも liveQuery が自動で追従する。専用の state を別に持たない）。
+  const undoAvailable = useLiveQuery(async () => Boolean(await db.meta.get('preRestoreStash')))
+  const handleUndoRestore = useCallback(async () => {
+    if (!window.confirm(t.restoreUndoConfirm)) return
+    const n = await undoLastRestore()
+    if (n !== null) {
+      refreshAfterFullReplace()
+      window.alert(t.restoreUndoDone(n))
+    }
+  }, [t, refreshAfterFullReplace])
+
   // ── E: バックアップの番人 ＋ コーチ用の活動サマリ。どちらも dailyStats（数百行の小テーブル）
   //    1回のスキャンから導出する（毎採点で再実行されるが行数∝日数なので軽い）。
   const backupInfo = useLiveQuery(async () => {
@@ -347,6 +410,9 @@ export function CourseScreen({
     if (!file) return
     suppressMilestoneRef.current = true // 復元で introduced が跳んでも演出を連発しない
     const n = await importProgress(await file.text())
+    // サーバー同期のフラグを正直な状態に戻す（snapshot.ts 参照。落とすと「同期済み」を騙るか、
+    // 逆に本当は復元できているのに次回チェックがサーバー版を古いと誤判定し続ける）
+    await reconcileAfterManualImport()
     e.target.value = ''
     setEstNonce((x) => x + 1) // 推定語彙数のベースラインを取り直す
     // 復元は全置換。学習済み行だけを数える（v1 バックアップの未着手行はカウントしない）
@@ -483,6 +549,25 @@ export function CourseScreen({
       </nav>
 
       <main className="course-main">
+        {/* サーバーに新しい記録がある（＝ローカルに何かある状態での復元提案）。
+            自動復元は絶対にしない——上書きされる既存データが実在するため必ず確認を挟む。 */}
+        {restoreCheck?.kind === 'offer' && (
+          <div className="stale-epoch restore-offer" role="alert">
+            <div className="stale-epoch-text">
+              <strong>{t.restoreOfferTitle}</strong>
+              <p>{t.restoreOfferBody(restoreCheck.totalRows)}</p>
+              {restoreCheck.epochMismatch && <p className="hint">{t.restoreOfferEpochWarning}</p>}
+            </div>
+            <div className="stale-epoch-actions">
+              <button type="button" className="btn primary" disabled={restoring} onClick={() => void handleRestoreOfferConfirm()}>
+                {t.restoreOfferAction}
+              </button>
+              <button type="button" className="btn ghost" disabled={restoring} onClick={dismissRestoreOffer}>
+                {t.restoreOfferDismiss}
+              </button>
+            </div>
+          </div>
+        )}
         {/* 記録が別の単語に付いている疑いがあるコースでだけ、一度だけ出す。
             モーダルにしないのは、誤タップで消える/勝手に進む事故を避けるため
             （選ぶまで残り、どちらを選んでも二度と出ない）。 */}
@@ -527,6 +612,16 @@ export function CourseScreen({
         <SparkleOverlay bursts={bursts} onArrive={handleBurstArrive} onDone={handleBurstDone} />,
         document.body,
       )}
+      {restoreCheck?.kind === 'auto-restored' &&
+        createPortal(
+          <div className="restore-toast" role="status">
+            {t.restoreAutoToast(restoreCheck.rows)}
+            <button type="button" className="restore-toast-close" onClick={dismissRestoreOffer} aria-label="close">
+              ×
+            </button>
+          </div>,
+          document.body,
+        )}
       {overlayMilestone !== null && (
         <MilestoneOverlay
           milestone={overlayMilestone}
@@ -551,6 +646,11 @@ export function CourseScreen({
             <span className="sync-status">
               {snapshotStatus?.uploadedAt ? t.serverSyncedAgo(relativeTimeLabel(snapshotStatus.uploadedAt)) : t.serverSyncNever}
             </span>
+          )}
+          {undoAvailable && (
+            <button type="button" className="link sync-status" onClick={() => void handleUndoRestore()}>
+              {t.restoreUndo}
+            </button>
           )}
         </div>
         <div className="actions">
