@@ -22,27 +22,6 @@
   "frequencyRank": 29001
  },
  {
-  "id": "en-10-30k-19002",
-  "courseId": "en-10-30k",
-  "headword": "biloxi",
-  "reading": "/bəlˈʌksi/",
-  "gloss": "ビロクシ(米国ミシシッピ州の都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "family moved from biloxi to charleston to fayetteville in the last three years.",
-    "translation": "過去3年間で 3カ所に引っ越し",
-    "cloze": "family moved from ｟biloxi｠ to charleston to fayetteville in the last three years."
-   },
-   {
-    "text": "i followed my father from the boatyards of biloxi and greenville, to lake boats on erie.",
-    "translation": "ビロクシとグリーンビルの 往復生活",
-    "cloze": "i followed my father from the boatyards of ｟biloxi｠ and greenville, to lake boats on erie."
-   }
-  ],
-  "frequencyRank": 29002
- },
- {
   "id": "en-10-30k-19003",
   "courseId": "en-10-30k",
   "headword": "biomarker",
@@ -62,138 +41,6 @@
    }
   ],
   "frequencyRank": 29003
- },
- {
-  "id": "en-10-30k-19004",
-  "courseId": "en-10-30k",
-  "headword": "bitchin",
-  "reading": null,
-  "gloss": "(俗語)最高の,イケてる,かっこいい",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "so bitchin your publicist got us a limo!",
-    "translation": "ブレイディの素敵な広報はリムジンを用意してくれたんだ",
-    "cloze": "so ｟bitchin｠ your publicist got us a limo!"
-   },
-   {
-    "text": "That's a bitchin' car you got there!",
-    "translation": "それ、めちゃくちゃかっこいい車だね!",
-    "cloze": "That's a ｟bitchin｠' car you got there!",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29004
- },
- {
-  "id": "en-10-30k-19005",
-  "courseId": "en-10-30k",
-  "headword": "bitrate",
-  "reading": null,
-  "gloss": "ビットレート(データの伝送速度を示す単位)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "A higher bitrate usually means better audio quality.",
-    "translation": "ビットレートが高いほど、通常は音質が良くなる。",
-    "cloze": "A higher ｟bitrate｠ usually means better audio quality.",
-    "aiGenerated": true
-   },
-   {
-    "text": "You can reduce the file size by lowering the bitrate.",
-    "translation": "ビットレートを下げることでファイルサイズを小さくできる。",
-    "cloze": "You can reduce the file size by lowering the ｟bitrate｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29005
- },
- {
-  "id": "en-10-30k-19006",
-  "courseId": "en-10-30k",
-  "headword": "bittorrent",
-  "reading": null,
-  "gloss": "ビットトレント(ファイル共有に使われるP2Pプロトコル/ソフトウェア)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "bittorrent turns every downloader into an uploader",
-    "translation": "BitTorrent は あらゆるダウンローダーをアップローダーに変換し",
-    "cloze": "｟bittorrent｠ turns every downloader into an uploader"
-   },
-   {
-    "text": "Many people use BitTorrent to share large files online.",
-    "translation": "多くの人がBitTorrentを使って大きなファイルをオンラインで共有している。",
-    "cloze": "Many people use ｟BitTorrent｠ to share large files online.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29006
- },
- {
-  "id": "en-10-30k-19007",
-  "courseId": "en-10-30k",
-  "headword": "blankly",
-  "reading": "/blˈæŋkli/",
-  "gloss": "ぼんやりと,ぽかんとして;虚ろに",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "my friend looks at me totally blankly.",
-    "translation": "友人はポカンとして私を見つめました",
-    "cloze": "my friend looks at me totally ｟blankly｠."
-   },
-   {
-    "text": "it seems that the tip of the super saiya is blankly visible.",
-    "translation": "ぼんやりと 超サイヤ人の先が 見えてきているらしいな。",
-    "cloze": "it seems that the tip of the super saiya is ｟blankly｠ visible."
-   }
-  ],
-  "frequencyRank": 29007
- },
- {
-  "id": "en-10-30k-19008",
-  "courseId": "en-10-30k",
-  "headword": "bletchley",
-  "reading": null,
-  "gloss": "ブレッチリー・パーク(英国の第二次大戦中の暗号解読施設で知られる地名)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "there is a spy in bletchley park.",
-    "translation": "このブレッチリー・パークに スパイがいる",
-    "cloze": "there is a spy in ｟bletchley｠ park."
-   },
-   {
-    "text": "i need you to leave bletchley.",
-    "translation": "君はブレッチリーを離れろ",
-    "cloze": "i need you to leave ｟bletchley｠."
-   }
-  ],
-  "frequencyRank": 29008
- },
- {
-  "id": "en-10-30k-19009",
-  "courseId": "en-10-30k",
-  "headword": "boho",
-  "reading": null,
-  "gloss": "ボヘミアン風の,自由奔放なスタイルの",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "She has a boho style with flowy dresses and beaded jewelry.",
-    "translation": "彼女はゆったりしたドレスとビーズのアクセサリーでボヘミアン風のスタイルをしている。",
-    "cloze": "She has a ｟boho｠ style with flowy dresses and beaded jewelry.",
-    "aiGenerated": true
-   },
-   {
-    "text": "The cafe has a relaxed, boho atmosphere.",
-    "translation": "そのカフェはリラックスしたボヘミアン風の雰囲気がある。",
-    "cloze": "The cafe has a relaxed, ｟boho｠ atmosphere.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29009
  },
  {
   "id": "en-10-30k-19010",
@@ -238,28 +85,6 @@
   "frequencyRank": 29011
  },
  {
-  "id": "en-10-30k-19012",
-  "courseId": "en-10-30k",
-  "headword": "brt",
-  "reading": null,
-  "gloss": "バス高速輸送システム(Bus Rapid Transit)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "are doing what they call the brt of curitiba.",
-    "translation": "クリチバのbrtを実施しています",
-    "cloze": "are doing what they call the ｟brt｠ of curitiba."
-   },
-   {
-    "text": "The city built a new BRT line to reduce traffic congestion.",
-    "translation": "その都市は交通渋滞を減らすため新しいBRT路線を建設した。",
-    "cloze": "The city built a new ｟BRT｠ line to reduce traffic congestion.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29012
- },
- {
   "id": "en-10-30k-19013",
   "courseId": "en-10-30k",
   "headword": "btu",
@@ -280,27 +105,6 @@
    }
   ],
   "frequencyRank": 29013
- },
- {
-  "id": "en-10-30k-19014",
-  "courseId": "en-10-30k",
-  "headword": "cameroonian",
-  "reading": null,
-  "gloss": "カメルーンの,カメルーン人の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "to translate the bible into cameroonian patois",
-    "translation": "聖書をカメルーンの方言に翻訳するのに",
-    "cloze": "to translate the bible into ｟cameroonian｠ patois"
-   },
-   {
-    "text": "on the cameroonian national radio and television",
-    "translation": "カメルーンのラジオやテレビで働き",
-    "cloze": "on the ｟cameroonian｠ national radio and television"
-   }
-  ],
-  "frequencyRank": 29014
  },
  {
   "id": "en-10-30k-19015",
@@ -346,23 +150,6 @@
   "frequencyRank": 29016
  },
  {
-  "id": "en-10-30k-19017",
-  "courseId": "en-10-30k",
-  "headword": "changi",
-  "reading": null,
-  "gloss": "チャンギ(シンガポールの地名。チャンギ国際空港で知られる)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Changi Airport is one of the busiest airports in Asia.",
-    "translation": "チャンギ国際空港はアジアで最も忙しい空港の一つだ。",
-    "cloze": "｟Changi｠ Airport is one of the busiest airports in Asia.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29017
- },
- {
   "id": "en-10-30k-19018",
   "courseId": "en-10-30k",
   "headword": "charlatan",
@@ -403,44 +190,6 @@
    }
   ],
   "frequencyRank": 29019
- },
- {
-  "id": "en-10-30k-19020",
-  "courseId": "en-10-30k",
-  "headword": "chhattisgarh",
-  "reading": null,
-  "gloss": "チャッティースガル州(インド中部の州)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Chhattisgarh is a state in central India known for its forests and minerals.",
-    "translation": "チャッティースガル州はインド中部にあり、森林と鉱物資源で知られる州である。",
-    "cloze": "｟Chhattisgarh｠ is a state in central India known for its forests and minerals.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29020
- },
- {
-  "id": "en-10-30k-19021",
-  "courseId": "en-10-30k",
-  "headword": "chomp",
-  "reading": "/tʃˈɑmp/",
-  "gloss": "(音を立てて)がつがつ噛む、むしゃむしゃ食べる／(chomp at the bitで)いらだって早くやりたがる",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "he wasn't chomping on your leg.",
-    "translation": "お前は 足を食われてないからな",
-    "cloze": "he wasn't ｟＿｠ on your leg."
-   },
-   {
-    "text": "look. he's chomping at the bit.",
-    "translation": "ガッついてる",
-    "cloze": "look. he's ｟＿｠ at the bit."
-   }
-  ],
-  "frequencyRank": 29021
  },
  {
   "id": "en-10-30k-19022",
@@ -487,27 +236,6 @@
   "frequencyRank": 29023
  },
  {
-  "id": "en-10-30k-19024",
-  "courseId": "en-10-30k",
-  "headword": "closeup",
-  "reading": "/klˈoʊsˈʌp/",
-  "gloss": "クローズアップ、接写",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "but i'm going to just give you a closeup on one piece of it",
-    "translation": "その一部のみをクローズアップしてご紹介しましょう",
-    "cloze": "but i'm going to just give you a ｟＿｠ on one piece of it"
-   },
-   {
-    "text": "peace! now a closeup of yuichi.",
-    "translation": "[tv] ピース はい 雄一のアップ行きま~す。",
-    "cloze": "peace! now a ｟＿｠ of yuichi."
-   }
-  ],
-  "frequencyRank": 29024
- },
- {
   "id": "en-10-30k-19025",
   "courseId": "en-10-30k",
   "headword": "coalesce",
@@ -527,27 +255,6 @@
    }
   ],
   "frequencyRank": 29025
- },
- {
-  "id": "en-10-30k-19026",
-  "courseId": "en-10-30k",
-  "headword": "competently",
-  "reading": "/kˈɑmpətɪntli/",
-  "gloss": "有能に、適切に、うまく",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "when we do it, we must do it well, and competently.",
-    "translation": "しかも適切にやらなければなりません",
-    "cloze": "when we do it, we must do it well, and ｟＿｠."
-   },
-   {
-    "text": "so that we can understand and competently manage it.",
-    "translation": "生物圏を正しく把握して理解した上で 的確に管理する必要があります",
-    "cloze": "so that we can understand and ｟＿｠ manage it."
-   }
-  ],
-  "frequencyRank": 29026
  },
  {
   "id": "en-10-30k-19027",
@@ -702,91 +409,6 @@
   "frequencyRank": 29033
  },
  {
-  "id": "en-10-30k-19034",
-  "courseId": "en-10-30k",
-  "headword": "croats",
-  "reading": "/kɹˈoʊˌɑts/",
-  "gloss": "クロアチア人",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "I think this politics means Serbs, Croats, and Muslims.",
-    "translation": "私の考えでは、この政治の意味しているのは、セルビア人とクロアチア人とイスラム教徒ということだわ。",
-    "cloze": "I think this politics means Serbs, ｟＿｠, and Muslims."
-   },
-   {
-    "text": "Among our friends, there are Serbs and Croats and Muslims.",
-    "translation": "私たちの友達の中には、セルビア人もいるし、クロアチア人もいるし、イスラム教徒もいるのよ。",
-    "cloze": "Among our friends, there are Serbs and ｟＿｠ and Muslims."
-   }
-  ],
-  "frequencyRank": 29034
- },
- {
-  "id": "en-10-30k-19035",
-  "courseId": "en-10-30k",
-  "headword": "crosswalk",
-  "reading": "/kɹˈɑswˌɑk/",
-  "gloss": "横断歩道",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "There is a park across that crosswalk.",
-    "translation": "その横断歩道を渡った先が公園です。",
-    "cloze": "There is a park across that ｟＿｠."
-   },
-   {
-    "text": "You should be more careful at a crosswalk.",
-    "translation": "あなたは横断歩道ではもっと注意すべきだ。",
-    "cloze": "You should be more careful at a ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29035
- },
- {
-  "id": "en-10-30k-19036",
-  "courseId": "en-10-30k",
-  "headword": "crud",
-  "reading": "/kɹˈʌd/",
-  "gloss": "汚れ、ごみ／(間投詞的に)ちぇっ、くそ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "there's still crud on this plate.",
-    "translation": "まだ皿が汚れているぞ",
-    "cloze": "there's still ｟＿｠ on this plate."
-   },
-   {
-    "text": "the crud in the front is mattress stuffing",
-    "translation": "手前に見えるのは マットの詰め物ですね",
-    "cloze": "the ｟＿｠ in the front is mattress stuffing"
-   }
-  ],
-  "frequencyRank": 29036
- },
- {
-  "id": "en-10-30k-19037",
-  "courseId": "en-10-30k",
-  "headword": "curation",
-  "reading": null,
-  "gloss": "キュレーション、(情報などの)選別・収集",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "so it's the first thing i do is, i do my own curation.",
-    "translation": "まず自前のキュレーションをするんです",
-    "cloze": "so it's the first thing i do is, i do my own ｟＿｠."
-   },
-   {
-    "text": "Good curation makes it easier to find quality content online.",
-    "translation": "良いキュレーションのおかげでオンラインで質の高いコンテンツを見つけやすくなる。",
-    "cloze": "Good ｟＿｠ makes it easier to find quality content online.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29037
- },
- {
   "id": "en-10-30k-19038",
   "courseId": "en-10-30k",
   "headword": "cybernetic",
@@ -807,27 +429,6 @@
    }
   ],
   "frequencyRank": 29038
- },
- {
-  "id": "en-10-30k-19039",
-  "courseId": "en-10-30k",
-  "headword": "cyrillic",
-  "reading": "/sɚˈɪlɪk/",
-  "gloss": "キリル文字の／(the Cyrillic)キリル文字",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "Can you read Cyrillic?",
-    "translation": "キリル文字は読めますか？",
-    "cloze": "Can you read ｟＿｠?"
-   },
-   {
-    "text": "it's a cyrillic alphabet.",
-    "translation": "これは、キリル文字だ。",
-    "cloze": "it's a ｟＿｠ alphabet."
-   }
-  ],
-  "frequencyRank": 29039
  },
  {
   "id": "en-10-30k-19040",
@@ -1000,27 +601,6 @@
   "frequencyRank": 29047
  },
  {
-  "id": "en-10-30k-19048",
-  "courseId": "en-10-30k",
-  "headword": "djing",
-  "reading": null,
-  "gloss": "DJをすること、DJ活動",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "djing is not a profession, it's a hobby.",
-    "translation": "DJingは職業ではありません、 それが趣味です。",
-    "cloze": "｟＿｠ is not a profession, it's a hobby."
-   },
-   {
-    "text": "djing in night clubs",
-    "translation": "djをして過ごしてきたので",
-    "cloze": "｟＿｠ in night clubs"
-   }
-  ],
-  "frequencyRank": 29048
- },
- {
   "id": "en-10-30k-19049",
   "courseId": "en-10-30k",
   "headword": "drawstring",
@@ -1063,27 +643,6 @@
   "frequencyRank": 29050
  },
  {
-  "id": "en-10-30k-19051",
-  "courseId": "en-10-30k",
-  "headword": "dumbbell",
-  "reading": "/dˈʌmbˌɛl/",
-  "gloss": "亜鈴(ダンベル)／《米俗》ばか",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "you're really going allout by taking dumbbells with you.",
-    "translation": "本格的ですね ダンベル持ってだなんて",
-    "cloze": "you're really going allout by taking ｟＿｠ with you."
-   },
-   {
-    "text": "the blood from the dumbbell on which asanosan fell and hit his head...",
-    "translation": "浅野さんが倒れた時 頭をぶつけた 鉄アレイの血液からは",
-    "cloze": "the blood from the ｟＿｠ on which asanosan fell and hit his head..."
-   }
-  ],
-  "frequencyRank": 29051
- },
- {
   "id": "en-10-30k-19052",
   "courseId": "en-10-30k",
   "headword": "dutiful",
@@ -1103,27 +662,6 @@
    }
   ],
   "frequencyRank": 29052
- },
- {
-  "id": "en-10-30k-19053",
-  "courseId": "en-10-30k",
-  "headword": "earplug",
-  "reading": "/ˈɪɹplˌʌɡ/",
-  "gloss": "耳栓",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "I'd like to buy some earplugs.",
-    "translation": "耳栓を買いたいのですが。",
-    "cloze": "I'd like to buy some ｟＿｠."
-   },
-   {
-    "text": "i want some earplugs.",
-    "translation": "耳栓が欲しい。",
-    "cloze": "i want some ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29053
  },
  {
   "id": "en-10-30k-19054",
@@ -1190,27 +728,6 @@
   "frequencyRank": 29056
  },
  {
-  "id": "en-10-30k-19057",
-  "courseId": "en-10-30k",
-  "headword": "elven",
-  "reading": null,
-  "gloss": "エルフの、妖精の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "the elven gate.",
-    "translation": "エルフの門だ",
-    "cloze": "the ｟＿｠ gate."
-   },
-   {
-    "text": "we will the elven road.",
-    "translation": "わし達はエルフの道を行くつもりじゃ あそこは安全じゃ",
-    "cloze": "we will the ｟＿｠ road."
-   }
-  ],
-  "frequencyRank": 29057
- },
- {
   "id": "en-10-30k-19058",
   "courseId": "en-10-30k",
   "headword": "engender",
@@ -1254,29 +771,6 @@
   "frequencyRank": 29059
  },
  {
-  "id": "en-10-30k-19060",
-  "courseId": "en-10-30k",
-  "headword": "etudes",
-  "reading": "/ˈeɪtˌudz/",
-  "gloss": "エチュード、練習曲",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The pianist practiced Chopin's etudes every morning.",
-    "translation": "そのピアニストは毎朝ショパンのエチュードを練習した。",
-    "cloze": "The pianist practiced Chopin's ｟＿｠ every morning.",
-    "aiGenerated": true
-   },
-   {
-    "text": "These etudes are designed to improve finger technique.",
-    "translation": "これらの練習曲は指の技術を向上させるために作られている。",
-    "cloze": "These ｟＿｠ are designed to improve finger technique.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29060
- },
- {
   "id": "en-10-30k-19061",
   "courseId": "en-10-30k",
   "headword": "factional",
@@ -1296,28 +790,6 @@
    }
   ],
   "frequencyRank": 29061
- },
- {
-  "id": "en-10-30k-19062",
-  "courseId": "en-10-30k",
-  "headword": "fibromyalgia",
-  "reading": null,
-  "gloss": "線維筋痛症(全身に慢性的な痛みが生じる病気)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "you can see fibromyalgia, hiv, als, depression.",
-    "translation": "線維筋痛 HIV ALS うつ病が見えますね",
-    "cloze": "you can see ｟＿｠, hiv, als, depression."
-   },
-   {
-    "text": "She was diagnosed with fibromyalgia after years of chronic pain.",
-    "translation": "彼女は長年の慢性的な痛みの末、線維筋痛症と診断された。",
-    "cloze": "She was diagnosed with ｟＿｠ after years of chronic pain.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29062
  },
  {
   "id": "en-10-30k-19063",
@@ -1423,28 +895,6 @@
    }
   ],
   "frequencyRank": 29067
- },
- {
-  "id": "en-10-30k-19068",
-  "courseId": "en-10-30k",
-  "headword": "fucken",
-  "reading": null,
-  "gloss": "(くだけた発音表記)ものすごく、くそ～(fuckingのくだけた変化形、強調語)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "drive the fucken car faster.",
-    "translation": "もっと速く運転しろ",
-    "cloze": "drive the ｟＿｠ car faster."
-   },
-   {
-    "text": "Get that fucken dog off my lawn!",
-    "translation": "そのクソ犬を俺の芝生から追い出せ!",
-    "cloze": "Get that ｟＿｠ dog off my lawn!",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29068
  },
  {
   "id": "en-10-30k-19069",
@@ -1620,65 +1070,6 @@
   "frequencyRank": 29076
  },
  {
-  "id": "en-10-30k-19077",
-  "courseId": "en-10-30k",
-  "headword": "gershwin",
-  "reading": "/ɡˈɝʃwɪn/",
-  "gloss": "ジョージ・ガーシュウィン(米国の作曲家、「ラプソディ・イン・ブルー」などで知られる)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i believe george gershwin used to live over there and cecil b.",
-    "translation": "G・ガーシュウィンが そこに住んでて・・・",
-    "cloze": "i believe george ｟＿｠ used to live over there and cecil b."
-   },
-   {
-    "text": "and she dated george gershwin, so, you know, get out.",
-    "translation": "彼女はジョージ ガーシュウィンとお付き合いし",
-    "cloze": "and she dated george ｟＿｠, so, you know, get out."
-   }
-  ],
-  "frequencyRank": 29077
- },
- {
-  "id": "en-10-30k-19078",
-  "courseId": "en-10-30k",
-  "headword": "ghg",
-  "reading": null,
-  "gloss": "温室効果ガス(greenhouse gasの略)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Cutting GHG emissions is essential to slow climate change.",
-    "translation": "温室効果ガスの排出を削減することは、気候変動を遅らせるために不可欠だ。",
-    "cloze": "Cutting ｟＿｠ emissions is essential to slow climate change.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29078
- },
- {
-  "id": "en-10-30k-19079",
-  "courseId": "en-10-30k",
-  "headword": "gitmo",
-  "reading": null,
-  "gloss": "(俗)グアンタナモ米軍基地・収容所(Guantanamoの略称)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "it's called gitmo. ever heard of it?",
-    "translation": "グアンタナモを 知ってるか?",
-    "cloze": "it's called ｟＿｠. ever heard of it?"
-   },
-   {
-    "text": "tie him to burundi terrorism. send him to gitmo. no lawyer,no phone.",
-    "translation": "テロ関与でグォンタナモに送る 弁護士も電話も無しだ",
-    "cloze": "tie him to burundi terrorism. send him to ｟＿｠. no lawyer,no phone."
-   }
-  ],
-  "frequencyRank": 29079
- },
- {
   "id": "en-10-30k-19080",
   "courseId": "en-10-30k",
   "headword": "glades",
@@ -1713,45 +1104,6 @@
   "frequencyRank": 29081
  },
  {
-  "id": "en-10-30k-19082",
-  "courseId": "en-10-30k",
-  "headword": "godard",
-  "reading": "/ɡədˈɑɹd/",
-  "gloss": "ジャン=リュック・ゴダール(フランスの映画監督、ヌーヴェルヴァーグの代表的存在)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Godard's editing style broke many of the traditional rules of filmmaking.",
-    "translation": "ゴダールの編集スタイルは、映画制作の伝統的なルールの多くを打ち破った。",
-    "cloze": "｟＿｠'s editing style broke many of the traditional rules of filmmaking.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29082
- },
- {
-  "id": "en-10-30k-19083",
-  "courseId": "en-10-30k",
-  "headword": "gramps",
-  "reading": null,
-  "gloss": "(口語)おじいちゃん、じいさん(grandpaのくだけた言い方)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "thanks, gramps.",
-    "translation": "おじいちゃん ありがと。 うん。",
-    "cloze": "thanks, ｟＿｠."
-   },
-   {
-    "text": "My gramps used to tell me stories about the war.",
-    "translation": "おじいちゃんはよく戦争の話をしてくれたものだ。",
-    "cloze": "My ｟＿｠ used to tell me stories about the war.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29083
- },
- {
   "id": "en-10-30k-19084",
   "courseId": "en-10-30k",
   "headword": "gremlin",
@@ -1773,27 +1125,6 @@
   "frequencyRank": 29084
  },
  {
-  "id": "en-10-30k-19085",
-  "courseId": "en-10-30k",
-  "headword": "grrr",
-  "reading": null,
-  "gloss": "(怒り・いらだちを表す)うなり声、ぐるる(擬音語)",
-  "pos": "感嘆詞",
-  "examples": [
-   {
-    "text": "grrr! i had no choice.",
-    "translation": "他に方法がなかったんだ",
-    "cloze": "｟＿｠! i had no choice."
-   },
-   {
-    "text": "grrr! get out of here, lando.",
-    "translation": "出て行けよ ランド",
-    "cloze": "｟＿｠! get out of here, lando."
-   }
-  ],
-  "frequencyRank": 29085
- },
- {
   "id": "en-10-30k-19086",
   "courseId": "en-10-30k",
   "headword": "grudgingly",
@@ -1813,23 +1144,6 @@
    }
   ],
   "frequencyRank": 29086
- },
- {
-  "id": "en-10-30k-19087",
-  "courseId": "en-10-30k",
-  "headword": "guadeloupe",
-  "reading": "/ɡwˌɑdəlˈup/",
-  "gloss": "グアドループ(カリブ海に位置するフランスの海外県)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Guadeloupe is a group of Caribbean islands that is officially part of France.",
-    "translation": "グアドループは、公式にはフランスの一部であるカリブ海の島々である。",
-    "cloze": "｟＿｠ is a group of Caribbean islands that is officially part of France.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29087
  },
  {
   "id": "en-10-30k-19088",
@@ -1854,28 +1168,6 @@
   "frequencyRank": 29088
  },
  {
-  "id": "en-10-30k-19089",
-  "courseId": "en-10-30k",
-  "headword": "henan",
-  "reading": null,
-  "gloss": "河南省(中国内陸部に位置する省)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "to an area called shanxi, henan and gansu.",
-    "translation": "山西省 河南省 甘粛省 を見てみましょう",
-    "cloze": "to an area called shanxi, ｟＿｠ and gansu."
-   },
-   {
-    "text": "Henan is one of the most populous provinces in China.",
-    "translation": "河南省は中国で最も人口の多い省の一つである。",
-    "cloze": "｟＿｠ is one of the most populous provinces in China.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29089
- },
- {
   "id": "en-10-30k-19090",
   "courseId": "en-10-30k",
   "headword": "heparin",
@@ -1897,44 +1189,6 @@
   "frequencyRank": 29090
  },
  {
-  "id": "en-10-30k-19091",
-  "courseId": "en-10-30k",
-  "headword": "hillel",
-  "reading": "/hˌɪlˈɛl/",
-  "gloss": "ヒレル(古代ユダヤ教の高名なラビ、律法学者;紀元前後に活躍)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "hillel stood on one leg and said, that which is hateful to you",
-    "translation": "ヒレルは片足で立ち 言いました 「汝が憎むことを隣人にするなかれ",
-    "cloze": "｟＿｠ stood on one leg and said, that which is hateful to you"
-   },
-   {
-    "text": "and within jewish teachings, the rabbinic teachings, we have hillel",
-    "translation": "またユダヤ教のラビの教えにはヒレルの次のような教訓があります",
-    "cloze": "and within jewish teachings, the rabbinic teachings, we have ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29091
- },
- {
-  "id": "en-10-30k-19092",
-  "courseId": "en-10-30k",
-  "headword": "hodgkin",
-  "reading": "/hˈɑdʒkɪn/",
-  "gloss": "ホジキン(ホジキン病/ホジキンリンパ腫の名の由来となった医学者の姓)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Hodgkin's disease is a type of cancer that affects the lymphatic system.",
-    "translation": "ホジキン病はリンパ系に影響を及ぼすがんの一種である。",
-    "cloze": "｟＿｠'s disease is a type of cancer that affects the lymphatic system.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29092
- },
- {
   "id": "en-10-30k-19093",
   "courseId": "en-10-30k",
   "headword": "homily",
@@ -1954,27 +1208,6 @@
    }
   ],
   "frequencyRank": 29093
- },
- {
-  "id": "en-10-30k-19094",
-  "courseId": "en-10-30k",
-  "headword": "humpty",
-  "reading": "/hˈʌmpti/",
-  "gloss": "ハンプティ・ダンプティ(英国の伝承童謡に登場する卵の姿のキャラクター;転じて壊れやすいものの象徴)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Humpty Dumpty sat on a wall. Humpty Dumpty had a great fall. All the king's horses and all the king's men couldn't put Humpty Dumpty together again.",
-    "translation": "ハンプティダンプティ、壁の上に座って、ハンプティダンプティ、ドシンと落ちた。王様の馬のみんなも王様の家来のみんなもハンプティを元に戻せなかった。",
-    "cloze": "｟＿｠ Dumpty sat on a wall. Humpty Dumpty had a great fall. All the king's horses and all the king's men couldn't put Humpty Dumpty together again."
-   },
-   {
-    "text": "you all read humpty dumpty. okay?",
-    "translation": "みなさんは「ハンプティダンプティ」をお読みください。 大丈夫?",
-    "cloze": "you all read ｟＿｠ dumpty. okay?"
-   }
-  ],
-  "frequencyRank": 29094
  },
  {
   "id": "en-10-30k-19095",
@@ -2019,27 +1252,6 @@
    }
   ],
   "frequencyRank": 29096
- },
- {
-  "id": "en-10-30k-19097",
-  "courseId": "en-10-30k",
-  "headword": "iff",
-  "reading": null,
-  "gloss": "敵味方識別装置(IFF;Identification Friend or Foe);(論理学)～の場合に限り(if and only ifの略)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "no iff response!",
-    "translation": "iff応答無し 敵と判断",
-    "cloze": "no ｟＿｠ response!"
-   },
-   {
-    "text": "iff confirmed.",
-    "translation": "iff 確認",
-    "cloze": "｟＿｠ confirmed."
-   }
-  ],
-  "frequencyRank": 29097
  },
  {
   "id": "en-10-30k-19098",
@@ -2169,48 +1381,6 @@
   "frequencyRank": 29103
  },
  {
-  "id": "en-10-30k-19104",
-  "courseId": "en-10-30k",
-  "headword": "iucn",
-  "reading": null,
-  "gloss": "国際自然保護連合(IUCN;絶滅危惧種のレッドリストで知られる)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "now the fish is on the iucn red list.",
-    "translation": "国際自然保護連合の レッドリストに載っています",
-    "cloze": "now the fish is on the ｟＿｠ red list."
-   },
-   {
-    "text": "they're now listed as vulnerable under the iucn.",
-    "translation": "現在ウバザメはIUCNで絶滅危惧種とされています",
-    "cloze": "they're now listed as vulnerable under the ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29104
- },
- {
-  "id": "en-10-30k-19105",
-  "courseId": "en-10-30k",
-  "headword": "jailhouse",
-  "reading": "/dʒˈeɪlhˌaʊs/",
-  "gloss": "刑務所、拘置所(jailのくだけた言い方)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Tom's favorite Elvis Presley song is \"Jailhouse Rock.\"",
-    "translation": "トムが一番気に入っているエルビス・プレスリーの曲は「ジェイルハウス・ロック」だ。",
-    "cloze": "Tom's favorite Elvis Presley song is \"｟＿｠ Rock.\""
-   },
-   {
-    "text": "not for jailhouse payphones.",
-    "translation": "刑務所の電話にはね",
-    "cloze": "not for ｟＿｠ payphones."
-   }
-  ],
-  "frequencyRank": 29105
- },
- {
   "id": "en-10-30k-19106",
   "courseId": "en-10-30k",
   "headword": "jubilant",
@@ -2319,23 +1489,6 @@
   "frequencyRank": 29110
  },
  {
-  "id": "en-10-30k-19111",
-  "courseId": "en-10-30k",
-  "headword": "libor",
-  "reading": "/lˈibɚ/",
-  "gloss": "LIBOR、ロンドン銀行間取引金利(国際金融の指標金利)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Many mortgages were once linked to the LIBOR interest rate.",
-    "translation": "多くの住宅ローンはかつてLIBOR金利に連動していた。",
-    "cloze": "Many mortgages were once linked to the ｟LIBOR｠ interest rate.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29111
- },
- {
   "id": "en-10-30k-19112",
   "courseId": "en-10-30k",
   "headword": "liposuction",
@@ -2421,22 +1574,6 @@
   "frequencyRank": 29115
  },
  {
-  "id": "en-10-30k-19116",
-  "courseId": "en-10-30k",
-  "headword": "lucca",
-  "reading": "/lˈukə/",
-  "gloss": "ルッカ(イタリア・トスカーナ州の都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "I wanna come back to Lucca.",
-    "translation": "私はルッカに帰りたい。",
-    "cloze": "I wanna come back to ｟Lucca｠."
-   }
-  ],
-  "frequencyRank": 29116
- },
- {
   "id": "en-10-30k-19117",
   "courseId": "en-10-30k",
   "headword": "lyricism",
@@ -2471,22 +1608,6 @@
   "frequencyRank": 29118
  },
  {
-  "id": "en-10-30k-19119",
-  "courseId": "en-10-30k",
-  "headword": "maghreb",
-  "reading": null,
-  "gloss": "マグレブ(モロッコ・アルジェリア・チュニジアなど北アフリカ西部地域)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "so there is now an al qaeda in the islamic maghreb",
-    "translation": "「アルカイダ」は今日 マブレブのイスラム地域にもいるし",
-    "cloze": "so there is now an al qaeda in the islamic ｟maghreb｠"
-   }
-  ],
-  "frequencyRank": 29119
- },
- {
   "id": "en-10-30k-19120",
   "courseId": "en-10-30k",
   "headword": "mahjong",
@@ -2506,44 +1627,6 @@
    }
   ],
   "frequencyRank": 29120
- },
- {
-  "id": "en-10-30k-19121",
-  "courseId": "en-10-30k",
-  "headword": "malabar",
-  "reading": null,
-  "gloss": "マラバール(インド南西部・ケララ州沿岸の歴史的地方名)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "The Malabar Coast is famous for its spices.",
-    "translation": "マラバール海岸は香辛料で有名だ。",
-    "cloze": "The ｟Malabar｠ Coast is famous for its spices.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29121
- },
- {
-  "id": "en-10-30k-19122",
-  "courseId": "en-10-30k",
-  "headword": "malala",
-  "reading": null,
-  "gloss": "マララ(マララ・ユスフザイ、教育の権利を訴えたノーベル平和賞受賞者)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "a few days after malala was born",
-    "translation": "マララが生まれて",
-    "cloze": "a few days after ｟malala｠ was born"
-   },
-   {
-    "text": "dear brothers and sisters, when malala was born",
-    "translation": "親愛なる兄弟姉妹の皆さま マララが生まれた日のことです",
-    "cloze": "dear brothers and sisters, when ｟malala｠ was born"
-   }
-  ],
-  "frequencyRank": 29122
  },
  {
   "id": "en-10-30k-19123",
@@ -2587,40 +1670,6 @@
    }
   ],
   "frequencyRank": 29124
- },
- {
-  "id": "en-10-30k-19125",
-  "courseId": "en-10-30k",
-  "headword": "mers",
-  "reading": "/mˈɝz/",
-  "gloss": "MERS、中東呼吸器症候群(重症のウイルス感染症)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Several countries reported new cases of MERS in the region.",
-    "translation": "その地域でMERSの新たな症例がいくつか報告された。",
-    "cloze": "Several countries reported new cases of ｟MERS｠ in the region.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29125
- },
- {
-  "id": "en-10-30k-19126",
-  "courseId": "en-10-30k",
-  "headword": "mfg",
-  "reading": null,
-  "gloss": "製造、製造業(manufacturingの略)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The mfg date is printed on the bottom of the can.",
-    "translation": "製造日は缶の底に印刷されている。",
-    "cloze": "The ｟mfg｠ date is printed on the bottom of the can.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29126
  },
  {
   "id": "en-10-30k-19127",
@@ -2704,27 +1753,6 @@
   "frequencyRank": 29130
  },
  {
-  "id": "en-10-30k-19131",
-  "courseId": "en-10-30k",
-  "headword": "moonlit",
-  "reading": "/mˈunlˌɪt/",
-  "gloss": "月に照らされた、月明かりの",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "The flatboat carrying the two silent men went on gliding atop the dark waters as the moonlit night slowly wore on.",
-    "translation": "次第にふけてゆくおぼろ夜に、沈黙の人二人を載せた高瀬舟は、黒い水の面をすべって行った。",
-    "cloze": "The flatboat carrying the two silent men went on gliding atop the dark waters as the ｟moonlit｠ night slowly wore on."
-   },
-   {
-    "text": "from the distant moonlit shores of the yangtze river, we present, for your pleasure, the deadly chinese bird spider.",
-    "translation": "月明かりの照らす 揚子江の河岸から来ました 出し物を お楽しみ下さい 危険な中国の 大土蜘蛛です",
-    "cloze": "from the distant ｟moonlit｠ shores of the yangtze river, we present, for your pleasure, the deadly chinese bird spider."
-   }
-  ],
-  "frequencyRank": 29131
- },
- {
   "id": "en-10-30k-19132",
   "courseId": "en-10-30k",
   "headword": "morningstar",
@@ -2797,27 +1825,6 @@
   "frequencyRank": 29135
  },
  {
-  "id": "en-10-30k-19136",
-  "courseId": "en-10-30k",
-  "headword": "musashi",
-  "reading": null,
-  "gloss": "武蔵(宮本武蔵、日本の剣豪;または旧国名)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "they say that musashi miyamoto was able to catch a fly with his chopsticks.",
-    "translation": "かの宮本武蔵は箸でハエを捕まえたっていうけどなー",
-    "cloze": "they say that ｟musashi｠ miyamoto was able to catch a fly with his chopsticks."
-   },
-   {
-    "text": "the condo site in musashi kosugi.",
-    "translation": "《武蔵小杉のマンション》",
-    "cloze": "the condo site in ｟musashi｠ kosugi."
-   }
-  ],
-  "frequencyRank": 29136
- },
- {
   "id": "en-10-30k-19137",
   "courseId": "en-10-30k",
   "headword": "myeloid",
@@ -2856,22 +1863,6 @@
   "frequencyRank": 29138
  },
  {
-  "id": "en-10-30k-19139",
-  "courseId": "en-10-30k",
-  "headword": "nand",
-  "reading": null,
-  "gloss": "NAND、否定論理積(論理回路の一種)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "it's an array of floating gate transistors, configured as a series of nand gates.",
-    "translation": "これはフローティングゲートの トランジスタのアレイだ nandゲートの シリーズとして構成される",
-    "cloze": "it's an array of floating gate transistors, configured as a series of ｟nand｠ gates."
-   }
-  ],
-  "frequencyRank": 29139
- },
- {
   "id": "en-10-30k-19140",
   "courseId": "en-10-30k",
   "headword": "nimrod",
@@ -2891,45 +1882,6 @@
    }
   ],
   "frequencyRank": 29140
- },
- {
-  "id": "en-10-30k-19141",
-  "courseId": "en-10-30k",
-  "headword": "nubian",
-  "reading": "/njˈubiən/",
-  "gloss": "ヌビアの、ヌビア人の(古代アフリカ・ナイル上流域の文明)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "you beautiful nubian man!",
-    "translation": "見事なアフリカーン!",
-    "cloze": "you beautiful ｟nubian｠ man!"
-   },
-   {
-    "text": "The ancient Nubian kingdom thrived along the Nile River.",
-    "translation": "古代ヌビア王国はナイル川沿いで栄えた。",
-    "cloze": "The ancient ｟Nubian｠ kingdom thrived along the Nile River.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29141
- },
- {
-  "id": "en-10-30k-19142",
-  "courseId": "en-10-30k",
-  "headword": "oakwood",
-  "reading": "/ˈoʊkwˌʊd/",
-  "gloss": "オークの森;オーク材",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The old cabin was built from solid oakwood.",
-    "translation": "その古い小屋は頑丈なオーク材で建てられていた。",
-    "cloze": "The old cabin was built from solid ｟oakwood｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29142
  },
  {
   "id": "en-10-30k-19143",
@@ -3013,27 +1965,6 @@
   "frequencyRank": 29146
  },
  {
-  "id": "en-10-30k-19147",
-  "courseId": "en-10-30k",
-  "headword": "omelet",
-  "reading": "/ˈɑmlət/",
-  "gloss": "オムレツ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Can you cook an omelet?",
-    "translation": "オムレツって作れる？",
-    "cloze": "Can you cook an ｟omelet｠?"
-   },
-   {
-    "text": "You have to break an egg to make an omelet.",
-    "translation": "卵を割らなければオムレツは作れない。",
-    "cloze": "You have to break an egg to make an ｟omelet｠."
-   }
-  ],
-  "frequencyRank": 29147
- },
- {
   "id": "en-10-30k-19148",
   "courseId": "en-10-30k",
   "headword": "optometry",
@@ -3054,50 +1985,6 @@
    }
   ],
   "frequencyRank": 29148
- },
- {
-  "id": "en-10-30k-19149",
-  "courseId": "en-10-30k",
-  "headword": "orwellian",
-  "reading": "/ˌɔɹwˈɛliən/",
-  "gloss": "オーウェル的な(監視・統制の効いた全体主義社会を指す)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "orwellian dystopias and shadowy cabals",
-    "translation": "オーウェル的ディストピアや 秘密結社",
-    "cloze": "｟orwellian｠ dystopias and shadowy cabals"
-   },
-   {
-    "text": "someone who represents everything that's wrong with an unchecked orwellian state.",
-    "translation": "代弁する人 間違ってるすべてのもの 歯止めが利かない オーウェル状態",
-    "cloze": "someone who represents everything that's wrong with an unchecked ｟orwellian｠ state."
-   }
-  ],
-  "frequencyRank": 29149
- },
- {
-  "id": "en-10-30k-19150",
-  "courseId": "en-10-30k",
-  "headword": "otp",
-  "reading": null,
-  "gloss": "ワンタイムパスワード(使い捨ての認証コード)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The bank sent an OTP to verify the transaction.",
-    "translation": "銀行は取引を確認するためにOTPを送信した。",
-    "cloze": "The bank sent an ｟OTP｠ to verify the transaction.",
-    "aiGenerated": true
-   },
-   {
-    "text": "Enter the OTP you received by text message.",
-    "translation": "テキストメッセージで受け取ったOTPを入力してください。",
-    "cloze": "Enter the ｟OTP｠ you received by text message.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29150
  },
  {
   "id": "en-10-30k-19151",
@@ -3243,27 +2130,6 @@
   "frequencyRank": 29157
  },
  {
-  "id": "en-10-30k-19158",
-  "courseId": "en-10-30k",
-  "headword": "performative",
-  "reading": "/pɚfˈɔɹmətɪv/",
-  "gloss": "見せかけの、演出的な(実質より形式を重視する);(言語学)発話行為を遂行する",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "his performative aspect suggests that he's already killed her.",
-    "translation": "彼の達成感のある顔つきは もう彼女を殺したことを示している",
-    "cloze": "his ｟＿｠ aspect suggests that he's already killed her."
-   },
-   {
-    "text": "and, of course, obviously, this is a very performative",
-    "translation": "もちろん これ自体がパフォーマンスであり",
-    "cloze": "and, of course, obviously, this is a very ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29158
- },
- {
   "id": "en-10-30k-19159",
   "courseId": "en-10-30k",
   "headword": "petticoat",
@@ -3377,40 +2243,6 @@
   "frequencyRank": 29164
  },
  {
-  "id": "en-10-30k-19165",
-  "courseId": "en-10-30k",
-  "headword": "pons",
-  "reading": "/pˈɑnz/",
-  "gloss": "橋(きょう)、脳橋(脳幹の一部)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The pons connects the cerebrum and the cerebellum in the brainstem.",
-    "translation": "橋(きょう)は脳幹において大脳と小脳をつないでいる。",
-    "cloze": "The ｟＿｠ connects the cerebrum and the cerebellum in the brainstem.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29165
- },
- {
-  "id": "en-10-30k-19166",
-  "courseId": "en-10-30k",
-  "headword": "poppers",
-  "reading": "/pˈɑpɚz/",
-  "gloss": "(英)スナップボタン、ホック(衣類の留め具);(俗語)ポッパー(亜硝酸系の吸入剤)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "This raincoat fastens with poppers instead of a zipper.",
-    "translation": "このレインコートはジッパーではなくスナップボタンで留める。",
-    "cloze": "This raincoat fastens with ｟＿｠ instead of a zipper.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29166
- },
- {
   "id": "en-10-30k-19167",
   "courseId": "en-10-30k",
   "headword": "precondition",
@@ -3430,23 +2262,6 @@
    }
   ],
   "frequencyRank": 29167
- },
- {
-  "id": "en-10-30k-19168",
-  "courseId": "en-10-30k",
-  "headword": "premierships",
-  "reading": null,
-  "gloss": "首相の地位・任期;(英)プレミアリーグ(のタイトル)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "During his premiership, the country's economy grew rapidly.",
-    "translation": "彼の首相在任中、国の経済は急速に成長した。",
-    "cloze": "During his ｟＿｠, the country's economy grew rapidly.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29168
  },
  {
   "id": "en-10-30k-19169",
@@ -3508,27 +2323,6 @@
   "frequencyRank": 29171
  },
  {
-  "id": "en-10-30k-19172",
-  "courseId": "en-10-30k",
-  "headword": "quantitatively",
-  "reading": "/kwˌɑntɪtˈeɪtəvli/",
-  "gloss": "量的に、定量的に",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "what is falling both quantitatively and qualitatively",
-    "translation": "量的にも質的にも 落ちてきていることは",
-    "cloze": "what is falling both ｟＿｠ and qualitatively"
-   },
-   {
-    "text": "and quantitatively determine how much better the performance is.",
-    "translation": "性能がどれだけ向上したかを量的に検証します",
-    "cloze": "and ｟＿｠ determine how much better the performance is."
-   }
-  ],
-  "frequencyRank": 29172
- },
- {
   "id": "en-10-30k-19173",
   "courseId": "en-10-30k",
   "headword": "radiative",
@@ -3586,27 +2380,6 @@
    }
   ],
   "frequencyRank": 29175
- },
- {
-  "id": "en-10-30k-19176",
-  "courseId": "en-10-30k",
-  "headword": "reassemble",
-  "reading": "/ɹˌiəsˈɛmbəl/",
-  "gloss": "再び組み立てる、再構築する;再び集まる",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "dr. edison is going to have a very difficult time reassembling the remains.",
-    "translation": "エジソン博士は 遺骨を再構築するのが 大変でしょうね",
-    "cloze": "dr. edison is going to have a very difficult time ｟＿｠ the remains."
-   },
-   {
-    "text": "but with good techniques now, you can basically reassemble the whole genome.",
-    "translation": "今日の優れた技術でゲノム全体を再構築できます",
-    "cloze": "but with good techniques now, you can basically ｟＿｠ the whole genome."
-   }
-  ],
-  "frequencyRank": 29176
  },
  {
   "id": "en-10-30k-19177",
@@ -3719,23 +2492,6 @@
   "frequencyRank": 29182
  },
  {
-  "id": "en-10-30k-19183",
-  "courseId": "en-10-30k",
-  "headword": "reshaped",
-  "reading": "/ɹiʃˈeɪpt/",
-  "gloss": "作り直した、形を変えた(reshape)",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "New technology has reshaped the way we communicate.",
-    "translation": "新しい技術は私たちのコミュニケーションの方法を作り変えた。",
-    "cloze": "New technology has ｟＿｠ the way we communicate.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29183
- },
- {
   "id": "en-10-30k-19184",
   "courseId": "en-10-30k",
   "headword": "retinue",
@@ -3755,44 +2511,6 @@
    }
   ],
   "frequencyRank": 29184
- },
- {
-  "id": "en-10-30k-19185",
-  "courseId": "en-10-30k",
-  "headword": "rickey",
-  "reading": "/ɹˈɪki/",
-  "gloss": "リッキー(ジンやウイスキーにライムジュースと炭酸水を加えたカクテル)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "while you're sitting on a porch drinking gin rickeys, huh?",
-    "translation": "君はポーチに座って ジンリッキーを飲んでいる",
-    "cloze": "while you're sitting on a porch drinking gin ｟＿｠, huh?"
-   },
-   {
-    "text": "we'll spend out the rest of our days drinking gin rickeys on this porch.",
-    "translation": "余生をそこで過ごすんだ このポーチで ジンリッキーを飲みながら",
-    "cloze": "we'll spend out the rest of our days drinking gin ｟＿｠ on this porch."
-   }
-  ],
-  "frequencyRank": 29185
- },
- {
-  "id": "en-10-30k-19186",
-  "courseId": "en-10-30k",
-  "headword": "rnas",
-  "reading": null,
-  "gloss": "RNA(リボ核酸)の複数形",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Researchers identified several new RNAs involved in gene regulation.",
-    "translation": "研究者たちは遺伝子制御に関わるいくつかの新しいRNAを特定した。",
-    "cloze": "Researchers identified several new ｟＿｠ involved in gene regulation.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29186
  },
  {
   "id": "en-10-30k-19187",
@@ -3844,23 +2562,6 @@
   "frequencyRank": 29189
  },
  {
-  "id": "en-10-30k-19190",
-  "courseId": "en-10-30k",
-  "headword": "saree",
-  "reading": null,
-  "gloss": "サリー(インドの女性用民族衣装)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "She wore a beautiful silk saree to the wedding.",
-    "translation": "彼女は結婚式に美しい絹のサリーを着ていった。",
-    "cloze": "She wore a beautiful silk ｟＿｠ to the wedding.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29190
- },
- {
   "id": "en-10-30k-19191",
   "courseId": "en-10-30k",
   "headword": "satirist",
@@ -3893,27 +2594,6 @@
    }
   ],
   "frequencyRank": 29192
- },
- {
-  "id": "en-10-30k-19193",
-  "courseId": "en-10-30k",
-  "headword": "shaka",
-  "reading": "/ʃˈɑkə/",
-  "gloss": "釈迦(お釈迦様、仏教の開祖);(ハワイ語由来)シャカサイン(親指と小指を立てるジェスチャー)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "it's a shaka nyorai statue. about what period, do you think?",
-    "translation": "釈迦如来像。 いつごろのもんや?",
-    "cloze": "it's a ｟＿｠ nyorai statue. about what period, do you think?"
-   },
-   {
-    "text": "we've talked about this before. the kuroiwa shaka nyorai buddha",
-    "translation": "前に話しましたよね。 黒岩家の釈迦如来像は",
-    "cloze": "we've talked about this before. the kuroiwa ｟＿｠ nyorai buddha"
-   }
-  ],
-  "frequencyRank": 29193
  },
  {
   "id": "en-10-30k-19194",
@@ -4037,23 +2717,6 @@
   "frequencyRank": 29199
  },
  {
-  "id": "en-10-30k-19200",
-  "courseId": "en-10-30k",
-  "headword": "skopje",
-  "reading": "/skˈɔpjˌɛ/",
-  "gloss": "スコピエ(北マケドニアの首都)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Skopje is the capital and largest city of North Macedonia.",
-    "translation": "スコピエは北マケドニアの首都であり最大の都市である。",
-    "cloze": "｟＿｠ is the capital and largest city of North Macedonia.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29200
- },
- {
   "id": "en-10-30k-19201",
   "courseId": "en-10-30k",
   "headword": "sleuth",
@@ -4091,23 +2754,6 @@
   "frequencyRank": 29202
  },
  {
-  "id": "en-10-30k-19203",
-  "courseId": "en-10-30k",
-  "headword": "smokeless",
-  "reading": "/smˈoʊkləs/",
-  "gloss": "煙の出ない、無煙の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "The factory uses a smokeless furnace.",
-    "translation": "その工場は無煙炉を使用している。",
-    "cloze": "The factory uses a ｟＿｠ furnace.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29203
- },
- {
   "id": "en-10-30k-19204",
   "courseId": "en-10-30k",
   "headword": "solidity",
@@ -4122,23 +2768,6 @@
    }
   ],
   "frequencyRank": 29204
- },
- {
-  "id": "en-10-30k-19205",
-  "courseId": "en-10-30k",
-  "headword": "sorrento",
-  "reading": null,
-  "gloss": "ソレント(イタリア南部の保養都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "We spent our honeymoon in Sorrento.",
-    "translation": "私たちはソレントで新婚旅行を過ごした。",
-    "cloze": "We spent our honeymoon in ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29205
  },
  {
   "id": "en-10-30k-19206",
@@ -4232,23 +2861,6 @@
   "frequencyRank": 29210
  },
  {
-  "id": "en-10-30k-19211",
-  "courseId": "en-10-30k",
-  "headword": "superfund",
-  "reading": "/sˌupɚfˈʌnd/",
-  "gloss": "スーパーファンド(米国の有害廃棄物処理基金制度)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The old factory was declared a Superfund site due to soil contamination.",
-    "translation": "その古い工場は土壌汚染のためスーパーファンド指定地となった。",
-    "cloze": "The old factory was declared a ｟＿｠ site due to soil contamination.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29211
- },
- {
   "id": "en-10-30k-19212",
   "courseId": "en-10-30k",
   "headword": "supposition",
@@ -4303,23 +2915,6 @@
   "frequencyRank": 29214
  },
  {
-  "id": "en-10-30k-19215",
-  "courseId": "en-10-30k",
-  "headword": "tantra",
-  "reading": null,
-  "gloss": "タントラ(ヒンドゥー教・仏教密教の教義・経典)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "She studies tantra as part of her research into Hindu philosophy.",
-    "translation": "彼女はヒンドゥー哲学の研究の一環としてタントラを学んでいる。",
-    "cloze": "She studies ｟＿｠ as part of her research into Hindu philosophy.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29215
- },
- {
   "id": "en-10-30k-19216",
   "courseId": "en-10-30k",
   "headword": "tarsus",
@@ -4351,64 +2946,6 @@
    }
   ],
   "frequencyRank": 29217
- },
- {
-  "id": "en-10-30k-19218",
-  "courseId": "en-10-30k",
-  "headword": "thessaloniki",
-  "reading": null,
-  "gloss": "テッサロニキ(ギリシャ第2の都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "We live ten kilometers from Thessaloniki.",
-    "translation": "私たち、テッサロニキから１０キロのところに住んでるのよ。",
-    "cloze": "We live ten kilometers from ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29218
- },
- {
-  "id": "en-10-30k-19219",
-  "courseId": "en-10-30k",
-  "headword": "thickly",
-  "reading": "/θˈɪkli/",
-  "gloss": "厚く、密に、濃く",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "The color is thickly laid on.",
-    "translation": "色が濃く塗れている。",
-    "cloze": "The color is ｟＿｠ laid on."
-   },
-   {
-    "text": "She spread honey thickly on her toast.",
-    "translation": "彼女はトーストの上にハチミツを厚く塗った。",
-    "cloze": "She spread honey ｟＿｠ on her toast."
-   }
-  ],
-  "frequencyRank": 29219
- },
- {
-  "id": "en-10-30k-19220",
-  "courseId": "en-10-30k",
-  "headword": "timbuktu",
-  "reading": "/tˌɪmbəktˈu/",
-  "gloss": "ティンブクトゥ(マリの都市;「果てしなく遠い場所」の比喩でも使う)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "timbuktu was one great big market town.",
-    "translation": "ティンブクトゥは巨大な市場の町で",
-    "cloze": "｟＿｠ was one great big market town."
-   },
-   {
-    "text": "where? timbuktu?",
-    "translation": "トンブクトゥか?",
-    "cloze": "where? ｟＿｠?"
-   }
-  ],
-  "frequencyRank": 29220
  },
  {
   "id": "en-10-30k-19221",
@@ -4630,27 +3167,6 @@
   "frequencyRank": 29231
  },
  {
-  "id": "en-10-30k-19232",
-  "courseId": "en-10-30k",
-  "headword": "unworkable",
-  "reading": "/ənwˈɝkəbəl/",
-  "gloss": "実行不可能な、うまく機能しない",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "What must be done if the plan proves unworkable?",
-    "translation": "その計画が実行できないとなれば、どうしなければなりませんか。",
-    "cloze": "What must be done if the plan proves ｟＿｠?"
-   },
-   {
-    "text": "zero. you're unworkable. switch to other means.",
-    "translation": "こちらゼロ そちらは実行不可能 他の手段に変更せよ",
-    "cloze": "zero. you're ｟＿｠. switch to other means."
-   }
-  ],
-  "frequencyRank": 29232
- },
- {
   "id": "en-10-30k-19233",
   "courseId": "en-10-30k",
   "headword": "uppercut",
@@ -4670,23 +3186,6 @@
    }
   ],
   "frequencyRank": 29233
- },
- {
-  "id": "en-10-30k-19234",
-  "courseId": "en-10-30k",
-  "headword": "usenet",
-  "reading": "/jˈuznˌɛt/",
-  "gloss": "ユーズネット(インターネット上の電子掲示板ネットワーク)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Before the World Wide Web, many people exchanged messages on Usenet.",
-    "translation": "ワールドワイドウェブが登場する前、多くの人々はユーズネットでメッセージをやり取りしていた。",
-    "cloze": "Before the World Wide Web, many people exchanged messages on ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29234
  },
  {
   "id": "en-10-30k-19235",
@@ -4867,44 +3366,6 @@
   "frequencyRank": 29243
  },
  {
-  "id": "en-10-30k-19244",
-  "courseId": "en-10-30k",
-  "headword": "wholeness",
-  "reading": "/hˈoʊlnɪs/",
-  "gloss": "全体性、完全であること",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "the torus provides a template for a society based on integrity and wholeness.",
-    "translation": "トーラスは、統合性と完全性に基づく社会のひな形となります。",
-    "cloze": "the torus provides a template for a society based on integrity and ｟＿｠."
-   },
-   {
-    "text": "bringing us into wholeness",
-    "translation": "全体性 信頼性 そして知性へと",
-    "cloze": "bringing us into ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29244
- },
- {
-  "id": "en-10-30k-19245",
-  "courseId": "en-10-30k",
-  "headword": "woot",
-  "reading": null,
-  "gloss": "やったー、うれしい(喜びを表すくだけた間投詞)",
-  "pos": "感嘆詞",
-  "examples": [
-   {
-    "text": "Woot! We won the game!",
-    "translation": "やったー! 試合に勝った!",
-    "cloze": "｟＿｠! We won the game!",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29245
- },
- {
   "id": "en-10-30k-19246",
   "courseId": "en-10-30k",
   "headword": "wrest",
@@ -5023,27 +3484,6 @@
   "frequencyRank": 29251
  },
  {
-  "id": "en-10-30k-19252",
-  "courseId": "en-10-30k",
-  "headword": "alrighty",
-  "reading": "/ˌɔlɹˈaɪti/",
-  "gloss": "「よし」「オーケー」のくだけた言い方",
-  "pos": "感嘆詞",
-  "examples": [
-   {
-    "text": "Alrighty! Wait for me, Gamiko!",
-    "translation": "よっしゃ 出番だ! 待ってろ ガミ公!",
-    "cloze": "｟＿｠! Wait for me, Gamiko!"
-   },
-   {
-    "text": "Alrighty, boys.",
-    "translation": "よーし みんな",
-    "cloze": "｟＿｠, boys."
-   }
-  ],
-  "frequencyRank": 29252
- },
- {
   "id": "en-10-30k-19253",
   "courseId": "en-10-30k",
   "headword": "anesthesiologist",
@@ -5063,45 +3503,6 @@
    }
   ],
   "frequencyRank": 29253
- },
- {
-  "id": "en-10-30k-19254",
-  "courseId": "en-10-30k",
-  "headword": "annualized",
-  "reading": "/ˈænjuwəlˌaɪzd/",
-  "gloss": "年率換算の、年率に換算した",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "When annualized, the quarterly gain represents a 4% growth.",
-    "translation": "年率に換算すると、この四半期の増加は４％の成長になる。",
-    "cloze": "When ｟＿｠, the quarterly gain represents a 4% growth."
-   },
-   {
-    "text": "The company reported an annualized growth rate of 8%.",
-    "translation": "その会社は年率換算で8%の成長率を報告した。",
-    "cloze": "The company reported an ｟＿｠ growth rate of 8%.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29254
- },
- {
-  "id": "en-10-30k-19255",
-  "courseId": "en-10-30k",
-  "headword": "arcana",
-  "reading": "/ɑɹkˈænə/",
-  "gloss": "秘儀、深遠な神秘的知識",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The book explores the arcana of ancient magic.",
-    "translation": "その本は古代魔術の秘儀を探求している。",
-    "cloze": "The book explores the ｟＿｠ of ancient magic.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29255
  },
  {
   "id": "en-10-30k-19256",
@@ -5146,23 +3547,6 @@
    }
   ],
   "frequencyRank": 29257
- },
- {
-  "id": "en-10-30k-19258",
-  "courseId": "en-10-30k",
-  "headword": "assyrians",
-  "reading": "/əsˈɪɹiənz/",
-  "gloss": "アッシリア人",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "The ancient Assyrians built a powerful empire in Mesopotamia.",
-    "translation": "古代アッシリア人はメソポタミアに強大な帝国を築いた。",
-    "cloze": "The ancient ｟＿｠ built a powerful empire in Mesopotamia.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29258
  },
  {
   "id": "en-10-30k-19259",
@@ -5245,23 +3629,6 @@
   "frequencyRank": 29262
  },
  {
-  "id": "en-10-30k-19263",
-  "courseId": "en-10-30k",
-  "headword": "awwww",
-  "reading": null,
-  "gloss": "あら、まあ(同情・愛おしさを表すくだけた間投詞)",
-  "pos": "感嘆詞",
-  "examples": [
-   {
-    "text": "Awwww, that puppy is so cute!",
-    "translation": "あら、あの子犬すごくかわいい!",
-    "cloze": "｟＿｠, that puppy is so cute!",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29263
- },
- {
   "id": "en-10-30k-19264",
   "courseId": "en-10-30k",
   "headword": "basset",
@@ -5327,28 +3694,6 @@
   "frequencyRank": 29266
  },
  {
-  "id": "en-10-30k-19267",
-  "courseId": "en-10-30k",
-  "headword": "bluray",
-  "reading": null,
-  "gloss": "ブルーレイ(高画質の光ディスク規格)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Let's advertise this animation. Let's sell Bluray with DVD.",
-    "translation": "このアニメの宣伝をしよう。 DVDとブルーレイを売っていこう。",
-    "cloze": "Let's advertise this animation. Let's sell ｟＿｠ with DVD."
-   },
-   {
-    "text": "I bought the movie on Bluray.",
-    "translation": "その映画をブルーレイで買った。",
-    "cloze": "I bought the movie on ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29267
- },
- {
   "id": "en-10-30k-19268",
   "courseId": "en-10-30k",
   "headword": "blurt",
@@ -5392,48 +3737,6 @@
   "frequencyRank": 29269
  },
  {
-  "id": "en-10-30k-19270",
-  "courseId": "en-10-30k",
-  "headword": "bozo",
-  "reading": "/bˈoʊzˌoʊ/",
-  "gloss": "《話》間抜け、ばかな人",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Hey, bozos, let's hustle now.",
-    "translation": "おおい。 お前ら 急げ!",
-    "cloze": "Hey, ｟＿｠, let's hustle now."
-   },
-   {
-    "text": "And these bozos...",
-    "translation": "あいつらは...",
-    "cloze": "And these ｟＿｠..."
-   }
-  ],
-  "frequencyRank": 29270
- },
- {
-  "id": "en-10-30k-19271",
-  "courseId": "en-10-30k",
-  "headword": "brainy",
-  "reading": "/bɹˈeɪni/",
-  "gloss": "《話》頭がいい、聡明な",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "\"You're OK without your glasses?\" \"Ah, these are fake you see, I thought it might make me brainier...\"",
-    "translation": "「めがねなくても大丈夫なの？」「あ、これ伊達めがねだから、頭よくなるかなと思って」",
-    "cloze": "\"You're OK without your glasses?\" \"Ah, these are fake you see, I thought it might make me ｟＿｠...\""
-   },
-   {
-    "text": "Because I'm very brainy.",
-    "translation": "私が聡明だからよ",
-    "cloze": "Because I'm very ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29271
- },
- {
   "id": "en-10-30k-19272",
   "courseId": "en-10-30k",
   "headword": "broach",
@@ -5453,27 +3756,6 @@
    }
   ],
   "frequencyRank": 29272
- },
- {
-  "id": "en-10-30k-19273",
-  "courseId": "en-10-30k",
-  "headword": "bromance",
-  "reading": null,
-  "gloss": "男性同士の親密な友情(ブロマンス)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "I'm in the middle of writing an article on bromance and I didn't really understand the feelings involved, so you see...",
-    "translation": "ブロマンスについての記事を書いてるんです感情がよくわからなかったので・・・",
-    "cloze": "I'm in the middle of writing an article on ｟＿｠ and I didn't really understand the feelings involved, so you see..."
-   },
-   {
-    "text": "This will become a bromance.",
-    "translation": "仲良くしなさい",
-    "cloze": "This will become a ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29273
  },
  {
   "id": "en-10-30k-19274",
@@ -5534,23 +3816,6 @@
    }
   ],
   "frequencyRank": 29276
- },
- {
-  "id": "en-10-30k-19277",
-  "courseId": "en-10-30k",
-  "headword": "cantons",
-  "reading": "/kˈæntənz/",
-  "gloss": "州、カントン(スイスなどの行政区画)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Switzerland is divided into 26 cantons.",
-    "translation": "スイスは26の州に分かれている。",
-    "cloze": "Switzerland is divided into 26 ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29277
  },
  {
   "id": "en-10-30k-19278",
@@ -5660,27 +3925,6 @@
   "frequencyRank": 29282
  },
  {
-  "id": "en-10-30k-19283",
-  "courseId": "en-10-30k",
-  "headword": "classless",
-  "reading": "/klˈæsləs/",
-  "gloss": "階級のない、階級制度がない",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "America likes to believe that it's a classless society.",
-    "translation": "アメリカは自国には階級がないと信じたがる国だ。",
-    "cloze": "America likes to believe that it's a ｟＿｠ society."
-   },
-   {
-    "text": "America likes to claim that it is a \"classless\" society.",
-    "translation": "アメリカは自国が「階級の無い」社会であると主張したがる。",
-    "cloze": "America likes to claim that it is a \"｟＿｠\" society."
-   }
-  ],
-  "frequencyRank": 29283
- },
- {
   "id": "en-10-30k-19284",
   "courseId": "en-10-30k",
   "headword": "clink",
@@ -5721,29 +3965,6 @@
    }
   ],
   "frequencyRank": 29285
- },
- {
-  "id": "en-10-30k-19286",
-  "courseId": "en-10-30k",
-  "headword": "colombians",
-  "reading": "/kəlˈʌmbiənz/",
-  "gloss": "コロンビア人",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Many Colombians live in Miami.",
-    "translation": "多くのコロンビア人がマイアミに住んでいる。",
-    "cloze": "Many ｟＿｠ live in Miami.",
-    "aiGenerated": true
-   },
-   {
-    "text": "Colombians are known for their coffee production.",
-    "translation": "コロンビア人はコーヒー生産で知られている。",
-    "cloze": "｟＿｠ are known for their coffee production.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29286
  },
  {
   "id": "en-10-30k-19287",
@@ -5851,23 +4072,6 @@
    }
   ],
   "frequencyRank": 29291
- },
- {
-  "id": "en-10-30k-19292",
-  "courseId": "en-10-30k",
-  "headword": "cums",
-  "reading": null,
-  "gloss": "(俗語・下品)射精する",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "He cums too quickly sometimes.",
-    "translation": "彼は時々早く果てて(射精して)しまう。",
-    "cloze": "He ｟＿｠ too quickly sometimes.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29292
  },
  {
   "id": "en-10-30k-19293",
@@ -6087,27 +4291,6 @@
   "frequencyRank": 29302
  },
  {
-  "id": "en-10-30k-19303",
-  "courseId": "en-10-30k",
-  "headword": "dreadlocks",
-  "reading": null,
-  "gloss": "ドレッドロックス、ドレッドヘア(髪型)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "think our victim had dreadlocks.",
-    "translation": "被害者はドレッドヘアだったと思う",
-    "cloze": "think our victim had ｟＿｠."
-   },
-   {
-    "text": "you know, you don't often see white boys with the dreadlocks.",
-    "translation": "白人のドレッドヘアーって珍しいわよね",
-    "cloze": "you know, you don't often see white boys with the ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29303
- },
- {
   "id": "en-10-30k-19304",
   "courseId": "en-10-30k",
   "headword": "dreadnought",
@@ -6216,50 +4399,6 @@
   "frequencyRank": 29308
  },
  {
-  "id": "en-10-30k-19309",
-  "courseId": "en-10-30k",
-  "headword": "esperanto",
-  "reading": "/ˌɛspɚˈæntoʊ/",
-  "gloss": "エスペラント語(国際補助語)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Do you speak Esperanto?",
-    "translation": "エスペラントを話しますか。",
-    "cloze": "Do you speak ｟＿｠?"
-   },
-   {
-    "text": "I began to learn Esperanto.",
-    "translation": "エスペラントの勉強を始めました。",
-    "cloze": "I began to learn ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29309
- },
- {
-  "id": "en-10-30k-19310",
-  "courseId": "en-10-30k",
-  "headword": "eval",
-  "reading": null,
-  "gloss": "(略式)評価、査定(evaluationの略)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The team is scheduling a performance eval next week.",
-    "translation": "チームは来週、人事評価を予定している。",
-    "cloze": "The team is scheduling a performance ｟＿｠ next week.",
-    "aiGenerated": true
-   },
-   {
-    "text": "He had to undergo a psych eval before returning to duty.",
-    "translation": "彼は職務に復帰する前に精神鑑定(心理評価)を受けなければならなかった。",
-    "cloze": "He had to undergo a psych ｟＿｠ before returning to duty.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29310
- },
- {
   "id": "en-10-30k-19311",
   "courseId": "en-10-30k",
   "headword": "extrinsic",
@@ -6301,51 +4440,6 @@
    }
   ],
   "frequencyRank": 29312
- },
- {
-  "id": "en-10-30k-19313",
-  "courseId": "en-10-30k",
-  "headword": "favs",
-  "reading": null,
-  "gloss": "(略式)お気に入り(favoritesの略)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "These songs are among my favs on this album.",
-    "translation": "この曲たちはこのアルバムの中でお気に入りだ。",
-    "cloze": "These songs are among my ｟＿｠ on this album.",
-    "aiGenerated": true
-   },
-   {
-    "text": "I added the article to my favs for later reading.",
-    "translation": "後で読むためにその記事をお気に入りに追加した。",
-    "cloze": "I added the article to my ｟＿｠ for later reading.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29313
- },
- {
-  "id": "en-10-30k-19314",
-  "courseId": "en-10-30k",
-  "headword": "fie",
-  "reading": "/fˈi/",
-  "gloss": "(軽蔑・非難を表す間投詞)ちぇっ、ええい、まあ",
-  "pos": "感嘆詞",
-  "examples": [
-   {
-    "text": "fie upon the wicked who dare to throw sand in our eyes.",
-    "translation": "我らの目に砂を投げ込む様な 不届き者に",
-    "cloze": "｟＿｠ upon the wicked who dare to throw sand in our eyes."
-   },
-   {
-    "text": "Fie on such cowardice!",
-    "translation": "何と卑怯な!",
-    "cloze": "｟＿｠ on such cowardice!",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29314
  },
  {
   "id": "en-10-30k-19315",
@@ -6456,27 +4550,6 @@
   "frequencyRank": 29319
  },
  {
-  "id": "en-10-30k-19320",
-  "courseId": "en-10-30k",
-  "headword": "gentlemanly",
-  "reading": "/dʒˈɛntəlmənli/",
-  "gloss": "紳士的な、礼儀正しい",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "She was taken in by his gentlemanly appearance.",
-    "translation": "彼女は彼の紳士らしい体裁にだまされてしまった。",
-    "cloze": "She was taken in by his ｟＿｠ appearance."
-   },
-   {
-    "text": "all i did was question him in a gentlemanly manner.",
-    "translation": "俺は紳士的に質問しただけ",
-    "cloze": "all i did was question him in a ｟＿｠ manner."
-   }
-  ],
-  "frequencyRank": 29320
- },
- {
   "id": "en-10-30k-19321",
   "courseId": "en-10-30k",
   "headword": "glycerin",
@@ -6498,50 +4571,6 @@
    }
   ],
   "frequencyRank": 29321
- },
- {
-  "id": "en-10-30k-19322",
-  "courseId": "en-10-30k",
-  "headword": "goldeneye",
-  "reading": "/ɡˈoʊldənˌaɪ/",
-  "gloss": "ホオジロガモ(水鳥の一種)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "A goldeneye duck dove beneath the icy lake water.",
-    "translation": "ホオジロガモが凍った湖の水中に潜った。",
-    "cloze": "A ｟＿｠ duck dove beneath the icy lake water.",
-    "aiGenerated": true
-   },
-   {
-    "text": "Goldeneyes often nest in tree cavities near lakes.",
-    "translation": "ホオジロガモはよく湖の近くの樹洞に巣を作る。",
-    "cloze": "｟＿｠s often nest in tree cavities near lakes.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29322
- },
- {
-  "id": "en-10-30k-19323",
-  "courseId": "en-10-30k",
-  "headword": "goldilocks",
-  "reading": "/ɡˈoʊldilˌɔks/",
-  "gloss": "ゴルディロックス(童話の主人公);程よい・最適な状態",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i call it the goldilocks effect:",
-    "translation": "これをゴルディロックス効果 と呼んでいます",
-    "cloze": "i call it the ｟＿｠ effect:"
-   },
-   {
-    "text": "we mostly want to find the planets that are goldilocks planets, we call them.",
-    "translation": "私達が探しているのは 「ゴールディロック惑星」です",
-    "cloze": "we mostly want to find the planets that are ｟＿｠ planets, we call them."
-   }
-  ],
-  "frequencyRank": 29323
  },
  {
   "id": "en-10-30k-19324",
@@ -6587,22 +4616,6 @@
   "frequencyRank": 29325
  },
  {
-  "id": "en-10-30k-19326",
-  "courseId": "en-10-30k",
-  "headword": "grayish",
-  "reading": "/ɡɹˈeɪɪʃ/",
-  "gloss": "灰色がかった、やや灰色の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "he was older... grayish hair.",
-    "translation": "年寄りで... 白髪だった",
-    "cloze": "he was older... ｟＿｠ hair."
-   }
-  ],
-  "frequencyRank": 29326
- },
- {
   "id": "en-10-30k-19327",
   "courseId": "en-10-30k",
   "headword": "groupies",
@@ -6618,48 +4631,6 @@
    }
   ],
   "frequencyRank": 29327
- },
- {
-  "id": "en-10-30k-19328",
-  "courseId": "en-10-30k",
-  "headword": "gymnastic",
-  "reading": "/dʒɪmnˈæstɪk/",
-  "gloss": "体操の、体育の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "these must be her gymnastic moves.",
-    "translation": "体操の動きね",
-    "cloze": "these must be her ｟＿｠ moves."
-   },
-   {
-    "text": "wake up it is time for radio gymnastic.",
-    "translation": "起きて ラジオ体操。",
-    "cloze": "wake up it is time for radio ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29328
- },
- {
-  "id": "en-10-30k-19329",
-  "courseId": "en-10-30k",
-  "headword": "harbin",
-  "reading": "/hˈɑɹbɪn/",
-  "gloss": "ハルビン(中国黒竜江省の都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Harbin is very cold.",
-    "translation": "ハルビンはとても寒い。",
-    "cloze": "｟＿｠ is very cold."
-   },
-   {
-    "text": "in the heilongjiang and harbin provinces of china",
-    "translation": "中国の黒竜江省とハルビン地方に",
-    "cloze": "in the heilongjiang and ｟＿｠ provinces of china"
-   }
-  ],
-  "frequencyRank": 29329
  },
  {
   "id": "en-10-30k-19330",
@@ -6720,23 +4691,6 @@
   "frequencyRank": 29332
  },
  {
-  "id": "en-10-30k-19333",
-  "courseId": "en-10-30k",
-  "headword": "hawaiians",
-  "reading": "/həwˈaɪənz/",
-  "gloss": "ハワイ人、ハワイの住民",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Many Hawaiians speak both English and Hawaiian.",
-    "translation": "多くのハワイ人は英語とハワイ語の両方を話す。",
-    "cloze": "Many ｟＿｠ speak both English and Hawaiian.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29333
- },
- {
   "id": "en-10-30k-19334",
   "courseId": "en-10-30k",
   "headword": "hematology",
@@ -6777,27 +4731,6 @@
    }
   ],
   "frequencyRank": 29335
- },
- {
-  "id": "en-10-30k-19336",
-  "courseId": "en-10-30k",
-  "headword": "hindenburg",
-  "reading": null,
-  "gloss": "ヒンデンブルク号(1937年に爆発炎上した飛行船);ヒンデンブルク(人名)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "based, obviously, on the hindenburg.",
-    "translation": "ヒンデンブルク号に基づいています",
-    "cloze": "based, obviously, on the ｟＿｠."
-   },
-   {
-    "text": "you handed it to me like the hindenburg.",
-    "translation": "ヒンデンブルクみたいに 手渡すなよ",
-    "cloze": "you handed it to me like the ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29336
  },
  {
   "id": "en-10-30k-19337",
@@ -6842,27 +4775,6 @@
   "frequencyRank": 29338
  },
  {
-  "id": "en-10-30k-19339",
-  "courseId": "en-10-30k",
-  "headword": "hutu",
-  "reading": "/hˈutˌu/",
-  "gloss": "フツ族(ルワンダ・ブルンジの民族)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "and joined the extremist party, hutu power",
-    "translation": "過激派であるフツ・パワーに加わり",
-    "cloze": "and joined the extremist party, ｟＿｠ power"
-   },
-   {
-    "text": "there was a group of children, mixed hutus and tutsis",
-    "translation": "片方には フツもツチもいる 子供のグループがあり",
-    "cloze": "there was a group of children, mixed ｟＿｠ and tutsis"
-   }
-  ],
-  "frequencyRank": 29339
- },
- {
   "id": "en-10-30k-19340",
   "courseId": "en-10-30k",
   "headword": "hydrochloric",
@@ -6905,65 +4817,6 @@
   "frequencyRank": 29341
  },
  {
-  "id": "en-10-30k-19342",
-  "courseId": "en-10-30k",
-  "headword": "ibsen",
-  "reading": "/ˈɪbsən/",
-  "gloss": "イプセン(ノルウェーの劇作家、『人形の家』の作者)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Ibsen's plays often explore social issues.",
-    "translation": "イプセンの戯曲はしばしば社会問題を描いている。",
-    "cloze": "｟＿｠'s plays often explore social issues.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29342
- },
- {
-  "id": "en-10-30k-19343",
-  "courseId": "en-10-30k",
-  "headword": "impolite",
-  "reading": "/ˌɪmpəlˈaɪt/",
-  "gloss": "無作法な、失礼な",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "I was impolite.",
-    "translation": "私は無礼だった。",
-    "cloze": "I was ｟＿｠."
-   },
-   {
-    "text": "It would be impolite to refuse.",
-    "translation": "断るのは失礼なんじゃないかな。",
-    "cloze": "It would be ｟＿｠ to refuse."
-   }
-  ],
-  "frequencyRank": 29343
- },
- {
-  "id": "en-10-30k-19344",
-  "courseId": "en-10-30k",
-  "headword": "inbetween",
-  "reading": null,
-  "gloss": "中間の、間の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "inbetween male and female, we is exist.",
-    "translation": "男と女の間に 俺たちみたいなISがいる。",
-    "cloze": "｟＿｠ male and female, we is exist."
-   },
-   {
-    "text": "now i want something inbetween.",
-    "translation": "今の私は普通の 生活を望みます",
-    "cloze": "now i want something ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29344
- },
- {
   "id": "en-10-30k-19345",
   "courseId": "en-10-30k",
   "headword": "insomniac",
@@ -6985,23 +4838,6 @@
   "frequencyRank": 29345
  },
  {
-  "id": "en-10-30k-19346",
-  "courseId": "en-10-30k",
-  "headword": "installers",
-  "reading": "/ˌɪnstˈɔlɚz/",
-  "gloss": "設置業者、取り付け業者;(ソフトウェアの)インストーラー",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The installers will arrive tomorrow morning to set up the new windows.",
-    "translation": "設置業者は明日の朝、新しい窓を取り付けに来ます。",
-    "cloze": "The ｟＿｠ will arrive tomorrow morning to set up the new windows.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29346
- },
- {
   "id": "en-10-30k-19347",
   "courseId": "en-10-30k",
   "headword": "interventionist",
@@ -7016,23 +4852,6 @@
    }
   ],
   "frequencyRank": 29347
- },
- {
-  "id": "en-10-30k-19348",
-  "courseId": "en-10-30k",
-  "headword": "ionian",
-  "reading": null,
-  "gloss": "イオニアの(古代ギリシャの地方・イオニア海に関する)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "The Ionian Sea lies between Italy and Greece.",
-    "translation": "イオニア海はイタリアとギリシャの間にある。",
-    "cloze": "The ｟＿｠ Sea lies between Italy and Greece.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29348
  },
  {
   "id": "en-10-30k-19349",
@@ -7072,23 +4891,6 @@
   "frequencyRank": 29350
  },
  {
-  "id": "en-10-30k-19351",
-  "courseId": "en-10-30k",
-  "headword": "javanese",
-  "reading": "/dʒˌɑvənˈiz/",
-  "gloss": "ジャワの;ジャワ人;ジャワ語",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "Javanese is spoken by millions of people in Indonesia.",
-    "translation": "ジャワ語はインドネシアで何百万人もの人々に話されている。",
-    "cloze": "｟＿｠ is spoken by millions of people in Indonesia.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29351
- },
- {
   "id": "en-10-30k-19352",
   "courseId": "en-10-30k",
   "headword": "jawline",
@@ -7108,83 +4910,6 @@
    }
   ],
   "frequencyRank": 29352
- },
- {
-  "id": "en-10-30k-19353",
-  "courseId": "en-10-30k",
-  "headword": "kaiju",
-  "reading": null,
-  "gloss": "怪獣(日本発の特撮・映画に登場する巨大な怪物、また同ジャンルを指す語)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "the kaiju are learning our defenses.",
-    "translation": "怪獣は我々を学び―",
-    "cloze": "the ｟＿｠ are learning our defenses."
-   },
-   {
-    "text": "The kaiju emerged from the ocean and attacked the city.",
-    "translation": "怪獣は海から現れて都市を襲った。",
-    "cloze": "The ｟＿｠ emerged from the ocean and attacked the city.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29353
- },
- {
-  "id": "en-10-30k-19354",
-  "courseId": "en-10-30k",
-  "headword": "karts",
-  "reading": null,
-  "gloss": "ゴーカート、レース用の小型自動車",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The kids raced their karts around the track.",
-    "translation": "子供たちはコースでカートを走らせてレースをした。",
-    "cloze": "The kids raced their ｟＿｠ around the track.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29354
- },
- {
-  "id": "en-10-30k-19355",
-  "courseId": "en-10-30k",
-  "headword": "kerouac",
-  "reading": "/kˈɛɹuæk/",
-  "gloss": "ケルアック(米国の作家、『路上』の著者、ビート世代を代表する人物)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "you keep quoting kerouac, an overrated bum.",
-    "translation": "君はケルアックを過大評価し 彼の言葉を引用し続けている",
-    "cloze": "you keep quoting ｟＿｠, an overrated bum."
-   },
-   {
-    "text": "kerouac.",
-    "translation": "ケルアックか",
-    "cloze": "｟＿｠."
-   }
-  ],
-  "frequencyRank": 29355
- },
- {
-  "id": "en-10-30k-19356",
-  "courseId": "en-10-30k",
-  "headword": "koji",
-  "reading": "/kˈoʊdʒi/",
-  "gloss": "麹(こうじ)。味噌・醤油・日本酒などの発酵に使うコウジカビ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Koji is used to ferment rice for making sake.",
-    "translation": "麹は日本酒を造るために米を発酵させるのに使われる。",
-    "cloze": "｟＿｠ is used to ferment rice for making sake.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29356
  },
  {
   "id": "en-10-30k-19357",
@@ -7311,45 +5036,6 @@
    }
   ],
   "frequencyRank": 29363
- },
- {
-  "id": "en-10-30k-19364",
-  "courseId": "en-10-30k",
-  "headword": "malagasy",
-  "reading": "/mˌæləɡˈæsi/",
-  "gloss": "マダガスカルの;マダガスカル語;マダガスカル人",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "most people here don't speak malagasy.",
-    "translation": "ここにいるほとんどの人は、マラガシ語を話さないということです。",
-    "cloze": "most people here don't speak ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29364
- },
- {
-  "id": "en-10-30k-19365",
-  "courseId": "en-10-30k",
-  "headword": "mammy",
-  "reading": null,
-  "gloss": "お母ちゃん,ママ(親しみを込めた口語表現)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The little boy ran to his mammy when he got scared.",
-    "translation": "その小さな男の子は怖くなると母ちゃんのところへ走って行った。",
-    "cloze": "The little boy ran to his ｟＿｠ when he got scared.",
-    "aiGenerated": true
-   },
-   {
-    "text": "\"Don't cry,\" said mammy, hugging her son.",
-    "translation": "「泣かないで」と母ちゃんは息子を抱きしめながら言った。",
-    "cloze": "\"Don't cry,\" said ｟＿｠, hugging her son.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29365
  },
  {
   "id": "en-10-30k-19366",
@@ -7540,27 +5226,6 @@
   "frequencyRank": 29374
  },
  {
-  "id": "en-10-30k-19375",
-  "courseId": "en-10-30k",
-  "headword": "mofo",
-  "reading": null,
-  "gloss": "(俗)嫌な野郎,ろくでなし(motherfuckerの略・卑語)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i bet we catch this mofo any second.",
-    "translation": "すぐにヤツを捕まえられる",
-    "cloze": "i bet we catch this ｟＿｠ any second."
-   },
-   {
-    "text": "okay, dbaa, mofos. all right? apply yourselves.",
-    "translation": "よし バカは禁止だぞ 頑張ってくれ",
-    "cloze": "okay, dbaa, ｟＿｠. all right? apply yourselves."
-   }
-  ],
-  "frequencyRank": 29375
- },
- {
   "id": "en-10-30k-19376",
   "courseId": "en-10-30k",
   "headword": "moonstone",
@@ -7599,27 +5264,6 @@
   "frequencyRank": 29377
  },
  {
-  "id": "en-10-30k-19378",
-  "courseId": "en-10-30k",
-  "headword": "neet",
-  "reading": "/nˈit/",
-  "gloss": "ニート(就学・就労・職業訓練のいずれもしていない若者)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "I'm still a NEET.",
-    "translation": "俺は相変わらずニートしてますよ。",
-    "cloze": "I'm still a ｟＿｠."
-   },
-   {
-    "text": "its the duty of neets and shutins to watch latenight anime.",
-    "translation": "深夜アニメを見るのはニートと引きこもりの義務だよ☆",
-    "cloze": "its the duty of ｟＿｠ and shutins to watch latenight anime."
-   }
-  ],
-  "frequencyRank": 29378
- },
- {
   "id": "en-10-30k-19379",
   "courseId": "en-10-30k",
   "headword": "nimbus",
@@ -7641,23 +5285,6 @@
    }
   ],
   "frequencyRank": 29379
- },
- {
-  "id": "en-10-30k-19380",
-  "courseId": "en-10-30k",
-  "headword": "nog",
-  "reading": null,
-  "gloss": "(エッグ)ノッグ,卵酒(卵と乳製品で作る飲み物)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "She poured a glass of nog and added a dash of nutmeg.",
-    "translation": "彼女はノッグ(卵酒)をグラスに注ぎ、ナツメグを少々加えた。",
-    "cloze": "She poured a glass of ｟＿｠ and added a dash of nutmeg.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29380
  },
  {
   "id": "en-10-30k-19381",
@@ -7702,86 +5329,6 @@
    }
   ],
   "frequencyRank": 29382
- },
- {
-  "id": "en-10-30k-19383",
-  "courseId": "en-10-30k",
-  "headword": "overvalued",
-  "reading": "/ˈoʊvɚvˌæljud/",
-  "gloss": "過大評価された,割高な",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "When it comes to Chinese books that are overvalued worldwide I suppose it's Sun Tzu, isn't it?",
-    "translation": "世界的に過大に評価された中国書といえば、『孫子』ですかね。",
-    "cloze": "When it comes to Chinese books that are ｟＿｠ worldwide I suppose it's Sun Tzu, isn't it?"
-   },
-   {
-    "text": "yeah, the market might be overvalued",
-    "translation": "「ディディエ君 市場は過剰評価されているかもしれない",
-    "cloze": "yeah, the market might be ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29383
- },
- {
-  "id": "en-10-30k-19384",
-  "courseId": "en-10-30k",
-  "headword": "paintbrush",
-  "reading": "/pˈeɪntbɹˌʌʃ/",
-  "gloss": "絵筆,ペンキ用ブラシ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "a paintbrush, a...",
-    "translation": "ペンキブラシに...",
-    "cloze": "a ｟＿｠, a..."
-   },
-   {
-    "text": "he's standing on the left with his paintbrush in one hand",
-    "translation": "左側に立ち 片手に絵筆 もう一方の手には",
-    "cloze": "he's standing on the left with his ｟＿｠ in one hand"
-   }
-  ],
-  "frequencyRank": 29384
- },
- {
-  "id": "en-10-30k-19385",
-  "courseId": "en-10-30k",
-  "headword": "pcie",
-  "reading": null,
-  "gloss": "PCI Express(コンピュータの高速拡張バス規格)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The new graphics card connects to the motherboard via a PCIe slot.",
-    "translation": "その新しいグラフィックカードはPCIeスロット経由でマザーボードに接続する。",
-    "cloze": "The new graphics card connects to the motherboard via a ｟＿｠ slot.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29385
- },
- {
-  "id": "en-10-30k-19386",
-  "courseId": "en-10-30k",
-  "headword": "pester",
-  "reading": "/pˈɛstɚ/",
-  "gloss": "…をしつこく悩ます,せがむ",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "Stop pestering me. I'm busy.",
-    "translation": "いいかげんにしてくれよ。忙しいんだ。",
-    "cloze": "Stop ｟＿｠ me. I'm busy."
-   },
-   {
-    "text": "Tom pestered his mother for money.",
-    "translation": "トムはお母さんにお金をねだった。",
-    "cloze": "Tom ｟＿｠ his mother for money."
-   }
-  ],
-  "frequencyRank": 29386
  },
  {
   "id": "en-10-30k-19387",
@@ -7867,23 +5414,6 @@
    }
   ],
   "frequencyRank": 29390
- },
- {
-  "id": "en-10-30k-19391",
-  "courseId": "en-10-30k",
-  "headword": "privatise",
-  "reading": null,
-  "gloss": "…を民営化する",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "The government decided to privatise the national railway company.",
-    "translation": "政府は国営鉄道会社を民営化することを決定した。",
-    "cloze": "The government decided to ｟＿｠ the national railway company.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29391
  },
  {
   "id": "en-10-30k-19392",
@@ -7988,27 +5518,6 @@
   "frequencyRank": 29396
  },
  {
-  "id": "en-10-30k-19397",
-  "courseId": "en-10-30k",
-  "headword": "rainstorm",
-  "reading": "/ɹˈeɪnstˌɔɹm/",
-  "gloss": "暴風雨,雨嵐",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Taxis are few and far between during a rainstorm.",
-    "translation": "大雨の時にタクシーをつかまえるのは大変だ。",
-    "cloze": "Taxis are few and far between during a ｟＿｠."
-   },
-   {
-    "text": "the san fernando valley was clear and beautiful the way it only is after a big rainstorm.",
-    "translation": "サン・フェルナンド・バレーは 快晴でキレイよ 暴風雨の後だけね",
-    "cloze": "the san fernando valley was clear and beautiful the way it only is after a big ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29397
- },
- {
   "id": "en-10-30k-19398",
   "courseId": "en-10-30k",
   "headword": "rapprochement",
@@ -8029,23 +5538,6 @@
    }
   ],
   "frequencyRank": 29398
- },
- {
-  "id": "en-10-30k-19399",
-  "courseId": "en-10-30k",
-  "headword": "reappearance",
-  "reading": "/ɹˌiəpˈɪɹəns/",
-  "gloss": "再び現れること,再出現",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The reappearance of the missing hikers surprised everyone in the village.",
-    "translation": "行方不明だった登山者たちの再出現は村中を驚かせた。",
-    "cloze": "The ｟＿｠ of the missing hikers surprised everyone in the village.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29399
  },
  {
   "id": "en-10-30k-19400",
@@ -8283,28 +5775,6 @@
   "frequencyRank": 29410
  },
  {
-  "id": "en-10-30k-19411",
-  "courseId": "en-10-30k",
-  "headword": "santorini",
-  "reading": null,
-  "gloss": "サントリーニ島（ギリシャ・エーゲ海の島）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "working off santorini, where people are sunning themselves on the beach",
-    "translation": "サントリーニ島沖合で探査中のことです そこのビーチでは大勢が日光浴していますが",
-    "cloze": "working off ｟＿｠, where people are sunning themselves on the beach"
-   },
-   {
-    "text": "Santorini is famous for its white houses and stunning sunsets.",
-    "translation": "サントリーニ島は白い家々と美しい夕日で有名だ。",
-    "cloze": "｟＿｠ is famous for its white houses and stunning sunsets.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29411
- },
- {
   "id": "en-10-30k-19412",
   "courseId": "en-10-30k",
   "headword": "scintillate",
@@ -8324,91 +5794,6 @@
    }
   ],
   "frequencyRank": 29412
- },
- {
-  "id": "en-10-30k-19413",
-  "courseId": "en-10-30k",
-  "headword": "sectoral",
-  "reading": "/sˈɛktɚəl/",
-  "gloss": "部門の、分野別の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "via six sectoral initiatives, with some more hatching.",
-    "translation": "サポートしています さらに他の分野への進出も始めました",
-    "cloze": "via six ｟＿｠ initiatives, with some more hatching."
-   },
-   {
-    "text": "The government announced new sectoral reforms in agriculture and manufacturing.",
-    "translation": "政府は農業と製造業における新たな分野別改革を発表した。",
-    "cloze": "The government announced new ｟＿｠ reforms in agriculture and manufacturing.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29413
- },
- {
-  "id": "en-10-30k-19414",
-  "courseId": "en-10-30k",
-  "headword": "selflessness",
-  "reading": "/sˈɛlfləsnɪs/",
-  "gloss": "無私無欲、献身的であること",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and for your selflessness",
-    "translation": "無欲なあなたを",
-    "cloze": "and for your ｟＿｠"
-   },
-   {
-    "text": "because we think love comes with selflessness",
-    "translation": "なぜなら愛は無私無欲だと考えているのに",
-    "cloze": "because we think love comes with ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29414
- },
- {
-  "id": "en-10-30k-19415",
-  "courseId": "en-10-30k",
-  "headword": "shinto",
-  "reading": "/ʃˈɪntˌoʊ/",
-  "gloss": "神道（日本古来の民族宗教）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "All natural objects and phenomena used to be considered as having kami, so the gods of Shinto were uncountably numerous.",
-    "translation": "神道でいう神は無数にあり、初めは自然物や自然現象をも神としていた。",
-    "cloze": "All natural objects and phenomena used to be considered as having kami, so the gods of ｟＿｠ were uncountably numerous."
-   },
-   {
-    "text": "If someone wants the ceremony to be held in accordance with Japanese Shinto ritual, then that is possible at this church.",
-    "translation": "日本の神道の儀式に則って、挙式をしたいという方がおられれば、この教会で出来ます。",
-    "cloze": "If someone wants the ceremony to be held in accordance with Japanese ｟＿｠ ritual, then that is possible at this church."
-   }
-  ],
-  "frequencyRank": 29415
- },
- {
-  "id": "en-10-30k-19416",
-  "courseId": "en-10-30k",
-  "headword": "shrooms",
-  "reading": null,
-  "gloss": "（俗語）キノコ；マジックマッシュルーム（幻覚性キノコ）",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and i'm sure them shrooms you ate had nothing to do with it, right?",
-    "translation": "幻覚キノコ食ってただけだろ?",
-    "cloze": "and i'm sure them ｟＿｠ you ate had nothing to do with it, right?"
-   },
-   {
-    "text": "my friend did buy some ketamine, but she thought the dealer was a bit skanky, so we've gone with the shrooms instead.",
-    "translation": "ケタミンを買った友達が 売人が卑しいというので キノコにしたんです",
-    "cloze": "my friend did buy some ketamine, but she thought the dealer was a bit skanky, so we've gone with the ｟＿｠ instead."
-   }
-  ],
-  "frequencyRank": 29416
  },
  {
   "id": "en-10-30k-19417",
@@ -8455,27 +5840,6 @@
   "frequencyRank": 29418
  },
  {
-  "id": "en-10-30k-19419",
-  "courseId": "en-10-30k",
-  "headword": "slowness",
-  "reading": "/slˈoʊnəs/",
-  "gloss": "遅いこと、動作の鈍さ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "My daughter's slowness to take action is a pain.",
-    "translation": "私の娘は尻が重いので困る。",
-    "cloze": "My daughter's ｟＿｠ to take action is a pain."
-   },
-   {
-    "text": "of publishing a book about slowness",
-    "translation": "「スロー」に関する本を出版すると",
-    "cloze": "of publishing a book about ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29419
- },
- {
   "id": "en-10-30k-19420",
   "courseId": "en-10-30k",
   "headword": "smattering",
@@ -8497,27 +5861,6 @@
   "frequencyRank": 29420
  },
  {
-  "id": "en-10-30k-19421",
-  "courseId": "en-10-30k",
-  "headword": "sorbonne",
-  "reading": "/sɔɹbˈɑn/",
-  "gloss": "ソルボンヌ大学（パリの名門大学）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i hardly think he'd be lecturing at the sorbonne if he's a pseudointellectual.",
-    "translation": "彼が えせインテリなら ソルボンヌの講師になれる?",
-    "cloze": "i hardly think he'd be lecturing at the ｟＿｠ if he's a pseudointellectual."
-   },
-   {
-    "text": "and then these trendy young things in the sorbonne would say",
-    "translation": "その後、ソルボンヌのお洒落な若者達が言っていました",
-    "cloze": "and then these trendy young things in the ｟＿｠ would say"
-   }
-  ],
-  "frequencyRank": 29421
- },
- {
   "id": "en-10-30k-19422",
   "courseId": "en-10-30k",
   "headword": "spongy",
@@ -8537,50 +5880,6 @@
    }
   ],
   "frequencyRank": 29422
- },
- {
-  "id": "en-10-30k-19423",
-  "courseId": "en-10-30k",
-  "headword": "stewardess",
-  "reading": "/stˈuɚdəs/",
-  "gloss": "スチュワーデス、（女性の）客室乗務員",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "He married a stewardess.",
-    "translation": "彼はスチュワーデスと結婚した。",
-    "cloze": "He married a ｟＿｠."
-   },
-   {
-    "text": "At last she got a job as a stewardess.",
-    "translation": "とうとう彼女はスチュワーデスの仕事を見つけた。",
-    "cloze": "At last she got a job as a ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29423
- },
- {
-  "id": "en-10-30k-19424",
-  "courseId": "en-10-30k",
-  "headword": "storefronts",
-  "reading": "/stˈɔɹfɹˌɑnts/",
-  "gloss": "店頭、店舗の正面",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The old storefronts on Main Street were repainted for the festival.",
-    "translation": "メインストリートの古い店頭は祭りのために塗り直された。",
-    "cloze": "The old ｟＿｠ on Main Street were repainted for the festival.",
-    "aiGenerated": true
-   },
-   {
-    "text": "Many storefronts downtown remained empty after the recession.",
-    "translation": "不況の後、繁華街の多くの店頭が空いたままだった。",
-    "cloze": "Many ｟＿｠ downtown remained empty after the recession.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29424
  },
  {
   "id": "en-10-30k-19425",
@@ -8649,49 +5948,6 @@
   "frequencyRank": 29427
  },
  {
-  "id": "en-10-30k-19428",
-  "courseId": "en-10-30k",
-  "headword": "suriname",
-  "reading": "/sˈɝɪnɑm/",
-  "gloss": "スリナム（南米の国）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i have a word of suriname that i like",
-    "translation": "私が好きなスリナムの言葉があります",
-    "cloze": "i have a word of ｟＿｠ that i like"
-   },
-   {
-    "text": "qatar, russia, suriname",
-    "translation": "♪カタール、ロシア、スリナム♪",
-    "cloze": "qatar, russia, ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29428
- },
- {
-  "id": "en-10-30k-19429",
-  "courseId": "en-10-30k",
-  "headword": "sweety",
-  "reading": null,
-  "gloss": "（呼びかけで）かわいい人、あなた（sweetieの異表記）",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "oh, jack, sweety. let's get you to bed, all right, honey?",
-    "translation": "ジャック 寝る時間でしょ?",
-    "cloze": "oh, jack, ｟＿｠. let's get you to bed, all right, honey?"
-   },
-   {
-    "text": "Come here, sweety, and give me a hug.",
-    "translation": "こっちにおいで、かわいい子、ハグさせて。",
-    "cloze": "Come here, ｟＿｠, and give me a hug.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29429
- },
- {
   "id": "en-10-30k-19430",
   "courseId": "en-10-30k",
   "headword": "taiga",
@@ -8757,27 +6013,6 @@
   "frequencyRank": 29432
  },
  {
-  "id": "en-10-30k-19433",
-  "courseId": "en-10-30k",
-  "headword": "telemedicine",
-  "reading": "/tˌɛlɪmˈɛdɪsən/",
-  "gloss": "遠隔医療、遠隔診療",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "we make sure that the telemedicine platform gives access",
-    "translation": "遠隔治療プラットフォームではクリック一つで世界中の",
-    "cloze": "we make sure that the ｟＿｠ platform gives access"
-   },
-   {
-    "text": "lots of telemedicine consultations",
-    "translation": "遠隔診察も行います",
-    "cloze": "lots of ｟＿｠ consultations"
-   }
-  ],
-  "frequencyRank": 29433
- },
- {
   "id": "en-10-30k-19434",
   "courseId": "en-10-30k",
   "headword": "tendril",
@@ -8797,27 +6032,6 @@
    }
   ],
   "frequencyRank": 29434
- },
- {
-  "id": "en-10-30k-19435",
-  "courseId": "en-10-30k",
-  "headword": "ticklish",
-  "reading": "/tˈɪkəlɪʃ/",
-  "gloss": "くすぐったい；神経質な；（問題などが）扱いにくい",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "I'm ticklish.",
-    "translation": "僕はくすぐったがり屋なんだ。",
-    "cloze": "I'm ｟＿｠."
-   },
-   {
-    "text": "Are your feet ticklish?",
-    "translation": "足の裏ってくすぐったい？",
-    "cloze": "Are your feet ｟＿｠?"
-   }
-  ],
-  "frequencyRank": 29435
  },
  {
   "id": "en-10-30k-19436",
@@ -8864,48 +6078,6 @@
   "frequencyRank": 29437
  },
  {
-  "id": "en-10-30k-19438",
-  "courseId": "en-10-30k",
-  "headword": "turtleneck",
-  "reading": "/tˈɝtəlnˌɛk/",
-  "gloss": "タートルネック（のセーター）",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "now i have to break into isis headquarters in a $900 turtleneck.",
-    "translation": "900ドルのセーターで 侵入するハメに",
-    "cloze": "now i have to break into isis headquarters in a $900 ｟＿｠."
-   },
-   {
-    "text": "turtlenecks it is.",
-    "translation": "やっぱりタートルネックだ",
-    "cloze": "｟＿｠ it is."
-   }
-  ],
-  "frequencyRank": 29438
- },
- {
-  "id": "en-10-30k-19439",
-  "courseId": "en-10-30k",
-  "headword": "tutsi",
-  "reading": "/tˈutsi/",
-  "gloss": "ツチ族（ルワンダ・ブルンジの民族）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "for tutsi refugees in congo.",
-    "translation": "ツチ系難民の捕虜収容所",
-    "cloze": "for ｟＿｠ refugees in congo."
-   },
-   {
-    "text": "fellow rwandan army officer, albeit a tutsi",
-    "translation": "親友はルワンダの陸軍士官 ツチ族です",
-    "cloze": "fellow rwandan army officer, albeit a ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29439
- },
- {
   "id": "en-10-30k-19440",
   "courseId": "en-10-30k",
   "headword": "twats",
@@ -8927,27 +6099,6 @@
    }
   ],
   "frequencyRank": 29440
- },
- {
-  "id": "en-10-30k-19441",
-  "courseId": "en-10-30k",
-  "headword": "unconvinced",
-  "reading": "/ˌʌnkənvˈɪnst/",
-  "gloss": "納得していない、確信が持てない",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "my friend remains unconvinced.",
-    "translation": "私の友人は納得出来ないようだ",
-    "cloze": "my friend remains ｟＿｠."
-   },
-   {
-    "text": "i can see you're unconvinced, and that's a problem.",
-    "translation": "納得できないようだな それは問題だ",
-    "cloze": "i can see you're ｟＿｠, and that's a problem."
-   }
-  ],
-  "frequencyRank": 29441
  },
  {
   "id": "en-10-30k-19442",
@@ -8993,48 +6144,6 @@
   "frequencyRank": 29443
  },
  {
-  "id": "en-10-30k-19444",
-  "courseId": "en-10-30k",
-  "headword": "unquestionable",
-  "reading": "/ənkwˈɛstʃənəbəl/",
-  "gloss": "疑いのない、明白な",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "the theology was perfect, the timing unquestionable",
-    "translation": "筋も通るし タイミングもいい",
-    "cloze": "the theology was perfect, the timing ｟＿｠"
-   },
-   {
-    "text": "question the unquestionable.",
-    "translation": "「常識を疑い",
-    "cloze": "question the ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29444
- },
- {
-  "id": "en-10-30k-19445",
-  "courseId": "en-10-30k",
-  "headword": "unreadable",
-  "reading": "/ənɹˈidəbəl/",
-  "gloss": "読めない、判読できない",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "it might have been deliberately put there to make the plate unreadable.",
-    "translation": "読み取れないように わざと汚しているのかも...",
-    "cloze": "it might have been deliberately put there to make the plate ｟＿｠."
-   },
-   {
-    "text": "the surveillance footage from the stock exchange was unreadable.",
-    "translation": "証券取引所の監視映像は 読み取れなかった",
-    "cloze": "the surveillance footage from the stock exchange was ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29445
- },
- {
   "id": "en-10-30k-19446",
   "courseId": "en-10-30k",
   "headword": "variegate",
@@ -9055,29 +6164,6 @@
    }
   ],
   "frequencyRank": 29446
- },
- {
-  "id": "en-10-30k-19447",
-  "courseId": "en-10-30k",
-  "headword": "vedanta",
-  "reading": null,
-  "gloss": "ヴェーダーンタ（インド哲学の主要な学派）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Vedanta is one of the major schools of Hindu philosophy.",
-    "translation": "ヴェーダーンタはヒンドゥー哲学の主要な学派の一つである。",
-    "cloze": "｟＿｠ is one of the major schools of Hindu philosophy.",
-    "aiGenerated": true
-   },
-   {
-    "text": "Many yoga philosophies draw on ideas from Vedanta.",
-    "translation": "多くのヨガ哲学はヴェーダーンタの思想を取り入れている。",
-    "cloze": "Many yoga philosophies draw on ideas from ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29447
  },
  {
   "id": "en-10-30k-19448",
@@ -9124,27 +6210,6 @@
   "frequencyRank": 29449
  },
  {
-  "id": "en-10-30k-19450",
-  "courseId": "en-10-30k",
-  "headword": "walkman",
-  "reading": "/wˈɔkmˌæn/",
-  "gloss": "ウォークマン(携帯用カセット/音楽プレーヤー、商標が一般名詞化したもの)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "I'm listening to a Harry Potter audio book with the Walkman I just bought.",
-    "translation": "最近買ったウォークマンでハリポタのオーディオブック聴いてる。",
-    "cloze": "I'm listening to a Harry Potter audio book with the ｟＿｠ I just bought."
-   },
-   {
-    "text": "Since you can change the playback speed on the walkman, I use it to learn French.",
-    "translation": "ウォークマンで再生のスピードが変えられるので、フランス語を学習するのに活用している。",
-    "cloze": "Since you can change the playback speed on the ｟＿｠, I use it to learn French."
-   }
-  ],
-  "frequencyRank": 29450
- },
- {
   "id": "en-10-30k-19451",
   "courseId": "en-10-30k",
   "headword": "wallop",
@@ -9164,43 +6229,6 @@
    }
   ],
   "frequencyRank": 29451
- },
- {
-  "id": "en-10-30k-19452",
-  "courseId": "en-10-30k",
-  "headword": "weeknight",
-  "reading": null,
-  "gloss": "平日の夜",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "it's a weeknight!",
-    "translation": "バカ 平日だぞ!",
-    "cloze": "it's a ｟＿｠!"
-   }
-  ],
-  "frequencyRank": 29452
- },
- {
-  "id": "en-10-30k-19453",
-  "courseId": "en-10-30k",
-  "headword": "weenie",
-  "reading": null,
-  "gloss": "(米俗)フランクフルトソーセージ、ホットドッグ;弱虫、意気地なし",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i got you some beanie weenie.",
-    "translation": "缶詰を持ってきた",
-    "cloze": "i got you some beanie ｟＿｠."
-   },
-   {
-    "text": "kiss me, you weenie.",
-    "translation": "キスしてよ、鈍感ね。",
-    "cloze": "kiss me, you ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29453
  },
  {
   "id": "en-10-30k-19454",
@@ -9223,22 +6251,6 @@
    }
   ],
   "frequencyRank": 29454
- },
- {
-  "id": "en-10-30k-19455",
-  "courseId": "en-10-30k",
-  "headword": "xoxo",
-  "reading": null,
-  "gloss": "(手紙・メッセージの結びで)ハグとキスを表す記号、愛情を込めた挨拶",
-  "pos": "感嘆詞",
-  "examples": [
-   {
-    "text": "xoxo, my love for you is xoxo.",
-    "translation": "抱擁とキス それが僕の君に向ける愛",
-    "cloze": "｟＿｠, my love for you is ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29455
  },
  {
   "id": "en-10-30k-19456",
@@ -9321,23 +6333,6 @@
   "frequencyRank": 29459
  },
  {
-  "id": "en-10-30k-19460",
-  "courseId": "en-10-30k",
-  "headword": "anglophone",
-  "reading": "/ˈænɡləfˌoʊn/",
-  "gloss": "英語を話す(人)、英語圏の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "Canada has both anglophone and francophone communities.",
-    "translation": "カナダには英語圏コミュニティとフランス語圏コミュニティの両方がある。",
-    "cloze": "Canada has both ｟＿｠ and francophone communities.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29460
- },
- {
   "id": "en-10-30k-19461",
   "courseId": "en-10-30k",
   "headword": "anneal",
@@ -9375,27 +6370,6 @@
    }
   ],
   "frequencyRank": 29462
- },
- {
-  "id": "en-10-30k-19463",
-  "courseId": "en-10-30k",
-  "headword": "antiretroviral",
-  "reading": null,
-  "gloss": "抗レトロウイルスの、抗レトロウイルス薬(HIV治療薬など)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "after six months on antiretroviral treatment.",
-    "translation": "6ヶ月の抗レトロウイルス治療後です",
-    "cloze": "after six months on ｟＿｠ treatment."
-   },
-   {
-    "text": "have access to antiretroviral drugs.",
-    "translation": "抗レトロウイルス薬の治療を受けています。",
-    "cloze": "have access to ｟＿｠ drugs."
-   }
-  ],
-  "frequencyRank": 29463
  },
  {
   "id": "en-10-30k-19464",
@@ -9500,54 +6474,6 @@
   "frequencyRank": 29468
  },
  {
-  "id": "en-10-30k-19469",
-  "courseId": "en-10-30k",
-  "headword": "ayurveda",
-  "reading": null,
-  "gloss": "アーユルヴェーダ(インド伝統の医学体系)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "of our art, yoga, ayurveda, even indian cuisine.",
-    "translation": "アート、ヨガ、アーユルヴェーダ医学 インド料理だってそうです",
-    "cloze": "of our art, yoga, ｟＿｠, even indian cuisine."
-   }
-  ],
-  "frequencyRank": 29469
- },
- {
-  "id": "en-10-30k-19470",
-  "courseId": "en-10-30k",
-  "headword": "barbary",
-  "reading": "/bˈɑɹbɚi/",
-  "gloss": "バーバリ(北アフリカ沿岸地方の旧称、Barbary Coast/Barbary lion等で使用)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Barbary lions have gone extinct in Algeria.",
-    "translation": "アルジェリアではバーバリライオンが絶滅した。",
-    "cloze": "｟＿｠ lions have gone extinct in Algeria."
-   }
-  ],
-  "frequencyRank": 29470
- },
- {
-  "id": "en-10-30k-19471",
-  "courseId": "en-10-30k",
-  "headword": "baudelaire",
-  "reading": null,
-  "gloss": "ボードレール(19世紀フランスの詩人、『悪の華』の作者)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "which references charles baudelaire.",
-    "translation": "シャルル ボードレールから取ったものです",
-    "cloze": "which references charles ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29471
- },
- {
   "id": "en-10-30k-19472",
   "courseId": "en-10-30k",
   "headword": "bevel",
@@ -9569,108 +6495,6 @@
   "frequencyRank": 29472
  },
  {
-  "id": "en-10-30k-19473",
-  "courseId": "en-10-30k",
-  "headword": "birdsong",
-  "reading": "/bˈɝdsˌɔŋ/",
-  "gloss": "鳥のさえずり、鳥の鳴き声",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "carry headphones with you, with a soothing sound like birdsong.",
-    "translation": "ヘッドホンをつけて鳥の鳴き声のようなリラックスする音を聞くのです",
-    "cloze": "carry headphones with you, with a soothing sound like ｟＿｠."
-   },
-   {
-    "text": "i'm going to leave you with a little bit more birdsong.",
-    "translation": "もう少しだけ、鳥の鳴き声を皆さんにお聞かせしましょう",
-    "cloze": "i'm going to leave you with a little bit more ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29473
- },
- {
-  "id": "en-10-30k-19474",
-  "courseId": "en-10-30k",
-  "headword": "bizarro",
-  "reading": null,
-  "gloss": "(俗語)奇妙な、風変わりな",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "i gotta tell you, it's a little bizarro.",
-    "translation": "その結果 奇妙な事が判りました",
-    "cloze": "i gotta tell you, it's a little ｟＿｠."
-   },
-   {
-    "text": "i just had the most bizarro dream.",
-    "translation": "奇妙な夢だった",
-    "cloze": "i just had the most ｟＿｠ dream."
-   }
-  ],
-  "frequencyRank": 29474
- },
- {
-  "id": "en-10-30k-19475",
-  "courseId": "en-10-30k",
-  "headword": "brava",
-  "reading": null,
-  "gloss": "(女性・複数に対して)よくやった、お見事(bravoの女性形の掛け声)",
-  "pos": "感嘆詞",
-  "examples": [
-   {
-    "text": "brava!",
-    "translation": "ブラボー!",
-    "cloze": "｟＿｠!"
-   },
-   {
-    "text": "brava, miss mathison.",
-    "translation": "お見事です",
-    "cloze": "｟＿｠, miss mathison."
-   }
-  ],
-  "frequencyRank": 29475
- },
- {
-  "id": "en-10-30k-19476",
-  "courseId": "en-10-30k",
-  "headword": "breakouts",
-  "reading": "/bɹˈeɪkˌaʊts/",
-  "gloss": "(肌の)吹き出物;脱走;急激な増加・拡大",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Stress can cause skin breakouts.",
-    "translation": "ストレスは肌の吹き出物の原因になることがある。",
-    "cloze": "Stress can cause skin ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29476
- },
- {
-  "id": "en-10-30k-19477",
-  "courseId": "en-10-30k",
-  "headword": "brezhnev",
-  "reading": "/bɹˈɛznəv/",
-  "gloss": "ブレジネフ(1906-1982、ソビエト連邦の指導者)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "brezhnev used it to sneak his mistress in.",
-    "translation": "ブレジネフの 愛人も通った",
-    "cloze": "｟＿｠ used it to sneak his mistress in."
-   },
-   {
-    "text": "Brezhnev led the Soviet Union for nearly two decades.",
-    "translation": "ブレジネフは約20年間ソビエト連邦を率いた。",
-    "cloze": "｟＿｠ led the Soviet Union for nearly two decades.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29477
- },
- {
   "id": "en-10-30k-19478",
   "courseId": "en-10-30k",
   "headword": "brogan",
@@ -9686,22 +6510,6 @@
    }
   ],
   "frequencyRank": 29478
- },
- {
-  "id": "en-10-30k-19479",
-  "courseId": "en-10-30k",
-  "headword": "bunyan",
-  "reading": "/bˈʌnjən/",
-  "gloss": "バニヤン;(Paul Bunyan)アメリカ民話の巨人樵;(John Bunyan)『天路歴程』の作者",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Would you like to hear the story about Paul Bunyan?",
-    "translation": "ポール・バンヤンの生涯についてお聞きになりたいですか？",
-    "cloze": "Would you like to hear the story about Paul ｟＿｠?"
-   }
-  ],
-  "frequencyRank": 29479
  },
  {
   "id": "en-10-30k-19480",
@@ -9766,27 +6574,6 @@
    }
   ],
   "frequencyRank": 29482
- },
- {
-  "id": "en-10-30k-19483",
-  "courseId": "en-10-30k",
-  "headword": "caligula",
-  "reading": null,
-  "gloss": "カリギュラ(ローマ帝国第3代皇帝、暴君として知られる)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "from claudius to caligula to nero, the coins had a devastating effect on whoever possessed them.",
-    "translation": "クラウディウスから カリギュラやネロまで コインは取り付かれた人達に 計り知れない影響を与えた",
-    "cloze": "from claudius to ｟＿｠ to nero, the coins had a devastating effect on whoever possessed them."
-   },
-   {
-    "text": "it was like something out of caligula.",
-    "translation": "映画カリギュラさながらでした",
-    "cloze": "it was like something out of ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29483
  },
  {
   "id": "en-10-30k-19484",
@@ -9903,27 +6690,6 @@
   "frequencyRank": 29489
  },
  {
-  "id": "en-10-30k-19490",
-  "courseId": "en-10-30k",
-  "headword": "clicker",
-  "reading": "/klˈɪkɚ/",
-  "gloss": "カチッと音を出す道具,クリッカー;(俗)リモコン",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i don't think i need this clicker anymore.",
-    "translation": "もうリモコンは要りませんね",
-    "cloze": "i don't think i need this ｟＿｠ anymore."
-   },
-   {
-    "text": "a clicker, which makes a particular sound",
-    "translation": "クリッカーは特殊な音を出すので",
-    "cloze": "a ｟＿｠, which makes a particular sound"
-   }
-  ],
-  "frequencyRank": 29490
- },
- {
   "id": "en-10-30k-19491",
   "courseId": "en-10-30k",
   "headword": "collation",
@@ -9990,43 +6756,6 @@
   "frequencyRank": 29494
  },
  {
-  "id": "en-10-30k-19495",
-  "courseId": "en-10-30k",
-  "headword": "confucianism",
-  "reading": "/kənfjˈuʃənˌɪzəm/",
-  "gloss": "儒教",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "when confucianism was the social norm",
-    "translation": "儒教が社会の規範でした",
-    "cloze": "when ｟＿｠ was the social norm"
-   }
-  ],
-  "frequencyRank": 29495
- },
- {
-  "id": "en-10-30k-19496",
-  "courseId": "en-10-30k",
-  "headword": "connectedness",
-  "reading": null,
-  "gloss": "つながり,結びつき,連帯感",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and in the name of connectedness",
-    "translation": "そして つながりの名のもとに",
-    "cloze": "and in the name of ｟＿｠"
-   },
-   {
-    "text": "as a metaphor to me about the level of connectedness",
-    "translation": "繋がっているかを 私に教えてくれる",
-    "cloze": "as a metaphor to me about the level of ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29496
- },
- {
   "id": "en-10-30k-19497",
   "courseId": "en-10-30k",
   "headword": "conscript",
@@ -10069,27 +6798,6 @@
   "frequencyRank": 29498
  },
  {
-  "id": "en-10-30k-19499",
-  "courseId": "en-10-30k",
-  "headword": "cooperatively",
-  "reading": "/koʊˈɑpɹətɪvli/",
-  "gloss": "協力して,協同して",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "these three quads are cooperatively carrying a sky net.",
-    "translation": "この3台のクアッドは 協働で網を持っています",
-    "cloze": "these three quads are ｟＿｠ carrying a sky net."
-   },
-   {
-    "text": "there's a vast community of worlds up there, living together, peacefully, cooperatively.",
-    "translation": "広大な世界共同体がそこにある 共に平和的に協力して生きる事",
-    "cloze": "there's a vast community of worlds up there, living together, peacefully, ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29499
- },
- {
   "id": "en-10-30k-19500",
   "courseId": "en-10-30k",
   "headword": "covey",
@@ -10128,27 +6836,6 @@
   "frequencyRank": 29501
  },
  {
-  "id": "en-10-30k-19502",
-  "courseId": "en-10-30k",
-  "headword": "cryo",
-  "reading": null,
-  "gloss": "(俗語)冷凍睡眠,冷凍保存(の状態)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "being in cryo for 5 years, 9 months and 22 days.",
-    "translation": "5年9カ月と22日 冷凍睡眠してたんだ",
-    "cloze": "being in ｟＿｠ for 5 years, 9 months and 22 days."
-   },
-   {
-    "text": "in cryo you don't dream at all. it doesn't feel like 6 years.",
-    "translation": "冷凍睡眠では夢を見ない",
-    "cloze": "in ｟＿｠ you don't dream at all. it doesn't feel like 6 years."
-   }
-  ],
-  "frequencyRank": 29502
- },
- {
   "id": "en-10-30k-19503",
   "courseId": "en-10-30k",
   "headword": "customarily",
@@ -10168,44 +6855,6 @@
    }
   ],
   "frequencyRank": 29503
- },
- {
-  "id": "en-10-30k-19504",
-  "courseId": "en-10-30k",
-  "headword": "dagestan",
-  "reading": "/dˈæɡɛstˌæn/",
-  "gloss": "ダゲスタン(ロシア連邦の共和国。北カフカス地方)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Her family fled the conflict in Dagestan.",
-    "translation": "彼女の家族はダゲスタンの紛争から逃れた。",
-    "cloze": "Her family fled the conflict in ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29504
- },
- {
-  "id": "en-10-30k-19505",
-  "courseId": "en-10-30k",
-  "headword": "deactivation",
-  "reading": null,
-  "gloss": "無効化,機能停止,解除",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "you will be put on report for deactivation.",
-    "translation": "機能停止のレポートに記載します",
-    "cloze": "you will be put on report for ｟＿｠."
-   },
-   {
-    "text": "what about deactivation?",
-    "translation": "解除するなら、時間は?",
-    "cloze": "what about ｟＿｠?"
-   }
-  ],
-  "frequencyRank": 29505
  },
  {
   "id": "en-10-30k-19506",
@@ -10508,49 +7157,6 @@
   "frequencyRank": 29521
  },
  {
-  "id": "en-10-30k-19522",
-  "courseId": "en-10-30k",
-  "headword": "eyesore",
-  "reading": "/ˈaɪsˌɔɹ/",
-  "gloss": "目障りなもの,見苦しいもの",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "It's an eyesore.",
-    "translation": "見た目が邪魔だもんな。",
-    "cloze": "It's an ｟＿｠."
-   },
-   {
-    "text": "It's really an eyesore.",
-    "translation": "実に目障りだな。",
-    "cloze": "It's really an ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29522
- },
- {
-  "id": "en-10-30k-19523",
-  "courseId": "en-10-30k",
-  "headword": "faceoff",
-  "reading": null,
-  "gloss": "対決,衝突;(アイスホッケーの)フェイスオフ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and i kind of want to do this scientist faceoff.",
-    "translation": "でね 科学者対決 やりたいんだって。",
-    "cloze": "and i kind of want to do this scientist ｟＿｠."
-   },
-   {
-    "text": "The game began with a faceoff at center ice.",
-    "translation": "試合はセンターアイスでのフェイスオフで始まった。",
-    "cloze": "The game began with a ｟＿｠ at center ice.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29523
- },
- {
   "id": "en-10-30k-19524",
   "courseId": "en-10-30k",
   "headword": "facile",
@@ -10587,48 +7193,6 @@
    }
   ],
   "frequencyRank": 29525
- },
- {
-  "id": "en-10-30k-19526",
-  "courseId": "en-10-30k",
-  "headword": "fatherless",
-  "reading": "/fˈɑðɚləs/",
-  "gloss": "父のない,父親不在の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "this child is fatherless.",
-    "translation": "《この子には 父親がいません》➡",
-    "cloze": "this child is ｟＿｠."
-   },
-   {
-    "text": "no. my wife would be a widow, and my son fatherless.",
-    "translation": "いや 妻は未亡人に 息子は父を失う",
-    "cloze": "no. my wife would be a widow, and my son ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29526
- },
- {
-  "id": "en-10-30k-19527",
-  "courseId": "en-10-30k",
-  "headword": "fittingly",
-  "reading": "/fˈɪtɪŋli/",
-  "gloss": "ふさわしく,ぴったりと",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "one of them actually, fittingly enough",
-    "translation": "そのうちの1つはそれにふさわしく",
-    "cloze": "one of them actually, ｟＿｠ enough"
-   },
-   {
-    "text": "and as he said, i think fittingly",
-    "translation": "神様はよくやった と言ってくれていると表現した彼の言葉はぴったりだと思いました",
-    "cloze": "and as he said, i think ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29527
  },
  {
   "id": "en-10-30k-19528",
@@ -10686,23 +7250,6 @@
   "frequencyRank": 29530
  },
  {
-  "id": "en-10-30k-19531",
-  "courseId": "en-10-30k",
-  "headword": "genotypes",
-  "reading": "/dʒˈɛnətˌaɪps/",
-  "gloss": "遺伝子型",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Scientists compared the genotypes of the two plant varieties.",
-    "translation": "科学者たちは2つの植物品種の遺伝子型を比較した。",
-    "cloze": "Scientists compared the ｟＿｠ of the two plant varieties.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29531
- },
- {
   "id": "en-10-30k-19532",
   "courseId": "en-10-30k",
   "headword": "gilly",
@@ -10756,27 +7303,6 @@
    }
   ],
   "frequencyRank": 29534
- },
- {
-  "id": "en-10-30k-19535",
-  "courseId": "en-10-30k",
-  "headword": "goop",
-  "reading": "/ɡˈup/",
-  "gloss": "(口語)ネバネバ・ドロドロしたもの",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i' m tired of this ship of being cold, of eating the same goddamn goop every day.",
-    "translation": "この船にも... 毎日 クソまずいメシを 食うのもよ",
-    "cloze": "i' m tired of this ship of being cold, of eating the same goddamn ｟＿｠ every day."
-   },
-   {
-    "text": "and we're gonna take your deadly green goop and sashay right out the exit hatch.",
-    "translation": "その危険な緑ゼリーを奪って さっそうと出口ハッチから去るぞ",
-    "cloze": "and we're gonna take your deadly green ｟＿｠ and sashay right out the exit hatch."
-   }
-  ],
-  "frequencyRank": 29535
  },
  {
   "id": "en-10-30k-19536",
@@ -10863,23 +7389,6 @@
   "frequencyRank": 29539
  },
  {
-  "id": "en-10-30k-19540",
-  "courseId": "en-10-30k",
-  "headword": "guinean",
-  "reading": null,
-  "gloss": "ギニアの、ギニア人の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "She proudly wore traditional Guinean clothing to the festival.",
-    "translation": "彼女はその祭りで伝統的なギニアの衣装を誇らしげに着ていた。",
-    "cloze": "She proudly wore traditional ｟＿｠ clothing to the festival.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29540
- },
- {
   "id": "en-10-30k-19541",
   "courseId": "en-10-30k",
   "headword": "hematoma",
@@ -10933,39 +7442,6 @@
    }
   ],
   "frequencyRank": 29543
- },
- {
-  "id": "en-10-30k-19544",
-  "courseId": "en-10-30k",
-  "headword": "hoss",
-  "reading": "/hˈɑs/",
-  "gloss": "(米俗語)たくましい男；(呼びかけで)相棒、お前",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "slow down, hoss. we haven't found anything yet. honestly, i was just holding it for her.",
-    "translation": "まぁ落ち着け 俺たちは まだ何も 見つけちゃいない 正直に言うと 彼女のために それを持ってただけだ",
-    "cloze": "slow down, ｟＿｠. we haven't found anything yet. honestly, i was just holding it for her."
-   }
-  ],
-  "frequencyRank": 29544
- },
- {
-  "id": "en-10-30k-19545",
-  "courseId": "en-10-30k",
-  "headword": "hotties",
-  "reading": null,
-  "gloss": "(俗語)イケてる人、セクシーな人",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "All the hotties were at the pool party.",
-    "translation": "イケてる人たちはみんなプールパーティーにいた。",
-    "cloze": "All the ｟＿｠ were at the pool party.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29545
  },
  {
   "id": "en-10-30k-19546",
@@ -11097,40 +7573,6 @@
   "frequencyRank": 29552
  },
  {
-  "id": "en-10-30k-19553",
-  "courseId": "en-10-30k",
-  "headword": "intermodal",
-  "reading": "/ˌɪntɚmˈoʊdəl/",
-  "gloss": "複合輸送の(異なる輸送手段を組み合わせた)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "The port handles intermodal containers that move by ship, rail, and truck.",
-    "translation": "その港は船・鉄道・トラックで運ばれる複合輸送用コンテナを扱っている。",
-    "cloze": "The port handles ｟＿｠ containers that move by ship, rail, and truck.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29553
- },
- {
-  "id": "en-10-30k-19554",
-  "courseId": "en-10-30k",
-  "headword": "intraday",
-  "reading": "/ˌɪntɹədˈeɪ/",
-  "gloss": "(取引などが)一日の内の、日中の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "The stock showed high intraday volatility before closing lower.",
-    "translation": "その株は取引時間中に大きく変動し、安値で引けた。",
-    "cloze": "The stock showed high ｟＿｠ volatility before closing lower.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29554
- },
- {
   "id": "en-10-30k-19555",
   "courseId": "en-10-30k",
   "headword": "jailer",
@@ -11167,27 +7609,6 @@
    }
   ],
   "frequencyRank": 29556
- },
- {
-  "id": "en-10-30k-19557",
-  "courseId": "en-10-30k",
-  "headword": "kanto",
-  "reading": null,
-  "gloss": "関東(地方)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "The typhoon struck the Kanto district.",
-    "translation": "台風が関東地方に上陸した。",
-    "cloze": "The typhoon struck the ｟＿｠ district."
-   },
-   {
-    "text": "A lot of snow fell on the Kanto region last week.",
-    "translation": "先週、関東で大雪が降りました。",
-    "cloze": "A lot of snow fell on the ｟＿｠ region last week."
-   }
-  ],
-  "frequencyRank": 29557
  },
  {
   "id": "en-10-30k-19558",
@@ -11266,40 +7687,6 @@
   "frequencyRank": 29561
  },
  {
-  "id": "en-10-30k-19562",
-  "courseId": "en-10-30k",
-  "headword": "lutherans",
-  "reading": "/lˈuθɚənz/",
-  "gloss": "ルター派の人々,ルーテル教会信者",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Many Lutherans in Germany trace their faith back to Martin Luther.",
-    "translation": "ドイツの多くのルター派信者は自分たちの信仰をマルティン・ルターに遡ります。",
-    "cloze": "Many ｟＿｠ in Germany trace their faith back to Martin Luther.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29562
- },
- {
-  "id": "en-10-30k-19563",
-  "courseId": "en-10-30k",
-  "headword": "luxemburg",
-  "reading": null,
-  "gloss": "ルクセンブルク(西欧の小国;その首都)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Luxemburg is a small country bordered by Belgium, Germany, and France.",
-    "translation": "ルクセンブルクはベルギー、ドイツ、フランスに囲まれた小さな国です。",
-    "cloze": "｟＿｠ is a small country bordered by Belgium, Germany, and France.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29563
- },
- {
   "id": "en-10-30k-19564",
   "courseId": "en-10-30k",
   "headword": "lyre",
@@ -11315,27 +7702,6 @@
    }
   ],
   "frequencyRank": 29564
- },
- {
-  "id": "en-10-30k-19565",
-  "courseId": "en-10-30k",
-  "headword": "maasai",
-  "reading": null,
-  "gloss": "マサイ族(東アフリカの遊牧民族)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "my community, the maasai, we believe that",
-    "translation": "僕のコミュニティー マサイ族は―",
-    "cloze": "my community, the ｟＿｠, we believe that"
-   },
-   {
-    "text": "this was a maasai warrior and his wife",
-    "translation": "ご主人はマサイ族の戦士でしたが",
-    "cloze": "this was a ｟＿｠ warrior and his wife"
-   }
-  ],
-  "frequencyRank": 29565
  },
  {
   "id": "en-10-30k-19566",
@@ -11378,23 +7744,6 @@
    }
   ],
   "frequencyRank": 29567
- },
- {
-  "id": "en-10-30k-19568",
-  "courseId": "en-10-30k",
-  "headword": "manchurian",
-  "reading": null,
-  "gloss": "満州の,満州人の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "The Manchurian crane is one of the rarest birds in the world.",
-    "translation": "マンチュリアンヅル(タンチョウ)は世界で最も希少な鳥の一種です。",
-    "cloze": "The ｟＿｠ crane is one of the rarest birds in the world.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29568
  },
  {
   "id": "en-10-30k-19569",
@@ -11475,27 +7824,6 @@
    }
   ],
   "frequencyRank": 29572
- },
- {
-  "id": "en-10-30k-19573",
-  "courseId": "en-10-30k",
-  "headword": "micronesia",
-  "reading": "/mˌaɪkɹoʊnˈiʒə/",
-  "gloss": "ミクロネシア(太平洋の島嶼地域;ミクロネシア連邦)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "all the way from micronesia",
-    "translation": "ミクロネシア地域",
-    "cloze": "all the way from ｟＿｠"
-   },
-   {
-    "text": "i spent two weeks spearhunting with a tribe in micronesia.",
-    "translation": "ミクロネシアで2週間・・・",
-    "cloze": "i spent two weeks spearhunting with a tribe in ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29573
  },
  {
   "id": "en-10-30k-19574",
@@ -11597,40 +7925,6 @@
    }
   ],
   "frequencyRank": 29578
- },
- {
-  "id": "en-10-30k-19579",
-  "courseId": "en-10-30k",
-  "headword": "montpelier",
-  "reading": "/mɑntpˈiliɚ/",
-  "gloss": "モントピーリア(米国バーモント州の州都)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Montpelier is the capital city of the U.S. state of Vermont.",
-    "translation": "モントピーリアはアメリカ・バーモント州の州都です。",
-    "cloze": "｟＿｠ is the capital city of the U.S. state of Vermont.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29579
- },
- {
-  "id": "en-10-30k-19580",
-  "courseId": "en-10-30k",
-  "headword": "multicolored",
-  "reading": "/mˌʌltikˈʌlɚd/",
-  "gloss": "多色の,色とりどりの",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "The festival was decorated with multicolored lanterns.",
-    "translation": "その祭りは色とりどりの提灯で飾られていた。",
-    "cloze": "The festival was decorated with ｟＿｠ lanterns.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29580
  },
  {
   "id": "en-10-30k-19581",
@@ -11786,38 +8080,6 @@
    }
   ],
   "frequencyRank": 29588
- },
- {
-  "id": "en-10-30k-19589",
-  "courseId": "en-10-30k",
-  "headword": "nsaids",
-  "reading": null,
-  "gloss": "非ステロイド性抗炎症薬(NSAIDs)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i've given you the highest dosage of nsaid... nsaids i can.",
-    "translation": "非ステロイド性抗炎症薬の 最高量を与えた",
-    "cloze": "i've given you the highest dosage of nsaid... ｟＿｠ i can."
-   }
-  ],
-  "frequencyRank": 29589
- },
- {
-  "id": "en-10-30k-19590",
-  "courseId": "en-10-30k",
-  "headword": "nuff",
-  "reading": null,
-  "gloss": "(俗語)十分な,たくさんの(=enough)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "that's nuff. don't wanna watch anymore.",
-    "translation": "もう いいよ これ これ以上 見ても無駄だ。",
-    "cloze": "that's ｟＿｠. don't wanna watch anymore."
-   }
-  ],
-  "frequencyRank": 29590
  },
  {
   "id": "en-10-30k-19591",
@@ -11994,65 +8256,6 @@
   "frequencyRank": 29599
  },
  {
-  "id": "en-10-30k-19600",
-  "courseId": "en-10-30k",
-  "headword": "persephone",
-  "reading": null,
-  "gloss": "ペルセフォネ（ギリシャ神話の春と冥界の女神）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "kidnaps persephone, the goddess of spring",
-    "translation": "春の女神であるペルセフォネを誘拐し",
-    "cloze": "kidnaps ｟＿｠, the goddess of spring"
-   },
-   {
-    "text": "here is one. persephone wasn't released.",
-    "translation": "こういうこともあるでしょう。ペルセフォネは解放されなかった。",
-    "cloze": "here is one. ｟＿｠ wasn't released."
-   }
-  ],
-  "frequencyRank": 29600
- },
- {
-  "id": "en-10-30k-19601",
-  "courseId": "en-10-30k",
-  "headword": "phds",
-  "reading": null,
-  "gloss": "博士号（Ph.D.）、また博士号取得者たち",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Many PhDs go on to become professors or researchers.",
-    "translation": "多くの博士号取得者は教授や研究者になる。",
-    "cloze": "Many ｟＿｠ go on to become professors or researchers.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29601
- },
- {
-  "id": "en-10-30k-19602",
-  "courseId": "en-10-30k",
-  "headword": "phenomenally",
-  "reading": "/fənˈɑmənəli/",
-  "gloss": "驚異的に、非常に",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "and dengue fever has grown in speed quite phenomenally.",
-    "translation": "デング熱は驚くべきスピードで 蔓延しています",
-    "cloze": "and dengue fever has grown in speed quite ｟＿｠."
-   },
-   {
-    "text": "when the kids today are phenomenally good at text messaging",
-    "translation": "今日の子供たちはテキストメッセージが驚くほど達者で",
-    "cloze": "when the kids today are ｟＿｠ good at text messaging"
-   }
-  ],
-  "frequencyRank": 29602
- },
- {
   "id": "en-10-30k-19603",
   "courseId": "en-10-30k",
   "headword": "phonics",
@@ -12085,27 +8288,6 @@
    }
   ],
   "frequencyRank": 29604
- },
- {
-  "id": "en-10-30k-19605",
-  "courseId": "en-10-30k",
-  "headword": "physiologically",
-  "reading": "/fˌɪziəlˈɑdʒɪkli/",
-  "gloss": "生理学的に、生理的に",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "i cant take him physiologically. sorry i look like this.",
-    "translation": "《生理的に駄目なんですよね》 《悪かったな こんな顔で》",
-    "cloze": "i cant take him ｟＿｠. sorry i look like this."
-   },
-   {
-    "text": "because if you don't have that sameness, physiologically",
-    "translation": "その生理学的な不変性が失われると",
-    "cloze": "because if you don't have that sameness, ｟＿｠"
-   }
-  ],
-  "frequencyRank": 29605
  },
  {
   "id": "en-10-30k-19606",
@@ -12164,48 +8346,6 @@
    }
   ],
   "frequencyRank": 29608
- },
- {
-  "id": "en-10-30k-19609",
-  "courseId": "en-10-30k",
-  "headword": "plop",
-  "reading": "/plˈɑp/",
-  "gloss": "ポチャン（ボチャン）と落ちる（落とす）；その音",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "you got drunk, and while sleeping on the veranda, it plopped right off your finger...",
-    "translation": "酔っぱらって縁側で寝た時に 指からポロリと外れて...。",
-    "cloze": "you got drunk, and while sleeping on the veranda, it ｟＿｠ right off your finger..."
-   },
-   {
-    "text": "and instead of plopping down several hundred million dollars",
-    "translation": "しかも数億ドル投げ出して",
-    "cloze": "and instead of ｟＿｠ down several hundred million dollars"
-   }
-  ],
-  "frequencyRank": 29609
- },
- {
-  "id": "en-10-30k-19610",
-  "courseId": "en-10-30k",
-  "headword": "portobello",
-  "reading": null,
-  "gloss": "ポルトベロ（大型のマッシュルームの一種）",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "most of you are familiar with portobello mushrooms.",
-    "translation": "ポルトベロマッシュルームは みなさんは大抵ご存知です",
-    "cloze": "most of you are familiar with ｟＿｠ mushrooms."
-   },
-   {
-    "text": "they immediately think portobellos or magic mushrooms",
-    "translation": "誰もがポルトベロか マジックマッシュルームを思い出し",
-    "cloze": "they immediately think ｟＿｠ or magic mushrooms"
-   }
-  ],
-  "frequencyRank": 29610
  },
  {
   "id": "en-10-30k-19611",
@@ -12433,61 +8573,6 @@
   "frequencyRank": 29621
  },
  {
-  "id": "en-10-30k-19622",
-  "courseId": "en-10-30k",
-  "headword": "rfp",
-  "reading": null,
-  "gloss": "提案依頼書（Request for Proposal）",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The company issued an RFP to find a new software vendor.",
-    "translation": "その会社は新しいソフトウェアベンダーを見つけるためRFP（提案依頼書）を発行した。",
-    "cloze": "The company issued an ｟＿｠ to find a new software vendor.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29622
- },
- {
-  "id": "en-10-30k-19623",
-  "courseId": "en-10-30k",
-  "headword": "rma",
-  "reading": null,
-  "gloss": "返品承認番号（Return Merchandise Authorization）",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "You need an RMA number before returning the defective product.",
-    "translation": "不良品を返品する前にRMA番号（返品承認番号）が必要です。",
-    "cloze": "You need an ｟＿｠ number before returning the defective product.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29623
- },
- {
-  "id": "en-10-30k-19624",
-  "courseId": "en-10-30k",
-  "headword": "rubbery",
-  "reading": "/ɹˈʌbɚi/",
-  "gloss": "ゴムのような、弾力のある",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "although, come to think of it, chickens have the rubbery red stuff too.",
-    "translation": "結論から言うと鶏は赤いゴム みたいなのがついてるのさ",
-    "cloze": "although, come to think of it, chickens have the ｟＿｠ red stuff too."
-   },
-   {
-    "text": "plus, hardly any of them have any rubbery red stuff.",
-    "translation": "それに 赤いゴムみたいなやつ 見えないしな",
-    "cloze": "plus, hardly any of them have any ｟＿｠ red stuff."
-   }
-  ],
-  "frequencyRank": 29624
- },
- {
   "id": "en-10-30k-19625",
   "courseId": "en-10-30k",
   "headword": "sashimi",
@@ -12589,28 +8674,6 @@
   "frequencyRank": 29629
  },
  {
-  "id": "en-10-30k-19630",
-  "courseId": "en-10-30k",
-  "headword": "segway",
-  "reading": "/sˈɛɡwˌeɪ/",
-  "gloss": "セグウェイ（立ち乗り式の二輪電動乗り物）",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "that's segway. this is a stirling cycle engine;",
-    "translation": "それがセグウェイでした これはスターリングエンジンです",
-    "cloze": "that's ｟＿｠. this is a stirling cycle engine;"
-   },
-   {
-    "text": "He rode a Segway through the airport terminal.",
-    "translation": "彼は空港のターミナルをセグウェイに乗って移動した。",
-    "cloze": "He rode a ｟＿｠ through the airport terminal.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29630
- },
- {
   "id": "en-10-30k-19631",
   "courseId": "en-10-30k",
   "headword": "senor",
@@ -12632,48 +8695,6 @@
   "frequencyRank": 29631
  },
  {
-  "id": "en-10-30k-19632",
-  "courseId": "en-10-30k",
-  "headword": "seti",
-  "reading": "/sˈɛtˌi/",
-  "gloss": "地球外知的生命体探査（Search for Extraterrestrial Intelligence）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "hook to science, because seti involves all kinds of science",
-    "translation": "setiは科学の全ての分野に関わっています",
-    "cloze": "hook to science, because ｟＿｠ involves all kinds of science"
-   },
-   {
-    "text": "seti wants there to be stuff out there.",
-    "translation": "setiは宇宙に様々なものが 存在すると思っています",
-    "cloze": "｟＿｠ wants there to be stuff out there."
-   }
-  ],
-  "frequencyRank": 29632
- },
- {
-  "id": "en-10-30k-19633",
-  "courseId": "en-10-30k",
-  "headword": "shinjuku",
-  "reading": null,
-  "gloss": "新宿（東京の主要な繁華街・行政区）",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Change trains at Shinjuku.",
-    "translation": "新宿で乗り換えなさい。",
-    "cloze": "Change trains at ｟＿｠."
-   },
-   {
-    "text": "We got on the bus at Shinjuku.",
-    "translation": "私達は新宿でバスに乗った。",
-    "cloze": "We got on the bus at ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29633
- },
- {
   "id": "en-10-30k-19634",
   "courseId": "en-10-30k",
   "headword": "shortsighted",
@@ -12693,72 +8714,6 @@
    }
   ],
   "frequencyRank": 29634
- },
- {
-  "id": "en-10-30k-19635",
-  "courseId": "en-10-30k",
-  "headword": "sinker",
-  "reading": "/sˈɪŋkɚ/",
-  "gloss": "(釣り糸などの)おもり、(野球の)沈む球・シンカー、《米俗》ドーナツ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and the fbi has bought this hook, line, sinker",
-    "translation": "FBI は釣り針からおもりまで これを鵜呑みにし",
-    "cloze": "and the fbi has bought this hook, line, ｟＿｠"
-   },
-   {
-    "text": "He attached a small sinker to his fishing line.",
-    "translation": "彼は釣り糸に小さいおもりを付けた。",
-    "cloze": "He attached a small ｟＿｠ to his fishing line.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29635
- },
- {
-  "id": "en-10-30k-19636",
-  "courseId": "en-10-30k",
-  "headword": "smartass",
-  "reading": "/smˈɑɹtˈæs/",
-  "gloss": "生意気な人、知ったかぶりの人",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i know what a paradox is, smartass.",
-    "translation": "パラドックスが何かは 知ってる 秀才",
-    "cloze": "i know what a paradox is, ｟＿｠."
-   },
-   {
-    "text": "Don't be such a smartass.",
-    "translation": "そんなに生意気にならないで。",
-    "cloze": "Don't be such a ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29636
- },
- {
-  "id": "en-10-30k-19637",
-  "courseId": "en-10-30k",
-  "headword": "sophocles",
-  "reading": "/sˈɑfəkliz/",
-  "gloss": "ソフォクレス(古代ギリシャの悲劇詩人)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "euripides and sophocles",
-    "translation": "「オイディプス王」で",
-    "cloze": "euripides and ｟＿｠"
-   },
-   {
-    "text": "Sophocles wrote the tragedy Oedipus Rex.",
-    "translation": "ソフォクレスは悲劇『オイディプス王』を書いた。",
-    "cloze": "｟＿｠ wrote the tragedy Oedipus Rex.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29637
  },
  {
   "id": "en-10-30k-19638",
@@ -12817,27 +8772,6 @@
   "frequencyRank": 29640
  },
  {
-  "id": "en-10-30k-19641",
-  "courseId": "en-10-30k",
-  "headword": "storeroom",
-  "reading": "/stˈɔɹɹˌum/",
-  "gloss": "貯蔵室、納戸",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The box is in the storeroom.",
-    "translation": "箱なら物置にあるよ。",
-    "cloze": "The box is in the ｟＿｠."
-   },
-   {
-    "text": "I forgot to lock the storeroom.",
-    "translation": "物置に鍵をかけるのを忘れちゃった。",
-    "cloze": "I forgot to lock the ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29641
- },
- {
   "id": "en-10-30k-19642",
   "courseId": "en-10-30k",
   "headword": "strum",
@@ -12858,28 +8792,6 @@
    }
   ],
   "frequencyRank": 29642
- },
- {
-  "id": "en-10-30k-19643",
-  "courseId": "en-10-30k",
-  "headword": "sucky",
-  "reading": null,
-  "gloss": "(話)ひどい、最悪の、つまらない",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "that's sucky.",
-    "translation": "それはひどい",
-    "cloze": "that's ｟＿｠."
-   },
-   {
-    "text": "Losing the game was really sucky.",
-    "translation": "試合に負けたのは本当に最悪だった。",
-    "cloze": "Losing the game was really ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29643
  },
  {
   "id": "en-10-30k-19644",
@@ -12958,27 +8870,6 @@
   "frequencyRank": 29647
  },
  {
-  "id": "en-10-30k-19648",
-  "courseId": "en-10-30k",
-  "headword": "thankless",
-  "reading": "/θˈæŋkləs/",
-  "gloss": "感謝されない、割に合わない;恩知らずの",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "you know, they say this is a thankless job.",
-    "translation": "彼らは これは報われない仕事だと言ってる",
-    "cloze": "you know, they say this is a ｟＿｠ job."
-   },
-   {
-    "text": "it's a thankless role.",
-    "translation": "憎まれ役じゃないか",
-    "cloze": "it's a ｟＿｠ role."
-   }
-  ],
-  "frequencyRank": 29648
- },
- {
   "id": "en-10-30k-19649",
   "courseId": "en-10-30k",
   "headword": "titian",
@@ -12994,23 +8885,6 @@
    }
   ],
   "frequencyRank": 29649
- },
- {
-  "id": "en-10-30k-19650",
-  "courseId": "en-10-30k",
-  "headword": "todos",
-  "reading": "/tˌudˈuz/",
-  "gloss": "やることリストの項目、TODOリスト(複数形)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "I have three todos left on my list.",
-    "translation": "リストにはまだ3つのやることが残っている。",
-    "cloze": "I have three ｟＿｠ left on my list.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29650
  },
  {
   "id": "en-10-30k-19651",
@@ -13032,69 +8906,6 @@
    }
   ],
   "frequencyRank": 29651
- },
- {
-  "id": "en-10-30k-19652",
-  "courseId": "en-10-30k",
-  "headword": "unapologetically",
-  "reading": null,
-  "gloss": "弁解せずに、悪びれずに、堂々と",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "unapologetically present on stage",
-    "translation": "ステージ上で堂々としていて",
-    "cloze": "｟＿｠ present on stage"
-   },
-   {
-    "text": "unapologetically powerful.",
-    "translation": "問答無用の力",
-    "cloze": "｟＿｠ powerful."
-   }
-  ],
-  "frequencyRank": 29652
- },
- {
-  "id": "en-10-30k-19653",
-  "courseId": "en-10-30k",
-  "headword": "unappealing",
-  "reading": "/ˌʌnəpˈilɪŋ/",
-  "gloss": "魅力的でない、興味をそそらない",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "This isn't an unappealing proposition, is it?",
-    "translation": "これは悪い話ではないでしょう？",
-    "cloze": "This isn't an ｟＿｠ proposition, is it?"
-   },
-   {
-    "text": "It was unappealing and unattractive. But I bought it anyways.",
-    "translation": "魅力がなく、愛らしくもなかった。でも、僕は買った。",
-    "cloze": "It was ｟＿｠ and unattractive. But I bought it anyways."
-   }
-  ],
-  "frequencyRank": 29653
- },
- {
-  "id": "en-10-30k-19654",
-  "courseId": "en-10-30k",
-  "headword": "uncivilized",
-  "reading": "/ənsˈɪvəlaɪzd/",
-  "gloss": "未開の、野蛮の",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "That's rather uncivilized.",
-    "translation": "かなり野蛮ね。",
-    "cloze": "That's rather ｟＿｠."
-   },
-   {
-    "text": "There are still uncivilized lands.",
-    "translation": "まだ未開拓の土地がある。",
-    "cloze": "There are still ｟＿｠ lands."
-   }
-  ],
-  "frequencyRank": 29654
  },
  {
   "id": "en-10-30k-19655",
@@ -13120,27 +8931,6 @@
   "frequencyRank": 29655
  },
  {
-  "id": "en-10-30k-19656",
-  "courseId": "en-10-30k",
-  "headword": "unpatriotic",
-  "reading": "/ənpˌeɪtɹiˈɑtɪk/",
-  "gloss": "愛国心のない、非愛国的な",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "today we'll start with the most unpatriotic language.",
-    "translation": "今日から私達は 大変 非愛国的な言語を学びます",
-    "cloze": "today we'll start with the most ｟＿｠ language."
-   },
-   {
-    "text": "it's worse than sickening. it's unpatriotic.",
-    "translation": "もっと悪い 非国民だ",
-    "cloze": "it's worse than sickening. it's ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29656
- },
- {
   "id": "en-10-30k-19657",
   "courseId": "en-10-30k",
   "headword": "unrepentant",
@@ -13162,23 +8952,6 @@
   "frequencyRank": 29657
  },
  {
-  "id": "en-10-30k-19658",
-  "courseId": "en-10-30k",
-  "headword": "unsee",
-  "reading": null,
-  "gloss": "見なかったことにする、見た記憶を消す",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "I wish I could unsee that horror movie scene.",
-    "translation": "あのホラー映画のシーンを見なかったことにできたらいいのに。",
-    "cloze": "I wish I could ｟＿｠ that horror movie scene.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29658
- },
- {
   "id": "en-10-30k-19659",
   "courseId": "en-10-30k",
   "headword": "untidy",
@@ -13198,28 +8971,6 @@
    }
   ],
   "frequencyRank": 29659
- },
- {
-  "id": "en-10-30k-19660",
-  "courseId": "en-10-30k",
-  "headword": "ural",
-  "reading": "/jˈʊɹəl/",
-  "gloss": "ウラル(山脈/川。ロシア、ヨーロッパとアジアの境界)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "from the urals up to england, you know how many?",
-    "translation": "ウラルからイングランドまでの地域で、どれくらいだと思います?",
-    "cloze": "from the ｟＿｠ up to england, you know how many?"
-   },
-   {
-    "text": "The Ural Mountains divide Europe and Asia.",
-    "translation": "ウラル山脈はヨーロッパとアジアを分けている。",
-    "cloze": "The ｟＿｠ Mountains divide Europe and Asia.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29660
  },
  {
   "id": "en-10-30k-19661",
@@ -13308,28 +9059,6 @@
   "frequencyRank": 29664
  },
  {
-  "id": "en-10-30k-19665",
-  "courseId": "en-10-30k",
-  "headword": "washable",
-  "reading": "/wˈɑʃəbəl/",
-  "gloss": "洗濯のきく",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "Is this dress washable?",
-    "translation": "このドレスは水洗いができますか。",
-    "cloze": "Is this dress ｟＿｠?"
-   },
-   {
-    "text": "These curtains are machine washable.",
-    "translation": "このカーテンは洗濯機で洗える。",
-    "cloze": "These curtains are machine ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29665
- },
- {
   "id": "en-10-30k-19666",
   "courseId": "en-10-30k",
   "headword": "washy",
@@ -13367,48 +9096,6 @@
    }
   ],
   "frequencyRank": 29667
- },
- {
-  "id": "en-10-30k-19668",
-  "courseId": "en-10-30k",
-  "headword": "weaponized",
-  "reading": null,
-  "gloss": "兵器化した、武器として使用可能にした",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "these guys in detroit weaponized a piece of computer code.",
-    "translation": "デトロイトの奴らは コンピューターコードを兵器化した",
-    "cloze": "these guys in detroit ｟＿｠ a piece of computer code."
-   },
-   {
-    "text": "or was it a defense department weaponized virus that escaped the lab?",
-    "translation": "それとも、ウイルス兵器が 研究室から漏れたのか?",
-    "cloze": "or was it a defense department ｟＿｠ virus that escaped the lab?"
-   }
-  ],
-  "frequencyRank": 29668
- },
- {
-  "id": "en-10-30k-19669",
-  "courseId": "en-10-30k",
-  "headword": "wetness",
-  "reading": "/wˈɛtnəs/",
-  "gloss": "湿り気、濡れていること",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "the messy days, the lousy days, that wetness.",
-    "translation": "その汚らしい日々 そのうんざりする日々 そのべっとりぬれた感触を",
-    "cloze": "the messy days, the lousy days, that ｟＿｠."
-   },
-   {
-    "text": "woolenness and wetness aren't exactly",
-    "translation": "毛糸と水なんて",
-    "cloze": "woolenness and ｟＿｠ aren't exactly"
-   }
-  ],
-  "frequencyRank": 29669
  },
  {
   "id": "en-10-30k-19670",
@@ -13510,28 +9197,6 @@
   "frequencyRank": 29674
  },
  {
-  "id": "en-10-30k-19675",
-  "courseId": "en-10-30k",
-  "headword": "aachen",
-  "reading": "/ˈɑkən/",
-  "gloss": "アーヘン(ドイツ西部の都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "no, garfield, you and jeanclaude get as close to germany as you can, to the city of aachen.",
-    "translation": "いや、ガーフィールドとジャン・クロードは... アーヘンの街へ、ドイツにもっとも近い処だ...",
-    "cloze": "no, garfield, you and jeanclaude get as close to germany as you can, to the city of ｟aachen｠."
-   },
-   {
-    "text": "Aachen is famous for its cathedral, once the seat of Charlemagne's empire.",
-    "translation": "アーヘンはシャルルマーニュ帝国の中心地であった大聖堂で有名です。",
-    "cloze": "｟Aachen｠ is famous for its cathedral, once the seat of Charlemagne's empire.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29675
- },
- {
   "id": "en-10-30k-19676",
   "courseId": "en-10-30k",
   "headword": "acetylcholine",
@@ -13610,23 +9275,6 @@
    }
   ],
   "frequencyRank": 29679
- },
- {
-  "id": "en-10-30k-19680",
-  "courseId": "en-10-30k",
-  "headword": "amines",
-  "reading": null,
-  "gloss": "アミン類(アンモニアの水素原子をほかの基で置換した窒素化合物)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Amines are organic compounds derived from ammonia.",
-    "translation": "アミンはアンモニアから誘導される有機化合物です。",
-    "cloze": "｟Amines｠ are organic compounds derived from ammonia.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29680
  },
  {
   "id": "en-10-30k-19681",
@@ -13820,28 +9468,6 @@
   "frequencyRank": 29689
  },
  {
-  "id": "en-10-30k-19690",
-  "courseId": "en-10-30k",
-  "headword": "bauhaus",
-  "reading": null,
-  "gloss": "バウハウス(20世紀初頭ドイツの造形芸術学校・デザイン運動)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "the idea, the dream, was really for a sort of bauhaus",
-    "translation": "理想と夢は バウハウスのような学校 ―",
-    "cloze": "the idea, the dream, was really for a sort of ｟bauhaus｠"
-   },
-   {
-    "text": "The Bauhaus school combined art, craft, and technology in its design philosophy.",
-    "translation": "バウハウスは芸術と工芸と技術を組み合わせたデザイン哲学を持つ学校でした。",
-    "cloze": "The ｟Bauhaus｠ school combined art, craft, and technology in its design philosophy.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29690
- },
- {
   "id": "en-10-30k-19691",
   "courseId": "en-10-30k",
   "headword": "bimonthly",
@@ -13864,138 +9490,6 @@
   "frequencyRank": 29691
  },
  {
-  "id": "en-10-30k-19692",
-  "courseId": "en-10-30k",
-  "headword": "binocular",
-  "reading": "/bənˈɑkjəlɚ/",
-  "gloss": "両眼用の、両眼を使う(複数形で双眼鏡)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "and they use them in the same way we use our binocular vision.",
-    "translation": "双眼鏡のような働きで",
-    "cloze": "and they use them in the same way we use our ｟binocular｠ vision."
-   }
-  ],
-  "frequencyRank": 29692
- },
- {
-  "id": "en-10-30k-19693",
-  "courseId": "en-10-30k",
-  "headword": "bioethics",
-  "reading": "/bˌaɪoʊˈɛθɪks/",
-  "gloss": "生命倫理学",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "the nuffield council on bioethics",
-    "translation": "ナフィールド生命倫理審議会は",
-    "cloze": "the nuffield council on ｟bioethics｠"
-   },
-   {
-    "text": "Bioethics examines the moral issues raised by advances in medicine and biology.",
-    "translation": "生命倫理学は医学や生物学の進歩がもたらす倫理的問題を扱う。",
-    "cloze": "｟Bioethics｠ examines the moral issues raised by advances in medicine and biology.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29693
- },
- {
-  "id": "en-10-30k-19694",
-  "courseId": "en-10-30k",
-  "headword": "birdy",
-  "reading": "/bˈɝdi/",
-  "gloss": "(俗)小鳥。(ゴルフ)バーディー(規定打数より1打少ないスコア)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "hey, early birdy",
-    "translation": "早いな",
-    "cloze": "hey, early ｟birdy｠"
-   },
-   {
-    "text": "She scored a birdy on the final hole.",
-    "translation": "彼女は最終ホールでバーディーを決めた。",
-    "cloze": "She scored a ｟birdy｠ on the final hole.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29694
- },
- {
-  "id": "en-10-30k-19695",
-  "courseId": "en-10-30k",
-  "headword": "birkenhead",
-  "reading": null,
-  "gloss": "バーケンヘッド(イギリス、マージーサイド地方の都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Birkenhead lies just across the River Mersey from Liverpool.",
-    "translation": "バーケンヘッドはマージー川を挟んでリヴァプールの対岸にある。",
-    "cloze": "｟Birkenhead｠ lies just across the River Mersey from Liverpool.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29695
- },
- {
-  "id": "en-10-30k-19696",
-  "courseId": "en-10-30k",
-  "headword": "biter",
-  "reading": "/bˈaɪtɚ/",
-  "gloss": "かみつく人・動物",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i didn't think we'd be feeding people to biters.",
-    "translation": "人間にバイターをぶつけるなんて 考えたこともないよ",
-    "cloze": "i didn't think we'd be feeding people to ｟biters｠."
-   },
-   {
-    "text": "the biters on the perimeter have been dispatched.",
-    "translation": "恐れていたバイターが 境界を越えてしまったが",
-    "cloze": "the ｟biters｠ on the perimeter have been dispatched."
-   }
-  ],
-  "frequencyRank": 29696
- },
- {
-  "id": "en-10-30k-19697",
-  "courseId": "en-10-30k",
-  "headword": "bldg",
-  "reading": null,
-  "gloss": "建物、ビル(buildingの略語表記)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Please deliver the package to the Randolph Bldg. on Fifth Avenue.",
-    "translation": "小包はフィフス街のランドルフビルにお届けください。",
-    "cloze": "Please deliver the package to the Randolph ｟Bldg.｠ on Fifth Avenue.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29697
- },
- {
-  "id": "en-10-30k-19698",
-  "courseId": "en-10-30k",
-  "headword": "boers",
-  "reading": "/bˈɔɹz/",
-  "gloss": "ボーア人(南アフリカのオランダ系入植者の子孫)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The Boers fought against the British in the Boer War.",
-    "translation": "ボーア人はボーア戦争でイギリスと戦った。",
-    "cloze": "The ｟Boers｠ fought against the British in the Boer War.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29698
- },
- {
   "id": "en-10-30k-19699",
   "courseId": "en-10-30k",
   "headword": "bolus",
@@ -14010,27 +9504,6 @@
    }
   ],
   "frequencyRank": 29699
- },
- {
-  "id": "en-10-30k-19700",
-  "courseId": "en-10-30k",
-  "headword": "breakin",
-  "reading": null,
-  "gloss": "侵入、不法侵入(break-inの略式表記)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "george, did you hear about the breakin?",
-    "translation": "泥棒の話聞いた?",
-    "cloze": "george, did you hear about the ｟breakin｠?"
-   },
-   {
-    "text": "this wasn't some random breakin.",
-    "translation": "これは思い付きの 侵入じゃなかった",
-    "cloze": "this wasn't some random ｟breakin｠."
-   }
-  ],
-  "frequencyRank": 29700
  },
  {
   "id": "en-10-30k-19701",
@@ -14093,28 +9566,6 @@
   "frequencyRank": 29703
  },
  {
-  "id": "en-10-30k-19704",
-  "courseId": "en-10-30k",
-  "headword": "burgos",
-  "reading": "/bˈɝɡoʊz/",
-  "gloss": "ブルゴス(スペイン北部の都市)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "are you just getting to burgos?",
-    "translation": "今着いたのか? - ええ",
-    "cloze": "are you just getting to ｟burgos｠?"
-   },
-   {
-    "text": "Burgos Cathedral is a UNESCO World Heritage Site in northern Spain.",
-    "translation": "ブルゴス大聖堂はスペイン北部にあるユネスコ世界遺産です。",
-    "cloze": "｟Burgos｠ Cathedral is a UNESCO World Heritage Site in northern Spain.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29704
- },
- {
   "id": "en-10-30k-19705",
   "courseId": "en-10-30k",
   "headword": "bursa",
@@ -14173,27 +9624,6 @@
    }
   ],
   "frequencyRank": 29707
- },
- {
-  "id": "en-10-30k-19708",
-  "courseId": "en-10-30k",
-  "headword": "chiron",
-  "reading": "/tʃˈaɪɹən/",
-  "gloss": "ケイロン(ギリシャ神話に登場する賢者ケンタウロス)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i cannot bear it, chiron.",
-    "translation": "もう耐えられない、ケイロン",
-    "cloze": "i cannot bear it, ｟chiron｠."
-   },
-   {
-    "text": "in my world, i'm known as chiron.",
-    "translation": "私の世界ではカイロンだ",
-    "cloze": "in my world, i'm known as ｟chiron｠."
-   }
-  ],
-  "frequencyRank": 29708
  },
  {
   "id": "en-10-30k-19709",
@@ -14482,44 +9912,6 @@
   "frequencyRank": 29722
  },
  {
-  "id": "en-10-30k-19723",
-  "courseId": "en-10-30k",
-  "headword": "delisted",
-  "reading": "/dˌilˈɪstɪd/",
-  "gloss": "上場廃止となった、リストから除外された",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "The company's shares were delisted from the stock exchange after the scandal.",
-    "translation": "その会社の株式は 不祥事の後 証券取引所から上場廃止となった。",
-    "cloze": "The company's shares were ｟＿｠ from the stock exchange after the scandal.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29723
- },
- {
-  "id": "en-10-30k-19724",
-  "courseId": "en-10-30k",
-  "headword": "dirtbag",
-  "reading": null,
-  "gloss": "くだらない奴、卑劣な人(軽蔑的な俗語)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "not when i'm trying to keep dirtbags off the street",
-    "translation": "死人が出るのを防いでいるのに",
-    "cloze": "not when i'm trying to keep ｟＿｠ off the street"
-   },
-   {
-    "text": "here, you little filthy dirtbag.",
-    "translation": "ちっ! 薄汚い野郎だぜ",
-    "cloze": "here, you little filthy ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29724
- },
- {
   "id": "en-10-30k-19725",
   "courseId": "en-10-30k",
   "headword": "disavow",
@@ -14653,86 +10045,6 @@
    }
   ],
   "frequencyRank": 29731
- },
- {
-  "id": "en-10-30k-19732",
-  "courseId": "en-10-30k",
-  "headword": "exoplanets",
-  "reading": null,
-  "gloss": "太陽系外惑星",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "let's zoom in and look at one of the favorite exoplanets.",
-    "translation": "注目されている系外惑星に 近づいて見てみましょう",
-    "cloze": "let's zoom in and look at one of the favorite ｟＿｠."
-   },
-   {
-    "text": "and by the way, most of these exoplanets, we don't know too much about.",
-    "translation": "実はこれらの惑星については あまり情報がありません",
-    "cloze": "and by the way, most of these ｟＿｠, we don't know too much about."
-   }
-  ],
-  "frequencyRank": 29732
- },
- {
-  "id": "en-10-30k-19733",
-  "courseId": "en-10-30k",
-  "headword": "fairytales",
-  "reading": "/fˈɛɹitˌeɪlz/",
-  "gloss": "おとぎ話、童話",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Fairytales often have a happy ending.",
-    "translation": "おとぎ話はしばしばハッピーエンドを迎える。",
-    "cloze": "｟＿｠ often have a happy ending.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29733
- },
- {
-  "id": "en-10-30k-19734",
-  "courseId": "en-10-30k",
-  "headword": "fatherly",
-  "reading": "/fˈɑðɚli/",
-  "gloss": "父親らしい、父親のように優しい",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "you mean like fatherly advice?",
-    "translation": "父さんの助言に従う",
-    "cloze": "you mean like ｟＿｠ advice?"
-   },
-   {
-    "text": "oh, i am so moved by your newfound sense of fatherly duty towards the werewolf carrying your hybrid bun in her oven.",
-    "translation": "あ〜とても感動したわ 父としての性が 芽生えたのね 焼いてくれる狼さんに",
-    "cloze": "oh, i am so moved by your newfound sense of ｟＿｠ duty towards the werewolf carrying your hybrid bun in her oven."
-   }
-  ],
-  "frequencyRank": 29734
- },
- {
-  "id": "en-10-30k-19735",
-  "courseId": "en-10-30k",
-  "headword": "faultless",
-  "reading": null,
-  "gloss": "欠点のない、申し分のない",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "Is she faultless herself?",
-    "translation": "自分には欠点がないというのだろうか。",
-    "cloze": "Is she ｟＿｠ herself?"
-   },
-   {
-    "text": "A faultless plan is stifling, isn't it?",
-    "translation": "非の打ち所がない計画は、窮屈だなあ。",
-    "cloze": "A ｟＿｠ plan is stifling, isn't it?"
-   }
-  ],
-  "frequencyRank": 29735
  },
  {
   "id": "en-10-30k-19736",
@@ -14900,61 +10212,6 @@
   "frequencyRank": 29743
  },
  {
-  "id": "en-10-30k-19744",
-  "courseId": "en-10-30k",
-  "headword": "harpers",
-  "reading": "/hˈɑɹpɚz/",
-  "gloss": "竪琴(ハープ)奏者",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Harpers traveled from village to village playing their instruments.",
-    "translation": "竪琴弾きたちは村から村へ渡り歩き 楽器を奏でた。",
-    "cloze": "｟＿｠ traveled from village to village playing their instruments.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29744
- },
- {
-  "id": "en-10-30k-19745",
-  "courseId": "en-10-30k",
-  "headword": "headbutt",
-  "reading": null,
-  "gloss": "頭突き(をする)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and my only special move is a headbutt.",
-    "translation": "あと必殺技が頭突きしかないんですが",
-    "cloze": "and my only special move is a ｟＿｠."
-   },
-   {
-    "text": "and hope headbutts the referee!",
-    "translation": "ホープがレフリーに頭突きを!",
-    "cloze": "and hope ｟＿｠ the referee!"
-   }
-  ],
-  "frequencyRank": 29745
- },
- {
-  "id": "en-10-30k-19746",
-  "courseId": "en-10-30k",
-  "headword": "hebei",
-  "reading": "/hˈibi/",
-  "gloss": "河北省(中国北部の省)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Hebei is a province in northern China that surrounds Beijing.",
-    "translation": "河北省は北京を取り囲む中国北部の省である。",
-    "cloze": "｟＿｠ is a province in northern China that surrounds Beijing.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29746
- },
- {
   "id": "en-10-30k-19747",
   "courseId": "en-10-30k",
   "headword": "heckler",
@@ -14992,29 +10249,6 @@
    }
   ],
   "frequencyRank": 29748
- },
- {
-  "id": "en-10-30k-19749",
-  "courseId": "en-10-30k",
-  "headword": "hoosiers",
-  "reading": "/hˈuzjɚz/",
-  "gloss": "インディアナ州民(の愛称);フーシャー",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Hoosiers are famous for their passion for basketball.",
-    "translation": "フーシャーズ(インディアナ州民)はバスケットボール好きで知られている。",
-    "cloze": "｟＿｠ are famous for their passion for basketball.",
-    "aiGenerated": true
-   },
-   {
-    "text": "My grandfather was a proud Hoosier from Indianapolis.",
-    "translation": "祖父はインディアナポリス出身の誇り高きフーシャーだった。",
-    "cloze": "My grandfather was a proud ｟＿｠ from Indianapolis.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29749
  },
  {
   "id": "en-10-30k-19750",
@@ -15244,23 +10478,6 @@
   "frequencyRank": 29760
  },
  {
-  "id": "en-10-30k-19761",
-  "courseId": "en-10-30k",
-  "headword": "innsbruck",
-  "reading": null,
-  "gloss": "インスブルック(オーストリア・チロル州の都市、冬季オリンピック開催地)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Innsbruck hosted the Winter Olympics twice.",
-    "translation": "インスブルックは冬季オリンピックを2度開催した。",
-    "cloze": "｟＿｠ hosted the Winter Olympics twice.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29761
- },
- {
   "id": "en-10-30k-19762",
   "courseId": "en-10-30k",
   "headword": "interactivity",
@@ -15302,23 +10519,6 @@
    }
   ],
   "frequencyRank": 29763
- },
- {
-  "id": "en-10-30k-19764",
-  "courseId": "en-10-30k",
-  "headword": "intros",
-  "reading": "/ˈɪntɹoʊz/",
-  "gloss": "イントロ,導入部;(複数人の)自己紹介",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Let's skip the intros and get straight to business.",
-    "translation": "自己紹介は飛ばして早速本題に入りましょう。",
-    "cloze": "Let's skip the ｟＿｠ and get straight to business.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29764
  },
  {
   "id": "en-10-30k-19765",
@@ -15458,78 +10658,6 @@
    }
   ],
   "frequencyRank": 29771
- },
- {
-  "id": "en-10-30k-19772",
-  "courseId": "en-10-30k",
-  "headword": "lombardy",
-  "reading": null,
-  "gloss": "ロンバルディア(イタリア北部の州、州都ミラノ)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Milan is the capital of the Lombardy region.",
-    "translation": "ミラノはロンバルディア州の州都である。",
-    "cloze": "Milan is the capital of the ｟＿｠ region.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29772
- },
- {
-  "id": "en-10-30k-19773",
-  "courseId": "en-10-30k",
-  "headword": "lsat",
-  "reading": null,
-  "gloss": "LSAT(米国のロースクール入学試験)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and i signed up for an lsat course.",
-    "translation": "だからね LSATの講座に申し込んだの.",
-    "cloze": "and i signed up for an ｟＿｠ course."
-   },
-   {
-    "text": "you quit your job and you enrolled in an lsat course.",
-    "translation": "君は仕事を辞めて lsatの講座に登録した.",
-    "cloze": "you quit your job and you enrolled in an ｟＿｠ course."
-   }
-  ],
-  "frequencyRank": 29773
- },
- {
-  "id": "en-10-30k-19774",
-  "courseId": "en-10-30k",
-  "headword": "luhansk",
-  "reading": null,
-  "gloss": "ルハーンシク(ウクライナ東部の都市、州名としても使用)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Luhansk is a city in eastern Ukraine.",
-    "translation": "ルハーンシクはウクライナ東部の都市である。",
-    "cloze": "｟＿｠ is a city in eastern Ukraine.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29774
- },
- {
-  "id": "en-10-30k-19775",
-  "courseId": "en-10-30k",
-  "headword": "magick",
-  "reading": null,
-  "gloss": "儀式魔術,秘儀(通常のmagicと区別するための古風なつづり)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "He studied ceremonial magick and ancient rituals.",
-    "translation": "彼は儀式魔術と古代の儀式を研究した。",
-    "cloze": "He studied ceremonial ｟＿｠ and ancient rituals.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29775
  },
  {
   "id": "en-10-30k-19776",
@@ -15717,23 +10845,6 @@
   "frequencyRank": 29784
  },
  {
-  "id": "en-10-30k-19785",
-  "courseId": "en-10-30k",
-  "headword": "motherfuckin",
-  "reading": null,
-  "gloss": "とんでもない、最悪な(motherfuckingの俗な略式表記。強調表現として使う)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "This motherfuckin traffic is driving me crazy.",
-    "translation": "このクソみたいな渋滞にはうんざりだ。",
-    "cloze": "This ｟＿｠ traffic is driving me crazy.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29785
- },
- {
   "id": "en-10-30k-19786",
   "courseId": "en-10-30k",
   "headword": "multichannel",
@@ -15777,61 +10888,6 @@
   "frequencyRank": 29787
  },
  {
-  "id": "en-10-30k-19788",
-  "courseId": "en-10-30k",
-  "headword": "nagano",
-  "reading": "/nɑɡˈɑnoʊ/",
-  "gloss": "長野(日本の県・市名。1998年冬季オリンピック開催地)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Nagano beat Tokyo 2 to 3.",
-    "translation": "長野は東京を２対３で破った。",
-    "cloze": "｟＿｠ beat Tokyo 2 to 3."
-   },
-   {
-    "text": "He is from some small town in Nagano.",
-    "translation": "彼は長野県のある小さな町の出身です。",
-    "cloze": "He is from some small town in ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29788
- },
- {
-  "id": "en-10-30k-19789",
-  "courseId": "en-10-30k",
-  "headword": "nawab",
-  "reading": null,
-  "gloss": "(インドの)太守、知事;ムガル帝国時代の高官の称号",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The nawab ruled the province with great wealth and power.",
-    "translation": "その太守は莫大な富と権力をもって州を統治した。",
-    "cloze": "The ｟＿｠ ruled the province with great wealth and power.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29789
- },
- {
-  "id": "en-10-30k-19790",
-  "courseId": "en-10-30k",
-  "headword": "newness",
-  "reading": "/nˈunəs/",
-  "gloss": "新しさ、目新しさ",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "I love the newness of a freshly opened notebook.",
-    "translation": "新しく開いたノートの新しさが好きだ。",
-    "cloze": "I love the ｟＿｠ of a freshly opened notebook.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29790
- },
- {
   "id": "en-10-30k-19791",
   "courseId": "en-10-30k",
   "headword": "newsreader",
@@ -15871,27 +10927,6 @@
   "frequencyRank": 29792
  },
  {
-  "id": "en-10-30k-19793",
-  "courseId": "en-10-30k",
-  "headword": "nori",
-  "reading": null,
-  "gloss": "海苔(のり)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Today, too, will be a nori bento day.",
-    "translation": "今日ものり弁。",
-    "cloze": "Today, too, will be a ｟＿｠ bento day."
-   },
-   {
-    "text": "Today, too, I'll be eating a nori bento.",
-    "translation": "今日ものり弁。",
-    "cloze": "Today, too, I'll be eating a ｟＿｠ bento."
-   }
-  ],
-  "frequencyRank": 29793
- },
- {
   "id": "en-10-30k-19794",
   "courseId": "en-10-30k",
   "headword": "olympiad",
@@ -15928,23 +10963,6 @@
    }
   ],
   "frequencyRank": 29795
- },
- {
-  "id": "en-10-30k-19796",
-  "courseId": "en-10-30k",
-  "headword": "ordinates",
-  "reading": null,
-  "gloss": "座標(特にy座標);縦座標",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Plot the ordinates on the graph to find the curve.",
-    "translation": "曲線を求めるためグラフに座標(y座標)をプロットしなさい。",
-    "cloze": "Plot the ｟＿｠ on the graph to find the curve.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29796
  },
  {
   "id": "en-10-30k-19797",
@@ -16024,28 +11042,6 @@
   "frequencyRank": 29800
  },
  {
-  "id": "en-10-30k-19801",
-  "courseId": "en-10-30k",
-  "headword": "phosphatase",
-  "reading": null,
-  "gloss": "ホスファターゼ(リン酸エステルを分解する酵素の一種)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "produced evidence in the form of an alkaline phosphatase number",
-    "translation": "アルカリフォスファターゼの数値が異常で",
-    "cloze": "produced evidence in the form of an alkaline ｟＿｠ number"
-   },
-   {
-    "text": "The blood test showed an elevated phosphatase level.",
-    "translation": "血液検査でホスファターゼの数値が上昇していた。",
-    "cloze": "The blood test showed an elevated ｟＿｠ level.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29801
- },
- {
   "id": "en-10-30k-19802",
   "courseId": "en-10-30k",
   "headword": "piezoelectric",
@@ -16087,27 +11083,6 @@
    }
   ],
   "frequencyRank": 29803
- },
- {
-  "id": "en-10-30k-19804",
-  "courseId": "en-10-30k",
-  "headword": "pmc",
-  "reading": null,
-  "gloss": "民間軍事会社(Private Military Companyの略)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "pmcs private military companies",
-    "translation": "pmc 民間軍事会社の勢力と 合流します。",
-    "cloze": "｟＿｠s private military companies"
-   },
-   {
-    "text": "the pmcs are making their move. i'm heading in.",
-    "translation": "PMCが彼らを動かしてる 私は向う",
-    "cloze": "the ｟＿｠s are making their move. i'm heading in."
-   }
-  ],
-  "frequencyRank": 29804
  },
  {
   "id": "en-10-30k-19805",
@@ -16172,27 +11147,6 @@
    }
   ],
   "frequencyRank": 29807
- },
- {
-  "id": "en-10-30k-19808",
-  "courseId": "en-10-30k",
-  "headword": "productively",
-  "reading": "/pɹədˈʌktɪvli/",
-  "gloss": "生産的に、有効に",
-  "pos": "副詞",
-  "examples": [
-   {
-    "text": "Let's try and think productively.",
-    "translation": "前向きに考えよう。",
-    "cloze": "Let's try and think ｟＿｠."
-   },
-   {
-    "text": "please spend your time productively.",
-    "translation": "生産的に過ごしてよね",
-    "cloze": "please spend your time ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29808
  },
  {
   "id": "en-10-30k-19809",
@@ -16323,28 +11277,6 @@
   "frequencyRank": 29814
  },
  {
-  "id": "en-10-30k-19815",
-  "courseId": "en-10-30k",
-  "headword": "rabat",
-  "reading": null,
-  "gloss": "ラバト(モロッコの首都)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "The capital of Morocco is Rabat.",
-    "translation": "モロッコの首都はラバトです。",
-    "cloze": "The capital of Morocco is ｟＿｠."
-   },
-   {
-    "text": "We visited the old medina in Rabat last summer.",
-    "translation": "去年の夏、ラバトの旧市街(メディナ)を訪れた。",
-    "cloze": "We visited the old medina in ｟＿｠ last summer.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29815
- },
- {
   "id": "en-10-30k-19816",
   "courseId": "en-10-30k",
   "headword": "rationalism",
@@ -16426,27 +11358,6 @@
   "frequencyRank": 29819
  },
  {
-  "id": "en-10-30k-19820",
-  "courseId": "en-10-30k",
-  "headword": "reheat",
-  "reading": null,
-  "gloss": "再加熱する、温め直す",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "after which you simply reheat the pouch.",
-    "translation": "再び温めれば何度でも使えます",
-    "cloze": "after which you simply ｟＿｠ the pouch."
-   },
-   {
-    "text": "sure, i'll reheat it. you'll be proud.",
-    "translation": "ええ 温め直してる ビックリするわよ",
-    "cloze": "sure, i'll ｟＿｠ it. you'll be proud."
-   }
-  ],
-  "frequencyRank": 29820
- },
- {
   "id": "en-10-30k-19821",
   "courseId": "en-10-30k",
   "headword": "reinvest",
@@ -16487,48 +11398,6 @@
    }
   ],
   "frequencyRank": 29822
- },
- {
-  "id": "en-10-30k-19823",
-  "courseId": "en-10-30k",
-  "headword": "repackage",
-  "reading": "/ɹˌipˈækɪdʒ/",
-  "gloss": "再包装する、パッケージし直す",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "and then they repackage them and sell them out on markets",
-    "translation": "彼らは注射器を再包装して 市場で売ります",
-    "cloze": "and then they ｟＿｠ them and sell them out on markets"
-   },
-   {
-    "text": "we repackage the aborigine's millet wine.",
-    "translation": "原住民の小米酒をパッケージしたもので",
-    "cloze": "we ｟＿｠ the aborigine's millet wine."
-   }
-  ],
-  "frequencyRank": 29823
- },
- {
-  "id": "en-10-30k-19824",
-  "courseId": "en-10-30k",
-  "headword": "reprogramme",
-  "reading": "/ɹipɹˈoʊɡɹˌæmɪŋ/",
-  "gloss": "(プログラムを)再設定する、書き換える(reprogramの英式つづり)",
-  "pos": "動詞",
-  "examples": [
-   {
-    "text": "this is another service bot reprogrammed to commit a felony.",
-    "translation": "サービスロボットです 重罪を犯すよう 再プログラムされています",
-    "cloze": "this is another service bot ｟＿｠ to commit a felony."
-   },
-   {
-    "text": "this changes all rules. this is life, but we're reprogramming it.",
-    "translation": "これはあらゆる法則を変えてしまいます 私たちは命をリプログラムするのです",
-    "cloze": "this changes all rules. this is life, but we're ｟＿｠ it."
-   }
-  ],
-  "frequencyRank": 29824
  },
  {
   "id": "en-10-30k-19825",
@@ -16592,71 +11461,6 @@
    }
   ],
   "frequencyRank": 29827
- },
- {
-  "id": "en-10-30k-19828",
-  "courseId": "en-10-30k",
-  "headword": "riemann",
-  "reading": "/ɹˈimən/",
-  "gloss": "リーマン(ドイツの数学者ベルンハルト・リーマンの名。「リーマン予想」「リーマン幾何学」など数学用語に使われる)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "oh, riemann is not related to today's class.",
-    "translation": "ああ リーマンは 今日の授業とは関係ないからな",
-    "cloze": "oh, ｟＿｠ is not related to today's class."
-   },
-   {
-    "text": "yesterday, my cram school teacher was talking about the riemann hypothesis.",
-    "translation": "昨日 塾で 先生がリーマン予想の話をしてて",
-    "cloze": "yesterday, my cram school teacher was talking about the ｟＿｠ hypothesis."
-   }
-  ],
-  "frequencyRank": 29828
- },
- {
-  "id": "en-10-30k-19829",
-  "courseId": "en-10-30k",
-  "headword": "saipan",
-  "reading": "/sˈeɪpən/",
-  "gloss": "サイパン(北マリアナ諸島にある島。同諸島の主都)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "beyond saipan",
-    "translation": "サイパンの奥によ",
-    "cloze": "beyond ｟＿｠"
-   },
-   {
-    "text": "you were at saipan, okinawa.",
-    "translation": "あなたはサイパン、沖縄にいました",
-    "cloze": "you were at ｟＿｠, okinawa."
-   }
-  ],
-  "frequencyRank": 29829
- },
- {
-  "id": "en-10-30k-19830",
-  "courseId": "en-10-30k",
-  "headword": "saladin",
-  "reading": "/sˈælədɪn/",
-  "gloss": "サラディン(12世紀、十字軍と戦ったエジプト・シリアのイスラム王朝の建国者)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Saladin famously recaptured Jerusalem from the Crusaders in 1187.",
-    "translation": "サラディンは1187年に十字軍からエルサレムを奪還したことで知られる。",
-    "cloze": "｟＿｠ famously recaptured Jerusalem from the Crusaders in 1187.",
-    "aiGenerated": true
-   },
-   {
-    "text": "Saladin was respected by his enemies for his chivalry.",
-    "translation": "サラディンは敵からもその騎士道精神で尊敬されていた。",
-    "cloze": "｟＿｠ was respected by his enemies for his chivalry.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29830
  },
  {
   "id": "en-10-30k-19831",
@@ -16832,28 +11636,6 @@
   "frequencyRank": 29838
  },
  {
-  "id": "en-10-30k-19839",
-  "courseId": "en-10-30k",
-  "headword": "sikkim",
-  "reading": null,
-  "gloss": "シッキム(インド北東部、ヒマラヤ山中にある州。かつてのシッキム王国)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "from sikkim in the north, to krishnagiri in the south.",
-    "translation": "北はシッキムから南のクリシュナギリまで",
-    "cloze": "from ｟＿｠ in the north, to krishnagiri in the south."
-   },
-   {
-    "text": "Sikkim is known for its stunning Himalayan scenery.",
-    "translation": "シッキムは壮大なヒマラヤの景観で知られている。",
-    "cloze": "｟＿｠ is known for its stunning Himalayan scenery.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29839
- },
- {
   "id": "en-10-30k-19840",
   "courseId": "en-10-30k",
   "headword": "sinhalese",
@@ -16918,27 +11700,6 @@
   "frequencyRank": 29842
  },
  {
-  "id": "en-10-30k-19843",
-  "courseId": "en-10-30k",
-  "headword": "speedometer",
-  "reading": "/spidˈɑmətɚ/",
-  "gloss": "(自動車などの)速度計、スピードメーター",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Tom looked at the speedometer.",
-    "translation": "トムは速度計を見た。",
-    "cloze": "Tom looked at the ｟＿｠."
-   },
-   {
-    "text": "The speedometer was indicating 95 mph.",
-    "translation": "スピードメーターは時速９５マイルを指していた。",
-    "cloze": "The ｟＿｠ was indicating 95 mph."
-   }
-  ],
-  "frequencyRank": 29843
- },
- {
   "id": "en-10-30k-19844",
   "courseId": "en-10-30k",
   "headword": "squalid",
@@ -16958,27 +11719,6 @@
    }
   ],
   "frequencyRank": 29844
- },
- {
-  "id": "en-10-30k-19845",
-  "courseId": "en-10-30k",
-  "headword": "styx",
-  "reading": "/stˈɪks/",
-  "gloss": "(ギリシャ神話で)三途の川、冥界を流れる川",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "I still don't wish to see the Styx.",
-    "translation": "僕はまだ三途の川を見たくはない。",
-    "cloze": "I still don't wish to see the ｟＿｠."
-   },
-   {
-    "text": "and when you die, you have to cross the river styx.",
-    "translation": "死ねば三途の川を渡り",
-    "cloze": "and when you die, you have to cross the river ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29845
  },
  {
   "id": "en-10-30k-19846",
@@ -17001,23 +11741,6 @@
    }
   ],
   "frequencyRank": 29846
- },
- {
-  "id": "en-10-30k-19847",
-  "courseId": "en-10-30k",
-  "headword": "sunnah",
-  "reading": null,
-  "gloss": "スンナ(預言者ムハンマドの言行・慣行に基づくイスラム教の伝統的規範)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Many Muslims try to follow the Sunnah in their daily lives.",
-    "translation": "多くのムスリムは日常生活でスンナに従おうとする。",
-    "cloze": "Many Muslims try to follow the ｟＿｠ in their daily lives.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29847
  },
  {
   "id": "en-10-30k-19848",
@@ -17078,28 +11801,6 @@
    }
   ],
   "frequencyRank": 29850
- },
- {
-  "id": "en-10-30k-19851",
-  "courseId": "en-10-30k",
-  "headword": "tahrir",
-  "reading": null,
-  "gloss": "タハリール(カイロにある広場。2011年エジプト革命の中心地として知られる)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "the next day i was in tahrir.",
-    "translation": "次の日 私はタヒール広場にいました",
-    "cloze": "the next day i was in ｟＿｠."
-   },
-   {
-    "text": "Protesters gathered in Tahrir Square during the 2011 revolution.",
-    "translation": "2011年の革命の際、デモ隊はタハリール広場に集結した。",
-    "cloze": "Protesters gathered in ｟＿｠ Square during the 2011 revolution.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29851
  },
  {
   "id": "en-10-30k-19852",
@@ -17163,28 +11864,6 @@
   "frequencyRank": 29854
  },
  {
-  "id": "en-10-30k-19855",
-  "courseId": "en-10-30k",
-  "headword": "taxicab",
-  "reading": "/tˈæksikˌæb/",
-  "gloss": "タクシー",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "there's a taxicab on its way here now... that will take you wherever you want to go.",
-    "translation": "隣の洗面所に置いてあるわ 今タクシーを呼んでいる それで好きな所へ",
-    "cloze": "there's a ｟＿｠ on its way here now... that will take you wherever you want to go."
-   },
-   {
-    "text": "We took a taxicab to the airport.",
-    "translation": "私たちは空港までタクシーに乗った。",
-    "cloze": "We took a ｟＿｠ to the airport.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29855
- },
- {
   "id": "en-10-30k-19856",
   "courseId": "en-10-30k",
   "headword": "telluride",
@@ -17221,71 +11900,6 @@
    }
   ],
   "frequencyRank": 29857
- },
- {
-  "id": "en-10-30k-19858",
-  "courseId": "en-10-30k",
-  "headword": "tiber",
-  "reading": "/tˈaɪbɚ/",
-  "gloss": "テベレ川(イタリア・ローマ市を流れ地中海に注ぐ川)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "the river tiber.",
-    "translation": "テベレ川があります",
-    "cloze": "the river ｟＿｠."
-   },
-   {
-    "text": "Ancient Rome was founded on the banks of the Tiber.",
-    "translation": "古代ローマはテベレ川のほとりに建設された。",
-    "cloze": "Ancient Rome was founded on the banks of the ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29858
- },
- {
-  "id": "en-10-30k-19859",
-  "courseId": "en-10-30k",
-  "headword": "tokugawa",
-  "reading": null,
-  "gloss": "徳川(江戸時代の日本を統治した将軍家。徳川幕府)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "The Tokugawa Shogunate came to an end in 1868.",
-    "translation": "徳川幕府は１８６８年に終わりを告げた。",
-    "cloze": "The ｟＿｠ Shogunate came to an end in 1868."
-   },
-   {
-    "text": "Recite the names of the members of the Tokugawa clan.",
-    "translation": "徳川家の系図を列挙しなさい。",
-    "cloze": "Recite the names of the members of the ｟＿｠ clan."
-   }
-  ],
-  "frequencyRank": 29859
- },
- {
-  "id": "en-10-30k-19860",
-  "courseId": "en-10-30k",
-  "headword": "tonk",
-  "reading": "/tˈɔŋk/",
-  "gloss": "トンク(ラミー系のトランプゲームの一種);(俗語)戦車",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "nah, i won them off of ill phil in a game of tonk.",
-    "translation": "アホゲームでイルから まきあげた",
-    "cloze": "nah, i won them off of ill phil in a game of ｟＿｠."
-   },
-   {
-    "text": "They played a few rounds of tonk after dinner.",
-    "translation": "彼らは夕食後、何回かトンクをして遊んだ。",
-    "cloze": "They played a few rounds of ｟＿｠ after dinner.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29860
  },
  {
   "id": "en-10-30k-19861",
@@ -17431,23 +12045,6 @@
   "frequencyRank": 29867
  },
  {
-  "id": "en-10-30k-19868",
-  "courseId": "en-10-30k",
-  "headword": "uttarakhand",
-  "reading": null,
-  "gloss": "ウッタラーカンド(インド北部、ヒマラヤ山中にある州)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Uttarakhand is home to many Hindu pilgrimage sites.",
-    "translation": "ウッタラーカンドには多くのヒンドゥー教の巡礼地がある。",
-    "cloze": "｟＿｠ is home to many Hindu pilgrimage sites.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29868
- },
- {
   "id": "en-10-30k-19869",
   "courseId": "en-10-30k",
   "headword": "vegetarianism",
@@ -17575,27 +12172,6 @@
   "frequencyRank": 29874
  },
  {
-  "id": "en-10-30k-19875",
-  "courseId": "en-10-30k",
-  "headword": "walkable",
-  "reading": null,
-  "gloss": "徒歩で行ける、歩きやすい",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "by living in a walkable neighborhood",
-    "translation": "歩きやすい町に住むことと比べれば",
-    "cloze": "by living in a ｟＿｠ neighborhood"
-   },
-   {
-    "text": "in terms of how walkable it is",
-    "translation": "歩きやすさの目安となるでしょう",
-    "cloze": "in terms of how ｟＿｠ it is"
-   }
-  ],
-  "frequencyRank": 29875
- },
- {
   "id": "en-10-30k-19876",
   "courseId": "en-10-30k",
   "headword": "whimsy",
@@ -17615,48 +12191,6 @@
    }
   ],
   "frequencyRank": 29876
- },
- {
-  "id": "en-10-30k-19877",
-  "courseId": "en-10-30k",
-  "headword": "wicca",
-  "reading": "/wˈɪkə/",
-  "gloss": "ウィッカ(現代の異教信仰・魔女術の一派)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i make and sell wicca healing powders on the internet. you should check out my web site.",
-    "translation": "オンラインで 自分の作った 魔女の癒しの粉を 売ってるの",
-    "cloze": "i make and sell ｟＿｠ healing powders on the internet. you should check out my web site."
-   },
-   {
-    "text": "i am a priestess of wicca. you can't hurt me.",
-    "translation": "私は魔女のタムジン・ダヴ 私を傷つける事は出来ない",
-    "cloze": "i am a priestess of ｟＿｠. you can't hurt me."
-   }
-  ],
-  "frequencyRank": 29877
- },
- {
-  "id": "en-10-30k-19878",
-  "courseId": "en-10-30k",
-  "headword": "wolfpack",
-  "reading": null,
-  "gloss": "オオカミの群れ；(比喩的に)徒党、仲間集団",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "there is no wolfpack.",
-    "translation": "仲間専用なんてことはない",
-    "cloze": "there is no ｟＿｠."
-   },
-   {
-    "text": "find another chair. there's no wolfpack, alan.",
-    "translation": "仲間専用だ 他を当たれ",
-    "cloze": "find another chair. there's no ｟＿｠, alan."
-   }
-  ],
-  "frequencyRank": 29878
  },
  {
   "id": "en-10-30k-19879",
@@ -17695,44 +12229,6 @@
    }
   ],
   "frequencyRank": 29880
- },
- {
-  "id": "en-10-30k-19881",
-  "courseId": "en-10-30k",
-  "headword": "youngblood",
-  "reading": "/jˈʌŋblˌʌd/",
-  "gloss": "新人、若手；経験の浅い新参者",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The coach gave the youngblood a chance to start tonight's game.",
-    "translation": "コーチは今夜の試合でその若手選手にスタメンのチャンスを与えた。",
-    "cloze": "The coach gave the ｟＿｠ a chance to start tonight's game.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29881
- },
- {
-  "id": "en-10-30k-19882",
-  "courseId": "en-10-30k",
-  "headword": "yucatan",
-  "reading": "/jˈukətˌæn/",
-  "gloss": "ユカタン半島(メキシコ南東部、マヤ文明の地)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "yucatan peninsula, if you recognize cozumel",
-    "translation": "ユカタン半島です コスメル島は",
-    "cloze": "｟＿｠ peninsula, if you recognize cozumel"
-   },
-   {
-    "text": "such as the classic maya in the yucatan, the easter islanders",
-    "translation": "例えば古代マヤ文明やユカタン州、イースター島",
-    "cloze": "such as the classic maya in the ｟＿｠, the easter islanders"
-   }
-  ],
-  "frequencyRank": 29882
  },
  {
   "id": "en-10-30k-19883",
@@ -17792,27 +12288,6 @@
    }
   ],
   "frequencyRank": 29885
- },
- {
-  "id": "en-10-30k-19886",
-  "courseId": "en-10-30k",
-  "headword": "advil",
-  "reading": "/ˈædvˌɪl/",
-  "gloss": "アドビル(イブプロフェン系鎮痛剤のブランド名)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i took some advil.",
-    "translation": "頭痛薬を飲んだ",
-    "cloze": "i took some ｟＿｠."
-   },
-   {
-    "text": "all right, rest 24 hours, take an advil, and call me.",
-    "translation": "これでよし 薬を飲んで休んで",
-    "cloze": "all right, rest 24 hours, take an ｟＿｠, and call me."
-   }
-  ],
-  "frequencyRank": 29886
  },
  {
   "id": "en-10-30k-19887",
@@ -17995,23 +12470,6 @@
   "frequencyRank": 29895
  },
  {
-  "id": "en-10-30k-19896",
-  "courseId": "en-10-30k",
-  "headword": "asmr",
-  "reading": null,
-  "gloss": "ASMR(特定の音や映像で感じる心地よいぞくぞく感、またその関連動画ジャンル)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "She watches ASMR videos every night to help her fall asleep.",
-    "translation": "彼女は毎晩、寝つきを良くするためにASMR動画を見ている。",
-    "cloze": "She watches ｟＿｠ videos every night to help her fall asleep.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29896
- },
- {
   "id": "en-10-30k-19897",
   "courseId": "en-10-30k",
   "headword": "babbitt",
@@ -18027,23 +12485,6 @@
    }
   ],
   "frequencyRank": 29897
- },
- {
-  "id": "en-10-30k-19898",
-  "courseId": "en-10-30k",
-  "headword": "ballin",
-  "reading": "/bˈælɪn/",
-  "gloss": "(スラング)羽振りが良い、派手にお金を使っている",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "With his new contract, he's finally ballin'.",
-    "translation": "新しい契約のおかげで、彼はついに羽振りが良くなった。",
-    "cloze": "With his new contract, he's finally ｟＿｠.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29898
  },
  {
   "id": "en-10-30k-19899",
@@ -18122,23 +12563,6 @@
   "frequencyRank": 29902
  },
  {
-  "id": "en-10-30k-19903",
-  "courseId": "en-10-30k",
-  "headword": "biafra",
-  "reading": null,
-  "gloss": "ビアフラ(1967〜70年にナイジェリアからの独立を宣言した地域)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "The Biafra region declared independence from Nigeria in 1967, leading to a brutal civil war.",
-    "translation": "ビアフラ地域は1967年にナイジェリアからの独立を宣言し、悲惨な内戦につながった。",
-    "cloze": "The ｟＿｠ region declared independence from Nigeria in 1967, leading to a brutal civil war.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29903
- },
- {
   "id": "en-10-30k-19904",
   "courseId": "en-10-30k",
   "headword": "biologic",
@@ -18158,23 +12582,6 @@
    }
   ],
   "frequencyRank": 29904
- },
- {
-  "id": "en-10-30k-19905",
-  "courseId": "en-10-30k",
-  "headword": "bjj",
-  "reading": null,
-  "gloss": "ブラジリアン柔術(BJJ、格闘技の一種)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "He's been training in BJJ for over five years and recently earned his purple belt.",
-    "translation": "彼は5年以上ブラジリアン柔術を練習しており、最近紫帯を取得した。",
-    "cloze": "He's been training in ｟＿｠ for over five years and recently earned his purple belt.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29905
  },
  {
   "id": "en-10-30k-19906",
@@ -18213,44 +12620,6 @@
    }
   ],
   "frequencyRank": 29907
- },
- {
-  "id": "en-10-30k-19908",
-  "courseId": "en-10-30k",
-  "headword": "bnb",
-  "reading": null,
-  "gloss": "民宿、ベッド・アンド・ブレックファースト(B&Bの略)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "We stayed at a cozy BnB near the coast during our vacation.",
-    "translation": "休暇中、私たちは海岸近くの居心地の良い民宿に泊まった。",
-    "cloze": "We stayed at a cozy ｟＿｠ near the coast during our vacation.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29908
- },
- {
-  "id": "en-10-30k-19909",
-  "courseId": "en-10-30k",
-  "headword": "bolognese",
-  "reading": "/boʊloʊɡnˈeɪzi/",
-  "gloss": "ボロネーゼ(ひき肉入りトマトソース、またそれを使ったパスタ料理)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "of the bolognese i ate before!",
-    "translation": "昔に食べたボロネーゼの",
-    "cloze": "of the ｟＿｠ i ate before!"
-   },
-   {
-    "text": "i'm just kidding. i made a bolognese.",
-    "translation": "からかっただけです ボロネーゼを作りました",
-    "cloze": "i'm just kidding. i made a ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29909
  },
  {
   "id": "en-10-30k-19910",
@@ -18316,27 +12685,6 @@
   "frequencyRank": 29912
  },
  {
-  "id": "en-10-30k-19913",
-  "courseId": "en-10-30k",
-  "headword": "butterscotch",
-  "reading": "/bˈʌtɚskˌɑtʃ/",
-  "gloss": "バター入り糖菓、バタースコッチ(バターと砂糖で作る菓子・風味)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "key west has got sunsets that are like butterscotch sundaes... with strawberry swirl mixed in.",
-    "translation": "キーウェストの日暮れは イチゴの泡が... バタースコッチサンデー に混ざったような",
-    "cloze": "key west has got sunsets that are like ｟＿｠ sundaes... with strawberry swirl mixed in."
-   },
-   {
-    "text": "i'll get the butterscotch sundae to share.",
-    "translation": "あたしはバタースコッチ・ サンデーを頼んで分けてあげる。",
-    "cloze": "i'll get the ｟＿｠ sundae to share."
-   }
-  ],
-  "frequencyRank": 29913
- },
- {
   "id": "en-10-30k-19914",
   "courseId": "en-10-30k",
   "headword": "caballero",
@@ -18357,27 +12705,6 @@
    }
   ],
   "frequencyRank": 29914
- },
- {
-  "id": "en-10-30k-19915",
-  "courseId": "en-10-30k",
-  "headword": "caboose",
-  "reading": "/kəbˈus/",
-  "gloss": "乗務員車(貨物列車最後尾の車両)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "it was completely destroyed. the caboose for next year's expedition.",
-    "translation": "全焼したんですよ 来年の本観測で使うカブースが",
-    "cloze": "it was completely destroyed. the ｟＿｠ for next year's expedition."
-   },
-   {
-    "text": "i always dreamt of renting a caboose from tokyo, the 2100ex series... and have a wedding on it.",
-    "translation": "私 東京発伊豆高原行きの 伊豆急2100系EXを貸し切って 結婚披露会をするのが夢なんです",
-    "cloze": "i always dreamt of renting a ｟＿｠ from tokyo, the 2100ex series... and have a wedding on it."
-   }
-  ],
-  "frequencyRank": 29915
  },
  {
   "id": "en-10-30k-19916",
@@ -18439,65 +12766,6 @@
   "frequencyRank": 29918
  },
  {
-  "id": "en-10-30k-19919",
-  "courseId": "en-10-30k",
-  "headword": "capella",
-  "reading": "/kəpˈɛlə/",
-  "gloss": "カペラ(ぎょしゃ座の一等星);ア・カペラ(伴奏なしの合唱、\"a cappella\"の異綴り)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "vega, procyon, capella, betelgeuse.",
-    "translation": "ベガ プロキオン カペラ ベテルギウス",
-    "cloze": "vega, procyon, ｟＿｠, betelgeuse."
-   },
-   {
-    "text": "the live a capella concert starts at 11!",
-    "translation": "アカペラライブは 11時から~",
-    "cloze": "the live a ｟＿｠ concert starts at 11!"
-   }
-  ],
-  "frequencyRank": 29919
- },
- {
-  "id": "en-10-30k-19920",
-  "courseId": "en-10-30k",
-  "headword": "capote",
-  "reading": "/kəpˈoʊt/",
-  "gloss": "トルーマン・カポーティ(米国の作家、代表作『冷血』『ティファニーで朝食を』);(古)頭巾付き婦人外とう",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "i've found my voice... the way capote did with in cold blood.",
-    "translation": "自分の声を見つけたのよ カポーティが\"冷血\"でとった手法よ",
-    "cloze": "i've found my voice... the way ｟＿｠ did with in cold blood."
-   },
-   {
-    "text": "i should have learned from the mistakes of my idol truman capote who got way too close to those in cold blood guys!",
-    "translation": "あたしの理想のカポーティも 「冷血」の犯人と近づきすぎたけど",
-    "cloze": "i should have learned from the mistakes of my idol truman ｟＿｠ who got way too close to those in cold blood guys!"
-   }
-  ],
-  "frequencyRank": 29920
- },
- {
-  "id": "en-10-30k-19921",
-  "courseId": "en-10-30k",
-  "headword": "carmarthenshire",
-  "reading": null,
-  "gloss": "カーマーゼンシャー(ウェールズ南西部の州)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Carmarthenshire is a county in southwest Wales.",
-    "translation": "カーマーゼンシャーはウェールズ南西部にある州である。",
-    "cloze": "｟＿｠ is a county in southwest Wales.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29921
- },
- {
   "id": "en-10-30k-19922",
   "courseId": "en-10-30k",
   "headword": "carotene",
@@ -18529,22 +12797,6 @@
    }
   ],
   "frequencyRank": 29923
- },
- {
-  "id": "en-10-30k-19924",
-  "courseId": "en-10-30k",
-  "headword": "cartoonish",
-  "reading": null,
-  "gloss": "漫画のような、戯画的な",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "because i did these cartoonish clouds over manhattan for a period of two months.",
-    "translation": "2か月間 マンハッタンの空に 漫画風の雲を描きました",
-    "cloze": "because i did these ｟＿｠ clouds over manhattan for a period of two months."
-   }
-  ],
-  "frequencyRank": 29924
  },
  {
   "id": "en-10-30k-19925",
@@ -18587,22 +12839,6 @@
    }
   ],
   "frequencyRank": 29926
- },
- {
-  "id": "en-10-30k-19927",
-  "courseId": "en-10-30k",
-  "headword": "chiswick",
-  "reading": "/tʃˈɪzwɪk/",
-  "gloss": "チズウィック(ロンドン西部の地区)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "'her gravestone is in chiswick cemetery, where five years ago 'you acquired her name and date of birth, and thereafter her identity.",
-    "translation": "赤ん坊の墓は チズウィック墓地にある 5年前 名前と誕生日を自分のものにし その子になりきることになった",
-    "cloze": "'her gravestone is in ｟＿｠ cemetery, where five years ago 'you acquired her name and date of birth, and thereafter her identity."
-   }
-  ],
-  "frequencyRank": 29927
  },
  {
   "id": "en-10-30k-19928",
@@ -18714,44 +12950,6 @@
   "frequencyRank": 29933
  },
  {
-  "id": "en-10-30k-19934",
-  "courseId": "en-10-30k",
-  "headword": "courtly",
-  "reading": "/kˈɔɹtli/",
-  "gloss": "宮廷風の;丁重な、上品な",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "and he was this courtly fellow.",
-    "translation": "彼はこんな南部人なのでした",
-    "cloze": "and he was this ｟＿｠ fellow."
-   },
-   {
-    "text": "partly because it was filled with his very gentle, very courtly presence",
-    "translation": "1つには祖父の優しく奥ゆかしい存在がありましたが",
-    "cloze": "partly because it was filled with his very gentle, very ｟＿｠ presence"
-   }
-  ],
-  "frequencyRank": 29934
- },
- {
-  "id": "en-10-30k-19935",
-  "courseId": "en-10-30k",
-  "headword": "cupertino",
-  "reading": "/kˌupɚtˈinoʊ/",
-  "gloss": "クパチーノ(米カリフォルニア州の都市;アップル社本社所在地)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Apple's headquarters is located in Cupertino, California.",
-    "translation": "アップル社の本社はカリフォルニア州クパチーノにあります。",
-    "cloze": "Apple's headquarters is located in ｟＿｠, California.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29935
- },
- {
   "id": "en-10-30k-19936",
   "courseId": "en-10-30k",
   "headword": "cutlass",
@@ -18807,94 +13005,6 @@
   "frequencyRank": 29938
  },
  {
-  "id": "en-10-30k-19939",
-  "courseId": "en-10-30k",
-  "headword": "dachau",
-  "reading": "/dˈækaʊ/",
-  "gloss": "ダッハウ(ドイツの都市;ナチスの強制収容所があったことで知られる)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Dachau was the site of one of the first Nazi concentration camps.",
-    "translation": "ダッハウはナチスによる最初期の強制収容所の一つが置かれた場所である。",
-    "cloze": "｟＿｠ was the site of one of the first Nazi concentration camps.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29939
- },
- {
-  "id": "en-10-30k-19940",
-  "courseId": "en-10-30k",
-  "headword": "dalits",
-  "reading": null,
-  "gloss": "ダリット(インドの被差別階層、旧「不可触民」)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The Dalits have historically faced discrimination in the Indian caste system.",
-    "translation": "ダリットの人々はインドのカースト制度において歴史的に差別を受けてきた。",
-    "cloze": "The ｟＿｠ have historically faced discrimination in the Indian caste system.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29940
- },
- {
-  "id": "en-10-30k-19941",
-  "courseId": "en-10-30k",
-  "headword": "darjeeling",
-  "reading": "/dˌɑɹdʒˈilɪŋ/",
-  "gloss": "ダージリン(インド産の紅茶;またはその産地名)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "nice cup of darjeeling to help the medicine go down.",
-    "translation": "美味しいお茶は 治療の助けに",
-    "cloze": "nice cup of ｟＿｠ to help the medicine go down."
-   },
-   {
-    "text": "white darjeeling.",
-    "translation": "ホワイト・ダージリンね",
-    "cloze": "white ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29941
- },
- {
-  "id": "en-10-30k-19942",
-  "courseId": "en-10-30k",
-  "headword": "deccan",
-  "reading": null,
-  "gloss": "デカン(インド半島中南部の高原地帯)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "The Deccan Plateau covers much of southern India.",
-    "translation": "デカン高原はインド南部の大部分を占めている。",
-    "cloze": "The ｟＿｠ Plateau covers much of southern India.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29942
- },
- {
-  "id": "en-10-30k-19943",
-  "courseId": "en-10-30k",
-  "headword": "decriminalization",
-  "reading": "/dikɹˌɪmənələzˈeɪʃən/",
-  "gloss": "非犯罪化",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "and the de facto decriminalization.",
-    "translation": "そして事実上の非犯罪化の 対応を行うことです",
-    "cloze": "and the de facto ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29943
- },
- {
   "id": "en-10-30k-19944",
   "courseId": "en-10-30k",
   "headword": "denigrate",
@@ -18914,23 +13024,6 @@
    }
   ],
   "frequencyRank": 29944
- },
- {
-  "id": "en-10-30k-19945",
-  "courseId": "en-10-30k",
-  "headword": "derrida",
-  "reading": "/dˌɛɹˌidˈɑ/",
-  "gloss": "デリダ(ジャック・デリダ、フランスの哲学者;脱構築で知られる)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Jacques Derrida is known for developing the theory of deconstruction.",
-    "translation": "ジャック・デリダは脱構築の理論を提唱したことで知られている。",
-    "cloze": "Jacques ｟＿｠ is known for developing the theory of deconstruction.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29945
  },
  {
   "id": "en-10-30k-19946",
@@ -18975,60 +13068,6 @@
   "frequencyRank": 29947
  },
  {
-  "id": "en-10-30k-19948",
-  "courseId": "en-10-30k",
-  "headword": "dirac",
-  "reading": null,
-  "gloss": "ディラック(ポール・ディラック、英国の物理学者;量子力学に貢献しノーベル賞受賞)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "the puffedup shinji gets swallowed in a sea of dirac.",
-    "translation": "増長したシンジは、ディラックの海にとり込まれてしまう。",
-    "cloze": "the puffedup shinji gets swallowed in a sea of ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29948
- },
- {
-  "id": "en-10-30k-19949",
-  "courseId": "en-10-30k",
-  "headword": "dmt",
-  "reading": null,
-  "gloss": "ジメチルトリプタミン(DMT、幻覚作用のある向精神物質)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "i think, maybe when we die, the dmt is there to help our souls move on, to get them wherever they're supposed to be.",
-    "translation": "私たちが死ぬ時 精神がDMTを支援するの そうしたいと言う気持ちから",
-    "cloze": "i think, maybe when we die, the ｟＿｠ is there to help our souls move on, to get them wherever they're supposed to be."
-   },
-   {
-    "text": "so the dmt is like a doorman who is like, here.",
-    "translation": "dmtがドアマンに似ていて",
-    "cloze": "so the ｟＿｠ is like a doorman who is like, here."
-   }
-  ],
-  "frequencyRank": 29949
- },
- {
-  "id": "en-10-30k-19950",
-  "courseId": "en-10-30k",
-  "headword": "dorks",
-  "reading": null,
-  "gloss": "まぬけ、冴えない人(俗語、dorkの複数形)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Stop acting like such dorks in front of everyone.",
-    "translation": "みんなの前でそんな間抜けなことをするのはやめて。",
-    "cloze": "Stop acting like such ｟＿｠ in front of everyone.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29950
- },
- {
   "id": "en-10-30k-19951",
   "courseId": "en-10-30k",
   "headword": "dramatize",
@@ -19043,27 +13082,6 @@
    }
   ],
   "frequencyRank": 29951
- },
- {
-  "id": "en-10-30k-19952",
-  "courseId": "en-10-30k",
-  "headword": "drinkable",
-  "reading": "/dɹˈɪnkəbəl/",
-  "gloss": "飲める、飲用に適した",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "Is this water drinkable?",
-    "translation": "この水は飲めるの？",
-    "cloze": "Is this water ｟＿｠?"
-   },
-   {
-    "text": "This water is drinkable.",
-    "translation": "この水は飲めます。",
-    "cloze": "This water is ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29952
  },
  {
   "id": "en-10-30k-19953",
@@ -19086,23 +13104,6 @@
    }
   ],
   "frequencyRank": 29953
- },
- {
-  "id": "en-10-30k-19954",
-  "courseId": "en-10-30k",
-  "headword": "elam",
-  "reading": "/ˈɛləm/",
-  "gloss": "エラム(古代メソポタミア東部にあった王国;現在のイラン南西部)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Elam was an ancient civilization located in present-day southwestern Iran.",
-    "translation": "エラムは現在のイラン南西部に位置した古代文明である。",
-    "cloze": "｟＿｠ was an ancient civilization located in present-day southwestern Iran.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29954
  },
  {
   "id": "en-10-30k-19955",
@@ -19281,23 +13282,6 @@
   "frequencyRank": 29963
  },
  {
-  "id": "en-10-30k-19964",
-  "courseId": "en-10-30k",
-  "headword": "filesystem",
-  "reading": null,
-  "gloss": "ファイルシステム(コンピュータでファイルを管理・保存する仕組み)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The new filesystem improves file access speed.",
-    "translation": "新しいファイルシステムはファイルアクセス速度を向上させる。",
-    "cloze": "The new ｟＿｠ improves file access speed.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29964
- },
- {
   "id": "en-10-30k-19965",
   "courseId": "en-10-30k",
   "headword": "flexion",
@@ -19398,27 +13382,6 @@
   "frequencyRank": 29969
  },
  {
-  "id": "en-10-30k-19970",
-  "courseId": "en-10-30k",
-  "headword": "geospatial",
-  "reading": null,
-  "gloss": "地理空間の、地理空間情報に関する",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "with threedimensional and geospatial information.",
-    "translation": "3次元的な地理空間情報を結びつけることです",
-    "cloze": "with threedimensional and ｟＿｠ information."
-   },
-   {
-    "text": "was geospatial and hydrological understanding of the disaster",
-    "translation": "地理空間的、水文学的に 災害状況を把握することが",
-    "cloze": "was ｟＿｠ and hydrological understanding of the disaster"
-   }
-  ],
-  "frequencyRank": 29970
- },
- {
   "id": "en-10-30k-19971",
   "courseId": "en-10-30k",
   "headword": "geranium",
@@ -19438,23 +13401,6 @@
    }
   ],
   "frequencyRank": 29971
- },
- {
-  "id": "en-10-30k-19972",
-  "courseId": "en-10-30k",
-  "headword": "ghanaians",
-  "reading": "/ɡənˈaɪənz/",
-  "gloss": "ガーナ人(ガーナの国民)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Ghanaians are known for their hospitality.",
-    "translation": "ガーナ人はそのおもてなしの心で知られている。",
-    "cloze": "｟＿｠ are known for their hospitality.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29972
  },
  {
   "id": "en-10-30k-19973",
@@ -19478,29 +13424,6 @@
   "frequencyRank": 29973
  },
  {
-  "id": "en-10-30k-19974",
-  "courseId": "en-10-30k",
-  "headword": "goalposts",
-  "reading": null,
-  "gloss": "ゴールポスト(サッカーやフットボールなどのゴールの支柱)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "The goalkeeper stood between the goalposts.",
-    "translation": "ゴールキーパーはゴールポストの間に立っていた。",
-    "cloze": "The goalkeeper stood between the ｟＿｠.",
-    "aiGenerated": true
-   },
-   {
-    "text": "Fans tore down the goalposts after the big win.",
-    "translation": "ファンは大勝利の後にゴールポストを引き倒した。",
-    "cloze": "Fans tore down the ｟＿｠ after the big win.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29974
- },
- {
   "id": "en-10-30k-19975",
   "courseId": "en-10-30k",
   "headword": "goer",
@@ -19516,48 +13439,6 @@
    }
   ],
   "frequencyRank": 29975
- },
- {
-  "id": "en-10-30k-19976",
-  "courseId": "en-10-30k",
-  "headword": "grouchy",
-  "reading": "/ɡɹˈaʊtʃi/",
-  "gloss": "不機嫌な、気難しい、すねた",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "Why is Tom always so grouchy?",
-    "translation": "どうしてトムっていつもあんなに不機嫌なの？",
-    "cloze": "Why is Tom always so ｟＿｠?"
-   },
-   {
-    "text": "Jane has been quiet and grouchy for the past few days.",
-    "translation": "ここ数日間、ジェーンは口も利かず不機嫌だ。",
-    "cloze": "Jane has been quiet and ｟＿｠ for the past few days."
-   }
-  ],
-  "frequencyRank": 29976
- },
- {
-  "id": "en-10-30k-19977",
-  "courseId": "en-10-30k",
-  "headword": "grownup",
-  "reading": "/ɡɹˈoʊnˌʌp/",
-  "gloss": "おとな、成人した人；(形)おとならしい、成長した",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Now that I'm a grownup, I think otherwise.",
-    "translation": "もう私は大人だから、そうは考えない。",
-    "cloze": "Now that I'm a ｟＿｠, I think otherwise."
-   },
-   {
-    "text": "When children play, they often make believe they are grownup.",
-    "translation": "子供は遊ぶときに、よく大人になったふりをする。",
-    "cloze": "When children play, they often make believe they are ｟＿｠."
-   }
-  ],
-  "frequencyRank": 29977
  },
  {
   "id": "en-10-30k-19978",
@@ -19581,28 +13462,6 @@
    }
   ],
   "frequencyRank": 29978
- },
- {
-  "id": "en-10-30k-19979",
-  "courseId": "en-10-30k",
-  "headword": "heaviness",
-  "reading": null,
-  "gloss": "重さ、重いこと；(気分の)重苦しさ、憂鬱",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "feel that heaviness.",
-    "translation": "その重さを感じればいい",
-    "cloze": "feel that ｟＿｠."
-   },
-   {
-    "text": "A heaviness settled over the room after the news.",
-    "translation": "その知らせの後、部屋に重苦しい空気が漂った。",
-    "cloze": "A ｟＿｠ settled over the room after the news.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29979
  },
  {
   "id": "en-10-30k-19980",
@@ -19739,28 +13598,6 @@
   "frequencyRank": 29986
  },
  {
-  "id": "en-10-30k-19987",
-  "courseId": "en-10-30k",
-  "headword": "irishmen",
-  "reading": null,
-  "gloss": "アイルランド人(男性)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "free irishmen will never bow down before the english crown.",
-    "translation": "アイルランドは イギリスに屈しない",
-    "cloze": "free ｟＿｠ will never bow down before the english crown."
-   },
-   {
-    "text": "Many Irishmen emigrated to America in the 19th century.",
-    "translation": "多くのアイルランド人が19世紀にアメリカへ移住した。",
-    "cloze": "Many ｟＿｠ emigrated to America in the 19th century.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29987
- },
- {
   "id": "en-10-30k-19988",
   "courseId": "en-10-30k",
   "headword": "jacobite",
@@ -19776,28 +13613,6 @@
    }
   ],
   "frequencyRank": 29988
- },
- {
-  "id": "en-10-30k-19989",
-  "courseId": "en-10-30k",
-  "headword": "jodhpur",
-  "reading": "/dʒˈɔdpɚ/",
-  "gloss": "ジョードプル(インド・ラジャスタン州の都市、通称『青い街』)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "the maharaja of jodhpur owns the blue orchid.",
-    "translation": "インドのジョードプルの大王が ブルーオーキッドの持ち主だ 《青い蘭》",
-    "cloze": "the maharaja of ｟＿｠ owns the blue orchid."
-   },
-   {
-    "text": "Jodhpur is famous for its blue-painted old town.",
-    "translation": "ジョードプルは青く塗られた旧市街で有名だ。",
-    "cloze": "｟＿｠ is famous for its blue-painted old town.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29989
  },
  {
   "id": "en-10-30k-19990",
@@ -19821,27 +13636,6 @@
   "frequencyRank": 29990
  },
  {
-  "id": "en-10-30k-19991",
-  "courseId": "en-10-30k",
-  "headword": "kabuki",
-  "reading": "/kəbˈukˌi/",
-  "gloss": "歌舞伎(日本の伝統的な演劇)",
-  "pos": "名詞",
-  "examples": [
-   {
-    "text": "Do you know kabuki?",
-    "translation": "歌舞伎はご存じですか。",
-    "cloze": "Do you know ｟＿｠?"
-   },
-   {
-    "text": "I saw a kabuki play in Tokyo.",
-    "translation": "東京で歌舞伎を見た。",
-    "cloze": "I saw a ｟＿｠ play in Tokyo."
-   }
-  ],
-  "frequencyRank": 29991
- },
- {
   "id": "en-10-30k-19992",
   "courseId": "en-10-30k",
   "headword": "knell",
@@ -19862,50 +13656,6 @@
    }
   ],
   "frequencyRank": 29992
- },
- {
-  "id": "en-10-30k-19993",
-  "courseId": "en-10-30k",
-  "headword": "ladakh",
-  "reading": "/lˈɑdək/",
-  "gloss": "ラダック(インド北部の高地地域、現在の連邦直轄地)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "and we went to ladakh",
-    "translation": "ラダックに行った時",
-    "cloze": "and we went to ｟＿｠"
-   },
-   {
-    "text": "Ladakh is known for its stunning Himalayan landscapes.",
-    "translation": "ラダックは壮大なヒマラヤの風景で知られている。",
-    "cloze": "｟＿｠ is known for its stunning Himalayan landscapes.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29993
- },
- {
-  "id": "en-10-30k-19994",
-  "courseId": "en-10-30k",
-  "headword": "laparoscopic",
-  "reading": "/lˌæpɚˈɑskəpɪk/",
-  "gloss": "腹腔鏡の、腹腔鏡を用いた(手術など)",
-  "pos": "形容詞",
-  "examples": [
-   {
-    "text": "fundamentals of laparoscopic surgery.",
-    "translation": "腹腔鏡手術の基礎",
-    "cloze": "fundamentals of ｟＿｠ surgery."
-   },
-   {
-    "text": "The patient recovered quickly after laparoscopic surgery.",
-    "translation": "その患者は腹腔鏡手術後、速やかに回復した。",
-    "cloze": "The patient recovered quickly after ｟＿｠ surgery.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29994
  },
  {
   "id": "en-10-30k-19995",
@@ -19966,23 +13716,6 @@
    }
   ],
   "frequencyRank": 29997
- },
- {
-  "id": "en-10-30k-19998",
-  "courseId": "en-10-30k",
-  "headword": "ljubljana",
-  "reading": "/ljˈubljɑnə/",
-  "gloss": "リュブリャナ(スロベニアの首都)",
-  "pos": "固有名詞",
-  "examples": [
-   {
-    "text": "Ljubljana is the capital and largest city of Slovenia.",
-    "translation": "リュブリャナはスロベニアの首都であり最大の都市である。",
-    "cloze": "｟＿｠ is the capital and largest city of Slovenia.",
-    "aiGenerated": true
-   }
-  ],
-  "frequencyRank": 29998
  },
  {
   "id": "en-10-30k-19999",

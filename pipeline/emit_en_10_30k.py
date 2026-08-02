@@ -68,15 +68,34 @@ EXCLUDED_HEADWORDS = frozenset({
     "wisconsin", "wow", "yep", "youtube", "zero",
 })
 
+# band.to・タイトルの終点。判断ログ#34・Kohei判断で 30,000 -> 22,000 に変更——多指標
+# フィルタで20,532->12,460語になり、実質の既知語底面が約10,000語になったので
+# 「10,000スタート」という表示が初めて実態と一致した（実態は10,000->22,460相当）。
+# 30,000のままだと表示と実態が8,000語分ずれる。以下は変更前の経緯:
 # band.to・タイトルの終点（判断ログ#33・Kohei判断）。#31時点では実収録語数(len(cards))に
 # 連動してスライドする方式だったが、#32のクリーンアップで語数が変わるたびに
 # 30,725→30,532のように半端な数字になり続けるため、実収録語数から切り離した固定値に
 # 変更——当初の企画名「英語10k→30k」の座りの良さをそのまま採用。実際のカード数が
 # これと多少ずれても（現状20,532語=DISPLAY_BASELINE+20,532）実害はない
 # ——band.toはタイトル・courseRegistry.ts表示にのみ使われ、進捗計算はcards.length基準
-DISPLAY_END = 30000
+DISPLAY_END = 22000
 
 BAND_SIZE = 1000
+
+# 判断ログ#34: #32 の凍結リスト方式（EXCLUDED_HEADWORDS に手で足していく）は、
+# zipf>=4.3 という閾値ゲートで recall が頭打ちになっていた。#34 では
+# analyze_easy_words_en.py（多指標の機械フィルタ）＋ グレーバンドのAIレビューに置き換え、
+# 確定した除外語を filter_easy_words_en_10_30k.py が下記ファイルへ書き出す。
+# emit を再実行しても除外が効くように、存在すれば読んで EXCLUDED_HEADWORDS に合流させる。
+EASY_REMOVED_PATH = f"{RAW}/en-10-30k-easy-removed.json"
+
+
+def load_easy_removed() -> frozenset:
+    if not os.path.exists(EASY_REMOVED_PATH):
+        log(f"注意: {EASY_REMOVED_PATH} が無い（判断ログ#34の除外が適用されない）")
+        return frozenset()
+    data = json.load(open(EASY_REMOVED_PATH, encoding="utf-8"))
+    return frozenset(data["headwords"])
 
 
 def log(msg: str) -> None:
@@ -84,6 +103,9 @@ def log(msg: str) -> None:
 
 
 def main():
+    excluded_headwords = EXCLUDED_HEADWORDS | load_easy_removed()
+    log(f"除外見出し語: {len(excluded_headwords)}語"
+        f"（#32の凍結リスト {len(EXCLUDED_HEADWORDS)} + #34の多指標フィルタ分）")
     skeleton = json.load(open(f"{RAW}/en-10-30k-skeleton.json", encoding="utf-8"))
     freq_index = json.load(open(f"{RAW}/en-wordfreq-ranked.json", encoding="utf-8"))
     raw_rank_by_lemma = {d["lemma"]: d["rawWordfreqRank"] for d in freq_index}
@@ -112,7 +134,7 @@ def main():
         if it.get("pos") in EXCLUDED_POS:
             excluded_pos += 1
             continue
-        if it["headword"] in EXCLUDED_HEADWORDS:
+        if it["headword"] in excluded_headwords:
             excluded_easy += 1
             continue
         s = skeleton_by_headword.get(it["headword"])
@@ -125,8 +147,8 @@ def main():
 
     log(
         f"有効: {len(valid)} (除外: isValidVocabulary=false {excluded_invalid}件, "
-        f"pos=数詞 {excluded_pos}件, 基礎語(判断ログ#32) {excluded_easy}件"
-        f"/{len(EXCLUDED_HEADWORDS)}件中)"
+        f"pos=数詞 {excluded_pos}件, 簡単すぎる語(判断ログ#32+#34) {excluded_easy}件"
+        f"/{len(excluded_headwords)}件中)"
     )
 
     valid.sort(key=lambda x: x[0])

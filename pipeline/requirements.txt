@@ -4,7 +4,11 @@ unidic-lite>=1.0
 ipadic>=1.0
 requests>=2.31
 lemminflect>=0.2
+openpyxl>=3.1
 
 # note: mecab-python3 + unidic-lite are used for tokenizer-verified example
 # matching (attach_examples in build_ja_0_3k.py) as well as any future
 # reading/segmentation needs.
+#
+# note: openpyxl は fetch_difficulty_norms.py / analyze_easy_words_en.py 用
+# （AoA・word prevalence が xlsx 配布のため。判断ログ#34）。
