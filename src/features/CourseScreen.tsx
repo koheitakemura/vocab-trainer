@@ -55,9 +55,9 @@ const EMPTY_BY_GRADE: Record<ReviewGrade, number> = emptyByGrade()
 
 // コース別の目盛り間隔（表示専用。帯域の広さに応じて密度を変える——2026-08-02 Kohei指摘）。
 const TICK_STEP: Record<CourseId, number> = {
-  'ja-kana': 50,
+  'ja-kana': 20,
   'ja-katakana': 100,
-  'ja-kanji-basic': 50,
+  'ja-kanji-basic': 20,
   'ja-kanji-advanced': 200,
   'ja-0-3k': 200,
   'tl-0-2k': 200,
