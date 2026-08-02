@@ -263,6 +263,13 @@ body {
   flex: none;
   width: 0;
   height: 0;
+  /* ▾ は下向き三角（border-topだけで描く形）なので、実際のインクは箱の上寄りに偏る
+     （三角の重心は底辺から1/3の位置＝上寄り）。align-items:centerで箱ごと中央に
+     揃えても、見た目はコース名の文字より高く見えてしまうため、視覚的に少し下げている。
+     margin-topだと箱の高さ自体が変わり中央寄せの計算に巻き込まれるため、
+     レイアウトに影響しないposition:relativeでずらす。 */
+  position: relative;
+  top: 4px;
   border-left: 4.5px solid transparent;
   border-right: 4.5px solid transparent;
   border-top: 5px solid var(--text-faint);
