@@ -84,7 +84,13 @@ let schemaReady = false
  * 既に列があれば "duplicate column name" で失敗するだけなので握りつぶす
  *（マイグレーション CLI を持ち込まずに、後から列を足せるようにするための最小の仕組み）。
  */
-const ADD_COLUMNS = [`ALTER TABLE users ADD COLUMN allowed_courses TEXT NOT NULL DEFAULT ''`]
+const ADD_COLUMNS = [
+  `ALTER TABLE users ADD COLUMN allowed_courses TEXT NOT NULL DEFAULT ''`,
+  // 管理画面（Phase 4）の「昇格」＝次回のコース本体ビルドに回す候補として印を付けるだけの
+  // フラグ。実際にパイプラインへ取り込む作業自体はここでは行わない（`promoted=1` を
+  // pipeline 側が後から拾う想定・docs/word-request-design.md §8）。
+  `ALTER TABLE extra_cards ADD COLUMN promoted INTEGER NOT NULL DEFAULT 0`,
+]
 
 export async function ensureSchema(env: Env): Promise<void> {
   if (schemaReady) return
@@ -317,4 +323,75 @@ export async function recentAdminLog(env: Env, limit = 20): Promise<AdminLogRow[
     .bind(Math.min(Math.max(limit, 1), 100))
     .all<AdminLogRow>()
   return results ?? []
+}
+
+/* ── 単語追加リクエスト（管理画面 Phase 4・docs/word-request-design.md §8）
+ * 「誰がどのコースに何語追加したか」は word_gen_log（試行ログ）、
+ * 「生成物の中身」は extra_cards（カードのキャッシュ）が持つ。両者に owner 列で
+ * 紐付けはしていない（Phase 3 の設計判断：所有はクライアント IndexedDB 側で解決済み）ため、
+ * course_id + 見出し語（小文字化）で JS 側に組み立てる。 */
+
+export interface ExtraCardRow {
+  card_id: string
+  course_id: string
+  content_key: string
+  payload: string
+  model: string
+  created_at: string
+  promoted: number
+}
+
+export interface WordGenLogRow {
+  at: string
+  email: string
+  course_id: string
+  headword: string
+  result: string
+  detail: string
+}
+
+/**
+ * 生成済みカード一覧＋それぞれに紐づく依頼者（reused/generated のログ）＋却下・失敗した試行。
+ * 件数が実用上あり得ない規模にならないよう上限を切る（無限に育つログの全件表示はしない）。
+ */
+export async function listWordRequests(
+  env: Env,
+): Promise<{ cards: ExtraCardRow[]; requestsByCard: Map<string, WordGenLogRow[]>; failures: WordGenLogRow[] }> {
+  const [cardsRes, logRes] = await env.DB.batch<ExtraCardRow | WordGenLogRow>([
+    env.DB.prepare(
+      `SELECT card_id, course_id, content_key, payload, model, created_at, promoted
+       FROM extra_cards ORDER BY created_at DESC LIMIT 300`,
+    ),
+    env.DB.prepare(
+      `SELECT at, email, course_id, headword, result, detail FROM word_gen_log ORDER BY id DESC LIMIT 1000`,
+    ),
+  ])
+  const cards = (cardsRes.results ?? []) as ExtraCardRow[]
+  const logs = (logRes.results ?? []) as WordGenLogRow[]
+
+  const requestsByCard = new Map<string, WordGenLogRow[]>()
+  const failures: WordGenLogRow[] = []
+  for (const log of logs) {
+    if (log.result === 'reused' || log.result === 'generated') {
+      const key = `${log.course_id}::${log.headword.trim().toLowerCase()}`
+      const list = requestsByCard.get(key) ?? []
+      list.push(log)
+      requestsByCard.set(key, list)
+    } else {
+      failures.push(log)
+    }
+  }
+  return { cards, requestsByCard, failures: failures.slice(0, 100) }
+}
+
+/** 「昇格」＝次回のコース本体ビルドに回す候補フラグを立て/下ろす */
+export async function setExtraCardPromoted(env: Env, cardId: string, promoted: boolean): Promise<void> {
+  await env.DB.prepare(`UPDATE extra_cards SET promoted = ?2 WHERE card_id = ?1`)
+    .bind(cardId, promoted ? 1 : 0)
+    .run()
+}
+
+/** 生成カードを削除する（次に誰かがこの語を引くと再生成される。word_gen_log は監査ログなので残す） */
+export async function deleteExtraCard(env: Env, cardId: string): Promise<void> {
+  await env.DB.prepare(`DELETE FROM extra_cards WHERE card_id = ?1`).bind(cardId).run()
 }

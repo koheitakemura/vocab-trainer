@@ -483,3 +483,15 @@ details.admin-card[open] > summary.admin-h2 {
   border-top: none;
   padding-top: 0;
 }
+
+/* ── 単語追加リクエスト（表内の小さな一覧：例文・依頼者） */
+.admin-examples,
+.admin-requesters {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  font-size: 12px;
+  max-width: 320px;
+}

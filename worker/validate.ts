@@ -76,6 +76,19 @@ export function parseWordGenInput(raw: unknown): { courseId: string; headword: s
   return { courseId, headword }
 }
 
+// wordgen.ts の makeCardId() が作る形式（<courseId>-x<8桁16進>）とだけ一致させる。
+// 管理画面の昇格・削除は card_id を直接指定するので、ここで形式を縛っておけば
+// 想定外の文字列が SQL の bind パラメータとして DB まで届く前に落とせる。
+const CARD_ID_RE = /^[a-z0-9][a-z0-9-]{0,39}-x[0-9a-f]{8}$/
+
+/** 管理画面の昇格・削除リクエストが指定する card_id を検証する */
+export function parseCardId(raw: unknown): string {
+  if (typeof raw !== 'string') throw new ValidationError('card_id が必要です')
+  const id = raw.trim()
+  if (!CARD_ID_RE.test(id)) throw new ValidationError('card_id の形式が不正です')
+  return id
+}
+
 /** POST /api/sync の本体を検証して正規化する */
 export function parseSyncInput(raw: unknown): SyncInput {
   if (typeof raw !== 'object' || raw === null) throw new ValidationError('リクエスト本体が不正です')

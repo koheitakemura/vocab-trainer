@@ -199,25 +199,43 @@ CREATE TABLE IF NOT EXISTS app_settings (      -- キルスイッチ等の汎用
 
 進捗スナップショットと違い1行が小さい（カード1件 ≈ 数百B）ので、D1 の1行2MB上限には当たらない。
 
-### ⚠️ このセッションで実行検証できていない部分
+### ✅ 2026-08-02 実地検証済み
 
-Workers AI は**ローカル開発でもローカルシミュレーションが存在せず、必ず実アカウントに到達する**
-（Cloudflare 公式Doc "Workers AI local development usage charges"）。Cloudflare アカウントに
-繋げないこのセッションでは `env.AI.run()` の実呼び出し（`worker/wordgen.ts` の `callModel()`）
-だけは動作確認できていない。**`wrangler dev` で `AI` バインディングを有効にした状態での実地確認が
-必須**（Kohei の Cloudflare アカウントが要る）。それ以外（入力検証・重複排除・レート制限・
-キルスイッチ・レスポンス検証・プロンプト組み立て）はすべて純粋関数として `worker/wordgen.test.ts`
-（24件）で確認済み。
+Kohei が対話ターミナルで `npm run dev:worker` を実行し Cloudflare Access ログインを完了→
+`wrangler dev`（AI バインディング有効）が起動した状態で `env.AI.run()` の実呼び出しを検証できた
+（詳細は `~/.claude/projects/.../memory/wrangler-dev-ai-binding-access-gate.md`）。
+
+このとき **`callModel()` の実装バグを発見・修正した**：GLM-4.7-Flash（`response_format:json_schema`
+指定時）の実際のレスポンスは、想定していた素の `{ response: string | object }` ではなく
+**OpenAI 互換の chat.completion 形状**（本文は `result.choices[0].message.content` に JSON 文字列
+で入る）だった。修正前は `result.response` しか見ておらず常に `null` を返し、"juxtapose" のような
+何の変哲もない実在単語でも毎回 `generate-invalid` で却下されていた——AI モデル自体は最初から
+正しく動作しており、抽出コードのバグだった。修正後は `quixotic`（形容詞・空想的で現実的ではない）
+`serendipity`（名詞・運のよさ）等で生成→検証の2パスとも正常に動作し、キャッシュ再利用
+（`source:'reused'`）も確認済み。
+
+副次的に、`worker/store.ts` の SCHEMA 配列の並び順バグ（インデックスがテーブル作成より前にあり
+本番デプロイ直後に全API が壊れる致命的なバグ）も発見・修正した（§詳細は git 履歴・plan-state 参照）。
 
 ---
 
-## 8. 管理画面 = レベル感の門番
+## 8. 管理画面 = レベル感の門番（実装済み・2026-08-02）
 
-`#admin` にタブを1つ追加：
+`#admin` に「単語追加リクエスト」セクションを追加（`src/features/admin/WordRequests.tsx`）：
 
-- 誰がどのコースに何語追加したかの一覧（`source` と `model` も表示）
-- AI 生成物の中身確認・削除
-- **昇格**：良い語を選んでパイプラインへ回し、次回ビルドでコース本体に正式収録する
+- **一覧**：AI が生成した各カード（`extra_cards`）を、見出し語・コース・訳/品詞/例文（展開式）・
+  モデル・依頼者（`word_gen_log` の `reused`/`generated` を突き合わせ・複数可）とともに表示
+- **削除**：確認UI（既存の「完全削除」と同じ `.admin-confirm` パターン）を経て `extra_cards` から
+  削除。次に誰かが同じ語を引くと再生成される（`word_gen_log` は監査ログなので残る）
+- **昇格**：`extra_cards.promoted` フラグを立てる／下ろすだけ。次回のコース本体ビルドに回す候補と
+  して印を付ける用途で、**実際にパイプラインへ取り込む作業はこのアプリの範囲外**（Kohei が
+  `promoted=1` の行を後から拾う想定）
+- **却下・失敗した試行**：`word_gen_log` の `rejected`/`error` を折りたたみ表示（`<details>`）。
+  却下が多い語があれば、モデル/プロンプトの調整が必要というシグナルになる
+
+Worker 側 API：`GET /api/admin/word-requests`・`POST /api/admin/word-requests/promote`・
+`POST /api/admin/word-requests/delete`（いずれも `requireAdmin`・`admin_log` 記録）。
+`card_id` は `parseCardId()`（`worker/validate.ts`）で `makeCardId()` の出力形式に限定して検証する。
 
 **既定は個人スコープ、良いものだけ Kohei が引き上げる。** これで一貫性の判断権が Kohei に一本化される。
 
@@ -307,12 +325,12 @@ LOW指摘のうち安価なもの（検証プロンプトのdraftエスケープ
 | 0 | cardId 凍結（別計画）の完了待ち・`card_id.py` との整合確認 | — | ✅ 完了 |
 | 1 | 検索ボックス（タブ行に設置・現コース内検索） | 不要 | ✅ 完了・実機幅1366pxでスクショ確認済み |
 | 2 | 静的プール配信＋クライアント内カード化＋統計分離＋盤面差し込み | **不要・0円** | ✅ 完了・単体テスト30件＋ブラウザ実地確認（追加→統計分離→採点分離まで） |
-| 3 | Worker API（既存カード再利用・Workers AI 生成・2パス検証・安全7点） | 無料枠 | ⚠️ コード実装＋単体テスト24件は完了。**AI呼び出し本体は未実行検証**（§7・§12参照） |
-| 4 | 管理画面（一覧・削除・昇格） | 不要 | 未着手 |
-| 5（任意） | 第2層＝同梱辞書のインデックス化（日本語コース対応） | 不要・0円 | 未着手 |
+| 3 | Worker API（既存カード再利用・Workers AI 生成・2パス検証・安全7点） | 無料枠 | ✅ 完了・単体テスト24件＋実地検証済み（§7）。実地検証中に `callModel()` のレスポンス形状バグを発見・修正 |
+| 4 | 管理画面（一覧・削除・昇格） | 不要 | ✅ 完了・単体テスト6件（`parseCardId`）＋ブラウザ実地確認（一覧表示・例文展開・昇格・却下ログ表示・削除確認UI） |
+| 5（任意） | 第2層＝同梱辞書のインデックス化（日本語コース対応） | 不要・0円 | 未着手（任意） |
 
-**Phase 2 まで完了＝コースA（英語）は実用になっている。** Phase 3 は「辞書にも無い語」への対応で、
-コード自体は書き上がっているが `wrangler dev`（Cloudflareアカウント要）での実地確認が残っている。
+**Phase 0〜4 完了。** 検索・静的プール・AI生成・管理画面まで一通り実用になっている。
+残る Phase 5 は任意（日本語コースの辞書拡充）で、着手するかは別途判断。
 
 ---
 
@@ -321,18 +339,17 @@ LOW指摘のうち安価なもの（検証プロンプトのdraftエスケープ
 1. ~~`cardid-freeze-then-r2-sync` 計画の完了と `pipeline/card_id.py` の最終仕様~~ → **解消**。
    全8フェーズ完了・本番デプロイ済み（2026-08-02T15:52+08:00）。連番採番のみで数字サフィックス、
    本機能の `-x<hash>` 名前空間とは非交差を確認済み
-2. ~~Workers AI のどのモデルが JSON モードに対応しているか~~ → **一部解消**。
-   `env.AI.run()` のモデルパラメータ一覧（例: llama-4-scout の Model Info）に `response_format`/
-   `guided_json` が直接載っており、ネイティブ binding で使える見込み。ただし**実際のレスポンス形状は
-   このセッションでは検証できていない**（`callModel()` は文字列/オブジェクト両対応の防御実装）
+2. ~~Workers AI のどのモデルが JSON モードに対応しているか~~ → **解消**。
+   `env.AI.run()` のネイティブ binding で `response_format`/`json_schema` が実際に機能することを
+   実地確認済み。実際のレスポンス形状は OpenAI 互換の chat.completion 形式
+   （`choices[0].message.content` に JSON 文字列）だった——素の `{response}` 形式ではなかった
+   （§7参照。`callModel()` は両形状に対応済み）
 3. ~~1語の生成が何ニューロン消費するか~~ → **解消**。実測プロンプト長から概算 約10ニューロン/語
    （§9参照）。1日10,000ニューロン÷10 ≈ 1,000語/日が無料枠の目安
 4. 第2層（同梱辞書）のインデックス化後のサイズ（JMdict は原本117MB）→ 未着手（Phase 5）
 5. ~~Workers 無料プランの CPU 10ms 制限~~ → 影響なしと判断（AI応答待ちはI/OでCPU時間に計上されない、
    Cloudflare公式ドキュメントに準拠した理解。ただし実地では未計測）
-6. **新規**：`env.AI.run()` の実際の呼び出し・レスポンス形状そのものが未検証（Cloudflareアカウントに
-   接続できるセッションで `wrangler dev` を実行して確認する必要がある——ローカル開発でも Workers AI は
-   ローカルシミュレーションが存在せず実アカウントに到達するため、動作確認自体に実アカウントが要る）
+6. ~~`env.AI.run()` の実際の呼び出し・レスポンス形状そのものが未検証~~ → **解消**（2026-08-02・§7参照）
 
 ---
 

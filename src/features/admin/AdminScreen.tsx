@@ -18,6 +18,7 @@ import {
 import { AVAILABLE_COURSES } from '../../data/courseRegistry'
 import { VocabMark } from '../../brand/Logo'
 import { fmtNum } from '../../text/format'
+import { WordRequests } from './WordRequests'
 import './admin.css'
 
 /**
@@ -262,6 +263,8 @@ export function AdminScreen() {
           </ul>
         </section>
       )}
+
+      <WordRequests />
 
       <AdminLog />
     </div>
@@ -596,6 +599,9 @@ const ACTION_LABEL: Record<string, string> = {
   update_user: '更新',
   remove_user: 'アクセス取消',
   purge_user: '完全削除',
+  promote_word: '単語を昇格',
+  unpromote_word: '単語の昇格を解除',
+  delete_word_card: '単語カードを削除',
 }
 
 /** ISO 文字列を端末ローカルの「YYYY-MM-DD HH:mm」に。未取得は「—」 */

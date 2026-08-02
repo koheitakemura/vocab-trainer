@@ -11,14 +11,17 @@ import {
 } from './snapshot'
 import {
   createUser,
+  deleteExtraCard,
   ensureSchema,
   getUser,
   listUsersWithProgress,
+  listWordRequests,
   markUserRemoved,
   parseAllowedCourses,
   purgeUser,
   recentAdminLog,
   saveProgress,
+  setExtraCardPromoted,
   touchLastSeen,
   updateAllowedCourses,
   updateUserProfile,
@@ -27,7 +30,15 @@ import {
   type UserRow,
 } from './store'
 import type { AdminUser, Env, Identity } from './types'
-import { ValidationError, cleanText, normalizeEmail, parseCourseIdList, parseSyncInput, parseWordGenInput } from './validate'
+import {
+  ValidationError,
+  cleanText,
+  normalizeEmail,
+  parseCardId,
+  parseCourseIdList,
+  parseSyncInput,
+  parseWordGenInput,
+} from './validate'
 import { WordGenError, generateOrReuseCard } from './wordgen'
 
 /**
@@ -144,6 +155,12 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
     case 'GET /api/admin/log':
       requireAdmin(identity)
       return json({ entries: await recentAdminLog(env) })
+    case 'GET /api/admin/word-requests':
+      return await handleListWordRequests(env, identity)
+    case 'POST /api/admin/word-requests/promote':
+      return await handlePromoteWordCard(request, env, identity)
+    case 'POST /api/admin/word-requests/delete':
+      return await handleDeleteWordCard(request, env, identity)
     default:
       return json({ error: 'そのようなエンドポイントはありません' }, 404)
   }
@@ -415,6 +432,100 @@ async function handleRemoveUser(request: Request, env: Env, identity: Identity):
   )
 
   return json({ ok: true, sessionRevoked, logged })
+}
+
+interface AdminWordCard {
+  cardId: string
+  courseId: string
+  headword: string
+  gloss: string
+  pos: string
+  examples: { text: string; translation: string }[]
+  model: string
+  createdAt: string
+  promoted: boolean
+  requesters: { email: string; at: string; result: string }[]
+}
+
+/**
+ * 単語追加リクエストの一覧（管理画面 Phase 4・docs/word-request-design.md §8「レベル感の門番」）。
+ * カード（extra_cards）と依頼者（word_gen_log の reused/generated）を course_id+見出し語で
+ * 突き合わせて返す。却下・失敗した試行は別枠（failures）で返す——中身の無いカードは作られない
+ * ため、cards 側には出てこない。
+ */
+async function handleListWordRequests(env: Env, identity: Identity): Promise<Response> {
+  requireAdmin(identity)
+  const { cards, requestsByCard, failures } = await listWordRequests(env)
+
+  const items: AdminWordCard[] = cards.map((c) => {
+    // 見出し語は content_key（小文字化キー）ではなく payload の原文（大文字小文字を保持）を使う。
+    // 壊れた payload のときだけ content_key にフォールバックする（一覧から消えないように）。
+    let headword = c.content_key
+    let gloss = ''
+    let pos = ''
+    let examples: { text: string; translation: string }[] = []
+    try {
+      const parsed = JSON.parse(c.payload) as { headword?: unknown; gloss?: unknown; pos?: unknown; examples?: unknown }
+      headword = typeof parsed.headword === 'string' && parsed.headword ? parsed.headword : c.content_key
+      gloss = typeof parsed.gloss === 'string' ? parsed.gloss : ''
+      pos = typeof parsed.pos === 'string' ? parsed.pos : ''
+      examples = Array.isArray(parsed.examples)
+        ? (parsed.examples as { text: unknown; translation: unknown }[])
+            .filter((e) => typeof e.text === 'string' && typeof e.translation === 'string')
+            .map((e) => ({ text: e.text as string, translation: e.translation as string }))
+        : []
+    } catch (err) {
+      // 壊れた payload でも一覧自体は出す（削除できないと直せなくなるため）
+      console.error('extra_cards のpayload解析に失敗（管理画面一覧）:', err)
+    }
+    const key = `${c.course_id}::${c.content_key}`
+    const requesters = (requestsByCard.get(key) ?? []).map((r) => ({ email: r.email, at: r.at, result: r.result }))
+    return {
+      cardId: c.card_id,
+      courseId: c.course_id,
+      headword,
+      gloss,
+      pos,
+      examples,
+      model: c.model,
+      createdAt: c.created_at,
+      promoted: c.promoted === 1,
+      requesters,
+    }
+  })
+
+  return json({
+    cards: items,
+    failures: failures.map((f) => ({
+      at: f.at,
+      email: f.email,
+      courseId: f.course_id,
+      headword: f.headword,
+      result: f.result,
+      detail: f.detail,
+    })),
+  })
+}
+
+/** 「昇格」＝次回のコース本体ビルドに回す候補として印を付ける（実際の取り込みはパイプライン側の作業） */
+async function handlePromoteWordCard(request: Request, env: Env, identity: Identity): Promise<Response> {
+  requireAdmin(identity)
+  const body = (await readJson(request)) as Record<string, unknown>
+  const cardId = parseCardId(body.cardId)
+  const promoted = body.promoted === true
+  await setExtraCardPromoted(env, cardId, promoted)
+  const logged = await writeLog(env, identity.email, promoted ? 'promote_word' : 'unpromote_word', cardId, '')
+  return json({ ok: true, logged })
+}
+
+/** 生成カードを削除する（次に誰かがこの語を引くと再生成される） */
+async function handleDeleteWordCard(request: Request, env: Env, identity: Identity): Promise<Response> {
+  requireAdmin(identity)
+  const body = (await readJson(request)) as Record<string, unknown>
+  const cardId = parseCardId(body.cardId)
+  await deleteExtraCard(env, cardId)
+  const logged = await writeLog(env, identity.email, 'delete_word_card', cardId, '')
+  return json({ ok: true, logged })
 }
 
 /**

@@ -63,6 +63,41 @@ export interface AdminLogEntry {
   detail: string
 }
 
+export interface WordRequestExample {
+  text: string
+  translation: string
+}
+
+/** AI が生成した単語カード1件（docs/word-request-design.md §8。管理画面「単語追加リクエスト」） */
+export interface WordRequestCard {
+  cardId: string
+  courseId: string
+  headword: string
+  gloss: string
+  pos: string
+  examples: WordRequestExample[]
+  model: string
+  createdAt: string
+  /** 次回のコース本体ビルドに回す候補として印を付けたか */
+  promoted: boolean
+  requesters: { email: string; at: string; result: string }[]
+}
+
+/** 却下・失敗した生成試行（カードにならなかったもの） */
+export interface WordRequestFailure {
+  at: string
+  email: string
+  courseId: string
+  headword: string
+  result: string
+  detail: string
+}
+
+export interface WordRequestsResponse {
+  cards: WordRequestCard[]
+  failures: WordRequestFailure[]
+}
+
 /** サーバーが返したメッセージをそのまま持つエラー（画面にそのまま出して原因を分かるようにする） */
 export class ApiError extends Error {
   constructor(
@@ -149,6 +184,28 @@ export function removeUser(
 
 export function fetchAdminLog(): Promise<{ entries: AdminLogEntry[] }> {
   return request('api/admin/log')
+}
+
+export function fetchWordRequests(): Promise<WordRequestsResponse> {
+  return request('api/admin/word-requests')
+}
+
+/** promoted=true で次回のコース本体ビルドに回す候補として印を付ける。false で解除 */
+export function promoteWordCard(cardId: string, promoted: boolean): Promise<MutationResult> {
+  return request('api/admin/word-requests/promote', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ cardId, promoted }),
+  })
+}
+
+/** 生成カードを削除する（次に誰かが同じ語を引くと再生成される） */
+export function deleteWordCard(cardId: string): Promise<MutationResult> {
+  return request('api/admin/word-requests/delete', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ cardId }),
+  })
 }
 
 /**
