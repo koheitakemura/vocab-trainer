@@ -20,9 +20,12 @@ const GUARD_BLOCKED_KEY = 'snapshotGuardBlockedAt'
 /** 復元直前の状態を1回分だけ退避しておくキー（「元に戻す」用） */
 const PRE_RESTORE_STASH_KEY = 'preRestoreStash'
 
-const MIN_INTERVAL_MS = 30 * 60_000 // 30分
+const MIN_INTERVAL_MS = 30 * 60_000 // 30分（連打防止の下限。これより頻繁には絶対に送らない）
 const STALE_MS = 6 * 60 * 60_000 // 6時間
-const REVIEW_THRESHOLD = 20
+// 実機検証（2026-08-02）で20は厳しすぎると判明：復元直後に15語学習しても閾値未達で
+// 「同期されている感じがしない」体験になった。MIN_INTERVAL_MS が既に30分の下限を
+// 保証しているので、閾値はもっと低くても連打にはならない。
+const REVIEW_THRESHOLD = 5
 
 /** 連打抑止用。成功・失敗を問わず「試みた」時点で進める */
 let lastAttemptAt = 0
