@@ -8,6 +8,7 @@ import { GrowthPreview } from './features/growth/GrowthPreview'
 import { BrandPreview } from './brand/BrandPreview'
 import { AdminScreen } from './features/admin/AdminScreen'
 import { startProgressSync } from './store/sync'
+import { startSnapshotSync } from './store/snapshot'
 import './index.css'
 
 // 新しい Service Worker が見つかったら自動更新（データパック更新時に旧キャッシュが
@@ -32,6 +33,10 @@ if (navigator.storage?.persist) void navigator.storage.persist()
 // 進捗サマリ（コース別の集計値だけ）をサーバーへ片方向送信する。管理者が全員の進捗を
 // 一覧できるようにするためのもので、失敗しても学習側は一切影響を受けない（sync.ts 参照）。
 startProgressSync()
+
+// 端末移行用の進捗スナップショット（単語ごとの学習状態を丸ごと）。上記の集計値同期とは
+// 完全に別のタイマー・別の db.meta キーで動く（snapshot.ts 参照。混ぜて事故を作らない）。
+startSnapshotSync()
 
 /**
  * 管理者画面はパス `/admin` でも開ける（Worker が index.html を返す）。

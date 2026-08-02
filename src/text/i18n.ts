@@ -108,6 +108,12 @@ export interface UIStrings {
   staleEpochReset: string
   staleEpochKeep: string
   orphanNote: (n: number) => string
+
+  // ── サーバー同期の状態表示（CourseScreen.tsx フッター）
+  serverSyncedAgo: (label: string) => string
+  serverSyncNever: string
+  serverSyncBlocked: string
+  serverSyncBlockedConfirm: string
   sessionComplete: string
   sessionSummary: (reviewed: number, again: number) => string
 

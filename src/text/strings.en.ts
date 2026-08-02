@@ -81,6 +81,13 @@ export const en: UIStrings = {
   staleEpochReset: 'Reset this course',
   staleEpochKeep: 'Keep it as is',
   orphanNote: (n) => `${n} records point to words that are no longer in this course`,
+
+  serverSyncedAgo: (label) => `Server sync: ${label} ago`,
+  serverSyncNever: 'Not synced to server',
+  serverSyncBlocked: '⚠ Sync paused (tap to review)',
+  serverSyncBlockedConfirm:
+    "You're about to overwrite the server record with data much smaller than what's saved there. " +
+    'This warning usually means the data on this device was recently wiped. Overwrite anyway?',
   sessionComplete: 'Session complete',
   sessionSummary: (reviewed, again) => `${reviewed} reviews${again > 0 ? ` · ${again} marked “Studying”` : ''}`,
 

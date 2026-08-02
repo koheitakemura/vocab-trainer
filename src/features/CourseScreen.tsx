@@ -17,6 +17,8 @@ import {
   type ProgressIntegrity,
 } from '../store/progress'
 import { getCoachSentences, type CoachSentence } from '../data/coachSentences'
+import { uploadSnapshot } from '../store/snapshot'
+import { relativeTimeLabel } from '../text/format'
 import type { GradeOutcome } from './study/useStudyBoard'
 import { safeGet, safeSet } from '../store/safeStorage'
 import { courseProgress } from '../data/coverage'
@@ -236,6 +238,30 @@ export function CourseScreen({
   }, [])
   const handleBurstArrive = useCallback(() => setPopNonce((n) => n + 1), [])
   const handleBurstDone = useCallback((id: number) => setBursts((bs) => bs.filter((b) => b.id !== id)), [])
+
+  // ── サーバー同期の状態表示。db.meta は snapshot.ts が書くので liveQuery で追従するだけ
+  //   （ここではタイマーもfetchも持たない。あくまで「今の状態」を映すだけの受け手）。
+  const snapshotStatus = useLiveQuery(async () => {
+    const [uploaded, blocked] = await Promise.all([
+      db.meta.get('lastSnapshotUploadAt'),
+      db.meta.get('snapshotGuardBlockedAt'),
+    ])
+    return {
+      uploadedAt: typeof uploaded?.value === 'string' ? uploaded.value : null,
+      blocked: Boolean(blocked?.value),
+    }
+  })
+  const [confirmingOverwrite, setConfirmingOverwrite] = useState(false)
+  const handleSyncStatusClick = useCallback(async () => {
+    if (!snapshotStatus?.blocked || confirmingOverwrite) return
+    if (!window.confirm(t.serverSyncBlockedConfirm)) return
+    setConfirmingOverwrite(true)
+    try {
+      await uploadSnapshot(true)
+    } finally {
+      setConfirmingOverwrite(false)
+    }
+  }, [snapshotStatus?.blocked, confirmingOverwrite, t])
 
   // ── E: バックアップの番人 ＋ コーチ用の活動サマリ。どちらも dailyStats（数百行の小テーブル）
   //    1回のスキャンから導出する（毎採点で再実行されるが行数∝日数なので軽い）。
@@ -517,6 +543,15 @@ export function CourseScreen({
           <SoundSettings uiLanguage={course.uiLanguage} />
           <BoardSizeSettings uiLanguage={course.uiLanguage} />
           <Credits sources={course.sources} uiLanguage={course.uiLanguage} />
+          {snapshotStatus?.blocked ? (
+            <button type="button" className="link sync-status sync-status--blocked" onClick={() => void handleSyncStatusClick()}>
+              {t.serverSyncBlocked}
+            </button>
+          ) : (
+            <span className="sync-status">
+              {snapshotStatus?.uploadedAt ? t.serverSyncedAgo(relativeTimeLabel(snapshotStatus.uploadedAt)) : t.serverSyncNever}
+            </span>
+          )}
         </div>
         <div className="actions">
           <button className="link" onClick={onExport} title={t.backupTitle}>

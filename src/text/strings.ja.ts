@@ -80,6 +80,13 @@ export const ja: UIStrings = {
   staleEpochReset: 'このコースをリセット',
   staleEpochKeep: 'このまま使う',
   orphanNote: (n) => `いまのコースに存在しない単語の記録が ${n} 件あります`,
+
+  serverSyncedAgo: (label) => `サーバー同期: ${label}前`,
+  serverSyncNever: 'サーバー未同期',
+  serverSyncBlocked: '⚠ 同期停止中（タップして確認）',
+  serverSyncBlockedConfirm:
+    'サーバーに保存されている記録より大幅に小さいデータで上書きしようとしています。' +
+    '端末のデータが消えた直後などにこの警告が出ます。本当にこのデータで上書きしますか？',
   sessionComplete: 'セッション完了',
   sessionSummary: (reviewed, again) => `${reviewed} 回復習${again > 0 ? ` · ${again} 語を「学習中」に` : ''}`,
 
