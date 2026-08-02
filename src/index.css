@@ -2268,6 +2268,7 @@ select option {
   line-height: 1.5;
   color: var(--text-dim);
   white-space: normal;
+  text-align: left;
 }
 
 .info-tip-panel p {
