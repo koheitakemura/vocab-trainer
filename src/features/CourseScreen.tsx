@@ -387,10 +387,6 @@ export function CourseScreen({
       }),
     [introduced, total, estKnown, burned, backupInfo, knownIds, sentences, course],
   )
-  const showBackupBadge =
-    !!backupInfo &&
-    backupInfo.unsaved > 0 &&
-    (backupInfo.neverBacked ? backupInfo.unsaved >= 30 : backupInfo.unsaved >= 100 || backupInfo.days >= 14)
 
   const onExport = async () => {
     const json = await exportProgress()
@@ -671,7 +667,6 @@ export function CourseScreen({
         <div className="actions">
           <button className="link" onClick={onExport} title={t.backupTitle}>
             <DownloadIcon /> {t.backup}
-            {showBackupBadge && backupInfo && <span className="backup-badge">{t.unsaved(backupInfo.unsaved)}</span>}
           </button>
           <button className="link" onClick={() => fileRef.current?.click()} title={t.restoreTitle}>
             <UploadIcon /> {t.restore}
