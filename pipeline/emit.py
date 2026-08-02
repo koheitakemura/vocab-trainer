@@ -14,6 +14,8 @@ public/data/courses/<courseId>/ に 1k帯ごとの静的ファイルとして書
 import json
 import os
 
+from card_id import assign_ids
+
 BAND_SIZE = 1000
 
 
@@ -29,8 +31,14 @@ def emit_course(
     records: list[dict],
     out_root: str,
     band_start: int = 0,
-) -> None:
-    """records は frequencyRank 昇順である前提。id は '<courseId>-NNN' で付与する。
+) -> list[dict]:
+    """records は frequencyRank 昇順である前提。**採番済みの cards を返す**。
+
+    id は並び位置からではなく cardId レジストリ（pipeline/id_registry/）から引く。
+    既存語は同じ ID を再利用し、新語だけ新しい番号を採る＝語彙を作り直しても
+    学習進捗の紐付けが壊れない（card_id.py の冒頭を参照）。
+    戻り値を返すのは、categories.json を書く build_*.py が同じ採番式を手書きで
+    再実装しなくて済むようにするため（コピーが増えるとドリフト源になる）。
 
     band_start: 出力ファイル名の帯オフセット（既定0＝words-00000-01000.json...）。
     絶対頻度ランクが0始まりでない帯（例: コースE=10001始まり）は band_start=10 を渡すと
@@ -39,10 +47,12 @@ def emit_course(
     out_dir = os.path.join(out_root, course_id)
     os.makedirs(out_dir, exist_ok=True)
 
+    card_ids, _report = assign_ids(course_id, records)
+
     cards = []
     for i, r in enumerate(records, start=1):
         card = {
-            "id": f"{course_id}-{i:04d}",
+            "id": card_ids[i - 1],
             "courseId": course_id,
             "headword": r["headword"],
             "reading": r.get("reading") or None,
@@ -75,6 +85,7 @@ def emit_course(
         json.dump({"bands": bands, "wordCount": len(cards)}, f, ensure_ascii=False, indent=2)
 
     print(f"[emit] {course_id}: {len(cards)} words -> {len(bands)} band file(s) in {out_dir}")
+    return cards
 
 
 def validate_records(records: list[dict]) -> list[str]:

@@ -42,6 +42,7 @@ import build_ja_0_3k as base  # load_jmdict_index / entry_gloss_and_pos / load_t
 import build_ja_3_10k as d10  # build_nonjlpt_fill / attach_examples_with_cloze / FUNCTION_POS /
 #                                POS_JA_TO_TL / POS_FALLBACK / convert_pos 相当を再利用
 from emit import emit_course, validate_records  # noqa: E402  (stage 2: マージ・出力)
+from id_registry import load_registry  # noqa: E402  (verify_output の id 検証)
 
 RAW = "raw"
 COURSE_C_DIR = "../public/data/courses/ja-0-3k"
@@ -450,14 +451,15 @@ def merge_and_emit(skeleton: list | None = None) -> None:
             },
         ],
     }
-    emit_course(COURSE_ID, course_meta, merged, OUT, band_start=BAND_START)
+    cards = emit_course(COURSE_ID, course_meta, merged, OUT, band_start=BAND_START)
 
-    # categories.json（cardId → category）を emit_course と同じ ID 採番規則で別途書く
+    # categories.json（cardId → category）。**emit_course が実際に振った id を使う**——
+    # 以前はここで採番式を手書きで再実装しており、片方だけ変えると静かにずれる構造だった
     categories: dict = {}
-    for i, r in enumerate(merged, start=1):
+    for card, r in zip(cards, merged):
         cat = r.get("category")
         if cat:
-            categories[f"{COURSE_ID}-{i:04d}"] = cat
+            categories[card["id"]] = cat
     cat_path = os.path.join(OUT, COURSE_ID, "categories.json")
     with open(cat_path, "w", encoding="utf-8") as f:
         json.dump(categories, f, ensure_ascii=False, indent=None, separators=(",", ":"))
@@ -508,10 +510,16 @@ def verify_output() -> None:
     errors = []
     seen_ids = set()
     course_c_pos = d10._load_course_c_pos_values()
+    registry = load_registry(COURSE_ID)
     for i, c in enumerate(cards, start=1):
-        expected_id = f"{COURSE_ID}-{i:04d}"
-        if c.get("id") != expected_id:
-            errors.append(f"card[{i}] id mismatch: expected {expected_id!r}, got {c.get('id')!r}")
+        # 以前は「id は並び位置と一致するはず」(f"{COURSE_ID}-{i:04d}") を assert していたが、
+        # id はレジストリ由来になり、フィルタで中抜きされた欠番も正常な状態になった
+        # （実測: このコースは語数 12,622 に対し id 最大値 12,735 ＝欠番 113）。
+        # 検証は「レジストリに存在し、ファイル内で重複しない」へ置き換える。
+        if registry is not None and registry.lookup(
+            c.get("headword"), c.get("reading"), c.get("gloss"), c.get("frequencyRank")
+        ) != c.get("id"):
+            errors.append(f"card[{i}] id がレジストリと一致しません: {c.get('id')!r} ({c.get('headword')!r})")
         if c.get("id") in seen_ids:
             errors.append(f"card[{i}] duplicate id: {c.get('id')!r}")
         seen_ids.add(c.get("id"))

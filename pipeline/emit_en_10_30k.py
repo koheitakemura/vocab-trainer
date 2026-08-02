@@ -30,6 +30,8 @@ public/data/courses/en-10-30k/ へ最終データを書き出す。
 import json
 import os
 
+from card_id import assign_ids
+
 RAW = "raw"
 OUT_DIR = "../public/data/courses/en-10-30k"
 
@@ -153,11 +155,25 @@ def main():
 
     valid.sort(key=lambda x: x[0])
 
+    # id は並び位置からではなく cardId レジストリから引く（card_id.py の冒頭を参照）。
+    # このコースは a7b9dee の再ビルドで共通ID 20,532件のうち 20,531件が別の単語へ
+    # 付け替わった実績がある——並び位置ベースの採番は二度と使わない。
+    id_records = [
+        {
+            "headword": it["headword"],
+            "reading": s.get("reading"),
+            "gloss": it["gloss"],
+            "frequencyRank": DISPLAY_BASELINE + 1 + i,
+        }
+        for i, (_raw_rank, it, s) in enumerate(valid)
+    ]
+    card_ids, _report = assign_ids("en-10-30k", id_records, id_width=5)
+
     cards = []
     categories = {}
     for i, (raw_rank, it, s) in enumerate(valid):
         freq_rank = DISPLAY_BASELINE + 1 + i
-        card_id = f"en-10-30k-{i + 1:05d}"
+        card_id = card_ids[i]
         examples = []
         for ex in it.get("examples", []):
             e = {"text": ex["text"], "translation": ex["translation"]}

@@ -218,16 +218,6 @@ def main():
             log(f"  - {e}")
         raise SystemExit(1)
 
-    # categories.json 用に、emit_course が振るのと同じ規則で id を先に確定する。
-    categories: dict[str, str] = {}
-    with_category = 0
-    for i, r in enumerate(merged, start=1):
-        card_id = f"{COURSE_ID}-{i:04d}"
-        cat = r.get("category")
-        if cat:
-            categories[card_id] = cat
-            with_category += 1
-
     course_meta = {
         "id": COURSE_ID,
         "title": "Tagalog 0 → 2,000",
@@ -264,7 +254,17 @@ def main():
             },
         ],
     }
-    emit_course(COURSE_ID, course_meta, merged, OUT)
+    cards = emit_course(COURSE_ID, course_meta, merged, OUT)
+
+    # categories.json（cardId → category）。**emit_course が実際に振った id を使う**——
+    # 以前はここで採番式を手書きで再実装していたうえ emit_course より前に計算していたため、
+    # 採番規則を変えると静かにずれる構造だった
+    categories: dict[str, str] = {}
+    for card, r in zip(cards, merged):
+        cat = r.get("category")
+        if cat:
+            categories[card["id"]] = cat
+    with_category = len(categories)
 
     cat_path = os.path.join(OUT, COURSE_ID, "categories.json")
     with open(cat_path, "w", encoding="utf-8") as f:

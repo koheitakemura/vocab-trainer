@@ -634,14 +634,15 @@ def merge_and_emit(skeleton: list[dict] | None = None) -> None:
             },
         ],
     }
-    emit_course(COURSE_ID, course_meta, merged, OUT)
+    cards = emit_course(COURSE_ID, course_meta, merged, OUT)
 
-    # categories.json（cardId → category）を emit_course と同じ ID 採番規則で別途書く
+    # categories.json（cardId → category）。**emit_course が実際に振った id を使う**——
+    # 以前はここで採番式を手書きで再実装しており、片方だけ変えると静かにずれる構造だった
     categories: dict[str, str] = {}
-    for i, r in enumerate(merged, start=1):
+    for card, r in zip(cards, merged):
         cat = r.get("category")
         if cat:
-            categories[f"{COURSE_ID}-{i:04d}"] = cat
+            categories[card["id"]] = cat
     cat_path = os.path.join(OUT, COURSE_ID, "categories.json")
     with open(cat_path, "w", encoding="utf-8") as f:
         json.dump(categories, f, ensure_ascii=False, indent=None, separators=(",", ":"))
