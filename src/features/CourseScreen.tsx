@@ -41,6 +41,7 @@ import { BoardSizeSettings } from './study/BoardSizeSettings'
 import { Credits } from './Credits'
 import { SparkleOverlay, type BurstSpec } from './SparkleOverlay'
 import { MeterBreakdown } from './MeterBreakdown'
+import { InfoTooltip } from './InfoTooltip'
 import { MilestoneChip } from './MilestoneChip'
 import { MilestoneOverlay } from './MilestoneOverlay'
 import { CategorySelector } from './CategorySelector'
@@ -485,6 +486,11 @@ export function CourseScreen({
           {estKnown !== null && introduced > 0 && progress && (
             <div className="meter-est" title={t.meterEstTitle}>
               {t.meterEst(estKnown, progress)}
+              <InfoTooltip label={t.meterHelpLabel}>
+                {t.meterHelpBody.map((line, i) => (
+                  <p key={i}>{line}</p>
+                ))}
+              </InfoTooltip>
             </div>
           )}
         </div>

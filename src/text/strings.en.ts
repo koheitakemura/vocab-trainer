@@ -32,6 +32,15 @@ export const en: UIStrings = {
     }
     return progress.depth != null ? `${base} · depth ${progress.depth}%` : base
   },
+  meterHelpLabel: 'What does this mean?',
+  meterHelpBody: [
+    "This is how many words you'd actually recall right now — not just how many you've tapped. It's based on the FSRS memory model, the same system that decides when each word comes up for review.",
+    'Right after you grade a word, it briefly counts toward this number no matter which button you tapped, because you clearly remember it in that moment. What differs is how fast that fades:',
+    '• I know — fades slowly, stays counted for weeks',
+    '• Fuzzy — fades within about a day',
+    '• Studying — fades within hours, and the word comes back for review soon',
+    'So this number naturally drops between study sessions as Fuzzy and Studying words fade, then rises again each time you review.',
+  ],
 
   // タブ
   tabStudy: 'Study',

@@ -145,6 +145,25 @@ export function SlidersIcon(p: IconProps) {
   )
 }
 
+/** 説明ツールチップの起点（「？」）。丸+疑問符は言語を問わず「詳細情報」として通じる */
+export function InfoIcon(p: IconProps) {
+  return (
+    <Icon {...p}>
+      <circle cx="8" cy="8" r="6.4" fill="none" stroke="currentColor" strokeWidth="1.3" />
+      <g fill="currentColor">
+        <circle cx="8" cy="11.3" r="0.9" />
+        <path
+          d="M8 9.6c0-.9.5-1.3 1.1-1.8.6-.5 1.1-1 1.1-1.9 0-1.2-.9-2-2.2-2-1.1 0-1.9.6-2.2 1.6"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.2"
+          strokeLinecap="round"
+        />
+      </g>
+    </Icon>
+  )
+}
+
 /** 連続学習日数 */
 export function FlameIcon(p: IconProps) {
   return (

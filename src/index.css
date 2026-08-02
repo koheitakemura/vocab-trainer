@@ -2069,6 +2069,68 @@ select option {
   font-size: 11px;
   color: var(--text-faint);
   font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ---------- 「？」ツールチップ（長期記憶・I know/Fuzzy/Studying の説明） ----------
+   マウスは :hover で即座に開く。タッチ端末は :hover が不安定なので、
+   InfoTooltip 側がクリック/タップでの開閉（.open クラス）も面倒を見る。 */
+.info-tip {
+  position: relative;
+  display: inline-flex;
+}
+
+.info-tip-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: -2px;
+  border: none;
+  background: none;
+  color: var(--text-faint);
+  cursor: pointer;
+  border-radius: 999px;
+}
+
+.info-tip-trigger:hover,
+.info-tip-trigger:focus-visible {
+  color: var(--text);
+}
+
+.info-tip-panel {
+  display: none;
+  position: absolute;
+  z-index: 30;
+  /* 起点（メーターの右下）の下・左方向に開く。上に開くと画面上端で、右に開くと
+     画面右端で見切れる（この要素自体がヘッダーの右寄せ領域にあるため）。 */
+  top: calc(100% + 8px);
+  right: 0;
+  width: max(260px, min(340px, 80vw));
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-dim);
+  white-space: normal;
+}
+
+.info-tip-panel p {
+  margin: 0 0 8px;
+}
+
+.info-tip-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.info-tip:hover .info-tip-panel,
+.info-tip-panel.open {
+  display: block;
 }
 
 /* ---------- B: 大節目（1k/2k/全語）のワンショット・オーバーレイ ---------- */

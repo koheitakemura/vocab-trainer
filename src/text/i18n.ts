@@ -60,6 +60,9 @@ export interface UIStrings {
   meterEstTitle: string
   /** progress は courseProgress() の戻り値そのまま渡す（帯によって被覆率%/語数+深度で文が変わるため） */
   meterEst: (estKnown: number, progress: CourseProgress) => string
+  /** 「？」ツールチップのラベル（aria-label）と本文。本文は改行区切りの複数段落 */
+  meterHelpLabel: string
+  meterHelpBody: string[]
 
   // ── タブ（CourseScreen.tsx）
   tabStudy: string
