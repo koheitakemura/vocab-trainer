@@ -53,6 +53,19 @@ type Tab = 'study' | 'all' | 'stats' | 'growth'
 
 const EMPTY_BY_GRADE: Record<ReviewGrade, number> = emptyByGrade()
 
+// コース別の目盛り間隔（表示専用。帯域の広さに応じて密度を変える——2026-08-02 Kohei指摘）。
+const TICK_STEP: Record<CourseId, number> = {
+  'ja-kana': 50,
+  'ja-katakana': 100,
+  'ja-kanji-basic': 50,
+  'ja-kanji-advanced': 200,
+  'ja-0-3k': 200,
+  'tl-0-2k': 200,
+  'ja-3-10k': 500,
+  'ja-10-30k': 1000,
+  'en-10-30k': 1000,
+}
+
 export function CourseScreen({
   course,
   cards,
@@ -114,12 +127,13 @@ export function CourseScreen({
   // だけをこの分だけ足して見せる（進捗計算・クロス判定・localStorageキー等の内部ロジックは
   // 常にコース内0起点のまま——表示とロジックの基準をずらすとバグの温床になるため）。
   const displayOffset = course.band.from
-  // 目標が感じられるよう 1000 語ごとに目盛りを打つ（総数ちょうどの位置は末尾と被るので除外）。
-  // 500刻みだと帯つきコース（2万語超）で目盛りラベルが密集し読みにくいため1000に変更
-  // （2026-07-30 Kohei指摘）。跨ぎ検出・節目演出（500刻み）は据え置き——ここは表示専用の
-  // 目盛り粒度で、data-mが一致しない500刻みの節目はheaderへのフォールバック演出になるだけ。
+  // 目標が感じられるよう TICK_STEP 語ごとに目盛りを打つ（総数ちょうどの位置は末尾と被るので除外）。
+  // 帯域の広いコースほど密集して読みにくいため、コースごとに間隔を変える（2026-08-02 Kohei指摘）。
+  // 跨ぎ検出・節目演出（500刻み）は据え置き——ここは表示専用の目盛り粒度で、data-mが一致しない
+  // 500刻みの節目はheaderへのフォールバック演出になるだけ。
   const milestones: number[] = []
-  for (let m = 1000; m < total; m += 1000) milestones.push(m)
+  const tickStep = TICK_STEP[course.id]
+  for (let m = tickStep; m < total; m += tickStep) milestones.push(m)
 
   // ── A: 推定語彙数（retrievability 合計）＋既習語集合。マウント時に1回スキャンし、
   //    以後は採点結果で O(1) 追従。復元・リセット後は estNonce を進めて取り直す。

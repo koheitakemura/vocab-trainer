@@ -279,7 +279,7 @@ def main() -> None:
 
     course_meta = {
         "id": COURSE_ID,
-        "title": "Japanese Kana (Hiragana & Katakana)",
+        "title": "Japanese Hiragana & Katakana",
         "learningLanguage": "Japanese",
         "glossLanguage": "Romaji",
         "uiLanguage": "en",

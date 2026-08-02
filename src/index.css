@@ -158,7 +158,7 @@ body {
   color: var(--text);
 }
 
-/* コース名と同じ大きさになると「Vocab Trainer Japanese Kana…」が 1 つの文字列に
+/* コース名と同じ大きさになると「Vocab Trainer Japanese Hiragana…」が 1 つの文字列に
    見えてしまうので、間に細い縦罫を入れて別物だと分かるようにする */
 .topbrand::after {
   content: '';

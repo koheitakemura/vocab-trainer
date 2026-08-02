@@ -21,7 +21,7 @@ export interface CourseListing {
 export const AVAILABLE_COURSES: CourseListing[] = [
   {
     id: 'ja-kana',
-    title: 'Japanese Kana (Hiragana & Katakana)',
+    title: 'Japanese Hiragana & Katakana',
     learningLanguage: 'Japanese',
     uiLanguage: 'en',
   },
