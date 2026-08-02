@@ -2,6 +2,7 @@ import type { GrowthSeries } from './growth'
 import { GrowthChart } from './GrowthChart'
 import { fmtNum } from '../../text/format'
 import { useStrings, type UiLanguage } from '../../text/i18n'
+import { FlameIcon } from '../../ui/icons'
 
 /**
  * 成長タブの見た目（純粋・presentational）。見出し数字＋凡例＋成長曲線。
@@ -33,7 +34,15 @@ export function GrowthView({ series, uiLanguage }: { series: GrowthSeries; uiLan
           </div>
         )}
         <div className="growth-stat">
-          <span className="growth-stat-num">{currentStreak > 0 ? `🔥 ${currentStreak}` : '0'}</span>
+          <span className="growth-stat-num">
+            {currentStreak > 0 ? (
+              <>
+                <FlameIcon size={19} className="growth-stat-flame" /> {currentStreak}
+              </>
+            ) : (
+              '0'
+            )}
+          </span>
           <span className="growth-stat-label">{t.dayStreak}</span>
         </div>
         <div className="growth-stat">

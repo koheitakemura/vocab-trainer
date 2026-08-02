@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { MoonIcon, SunIcon } from '../ui/icons'
 
 type Mode = 'light' | 'dark'
 const KEY = 'vocab-theme'
@@ -38,7 +39,7 @@ export function ThemeToggle() {
       title={mode === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
       aria-label="Toggle theme"
     >
-      {mode === 'dark' ? '☀ Light' : '🌙 Dark'}
+      {mode === 'dark' ? <SunIcon /> : <MoonIcon />} {mode === 'dark' ? 'Light' : 'Dark'}
     </button>
   )
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BOARD_SIZES, getBoardSize, setBoardSize, type BoardSize } from './boardSize'
 import { useStrings, type UiLanguage } from '../../text/i18n'
+import { CardsIcon } from '../../ui/icons'
 
 /**
  * 1回に画面へ並べるカードの枚数を選ぶプルダウン。
@@ -21,9 +22,7 @@ export function BoardSizeSettings({ uiLanguage }: { uiLanguage: UiLanguage }) {
 
   return (
     <label className="link sound-settings" title={t.cardsPerSessionLabel}>
-      <span className="sound-settings-icon" aria-hidden="true">
-        ▦
-      </span>
+      <CardsIcon />
       <select
         className="sound-settings-select"
         aria-label={t.cardsPerSessionLabel}

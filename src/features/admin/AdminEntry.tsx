@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { fetchMe } from './adminApi'
+import { SlidersIcon } from '../../ui/icons'
 import './admin.css'
 
 /**
@@ -31,7 +32,7 @@ export function AdminEntry() {
   if (!show) return null
   return (
     <a className="admin-entry" href="./admin" title="利用者の登録・削除と進捗確認">
-      ⚙ 管理者画面
+      <SlidersIcon /> 管理者画面
     </a>
   )
 }

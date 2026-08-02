@@ -983,10 +983,25 @@ select option {
   gap: 4px;
 }
 
-/* SVG アイコン。currentColor で描いているので、フッターの文字色（ホバー含む）に追従する */
-.sound-settings-icon {
-  display: block;
+/* ---------- 単色アイコン（src/ui/icons.tsx） ---------- */
+/* currentColor で描いてあるので、置いた場所の文字色・ホバー・テーマ切替に自動で追従する。
+   絵文字（OS ごとに色と形が変わる）でも文字記号（フォントに無いと豆腐になる）でもない。 */
+.ui-icon {
   flex: none;
+  vertical-align: -0.16em;
+}
+
+/* flex 行（音・カード枚数のプルダウン）の中では vertical-align は効かないので、
+   ブロックにして親の align-items: center に任せる */
+.sound-settings .ui-icon {
+  display: block;
+  vertical-align: baseline;
+}
+
+/* 連続日数の炎は 24px の数字の隣に立つ。数字の光学中心に合わせて少しだけ下げる */
+.growth-stat-flame {
+  vertical-align: -0.1em;
+  color: var(--fuzzy);
 }
 
 .sound-settings-select {

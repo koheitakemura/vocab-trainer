@@ -35,6 +35,7 @@ import { StatsPanel } from './stats/StatsPanel'
 import { GrowthPanel } from './growth/GrowthPanel'
 import { ThemeToggle } from '../theme/ThemeToggle'
 import { VocabLockup } from '../brand/Logo'
+import { DownloadIcon, UploadIcon } from '../ui/icons'
 import { SoundSettings } from './SoundSettings'
 import { BoardSizeSettings } from './study/BoardSizeSettings'
 import { Credits } from './Credits'
@@ -669,11 +670,11 @@ export function CourseScreen({
         </div>
         <div className="actions">
           <button className="link" onClick={onExport} title={t.backupTitle}>
-            ⭳ {t.backup}
+            <DownloadIcon /> {t.backup}
             {showBackupBadge && backupInfo && <span className="backup-badge">{t.unsaved(backupInfo.unsaved)}</span>}
           </button>
           <button className="link" onClick={() => fileRef.current?.click()} title={t.restoreTitle}>
-            ⭱ {t.restore}
+            <UploadIcon /> {t.restore}
           </button>
           <input ref={fileRef} type="file" accept="application/json" hidden onChange={onImportFile} />
           <AdminEntry />

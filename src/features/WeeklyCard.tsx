@@ -4,6 +4,7 @@ import { db } from '../store/db'
 import { localDate } from '../store/progress'
 import { safeGet, safeSet } from '../store/safeStorage'
 import { useStrings, type UiLanguage } from '../text/i18n'
+import { DownloadIcon } from '../ui/icons'
 
 interface WeeklySummary {
   /** タイトルの文言選択（this week / last week）。翻訳は描画時に uiLanguage で行う */
@@ -108,7 +109,7 @@ export function WeeklyCard({
       </div>
       {onBackup && (
         <button type="button" className="btn ghost weekly-backup" onClick={onBackup}>
-          ⭳ {t.weeklyBackup}
+          <DownloadIcon /> {t.weeklyBackup}
         </button>
       )}
     </div>
