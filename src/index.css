@@ -142,22 +142,32 @@ body {
   white-space: nowrap;
 }
 
-/* ブランドは在るだけでよく、コース名とコーチ・メッセージより目立ってはいけないので、
-   マークは compact・文字は一段落とした色にする */
+/* 文字の大きさはコース名（18px）に揃える。マークは 20px 台なので 4×4 は潰れる＝compact を使う */
 .topbrand {
-  gap: 8px;
+  gap: 10px;
   flex: none;
 }
 
 .topbrand .vt-wordmark {
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 0;
-  color: var(--text-faint);
+  color: var(--text-dim);
 }
 
 .topbrand .vt-wordmark b {
-  font-weight: 600;
-  color: var(--text-dim);
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* コース名と同じ大きさになると「Vocab Trainer Japanese Kana…」が 1 つの文字列に
+   見えてしまうので、間に細い縦罫を入れて別物だと分かるようにする */
+.topbrand::after {
+  content: '';
+  width: 1px;
+  align-self: stretch;
+  min-height: 20px;
+  margin-left: 2px;
+  background: var(--border);
 }
 
 /* スマホではコース名（長い）と同居できないので、この行はマークだけにする。

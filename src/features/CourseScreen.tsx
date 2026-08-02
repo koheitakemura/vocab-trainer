@@ -436,10 +436,10 @@ export function CourseScreen({
     <div className="course-screen">
       <header className="topbar">
         <div className="course">
-          {/* 画面左上。ブランドをコース名と同じ行の左に置く。主役はコース名とコーチ・
-              メッセージなので、マークは compact・文字は一段落とした色で静かに添える */}
+          {/* 画面左上。ブランドをコース名と同じ行の左に、コース名と同じ大きさで置く。
+              マークは 26px なので 4×4 では潰れる＝compact（3×3）を使う */}
           <div className="course-head">
-            <VocabLockup className="topbrand" size={20} variant="compact" />
+            <VocabLockup className="topbrand" size={26} variant="compact" />
             {/* コースが1つしかない間はドロップダウンを出さず見出しのまま（選ぶ意味がないUIを避ける） */}
             {courses.length > 1 ? (
               <select
