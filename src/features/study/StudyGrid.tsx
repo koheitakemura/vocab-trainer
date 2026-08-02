@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import type { CourseType, Example, VocabCard } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel } from '../../srs/levels'
@@ -227,8 +227,10 @@ function Tile({
                 {c.reading}
                 {romaji && <span className="tile-romaji"> · {romaji}</span>}
               </span>
-              <div className="tile-cloze-sentence revealed">{cloze.example.text}</div>
-              <TileExample example={example} showSource={false} />
+              <TileBack fitKey={`${cloze.example.text}\u0000${example?.translation ?? ''}`}>
+                <div className="tile-cloze-sentence revealed">{cloze.example.text}</div>
+                <TileExample example={example} showSource={false} />
+              </TileBack>
             </>
           ) : (
             <>
@@ -248,13 +250,17 @@ function Tile({
               {c.reading}
               {romaji && <span className="tile-romaji"> · {romaji}</span>}
             </span>
-            <FitGloss text={c.gloss} />
-            {c.root && (
-              <div className="tile-root">
-                {t.rootLabel}: {c.root}
-              </div>
-            )}
-            <TileExample example={example} showSource={showSource} />
+            <TileBack
+              fitKey={`${c.gloss}\u0000${c.root ?? ''}\u0000${showSource ? (example?.text ?? '') : ''}\u0000${example?.translation ?? ''}`}
+            >
+              <div className="tile-gloss">{c.gloss}</div>
+              {c.root && (
+                <div className="tile-root">
+                  {t.rootLabel}: {c.root}
+                </div>
+              )}
+              <TileExample example={example} showSource={showSource} />
+            </TileBack>
           </>
         ) : (
           <div className="tile-hw">{c.headword}</div>
@@ -285,6 +291,37 @@ function Tile({
           </div>
         )}
       </div>
+    </div>
+  )
+}
+
+/**
+ * めくった面の下半分（訳語・語根・例文、cloze なら本文＋訳文）に使うフォントサイズの段階。
+ * 中身は 1em 基準の em で組んであるので、この 1 値でブロック全体が相似に縮む。
+ * 下限 9px は「訳文（0.81em）が 7.3px まで落ちる」ところ＝実用的に読める最小として置いた。
+ */
+const BACK_STEPS = [13, 12.25, 11.5, 10.75, 10, 9.5, 9]
+
+/**
+ * めくった面の下半分をカードの残り高さに「ブロックごと」収める枠。
+ *
+ * 以前は要素ごとに行数で切り捨てていた（訳語 2行・例文本文 2行・**訳文 1行**）が、
+ * 訳文 1行は日本語コースでは足りない：例文訳（タガログ語）が 1 行に収まらない語は
+ * 実測で ja-0-3k 57%／ja-3-10k 62%／ja-10-30k 68%／ja-kanji-advanced 65%（PC 4列・
+ * 内寸212px）。つまり大半のカードで訳文が途中で切れていた。
+ *
+ * そこで行数での切り捨てをやめ、収まらないときはブロック全体のフォントを段階的に
+ * 縮めて**全文を出す**ことを優先する（Kohei 要望 2026-08-02）。カードの高さは
+ * 従来どおり固定（158px）なので盤面は 1px も動かない。
+ *
+ * 最小段階でもなお溢れる極端に長い1件（全コースで 1% 未満）だけ、切り口が文の途中で
+ * スパッと切れて壊れて見えないよう下端をフェードさせる（.tile-back.clipped）。
+ */
+function TileBack({ fitKey, children }: { fitKey: string; children: ReactNode }) {
+  const { boxRef, fontSize, overflowing } = useFitText(fitKey, BACK_STEPS)
+  return (
+    <div ref={boxRef} className={`tile-back${overflowing ? ' clipped' : ''}`} style={{ fontSize }}>
+      {children}
     </div>
   )
 }

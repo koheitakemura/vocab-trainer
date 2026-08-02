@@ -1675,13 +1675,46 @@ select option {
   color: var(--text-faint);
 }
 
-/* 訳語の表示枠。高さの上限を固定してカード全体の高さがぶれないようにする。
+/* 訳語の表示枠（クローズ前面のヒント専用。めくった面は .tile-back が受け持つ）。
+   高さの上限を固定してカード全体の高さがぶれないようにする。
    useFitText はこの要素の scrollHeight（実際に必要な高さ）と clientHeight（この
    上限）を比較して、はみ出す場合は中の文字のフォントサイズを段階的に縮める。 */
 .tile-gloss-box {
   width: 100%;
   max-height: 34px;
   overflow: hidden;
+}
+
+/* ── めくった面の下半分（訳語・語根・例文／クローズなら本文＋訳文）──
+   カードの残り高さをすべて受け取り、中身をブロックごとここに収める。
+   中の文字は 1em 基準の em で組んであり、TileBack が this の font-size を
+   段階的に落とすことで全体が相似に縮む＝行数で切り捨てずに全文を出す。
+   （旧実装は訳文を1行でクランプしていたため、日本語コースの約6割で訳文が切れていた） */
+.tile-back {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25em;
+  overflow: hidden;
+}
+
+/* 最小段階でもなお収まらない極端に長い1件（全コース1%未満）だけ、下端をフェードさせる。
+   文の途中でスパッと切れた切り口が覗くと壊れて見えるため。 */
+.tile-back.clipped {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 14px), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 14px), transparent);
+}
+
+.tile-back .tile-gloss {
+  font-size: 1em;
+}
+
+.tile-back .tile-root {
+  font-size: 0.77em;
 }
 
 .tile-gloss {
@@ -1709,7 +1742,7 @@ select option {
    基づき、本文2行・訳文1行に固定してある。例文の無いカードはこの姿にならず従来どおり。 */
 .tile.unified .tile-content {
   /* ボタンの区画が無くなった分、カードの内側をすべて使う */
-  padding: 14px 12px 12px;
+  padding: 12px 12px 10px;
   justify-content: center;
   gap: 4px;
 }
@@ -1719,9 +1752,7 @@ select option {
 }
 .tile.unified .tile-reading {
   font-size: 11px;
-}
-.tile.unified .tile-gloss-box {
-  max-height: 26px;
+  line-height: 1.2;
 }
 
 /* 採点ボタンの置き場。1区画のときはレイアウトを持たない絶対配置＝中身を押し出さない。
@@ -1761,38 +1792,30 @@ select option {
   }
 }
 
-/* 例文（本文＋訳文）。長さは行数で頭打ちにし、カードの高さを絶対に変えない。 */
+/* 例文（本文＋訳文）。行数では切らず、全文を出したうえで .tile-back が
+   ブロックごとフォントを縮めてカードの高さ（固定）に収める。
+   サイズは .tile-back の font-size（1em）基準の相対指定＝縮小が全体で揃う。 */
 .tile-example {
   width: 100%;
   min-height: 0;
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  margin-top: 2px;
+  gap: 0.15em;
+  margin-top: 0.15em;
 }
 .tile-example-src,
 .tile-example-tr {
   text-align: center;
   max-width: 100%;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
+  line-height: 1.4;
 }
 .tile-example-src {
-  font-size: 11.5px;
-  line-height: 1.4;
-  max-height: 33px; /* 11.5px × 1.4 × 2行 */
+  font-size: 0.885em; /* 1em=13px のとき 11.5px（従来と同じ見え） */
   color: var(--text);
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
 }
 .tile-example-tr {
-  font-size: 10.5px;
-  line-height: 1.4;
-  max-height: 15px; /* 10.5px × 1.4 × 1行 */
+  font-size: 0.808em; /* 1em=13px のとき 10.5px（従来と同じ見え） */
   color: var(--text-dim);
-  -webkit-line-clamp: 1;
-  line-clamp: 1;
 }
 
 /* ── 文脈クローズ提示（cloze/較正コースの昇格カード。PLAN §4.2）──
@@ -1831,6 +1854,14 @@ select option {
 .tile-cloze-sentence.revealed {
   font-size: 14px;
   color: var(--text-dim);
+}
+
+/* めくった後のクローズ本文も .tile-back の中では行数で切らない
+   （切り捨てをやめて全文＋一括縮小に寄せる方針。上の .tile-back を参照）。 */
+.tile-back .tile-cloze-sentence.revealed {
+  display: block;
+  max-height: none;
+  font-size: 1.077em; /* 1em=13px のとき 14px（従来と同じ見え） */
 }
 
 /* 空欄＝下線。前後の文と自然に馴染む幅 */
