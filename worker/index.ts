@@ -1,6 +1,15 @@
 import { AuthError, adminEmails, assertSameOrigin, authenticate, requireAdmin } from './auth'
 import { CloudflareError, accessListConfigured, addAccessEmail, listAccessEmails, removeAccessEmail, revokeUserSessions } from './cf'
 import {
+  BINARY_HEADERS,
+  SnapshotError,
+  latestKey,
+  needsOverwriteConfirmation,
+  purgeSnapshots,
+  putSnapshot,
+  readBinary,
+} from './snapshot'
+import {
   createUser,
   ensureSchema,
   getUser,
@@ -43,6 +52,7 @@ function errorResponse(err: unknown): Response {
   if (err instanceof AuthError) return json({ error: err.message }, err.status)
   if (err instanceof ValidationError) return json({ error: err.message }, 400)
   if (err instanceof CloudflareError) return json({ error: err.message }, err.status)
+  if (err instanceof SnapshotError) return json({ error: err.message }, err.status)
   console.error('unhandled API error:', err)
   return json({ error: 'サーバー側でエラーが発生しました' }, 500)
 }
@@ -107,6 +117,12 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
       return await handleMe(env, identity)
     case 'POST /api/sync':
       return await handleSync(request, env, identity)
+    case 'PUT /api/snapshot':
+      return await handleSnapshotPut(request, env, identity)
+    case 'GET /api/snapshot':
+      return await handleSnapshotGet(env, identity)
+    case 'GET /api/snapshot/meta':
+      return await handleSnapshotMeta(env, identity)
     case 'GET /api/admin/users':
       return await handleListUsers(env, identity)
     case 'POST /api/admin/users':
@@ -168,16 +184,26 @@ async function handleMe(env: Env, identity: Identity): Promise<Response> {
 }
 
 /**
+ * 登録済み・利用停止でないことを確認する。進捗の読み書き（集計値・スナップショットとも）は
+ * すべてこれを通す。**GET（復元）にも適用する**——許可リストから消した直後は復元もさせない
+ * （書き込みだけ止めて読み出しは通す、という半端な状態を作らない）。
+ */
+async function ensureActiveUser(env: Env, identity: Identity): Promise<UserRow> {
+  const user = await ensureRegistered(env, identity)
+  if (!user || user.status !== 'active') {
+    // 許可リストから消しても既存セッションはしばらく生きる。その間は書き込み/読み出しとも受けない
+    throw new AuthError('このアカウントは利用停止されています', 403)
+  }
+  return user
+}
+
+/**
  * 端末からコース別の集計値を受け取る。
  * サーバー側が持つ表示名を返し、端末はそれを自分の表示名として保存する
  * ＝表示名の登録・変更は管理画面だけで行える（端末側に編集 UI を作らない）。
  */
 async function handleSync(request: Request, env: Env, identity: Identity): Promise<Response> {
-  const user = await ensureRegistered(env, identity)
-  if (!user || user.status !== 'active') {
-    // 許可リストから消しても既存セッションはしばらく生きる。その間の書き込みは受けない
-    return json({ error: 'このアカウントは利用停止されています' }, 403)
-  }
+  const user = await ensureActiveUser(env, identity)
   const input = parseSyncInput(await readJson(request))
   await saveProgress(env, identity.email, input.courses)
   return json({
@@ -185,6 +211,52 @@ async function handleSync(request: Request, env: Env, identity: Identity): Promi
     displayName: user.display_name,
     allowedCourses: parseAllowedCourses(user.allowed_courses),
   })
+}
+
+/**
+ * 進捗スナップショット（gzip 済み JSON）をアップロードする。
+ * 本文は解析しない——中身を検証すると Workers Free の CPU 10ms 制限に当たるため
+ * （snapshot.ts 冒頭を参照）。「壊れたデータを保存してしまう」リスクより
+ * 「本番だけ CPU 超過で全滅する」リスクの方が大きいため、この非対称を受け入れる。
+ */
+async function handleSnapshotPut(request: Request, env: Env, identity: Identity): Promise<Response> {
+  await ensureActiveUser(env, identity)
+  const body = await readBinary(request)
+  const existing = await env.SNAPSHOTS.head(latestKey(identity.email))
+  const existingBytes = existing?.size ?? 0
+  // 端末側が「空データで上書きしてよい」と確認済みのときだけ付くヘッダー
+  const confirmed = request.headers.get('x-confirm-overwrite') === 'true'
+  if (!confirmed && needsOverwriteConfirmation(existingBytes, body.byteLength)) {
+    return json(
+      {
+        error: '既存のサーバー記録より大幅に小さいデータです。空になった端末で上書きしようとしていないか確認してください。',
+        existingBytes,
+        newBytes: body.byteLength,
+      },
+      409,
+    )
+  }
+  await putSnapshot(env, identity.email, body)
+  return json({ ok: true, bytes: body.byteLength })
+}
+
+/** スナップショット本体を返す（gzip バイト列のまま。Worker は中身を見ない） */
+async function handleSnapshotGet(env: Env, identity: Identity): Promise<Response> {
+  await ensureActiveUser(env, identity)
+  const obj = await env.SNAPSHOTS.get(latestKey(identity.email))
+  if (!obj) return json({ error: 'スナップショットがありません' }, 404)
+  return new Response(obj.body, { headers: BINARY_HEADERS })
+}
+
+/**
+ * サイズ・更新時刻だけを返す（本体を取らずに「サーバーに新しい記録があるか」を判定するため）。
+ * 復元確認バナーの表示可否をこれだけで決められる＝毎回 MB 級の本体を落とす必要がない。
+ */
+async function handleSnapshotMeta(env: Env, identity: Identity): Promise<Response> {
+  await ensureActiveUser(env, identity)
+  const obj = await env.SNAPSHOTS.head(latestKey(identity.email))
+  if (!obj) return json({ exists: false })
+  return json({ exists: true, uploadedAt: obj.uploaded.toISOString(), bytes: obj.size })
 }
 
 /** 名簿＋進捗＋Access 許可リストとの突き合わせ */
@@ -284,8 +356,15 @@ async function handleRemoveUser(request: Request, env: Env, identity: Identity):
 
   await removeAccessEmail(env, email)
   const sessionRevoked = await revokeUserSessions(env, email)
-  if (purge) await purgeUser(env, email)
-  else await markUserRemoved(env, email)
+  if (purge) {
+    await purgeUser(env, email)
+    // D1（本体）が確実に消えた後に R2 を消す。失敗しても purgeUser 自体は完了させる
+    // （D1 と R2 は別APIで1トランザクションにできない。より重要な D1 側を先に確実に終わらせる）。
+    // 失敗は observability 経由で Workers Logs に残る＝気づけないまま放置にはしない。
+    await purgeSnapshots(env, email).catch((err) => console.error('R2 スナップショットの削除に失敗:', err))
+  } else {
+    await markUserRemoved(env, email)
+  }
   const logged = await writeLog(
     env,
     identity.email,

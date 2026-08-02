@@ -27,6 +27,17 @@
     }
   ],
 
+  // 端末移行用の進捗スナップショット（gzip 済み JSON）。D1 は1行2MB上限があり実データが
+  // 収まらないため R2 にした（worker/snapshot.ts 冒頭を参照）。bucket_name はまだ実在しない
+  // ——Kohei の承認後に `wrangler r2 bucket create vocab-trainer-snapshots` で作成する。
+  // それまでは wrangler dev のローカル R2 シミュレータ（バケット未作成でも動く）でのみ検証する。
+  "r2_buckets": [
+    {
+      "binding": "SNAPSHOTS",
+      "bucket_name": "vocab-trainer-snapshots"
+    }
+  ],
+
   // 本番エラーを後から追えるようにする（console.error が Workers Logs に残る）
   "observability": { "enabled": true }
 

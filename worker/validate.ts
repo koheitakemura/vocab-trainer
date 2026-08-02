@@ -15,7 +15,9 @@ export class ValidationError extends Error {
 
 // ローカル部にカンマ・空白・引用符などを許さない実務的な範囲。RFC 完全準拠は狙わない
 // （Access 側でも弾かれるため、ここは「リストを壊す文字を通さない」ことが目的）。
-const EMAIL_RE = /^[^\s@,;<>"'\\]{1,64}@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/i
+// auth.ts が JWT の email クレームを Identity に変換する境界でも同じ正規表現を使う
+// （R2 オブジェクトキーのパス要素に埋め込む前に、パス区切り文字等を確実に弾くため）。
+export const EMAIL_RE = /^[^\s@,;<>"'\\]{1,64}@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/i
 
 /** メールを正規化して返す。不正なら ValidationError */
 export function normalizeEmail(raw: unknown): string {

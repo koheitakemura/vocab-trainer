@@ -1,5 +1,6 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose'
 import type { Env, Identity } from './types'
+import { EMAIL_RE } from './validate'
 
 /**
  * 本人確認は Cloudflare Access が済ませたものを流用する。
@@ -102,8 +103,15 @@ export async function authenticate(request: Request, env: Env): Promise<Identity
   return identityOf(email, env)
 }
 
+/**
+ * ここで EMAIL_RE を通すのが Identity.email の**唯一の検証ポイント**。
+ * 通常の IdP なら email クレームは常に妥当な形式だが、万一 IdP 側の設定次第で
+ * 想定外の文字（制御文字・区切り文字等）が入っても、ここで弾けば以後の全ての消費者
+ * （D1 の主キー、R2 オブジェクトキーのパス要素等）が「検証済みの email」を安全に使える。
+ */
 function identityOf(rawEmail: string, env: Env): Identity {
   const email = rawEmail.trim().toLowerCase()
+  if (!EMAIL_RE.test(email)) throw new AuthError('認証トークンのメールアドレスが不正です', 401)
   return { email, isAdmin: adminEmails(env).has(email) }
 }
 

@@ -18,6 +18,12 @@ export interface Env {
   ASSETS: Fetcher
   /** 名簿と進捗サマリの保存先 */
   DB: D1Database
+  /**
+   * 端末移行用の進捗スナップショット（gzip 済み JSON バイト列）の保存先。
+   * D1 ではなく R2 にしたのは、D1 の1行 2MB 上限に実データが収まらないため
+   * （実測: 全コース学習で1語≈400B・約4,900語で2MB到達。snapshot.ts の冒頭を参照）。
+   */
+  SNAPSHOTS: R2Bucket
 
   // ── Cloudflare Access（本人確認）
   /** 例: https://divine-bread-a024.cloudflareaccess.com（末尾スラッシュ無し） */
