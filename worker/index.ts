@@ -50,6 +50,13 @@ import {
   handleSetCorrection,
   handleUpdateReportStatus,
 } from './reports'
+import {
+  CourseRequestError,
+  deleteCourseRequestsForUser,
+  handleCreateCourseRequest,
+  handleListCourseRequests,
+  handleResolveCourseRequest,
+} from './courseRequests'
 
 /**
  * 管理者画面のバックエンド。
@@ -77,6 +84,7 @@ function errorResponse(err: unknown): Response {
   if (err instanceof SnapshotError) return json({ error: err.message }, err.status)
   if (err instanceof WordGenError) return json({ error: err.message }, err.status)
   if (err instanceof ReportError) return json({ error: err.message }, err.status)
+  if (err instanceof CourseRequestError) return json({ error: err.message }, err.status)
   console.error('unhandled API error:', err)
   return json({ error: 'サーバー側でエラーが発生しました' }, 500)
 }
@@ -190,6 +198,16 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
       return await handleSetCorrection(request, env, identity)
     case 'POST /api/admin/corrections/delete':
       return await handleDeleteCorrection(request, env, identity)
+    // コース利用リクエスト（worker/courseRequests.ts）。reports.ts と同じ自己完結の理由・
+    // 呼び分けの規則に従う（一般利用者向けは ensureActiveUser をここで先に呼ぶ）。
+    case 'POST /api/course-requests': {
+      const user = await ensureActiveUser(env, identity)
+      return await handleCreateCourseRequest(request, env, identity, user)
+    }
+    case 'GET /api/admin/course-requests':
+      return await handleListCourseRequests(env, identity)
+    case 'POST /api/admin/course-requests/resolve':
+      return await handleResolveCourseRequest(request, env, identity)
     default:
       return json({ error: 'そのようなエンドポイントはありません' }, 404)
   }
@@ -445,9 +463,11 @@ async function handleRemoveUser(request: Request, env: Env, identity: Identity):
   const sessionRevoked = await revokeUserSessions(env, email)
   if (purge) {
     await purgeUser(env, email)
-    // card_reports は行動ログ（見出し語・報告内容）を含むPIIなので、他のテーブル同様ここで消す
-    // （store.ts の purgeUser コメントと同じ理由——新設テーブルで「完全削除」の約束を破らない）
+    // card_reports・course_requests は行動ログ（見出し語・報告内容／リクエストしたコース）を
+    // 含むPIIなので、他のテーブル同様ここで消す（store.ts の purgeUser コメントと同じ理由——
+    // 新設テーブルで「完全削除」の約束を破らない。security-reviewer 指摘：この抜けは3件目）
     await deleteReportsForUser(env, email)
+    await deleteCourseRequestsForUser(env, email)
     // D1（本体）が確実に消えた後に R2 を消す。失敗しても purgeUser 自体は完了させる
     // （D1 と R2 は別APIで1トランザクションにできない。より重要な D1 側を先に確実に終わらせる）。
     // 失敗は observability 経由で Workers Logs に残る＝気づけないまま放置にはしない。

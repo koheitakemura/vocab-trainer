@@ -38,6 +38,23 @@ export const realRepository: CourseRepository = {
     }
     return cards
   },
+  /**
+   * プレビュー用の軽量版。manifest の先頭帯から順に fetch し、limit 件に達したら
+   * それ以降の帯は取りに行かない（getCards のように全帯を読むと、未割当コースを
+   * 覗いただけで数MB〜十数MBの帯域を消費してしまう＝vite.config.ts の方針に反する）。
+   * カテゴリー overlay はプレビューでは使わないので取得しない。
+   */
+  async getCardsPreview(id, limit) {
+    const manifest = await fetchJson<{ bands: string[] }>(`${BASE}/${id}/manifest.json`)
+    if (!manifest) return []
+    const cards: VocabCard[] = []
+    for (const band of manifest.bands) {
+      if (cards.length >= limit) break
+      const chunk = await fetchJson<VocabCard[]>(`${BASE}/${id}/${band}`)
+      if (chunk) cards.push(...chunk)
+    }
+    return cards.sort((a, b) => a.frequencyRank - b.frequencyRank).slice(0, limit)
+  },
 }
 
 /** real にデータがあればそれを、無ければ mock にフォールバックする合成リポジトリ */
@@ -53,6 +70,10 @@ export function withRealFallback(real: CourseRepository, mock: CourseRepository)
     async getCards(id: CourseId) {
       const cards = await real.getCards(id)
       return cards.length > 0 ? cards : mock.getCards(id)
+    },
+    async getCardsPreview(id: CourseId, limit: number) {
+      const cards = await real.getCardsPreview(id, limit)
+      return cards.length > 0 ? cards : mock.getCardsPreview(id, limit)
     },
   }
 }

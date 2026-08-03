@@ -45,9 +45,11 @@ export interface UIStrings {
   loadingStats: string
   loadingGrowth: string
 
-  // ── コース切替・ヘッダー landmark（CourseScreen.tsx）
+  // ── コース切替・ヘッダー landmark（CourseScreen.tsx・CoursePicker.tsx）
   selectCourseAria: string
   meterAria: string
+  /** 未割当コースの表示名に付ける接尾辞（select の見出し・各 option の両方に付く。例:" (Preview)"） */
+  coursePreviewSuffix: string
 
   // ── 端末内の表示名（CourseScreen.tsx。アカウント登録ではなく、同じ端末で使う人を
   //    区別するためのローカル専用ラベル。登録・変更は管理者画面からのみ行う——ここは
@@ -153,6 +155,22 @@ export interface UIStrings {
   reportSent: string
   reportQueued: string
   reportFailed: (message: string) => string
+
+  // ── 未割当コースのプレビュー（CoursePreviewScreen.tsx）。採点・保存は一切できない
+  //    読み取り専用の画面——先頭カードのサンプルを見せて「利用したい」を送るためだけの UI。
+  previewIntro: string
+  /** 「先頭 shown 件のサンプル」の件数表示。プレビューは先頭帯しか取得しないため、
+   *  コース全体の正確な語数は分からない（分かるふりをしない） */
+  previewCardCount: (shown: number) => string
+  previewRequestButton: string
+  previewRequesting: string
+  /** リクエストを新規に受け付けた */
+  previewRequestSent: string
+  /** 直前に自分が送った pending なリクエストが既にある */
+  previewAlreadyRequested: string
+  /** クライアントの割当キャッシュが古いだけで、実はもう使える状態だった */
+  previewAlreadyGranted: string
+  previewRequestFailed: (message: string) => string
 
   // ── 語根表示（StudyGrid.tsx・FocusSheet.tsx。タガログ語コース専用・VocabCard.root がある語だけ）
   rootLabel: string

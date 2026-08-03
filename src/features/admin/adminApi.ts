@@ -279,6 +279,30 @@ export function deleteCorrection(cardId: string): Promise<MutationResult> {
   })
 }
 
+/** 未割当コースのプレビュー画面から送られた「利用したい」リクエスト1件（worker/courseRequests.ts） */
+export interface CourseRequest {
+  id: number
+  at: string
+  email: string
+  courseId: string
+  status: 'pending' | 'approved' | 'dismissed'
+  resolvedAt: string | null
+  resolvedBy: string
+}
+
+export function fetchCourseRequests(): Promise<{ requests: CourseRequest[] }> {
+  return request('api/admin/course-requests')
+}
+
+/** approve でその人の allowedCourses に courseId を追加する。dismiss は記録だけ残して何もしない */
+export function resolveCourseRequest(id: number, action: 'approve' | 'dismiss'): Promise<MutationResult> {
+  return request('api/admin/course-requests/resolve', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, action }),
+  })
+}
+
 /**
  * 指定ユーザーの端末移行スナップショット（gzip バイト列）を取得する。
  * JSON を返す request() は使えない（本文がバイナリのため）ので、fetch を直接叩く。

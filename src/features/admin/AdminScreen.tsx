@@ -20,6 +20,7 @@ import { VocabMark } from '../../brand/Logo'
 import { fmtNum } from '../../text/format'
 import { WordRequests } from './WordRequests'
 import { CardReports } from './CardReports'
+import { CourseRequests } from './CourseRequests'
 import './admin.css'
 
 /**
@@ -236,6 +237,8 @@ export function AdminScreen() {
           </div>
         )}
       </section>
+
+      <CourseRequests />
 
       {data && data.unregistered.length > 0 && (
         <section className="admin-card">

@@ -16,6 +16,7 @@ export const ja: UIStrings = {
   // コース切替・ヘッダー landmark
   selectCourseAria: 'コースを選択',
   meterAria: '進捗',
+  coursePreviewSuffix: '（プレビュー）',
 
   // 端末内の表示名
   nameGreetingPrefix: (name) => `${name}さん、`,
@@ -133,6 +134,16 @@ export const ja: UIStrings = {
   reportSent: '報告しました。ありがとうございます。',
   reportQueued: 'オフラインのため、オンラインに戻ったら自動で送信します。',
   reportFailed: (message) => `送信できませんでした：${message}`,
+
+  // 未割当コースのプレビュー
+  previewIntro: 'これはプレビューです。リクエストする前にサンプルを確認できます。採点や進捗の保存はできません。',
+  previewCardCount: (shown) => `先頭${shown}語のサンプルを表示中`,
+  previewRequestButton: 'このコースの利用をリクエストする',
+  previewRequesting: '送信中…',
+  previewRequestSent: 'リクエストを送信しました。管理者が確認します。',
+  previewAlreadyRequested: 'すでにこのコースをリクエスト済みです。管理者が確認します。',
+  previewAlreadyGranted: 'このコースはすでに利用できます。もう一度切り替えてみてください。',
+  previewRequestFailed: (message) => `送信できませんでした: ${message}`,
 
   // 語根表示
   rootLabel: '語根',

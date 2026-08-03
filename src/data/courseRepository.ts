@@ -9,6 +9,12 @@ import { realRepository, withRealFallback } from './realRepository'
 export interface CourseRepository {
   getCourse(id: CourseId): Promise<Course>
   getCards(id: CourseId): Promise<VocabCard[]>
+  /**
+   * 未割当コースのプレビュー用。先頭 limit 件だけを返す軽量版——vite.config.ts の
+   * 「コース JSON はオンデマンドで選んだ分だけ」方針を守るため、getCards のように
+   * 全帯（コースによっては数MB）を取りに行かない（realRepository 側で先頭帯だけ fetch する）。
+   */
+  getCardsPreview(id: CourseId, limit: number): Promise<VocabCard[]>
 }
 
 export const mockRepository: CourseRepository = {
@@ -18,6 +24,12 @@ export const mockRepository: CourseRepository = {
   },
   async getCards(id) {
     return mockCards.filter((c) => c.courseId === id).sort((a, b) => a.frequencyRank - b.frequencyRank)
+  },
+  async getCardsPreview(id, limit) {
+    return mockCards
+      .filter((c) => c.courseId === id)
+      .sort((a, b) => a.frequencyRank - b.frequencyRank)
+      .slice(0, limit)
   },
 }
 

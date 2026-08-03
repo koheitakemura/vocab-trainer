@@ -3,7 +3,9 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import type { Course, CourseId, VocabCard } from './types'
 import { repository } from './data/courseRepository'
 import { CourseScreen } from './features/CourseScreen'
+import { CoursePreviewScreen } from './features/preview/CoursePreviewScreen'
 import { AVAILABLE_COURSES } from './data/courseRegistry'
+import { DEFAULT_BOARD_SIZE } from './features/study/boardSize'
 import { BootBrand, VocabLockup } from './brand/Logo'
 import { safeGet, safeSet } from './store/safeStorage'
 import { db } from './store/db'
@@ -56,14 +58,10 @@ export default function App() {
   const [retryNonce, setRetryNonce] = useState(0)
   const availableCourses = useAvailableCourses()
   const t = useStrings(uiLanguageOf(courseId))
-
-  // 割り当てが変わって選択中コースが使えなくなったら、使えるコースの先頭へ移す
-  useEffect(() => {
-    if (!availableCourses.some((c) => c.id === courseId)) {
-      safeSet(COURSE_ID_KEY, availableCourses[0].id)
-      setCourseId(availableCourses[0].id)
-    }
-  }, [availableCourses, courseId])
+  // 未割当コース＝プレビュー（読み取り専用）。選択自体は正式な状態なので、以前のような
+  // 「割当外へ強制的に戻す」リダイレクトはしない（未割当コースのプレビュー機能）。
+  const isPreview = useMemo(() => !availableCourses.some((c) => c.id === courseId), [availableCourses, courseId])
+  const allowedIds = useMemo(() => new Set(availableCourses.map((c) => c.id)), [availableCourses])
 
   const handleSelectCourse = (id: CourseId) => {
     safeSet(COURSE_ID_KEY, id)
@@ -85,9 +83,12 @@ export default function App() {
       // ここで catch しない限り「Loading…」のまま永久に固まる（実際に発生していたバグ）。
       // 2回目以降は Service Worker の precache が効くのでオフラインでもここには来ない。
       try {
+        // プレビュー（未割当コース）は先頭帯だけの軽量フェッチ——コース全体（コースによっては
+        // 数MB〜十数MB）を、覗いただけの未割当コースのために毎回取りに行かない
+        // （vite.config.ts の「コース JSON はオンデマンドで選んだ分だけ」方針を守る）。
         const [c, cs, corrections] = await Promise.all([
           repository.getCourse(courseId),
-          repository.getCards(courseId),
+          isPreview ? repository.getCardsPreview(courseId, DEFAULT_BOARD_SIZE) : repository.getCards(courseId),
           fetchCorrections(courseId),
         ])
         if (!active) return
@@ -106,7 +107,9 @@ export default function App() {
     return () => {
       active = false
     }
-  }, [courseId, retryNonce])
+    // isPreview を依存に含める：管理者の承認/剥奪が同一セッション中に同期されて割当が変わったとき、
+    // 正しい方（全件 or プレビュー用の先頭帯だけ）を取り直すため。
+  }, [courseId, retryNonce, isPreview])
 
   if (failed)
     return (
@@ -126,11 +129,20 @@ export default function App() {
         <BootBrand status={t.loading} />
       </div>
     )
-  return (
+  return isPreview ? (
+    <CoursePreviewScreen
+      course={course}
+      cards={cards}
+      allCourses={AVAILABLE_COURSES}
+      allowedIds={allowedIds}
+      onSelectCourse={handleSelectCourse}
+    />
+  ) : (
     <CourseScreen
       course={course}
       cards={cards}
-      courses={availableCourses}
+      allCourses={AVAILABLE_COURSES}
+      allowedIds={allowedIds}
       onSelectCourse={handleSelectCourse}
     />
   )

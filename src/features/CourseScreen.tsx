@@ -36,7 +36,7 @@ import { WordSearch } from './search/WordSearch'
 import { StatsPanel } from './stats/StatsPanel'
 import { GrowthPanel } from './growth/GrowthPanel'
 import { ThemeToggle } from '../theme/ThemeToggle'
-import { VocabLockup } from '../brand/Logo'
+import { CoursePicker } from './CoursePicker'
 import { DownloadIcon, UploadIcon } from '../ui/icons'
 import { SoundSettings } from './SoundSettings'
 import { BoardSizeSettings } from './study/BoardSizeSettings'
@@ -71,13 +71,16 @@ const TICK_STEP: Record<CourseId, number> = {
 export function CourseScreen({
   course,
   cards,
-  courses,
+  allCourses,
+  allowedIds,
   onSelectCourse,
 }: {
   course: Course
   cards: VocabCard[]
-  /** 選択可能なコース一覧（1件だけなら切替UIは出さない） */
-  courses: CourseListing[]
+  /** 選択肢として出す全コース（割当の有無を問わない。1件だけなら切替UIは出さない） */
+  allCourses: CourseListing[]
+  /** 割り当て済みコース ID の集合（CoursePicker が未割当コースにプレビュー接尾辞を付けるため） */
+  allowedIds: Set<CourseId>
   onSelectCourse: (id: CourseId) => void
 }) {
   const t = useStrings(course.uiLanguage)
@@ -465,36 +468,7 @@ export function CourseScreen({
     <div className="course-screen">
       <header className="topbar">
         <div className="course">
-          {/* 画面左上。ブランドをコース名と同じ行の左に、コース名と同じ大きさで置く。
-              マークは 26px なので 4×4 では潰れる＝compact（3×3）を使う */}
-          <div className="course-head">
-            <VocabLockup className="topbrand" size={26} variant="compact" />
-            {/* コースが1つしかない間はドロップダウンを出さず見出しのまま（選ぶ意味がないUIを避ける） */}
-            {courses.length > 1 ? (
-              // 見えている文字は span（今のコース名の幅ちょうど）、その上に透明な
-              // select を重ねる。select は最長の選択肢の幅になるので、そのまま出すと
-              // ▾ が文字から離れてしまうため。選択 UI は OS ネイティブのまま。
-              <span className="course-picker">
-                <span className="course-picker-label" aria-hidden="true">
-                  {course.title}
-                </span>
-                <select
-                  className="course-select"
-                  aria-label={t.selectCourseAria}
-                  value={course.id}
-                  onChange={(e) => onSelectCourse(e.target.value as CourseId)}
-                >
-                  {courses.map((c) => (
-                    <option key={c.id} value={c.id}>
-                      {c.title}
-                    </option>
-                  ))}
-                </select>
-              </span>
-            ) : (
-              <h1 className="course-name">{course.title}</h1>
-            )}
-          </div>
+          <CoursePicker course={course} allCourses={allCourses} allowedIds={allowedIds} onSelectCourse={onSelectCourse} />
           {/* 状況に応じて変わるコーチ・メッセージ（すべて端末内のデータから。外部送信なし）。
               日本語文（既習語だけで構成）のときは下に英訳を添える */}
           <div className="coach-block" key={coachMsg.text} aria-live="polite">

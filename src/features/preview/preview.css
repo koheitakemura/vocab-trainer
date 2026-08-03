@@ -1,0 +1,52 @@
+/* 未割当コースのプレビュー画面（CoursePreviewScreen.tsx）。index.css は編集せず、
+   この機能専用スタイルとして独立ファイルにしてある（admin.css・report.css と同じパターン）。
+   タイルまわりは index.css の .tile 系をそのまま流用するので、ここでは書かない。 */
+
+/* .course-screen は本来6行分の grid-template-rows（header/progress/milestone/tabs/main/footer）を
+   持つが、プレビューは header + body の2つしか使わない。row-sizing だけ上書きする
+   （padding・max-width・display:grid 等の共通部分は .course-screen のまま流用）。 */
+.preview-screen {
+  grid-template-rows: auto 1fr;
+}
+
+.preview-body {
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-content: start;
+}
+
+.preview-intro {
+  margin: 0;
+  max-width: 640px;
+  color: var(--text-dim);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.preview-count {
+  margin: -8px 0 0;
+  color: var(--text-faint);
+  font-size: 13px;
+}
+
+.preview-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.preview-result {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 14px;
+}
+
+.preview-result.error {
+  color: var(--again);
+}

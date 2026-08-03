@@ -17,6 +17,7 @@ export const en: UIStrings = {
   // コース切替・ヘッダー landmark
   selectCourseAria: 'Select course',
   meterAria: 'progress',
+  coursePreviewSuffix: ' (Preview)',
 
   // 端末内の表示名
   nameGreetingPrefix: (name) => `${name} — `,
@@ -134,6 +135,16 @@ export const en: UIStrings = {
   reportSent: 'Thanks — report sent.',
   reportQueued: "You're offline. We'll send this once you're back online.",
   reportFailed: (message) => `Couldn't send: ${message}`,
+
+  // 未割当コースのプレビュー
+  previewIntro: "This is a preview — take a look at a sample before you request access. You can't grade cards or save progress here.",
+  previewCardCount: (shown) => `Showing the first ${shown} words as a sample`,
+  previewRequestButton: 'Request access to this course',
+  previewRequesting: 'Sending…',
+  previewRequestSent: 'Request sent. An admin will review it.',
+  previewAlreadyRequested: "You've already requested this course. An admin will review it.",
+  previewAlreadyGranted: 'You already have access to this course — try switching to it again.',
+  previewRequestFailed: (message) => `Couldn't send the request: ${message}`,
 
   // 語根表示
   rootLabel: 'Root',
