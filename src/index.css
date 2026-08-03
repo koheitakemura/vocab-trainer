@@ -1997,13 +1997,20 @@ select option {
   border: 1px solid var(--border);
   border-radius: 14px;
   overflow: hidden;
-  min-width: 720px;
+  /* 全列（48+108+150+訳160+180+96）＋列間 12px×5＋左右 16px の合計。overflow:hidden なので
+     ここが足りないと狭い画面で右端の Status 列が切れる（カテゴリー列を 132→180px に広げた
+     ときに実際に切れた）。上の grid-template-columns を変えたらこの値も必ず合わせること。 */
+  min-width: 768px;
 }
 
+/* カテゴリー列は 132px→180px。全29ラベル中いちばん長い "Language & Communication"（152px）に
+   絵文字（font-size 14px でも実グリフ幅は約19px）＋隙間6px を足しても1行に収まる幅。
+   省略をやめて折り返す方針にしたとき、この列だけで全体の約1/4の行が2行になり表がガタついたため、
+   「よくある行は1行のまま・本当に長い訳語の行だけ伸びる」ようにここで吸収する。 */
 .aw-filter,
 .aw-row {
   display: grid;
-  grid-template-columns: 48px 108px 150px minmax(160px, 1fr) 132px 96px;
+  grid-template-columns: 48px 108px 150px minmax(160px, 1fr) 180px 96px;
   align-items: center;
   column-gap: 12px;
   padding: 0 16px;
@@ -2066,8 +2073,16 @@ select option {
   font-size: 13px;
 }
 
+/* 行の高さは固定しない（min-height）。訳語・読み・カテゴリーを「…」で省略せず全文出す方針
+   （Kohei 要望 2026-08-03）にしたので、長い語の行だけが必要なぶん自然に伸びる。
+   仮想スクロールは measureElement で1行ずつ実測しているため、可変高でも位置は追従する
+   （estimateSize:40 は初期見積もりのみ。AllWords.tsx の注記を参照）。
+   実測では PC 幅（訳の列 363px）で2行以上になるのは全コースで 0.4〜3.2% だけ＝
+   表の見た目はほぼ従来どおりのまま、切れていた語だけが読めるようになる。 */
 .aw-row {
-  height: 40px;
+  min-height: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   cursor: pointer;
   border-bottom: 1px solid rgba(38, 50, 80, 0.5);
   transition: background 0.12s ease;
@@ -2091,14 +2106,18 @@ select option {
 .aw-word {
   font-size: 19px;
   font-weight: 600;
+  /* 列幅（108px）に収まらない長い見出し語は折り返す。省略しないぶん、はみ出して
+     隣の列に重なるのを防ぐ必要がある（英語のような分割できない語のための anywhere）。 */
+  overflow-wrap: anywhere;
 }
 
+/* 読みは省略せず折り返す。漢字コースは音読み・訓読みを併記するため列幅 150px に
+   収まらない字が多い（ja-kanji-basic 24.5%／ja-kanji-advanced 22.6% が「…」で切れていた）。 */
 .aw-reading {
   font-size: 13px;
+  line-height: 1.35;
   color: var(--accent);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
 }
 
 .aw-romaji {
@@ -2106,12 +2125,12 @@ select option {
   color: var(--text-faint);
 }
 
+/* 訳語（この一覧の主役）。折り返して全文を出す＝学習カードの裏面（.tile-back）と同じ方針。 */
 .aw-gloss {
   font-size: 13px;
+  line-height: 1.35;
   color: var(--text-dim);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
 }
 
 .aw-cat {
@@ -2119,9 +2138,8 @@ select option {
   align-items: center;
   gap: 6px;
   font-size: 12px;
+  line-height: 1.3;
   color: var(--text-dim);
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 .aw-cat-emoji {
@@ -2130,9 +2148,9 @@ select option {
   flex: 0 0 auto;
 }
 
+/* カテゴリー名も省略しない（列幅 132px に対し "Demonstratives & Pronouns" 165px 等がはみ出していた）。 */
 .aw-cat-label {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
 }
 
 .aw-cat-none {
