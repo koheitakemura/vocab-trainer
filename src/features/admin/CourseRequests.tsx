@@ -114,7 +114,7 @@ export function CourseRequests() {
                           onClick={() =>
                             void run(async () => {
                               await resolveCourseRequest(r.id, 'approve')
-                              return `${r.email} に ${courseTitle(r.courseId)} を許可しました`
+                              return `Allowed ${r.email} to use ${courseTitle(r.courseId)}`
                             })
                           }
                         >
@@ -126,7 +126,7 @@ export function CourseRequests() {
                           onClick={() =>
                             void run(async () => {
                               await resolveCourseRequest(r.id, 'dismiss')
-                              return `${r.email} のリクエストを却下しました`
+                              return `Dismissed ${r.email}'s request`
                             })
                           }
                         >
