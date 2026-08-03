@@ -6,6 +6,7 @@ import { getRomaji } from '../../text/romaji'
 import { playTapSound } from '../../audio/tapSound'
 import type { BoardTile } from './useStudyBoard'
 import { TileMark } from './TileMark'
+import { headwordFitClass } from './headwordFit'
 import { useStrings, type UiLanguage } from '../../text/i18n'
 import { ReportButton } from '../report/ReportButton'
 
@@ -82,7 +83,7 @@ export function FocusSheet({
             // ── 文脈クローズ提示 ──
             revealed ? (
               <>
-                <div className="focus-hw">{c.headword}</div>
+                <div className={`focus-hw${headwordFitClass(c.headword)}`}>{c.headword}</div>
                 <div className="focus-reading">
                   {c.reading}
                   {romaji && <span className="focus-romaji"> · {romaji}</span>}
@@ -107,7 +108,7 @@ export function FocusSheet({
             )
           ) : (
             <>
-              <div className="focus-hw">{c.headword}</div>
+              <div className={`focus-hw${headwordFitClass(c.headword)}`}>{c.headword}</div>
               {revealed ? (
                 <>
                   <div className="focus-reading">

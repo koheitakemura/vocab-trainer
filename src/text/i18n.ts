@@ -100,6 +100,15 @@ export interface UIStrings {
   gradeKnown: string
   gradeFuzzy: string
   gradeStudying: string
+  /**
+   * 盤面タイルの採点ボタン用の短縮ラベル（スマホ2列のときだけ CSS で出し分ける）。
+   * 2列だとボタン1つの実寸が 46px しかなく、通常ラベル（"Studying" は 57px 必要）が
+   * 「Stud…」と省略され、どのボタンか読めなくなるため。フォーカスシート・凡例など
+   * 幅に余裕がある場所は通常ラベルのまま。
+   */
+  gradeKnownShort: string
+  gradeFuzzyShort: string
+  gradeStudyingShort: string
   mastered: string
 
   // ── 学習セッションの状態（StudyGrid.tsx）

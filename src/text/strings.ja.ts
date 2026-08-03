@@ -74,6 +74,9 @@ export const ja: UIStrings = {
   gradeKnown: '知ってる',
   gradeFuzzy: 'あいまい',
   gradeStudying: '学習中',
+  gradeKnownShort: '既知',
+  gradeFuzzyShort: '曖昧',
+  gradeStudyingShort: '学習',
   mastered: '習得済み',
 
   // 学習セッションの状態

@@ -5,6 +5,7 @@ import { gradeLevel } from '../../srs/levels'
 import { pickClozeExample } from '../../srs/cloze'
 import { useStudyBoard, type BoardTile, type GradeOutcome } from './useStudyBoard'
 import { useFitText } from './useFitText'
+import { headwordFitClass } from './headwordFit'
 import { getRomaji } from '../../text/romaji'
 import { playTapSound } from '../../audio/tapSound'
 import { FocusSheet } from './FocusSheet'
@@ -222,7 +223,7 @@ function Tile({
           // ── 文脈クローズ提示 ──
           flipped ? (
             <>
-              <div className="tile-hw sm">{c.headword}</div>
+              <div className={`tile-hw sm${headwordFitClass(c.headword)}`}>{c.headword}</div>
               <span className="tile-reading">
                 {c.reading}
                 {romaji && <span className="tile-romaji"> · {romaji}</span>}
@@ -245,7 +246,7 @@ function Tile({
           )
         ) : flipped ? (
           <>
-            <div className="tile-hw sm">{c.headword}</div>
+            <div className={`tile-hw sm${headwordFitClass(c.headword)}`}>{c.headword}</div>
             <span className="tile-reading">
               {c.reading}
               {romaji && <span className="tile-romaji"> · {romaji}</span>}
@@ -263,7 +264,7 @@ function Tile({
             </TileBack>
           </>
         ) : (
-          <div className="tile-hw">{c.headword}</div>
+          <div className={`tile-hw${headwordFitClass(c.headword)}`}>{c.headword}</div>
         )}
       </div>
       <div
@@ -279,14 +280,25 @@ function Tile({
             ボタンを例文の上に重ねる。1区画でないカード（例文なし・めくる前）は従来どおり常設。 */}
         {(!unified || overButtons) && (
           <div className="tile-levels">
-            <button type="button" className="tile-level lvl-good" onClick={() => fire(flipped ? 'good' : 'easy')}>
-              {t.gradeKnown}
+            {/* ラベルは通常版と短縮版の両方を描いて CSS（.tile-level-full / -short）で
+                出し分ける。スマホ2列ではボタン幅が 46px しかなく通常ラベルが省略記号で
+                潰れるため。読み上げには aria-label の通常ラベルだけが渡るようにする。 */}
+            <button
+              type="button"
+              className="tile-level lvl-good"
+              aria-label={t.gradeKnown}
+              onClick={() => fire(flipped ? 'good' : 'easy')}
+            >
+              <span className="tile-level-full">{t.gradeKnown}</span>
+              <span className="tile-level-short">{t.gradeKnownShort}</span>
             </button>
-            <button type="button" className="tile-level lvl-hard" onClick={() => fire('hard')}>
-              {t.gradeFuzzy}
+            <button type="button" className="tile-level lvl-hard" aria-label={t.gradeFuzzy} onClick={() => fire('hard')}>
+              <span className="tile-level-full">{t.gradeFuzzy}</span>
+              <span className="tile-level-short">{t.gradeFuzzyShort}</span>
             </button>
-            <button type="button" className="tile-level lvl-again" onClick={() => fire('again')}>
-              {t.gradeStudying}
+            <button type="button" className="tile-level lvl-again" aria-label={t.gradeStudying} onClick={() => fire('again')}>
+              <span className="tile-level-full">{t.gradeStudying}</span>
+              <span className="tile-level-short">{t.gradeStudyingShort}</span>
             </button>
           </div>
         )}

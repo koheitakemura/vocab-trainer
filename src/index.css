@@ -169,9 +169,12 @@ body {
   background: var(--border);
 }
 
-/* スマホではコース名（長い）と同居できないので、この行はマークだけにする。
-   アプリ名はホーム画面のアイコン名とタブのタイトルで足りている */
-@media (max-width: 620px) {
+/* スマホ・小さめのタブレットではコース名（長い）と同居できないので、この行はマークだけにする。
+   アプリ名はホーム画面のアイコン名とタブのタイトルで足りている。
+   閾値が 620px だったころは 621〜760px の帯でだけワードマークが残り、その分コース名が
+   「English 10,000 →…」と省略されていた（320〜1366px を横断で測って発見）。
+   760px は「ワードマークを出してもコース名が省略されない」最小幅に余裕を持たせた値。 */
+@media (max-width: 760px) {
   .topbrand .vt-wordmark {
     display: none;
   }
@@ -936,12 +939,16 @@ select option {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  /* 折り返し可にする。これが無いと min-content（横一列ぶんの幅）が親のグリッド列を
+     押し広げ、画面全体が横スクロールになる（.course-screen の minmax(0,1fr) とセット）。 */
+  flex-wrap: wrap;
 }
 
 .session-info {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .sync-status {
@@ -977,6 +984,7 @@ select option {
 .actions {
   display: flex;
   gap: 4px;
+  flex-wrap: wrap;
 }
 
 .link {
@@ -1043,13 +1051,40 @@ select option {
 @media (max-width: 560px) {
   .topbar {
     flex-direction: column;
+    /* 縦積みになったら 20px の gap は間延びして見える（コース名〜コーチ文〜数字が
+       ひと続きの情報なので詰めたほうが読みやすい） */
+    gap: 10px;
   }
   .meter {
     text-align: left;
     width: 100%;
+    min-width: 0;
   }
   .meter-head {
     justify-content: flex-start;
+  }
+}
+
+/* フッター（設定・同期状態・バックアップ）はスマホでは 2〜3 行に折り返す。
+   タップ目標も 44px 級へ広げる（指では 29px の文字リンクは押し分けられない）。 */
+@media (max-width: 620px) {
+  .statusbar {
+    justify-content: center;
+    row-gap: 4px;
+  }
+  .session-info,
+  .actions {
+    justify-content: center;
+    row-gap: 4px;
+  }
+}
+
+@media (pointer: coarse) {
+  .link {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
   }
 }
 
@@ -1062,12 +1097,27 @@ select option {
   display: grid;
   /* header / progress / milestone-chip / tabs / main / footer */
   grid-template-rows: auto auto auto auto 1fr auto;
+  /* 1列だが minmax(0, 1fr) を明示する。auto のままだと列トラックの幅が「行の中でいちばん
+     min-content が大きい要素」に引き上げられ、その1つ（.statusbar は横一列で min-content
+     587px）のせいで**画面全体**が 587px 幅になり、390px のスマホで全タブに横スクロールが
+     出ていた（＝コーチ文の右側が切れる・盤面が画面外へはみ出す）。0 を下限にすることで
+     トラックは常にビューポート幅に収まり、はみ出しは各要素の中で解決させる。 */
+  grid-template-columns: minmax(0, 1fr);
   gap: 20px;
 }
 
 @media (max-width: 720px) {
   .course-screen {
     padding: 32px 24px;
+  }
+}
+
+/* スマホ実機幅（390px）では左右 24px ずつが盤面の 2 列に効いてくるので詰める。
+   上下も詰めて、最初のカードが折り返し（画面の下端）より上に来る割合を増やす。 */
+@media (max-width: 620px) {
+  .course-screen {
+    padding: 18px 14px 24px;
+    gap: 14px;
   }
 }
 
@@ -1447,15 +1497,20 @@ select option {
   }
   .tab {
     white-space: nowrap;
-    padding: 9px 10px;
+    padding: 9px 8px;
   }
   .tab-tools {
     width: 100%;
     margin-bottom: 0;
     flex-wrap: wrap;
+    gap: 6px;
+  }
+  .cat-select-wrap {
+    flex: 1 1 116px;
+    min-width: 0;
   }
   .cat-select {
-    flex: 1;
+    width: 100%;
     max-width: none;
   }
   .tab-refresh-label {
@@ -1468,14 +1523,42 @@ select option {
   .word-search-input:focus {
     width: 100%;
   }
-  /* 常に自分の行いっぱいに折り返す（カテゴリー選択＋更新ボタンと1行に収めようとすると
-     390px 幅で横スクロールが出るため） */
+  /* カテゴリー選択・更新・検索を1行に収める（以前は横スクロールを避けるため検索だけ
+     100% で折り返していたが、横スクロールの真因は .statusbar で、そちらを直したので
+     3つとも同じ行に入る）。1行にすると縦を約44px節約でき、スマホでカードが1枚ぶん
+     早く画面に現れる。 */
   .word-search {
-    flex: 1 1 100%;
+    flex: 1 1 124px;
     min-width: 0;
   }
+  /* 検索結果は入力欄（実測153px）ではなくツール行いっぱいに出す。入力幅に合わせていたため
+     訳語の表示幅が 0〜30px しか残らず、**検索しても意味が読めない**状態だった。
+     .word-search の position を外して .tab-tools を位置決めの基準にする。 */
+  .tab-tools {
+    position: relative;
+  }
+  .word-search {
+    position: static;
+  }
   .word-search-results {
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+  /* 語・読み・訳を1行に押し込まず、訳語は自分の行へ回して全文出す */
+  .word-search-item {
+    flex-wrap: wrap;
+    row-gap: 1px;
+  }
+  .word-search-gloss {
+    flex: 1 1 100%;
+    white-space: normal;
+  }
+  /* 指で押す前提のサイズへ（12px文字＋6pxパディング＝約28px は狭すぎる） */
+  .cat-select,
+  .word-search-input,
+  .tab-refresh {
+    min-height: 38px;
   }
 }
 
@@ -1650,10 +1733,54 @@ select option {
 .tile-hw {
   font-size: 34px;
   font-weight: 600;
+  /* 分割できない長い語（pharmaceutical＝34px で 236px）はタイル幅を超えて左右が切れる。
+     英語のような語中で切れない語のために anywhere を使う（タイルは高さ固定なので、
+     2行になっても盤面は動かない）。 */
+  overflow-wrap: anywhere;
+  line-height: 1.1;
+  max-width: 100%;
 }
 
 .tile-hw.sm {
   font-size: 26px;
+}
+
+/* 長い見出し語だけ1〜2段小さくする（headwordFit.ts が字数から付ける）。
+   これが無いと "parliament"（10字）が "parliamen / t" のように語の途中で改行される。 */
+.tile-hw.hw-lg {
+  font-size: 27px;
+}
+.tile-hw.hw-xl {
+  font-size: 21px;
+}
+.tile-hw.sm.hw-lg {
+  font-size: 21px;
+}
+.tile-hw.sm.hw-xl {
+  font-size: 17px;
+}
+
+/* スマホの2列では内寸が約139pxしかなく、34px のままだと長めの語が軒並み2〜3行になる。
+   1段下げて「よくある語は1行・長い語だけ2行」に戻す。 */
+@media (max-width: 620px) {
+  .tile-hw {
+    font-size: 30px;
+  }
+  .tile-hw.sm {
+    font-size: 23px;
+  }
+  .tile-hw.hw-lg {
+    font-size: 23px;
+  }
+  .tile-hw.hw-xl {
+    font-size: 18px;
+  }
+  .tile-hw.sm.hw-lg {
+    font-size: 19px;
+  }
+  .tile-hw.sm.hw-xl {
+    font-size: 15px;
+  }
 }
 
 .tile-reading {
@@ -1969,6 +2096,11 @@ select option {
   background: color-mix(in srgb, var(--good) 10%, var(--surface));
 }
 
+/* 採点ボタンのラベルは通常版だけを見せ、短縮版は隠しておく（狭い画面で入れ替える）。 */
+.tile-level-short {
+  display: none;
+}
+
 /* タッチ端末・狭い画面では採点ボタンをタッチ目標サイズ（44px 以上）へ広げる。
    現行の約28pxは HIG/Material の推奨（44-48px）を大きく下回り、誤タップ＝誤採点
    （SRS の入力データ汚染）が構造的に起こるため。タイルは固定高さ方式（158px）なので、
@@ -1981,6 +2113,18 @@ select option {
     min-height: 44px;
     font-size: 12px;
     padding: 8px 4px;
+  }
+}
+
+/* 2列の盤面ではボタン1つの実寸が 46px しかなく、"Studying"（57px 必要）が「Stud…」に
+   潰れて何のボタンか読めなかった。この幅でだけ短縮ラベル（Know/Fuzzy/Study）に差し替える。
+   タイルの3列と違い、フォーカスシート（.focus-level）は幅に余裕があるので通常ラベルのまま。 */
+@media (max-width: 620px) {
+  .tile-level-full {
+    display: none;
+  }
+  .tile-level-short {
+    display: inline;
   }
 }
 
@@ -2216,6 +2360,101 @@ select option {
 .aw-exen {
   font-size: 12px;
   color: var(--text-dim);
+}
+
+/* ---------- All words：スマホは6列の表をやめて1語=1カードの積み上げにする ----------
+   横 768px の表を 390px の画面で見ると、最初の3列（#・語・読み）しか映らず、この一覧の
+   主役である**訳語が横スクロールしないと読めない**状態だった（右に 425px 隠れていた）。
+   DOM の並び（#・語・読み・訳・カテゴリー・状態）は変えずに grid-template-areas だけで
+   組み替えるので、仮想スクロール（measureElement の実測）もそのまま効く。
+
+       [#] headword            [status]
+           reading             [category]
+           gloss（全文・折り返し）
+*/
+@media (max-width: 620px) {
+  .allwords-scroll {
+    overflow-x: visible;
+  }
+  .allwords {
+    min-width: 0;
+  }
+  .aw-row {
+    grid-template-columns: 42px minmax(0, 1fr) auto;
+    grid-template-areas:
+      'num word status'
+      'num reading cat'
+      'num gloss gloss';
+    align-items: start;
+    column-gap: 8px;
+    row-gap: 2px;
+    padding: 9px 12px;
+  }
+  .aw-num {
+    grid-area: num;
+    /* 語の1行目とベースラインを合わせる（align-items:start だと上端で揃って浮いて見える） */
+    padding-top: 4px;
+  }
+  .aw-word {
+    grid-area: word;
+    font-size: 17px;
+  }
+  .aw-reading {
+    grid-area: reading;
+  }
+  .aw-gloss {
+    grid-area: gloss;
+    margin-top: 1px;
+  }
+  .aw-cat {
+    grid-area: cat;
+    justify-self: end;
+    text-align: right;
+    font-size: 11px;
+  }
+  .aw-pill {
+    grid-area: status;
+    justify-self: end;
+  }
+  /* 読みが無いコース（英語の一部）でも行がガタつかないよう、空の領域は詰める */
+  .aw-reading:empty {
+    display: none;
+  }
+
+  /* フィルター行（#・語・読み・訳・カテゴリー・状態）は 2 行に畳む */
+  .aw-filter {
+    grid-template-columns: 42px repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      'count word reading'
+      'count meaning meaning'
+      'count cat status';
+    row-gap: 6px;
+    column-gap: 8px;
+    padding: 8px 12px;
+  }
+  .aw-filter-count {
+    grid-area: count;
+    align-self: center;
+  }
+  .aw-filter .aw-fin:nth-of-type(1) {
+    grid-area: word;
+  }
+  .aw-filter .aw-fin:nth-of-type(2) {
+    grid-area: reading;
+  }
+  .aw-filter .aw-fin:nth-of-type(3) {
+    grid-area: meaning;
+  }
+  .aw-filter .aw-fsel:nth-of-type(1) {
+    grid-area: cat;
+  }
+  .aw-filter .aw-fsel:nth-of-type(2) {
+    grid-area: status;
+  }
+  .aw-fin,
+  .aw-fsel {
+    min-height: 36px;
+  }
 }
 
 /* ---------- Credits overlay ---------- */
@@ -2589,11 +2828,31 @@ select option {
   color: var(--mastered);
 }
 
+/* スマホでは「どのカテゴリーか」を読めることを最優先にする。以前の配分
+   （名前 1.3fr / バー 2fr）だと 390px 幅で全29ラベル中ほとんどが "People & Fam…" のように
+   途中で切れていた。バーは割合を大づかみに示す飾りなので固定 52px まで細らせ、
+   浮いた幅を名前へ回す。 */
+/* スマホでは横に4列（名前・バー・分数・％）を並べる余地が無く、以前の配分では全29ラベル中
+   ほとんどが "People & Fam…" のように切れていた。バーを行の下辺いっぱいへ敷く下線に変えると、
+   ①ラベルは全文出る ②割合は 34px の細切れバーより広い幅で読める ③行の高さは増えない。 */
 @media (max-width: 560px) {
   .cat-stat-row {
-    grid-template-columns: minmax(96px, 1.3fr) 2fr auto auto;
-    gap: 7px;
+    position: relative;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 8px;
     font-size: 11.5px;
+    padding-bottom: 8px;
+  }
+  .cat-stat-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    height: 3px;
+  }
+  .cat-stat-num,
+  .cat-stat-pct {
+    min-width: 0;
   }
 }
 
@@ -2710,6 +2969,17 @@ select option {
   font-weight: 700;
   line-height: 1.15;
   text-align: center;
+  /* シートのカード内寸は約300px。42px では "pharmaceutical" 等が収まらないので、
+     タイルと同じく字数で段階的に落とす（headwordFit.ts）。 */
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+
+.focus-hw.hw-lg {
+  font-size: 34px;
+}
+.focus-hw.hw-xl {
+  font-size: 27px;
 }
 
 .focus-reading {

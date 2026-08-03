@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { Course, CourseId, VocabCard } from '../../types'
 import type { CourseListing } from '../../data/courseRegistry'
 import { CoursePicker } from '../CoursePicker'
+import { headwordFitClass } from '../study/headwordFit'
 import { useStrings } from '../../text/i18n'
 import { CourseRequestRejected, requestCourseAccess } from '../../store/courseRequests'
 import './preview.css'
@@ -103,7 +104,7 @@ function PreviewTile({ card }: { card: VocabCard }) {
       >
         {flipped ? (
           <>
-            <div className="tile-hw sm">{card.headword}</div>
+            <div className={`tile-hw sm${headwordFitClass(card.headword)}`}>{card.headword}</div>
             {card.reading && <span className="tile-reading">{card.reading}</span>}
             <div className="tile-back">
               <div className="tile-gloss">{card.gloss}</div>
@@ -116,7 +117,7 @@ function PreviewTile({ card }: { card: VocabCard }) {
             </div>
           </>
         ) : (
-          <div className="tile-hw">{card.headword}</div>
+          <div className={`tile-hw${headwordFitClass(card.headword)}`}>{card.headword}</div>
         )}
       </div>
     </div>

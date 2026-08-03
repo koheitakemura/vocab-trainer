@@ -75,6 +75,9 @@ export const en: UIStrings = {
   gradeKnown: 'I know',
   gradeFuzzy: 'Fuzzy',
   gradeStudying: 'Studying',
+  gradeKnownShort: 'Know',
+  gradeFuzzyShort: 'Fuzzy',
+  gradeStudyingShort: 'Study',
   mastered: 'Mastered',
 
   // 学習セッションの状態
