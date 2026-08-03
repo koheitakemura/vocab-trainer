@@ -1,6 +1,6 @@
 import { db, emptySummary, isExtraCardId, summarize } from './db'
 import { BURN_STABILITY_DAYS, gradeCard, newCard, retrievabilityOf, State, type ReviewGrade } from '../srs/scheduler'
-import { approxLevelCounts, gradeLevel, isKnownRow, isPromotionToKnown } from '../srs/levels'
+import { isKnownRow, isPromotionToKnown, type GradeLevel } from '../srs/levels'
 import type { CourseId, DailyStat, MetaRow, VocabCard, WordProgress } from '../types'
 
 /** ローカル日付の YYYY-MM-DD（dailyStats のキー。深夜0時跨ぎは端末のローカル時刻基準） */
@@ -33,8 +33,26 @@ export interface ReviewOutcome {
  * 以後レビューキューに出ない（PLAN §3.3。3万語スケールのキュー管理の要）。
  * 同一トランザクションでコース別サマリ（ヘッダー用）と日次ログを増分更新する
  * ＝毎採点の追加コストは O(1)（語彙数に比例する処理を持たない）。
+ *
+ * levelCounts は呼び出し側（useStudyBoard）が確定させた値をそのまま書く——
+ * ここで独自に += しない（このページを表示している間に同じカードを再採点しても、
+ * 丸は最後の1回分だけが残る。連打のたびに += すると押した回数だけ丸が増えてしまうため）。
+ *
+ * baseline はこのページを開いた時点（＝このセッションで初めて触る前）の進捗行。
+ * FSRS の次回スケジュール（nextFsrs）は必ず baseline を起点に計算する——p.fsrs
+ * （直前の押下で書き込まれた「途中経過」）を起点にすると、同じページ表示中の
+ * 採点しなおしが毎回スケジュールに積み重なってしまう（例：Fuzzy→I know と押し直すと、
+ * I know を1回だけ押した場合と違う復習日になる）。baseline が無い（このコースで初めて
+ * 触るカード）ときは通常どおり p.fsrs（＝新規カードの初期値）を使う。
+ * それ以外（wasNew／prevGrade／prevR など）は直前の書き込みを見る従来どおりの計算で正しい
+ * （サマリの増減分・推定語彙数の増分がそれぞれの呼び出しの差分を足し込む設計のため）。
  */
-export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise<ReviewOutcome> {
+export async function recordReview(
+  card: VocabCard,
+  grade: ReviewGrade,
+  levelCounts: Record<GradeLevel, number>,
+  baseline?: WordProgress,
+): Promise<ReviewOutcome> {
   const now = new Date()
   const today = localDate(now)
   return db.transaction('rw', db.progress, db.summary, db.dailyStats, async () => {
@@ -57,7 +75,7 @@ export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise
       p.fsrs.state === State.Review &&
       p.fsrs.due.getTime() <= now.getTime() &&
       (!p.lastReviewedAt || localDate(new Date(p.lastReviewedAt)) !== today)
-    const nextFsrs = gradeCard(p.fsrs, grade, now)
+    const nextFsrs = gradeCard(baseline ? baseline.fsrs : p.fsrs, grade, now)
     // ステータスはボタンの意味に合わせる：Studying/Fuzzy=学習中、I know=習得（十分安定なら卒業）。
     // FSRS の state ではなく採点で決める＝短期ステップ無効化後も All words の色分けが直感どおりになる。
     const status: WordProgress['status'] =
@@ -67,8 +85,6 @@ export async function recordReview(card: VocabCard, grade: ReviewGrade): Promise
           ? 'burned'
           : 'known'
     const burnedNow = status === 'burned' && !wasBurned
-    const levelCounts = { ...approxLevelCounts(p) }
-    levelCounts[gradeLevel(grade)]++
     await db.progress.put({
       ...p,
       fsrs: nextFsrs,

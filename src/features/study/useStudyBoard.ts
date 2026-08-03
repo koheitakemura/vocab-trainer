@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import type { CourseType, VocabCard } from '../../types'
+import type { CourseType, VocabCard, WordProgress } from '../../types'
 import { db } from '../../store/db'
 import { localDate, recordReview, resetCourseProgress } from '../../store/progress'
-import { approxLevelCounts, emptyLevelCounts, gradeLevel, isPromotionToKnown, type GradeLevel } from '../../srs/levels'
+import { approxLevelCounts, gradeLevel, isPromotionToKnown, type GradeLevel } from '../../srs/levels'
 import { shouldClozePromote } from '../../srs/cloze'
-import type { ReviewGrade } from '../../srs/scheduler'
+import { newCard, type ReviewGrade } from '../../srs/scheduler'
 
 import { getBoardSize, onBoardSizeChange } from './boardSize'
 
@@ -60,6 +60,11 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
   // pendingQueue の同期ミラー。grade() は await を挟むため、state のクロージャだけに頼ると
   // 連打（再レンダー前の2打目）で1打目のキュー除去が巻き戻る＝セッションが完了不能になる。
   const queueRef = useRef<string[]>([])
+  // 盤面を組んだ時点（＝このページを開いた時点）の進捗行。カードごとの「丸」（levelCounts）と
+  // FSRS スケジュールの両方の起点として使う。同じページを表示している間に何度採点しなおしても、
+  // 丸は常にこの起点＋直近1回分に固定し、次回スケジュールもこの起点＋直近1回分だけで計算する
+  // （毎回 DB の最新値を起点にすると、連打のたびに丸が増え・スケジュールも積み重なってしまうため）。
+  const baselineProgressRef = useRef<Map<string, WordProgress>>(new Map())
   // 新規語の表示窓の開始位置。restart（Start another session）を押すたびに前へ進めて
   // 「未採点のまま押しても同じ16枚が出る」を防ぐ。総数で剰余＝一周したら先頭へ戻り取りこぼしなし。
   const newOffsetRef = useRef(0)
@@ -122,6 +127,8 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
       if (!active) return
       setTiles(sessionTiles)
       queueRef.current = sessionTiles.map((t) => t.card.id)
+      // progressById はこのコースの全進捗行（このページを開いた時点の値）＝そのまま起点として使える。
+      baselineProgressRef.current = progressById
       setPendingQueue(queueRef.current)
       setReviewed(0)
       setAgain(0)
@@ -148,13 +155,23 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
       if (!card) return { sparkle: false, gold: false, deltaR: 0, cardId: id, known: false }
 
       // マーク/色（grade）と状態は初回でも再採点でも更新。ボタンは常に残る。
-      // levelCounts はこのセッションでの体感が正（採点直後に丸へ即反映。recordReview の
-      // 確定値を待たない＝連打しても丸がすぐ増える）。
+      // levelCounts は baseline（このページを開いた時点の値）＋今回の1回だけ。
+      // 毎回 DB の最新値を起点にすると、このページを表示している間の連打・押し直しのたびに
+      // 丸が積み上がってしまう（採点直後に即反映させたい体感は baseline 起点でも変わらない）。
+      // このコースで初めて触るカードは盤面構築時点では progress 行が無い（＝baseline 未登録）ので、
+      // このページで最初に触った瞬間に新規カードの初期値を起点として一度だけ固定する
+      // （固定しないと、2回目以降の押し直しが「直前の押下結果」を起点にしてしまい、
+      // levelCounts と同じ理由で FSRS の次回スケジュールも積み重なってしまう）。
+      let baseline = baselineProgressRef.current.get(id)
+      if (!baseline) {
+        baseline = { cardId: card.id, courseId: card.courseId, status: 'new', fsrs: newCard(), reviewedCount: 0 }
+        baselineProgressRef.current.set(id, baseline)
+      }
+      const counts = { ...approxLevelCounts(baseline) }
+      counts[gradeLevel(g)]++
       setTiles((ts) =>
         ts.map((t) => {
           if (t.card.id !== id) return t
-          const counts = { ...(t.levelCounts ?? emptyLevelCounts()) }
-          counts[gradeLevel(g)]++
           return { ...t, state: g === 'again' ? 'again' : 'done', grade: g, levelCounts: counts }
         }),
       )
@@ -168,7 +185,7 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
         if (g === 'again') setAgain((n) => n + 1)
       }
 
-      const { wasNew, prevGrade, burnedNow, deltaR } = await recordReview(card, g)
+      const { wasNew, prevGrade, burnedNow, deltaR } = await recordReview(card, g, counts, baseline)
       // きらきら演出：未習語を始めた／Fuzzy・Studying → I know の前進／卒業（金色）。
       return {
         sparkle: wasNew || isPromotionToKnown(prevGrade, g) || burnedNow,
