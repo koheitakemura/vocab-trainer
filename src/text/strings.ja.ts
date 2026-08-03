@@ -117,6 +117,23 @@ export const ja: UIStrings = {
   nextCard: '次のカード →',
   close: '閉じる',
 
+  // カードの誤り報告
+  reportButton: '誤りを報告',
+  reportSheetTitle: 'このカードのどこが違いますか？',
+  reportReasonGloss: '訳が違う',
+  reportReasonReading: '読み・発音が違う',
+  reportReasonPos: '品詞が違う',
+  reportReasonExample: '例文がおかしい',
+  reportReasonInappropriate: 'このコースに合わない語',
+  reportReasonOther: 'その他',
+  reportNotePlaceholder: 'ひとこと（任意）',
+  reportSubmit: '報告する',
+  reportSubmitting: '送信中…',
+  reportCancel: 'キャンセル',
+  reportSent: '報告しました。ありがとうございます。',
+  reportQueued: 'オフラインのため、オンラインに戻ったら自動で送信します。',
+  reportFailed: (message) => `送信できませんでした：${message}`,
+
   // 語根表示
   rootLabel: '語根',
 

@@ -190,3 +190,30 @@ export interface AddedCard {
   addedAt: string
   card: VocabCard
 }
+
+/** カードの誤り報告の理由（worker/reports.ts の REPORT_REASONS と一致させる） */
+export type ReportReason = 'gloss' | 'reading' | 'pos' | 'example' | 'inappropriate' | 'other'
+
+/**
+ * 送信待ちのカード誤り報告（オフラインキュー。src/store/reports.ts）。
+ * 送信に失敗したら IndexedDB へ退避し、次回オンライン時に自動で再送する
+ * （進捗同期と同じ「握りつぶさず・でも画面は壊さない」方針。report を無言で消さない）。
+ * カードの中身は報告時点のスナップショットを丸ごと持つ——cardId だけで紐付けると、
+ * cardId が別の単語を指す事故（cardid-position-based-fragility）が起きたときに
+ * 「どの語のことか分からない報告」になるため。
+ */
+export interface PendingReport {
+  /** ローカル専用の連番（Dexie の自動採番）。サーバーには送らない */
+  id?: number
+  createdAt: string
+  courseId: CourseId
+  cardId: string
+  idEpoch: number
+  headword: string
+  reading: string
+  gloss: string
+  pos: string
+  examples: Example[]
+  reason: ReportReason
+  note: string
+}

@@ -118,6 +118,23 @@ export const en: UIStrings = {
   nextCard: 'Next card →',
   close: 'Close',
 
+  // カードの誤り報告
+  reportButton: 'Report an issue',
+  reportSheetTitle: "What's wrong with this card?",
+  reportReasonGloss: 'Translation is wrong',
+  reportReasonReading: 'Reading/pronunciation is wrong',
+  reportReasonPos: 'Part of speech is wrong',
+  reportReasonExample: 'Example sentence is wrong',
+  reportReasonInappropriate: "This word doesn't belong in this course",
+  reportReasonOther: 'Other',
+  reportNotePlaceholder: 'Add a note (optional)',
+  reportSubmit: 'Send report',
+  reportSubmitting: 'Sending…',
+  reportCancel: 'Cancel',
+  reportSent: 'Thanks — report sent.',
+  reportQueued: "You're offline. We'll send this once you're back online.",
+  reportFailed: (message) => `Couldn't send: ${message}`,
+
   // 語根表示
   rootLabel: 'Root',
 

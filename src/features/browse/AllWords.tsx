@@ -6,6 +6,7 @@ import { db } from '../../store/db'
 import { getRomaji } from '../../text/romaji'
 import { CATEGORIES, CATEGORY_BY_KEY, GROUP_LABEL, GROUP_ORDER } from '../../data/categories'
 import { useStrings, type UiLanguage, type UIStrings } from '../../text/i18n'
+import { ReportButton } from '../report/ReportButton'
 
 type StatusGroup = 'new' | 'learning' | 'known' | 'mastered'
 
@@ -219,6 +220,7 @@ export function AllWords({
                           <span className="aw-exen">{ex.translation}</span>
                         </div>
                       ))}
+                      <ReportButton card={c} uiLanguage={uiLanguage} className="aw-report" />
                     </div>
                   )}
                 </div>

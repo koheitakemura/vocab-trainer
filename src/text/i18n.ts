@@ -137,6 +137,23 @@ export interface UIStrings {
   nextCard: string
   close: string
 
+  // ── カードの誤り報告（ReportButton.tsx。FocusSheet の裏面・AllWords の展開行に置く）
+  reportButton: string
+  reportSheetTitle: string
+  reportReasonGloss: string
+  reportReasonReading: string
+  reportReasonPos: string
+  reportReasonExample: string
+  reportReasonInappropriate: string
+  reportReasonOther: string
+  reportNotePlaceholder: string
+  reportSubmit: string
+  reportSubmitting: string
+  reportCancel: string
+  reportSent: string
+  reportQueued: string
+  reportFailed: (message: string) => string
+
   // ── 語根表示（StudyGrid.tsx・FocusSheet.tsx。タガログ語コース専用・VocabCard.root がある語だけ）
   rootLabel: string
 

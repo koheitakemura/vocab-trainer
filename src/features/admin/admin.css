@@ -495,3 +495,35 @@ details.admin-card[open] > summary.admin-h2 {
   font-size: 12px;
   max-width: 320px;
 }
+
+/* ── カードの誤り報告（CardReports.tsx） */
+.report-log-row {
+  align-items: center !important;
+}
+
+.report-log-row select.admin-input,
+.report-log-row input.admin-input {
+  flex: 0 1 160px;
+}
+
+.correction-form .admin-hint {
+  flex: 1 1 100%;
+  margin: 0 0 4px;
+}
+
+.correction-examples {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.correction-example-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.correction-example-row .admin-input {
+  flex: 1 1 auto;
+}

@@ -1,6 +1,6 @@
 import Dexie, { type Table } from 'dexie'
 import type { ReviewGrade } from '../srs/scheduler'
-import type { AddedCard, CourseId, CourseSummary, DailyStat, MetaRow, WordProgress } from '../types'
+import type { AddedCard, CourseId, CourseSummary, DailyStat, MetaRow, PendingReport, WordProgress } from '../types'
 
 /**
  * 検索して追加した語の cardId かどうか（docs/word-request-design.md §3）。
@@ -30,6 +30,7 @@ export class VocabDB extends Dexie {
   dailyStats!: Table<DailyStat, [string, string]>
   meta!: Table<MetaRow, string>
   addedCards!: Table<AddedCard, string>
+  pendingReports!: Table<PendingReport, number>
 
   constructor() {
     super('vocab-trainer')
@@ -62,6 +63,11 @@ export class VocabDB extends Dexie {
     // 主キー=cardId、courseId で絞り込めるようインデックスを付ける（progress 系と同じ形）。
     this.version(4).stores({
       addedCards: 'cardId, courseId',
+    })
+    // v5: pendingReports（カードの誤り報告のオフライン送信キュー。src/store/reports.ts）。
+    // 主キーは Dexie の自動採番（++id）——サーバー側の card_reports.id とは無関係のローカル専用ID。
+    this.version(5).stores({
+      pendingReports: '++id',
     })
   }
 }

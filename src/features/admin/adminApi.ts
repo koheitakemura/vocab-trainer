@@ -208,6 +208,77 @@ export function deleteWordCard(cardId: string): Promise<MutationResult> {
   })
 }
 
+export interface ReportExample {
+  text: string
+  translation: string
+}
+
+export type ReportStatus = 'open' | 'planned' | 'fixed' | 'rejected'
+
+/** カードの誤り報告1件（docs/word-request-design.md。管理画面「カードの誤り報告」タブ） */
+export interface CardReport {
+  id: number
+  at: string
+  email: string
+  courseId: string
+  cardId: string
+  idEpoch: number
+  headword: string
+  reading: string
+  gloss: string
+  pos: string
+  examples: ReportExample[]
+  reason: string
+  note: string
+  status: ReportStatus
+  adminNote: string
+  updatedAt: string
+}
+
+export interface ReportsResponse {
+  reports: CardReport[]
+}
+
+export function fetchReports(): Promise<ReportsResponse> {
+  return request('api/admin/reports')
+}
+
+export function updateReportStatus(id: number, status: ReportStatus, adminNote: string): Promise<MutationResult> {
+  return request('api/admin/reports/status', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, status, adminNote }),
+  })
+}
+
+export interface CorrectionPayload {
+  courseId: string
+  cardId: string
+  headword: string
+  reading: string
+  gloss: string
+  pos: string
+  examples: ReportExample[]
+}
+
+/** 是正を確定（新規作成／更新とも同じエンドポイント。card_id が主キーなので upsert） */
+export function setCorrection(payload: CorrectionPayload): Promise<MutationResult> {
+  return request('api/admin/corrections', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+  })
+}
+
+/** 是正を取り消す（次回コース読み込みからは元のカードに戻る） */
+export function deleteCorrection(cardId: string): Promise<MutationResult> {
+  return request('api/admin/corrections/delete', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ cardId }),
+  })
+}
+
 /**
  * 指定ユーザーの端末移行スナップショット（gzip バイト列）を取得する。
  * JSON を返す request() は使えない（本文がバイナリのため）ので、fetch を直接叩く。

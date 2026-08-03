@@ -1,0 +1,88 @@
+/* カードの誤り報告（ReportButton.tsx）。index.css は編集せず、この機能専用スタイルとして
+   独立ファイルにしてある（admin.css と同じパターン）。 */
+
+.report-toggle {
+  border: none;
+  background: transparent;
+  color: var(--text-faint);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px 2px;
+  opacity: 0.75;
+}
+
+.report-toggle:hover {
+  color: var(--text-dim);
+  opacity: 1;
+}
+
+.report-widget {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface-2);
+  text-align: left;
+}
+
+.report-title {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 650;
+  color: var(--text);
+}
+
+.report-reasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-bottom: 8px;
+}
+
+.report-reason {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+
+.report-note {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  font: inherit;
+  font-size: 13px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.report-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.report-btn {
+  font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 10px;
+}
+
+.report-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.report-result.error {
+  color: var(--again);
+}

@@ -7,6 +7,7 @@ import { playTapSound } from '../../audio/tapSound'
 import type { BoardTile } from './useStudyBoard'
 import { TileMark } from './TileMark'
 import { useStrings, type UiLanguage } from '../../text/i18n'
+import { ReportButton } from '../report/ReportButton'
 
 /**
  * スマホ片手フォーカスモード（ボトムシート採点）。
@@ -131,6 +132,7 @@ export function FocusSheet({
               )}
             </>
           )}
+          {revealed && <ReportButton card={c} uiLanguage={uiLanguage} className="focus-report" />}
         </div>
         <div className="focus-levels">
           <button type="button" className="focus-level lvl-good" onClick={() => fire(revealed ? 'good' : 'easy')}>

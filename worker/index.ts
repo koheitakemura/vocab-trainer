@@ -40,6 +40,16 @@ import {
   parseWordGenInput,
 } from './validate'
 import { WordGenError, generateOrReuseCard } from './wordgen'
+import {
+  ReportError,
+  deleteReportsForUser,
+  handleCreateReport,
+  handleDeleteCorrection,
+  handleGetCorrections,
+  handleListReports,
+  handleSetCorrection,
+  handleUpdateReportStatus,
+} from './reports'
 
 /**
  * 管理者画面のバックエンド。
@@ -66,6 +76,7 @@ function errorResponse(err: unknown): Response {
   if (err instanceof CloudflareError) return json({ error: err.message }, err.status)
   if (err instanceof SnapshotError) return json({ error: err.message }, err.status)
   if (err instanceof WordGenError) return json({ error: err.message }, err.status)
+  if (err instanceof ReportError) return json({ error: err.message }, err.status)
   console.error('unhandled API error:', err)
   return json({ error: 'サーバー側でエラーが発生しました' }, 500)
 }
@@ -161,6 +172,24 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
       return await handlePromoteWordCard(request, env, identity)
     case 'POST /api/admin/word-requests/delete':
       return await handleDeleteWordCard(request, env, identity)
+    // カードの誤り報告＋管理者是正（worker/reports.ts。設計・自己完結の理由はファイル冒頭コメント参照）。
+    // 一般利用者向け2件は ensureActiveUser をここ（index.ts）のスコープで先に確認してから委譲する
+    // （reports.ts からは index.ts の private 関数を import できないため）。管理者向け4件は
+    // requireAdmin を各ハンドラ自身が呼ぶ（auth.ts からの import で完結するため self-contained にできる）。
+    case 'POST /api/reports':
+      await ensureActiveUser(env, identity)
+      return await handleCreateReport(request, env, identity)
+    case 'GET /api/corrections':
+      await ensureActiveUser(env, identity)
+      return await handleGetCorrections(env, url)
+    case 'GET /api/admin/reports':
+      return await handleListReports(env, identity)
+    case 'POST /api/admin/reports/status':
+      return await handleUpdateReportStatus(request, env, identity)
+    case 'POST /api/admin/corrections':
+      return await handleSetCorrection(request, env, identity)
+    case 'POST /api/admin/corrections/delete':
+      return await handleDeleteCorrection(request, env, identity)
     default:
       return json({ error: 'そのようなエンドポイントはありません' }, 404)
   }
@@ -416,6 +445,9 @@ async function handleRemoveUser(request: Request, env: Env, identity: Identity):
   const sessionRevoked = await revokeUserSessions(env, email)
   if (purge) {
     await purgeUser(env, email)
+    // card_reports は行動ログ（見出し語・報告内容）を含むPIIなので、他のテーブル同様ここで消す
+    // （store.ts の purgeUser コメントと同じ理由——新設テーブルで「完全削除」の約束を破らない）
+    await deleteReportsForUser(env, email)
     // D1（本体）が確実に消えた後に R2 を消す。失敗しても purgeUser 自体は完了させる
     // （D1 と R2 は別APIで1トランザクションにできない。より重要な D1 側を先に確実に終わらせる）。
     // 失敗は observability 経由で Workers Logs に残る＝気づけないまま放置にはしない。

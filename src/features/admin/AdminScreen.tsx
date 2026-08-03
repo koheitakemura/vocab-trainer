@@ -19,6 +19,7 @@ import { AVAILABLE_COURSES } from '../../data/courseRegistry'
 import { VocabMark } from '../../brand/Logo'
 import { fmtNum } from '../../text/format'
 import { WordRequests } from './WordRequests'
+import { CardReports } from './CardReports'
 import './admin.css'
 
 /**
@@ -265,6 +266,8 @@ export function AdminScreen() {
       )}
 
       <WordRequests />
+
+      <CardReports />
 
       <AdminLog />
     </div>
