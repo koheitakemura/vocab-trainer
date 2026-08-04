@@ -1054,6 +1054,12 @@ select option {
     /* 縦積みになったら 20px の gap は間延びして見える（コース名〜コーチ文〜数字が
        ひと続きの情報なので詰めたほうが読みやすい） */
     gap: 10px;
+    /* 横並びのときの align-items:flex-start（＝メーターと上端を揃えるための指定）は、
+       縦積みでは「幅を内容ぶんまでしか広げない／縮めない」の意味になる。その結果、
+       長いコース名（"Japanese Kanji (JLPT N3–N1)"）のコースでは .course が親の幅
+       292px を超えて 310px になり、320px級の端末で横スクロールが出ていた。
+       縦積みでは親の幅まで伸ばす＝コース名は省略記号で収まる。 */
+    align-items: stretch;
   }
   .meter {
     text-align: left;
@@ -1126,6 +1132,13 @@ select option {
   display: flex;
   gap: 6px;
   border-bottom: 1px solid var(--border);
+  /* タブ4つ（約360px）＋右のツール群（カテゴリー選択210＋更新151＋検索180＝557px）は
+     合わせて約917px 必要で、それ未満の幅では1行に収まらない。折り返しを許さないと
+     はみ出して**画面全体が横スクロール**する（621〜1000px の帯＝タブレット・分割表示で
+     実測 601px:315px / 881px:75px のはみ出し。b96067c 以前から存在した既存の不具合）。
+     十分広い画面では1行に収まるので、この指定は何も変えない。 */
+  flex-wrap: wrap;
+  row-gap: 8px;
 }
 
 .tab {
@@ -1371,6 +1384,17 @@ select option {
   position: relative;
   display: inline-flex;
   align-items: center;
+}
+
+/* 虫めがね＋入力欄だけを囲む枠。アイコンの位置決めはここが基準で、結果リストの
+   位置決めは外側の .word-search（スマホでは .tab-tools）が基準——2つの基準を
+   分けてあるので、結果リストを行いっぱいに広げてもアイコンは入力欄の中に残る。 */
+.word-search-field {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .word-search-icon {
@@ -1876,6 +1900,16 @@ select option {
 .tile.unified .tile-hw.sm {
   font-size: 22px;
   line-height: 1.2;
+}
+/* 長い見出し語の段階縮小（headwordFit.ts）は、この 1 区画状態でも効かせる必要がある。
+   上のセレクタは詳細度 (0,4,0) で、汎用の .tile-hw.sm.hw-lg (0,3,0) に勝ってしまうため、
+   ここで同じ入れ子の形で上書きする（これが無いと、めくった瞬間だけ長い語が
+   "pharmaceu / tical" と割れて戻る）。 */
+.tile.unified .tile-hw.sm.hw-lg {
+  font-size: 18px;
+}
+.tile.unified .tile-hw.sm.hw-xl {
+  font-size: 14px;
 }
 .tile.unified .tile-reading {
   font-size: 11px;
@@ -2411,6 +2445,12 @@ select option {
     justify-self: end;
     text-align: right;
     font-size: 11px;
+    /* 3列目は auto＝max-content まで先に伸びるトラックなので、長いカテゴリー名
+       （"Demonstratives & Pronouns" は1行で 161.6px）が minmax(0,1fr) の見出し語列を
+       押し潰す。320px 幅では語列が 45.9px まで縮み "communication" が4行に割れていた。
+       ここで上限を切ると、余った幅が見出し語側へ戻る（カテゴリー名は2行に折り返すだけで
+       全文は読めるまま＝省略しない方針は維持）。 */
+    max-width: 120px;
   }
   .aw-pill {
     grid-area: status;
@@ -2454,6 +2494,14 @@ select option {
   .aw-fin,
   .aw-fsel {
     min-height: 36px;
+  }
+}
+
+/* いちばん狭い端末（320px級）では上限 120px でも見出し語の列が 90px まで痩せるので、
+   カテゴリー名をもう一段折り返させて、空いた幅を語のほうへ回す。 */
+@media (max-width: 380px) {
+  .aw-cat {
+    max-width: 96px;
   }
 }
 

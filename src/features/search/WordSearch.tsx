@@ -137,28 +137,33 @@ export function WordSearch({
 
   return (
     <div className="word-search" ref={rootRef}>
-      <SearchIcon className="word-search-icon" />
-      <input
-        type="search"
-        className="word-search-input"
-        placeholder={t.searchPlaceholder}
-        aria-label={t.searchAria}
-        value={query}
-        onChange={(e) => {
-          setQuery(e.target.value)
-          setOpen(true)
-        }}
-        onFocus={() => setOpen(true)}
-        onKeyDown={(e) => {
-          if (e.key === 'Escape') {
-            setQuery('')
-            setOpen(false)
-            e.currentTarget.blur()
-          } else if (e.key === 'Enter' && results.length > 0) {
-            handleSelect(results[0].id)
-          }
-        }}
-      />
+      {/* 虫めがねは入力欄の中に重ねる＝この枠（position:relative）が位置の基準。
+          外側の .word-search はスマホで position:static にする（結果リストをタブの
+          ツール行いっぱいに出すため）ので、アイコンの基準をここに分けて持たせている。 */}
+      <span className="word-search-field">
+        <SearchIcon className="word-search-icon" />
+        <input
+          type="search"
+          className="word-search-input"
+          placeholder={t.searchPlaceholder}
+          aria-label={t.searchAria}
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value)
+            setOpen(true)
+          }}
+          onFocus={() => setOpen(true)}
+          onKeyDown={(e) => {
+            if (e.key === 'Escape') {
+              setQuery('')
+              setOpen(false)
+              e.currentTarget.blur()
+            } else if (e.key === 'Enter' && results.length > 0) {
+              handleSelect(results[0].id)
+            }
+          }}
+        />
+      </span>
       {open && q && (
         <div className="word-search-results" role="listbox">
           {results.map((c) => (
