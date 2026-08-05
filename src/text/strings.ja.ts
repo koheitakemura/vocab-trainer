@@ -247,6 +247,12 @@ export const ja: UIStrings = {
   allCategories: 'すべてのカテゴリー',
   studyByCategory: 'カテゴリー別に学習',
 
+  // 品詞選択
+  allPartsOfSpeech: 'すべての品詞',
+  studyByPos: '品詞別に学習',
+  noWordsForFilter: 'この絞り込みに合う語がありません。',
+  clearFilters: '絞り込みを解除',
+
   // クレジット
   creditsButton: 'クレジット',
   dataCredits: 'データクレジット',

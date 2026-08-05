@@ -251,6 +251,12 @@ export const en: UIStrings = {
   allCategories: 'All categories',
   studyByCategory: 'Study by category',
 
+  // 品詞選択
+  allPartsOfSpeech: 'All word types',
+  studyByPos: 'Study by word type',
+  noWordsForFilter: 'No words match these filters.',
+  clearFilters: 'Clear filters',
+
   // クレジット
   creditsButton: 'Credits',
   dataCredits: 'Data credits',

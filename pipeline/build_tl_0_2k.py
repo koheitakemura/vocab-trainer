@@ -98,12 +98,71 @@ POS_NORMALIZE = {
 }
 
 
+# 品詞タグの上書き表（見出し語 → 正しい品詞）。
+#
+# 前段のLLM生成（tl-content-batches）は品詞の判定を大きく外していた：タガログ語の動詞は
+# 辞書形が語根で、訳が「食べること」のように名詞的になるため、kain / inom / punta など
+# 動作語がことごとく「名詞」で入っていた（2026-08-05 実測: 全2,000語のうち「動詞」タグは
+# 26語だけ、しかも huwag・ayaw・maaari など動詞でない語が混在）。この状態では品詞別学習の
+# 「動詞」が使いものにならない。
+#
+# 修正を raw の生成物へ書き戻すのではなく**上書き表として別に持つ**理由:
+#   - tl-content-batches はLLM生成の一次成果物。書き換えると何が生成物で何が人手（AI）の
+#     修正かが混ざり、次に再生成したとき差分を追えなくなる
+#   - public/ の JSON を直接直すと、このスクリプトを流し直した瞬間に消える
+# tl-phrases-daily と同じく pipeline/data/<course>/ に置いて git 管理する。
+POS_OVERRIDES_PATH = "data/tl-0-2k/pos-overrides.json"
+
+
 def log(msg: str) -> None:
     print(f"[{time.strftime('%H:%M:%S')}] {msg}", flush=True)
 
 
 def normalize_pos(pos: str) -> str:
     return POS_NORMALIZE.get(pos, pos)
+
+
+def load_pos_overrides() -> dict[str, str]:
+    """見出し語 → 品詞 の上書き表。ファイルが無ければ空（上書きなしで従来どおり動く）。"""
+    if not os.path.exists(POS_OVERRIDES_PATH):
+        log("pos-overrides.json is absent — building without POS overrides")
+        return {}
+    with open(POS_OVERRIDES_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    log(f"pos overrides loaded: {len(data)} entries")
+    return data
+
+
+def apply_pos_overrides(records: list[dict]) -> None:
+    """
+    上書き表を当てる。キーは見出し語。
+
+    ⚠️ 同綴り別語（ホモグラフ・このコースに39見出し語ある）は同じキーに複数レコードが
+    ぶら下がるため、表の1件が両方に当たる。品詞まで食い違うホモグラフは実際には稀だが、
+    当たった件数をログに出して後から気づけるようにしておく（黙って両方書き換えない）。
+    """
+    overrides = load_pos_overrides()
+    if not overrides:
+        return
+    seen: dict[str, int] = defaultdict(int)
+    changed = 0
+    for r in records:
+        new_pos = overrides.get(r["headword"])
+        if not new_pos:
+            continue
+        seen[r["headword"]] += 1
+        if new_pos != r["pos"]:
+            r["pos"] = new_pos
+            changed += 1
+    multi = [hw for hw, n in seen.items() if n > 1]
+    log(f"pos overrides applied: {changed} records changed")
+    if multi:
+        log(f"  NOTE: {len(multi)} overridden headwords are homographs (override hit every entry): "
+            f"{', '.join(sorted(multi)[:10])}")
+    unused = [hw for hw in overrides if hw not in seen]
+    if unused:
+        log(f"  WARNING: {len(unused)} override entries matched no card (typo or dropped word?): "
+            f"{', '.join(sorted(unused)[:10])}")
 
 
 def load_skeleton() -> list[dict]:
@@ -224,6 +283,9 @@ def main():
     # ホモグラフのため歯抜けがあるので、出力では欠損を含まない連番にする）。
     for i, r in enumerate(merged, start=1):
         r["frequencyRank"] = i
+
+    # 品詞タグの上書き（定員切り捨て・連番振り直しの後＝実際に出荷する2,000語だけに当てる）
+    apply_pos_overrides(merged)
 
     errors = validate_records(merged)
     if errors:

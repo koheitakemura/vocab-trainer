@@ -47,6 +47,8 @@ import { InfoTooltip } from './InfoTooltip'
 import { MilestoneChip } from './MilestoneChip'
 import { MilestoneOverlay } from './MilestoneOverlay'
 import { CategorySelector } from './CategorySelector'
+import { PosSelector } from './PosSelector'
+import { posKeyOf } from '../data/partsOfSpeech'
 import { AdminEntry } from './admin/AdminEntry'
 import { pickCoachMessage } from './coach'
 import { useStrings } from '../text/i18n'
@@ -88,6 +90,8 @@ export function CourseScreen({
   const [tab, setTab] = useState<Tab>('study')
   // カテゴリー別学習：選択中カテゴリー（null=全体）。盤面に渡す cards をこのレンズで絞る。
   const [category, setCategory] = useState<string | null>(null)
+  // 品詞別学習：選択中の品詞キー（null=全体）。カテゴリーと重ねて使える（AND）。
+  const [pos, setPos] = useState<string | null>(null)
 
   // 検索して自分で追加した語（docs/word-request-design.md）。表示は自分だけ・この端末限定。
   // コース本体の cards とは別に持ち、学習盤面・単語一覧・検索用には先頭に足した mergedCards を、
@@ -95,10 +99,23 @@ export function CourseScreen({
   // cards を使い分ける——追加語がコースの「レベル感を示す数字」を汚さないようにするため。
   const addedCards = useLiveQuery(() => listAddedCards(course.id), [course.id], [] as VocabCard[])
   const mergedCards = useMemo(() => [...addedCards, ...cards], [addedCards, cards])
-  const studyCards = useMemo(
-    () => (category ? mergedCards.filter((c) => c.category === category) : mergedCards),
-    [mergedCards, category],
-  )
+  // 盤面に渡す語は「カテゴリー」と「品詞」の2枚のレンズを重ねて絞る（どちらも null＝全体）。
+  // 絞るのは学習盤面だけで、メーター・目盛り・被覆率・管理画面送信はコース全体のまま
+  // ——レンズは「今日どこを練習するか」であって、コースのレベル感を示す数字ではない。
+  const studyCards = useMemo(() => {
+    if (!category && !pos) return mergedCards
+    return mergedCards.filter(
+      (c) => (!category || c.category === category) && (!pos || posKeyOf(c.pos) === pos),
+    )
+  }, [mergedCards, category, pos])
+  // 2枚重ねると 0 件になる組み合わせが普通に起こる（例: 食べ物 × 副詞）。
+  // そのまま StudyGrid に渡すと「すべて完了！」＋進捗リセットボタンの画面が出て、
+  // 絞り込みの結果なのに「今日はもう終わり」と誤解させる（しかも誤タップで全消しできる）。
+  const filterEmpty = studyCards.length === 0 && (category !== null || pos !== null)
+  const clearFilters = useCallback(() => {
+    setCategory(null)
+    setPos(null)
+  }, [])
   const fileRef = useRef<HTMLInputElement>(null)
   const meterRef = useRef<HTMLDivElement>(null)
   const [bursts, setBursts] = useState<BurstSpec[]>([])
@@ -572,6 +589,7 @@ export function CourseScreen({
           {tab === 'study' && (
             <>
               <CategorySelector cards={mergedCards} selected={category} onSelect={setCategory} uiLanguage={course.uiLanguage} />
+              <PosSelector cards={mergedCards} selected={pos} onSelect={setPos} uiLanguage={course.uiLanguage} />
               <button
                 type="button"
                 className="tab-refresh"
@@ -648,7 +666,15 @@ export function CourseScreen({
             </div>
           </div>
         )}
-        {tab === 'study' ? (
+        {tab === 'study' && filterEmpty ? (
+          <div className="done">
+            <div className="done-emoji">🔍</div>
+            <h2>{t.noWordsForFilter}</h2>
+            <button className="btn primary" onClick={clearFilters}>
+              {t.clearFilters}
+            </button>
+          </div>
+        ) : tab === 'study' ? (
           <StudyGrid
             cards={studyCards}
             courseType={course.type}

@@ -280,6 +280,13 @@ export interface UIStrings {
   allCategories: string
   studyByCategory: string
 
+  // ── 品詞選択（PosSelector.tsx）
+  allPartsOfSpeech: string
+  studyByPos: string
+  /** カテゴリー×品詞の組み合わせで1語も残らなかったときの案内（盤面の代わりに出す） */
+  noWordsForFilter: string
+  clearFilters: string
+
   // ── クレジット（Credits.tsx）※チロムのみ。ライセンス本文（出典名・note・license 文字列自体）は翻訳しない
   creditsButton: string
   dataCredits: string
