@@ -1630,6 +1630,21 @@ select option {
   --tile-h-mobile: 250px;
 }
 
+/* 裏面のバランス調整（2026-08-05 Kohei指摘）：.tile-back が justify-content:center で
+   中身（訳・語根・返答例）を縦中央寄せするため、見出し語の直下とカード下端に同じだけ
+   大きな余白ができ「見出し語と訳の間が空きすぎ・上部は詰まっている」に見えていた。
+   見出し語側の余白を増やし、裏面の中身は上詰めにして直下の間隔を圧縮する。 */
+/* 詳細度を .tile.unified .tile-content（後方で padding を再定義）より確実に勝たせるため
+   .tile.phrase.unified まで含めて指定する。 */
+.tile.phrase .tile-content,
+.tile.phrase.unified .tile-content {
+  padding-top: 22px;
+}
+.tile.phrase.revealed .tile-back {
+  justify-content: flex-start;
+  padding-top: 7px;
+}
+
 /* フレーズの見出し語（FitHeadword）を収める枠。overflow:hidden をここに持たせて
    useFitText の scrollHeight/clientHeight 比較を機能させる（.tile-hw 自体は
    overflow-wrap:anywhere で折り返すだけ・高さの上限を持たないため）。 */

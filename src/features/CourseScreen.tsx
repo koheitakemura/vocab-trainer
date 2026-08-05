@@ -66,7 +66,7 @@ const TICK_STEP: Record<CourseId, number> = {
   'ja-3-10k': 500,
   'ja-10-30k': 1000,
   'en-10-30k': 1000,
-  'tl-phrases-daily': 5,
+  'tl-phrases-daily': 50,
 }
 
 export function CourseScreen({
