@@ -66,6 +66,7 @@ const TICK_STEP: Record<CourseId, number> = {
   'ja-3-10k': 500,
   'ja-10-30k': 1000,
   'en-10-30k': 1000,
+  'tl-phrases-daily': 5,
 }
 
 export function CourseScreen({
@@ -257,9 +258,10 @@ export function CourseScreen({
       safeSet(key, String(crossed))
     }
     // 全語開始（コース完了）は 500 刻みと別に一度だけ祝う。
-    // かなコース(ja-kana)は総数が500語未満で「次の節目=コース完了」に潰れ、
-    // coverageAt(=0-3k会話ドメイン専用)由来の被覆率%文言が意味を成さないため対象外にする。
-    if (course.type !== 'kana' && prev !== null && prev < total && cur >= total && total > 0)
+    // かなコース(ja-kana)・フレーズコース(tl-phrases-daily)は総数が500語未満で
+    // 「次の節目=コース完了」に潰れ、coverageAt(=0-3k会話ドメイン専用)由来の
+    // 被覆率%文言が意味を成さないため対象外にする。
+    if (course.type !== 'kana' && course.type !== 'phrase' && prev !== null && prev < total && cur >= total && total > 0)
       setOverlayMilestone(total)
   }, [started, course.id, total])
 
@@ -539,8 +541,8 @@ export function CourseScreen({
         </div>
       </div>
       {/* チップは情報テキストなので aria-hidden の飾りバーの外に置く（スクリーンリーダーにも読ませる） */}
-      {/* かなコース(ja-kana)は coverageAt 由来の被覆率%文言が意味を成さないため非表示 */}
-      {course.type !== 'kana' && (
+      {/* かなコース(ja-kana)・フレーズコース(tl-phrases-daily)は coverageAt 由来の被覆率%文言が意味を成さないため非表示 */}
+      {course.type !== 'kana' && course.type !== 'phrase' && (
         <MilestoneChip introduced={introduced} total={total} displayOffset={displayOffset} uiLanguage={course.uiLanguage} />
       )}
 

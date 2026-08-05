@@ -1,0 +1,28 @@
+{
+  "id": "tl-phrases-daily",
+  "title": "Tagalog Daily Phrases",
+  "learningLanguage": "Tagalog",
+  "glossLanguage": "Japanese",
+  "uiLanguage": "en",
+  "type": "phrase",
+  "band": {
+    "from": 0,
+    "to": 450
+  },
+  "idEpoch": 1,
+  "sources": [
+    {
+      "name": "AI生成（Claude, Anthropic）",
+      "url": "https://www.anthropic.com",
+      "license": "N/A",
+      "note": "フレーズ本文・読み・訳・語根分解・返答例は、場面設計（人手作成のスロット表）を元にAI生成し、独立した複数のAIによる多段検証（言語面・場面面）と裁定を経ている（判断ログ#36）。"
+    },
+    {
+      "name": "Tatoeba.org",
+      "url": "https://tatoeba.org",
+      "license": "CC BY 2.0 FR",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "note": "生成されたフレーズが実在の言い回しとして裏付けられるかの検証（attestation）に参照した。例文としては使用していない。"
+    }
+  ]
+}

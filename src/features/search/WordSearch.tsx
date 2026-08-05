@@ -169,7 +169,12 @@ export function WordSearch({
           {results.map((c) => (
             <button key={c.id} type="button" className="word-search-item" role="option" onClick={() => handleSelect(c.id)}>
               <span className="word-search-word">{c.headword}</span>
-              {c.reading && <span className="word-search-reading">{c.reading}</span>}
+              {c.reading && (
+                <span className="word-search-reading">
+                  {c.reading}
+                  {c.ipa && <span className="word-search-ipa"> {c.ipa}</span>}
+                </span>
+              )}
               <span className="word-search-gloss">{c.gloss}</span>
             </button>
           ))}
@@ -186,7 +191,12 @@ export function WordSearch({
                 +
               </span>
               <span className="word-search-word">{entry.headword}</span>
-              {entry.reading && <span className="word-search-reading">{entry.reading}</span>}
+              {entry.reading && (
+                <span className="word-search-reading">
+                  {entry.reading}
+                  {entry.ipa && <span className="word-search-ipa"> {entry.ipa}</span>}
+                </span>
+              )}
               <span className="word-search-gloss">{t.searchAddLabel}</span>
             </button>
           ))}

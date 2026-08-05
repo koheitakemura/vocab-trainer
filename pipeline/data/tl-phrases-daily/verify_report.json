@@ -1,0 +1,41 @@
+{
+ "totalCards": 450,
+ "integrity": {
+  "dupeSlotIds": [],
+  "missingSlotIds": [],
+  "extraSlotIds": [],
+  "dupeHeadwords": {}
+ },
+ "passedCount": 446,
+ "flaggedCount": 4,
+ "flagged": [
+  {
+   "slotId": "greetings-06",
+   "headword": "Kumusta? Ano'ng bago sa'yo?",
+   "reasons": [
+    "Tatoeba attestation 0件（実在の言い回しか要確認）"
+   ]
+  },
+  {
+   "slotId": "work-12",
+   "headword": "I-send ko sa'yo yung link ng meeting, mag-join ka na lang online.",
+   "reasons": [
+    "語彙ゲート低め(既習語カバレッジ38%)"
+   ]
+  },
+  {
+   "slotId": "work-16",
+   "headword": "Pwede ka bang mag-take ng minutes ngayong meeting natin?",
+   "reasons": [
+    "語彙ゲート低め(既習語カバレッジ30%)"
+   ]
+  },
+  {
+   "slotId": "work-63",
+   "headword": "Guys, ito si Anna, ang bago nating teammate—sana matulungan niyo siyang mag-adjust.",
+   "reasons": [
+    "語彙ゲート低め(既習語カバレッジ36%)"
+   ]
+  }
+ ]
+}

@@ -73,4 +73,10 @@ export const AVAILABLE_COURSES: CourseListing[] = [
     learningLanguage: 'English',
     uiLanguage: 'en',
   },
+  {
+    id: 'tl-phrases-daily',
+    title: 'Tagalog Daily Phrases (Pilot)',
+    learningLanguage: 'Tagalog',
+    uiLanguage: 'en',
+  },
 ]

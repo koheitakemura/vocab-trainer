@@ -75,6 +75,11 @@ def assign_ids(
 
     persist=False にすると、レジストリを書き換えずに採番結果だけ見られる（dry-run 用）。
     strict=True でドリフトを検知したら、レポートを出して SystemExit(1) する。
+
+    record に任意の "idKey" があれば、(headword, reading) の代わりにそれをキーにする。
+    表層テキスト（見出し語・アクセント表記）の推敲が前提のコース（例: フレーズ集）向け——
+    文言を直しても cardId が動かない。"idKey" を持たない既存コースの挙動は完全に不変
+    （content_key の2引数版そのままなので id_registry.py 側の変更は不要）。
     """
     reg = load_registry(course_id, pipeline_root)
     if reg is None:
@@ -87,20 +92,23 @@ def assign_ids(
 
     for r in records:
         headword, reading = r.get("headword"), r.get("reading")
+        id_key = r.get("idKey")
+        key_head = id_key or headword
+        key_read = "" if id_key else reading
         gloss, rank = r.get("gloss"), r.get("frequencyRank")
-        found = reg.lookup(headword, reading, gloss, rank)
+        found = reg.lookup(key_head, key_read, gloss, rank)
         if found is not None:
             ids.append(found)
             used_ids.add(found)
             report.reused += 1
             continue
         new_id = reg.next_id()
-        reg.add(headword, reading, gloss, new_id, rank)
+        reg.add(key_head, key_read, gloss, new_id, rank)
         ids.append(new_id)
         used_ids.add(new_id)
         report.new += 1
         if len(report.new_samples) < 5:
-            report.new_samples.append(f"{norm(headword)}({new_id})")
+            report.new_samples.append(f"{norm(key_head)}({new_id})")
 
     for e in reg.entries:
         if e["id"] in known_ids and e["id"] not in used_ids:

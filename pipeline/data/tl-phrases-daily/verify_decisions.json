@@ -1,0 +1,2046 @@
+[
+ {
+  "slotId": "greetings-18",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang umaga po! Maligayang pagdating po sa unang araw ninyo dito sa amin.",
+   "reading": "Magandang umaga po! Maligayang pagdatíng po sa unang araw ninyo dito sa amin.",
+   "gloss": "おはようございます!ここでの初日にようこそ(新入社員初日への温かい歓迎)",
+   "pos": "歓迎(初日・丁寧)",
+   "root": "maligayang pagdating(ようこそ) / sa unang araw(初日に)+ninyo(あなたの)",
+   "examples": [
+    {
+     "text": "Salamat po! Nasasabik po akong magsimula.",
+     "translation": "ありがとうございます!始めるのが楽しみです"
+    },
+    {
+     "text": "Uy, maligayang pagdating sa amin!",
+     "translation": "ようこそ、私たちのところへ!(カジュアルバージョン)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-38",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Maraming salamat po sa oras ninyo ngayon. Mag-ingat po kayo sa pag-uwi.",
+   "reading": "Marámíng salámat pô sa óras ninyó ngayón. Mag-ingát pô kayó sa pag-uwî.",
+   "gloss": "本日はお時間をいただきありがとうございました。お気をつけてお帰りください。（面接終了時のねぎらい）",
+   "pos": "挨拶（面接終了）",
+   "root": "maraming salamat=ありがとうございます / oras=時間 / mag-ingat=気をつける",
+   "examples": [
+    {
+     "text": "Salamat din po, Sir. Aabangan ko po ang update ninyo.",
+     "translation": "こちらこそありがとうございます。ご連絡お待ちしております。"
+    },
+    {
+     "text": "Salamat sa oras mo ngayon, ingat sa pag-uwi.",
+     "translation": "今日は時間をありがとう、気をつけて帰ってね。（カジュアル言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-41",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Salamat po sa tawag. Mag-ingat po kayo, paalam po.",
+   "reading": "Salámat pô sa táwag. Mag-ingát pô kayó, paalám pô.",
+   "gloss": "お電話ありがとうございました。お気をつけて、失礼いたします。（電話終了時の挨拶）",
+   "pos": "挨拶（電話終了）",
+   "root": "salamat=ありがとう / tawag=電話 / paalam=さようなら",
+   "examples": [
+    {
+     "text": "Salamat din po, Sir Kohei. Ingat po kayo, paalam.",
+     "translation": "こちらこそありがとうございます。お気をつけて、失礼します。"
+    },
+    {
+     "text": "Okay, salamat sa tawag, ingat ka, sige na!",
+     "translation": "じゃあ、電話ありがとう、気をつけてね、またね！（カジュアル言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-44",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Uy, nandito na ulit ako! Sabik na sabik akong makasama kayong muli!",
+   "reading": "Uy, nandíto na ulít akó! Sabík na sabík akóng makasáma kayóng mulî!",
+   "gloss": "やあ、また戻ってきたよ！みんなにまた会えて嬉しいよ！（出張明けの出社挨拶）",
+   "pos": "挨拶（出張明け）",
+   "root": "nandito=ここにいる / ulit=再び / sabik=待ち望んでいる",
+   "examples": [
+    {
+     "text": "Uy, balik na pala! Kamusta ang biyahe mo?",
+     "translation": "あ、戻ってきたんだ！出張はどうだった？"
+    },
+    {
+     "text": "Nandito na po ako ulit, masaya po akong makasama kayong muli.",
+     "translation": "また戻って参りました、皆さんとまたご一緒できて嬉しいです。（丁寧言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-45",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Sige, una na ako. Ingat kayo sa pauwi, magandang gabi!",
+   "reading": "Sígè, úna na akó. Íngat kayó sa paúwî, magandáng gabí!",
+   "gloss": "じゃあ、お先に。気をつけて帰ってね、おやすみ！（夜遅くの別れの挨拶）",
+   "pos": "別れの挨拶（夜）",
+   "root": "una=先に / ingat=気をつけて / magandang gabi=おやすみなさい",
+   "examples": [
+    {
+     "text": "Sige, ingat ka rin! Magkita na lang tayo ulit sa Lunes.",
+     "translation": "うん、君も気をつけてね！また月曜日に会おう。"
+    },
+    {
+     "text": "Aalis na po ako, mag-ingat po kayo, magandang gabi po.",
+     "translation": "私はこれで失礼します、お気をつけて、おやすみなさい。（丁寧言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-33",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ang saya-saya mo yata ngayon ah, may magandang balita ka ba?",
+   "reading": "Ang sayá-sáya mo yatâ ngayón ah, may magandáng balità ka ba?",
+   "gloss": "今日はやけに嬉しそうだね、何かいいことあった？（元気そうな様子を話題のきっかけにする）",
+   "pos": "様子を気遣う（元気そう）",
+   "root": "saya=嬉しい / yata=〜みたいだね / magandang balita=良い知らせ",
+   "examples": [
+    {
+     "text": "Ay, alam mo ba, na-promote ako kanina!",
+     "translation": "あ、実はさっき昇進したんだ！"
+    },
+    {
+     "text": "Ang ganda ng mood mo ngayon, may nangyari ba?",
+     "translation": "今日は機嫌よさそうだね、何かあった？（言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-39",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kumusta, Kuya! Ang init naman ngayon, ano?",
+   "reading": "Kumustá, Kúya! Ang inít namán ngayón, anò?",
+   "gloss": "こんにちは、兄さん！今日は暑いね。（顔なじみの警備員への軽い挨拶）",
+   "pos": "挨拶（顔なじみ）",
+   "root": "kumusta=こんにちは / kuya=お兄さん（呼びかけ） / init=暑い",
+   "examples": [
+    {
+     "text": "Oo nga po, Sir! Mag-ingat po kayo sa init.",
+     "translation": "そうですね！暑さに気をつけてくださいね。"
+    },
+    {
+     "text": "Uy Kuya, mainit talaga ngayon ah.",
+     "translation": "やあ兄さん、今日は本当に暑いね。（言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-34",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ayos lang po ba kayo? Medyo maputla po yata kayo ngayon.",
+   "reading": "Áyos lang pô ba kayó? Médyo maputlâ pô yatâ kayó ngayón.",
+   "gloss": "大丈夫ですか？今日は少し顔色が悪いようですが。（体調をさりげなく気遣う）",
+   "pos": "様子を気遣う（体調）",
+   "root": "ayos=大丈夫 / maputla=顔色が悪い（青白い） / yata=〜のようだ",
+   "examples": [
+    {
+     "text": "Ay, medyo hindi lang po ako masyadong maayos ngayon, pero okay lang po.",
+     "translation": "あ、今日はちょっと調子が良くないんですが、大丈夫です。"
+    },
+    {
+     "text": "Sigurado ka bang okay ka lang? Mukha kang di maganda ang pakiramdam.",
+     "translation": "本当に大丈夫？体調悪そうに見えるけど。（カジュアル言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-10",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ayos lang po ba kayo? Mukhang hindi po maganda ang pakiramdam ninyo.",
+   "reading": "Áyos lang pô ba kayó? Mukhâng hindî pô magandá ang pakiramdám ninyó.",
+   "gloss": "大丈夫ですか？体調があまり良くないようですが。（体調不良の心配）",
+   "pos": "心配（体調）",
+   "root": "ayos=大丈夫 / mukhang=〜のようだ / pakiramdam=気分・体調",
+   "examples": [
+    {
+     "text": "Medyo masakit lang po ang ulo ko, pero okay lang po ako.",
+     "translation": "少し頭が痛いだけです、でも大丈夫です。"
+    },
+    {
+     "text": "Ayos ka lang ba? Mukha kang di maganda pakiramdam ngayon.",
+     "translation": "大丈夫？なんか今日調子悪そうだね。（カジュアル言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-09",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Paumanhin po sa biglaang pagbabago ng oras ng ating pakikipanayam.",
+   "reading": "Paumanhín pô sa bigláang pagbabágo ng óras ng áting pakikipanayám.",
+   "gloss": "面談の時間を急に変更することになり申し訳ございません。（予定変更のお詫び）",
+   "pos": "謝罪（予定変更）",
+   "root": "paumanhin=すみません / biglaan=急な（bigla=急に） / pagbabago=変更 / pakikipanayam=面談",
+   "examples": [
+    {
+     "text": "Wala po iyong problema, maiintindihan ko po iyon.",
+     "translation": "問題ありません、理解しております。"
+    },
+    {
+     "text": "Pasensya ka na sa biglaang pagbabago ng oras natin.",
+     "translation": "急な時間変更でごめんね。（カジュアル言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-37",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ikinagagalak ko pong makilala kayo.",
+   "reading": "Ikinagágalák ko pông makilála kayó.",
+   "gloss": "お会いできて光栄です。（初対面の握手時の一言）",
+   "pos": "挨拶（初対面）",
+   "root": "ikinagagalak=嬉しく思う / makilala=知り合う",
+   "examples": [
+    {
+     "text": "Ikinagagalak ko rin pong makilala kayo, Sir Kohei.",
+     "translation": "こちらこそお会いできて光栄です、コウヘイさん。"
+    },
+    {
+     "text": "Masaya akong makilala ka.",
+     "translation": "会えて嬉しいよ。（カジュアル言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-16",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ay, huwag mo nang isipin nang masyado 'yan. Lahat naman tayo nagkakamali. Kayâ mo 'to!",
+   "reading": "Ay, huwag mo nang isipín nang masyádo 'yan. Lahat namán tayo nagkakamali. Kayâ mo 'to!",
+   "gloss": "あぁ、そんなに気にしなくていいよ。誰だってミスはするもの。大丈夫、乗り越えられるよ！（落ち込む同僚を励ます・カジュアル）",
+   "pos": "励まし",
+   "root": "huwag=するな、isipin=気にする、masyado=あまりに、lahat=全員、nagkakamali=間違える、kayâ mo=あなたにできる",
+   "examples": [
+    {
+     "text": "Salamat talaga. Medyo bad trip lang ako kanina eh.",
+     "translation": "本当にありがとう。さっきはちょっと凹んでただけ。"
+    },
+    {
+     "text": "Huwag mo pong isipin nang masyado 'yan, normal lang po magkamali.",
+     "translation": "あまり気にしすぎないでくださいね、間違えるのは普通のことですから。（丁寧バージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-24",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Binabati ko po kayo sa inyong pagtaas ng ranggo! Karapat-dapat na karapat-dapat po ito, nakikita ko po naman talaga ang sipag ninyo.",
+   "reading": "Binabati ko po kayó sa inyóng pagtaas ng ranggó! Karapat-dápat na karapat-dápat po ito, nakikita ko po namán talagá ang sipag ninyo.",
+   "gloss": "昇進、おめでとうございます！これは本当にふさわしいことです、あなたの頑張りをちゃんと見ていましたよ（昇進祝い・丁寧）",
+   "pos": "お祝い",
+   "root": "binabati=祝う、pagtaas ng ranggo=昇進、karapat-dapat=ふさわしい、sipag=勤勉さ",
+   "examples": [
+    {
+     "text": "Maraming salamat po, sir. Dahil din po ito sa patnubay n'yo.",
+     "translation": "本当にありがとうございます。これも先輩のご指導のおかげです。"
+    },
+    {
+     "text": "Grabe, binabati talaga kita! Sobrang bagay sa 'yo ang bagong posisyon mo.",
+     "translation": "うわ、本当におめでとう！その新しい役職、君にぴったりだよ。（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-46",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Salamat po sa lagi ninyong pagmamalasakit at pag-aalala sa akin.",
+   "reading": "Salamat pô sa lagi ninyong pagmamalasakit at pag-aalala sa akin.",
+   "gloss": "いつも気を配ってくださりありがとうございます（アシスタントへの日頃の感謝）",
+   "pos": "感謝（気配りへのお礼）",
+   "root": "salamat=ありがとう／po=丁寧マーカー／lagi=いつも／pagmamalasakit=気配り／pag-aalala=心配・気にかけること／akin=私(に)",
+   "examples": [
+    {
+     "text": "Wala pong anuman, Sir Kohei. Nandito lang po ako para tumulong.",
+     "translation": "とんでもないです、Koheiさん。お役に立てて何よりです。"
+    },
+    {
+     "text": "Salamat ha, lagi mo naman akong inaalala.",
+     "translation": "ありがとうね、いつも気にかけてくれて。（カジュアルな言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-47",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Nakikita ko po ang saya ninyo, at natutuwa rin po ako para sa inyo!",
+   "reading": "Nakikita ko po ang saya ninyo, at natutuwa rin pô ako para sa inyo!",
+   "gloss": "喜んでいらっしゃる様子が伝わってきて、私も嬉しいです（内定を伝えた際の候補者の反応を見て）",
+   "pos": "喜びの共有（内定反応）",
+   "root": "nakikita=見える／saya=喜び／natutuwa=嬉しい／para sa inyo=あなたのために",
+   "examples": [
+    {
+     "text": "Salamat po talaga, hindi ko po alam kung paano ipapahayag ang tuwa ko ngayon!",
+     "translation": "本当にありがとうございます、この嬉しさをどう表現していいか分かりません！"
+    },
+    {
+     "text": "Grabe, nakikita kong sobrang saya mo, natutuwa din ako para sa'yo!",
+     "translation": "すごい、めちゃくちゃ嬉しそうだね、私も嬉しいよ！（カジュアルな言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-48",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Huwag po kayong masyadong malungkot, marami pa po ang pagkakataong darating para sa inyo.",
+   "reading": "Huwag pô kayong masyadong malungkot, marami pa pô ang pagkakataong darating para sa inyo.",
+   "gloss": "あまり気を落とさないでください、これからもっと良い機会がきっとあります（不採用を伝えた後の励まし）",
+   "pos": "励まし（不採用フォロー）",
+   "root": "huwag=〜しないで／malungkot=悲しい／marami=たくさん／pagkakataon=機会／darating=来る",
+   "examples": [
+    {
+     "text": "Salamat po sa pag-unawa, susubukan ko pong maghanap ng ibang pagkakataon.",
+     "translation": "ご理解ありがとうございます、他の機会を探してみます。"
+    },
+    {
+     "text": "Wag kang malungkot masyado, may mas magandang lalapit pa sa'yo.",
+     "translation": "あまり落ち込まないで、もっと良い話がきっと来るよ。（カジュアルな言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-06",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Congrats sa promotion mo! Sigurado akong magtatagumpay ka pa dito.",
+   "reading": "Congrats sa promotion mo! Sigurado akong magtatagumpay ka pa dito.",
+   "gloss": "昇進おめでとう！これからもきっと活躍すると思うよ（同僚の昇進祝い）",
+   "pos": "祝福（昇進）",
+   "root": "congrats=おめでとう／promotion=昇進／magtatagumpay=成功する",
+   "examples": [
+    {
+     "text": "Salamat! Sana matulungan ko ang team nang mas maayos ngayon.",
+     "translation": "ありがとう！これからもっとチームの力になれたらと思うよ。"
+    },
+    {
+     "text": "Congratulations po sa inyong promotion! Sigurado po akong magiging maganda ang inyong pamumuno.",
+     "translation": "昇進おめでとうございます！きっと素晴らしいリーダーシップを発揮されると思います。（丁寧な言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-25",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Bago mo i-send yan, paki-review muna ulit para sigurado.",
+   "reading": "Bago mo i-send yan, paki-review muna ulit para sigurado.",
+   "gloss": "送信する前に、念のためもう一度見直しておいて（送信前の見直し依頼）",
+   "pos": "依頼（見直し）",
+   "root": "i-send=送る／paki-review=見直しをお願いする／sigurado=確実な",
+   "examples": [
+    {
+     "text": "Sige, i-che-check ko ulit bago i-send.",
+     "translation": "分かった、送る前にもう一度確認するね。"
+    },
+    {
+     "text": "Bago po ninyo i-send iyan, paki-review na lang po muna ulit para sigurado.",
+     "translation": "それを送る前に、念のためもう一度確認しておいてください。（丁寧な言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-26",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Sir, may urgent po kaming problemang lumabas — kailangan namin ng desisyon ninyo ngayon din.",
+   "reading": "Sir, may urgent po kaming problémang lumábas — kailángan námin ng desisyón nínyo ngayón din.",
+   "gloss": "サー、緊急の問題が発生しまして、今すぐご判断をいただきたいです（上司への緊急エスカレーション）",
+   "pos": "依頼（エスカレーション）",
+   "root": "may(ある) + urgent(緊急の) + problema(問題) + lumabas(出てきた) + kailangan(必要) + desisyon(決定) + ninyo(あなた方の) + ngayon din(今すぐ)",
+   "examples": [
+    {
+     "text": "Sige, i-explain mo nang mabilis, tapos ako na ang bahala sa desisyon.",
+     "translation": "わかった、手短に説明して。決定は私が引き受けるよ。"
+    },
+    {
+     "text": "Boss, may malaking problema, need ko ng sagot mo ngayon kasi hindi ko na kaya mag-isa!",
+     "translation": "ボス、大きな問題があって、今すぐ返事が欲しいんだ、もう一人じゃ無理だから！"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-28",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Sorry po, pero may nakita akong konting mali dito sa report — puwede nating i-check ulit?",
+   "reading": "Sorry po, péro may nakíta akóng kontíng malî díto sa report — puwéde náting i-check ulít?",
+   "gloss": "すみません、報告書にちょっと間違いがあったようです。もう一度確認できますか（やんわりとした訂正）",
+   "pos": "指摘（やんわり訂正）",
+   "root": "sorry(すみません) + nakita(見つけた) + konting mali(少しの間違い) + report(報告書) + puwede(できる) + i-check ulit(もう一度確認する)",
+   "examples": [
+    {
+     "text": "Ay, sorry po, tama po kayo — ie-edit ko po agad.",
+     "translation": "あ、すみません、おっしゃる通りです、すぐに修正します。"
+    },
+    {
+     "text": "May mali yata dito sa report mo, pwede nating tingnan ulit?",
+     "translation": "この報告書、ちょっと間違いがあるかも、もう一度見てみようか？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-42",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kailangan pa ba nating mag-overtime ngayon, o pwede na tayong umuwi on time?",
+   "reading": "Kailángan pa ba náting mag-overtime ngayón, o pwéde na táyong umuwî on time?",
+   "gloss": "今日はまだ残業が必要かな、それとも定時で帰れる？（残業の要否確認）",
+   "pos": "質問（残業の要否）",
+   "root": "kailangan(必要) + mag-overtime(残業する) + pwede(できる) + umuwi(帰る) + on time(定時に)",
+   "examples": [
+    {
+     "text": "Sa tingin ko po, kaya na nating tapusin lahat, puwede na tayong umuwi on time.",
+     "translation": "全部終わらせられそうなので、定時に帰れると思います。"
+    },
+    {
+     "text": "Kailangan pa po ba nating mag-overtime ngayon, o puwede na po tayong umuwi on time?",
+     "translation": "今日はまだ残業が必要でしょうか、それとも定時に帰れますでしょうか。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-43",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Puwede ba nating i-adjust yung shift mo this week? Kailangan kasi natin ng cover sa Sabado.",
+   "reading": "Puwéde ba náting i-adjust yung shift mo this week? Kailángan kasí nátin ng cover sa Sábado.",
+   "gloss": "今週のシフトを調整できるかな？土曜日にカバーしてほしいことがあって（シフト変更の相談）",
+   "pos": "相談（シフト変更）",
+   "root": "puwede(できる) + i-adjust(調整する) + shift(シフト) + cover(カバー) + Sabado(土曜日)",
+   "examples": [
+    {
+     "text": "Ah sige, tingnan ko lang schedule ko, sabihin ko sa'yo mamaya.",
+     "translation": "わかった、スケジュールを確認して、後で伝えるね。"
+    },
+    {
+     "text": "Puwede po ba nating pag-usapan ang shift niyo this week? Kailangan po kasi natin ng cover sa Sabado.",
+     "translation": "今週のシフトについてご相談してもよろしいですか。土曜日にカバーが必要なのです。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "job-interview-08",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Sa dami po ng job openings ngayon, bakit po ninyo piniling mag-apply dito sa amin?",
+   "reading": "Sa dámi po ng job openings ngayón, bakit po ninyó pinilíng mag-apply díto sa amin?",
+   "gloss": "たくさんの求人がある中で、なぜ弊社に応募しようと思われたのですか？（志望動機を具体的に聞く質問）",
+   "pos": "質問（志望動機）",
+   "root": "dami(多さ)、job openings(英語借用)、pinili(選んだ←pili)、mag-apply(英語借用+動詞化)",
+   "examples": [
+    {
+     "text": "Kasi po, admire ko po talaga ang reputation ng company niyo sa industry.",
+     "translation": "実は御社の業界での評判を本当に尊敬しているからです。"
+    },
+    {
+     "text": "Bakit ka nag-apply dito sa amin, samantalang ang dami namang choices mo?",
+     "translation": "選択肢がたくさんある中で、どうしてうちに応募したの？（カジュアルバージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "job-interview-11",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pwede niyo bang ikwento ang isang pagkakataong naharap kayo sa malaking pressure sa trabaho, at paano niyo 'yon naayos?",
+   "reading": "Puwéde niyó bang ikwénto ang isáng pagkakataóng naharáp kayó sa malaking pressure sa trabáho, at paáno niyó iyón naáyos?",
+   "gloss": "仕事で大きなプレッシャーに直面した経験を、その時どう対処したかも含めて話してもらえますか？（具体的なエピソードを聞く質問）",
+   "pos": "質問（経験談）",
+   "root": "ikwento(語る←kwento)、pagkakataon(機会・場面)、naharap(直面した←harap)、pressure(英語借用)、naayos(解決した←ayos)",
+   "examples": [
+    {
+     "text": "Meron po, noong may urgent deadline kami, sinigurado ko pong i-prioritize ang pinaka-critical tasks muna.",
+     "translation": "はい、緊急の締め切りがあったとき、最も重要なタスクを優先させるようにしました。"
+    },
+    {
+     "text": "May naaalala ka bang panahong sobrang bigat ng trabaho mo? Paano mo hinarap 'yon?",
+     "translation": "仕事がすごく大変だった時期を覚えてる？どう乗り越えた？（カジュアルバージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "job-interview-12",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Nagkaroon na ba kayo ng karanasang hindi kayo sang-ayon ng katrabaho niyo? Paano niyo 'yon naresolba?",
+   "reading": "Nagkaroón na ba kayó ng karanásang hindî kayó sang-áyon ng katrabáho niyó? Paáno niyó iyón naresólba?",
+   "gloss": "同僚と意見が合わなかった経験はありますか？それをどう解決しましたか？（協働経験と意見対立の折り合い方を聞く質問）",
+   "pos": "質問（協働経験）",
+   "root": "karanasan(経験)、sang-ayon(同意する)、katrabaho(同僚)、naresolba(解決した←英語resolve)",
+   "examples": [
+    {
+     "text": "Oo, minsan nagkaiba kami ng approach ng officemate ko, kaya nag-usap kami hanggang sa magkasundo.",
+     "translation": "はい、同僚とアプローチが違ったことがありますが、合意に至るまで話し合いました。"
+    },
+    {
+     "text": "May pagkakataon po ba kayong hindi nagkasundo ng inyong katrabaho? Paano niyo po iyon naresolba?",
+     "translation": "同僚と意見が合わなかったことはありますか？それをどう解決しましたか？（丁寧バージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "job-interview-22",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Meron po ba kayong mga tanong tungkol sa company o sa position na ito bago tayo mag-wrap up?",
+   "reading": "Méron po ba kayóng mga tánong tungkól sa company o sa position na itó bágo táyo mag-wrap up?",
+   "gloss": "「終わる前に、会社やこの職務についてご質問はありますか？」（面接終盤の質問受付）",
+   "pos": "質問受付",
+   "root": "meron(ある)+po(丁寧の助詞)+tanong(質問)+tungkol sa(〜について)+company(会社)+position(職務)",
+   "examples": [
+    {
+     "text": "Opo, gusto ko lang po malaman kung ano ang typical na career growth dito sa company.",
+     "translation": "はい、この会社での典型的なキャリア成長について知りたいです。"
+    },
+    {
+     "text": "May tanong ka ba tungkol sa company o sa job bago tayo matapos?",
+     "translation": "（カジュアルなレジスターで）終わる前に会社や仕事について質問ある？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "job-interview-23",
+  "verdict": "keep_as_is"
+ },
+ {
+  "slotId": "job-interview-24",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Maraming salamat po sa oras ninyo, at ingat po kayo sa pag-uwi.",
+   "reading": "Maráming salámat po sa óras nínyo, at íngat po kayó sa pag-uwî.",
+   "gloss": "「お時間をいただきありがとうございました。お気をつけてお帰りください。」（面接終了の見送り）",
+   "pos": "挨拶（クロージング）",
+   "root": "salamat(ありがとう)+oras(時間)+ingat(気をつけて)+pag-uwi(帰ること)",
+   "examples": [
+    {
+     "text": "Salamat din po, sir. Ingat din po kayo.",
+     "translation": "こちらこそありがとうございます。お気をつけて。"
+    },
+    {
+     "text": "Salamat sa oras mo, at ingat ka sa pag-uwi.",
+     "translation": "（中間的なレジスターで）時間をありがとう、気をつけて帰ってね。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-16",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ako na ang bahala sa pagkain ninyo ngayon, akin na ang kuwenta.",
+   "reading": "Akó na ang bahála sa pagkáin nínyo ngayón, ákin na ang kuwénta.",
+   "gloss": "「今日の食事は僕が持つよ、会計は僕が払う。」（部下・スタッフに奢りを伝える）",
+   "pos": "申し出（奢る）",
+   "root": "ako na ang bahala(私が引き受ける)+pagkain(食事)+kuwenta(勘定・会計)",
+   "examples": [
+    {
+     "text": "Wow, salamat talaga, sir! Ang bait naman ninyo.",
+     "translation": "わあ、本当にありがとうございます！優しいですね。"
+    },
+    {
+     "text": "Ako na po ang bahala sa pagkain ninyo ngayon.",
+     "translation": "（丁寧なレジスターで）今日の食事は私が持ちます。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-01",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang araw po, dalawa po kami, meron po ba kayong bakanteng mesa?",
+   "reading": "Magandáng áraw po, dalawá po kámi, méron po ba kayóng bakánteng mésa?",
+   "gloss": "「こんにちは、2名です、空いている席はありますか？」（レストラン入店時の席確保）",
+   "pos": "依頼（席の確保）",
+   "root": "magandang araw(こんにちは)+dalawa(2人)+meron(ある)+bakante(空いている)+mesa(テーブル・席)",
+   "examples": [
+    {
+     "text": "Meron po, dito po kayo, sundan niyo lang po ako.",
+     "translation": "はい、ございます、こちらへどうぞ、私についてきてください。"
+    },
+    {
+     "text": "Uy, dalawa kami, may bakanteng mesa ba?",
+     "translation": "（カジュアルなレジスターで）2人だけど、空いてる席ある？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-10",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pasensya na po, wala pa po kaming tinidor at kutsara.",
+   "reading": "Pasénsya na po, walâ pa po káming tinidór at kutsára.",
+   "gloss": "「すみません、まだフォークとスプーンをいただいていません。」（備品の依頼）",
+   "pos": "依頼（備品）",
+   "root": "pasensya na(すみません)+wala pa(まだない)+tinidor(フォーク)+kutsara(スプーン)",
+   "examples": [
+    {
+     "text": "Ay, pasensya na po, kukunin ko na po agad.",
+     "translation": "あ、申し訳ございません、すぐにお持ちします。"
+    },
+    {
+     "text": "Wala pa kaming tinidor at kutsara ah.",
+     "translation": "（中間的なレジスターで）まだフォークとスプーンがないんだけど。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-18",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ano bang magandang kainan malapit dito sa opisina?",
+   "reading": "Anó bang magandáng kaínan malápit díto sa opisína?",
+   "gloss": "「オフィスの近くで美味しいランチの店ある？」（同僚におすすめの店を尋ねる・カジュアル）",
+   "pos": "質問（お店を尋ねる）",
+   "root": "ano(何)+magandang(良い)+kainan(食堂・店)+malapit(近い)+opisina(オフィス)",
+   "examples": [
+    {
+     "text": "Meron, may maliit na carinderia sa kanto, masarap doon.",
+     "translation": "あるよ、角に小さなカリンデリアがあって美味しいよ。"
+    },
+    {
+     "text": "Alam niyo po ba ng magandang kainan malapit dito sa opisina?",
+     "translation": "（丁寧なレジスターで）オフィスの近くで良い食堂をご存知ですか？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-26",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pasensya na po, pero mali po yata ang nahatid sa amin. Iba po ang in-order namin kanina. Puwede po ba ninyong ipalit?",
+   "reading": "Pasénsya na pô, pero malî pô yátà ang nahátid sa ámin. Ibá pô ang in-órder námin kanína. Puwéde pô ba nínyong ipalít?",
+   "gloss": "「すみません、私たちに届いたのは間違いのようです。さっき注文したのと違います。交換していただけますか？」（やんわりとした苦情）",
+   "pos": "苦情（やんわり）",
+   "root": "pasensya na=すみません／mali=間違い／nahatid=届けられた／in-order=注文した(もの)／puwede ba=可能ですか／ipalit=交換する",
+   "examples": [
+    {
+     "text": "Ay, pasensya na po kayo! Titingnan ko po agad, ipapalit namin po kaagad.",
+     "translation": "あ、申し訳ございません！すぐに確認して交換いたします。"
+    },
+    {
+     "text": "Uy, mali yata 'to ha. Iba 'yong order ko kanina. Pwede bang mapalitan?",
+     "translation": "あれ、これ違うっぽい。さっき頼んだのと違うよ。交換できる？（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-27",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Mayroon po ba kayong ulam na puro gulay o walang karne?",
+   "reading": "Mayróon pô ba kayóng ulam na púro gúlay o waláng kárne?",
+   "gloss": "「野菜だけ、あるいは肉なしの料理はありますか？」（ベジタリアンメニューの確認）",
+   "pos": "質問（メニュー確認）",
+   "root": "mayroon ba=ありますか／ulam=おかず料理／puro gulay=野菜だけ／walang karne=肉なし",
+   "examples": [
+    {
+     "text": "Opo, meron po kaming ginisang gulay at tokwa't baguio beans po. Gusto niyo po ba 'yon?",
+     "translation": "はい、野菜炒めや豆腐とバギオ豆の料理もございます。いかがですか？"
+    },
+    {
+     "text": "Meron ba kayong ulam na walang karne?",
+     "translation": "肉が入ってない料理ある？（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-29",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Uy, salamat sa merienda ha! Ang sarap naman, wala ka namang kailangang gawin nito.",
+   "reading": "Uy, salámat sa meriénda ha! Ang sarap namán, walâ ka namán kailángang gawín nitó.",
+   "gloss": "「おお、おやつありがとう！美味しそう、そこまでしなくてよかったのに。」（差し入れへの感謝）",
+   "pos": "感謝（差し入れ）",
+   "root": "salamat=ありがとう／merienda=おやつ／sarap=美味しい／wala ka namang kailangang gawin=そこまでしなくてよかった",
+   "examples": [
+    {
+     "text": "Ay wala 'yon! Sobra kasi 'yong niluto ko kagabi, kaya dinala ko.",
+     "translation": "いいのいいの！昨夜たくさん作りすぎちゃったから持ってきただけ。"
+    },
+    {
+     "text": "Salamat po talaga sa merienda, ang bait niyo naman po.",
+     "translation": "おやつ本当にありがとうございます、お優しいですね。（丁寧な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-33",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Puwede po bang hindi masyadong mamantika at matamis ang lutuin, kasi po nag-iingat ako sa kalusugan?",
+   "reading": "Puwéde pô bang hindî masyádong mamantíka at matamís ang lutúin, kasí pô nag-íingat akó sa kalusúgan?",
+   "gloss": "「あまり脂っこくなく、甘さも控えめに作っていただけますか？健康に気をつけているので。」（調理の調整依頼）",
+   "pos": "依頼（調理の調整）",
+   "root": "puwede ba=できますか／hindi masyadong mamantika=あまり脂っこくない／matamis=甘い／nag-iingat sa kalusugan=健康に気をつけている",
+   "examples": [
+    {
+     "text": "Opo, sasabihin ko po sa kusina na bawasan ang mantika at asukal.",
+     "translation": "はい、厨房に油と砂糖を控えるよう伝えますね。"
+    },
+    {
+     "text": "Pwede bang hindi masyadong matamis at mamantika 'to? Nag-iingat lang ako.",
+     "translation": "これあまり甘くなく脂っこくなくできる？ちょっと気をつけてるから。（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-36",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Mayroon po ba kayong menu sa Ingles? Hindi ko po kasi masyadong maintindihan ang nasa Tagalog.",
+   "reading": "Mayróon pô ba kayóng menú sa Inglés? Hindî ko pô kasí masyádong maintindihán ang nása Tagálog.",
+   "gloss": "「英語のメニューはありますか？タガログ語のはあまり理解できなくて。」（英語メニューの依頼）",
+   "pos": "依頼",
+   "root": "mayroon ba=ありますか／menu sa Ingles=英語のメニュー／hindi maintindihan=理解できない",
+   "examples": [
+    {
+     "text": "Opo, sandali lang po, kukunin ko po 'yong menu sa Ingles.",
+     "translation": "はい、少々お待ちください、英語のメニューをお持ちします。"
+    },
+    {
+     "text": "Meron ba kayong menu na Ingles? Nahihirapan kasi akong bumasa ng Tagalog.",
+     "translation": "英語のメニューある？タガログ語読むの苦手で。（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-37",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang araw po. Gusto ko po sanang magpareserba ng mesa para sa apat na katao, mga alas-siyete ng gabi.",
+   "reading": "Magandáng áraw pô. Gustó ko pô sánang magpareserbá ng mésa pára sa ápat na katáo, mga alas-siyéte ng gabí.",
+   "gloss": "「こんにちは。4名分、夜7時頃でテーブルを予約したいのですが。」（電話での予約依頼）",
+   "pos": "依頼（予約）",
+   "root": "magandang araw=こんにちは／magpareserba ng mesa=テーブルを予約する／apat na katao=4人／alas-siyete ng gabi=夜7時",
+   "examples": [
+    {
+     "text": "Opo, sir/ma'am. Pangalan po ninyo at contact number para sa reservation?",
+     "translation": "はい、かしこまりました。お名前とご連絡先を教えていただけますか？"
+    },
+    {
+     "text": "Pwede bang magpareserba ng mesa para sa apat, mga alas-siyete?",
+     "translation": "4人分、7時頃でテーブル予約できる？（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-08",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ito na ba talaga ang huling presyo, wala na bang mababawas pa?",
+   "reading": "Itó na ba talagá ang hulíng présyo, walâ na bang mababáwas pa?",
+   "gloss": "「これが本当に最終価格ですか、これ以上値引きはありませんか？」（定価の確認）",
+   "pos": "質問（定価の確認）",
+   "root": "huling presyo=最終価格／mababawas pa=まだ値引きできる",
+   "examples": [
+    {
+     "text": "Opo, fixed price na po talaga 'yan, wala na pong tawad.",
+     "translation": "はい、それは固定価格です、値引きはできません。"
+    },
+    {
+     "text": "Talaga bang wala nang bawas dito, huling presyo na 'to?",
+     "translation": "本当にこれ以上は無理？これが最終価格？（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-13",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Alin sa mga ito ang pinakamaganda kaya? Ano sa tingin mo ang mas okay?",
+   "reading": "Alín sa mga itó ang pinakamagánda kayâ? Anó sa tingín mo ang mas okáy?",
+   "gloss": "「この中でどれが一番良さそう？あなたが見てどっちがいいと思う？」（おすすめの相談）",
+   "pos": "依頼（おすすめの相談）",
+   "root": "alin ang pinakamaganda=どれが一番良いか／sa tingin mo=あなたの意見では",
+   "examples": [
+    {
+     "text": "Kung ako, ito 'yong pipiliin ko, mas matibay kasi ang materyales.",
+     "translation": "私だったらこっちを選ぶかな、素材がより丈夫だから。"
+    },
+    {
+     "text": "Ano po sa palagay ninyo ang pinakamainam sa mga ito?",
+     "translation": "この中でどれが一番おすすめだと思われますか？（丁寧な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-14",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kung sakaling hindi po magkasya ang sukat, puwede po ba itong ipalit o isauli?",
+   "reading": "Kung sakalíng hindî pô magkasyá ang sukat, puwéde pô ba itóng ipalít o isaulî?",
+   "gloss": "「もしサイズが合わなかった場合、これを交換したり返品したりできますか？」（返品・交換ポリシーの確認）",
+   "pos": "質問（返品・交換ポリシー）",
+   "root": "hindi magkasya ang sukat=サイズが合わない／ipalit=交換する／isauli=返品する",
+   "examples": [
+    {
+     "text": "Opo, puwede po ninyong ipalit sa loob ng pitong araw, dala lang po ninyo ang resibo.",
+     "translation": "はい、レシートをお持ちいただければ7日以内に交換可能です。"
+    },
+    {
+     "text": "Pwede bang ipalit kung hindi magkasya?",
+     "translation": "もしサイズ合わなかったら交換できる？（カジュアル）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-25",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kuya, puwede bang maghintay ka lang dito nang sampung minuto? Bibili lang ako ng konti.",
+   "reading": "Kuya, puwéde bang maghintáy ka lang díto nang sampûng minúto? Bíbili lang ako ng kontî.",
+   "gloss": "運転手さん、ここで10分くらい待っててもらえる？ちょっと買い物してくるだけだから。（Grab運転手に待機を依頼）",
+   "pos": "依頼（待機のお願い）",
+   "root": "maghintay=待つ／sampung minuto=10分／bibili=買う",
+   "examples": [
+    {
+     "text": "Sige lang, kuya. Diyan lang ako sa tabi maghihintay.",
+     "translation": "いいですよ。すぐそこで待ってますね。"
+    },
+    {
+     "text": "Kuya, pwede po ba kayong maghintay dito nang saglit? Bibili lang po ako ng konti.",
+     "translation": "運転手さん、ここで少し待っていただけますか？ちょっと買い物してくるだけなので。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-38",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Wala akong member card. Kailangan ko ba talaga niyan para makabili?",
+   "reading": "Walâ akong member card. Kailángan ko ba talaga niyán para makabilí?",
+   "gloss": "会員カード持ってないんだけど、それがないと本当に買えないの？（会計時に会員カードの有無を尋ねられた際の返答）",
+   "pos": "質問（会員カードの確認）",
+   "root": "member card=会員カード／kailangan=必要／makabili=買える",
+   "examples": [
+    {
+     "text": "Hindi po kailangan, pwede naman kayong bumili kahit wala kayong card.",
+     "translation": "必要ありませんよ、カードがなくてもお買い物いただけます。"
+    },
+    {
+     "text": "Wala po akong member card, kailangan ko po ba talaga niyan para makabili?",
+     "translation": "会員カードは持っていないのですが、購入するのに本当に必要でしょうか？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-18",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Manong, pili ka nga ng pinakasariwa diyan, ha? Panggulay ko kasi mamaya.",
+   "reading": "Manóng, píli ka ngâ ng pinakasaríwa diyán, ha? Panggúlay ko kasi mamayâ.",
+   "gloss": "お兄さん、その中で一番新鮮なのを選んでもらえる？後で料理に使うんだ。（市場で売り子に新鮮な食材を選んでもらう）",
+   "pos": "依頼（新鮮な品の見繕い）",
+   "root": "pili=選ぶ／pinakasariwa=一番新鮮な／panggulay=料理用（おかず用）",
+   "examples": [
+    {
+     "text": "Sige po, ito yung bagong dating kanina lang, sariwa pa talaga.",
+     "translation": "はい、これはさっき届いたばかりで、まだ新鮮ですよ。"
+    },
+    {
+     "text": "Manong, pwede po ba akong bigyan ng pinakasariwang isda diyan?",
+     "translation": "お兄さん、その中で一番新鮮な魚をいただけますか？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-35",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Paumanhin po sa abala, pero kailangan ko po ng sasakyan ngayon din, hindi po maganda ang pakiramdam ko. Puwede po ba akong sunduin agad?",
+   "reading": "Paumánhin pô sa abála, péro kailángan ko pô ng sasakyán ngayón din, hindî pô magandá ang pakiramdám ko. Puwéde pô ba akóng sundúin agád?",
+   "gloss": "急にすみません、でも今すぐ車が必要なんです、体調が良くなくて。すぐに迎えに来てもらえますか？（体調不良などの緊急送迎手配）",
+   "pos": "依頼（丁寧・緊急）",
+   "root": "kailangan=必要／pakiramdam=気分・体調／sunduin=迎えに行く／agad=すぐに",
+   "examples": [
+    {
+     "text": "Sige po, papunta na po ako agad. Kayo lang po sa dati ninyong lugar?",
+     "translation": "はい、すぐ向かいます。いつもの場所にいますか？"
+    },
+    {
+     "text": "Kailangan ko na ng sasakyan ngayon na, masama pakiramdam ko. Puwede mo ba akong sunduin agad?",
+     "translation": "今すぐ車が必要、体調が悪いんだ。すぐ迎えに来てもらえる？（カジュアルな言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-26",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kung matanggap po kayo sa amin, ano po ang paraan ng byahe na gagamitin ninyo papunta rito sa opisina?",
+   "reading": "Kung matanggáp pô kayó sa ámin, anó pô ang paraán ng byáhe na gágamitin ninyó papuntá ríto sa opisína?",
+   "gloss": "採用された場合、オフィスへの通勤にはどのような交通手段を使う予定ですか？（面接での通勤手段確認）",
+   "pos": "質問（丁寧）",
+   "root": "matanggap=採用される／paraan=方法／byahe=移動・通勤",
+   "examples": [
+    {
+     "text": "Sasakay po ako ng MRT tapos maglalakad na lang papunta rito.",
+     "translation": "MRTに乗ってから歩いてきます。"
+    },
+    {
+     "text": "Paano po kayo pupunta rito sa office papalabas, kung matanggap kayo?",
+     "translation": "採用された場合、こちらのオフィスへはどうやって来られますか（簡潔な言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-09",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kuya, may alam po akong ibang daan na mas mabilis, dumaan na lang po tayo roon, medyo mabagal kasi ang trapik dito.",
+   "reading": "Kúya, may alám pô akóng ibáng daán na mas mabilís, dumaán na lang pô táyo roón, médyo mabágal kasí ang trápik díto.",
+   "gloss": "運転手さん、もっと速い別の道を知っています。そちらを通ってもらえますか？ここの渋滞が少し遅いので（近道の提案）",
+   "pos": "依頼・提案（丁寧）",
+   "root": "dumaan=通る／daan=道／trapik=渋滞／mabagal=遅い／alam=知っている",
+   "examples": [
+    {
+     "text": "Sige po, dadaan na lang po tayo sa sinasabi ninyong daan, mas mabilis nga siguro doon.",
+     "translation": "はい、おっしゃる道を通りましょう。たしかにそちらのほうが速いかもしれません。"
+    },
+    {
+     "text": "Kuya, may alam ako ng shortcut, dumaan na lang tayo sa kabilang kalye, mas mabilis doon.",
+     "translation": "運転手さん、近道を知ってるんだ。反対側の通りを行こう、そっちの方が速いよ。（カジュアルな言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-17",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Mawalang-galang na po, saan po ba ang daan papunta sa ikalimang palapag? May appointment po kasi ako roon.",
+   "reading": "Mawaláng-gálang na pô, saán pô ba ang daán papuntá sa ikalimáng pálapag? May appointment pô kasí akó roón.",
+   "gloss": "すみません、5階へはどう行けばいいですか？そこで約束があるので（訪問先ビルでの警備員への道案内確認）",
+   "pos": "質問（丁寧）",
+   "root": "daan=道／palapag=階／ikalima=5番目の",
+   "examples": [
+    {
+     "text": "Doon lang po sa elevator sa kaliwa, sabihin niyo sa reception sa ikalimang palapag.",
+     "translation": "左側のエレベーターです、5階の受付でお伝えください。"
+    },
+    {
+     "text": "Pasensya na po, alam niyo po ba kung saan ang daan papunta sa ikalimang palapag?",
+     "translation": "すみません、5階への道をご存知ですか（言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-22",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pare, malapit ka rin pala sa amin ngayon. Ano ang pinakamabilis na paraan pumunta ng opisina galing diyan?",
+   "reading": "Páre, malapít ka rin pala sa ámin ngayón. Anó ang pinakamabilís na paraán pumuntá ng opisína galíng diyán?",
+   "gloss": "そういえば、君もうちの近くに住んでいるんだね。そこからオフィスまでの一番早い行き方は？（通勤経験者への相談）",
+   "pos": "質問（カジュアル）",
+   "root": "malapit=近い／pinakamabilis=一番速い／paraan=方法／galing=〜から",
+   "examples": [
+    {
+     "text": "Ako, sumasakay ako ng MRT tapos jeep na lang, mabilis yun.",
+     "translation": "私はMRTに乗ってから、ジプニーに乗り換えるよ。それが速い。"
+    },
+    {
+     "text": "Ikaw nga pala, malapit ka rin sa amin ngayon. Ano kaya ang pinakamainam na sasakyan papunta ng opisina galing diyan?",
+     "translation": "そういえば君もうちの近くに住んでるんだね。そこからオフィスまで一番良い交通手段は何かな（言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-10",
+  "verdict": "keep_as_is"
+ },
+ {
+  "slotId": "numbers-22",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ang opisyal po ninyong unang araw ng trabaho ay sa unang araw ng Setyembre.",
+   "reading": "Ang opisyál po ninyóng unáng araw ng trabáho ay sa unáng araw ng Setyémbre.",
+   "gloss": "内定者に正式な入社日を伝え、必要な準備を進めてもらいたい",
+   "pos": "説明（入社日）",
+   "root": "opisyal(公式の) + unang araw(初日) + trabaho(仕事) + Setyembre(9月)",
+   "examples": [
+    {
+     "text": "Opo, naiintindihan ko po, sisimulan ko na po ang paghahanda.",
+     "translation": "はい、承知しました。準備を始めます。"
+    },
+    {
+     "text": "'Yung unang araw mo sa trabaho, sa unang araw ng Setyembre na.",
+     "translation": "（カジュアル）入社日は9月1日だよ。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-37",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Baka po nalilito kayo sa lugar na nakalagay sa mapa. Malapit lang po ang punta namin sa simbahan, tapat mismo ng gasolinahan.",
+   "reading": "Baka po nalilitó kayo sa lugar na nakalagay sa mapa. Malapít lang po ang punta namin sa simbahan, tapat mismo ng gasolinahan.",
+   "gloss": "地図の住所だけでは迷っているようなので、教会の前・ガソリンスタンドの隣という目印を使って行き先を説明し直す",
+   "pos": "説明（補足説明・道案内）",
+   "root": "nalilito(戸惑っている←lito) + mapa(地図) + malapit(近い) + simbahan(教会) + tapat(向かい) + gasolinahan(ガソリンスタンド)",
+   "examples": [
+    {
+     "text": "Ah, doon po pala! Kanina ko pa po hinahanap iyan, hindi ko lang alam kung saang bahagi.",
+     "translation": "ああ、そこでしたか！さっきから探していたんですが、どのあたりか分からなくて。"
+    },
+    {
+     "text": "Mukhang nalilito ka sa mapa ah. 'Yung punta natin, malapit lang sa simbahan, tabi ng gasolinahan.",
+     "translation": "（カジュアル）地図で迷ってるみたいだね。行き先は教会の近く、ガソリンスタンドの隣だよ。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-10",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ipinapaalam ko lang po na ang sahod ninyo ngayong buwan ay ilalabas sa ika-labinlima.",
+   "reading": "Ipinapaalam ko lang po na ang sahod ninyo ngayóng buwan ay ilalábas sa ika-labinlima.",
+   "gloss": "今月の給料の支払日をスタッフに案内し、生活設計の不安を減らしたい",
+   "pos": "案内（給料日）",
+   "root": "ipinapaalam(知らせている←alam) + sahod(給料) + buwan(月) + ilalabas(支払われる←labas) + ika-labinlima(15日)",
+   "examples": [
+    {
+     "text": "Salamat po sa pagsabi, sir. Malaking tulong po 'yan.",
+     "translation": "お知らせありがとうございます。とても助かります。"
+    },
+    {
+     "text": "Para lang malaman ninyo, ang sahod ninyo ngayong buwan ay lalabas sa ika-labinlima.",
+     "translation": "（ややカジュアル）念のため伝えておくと、今月の給料は15日に出ます。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-15",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pakilimbag ng eksaktong sampung kopya ng mga papeles para sa pulong.",
+   "reading": "Pakilimbag ng eksáktong sampúng kópya ng mga papéles para sa pulong.",
+   "gloss": "会議資料を必要な部数だけ正確に印刷してもらうようスタッフに依頼したい",
+   "pos": "依頼（部数）",
+   "root": "pakilimbag(印刷してください←limbag) + eksakto(正確な) + sampung kopya(10部) + pulong(会議)",
+   "examples": [
+    {
+     "text": "Sige po, ililimbag ko na po agad, sampung kopya lang po talaga?",
+     "translation": "かしこまりました、すぐ印刷します。本当に10部だけでよろしいですか？"
+    },
+    {
+     "text": "Pakilimbag po ng eksaktong sampung kopya ng mga papeles para sa pulong natin, salamat po.",
+     "translation": "（丁寧）会議の資料をちょうど10部印刷していただけますか、よろしくお願いします。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-26",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang araw po. Puwede ko po bang kumpirmahin ang petsa at oras ng aking nakatakdang konsulta?",
+   "reading": "Magandáng áraw po. Puwéde ko po bang kumpirmahín ang pétsa at óras ng akíng nakatakdáng konsúlta?",
+   "gloss": "こんにちは。予定されている診察の日時を確認してもよろしいでしょうか？（健康診断・歯科などの予約確認）",
+   "pos": "確認（予約日時）",
+   "root": "kumpirmahin=確認する / petsa=日付 / oras=時間 / aking=私の / nakatakda=予定されている / konsulta=診察",
+   "examples": [
+    {
+     "text": "Opo, isang sandali lang po. Ang konsulta ninyo po ay sa ika-15 ng buwan, alas-tres ng hapon.",
+     "translation": "はい、少々お待ちください。ご予約は今月15日、午後3時です。"
+    },
+    {
+     "text": "Pwede mo bang tignan ang oras ng konsulta ko?",
+     "translation": "私の診察の時間、見てもらえる？（カジュアルな言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-28",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ano ang eksaktong numero ng kuwarto?",
+   "reading": "Anó ang eksaktóng numeró ng kuwárto?",
+   "gloss": "正確な部屋番号は何番ですか？（訪問・配達受け取りのための確認）",
+   "pos": "質問（号室）",
+   "root": "ano=何 / eksakto=正確な / numero=番号 / kuwarto=部屋",
+   "examples": [
+    {
+     "text": "Kuwarto 402 po, sa ikaapat na palapag.",
+     "translation": "402号室です、4階になります。"
+    },
+    {
+     "text": "Pasensya na po, ano po ulit ang numero ng kuwarto?",
+     "translation": "すみません、部屋番号をもう一度教えていただけますか？（丁寧な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-29",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Gaano katagal bago tayo makarating doon?",
+   "reading": "Gaáno katágal bágo táyo makaratíng doón?",
+   "gloss": "そこまでどのくらい時間がかかりますか？（運転手への所要時間確認）",
+   "pos": "質問（所要時間）",
+   "root": "gaano katagal=どれくらいの時間 / makarating=到着する / doon=そこに",
+   "examples": [
+    {
+     "text": "Mga tatlumpung minuto na lang po, medyo matrapik lang sa harap.",
+     "translation": "あと30分ほどです、前方が少し渋滞しています。"
+    },
+    {
+     "text": "Anong oras kaya tayo makakarating?",
+     "translation": "何時頃着けそうですか？（言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-30",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Uy, anong petsa na ba ngayon?",
+   "reading": "Uy, anóng pétsa na ba ngayón?",
+   "gloss": "ねえ、今日って何日だっけ？（書類記入のための日付確認・カジュアル）",
+   "pos": "質問（日付）",
+   "root": "uy=ねえ / anong petsa=何日 / ngayon=今",
+   "examples": [
+    {
+     "text": "Ika-5 ngayon ng Agosto.",
+     "translation": "今日は8月5日だよ。"
+    },
+    {
+     "text": "Pasensya na, ano ang petsa ngayon?",
+     "translation": "すみません、今日は何日ですか？（中間的な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emergency-04",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Mataas po ang lagnat ko at masakit din ang katawan ko simula kagabi. Anong gamot po ang maipapayo ninyo?",
+   "reading": "Mataás po ang lagnát ko at masakít din ang katawán ko simulá kagabí. Anóng gamót po ang maipapáyo ninyó?",
+   "gloss": "先生、昨夜から高熱と体の痛みがあります。どの薬がおすすめですか？（薬剤師への症状説明と相談）",
+   "pos": "症状説明・質問（薬の相談）",
+   "root": "mataas na lagnat=高熱 / masakit ang katawan=体が痛い / simula kagabi=昨夜から / maipapayo=勧められる",
+   "examples": [
+    {
+     "text": "Sige po, inumin niyo muna ito tuwing walong oras, at magpahinga po kayo.",
+     "translation": "はい、まずはこちらを8時間おきに服用して、しっかり休んでくださいね。"
+    },
+    {
+     "text": "Mataas ang lagnat ko at masakit ang katawan ko, ano dapat inumin?",
+     "translation": "熱が高くて体も痛いんですが、何を飲めばいいですか？（中間的な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emergency-09",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Doktor, gusto ko lang po ipaalam na may alerhiya ako sa Penicillin.",
+   "reading": "Doktór, gustó ko lang po ipaalám na may alerhíya akó sa Penicillin.",
+   "gloss": "先生、ペニシリンにアレルギーがあることをお伝えしておきたいです。（医師へのアレルギー申告）",
+   "pos": "申告（アレルギー）",
+   "root": "gusto kong ipaalam=知らせておきたい / alerhiya=アレルギー / Penicillin=ペニシリン(薬品名)",
+   "examples": [
+    {
+     "text": "Salamat sa pagsasabi, tatandaan ko po iyan sa pagre-reseta.",
+     "translation": "教えてくださりありがとうございます。処方の際に留意します。"
+    },
+    {
+     "text": "May alerhiya ako sa Penicillin, sana matandaan niyo po.",
+     "translation": "ペニシリンにアレルギーがあるので、覚えておいていただけると助かります。（中間的な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emergency-24",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Gusto ko po sanang dalawin kayo sa ospital, kung okay lang po sa inyo.",
+   "reading": "Gustó ko po sánang dalawín kayó sa ospitál, kung okey lang po sa inyó.",
+   "gloss": "「よろしければ、病院にお見舞いに伺いたいのですが」(入院中の同僚へのお見舞いの申し出)",
+   "pos": "申し出(見舞い)",
+   "root": "gusto=したい / dalawin=訪ねる・見舞う / ospital=病院",
+   "examples": [
+    {
+     "text": "Naku, huwag na po kayong mag-abala, pero salamat po sa alala.",
+     "translation": "わあ、お気遣いなく。でも気にかけてくださってありがとうございます"
+    },
+    {
+     "text": "Gusto kitang dalawin sa ospital, okay lang ba sa'yo?",
+     "translation": "病院にお見舞いに行きたいんだけど、大丈夫?(カジュアルな言い換え)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emergency-26",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Huwag ka nang magpilit, magpahinga ka muna kung kailangan.",
+   "reading": "Huwág ka nang magpilit, magpahingá ka muna kung kailangán.",
+   "gloss": "「無理しないでね、必要なら少し休んで」(病み上がりで出社した同僚への気遣い)",
+   "pos": "気遣い(無理しないで)",
+   "root": "huwag=するな / magpilit=無理する・押し切る / magpahinga=休む",
+   "examples": [
+    {
+     "text": "Sige, salamat, pero okay naman ako ngayon.",
+     "translation": "うん、ありがとう。でも今は大丈夫だよ"
+    },
+    {
+     "text": "Huwag po kayong magpilit, magpahinga muna po kayo kung kinakailangan.",
+     "translation": "どうか無理をなさらず、必要でしたら少しお休みください(丁寧な言い換え)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-05",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Gusto niyo po bang mag-iwan ng mensahe? Isusulat ko po nang tama ang sasabihin ninyo.",
+   "reading": "Gustó ninyó po bang mag-iwán ng mensáhe? Isusúlat ko po nang tamá ang sasabihín ninyó.",
+   "gloss": "「伝言を残されますか?おっしゃる内容を正確に控えます」(伝言内容の確認)",
+   "pos": "依頼(伝言確認)",
+   "root": "mag-iwan ng mensahe=伝言を残す / isusulat=書き記す / tama=正確に",
+   "examples": [
+    {
+     "text": "Oo, sabihin niyo na lang sa kanya na tumawag si Maria tungkol sa dokumento.",
+     "translation": "うん、マリアから資料の件で電話があったと伝えてください"
+    },
+    {
+     "text": "Gusto mo bang mag-iwan ng mensahe? Isusulat ko nang tama ang sasabihin mo.",
+     "translation": "伝言残す?言うこと正確に控えるよ(カジュアルな言い換え)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-13",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pasensya na po, mali po yata ang inyong tinawagan, walang taong ganyang pangalan dito.",
+   "reading": "Pasénsya na po, malî po yatà ang inyóng tináwagan, walâng táong ganyáng pangálan díto.",
+   "gloss": "「申し訳ありませんが、番号をお間違えのようです。こちらにそのお名前の方はいません」(番号違いの訂正)",
+   "pos": "訂正(番号違い)",
+   "root": "mali=間違い / tinawagan=かけた電話先 / wala=いない",
+   "examples": [
+    {
+     "text": "Ay, pasensya na po, mali po pala ang tinawagan ko, salamat po.",
+     "translation": "あ、すみません、私がかけた番号が間違っていたようです、ありがとうございます"
+    },
+    {
+     "text": "Pasensya, mali yata ang tinawagan mo, walang taong ganyan dito.",
+     "translation": "ごめん、番号間違えてるみたい、ここにそんな人いないよ(カジュアルな言い換え)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-14",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Sira yata ang aircon namin dito sa opisina, puwede bang patingnan?",
+   "reading": "Sirâ yatà ang aircon namin díto sa opisina, puwéde bang patingnán?",
+   "gloss": "「オフィスのエアコンが壊れているみたいです。見てもらえますか?」(設備トラブルの報告)",
+   "pos": "報告(設備トラブル)",
+   "root": "sira=壊れている / aircon=エアコン / opisina=オフィス / patingnan=見てもらう",
+   "examples": [
+    {
+     "text": "Sige, titingnan namin ngayon, saglit lang po.",
+     "translation": "はい、今から見に行きます、少々お待ちください"
+    },
+    {
+     "text": "Pasensya na po, sira po yata ang aircon namin dito sa opisina, puwede po bang ipatingnan agad?",
+     "translation": "すみません、オフィスのエアコンが壊れているようです。すぐに見ていただけますか?(丁寧な言い換え)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-15",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pasensya na po, nawalan po kami ng wifi kanina habang may pulong kami, puwede po bang tignan agad?",
+   "reading": "Pasénsya na po, nawalán po kamí ng wifi kaninâ hábang may pulóng kamí, puwéde po bang tignán agád?",
+   "gloss": "「すみません、会議中にWi-Fiが切れてしまいました。至急見ていただけますか?」(ITトラブルの至急対応依頼)",
+   "pos": "報告(ITトラブル)",
+   "root": "nawalan ng wifi=Wi-Fiが切れた / pulong=会議 / tignan=見る / agad=すぐに",
+   "examples": [
+    {
+     "text": "Sige po, titignan po namin agad, pasensya na po sa abala.",
+     "translation": "はい、すぐに確認いたします、ご不便をおかけして申し訳ございません"
+    },
+    {
+     "text": "Nawalan kami ng wifi kanina habang may pulong kami, pwede bang tignan agad?",
+     "translation": "さっき会議中にWi-Fiが切れちゃって、すぐ見てもらえる?(カジュアルな言い換え)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-24",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kailangan nating ayusin agad ito, hindi gumagana ang sistema at nakatigil na ang trabaho.",
+   "reading": "Kailangan nating ayusin agad ito, hindî gumagana ang sistema at nakatigil na ang trabaho.",
+   "gloss": "これすぐ直さないと、システムが動いていなくて業務が完全に止まっています（IT担当への強めの依頼）",
+   "pos": "依頼（緊急対応）",
+   "root": "kailangan nating ayusin=直す必要がある / agad=すぐに / hindi gumagana=動作していない / sistema=システム / nakatigil=止まっている / trabaho=仕事",
+   "examples": [
+    {
+     "text": "Sige, tinitingnan ko na po ngayon, teka lang.",
+     "translation": "今すぐ確認します、少々お待ちください。"
+    },
+    {
+     "text": "Kailangan po nating ayusin agad ito, hindi po gumagana ang sistema at nakatigil na po ang trabaho ng lahat.",
+     "translation": "至急これを直していただく必要があります。(polite版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-31",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Mukhang masyadong malayo ang dinadaanan natin, dumaan na lang tayo sa tamang ruta papunta doon.",
+   "reading": "Mukhâng masyádong malayò ang dinadaánan natin, dumaán na lang tayo sa tamáng ruta papuntá doon.",
+   "gloss": "遠回りしているようです、あちらへの正しいルートを通ってください（タクシー運転手への指摘）",
+   "pos": "指摘（不正な遠回り）",
+   "root": "mukhang=〜のようだ / dinadaanan=通っている道 / masyadong malayo=遠すぎる / dumaan sa tamang ruta=正しいルートを通る",
+   "examples": [
+    {
+     "text": "Ay sorry po, medyo may traffic kasi doon sa dating daan.",
+     "translation": "すみません、元のルートは少し渋滞していたので。"
+    },
+    {
+     "text": "Mukhang medyo malayo po ang dinadaanan natin, puwede po bang dumaan na lang tayo sa tamang ruta?",
+     "translation": "少し遠回りされているようですが、正しいルートを通っていただけますか。(polite版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-37",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang araw po, may problema pong lumitaw na hindi ko po kayang lutasin nang mag-isa, kailangan ko po ng payo ninyo.",
+   "reading": "Magandáng áraw po, may problema pong lumitáw na hindî ko po kayáng lutasin nang mag-isa, kailángan ko po ng páyo ninyó.",
+   "gloss": "おはようございます、自分だけでは解決できない問題が起きたため、ご判断をいただきたいです（上司への報告と相談）",
+   "pos": "報告（エスカレーション）",
+   "root": "may problemang lumitaw=起きた問題がある / hindi kaya lutasin nang mag-isa=一人では解決できない / kailangan ng payo=判断・助言が必要",
+   "examples": [
+    {
+     "text": "Sige, sabihin mo nga, tignan natin kung paano ito lulutasin.",
+     "translation": "分かった、教えて、どう解決するか一緒に考えよう。"
+    },
+    {
+     "text": "May problema na lumitaw na hindi ko kaya lutasin mag-isa, kailangan ko ng payo mo.",
+     "translation": "一人じゃ解決できない問題が出てきたから、アドバイスが欲しい。(neutral版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-39",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Maraming salamat po talaga sa pagtulong ninyo, malaking tulong po ito sa akin.",
+   "reading": "Maramíng salámat po talagá sa pagtulong ninyó, malakíng tulong po ito sa akin.",
+   "gloss": "本当にご協力ありがとうございました、私にとって大きな助けになりました（対応してくれたスタッフへの個別の感謝）",
+   "pos": "感謝（トラブル対応後）",
+   "root": "maraming salamat=ありがとう / pagtulong ninyo=あなたの協力 / malaking tulong=大きな助け",
+   "examples": [
+    {
+     "text": "Walang anuman po, natutuwa akong nakatulong.",
+     "translation": "どういたしまして、お役に立てて嬉しいです。"
+    },
+    {
+     "text": "Salamat talaga sa tulong mo ha, laking tulong niyan sa akin.",
+     "translation": "本当に助かったよ、ありがとう。(casual版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "gov-docs-01",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang araw po, maaari po bang itanong kung ano-ano ang kompletong dokumentong kailangan ko para sa pagpapanibago ng 9(g) working visa ko?",
+   "reading": "Magandáng áraw po, maáari po bang itanong kung anó-anó ang kompletong dokuméntong kailángan ko para sa pagpapanibago ng 9(g) working visa ko?",
+   "gloss": "おはようございます、9(g)就労ビザの更新に必要な書類一式を伺ってもよろしいでしょうか（BI窓口職員への確認）",
+   "pos": "質問（要件確認）",
+   "root": "maaari po bang itanong=お伺いしてもよろしいでしょうか / ano-ano=何と何(列挙) / kompletong dokumento=完全な一式の書類 / pagpapanibago ng visa=ビザの更新",
+   "examples": [
+    {
+     "text": "Opo, kailangan niyo po ng valid passport, ACR I-Card, at certificate of employment.",
+     "translation": "はい、有効なパスポート、ACR I-Card、雇用証明書が必要です。"
+    },
+    {
+     "text": "Hi, ano ba ang mga kailangang dokumento para sa pag-renew ng 9(g) visa ko?",
+     "translation": "9(g)ビザの更新に必要な書類って何がある？(neutral版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-36",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Gusto ko lang pong linawin na hindi po iyon ang ibig kong sabihin, baka po kasi mali ang pagkakaintindi.",
+   "reading": "Gustó ko lang pong linawín na hindî po iyón ang ibig kong sabihin, baka po kasi malî ang pagkakaintindí.",
+   "gloss": "はっきりさせておきたいのですが、それは私が言いたかったことではなく、誤解があったのかもしれません（誤解を丁寧に解く説明）",
+   "pos": "説明（誤解の訂正）",
+   "root": "gusto kong linawin=明確にしたい / hindi iyon ang ibig kong sabihin=それは言いたかったことではない / mali ang pagkakaintindi=理解の仕方が間違っている",
+   "examples": [
+    {
+     "text": "Ah, ganoon po pala, pasensya na at na-misintindihan ko.",
+     "translation": "ああ、そうだったのですね、誤解してすみません。"
+    },
+    {
+     "text": "Gusto ko lang linawin, hindi iyon ang ibig kong sabihin, baka mali lang ang pagkakaintindi.",
+     "translation": "はっきりさせたいんだけど、それは私が言いたかったことじゃなくて、誤解があったのかも。(neutral版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "gov-docs-03",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang araw po, gusto ko lang pong itanong hanggang saan na po ang progreso ng aplikasyon ko para sa ACR I-Card.",
+   "reading": "Magandáng áraw po, gustó ko lang pong itanóng hanggáng saán na po ang progréso ng aplikasyón ko para sa ACR I-Card.",
+   "gloss": "おはようございます、ACR I-Cardの申請が現在どこまで進んでいるか伺いたいです（BI窓口職員への進捗確認）",
+   "pos": "質問（進捗確認）",
+   "root": "hanggang saan na=どこまで進んだか / progreso ng aplikasyon=申請の進捗",
+   "examples": [
+    {
+     "text": "Sandali po, tingnan ko muna sa system natin.",
+     "translation": "少々お待ちください、システムで確認いたします。"
+    },
+    {
+     "text": "Hi, hanggang saan na ba ang application ko para sa ACR I-Card?",
+     "translation": "ACR I-Cardの申請、今どこまで進んでる？(neutral版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-21",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Nawawala yata ang ID ko, puwede ba ninyo akong tulungang hanapin?",
+   "reading": "Nawawalâ yata ang ID ko, puwéde ba ninyó akong tulungang hanápin?",
+   "gloss": "社員証をなくしたみたい、一緒に探すの手伝ってもらえる？（スタッフへの依頼）",
+   "pos": "依頼（紛失物の捜索）",
+   "root": "nawawala=なくなっている / yata=〜みたい / ID=社員証 / tulungan=手伝う / hanapin=探す",
+   "examples": [
+    {
+     "text": "Sige, saan mo huling nakita?",
+     "translation": "いいよ、最後に見たのはどこ？"
+    },
+    {
+     "text": "Nawawala po yata ang ID ko, puwede po ba ninyo akong tulungang hanapin?",
+     "translation": "社員証をなくしてしまったようです、探すのを手伝っていただけますか。(polite版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "gov-docs-23",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Puwede ko po bang ilipat ang aking iskedyul ng pagpapanotaryo sa ibang araw?",
+   "reading": "Puwéde ko po bang ilipat ang aking iskedyul ng pagpapanotaryo sa ibang araw?",
+   "gloss": "公証の予約を別の日に変更していただくことはできますか。（予約変更の相談）",
+   "pos": "依頼（予約変更）",
+   "root": "puwede ba=できますか、ilipat=移す、iskedyul=予約、pagpapanotaryo=公証、ibang araw=別の日",
+   "examples": [
+    {
+     "text": "Opo, puwede po. Anong araw po ang mas maginhawa para sa inyo?",
+     "translation": "はい、大丈夫です。どちらの日がご都合よろしいですか。"
+    },
+    {
+     "text": "Pwede bang baguhin ang iskedyul ko para sa notaryo sa ibang araw?",
+     "translation": "公証の予約を別の日に変更できますか。（カジュアルな言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-04",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang umaga po. Ako po si Kohei mula sa HR, at ako po ang mag-i-interview sa inyo ngayon.",
+   "reading": "Magandang umaga po. Akó po si Kohei mula sa HR, at akó po ang mag-i-interview sa inyó ngayon.",
+   "gloss": "おはようございます。HR部門のコウヘイです。本日は私が面接を担当いたします(面接開始の自己紹介)",
+   "pos": "自己紹介(面接開始・丁寧)",
+   "root": "mag-i-interview(面接する、未来形・タグリッシュ表現) / sa inyo(あなたたちに)+ngayon(今日)",
+   "examples": [
+    {
+     "text": "Magandang umaga rin po. Salamat po sa pagbibigay ng oras.",
+     "translation": "おはようございます。お時間をいただきありがとうございます"
+    },
+    {
+     "text": "Magandang umaga. Ako si Kohei mula sa HR, ako ang kakausap sa inyo ngayon.",
+     "translation": "おはようございます。HRのコウヘイです。本日担当します(ややくだけたバージョン)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "greetings-43",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Paumanhin po sa paghihintay ninyo, magandang araw po sa inyo.",
+   "reading": "Paumanhín pô sa paghihintáy ninyó, magandáng áraw pô sa inyó.",
+   "gloss": "お待たせして申し訳ございません、こんにちは。（面接開始時のお詫びの挨拶）",
+   "pos": "挨拶（面接・お詫び）",
+   "root": "paumanhin=すみません / paghihintay=待つこと / magandang araw=こんにちは",
+   "examples": [
+    {
+     "text": "Wala pong problema, magandang araw din po sa inyo.",
+     "translation": "問題ありません、こんにちは。"
+    },
+    {
+     "text": "Paumanhin po sa antay, kumusta po kayo ngayon?",
+     "translation": "お待たせしてすみません、今日の調子はいかがですか？（言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-31",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Medyo nagulat po ako sa desisyong iyon. Puwede ko bang malaman ang dahilan?",
+   "reading": "Medyo nagúlat po ako sa desisyóng iyon. Puwéde ko bang malaman ang dahilán?",
+   "gloss": "その決定にはちょっと驚きました。理由を伺ってもよろしいですか（予想外の人事決定への率直な戸惑いを上司に伝える・中立）",
+   "pos": "疑問・戸惑い",
+   "root": "nagulat=驚いた、desisyon=決定、puwede=できる、malaman=知る、dahilan=理由",
+   "examples": [
+    {
+     "text": "Naiintindihan ko ang pagtataka mo, ipapaliwanag ko sa 'yo mamaya.",
+     "translation": "驚くのも無理はないよ、あとで説明するね。"
+    },
+    {
+     "text": "Medyo nalilito po ako sa desisyong iyon, maaari po bang malaman ang buong konteksto?",
+     "translation": "その決定については少し戸惑っております、背景を詳しく伺ってもよろしいでしょうか。（丁寧バージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emotions-50",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Salamat sa lahat ng pagsisikap ninyo ngayong taon, magpahinga kayong mabuti sa bakasyon!",
+   "reading": "Salamat sa lahat ng pagsisikap ninyo ngayóng taon, magpahingá kayong mabuti sa bakasyon!",
+   "gloss": "今年一年の皆さんの頑張りに感謝します、休暇でゆっくり休んでください（年末のチームへの労い）",
+   "pos": "感謝・労い（年末）",
+   "root": "salamat=感謝／pagsisikap=努力／ngayong taon=今年／magpahinga=休む・休暇を取る",
+   "examples": [
+    {
+     "text": "Salamat din po sa suporta ninyo sa amin buong taon!",
+     "translation": "こちらこそ、1年間支えてくださりありがとうございました！"
+    },
+    {
+     "text": "Salamat po sa lahat ng inyong pagsisikap sa buong taon, magpahinga po kayong mabuti sa bakasyon!",
+     "translation": "1年間の皆さんの頑張りに感謝します、休暇でゆっくりお休みください！（より丁寧な言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-01",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Good morning! Kumusta ka na?",
+   "reading": "Good morning! Kumustá ka na?",
+   "gloss": "おはよう！最近どう？（明るい朝の挨拶）",
+   "pos": "挨拶（朝）",
+   "root": "good morning=おはよう／kumusta ka na=元気にしてる？（決まり文句のあいさつ）",
+   "examples": [
+    {
+     "text": "Good morning din! Ayos naman, ikaw?",
+     "translation": "おはよう！元気だよ、あなたは？"
+    },
+    {
+     "text": "Magandang umaga, kumusta ka na?",
+     "translation": "おはようございます、お元気ですか。（中間的な言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-47",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang umaga po, [Company Name] po ito, ano po ang maitutulong ko sa inyo?",
+   "reading": "Magandáng umága po, [Company Name] po itó, anó po ang maitútulong ko sa inyó?",
+   "gloss": "おはようございます、こちらは[会社名]でございます。どのようなご用件でしょうか（電話応対・受電）",
+   "pos": "電話応対（受電）",
+   "root": "magandang umaga(おはよう) + [Company Name] po ito(こちらは〜です) + maitutulong(お手伝いできること)",
+   "examples": [
+    {
+     "text": "Magandang umaga po, gusto ko lang po sana makausap si Mr. Santos.",
+     "translation": "おはようございます、サントス様とお話ししたいのですが。"
+    },
+    {
+     "text": "Hello, [Company Name] ito, ano'ng maitutulong ko?",
+     "translation": "もしもし、こちら[会社名]です。ご用件は何でしょうか。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-49",
+  "verdict": "keep_as_is"
+ },
+ {
+  "slotId": "work-53",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Uy, libre ka ba ngayon? May itatanong lang ako, mabilisan lang naman.",
+   "reading": "Uy, libre ka ba ngayón? May itátanóng lang akó, mabilisán lang namán.",
+   "gloss": "ねえ、今空いてる？ちょっと聞きたいことがあって、すぐ終わるから（今すぐ対応可能か確認）",
+   "pos": "質問（今すぐ対応可能か）",
+   "root": "libre(暇・空いている) + itatanong(尋ねること) + mabilisan(手早く)",
+   "examples": [
+    {
+     "text": "Oo naman, ano 'yun?",
+     "translation": "もちろん、何？"
+    },
+    {
+     "text": "Puwede ka bang makausap ngayon? May gusto lang akong itanong.",
+     "translation": "今話せる？ちょっと聞きたいことがあるんだけど。"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "job-interview-09",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Kung isa lang ang sasabihin niyong pinakamalaking strength niyo, ano iyon?",
+   "reading": "Kung isá lang ang sásabíhin niyóng pinakamalaking strength niyó, anó iyón?",
+   "gloss": "一つだけ挙げるなら、あなたの一番の強みは何ですか？（自認する強みを一つ聞く質問）",
+   "pos": "質問（強み）",
+   "root": "sasabihin(言うだろう←sabi)、pinakamalaki(最大の←laki)、strength(英語借用)",
+   "examples": [
+    {
+     "text": "Sa tingin ko po, ang problem-solving skills ko ang pinakamalakas kong asset.",
+     "translation": "私は問題解決能力が一番の強みだと思います。"
+    },
+    {
+     "text": "Ano po sa tingin ninyo ang pinaka-malaking kalakasan ninyo?",
+     "translation": "あなたが一番の強みだと思うことは何ですか？（丁寧バージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-65",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Enjoy mo ang holiday, ha! Magpahinga kang maayos.",
+   "reading": "Enjoy mo ang holiday, ha! Magpahingá kang maáyos.",
+   "gloss": "休日楽しんでね！しっかり休んでください。（祝日前のカジュアルな挨拶）",
+   "pos": "挨拶",
+   "root": "enjoy(英語借用)、holiday(英語借用)、magpahinga(休む←pahinga)、maayos(きちんとした)",
+   "examples": [
+    {
+     "text": "Salamat! Ikaw rin, enjoy ka rin sa break mo!",
+     "translation": "ありがとう！あなたも休みを楽しんでね！"
+    },
+    {
+     "text": "Sana po ay magkaroon kayo ng maligayang bakasyon—magpahinga po kayong mabuti.",
+     "translation": "良い休日をお過ごしください――しっかり休んでください。（丁寧バージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "work-63",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Guys, ito si Anna, ang bago nating teammate—sana matulungan niyo siyang mag-adjust.",
+   "reading": "Guys, itó si Anna, ang bágo nating teammate—sána matulúngan niyó siyáng mag-adjust.",
+   "gloss": "皆さん、こちらアンナさん、新しいチームメイトです――慣れるまで力を貸してあげてください。（新メンバーをチームに紹介する場面）",
+   "pos": "紹介",
+   "root": "bago(新しい)、teammate(英語借用)、matulungan(手伝える←tulong)、mag-adjust(英語借用+マグ動詞化、慣れる)",
+   "examples": [
+    {
+     "text": "Hi po, Anna! Excited na kaming makasama ka sa team.",
+     "translation": "こんにちは、アンナさん！チームでご一緒できるの楽しみにしてます。"
+    },
+    {
+     "text": "Mga kasama, gusto ko po kayong ipakilala kay Anna, ang bago nating miyembro ng team.",
+     "translation": "皆さん、新しいチームメンバーのアンナさんをご紹介させてください。（丁寧バージョン）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "job-interview-21",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Puwede niyo bang bigyan ako ng mas specific na numbers o example diyan?",
+   "reading": "Puwéde niyó bang bigyán akó ng mas specific na numbers o example diyán?",
+   "gloss": "「もう少し具体的な数字や例を教えてもらえますか？」（候補者の回答を深掘りする場面）",
+   "pos": "深掘り質問",
+   "root": "puwede(できる)+niyo(あなたたちが/丁寧単数)+bigyan(与える)+specific(具体的な)+numbers(数字)+example(例)+diyan(そこに)",
+   "examples": [
+    {
+     "text": "Sige po, halimbawa po sa huling project namin, na-improve namin ang efficiency by 30%.",
+     "translation": "はい、例えば前のプロジェクトでは効率を30%改善しました。"
+    },
+    {
+     "text": "Puwede po ba ninyong bigyan ako ng mas specific na numbers o example diyan?",
+     "translation": "（丁寧なレジスターで）もう少し具体的な数字や例を教えていただけますか？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "food-31",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Sige, tagay muna tayo! Maligayang kaarawan sa 'yo, sana lagi kang masaya at laging masagana ang buhay mo!",
+   "reading": "Sige, tagáy múna táyo! Maligáyang kaarawán sa 'yó, sána lági kang masáya at lági masagána ang búhay mo!",
+   "gloss": "「じゃあ、乾杯しよう！お誕生日おめでとう、これからもずっと幸せで、人生が豊かでありますように！」（誕生日ランチでの乾杯）",
+   "pos": "乾杯・祝辞",
+   "root": "tagay=乾杯する／maligayang kaarawan=お誕生日おめでとう／sana=〜でありますように／masagana=豊かな",
+   "examples": [
+    {
+     "text": "Salamat, mga bes! Ang saya kong may mga katrabahong tulad ninyo.",
+     "translation": "ありがとう、みんな！こんな同僚がいて本当に嬉しい。"
+    },
+    {
+     "text": "Tagay po muna tayo! Maligayang kaarawan po sa inyo, sana po ay laging masaya kayo.",
+     "translation": "乾杯しましょう！お誕生日おめでとうございます、いつも幸せでありますように。（丁寧な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-23",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Manong, magkano kung ako lang ang sasakay hanggang sa mall? Tatawaran kita ng singkwenta.",
+   "reading": "Manóng, magkáno kung ako lang ang sasakáy hanggáng sa mall? Tatawarán kita ng singkwénta.",
+   "gloss": "運転手さん、モールまで貸切だといくら？50ペソでどうかと持ちかけてみるね。（トライシクル運転手と特別便の運賃交渉）",
+   "pos": "交渉（運賃交渉）",
+   "root": "sasakay=乗る／hanggang sa=～まで／tatawaran=（金額を）持ちかける／singkwenta=50",
+   "examples": [
+    {
+     "text": "Hala, sobrang mura naman niyan. Dagdagan mo naman ng kaunti, boss.",
+     "translation": "え、それは安すぎるよ。もう少し上乗せしてよ、旦那。"
+    },
+    {
+     "text": "Manong, magkano po kung special po ako hanggang sa mall?",
+     "translation": "運転手さん、モールまで貸切だといくらになりますか？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "shopping-30",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Miss, ilang taon po ang warranty ng kagamitang ito, at ano po ang saklaw nito?",
+   "reading": "Miss, ílang taón po ang warranty ng kagamitáng ito, at anó po ang sáklaw nito?",
+   "gloss": "すみません、この家電製品の保証は何年ですか？また保証内容は何ですか？（保証期間と内容の確認）",
+   "pos": "質問（保証内容の確認）",
+   "root": "warranty(英語借用)=保証／kagamitan=家電製品・器具／saklaw=範囲・内容",
+   "examples": [
+    {
+     "text": "Isang taon po ang warranty namin, at saklaw nito ay parts and labor po.",
+     "translation": "保証は1年間で、部品と工賃の両方が対象です。"
+    },
+    {
+     "text": "Ilang taon ba ang garantiya nito? Ano bang laman ng warranty?",
+     "translation": "これの保証って何年？保証の内容は何？"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "transport-15",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Uy, ang siksikan pa ba ng tren ngayon? Baka maghintay muna ako.",
+   "reading": "Uy, ang siksíkan pa ba ng tren ngayón? Baka maghintáy múna akó.",
+   "gloss": "ねえ、今電車まだ混んでる？ちょっと待とうかな（ラッシュ時の混雑確認・カジュアル）",
+   "pos": "質問（カジュアル）",
+   "root": "siksikan=混雑／tren=電車／maghintay=待つ",
+   "examples": [
+    {
+     "text": "Oo, ang sikip pa rin. Mas mabuti maghintay ka ng susunod.",
+     "translation": "うん、まだぎゅうぎゅう。次の便を待ったほうがいいよ。"
+    },
+    {
+     "text": "Masikip pa ba ang byahe ngayon? Baka maghintay muna ako ng ilang minuto.",
+     "translation": "今まだ混んでる？数分待とうかな（中立的な言い換え）"
+    },
+    {
+     "text": "Kuya/Ate, ang siksikan pa po ba ng tren ngayon? Baka po maghintay muna ako.",
+     "translation": "すみません、今電車まだ混んでいますか？少し待とうかと思います。（駅員向けの丁寧な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-18",
+  "verdict": "keep_as_is"
+ },
+ {
+  "slotId": "numbers-34",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ilan po ang kabuuang OT mo ngayong buwan?",
+   "reading": "Ilán po ang kabuúang OT mo ngayóng buwán?",
+   "gloss": "今月のあなたの残業時間の合計は何時間ですか？（労務管理のための残業時間確認）",
+   "pos": "確認（残業時間）",
+   "root": "ilan=いくつ / kabuuan=合計 / OT(英語借用、overtimeの略)=残業 / buwan=月",
+   "examples": [
+    {
+     "text": "Mga labinlimang oras po lahat-lahat ngayong buwan.",
+     "translation": "今月は合計で約15時間です。"
+    },
+    {
+     "text": "Ilang oras ang naipon mong OT ngayong buwan?",
+     "translation": "今月たまった残業時間はどれくらい？（中間的な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emergency-12",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Magandang araw po. Gusto ko po sanang humingi ng kalahating araw na leave para sa pagpapatingin sa doktor.",
+   "reading": "Magandáng áraw po. Gustó ko po sánang humingî ng kalahatíng áraw na leave para sa pagpapatíngin sa doktór.",
+   "gloss": "こんにちは。通院のため半休をいただきたいのですが。（上司への半休申請）",
+   "pos": "申請（休暇）",
+   "root": "humingi ng leave=休暇を求める / kalahating araw=半日 / pagpapatingin sa doktor=通院",
+   "examples": [
+    {
+     "text": "Sige, okay lang po 'yan. Magpahinga ka at magpagaling agad.",
+     "translation": "分かりました、大丈夫ですよ。ゆっくり休んで早く良くなってください。"
+    },
+    {
+     "text": "Puwede ba akong kumuha ng kalahating araw na leave para magpatingin sa doktor?",
+     "translation": "通院のため半休を取ってもいいですか？（中間的な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emergency-01",
+  "verdict": "keep_as_is"
+ },
+ {
+  "slotId": "emergency-11",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Puwede po ba akong humingi ng resibo at medical certificate para sa paghahabol sa aking segurong pangkalusugan?",
+   "reading": "Puwéde po ba akóng humingî ng resíbo at medical certificate para sa paghahábol sa akíng seguróng pangkalusugán?",
+   "gloss": "領収書と診断書をいただけますか？保険請求に使いたいです。（会計窓口での書類発行依頼）",
+   "pos": "依頼（書類発行）",
+   "root": "humingi=もらう・求める / resibo=領収書 / medical certificate(英語借用)=診断書 / paghahabol sa seguro=保険請求",
+   "examples": [
+    {
+     "text": "Opo, sandali lang po at ipapahanda ko na ang mga dokumento niyo.",
+     "translation": "はい、少々お待ちください。書類をご用意いたします。"
+    },
+    {
+     "text": "Pwede bang makahingi ng resibo at medical certificate?",
+     "translation": "領収書と診断書をいただけますか？（中間的な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "numbers-35",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ilan po ang araw ng leave na hiniling mo?",
+   "reading": "Ilán po ang áraw ng leave na hinilíng mo?",
+   "gloss": "あなたが申請した有給休暇は何日分ですか？（有給申請の承認判断のための確認）",
+   "pos": "確認（有給日数）",
+   "root": "ilan=いくつ / araw=日 / leave(英語借用)=有給休暇 / hiniling=申請した",
+   "examples": [
+    {
+     "text": "Tatlong araw po ang hiniling kong leave.",
+     "translation": "私が申請した休暇は3日間です。"
+    },
+    {
+     "text": "Ilang araw ba ang gusto mong leave?",
+     "translation": "有給休暇は何日欲しいの？（中間的な言い方）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "emergency-33",
+  "verdict": "keep_as_is"
+ },
+ {
+  "slotId": "trouble-17",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Nawalan tayo ng kuryente ngayon, maghintay muna tayo, huwag kayong mag-alala.",
+   "reading": "Nawalán tayo ng kuryente ngayón, maghintáy múna táyo, huwág kayóng mag-alala.",
+   "gloss": "今、停電しました。しばらく落ち着いて待っていてください（スタッフ全員への案内）",
+   "pos": "通知（停電）",
+   "root": "nawalan ng=〜を失った(停電表現) / kuryente=電気 / ngayon=今 / maghintay muna=いったん待つ / huwag mag-alala=心配しないで",
+   "examples": [
+    {
+     "text": "Sige, hihintay na lang kami. Alam niyo ba kung gaano katagal?",
+     "translation": "分かりました、待ちます。どれくらいかかりそうか分かりますか？"
+    },
+    {
+     "text": "Nawalan po tayo ng kuryente ngayon, maghintay lang po muna tayo, huwag po kayong mag-alala.",
+     "translation": "ただいま停電が発生しております。しばらく落ち着いてお待ちください。(polite版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "trouble-20",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Pare, puwede mo bang dalhin dito ang naiwan kong papeles sa conference room?",
+   "reading": "Pare, puwéde mo bang dalhín dito ang naiwan kong papéles sa conference room?",
+   "gloss": "ねえ、会議室に忘れた資料をこっちに持ってきてくれる？（同僚へのカジュアルな依頼）",
+   "pos": "依頼（忘れ物対応）",
+   "root": "pare=呼びかけ(相棒) / puwede...ba=〜できる？ / dalhin=持ってくる(<dalá) / naiwan=置き忘れた / papeles=書類 / conference room(英語借用)=会議室",
+   "examples": [
+    {
+     "text": "Sige, teka lang, kukunin ko.",
+     "translation": "分かった、ちょっと待って、取ってくるよ。"
+    },
+    {
+     "text": "Puwede po ba ninyong dalhin dito ang naiwan kong papeles sa conference room?",
+     "translation": "会議室に忘れた資料をこちらに届けていただけますか。(polite版)"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "gov-docs-15",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Nawala po ang aking BIR Form 2316, at nagsara na po ang dati kong kompanya. Puwede po ba akong humingi ng bagong kopya nito rito sa BIR?",
+   "reading": "Nawala pô ang aking BIR Form 2316, at nagsara na pô ang dati kong kompanya. Puwede pô ba akong humingi ng bagong kopya nitó rito sa BIR?",
+   "gloss": "源泉徴収票（BIR Form 2316）を紛失してしまい、以前の勤務先はすでに廃業しております。こちらのBIR窓口で再発行していただくことは可能でしょうか。（勤務先が対応できない事情がある場合にBIR窓口へ直接依頼する場面）",
+   "pos": "依頼（再発行）",
+   "root": "nawala=無くした、BIR Form 2316=源泉徴収票、nagsara na=すでに廃業した、dati kong kompanya=以前の会社、puwede ba=できますか、humingi=求める、bagong kopya=新しいコピー、rito sa BIR=このBIRで",
+   "examples": [
+    {
+     "text": "Opo, punan niyo lang po itong request form at hihintayin ninyo ang tawag sa loob ng ilang araw.",
+     "translation": "はい、こちらの申請用紙にご記入いただき、数日以内にご連絡をお待ちください。"
+    },
+    {
+     "text": "Nawala yung 2316 ko at nagsara na yung company namin, pwede bang humingi ng panibagong kopya dito sa BIR?",
+     "translation": "私の2316を無くしちゃって、会社も潰れちゃったんだけど、このBIRで新しいコピーをもらえますか。（カジュアルな言い換え）"
+    }
+   ]
+  }
+ },
+ {
+  "slotId": "gov-docs-24",
+  "verdict": "revise",
+  "revisedCard": {
+   "headword": "Ilang araw po ang proseso para sa apostille ng aking dokumento?",
+   "reading": "Ilang araw pô ang proseso para sa apostille ng aking dokumento?",
+   "gloss": "書類のアポスティーユ認証にはどのくらいの処理日数がかかりますか。（処理日数の確認）",
+   "pos": "質問（処理日数）",
+   "root": "ilang araw=何日、proseso=処理、apostille=アポスティーユ、dokumento=書類",
+   "examples": [
+    {
+     "text": "Karaniwan po ay pito hanggang sampung araw ang proseso para sa regular processing, pero mayroon ding mas mabilis na rush service kung kakailanganin ninyo.",
+     "translation": "通常は7日から10日ほどかかりますが（通常処理の場合）、お急ぎでしたらより早いラッシュサービスもございます。"
+    },
+    {
+     "text": "Gaano katagal ang proseso para sa apostille?",
+     "translation": "アポスティーユの処理はどのくらいかかりますか。（中間的なレジスター）"
+    }
+   ]
+  }
+ }
+]

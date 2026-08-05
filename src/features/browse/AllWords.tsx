@@ -196,6 +196,7 @@ export function AllWords({
                     <span className="aw-word">{c.headword}</span>
                     <span className="aw-reading">
                       {c.reading}
+                      {c.ipa && <span className="aw-ipa"> {c.ipa}</span>}
                       {romaji && <span className="aw-romaji"> · {romaji}</span>}
                     </span>
                     <span className="aw-gloss">{c.gloss}</span>

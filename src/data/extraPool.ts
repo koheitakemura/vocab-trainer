@@ -11,6 +11,7 @@ export interface ExtraPoolIndexEntry {
   id: string
   headword: string
   reading?: string
+  ipa?: string
 }
 
 const BASE = 'data/courses'

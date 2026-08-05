@@ -14,11 +14,30 @@
 import sys
 
 from card_id import assign_ids
+from id_registry import KEY_SEP, load_registry
 from seed_id_registry import list_course_ids, load_course_cards
+
+# headword/reading でなく idKey（不変のスロットID）で採番するコース。
+# card_id.py の assign_ids() の idKey 対応（判断ログ#36）を参照。
+IDKEY_COURSES = {"tl-phrases-daily"}
 
 
 def records_of(course_id: str) -> list[dict]:
     """出荷カードを、ビルドが assign_ids に渡すのと同じ形へ落とす"""
+    cards = load_course_cards(course_id)
+    if course_id in IDKEY_COURSES:
+        reg = load_registry(course_id)
+        id_to_key = {e["id"]: e["key"].split(KEY_SEP)[0] for e in reg.entries} if reg else {}
+        return [
+            {
+                "idKey": id_to_key.get(c["id"]),
+                "headword": c.get("headword"),
+                "reading": c.get("reading"),
+                "gloss": c.get("gloss"),
+                "frequencyRank": c.get("frequencyRank"),
+            }
+            for c in cards
+        ]
     return [
         {
             "headword": c.get("headword"),
@@ -26,7 +45,7 @@ def records_of(course_id: str) -> list[dict]:
             "gloss": c.get("gloss"),
             "frequencyRank": c.get("frequencyRank"),
         }
-        for c in load_course_cards(course_id)
+        for c in cards
     ]
 
 

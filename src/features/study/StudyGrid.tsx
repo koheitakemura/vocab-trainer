@@ -115,6 +115,7 @@ export function StudyGrid({
           <Tile
             key={tile.card.id}
             tile={tile}
+            courseType={courseType}
             onGrade={(g, rect) => void handleGrade(tile.card.id, g, rect)}
             onOpenSheet={() => setSheetId(tile.card.id)}
             uiLanguage={uiLanguage}
@@ -139,11 +140,13 @@ export function StudyGrid({
 
 function Tile({
   tile,
+  courseType,
   onGrade,
   onOpenSheet,
   uiLanguage,
 }: {
   tile: BoardTile
+  courseType: CourseType
   onGrade: (g: ReviewGrade, rect: DOMRect) => void
   /** タッチのタップで呼ぶ（片手フォーカスモードを開く）。マウスクリックはその場でピン留めめくり。 */
   onOpenSheet?: () => void
@@ -152,6 +155,10 @@ function Tile({
   const t = useStrings(uiLanguage)
   const c: VocabCard = tile.card
   const romaji = getRomaji(c.reading)
+  // フレーズコース（tl-phrases-daily）は見出し語が単語よりずっと長く、字数決め打ちの
+  // headwordFitClass では収まらない（実測で判明・判断ログ#36）。実測フィット（useFitText）
+  // に切り替える。単語コースの既存パスはここで分岐するだけで一切変更しない。
+  const isPhrase = courseType === 'phrase'
   // どのカードも採点後もボタンを残し、いつでも採点しなおせる（3ボタン共通の挙動）。
   // 意味（訳語）は常時表示せず、本体にホバー/タップしてめくったときだけ見せる。
   // ホバーめくりは「マウスのポインターイベント」だけに反応させる：タッチはタップ時に
@@ -199,7 +206,8 @@ function Tile({
   const unified = flipped && Boolean(example)
   const cls =
     `tile s-${tile.state}${flipped ? ' revealed' : ''}${level ? ` g-${level}` : ''}${cloze ? ' cloze' : ''}` +
-    (unified ? ' unified' : '')
+    (unified ? ' unified' : '') +
+    (isPhrase ? ' phrase' : '')
 
   return (
     <div className={cls} ref={rootRef} onMouseLeave={() => setFlippedByHover(false)}>
@@ -226,6 +234,7 @@ function Tile({
               <div className={`tile-hw sm${headwordFitClass(c.headword)}`}>{c.headword}</div>
               <span className="tile-reading">
                 {c.reading}
+                {c.ipa && <span className="tile-ipa"> {c.ipa}</span>}
                 {romaji && <span className="tile-romaji"> · {romaji}</span>}
               </span>
               <TileBack fitKey={`${cloze.example.text}\u0000${example?.translation ?? ''}`}>
@@ -246,9 +255,14 @@ function Tile({
           )
         ) : flipped ? (
           <>
-            <div className={`tile-hw sm${headwordFitClass(c.headword)}`}>{c.headword}</div>
+            {isPhrase ? (
+              <FitHeadword text={c.headword} steps={HW_STEPS_BACK} maxHeight={56} small />
+            ) : (
+              <div className={`tile-hw sm${headwordFitClass(c.headword)}`}>{c.headword}</div>
+            )}
             <span className="tile-reading">
               {c.reading}
+              {c.ipa && <span className="tile-ipa"> {c.ipa}</span>}
               {romaji && <span className="tile-romaji"> · {romaji}</span>}
             </span>
             <TileBack
@@ -263,6 +277,8 @@ function Tile({
               <TileExample example={example} showSource={showSource} />
             </TileBack>
           </>
+        ) : isPhrase ? (
+          <FitHeadword text={c.headword} steps={HW_STEPS_FACE} maxHeight={130} />
         ) : (
           <div className={`tile-hw${headwordFitClass(c.headword)}`}>{c.headword}</div>
         )}
@@ -359,6 +375,36 @@ function FitGloss({ text, className }: { text: string; className?: string }) {
   return (
     <div ref={boxRef} className="tile-gloss-box">
       <div className={`tile-gloss${className ? ` ${className}` : ''}`} style={{ fontSize }}>
+        {text}
+      </div>
+    </div>
+  )
+}
+
+/**
+ * フレーズコース（tl-phrases-daily）専用の見出し語表示。単語コースの headwordFitClass
+ * は「1行の幅」だけを想定した字数の決め打ちで、複数行に渡るフレーズには対応できない
+ * （実測で長い見出し語が21pxのままタイルからはみ出すことを確認・判断ログ#36）。
+ * useFitText で maxHeight に収まるまでフォントを段階的に縮める。
+ */
+const HW_STEPS_FACE = [21, 18, 16, 14, 12.5, 11, 10]
+const HW_STEPS_BACK = [17, 15, 13, 11.5, 10, 9]
+
+function FitHeadword({
+  text,
+  steps,
+  maxHeight,
+  small,
+}: {
+  text: string
+  steps: number[]
+  maxHeight: number
+  small?: boolean
+}) {
+  const { boxRef, fontSize, overflowing } = useFitText(text, steps)
+  return (
+    <div ref={boxRef} className={`tile-hw-fit-box${overflowing ? ' clipped' : ''}`} style={{ maxHeight }}>
+      <div className={`tile-hw${small ? ' sm' : ''}`} style={{ fontSize }}>
         {text}
       </div>
     </div>

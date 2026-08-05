@@ -1,0 +1,3602 @@
+[
+ {
+  "slotId": "greetings-01",
+  "function": "挨拶(朝・同僚)",
+  "intent_ja": "毎日顔を合わせる同僚たちに親しみを込めて朝の挨拶をし、良好な関係を保つ",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-02",
+  "function": "挨拶(朝・上司)",
+  "intent_ja": "出社時に上司へ丁寧な朝の挨拶をして礼儀正しい印象を与える",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-03",
+  "function": "自己紹介(初対面)",
+  "intent_ja": "初めて会う現地スタッフに丁寧に自己紹介し、名前と役割を覚えてもらう",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-04",
+  "function": "自己紹介(面接開始)",
+  "intent_ja": "面接冒頭で候補者に自分の名前と役職を伝え、緊張をほぐしつつ信頼できる印象を与える",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-05",
+  "function": "挨拶(久しぶり)",
+  "intent_ja": "休暇から戻った同僚に久しぶりの再会を喜ぶ気持ちを伝える",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-06",
+  "function": "調子を尋ねる(カジュアル)",
+  "intent_ja": "親しい同僚に軽く近況を尋ねて雑談のきっかけを作る",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-07",
+  "function": "調子を尋ねる(丁寧)",
+  "intent_ja": "上司や目上の人に礼儀正しく体調・近況を尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-08",
+  "function": "名前を尋ねる",
+  "intent_ja": "初めて会う新入社員に名前を尋ねて覚えるきっかけを作る",
+  "register": "neutral",
+  "speaker": "Kohei→新入社員",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-09",
+  "function": "自己紹介(名前を伝える)",
+  "intent_ja": "名前を尋ねられた際に自分の名前をはっきり伝え、相手が聞き取りやすいようにする",
+  "register": "neutral",
+  "speaker": "Kohei→相手",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-10",
+  "function": "紹介(人を引き合わせる)",
+  "intent_ja": "初対面の同僚同士をお互いに紹介し、スムーズに会話を始められるようにする",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ2名",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-11",
+  "function": "挨拶(受付・警備員)",
+  "intent_ja": "毎朝オフィスに入る際、受付や警備員に軽く挨拶をして良好な関係を保つ",
+  "register": "neutral",
+  "speaker": "Kohei→警備員",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-12",
+  "function": "挨拶(タクシー乗車時)",
+  "intent_ja": "タクシーに乗り込む際に運転手へ一言挨拶し、感じよく行き先を伝える準備をする",
+  "register": "neutral",
+  "speaker": "Kohei→タクシー運転手",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-13",
+  "function": "挨拶(店員・入店時)",
+  "intent_ja": "店に入る際に店員へ軽く挨拶し、フィリピンの接客文化に合った自然な第一声を交わす",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-14",
+  "function": "別れの挨拶(退勤・同僚)",
+  "intent_ja": "退勤時に同僚へカジュアルに挨拶し、翌日また会う約束を軽く交わす",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-15",
+  "function": "別れの挨拶(上司・丁寧)",
+  "intent_ja": "先に退勤する際、上司に丁寧に挨拶をして失礼のないように退室する",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-16",
+  "function": "挨拶(電話の第一声)",
+  "intent_ja": "電話に出る、あるいはかけた際の第一声で、相手に失礼なく用件へ入る準備をする",
+  "register": "polite",
+  "speaker": "Kohei→相手(電話)",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-17",
+  "function": "挨拶(会議開始・オンライン)",
+  "intent_ja": "オンライン会議の冒頭で参加者全員に挨拶し、会議を始める合図を出す",
+  "register": "neutral",
+  "speaker": "Kohei→チーム",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-18",
+  "function": "歓迎(新入社員初日)",
+  "intent_ja": "初出社の新入社員を温かく迎え入れ、安心して初日を過ごせるようにする",
+  "register": "polite",
+  "speaker": "Kohei→新入社員",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-19",
+  "function": "雑談(出身地を尋ねる)",
+  "intent_ja": "打ち解けるきっかけとして相手の出身地を尋ね、会話を広げる",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-20",
+  "function": "雑談(週末を尋ねる)",
+  "intent_ja": "月曜の朝、週末の過ごし方を軽く尋ねて自然な雑談を始める",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-21",
+  "function": "挨拶(休暇前の送り出し)",
+  "intent_ja": "休暇に入る同僚に対して楽しんできてほしいという気持ちを伝える",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-22",
+  "function": "挨拶(休暇明けの歓迎)",
+  "intent_ja": "休暇から復帰した同僚を温かく迎え、休暇はどうだったか気軽に尋ねる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-23",
+  "function": "挨拶(誕生日)",
+  "intent_ja": "同僚の誕生日に気持ちの良いお祝いの言葉をかける",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-24",
+  "function": "季節の挨拶(クリスマス)",
+  "intent_ja": "フィリピンで大切にされるクリスマスシーズンにチーム全体へ祝いの言葉をかける",
+  "register": "polite",
+  "speaker": "Kohei→チーム",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-25",
+  "function": "謙遜(褒められた返答)",
+  "intent_ja": "タガログ語が上手いと褒められた際、謙遜しつつまだ勉強中であることを伝える",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-26",
+  "function": "質問への返答(言語について)",
+  "intent_ja": "タガログ語を話せるかと尋ねられた際に、少しだけ話せることを自然に伝える",
+  "register": "neutral",
+  "speaker": "Kohei→相手",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-27",
+  "function": "挨拶(廊下ですれ違い)",
+  "intent_ja": "廊下で急いでいる同僚と一瞬すれ違う際、立ち止まらずに軽く挨拶だけ交わす",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-28",
+  "function": "挨拶(金曜日)",
+  "intent_ja": "金曜の終業前にチームへ声をかけ、良い週末を過ごしてほしいと伝える",
+  "register": "casual",
+  "speaker": "Kohei→チーム",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-29",
+  "function": "挨拶(来客対応・丁寧)",
+  "intent_ja": "オフィスを訪れたクライアントを丁寧に迎え、良い第一印象を与える",
+  "register": "polite",
+  "speaker": "Kohei→来客",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-30",
+  "function": "挨拶(清掃スタッフ)",
+  "intent_ja": "名前をまだ知らない清掃スタッフに対しても敬意を持って挨拶する",
+  "register": "neutral",
+  "speaker": "Kohei→清掃スタッフ",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-31",
+  "function": "自己紹介(部署・役職を伝える)",
+  "intent_ja": "会議やオリエンテーションの場で自分の部署と役職を明確に伝える",
+  "register": "polite",
+  "speaker": "Kohei→参加者一同",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-32",
+  "function": "挨拶を返す",
+  "intent_ja": "先に挨拶をされた際、自然な流れで挨拶を返す",
+  "register": "neutral",
+  "speaker": "Kohei→相手",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-33",
+  "function": "様子を気遣う(元気そう)",
+  "intent_ja": "相手が元気そうに見えることをポジティブに伝え、会話の糸口にする",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-34",
+  "function": "様子を気遣う(体調)",
+  "intent_ja": "顔色が悪そうな同僚にさりげなく体調を気遣う言葉をかける",
+  "register": "polite",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-35",
+  "function": "確認(名前の発音)",
+  "intent_ja": "相手の名前の発音に自信がないため、失礼のないよう丁寧に確認する",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-36",
+  "function": "自己紹介(出身国を伝える)",
+  "intent_ja": "自己紹介の中で自分が日本出身であることを伝え、話題のきっかけにする",
+  "register": "neutral",
+  "speaker": "Kohei→相手",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-37",
+  "function": "挨拶(初対面・握手時の一言)",
+  "intent_ja": "初対面で握手をしながら好印象を与える短い一言を添える",
+  "register": "polite",
+  "speaker": "Kohei→初対面の相手",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-38",
+  "function": "挨拶(面接終了時のねぎらい)",
+  "intent_ja": "面接の最後に候補者の時間を割いてくれたことへの感謝を込めて挨拶する",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-39",
+  "function": "挨拶(自宅・警備員)",
+  "intent_ja": "毎日暮らすコンドミニアムの警備員に顔なじみとして軽く挨拶する",
+  "register": "casual",
+  "speaker": "Kohei→警備員",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-40",
+  "function": "挨拶(勤務時間外の偶然の再会)",
+  "intent_ja": "オフィス外(モールなど)で偶然会った同僚に驚きと親しみを込めて挨拶する",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-41",
+  "function": "挨拶(電話を切る前)",
+  "intent_ja": "電話を終える際に失礼なく丁寧に締めくくりの挨拶をする",
+  "register": "polite",
+  "speaker": "Kohei→相手(電話)",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-42",
+  "function": "挨拶(朝礼・チーム全体)",
+  "intent_ja": "朝のチームミーティングの冒頭で全員に向けて挨拶し、一日の始まりの雰囲気を作る",
+  "register": "neutral",
+  "speaker": "Kohei→チーム全体",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-43",
+  "function": "挨拶(面接・待たせたお詫び)",
+  "intent_ja": "面接開始時に候補者を待たせてしまったことを詫びつつ丁寧に挨拶する",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-44",
+  "function": "挨拶(出張明けの出社)",
+  "intent_ja": "出張などでしばらく不在にしていたオフィスに復帰し、皆に挨拶をする",
+  "register": "casual",
+  "speaker": "Kohei→同僚一同",
+  "category": "greetings"
+ },
+ {
+  "slotId": "greetings-45",
+  "function": "別れの挨拶(夜・解散時)",
+  "intent_ja": "同僚との会食やイベントの後、夜遅くに別れる際に挨拶をする",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "greetings"
+ },
+ {
+  "slotId": "emotions-01",
+  "function": "相槌（同意）",
+  "intent_ja": "同僚が話している内容について相槌を打ち、しっかり聞いていることを伝えたい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-02",
+  "function": "聞き返し（要点確認）",
+  "intent_ja": "スタッフの説明が込み入っていて理解が追いつかないため、要点をもう一度確認したい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-03",
+  "function": "驚き（朗報）",
+  "intent_ja": "案件が予定より早くまとまったという知らせに驚きと喜びを素直に伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-04",
+  "function": "驚き（衝撃・相談を受けて）",
+  "intent_ja": "スタッフから急な退職の相談を受け、動揺を見せすぎずに率直な驚きを伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-05",
+  "function": "共感（渋滞の愚痴）",
+  "intent_ja": "渋滞で遅刻してきた同僚の愚痴に「わかるよ、大変だね」と共感を示したい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-06",
+  "function": "感謝（緊急対応）",
+  "intent_ja": "就業時間後に緊急対応してくれたスタッフへ心からの感謝を伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-07",
+  "function": "感謝（お土産）",
+  "intent_ja": "出張から戻ったスタッフがくれたお土産（パサルボン）に喜びとお礼を伝えたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-08",
+  "function": "謝罪（返信遅延）",
+  "intent_ja": "チャットの返信が遅くなったことについてスタッフに軽く謝りたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-09",
+  "function": "謝罪（予定変更）",
+  "intent_ja": "面談の時間を急に変更することになった候補者に丁寧にお詫びしたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-10",
+  "function": "心配（体調不良）",
+  "intent_ja": "顔色が悪いスタッフの体調を気遣う言葉をかけたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-11",
+  "function": "心配（台風時の安否）",
+  "intent_ja": "台風接近中に在宅勤務のスタッフの安全を気遣うメッセージを送りたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-12",
+  "function": "心配（家族の入院）",
+  "intent_ja": "親の入院で休みを取ったスタッフに家族の状況を気遣う言葉をかけたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-13",
+  "function": "お悔やみ",
+  "intent_ja": "家族を亡くしたスタッフに短く誠実な弔意を伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-14",
+  "function": "励まし（面接前の緊張緩和）",
+  "intent_ja": "面接前に緊張している候補者の肩の力を抜かせるひと言をかけたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-15",
+  "function": "励まし（資格試験への応援）",
+  "intent_ja": "資格試験に挑戦する部下を励まし、応援していることを伝えたい",
+  "register": "casual",
+  "speaker": "Kohei→部下",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-16",
+  "function": "励まし（落ち込む同僚へ）",
+  "intent_ja": "ミスをして落ち込んでいる同僚を励まし、前向きな気持ちにさせたい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-17",
+  "function": "称賛（成果）",
+  "intent_ja": "目標を達成した部下の仕事ぶりを素直に称賛したい",
+  "register": "neutral",
+  "speaker": "Kohei→部下",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-18",
+  "function": "感心（スキル）",
+  "intent_ja": "部下の語学力や仕事の手際の良さに感心していることを伝えたい",
+  "register": "casual",
+  "speaker": "Kohei→部下",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-19",
+  "function": "称賛（家族の話題）",
+  "intent_ja": "スタッフが見せてくれた子供の写真や成績を褒めたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-20",
+  "function": "残念（イベント中止）",
+  "intent_ja": "予定していた社内イベントが台風で中止になり、残念な気持ちを同僚と分かち合いたい",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-21",
+  "function": "がっかり（期待外れ）",
+  "intent_ja": "期待していた案件が通らなかったという知らせにがっかりした気持ちを控えめに伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-22",
+  "function": "安心（トラブル解決）",
+  "intent_ja": "システム障害が解決したという報告を受けて、ホッとした気持ちを伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-23",
+  "function": "安心（無事到着）",
+  "intent_ja": "出張中のスタッフから無事到着の連絡を受け、安心したことを伝えたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-24",
+  "function": "お祝い（昇進）",
+  "intent_ja": "昇進が決まったスタッフに心からお祝いの言葉を伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-25",
+  "function": "お祝い（誕生日）",
+  "intent_ja": "同僚の誕生日にカジュアルにお祝いの言葉をかけたい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-26",
+  "function": "お祝い（結婚報告）",
+  "intent_ja": "結婚することになったスタッフに祝福の言葉を伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-27",
+  "function": "お祝い（出産報告）",
+  "intent_ja": "赤ちゃんが生まれたスタッフに祝福の言葉を伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-28",
+  "function": "楽しみ（週末の予定）",
+  "intent_ja": "週末の予定を楽しみにしていることを雑談の中で同僚に伝えたい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-29",
+  "function": "興奮（新プロジェクト）",
+  "intent_ja": "新しいプロジェクトの立ち上げに胸が高鳴っていることをチームに伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→チームメンバー",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-30",
+  "function": "困惑（話が飲み込めない）",
+  "intent_ja": "込み入った事情説明を聞いても飲み込めず、分かりやすくもう一度説明してほしいと伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-31",
+  "function": "疑問（意外な決定への戸惑い）",
+  "intent_ja": "予想していなかった人事の決定を聞き、率直な戸惑いを上司に伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→上司",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-32",
+  "function": "やんわりとした反論",
+  "intent_ja": "相手の提案に完全には同意できないことを、角を立てずに伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-33",
+  "function": "不満の抑制表現",
+  "intent_ja": "同じ間違いが何度も続くことへの軽い不満を、きつくならないように伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→部下",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-34",
+  "function": "冗談への反応",
+  "intent_ja": "スタッフの冗談に笑って応じ、場を和ませたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-35",
+  "function": "からかいへの軽い返し",
+  "intent_ja": "自分の下手なタガログ語をからかわれ、笑いながら軽く切り返したい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-36",
+  "function": "緊張の表明",
+  "intent_ja": "全体会議でスピーチする前に緊張していることを同僚に軽くこぼしたい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-37",
+  "function": "疲れの表現",
+  "intent_ja": "忙しい一日を終え、疲れたことを同僚にこぼしたい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-38",
+  "function": "相槌（暑さへの共感）",
+  "intent_ja": "猛暑についての世間話で「本当に暑いね」と共感を示したい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-39",
+  "function": "感嘆（料理の美味しさ）",
+  "intent_ja": "出された料理の美味しさに素直な感嘆を伝えたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-40",
+  "function": "感動（送別会）",
+  "intent_ja": "送別会でスタッフからのサプライズに感動したことを伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ一同",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-41",
+  "function": "相槌（深く納得）",
+  "intent_ja": "スタッフの説明を聞いて腑に落ちたことを伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-42",
+  "function": "相槌（続きを促す）",
+  "intent_ja": "話の途中でスタッフに続きを促す相槌を打ちたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-43",
+  "function": "驚き（渋滞・遅延）",
+  "intent_ja": "通勤に想定外の時間がかかったことへの驚きを運転手に伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→運転手",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-44",
+  "function": "心配（残業続きの部下）",
+  "intent_ja": "連日残業が続く部下の健康を気遣いたい",
+  "register": "polite",
+  "speaker": "Kohei→部下",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-45",
+  "function": "共感（送金の苦労）",
+  "intent_ja": "家族への送金の話をするスタッフの苦労に共感を示したい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-46",
+  "function": "感謝（日頃の気配り）",
+  "intent_ja": "日頃から気を配ってくれるアシスタントに改めて感謝を伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→アシスタント",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-47",
+  "function": "安堵・喜び（内定を伝える反応）",
+  "intent_ja": "内定を伝えた際に喜ぶ候補者の様子を見て、自分も嬉しい気持ちを伝えたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-48",
+  "function": "励まし（不採用後のフォロー）",
+  "intent_ja": "不採用となった候補者を落胆させすぎないよう、前向きな言葉をかけたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-49",
+  "function": "心配（メンタル面の負担）",
+  "intent_ja": "業務量の多さでストレスを感じていそうな部下にさりげなく気遣いを示したい",
+  "register": "polite",
+  "speaker": "Kohei→部下",
+  "category": "emotions"
+ },
+ {
+  "slotId": "emotions-50",
+  "function": "感謝（年末の労い）",
+  "intent_ja": "年末に1年間頑張ってくれたチーム全体に労いと感謝を伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→チーム全体",
+  "category": "emotions"
+ },
+ {
+  "slotId": "work-01",
+  "function": "挨拶（朝一番）",
+  "intent_ja": "出勤してきたスタッフに明るく朝の挨拶をし、和やかに一日を始める",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-02",
+  "function": "自己紹介",
+  "intent_ja": "初めて顔を合わせる新入社員に丁寧に自己紹介し、名前と役割を覚えてもらう",
+  "register": "polite",
+  "speaker": "Kohei→新入社員",
+  "category": "work"
+ },
+ {
+  "slotId": "work-03",
+  "function": "挨拶（久しぶり）",
+  "intent_ja": "出張や休暇明けで久しぶりに会った同僚に声をかけ、近況を尋ねる",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "work"
+ },
+ {
+  "slotId": "work-04",
+  "function": "挨拶（退勤時）",
+  "intent_ja": "まだ仕事をしているスタッフを気遣いつつ、自分は先に退勤することを伝える",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-05",
+  "function": "雑談（週明け）",
+  "intent_ja": "月曜の朝に週末の過ごし方を軽く尋ね、スタッフとの距離を縮める",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-06",
+  "function": "祝福",
+  "intent_ja": "昇進した同僚を祝い、今後の活躍を期待していると伝える",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "work"
+ },
+ {
+  "slotId": "work-07",
+  "function": "挨拶（廊下ですれ違い）",
+  "intent_ja": "忙しい中すれ違うスタッフに短く声をかけて存在に気づいたことを示す",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-08",
+  "function": "感謝（節目）",
+  "intent_ja": "プロジェクトを支えてくれたスタッフに、日頃の頑張りへの感謝を伝える",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-09",
+  "function": "提案（日程変更・タグリッシュ）",
+  "intent_ja": "予定していた会議を別の時間に動かせないか、丁寧に打診する",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-10",
+  "function": "質問（予定確認）",
+  "intent_ja": "相手が来週の会議に参加できるかどうかを事前に確認する",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-11",
+  "function": "確認（会議詳細）",
+  "intent_ja": "会議の時間と場所を勘違いなく共有できているか最終確認する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-12",
+  "function": "依頼（オンライン参加）",
+  "intent_ja": "出社できないスタッフにオンライン会議のリンクを送って参加してもらう",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-13",
+  "function": "依頼（時間短縮）",
+  "intent_ja": "次の予定があるため会議を手短に終わらせたいと丁重に伝える",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-14",
+  "function": "断り（一時退席）",
+  "intent_ja": "進行中の会議から少しの間だけ席を外す許可を得る",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-15",
+  "function": "まとめ（会議終了）",
+  "intent_ja": "会議の最後に決定事項と次のアクションを参加者全員に確認する",
+  "register": "neutral",
+  "speaker": "Kohei→チーム",
+  "category": "work"
+ },
+ {
+  "slotId": "work-16",
+  "function": "依頼（議事録）",
+  "intent_ja": "会議の内容を記録してくれる担当者を指名して頼む",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-17",
+  "function": "依頼（延期）",
+  "intent_ja": "自分の都合が悪くなったため会議を別日に延期してほしいと頼む",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-18",
+  "function": "質問（質疑応答の呼びかけ）",
+  "intent_ja": "会議を締めくくる前に、参加者に不明点がないか最後に確認する",
+  "register": "neutral",
+  "speaker": "Kohei→チーム",
+  "category": "work"
+ },
+ {
+  "slotId": "work-19",
+  "function": "質問（進捗確認）",
+  "intent_ja": "依頼していたタスクが今どこまで進んでいるかを尋ねる",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-20",
+  "function": "報告（完了）",
+  "intent_ja": "頼まれていた作業が終わったことを上司や同僚に報告する",
+  "register": "neutral",
+  "speaker": "Kohei→上司",
+  "category": "work"
+ },
+ {
+  "slotId": "work-21",
+  "function": "報告（遅延・問題の共有）",
+  "intent_ja": "想定より作業が遅れていることを早めに正直に報告し理解を得る",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "work"
+ },
+ {
+  "slotId": "work-22",
+  "function": "依頼（CC共有）",
+  "intent_ja": "今後のやり取りで自分にもメールをCCに入れてほしいと頼む",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-23",
+  "function": "質問（指示の確認）",
+  "intent_ja": "曖昧に感じた指示内容についてもう一度詳しく確認する",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "work"
+ },
+ {
+  "slotId": "work-24",
+  "function": "確認（復唱）",
+  "intent_ja": "頼まれた内容を自分の言葉で言い直し、認識のズレがないか確認する",
+  "register": "neutral",
+  "speaker": "Kohei→上司",
+  "category": "work"
+ },
+ {
+  "slotId": "work-25",
+  "function": "依頼（見直し依頼）",
+  "intent_ja": "送信する前にもう一度内容を見直してほしいとスタッフに頼む",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-26",
+  "function": "依頼（エスカレーション）",
+  "intent_ja": "自分の手に負えない緊急の問題を上司にすぐ共有し判断を仰ぐ",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "work"
+ },
+ {
+  "slotId": "work-27",
+  "function": "感謝（迅速な報告）",
+  "intent_ja": "すぐに状況を報告してくれたスタッフに感謝を伝える",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-28",
+  "function": "指摘（やんわり訂正）",
+  "intent_ja": "スタッフの報告書にある誤りを角が立たないように指摘する",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-29",
+  "function": "依頼（期限付き）",
+  "intent_ja": "特定の期日までに作業を終わらせてほしいと具体的に依頼する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-30",
+  "function": "依頼（助力を求める）",
+  "intent_ja": "自分の専門外の作業について詳しい同僚に手伝いを求める",
+  "register": "polite",
+  "speaker": "Kohei→同僚",
+  "category": "work"
+ },
+ {
+  "slotId": "work-31",
+  "function": "依頼（担当の引き継ぎ）",
+  "intent_ja": "頼まれた件を自分ではなく適切な担当者に回すよう案内する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-32",
+  "function": "依頼（優先順位の変更）",
+  "intent_ja": "今取り組んでいるタスクより先に別の作業を優先してほしいと頼む",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-33",
+  "function": "依頼（資料送付）",
+  "intent_ja": "必要な書類やファイルを今すぐ送ってほしいと依頼する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-34",
+  "function": "依頼（通訳・翻訳の手伝い）",
+  "intent_ja": "英語とタガログ語のニュアンスが分からず、通訳や翻訳を手伝ってほしいと頼む",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-35",
+  "function": "依頼（会議準備）",
+  "intent_ja": "会議で使う資料の印刷や準備をお願いする",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-36",
+  "function": "催促（フォローアップ）",
+  "intent_ja": "まだ完了していない依頼について、状況を確認しつつやんわり催促する",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-37",
+  "function": "連絡（休暇予告）",
+  "intent_ja": "翌日休暇を取ることをチームに事前に知らせておく",
+  "register": "neutral",
+  "speaker": "Kohei→チーム",
+  "category": "work"
+ },
+ {
+  "slotId": "work-38",
+  "function": "気遣い（体調確認）",
+  "intent_ja": "欠勤しているスタッフの体調を気遣い、無理せず休むよう伝える",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-39",
+  "function": "承認（休暇申請）",
+  "intent_ja": "スタッフから出された休暇申請を快く承認する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-40",
+  "function": "質問（遅刻の理由）",
+  "intent_ja": "遅刻してきたスタッフに責めすぎない口調で理由を尋ねる",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-41",
+  "function": "連絡（自分の欠勤）",
+  "intent_ja": "体調不良のため自分が今日休むことを上司や同僚に連絡する",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "work"
+ },
+ {
+  "slotId": "work-42",
+  "function": "質問（残業の要否）",
+  "intent_ja": "今日残業が必要かどうかをチームに確認する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-43",
+  "function": "相談（シフト変更）",
+  "intent_ja": "シフトの変更が可能かどうかをスタッフと相談する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-44",
+  "function": "注意喚起（締め切りリマインド）",
+  "intent_ja": "タイムシートの提出期限が近いことをやんわり思い出させる",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-45",
+  "function": "承認（早退）",
+  "intent_ja": "私用で早退したいというスタッフの申し出を快く許可する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-46",
+  "function": "祝福（正社員登用）",
+  "intent_ja": "試用期間を終えて正社員になったスタッフを祝う",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-47",
+  "function": "電話応対（受電）",
+  "intent_ja": "オフィスにかかってきた電話に出て、丁寧に用件を尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→電話相手",
+  "category": "work"
+ },
+ {
+  "slotId": "work-48",
+  "function": "依頼（保留）",
+  "intent_ja": "電話の相手に少し待ってもらうよう丁寧にお願いする",
+  "register": "polite",
+  "speaker": "Kohei→電話相手",
+  "category": "work"
+ },
+ {
+  "slotId": "work-49",
+  "function": "伝言（不在時対応）",
+  "intent_ja": "担当者が不在なので伝言を預かる旨をチャットで伝える",
+  "register": "polite",
+  "speaker": "Kohei→電話相手",
+  "category": "work"
+ },
+ {
+  "slotId": "work-50",
+  "function": "確認（既読・受領）",
+  "intent_ja": "送られてきたチャットメッセージを確認したことを短く知らせる",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-51",
+  "function": "詫び（返信遅延）",
+  "intent_ja": "メッセージへの返信が遅くなったことをカジュアルに詫びる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "work"
+ },
+ {
+  "slotId": "work-52",
+  "function": "依頼（折り返し）",
+  "intent_ja": "今手が離せないので後でこちらから電話し直すと伝える",
+  "register": "neutral",
+  "speaker": "Kohei→電話相手",
+  "category": "work"
+ },
+ {
+  "slotId": "work-53",
+  "function": "質問（今すぐ対応可能か）",
+  "intent_ja": "チャットで今相手がすぐ対応できる状態かどうかを確認する",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "work"
+ },
+ {
+  "slotId": "work-54",
+  "function": "締めの挨拶（チャット）",
+  "intent_ja": "チャットでのやり取りを丁寧に締めくくり会話を終える",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-55",
+  "function": "フィードバック（改善点）",
+  "intent_ja": "今後の成長のために、業務上の改善点をやわらかい言葉で伝える",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-56",
+  "function": "称賛",
+  "intent_ja": "期待以上の成果を出したスタッフを具体的に褒める",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-57",
+  "function": "仲裁（対人トラブル）",
+  "intent_ja": "スタッフ同士のちょっとした対立を中立な立場で穏便に収める",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-58",
+  "function": "謝罪（自分のミス）",
+  "intent_ja": "自分の伝達ミスが原因で混乱を招いたことを素直に謝る",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-59",
+  "function": "質問（意見を求める）",
+  "intent_ja": "決定を下す前にスタッフの率直な意見や提案を求める",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-60",
+  "function": "励まし",
+  "intent_ja": "繁忙期で疲れているスタッフを気遣い、前向きな声をかける",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-61",
+  "function": "感謝（プロジェクト完了）",
+  "intent_ja": "プロジェクトをやり遂げたチーム全員に労いと感謝を伝える",
+  "register": "neutral",
+  "speaker": "Kohei→チーム",
+  "category": "work"
+ },
+ {
+  "slotId": "work-62",
+  "function": "誘い（社内イベント）",
+  "intent_ja": "会社の食事会やイベントにスタッフをカジュアルに誘う",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-63",
+  "function": "紹介（新メンバー）",
+  "intent_ja": "新しく入ったメンバーをチームの他のスタッフに紹介する",
+  "register": "neutral",
+  "speaker": "Kohei→チーム",
+  "category": "work"
+ },
+ {
+  "slotId": "work-64",
+  "function": "送別",
+  "intent_ja": "退職するスタッフに感謝を伝えつつ温かく送り出す",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "work-65",
+  "function": "挨拶（祝日前）",
+  "intent_ja": "祝日前にスタッフへ良い休日を過ごすよう声をかける",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "work"
+ },
+ {
+  "slotId": "job-interview-01",
+  "function": "挨拶・ねぎらい",
+  "intent_ja": "面接会場に到着した候補者を出迎え、道中の交通事情など軽い雑談を挟んで緊張をほぐしてから本題に入りたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-02",
+  "function": "自己紹介",
+  "intent_ja": "面接官である自分の名前・所属部署・役職を簡潔に伝え、今日誰が面接を担当するのかを候補者に理解してもらいたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-03",
+  "function": "確認（呼称）",
+  "intent_ja": "履歴書に記載された候補者の名前の読み方を確認し、面接中どう呼べばよいかを聞いておきたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-04",
+  "function": "説明（進行案内）",
+  "intent_ja": "面接の所要時間とこの後の進行順序（経歴確認→質疑応答→質問受付）を事前に伝え、候補者に見通しを持ってもらいたい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-05",
+  "function": "確認（経歴）",
+  "intent_ja": "履歴書に記載されている現職の会社名・役職が本人の口から見て正しいかを確認したい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-06",
+  "function": "質問（業務内容）",
+  "intent_ja": "候補者が現在の仕事で具体的にどんな業務を日々担当しているのか、業務範囲を掘り下げて聞き出したい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-07",
+  "function": "質問（転職理由）",
+  "intent_ja": "今の会社を辞めて新しい職を探している理由を、角が立たない聞き方で尋ねたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-08",
+  "function": "質問（志望動機）",
+  "intent_ja": "数ある求人の中でなぜ自社・このポジションに応募したのか、志望動機を具体的に聞きたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-09",
+  "function": "質問（強み）",
+  "intent_ja": "候補者が自認している自分の強みや得意なスキルを一つ挙げてもらいたい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-10",
+  "function": "質問（弱み）",
+  "intent_ja": "候補者の弱みや改善したい点を、防御的にならない雰囲気で答えてもらいたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-11",
+  "function": "質問（経験談）",
+  "intent_ja": "過去に仕事上のトラブルやプレッシャーの大きい状況にどう対処したか、具体的なエピソードを話してもらいたい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-12",
+  "function": "質問（協働経験）",
+  "intent_ja": "以前のチームでの協働経験や、意見が対立した同僚とどう折り合いをつけたかを聞き出したい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-13",
+  "function": "質問（語学力）",
+  "intent_ja": "業務で英語（メール対応・電話応対など）をどの程度使いこなせるか、候補者の自己評価を聞きたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-14",
+  "function": "確認（勤務条件）",
+  "intent_ja": "夜勤・交代制シフトや繁忙期の残業に対応できるかどうかを事前に確認しておきたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-15",
+  "function": "確認（勤務地）",
+  "intent_ja": "オフィスへの毎日の出社が可能か、在宅勤務を希望するかなど勤務形態の希望を確認したい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-16",
+  "function": "質問（希望条件）",
+  "intent_ja": "候補者が希望する給与水準を、現職の給与も踏まえて率直に聞き出したい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-17",
+  "function": "確認（入社時期）",
+  "intent_ja": "内定した場合にいつから勤務を開始できるか、入社可能日を確認したい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-18",
+  "function": "確認（ノーティス期間）",
+  "intent_ja": "現職を退職する際に必要な予告期間（ノーティスピリオド）がどれくらいかを確認したい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-19",
+  "function": "確認（学歴資格）",
+  "intent_ja": "候補者の最終学歴や保有資格が、このポジションの要件を満たしているかを確認したい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-20",
+  "function": "聞き返し",
+  "intent_ja": "候補者の回答の一部を聞き取れなかった、または意味を取り違えた可能性があるため、もう一度言ってもらいたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-21",
+  "function": "深掘り質問",
+  "intent_ja": "候補者の回答に対して、もう少し具体的な数字や事例を追加で引き出したい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-22",
+  "function": "質問受付",
+  "intent_ja": "面接の終盤で、会社や職務内容について候補者側から質問がないかを尋ねたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-23",
+  "function": "説明（結果連絡）",
+  "intent_ja": "選考結果をいつ・どの手段（メールか電話か）で連絡するかを候補者に明確に伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-24",
+  "function": "挨拶（クロージング）",
+  "intent_ja": "面接終了にあたり、時間を割いて来てくれたことへの感謝を伝え、丁寧に見送りたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "job-interview-25",
+  "function": "声かけ（リラックス促進）",
+  "intent_ja": "面接開始時に硬くなっている候補者に対し、リラックスして普段通りに話してよいと安心させたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "job-interview"
+ },
+ {
+  "slotId": "food-01",
+  "function": "依頼（席の確保）",
+  "intent_ja": "レストランに入り人数を伝えて席を案内してもらう",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-02",
+  "function": "依頼（メニュー）",
+  "intent_ja": "席についてすぐメニューを持ってきてもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-03",
+  "function": "質問（おすすめ）",
+  "intent_ja": "初めての店でこの店の人気メニューを尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-04",
+  "function": "質問（辛さ確認）",
+  "intent_ja": "辛い料理が苦手なので辛さの度合いを事前に確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-05",
+  "function": "注文",
+  "intent_ja": "具体的な料理名を伝えて注文を確定させる",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-06",
+  "function": "質問（食材確認）",
+  "intent_ja": "豚肉が使われていないか確認して安心して注文する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-07",
+  "function": "質問（アレルギー確認）",
+  "intent_ja": "ピーナッツなどアレルギーの原因になる食材が入っていないか確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-08",
+  "function": "依頼（量の調整）",
+  "intent_ja": "ご飯の量を少なめにしてもらうよう調整を頼む",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-09",
+  "function": "依頼（追加注文）",
+  "intent_ja": "足りなかったご飯のおかわりを追加で頼む",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-10",
+  "function": "依頼（備品）",
+  "intent_ja": "フォークとスプーンをまだ持ってきてもらえていないので頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-11",
+  "function": "依頼",
+  "intent_ja": "食事中に飲み水を持ってきてもらう",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-12",
+  "function": "感想（褒める）",
+  "intent_ja": "出てきた料理が美味しいことを店員に伝えて喜びを共有する",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-13",
+  "function": "依頼（会計）",
+  "intent_ja": "食事を終えて会計をお願いする",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-14",
+  "function": "質問（支払い方法）",
+  "intent_ja": "現金以外にカードやGCashで支払えるか確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-15",
+  "function": "提案（割り勘）",
+  "intent_ja": "同僚との食事代を割り勘にしようと提案する",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-16",
+  "function": "申し出（奢る）",
+  "intent_ja": "部下・スタッフに今日は自分がおごることを伝える",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "food"
+ },
+ {
+  "slotId": "food-17",
+  "function": "誘い",
+  "intent_ja": "同僚をランチに誘って一緒に行こうと声をかける",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-18",
+  "function": "質問（お店を尋ねる）",
+  "intent_ja": "オフィス近くのおすすめのランチスポットを同僚に尋ねる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-19",
+  "function": "断り",
+  "intent_ja": "もう満腹なので勧められた追加の料理を丁寧に断る",
+  "register": "polite",
+  "speaker": "Kohei→同僚・ホスト",
+  "category": "food"
+ },
+ {
+  "slotId": "food-20",
+  "function": "質問（料理の説明）",
+  "intent_ja": "見慣れないフィリピン料理が何なのか同僚に尋ねる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-21",
+  "function": "注文",
+  "intent_ja": "屋台で串焼き（イサウなど）を初めて注文してみる",
+  "register": "casual",
+  "speaker": "Kohei→屋台の店主",
+  "category": "food"
+ },
+ {
+  "slotId": "food-22",
+  "function": "質問（値段）",
+  "intent_ja": "カリンデリアの惣菜の値段を確認する",
+  "register": "neutral",
+  "speaker": "Kohei→屋台の店主",
+  "category": "food"
+ },
+ {
+  "slotId": "food-23",
+  "function": "注文",
+  "intent_ja": "コンビニのカウンターでコーヒーを注文する",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-24",
+  "function": "依頼（持ち帰り）",
+  "intent_ja": "食べきれなかった料理を持ち帰り用に包んでもらう",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-25",
+  "function": "依頼（手伝い）",
+  "intent_ja": "フードデリバリーアプリの使い方が分からずスタッフに手伝ってもらう",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "food"
+ },
+ {
+  "slotId": "food-26",
+  "function": "苦情（やんわり）",
+  "intent_ja": "注文と違う料理が来たことをやんわり伝えて交換をお願いする",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-27",
+  "function": "質問（メニュー確認）",
+  "intent_ja": "ベジタリアン向けの料理があるか尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-28",
+  "function": "提案（時間調整）",
+  "intent_ja": "一緒にランチに行く時間をスタッフと調整する",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "food"
+ },
+ {
+  "slotId": "food-29",
+  "function": "感謝（差し入れ）",
+  "intent_ja": "同僚が持ってきてくれたおやつ（メリエンダ）に感謝を伝える",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-30",
+  "function": "質問（レシピ）",
+  "intent_ja": "同僚の手作り料理に興味を持ち作り方を尋ねる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-31",
+  "function": "乾杯・祝辞",
+  "intent_ja": "同僚の誕生日ランチで簡単な乾杯の挨拶をする",
+  "register": "casual",
+  "speaker": "Kohei→同僚一同",
+  "category": "food"
+ },
+ {
+  "slotId": "food-32",
+  "function": "断り",
+  "intent_ja": "お酒を勧められた際、あまり飲めないので控えたいと丁寧に伝える",
+  "register": "polite",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-33",
+  "function": "依頼（調理の調整）",
+  "intent_ja": "健康を気にして脂っこさや甘さを控えめにしてもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-34",
+  "function": "質問（食べ方）",
+  "intent_ja": "手で食べる料理（カマヤン）など正しい食べ方を同僚に尋ねる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "food-35",
+  "function": "感想（褒める）",
+  "intent_ja": "手料理を振る舞ってくれたホストに感謝と称賛を伝える",
+  "register": "polite",
+  "speaker": "Kohei→ホスト",
+  "category": "food"
+ },
+ {
+  "slotId": "food-36",
+  "function": "依頼",
+  "intent_ja": "タガログ語のメニューが読めないので英語のメニューがあるか尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-37",
+  "function": "依頼（予約）",
+  "intent_ja": "電話で人数と時間を伝えてテーブルを予約する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-38",
+  "function": "質問（待ち時間）",
+  "intent_ja": "満席のため席が空くまでの待ち時間を確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-39",
+  "function": "感謝（退店時の挨拶）",
+  "intent_ja": "食事を終えて店を出る際に店員へ感謝を伝える",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "food"
+ },
+ {
+  "slotId": "food-40",
+  "function": "雑談（食の好み）",
+  "intent_ja": "辛い物が得意かなど食の好みについて同僚と軽く雑談する",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "food"
+ },
+ {
+  "slotId": "shopping-01",
+  "function": "挨拶（入店時）",
+  "intent_ja": "店に入る際にスタッフへ気さくに挨拶し、良い印象を与える",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-02",
+  "function": "質問（値段）",
+  "intent_ja": "商品に値札がついていない場合にスタッフへ値段を尋ねて確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-03",
+  "function": "質問（在庫・サイズ確認）",
+  "intent_ja": "欲しいサイズの在庫が店頭にあるかスタッフに確認してもらう",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-04",
+  "function": "依頼（試着）",
+  "intent_ja": "服を購入する前に試着させてもらえるよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-05",
+  "function": "質問（色違いの有無）",
+  "intent_ja": "気に入った商品について他の色展開があるか尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-06",
+  "function": "交渉（値引き交渉）",
+  "intent_ja": "市場の売り子に商品の値段を少し下げてもらえないか交渉する",
+  "register": "casual",
+  "speaker": "Kohei→市場の売り子",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-07",
+  "function": "交渉（追加の値引き）",
+  "intent_ja": "提示された割引価格からさらにもう少し下げてもらうよう粘る",
+  "register": "casual",
+  "speaker": "Kohei→市場の売り子",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-08",
+  "function": "質問（定価の確認）",
+  "intent_ja": "この値段が最終価格で交渉の余地がないかを確認する",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-09",
+  "function": "質問（支払い方法）",
+  "intent_ja": "会計前にクレジットカードやGCash等の電子決済が使えるか確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-10",
+  "function": "依頼（レシート発行）",
+  "intent_ja": "経費精算に使うためレシートを発行してもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-11",
+  "function": "断り（レジ袋不要）",
+  "intent_ja": "エコバッグを持参しているのでレジ袋は不要だと伝える",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-12",
+  "function": "質問（売り場の場所）",
+  "intent_ja": "探している商品がどの売り場にあるか店員に案内してもらう",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-13",
+  "function": "依頼（おすすめの相談）",
+  "intent_ja": "似たような商品の中でどれがおすすめかスタッフの意見を聞く",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-14",
+  "function": "質問（返品・交換ポリシー）",
+  "intent_ja": "サイズが合わなかった場合に返品や交換が可能か購入前に確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-15",
+  "function": "苦情（不良品の報告）",
+  "intent_ja": "購入した商品に不具合や破損があったことを丁寧に伝え対応を求める",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-16",
+  "function": "質問（両替・小銭確認）",
+  "intent_ja": "大きい額の紙幣しか持っていない場合にお釣りが用意できるか確認する",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-17",
+  "function": "依頼（サリサリストアでの買い物）",
+  "intent_ja": "近所のサリサリストアで日用品を軽い世間話を交えながら買う",
+  "register": "casual",
+  "speaker": "Kohei→サリサリストアの店主",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-18",
+  "function": "依頼（新鮮な品の見繕い）",
+  "intent_ja": "市場で食材を買う際、新鮮なものを売り子に選んでもらう",
+  "register": "casual",
+  "speaker": "Kohei→市場の売り子",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-19",
+  "function": "質問（合計金額の確認）",
+  "intent_ja": "会計前に商品の合計金額がいくらになるか確認する",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-20",
+  "function": "質問（まとめ買い割引）",
+  "intent_ja": "オフィス用にまとめて購入する際、大量購入割引があるか尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-21",
+  "function": "依頼（商品の取り置き）",
+  "intent_ja": "後で取りに来るので商品を一時的に取り置いてもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-22",
+  "function": "対応（手荷物検査）",
+  "intent_ja": "モール入口での荷物検査に協力し、警備員に簡潔に応じる",
+  "register": "polite",
+  "speaker": "Kohei→警備員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-23",
+  "function": "交渉（運賃交渉）",
+  "intent_ja": "トライシクル運転手と特別便の運賃を交渉して折り合いをつける",
+  "register": "casual",
+  "speaker": "Kohei→トライシクル運転手",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-24",
+  "function": "依頼（メーター使用）",
+  "intent_ja": "タクシー運転手にメーターを使って走行するよう丁寧に求める",
+  "register": "polite",
+  "speaker": "Kohei→タクシー運転手",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-25",
+  "function": "依頼（待機のお願い）",
+  "intent_ja": "用事を済ませる間、運転手に車で少し待っていてもらうよう頼む",
+  "register": "casual",
+  "speaker": "Kohei→Grab運転手",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-26",
+  "function": "質問（辛さの調整）",
+  "intent_ja": "屋台で注文する際に料理の辛さの程度を調整できるか確認する",
+  "register": "casual",
+  "speaker": "Kohei→屋台の売り子",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-27",
+  "function": "依頼（持ち帰り包装）",
+  "intent_ja": "屋台の料理を持ち帰り用に包んでもらうよう頼む",
+  "register": "casual",
+  "speaker": "Kohei→屋台の売り子",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-28",
+  "function": "質問（配送日数）",
+  "intent_ja": "オンラインショップの出品者に商品が届くまでの日数を尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→ネット販売の店主",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-29",
+  "function": "催促（配送状況の確認）",
+  "intent_ja": "注文した商品の到着が遅れているため配送状況を出品者に確認する",
+  "register": "polite",
+  "speaker": "Kohei→ネット販売の店主",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-30",
+  "function": "質問（保証内容の確認）",
+  "intent_ja": "家電製品を購入する際に保証の期間と内容を確認する",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-31",
+  "function": "依頼（サイズ違いの交換）",
+  "intent_ja": "サイズが合わなかった商品を持参し、別のサイズと交換してもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-32",
+  "function": "質問（仕上がり日数）",
+  "intent_ja": "クリーニング店に衣類を預ける際、仕上がりまでの日数を確認する",
+  "register": "polite",
+  "speaker": "Kohei→ランドリー店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-33",
+  "function": "依頼（お直し）",
+  "intent_ja": "仕立て屋にズボンの裾上げを依頼し、仕上がり時期を確認する",
+  "register": "polite",
+  "speaker": "Kohei→仕立て屋",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-34",
+  "function": "質問（お土産の相談）",
+  "intent_ja": "日本への一時帰国前にお土産としておすすめの品を店員に相談する",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-35",
+  "function": "雑談（顔なじみとの世間話）",
+  "intent_ja": "行きつけの市場の売り子と親しくなるため軽い世間話をして関係を築く",
+  "register": "casual",
+  "speaker": "Kohei→市場の売り子",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-36",
+  "function": "質問（ジェネリック薬の有無）",
+  "intent_ja": "薬局で処方薬より安いジェネリック医薬品があるか薬剤師に尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→薬剤師",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-37",
+  "function": "依頼（オフィスへの配送）",
+  "intent_ja": "購入した大きな商品を自宅ではなくオフィスへ配送してもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-38",
+  "function": "質問（会員カードの確認）",
+  "intent_ja": "会計時に会員カードやポイントカードを持っているか尋ねられ確認する",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-39",
+  "function": "挨拶（会計後のお礼）",
+  "intent_ja": "会計を終えて店を出る際にスタッフへ感謝を伝えて気持ちよく締めくくる",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "shopping-40",
+  "function": "依頼（駐車券の認証）",
+  "intent_ja": "モールの駐車料金を割引・無料にするため購入証明のスタンプを頼む",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "shopping"
+ },
+ {
+  "slotId": "transport-01",
+  "function": "依頼（行き先指定）",
+  "intent_ja": "Grabまたはタクシーの運転手に目的地を正確に伝えて間違いなく送り届けてもらう",
+  "register": "polite",
+  "speaker": "Kohei→運転手（タクシー/Grab）",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-02",
+  "function": "質問（料金確認）",
+  "intent_ja": "乗車前または乗車中に運賃の目安を確認しぼったくりや後のトラブルを避ける",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-03",
+  "function": "質問（所要時間）",
+  "intent_ja": "会議に間に合うか判断するため目的地までのおおよその所要時間を確認する",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-04",
+  "function": "依頼（急ぎ）",
+  "intent_ja": "会議に遅れそうな状況で安全運転を保ちつつ少しだけ急いでもらうよう丁寧に頼む",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-05",
+  "function": "依頼（途中停車）",
+  "intent_ja": "目的地へ向かう途中でコンビニに立ち寄りたいので短時間の停車を頼む",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-06",
+  "function": "依頼（車内環境）",
+  "intent_ja": "車内が暑いのでエアコンの温度や風量を調整してもらう",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-07",
+  "function": "支払い・感謝",
+  "intent_ja": "到着後に運賃を支払いながら簡単な感謝の言葉を添えて気持ちよく降りる",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-08",
+  "function": "質問（支払い方法）",
+  "intent_ja": "手持ちの現金が心配な場合に備えカードやGCashなどキャッシュレス決済が使えるか確認する",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-09",
+  "function": "依頼（ルート指定）",
+  "intent_ja": "渋滞を避けるため自分の知っている近道やルートを提案し運転手に相談する",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-10",
+  "function": "説明（場所案内）",
+  "intent_ja": "Grab運転手に電話で自分が立っている建物の入口や目印を伝えスムーズに合流する",
+  "register": "polite",
+  "speaker": "Kohei→運転手（電話）",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-11",
+  "function": "質問（道案内）",
+  "intent_ja": "道に迷った際に通行人へ丁寧に声をかけ目的地までの道順を教えてもらう",
+  "register": "polite",
+  "speaker": "Kohei→通行人",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-12",
+  "function": "質問（道案内）",
+  "intent_ja": "最寄りのMRT/LRT駅の場所と徒歩での行き方を確認する",
+  "register": "polite",
+  "speaker": "Kohei→通行人",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-13",
+  "function": "質問（交通手段確認）",
+  "intent_ja": "目的地方面へ行くジプニーの系統や乗り場を地元の人に確認する",
+  "register": "neutral",
+  "speaker": "Kohei→通行人",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-14",
+  "function": "質問・支払い",
+  "intent_ja": "ジプニーの運賃がいくらか確認し正しい金額を渡してトラブルなく乗車する",
+  "register": "neutral",
+  "speaker": "Kohei→ジプニー運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-15",
+  "function": "質問（混雑状況）",
+  "intent_ja": "ラッシュ時の混雑を避けるため今のバスや電車の混み具合を周囲に確認する",
+  "register": "casual",
+  "speaker": "Kohei→駅員/通行人",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-16",
+  "function": "依頼（下車確認）",
+  "intent_ja": "目的の停留所で降り損ねないよう運転手に事前に一声かけてほしいと頼む",
+  "register": "polite",
+  "speaker": "Kohei→ジプニー/バス運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-17",
+  "function": "質問（施設内道案内）",
+  "intent_ja": "訪問先ビルで目的の階やオフィスへの行き方を警備員に確認する",
+  "register": "polite",
+  "speaker": "Kohei→警備員",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-18",
+  "function": "質問（駐車場確認）",
+  "intent_ja": "車を停められる場所があるか、どこに停めればよいかを警備員に確認する",
+  "register": "polite",
+  "speaker": "Kohei→警備員",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-19",
+  "function": "依頼（相乗り）",
+  "intent_ja": "帰る方向が同じ同僚に気軽に車で送ってもらえないか頼む",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-20",
+  "function": "提案・申し出",
+  "intent_ja": "帰る方向が同じ同僚に自分の車やGrabで一緒に送っていくことを申し出る",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-21",
+  "function": "報告（遅延連絡）",
+  "intent_ja": "通勤中に渋滞にはまり定時に出社できないことを事前にチャットや電話で知らせる",
+  "register": "polite",
+  "speaker": "Kohei→上司/同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-22",
+  "function": "質問（情報収集）",
+  "intent_ja": "新しい住まいからオフィスまでの一番効率的な通勤手段を経験者の同僚に相談する",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-23",
+  "function": "質問（状況確認）",
+  "intent_ja": "台風や大雨の後に道路の冠水状況や交通機関が動いているか同僚に確認する",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-24",
+  "function": "質問（制度確認）",
+  "intent_ja": "会社が用意している送迎シャトルバスの発着時刻と乗り場を担当者に確認する",
+  "register": "polite",
+  "speaker": "Kohei→総務担当",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-25",
+  "function": "依頼（待機）",
+  "intent_ja": "シャトルバスの出発に少し遅れそうな状況で数分待ってもらえないか頼む",
+  "register": "polite",
+  "speaker": "Kohei→シャトル運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-26",
+  "function": "質問（通勤手段確認）",
+  "intent_ja": "採用面接で候補者が普段どの交通手段でオフィスまで通勤できそうか確認する",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-27",
+  "function": "質問（通勤時間確認）",
+  "intent_ja": "候補者の自宅からオフィスまでの通勤時間が現実的な範囲かどうかを確認する",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-28",
+  "function": "説明（道案内）",
+  "intent_ja": "内定後の初出社日に向けオフィスまでの行き方や目印を候補者にわかりやすく伝える",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-29",
+  "function": "依頼（手配）",
+  "intent_ja": "出張や来客対応のため空港までの送迎車を事前に手配する",
+  "register": "polite",
+  "speaker": "Kohei→運転手/手配業者",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-30",
+  "function": "説明（待ち合わせ確認）",
+  "intent_ja": "空港到着ロビーでどこで待ち合わせるかを電話やメッセージで相手とすり合わせる",
+  "register": "neutral",
+  "speaker": "Kohei→同僚/来客",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-31",
+  "function": "依頼（紹介・推薦）",
+  "intent_ja": "安心して任せられる運転手やハイヤーサービスを同僚に紹介してもらう",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-32",
+  "function": "質問（安全確認）",
+  "intent_ja": "残業で帰りが遅くなる際の安全な移動手段や避けるべきエリアを同僚に相談する",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-33",
+  "function": "質問（サービス確認）",
+  "intent_ja": "バイクタクシー（アンカス等）がその場所やその時間帯で利用できるか確認する",
+  "register": "casual",
+  "speaker": "Kohei→同僚/通行人",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-34",
+  "function": "質問（安全確認）",
+  "intent_ja": "交通量の多い道を渡る前に安全なタイミングや横断場所を地元の人に確認する",
+  "register": "casual",
+  "speaker": "Kohei→同僚/通行人",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-35",
+  "function": "依頼（緊急手配）",
+  "intent_ja": "体調不良など緊急事態のため今すぐ迎えに来てもらえる車を手配する",
+  "register": "polite",
+  "speaker": "Kohei→同僚/運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-36",
+  "function": "依頼（忘れ物確認）",
+  "intent_ja": "車内に荷物を置き忘れたことに気づき運転手に連絡して確認・回収を試みる",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-37",
+  "function": "説明（補足説明）",
+  "intent_ja": "ナビの住所だけでは迷っている様子の運転手に近くの目印を使って場所を説明し直す",
+  "register": "polite",
+  "speaker": "Kohei→運転手",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-38",
+  "function": "雑談（相槌）",
+  "intent_ja": "今日の渋滞のひどさについて同僚と共感を交えた軽い世間話をする",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-39",
+  "function": "依頼（手配・交渉）",
+  "intent_ja": "週末の遠方への外出のため一日単位で運転手付きの車を手配し料金を交渉する",
+  "register": "polite",
+  "speaker": "Kohei→運転手/手配業者",
+  "category": "transport"
+ },
+ {
+  "slotId": "transport-40",
+  "function": "質問（施設運用確認）",
+  "intent_ja": "退社が遅くなる場合に備えビルのゲートが何時まで開いているか警備員に確認する",
+  "register": "polite",
+  "speaker": "Kohei→警備員",
+  "category": "transport"
+ },
+ {
+  "slotId": "numbers-01",
+  "function": "質問（値段）",
+  "intent_ja": "市場や露店で商品の値段を店員に尋ね、買うかどうかその場で判断したい",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-02",
+  "function": "確認（つり銭）",
+  "intent_ja": "トライシクルやジプニーの運賃を払った際、お釣りの金額が正しいか運転手に確認したい",
+  "register": "neutral",
+  "speaker": "Kohei→運転手",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-03",
+  "function": "確認（会議時間）",
+  "intent_ja": "オンライン会議や打ち合わせの開始時刻を同僚と改めてすり合わせ、行き違いを防ぎたい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-04",
+  "function": "質問（運賃）",
+  "intent_ja": "タクシーに乗る前に目的地までの概算運賃を運転手に確認し、ぼったくりを避けたい",
+  "register": "polite",
+  "speaker": "Kohei→タクシー運転手",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-05",
+  "function": "値引き交渉",
+  "intent_ja": "市場で気に入った商品をもう少し安くしてもらえないか値切り交渉したい",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-06",
+  "function": "質問（連絡先）",
+  "intent_ja": "面接後も連絡が取れるよう、候補者の携帯電話番号を控えておきたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-07",
+  "function": "説明（給与額）",
+  "intent_ja": "採用面接で提示する月給の具体的な金額を候補者に明確に伝え、後の認識違いを防ぎたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-08",
+  "function": "質問（時刻）",
+  "intent_ja": "手元に時計がない状況で今の時刻を周囲の人に尋ね、次の予定に遅れないようにしたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-09",
+  "function": "提案（面接日時）",
+  "intent_ja": "次回面接の候補日時をいくつか挙げ、候補者の都合の良い時間を選んでもらいたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-10",
+  "function": "案内（給料日）",
+  "intent_ja": "今月の給料の支払日をスタッフに案内し、生活設計の不安を減らしたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-11",
+  "function": "質問（人数確認）",
+  "intent_ja": "レストランへの来店・予約人数を正しく伝え、席を確保してもらいたい",
+  "register": "polite",
+  "speaker": "Kohei→レストランスタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-12",
+  "function": "質問（為替レート）",
+  "intent_ja": "円をペソに両替する際の当日のレートを確認し、損のないタイミングで両替したい",
+  "register": "polite",
+  "speaker": "Kohei→両替商",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-13",
+  "function": "質問（経験年数）",
+  "intent_ja": "候補者にこれまでの実務経験が何年あるかを尋ね、ポジションへの適性を見極めたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-14",
+  "function": "確認（締切日）",
+  "intent_ja": "書類や提出物の締め切り日をスタッフと再確認し、リマインドを兼ねて念押ししたい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-15",
+  "function": "依頼（部数）",
+  "intent_ja": "会議資料を必要な部数だけ正確に印刷してもらうようスタッフに依頼したい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-16",
+  "function": "質問（会計金額）",
+  "intent_ja": "食事を終えた際に合計金額がいくらかを確認し、支払いの準備をしたい",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-17",
+  "function": "提案（割り勘）",
+  "intent_ja": "同僚との食事代を割り勘にすることを提案し、気まずくならずに精算したい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-18",
+  "function": "質問（分割払い回数）",
+  "intent_ja": "家電などの高額な買い物で、分割払いが何回まで可能かを店員に確認したい",
+  "register": "casual",
+  "speaker": "Kohei→店員",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-19",
+  "function": "質問（部屋番号）",
+  "intent_ja": "訪問先の部屋番号や階数を確認し、迷わずに目的の場所へたどり着きたい",
+  "register": "polite",
+  "speaker": "Kohei→受付スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-20",
+  "function": "質問（チップの相場）",
+  "intent_ja": "この場面でどのくらいの金額をチップとして渡すのが自然か、現地の同僚に確認して恥をかかないようにしたい",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-21",
+  "function": "質問（生年月日）",
+  "intent_ja": "採用手続きの書類作成のため、候補者の生年月日を正確に確認したい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-22",
+  "function": "説明（入社日）",
+  "intent_ja": "内定者に正式な入社日を伝え、必要な準備を進めてもらいたい",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-23",
+  "function": "質問（時給）",
+  "intent_ja": "契約社員やパートスタッフの時給がいくらかを確認し、条件を正しく説明できるようにしたい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-24",
+  "function": "依頼（領収書）",
+  "intent_ja": "経費精算のために、支払った金額分の領収書を発行してもらいたい",
+  "register": "polite",
+  "speaker": "Kohei→店員",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-25",
+  "function": "質問（勤続年数）",
+  "intent_ja": "長く勤めているスタッフに何年働いているかを尋ね、労をねぎらう会話のきっかけにしたい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-26",
+  "function": "確認（予約日時）",
+  "intent_ja": "健康診断や歯科などの予約日時を受付で確認し、当日の来訪に間違いがないようにしたい",
+  "register": "polite",
+  "speaker": "Kohei→受付スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-27",
+  "function": "質問（振込手数料）",
+  "intent_ja": "海外送金にかかる手数料の金額を事前に確認し、余分な費用を避けたい",
+  "register": "polite",
+  "speaker": "Kohei→銀行員",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-28",
+  "function": "質問（号室）",
+  "intent_ja": "訪問や配達の受け取りのために、正確な号室番号を確認しておきたい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-29",
+  "function": "質問（所要時間）",
+  "intent_ja": "目的地まで移動にどれくらい時間がかかるかを尋ね、その後の予定を組み立てたい",
+  "register": "neutral",
+  "speaker": "Kohei→運転手",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-30",
+  "function": "質問（日付）",
+  "intent_ja": "書類に記入するため、今日の日付を周囲の人に確認したい",
+  "register": "casual",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-31",
+  "function": "謝罪（遅刻時間）",
+  "intent_ja": "約束の時間にどのくらい遅れそうかを事前に伝え、相手を待たせることを詫びたい",
+  "register": "polite",
+  "speaker": "Kohei→同僚",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-32",
+  "function": "質問（予算上限）",
+  "intent_ja": "社内イベントや備品購入にあてられる予算の上限額を確認し、計画の範囲を把握したい",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-33",
+  "function": "依頼（チャージ金額）",
+  "intent_ja": "携帯電話のプリペイド残高をいくら分チャージしてほしいかを店員に伝えたい",
+  "register": "neutral",
+  "speaker": "Kohei→店員",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-34",
+  "function": "確認（残業時間）",
+  "intent_ja": "スタッフの今月の残業時間が合計何時間になったかを確認し、労務管理に反映したい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "numbers-35",
+  "function": "確認（有給日数）",
+  "intent_ja": "スタッフから申請された有給休暇が何日分かを確認し、承認の判断材料にしたい",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "numbers"
+ },
+ {
+  "slotId": "emergency-01",
+  "function": "体調不良の申告",
+  "intent_ja": "頭痛と発熱がある自分の体調不良を同僚に伝え、早退してよいか確認する",
+  "register": "polite",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-02",
+  "function": "依頼（道案内）",
+  "intent_ja": "近くにある薬局の場所を同僚に尋ねる",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-03",
+  "function": "依頼（買い物）",
+  "intent_ja": "薬局で解熱剤か鎮痛剤を探していることを店員に伝える",
+  "register": "polite",
+  "speaker": "Kohei→薬局店員",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-04",
+  "function": "症状説明",
+  "intent_ja": "薬剤師に自分の症状を説明し、合う薬を勧めてもらう",
+  "register": "polite",
+  "speaker": "Kohei→薬剤師",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-05",
+  "function": "依頼（同行）",
+  "intent_ja": "一人で病院に行くのが不安なので同僚に付き添いを頼む",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-06",
+  "function": "予約",
+  "intent_ja": "クリニックの受付で診察の予約を取りたいと伝える",
+  "register": "polite",
+  "speaker": "Kohei→受付スタッフ",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-07",
+  "function": "確認（保険適用）",
+  "intent_ja": "受付でHMO保険証が使えるかどうかを確認する",
+  "register": "polite",
+  "speaker": "Kohei→受付スタッフ",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-08",
+  "function": "症状説明（経過）",
+  "intent_ja": "医師に症状がいつからどう変化しているかを説明する",
+  "register": "polite",
+  "speaker": "Kohei→医師",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-09",
+  "function": "申告（アレルギー）",
+  "intent_ja": "医師に自分が特定の薬にアレルギーがあることを伝えておく",
+  "register": "polite",
+  "speaker": "Kohei→医師",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-10",
+  "function": "質問（処方薬）",
+  "intent_ja": "処方された薬の飲み方や副作用について医師に質問する",
+  "register": "polite",
+  "speaker": "Kohei→医師",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-11",
+  "function": "依頼（書類）",
+  "intent_ja": "保険請求に使うため会計窓口で領収書と診断書を発行してもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→会計窓口スタッフ",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-12",
+  "function": "申請（休暇）",
+  "intent_ja": "通院のため半休を取りたいと上司にメールやチャットで伝える",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-13",
+  "function": "安否確認",
+  "intent_ja": "転倒してケガをした同僚に駆け寄り大丈夫かを尋ねる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-14",
+  "function": "報告（労災）",
+  "intent_ja": "職場で起きた同僚の軽いケガを上司やHRに報告し対応を相談する",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-15",
+  "function": "確認（緊急性判断）",
+  "intent_ja": "周囲の人に救急車を呼ぶべき状況かどうかを確認する",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-16",
+  "function": "通報",
+  "intent_ja": "緊急通報窓口に自分の現在地と状況を伝えて助けを求める",
+  "register": "polite",
+  "speaker": "Kohei→緊急通報オペレーター",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-17",
+  "function": "質問（施設案内）",
+  "intent_ja": "警備員にビル内の医務室や救急箱の場所を尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→警備員",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-18",
+  "function": "指示（避難誘導）",
+  "intent_ja": "火災報知器が鳴った際に近くの同僚へ落ち着いて避難するよう促す",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-19",
+  "function": "指示（地震対応）",
+  "intent_ja": "地震が起きた瞬間に周囲の人へ机の下に隠れるよう呼びかける",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-20",
+  "function": "確認（在宅判断）",
+  "intent_ja": "台風接近時にオフィスへ出社すべきか在宅勤務にすべきか上司に確認する",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-21",
+  "function": "安否確認（自然災害）",
+  "intent_ja": "洪水で通勤が困難になっている同僚に無事かどうかを確認する",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-22",
+  "function": "相談（感染症疑い）",
+  "intent_ja": "デング熱を疑う症状が出ている同僚にどう対応すべきか相談する",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-23",
+  "function": "気遣い",
+  "intent_ja": "最近顔色が悪い同僚に体調が大丈夫かとさりげなく気遣う",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-24",
+  "function": "申し出（見舞い）",
+  "intent_ja": "入院している同僚のお見舞いに行きたいと本人に伝える",
+  "register": "polite",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-25",
+  "function": "励まし",
+  "intent_ja": "手術を受けた同僚に早く元気になってほしいと励ましの言葉をかける",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-26",
+  "function": "気遣い（無理しないで）",
+  "intent_ja": "病み上がりで出社してきた同僚に無理をしないよう伝える",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-27",
+  "function": "配慮（面接中）",
+  "intent_ja": "面接中に体調不良を訴えた候補者に休憩を取るか確認する",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-28",
+  "function": "依頼（急ぎの移動）",
+  "intent_ja": "タクシー運転手に急病人がいるため最寄りの総合病院へ急いでほしいと頼む",
+  "register": "polite",
+  "speaker": "Kohei→タクシー運転手",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-29",
+  "function": "症状説明（めまい）",
+  "intent_ja": "めまいがすることを同僚に伝え少し休ませてほしいと頼む",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-30",
+  "function": "依頼（付き添い・常備薬）",
+  "intent_ja": "持病の薬を切らしたため薬局まで付き添ってほしいと同僚に頼む",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-31",
+  "function": "確認（緊急連絡先更新）",
+  "intent_ja": "HR担当として従業員から届いた緊急連絡先の更新依頼の内容を確認する",
+  "register": "polite",
+  "speaker": "Kohei→従業員",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-32",
+  "function": "確認（避難訓練）",
+  "intent_ja": "避難訓練の集合場所がどこかを同僚に確認する",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-33",
+  "function": "確認（非常口）",
+  "intent_ja": "停電が発生した際に非常口や懐中電灯の場所を同僚に確認する",
+  "register": "neutral",
+  "speaker": "Kohei→同僚",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-34",
+  "function": "欠席連絡",
+  "intent_ja": "食あたりでお腹の調子が悪いため会議を欠席すると上司に伝える",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "emergency"
+ },
+ {
+  "slotId": "emergency-35",
+  "function": "受付手続き",
+  "intent_ja": "病院の受付で自分の名前と保険証番号を伝えて診察の手続きを進める",
+  "register": "polite",
+  "speaker": "Kohei→受付スタッフ",
+  "category": "emergency"
+ },
+ {
+  "slotId": "trouble-01",
+  "function": "電話応対（名乗り）",
+  "intent_ja": "会社にかかってきた電話に出て、社名と自分の名前を名乗り取り次ぎの準備をする",
+  "register": "polite",
+  "speaker": "Kohei→電話の相手（社外）",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-02",
+  "function": "電話（用件の切り出し）",
+  "intent_ja": "自分から電話をかけ、名乗った上でどんな用件で電話しているかを簡潔に伝える",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-03",
+  "function": "依頼（取り次ぎ）",
+  "intent_ja": "電話口の相手に、話したい特定の人物へ取り次いでもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→受付スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-04",
+  "function": "説明（不在）",
+  "intent_ja": "電話をかけてきた相手に、目的の人物が今席を外していて対応できないことを伝える",
+  "register": "polite",
+  "speaker": "Kohei→電話の相手",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-05",
+  "function": "依頼（伝言確認）",
+  "intent_ja": "不在の相手宛てに伝言を残したいか尋ね、その内容を正確に控える",
+  "register": "polite",
+  "speaker": "Kohei→電話の相手",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-06",
+  "function": "依頼（保留）",
+  "intent_ja": "確認に時間がかかるので電話口でそのまま少し待ってもらうよう頼む",
+  "register": "polite",
+  "speaker": "Kohei→電話の相手",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-07",
+  "function": "聞き返し（通信不良）",
+  "intent_ja": "電話の音声が途切れ途切れで聞き取れないことを伝え、繰り返してもらう",
+  "register": "neutral",
+  "speaker": "Kohei→電話の相手",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-08",
+  "function": "聞き返し",
+  "intent_ja": "相手の発言が早すぎる、または聞き取れなかったのでもう一度ゆっくり言ってもらう",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-09",
+  "function": "電話（終話）",
+  "intent_ja": "用件が済んだことを確認し、丁寧に挨拶して電話を締めくくる",
+  "register": "polite",
+  "speaker": "Kohei→電話の相手",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-10",
+  "function": "電話（折り返し）",
+  "intent_ja": "不在着信に気づき、相手に折り返しの電話をかけて用件を尋ねる",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-11",
+  "function": "依頼（留守電への伝言）",
+  "intent_ja": "電話が繋がらなかったため、用件と折り返し先を留守番電話に簡潔に残す",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-12",
+  "function": "質問（連絡先）",
+  "intent_ja": "緊急時に連絡が取れるよう、相手の携帯電話番号を尋ねて控える",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-13",
+  "function": "訂正（番号違い）",
+  "intent_ja": "かかってきた電話が番号違いであることを丁寧に伝える",
+  "register": "polite",
+  "speaker": "Kohei→電話の相手（不明な発信者）",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-14",
+  "function": "報告（設備トラブル）",
+  "intent_ja": "オフィスのエアコンが効かないことを施設担当に報告し対応を依頼する",
+  "register": "neutral",
+  "speaker": "Kohei→施設担当スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-15",
+  "function": "報告（ITトラブル）",
+  "intent_ja": "会議中にWi-Fiが切れて仕事に支障が出ていることをIT担当に伝え至急の対応を頼む",
+  "register": "polite",
+  "speaker": "Kohei→IT担当スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-16",
+  "function": "報告（設備トラブル）",
+  "intent_ja": "共有プリンターが紙詰まりで使えなくなっていることを同僚に知らせる",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-17",
+  "function": "通知（停電）",
+  "intent_ja": "オフィスで突然停電が起きたことをスタッフ全員に伝え、落ち着いて待つよう促す",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ全員",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-18",
+  "function": "報告（遅刻の連絡）",
+  "intent_ja": "交通渋滞に巻き込まれて到着が遅れることを事前に連絡し謝る",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-19",
+  "function": "報告（欠勤連絡）",
+  "intent_ja": "体調が悪く今日は休みたいことを人事担当へ電話で伝える",
+  "register": "polite",
+  "speaker": "Kohei→人事担当",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-20",
+  "function": "依頼（忘れ物対応）",
+  "intent_ja": "会議室に忘れた資料を届けてもらうよう同僚に頼む",
+  "register": "casual",
+  "speaker": "Kohei→同僚",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-21",
+  "function": "依頼（紛失物の捜索）",
+  "intent_ja": "社員証を紛失したことに気づき一緒に探してもらうよう頼む",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-22",
+  "function": "指摘（請求ミス）",
+  "intent_ja": "受け取った請求書の金額が合意内容と違うことを冷静に指摘し確認を求める",
+  "register": "polite",
+  "speaker": "Kohei→取引先担当者",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-23",
+  "function": "問い合わせ（配送トラブル）",
+  "intent_ja": "届くはずの荷物がまだ届いていないことを配送業者に電話で問い合わせる",
+  "register": "neutral",
+  "speaker": "Kohei→配送業者の担当者",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-24",
+  "function": "依頼（緊急対応）",
+  "intent_ja": "システム障害が発生し業務が止まっているため至急対応してほしいと強く依頼する",
+  "register": "neutral",
+  "speaker": "Kohei→IT担当スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-25",
+  "function": "報告（障害の詳細説明）",
+  "intent_ja": "エラーメッセージの内容と発生したタイミングをIT担当に正確に説明する",
+  "register": "neutral",
+  "speaker": "Kohei→IT担当スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-26",
+  "function": "なだめ（クレーム対応）",
+  "intent_ja": "選考結果の連絡が遅れたことに不満を示す候補者を落ち着かせ丁寧に謝罪する",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-27",
+  "function": "謝罪（ミスの申告）",
+  "intent_ja": "自分が伝えた面接日程が間違っていたことを認め、相手に謝罪し訂正する",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-28",
+  "function": "依頼（予定変更・緊急）",
+  "intent_ja": "急用が入ったため予定していた面談を別の日に変更してほしいと丁寧に頼む",
+  "register": "polite",
+  "speaker": "Kohei→候補者",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-29",
+  "function": "通知（緊急連絡）",
+  "intent_ja": "台風接近のため明日は在宅勤務に切り替えることをスタッフ全員に知らせる",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ全員",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-30",
+  "function": "報告（通勤困難）",
+  "intent_ja": "大雨による洪水で道路が冠水し出社できないことを緊急に連絡する",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-31",
+  "function": "指摘（不正な遠回り）",
+  "intent_ja": "タクシー運転手が明らかに遠回りしていることに気づき、正しいルートを通るよう伝える",
+  "register": "neutral",
+  "speaker": "Kohei→タクシー運転手",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-32",
+  "function": "依頼（目的地変更）",
+  "intent_ja": "配車アプリの運転手に電話し、乗車前に到着場所を少し変更したいと伝える",
+  "register": "casual",
+  "speaker": "Kohei→Grab運転手",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-33",
+  "function": "報告（住居トラブル）",
+  "intent_ja": "借りている部屋で水漏れが発生したことを家主に伝え早急な修理を依頼する",
+  "register": "polite",
+  "speaker": "Kohei→家主（電話）",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-34",
+  "function": "相談（不正利用の報告）",
+  "intent_ja": "クレジットカードに身に覚えのない請求があることを銀行のコールセンターに伝える",
+  "register": "polite",
+  "speaker": "Kohei→銀行カスタマーサービス",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-35",
+  "function": "報告（サービス障害）",
+  "intent_ja": "自宅のインターネット回線が数日繋がらないことを通信会社に伝え対応を求める",
+  "register": "neutral",
+  "speaker": "Kohei→通信会社のオペレーター",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-36",
+  "function": "説明（誤解の訂正）",
+  "intent_ja": "自分の発言が意図と違う形で伝わってしまったことに気づき、真意を丁寧に説明し誤解を解く",
+  "register": "polite",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-37",
+  "function": "報告（エスカレーション）",
+  "intent_ja": "自分では解決できない問題が起きたことを上司に報告し判断を仰ぐ",
+  "register": "polite",
+  "speaker": "Kohei→上司",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-38",
+  "function": "報告（解決確認）",
+  "intent_ja": "これまで対応していたトラブルが無事解決したことを関係者に伝えて安心させる",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ全員",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-39",
+  "function": "感謝（トラブル対応後）",
+  "intent_ja": "トラブル対応に尽力してくれたスタッフに対し個別に感謝の気持ちを伝える",
+  "register": "polite",
+  "speaker": "Kohei→対応してくれたスタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "trouble-40",
+  "function": "確認（再発防止）",
+  "intent_ja": "同じトラブルが再発しないよう、次に何かあったときの連絡手順・連絡先を確認しておく",
+  "register": "neutral",
+  "speaker": "Kohei→スタッフ",
+  "category": "trouble"
+ },
+ {
+  "slotId": "gov-docs-01",
+  "function": "質問（要件確認）",
+  "intent_ja": "9(g)就労ビザの更新手続きに必要な書類一式を、移民局(BI)の窓口で漏れなく確認する",
+  "register": "polite",
+  "speaker": "Kohei→BI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-02",
+  "function": "依頼（書類提出）",
+  "intent_ja": "準備した書類一式を移民局の窓口に提出し、不備なく受理してもらう",
+  "register": "polite",
+  "speaker": "Kohei→BI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-03",
+  "function": "質問（進捗確認）",
+  "intent_ja": "提出済みのACR I-Card申請が現在どの段階まで進んでいるかを窓口で尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→BI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-04",
+  "function": "質問（不備確認）",
+  "intent_ja": "書類に不備があると指摘された際、具体的に何が足りないのかをその場で確認する",
+  "register": "polite",
+  "speaker": "Kohei→BI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-05",
+  "function": "依頼（猶予相談）",
+  "intent_ja": "ビザの期限が近いのに書類が間に合わない事情を説明し、猶予や代替手段がないか相談する",
+  "register": "polite",
+  "speaker": "Kohei→BI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-06",
+  "function": "自己紹介（訪問目的）",
+  "intent_ja": "バランガイ事務所を初めて訪れた際、居住証明を取得したいという訪問目的を職員に説明する",
+  "register": "polite",
+  "speaker": "Kohei→バランガイ職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-07",
+  "function": "依頼（証明書発行）",
+  "intent_ja": "居住証明として使うバランガイクリアランスの発行を職員に依頼する",
+  "register": "polite",
+  "speaker": "Kohei→バランガイ職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-08",
+  "function": "質問（受取日時）",
+  "intent_ja": "申請したクリアランスが何日後に受け取れるか、受け取り可能な曜日・時間帯を確認する",
+  "register": "neutral",
+  "speaker": "Kohei→バランガイ職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-09",
+  "function": "質問（要件確認）",
+  "intent_ja": "会社の事業許可(Mayor's Permit)更新に必要な書類を市役所の窓口で確認する",
+  "register": "polite",
+  "speaker": "Kohei→市役所職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-10",
+  "function": "質問（手数料）",
+  "intent_ja": "事業許可の更新にかかる手数料の総額を市役所の窓口で確認する",
+  "register": "polite",
+  "speaker": "Kohei→市役所職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-11",
+  "function": "質問（予約方法）",
+  "intent_ja": "NBIクリアランス申請のオンライン予約の取り方を窓口で尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→NBI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-12",
+  "function": "相槌",
+  "intent_ja": "NBIの職員から手続きの流れを説明されている間、理解できていることを相槌で伝える",
+  "register": "polite",
+  "speaker": "Kohei→NBI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-13",
+  "function": "質問（身分証）",
+  "intent_ja": "NBIクリアランス申請の際に有効な身分証明書の種類を窓口で確認する",
+  "register": "polite",
+  "speaker": "Kohei→NBI窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-14",
+  "function": "質問（要件確認）",
+  "intent_ja": "外国人としてTIN(納税者番号)を新規取得するために必要な書類をBIRの窓口で尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→BIR窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-15",
+  "function": "依頼（再発行）",
+  "intent_ja": "紛失してしまった源泉徴収票(BIR Form 2316)の再発行をBIRの窓口に依頼する",
+  "register": "polite",
+  "speaker": "Kohei→BIR窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-16",
+  "function": "質問（担当窓口）",
+  "intent_ja": "外国人雇用許可(AEP)の申請を扱っている窓口がどこかをDOLEの受付で尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→DOLE受付",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-17",
+  "function": "質問（有効期限）",
+  "intent_ja": "取得済みのAEPの有効期限と更新すべき時期をDOLEの窓口で確認する",
+  "register": "polite",
+  "speaker": "Kohei→DOLE窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-18",
+  "function": "依頼（代理確認）",
+  "intent_ja": "従業員本人の代わりに、その従業員のSSS番号の発行状況を確認できるか窓口で尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→SSS窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-19",
+  "function": "質問（必要書類）",
+  "intent_ja": "新入社員のPhilHealth登録に必要な書類一式を窓口で確認する",
+  "register": "polite",
+  "speaker": "Kohei→PhilHealth窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-20",
+  "function": "質問（委任状要否）",
+  "intent_ja": "従業員に代わって書類を提出する際、委任状が必要かどうかをPag-IBIGの窓口で確認する",
+  "register": "polite",
+  "speaker": "Kohei→Pag-IBIG窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-21",
+  "function": "質問（料金）",
+  "intent_ja": "雇用契約書の公証(ノータライズ)にかかる料金を公証人事務所のスタッフに尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→公証人事務所スタッフ",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-22",
+  "function": "依頼（原本提示）",
+  "intent_ja": "公証のために書類の原本とコピーの両方を提示し、内容に問題がないか確認してもらう",
+  "register": "polite",
+  "speaker": "Kohei→公証人事務所スタッフ",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-23",
+  "function": "依頼（予約変更）",
+  "intent_ja": "都合が悪くなった公証の予約日時を別の日に変更できないか相談する",
+  "register": "polite",
+  "speaker": "Kohei→公証人事務所スタッフ",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-24",
+  "function": "質問（処理日数）",
+  "intent_ja": "書類のアポスティーユ認証にどのくらいの処理日数がかかるかをDFAの窓口で尋ねる",
+  "register": "polite",
+  "speaker": "Kohei→DFA窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-25",
+  "function": "依頼（速達相談）",
+  "intent_ja": "追加料金を払ってでも認証処理を早めてもらえないかをDFAの窓口で相談する",
+  "register": "polite",
+  "speaker": "Kohei→DFA窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-26",
+  "function": "依頼（コピー）",
+  "intent_ja": "各所に提出する書類のコピーを必要な部数だけ、近くのコピー店で取ってもらう",
+  "register": "neutral",
+  "speaker": "Kohei→コピー店スタッフ",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-27",
+  "function": "質問（順番確認）",
+  "intent_ja": "窓口の順番待ちの番号が呼ばれるまでどのくらいかかりそうか目安を尋ねる",
+  "register": "neutral",
+  "speaker": "Kohei→受付スタッフ",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-28",
+  "function": "質問（受付時間）",
+  "intent_ja": "訪問前に窓口の受付時間と昼休みの有無を電話やその場で確認する",
+  "register": "polite",
+  "speaker": "Kohei→窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-29",
+  "function": "依頼（道案内）",
+  "intent_ja": "目的の手続き窓口が建物の何階・何号室にあるかを案内係に尋ねる",
+  "register": "neutral",
+  "speaker": "Kohei→案内係",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-30",
+  "function": "聞き返し（用語確認）",
+  "intent_ja": "申請用紙に書かれた見慣れない項目の意味が分からず、その場で職員に聞き返す",
+  "register": "polite",
+  "speaker": "Kohei→窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-31",
+  "function": "依頼（記入例確認）",
+  "intent_ja": "記入方法に自信が持てないため、申請書の記入例(サンプル)を見せてもらえるよう依頼する",
+  "register": "polite",
+  "speaker": "Kohei→窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-32",
+  "function": "質問（支払窓口）",
+  "intent_ja": "手数料の支払いをどの窓口(キャッシャー)で行えばよいかを確認する",
+  "register": "neutral",
+  "speaker": "Kohei→窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-33",
+  "function": "依頼（内容確認）",
+  "intent_ja": "提出前に、記入済みの申請書の内容に間違いがないか職員にチェックしてもらう",
+  "register": "polite",
+  "speaker": "Kohei→窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-34",
+  "function": "御礼",
+  "intent_ja": "手続きが無事に完了したことへの感謝を担当してくれた職員に伝える",
+  "register": "polite",
+  "speaker": "Kohei→窓口職員",
+  "category": "gov-docs"
+ },
+ {
+  "slotId": "gov-docs-35",
+  "function": "社内確認（必要書類共有）",
+  "intent_ja": "新しく入社する候補者に事前に持参してもらうべき必要書類を人事の同僚に確認する",
+  "register": "casual",
+  "speaker": "Kohei→人事同僚",
+  "category": "gov-docs"
+ }
+]

@@ -182,6 +182,7 @@ def merge(skeleton: list[dict], content_entries: list[dict]) -> tuple[list[dict]
                 {
                     "headword": s["headword"],
                     "reading": s.get("reading") or s["headword"],
+                    "ipa": s.get("ipa"),
                     "gloss": c["gloss"],
                     "pos": normalize_pos(c["pos"]),
                     "examples": c.get("examples", []),
@@ -191,6 +192,19 @@ def merge(skeleton: list[dict], content_entries: list[dict]) -> tuple[list[dict]
             )
 
     merged.sort(key=lambda r: r["frequencyRank"])
+
+    # コース定員は2,000語（course_meta band）。skeleton は McFarland 全量2,002件
+    # （ホモグラフで実語彙数より2件多い）を持つため、稀にcontent側とのマッチングで
+    # 2,001件目以降が出力に混ざることがある（2026-08-04発見。tl-skeleton.json と
+    # tl-content-batches の間の既存データ起因・原因未特定。IPA配線とは無関係）。
+    # 定員を超えた分は切り捨て、出荷済みの2,000語構成を変えない。
+    if len(merged) > 2000:
+        dropped = merged[2000:]
+        for d in dropped:
+            log(f"  dropping over-quota entry (course caps at 2000 words): "
+                f"{d['headword']} (rank {d['frequencyRank']})")
+        merged = merged[:2000]
+
     return merged, unmatched_headwords
 
 

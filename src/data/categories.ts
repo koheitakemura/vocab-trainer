@@ -32,6 +32,7 @@ export const CATEGORIES: CategoryDef[] = [
   { key: 'numbers', label: 'Numbers & Counters', emoji: '🔢', group: 'topic' },
   { key: 'school', label: 'School & Study', emoji: '🏫', group: 'topic' },
   { key: 'work', label: 'Work & Money', emoji: '💼', group: 'topic' },
+  { key: 'job-interview', label: 'Job Interview', emoji: '🤝', group: 'topic' },
   { key: 'shopping', label: 'Shopping & Services', emoji: '🛒', group: 'topic' },
   { key: 'communication', label: 'Language & Communication', emoji: '💬', group: 'topic' },
   { key: 'emotions', label: 'Feelings & Personality', emoji: '😊', group: 'topic' },

@@ -57,7 +57,7 @@ export function CoursePreviewScreen({
         <p className="preview-count">{t.previewCardCount(cards.length)}</p>
         <div className="board">
           {cards.map((c) => (
-            <PreviewTile key={c.id} card={c} />
+            <PreviewTile key={c.id} card={c} isPhrase={course.type === 'phrase'} />
           ))}
         </div>
         <div className="preview-cta">
@@ -86,12 +86,12 @@ export function CoursePreviewScreen({
  * StudyGrid.tsx の Tile と違い、採点ボタン・TileMark・Dexie 書き込みは一切持たない
  * ——CSS クラス（.tile 系）だけ共有して見た目を揃える。
  */
-function PreviewTile({ card }: { card: VocabCard }) {
+function PreviewTile({ card, isPhrase }: { card: VocabCard; isPhrase: boolean }) {
   const [flipped, setFlipped] = useState(false)
   const example = card.examples[0]
 
   return (
-    <div className={`tile${flipped ? ' revealed' : ''}`}>
+    <div className={`tile${flipped ? ' revealed' : ''}${isPhrase ? ' phrase' : ''}`}>
       <div
         className="tile-content"
         onClick={() => setFlipped((f) => !f)}
@@ -105,7 +105,12 @@ function PreviewTile({ card }: { card: VocabCard }) {
         {flipped ? (
           <>
             <div className={`tile-hw sm${headwordFitClass(card.headword)}`}>{card.headword}</div>
-            {card.reading && <span className="tile-reading">{card.reading}</span>}
+            {card.reading && (
+              <span className="tile-reading">
+                {card.reading}
+                {card.ipa && <span className="tile-ipa"> {card.ipa}</span>}
+              </span>
+            )}
             <div className="tile-back">
               <div className="tile-gloss">{card.gloss}</div>
               {example && (

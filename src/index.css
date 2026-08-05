@@ -1494,13 +1494,24 @@ select option {
 .word-search-word {
   font-weight: 600;
   font-size: 14px;
-  flex: 0 0 auto;
+  /* 単語コースの短い見出し語は flex-shrink しても実際には縮まないので見た目は不変。
+     フレーズコースの長い見出し語（150文字超）がドロップダウン幅を突き破らないよう
+     縮小・折り返しを許可する（2026-08-05）。 */
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .word-search-reading {
   font-size: 12px;
   color: var(--text-faint);
-  flex: 0 0 auto;
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.word-search-ipa {
+  color: var(--text-faint);
 }
 
 .word-search-gloss {
@@ -1589,8 +1600,10 @@ select option {
 .tile {
   position: relative;
   /* 固定高さ（min-height ではない）。訳語の長さでフリップ前後に高さが変わらないように。
-     はみ出す分は FitGloss がフォントサイズを縮めて吸収する。 */
-  height: 158px;
+     はみ出す分は FitGloss がフォントサイズを縮めて吸収する。--tile-h はコース別の
+     上書き用（.tile.phrase 参照。フレーズコースは見出し語・読み・訳・語根・返答例の
+     5ブロックを収める必要があり、単語コースの158pxでは足りない）。 */
+  height: var(--tile-h, 158px);
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -1606,6 +1619,30 @@ select option {
 
 .tile.revealed {
   background: var(--surface-2);
+}
+
+/* フレーズコース（tl-phrases-daily）: 見出し語・読み・訳・語根分解・返答例の5ブロックを
+   収める必要があり、単語コースの158pxでは足りない（実測で裏面のroot要素が完全に潰れる
+   ことを確認・判断ログ#36）。--tile-h-mobile はタッチ端末用メディアクエリ側の変数
+   （ボタンを太らせる分+18pxが既定値。同じ考え方で232px側にも+18pxしている）。 */
+.tile.phrase {
+  --tile-h: 232px;
+  --tile-h-mobile: 250px;
+}
+
+/* フレーズの見出し語（FitHeadword）を収める枠。overflow:hidden をここに持たせて
+   useFitText の scrollHeight/clientHeight 比較を機能させる（.tile-hw 自体は
+   overflow-wrap:anywhere で折り返すだけ・高さの上限を持たないため）。 */
+.tile-hw-fit-box {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* 最小段階でもなお収まらない極端に長い見出し語だけ、.tile-back.clipped と同じ
+   下端フェードにする（切り口が文の途中でスパッと切れて壊れて見えないように）。 */
+.tile-hw-fit-box.clipped {
+  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 10px), transparent);
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 10px), transparent);
 }
 
 /* カード本体（上部）。ここへのホバー/タップだけがめくり動作を起こす。 */
@@ -1812,12 +1849,17 @@ select option {
   color: var(--accent);
   display: block;
   max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* 単語コースの短い読みは1行に収まるので見た目は変わらない。フレーズコースの
+     長いアクセント表記まで nowrap+ellipsis で切ると全文が読めなくなるため、
+     折り返し可に統一する（2026-08-05）。 */
+  overflow-wrap: anywhere;
 }
 
 .tile-romaji {
+  color: var(--text-faint);
+}
+
+.tile-ipa {
   color: var(--text-faint);
 }
 
@@ -2141,7 +2183,7 @@ select option {
    ボタンが太る分だけ全体を伸ばして本体（めくり領域）の高さを保つ。 */
 @media (pointer: coarse), (max-width: 620px) {
   .tile {
-    height: 176px;
+    height: var(--tile-h-mobile, 176px);
   }
   .tile-level {
     min-height: 44px;
@@ -2299,6 +2341,11 @@ select option {
 }
 
 .aw-romaji {
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.aw-ipa {
   font-size: 12px;
   color: var(--text-faint);
 }
@@ -2972,6 +3019,11 @@ select option {
   z-index: 45; /* スパークル（.burst z:60）より下＝演出はシートの上を飛ぶ */
   margin: 0 auto;
   max-width: 560px;
+  /* 単語コースは中身が小さく発火しない上限。フレーズコースの長いカード
+     （見出し語・読み・訳・語根分解・返答例）が画面からはみ出さないよう、
+     溢れた分はシート自体をスクロールさせる（2026-08-05）。 */
+  max-height: 90vh;
+  overflow-y: auto;
   background: var(--surface);
   border: 1px solid var(--border);
   border-bottom: none;
@@ -3036,6 +3088,10 @@ select option {
 }
 
 .focus-romaji {
+  color: var(--text-faint);
+}
+
+.focus-ipa {
   color: var(--text-faint);
 }
 

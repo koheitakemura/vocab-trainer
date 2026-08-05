@@ -86,6 +86,7 @@ export function FocusSheet({
                 <div className={`focus-hw${headwordFitClass(c.headword)}`}>{c.headword}</div>
                 <div className="focus-reading">
                   {c.reading}
+                  {c.ipa && <span className="focus-ipa"> {c.ipa}</span>}
                   {romaji && <span className="focus-romaji"> · {romaji}</span>}
                 </div>
                 <div className="focus-gloss">{c.gloss}</div>
@@ -113,6 +114,7 @@ export function FocusSheet({
                 <>
                   <div className="focus-reading">
                     {c.reading}
+                    {c.ipa && <span className="focus-ipa"> {c.ipa}</span>}
                     {romaji && <span className="focus-romaji"> · {romaji}</span>}
                   </div>
                   <div className="focus-gloss">{c.gloss}</div>

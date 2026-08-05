@@ -9,6 +9,7 @@ public/data/courses/<courseId>/ に 1k帯ごとの静的ファイルとして書
   "headword": str, "reading": str, "gloss": str, "pos": str,
   "examples": [{"text": str, "translation": str}, ...],
   "frequencyRank": int, "jlptLevel": "N5"|"N4"|"N3"|"N2"|"N1"|None,
+  "ipa": str|None,  # 任意（IPA発音記号。無い/Noneならキー自体を出力しない）
 }
 """
 import json
@@ -92,8 +93,12 @@ def emit_course(
             "frequencyRank": r.get("frequencyRank", i),
             "jlptLevel": r.get("jlptLevel"),
         }
-        # 'band' は VocabCard 型には無い任意の付加情報（絶対頻度帯の整数値）。
-        # レコードに無ければ既存コース(C/D/B)と全く同じ出力形状を保つ（キー自体を出さない）。
+        # 'ipa'/'root'/'band' は VocabCard の任意フィールド。レコードに無ければ既存コースと
+        # 全く同じ出力形状を保つ（キー自体を出さない）。
+        if r.get("ipa"):
+            card["ipa"] = r["ipa"]
+        if r.get("root"):
+            card["root"] = r["root"]
         if r.get("band") is not None:
             card["band"] = r["band"]
         cards.append(card)

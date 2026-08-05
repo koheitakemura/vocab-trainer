@@ -131,6 +131,10 @@ export function courseProgress(
       // かな導入（ja-kana）: 208枚規模で「会話被覆率%」は意味を成さない語数のみ表示。
       // depth 概念も無いので常に null（呼び出し側は既存の size-depth 表示をそのまま再利用）。
       return { mode: 'size-depth', words: Math.max(0, Math.round(words)), depth: null }
+    case 'phrase':
+      // フレーズ集（tl-phrases-daily）: 「会話被覆率%」はフレーズ単位の学習には意味を成さない。
+      // kana と同じ語数のみ表示（depth概念は無いので常にnull）。
+      return { mode: 'size-depth', words: Math.max(0, Math.round(words)), depth: null }
     case 'cloze':
       // 3k-10k: 読解が目的＝書き言葉の被覆率で意味づける（3000語で頭打ちにしない）。
       return { mode: 'coverage-pct', pct: interpolate(WRITTEN_ANCHORS, words), domain: 'written' }

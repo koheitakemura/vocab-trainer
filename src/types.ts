@@ -13,8 +13,9 @@ export type CourseId =
   | 'ja-10-30k' // E: 日本語 10k→30k（較正＋マイニング）
   | 'en-10-30k' // A: 英語 10k→30k（Kohei）
   | 'tl-0-2k' // B: タガログ語 0→2k（Kohei。判断ログ#20で実質2,000語に確定）
+  | 'tl-phrases-daily' // タガログ語 日常フレーズ集（Kohei。Phase 1.5パイロット・判断ログ#36）
 
-export type CourseType = 'rail' | 'cloze' | 'calibrate-mine' | 'kana'
+export type CourseType = 'rail' | 'cloze' | 'calibrate-mine' | 'kana' | 'phrase'
 
 export interface Course {
   id: CourseId
@@ -87,6 +88,8 @@ export interface VocabCard {
   headword: string
   /** 発音表記（日本語=かな読み／英語=IPA発音記号／タガログ語=アクセント位置付き表記） */
   reading?: string
+  /** IPA発音記号（タガログ語コース専用・任意）。reading（アクセント表記）と併記する */
+  ipa?: string
   /** 訳語（グロス） */
   gloss: string
   /** 品詞 */
