@@ -1833,25 +1833,33 @@ select option {
 }
 
 /* スマホの2列では内寸が約139pxしかなく、34px のままだと長めの語が軒並み2〜3行になる。
-   1段下げて「よくある語は1行・長い語だけ2行」に戻す。 */
+   1段下げて「よくある語は1行・長い語だけ2行」に戻す。
+
+   2026-08-05（Kohei指摘・4案の比較スクショから「案3 しっかり小さく」を選択）:
+   全体をさらに小さくし、**段差そのものを詰めた**。旧値は 30 / 23 / 18px で、
+   隣り合うタイルが 30px と 23px（7px 差）で並ぶため、2列グリッドでは
+   「飲食」と「チーズケーキ」のように文字サイズがバラバラに見えていた。
+   22 / 19.5 / 17px にすると段差は 2.5px となり、長い語が縮む性質は保ったまま
+   盤面としては揃って見える（長い語をより小さくするのは Kohei 了承済み）。
+   PC 側（上の .tile-hw = 34px 系）は指摘の対象外なので一切変更しない。 */
 @media (max-width: 620px) {
   .tile-hw {
-    font-size: 30px;
+    font-size: 22px;
   }
   .tile-hw.sm {
-    font-size: 23px;
+    font-size: 17.5px;
   }
   .tile-hw.hw-lg {
-    font-size: 23px;
+    font-size: 19.5px;
   }
   .tile-hw.hw-xl {
-    font-size: 18px;
+    font-size: 17px;
   }
   .tile-hw.sm.hw-lg {
-    font-size: 19px;
+    font-size: 16px;
   }
   .tile-hw.sm.hw-xl {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -1989,6 +1997,22 @@ select option {
 .tile.unified .tile-reading {
   font-size: 11px;
   line-height: 1.2;
+}
+
+/* スマホだけ、1区画状態の見出し語も上の @media(max-width:620px) と同じ方向で詰める。
+   **この定義は必ず上の .tile.unified 群より後ろに置くこと**——セレクタの詳細度が
+   同じ (0,4,0)/(0,5,0) なので、先に書かれた @media ブロック（.tile-hw 系がある行 1837 付近）
+   に同じ指定を足しても、後続のここに負けて効かない。メディアクエリは詳細度を上げない。 */
+@media (max-width: 620px) {
+  .tile.unified .tile-hw.sm {
+    font-size: 18px;
+  }
+  .tile.unified .tile-hw.sm.hw-lg {
+    font-size: 16px;
+  }
+  .tile.unified .tile-hw.sm.hw-xl {
+    font-size: 14px;
+  }
 }
 
 /* 採点ボタンの置き場。1区画のときはレイアウトを持たない絶対配置＝中身を押し出さない。
