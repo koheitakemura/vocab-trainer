@@ -1240,6 +1240,29 @@ select option {
   border-color: var(--accent, #4f8cff);
 }
 
+/* ただし「読み込むとこの端末の記録が減る」ときは前向きな提案ではないので警告色へ戻す。 */
+.restore-offer.has-loss {
+  border-color: var(--again);
+}
+
+/* 消える語数の内訳。.hint（display:grid で中央寄せ・height:100%）は使わず、
+   バナー内の通常フローの文章として左揃えで積む。 */
+.restore-offer-loss {
+  margin-top: 6px;
+  font-size: 0.9em;
+  color: var(--text-faint);
+}
+
+.restore-offer-loss-head {
+  margin: 0;
+  color: var(--again);
+}
+
+.restore-offer-loss ul {
+  margin: 4px 0 0;
+  padding-left: 1.2em;
+}
+
 /* ---------- 自動復元トースト（非モーダル・数秒で自動的に消える） ---------- */
 .restore-toast {
   position: fixed;

@@ -131,10 +131,22 @@ export interface UIStrings {
   serverSyncBlocked: string
   serverSyncBlockedConfirm: string
   serverSyncUploading: string
-  restoreAutoToast: (n: number) => string
+  /**
+   * n = 復元した全コース合計の語数（importProgress の戻り値）、courseN = いま開いている
+   * コースぶんの語数（ヘッダーの WORDS STARTED と同じ数）。両方出すのは、復元は全コースを
+   * まとめて置き換えるのにヘッダーは1コースしか数えていないため——片方だけ見せると
+   * 「124語 復元したのに上の数字が 84 のまま」に見えて、同期が失敗したと誤解される。
+   */
+  restoreAutoToast: (n: number, courseN: number) => string
   restoreOfferTitle: string
   restoreOfferBody: (n: number) => string
   restoreOfferEpochWarning: string
+  /** 復元でこの端末の記録が減るときの警告（lost = 消える語数） */
+  restoreOfferLossWarning: (lost: number) => string
+  /** その内訳1行（コース名・この端末の語数・サーバーの語数） */
+  restoreOfferLossCourse: (title: string, local: number, snapshot: number) => string
+  /** 記録が減る場合の確認ダイアログ（通常の restoreConfirmDialog の代わりに出す） */
+  restoreConfirmLossDialog: (lost: number) => string
   restoreOfferAction: string
   restoreOfferLoading: string
   restoreOfferDismiss: string

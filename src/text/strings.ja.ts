@@ -103,11 +103,17 @@ export const ja: UIStrings = {
     '端末のデータが消えた直後などにこの警告が出ます。本当にこのデータで上書きしますか？',
   serverSyncUploading: '同期中…',
 
-  restoreAutoToast: (n) => `サーバーの学習記録を復元しました（${n} 語）`,
+  restoreAutoToast: (n, courseN) => `サーバーの学習記録を復元しました（全コース ${n} 語／このコース ${courseN} 語）`,
   restoreOfferTitle: 'サーバーに新しい学習記録があります',
   restoreOfferBody: (n) => `別の端末で保存された記録（${n} 語）があります。読み込むとこの端末の記録は置き換わります。`,
   restoreOfferEpochWarning:
     'このコースの単語IDが作り直されているため、復元すると記録が別の単語に付く可能性があります。',
+  restoreOfferLossWarning: (lost) =>
+    `⚠ この端末にしかない記録が ${lost} 語ぶんあります。読み込むと、その分は消えます。`,
+  restoreOfferLossCourse: (title, local, snapshot) => `${title}：この端末 ${local} 語 → サーバー ${snapshot} 語`,
+  restoreConfirmLossDialog: (lost) =>
+    `この端末にしかない ${lost} 語ぶんの記録が消えます。サーバーの内容で置き換えますか？` +
+    '（直後なら、フッターの「元に戻す」で1回だけ戻せます）',
   restoreOfferAction: '読み込む',
   restoreOfferLoading: '読み込み中…',
   restoreOfferDismiss: '今はしない',

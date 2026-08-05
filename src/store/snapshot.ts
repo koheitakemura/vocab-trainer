@@ -204,11 +204,65 @@ function epochsFromMeta(meta: MetaRow[] | undefined): Map<string, number> {
   return map
 }
 
+/** 復元するとこの端末から消える記録があるコース（サーバー側の方が行数が少ない） */
+export interface ShrinkingCourse {
+  courseId: string
+  /** この端末の進捗行数 */
+  local: number
+  /** サーバーのスナップショットに入っている進捗行数 */
+  snapshot: number
+}
+
 export interface RestorePreflight {
   totalRows: number
   courseIds: string[]
   /** true なら、いずれかのコースで cardId が付け替わった後のスナップショット＝自動復元しない */
   epochMismatch: boolean
+  /**
+   * 復元（＝全置換）で記録が減るコース。多い順。
+   *
+   * スナップショットは端末ごとに丸ごと上書きし合う（最後に送った端末が勝つ）ので、
+   * 「別の端末が古い内容を送った」「この端末の直近の学習がまだ送信されていない」状態では、
+   * サーバーの方が中身は古いのにタイムスタンプだけ新しい、ということが普通に起こる。
+   * この場合の復元は差分をそのまま消す——本人が数字を見て選べるように preflight で数えておく。
+   */
+  shrinking: ShrinkingCourse[]
+  /** shrinking の差分合計＝復元で失う進捗行数 */
+  lostRows: number
+}
+
+/**
+ * スナップショット内のコース別 進捗行数。
+ * importProgress が捨てる status 'new' の行はここでも数えない——「取り込んだ結果」と
+ * 数え方をずらすと、警告の語数が実際に消える語数と合わなくなる。
+ */
+export function snapshotRowCounts(rows: WordProgress[]): Map<string, number> {
+  const counts = new Map<string, number>()
+  for (const r of rows) {
+    if (r.status === 'new') continue
+    counts.set(r.courseId, (counts.get(r.courseId) ?? 0) + 1)
+  }
+  return counts
+}
+
+/** 端末側とスナップショット側の行数を突き合わせ、減るコースだけを減り幅の大きい順で返す */
+export function shrinkingCourses(local: Map<string, number>, snapshot: Map<string, number>): ShrinkingCourse[] {
+  const out: ShrinkingCourse[] = []
+  for (const [courseId, localCount] of local) {
+    const snapshotCount = snapshot.get(courseId) ?? 0
+    if (localCount > snapshotCount) out.push({ courseId, local: localCount, snapshot: snapshotCount })
+  }
+  return out.sort((a, b) => b.local - b.snapshot - (a.local - a.snapshot))
+}
+
+/** この端末のコース別 progress 行数（courseId インデックスの count なので全行は読まない） */
+async function localRowCounts(): Promise<Map<string, number>> {
+  const courseIds = (await db.progress.orderBy('courseId').uniqueKeys()) as string[]
+  const counts = new Map<string, number>()
+  for (const cid of courseIds) {
+    counts.set(cid, await db.progress.where('courseId').equals(cid).count())
+  }
+  return counts
 }
 
 /**
@@ -231,7 +285,12 @@ async function preflight(json: string): Promise<RestorePreflight> {
       break
     }
   }
-  return { totalRows: rows.length, courseIds, epochMismatch }
+
+  // 「サーバーの方が少ない」コースを数える（＝この復元で消える記録）
+  const shrinking = shrinkingCourses(await localRowCounts(), snapshotRowCounts(rows))
+  const lostRows = shrinking.reduce((n, s) => n + (s.local - s.snapshot), 0)
+
+  return { totalRows: rows.length, courseIds, epochMismatch, shrinking, lostRows }
 }
 
 /** このデバイスがまだ何も学習していないか（新端末判定）。progress が1行も無ければ true */
@@ -268,7 +327,7 @@ export async function undoLastRestore(): Promise<number | null> {
 export type RestoreCheckResult =
   | { kind: 'none' }
   | { kind: 'auto-restored'; rows: number }
-  | { kind: 'offer'; totalRows: number; epochMismatch: boolean }
+  | { kind: 'offer'; totalRows: number; epochMismatch: boolean; shrinking: ShrinkingCourse[]; lostRows: number }
 
 let restoreCheckStarted = false
 /** 'offer' を返したときに保持しておく本体（確認後の再ダウンロードを避けるため） */
@@ -308,7 +367,13 @@ export async function checkForServerRestore(): Promise<RestoreCheckResult> {
   }
   // ローカルに何かある／版が食い違う、のどちらかなら必ず本人の確認を挟む
   offeredSnapshot = { json, uploadedAt: meta.uploadedAt }
-  return { kind: 'offer', totalRows: pf.totalRows, epochMismatch: pf.epochMismatch }
+  return {
+    kind: 'offer',
+    totalRows: pf.totalRows,
+    epochMismatch: pf.epochMismatch,
+    shrinking: pf.shrinking,
+    lostRows: pf.lostRows,
+  }
 }
 
 /** checkForServerRestore() が 'offer' を返した後、本人が確認して選んだときだけ呼ぶ */
