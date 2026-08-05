@@ -136,8 +136,13 @@ export async function pruneHistory(env: Env, email: string): Promise<void> {
 /** アップロード1件を保存する（latest を更新し、退避コピーを history に残してから古い世代を剪定） */
 export async function putSnapshot(env: Env, email: string, body: ArrayBuffer): Promise<void> {
   const now = new Date()
-  await env.SNAPSHOTS.put(latestKey(email), body, { httpMetadata: { contentType: 'application/gzip' } })
-  await env.SNAPSHOTS.put(historyKey(email, now), body, { httpMetadata: { contentType: 'application/gzip' } })
+  // latest と history は同じ body を別キーへ書くだけで相互依存が無いので並列でよい
+  // （直列だと R2 の往復1回ぶん＝50〜300ms が端末側の待ち時間にそのまま乗る）。
+  const httpMetadata = { contentType: 'application/gzip' }
+  await Promise.all([
+    env.SNAPSHOTS.put(latestKey(email), body, { httpMetadata }),
+    env.SNAPSHOTS.put(historyKey(email, now), body, { httpMetadata }),
+  ])
   await pruneHistory(env, email)
 }
 

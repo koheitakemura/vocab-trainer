@@ -162,11 +162,19 @@ export async function createUser(env: Env, email: string): Promise<void> {
     .run()
 }
 
-/** 最終アクセス時刻だけ更新する。**行が無ければ何も起きない**（作らない） */
-export async function touchLastSeen(env: Env, email: string): Promise<void> {
-  await env.DB.prepare(`UPDATE users SET last_seen_at = ?2 WHERE email = ?1`)
+/**
+ * 最終アクセス時刻を更新し、更新後の行を返す。**行が無ければ何も起きず null**（作らない）。
+ *
+ * 以前は getUser（SELECT）→ touchLastSeen（UPDATE）の2往復だった。認証が要る API は
+ * すべて ensureRegistered を通るので、この2往復が全リクエストに乗っていた。
+ * RETURNING で1往復にまとめる（D1 の往復1回ぶん＝10〜30ms を全 API から削る）。
+ * 返るのは更新後の行だが、呼び出し側が見るのは status / display_name / allowed_courses
+ * だけで last_seen_at は使わないため、意味論は変わらない。
+ */
+export async function touchAndGetUser(env: Env, email: string): Promise<UserRow | null> {
+  return await env.DB.prepare(`UPDATE users SET last_seen_at = ?2 WHERE email = ?1 RETURNING *`)
     .bind(email, new Date().toISOString())
-    .run()
+    .first<UserRow>()
 }
 
 export async function getUser(env: Env, email: string): Promise<UserRow | null> {

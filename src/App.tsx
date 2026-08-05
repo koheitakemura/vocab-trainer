@@ -86,16 +86,32 @@ export default function App() {
         // プレビュー（未割当コース）は先頭帯だけの軽量フェッチ——コース全体（コースによっては
         // 数MB〜十数MB）を、覗いただけの未割当コースのために毎回取りに行かない
         // （vite.config.ts の「コース JSON はオンデマンドで選んだ分だけ」方針を守る）。
-        const [c, cs, corrections] = await Promise.all([
+        // 是正（/api/corrections）は起動を待たせない：先に走らせておき、コース本体が
+        // 揃った時点で画面を出す。小さいコース（ja-kana 等・40KB 1ファイル）では
+        // この API 1本が起動のクリティカルパスになっており、Worker のコールドスタート分
+        // （数百ms）そのまま Loading 画面が伸びていた。
+        const correctionsPromise = fetchCorrections(courseId)
+        const [c, cs] = await Promise.all([
           repository.getCourse(courseId),
           isPreview ? repository.getCardsPreview(courseId, DEFAULT_BOARD_SIZE) : repository.getCards(courseId),
-          fetchCorrections(courseId),
         ])
         if (!active) return
         setCourse(c)
-        // 管理者が確定させた誤り是正を重ねる（是正が0件・未デプロイ・オフラインなら cs をそのまま返す）
-        setCards(applyCorrections(cs, corrections))
+        setCards(cs)
         setLoading(false)
+
+        // 管理者が確定させた誤り是正を後から重ねる（是正が0件・未デプロイ・オフラインなら
+        // fetchCorrections が [] を返し、applyCorrections が cs をそのまま返す＝何も起きない）。
+        // active ガードは本体と同じ：コースを切り替えた後に前コースの是正が届いても捨てる。
+        // ここは独立した try で囲む——既に学習画面を出した後なので、万一失敗しても
+        // 下の catch に落として「読み込み失敗」画面へ差し替えてはいけない。
+        try {
+          const corrections = await correctionsPromise
+          if (!active) return
+          setCards((prev) => applyCorrections(prev, corrections))
+        } catch (err) {
+          console.error('Corrections overlay failed:', err)
+        }
       } catch (err) {
         // オフライン以外（壊れた JSON 等）もここに来る。現地調査できるよう必ずログに残す。
         console.error('Course data load failed:', err)

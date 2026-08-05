@@ -1,15 +1,25 @@
-import { StrictMode, useEffect, useState } from 'react'
+import { StrictMode, Suspense, lazy, useEffect, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { registerSW } from 'virtual:pwa-register'
 import App from './App'
-import { DesignGallery } from './design/DesignGallery'
-import { ThemeGallery } from './design/ThemeGallery'
-import { GrowthPreview } from './features/growth/GrowthPreview'
-import { BrandPreview } from './brand/BrandPreview'
-import { AdminScreen } from './features/admin/AdminScreen'
+import { BootBrand } from './brand/Logo'
 import { startProgressSync } from './store/sync'
 import { startSnapshotSync } from './store/snapshot'
 import './index.css'
+
+/**
+ * ハッシュ／`/admin` でしか到達しない画面は遅延ロードする。
+ *
+ * 静的 import だと、学習しかしない利用者にも管理者画面・デザイン確認画面のコードが
+ * 毎回配られる（実測: 単一チャンク 539KB のうち管理者系 25KB＋デザイン系 12KB）。
+ * これらは本体アプリからは一切参照されない独立した部分木なので、分離しても
+ * 学習画面の挙動には影響しない。名前付き export なので default へ詰め替えて渡す。
+ */
+const DesignGallery = lazy(() => import('./design/DesignGallery').then((m) => ({ default: m.DesignGallery })))
+const ThemeGallery = lazy(() => import('./design/ThemeGallery').then((m) => ({ default: m.ThemeGallery })))
+const GrowthPreview = lazy(() => import('./features/growth/GrowthPreview').then((m) => ({ default: m.GrowthPreview })))
+const BrandPreview = lazy(() => import('./brand/BrandPreview').then((m) => ({ default: m.BrandPreview })))
+const AdminScreen = lazy(() => import('./features/admin/AdminScreen').then((m) => ({ default: m.AdminScreen })))
 
 // 新しい Service Worker が見つかったら自動更新（データパック更新時に旧キャッシュが
 // 残り続けないようにする）。registerType:'autoUpdate' により、新SWが activate したら
@@ -59,11 +69,25 @@ function Root() {
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
 
-  if (hash.startsWith('#design')) return <DesignGallery />
-  if (hash.startsWith('#tones')) return <ThemeGallery />
-  if (hash.startsWith('#growth')) return <GrowthPreview />
-  if (hash.startsWith('#brand')) return <BrandPreview />
-  if (hash.startsWith('#admin') || isAdminPath()) return <AdminScreen />
+  // 遅延ロード中は起動画面と同じ見た目にする（真っ白を挟まない）。App 本体は静的 import
+  // なので Suspense には入らない＝学習画面の表示タイミングは従来と1msも変わらない。
+  const lazyScreen = (screen: React.ReactNode) => (
+    <Suspense
+      fallback={
+        <div className="boot">
+          <BootBrand />
+        </div>
+      }
+    >
+      {screen}
+    </Suspense>
+  )
+
+  if (hash.startsWith('#design')) return lazyScreen(<DesignGallery />)
+  if (hash.startsWith('#tones')) return lazyScreen(<ThemeGallery />)
+  if (hash.startsWith('#growth')) return lazyScreen(<GrowthPreview />)
+  if (hash.startsWith('#brand')) return lazyScreen(<BrandPreview />)
+  if (hash.startsWith('#admin') || isAdminPath()) return lazyScreen(<AdminScreen />)
   // 管理者画面への入口は CourseScreen のフッター（Backup/Restore と同じ行）に表示する
   return <App />
 }

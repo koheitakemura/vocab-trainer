@@ -40,9 +40,20 @@ export default defineConfig({
             // data/courses/ 配下の json（manifest/meta/categories/coach-sentences/words-*）。
             // オリジン・base パスに依存しないよう pathname 内の位置で判定する。
             urlPattern: ({ url }) => /\/data\/courses\/.*\.json$/.test(url.pathname),
-            // コース内容は稀に更新されるため、オンライン時は常に最新を取りにいき
-            // オフライン時のみキャッシュへフォールバックする（NetworkFirst）。
-            handler: 'NetworkFirst',
+            // キャッシュがあれば即座に返し、裏で最新版を取り直す（StaleWhileRevalidate）。
+            //
+            // 以前は NetworkFirst だった。コース内容が稀に更新されるので「常に最新を取りにいく」
+            // のは一見正しいが、**初期表示がネットワーク往復に縛られる**代償が大きすぎた：
+            // 帯（words-*.json）は最大13ファイルあり（en-10-30k = 8.46MB / 12,461語）、
+            // App.tsx は全帯が揃うまで Loading 画面から進めない。NetworkFirst かつ
+            // networkTimeoutSeconds 未指定だと、キャッシュに全部あっても毎回13往復ぶん待たされ、
+            // 回線が遅い・不安定なときは fetch が決着するまで待ち続ける。
+            //
+            // SWR にすると起動はキャッシュから即座に進み、更新は次に開いたときに反映される
+            // （2026-08-05 Kohei 判断：単語データ差し替えの反映が1テンポずれるのは許容）。
+            // 誤字などの是正は corrections（D1・store/corrections.ts）が別経路で即時反映するため、
+            // ここが1テンポ遅れても「間違ったまま直せない」状態にはならない。
+            handler: 'StaleWhileRevalidate',
             options: {
               cacheName: 'course-data',
               expiration: { maxEntries: 100, maxAgeSeconds: 60 * 60 * 24 * 30 },

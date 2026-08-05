@@ -22,7 +22,7 @@ import {
   recentAdminLog,
   saveProgress,
   setExtraCardPromoted,
-  touchLastSeen,
+  touchAndGetUser,
   updateAllowedCourses,
   updateUserProfile,
   upsertUser,
@@ -221,11 +221,10 @@ async function handleApi(request: Request, env: Env, url: URL): Promise<Response
  * （セッション失効はベストエフォートなので、失敗すればセッション有効期間ぶんの窓が開く）。
  */
 async function ensureRegistered(env: Env, identity: Identity): Promise<UserRow | null> {
-  const existing = await getUser(env, identity.email)
-  if (existing) {
-    await touchLastSeen(env, identity.email)
-    return existing
-  }
+  // 「行を取る」と「最終アクセス時刻を更新する」を1回の D1 往復で済ませる（store.ts 参照）。
+  // 行が無ければ null が返るだけで、行は作られない（上のコメントの復活事故を防ぐ性質は不変）。
+  const existing = await touchAndGetUser(env, identity.email)
+  if (existing) return existing
   // 管理者は ADMIN_EMAILS（管理者本人しか変更できない）で定義されるので常に登録してよい。
   // Cloudflare 連携が未設定の間は従来どおり作る（許可リストを参照できないため）。
   let allowed = identity.isAdmin || !accessListConfigured(env)

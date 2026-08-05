@@ -35,10 +35,19 @@ export async function fetchCorrections(courseId: CourseId): Promise<Correction[]
   }
 }
 
-/** cards へ是正を重ねる（フルセット上書き。部分パッチにしない理由は worker/reports.ts 冒頭参照） */
+/**
+ * cards へ是正を重ねる（フルセット上書き。部分パッチにしない理由は worker/reports.ts 冒頭参照）
+ *
+ * **1件も当たらなければ受け取った配列をそのまま返す**（新しい配列を作らない）。
+ * cards は App→CourseScreen→StudyGrid/useStudyBoard へ props で流れており、配列の
+ * 参照が変わるだけで盤面の組み直し（useStudyBoard の effect）が走ってしまうため。
+ * App.tsx が是正を「起動後に後掛け」する設計（クリティカルパスから外す）は、この
+ * 参照維持とセットで初めて安全になる。
+ */
 export function applyCorrections(cards: VocabCard[], corrections: Correction[]): VocabCard[] {
   if (corrections.length === 0) return cards
   const byId = new Map(corrections.map((c) => [c.cardId, c]))
+  if (!cards.some((card) => byId.has(card.id))) return cards
   return cards.map((card) => {
     const fix = byId.get(card.id)
     if (!fix) return card
