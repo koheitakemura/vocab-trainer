@@ -122,7 +122,7 @@ def normalize_pos(pos: str) -> str:
     return POS_NORMALIZE.get(pos, pos)
 
 
-def load_pos_overrides() -> dict[str, str]:
+def load_pos_overrides() -> dict:
     """見出し語 → 品詞 の上書き表。ファイルが無ければ空（上書きなしで従来どおり動く）。"""
     if not os.path.exists(POS_OVERRIDES_PATH):
         log("pos-overrides.json is absent — building without POS overrides")
@@ -135,30 +135,54 @@ def load_pos_overrides() -> dict[str, str]:
 
 def apply_pos_overrides(records: list[dict]) -> None:
     """
-    上書き表を当てる。キーは見出し語。
+    上書き表を当てる。値は2形式:
 
-    ⚠️ 同綴り別語（ホモグラフ・このコースに39見出し語ある）は同じキーに複数レコードが
-    ぶら下がるため、表の1件が両方に当たる。品詞まで食い違うホモグラフは実際には稀だが、
-    当たった件数をログに出して後から気づけるようにしておく（黙って両方書き換えない）。
+      "kain": "動詞"                                  … その見出し語の全エントリに当てる
+      "basa": {"読む": "動詞", "濡れている": "形容詞"}   … 訳の**先頭一致**でエントリを選ぶ
+
+    後者が要るのは同綴り別語（ホモグラフ）があるため。このコースは2,000語に対し異なり
+    見出し語1,958＝42組が同綴りで、語義ごとに品詞が違うものが実在する。実際、見出し語
+    キーだけで当てた初回は `siya`（頻度13位の代名詞「彼/彼女」）が、別語義の
+    「満足（語根）」の判定に巻き込まれて名詞へ化けた。1件でも高頻度語を壊すと学習体験に
+    直撃するので、ホモグラフは語義ごとに書けるようにしてある。
+
+    どの語義にも先頭一致しなかった場合は**何もしない**（誤爆させない）。
     """
     overrides = load_pos_overrides()
     if not overrides:
         return
     seen: dict[str, int] = defaultdict(int)
     changed = 0
+    unmatched_gloss: list[str] = []
     for r in records:
-        new_pos = overrides.get(r["headword"])
-        if not new_pos:
+        spec = overrides.get(r["headword"])
+        if spec is None:
             continue
+        if isinstance(spec, str):
+            new_pos = spec
+        else:
+            new_pos = None
+            for gloss_prefix, pos in spec.items():
+                if r["gloss"].startswith(gloss_prefix):
+                    new_pos = pos
+                    break
+            if new_pos is None:
+                unmatched_gloss.append(f"{r['headword']}（{r['gloss'][:20]}）")
+                continue
         seen[r["headword"]] += 1
         if new_pos != r["pos"]:
             r["pos"] = new_pos
             changed += 1
-    multi = [hw for hw, n in seen.items() if n > 1]
+    plain_multi = [
+        hw for hw, n in seen.items() if n > 1 and isinstance(overrides.get(hw), str)
+    ]
     log(f"pos overrides applied: {changed} records changed")
-    if multi:
-        log(f"  NOTE: {len(multi)} overridden headwords are homographs (override hit every entry): "
-            f"{', '.join(sorted(multi)[:10])}")
+    if plain_multi:
+        log(f"  NOTE: {len(plain_multi)} headwords are homographs hit by a single (string) override "
+            f"— check the senses agree: {', '.join(sorted(plain_multi)[:10])}")
+    if unmatched_gloss:
+        log(f"  WARNING: {len(unmatched_gloss)} records had a per-gloss override that matched no sense: "
+            f"{', '.join(unmatched_gloss[:5])}")
     unused = [hw for hw in overrides if hw not in seen]
     if unused:
         log(f"  WARNING: {len(unused)} override entries matched no card (typo or dropped word?): "

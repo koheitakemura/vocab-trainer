@@ -1378,6 +1378,20 @@ select option {
   display: flex;
   align-items: center;
   gap: 8px;
+  /* ⚠️ 折り返しは必須。ここは「カテゴリー選択・品詞選択・セッション更新・検索」を横一列に
+     並べる箱で、.tabs 側が flex-wrap:wrap でもこの箱自体が1本の行として振る舞うため、
+     中身が入り切らないと箱ごと画面幅を突き破る（品詞セレクタを足した 2026-08-05 に
+     621〜859px で実測 728px まで膨らみ横スクロールが出た）。
+     min-width:0 は flex アイテムの既定 min-width:auto を外すため——これが無いと
+     中の select が内容幅より縮まず、wrap を付けても溢れが残る。 */
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  row-gap: 8px;
+  min-width: 0;
+}
+
+.tab-tools > * {
+  min-width: 0;
 }
 
 .tab-refresh {
