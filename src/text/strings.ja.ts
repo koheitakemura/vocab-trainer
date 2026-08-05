@@ -103,7 +103,7 @@ export const ja: UIStrings = {
     '端末のデータが消えた直後などにこの警告が出ます。本当にこのデータで上書きしますか？',
   serverSyncUploading: '同期中…',
 
-  restoreAutoToast: (n) => `サーバーの学習記録を復元しました（${n} 語）`,
+  restoreAutoToast: (n, courseN) => `サーバーの学習記録を復元しました（全コース ${n} 語／このコース ${courseN} 語）`,
   restoreOfferTitle: 'サーバーに新しい学習記録があります',
   restoreOfferBody: (n) => `別の端末で保存された記録（${n} 語）があります。読み込むとこの端末の記録は置き換わります。`,
   restoreOfferEpochWarning:

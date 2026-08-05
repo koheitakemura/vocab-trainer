@@ -663,7 +663,10 @@ export function CourseScreen({
       {restoreCheck?.kind === 'auto-restored' &&
         createPortal(
           <div className="restore-toast" role="status">
-            {t.restoreAutoToast(restoreCheck.rows)}
+            {/* introduced はヘッダーと同じ liveQuery の値＝復元後の「このコース」の語数。
+                復元は全コースをまとめて置き換えるので、合計だけ出すとヘッダーの数字と
+                食い違って見える（実機で「124語 復元 / 上は 84 のまま」と報告あり）。 */}
+            {t.restoreAutoToast(restoreCheck.rows, introduced)}
             <button type="button" className="restore-toast-close" onClick={dismissRestoreOffer} aria-label="close">
               ×
             </button>

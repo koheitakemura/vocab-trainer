@@ -104,7 +104,8 @@ export const en: UIStrings = {
     'This warning usually means the data on this device was recently wiped. Overwrite anyway?',
   serverSyncUploading: 'Syncing…',
 
-  restoreAutoToast: (n) => `Restored your learning record from the server (${n} words)`,
+  restoreAutoToast: (n, courseN) =>
+    `Restored your learning record from the server (${n} words across all courses, ${courseN} in this one)`,
   restoreOfferTitle: 'New learning record available on the server',
   restoreOfferBody: (n) => `Another device saved a record (${n} words). Loading it will replace what's on this device.`,
   restoreOfferEpochWarning:

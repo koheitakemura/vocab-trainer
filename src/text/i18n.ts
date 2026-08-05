@@ -131,7 +131,13 @@ export interface UIStrings {
   serverSyncBlocked: string
   serverSyncBlockedConfirm: string
   serverSyncUploading: string
-  restoreAutoToast: (n: number) => string
+  /**
+   * n = 復元した全コース合計の語数（importProgress の戻り値）、courseN = いま開いている
+   * コースぶんの語数（ヘッダーの WORDS STARTED と同じ数）。両方出すのは、復元は全コースを
+   * まとめて置き換えるのにヘッダーは1コースしか数えていないため——片方だけ見せると
+   * 「124語 復元したのに上の数字が 84 のまま」に見えて、同期が失敗したと誤解される。
+   */
+  restoreAutoToast: (n: number, courseN: number) => string
   restoreOfferTitle: string
   restoreOfferBody: (n: number) => string
   restoreOfferEpochWarning: string
