@@ -1,5 +1,5 @@
 import { db } from './db'
-import { exportProgress, importProgress } from './progress'
+import { exportProgress, importProgress, PRE_RESTORE_STASH_KEY } from './progress'
 import { apiUrl } from './sync'
 import { repository } from '../data/courseRepository'
 import type { CourseId, MetaRow, WordProgress } from '../types'
@@ -17,8 +17,9 @@ const LAST_UPLOAD_KEY = 'lastSnapshotUploadAt'
 const REVIEW_BASELINE_KEY = 'snapshotReviewBaseline'
 /** 空上書きガード（409）に引っかかって止まっている場合の時刻。ある間は自動リトライしない */
 const GUARD_BLOCKED_KEY = 'snapshotGuardBlockedAt'
-/** 復元直前の状態を1回分だけ退避しておくキー（「元に戻す」用） */
-const PRE_RESTORE_STASH_KEY = 'preRestoreStash'
+// 復元直前の状態を1回分だけ退避しておくキー（「元に戻す」用）は progress.ts が持つ
+// ——書き出しから除外する側（exportProgress）と同じ定義を見ていないと、入れ子コピーで
+// スナップショットが倍々に膨らむ不具合が静かに戻ってくるため。
 
 const MIN_INTERVAL_MS = 30 * 60_000 // 30分（連打防止の下限。これより頻繁には絶対に送らない）
 const STALE_MS = 6 * 60 * 60_000 // 6時間

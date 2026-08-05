@@ -23,6 +23,7 @@ export function StudyGrid({
   onProgressReset,
   onBackup,
   onExposeRestart,
+  onExposeReload,
   uiLanguage,
 }: {
   cards: VocabCard[]
@@ -38,6 +39,8 @@ export function StudyGrid({
   onBackup?: () => void
   /** restart（Start another session）をタブ行のボタンから呼べるよう親へ渡す。アンマウントで null。 */
   onExposeRestart?: (fn: (() => void) | null) => void
+  /** 復元など「進捗の全置換」の直後に盤面を組み直させるための入口。アンマウントで null。 */
+  onExposeReload?: (fn: (() => void) | null) => void
   uiLanguage: UiLanguage
 }) {
   const t = useStrings(uiLanguage)
@@ -50,6 +53,12 @@ export function StudyGrid({
     onExposeRestart?.(b.restart)
     return () => onExposeRestart?.(null)
   }, [b.restart, onExposeRestart])
+
+  // 復元（サーバー／「元に戻す」）の直後に、親から盤面を組み直させるための登録。
+  useEffect(() => {
+    onExposeReload?.(b.reload)
+    return () => onExposeReload?.(null)
+  }, [b.reload, onExposeReload])
 
   const handleGrade = async (id: string, g: ReviewGrade, rect: DOMRect) => {
     const res = await b.grade(id, g)

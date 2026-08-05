@@ -130,11 +130,13 @@ export interface UIStrings {
   serverSyncNever: string
   serverSyncBlocked: string
   serverSyncBlockedConfirm: string
+  serverSyncUploading: string
   restoreAutoToast: (n: number) => string
   restoreOfferTitle: string
   restoreOfferBody: (n: number) => string
   restoreOfferEpochWarning: string
   restoreOfferAction: string
+  restoreOfferLoading: string
   restoreOfferDismiss: string
   restoreConfirmDialog: string
   restoreUndo: string

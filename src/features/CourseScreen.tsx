@@ -116,6 +116,11 @@ export function CourseScreen({
   const exposeStudyRestart = useCallback((fn: (() => void) | null) => {
     studyRestartRef.current = fn
   }, [])
+  // 復元（＝進捗の全置換）の直後に盤面を組み直させる入口。restart と違い表示する語の窓は動かさない。
+  const studyReloadRef = useRef<(() => void) | null>(null)
+  const exposeStudyReload = useCallback((fn: (() => void) | null) => {
+    studyReloadRef.current = fn
+  }, [])
 
   // 検索（WordSearch）で選んだ語を単語一覧タブへ開く。タブを跨いで渡すだけの受け渡し役なので
   // ここに置く（AllWords はタブ切替のたびアンマウント/再マウントするため、選択結果はここで持つ）。
@@ -329,6 +334,10 @@ export function CourseScreen({
     // （handleProgressReset と同じ経路——コースを開き直すのに近い状態を1回だけ起こす）
     suppressMilestoneRef.current = true
     setEstNonce((n) => n + 1)
+    // 学習盤面は「開いた時点の進捗」を ref に固定して動く（useStudyBoard 参照）ので、
+    // メーターだけ直しても盤面は復元前のまま残る＝「押したのに同期されていない」ように見える。
+    // ここで組み直して、復元結果をその場で目に見える状態にする。
+    studyReloadRef.current?.()
   }, [])
 
   const handleRestoreOfferConfirm = useCallback(async () => {
@@ -589,8 +598,10 @@ export function CourseScreen({
               {restoreCheck.epochMismatch && <p className="hint">{t.restoreOfferEpochWarning}</p>}
             </div>
             <div className="stale-epoch-actions">
+              {/* 押した瞬間に文言を変える。取り込み（数千行の書き換え）は端末によっては
+                  数秒かかり、見た目が変わらないと「押しても何も起きない」と受け取られる。 */}
               <button type="button" className="btn primary" disabled={restoring} onClick={() => void handleRestoreOfferConfirm()}>
-                {t.restoreOfferAction}
+                {restoring ? t.restoreOfferLoading : t.restoreOfferAction}
               </button>
               <button type="button" className="btn ghost" disabled={restoring} onClick={dismissRestoreOffer}>
                 {t.restoreOfferDismiss}
@@ -627,6 +638,7 @@ export function CourseScreen({
             onProgressReset={handleProgressReset}
             onBackup={onExport}
             onExposeRestart={exposeStudyRestart}
+            onExposeReload={exposeStudyReload}
             uiLanguage={course.uiLanguage}
           />
         ) : tab === 'all' ? (
@@ -675,8 +687,15 @@ export function CourseScreen({
           <BoardSizeSettings uiLanguage={course.uiLanguage} />
           <Credits sources={course.sources} uiLanguage={course.uiLanguage} />
           {snapshotStatus?.blocked ? (
-            <button type="button" className="link sync-status sync-status--blocked" onClick={() => void handleSyncStatusClick()}>
-              {t.serverSyncBlocked}
+            <button
+              type="button"
+              className="link sync-status sync-status--blocked"
+              disabled={confirmingOverwrite}
+              onClick={() => void handleSyncStatusClick()}
+            >
+              {/* 送信中はそう見せる。アップロード（gzip 化＋送信）は待ち時間があるので、
+                  文言が「同期停止中」のままだと押下が効いていないように見える。 */}
+              {confirmingOverwrite ? t.serverSyncUploading : t.serverSyncBlocked}
             </button>
           ) : (
             <span className="sync-status">

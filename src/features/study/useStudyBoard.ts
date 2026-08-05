@@ -206,6 +206,15 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
     setNonce((n) => n + 1)
   }, [])
 
+  /**
+   * 盤面を今の DB の内容で組み直す（表示する語の窓は動かさない）。
+   * 復元のように progress が丸ごと入れ替わったときに呼ぶ——盤面は「開いた時点の進捗」を
+   * ref に固定して動く（baselineProgressRef）ので、これを呼ばないと復元後も古い丸・古い
+   * スケジュール起点のまま採点され、画面上も「同期された形跡が無い」状態が続く。
+   * restart と違って窓を進めないのは、復元は“別のセッションを始める”操作ではないため。
+   */
+  const reload = useCallback(() => setNonce((n) => n + 1), [])
+
   /** デモ用：このコースの進捗を実際に消してから初期状態のセッションに戻す */
   const reset = useCallback(async () => {
     const courseId = cards[0]?.courseId
@@ -218,5 +227,5 @@ export function useStudyBoard(cards: VocabCard[], courseType: CourseType) {
   const empty = !loading && tiles.length === 0
   const remaining = pendingQueue.length
 
-  return { loading, tiles, queue: pendingQueue, grade, restart, reset, reviewed, again, finished, empty, remaining }
+  return { loading, tiles, queue: pendingQueue, grade, restart, reload, reset, reviewed, again, finished, empty, remaining }
 }
