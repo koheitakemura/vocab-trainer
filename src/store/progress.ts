@@ -226,13 +226,28 @@ export async function acknowledgeEpoch(courseId: CourseId, idEpoch: number): Pro
   await db.meta.put({ key: epochKey(courseId), value: idEpoch })
 }
 
+/**
+ * 書き出しに含めない db.meta のキー。
+ *
+ * preRestoreStash は「復元前の状態」を丸ごと JSON 文字列で抱えた行＝**進捗全体のもう1コピー**。
+ * これを書き出しに含めると、復元のたびに「今の進捗＋前回の進捗＋その中に入れ子の前々回…」と
+ * 二重・三重に膨らみ、バックアップもサーバーへ送るスナップショットも倍々で重くなる
+ * （gzip の辞書は32KBしか遡らないので、離れた位置の重複コピーは縮まない）。
+ * 膨らんだぶんはそのままアップロード／ダウンロード／JSON.parse の待ち時間になり、
+ * 「同期ボタンを押しても待たされる」体感の主因になる。
+ * 「元に戻す」はその端末の中だけで完結する一時データなので、外へ出す必要がそもそも無い。
+ */
+export const PRE_RESTORE_STASH_KEY = 'preRestoreStash'
+const EXPORT_EXCLUDED_META_KEYS: ReadonlySet<string> = new Set([PRE_RESTORE_STASH_KEY])
+
 /** 進捗を JSON 文字列に書き出す（手動バックアップ／端末移行用）。v2 = 日次ログ・設定も同梱 */
 export async function exportProgress(): Promise<string> {
-  const [progress, dailyStats, meta] = await Promise.all([
+  const [progress, dailyStats, allMeta] = await Promise.all([
     db.progress.toArray(),
     db.dailyStats.toArray(),
     db.meta.toArray(),
   ])
+  const meta = allMeta.filter((m) => !EXPORT_EXCLUDED_META_KEYS.has(m.key))
   // 機械可読のバックアップなので整形しない（3万語スケールでは整形がサイズ・時間とも約2倍になる）
   return JSON.stringify({
     format: 'vocab-trainer/progress',
