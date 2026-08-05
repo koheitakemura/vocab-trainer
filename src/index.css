@@ -2269,6 +2269,19 @@ select option {
   padding: 0 16px;
 }
 
+/* フレーズコース(tl-phrases-daily)は Word/Reading が単語コースよりずっと長い文で、
+   既定の108px/150pxだと折り返しで行が大きく膨れる（Kohei指摘・スクショで実測）。
+   Meaning/Category/Statusは逆に単語コースほどの幅が要らないので詰める。
+   621px以上限定：620px以下は下の @media で grid-template-areas の1列表示に切り替わる
+   （詳細度だけで上書きすると6列指定が areas と噛み合わず要素が画面外へ溢れるため、
+   幅で明示的にスコープを分ける）。 */
+@media (min-width: 621px) {
+  .aw-filter.phrase,
+  .aw-item.phrase .aw-row {
+    grid-template-columns: 40px minmax(220px, 2fr) minmax(180px, 1.5fr) minmax(110px, 0.8fr) 130px 76px;
+  }
+}
+
 /* ヘッダー兼フィルター行（各列の入力そのものが見出し） */
 .aw-filter {
   padding-top: 8px;

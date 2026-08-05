@@ -142,7 +142,7 @@ export function AllWords({
     <div className="allwords-scroll">
       <div className="allwords">
         {/* ヘッダーとフィルターを1行に統合：各列のフィルター自体が見出し（列名＝プレースホルダー） */}
-        <div className="aw-filter">
+        <div className={`aw-filter${isPhrase ? ' phrase' : ''}`}>
           <span className="aw-filter-count" title={anyFilter ? t.matchingWords : undefined}>
             {anyFilter ? filtered.length : '#'}
           </span>
@@ -187,7 +187,7 @@ export function AllWords({
                   key={c.id}
                   data-index={item.index}
                   ref={rowVirtualizer.measureElement}
-                  className={`aw-item${isOpen ? ' open' : ''}${isLast ? ' last' : ''}`}
+                  className={`aw-item${isOpen ? ' open' : ''}${isLast ? ' last' : ''}${isPhrase ? ' phrase' : ''}`}
                   style={{
                     position: 'absolute',
                     top: 0,
