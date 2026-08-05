@@ -141,6 +141,12 @@ export interface UIStrings {
   restoreOfferTitle: string
   restoreOfferBody: (n: number) => string
   restoreOfferEpochWarning: string
+  /** 復元でこの端末の記録が減るときの警告（lost = 消える語数） */
+  restoreOfferLossWarning: (lost: number) => string
+  /** その内訳1行（コース名・この端末の語数・サーバーの語数） */
+  restoreOfferLossCourse: (title: string, local: number, snapshot: number) => string
+  /** 記録が減る場合の確認ダイアログ（通常の restoreConfirmDialog の代わりに出す） */
+  restoreConfirmLossDialog: (lost: number) => string
   restoreOfferAction: string
   restoreOfferLoading: string
   restoreOfferDismiss: string

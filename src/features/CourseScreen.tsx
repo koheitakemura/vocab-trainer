@@ -342,7 +342,9 @@ export function CourseScreen({
 
   const handleRestoreOfferConfirm = useCallback(async () => {
     if (restoring) return
-    if (!window.confirm(t.restoreConfirmDialog)) return
+    // 記録が減る復元は、消える語数を数字で見せてから確認する（全置換なので黙って消える）
+    const lost = restoreCheck?.kind === 'offer' ? restoreCheck.lostRows : 0
+    if (!window.confirm(lost > 0 ? t.restoreConfirmLossDialog(lost) : t.restoreConfirmDialog)) return
     setRestoring(true)
     try {
       const n = await confirmOfferedRestore()
@@ -351,7 +353,7 @@ export function CourseScreen({
     } finally {
       setRestoring(false)
     }
-  }, [restoring, t, refreshAfterFullReplace])
+  }, [restoring, restoreCheck, t, refreshAfterFullReplace])
 
   const dismissRestoreOffer = useCallback(() => setRestoreCheck(null), [])
 
@@ -591,11 +593,31 @@ export function CourseScreen({
         {/* サーバーに新しい記録がある（＝ローカルに何かある状態での復元提案）。
             自動復元は絶対にしない——上書きされる既存データが実在するため必ず確認を挟む。 */}
         {restoreCheck?.kind === 'offer' && (
-          <div className="stale-epoch restore-offer" role="alert">
+          <div className={`stale-epoch restore-offer${restoreCheck.lostRows > 0 ? ' has-loss' : ''}`} role="alert">
             <div className="stale-epoch-text">
               <strong>{t.restoreOfferTitle}</strong>
               <p>{t.restoreOfferBody(restoreCheck.totalRows)}</p>
               {restoreCheck.epochMismatch && <p className="hint">{t.restoreOfferEpochWarning}</p>}
+              {/* 復元は全置換。サーバーの方が記録が少ないと、その差はここで消える——
+                  端末どうしは丸ごと上書きし合う（最後に送った端末が勝つ）ので、
+                  「サーバーの方が新しい」＝「サーバーの方が進んでいる」とは限らない。
+                  押す前に数字で見えるようにしておく。 */}
+              {restoreCheck.lostRows > 0 && (
+                <div className="restore-offer-loss">
+                  <p className="restore-offer-loss-head">{t.restoreOfferLossWarning(restoreCheck.lostRows)}</p>
+                  <ul>
+                    {restoreCheck.shrinking.map((s) => (
+                      <li key={s.courseId}>
+                        {t.restoreOfferLossCourse(
+                          allCourses.find((c) => c.id === s.courseId)?.title ?? s.courseId,
+                          s.local,
+                          s.snapshot,
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
             <div className="stale-epoch-actions">
               {/* 押した瞬間に文言を変える。取り込み（数千行の書き換え）は端末によっては

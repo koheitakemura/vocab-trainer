@@ -110,6 +110,11 @@ export const en: UIStrings = {
   restoreOfferBody: (n) => `Another device saved a record (${n} words). Loading it will replace what's on this device.`,
   restoreOfferEpochWarning:
     "This course's word IDs were rebuilt, so restoring may attach your record to different words.",
+  restoreOfferLossWarning: (lost) => `⚠ ${lost} words are recorded only on this device. Loading will erase them.`,
+  restoreOfferLossCourse: (title, local, snapshot) => `${title}: ${local} words here → ${snapshot} on the server`,
+  restoreConfirmLossDialog: (lost) =>
+    `${lost} words recorded only on this device will be erased. Replace them with the server's copy? ` +
+    '(You can undo this once, right after, from the footer.)',
   restoreOfferAction: 'Load it',
   restoreOfferLoading: 'Loading…',
   restoreOfferDismiss: 'Not now',
