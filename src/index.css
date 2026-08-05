@@ -1863,6 +1863,28 @@ select option {
   color: var(--text-faint);
 }
 
+/* フレーズコース専用の音声再生ボタン（端末にタガログ語音声がある場合だけ表示）。
+   .tile-reading の inline に置くので line-height 1 の丸ボタンにして行の高さを乱さない。 */
+.tile-speak {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  background: var(--surface-2);
+  color: var(--accent);
+  font-size: 11px;
+  line-height: 1;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.tile-speak:hover {
+  background: color-mix(in srgb, var(--accent) 18%, var(--surface-2));
+}
+
 .tile-hint {
   font-size: 11px;
   color: var(--text-faint);
@@ -3093,6 +3115,27 @@ select option {
 
 .focus-ipa {
   color: var(--text-faint);
+}
+
+/* フレーズコース専用の音声再生ボタン（FocusSheet版。指で押しやすいよう .tile-speak より一回り大きく）。 */
+.focus-speak {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: var(--surface-2);
+  color: var(--accent);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.focus-speak:hover {
+  background: color-mix(in srgb, var(--accent) 18%, var(--surface-2));
 }
 
 .focus-gloss {

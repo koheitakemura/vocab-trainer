@@ -151,6 +151,9 @@ export const ja: UIStrings = {
   // 語根表示
   rootLabel: '語根',
 
+  // 音声読み上げ
+  playAudio: '発音を再生',
+
   // 文脈クローズ
   clozeBadge: '穴埋め',
 

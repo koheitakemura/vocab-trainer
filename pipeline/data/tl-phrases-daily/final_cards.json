@@ -1,9 +1,9 @@
 [
  {
   "slotId": "greetings-01",
-  "headword": "Magandang umaga! Kumusta na kayo?",
-  "reading": "Magandang umaga! Kumusta na kayó?",
-  "gloss": "おはよう!みんな元気?(毎日顔を合わせる同僚への親しみを込めた朝の挨拶)",
+  "headword": "Magandang umaga, kumusta na kayo?",
+  "reading": "Magandang umaga, kumusta na kayó?",
+  "gloss": "おはよう、元気?(毎日顔を合わせる同僚への親しみを込めた朝の挨拶)",
   "pos": "挨拶(朝・カジュアル)",
   "root": "maganda(良い)+umaga(朝) / kumusta(元気?)+na(もう)+kayo(あなたたち)",
   "examples": [
@@ -12,8 +12,8 @@
     "translation": "元気だよ!あなたは?"
    },
    {
-    "text": "Magandang umaga po sa inyong lahat.",
-    "translation": "皆様、おはようございます(丁寧バージョン)"
+    "text": "Magandang umaga po. Mabuti naman po.",
+    "translation": "おはようございます。元気です(丁寧バージョン)"
    }
   ]
  },
@@ -37,83 +37,83 @@
  },
  {
   "slotId": "greetings-03",
-  "headword": "Magandang araw po. Ako po si Kohei, mula sa HR.",
-  "reading": "Magandang araw po. Akó po si Kohei, mula sa HR.",
-  "gloss": "こんにちは。HR部門のコウヘイと申します(初対面の丁寧な自己紹介)",
+  "headword": "Ako po si Kohei, mula sa HR.",
+  "reading": "Akó po si Kohei, mula sa HR.",
+  "gloss": "HR部門のコウヘイと申します(初対面の丁寧な自己紹介)",
   "pos": "自己紹介(初対面・丁寧)",
-  "root": "maganda(良い)+araw(日) / ako(私)+si(人名マーカー)+mula sa(〜から)",
+  "root": "ako(私)+po(丁寧マーカー)+si(人名マーカー) / mula sa(〜から)",
   "examples": [
    {
-    "text": "Magandang araw din po. Ikinagagalak ko pong makilala kayo.",
-    "translation": "こんにちは。お会いできて光栄です"
+    "text": "Ikinagagalak ko pong makilala kayo.",
+    "translation": "お会いできて光栄です"
    },
    {
-    "text": "Uy, ako si Kohei, taga-HR.",
-    "translation": "こんにちは、HRのコウヘイです(カジュアルバージョン)"
+    "text": "Ako si Kohei, taga-HR.",
+    "translation": "HRのコウヘイです(カジュアルバージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-04",
-  "headword": "Magandang umaga po. Ako po si Kohei mula sa HR, at ako po ang mag-i-interview sa inyo ngayon.",
-  "reading": "Magandang umaga po. Akó po si Kohei mula sa HR, at akó po ang mag-i-interview sa inyó ngayon.",
-  "gloss": "おはようございます。HR部門のコウヘイです。本日は私が面接を担当いたします(面接開始の自己紹介)",
+  "headword": "Ako po si Kohei mula sa HR, at ako po ang mag-i-interview sa inyo ngayon.",
+  "reading": "Akó po si Kohei mula sa HR, at akó po ang mag-i-interview sa inyó ngayon.",
+  "gloss": "HR部門のコウヘイです。本日は私が面接を担当いたします(面接開始の自己紹介)",
   "pos": "自己紹介(面接開始・丁寧)",
   "root": "mag-i-interview(面接する、未来形・タグリッシュ表現) / sa inyo(あなたたちに)+ngayon(今日)",
   "examples": [
    {
-    "text": "Magandang umaga rin po. Salamat po sa pagbibigay ng oras.",
-    "translation": "おはようございます。お時間をいただきありがとうございます"
+    "text": "Salamat po sa pagbibigay ng oras.",
+    "translation": "お時間をいただきありがとうございます"
    },
    {
-    "text": "Magandang umaga. Ako si Kohei mula sa HR, ako ang kakausap sa inyo ngayon.",
-    "translation": "おはようございます。HRのコウヘイです。本日担当します(ややくだけたバージョン)"
+    "text": "Ako si Kohei mula sa HR, ako ang kakausap sa inyo ngayon.",
+    "translation": "HRのコウヘイです。本日担当します(ややくだけたバージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-05",
-  "headword": "Uy, ang tagal na nating hindi nagkita! Kumusta ka na?",
-  "reading": "Uy, ang tagal na nating hindî nagkitá! Kumusta ka na?",
-  "gloss": "わあ、久しぶりだね!元気だった?(休暇から戻った同僚との再会を喜ぶ)",
+  "headword": "Uy, ang tagal na nating hindi nagkita!",
+  "reading": "Uy, ang tagal na nating hindî nagkitá!",
+  "gloss": "わあ、久しぶりだね!(休暇から戻った同僚との再会を喜ぶ)",
   "pos": "挨拶(久しぶり・カジュアル)",
-  "root": "tagal(長い時間)+hindi(〜ない)+nagkita(会った) / kumusta ka na(調子はどう)",
+  "root": "tagal(長い時間)+hindi(〜ない)+nagkita(会った)",
   "examples": [
    {
-    "text": "Grabe, oo nga! Ang tagal talaga. Ayos lang naman ako.",
-    "translation": "本当だね!すごく久しぶり。私は元気だよ"
+    "text": "Grabe, oo nga! Ayos lang naman ako.",
+    "translation": "本当だね!私は元気だよ"
    },
    {
-    "text": "Ang tagal na po nating hindi nagkita. Kumusta na po kayo?",
-    "translation": "お久しぶりです。お元気でしたか(丁寧バージョン)"
+    "text": "Ang tagal na po nating hindi nagkita.",
+    "translation": "お久しぶりです(丁寧バージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-06",
-  "headword": "Kumusta? Ano'ng bago sa'yo?",
-  "reading": "Kumusta? Ano'ng bago sa'yo?",
-  "gloss": "元気?最近どう?(親しい同僚への軽い雑談の切り出し)",
+  "headword": "Ano'ng bago sa'yo?",
+  "reading": "Ano'ng bago sa'yo?",
+  "gloss": "最近どう?(親しい同僚への軽い雑談の切り出し)",
   "pos": "雑談(近況を尋ねる・カジュアル)",
-  "root": "kumusta(元気?) / ano(何)+bago(新しい)+sa iyo(あなたに)",
+  "root": "ano(何)+bago(新しい)+sa iyo(あなたに)",
   "examples": [
    {
-    "text": "Ayos lang! Ikaw, kumusta?",
-    "translation": "元気だよ!あなたは?"
+    "text": "Wala masyado, ganito pa rin ako. Ikaw, may bago ba?",
+    "translation": "特にないよ、相変わらず。あなたは何かある?"
    },
    {
-    "text": "Kumusta po kayo? May bago po ba?",
-    "translation": "お元気ですか。何か変わったことはありますか(丁寧バージョン)"
+    "text": "May bago po ba sa inyo?",
+    "translation": "あなたの方で何か新しいことはありますか(丁寧バージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-07",
-  "headword": "Kumusta po kayo? Maayos naman po ba ang lahat?",
-  "reading": "Kumusta po kayó? Maayos naman po ba ang lahat?",
-  "gloss": "お元気ですか。すべて順調でしょうか(上司への丁寧な近況伺い)",
+  "headword": "Kumusta po kayo?",
+  "reading": "Kumusta po kayó?",
+  "gloss": "お元気ですか(上司への丁寧な近況伺い)",
   "pos": "挨拶(近況を尋ねる・丁寧)",
-  "root": "kumusta(元気)+kayo(あなた) / maayos(順調な)+ang lahat(すべて)",
+  "root": "kumusta(元気)+po(丁寧マーカー)+kayo(あなた)",
   "examples": [
    {
     "text": "Maayos naman, salamat. Ikaw, kumusta?",
@@ -145,37 +145,37 @@
  },
  {
   "slotId": "greetings-09",
-  "headword": "Ako si Kohei. Kohei ang pangalan ko.",
-  "reading": "Akó si Kohei. Kohei ang pangalan ko.",
-  "gloss": "私はコウヘイです。コウヘイという名前です(名前をはっきり伝える自己紹介)",
+  "headword": "Ako si Kohei.",
+  "reading": "Akó si Kohei.",
+  "gloss": "私はコウヘイです(名前をはっきり伝える自己紹介)",
   "pos": "自己紹介(名前を伝える・中立)",
-  "root": "ako(私)+si(人名マーカー) / ang pangalan ko(私の名前)",
+  "root": "ako(私)+si(人名マーカー)",
   "examples": [
    {
     "text": "Ah, Kohei. Ikinagagalak kitang makilala.",
     "translation": "あ、コウヘイさんですね。お会いできて嬉しいです"
    },
    {
-    "text": "Ako po si Kohei. Kohei po ang tawag sa akin.",
+    "text": "Ako po si Kohei.",
     "translation": "私はコウヘイと申します(丁寧バージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-10",
-  "headword": "Gusto ko kayong ipakilala sa isa't isa. Ito si Maria, at ito naman si Juan.",
-  "reading": "Gusto ko kayóng ipakilala sa isa't isa. Itó si Maria, at itó naman si Juan.",
-  "gloss": "お二人を紹介させてください。こちらがマリアさんで、こちらがフアンさんです(初対面の同僚同士を引き合わせる)",
+  "headword": "Ito si Maria, at ito naman si Juan.",
+  "reading": "Itó si Maria, at itó naman si Juan.",
+  "gloss": "こちらがマリアさんで、こちらがフアンさんです(初対面の同僚同士を引き合わせる)",
   "pos": "紹介(人を引き合わせる・中立)",
-  "root": "ipakilala(紹介する) / sa isa't isa(お互いに) / ito(この人)",
+  "root": "ito(この人)+si(人名マーカー) / naman(一方)",
   "examples": [
    {
     "text": "Ah, kumusta! Ikinagagalak kitang makilala.",
     "translation": "あ、はじめまして!お会いできて嬉しいです"
    },
    {
-    "text": "Nais ko po kayong ipakilala sa isa't isa.",
-    "translation": "お二人を紹介させていただきたく存じます(丁寧バージョン)"
+    "text": "Ito po si Maria, at ito po naman si Juan.",
+    "translation": "こちらがマリアさんで、こちらがフアンさんでございます(丁寧バージョン)"
    }
   ]
  },
@@ -199,11 +199,11 @@
  },
  {
   "slotId": "greetings-12",
-  "headword": "Magandang araw po. Papunta po ako sa paliparan.",
-  "reading": "Magandang araw po. Papunta po akó sa paliparan.",
-  "gloss": "こんにちは。空港へ向かっています(タクシー乗車時の挨拶と行き先を伝える一言)",
+  "headword": "Magandang araw po, papunta po ako sa paliparan.",
+  "reading": "Magandang araw po, papunta po akó sa paliparan.",
+  "gloss": "こんにちは、空港へ向かっています(タクシー乗車時の挨拶と行き先を伝える一言)",
   "pos": "挨拶+行き先伝達(乗車時・中立)",
-  "root": "papunta(向かっている) / paliparan(空港)",
+  "root": "maganda(良い)+araw(日) / papunta(向かっている)+paliparan(空港)",
   "examples": [
    {
     "text": "Sige po, sandali lang.",
@@ -235,9 +235,9 @@
  },
  {
   "slotId": "greetings-14",
-  "headword": "Sige, una na ako. Kita tayo bukas!",
-  "reading": "Sige, una na akó. Kitá tayo bukas!",
-  "gloss": "じゃあ、お先に失礼するね。また明日!(退勤時の同僚へのカジュアルな挨拶)",
+  "headword": "Sige, una na ako, kita tayo bukas!",
+  "reading": "Sige, una na akó, kitá tayo bukas!",
+  "gloss": "じゃあ、お先に失礼するね、また明日!(退勤時の同僚へのカジュアルな挨拶)",
   "pos": "別れの挨拶(退勤・カジュアル)",
   "root": "una(先に) / kita tayo(会おう)+bukas(明日)",
   "examples": [
@@ -253,27 +253,27 @@
  },
  {
   "slotId": "greetings-15",
-  "headword": "Mauuna na po ako. Magandang gabi po.",
-  "reading": "Mauuna na po akó. Magandang gabí po.",
-  "gloss": "お先に失礼します。おやすみなさい(上司への丁寧な退勤の挨拶)",
+  "headword": "Mauuna na po ako.",
+  "reading": "Mauuna na po akó.",
+  "gloss": "お先に失礼します(上司への丁寧な退勤の挨拶)",
   "pos": "別れの挨拶(退勤・丁寧)",
-  "root": "mauuna(先に行く、未来形) / maganda+gabi(夜)",
+  "root": "mauuna(先に行く、未来形)+na(もう)+po(丁寧マーカー)",
   "examples": [
    {
     "text": "Sige, ingat ka sa pag-uwi.",
     "translation": "気をつけて帰ってね"
    },
    {
-    "text": "Una na ako. Magandang gabi!",
-    "translation": "お先に。おやすみ!(カジュアルバージョン)"
+    "text": "Una na ako.",
+    "translation": "お先に(カジュアルバージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-16",
-  "headword": "Magandang araw po. Si Kohei po ito.",
-  "reading": "Magandang araw po. Si Kohei po itó.",
-  "gloss": "こんにちは。コウヘイです(電話の第一声での丁寧な名乗り)",
+  "headword": "Si Kohei po ito.",
+  "reading": "Si Kohei po itó.",
+  "gloss": "コウヘイです(電話の第一声での丁寧な名乗り)",
   "pos": "挨拶(電話応対・丁寧)",
   "root": "si Kohei po ito(こちらコウヘイです)",
   "examples": [
@@ -289,9 +289,9 @@
  },
  {
   "slotId": "greetings-17",
-  "headword": "Magandang umaga sa inyong lahat. Magsisimula na tayo.",
-  "reading": "Magandang umaga sa inyong lahat. Magsisimula na tayó.",
-  "gloss": "皆さんおはようございます。それでは始めましょう(オンライン会議開始の合図)",
+  "headword": "Magandang umaga sa inyong lahat, magsisimula na tayo.",
+  "reading": "Magandang umaga sa inyong lahat, magsisimula na tayó.",
+  "gloss": "皆さんおはようございます、それでは始めましょう(オンライン会議開始の合図)",
   "pos": "挨拶+開始宣言(会議・中立)",
   "root": "sa inyong lahat(皆さんへ) / magsisimula(始める、未来形)+tayo(私たち)",
   "examples": [
@@ -300,18 +300,18 @@
     "translation": "おはようございます!準備できています"
    },
    {
-    "text": "Magandang umaga po sa inyong lahat. Puwede na po tayong magsimula.",
+    "text": "Magandang umaga po sa inyong lahat, puwede na po tayong magsimula.",
     "translation": "皆様、おはようございます。それでは始めさせていただきます(丁寧バージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-18",
-  "headword": "Magandang umaga po! Maligayang pagdating po sa unang araw ninyo dito sa amin.",
-  "reading": "Magandang umaga po! Maligayang pagdatíng po sa unang araw ninyo dito sa amin.",
-  "gloss": "おはようございます!ここでの初日にようこそ(新入社員初日への温かい歓迎)",
+  "headword": "Maligayang pagdating po sa amin!",
+  "reading": "Maligayang pagdatíng po sa amin!",
+  "gloss": "ようこそ!(新入社員初日への温かい歓迎)",
   "pos": "歓迎(初日・丁寧)",
-  "root": "maligayang pagdating(ようこそ) / sa unang araw(初日に)+ninyo(あなたの)",
+  "root": "maligaya(幸せな)+pagdating(到着) / sa amin(私たちのところへ)",
   "examples": [
    {
     "text": "Salamat po! Nasasabik po akong magsimula.",
@@ -379,9 +379,9 @@
  },
  {
   "slotId": "greetings-22",
-  "headword": "Uy, balik na! Kumusta ang bakasyon mo?",
-  "reading": "Uy, balik na! Kumusta ang bakasyon mo?",
-  "gloss": "おかえり!休暇はどうだった?(休暇から復帰した同僚への歓迎)",
+  "headword": "Uy, balik na, kumusta ang bakasyon mo?",
+  "reading": "Uy, balik na, kumusta ang bakasyon mo?",
+  "gloss": "おかえり、休暇はどうだった?(休暇から復帰した同僚への歓迎)",
   "pos": "挨拶(休暇明け・カジュアル)",
   "root": "balik(戻る)+na(もう) / kumusta ang bakasyon mo(休暇どうだった)",
   "examples": [
@@ -390,26 +390,26 @@
     "translation": "楽しかったよ!本当にゆっくりできた"
    },
    {
-    "text": "Maligayang pagbabalik po! Kumusta po ang inyong bakasyon?",
-    "translation": "お帰りなさい。休暇はいかがでしたか(丁寧バージョン)"
+    "text": "Maligayang pagbabalik po, kumusta po ang inyong bakasyon?",
+    "translation": "お帰りなさい、休暇はいかがでしたか(丁寧バージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-23",
-  "headword": "Maligayang kaarawan! Sana lahat ng hiling mo ay matupad.",
-  "reading": "Maligayang kaarawan! Sana lahat ng hiling mo ay matupád.",
-  "gloss": "誕生日おめでとう!願い事が全部叶いますように(同僚の誕生日祝い)",
+  "headword": "Maligayang kaarawan, sana lahat ng hiling mo ay matupad!",
+  "reading": "Maligayang kaarawan, sana lahat ng hiling mo ay matupád!",
+  "gloss": "誕生日おめでとう、願い事が全部叶いますように!(同僚の誕生日祝い)",
   "pos": "祝いの言葉(誕生日・カジュアル)",
-  "root": "maligaya(幸せな)+kaarawan(誕生日) / hiling(願い)+matupad(叶う)",
+  "root": "maligaya(幸せな)+kaarawan(誕生日) / sana(〜であってほしい)+hiling(願い)+matupad(叶う)",
   "examples": [
    {
     "text": "Salamat! Ang bait mo naman.",
     "translation": "ありがとう!優しいね"
    },
    {
-    "text": "Maligayang kaarawan po! Sana po ay masaya ang araw ninyo.",
-    "translation": "お誕生日おめでとうございます。良い一日になりますように(丁寧バージョン)"
+    "text": "Maligayang kaarawan po, sana po ay masaya ang araw ninyo!",
+    "translation": "お誕生日おめでとうございます、良い一日になりますように(丁寧バージョン)"
    }
   ]
  },
@@ -487,9 +487,9 @@
  },
  {
   "slotId": "greetings-28",
-  "headword": "Sa wakas, Biyernes na rin! Magandang Sabado't Linggo sa inyo!",
-  "reading": "Sa wakas, Biyernes na rin! Magandang Sabado't Linggo sa inyó!",
-  "gloss": "やっと金曜日だ!良い週末を!(金曜終業前のチームへの声かけ)",
+  "headword": "Sa wakas, Biyernes na rin, magandang Sabado't Linggo sa inyo!",
+  "reading": "Sa wakas, Biyernes na rin, magandang Sabado't Linggo sa inyó!",
+  "gloss": "やっと金曜日だ、良い週末を!(金曜終業前のチームへの声かけ)",
   "pos": "挨拶(金曜日・カジュアル)",
   "root": "sa wakas(ついに)+Biyernes(金曜日) / maganda+Sabado't Linggo(土日)",
   "examples": [
@@ -498,21 +498,21 @@
     "translation": "本当だね!あなたも良い週末を!"
    },
    {
-    "text": "Magandang Biyernes po sa inyong lahat. Magandang Sabado't Linggo po!",
-    "translation": "皆様、良い金曜日を。良い週末をお過ごしください(丁寧バージョン)"
+    "text": "Magandang Biyernes po sa inyong lahat, magandang Sabado't Linggo po!",
+    "translation": "皆様、良い金曜日を、良い週末をお過ごしください(丁寧バージョン)"
    }
   ]
  },
  {
   "slotId": "greetings-29",
-  "headword": "Magandang umaga po. Maligayang pagdating po sa aming opisina.",
-  "reading": "Magandang umaga po. Maligayang pagdatíng po sa aming opisina.",
-  "gloss": "おはようございます。私たちのオフィスへようこそ(クライアントを丁寧に迎える挨拶)",
+  "headword": "Maligayang pagdating po sa aming opisina.",
+  "reading": "Maligayang pagdatíng po sa aming opisina.",
+  "gloss": "私たちのオフィスへようこそ(クライアントを丁寧に迎える挨拶)",
   "pos": "挨拶(来客対応・丁寧)",
   "root": "maligayang pagdating(ようこそ) / sa aming opisina(私たちのオフィスへ)",
   "examples": [
    {
-    "text": "Magandang umaga rin po. Salamat po sa mainit na pagtanggap.",
+    "text": "Magandang umaga din po. Salamat po sa mainit na pagtanggap.",
     "translation": "おはようございます。温かい歓迎をありがとうございます"
    },
    {
@@ -541,37 +541,37 @@
  },
  {
   "slotId": "greetings-31",
-  "headword": "Magandang umaga po sa inyong lahat. Ako po si Kohei, mula po sa HR Department, at ako po ang bagong HR Manager dito sa kumpanya.",
-  "reading": "Magandáng umága pô sa inyóng lahát. Akó pô si Kohei, mulâ pô sa HR Department, at akó pô ang bágong HR Manager díto sa kumpanyá.",
-  "gloss": "皆様、おはようございます。私はコウヘイと申します、HR部門所属で、この会社の新しいHRマネージャーです。（会議・オリエンテーションでの自己紹介）",
-  "pos": "自己紹介（部署・役職）",
-  "root": "magandang umaga=おはよう / ako=私 / mula sa=〜から / bago=新しい / kumpanya=会社",
+  "headword": "Ako po si Kohei, mula po sa HR Department, at ako po ang bagong HR Manager dito sa kumpanya.",
+  "reading": "Akó pô si Kohei, mulâ pô sa HR Department, at akó pô ang bágong HR Manager díto sa kumpanyá.",
+  "gloss": "私はコウヘイと申します、HR部門所属で、この会社の新しいHRマネージャーです(会議・オリエンテーションでの自己紹介)",
+  "pos": "自己紹介(部署・役職)",
+  "root": "ako=私 / mula sa=〜から / bago=新しい / kumpanya=会社",
   "examples": [
    {
-    "text": "Magandang umaga rin po, Sir Kohei! Malugod po namin kayong tinatanggap dito.",
-    "translation": "おはようございます、コウヘイさん！心より歓迎いたします。"
+    "text": "Malugod po namin kayong tinatanggap dito, Sir Kohei.",
+    "translation": "心より歓迎いたします、コウヘイさん。"
    },
    {
     "text": "Hi, guys! Ako si Kohei, taga-HR, bagong manager dito.",
-    "translation": "やあ、みんな！コウヘイです、HR所属で、ここの新しいマネージャーです。（カジュアル言い換え）"
+    "translation": "やあ、みんな!コウヘイです、HR所属で、ここの新しいマネージャーです(カジュアル言い換え)"
    }
   ]
  },
  {
   "slotId": "greetings-32",
-  "headword": "Mabuti naman, salamat! Ikaw, kumusta ka?",
-  "reading": "Mabúti namán, salámat! Ikáw, kumustá ka?",
-  "gloss": "元気だよ、ありがとう！君はどう？（先に挨拶されたときの自然な返し）",
+  "headword": "Mabuti naman, salamat, ikaw, kumusta ka?",
+  "reading": "Mabúti namán, salámat, ikáw, kumustá ka?",
+  "gloss": "元気だよ、ありがとう、君はどう?(先に挨拶されたときの自然な返し)",
   "pos": "挨拶を返す",
-  "root": "mabuti=良い/元気 / salamat=ありがとう / kumusta=元気？（調子は？）",
+  "root": "mabuti=良い/元気 / salamat=ありがとう / kumusta=元気?(調子は?)",
   "examples": [
    {
     "text": "Mabuti rin! Ayos lang din ang lahat dito.",
-    "translation": "僕も元気だよ！こっちも順調。"
+    "translation": "僕も元気だよ!こっちも順調。"
    },
    {
     "text": "Okay lang ako, salamat! Ikaw, kamusta ka naman?",
-    "translation": "元気だよ、ありがとう！そっちはどう？（カジュアル言い換え）"
+    "translation": "元気だよ、ありがとう!そっちはどう?(カジュアル言い換え)"
    }
   ]
  },
@@ -595,11 +595,11 @@
  },
  {
   "slotId": "greetings-34",
-  "headword": "Ayos lang po ba kayo? Medyo maputla po yata kayo ngayon.",
-  "reading": "Áyos lang pô ba kayó? Médyo maputlâ pô yatâ kayó ngayón.",
-  "gloss": "大丈夫ですか？今日は少し顔色が悪いようですが。（体調をさりげなく気遣う）",
-  "pos": "様子を気遣う（体調）",
-  "root": "ayos=大丈夫 / maputla=顔色が悪い（青白い） / yata=〜のようだ",
+  "headword": "Medyo maputla po yata kayo ngayon, ayos lang po ba kayo?",
+  "reading": "Médyo maputlâ pô yatâ kayó ngayón, áyos lang pô ba kayó?",
+  "gloss": "今日は少し顔色が悪いようですが、大丈夫ですか?(体調をさりげなく気遣う)",
+  "pos": "様子を気遣う(体調)",
+  "root": "maputla=顔色が悪い(青白い) / yata=〜のようだ / ayos=大丈夫",
   "examples": [
    {
     "text": "Ay, medyo hindi lang po ako masyadong maayos ngayon, pero okay lang po.",
@@ -607,7 +607,7 @@
    },
    {
     "text": "Sigurado ka bang okay ka lang? Mukha kang di maganda ang pakiramdam.",
-    "translation": "本当に大丈夫？体調悪そうに見えるけど。（カジュアル言い換え）"
+    "translation": "本当に大丈夫?体調悪そうに見えるけど。(カジュアル言い換え)"
    }
   ]
  },
@@ -667,11 +667,11 @@
  },
  {
   "slotId": "greetings-38",
-  "headword": "Maraming salamat po sa oras ninyo ngayon. Mag-ingat po kayo sa pag-uwi.",
-  "reading": "Marámíng salámat pô sa óras ninyó ngayón. Mag-ingát pô kayó sa pag-uwî.",
-  "gloss": "本日はお時間をいただきありがとうございました。お気をつけてお帰りください。（面接終了時のねぎらい）",
-  "pos": "挨拶（面接終了）",
-  "root": "maraming salamat=ありがとうございます / oras=時間 / mag-ingat=気をつける",
+  "headword": "Maraming salamat po sa oras ninyo ngayon.",
+  "reading": "Marámíng salámat pô sa óras ninyó ngayón.",
+  "gloss": "本日はお時間をいただきありがとうございました(面接終了時のねぎらい)",
+  "pos": "挨拶(面接終了)",
+  "root": "maraming salamat=ありがとうございます / oras=時間",
   "examples": [
    {
     "text": "Salamat din po, Sir. Aabangan ko po ang update ninyo.",
@@ -679,53 +679,53 @@
    },
    {
     "text": "Salamat sa oras mo ngayon, ingat sa pag-uwi.",
-    "translation": "今日は時間をありがとう、気をつけて帰ってね。（カジュアル言い換え）"
+    "translation": "今日は時間をありがとう、気をつけて帰ってね。(カジュアル言い換え)"
    }
   ]
  },
  {
   "slotId": "greetings-39",
-  "headword": "Kumusta, Kuya! Ang init naman ngayon, ano?",
-  "reading": "Kumustá, Kúya! Ang inít namán ngayón, anò?",
-  "gloss": "こんにちは、兄さん！今日は暑いね。（顔なじみの警備員への軽い挨拶）",
-  "pos": "挨拶（顔なじみ）",
-  "root": "kumusta=こんにちは / kuya=お兄さん（呼びかけ） / init=暑い",
+  "headword": "Kumusta, Kuya, ang init naman ngayon, ano?",
+  "reading": "Kumustá, Kúya, ang inít namán ngayón, anò?",
+  "gloss": "こんにちは、兄さん、今日は暑いね(顔なじみの警備員への軽い挨拶)",
+  "pos": "挨拶(顔なじみ)",
+  "root": "kumusta=こんにちは / kuya=お兄さん(呼びかけ) / init=暑い",
   "examples": [
    {
     "text": "Oo nga po, Sir! Mag-ingat po kayo sa init.",
-    "translation": "そうですね！暑さに気をつけてくださいね。"
+    "translation": "そうですね!暑さに気をつけてくださいね。"
    },
    {
     "text": "Uy Kuya, mainit talaga ngayon ah.",
-    "translation": "やあ兄さん、今日は本当に暑いね。（言い換え）"
+    "translation": "やあ兄さん、今日は本当に暑いね。(言い換え)"
    }
   ]
  },
  {
   "slotId": "greetings-40",
-  "headword": "Uy, ikaw pala 'to! Anong ginagawa mo dito?",
-  "reading": "Uy, ikáw palâ 'to! Anóng ginagawâ mo díto?",
-  "gloss": "あれ、君だったのか！ここで何してるの？（偶然の再会に驚きと親しみを込めて）",
-  "pos": "挨拶（偶然の再会）",
+  "headword": "Uy, ikaw pala 'to, anong ginagawa mo dito?",
+  "reading": "Uy, ikáw palâ 'to, anóng ginagawâ mo díto?",
+  "gloss": "あれ、君だったのか、ここで何してるの?(偶然の再会に驚きと親しみを込めて)",
+  "pos": "挨拶(偶然の再会)",
   "root": "ikaw pala=なんだ君か / anong ginagawa=何をしているの",
   "examples": [
    {
     "text": "Uy, ikaw rin! Namimili lang ako dito.",
-    "translation": "あ、君もか！ここでちょっと買い物してたんだ。"
+    "translation": "あ、君もか!ここでちょっと買い物してたんだ。"
    },
    {
     "text": "Ay, nandito ka rin pala! Bumibili ka ba ng kung ano-ano?",
-    "translation": "あ、君もいたんだ！何か買ってるの？（言い換え）"
+    "translation": "あ、君もいたんだ!何か買ってるの?(言い換え)"
    }
   ]
  },
  {
   "slotId": "greetings-41",
-  "headword": "Salamat po sa tawag. Mag-ingat po kayo, paalam po.",
-  "reading": "Salámat pô sa táwag. Mag-ingát pô kayó, paalám pô.",
-  "gloss": "お電話ありがとうございました。お気をつけて、失礼いたします。（電話終了時の挨拶）",
-  "pos": "挨拶（電話終了）",
-  "root": "salamat=ありがとう / tawag=電話 / paalam=さようなら",
+  "headword": "Mag-ingat po kayo, paalam po.",
+  "reading": "Mag-ingát pô kayó, paalám pô.",
+  "gloss": "お気をつけて、失礼いたします(電話終了時の挨拶)",
+  "pos": "挨拶(電話終了)",
+  "root": "mag-ingat=気をつける / paalam=さようなら",
   "examples": [
    {
     "text": "Salamat din po, Sir Kohei. Ingat po kayo, paalam.",
@@ -733,25 +733,25 @@
    },
    {
     "text": "Okay, salamat sa tawag, ingat ka, sige na!",
-    "translation": "じゃあ、電話ありがとう、気をつけてね、またね！（カジュアル言い換え）"
+    "translation": "じゃあ、電話ありがとう、気をつけてね、またね!(カジュアル言い換え)"
    }
   ]
  },
  {
   "slotId": "greetings-42",
-  "headword": "Magandang umaga sa inyong lahat! Simulan na natin ang araw.",
-  "reading": "Magandáng umága sa inyóng lahát! Simulán na nátin ang áraw.",
-  "gloss": "皆さん、おはようございます！さあ、一日を始めましょう。（朝礼冒頭の挨拶）",
-  "pos": "挨拶（朝礼）",
+  "headword": "Magandang umaga sa inyong lahat, simulan na natin ang araw!",
+  "reading": "Magandáng umága sa inyóng lahát, simulán na nátin ang áraw!",
+  "gloss": "皆さん、おはようございます、さあ一日を始めましょう(朝礼冒頭の挨拶)",
+  "pos": "挨拶(朝礼)",
   "root": "magandang umaga=おはよう / simulan=始める / araw=一日",
   "examples": [
    {
     "text": "Magandang umaga rin! Handa na kaming makinig.",
-    "translation": "おはようございます！お話を伺う準備はできています。"
+    "translation": "おはようございます!お話を伺う準備はできています。"
    },
    {
     "text": "Umaga, mga bes! Simulan na natin 'to.",
-    "translation": "おはよう、みんな！さあ始めよう。（カジュアル言い換え）"
+    "translation": "おはよう、みんな!さあ始めよう。(カジュアル言い換え)"
    }
   ]
  },
@@ -775,37 +775,37 @@
  },
  {
   "slotId": "greetings-44",
-  "headword": "Uy, nandito na ulit ako! Sabik na sabik akong makasama kayong muli!",
-  "reading": "Uy, nandíto na ulít akó! Sabík na sabík akóng makasáma kayóng mulî!",
-  "gloss": "やあ、また戻ってきたよ！みんなにまた会えて嬉しいよ！（出張明けの出社挨拶）",
-  "pos": "挨拶（出張明け）",
+  "headword": "Uy, nandito na ulit ako, sabik na sabik akong makasama kayong muli!",
+  "reading": "Uy, nandíto na ulít akó, sabík na sabík akóng makasáma kayóng mulî!",
+  "gloss": "やあ、また戻ってきたよ、みんなにまた会えて嬉しいよ!(出張明けの出社挨拶)",
+  "pos": "挨拶(出張明け)",
   "root": "nandito=ここにいる / ulit=再び / sabik=待ち望んでいる",
   "examples": [
    {
     "text": "Uy, balik na pala! Kamusta ang biyahe mo?",
-    "translation": "あ、戻ってきたんだ！出張はどうだった？"
+    "translation": "あ、戻ってきたんだ!出張はどうだった?"
    },
    {
     "text": "Nandito na po ako ulit, masaya po akong makasama kayong muli.",
-    "translation": "また戻って参りました、皆さんとまたご一緒できて嬉しいです。（丁寧言い換え）"
+    "translation": "また戻って参りました、皆さんとまたご一緒できて嬉しいです。(丁寧言い換え)"
    }
   ]
  },
  {
   "slotId": "greetings-45",
-  "headword": "Sige, una na ako. Ingat kayo sa pauwi, magandang gabi!",
-  "reading": "Sígè, úna na akó. Íngat kayó sa paúwî, magandáng gabí!",
-  "gloss": "じゃあ、お先に。気をつけて帰ってね、おやすみ！（夜遅くの別れの挨拶）",
-  "pos": "別れの挨拶（夜）",
-  "root": "una=先に / ingat=気をつけて / magandang gabi=おやすみなさい",
+  "headword": "Ingat kayo sa pauwi, magandang gabi!",
+  "reading": "Íngat kayó sa paúwî, magandáng gabí!",
+  "gloss": "気をつけて帰ってね、おやすみ!(夜遅くの別れの挨拶)",
+  "pos": "別れの挨拶(夜)",
+  "root": "ingat=気をつけて / magandang gabi=おやすみなさい",
   "examples": [
    {
     "text": "Sige, ingat ka rin! Magkita na lang tayo ulit sa Lunes.",
-    "translation": "うん、君も気をつけてね！また月曜日に会おう。"
+    "translation": "うん、君も気をつけてね!また月曜日に会おう。"
    },
    {
     "text": "Aalis na po ako, mag-ingat po kayo, magandang gabi po.",
-    "translation": "私はこれで失礼します、お気をつけて、おやすみなさい。（丁寧言い換え）"
+    "translation": "私はこれで失礼します、お気をつけて、おやすみなさい。(丁寧言い換え)"
    }
   ]
  },
@@ -847,29 +847,29 @@
  },
  {
   "slotId": "emotions-03",
-  "headword": "Talaga?! Ang bilis naman, ang galing niyo!",
-  "reading": "Talagá?! Ang bilís namán, ang gáling ninyó!",
-  "gloss": "本当に？！早いね、すごいよ！（朗報への驚きと喜び）",
-  "pos": "驚き（朗報）",
-  "root": "talaga=本当に / bilis=速い / galing=上手/すごい",
+  "headword": "Ang bilis naman, ang galing niyo!",
+  "reading": "Ang bilís namán, ang gáling ninyó!",
+  "gloss": "早いね、すごいよ!(朗報への驚きと喜び)",
+  "pos": "驚き(朗報)",
+  "root": "bilis=速い / galing=上手/すごい",
   "examples": [
    {
     "text": "Oo, mas maaga pa sa inaasahan namin natapos, e!",
-    "translation": "うん、思ったより早く終わったんだよ！"
+    "translation": "うん、思ったより早く終わったんだよ!"
    },
    {
     "text": "Ang bilis naman pala nito, binabati ko po kayo!",
-    "translation": "これは本当に早いですね、おめでとうございます！（丁寧言い換え）"
+    "translation": "これは本当に早いですね、おめでとうございます!(丁寧言い換え)"
    }
   ]
  },
  {
   "slotId": "emotions-04",
-  "headword": "Ah, gano'n ba... Hindi ko inaasahan ito, pero salamat sa pagsasabi mo.",
-  "reading": "Ah, ganôn ba... Hindî ko inaásahan itó, pero salámat sa pagsasábi mo.",
-  "gloss": "ああ、そうなんだ…予想していなかったけど、話してくれてありがとう。（急な退職相談への率直な驚き）",
-  "pos": "驚き（衝撃）",
-  "root": "gano'n=そうなんだ / inaasahan=予期する / pagsasabi=話すこと",
+  "headword": "Hindi ko inaasahan ito, pero salamat sa pagsasabi mo.",
+  "reading": "Hindî ko inaásahan itó, pero salámat sa pagsasábi mo.",
+  "gloss": "予想していなかったけど、話してくれてありがとう(急な退職相談への率直な驚き)",
+  "pos": "驚き(衝撃)",
+  "root": "inaasahan=予期する / pagsasabi=話すこと",
   "examples": [
    {
     "text": "Opo, pasensya na po kung bigla, pero naisip ko na po talaga ito nang mabuti.",
@@ -877,15 +877,15 @@
    },
    {
     "text": "Nagulat po talaga ako, pero maraming salamat sa pagtitiwala niyong sabihin sa akin.",
-    "translation": "本当に驚きました、でも私を信頼して話してくれてありがとう。（丁寧言い換え）"
+    "translation": "本当に驚きました、でも私を信頼して話してくれてありがとう。(丁寧言い換え)"
    }
   ]
  },
  {
   "slotId": "emotions-05",
-  "headword": "Naku, alam ko 'yan! Grabe talaga ang trapik dito, nakakastress.",
-  "reading": "Nákù, alám ko 'yán! Grábe talagá ang trápik díto, nakakastress.",
-  "gloss": "うわー、わかるよ！ここの渋滞は本当にひどいよね、ストレスたまるよね。（渋滞の愚痴への共感）",
+  "headword": "Naku, alam ko 'yan, grabe talaga ang trapik dito!",
+  "reading": "Nákù, alám ko 'yán, grábe talagá ang trápik díto!",
+  "gloss": "うわー、わかるよ、ここの渋滞は本当にひどいよね。（渋滞の愚痴への共感）",
   "pos": "共感（愚痴）",
   "root": "alam ko=分かってるよ / grabe=すごい/ひどい / trapik=渋滞",
   "examples": [
@@ -919,11 +919,11 @@
  },
  {
   "slotId": "emotions-07",
-  "headword": "Wow, salamat sa pasalubong! Ang bait mo naman.",
-  "reading": "Wáw, salámat sa pasalúbong! Ang báit mo namán.",
-  "gloss": "わあ、お土産ありがとう！本当に優しいね。（パサルボンへの喜びとお礼）",
+  "headword": "Wow, salamat sa pasalubong!",
+  "reading": "Wáw, salámat sa pasalúbong!",
+  "gloss": "わあ、お土産ありがとう！（パサルボンへの喜びとお礼）",
   "pos": "感謝（お土産）",
-  "root": "salamat=ありがとう / pasalubong=お土産 / bait=優しさ",
+  "root": "salamat=ありがとう / pasalubong=お土産",
   "examples": [
    {
     "text": "Ay, wala 'yon! Gusto lang talaga kitang bigyan ng galing doon.",
@@ -973,11 +973,11 @@
  },
  {
   "slotId": "emotions-10",
-  "headword": "Ayos lang po ba kayo? Mukhang hindi po maganda ang pakiramdam ninyo.",
-  "reading": "Áyos lang pô ba kayó? Mukhâng hindî pô magandá ang pakiramdám ninyó.",
-  "gloss": "大丈夫ですか？体調があまり良くないようですが。（体調不良の心配）",
+  "headword": "Mukhang hindi po maganda ang pakiramdam ninyo, ayos lang po ba kayo?",
+  "reading": "Mukhâng hindî pô magandá ang pakiramdám ninyó, áyos lang pô ba kayó?",
+  "gloss": "顔色があまり良くないようですが、大丈夫ですか？（体調不良の心配）",
   "pos": "心配（体調）",
-  "root": "ayos=大丈夫 / mukhang=〜のようだ / pakiramdam=気分・体調",
+  "root": "mukhang=〜のようだ / pakiramdam=気分・体調 / ayos=大丈夫",
   "examples": [
    {
     "text": "Medyo masakit lang po ang ulo ko, pero okay lang po ako.",
@@ -1063,11 +1063,11 @@
  },
  {
   "slotId": "emotions-15",
-  "headword": "Kaya mo 'yan! Naniniwala ako sa'yo, galingan mo sa pagsusulit mo!",
-  "reading": "Kayâ mo 'yán! Naniniwálà akó sa'yó, gálingán mo sa pagsusúlit mo!",
-  "gloss": "君ならできる！信じてるよ、試験頑張ってね！（資格試験への応援）",
+  "headword": "Naniniwala ako sa'yo, galingan mo sa pagsusulit mo!",
+  "reading": "Naniniwálà akó sa'yó, gálingán mo sa pagsusúlit mo!",
+  "gloss": "信じてるよ、試験頑張ってね！（資格試験への応援）",
   "pos": "励まし（試験応援）",
-  "root": "kaya mo=できるよ / naniniwala=信じる / pagsusulit=試験",
+  "root": "naniniwala=信じる / pagsusulit=試験 / galingan=頑張る",
   "examples": [
    {
     "text": "Salamat, sir! Gagawin ko po ang buong makakaya ko diyan.",
@@ -1081,11 +1081,11 @@
  },
  {
   "slotId": "emotions-16",
-  "headword": "Ay, huwag mo nang isipin nang masyado 'yan. Lahat naman tayo nagkakamali. Kayâ mo 'to!",
-  "reading": "Ay, huwag mo nang isipín nang masyádo 'yan. Lahat namán tayo nagkakamali. Kayâ mo 'to!",
-  "gloss": "あぁ、そんなに気にしなくていいよ。誰だってミスはするもの。大丈夫、乗り越えられるよ！（落ち込む同僚を励ます・カジュアル）",
+  "headword": "Ay, huwag mo nang isipin nang masyado 'yan!",
+  "reading": "Ay, huwag mo nang isipín nang masyádo 'yan!",
+  "gloss": "あぁ、そんなに気にしなくていいよ。（落ち込む同僚を励ます・カジュアル）",
   "pos": "励まし",
-  "root": "huwag=するな、isipin=気にする、masyado=あまりに、lahat=全員、nagkakamali=間違える、kayâ mo=あなたにできる",
+  "root": "huwag=するな / isipin=気にする / masyado=あまりに",
   "examples": [
    {
     "text": "Salamat talaga. Medyo bad trip lang ako kanina eh.",
@@ -1099,11 +1099,11 @@
  },
  {
   "slotId": "emotions-17",
-  "headword": "Ang galing mo talaga, naabot mo ang iyong layunin. Ipinagmamalaki kita!",
-  "reading": "Ang galíng mo talagá, naabot mo ang iyóng layunin. Ipinagmamalaki kíta!",
-  "gloss": "本当によくやった、目標を達成したね。誇りに思うよ（目標達成を素直に称賛・中立）",
+  "headword": "Ang galing mo talaga, naabot mo ang iyong layunin!",
+  "reading": "Ang galíng mo talagá, naabot mo ang iyóng layunin!",
+  "gloss": "本当によくやった、目標を達成したね。（目標達成を素直に称賛・中立）",
   "pos": "称賛",
-  "root": "galing=すごさ、naabot=達成した、layunin=目標、ipinagmamalaki=誇りに思う",
+  "root": "galing=すごさ / naabot=達成した / layunin=目標",
   "examples": [
    {
     "text": "Salamat po! Dahil din po sa suporta n'yo.",
@@ -1135,11 +1135,11 @@
  },
  {
   "slotId": "emotions-19",
-  "headword": "Uy, ang cute naman ng anak mo! At may mataas pa palang marka sa eskwela, ang galing niya!",
-  "reading": "Uy, ang cute namán ng anák mo! At may mataás pa pálang marká sa eskwela, ang galíng niya!",
-  "gloss": "うわ、お子さん本当に可愛いね！しかも学校の成績もいいなんて、すごいね！（家族の写真・成績を褒める・カジュアル）",
+  "headword": "Uy, ang cute naman ng anak mo, at may mataas pa palang marka sa eskwela!",
+  "reading": "Uy, ang cute namán ng anák mo, at may mataás pa pálang marká sa eskwela!",
+  "gloss": "うわ、お子さん本当に可愛いね！しかも学校の成績もいいんだね！（家族の写真・成績を褒める・カジュアル）",
   "pos": "称賛",
-  "root": "cute=可愛い、anak=子供、mataas=高い、marka=成績、eskwela=学校、galing=すごさ",
+  "root": "cute=可愛い / anak=子供 / mataas=高い / marka=成績 / eskwela=学校",
   "examples": [
    {
     "text": "Salamat po! Masipag din po kasi siya mag-aral.",
@@ -1153,11 +1153,11 @@
  },
  {
   "slotId": "emotions-20",
-  "headword": "Sayang naman, nakansela ang pagtitipon natin dahil sa bagyo. Nakakalungkot talaga.",
-  "reading": "Sayang namán, nakansela ang pagtitipon natin dahil sa bagyo. Nakakalungkot talagá.",
-  "gloss": "残念だね、台風で懇親会が中止になっちゃった。本当に残念だよ（社内イベント中止への残念な気持ち・中立）",
+  "headword": "Sayang naman, nakansela ang pagtitipon natin dahil sa bagyo.",
+  "reading": "Sayang namán, nakansela ang pagtitipon natin dahil sa bagyo.",
+  "gloss": "残念だね、台風で懇親会が中止になっちゃった。（社内イベント中止への残念な気持ち・中立）",
   "pos": "残念",
-  "root": "sayang=惜しい、nakansela=中止になった、pagtitipon=集まり、bagyo=台風、nakakalungkot=悲しませる",
+  "root": "sayang=惜しい / nakansela=中止になった / pagtitipon=集まり / bagyo=台風",
   "examples": [
    {
     "text": "Oo nga, sana next time na lang ulit i-schedule.",
@@ -1207,11 +1207,11 @@
  },
  {
   "slotId": "emotions-23",
-  "headword": "Ay, salamat sa Diyos, ligtas kang nakarating! Medyo kinabahan din ako.",
-  "reading": "Ay, salamat sa Diyós, ligtás kang nakarating! Medyo kinabahán din ako.",
-  "gloss": "よかった、無事に着いたんだね！ちょっと心配してたよ（出張中スタッフの無事到着に安心・カジュアル）",
+  "headword": "Ay, salamat sa Diyos, ligtas kang nakarating!",
+  "reading": "Ay, salamat sa Diyós, ligtás kang nakarating!",
+  "gloss": "よかった、無事に着いたんだね！（出張中スタッフの無事到着に安心・カジュアル）",
   "pos": "安心",
-  "root": "salamat sa Diyos=神様に感謝、ligtas=無事、nakarating=到着した、kinabahan=不安になった",
+  "root": "salamat sa Diyos=神様に感謝 / ligtas=無事 / nakarating=到着した",
   "examples": [
    {
     "text": "Opo, ayos naman po ang biyahe. Kakarating ko lang.",
@@ -1225,11 +1225,11 @@
  },
  {
   "slotId": "emotions-24",
-  "headword": "Binabati ko po kayo sa inyong pagtaas ng ranggo! Karapat-dapat na karapat-dapat po ito, nakikita ko po naman talaga ang sipag ninyo.",
-  "reading": "Binabati ko po kayó sa inyóng pagtaas ng ranggó! Karapat-dápat na karapat-dápat po ito, nakikita ko po namán talagá ang sipag ninyo.",
-  "gloss": "昇進、おめでとうございます！これは本当にふさわしいことです、あなたの頑張りをちゃんと見ていましたよ（昇進祝い・丁寧）",
+  "headword": "Binabati ko po kayo sa inyong pagtaas ng ranggo!",
+  "reading": "Binabati ko po kayó sa inyóng pagtaas ng ranggó!",
+  "gloss": "昇進、おめでとうございます！（昇進祝い・丁寧）",
   "pos": "お祝い",
-  "root": "binabati=祝う、pagtaas ng ranggo=昇進、karapat-dapat=ふさわしい、sipag=勤勉さ",
+  "root": "binabati=祝う / pagtaas ng ranggo=昇進",
   "examples": [
    {
     "text": "Maraming salamat po, sir. Dahil din po ito sa patnubay n'yo.",
@@ -1243,11 +1243,11 @@
  },
  {
   "slotId": "emotions-25",
-  "headword": "Maligayang bati sa iyong kaarawan! Sana matupad lahat ng hiling mo ngayong taon.",
-  "reading": "Maligáyang batí sa iyóng kaarawán! Sana matupad lahat ng hilíng mo ngayóng taon.",
-  "gloss": "誕生日おめでとう！今年の願いが全部叶いますように（同僚の誕生日祝い・カジュアル）",
+  "headword": "Maligayang bati sa iyong kaarawan!",
+  "reading": "Maligáyang batí sa iyóng kaarawán!",
+  "gloss": "誕生日おめでとう！（同僚の誕生日祝い・カジュアル）",
   "pos": "お祝い",
-  "root": "maligayang bati=おめでとう、kaarawan=誕生日、matupad=叶う、hiling=願い",
+  "root": "maligayang bati=おめでとう / kaarawan=誕生日",
   "examples": [
    {
     "text": "Salamat! Ang sweet mo naman, di ko akalaing matatandaan mo pa.",
@@ -1261,11 +1261,11 @@
  },
  {
   "slotId": "emotions-26",
-  "headword": "Taos-puso po akong nakikipagsaya sa inyo. Maligayang bati po sa inyong kasal!",
-  "reading": "Taos-púso po akóng nakikipagsáya sa inyó. Maligáyang batí po sa inyóng kasal!",
-  "gloss": "心からお祝い申し上げます。ご結婚おめでとうございます！（結婚報告への祝福・丁寧）",
+  "headword": "Maligayang bati po sa inyong kasal!",
+  "reading": "Maligáyang batí po sa inyóng kasal!",
+  "gloss": "ご結婚おめでとうございます！（結婚報告への祝福・丁寧）",
   "pos": "お祝い",
-  "root": "taos-puso=心から、nakikipagsaya=喜びを共にする、maligayang bati=おめでとう、kasal=結婚",
+  "root": "maligayang bati=おめでとう / kasal=結婚",
   "examples": [
    {
     "text": "Maraming salamat po sa mabubuting hangarin n'yo, sir.",
@@ -1279,11 +1279,11 @@
  },
  {
   "slotId": "emotions-27",
-  "headword": "Maligayang bati po sa panganganak! Sana lagi pong malusog ang sanggol at ang ina.",
-  "reading": "Maligáyang batí po sa panganganák! Sana lagi pong malusog ang sanggol at ang iná.",
-  "gloss": "ご出産おめでとうございます！赤ちゃんもお母さんもいつも健康でありますように（出産祝い・丁寧）",
+  "headword": "Maligayang bati po sa panganganak!",
+  "reading": "Maligáyang batí po sa panganganák!",
+  "gloss": "ご出産おめでとうございます！（出産祝い・丁寧）",
   "pos": "お祝い",
-  "root": "panganganak=出産、sanggol=赤ちゃん、malusog=健康な、ina=母",
+  "root": "maligayang bati=おめでとう / panganganak=出産",
   "examples": [
    {
     "text": "Maraming salamat po sa magandang pagbati n'yo, sir.",
@@ -1333,11 +1333,11 @@
  },
  {
   "slotId": "emotions-30",
-  "headword": "Pasensya na po, hindi ko po masyadong nasundan. Puwede po bang ipaliwanag ninyo ulit nang mas simple?",
-  "reading": "Pasénsya na po, hindi ko po masyádong nasundán. Puwéde po bang ipaliwánag ninyó ulit nang mas simple?",
-  "gloss": "すみません、あまりよく理解できませんでした。もう少し分かりやすく、もう一度説明していただけますか？（複雑な説明が飲み込めず再説明を依頼・丁寧）",
+  "headword": "Pasensya na po, puwede po bang ipaliwanag ninyo ulit nang mas simple?",
+  "reading": "Pasénsya na po, puwéde po bang ipaliwánag ninyó ulit nang mas simple?",
+  "gloss": "すみません、もう少し分かりやすく、もう一度説明していただけますか？（複雑な説明が飲み込めず再説明を依頼・丁寧）",
   "pos": "困惑・依頼",
-  "root": "pasensya na=すみません、nasundan=ついていけた、ipaliwanag=説明する、ulit=もう一度、simple=簡単に",
+  "root": "pasensya na=すみません / puwede=できる / ipaliwanag=説明する / ulit=もう一度 / simple=簡単に",
   "examples": [
    {
     "text": "Ay, opo, walang problema. Ulitin ko po nang mas malinaw.",
@@ -1351,11 +1351,11 @@
  },
  {
   "slotId": "emotions-31",
-  "headword": "Medyo nagulat po ako sa desisyong iyon. Puwede ko bang malaman ang dahilan?",
-  "reading": "Medyo nagúlat po ako sa desisyóng iyon. Puwéde ko bang malaman ang dahilán?",
-  "gloss": "その決定にはちょっと驚きました。理由を伺ってもよろしいですか（予想外の人事決定への率直な戸惑いを上司に伝える・中立）",
+  "headword": "Medyo nagulat po ako sa desisyong iyon.",
+  "reading": "Medyo nagúlat po ako sa desisyóng iyon.",
+  "gloss": "その決定にはちょっと驚きました。（予想外の人事決定への率直な戸惑いを上司に伝える・中立）",
   "pos": "疑問・戸惑い",
-  "root": "nagulat=驚いた、desisyon=決定、puwede=できる、malaman=知る、dahilan=理由",
+  "root": "nagulat=驚いた / desisyon=決定",
   "examples": [
    {
     "text": "Naiintindihan ko ang pagtataka mo, ipapaliwanag ko sa 'yo mamaya.",
@@ -1405,11 +1405,11 @@
  },
  {
   "slotId": "emotions-34",
-  "headword": "Hahaha, ang sarap talaga makinig sa 'yo! Grabe ka, nakakatawa.",
-  "reading": "Hahaha, ang sarap talagá makiníg sa 'yo! Grábe ka, nakakatawa.",
-  "gloss": "はは、聞いてて楽しいなあ！まったく、面白いよ君（スタッフの冗談に笑って場を和ませる・カジュアル）",
+  "headword": "Hahaha, ang sarap talaga makinig sa 'yo!",
+  "reading": "Hahaha, ang sarap talagá makiníg sa 'yo!",
+  "gloss": "はは、聞いてて楽しいなあ！（スタッフの冗談に笑って場を和ませる・カジュアル）",
   "pos": "冗談への反応",
-  "root": "sarap=心地よさ、makinig=聞く、grabe=すごい、nakakatawa=面白い",
+  "root": "sarap=心地よさ / makinig=聞く",
   "examples": [
    {
     "text": "Ay, ang tagal ko ring naghanap ng birong iyan para sa 'yo!",
@@ -1423,11 +1423,11 @@
  },
  {
   "slotId": "emotions-35",
-  "headword": "Hoy, tama na nga! Kahit papaano, sinusubukan ko naman, di ba?",
-  "reading": "Hoy, tamá na nga! Kahít papáano, sinusúbukan ko namán, dí ba?",
-  "gloss": "もう、やめてよー！でも一応頑張って挑戦してるんだから、そうでしょ？（下手なタガログ語をからかわれ笑って軽く切り返す・カジュアル）",
+  "headword": "Hoy, tama na nga, kahit papaano sinusubukan ko naman, di ba?",
+  "reading": "Hoy, tamá na nga, kahít papáano sinusúbukan ko namán, dí ba?",
+  "gloss": "もう、やめてよー、でも一応頑張って挑戦してるんだから、そうでしょ？（下手なタガログ語をからかわれ笑って軽く切り返す・カジュアル）",
   "pos": "からかいへの返し",
-  "root": "tama na=もういい、kahit papaano=どうにかこうにか、sinusubukan=試みている",
+  "root": "tama na=もういい / kahit papaano=どうにかこうにか / sinusubukan=試みている",
   "examples": [
    {
     "text": "Hahaha, oo nga, sumusulong ka na talaga!",
@@ -1459,11 +1459,11 @@
  },
  {
   "slotId": "emotions-37",
-  "headword": "Grabe, sobrang pagod ko na ngayon. Ang haba talaga ng araw natin.",
-  "reading": "Grábe, sóbrang pagod ko na ngayón. Ang haba talagá ng áraw natin.",
-  "gloss": "はぁ、今日はもうすごく疲れたよ。本当に長い一日だったね（忙しい一日を終えた疲れを同僚にこぼす・カジュアル）",
+  "headword": "Grabe, sobrang pagod ko na ngayon.",
+  "reading": "Grábe, sóbrang pagod ko na ngayón.",
+  "gloss": "はぁ、今日はもうすごく疲れたよ。（忙しい一日を終えた疲れを同僚にこぼす・カジュアル）",
   "pos": "疲れの表現",
-  "root": "sobrang pagod=とても疲れた、haba=長さ、araw=日",
+  "root": "grabe=すごい/まったく / sobrang pagod=とても疲れた",
   "examples": [
    {
     "text": "Oo nga, ako rin. Uwi na tayo at magpahinga.",
@@ -1477,11 +1477,11 @@
  },
  {
   "slotId": "emotions-38",
-  "headword": "Grabe talaga, ang init ngayon ah! Parang naluluto na ako sa init.",
-  "reading": "Grábe talagá, ang init ngayón ah! Parang naluluto na ako sa init.",
-  "gloss": "いやほんとに、今日は暑いね！焼かれてるみたいだよ（猛暑への世間話で共感を示す・カジュアル）",
+  "headword": "Grabe talaga, ang init ngayon ah!",
+  "reading": "Grábe talagá, ang init ngayón ah!",
+  "gloss": "いやほんとに、今日は暑いね！（猛暑への世間話で共感を示す・カジュアル）",
   "pos": "相槌（共感）",
-  "root": "init=暑さ、naluluto=料理されている（比喩）",
+  "root": "grabe talaga=本当にすごい / init=暑さ",
   "examples": [
    {
     "text": "Ay oo, sobra talaga. Kahit AC malakas, mainit pa rin.",
@@ -1495,15 +1495,15 @@
  },
  {
   "slotId": "emotions-39",
-  "headword": "Ang sarap naman nito! Sino ba ang nagluto nito, ang galing talaga!",
-  "reading": "Ang sarap namán nitó! Síno ba ang nagluto nitó, ang galíng talagá!",
-  "gloss": "これめちゃくちゃ美味しい！誰が作ったの、本当に上手だね！（出された料理の美味しさへの素直な感嘆・カジュアル）",
+  "headword": "Ang sarap naman nito!",
+  "reading": "Ang sarap namán nitó!",
+  "gloss": "これめちゃくちゃ美味しい！（出された料理の美味しさへの素直な感嘆・カジュアル）",
   "pos": "感嘆",
-  "root": "sarap=美味しさ、nagluto=料理した、galing=上手さ",
+  "root": "sarap=美味しさ",
   "examples": [
    {
-    "text": "Ay, ako po yun. Salamat po, natutuwa ako na nagustuhan n'yo.",
-    "translation": "あ、私が作りました。ありがとうございます、気に入っていただけて嬉しいです。"
+    "text": "Salamat po! Natutuwa po ako na nagustuhan ninyo.",
+    "translation": "ありがとうございます！気に入っていただけて嬉しいです。"
    },
    {
     "text": "Talagang napakasarap nito, tila ba galing pa sa isang magandang restawran.",
@@ -1531,11 +1531,11 @@
  },
  {
   "slotId": "emotions-41",
-  "headword": "Ah, ganon pala ang buong kuwento. Ngayon ko lang naunawaan nang malinaw.",
-  "reading": "Ah, ganón palá ang buóng kuwento. Ngayón ko lang naunawaan nang malinaw.",
-  "gloss": "あぁ、そういうことだったんだね。今初めてはっきり理解できたよ（スタッフの説明を聞いて腑に落ちた・中立）",
+  "headword": "Ah, ganon pala ang buong kuwento.",
+  "reading": "Ah, ganón palá ang buóng kuwento.",
+  "gloss": "あぁ、そういうことだったんだね。（スタッフの説明を聞いて腑に落ちた・中立）",
   "pos": "相槌（納得）",
-  "root": "ganon pala=そうだったのか、kuwento=話、naunawaan=理解した、malinaw=明確に",
+  "root": "ganon pala=そうだったのか / kuwento=話",
   "examples": [
    {
     "text": "Opo, ganito talaga po ang nangyari noon.",
@@ -1549,11 +1549,11 @@
  },
  {
   "slotId": "emotions-42",
-  "headword": "Tapos? Ano ang sumunod na nangyari?",
-  "reading": "Tápos? Anó ang sumunod na nangyári?",
-  "gloss": "それで？その後どうなったの？（話の続きを促す相槌・カジュアル）",
+  "headword": "Tapos, ano ang sumunod na nangyari?",
+  "reading": "Tápos, anó ang sumunod na nangyári?",
+  "gloss": "それで、その後どうなったの？（話の続きを促す相槌・カジュアル）",
   "pos": "相槌（促し）",
-  "root": "tapos=それで、sumunod=次に、nangyari=起きた",
+  "root": "tapos=それで / sumunod=次に / nangyari=起きた",
   "examples": [
    {
     "text": "Ay, dun na po talaga nagulo lahat, hindi ko na po alam kung ano gagawin ko.",
@@ -1567,15 +1567,15 @@
  },
  {
   "slotId": "emotions-43",
-  "headword": "Grabe, ang tagal pala ng biyahe ngayon ah. Ganito ba talaga kabigat ang trapiko dito?",
-  "reading": "Grábe, ang tagal pala ng biyáhe ngayón ah. Ganitó ba talagá kabigat ang trápiko díto?",
-  "gloss": "うわ、今日はずいぶん時間がかかったね。ここの渋滞っていつもこんなにひどいの？（通勤の想定外の遅延への驚き・中立）",
+  "headword": "Grabe, ang tagal pala ng biyahe ngayon ah.",
+  "reading": "Grábe, ang tagal pala ng biyáhe ngayón ah.",
+  "gloss": "うわ、今日はずいぶん時間がかかったね。（通勤の想定外の遅延への驚き・中立）",
   "pos": "驚き",
-  "root": "tagal=時間の長さ、biyahe=移動、kabigat=ひどさ、trapiko=渋滞",
+  "root": "grabe=すごい / tagal=時間の長さ / biyahe=移動",
   "examples": [
    {
-    "text": "Opo, ganito po talaga tuwing umaga dito, sir.",
-    "translation": "はい、ここは毎朝こんな感じなんです。"
+    "text": "Opo, medyo matrapik nga po ngayon dahil sa ulan.",
+    "translation": "はい、今日は雨で少し渋滞していますね。"
    },
    {
     "text": "Ang tagal talaga, akala ko sandali lang ang biyahe papuntang opisina.",
@@ -1585,11 +1585,11 @@
  },
  {
   "slotId": "emotions-44",
-  "headword": "Kumusta po kayo? Ilang araw na po kayong umuuwi nang gabi dahil sa trabaho, sana po ay huwag ninyong kalimutang magpahinga.",
-  "reading": "Kumustá po kayó? Ilang áraw na po kayóng umuuwí nang gabí dahil sa trabáho, sana po ay huwag ninyóng kalimutang magpahinga.",
-  "gloss": "大丈夫ですか？ここ数日、仕事で夜遅くまで残っていますね。休むことも忘れないでくださいね（残業続きの部下の健康を気遣う・丁寧）",
+  "headword": "Ilang araw na po kayong umuuwi nang gabi dahil sa trabaho, sana po ay huwag ninyong kalimutang magpahinga.",
+  "reading": "Ilang áraw na po kayóng umuuwí nang gabí dahil sa trabáho, sana po ay huwag ninyóng kalimutang magpahinga.",
+  "gloss": "ここ数日、仕事で夜遅くまで残っていますね。休むことも忘れないでくださいね（残業続きの部下の健康を気遣う・丁寧）",
   "pos": "心配",
-  "root": "kumusta=元気/様子、umuwi nang gabi=夜遅く帰る、kalimutan=忘れる、magpahinga=休む",
+  "root": "umuwi nang gabi=夜遅く帰る / kalimutan=忘れる / magpahinga=休む",
   "examples": [
    {
     "text": "Ayos lang po ako. Kaya ko pa po ito.",
@@ -1675,11 +1675,11 @@
  },
  {
   "slotId": "emotions-49",
-  "headword": "Kamusta ka na po? Baka po kasi medyo nabibigatan ka sa dami ng trabaho ngayon.",
-  "reading": "Kamustá ka na pô? Baka pô kasi medyo nabibigatan ka sa dami ng trabaho ngayón.",
-  "gloss": "最近どうですか？もしかして仕事量が多くて大変ではないですか（部下のメンタル面への気遣い）",
+  "headword": "Baka po kasi medyo nabibigatan ka sa dami ng trabaho ngayon.",
+  "reading": "Baka pô kasi medyo nabibigatan ka sa dami ng trabaho ngayón.",
+  "gloss": "もしかして仕事量が多くて大変ではないですか（部下のメンタル面への気遣い）",
   "pos": "気遣い（メンタル面の心配）",
-  "root": "kamusta=元気ですか／baka=もしかして／nabibigatan=負担に感じる／dami ng trabaho=仕事量",
+  "root": "baka=もしかして / nabibigatan=負担に感じる / dami ng trabaho=仕事量",
   "examples": [
    {
     "text": "Medyo po, pero kaya ko naman po siya, salamat sa pagtatanong.",
@@ -1711,11 +1711,11 @@
  },
  {
   "slotId": "work-01",
-  "headword": "Good morning! Kumusta ka na?",
-  "reading": "Good morning! Kumustá ka na?",
-  "gloss": "おはよう！最近どう？（明るい朝の挨拶）",
+  "headword": "Good morning, kumusta ka na?",
+  "reading": "Good morning, kumustá ka na?",
+  "gloss": "おはよう、最近どう？（明るい朝の挨拶）",
   "pos": "挨拶（朝）",
-  "root": "good morning=おはよう／kumusta ka na=元気にしてる？（決まり文句のあいさつ）",
+  "root": "good morning=おはよう / kumusta ka na=元気にしてる？",
   "examples": [
    {
     "text": "Good morning din! Ayos naman, ikaw?",
@@ -1729,15 +1729,15 @@
  },
  {
   "slotId": "work-02",
-  "headword": "Magandang araw po. Ako po si Kohei, mula sa HR department, at maligayang pagdating sa team!",
-  "reading": "Magandang araw pô. Ako pô si Kohei, mula sa HR department, at maligayang pagdating sa team!",
-  "gloss": "こんにちは。HR部門のKoheiです。チームへようこそ（新入社員への自己紹介）",
+  "headword": "Ako po si Kohei, mula sa HR department, at maligayang pagdating sa team!",
+  "reading": "Ako pô si Kohei, mula sa HR department, at maligayang pagdating sa team!",
+  "gloss": "HR部門のKoheiです。チームへようこそ（新入社員への自己紹介）",
   "pos": "自己紹介",
-  "root": "magandang araw=こんにちは／ako=私／mula sa=〜出身・所属／maligayang pagdating=ようこそ",
+  "root": "ako=私 / mula sa=〜出身・所属 / maligayang pagdating=ようこそ",
   "examples": [
    {
-    "text": "Magandang araw din po, Sir Kohei! Masaya po akong makilala kayo.",
-    "translation": "こんにちは、Koheiさん！お会いできて嬉しいです。"
+    "text": "Salamat po, Sir Kohei! Masaya po akong makilala kayo at sumali sa team.",
+    "translation": "ありがとうございます、Koheiさん！お会いできて、チームに加われて嬉しいです。"
    },
    {
     "text": "Hi, ako si Kohei from HR. Welcome sa team!",
@@ -1747,11 +1747,11 @@
  },
  {
   "slotId": "work-03",
-  "headword": "Uy, ang tagal na nating hindi nagkita! Kumusta, ano ang bago sa'yo?",
-  "reading": "Uy, ang tagal na nating hindî nagkita! Kumustá, ano ang bago sa'yo?",
-  "gloss": "うわ、久しぶりだね！最近どう、何か変わったことある？（休暇・出張明けの同僚への挨拶）",
+  "headword": "Uy, ang tagal na nating hindi nagkita, ano ang bago sa'yo?",
+  "reading": "Uy, ang tagal na nating hindî nagkita, ano ang bago sa'yo?",
+  "gloss": "うわ、久しぶりだね、何か変わったことある？（休暇・出張明けの同僚への挨拶）",
   "pos": "挨拶（再会）",
-  "root": "tagal=久しい／nagkita=会った／ano ang bago=何か新しいこと",
+  "root": "tagal=久しい / nagkita=会った / ano ang bago=何か新しいこと",
   "examples": [
    {
     "text": "Ay oo nga! Ayos lang, galing lang ako sa business trip.",
@@ -1765,11 +1765,11 @@
  },
  {
   "slotId": "work-04",
-  "headword": "Mauuna na ako, ha. Wag masyadong magtagal, ingat sa uwi mamaya.",
-  "reading": "Mauuna na ako, ha. Wag masyadong magtagal, ingat sa uwi mamaya.",
-  "gloss": "お先に失礼するね。あまり長引かせないで、帰りは気をつけて（先に退勤する際の気遣い）",
+  "headword": "Mauuna na ako, ha, wag masyadong magtagal at ingat sa uwi mamaya.",
+  "reading": "Mauuna na ako, ha, wag masyádong magtagal at ingat sa uwi mámayá.",
+  "gloss": "お先に失礼するね、あまり長引かせないで、帰りは気をつけて（先に退勤する際の気遣い）",
   "pos": "挨拶（退勤）",
-  "root": "mauuna=先に行く／magtagal=長引く／ingat=気をつけて／uwi=帰ること",
+  "root": "mauuna=先に行く / magtagal=長引く / ingat=気をつけて / uwi=帰ること",
   "examples": [
    {
     "text": "Sige, ingat din kayo pauwi! Aayusin ko lang ito bago umuwi.",
@@ -1783,11 +1783,11 @@
  },
  {
   "slotId": "work-05",
-  "headword": "Kumusta ang weekend mo? May ginawa ka bang masaya?",
-  "reading": "Kumustá ang weekend mo? May ginawa ka bang masaya?",
+  "headword": "Kumusta ang weekend mo, may ginawa ka bang masaya?",
+  "reading": "Kumustá ang weekend mo, may ginawa ka bang masaya?",
   "gloss": "週末どうだった？何か楽しいことした？（月曜朝の軽い雑談）",
   "pos": "雑談（週明け）",
-  "root": "weekend=週末／ginawa=したこと／masaya=楽しい",
+  "root": "weekend=週末 / ginawa=したこと / masaya=楽しい",
   "examples": [
    {
     "text": "Ayos lang po, nagpahinga lang ako sa bahay. Kayo po?",
@@ -1801,27 +1801,27 @@
  },
  {
   "slotId": "work-06",
-  "headword": "Congrats sa promotion mo! Sigurado akong magtatagumpay ka pa dito.",
-  "reading": "Congrats sa promotion mo! Sigurado akong magtatagumpay ka pa dito.",
-  "gloss": "昇進おめでとう！これからもきっと活躍すると思うよ（同僚の昇進祝い）",
+  "headword": "Congrats sa promotion mo, sigurado akong magtatagumpay ka pa dito!",
+  "reading": "Congrats sa promotion mo, sigurádo akóng magtatagumpáy ka pa díto!",
+  "gloss": "昇進おめでとう、これからもきっと活躍すると思うよ（同僚の昇進祝い）",
   "pos": "祝福（昇進）",
-  "root": "congrats=おめでとう／promotion=昇進／magtatagumpay=成功する",
+  "root": "congrats=おめでとう／promotion=昇進／sigurado=確信している／magtatagumpay=成功する",
   "examples": [
    {
     "text": "Salamat! Sana matulungan ko ang team nang mas maayos ngayon.",
     "translation": "ありがとう！これからもっとチームの力になれたらと思うよ。"
    },
    {
-    "text": "Congratulations po sa inyong promotion! Sigurado po akong magiging maganda ang inyong pamumuno.",
-    "translation": "昇進おめでとうございます！きっと素晴らしいリーダーシップを発揮されると思います。（丁寧な言い換え）"
+    "text": "Congratulations po sa inyong promotion, sigurado po akong magiging maganda ang inyong pamumuno.",
+    "translation": "昇進おめでとうございます、きっと素晴らしいリーダーシップを発揮されると思います。（丁寧な言い換え）"
    }
   ]
  },
  {
   "slotId": "work-07",
-  "headword": "Uy, kumusta? Busy ka yata ah, mamaya na lang tayo mag-usap.",
-  "reading": "Uy, kumustá? Busy ka yata ah, mamaya na lang tayo mag-usap.",
-  "gloss": "あ、元気？忙しそうだね、また後で話そう（廊下ですれ違う際の軽い声かけ）",
+  "headword": "Uy, busy ka yata ah, mamaya na lang tayo mag-usap.",
+  "reading": "Uy, busy ka yátà ah, mamayâ na lang táyo mag-úsap.",
+  "gloss": "あ、忙しそうだね、また後で話そう（廊下ですれ違う際の軽い声かけ）",
   "pos": "挨拶（すれ違い）",
   "root": "busy=忙しい／mamaya=後で／mag-usap=話す",
   "examples": [
@@ -1830,8 +1830,8 @@
     "translation": "うん、ちょっと今バタバタしてて。じゃあ、また後で！"
    },
    {
-    "text": "Kumusta? Mukhang busy ka, mag-usap na lang tayo mamaya.",
-    "translation": "元気？忙しそうだね、また後で話そう。（中間的な言い換え）"
+    "text": "Mukhang busy ka, mag-usap na lang tayo mamaya.",
+    "translation": "忙しそうだね、また後で話そう。（言い換え）"
    }
   ]
  },
@@ -1945,19 +1945,19 @@
  },
  {
   "slotId": "work-14",
-  "headword": "Paumanhin po, puwede po ba akong lumabas saglit? May kailangan lang po akong asikasuhin.",
-  "reading": "Paumanhin pô, puwede pô ba akong lumabas saglit? May kailangan lang pô akong asikasuhin.",
-  "gloss": "すみません、少し席を外してもよろしいでしょうか。少し用事があります（会議からの一時退席の許可願い）",
+  "headword": "Paumanhin po, puwede po ba akong lumabas saglit?",
+  "reading": "Paumanhin pô, puwede pô ba akong lumabas saglit?",
+  "gloss": "すみません、少し席を外してもよろしいでしょうか（会議からの一時退席の許可願い）",
   "pos": "許可願い（一時退席）",
-  "root": "paumanhin=すみません／lumabas saglit=少し出る／asikasuhin=対応する",
+  "root": "paumanhin=すみません／lumabas saglit=少し出る",
   "examples": [
    {
     "text": "Opo, sige po, hihintayin na lang po namin kayo.",
     "translation": "はい、大丈夫です、お待ちしております。"
    },
    {
-    "text": "Sandali lang ha, lalabas muna ako, may aasikasuhin lang ako.",
-    "translation": "ちょっとごめん、少し席を外すね、用事があって。（カジュアルな言い換え）"
+    "text": "Sandali lang ha, lalabas muna ako.",
+    "translation": "ちょっとごめん、少し席を外すね。（カジュアルな言い換え）"
    }
   ]
  },
@@ -2215,37 +2215,37 @@
  },
  {
   "slotId": "work-29",
-  "headword": "Pwede bang tapusin ito bago mag-Biyernes ng 5pm? Kailangan na natin ito for submission.",
-  "reading": "Pwéde bang tapúsin itó bágo mag-Biyérnes ng 5pm? Kailángan na nátin itó for submission.",
-  "gloss": "これを金曜の5時までに終わらせてもらえる？提出に必要なんだ（期限付きの依頼）",
+  "headword": "Pwede bang tapusin ito bago mag-Biyernes ng 5pm?",
+  "reading": "Pwéde bang tapúsin itó bágo mag-Biyérnes ng 5pm?",
+  "gloss": "これを金曜の5時までに終わらせてもらえる？（期限付きの依頼）",
   "pos": "依頼（期限付き）",
-  "root": "pwede(できる) + tapusin(終わらせる) + bago(前に) + Biyernes(金曜日) + kailangan(必要) + submission(提出)",
+  "root": "pwede(できる) + tapusin(終わらせる) + bago(前に) + Biyernes(金曜日)",
   "examples": [
    {
     "text": "Sige, tatapusin ko po 'to bago mag-Biyernes.",
     "translation": "はい、金曜日までに終わらせます。"
    },
    {
-    "text": "Puwede po ba nating tapusin ito bago mag-Biyernes ng 5pm? Kailangan na po namin para sa submission.",
-    "translation": "こちらを金曜の5時までに終わらせられますか。提出に必要なのです。"
+    "text": "Puwede po ba nating tapusin ito bago mag-Biyernes ng 5pm?",
+    "translation": "こちらを金曜の5時までに終わらせられますか。（丁寧な言い方）"
    }
   ]
  },
  {
   "slotId": "work-30",
-  "headword": "Puwede ko po ba kayong hingan ng tulong dito? Medyo hindi ko kasi masyadong alam itong bahaging ito.",
-  "reading": "Puwéde ko po ba kayóng hingán ng túlong díto? Médyo hindî ko kasí masyádong alám itóng baháging itó.",
-  "gloss": "こちらについて手伝ってもらえますか。この部分はあまり詳しくなくて（専門外の作業への助力依頼）",
+  "headword": "Puwede ko po ba kayong hingan ng tulong dito, kasi hindi ko masyadong alam itong bahaging ito?",
+  "reading": "Puwéde ko po ba kayóng hingán ng túlong díto, kasí hindî ko masyádong alám itóng baháging itó?",
+  "gloss": "こちらについて手伝ってもらえますか、この部分はあまり詳しくなくて（専門外の作業への助力依頼）",
   "pos": "依頼（助力を求める）",
-  "root": "puwede(できる) + hingan ng tulong(助けを求める) + medyo(少し) + hindi alam(分からない) + bahagi(部分)",
+  "root": "puwede(できる) + hingan ng tulong(助けを求める) + kasi(だから) + hindi alam(分からない) + bahagi(部分)",
   "examples": [
    {
     "text": "Sure po, tulungan kita, i-send mo lang sa akin yung file.",
     "translation": "もちろんです、手伝いますよ。ファイルを送ってください。"
    },
    {
-    "text": "Puwede mo ba akong tulungan dito? Hindi kasi ako masyadong sanay sa ganito.",
-    "translation": "これ手伝ってもらえる？あまりこういうの慣れてないんだ。"
+    "text": "Puwede mo ba akong tulungan dito, kasi hindi ako masyadong sanay sa ganito?",
+    "translation": "これ手伝ってもらえる？あまりこういうの慣れてないんだ。（カジュアルな言い換え）"
    }
   ]
  },
@@ -2287,19 +2287,19 @@
  },
  {
   "slotId": "work-33",
-  "headword": "Pwede mo bang i-send sa akin ngayon ang mga files na kailangan? Gagamitin ko na kasi agad.",
-  "reading": "Pwéde mo bang i-send sa akin ngayón ang mga files na kailángan? Gágamitín ko na kasí agád.",
-  "gloss": "必要なファイルを今すぐ送ってもらえる？すぐに使うから（資料送付の依頼）",
+  "headword": "Pwede mo bang i-send sa akin ngayon ang mga files na kailangan?",
+  "reading": "Pwéde mo bang i-send sa akin ngayón ang mga files na kailángan?",
+  "gloss": "必要なファイルを今すぐ送ってもらえる？（資料送付の依頼）",
   "pos": "依頼（資料送付）",
-  "root": "pwede(できる) + i-send(送る) + files(ファイル) + kailangan(必要) + gagamitin(使う予定)",
+  "root": "pwede(できる) + i-send(送る) + files(ファイル) + kailangan(必要)",
   "examples": [
    {
     "text": "Opo, ise-send ko na po agad ngayon.",
     "translation": "はい、すぐに送ります。"
    },
    {
-    "text": "Pre, send mo nga sa akin yung file, kailangan ko na eh.",
-    "translation": "おい、そのファイル送ってよ、もう必要なんだ。"
+    "text": "Pre, send mo nga sa akin yung file.",
+    "translation": "おい、そのファイル送ってよ。（カジュアルな言い換え）"
    }
   ]
  },
@@ -2341,19 +2341,19 @@
  },
  {
   "slotId": "work-36",
-  "headword": "Hi po, kumusta na 'yung hiningi kong report kanina? Puwede ko pong malaman kung gaano na katagal bago matapos?",
-  "reading": "Hi po, kumustá na 'yung hiningi kong report kanína? Puwéde ko pong malamán kung gaáno na katagál bágo matápos?",
-  "gloss": "先ほどお願いした報告書の進捗はいかがですか？あとどのくらいで終わりそうか教えていただけますか（やんわりとした催促）",
+  "headword": "Hi po, puwede ko na po bang malaman kung gaano pa katagal bago matapos ang report na hiningi ko kanina?",
+  "reading": "Hi po, puwéde ko na po bang malamán kung gaáno pa katagál bágo matápos ang report na hiningi ko kanína?",
+  "gloss": "先ほどお願いした報告書、あとどのくらいで終わりそうか教えていただけますか（やんわりとした催促）",
   "pos": "催促（フォローアップ）",
-  "root": "kumusta na(どんな様子) + hiningi(頼んだ) + report(報告書) + malaman(知る) + katagal(どのくらいの時間) + matapos(終わる)",
+  "root": "malaman(知る) + gaano katagal(どのくらいの時間) + matapos(終わる) + hiningi(頼んだ) + report(報告書)",
   "examples": [
    {
     "text": "Ay sorry po, tinatapos ko na po ngayon, 30 minutes na lang po.",
     "translation": "すみません、ちょうど今仕上げているところです、あと30分ほどです。"
    },
    {
-    "text": "Uy, tapos na ba yung report na hiningi ko kanina? Gaano pa katagal?",
-    "translation": "さっき頼んだ報告書、終わった？あとどのくらいかかる？"
+    "text": "Uy, tapos na ba yung report na hiningi ko kanina, gaano pa katagal?",
+    "translation": "さっき頼んだ報告書、終わった？あとどのくらいかかる？（カジュアルな言い換え）"
    }
   ]
  },
@@ -2377,19 +2377,19 @@
  },
  {
   "slotId": "work-38",
-  "headword": "Kumusta ka na? Sana gumagaling ka na. Huwag ka muna pumasok kung hindi pa okay, magpahinga ka lang.",
-  "reading": "Kumustá ka na? Sána gumágalíng ka na. Huwág ka muna pumások kung hindî pa okay, magpáhingá ka lang.",
-  "gloss": "調子はどう？よくなってるといいけど。まだ本調子じゃないなら無理して来なくていいから、ゆっくり休んでね（体調を気遣う）",
+  "headword": "Huwag ka muna pumasok kung hindi ka pa okay, magpahinga ka na lang.",
+  "reading": "Huwág ka muna pumások kung hindî ka pa okay, magpáhingá ka na lang.",
+  "gloss": "まだ本調子じゃないなら無理して来なくていいから、ゆっくり休んでね（体調を気遣う）",
   "pos": "気遣い（体調確認）",
-  "root": "kumusta(調子はどう) + gumagaling(良くなっている) + huwag pumasok(出勤しないで) + magpahinga(休む)",
+  "root": "huwag pumasok(出勤しないで) + hindi pa okay(まだ大丈夫じゃない) + magpahinga(休む)",
   "examples": [
    {
     "text": "Salamat, medyo okay na po ako, bukas na siguro ako pumasok.",
     "translation": "ありがとうございます、だいぶ良くなりました、明日は出勤できると思います。"
    },
    {
-    "text": "Kumusta na po kayo? Sana po gumagaling na kayo. Huwag muna po kayong pumasok kung hindi pa po okay, magpahinga na lang po kayo.",
-    "translation": "お加減はいかがですか。良くなっていますように。まだ本調子でなければ無理して出勤なさらず、ゆっくりお休みください。"
+    "text": "Huwag muna po kayong pumasok kung hindi pa po okay, magpahinga na lang po kayo.",
+    "translation": "まだ本調子でなければ無理して出勤なさらず、ゆっくりお休みください。（丁寧な言い方）"
    }
   ]
  },
@@ -2413,9 +2413,9 @@
  },
  {
   "slotId": "work-40",
-  "headword": "Ano'ng nangyari, na-late ka? Okay ka lang naman?",
-  "reading": "Anó'ng nangyári, na-late ka? Okay ka lang namán?",
-  "gloss": "どうしたの、遅れたんだね。大丈夫だった？（責めすぎない遅刻の理由確認）",
+  "headword": "Ano'ng nangyari, na-late ka, okay ka lang ba?",
+  "reading": "Anó'ng nangyári, na-late ka, okay ka lang ba?",
+  "gloss": "どうしたの、遅れたね、大丈夫だった？（責めすぎない遅刻の理由確認）",
   "pos": "質問（遅刻の理由）",
   "root": "ano(何) + nangyari(起きた) + na-late(遅れた) + okay ka lang(大丈夫)",
   "examples": [
@@ -2424,26 +2424,26 @@
     "translation": "すみません、渋滞にはまってしまって、本当にのろのろでした。"
    },
    {
-    "text": "Ano po ba ang nangyari, na-late po kayo? Okay lang po ba kayo?",
-    "translation": "何かございましたか、遅れていらっしゃいましたが。大丈夫でしょうか。"
+    "text": "Ano po ba ang nangyari, na-late po kayo, okay lang po ba kayo?",
+    "translation": "何かございましたか、遅れていらっしゃいましたが、大丈夫でしょうか。（丁寧な言い方）"
    }
   ]
  },
  {
   "slotId": "work-41",
-  "headword": "Ma'am, hindi po ako makakapasok ngayon, masama po kasi ang pakiramdam ko. Ipagbigay-alam ko na lang po sa team kung may kailangan.",
-  "reading": "Ma'am, hindî po akó makakapások ngayón, masamâ po kasí ang pakiramdám ko. Ipagbigáy-alám ko na lang po sa team kung may kailángan.",
-  "gloss": "マーム、今日は体調が優れず出勤できません。必要なことがあればチームに伝えておきます（体調不良による欠勤連絡）",
+  "headword": "Ma'am, hindi po ako makakapasok ngayon, masama po kasi ang pakiramdam ko.",
+  "reading": "Ma'am, hindî po akó makakapások ngayón, masamâ po kasí ang pakiramdám ko.",
+  "gloss": "マーム、今日は体調が優れず出勤できません（体調不良による欠勤連絡）",
   "pos": "連絡（自分の欠勤）",
-  "root": "hindi makakapasok(出勤できない) + masama ang pakiramdam(体調が悪い) + ipagbigay-alam(知らせる) + team(チーム)",
+  "root": "hindi makakapasok(出勤できない) + masama ang pakiramdam(体調が悪い)",
   "examples": [
    {
     "text": "Sige, magpahinga ka muna, sabihin mo na lang sa akin kung kailangan mo ng tulong.",
     "translation": "わかった、まず休んで。何か必要ならまた教えて。"
    },
    {
-    "text": "Hindi ako makakapasok ngayon, medyo masama ang pakiramdam ko. Sasabihin ko na lang sa team kung may kailangan.",
-    "translation": "今日は体調が悪くて出勤できません。必要なことがあればチームに伝えておきます。"
+    "text": "Hindi ako makakapasok ngayon, medyo masama ang pakiramdam ko.",
+    "translation": "今日は体調が悪くて出勤できません。（ニュートラルな言い換え）"
    }
   ]
  },
@@ -2467,19 +2467,19 @@
  },
  {
   "slotId": "work-43",
-  "headword": "Puwede ba nating i-adjust yung shift mo this week? Kailangan kasi natin ng cover sa Sabado.",
-  "reading": "Puwéde ba náting i-adjust yung shift mo this week? Kailángan kasí nátin ng cover sa Sábado.",
-  "gloss": "今週のシフトを調整できるかな？土曜日にカバーしてほしいことがあって（シフト変更の相談）",
+  "headword": "Puwede ba nating i-adjust yung shift mo this week, kasi kailangan natin ng cover sa Sabado?",
+  "reading": "Puwéde ba náting i-adjust yung shift mo this week, kasí kailángan nátin ng cover sa Sábado?",
+  "gloss": "今週のシフトを調整できるかな、土曜日にカバーしてほしいことがあって（シフト変更の相談）",
   "pos": "相談（シフト変更）",
-  "root": "puwede(できる) + i-adjust(調整する) + shift(シフト) + cover(カバー) + Sabado(土曜日)",
+  "root": "puwede(できる) + i-adjust(調整する) + shift(シフト) + kasi(だから) + cover(カバー) + Sabado(土曜日)",
   "examples": [
    {
     "text": "Ah sige, tingnan ko lang schedule ko, sabihin ko sa'yo mamaya.",
     "translation": "わかった、スケジュールを確認して、後で伝えるね。"
    },
    {
-    "text": "Puwede po ba nating pag-usapan ang shift niyo this week? Kailangan po kasi natin ng cover sa Sabado.",
-    "translation": "今週のシフトについてご相談してもよろしいですか。土曜日にカバーが必要なのです。"
+    "text": "Puwede po ba nating i-adjust ang shift niyo this week, kasi kailangan po natin ng cover sa Sabado?",
+    "translation": "今週のシフトを調整させていただけますか、土曜日にカバーが必要なのです。（丁寧な言い方）"
    }
   ]
  },
@@ -2521,19 +2521,19 @@
  },
  {
   "slotId": "work-46",
-  "headword": "Congrats sa pagiging regular mo na! Deserve mo talaga 'to, dahil ang galing mong magtrabaho.",
-  "reading": "Congrats sa pagigíng regular mo na! Deserve mo talagá 'to, dahíl ang gáling mong magtrabáho.",
-  "gloss": "正社員になったね、おめでとう！本当にふさわしいよ、仕事ぶりが本当に良かったから（正社員登用の祝福）",
+  "headword": "Congrats sa pagiging regular mo na, deserve mo talaga 'to dahil ang galing mong magtrabaho!",
+  "reading": "Congrats sa pagigíng regular mo na, deserve mo talagá 'to dahíl ang gáling mong magtrabáho!",
+  "gloss": "正社員になったね、おめでとう、本当にふさわしいよ、仕事ぶりが良かったから（正社員登用の祝福）",
   "pos": "祝福（正社員登用）",
-  "root": "congrats(おめでとう) + pagiging regular(正社員になること) + deserve(値する) + galing(上手さ) + magtrabaho(働く)",
+  "root": "congrats(おめでとう) + pagiging regular(正社員になること) + deserve(値する) + galing(上手さ)",
   "examples": [
    {
     "text": "Salamat po talaga! Masaya po ako, lalo pa akong magsisikap.",
     "translation": "本当にありがとうございます！嬉しいです、もっと頑張ります。"
    },
    {
-    "text": "Congrats po sa pagiging regular ninyo! Deserve niyo talaga po ito, dahil ang galing ninyong magtrabaho.",
-    "translation": "正社員へのご昇格おめでとうございます！本当にふさわしいことです、お仕事ぶりが本当に素晴らしいので。"
+    "text": "Congrats po sa pagiging regular ninyo, deserve niyo talaga po ito dahil ang galing ninyong magtrabaho!",
+    "translation": "正社員へのご昇格おめでとうございます、本当にふさわしいことです。（丁寧な言い方）"
    }
   ]
  },
@@ -2557,19 +2557,19 @@
  },
  {
   "slotId": "work-48",
-  "headword": "Puwede po ba kayong sandaling maghintay? Kukunin ko lang po ang impormasyon.",
-  "reading": "Puwéde po ba kayóng sandalîng maghintáy? Kukunín ko lang po ang impormasyón.",
-  "gloss": "少々お待ちいただけますか。情報を確認してまいります（電話保留の丁寧な依頼）",
+  "headword": "Puwede po ba kayong sandaling maghintay?",
+  "reading": "Puwéde po ba kayóng sandalîng maghintáy?",
+  "gloss": "少々お待ちいただけますか（電話保留の丁寧な依頼）",
   "pos": "依頼（保留）",
-  "root": "puwede(できる) + sandali(少しの間) + maghintay(待つ) + kukunin(取ってくる) + impormasyon(情報)",
+  "root": "puwede(できる) + sandali(少しの間) + maghintay(待つ)",
   "examples": [
    {
     "text": "Sige po, aabangan ko na lang po.",
     "translation": "はい、お待ちしております。"
    },
    {
-    "text": "Sandali lang, maghintay ka lang, kukunin ko lang yung info.",
-    "translation": "ちょっと待って、そこで待っててね、情報を確認してくるから。"
+    "text": "Sandali lang, maghintay ka lang.",
+    "translation": "ちょっと待って、そこで待っててね。（カジュアルな言い方）"
    }
   ]
  },
@@ -2647,37 +2647,37 @@
  },
  {
   "slotId": "work-53",
-  "headword": "Uy, libre ka ba ngayon? May itatanong lang ako, mabilisan lang naman.",
-  "reading": "Uy, libre ka ba ngayón? May itátanóng lang akó, mabilisán lang namán.",
-  "gloss": "ねえ、今空いてる？ちょっと聞きたいことがあって、すぐ終わるから（今すぐ対応可能か確認）",
+  "headword": "Uy, libre ka ba ngayon, may itatanong lang ako?",
+  "reading": "Uy, libre ka ba ngayón, may itátanóng lang akó?",
+  "gloss": "ねえ、今空いてる？ちょっと聞きたいことがあって（今すぐ対応可能か確認）",
   "pos": "質問（今すぐ対応可能か）",
-  "root": "libre(暇・空いている) + itatanong(尋ねること) + mabilisan(手早く)",
+  "root": "libre(暇・空いている) + itatanong(尋ねること)",
   "examples": [
    {
     "text": "Oo naman, ano 'yun?",
     "translation": "もちろん、何？"
    },
    {
-    "text": "Puwede ka bang makausap ngayon? May gusto lang akong itanong.",
-    "translation": "今話せる？ちょっと聞きたいことがあるんだけど。"
+    "text": "Puwede ka bang makausap ngayon?",
+    "translation": "今話せる？（ニュートラルな言い換え）"
    }
   ]
  },
  {
   "slotId": "work-54",
-  "headword": "Sige po, salamat sa updates niyo — kitakits na lang po tayo bukas. Ingat po kayo!",
-  "reading": "Sige po, salámat sa updates niyó — kitakíts na lang po táyo búkas. Ingat po kayó!",
-  "gloss": "はい、ご報告ありがとうございます。また明日お話ししましょう。お気をつけて！（チャットの丁寧な締めの挨拶）",
+  "headword": "Sige po, kitakits na lang po tayo bukas, ingat po kayo!",
+  "reading": "Sige po, kitakíts na lang po táyo búkas, ingat po kayó!",
+  "gloss": "はい、また明日お話ししましょう。お気をつけて！（チャットの丁寧な締めの挨拶）",
   "pos": "締めの挨拶（チャット）",
-  "root": "salamat(ありがとう) + updates(報告) + kitakits(また会おう) + bukas(明日) + ingat(気をつけて)",
+  "root": "kitakits(また会おう) + bukas(明日) + ingat(気をつけて)",
   "examples": [
    {
     "text": "Opo, salamat din po, ingat din po kayo!",
     "translation": "はい、こちらこそありがとうございます、お気をつけて！"
    },
    {
-    "text": "Sige, salamat sa updates mo, kitakits na lang tayo bukas. Ingat!",
-    "translation": "うん、報告ありがとう。また明日ね。気をつけて！"
+    "text": "Sige, kitakits na lang tayo bukas, ingat!",
+    "translation": "うん、また明日ね。気をつけて！（カジュアルな言い換え）"
    }
   ]
  },
@@ -2809,8 +2809,8 @@
  },
  {
   "slotId": "work-62",
-  "headword": "Punta ka sa dinner namin Friday, ha? Libre 'yan, chill lang!",
-  "reading": "Punta ka sa dinner namin Friday, ha? Libre iyán, chill lang!",
+  "headword": "Punta ka sa dinner namin Friday, ha, libre naman at chill lang!",
+  "reading": "Punta ka sa dinner namin Friday, ha, libre namán at chill lang!",
   "gloss": "金曜の食事会来なよ？奢りだし、気軽な感じだから！（社内イベントへのカジュアルな誘い）",
   "pos": "誘い",
   "root": "punta(行く)、dinner(英語借用)、libre(無料・自由)、chill(英語俗語、気楽な)",
@@ -2820,8 +2820,8 @@
     "translation": "うん、参加する！何時に集合する？"
    },
    {
-    "text": "Sama ka po sa dinner namin sa Friday—libre po 'yan, walang kaso kung casual lang.",
-    "translation": "金曜の食事会にご一緒しませんか？費用はこちら持ちですし、カジュアルな感じで大丈夫です。（丁寧バージョン）"
+    "text": "Sama ka po sa dinner namin sa Friday, libre po 'yan.",
+    "translation": "金曜の食事会にご一緒しませんか？費用はこちら持ちです。（丁寧バージョン）"
    }
   ]
  },
@@ -2863,9 +2863,9 @@
  },
  {
   "slotId": "work-65",
-  "headword": "Enjoy mo ang holiday, ha! Magpahinga kang maayos.",
-  "reading": "Enjoy mo ang holiday, ha! Magpahingá kang maáyos.",
-  "gloss": "休日楽しんでね！しっかり休んでください。（祝日前のカジュアルな挨拶）",
+  "headword": "Enjoy mo ang holiday, ha, magpahinga kang maayos!",
+  "reading": "Enjoy mo ang holiday, ha, magpáhingá kang maáyos!",
+  "gloss": "休日楽しんでね、しっかり休んでください（祝日前のカジュアルな挨拶）",
   "pos": "挨拶",
   "root": "enjoy(英語借用)、holiday(英語借用)、magpahinga(休む←pahinga)、maayos(きちんとした)",
   "examples": [
@@ -2874,16 +2874,16 @@
     "translation": "ありがとう！あなたも休みを楽しんでね！"
    },
    {
-    "text": "Sana po ay magkaroon kayo ng maligayang bakasyon—magpahinga po kayong mabuti.",
-    "translation": "良い休日をお過ごしください――しっかり休んでください。（丁寧バージョン）"
+    "text": "Sana po ay magkaroon kayo ng maligayang bakasyon.",
+    "translation": "良い休日をお過ごしください。（丁寧バージョン）"
    }
   ]
  },
  {
   "slotId": "job-interview-01",
-  "headword": "Kumusta po ang biyahe niyo dito? Medyo mabigat po ba ang traffic kanina?",
-  "reading": "Kumustá po ang biyáhe niyó díto? Médyo mabigát po ba ang traffic kanína?",
-  "gloss": "こちらまでの道中はいかがでしたか？さっきの交通渋滞はひどかったですか？（面接開始前に緊張をほぐす雑談）",
+  "headword": "Kumusta po ang biyahe niyo dito, medyo mabigat po ba ang traffic kanina?",
+  "reading": "Kumustá po ang biyáhe niyó díto, médyo mabigát po ba ang traffic kanína?",
+  "gloss": "こちらまでの道中はいかがでしたか、さっきの交通渋滞はひどかったですか（面接開始前に緊張をほぐす雑談）",
   "pos": "挨拶・アイスブレイク",
   "root": "kumusta(挨拶)、biyahe(旅・道中)、mabigat(重い→渋滞がひどい比喩)、traffic(英語借用)",
   "examples": [
@@ -2892,7 +2892,7 @@
     "translation": "はい、少しひどかったですが、私は大丈夫です。"
    },
    {
-    "text": "Ayos lang ba ang punta mo dito? Grabe ba ang trapik?",
+    "text": "Ayos lang ba ang punta mo dito, grabe ba ang trapik?",
     "translation": "こっちまで来るの大丈夫だった？渋滞ひどかった？（カジュアルバージョン）"
    }
   ]
@@ -2917,11 +2917,11 @@
  },
  {
   "slotId": "job-interview-03",
-  "headword": "Paano po ba talaga bigkasin ang pangalan niyo? Gusto ko pong tama ang pagtawag ko sa inyo.",
-  "reading": "Paáno po ba talagá bigkasín ang pangalan niyó? Gusto ko pong tamà ang pagtáwag ko sa inyó.",
-  "gloss": "お名前は正しくはどう発音しますか？正しくお呼びしたいので。（名前の読み方を確認する場面）",
+  "headword": "Paano po ba talaga bigkasin ang pangalan niyo?",
+  "reading": "Paáno po ba talagá bigkasín ang pangalan niyó?",
+  "gloss": "お名前は正しくはどう発音しますか（名前の読み方を確認する場面）",
   "pos": "確認質問",
-  "root": "bigkasin(発音する←bigkas)、pangalan(名前)、tama(正しい)、tawag(呼ぶ)",
+  "root": "bigkasin(発音する←bigkas)、pangalan(名前)",
   "examples": [
    {
     "text": "Ganito po ang tamang bigkas: 'Ma-ria', hindi 'Mar-ya'.",
@@ -3079,9 +3079,9 @@
  },
  {
   "slotId": "job-interview-12",
-  "headword": "Nagkaroon na ba kayo ng karanasang hindi kayo sang-ayon ng katrabaho niyo? Paano niyo 'yon naresolba?",
-  "reading": "Nagkaroón na ba kayó ng karanásang hindî kayó sang-áyon ng katrabáho niyó? Paáno niyó iyón naresólba?",
-  "gloss": "同僚と意見が合わなかった経験はありますか？それをどう解決しましたか？（協働経験と意見対立の折り合い方を聞く質問）",
+  "headword": "Nagkaroon na ba kayo ng karanasang hindi kayo sang-ayon ng katrabaho niyo, at paano niyo iyon naresolba?",
+  "reading": "Nagkaroón na ba kayó ng karanásang hindî kayó sang-áyon ng katrabáho niyó, at paáno niyó iyón naresólba?",
+  "gloss": "同僚と意見が合わなかった経験はありますか、それをどう解決しましたか（協働経験と意見対立の折り合い方を聞く質問）",
   "pos": "質問（協働経験）",
   "root": "karanasan(経験)、sang-ayon(同意する)、katrabaho(同僚)、naresolba(解決した←英語resolve)",
   "examples": [
@@ -3090,8 +3090,8 @@
     "translation": "はい、同僚とアプローチが違ったことがありますが、合意に至るまで話し合いました。"
    },
    {
-    "text": "May pagkakataon po ba kayong hindi nagkasundo ng inyong katrabaho? Paano niyo po iyon naresolba?",
-    "translation": "同僚と意見が合わなかったことはありますか？それをどう解決しましたか？（丁寧バージョン）"
+    "text": "May pagkakataon po ba kayong hindi nagkasundo ng inyong katrabaho, paano niyo po iyon naresolba?",
+    "translation": "同僚と意見が合わなかったことはありますか、それをどう解決しましたか？（丁寧バージョン）"
    }
   ]
  },
@@ -3223,19 +3223,19 @@
  },
  {
   "slotId": "job-interview-20",
-  "headword": "Pasensya na po, puwede po bang ulitin ninyo 'yung sinabi niyo kanina? Hindi ko po masyadong nakuha.",
-  "reading": "Pasénsya na po, puwéde po bang ulitín ninyó iyóng sinábi niyó kanína? Hindî ko po masyádong nakúha.",
-  "gloss": "すみません、さっきおっしゃったことをもう一度言っていただけますか？あまりよく聞き取れませんでした。（聞き取れなかった／意味を取り違えた際の聞き返し）",
+  "headword": "Pasensya na po, puwede po bang ulitin ninyo 'yung sinabi niyo kanina?",
+  "reading": "Pasénsya na po, puwéde po bang ulitín ninyó iyóng sinábi niyó kanína?",
+  "gloss": "すみません、さっきおっしゃったことをもう一度言っていただけますか（聞き取れなかった／意味を取り違えた際の聞き返し）",
   "pos": "聞き返し",
-  "root": "pasensya(すみません・許し)、ulitin(繰り返す←ulit)、sinabi(言った←sabi)、masyado(あまりに)、nakuha(理解した←kuha)",
+  "root": "pasensya(すみません・許し)、ulitin(繰り返す←ulit)、sinabi(言った←sabi)",
   "examples": [
    {
     "text": "Ay, sorry po. Ang sabi ko po kanina ay...",
     "translation": "あ、すみません。さっき申し上げたのは…"
    },
    {
-    "text": "Sorry ha, pwede mo bang ulitin? Hindi ko gaanong narinig.",
-    "translation": "ごめん、もう一回言ってくれる？あまり聞こえなかった。（カジュアルバージョン）"
+    "text": "Sorry ha, pwede mo bang ulitin?",
+    "translation": "ごめん、もう一回言ってくれる？（カジュアルバージョン）"
    }
   ]
  },
@@ -3385,19 +3385,19 @@
  },
  {
   "slotId": "food-04",
-  "headword": "Maanghang po ba ito? Hindi po kasi ako masyadong makakain ng maanghang.",
-  "reading": "Maánghang po ba itó? Hindî po kasí akó masyádong makakáin ng maánghang.",
-  "gloss": "「これは辛いですか？辛い物があまり得意ではないので。」（辛さの事前確認）",
+  "headword": "Maanghang po ba ito, kasi hindi po ako masyadong makakain ng maanghang?",
+  "reading": "Maánghang po ba itó, kasí hindî po akó masyádong makakáin ng maánghang?",
+  "gloss": "これは辛いですか、辛い物があまり得意ではないので（辛さの事前確認）",
   "pos": "質問（辛さ確認）",
-  "root": "maanghang(辛い)+hindi masyado(あまり〜ない)+makakain(食べられる)",
+  "root": "maanghang(辛い)+kasi(だから)+hindi masyado(あまり〜ない)+makakain(食べられる)",
   "examples": [
    {
     "text": "Medyo maanghang po ito, pero puwede po naming bawasan.",
     "translation": "少し辛いですが、辛さを控えめにすることもできます。"
    },
    {
-    "text": "Maanghang ba ito? Hindi kasi ako masyadong makakain ng maanghang.",
-    "translation": "（中間的なレジスターで）これ辛い？辛いのあまり得意じゃないんだ。"
+    "text": "Maanghang ba ito, kasi hindi ako masyadong makakain ng maanghang?",
+    "translation": "これ辛い？辛いのあまり得意じゃないんだ。（中間的なレジスターで）"
    }
   ]
  },
@@ -3421,37 +3421,37 @@
  },
  {
   "slotId": "food-06",
-  "headword": "Meron po bang baboy dito? Hindi po kasi ako kumakain ng baboy.",
-  "reading": "Méron po bang báboy díto? Hindî po kasí akó kumakáin ng báboy.",
-  "gloss": "「これに豚肉は入っていますか？豚肉を食べないので。」（食材確認）",
+  "headword": "Meron po bang baboy dito, kasi hindi po ako kumakain ng baboy?",
+  "reading": "Méron po bang báboy díto, kasí hindî po akó kumakáin ng báboy?",
+  "gloss": "これに豚肉は入っていますか、豚肉を食べないので（食材確認）",
   "pos": "質問（食材確認）",
-  "root": "meron(ある)+baboy(豚肉)+kumakain(食べる)",
+  "root": "meron(ある)+baboy(豚肉)+kasi(だから)+kumakain(食べる)",
   "examples": [
    {
     "text": "Wala po, manok po ang laman niyan, hindi po baboy.",
     "translation": "入っていません、それには鶏肉が入っていて、豚肉ではありません。"
    },
    {
-    "text": "Meron bang baboy dito? Hindi kasi ako kumakain ng baboy.",
-    "translation": "（中間的なレジスターで）これに豚肉入ってる？豚肉食べないんだ。"
+    "text": "Meron bang baboy dito, kasi hindi ako kumakain ng baboy?",
+    "translation": "これに豚肉入ってる？豚肉食べないんだ。（中間的なレジスターで）"
    }
   ]
  },
  {
   "slotId": "food-07",
-  "headword": "Meron po bang mani dito? May allergy po kasi ako sa mani.",
-  "reading": "Méron po bang máni díto? May allergy po kasí akó sa máni.",
-  "gloss": "「これにピーナッツは入っていますか？ピーナッツアレルギーがあるので。」（アレルギー確認）",
+  "headword": "Meron po bang mani dito, kasi may allergy po ako sa mani?",
+  "reading": "Méron po bang máni díto, kasí may allergy po akó sa máni?",
+  "gloss": "これにピーナッツは入っていますか、ピーナッツアレルギーがあるので（アレルギー確認）",
   "pos": "質問（アレルギー確認）",
-  "root": "meron(ある)+mani(ピーナッツ)+allergy(アレルギー)",
+  "root": "meron(ある)+mani(ピーナッツ)+kasi(だから)+allergy(アレルギー)",
   "examples": [
    {
     "text": "Wala po, walang mani ang lutong ito, huwag po kayong mag-alala.",
     "translation": "入っていません、この料理にピーナッツはないのでご安心ください。"
    },
    {
-    "text": "Meron bang mani dito? May allergy kasi ako sa mani.",
-    "translation": "（中間的なレジスターで）これにピーナッツ入ってる？ピーナッツアレルギーがあるんだ。"
+    "text": "Meron bang mani dito, kasi may allergy ako sa mani?",
+    "translation": "これにピーナッツ入ってる？ピーナッツアレルギーがあるんだ。（中間的なレジスターで）"
    }
   ]
  },
@@ -3673,19 +3673,19 @@
  },
  {
   "slotId": "food-20",
-  "headword": "Ano ba 'tong ulam na 'to? Hindi ko pa 'to nakain dati.",
-  "reading": "Anó ba 'tong ulám na 'to? Hindî ko pa 'to nakáin dáti.",
-  "gloss": "「これ何の料理？前に食べたことないんだけど。」（見慣れないフィリピン料理を尋ねる・カジュアル）",
+  "headword": "Ano ba 'tong ulam na 'to?",
+  "reading": "Anó ba 'tong ulám na 'to?",
+  "gloss": "これ何の料理？（見慣れないフィリピン料理を尋ねる・カジュアル）",
   "pos": "質問（料理の説明）",
-  "root": "ano(何)+ulam(おかず)+hindi pa(まだない)+nakain(食べたことがある)",
+  "root": "ano(何)+ulam(おかず)",
   "examples": [
    {
     "text": "Ah, dinuguan 'yan, gawa sa dugo ng baboy, sarap 'yan!",
     "translation": "あ、それはディヌグアンだよ、豚の血で作った料理、美味しいよ！"
    },
    {
-    "text": "Ano po ba itong ulam na ito? Hindi ko pa po ito nakain dati.",
-    "translation": "（丁寧なレジスターで）これは何の料理でしょうか？以前に食べたことがないもので。"
+    "text": "Ano po ba itong ulam na ito?",
+    "translation": "これは何の料理でしょうか？（丁寧なレジスターで）"
    }
   ]
  },
@@ -3781,19 +3781,19 @@
  },
  {
   "slotId": "food-26",
-  "headword": "Pasensya na po, pero mali po yata ang nahatid sa amin. Iba po ang in-order namin kanina. Puwede po ba ninyong ipalit?",
-  "reading": "Pasénsya na pô, pero malî pô yátà ang nahátid sa ámin. Ibá pô ang in-órder námin kanína. Puwéde pô ba nínyong ipalít?",
-  "gloss": "「すみません、私たちに届いたのは間違いのようです。さっき注文したのと違います。交換していただけますか？」（やんわりとした苦情）",
+  "headword": "Pasensya na po, pero mali po yata ang nahatid sa amin, puwede po ba ninyong ipalit?",
+  "reading": "Pasénsya na pô, pero malî pô yátà ang nahátid sa ámin, puwéde pô ba nínyong ipalít?",
+  "gloss": "すみません、私たちに届いたのは間違いのようです、交換していただけますか（やんわりとした苦情）",
   "pos": "苦情（やんわり）",
-  "root": "pasensya na=すみません／mali=間違い／nahatid=届けられた／in-order=注文した(もの)／puwede ba=可能ですか／ipalit=交換する",
+  "root": "pasensya na=すみません／mali=間違い／nahatid=届けられた／puwede ba=可能ですか／ipalit=交換する",
   "examples": [
    {
     "text": "Ay, pasensya na po kayo! Titingnan ko po agad, ipapalit namin po kaagad.",
     "translation": "あ、申し訳ございません！すぐに確認して交換いたします。"
    },
    {
-    "text": "Uy, mali yata 'to ha. Iba 'yong order ko kanina. Pwede bang mapalitan?",
-    "translation": "あれ、これ違うっぽい。さっき頼んだのと違うよ。交換できる？（カジュアル）"
+    "text": "Uy, mali yata 'to ha, pwede bang mapalitan?",
+    "translation": "あれ、これ違うっぽい。交換できる？（カジュアル）"
    }
   ]
  },
@@ -3817,11 +3817,11 @@
  },
  {
   "slotId": "food-28",
-  "headword": "Anong oras tayo puwedeng mananghalian? Mabuti ba sa 'yo ang alas-dose y medya?",
-  "reading": "Anóng óras táyo puwédeng mananghálian? Mabúti ba sa 'yó ang alas-dóse y média?",
-  "gloss": "「何時にランチに行けそう？12時半で大丈夫？」（一緒に行く時間の調整）",
+  "headword": "Mabuti ba sa 'yo ang alas-dose y medya para sa tanghalian natin?",
+  "reading": "Mabúti ba sa 'yó ang alas-dóse y média para sa tanghálian nátin?",
+  "gloss": "12時半でランチどう？（一緒に行く時間の調整）",
   "pos": "提案（時間調整）",
-  "root": "anong oras=何時／mananghalian=昼食を食べる／mabuti ba sa 'yo=あなたにとって都合良いか／alas-dose y medya=12時半",
+  "root": "mabuti ba sa 'yo=あなたにとって都合良いか／alas-dose y medya=12時半／tanghalian=昼食",
   "examples": [
    {
     "text": "Sige, okay sa akin 'yon. Doon din tayo sa parating kainan, ha?",
@@ -3835,11 +3835,11 @@
  },
  {
   "slotId": "food-29",
-  "headword": "Uy, salamat sa merienda ha! Ang sarap naman, wala ka namang kailangang gawin nito.",
-  "reading": "Uy, salámat sa meriénda ha! Ang sarap namán, walâ ka namán kailángang gawín nitó.",
-  "gloss": "「おお、おやつありがとう！美味しそう、そこまでしなくてよかったのに。」（差し入れへの感謝）",
+  "headword": "Uy, salamat sa merienda ha, wala ka namang kailangang gawin nito!",
+  "reading": "Uy, salámat sa meriénda ha, walâ ka namán kailángang gawín nitó!",
+  "gloss": "おお、おやつありがとう、そこまでしなくてよかったのに（差し入れへの感謝）",
   "pos": "感謝（差し入れ）",
-  "root": "salamat=ありがとう／merienda=おやつ／sarap=美味しい／wala ka namang kailangang gawin=そこまでしなくてよかった",
+  "root": "salamat=ありがとう／merienda=おやつ／wala ka namang kailangang gawin=そこまでしなくてよかった",
   "examples": [
    {
     "text": "Ay wala 'yon! Sobra kasi 'yong niluto ko kagabi, kaya dinala ko.",
@@ -3853,9 +3853,9 @@
  },
  {
   "slotId": "food-30",
-  "headword": "Ang sarap nito ah! Paano mo ba 'to niluto?",
-  "reading": "Ang sarap nitó ah! Paáno mo ba 'tó nilúto?",
-  "gloss": "「これ美味しい！これどうやって作ったの？」（手作り料理の作り方への質問）",
+  "headword": "Ang sarap nito ah, paano mo ba 'to niluto?",
+  "reading": "Ang sarap nitó ah, paáno mo ba 'tó nilúto?",
+  "gloss": "これ美味しい、これどうやって作ったの？（手作り料理の作り方への質問）",
   "pos": "質問（レシピ）",
   "root": "ang sarap=美味しい／paano=どうやって／niluto=料理した",
   "examples": [
@@ -3871,37 +3871,37 @@
  },
  {
   "slotId": "food-31",
-  "headword": "Sige, tagay muna tayo! Maligayang kaarawan sa 'yo, sana lagi kang masaya at laging masagana ang buhay mo!",
-  "reading": "Sige, tagáy múna táyo! Maligáyang kaarawán sa 'yó, sána lági kang masáya at lági masagána ang búhay mo!",
-  "gloss": "「じゃあ、乾杯しよう！お誕生日おめでとう、これからもずっと幸せで、人生が豊かでありますように！」（誕生日ランチでの乾杯）",
+  "headword": "Tagay muna tayo, maligayang kaarawan sa 'yo!",
+  "reading": "Tagáy múna táyo, maligáyang kaarawán sa 'yó!",
+  "gloss": "乾杯しよう、お誕生日おめでとう！（誕生日ランチでの乾杯）",
   "pos": "乾杯・祝辞",
-  "root": "tagay=乾杯する／maligayang kaarawan=お誕生日おめでとう／sana=〜でありますように／masagana=豊かな",
+  "root": "tagay=乾杯する／maligayang kaarawan=お誕生日おめでとう",
   "examples": [
    {
     "text": "Salamat, mga bes! Ang saya kong may mga katrabahong tulad ninyo.",
     "translation": "ありがとう、みんな！こんな同僚がいて本当に嬉しい。"
    },
    {
-    "text": "Tagay po muna tayo! Maligayang kaarawan po sa inyo, sana po ay laging masaya kayo.",
-    "translation": "乾杯しましょう！お誕生日おめでとうございます、いつも幸せでありますように。（丁寧な言い方）"
+    "text": "Tagay po muna tayo, maligayang kaarawan po sa inyo!",
+    "translation": "乾杯しましょう、お誕生日おめでとうございます。（丁寧な言い方）"
    }
   ]
  },
  {
   "slotId": "food-32",
-  "headword": "Salamat po, pero hindi po ako masyadong marunong uminom. Konti na lang po muna.",
-  "reading": "Salámat pô, péro hindî pô akó masyádong marúnong umínom. Kontî na lang pô múna.",
+  "headword": "Salamat po, pero hindi po ako masyadong marunong uminom, konti na lang po muna ako.",
+  "reading": "Salámat pô, péro hindî pô akó masyádong marúnong umínom, kontî na lang pô múna akó.",
   "gloss": "「ありがとうございます、でもあまりお酒に強くないので、少しだけにしておきます。」（お酒を控えたい丁寧な断り）",
   "pos": "断り",
-  "root": "salamat po=ありがとうございます／hindi masyadong marunong uminom=あまり飲むのが得意ではない／konti na lang=少しだけ",
+  "root": "salamat po=ありがとうございます／hindi masyadong marunong uminom=あまり飲むのが得意ではない／konti na lang muna=少しだけにする",
   "examples": [
    {
     "text": "Ay, okay lang po! Kayo bahala, huwag lang po kayong mahihiya.",
     "translation": "あ、大丈夫ですよ！ご自由に、遠慮なさらずに。"
    },
    {
-    "text": "Salamat, pero konti lang muna ako, mahina kasi ako uminom.",
-    "translation": "ありがとう、でも少しだけにするね、お酒弱いから。（カジュアル）"
+    "text": "Salamat, pero hindi ako gaanong marunong uminom, konti na lang muna ako.",
+    "translation": "ありがとう、でもあまりお酒得意じゃないから、少しだけにするね。（カジュアル）"
    }
   ]
  },
@@ -3925,8 +3925,8 @@
  },
  {
   "slotId": "food-34",
-  "headword": "Kamay lang ba talaga kakainin ito? Paano ba ang tamang paraan?",
-  "reading": "Kamáy lang ba talagá kakaínin itó? Paáno ba ang tamàng paraán?",
+  "headword": "Kamay lang ba talaga kakainin ito, at paano ba ang tamang paraan?",
+  "reading": "Kamáy lang ba talagá kakaínin itó, at paáno ba ang tamàng paraán?",
   "gloss": "「これ本当に手だけで食べるの？正しい食べ方はどうやるの？」（カマヤンの食べ方への質問）",
   "pos": "質問（食べ方）",
   "root": "kamay=手／kakainin=食べる／tamang paraan=正しいやり方",
@@ -3943,9 +3943,9 @@
  },
  {
   "slotId": "food-35",
-  "headword": "Talagang masarap po ang mga niluto ninyo. Maraming salamat po sa pag-aya at sa handaan.",
-  "reading": "Talagáng masaráp pô ang mga nilúto nínyo. Maráming salámat pô sa pag-áya at sa handaán.",
-  "gloss": "「お作りになった料理、本当に美味しかったです。招いていただき、おもてなしいただき本当にありがとうございました。」（手料理への称賛と感謝）",
+  "headword": "Talagang masarap po ang mga niluto ninyo, maraming salamat po sa pag-aya at sa handaan.",
+  "reading": "Talagáng masaráp pô ang mga nilúto nínyo, maráming salámat pô sa pag-áya at sa handaán.",
+  "gloss": "「お作りになった料理、本当に美味しかったです。招いてもてなしていただき本当にありがとうございました。」（手料理への称賛と感謝）",
   "pos": "感想（褒める）",
   "root": "masarap=美味しい／niluto ninyo=あなた方が作った料理／pag-aya=招待／handaan=おもてなし・宴",
   "examples": [
@@ -3961,8 +3961,8 @@
  },
  {
   "slotId": "food-36",
-  "headword": "Mayroon po ba kayong menu sa Ingles? Hindi ko po kasi masyadong maintindihan ang nasa Tagalog.",
-  "reading": "Mayróon pô ba kayóng menú sa Inglés? Hindî ko pô kasí masyádong maintindihán ang nása Tagálog.",
+  "headword": "Mayroon po ba kayong menu sa Ingles, dahil hindi ko po masyadong maintindihan ang nasa Tagalog?",
+  "reading": "Mayróon pô ba kayóng menú sa Inglés, dahil hindî ko pô masyádong maintindihán ang nása Tagálog?",
   "gloss": "「英語のメニューはありますか？タガログ語のはあまり理解できなくて。」（英語メニューの依頼）",
   "pos": "依頼",
   "root": "mayroon ba=ありますか／menu sa Ingles=英語のメニュー／hindi maintindihan=理解できない",
@@ -3979,11 +3979,11 @@
  },
  {
   "slotId": "food-37",
-  "headword": "Magandang araw po. Gusto ko po sanang magpareserba ng mesa para sa apat na katao, mga alas-siyete ng gabi.",
-  "reading": "Magandáng áraw pô. Gustó ko pô sánang magpareserbá ng mésa pára sa ápat na katáo, mga alas-siyéte ng gabí.",
-  "gloss": "「こんにちは。4名分、夜7時頃でテーブルを予約したいのですが。」（電話での予約依頼）",
+  "headword": "Gusto ko po sanang magpareserba ng mesa para sa apat na katao, mga alas-siyete ng gabi.",
+  "reading": "Gustó ko pô sánang magpareserbá ng mésa pára sa ápat na katáo, mga alas-siyéte ng gabí.",
+  "gloss": "「4名分、夜7時頃でテーブルを予約したいのですが。」（電話での予約依頼）",
   "pos": "依頼（予約）",
-  "root": "magandang araw=こんにちは／magpareserba ng mesa=テーブルを予約する／apat na katao=4人／alas-siyete ng gabi=夜7時",
+  "root": "magpareserba ng mesa=テーブルを予約する／apat na katao=4人／alas-siyete ng gabi=夜7時",
   "examples": [
    {
     "text": "Opo, sir/ma'am. Pangalan po ninyo at contact number para sa reservation?",
@@ -4015,8 +4015,8 @@
  },
  {
   "slotId": "food-39",
-  "headword": "Salamat po sa masarap na pagkain, aalis na po kami. Babalik pa po kami dito.",
-  "reading": "Salámat pô sa masaráp na pagkáin, áalis na pô kamí. Bábalik pa pô kamí dito.",
+  "headword": "Salamat po sa masarap na pagkain, aalis na po kami, babalik pa po kami dito.",
+  "reading": "Salámat pô sa masaráp na pagkáin, áalis na pô kamí, bábalik pa pô kamí dito.",
   "gloss": "「美味しいお食事ありがとうございました、失礼します。また来ますね。」（退店時の感謝の挨拶）",
   "pos": "感謝（退店時の挨拶）",
   "root": "salamat sa masarap na pagkain=美味しい食事に感謝／aalis na kami=もう帰ります／babalik pa kami=また戻ってきます",
@@ -4033,11 +4033,11 @@
  },
  {
   "slotId": "food-40",
-  "headword": "Ikaw, kaya mo ba ang maanghang? Ako kasi, sobrang hilig ko talaga sa maanghang.",
-  "reading": "Ikáw, káya mo ba ang maánghang? Akó kasí, sóbrang hílig ko talagá sa maánghang.",
-  "gloss": "「君、辛いもの平気？俺は辛いものすごく好きなんだよね。」（食の好みについての雑談）",
+  "headword": "Ikaw, kaya mo ba ang maanghang?",
+  "reading": "Ikáw, káya mo ba ang maánghang?",
+  "gloss": "「君、辛いもの平気？」（食の好みについての雑談）",
   "pos": "雑談（食の好み）",
-  "root": "kaya mo ba=あなたは大丈夫か／maanghang=辛い／hilig=好み・好きなこと",
+  "root": "kaya mo ba=あなたは大丈夫か／maanghang=辛い",
   "examples": [
    {
     "text": "Kaya ko naman, pero hindi masyado. Ikaw, hilig mo talaga 'no?",
@@ -4051,9 +4051,9 @@
  },
  {
   "slotId": "shopping-01",
-  "headword": "Kumusta! Titingin-tingin lang muna ako, ha?",
-  "reading": "Kumustá! Titingín-tingín lang múna akó, ha?",
-  "gloss": "「こんにちは！ちょっと見て回るだけですね。」（入店時の気さくな挨拶）",
+  "headword": "Kumusta, titingin-tingin lang muna ako, ha?",
+  "reading": "Kumustá, titingín-tingín lang múna akó, ha?",
+  "gloss": "「こんにちは、ちょっと見て回るだけですね。」（入店時の気さくな挨拶）",
   "pos": "挨拶（入店時）",
   "root": "kumusta=こんにちは／titingin-tingin lang=ちょっと見るだけ",
   "examples": [
@@ -4069,8 +4069,8 @@
  },
  {
   "slotId": "shopping-02",
-  "headword": "Mawalang-galang na po, magkano po ito? Wala kasi pong nakalagay na presyo.",
-  "reading": "Mawalâng-gálang na pô, magkáno pô itó? Walâ kasí pông nakalágay na présyo.",
+  "headword": "Mawalang-galang na po, magkano po ito, wala kasi pong nakalagay na presyo?",
+  "reading": "Mawalâng-gálang na pô, magkáno pô itó, walâ kasí pông nakalágay na présyo?",
   "gloss": "「すみません、これはいくらですか？値段が書いていないので。」（値段の確認）",
   "pos": "質問（値段）",
   "root": "mawalang-galang na po=失礼します／magkano=いくら／walang nakalagay na presyo=値段が書かれていない",
@@ -4141,8 +4141,8 @@
  },
  {
   "slotId": "shopping-06",
-  "headword": "Ate, puwede bang tawaran? Bigyan mo naman ako ng bawas, ha?",
-  "reading": "Ate, puwéde bang tawáran? Bigyán mo namán akó ng báwas, ha?",
+  "headword": "Ate, puwede bang tawaran, bigyan mo naman ako ng bawas, ha?",
+  "reading": "Ate, puwéde bang tawáran, bigyán mo namán akó ng báwas, ha?",
   "gloss": "「お姉さん、値切ってもいい？ちょっとまけてよ。」（値引き交渉）",
   "pos": "交渉（値引き交渉）",
   "root": "tawaran=値切る／bigyan ng bawas=値引きする",
@@ -4159,8 +4159,8 @@
  },
  {
   "slotId": "shopping-07",
-  "headword": "Naku, sobra pa rin. Wala na bang konting bawas pa diyan, Ate?",
-  "reading": "Nakú, sóbra pa rin. Walâ na bang kontîng báwas pa diyán, Ate?",
+  "headword": "Naku, sobra pa rin, wala na bang konting bawas pa diyan, Ate?",
+  "reading": "Nakú, sóbra pa rin, walâ na bang kontîng báwas pa diyán, Ate?",
   "gloss": "「うーん、まだちょっと高いな。もう少しだけまけてもらえない、お姉さん？」（追加の値引き交渉）",
   "pos": "交渉（追加の値引き）",
   "root": "sobra pa rin=まだ高い／konting bawas pa=もう少しの値引き",
@@ -4213,8 +4213,8 @@
  },
  {
   "slotId": "shopping-10",
-  "headword": "Puwede po ba akong makahingi ng resibo? Gagamitin ko po kasi ito sa aming opisina.",
-  "reading": "Puwéde pô ba akóng makahingî ng resíbo? Gágamitin ko pô kasí itó sa áming opisína.",
+  "headword": "Puwede po ba akong makahingi ng resibo, gagamitin ko po kasi ito sa aming opisina?",
+  "reading": "Puwéde pô ba akóng makahingî ng resíbo, gágamitin ko pô kasí itó sa áming opisína?",
   "gloss": "「レシートをいただけますか？会社で経費精算に使いますので。」（レシート発行の依頼）",
   "pos": "依頼（レシート発行）",
   "root": "makahingi ng resibo=レシートをもらう／gagamitin sa opisina=会社で使う",
@@ -4267,9 +4267,9 @@
  },
  {
   "slotId": "shopping-13",
-  "headword": "Alin sa mga ito ang pinakamaganda kaya? Ano sa tingin mo ang mas okay?",
-  "reading": "Alín sa mga itó ang pinakamagánda kayâ? Anó sa tingín mo ang mas okáy?",
-  "gloss": "「この中でどれが一番良さそう？あなたが見てどっちがいいと思う？」（おすすめの相談）",
+  "headword": "Alin sa mga ito ang pinakamaganda, sa tingin mo?",
+  "reading": "Alín sa mga itó ang pinakamagánda, sa tingín mo?",
+  "gloss": "「この中でどれが一番良さそうだと思う？」（おすすめの相談）",
   "pos": "依頼（おすすめの相談）",
   "root": "alin ang pinakamaganda=どれが一番良いか／sa tingin mo=あなたの意見では",
   "examples": [
@@ -4303,8 +4303,8 @@
  },
  {
   "slotId": "shopping-15",
-  "headword": "Mawalang-galang na po, may nakita po akong sira sa binili kong ito. Puwede po ba akong makahingi ng tulong?",
-  "reading": "Mawalâng-gálang na pô, may nakíta pô akóng sirà sa binilí kong itó. Puwéde pô ba akóng makahingî ng túlong?",
+  "headword": "Mawalang-galang na po, may nakita po akong sira sa binili kong ito, puwede po ba akong makahingi ng tulong?",
+  "reading": "Mawalâng-gálang na pô, may nakíta pô akóng sirà sa binilí kong itó, puwéde pô ba akóng makahingî ng túlong?",
   "gloss": "「すみません、購入したこちらの商品に不具合があるのを見つけました。対応をお願いできますか？」（不良品の報告）",
   "pos": "苦情（不良品の報告）",
   "root": "may sira=不具合がある／binili=購入したもの／makahingi ng tulong=助けを求める",
@@ -4339,9 +4339,9 @@
  },
  {
   "slotId": "shopping-17",
-  "headword": "Manang, pabili nga ng kalahating kilong bigas at isang lata ng sardinas. Tahimik ata dito ngayon, ano?",
-  "reading": "Manáng, pabili ngâ ng kalaháting kílong bígas at isang láta ng sardínas. Tahímik atâ díto ngayón, anó?",
-  "gloss": "おばさん、お米半キロとイワシ缶を1つください。（サリサリストアで軽い世間話を交えながら買い物）今日はここ静かだね？",
+  "headword": "Manang, pabili nga ng kalahating kilong bigas at isang lata ng sardinas, tahimik ata dito ngayon, ano?",
+  "reading": "Manáng, pabili ngâ ng kalaháting kílong bígas at isang láta ng sardínas, tahímik atâ díto ngayón, anó?",
+  "gloss": "「おばさん、お米半キロとイワシ缶を1つください。今日はここ静かだね？」（サリサリストアでの買い物と軽い世間話）",
   "pos": "依頼（サリサリストアでの買い物）",
   "root": "pabili=～をください／kalahating kilo=半キロ／bigas=米／lata ng sardinas=イワシ缶／tahimik=静か",
   "examples": [
@@ -4357,9 +4357,9 @@
  },
  {
   "slotId": "shopping-18",
-  "headword": "Manong, pili ka nga ng pinakasariwa diyan, ha? Panggulay ko kasi mamaya.",
-  "reading": "Manóng, píli ka ngâ ng pinakasaríwa diyán, ha? Panggúlay ko kasi mamayâ.",
-  "gloss": "お兄さん、その中で一番新鮮なのを選んでもらえる？後で料理に使うんだ。（市場で売り子に新鮮な食材を選んでもらう）",
+  "headword": "Manong, pili ka nga ng pinakasariwa diyan, panggulay ko kasi mamaya, ha?",
+  "reading": "Manóng, píli ka ngâ ng pinakasaríwa diyán, panggúlay ko kasi mamayâ, ha?",
+  "gloss": "「お兄さん、その中で一番新鮮なのを選んでもらえる？後で料理に使うんだ。」（市場で新鮮な食材を選んでもらう依頼）",
   "pos": "依頼（新鮮な品の見繕い）",
   "root": "pili=選ぶ／pinakasariwa=一番新鮮な／panggulay=料理用（おかず用）",
   "examples": [
@@ -4411,9 +4411,9 @@
  },
  {
   "slotId": "shopping-21",
-  "headword": "Pwede po bang ilagay muna ninyo sa tabi ito? Babalikan ko na lang po mamaya.",
-  "reading": "Puwéde po bang ilagáy muna ninyo sa tabí ito? Babalikán ko na lang po mamayâ.",
-  "gloss": "これ、少し脇に置いて取り置きしてもらえますか？後でまた取りに来ます。（商品の取り置きを依頼）",
+  "headword": "Pwede po bang ilagay muna ninyo sa tabi ito, babalikan ko na lang po mamaya?",
+  "reading": "Puwéde po bang ilagáy muna ninyo sa tabí ito, babalikán ko na lang po mamayâ?",
+  "gloss": "「これ、少し脇に置いて取り置きしてもらえますか？後でまた取りに来ます。」（商品の取り置きの依頼）",
   "pos": "依頼（商品の取り置き）",
   "root": "ilagay sa tabi=脇に置いておく（取り置き）／babalikan=戻ってくる",
   "examples": [
@@ -4447,9 +4447,9 @@
  },
  {
   "slotId": "shopping-23",
-  "headword": "Manong, magkano kung ako lang ang sasakay hanggang sa mall? Tatawaran kita ng singkwenta.",
-  "reading": "Manóng, magkáno kung ako lang ang sasakáy hanggáng sa mall? Tatawarán kita ng singkwénta.",
-  "gloss": "運転手さん、モールまで貸切だといくら？50ペソでどうかと持ちかけてみるね。（トライシクル運転手と特別便の運賃交渉）",
+  "headword": "Manong, magkano kung ako lang ang sasakay hanggang sa mall, tatawaran kita ng singkwenta?",
+  "reading": "Manóng, magkáno kung ako lang ang sasakáy hanggáng sa mall, tatawarán kita ng singkwénta?",
+  "gloss": "「運転手さん、モールまで貸切だといくら？50ペソでどうかと持ちかけてみるね。」（トライシクル運転手との運賃交渉）",
   "pos": "交渉（運賃交渉）",
   "root": "sasakay=乗る／hanggang sa=～まで／tatawaran=（金額を）持ちかける／singkwenta=50",
   "examples": [
@@ -4459,7 +4459,7 @@
    },
    {
     "text": "Manong, magkano po kung special po ako hanggang sa mall?",
-    "translation": "運転手さん、モールまで貸切だといくらになりますか？"
+    "translation": "運転手さん、モールまで貸切だといくらになりますか？（丁寧な言い方）"
    }
   ]
  },
@@ -4483,9 +4483,9 @@
  },
  {
   "slotId": "shopping-25",
-  "headword": "Kuya, puwede bang maghintay ka lang dito nang sampung minuto? Bibili lang ako ng konti.",
-  "reading": "Kuya, puwéde bang maghintáy ka lang díto nang sampûng minúto? Bíbili lang ako ng kontî.",
-  "gloss": "運転手さん、ここで10分くらい待っててもらえる？ちょっと買い物してくるだけだから。（Grab運転手に待機を依頼）",
+  "headword": "Kuya, puwede bang maghintay ka lang dito nang sampung minuto, bibili lang ako ng konti?",
+  "reading": "Kuya, puwéde bang maghintáy ka lang díto nang sampûng minúto, bíbili lang ako ng kontî?",
+  "gloss": "「運転手さん、ここで10分くらい待っててもらえる？ちょっと買い物してくるだけだから。」（Grab運転手への待機の依頼）",
   "pos": "依頼（待機のお願い）",
   "root": "maghintay=待つ／sampung minuto=10分／bibili=買う",
   "examples": [
@@ -4501,9 +4501,9 @@
  },
  {
   "slotId": "shopping-26",
-  "headword": "Ate, pwede bang hindi masyadong maanghang? Konti lang ang sili.",
-  "reading": "Ate, puwéde bang hindî masyádong maangháng? Kontî lang ang síli.",
-  "gloss": "お姉さん、あんまり辛くしないでもらえる？唐辛子少なめで。（屋台で辛さ調整を確認）",
+  "headword": "Ate, pwede bang hindi masyadong maanghang, konti lang ang sili?",
+  "reading": "Ate, puwéde bang hindî masyádong maangháng, kontî lang ang síli?",
+  "gloss": "「お姉さん、あんまり辛くしないでもらえる？唐辛子少なめで。」（屋台で辛さの調整を確認）",
   "pos": "質問（辛さの調整）",
   "root": "maanghang=辛い／sili=唐辛子／konti=少し",
   "examples": [
@@ -4555,9 +4555,9 @@
  },
  {
   "slotId": "shopping-29",
-  "headword": "Kumusta po, gusto ko lang pong itanong kung bakit natagalan ang paghahatid ng order ko. Hindi pa po kasi dumarating.",
-  "reading": "Kumustá po, gustó ko lang pong itanóng kung bakit natagalán ang paghahatíd ng order ko. Hindî pa po kasi dumaratíng.",
-  "gloss": "こんにちは。注文した商品の到着がなぜ遅れているのか伺いたいのですが。まだ届いていないので。（配送状況の催促確認）",
+  "headword": "Kumusta po, gusto ko lang pong itanong kung bakit natagalan ang paghahatid ng order ko, hindi pa po kasi dumarating.",
+  "reading": "Kumustá po, gustó ko lang pong itanóng kung bakit natagalán ang paghahatíd ng order ko, hindî pa po kasi dumaratíng.",
+  "gloss": "「こんにちは。注文した商品の到着がなぜ遅れているのか伺いたいのですが。まだ届いていないので。」（配送状況の催促確認）",
   "pos": "催促（配送状況の確認）",
   "root": "natagalan=時間がかかった／paghahatid=配送／dumarating=届く",
   "examples": [
@@ -4591,9 +4591,9 @@
  },
  {
   "slotId": "shopping-31",
-  "headword": "Miss, gusto ko lang po sanang ipapalit ito. Mali po kasi ang sukat, kailangan ko po ng mas malaki.",
-  "reading": "Miss, gustó ko lang po sanáng ipapalít ito. Malî po kasi ang súkat, kailángan ko po ng mas malakí.",
-  "gloss": "すみません、これを交換していただきたいのですが。サイズが合わなかったので、もう少し大きいものが欲しいです。（サイズ違いの交換依頼）",
+  "headword": "Miss, gusto ko lang po sanang ipapalit ito, mali po kasi ang sukat, kailangan ko po ng mas malaki.",
+  "reading": "Miss, gustó ko lang po sanáng ipapalít ito, malî po kasi ang súkat, kailángan ko po ng mas malakí.",
+  "gloss": "「すみません、これを交換していただきたいのですが。サイズが合わなかったので、もう少し大きいものが欲しいです。」（サイズ違いの交換依頼）",
   "pos": "依頼（サイズ違いの交換）",
   "root": "ipapalit=交換してもらう／sukat=サイズ／mas malaki=もっと大きい",
   "examples": [
@@ -4627,9 +4627,9 @@
  },
  {
   "slotId": "shopping-33",
-  "headword": "Manang, pwede po bang paikliin ang laylayan ng pantalon na ito? Kailan po kaya ito matatapos?",
-  "reading": "Manáng, puwéde po bang paikliín ang laylayán ng pantalón na ito? Kailán po kaya ito matatápos?",
-  "gloss": "おばさん、このズボンの裾を短くしてもらえますか？いつ頃仕上がりますか？（仕立て屋への裾上げ依頼と仕上がり確認）",
+  "headword": "Manang, pwede po bang paikliin ang laylayan ng pantalon na ito, at kailan po kaya ito matatapos?",
+  "reading": "Manáng, puwéde po bang paikliín ang laylayán ng pantalón na ito, at kailán po kaya ito matatápos?",
+  "gloss": "「おばさん、このズボンの裾を短くしてもらえますか、いつ頃仕上がりますか？」（仕立て屋への裾上げ依頼と仕上がり確認）",
   "pos": "依頼（お直し）",
   "root": "paikliin=短くする／laylayan=裾／pantalon=ズボン／matatapos=仕上がる",
   "examples": [
@@ -4663,11 +4663,11 @@
  },
  {
   "slotId": "shopping-35",
-  "headword": "Manang, kumusta na? Dumaan lang ako para kamustahin ka, wala pa kasi akong bibilhin ngayon.",
-  "reading": "Manáng, kumustá na? Dumaán lang ako para kamustahín ka, walâ pa kasi akong bíbilhín ngayón.",
-  "gloss": "おばさん、元気？買うものはまだないんだけど、様子を見に立ち寄っただけだよ。（行きつけの市場の売り子との世間話）",
+  "headword": "Manang, dumaan lang ako para kamustahin ka, wala pa kasi akong bibilhin ngayon.",
+  "reading": "Manáng, dumaán lang ako para kamustahín ka, walâ pa kasi akong bíbilhín ngayón.",
+  "gloss": "「おばさん、買うものはまだないんだけど、様子を見に立ち寄っただけだよ。」（行きつけの市場の売り子との世間話）",
   "pos": "雑談（顔なじみとの世間話）",
-  "root": "kumusta=元気？／dumaan=立ち寄る／kamustahin=様子を尋ねる",
+  "root": "dumaan=立ち寄る／kamustahin=様子を尋ねる",
   "examples": [
    {
     "text": "Ay, ikaw pala! Mabuti naman, tuloy-tuloy pa rin ang benta dito.",
@@ -4717,9 +4717,9 @@
  },
  {
   "slotId": "shopping-38",
-  "headword": "Wala akong member card. Kailangan ko ba talaga niyan para makabili?",
-  "reading": "Walâ akong member card. Kailángan ko ba talaga niyán para makabilí?",
-  "gloss": "会員カード持ってないんだけど、それがないと本当に買えないの？（会計時に会員カードの有無を尋ねられた際の返答）",
+  "headword": "Wala akong member card, kailangan ko ba talaga niyan para makabili?",
+  "reading": "Walâ akong member card, kailángan ko ba talaga niyán para makabilí?",
+  "gloss": "「会員カード持ってないんだけど、それがないと本当に買えないの？」（会計時の会員カードの確認）",
   "pos": "質問（会員カードの確認）",
   "root": "member card=会員カード／kailangan=必要／makabili=買える",
   "examples": [
@@ -4729,7 +4729,7 @@
    },
    {
     "text": "Wala po akong member card, kailangan ko po ba talaga niyan para makabili?",
-    "translation": "会員カードは持っていないのですが、購入するのに本当に必要でしょうか？"
+    "translation": "会員カードは持っていないのですが、購入するのに本当に必要でしょうか？（丁寧な言い方）"
    }
   ]
  },
@@ -4753,9 +4753,9 @@
  },
  {
   "slotId": "shopping-40",
-  "headword": "Miss, pwede po bang patatakan ang parking ticket ko? Bumili po kasi ako dito.",
-  "reading": "Miss, puwéde po bang patatakán ang parking ticket ko? Bumilí po kasi ako dito.",
-  "gloss": "すみません、駐車券にスタンプを押してもらえますか？ここで買い物したので。（駐車料金の割引・無料化のための購入証明スタンプ依頼）",
+  "headword": "Miss, pwede po bang patatakan ang parking ticket ko, bumili po kasi ako dito?",
+  "reading": "Miss, puwéde po bang patatakán ang parking ticket ko, bumilí po kasi ako dito?",
+  "gloss": "「すみません、駐車券にスタンプを押してもらえますか？ここで買い物したので。」（駐車券の認証依頼）",
   "pos": "依頼（駐車券の認証）",
   "root": "patatakan=スタンプを押してもらう／parking ticket=駐車券／bumili=買う",
   "examples": [
@@ -4825,9 +4825,9 @@
  },
  {
   "slotId": "transport-04",
-  "headword": "Kuya, medyo mahuhuli na po ako sa miting. Puwede po bang bilisan nang kaunti, pero mag-ingat lang po tayo?",
-  "reading": "Kuya, medyo mahuhulí na po ako sa miting. Puwéde po bang bilisán nang kauntî, pero mag-íngat lang po tayo?",
-  "gloss": "運転手さん、会議に少し遅れそうです。安全運転を保ちつつ少し急いでもらえますか？（遅刻しそうな状況で丁寧に急ぎを依頼）",
+  "headword": "Kuya, medyo mahuhuli na po ako sa miting, puwede po bang bilisan nang kaunti, pero mag-ingat lang po tayo?",
+  "reading": "Kuya, medyo mahuhulí na po ako sa miting, puwéde po bang bilisán nang kauntî, pero mag-íngat lang po tayo?",
+  "gloss": "「運転手さん、会議に少し遅れそうです。安全運転を保ちつつ少し急いでもらえますか？」（遅刻しそうな状況での丁寧な急ぎの依頼）",
   "pos": "依頼（急ぎ）",
   "root": "mahuhuli=遅れそう／miting=会議／bilisan=急ぐ・速める／mag-ingat=気をつける",
   "examples": [
@@ -4843,9 +4843,9 @@
  },
  {
   "slotId": "transport-05",
-  "headword": "Kuya, puwede po ba tayong dumaan muna sa 7-Eleven? Sandali lang po, bibili lang ako ng konti.",
-  "reading": "Kuya, puwéde po ba tayong dumaán muna sa 7-Eleven? Sandalî lang po, bíbili lang ako ng kontî.",
-  "gloss": "運転手さん、途中でセブンイレブンに寄ってもらえますか？少しだけ買い物します。（目的地へ向かう途中の短時間の立ち寄り依頼）",
+  "headword": "Kuya, puwede po ba tayong dumaan muna sa 7-Eleven, sandali lang po, bibili lang ako ng konti?",
+  "reading": "Kuya, puwéde po ba tayong dumaán muna sa 7-Eleven, sandalî lang po, bíbili lang ako ng kontî?",
+  "gloss": "「運転手さん、途中でセブンイレブンに寄ってもらえますか？少しだけ買い物します。」（目的地へ向かう途中の短時間の立ち寄り依頼）",
   "pos": "依頼（途中停車）",
   "root": "dumaan=立ち寄る／sandali lang=少しの間／bibili=買う",
   "examples": [
@@ -4861,9 +4861,9 @@
  },
  {
   "slotId": "transport-06",
-  "headword": "Kuya, pwede po bang babaan ang temperatura ng aircon? Medyo mainit po dito sa loob.",
-  "reading": "Kúya, pwéde pô bang babaán ang temperatúra ng aircon? Médyo maínit pô díto sa loób.",
-  "gloss": "運転手さん、エアコンの温度を下げてもらえますか？車内が少し暑いので（丁寧な依頼）",
+  "headword": "Kuya, pwede po bang babaan ang temperatura ng aircon, medyo mainit po dito sa loob?",
+  "reading": "Kúya, pwéde pô bang babaán ang temperatúra ng aircon, médyo maínit pô díto sa loób?",
+  "gloss": "「運転手さん、エアコンの温度を下げてもらえますか？車内が少し暑いので。」（丁寧な依頼）",
   "pos": "依頼（丁寧）",
   "root": "pwede=できる／babaan=下げる（baba+an）／temperatura=温度／aircon=エアコン／mainit=暑い／loob=中",
   "examples": [
@@ -4879,9 +4879,9 @@
  },
  {
   "slotId": "transport-07",
-  "headword": "Salamat po, kuya. Heto po ang bayad, sa inyo na po ang sukli.",
-  "reading": "Salámat pô, kúya. Héto pô ang báyad, sa inyó na pô ang súkli.",
-  "gloss": "ありがとうございます、運転手さん。こちらが運賃です、お釣りは取っておいてください（気持ちよく降りる際の一言）",
+  "headword": "Salamat po, kuya, heto po ang bayad, sa inyo na po ang sukli.",
+  "reading": "Salámat pô, kúya, héto pô ang báyad, sa inyó na pô ang súkli.",
+  "gloss": "「ありがとうございます、運転手さん。こちらが運賃です、お釣りは取っておいてください。」（気持ちよく降りる際の感謝と支払い）",
   "pos": "感謝・支払い（丁寧）",
   "root": "salamat=ありがとう／bayad=支払い／sukli=お釣り／inyo=あなた（丁寧複数形）",
   "examples": [
@@ -4933,11 +4933,11 @@
  },
  {
   "slotId": "transport-10",
-  "headword": "Hello po, nasa harapan po ako ng gusali, sa tabi ng puting geyt. Nakasuot po ako ng pulang dyaket.",
-  "reading": "Hello pô, nása harapán pô akó ng gusáli, sa tabí ng putîng geyt. Nakasuót pô akó ng puláng dyáket.",
-  "gloss": "もしもし、私は建物の正面、白いゲートの横にいます。赤いジャケットを着ています（Grab運転手と合流するための電話案内）",
+  "headword": "Nasa harapan po ako ng gusali sa tabi ng puting geyt, at nakasuot po ako ng pulang dyaket.",
+  "reading": "Nása harapán pô akó ng gusáli sa tabí ng putîng geyt, at nakasuót pô akó ng puláng dyáket.",
+  "gloss": "私は白いゲートの横、建物の正面にいます。赤いジャケットを着ています（Grab運転手へ場所と目印を伝える案内）",
   "pos": "説明（電話・丁寧）",
-  "root": "harapan=正面／gusali=建物／geyt=ゲート／nakasuot=着ている／dyaket=ジャケット",
+  "root": "harapan=正面／gusali=建物／geyt=ゲート／nakasuot=着ている（←suot）／dyaket=ジャケット",
   "examples": [
    {
     "text": "Sige po, andiyan na po ako, konting minuto na lang.",
@@ -4951,11 +4951,11 @@
  },
  {
   "slotId": "transport-11",
-  "headword": "Mawalang-galang na po, nawawala po ako. Paano po ba pumunta sa palengke mula rito?",
-  "reading": "Mawaláng-gálang na pô, nawáwalâ pô akó. Paáno pô ba pumuntá sa pálengke mulâ ríto?",
-  "gloss": "すみません、道に迷ってしまいました。ここから市場へはどう行けばいいですか？（通行人への丁寧な道案内の依頼）",
+  "headword": "Mawalang-galang na po, paano po ba pumunta sa palengke mula rito?",
+  "reading": "Mawaláng-gálang na pô, paáno pô ba pumuntá sa pálengke mulâ ríto?",
+  "gloss": "すみません、ここから市場へはどう行けばいいですか？（通行人への丁寧な道案内の依頼）",
   "pos": "質問（丁寧）",
-  "root": "mawalang-galang=失礼します（前置き）／nawawala=迷っている／paano=どうやって／palengke=市場",
+  "root": "mawalang-galang=失礼します（前置き）／paano=どうやって／pumunta=行く（←punta）／palengke=市場",
   "examples": [
    {
     "text": "Ay, diretso lang po kayo dito, tapos kumaliwa sa kanto.",
@@ -4969,11 +4969,11 @@
  },
  {
   "slotId": "transport-12",
-  "headword": "Mawalang-galang na po, saan po ba ang pinakamalapit na istasyon ng MRT dito? Malayo po ba kung lakarin?",
-  "reading": "Mawaláng-gálang na pô, saán pô ba ang pinakamalápit na istasyón ng MRT díto? Maláyo pô ba kung lakárin?",
-  "gloss": "すみません、この近くで一番近いMRTの駅はどこですか？歩くと遠いですか？（駅までの道案内確認）",
+  "headword": "Mawalang-galang na po, malayo po ba kung lakarin papunta sa pinakamalapit na istasyon ng MRT mula rito?",
+  "reading": "Mawaláng-gálang na pô, maláyo pô ba kung lakárin papuntá sa pinakamalápit na istasyón ng MRT mulâ ríto?",
+  "gloss": "すみません、ここから一番近いMRT駅まで歩くと遠いですか？（駅までの道案内確認）",
   "pos": "質問（丁寧）",
-  "root": "pinakamalapit=一番近い／istasyon=駅／malayo=遠い／lakarin=歩いて行く",
+  "root": "malayo=遠い／lakarin=歩いて行く（←lakad）／pinakamalapit=一番近い／istasyon=駅",
   "examples": [
    {
     "text": "Malapit lang po, mga limang minuto lakad papunta doon.",
@@ -4987,11 +4987,11 @@
  },
  {
   "slotId": "transport-13",
-  "headword": "Pasensya na, alam mo ba kung anong jeep ang dumadaan papuntang Ayala? Saan ang sakayan?",
-  "reading": "Pasénsya na, álam mo ba kung anóng jeep ang dumadaán papuntáng Ayala? Saán ang sakáyan?",
-  "gloss": "すみません、Ayala方面へ行くジプニーはどの系統かご存知ですか？乗り場はどこですか？（中立的な聞き方）",
+  "headword": "Pasensya na, alam mo ba kung saan ako sasakay ng jeep na papuntang Ayala?",
+  "reading": "Pasénsya na, álam mo ba kung saán akó sasakáy ng jeep na papuntáng Ayala?",
+  "gloss": "すみません、Ayala方面へ行くジプニーにどこで乗ればいいかご存知ですか？（中立的な聞き方）",
   "pos": "質問（中立）",
-  "root": "jeep=ジプニー／dumadaan=通っている／sakayan=乗り場",
+  "root": "jeep=ジプニー／sasakay=乗る（←sakay）／papunta=〜へ向かう",
   "examples": [
    {
     "text": "Ah, yung may sign na 'Ayala' diyan, doon ka lang sa kanto sumakay.",
@@ -5023,33 +5023,29 @@
  },
  {
   "slotId": "transport-15",
-  "headword": "Uy, ang siksikan pa ba ng tren ngayon? Baka maghintay muna ako.",
-  "reading": "Uy, ang siksíkan pa ba ng tren ngayón? Baka maghintáy múna akó.",
-  "gloss": "ねえ、今電車まだ混んでる？ちょっと待とうかな（ラッシュ時の混雑確認・カジュアル）",
+  "headword": "Uy, ang siksikan pa ba ng tren ngayon?",
+  "reading": "Uy, ang siksíkan pa ba ng tren ngayón?",
+  "gloss": "ねえ、今電車まだ混んでる？（ラッシュ時の混雑確認・カジュアル）",
   "pos": "質問（カジュアル）",
-  "root": "siksikan=混雑／tren=電車／maghintay=待つ",
+  "root": "siksikan=混雑／tren=電車",
   "examples": [
    {
     "text": "Oo, ang sikip pa rin. Mas mabuti maghintay ka ng susunod.",
     "translation": "うん、まだぎゅうぎゅう。次の便を待ったほうがいいよ。"
    },
    {
-    "text": "Masikip pa ba ang byahe ngayon? Baka maghintay muna ako ng ilang minuto.",
-    "translation": "今まだ混んでる？数分待とうかな（中立的な言い換え）"
-   },
-   {
-    "text": "Kuya/Ate, ang siksikan pa po ba ng tren ngayon? Baka po maghintay muna ako.",
-    "translation": "すみません、今電車まだ混んでいますか？少し待とうかと思います。（駅員向けの丁寧な言い方）"
+    "text": "Masikip pa ba ang byahe ngayon?",
+    "translation": "今まだ混んでる？（中立的な言い換え）"
    }
   ]
  },
  {
   "slotId": "transport-16",
-  "headword": "Kuya, pwede po ba ninyo akong sabihan pag-abot namin sa may simbahan? Baka po kasi hindi ko mapansin.",
-  "reading": "Kúya, pwéde pô ba ninyó akóng sabihán pag-abót námin sa may simbáhan? Baka pô kasí hindî ko mapansín.",
-  "gloss": "運転手さん、教会の近くに着いたら教えてもらえますか？気づかないかもしれないので（降車場所の見落とし防止の依頼）",
+  "headword": "Kuya, pwede po ba ninyo akong sabihan pag-abot namin sa may simbahan?",
+  "reading": "Kúya, pwéde pô ba ninyó akóng sabihán pag-abót námin sa may simbáhan?",
+  "gloss": "運転手さん、教会の近くに着いたら教えてもらえますか？（降車場所の見落とし防止の依頼）",
   "pos": "依頼（丁寧）",
-  "root": "sabihan=教える／伝える／pag-abot=到着すること／mapansin=気づく",
+  "root": "sabihan=教える（←sabi）／pag-abot=到着すること／simbahan=教会",
   "examples": [
    {
     "text": "Sige po, sasabihin ko po sa inyo pagdating doon.",
@@ -5063,9 +5059,9 @@
  },
  {
   "slotId": "transport-17",
-  "headword": "Mawalang-galang na po, saan po ba ang daan papunta sa ikalimang palapag? May appointment po kasi ako roon.",
-  "reading": "Mawaláng-gálang na pô, saán pô ba ang daán papuntá sa ikalimáng pálapag? May appointment pô kasí akó roón.",
-  "gloss": "すみません、5階へはどう行けばいいですか？そこで約束があるので（訪問先ビルでの警備員への道案内確認）",
+  "headword": "Mawalang-galang na po, saan po ba ang daan papunta sa ikalimang palapag?",
+  "reading": "Mawaláng-gálang na pô, saán pô ba ang daán papuntá sa ikalimáng pálapag?",
+  "gloss": "すみません、5階へはどう行けばいいですか？（訪問先ビルでの警備員への道案内確認）",
   "pos": "質問（丁寧）",
   "root": "daan=道／palapag=階／ikalima=5番目の",
   "examples": [
@@ -5081,11 +5077,11 @@
  },
  {
   "slotId": "transport-18",
-  "headword": "Mawalang-galang na po, may paradahan po ba rito na puwede kong gamitin? Saan po ba ako dapat magparada?",
-  "reading": "Mawaláng-gálang na pô, may paradáhan pô ba ríto na puwéde kong gamítin? Saán pô ba akó dápat magparáda?",
-  "gloss": "すみません、ここに使える駐車場はありますか？どこに停めればいいですか？（警備員への駐車確認）",
+  "headword": "Mawalang-galang na po, saan po ba ako puwedeng magparada rito?",
+  "reading": "Mawaláng-gálang na pô, saán pô ba akó puwédeng magparáda ríto?",
+  "gloss": "すみません、ここのどこに駐車すればいいですか？（警備員への駐車確認）",
   "pos": "質問（丁寧）",
-  "root": "paradahan=駐車場／magparada=駐車する",
+  "root": "magparada=駐車する（←parada）",
   "examples": [
    {
     "text": "Opo, doon po sa likod ng gusali, may bakante pa pong espasyo.",
@@ -5099,11 +5095,11 @@
  },
  {
   "slotId": "transport-19",
-  "headword": "Pauwi ka rin ba sa direksyon namin? Pwede bang isabay mo na lang ako?",
-  "reading": "Paúwi ka rin ba sa direksyón námin? Pwéde bang isabáy mo na lang akó?",
-  "gloss": "そっち方面、うちの近くまで帰るの？ついでに乗せてってもらえる？（同僚への気軽な相乗り依頼）",
+  "headword": "Pwede bang isabay mo na lang ako, kasi pauwi ka rin sa direksyon namin?",
+  "reading": "Pwéde bang isabáy mo na lang akó, kasí paúwi ka rin sa direksyón námin?",
+  "gloss": "ついでに乗せてってもらえる？そっちも私たちの方向へ帰るみたいだから（同僚への気軽な相乗り依頼）",
   "pos": "依頼（カジュアル）",
-  "root": "pauwi=帰る途中／direksyon=方向／isabay=一緒に連れて行く",
+  "root": "isabay=一緒に連れて行く／pauwi=帰る途中／direksyon=方向",
   "examples": [
    {
     "text": "Sure, diretso naman ako dun. Sabay na tayo.",
@@ -5135,9 +5131,9 @@
  },
  {
   "slotId": "transport-21",
-  "headword": "Magandang umaga po. Paumanhin po, pero naiipit po ako sa trapik ngayon, medyo mahuhuli po ako sa oras.",
-  "reading": "Magandáng umága pô. Paumánhin pô, péro naiipít pô akó sa trápik ngayón, médyo mahuhúli pô akó sa óras.",
-  "gloss": "おはようございます。申し訳ありませんが、今渋滞にはまっていて、少し遅刻しそうです（事前の遅刻連絡）",
+  "headword": "Paumanhin po, pero naiipit po ako sa trapik ngayon, medyo mahuhuli po ako sa oras.",
+  "reading": "Paumánhin pô, péro naiipít pô akó sa trápik ngayón, médyo mahuhúli pô akó sa óras.",
+  "gloss": "申し訳ありませんが、今渋滞にはまっていて、少し遅刻しそうです（事前の遅刻連絡）",
   "pos": "報告（丁寧）",
   "root": "naiipit=はまっている／trapik=渋滞／mahuli=遅れる",
   "examples": [
@@ -5153,26 +5149,26 @@
  },
  {
   "slotId": "transport-22",
-  "headword": "Pare, malapit ka rin pala sa amin ngayon. Ano ang pinakamabilis na paraan pumunta ng opisina galing diyan?",
-  "reading": "Páre, malapít ka rin pala sa ámin ngayón. Anó ang pinakamabilís na paraán pumuntá ng opisína galíng diyán?",
-  "gloss": "そういえば、君もうちの近くに住んでいるんだね。そこからオフィスまでの一番早い行き方は？（通勤経験者への相談）",
+  "headword": "Pare, ano ang pinakamabilis na paraan pumunta ng opisina galing sa inyo?",
+  "reading": "Páre, anó ang pinakamabilís na paraán pumuntá ng opisína galíng sa inyó?",
+  "gloss": "そこ（あなたの家）からオフィスまでの一番早い行き方は？（通勤経験者への相談）",
   "pos": "質問（カジュアル）",
-  "root": "malapit=近い／pinakamabilis=一番速い／paraan=方法／galing=〜から",
+  "root": "pinakamabilis=一番速い／paraan=方法／galing=〜から",
   "examples": [
    {
     "text": "Ako, sumasakay ako ng MRT tapos jeep na lang, mabilis yun.",
     "translation": "私はMRTに乗ってから、ジプニーに乗り換えるよ。それが速い。"
    },
    {
-    "text": "Ikaw nga pala, malapit ka rin sa amin ngayon. Ano kaya ang pinakamainam na sasakyan papunta ng opisina galing diyan?",
-    "translation": "そういえば君もうちの近くに住んでるんだね。そこからオフィスまで一番良い交通手段は何かな（言い換え）"
+    "text": "Ano kaya ang pinakamainam na sasakyan papunta ng opisina galing sa inyo?",
+    "translation": "そこからオフィスまで一番良い交通手段は何かな（言い換え）"
    }
   ]
  },
  {
   "slotId": "transport-23",
-  "headword": "May baha pa ba dun sa labas? Tumatakbo pa ba ang mga sasakyan?",
-  "reading": "May bahâ pa ba doón sa labás? Tumatakbó pa ba ang mga sasakyán?",
+  "headword": "May baha pa ba sa labas at tumatakbo pa ba ang mga sasakyan?",
+  "reading": "May bahâ pa ba sa labás at tumatakbó pa ba ang mga sasakyán?",
   "gloss": "外はまだ冠水してる？交通機関はまだ動いてる？（台風後の状況確認）",
   "pos": "質問（中立）",
   "root": "baha=洪水／tumatakbo=走っている（動いている）",
@@ -5189,9 +5185,9 @@
  },
  {
   "slotId": "transport-24",
-  "headword": "Magandang araw po. Pwede po bang malaman ang oras ng byahe ng shuttle bus ng kumpanya, at saan po ang sakayan?",
-  "reading": "Magandáng áraw pô. Pwéde pô bang malamán ang óras ng byáhe ng shuttle bus ng kumpanyá, at saán pô ang sakáyan?",
-  "gloss": "こんにちは。会社のシャトルバスの発着時刻と、乗り場の場所を教えていただけますか？（総務担当への制度確認）",
+  "headword": "Pwede po bang malaman ang oras ng byahe ng shuttle bus ng kumpanya, at saan po ang sakayan?",
+  "reading": "Pwéde pô bang malamán ang óras ng byáhe ng shuttle bus ng kumpanyá, at saán pô ang sakáyan?",
+  "gloss": "会社のシャトルバスの発着時刻と、乗り場の場所を教えていただけますか？（総務担当への制度確認）",
   "pos": "質問（丁寧）",
   "root": "byahe=運行・便／sakayan=乗り場／kumpanya=会社",
   "examples": [
@@ -5207,9 +5203,9 @@
  },
  {
   "slotId": "transport-25",
-  "headword": "Kuya, paumanhin po, medyo mahuhuli po ako nang ilang minuto. Pwede po ba kayong maghintay saglit?",
-  "reading": "Kúya, paumánhin pô, médyo mahuhúli pô akó nang ilán minúto. Pwéde pô ba kayóng maghintáy saglít?",
-  "gloss": "運転手さん、すみません、数分遅れそうです。少し待っていただけますか？（シャトル出発待機の依頼）",
+  "headword": "Kuya, pwede po ba kayong maghintay saglit, kasi medyo mahuhuli po ako nang ilang minuto?",
+  "reading": "Kúya, pwéde pô ba kayóng maghintáy saglít, kasí médyo mahuhúli pô akó nang ilán minúto?",
+  "gloss": "運転手さん、少し待っていただけますか？数分遅れそうなので（シャトル出発待機の依頼）",
   "pos": "依頼（丁寧）",
   "root": "mahuli=遅れる／maghintay=待つ／saglit=少しの間",
   "examples": [
@@ -5261,11 +5257,11 @@
  },
  {
   "slotId": "transport-28",
-  "headword": "Para po sa unang araw niyo, bumaba lang po kayo sa istasyon ng MRT, tapos maglakad po kayo nang mga limang minuto. Makikita niyo po ang gusali namin sa tapat ng bangko.",
-  "reading": "Para pô sa únang áraw ninyó, bumabâ lang pô kayó sa istasyón ng MRT, tápos maglakád pô kayó nang mga limáng minúto. Makikíta ninyó pô ang gusáli námin sa tapát ng bángko.",
-  "gloss": "初出社日は、MRTの駅で降りて、そこから徒歩5分ほど歩いてください。銀行の向かいに弊社のビルが見えます（内定者への道案内説明）",
+  "headword": "Bumaba lang po kayo sa istasyon ng MRT, at makikita niyo na po ang gusali namin sa tapat ng bangko.",
+  "reading": "Bumabâ lang pô kayó sa istasyón ng MRT, at makikíta ninyó na pô ang gusáli námin sa tapát ng bángko.",
+  "gloss": "MRTの駅で降りれば、銀行の向かいに弊社のビルが見えます（内定者への道案内説明）",
   "pos": "説明（丁寧）",
-  "root": "istasyon=駅／maglakad=歩く／gusali=建物／bangko=銀行",
+  "root": "istasyon=駅／gusali=建物／bangko=銀行／tapat=向かい",
   "examples": [
    {
     "text": "Salamat po sa detalye, mas madali na po akong makakapunta.",
@@ -5279,9 +5275,9 @@
  },
  {
   "slotId": "transport-29",
-  "headword": "Magandang araw po. Gusto ko po sanang magpareserba ng sasakyan para sunduin ang isang bisita namin sa airport.",
-  "reading": "Magandáng áraw pô. Gustó ko pô sánang magpareserbá ng sasakyán pára sundúin ang isáng bisíta námin sa airport.",
-  "gloss": "こんにちは。空港でお客様を迎えに行く車を手配（予約）したいのですが（出張・来客対応の送迎手配）",
+  "headword": "Gusto ko po sanang magpareserba ng sasakyan para sunduin ang isang bisita namin sa airport.",
+  "reading": "Gustó ko pô sánang magpareserbá ng sasakyán pára sundúin ang isáng bisíta námin sa airport.",
+  "gloss": "空港でお客様を迎えに行く車を手配（予約）したいのですが（出張・来客対応の送迎手配）",
   "pos": "依頼（丁寧）",
   "root": "magpareserba=予約する／sunduin=迎えに行く／bisita=お客様",
   "examples": [
@@ -5297,11 +5293,11 @@
  },
  {
   "slotId": "transport-30",
-  "headword": "Nandito na ako sa lobby ng arrival, malapit sa Starbucks. Dito na lang tayo magkita.",
-  "reading": "Nandíto na akó sa lobby ng arrival, malapít sa Starbucks. Díto na lang táyo magkíta.",
-  "gloss": "到着ロビーにいます、スターバックスの近くです。ここで待ち合わせましょう（電話・メッセージでの待ち合わせ確認）",
+  "headword": "Dito na lang tayo magkita sa lobby ng arrival, malapit sa Starbucks.",
+  "reading": "Díto na lang táyo magkíta sa lobby ng arrival, malapít sa Starbucks.",
+  "gloss": "到着ロビーのスターバックス近くで待ち合わせましょう（電話・メッセージでの待ち合わせ確認）",
   "pos": "説明（中立）",
-  "root": "nandito=ここにいる／malapit=近い／magkita=会う",
+  "root": "magkita=会う／malapit=近い",
   "examples": [
    {
     "text": "Sige, papunta na ako diyan, mga limang minuto na lang.",
@@ -5315,11 +5311,11 @@
  },
  {
   "slotId": "transport-31",
-  "headword": "Uy, may kilala ka bang maasahang driver o serbisyo ng sasakyan? Kailangan ko kasi ng regular na masasakyan.",
-  "reading": "Uy, may kilála ka bang maásahang driver o serbísyo ng sasakyán? Kailángan ko kasí ng regúlar na masasakyán.",
-  "gloss": "ねえ、信頼できる運転手や配車サービスに心当たりある？定期的に使える足が必要なんだ（同僚への紹介依頼・カジュアル）",
+  "headword": "Uy, may kilala ka bang maasahang driver o serbisyo ng sasakyan, kasi kailangan ko ng regular na masasakyan?",
+  "reading": "Uy, may kilála ka bang maásahang driver o serbísyo ng sasakyán, kasí kailángan ko ng regúlar na masasakyán?",
+  "gloss": "信頼できる運転手や配車サービスに心当たりある？定期的に使える足が必要なんだ（同僚への紹介依頼・カジュアル）",
   "pos": "依頼（カジュアル）",
-  "root": "kilala=知っている（人を）／maasahan=頼りになる／masasakyan=乗れる乗り物",
+  "root": "kilala=知っている（人を）／maasahan=頼りになる（←asa）／kailangan=必要／masasakyan=乗れる乗り物",
   "examples": [
    {
     "text": "Meron ako, si Kuya Jun. Maayos siya, ibibigay ko sa 'yo number niya.",
@@ -5333,11 +5329,11 @@
  },
  {
   "slotId": "transport-32",
-  "headword": "Pare, kapag gabi na ako umuuwi galing trabaho, ano ang pinakaligtas na paraan? May mga lugar ba dapat iwasan?",
-  "reading": "Páre, kapag gabí na akó umuúwi galíng trabáho, anó ang pinakaligtás na paraán? May mga lugár ba dápat iwásan?",
-  "gloss": "ねえ、残業で夜遅く帰るとき、一番安全な帰り方は？避けたほうがいいエリアはある？（同僚への安全確認・カジュアル）",
+  "headword": "Pare, ano ang pinakaligtas na paraan pag-uwi galing trabaho kung gabi na, at may lugar ba dapat iwasan?",
+  "reading": "Páre, anó ang pinakaligtás na paraán pag-uwí galíng trabáho kung gabí na, at may lugár ba dápat iwásan?",
+  "gloss": "残業で夜遅く帰るとき、一番安全な帰り方は？避けたほうがいいエリアはある？（同僚への安全確認・カジュアル）",
   "pos": "質問（カジュアル）",
-  "root": "ligtas=安全／iwasan=避ける／lugar=場所",
+  "root": "ligtas=安全／iwasan=避ける／lugar=場所／pag-uwi=帰ること（←uwi）",
   "examples": [
    {
     "text": "Mas mabuti nang Grab ka na lang sa gabi, iwasan mo yung likod ng terminal.",
@@ -5351,11 +5347,11 @@
  },
  {
   "slotId": "transport-33",
-  "headword": "Uy, meron bang Angkas dito ngayon? Puwede pa ba kumuha sa ganitong oras?",
-  "reading": "Uy, méron bang Angkas díto ngayón? Puwéde pa ba kumúha sa ganitóng óras?",
-  "gloss": "ねえ、今ここでAngkas（バイクタクシー）って使える？この時間でもまだ捕まる？（バイクタクシーの利用可否確認・カジュアル）",
+  "headword": "Uy, puwede pa ba kumuha ng Angkas dito sa ganitong oras?",
+  "reading": "Uy, puwéde pa ba kumúha ng Angkas díto sa ganitóng óras?",
+  "gloss": "ねえ、この時間でもここでAngkas（バイクタクシー）ってまだ捕まる？（バイクタクシーの利用可否確認・カジュアル）",
   "pos": "質問（カジュアル）",
-  "root": "meron=ある／kumuha=呼ぶ・つかまえる",
+  "root": "kumuha=呼ぶ・つかまえる（←kuha）",
   "examples": [
    {
     "text": "Meron naman, pero medyo kaunti na ang driver ngayong gabi.",
@@ -5369,11 +5365,11 @@
  },
  {
   "slotId": "transport-34",
-  "headword": "Saan ba maganda tumawid dito? Ang daming sasakyan, takot akong tumawid basta-basta.",
-  "reading": "Saán ba magandá tumawíd díto? Ang dámi ng sasakyán, tákot akóng tumawíd basta-bastá.",
-  "gloss": "ここ、どこで渡るのがいい？車が多くて、適当に渡るのは怖いんだけど（横断の安全確認・カジュアル）",
+  "headword": "Saan ba maganda tumawid dito, dahil sa dami ng sasakyan?",
+  "reading": "Saán ba magandá tumawíd díto, dáhil sa dámi ng sasakyán?",
+  "gloss": "車が多くて、ここのどこで渡るのがいい？（横断の安全確認・カジュアル）",
   "pos": "質問（カジュアル）",
-  "root": "tumawid=渡る／sasakyan=車／takot=怖い",
+  "root": "tumawid=渡る／sasakyan=車／dami=多さ",
   "examples": [
    {
     "text": "Doon sa may tulay, mas ligtas kaysa dito.",
@@ -5387,11 +5383,11 @@
  },
  {
   "slotId": "transport-35",
-  "headword": "Paumanhin po sa abala, pero kailangan ko po ng sasakyan ngayon din, hindi po maganda ang pakiramdam ko. Puwede po ba akong sunduin agad?",
-  "reading": "Paumánhin pô sa abála, péro kailángan ko pô ng sasakyán ngayón din, hindî pô magandá ang pakiramdám ko. Puwéde pô ba akóng sundúin agád?",
-  "gloss": "急にすみません、でも今すぐ車が必要なんです、体調が良くなくて。すぐに迎えに来てもらえますか？（体調不良などの緊急送迎手配）",
+  "headword": "Paumanhin po sa abala, pero puwede po ba akong sunduin agad, kasi hindi po maganda ang pakiramdam ko?",
+  "reading": "Paumánhin pô sa abála, péro puwéde pô ba akóng sundúin agád, kasí hindî pô magandá ang pakiramdám ko?",
+  "gloss": "急にすみません、でもすぐに迎えに来てもらえますか？体調が良くないので（体調不良などの緊急送迎手配）",
   "pos": "依頼（丁寧・緊急）",
-  "root": "kailangan=必要／pakiramdam=気分・体調／sunduin=迎えに行く／agad=すぐに",
+  "root": "pakiramdam=気分・体調／sunduin=迎えに行く／agad=すぐに",
   "examples": [
    {
     "text": "Sige po, papunta na po ako agad. Kayo lang po sa dati ninyong lugar?",
@@ -5405,11 +5401,11 @@
  },
  {
   "slotId": "transport-36",
-  "headword": "Paumanhin po, pero parang may naiwan akong gamit sa loob ng sasakyan ninyo kanina. Puwede ko pa po ba itong makuha?",
-  "reading": "Paumanhín po, pero parang may naiwan akong gamit sa loob ng sasakyan ninyo kanina. Puwéde ko pa po ba itóng makuha?",
-  "gloss": "すみません、さっきそちらの車内に忘れ物をしたようです。まだ受け取れますか？（運転手への確認・依頼）",
+  "headword": "Paumanhin po, pero puwede ko pa po bang makuha ang naiwan kong gamit sa loob ng sasakyan ninyo kanina?",
+  "reading": "Paumánhin pô, péro puwéde ko pa pô bang makúha ang naíwan kong gámit sa loób ng sasakyán ninyó kanína?",
+  "gloss": "すみません、さっきそちらの車内に置き忘れた荷物をまだ受け取れますか？（運転手への確認・依頼）",
   "pos": "依頼（忘れ物確認）",
-  "root": "paumanhin(すみません) + naiwan(残された←iwan) + gamit(持ち物) + sasakyan(車) + puwede(できる) + makuha(受け取れる←kuha)",
+  "root": "paumanhin=すみません／naiwan=残された（←iwan）／gamit=持ち物／makuha=受け取れる（←kuha）",
   "examples": [
    {
     "text": "Ay, teka lang po, babalikan ko kayo. Ano pong itsura ng gamit ninyo?",
@@ -5417,17 +5413,17 @@
    },
    {
     "text": "Uy, may naiwan yata akong gamit sa loob ng sasakyan mo kanina ah. Pwede ko pa ba makuha 'yon?",
-    "translation": "（カジュアル）ねえ、さっきそっちの車に忘れ物したっぽいんだけど。まだ取りに行ける？"
+    "translation": "ねえ、さっきそっちの車に忘れ物したっぽいんだけど。まだ取りに行ける？（カジュアルな言い換え）"
    }
   ]
  },
  {
   "slotId": "transport-37",
-  "headword": "Baka po nalilito kayo sa lugar na nakalagay sa mapa. Malapit lang po ang punta namin sa simbahan, tapat mismo ng gasolinahan.",
-  "reading": "Baka po nalilitó kayo sa lugar na nakalagay sa mapa. Malapít lang po ang punta namin sa simbahan, tapat mismo ng gasolinahan.",
-  "gloss": "地図の住所だけでは迷っているようなので、教会の前・ガソリンスタンドの隣という目印を使って行き先を説明し直す",
+  "headword": "Malapit lang po ang punta namin sa simbahan, tapat mismo ng gasolinahan.",
+  "reading": "Malapít lang pô ang puntá námin sa simbáhan, tápat mismóng gasolinahán.",
+  "gloss": "行き先は教会のすぐ近く、ガソリンスタンドの真向かいです（近くの目印を使った道案内の説明）",
   "pos": "説明（補足説明・道案内）",
-  "root": "nalilito(戸惑っている←lito) + mapa(地図) + malapit(近い) + simbahan(教会) + tapat(向かい) + gasolinahan(ガソリンスタンド)",
+  "root": "malapit=近い／simbahan=教会／tapat=向かい／gasolinahan=ガソリンスタンド",
   "examples": [
    {
     "text": "Ah, doon po pala! Kanina ko pa po hinahanap iyan, hindi ko lang alam kung saang bahagi.",
@@ -5435,17 +5431,17 @@
    },
    {
     "text": "Mukhang nalilito ka sa mapa ah. 'Yung punta natin, malapit lang sa simbahan, tabi ng gasolinahan.",
-    "translation": "（カジュアル）地図で迷ってるみたいだね。行き先は教会の近く、ガソリンスタンドの隣だよ。"
+    "translation": "地図で迷ってるみたいだね。行き先は教会の近く、ガソリンスタンドの隣だよ（カジュアルな言い換え）"
    }
   ]
  },
  {
   "slotId": "transport-38",
-  "headword": "Grabe talaga ang trapiko ngayon, ano? Mga isang oras akong nasa daan bago nakarating dito.",
-  "reading": "Grabé talagá ang trapiko ngayon, ano? Mga isang óras akong nasa daan bago nakarating dito.",
-  "gloss": "今日の渋滞は本当にひどいね、と同僚と共感し合う軽い世間話（相槌）",
+  "headword": "Grabe talaga ang trapiko ngayon, mga isang oras akong nasa daan bago nakarating dito.",
+  "reading": "Grabé talagá ang trapiko ngayon, mga isáng óras akong nása daán bágo nakarating díto.",
+  "gloss": "今日の渋滞は本当にひどいね、ここに着くまで約1時間かかったよ（同僚との軽い世間話・相槌）",
   "pos": "雑談（相槌）",
-  "root": "grabe(ひどい) + talaga(本当に) + trapiko(渋滞) + daan(道) + nakarating(到着した←dating)",
+  "root": "grabe=ひどい／talaga=本当に／trapiko=渋滞／daan=道／nakarating=到着した（←dating）",
   "examples": [
    {
     "text": "Oo nga! Sobrang bagal ng byahe ko rin kanina, halos madoble ang oras.",
@@ -5453,17 +5449,17 @@
    },
    {
     "text": "Ang hirap talaga ng trapiko ngayon ano, ang tagal ko sa daan bago nakarating dito.",
-    "translation": "（言い換え）今日の渋滞は本当に大変だね、ここに着くまで道でかなり時間がかかったよ。"
+    "translation": "今日の渋滞は本当に大変だね、ここに着くまで道でかなり時間がかかったよ（言い換え）"
    }
   ]
  },
  {
   "slotId": "transport-39",
-  "headword": "Puwede po ba kaming kumuha ng sasakyan na may kasamang drayber sa Sabado, maghapon? Magkano po kaya ang babayaran namin?",
-  "reading": "Puwéde po ba kaming kumuha ng sasakyan na may kasamang drayber sa Sábado, maghapon? Magkáno po kaya ang babayaran namin?",
-  "gloss": "週末の遠出のため、運転手付きの車を一日単位で手配し、料金を交渉したい",
+  "headword": "Puwede po ba kaming kumuha ng sasakyan na may kasamang drayber sa Sabado, maghapon, at magkano po kaya ang babayaran namin?",
+  "reading": "Puwéde pô ba kaming kumúha ng sasakyán na may kasamáng drayber sa Sábado, maghápon, at magkáno pô kaya ang babayáran námin?",
+  "gloss": "週末に運転手付きの車を一日単位で手配したいのですが、料金はいくらくらいになりますか？（手配・交渉）",
   "pos": "依頼（手配・交渉）",
-  "root": "kumuha(手配する←kuha) + sasakyan(車) + kasama(伴う) + drayber(運転手) + Sabado(土曜) + maghapon(丸一日) + magkano(いくら) + babayaran(支払うことになる←bayad)",
+  "root": "kumuha=手配する（←kuha）／sasakyan=車／drayber=運転手／Sabado=土曜／maghapon=丸一日／magkano=いくら／babayaran=支払うことになる（←bayad）",
   "examples": [
    {
     "text": "Opo, meron po kami niyan. Mga anim na raang piso po kada oras, pero may bawas po kung buong araw ang gagamitin.",
@@ -5471,17 +5467,17 @@
    },
    {
     "text": "Pwede ba tayong kumuha ng sasakyan na may drayber sa Sabado, maghapon? Magkano kaya babayaran natin?",
-    "translation": "（カジュアル）土曜日、運転手付きの車を一日借りられる？いくらくらいかかるかな？"
+    "translation": "土曜日、運転手付きの車を一日借りられる？いくらくらいかかるかな？（カジュアルな言い換え）"
    }
   ]
  },
  {
   "slotId": "transport-40",
-  "headword": "Kuya, pasensya na po, pero hanggang anong oras po bukas ang tarangkahan ng gusali? Baka po kasi mahuli akong umuwi ngayon.",
-  "reading": "Kuya, pasénsya na po, pero hanggang anong óras po bukás ang tarangkahan ng gusali? Baka po kasi mahuli akong umuwi ngayon.",
-  "gloss": "退社が遅くなりそうなので、ビルの門（出入口）が何時まで開いているか警備員に確認する",
+  "headword": "Kuya, pasensya na po, hanggang anong oras po bukas ang tarangkahan ng gusali, kasi baka mahuli akong umuwi ngayon?",
+  "reading": "Kúya, pasénsya na po, hanggáng anóng óras pô bukás ang tarangkáhan ng gusáli, kasí baka mahulí akóng umuwí ngayón?",
+  "gloss": "すみません、今日帰りが遅くなりそうなのですが、ビルの門は何時まで開いていますか？（施設運用確認）",
   "pos": "質問（施設運用確認）",
-  "root": "pasensya(すみません) + hanggang(〜まで) + oras(時間) + bukas(開いている) + tarangkahan(門・出入口) + gusali(建物) + mahuli(遅れる) + umuwi(帰る)",
+  "root": "pasensya=すみません／hanggang=〜まで／oras=時間／bukas=開いている／tarangkahan=門・出入口／gusali=建物／mahuli=遅れる／umuwi=帰る",
   "examples": [
    {
     "text": "Hanggang alas-diyes po ito bukas, pero kung lalampas pa po kayo, sabihin niyo lang sa akin nang maaga.",
@@ -5489,7 +5485,7 @@
    },
    {
     "text": "Kuya, hanggang kailan bukas ang tarangkahan dito? Baka kasi mahuli ako umuwi mamaya.",
-    "translation": "（カジュアル）ねえ、ここの門っていつまで開いてる？今日ちょっと帰りが遅くなりそうで。"
+    "translation": "ねえ、ここの門っていつまで開いてる？今日ちょっと帰りが遅くなりそうで（カジュアルな言い換え）"
    }
   ]
  },
@@ -5513,11 +5509,11 @@
  },
  {
   "slotId": "numbers-02",
-  "headword": "Kuya, tama ba ang sukli? Binigyan kita ng isang daan, dapat pitumpung piso ang sukli.",
-  "reading": "Kuya, tamà ba ang sukli? Binigyán kita ng isang daán, dapat pitumpúng piso ang sukli.",
-  "gloss": "トライシクル/ジプニーの運賃を払った際、お釣りの金額が正しいか運転手に確認する",
+  "headword": "Kuya, tama ba ang sukli na dapat pitumpung piso mula sa isang daang ibinigay ko?",
+  "reading": "Kuya, tamà ba ang sukli na dápat pitumpúng piso mulâ sa isáng daáng ibinigáy ko?",
+  "gloss": "すみません、100ペソ渡したのでお釣りは70ペソのはずですが、合っていますか？（つり銭確認）",
   "pos": "確認（つり銭）",
-  "root": "sukli(つり銭) + binigyan(渡した←bigay) + piso(ペソ) + tama(正しい)",
+  "root": "sukli=つり銭／ibinigay=渡した（←bigay）／piso=ペソ／tama=正しい",
   "examples": [
    {
     "text": "Ay, pasensya na, akala ko tama na 'yong ibinigay ko. Eto na, kulang nga pala.",
@@ -5525,17 +5521,17 @@
    },
    {
     "text": "Kuya po, tama po ba ang sukli? Nagbigay po kasi ako ng isang daan, dapat pitumpung piso ang sukli.",
-    "translation": "（丁寧）すみません、お釣りは合っていますか？100ペソお渡ししたので、お釣りは70ペソのはずです。"
+    "translation": "すみません、お釣りは合っていますか？100ペソお渡ししたので、お釣りは70ペソのはずです（丁寧な言い換え）"
    }
   ]
  },
  {
   "slotId": "numbers-03",
-  "headword": "Sigurado ba tayo sa oras ng pulong? Alas-dos ba talaga o alas-tres?",
-  "reading": "Siguradó ba tayo sa óras ng pulong? Alas-dos ba talagá o alas-tres?",
-  "gloss": "会議の開始時刻について行き違いを防ぐため、同僚と改めてすり合わせる",
+  "headword": "Alas-dos ba talaga ang pulong o alas-tres?",
+  "reading": "Alas-dos ba talagá ang pulong o alas-tres?",
+  "gloss": "会議は本当に2時ですか、それとも3時ですか？（会議時間の確認）",
   "pos": "確認（会議時間）",
-  "root": "sigurado(確かな) + oras(時間) + pulong(会議) + alas-dos(2時) + alas-tres(3時)",
+  "root": "pulong=会議／alas-dos=2時／alas-tres=3時",
   "examples": [
    {
     "text": "Alas-dos po ang tama, pero baka humigit-kumulang tatlumpung minuto ang antala ng ilan.",
@@ -5543,7 +5539,7 @@
    },
    {
     "text": "Sigurado ka ba sa oras ng pulong? Alas-dos ba 'yon o alas-tres?",
-    "translation": "（カジュアル）会議の時間、確かに合ってる？2時だっけ3時だっけ？"
+    "translation": "会議の時間、確かに合ってる？2時だっけ3時だっけ？（カジュアルな言い換え）"
    }
   ]
  },
@@ -5567,11 +5563,11 @@
  },
  {
   "slotId": "numbers-05",
-  "headword": "Ate, pwede pa bang bawasan? Kunin ko 'to kung dalawang daan na lang.",
-  "reading": "Ate, pwede pa bang bawasán? Kunin ko 'tó kung dalawáng daán na lang.",
-  "gloss": "市場で気に入った商品をもう少し安くしてもらえないか値切り交渉したい",
+  "headword": "Ate, pwede pa bang bawasan, kukunin ko na lang kung dalawang daan?",
+  "reading": "Ate, pwede pa bang bawasán, kukunín ko na lang kung dalawáng daán?",
+  "gloss": "すみません、もう少し値引きしていただけますか？200ペソでしたら購入します（値引き交渉）",
   "pos": "値引き交渉",
-  "root": "bawasan(値引きする←bawas) + kunin(買う・取る←kuha) + dalawang daan(200)",
+  "root": "bawasan=値引きする（←bawas）／kunin=買う・取る（←kuha）／dalawang daan=200",
   "examples": [
    {
     "text": "Sige na nga, dahil ikaw 'to, dalawang daan na lang.",
@@ -5579,7 +5575,7 @@
    },
    {
     "text": "Ate po, puwede pa po bang bawasan ang presyo? Kukunin ko na po ito kung dalawang daan na lang po.",
-    "translation": "（丁寧）すみません、もう少しお値引きいただけますか？200ペソでしたら購入します。"
+    "translation": "すみません、もう少しお値引きいただけますか？200ペソでしたら購入します（丁寧な言い換え）"
    }
   ]
  },
@@ -5621,19 +5617,19 @@
  },
  {
   "slotId": "numbers-08",
-  "headword": "Uy, anong oras na? Baka mahuli na ako sa susunod kong lakad.",
-  "reading": "Uy, anong óras na? Baka mahuli na ako sa susunód kong lakad.",
-  "gloss": "時計を持っていない状況で今の時刻を周囲の人に尋ね、次の予定に遅れないようにしたい",
+  "headword": "Uy, anong oras na, kasi baka mahuli na ako sa susunod kong lakad?",
+  "reading": "Uy, anong óras na, kasi baka mahuli na ako sa susunód kong lakad?",
+  "gloss": "ねえ、次の用事に遅れそうだから、今何時か分かる？（時計がない状況での時刻確認）",
   "pos": "質問（時刻）",
-  "root": "anong oras(何時) + mahuli(遅れる) + lakad(用事・外出)",
+  "root": "anong oras(何時) + kasi(なぜなら) + mahuli(遅れる) + lakad(用事・外出)",
   "examples": [
    {
     "text": "Mga alas-tres y medya na yata, base sa relo ko.",
     "translation": "私の時計だと、たぶん3時半くらいだよ。"
    },
    {
-    "text": "Pasensya na po, alam po ba ninyo kung anong oras na?",
-    "translation": "（丁寧）すみません、今何時か分かりますか？"
+    "text": "Pasensya na po, alam po ba ninyo kung anong oras na, baka mahuli na po ako sa susunod kong lakad?",
+    "translation": "（丁寧）すみません、次の予定に遅れそうなので、今何時か分かりますか？"
    }
   ]
  },
@@ -5783,11 +5779,11 @@
  },
  {
   "slotId": "numbers-17",
-  "headword": "Uy, hatian na lang natin 'yung kuwenta, ha? Mas patas kasi 'pag ganon.",
-  "reading": "Uy, hatián na lang natin 'yung kuwénta, ha? Mas patás kasi 'pag ganon.",
-  "gloss": "同僚との食事代を割り勘にすることを提案し、気まずくならずに精算したい",
+  "headword": "Uy, hatian na lang natin 'yung kuwenta, mas patas kasi 'pag ganon, ha?",
+  "reading": "Uy, hatián na lang natin 'yung kuwénta, mas patás kasi 'pag ganon, ha?",
+  "gloss": "ねえ、お会計は割り勘にしよう、その方が公平だから。（同僚との割り勘の提案）",
   "pos": "提案（割り勘）",
-  "root": "hatian(分ける←hati) + kuwenta(勘定) + patas(公平な)",
+  "root": "hatian(分ける←hati) + kuwenta(勘定) + patas(公平な) + kasi(なぜなら)",
   "examples": [
    {
     "text": "Sige, tama naman, mas madali rin 'yan.",
@@ -5927,9 +5923,9 @@
  },
  {
   "slotId": "numbers-25",
-  "headword": "Ilang taon ka na bang nagtatrabaho dito? Ang tagal mo na yata!",
-  "reading": "Ilang taón ka na bang nagtátrabaho díto? Ang tagál mo na yata!",
-  "gloss": "長く勤めているスタッフに何年働いているかを尋ね、労をねぎらう会話のきっかけにしたい",
+  "headword": "Ilang taon ka na bang nagtatrabaho dito, ang tagal mo na yata?",
+  "reading": "Ilang taón ka na bang nagtátrabaho díto, ang tagál mo na yata?",
+  "gloss": "ここでもう何年働いているの、ずいぶん長そうだけど？（長く勤めるスタッフへの質問）",
   "pos": "質問（勤続年数）",
   "root": "ilang taon(何年) + nagtatrabaho(働いている) + tagal(長い間)",
   "examples": [
@@ -5938,16 +5934,16 @@
     "translation": "ここではもう15年ほど働いております。"
    },
    {
-    "text": "Ilang taon na po kayo dito? Ang tagal niyo na po yata.",
-    "translation": "（丁寧）こちらではもう何年働かれているのですか？もうかなり長いですよね。"
+    "text": "Ilang taon na po kayo dito, ang tagal niyo na po yata?",
+    "translation": "（丁寧）こちらではもう何年働かれているのですか、ずいぶん長いですよね？"
    }
   ]
  },
  {
   "slotId": "numbers-26",
-  "headword": "Magandang araw po. Puwede ko po bang kumpirmahin ang petsa at oras ng aking nakatakdang konsulta?",
-  "reading": "Magandáng áraw po. Puwéde ko po bang kumpirmahín ang pétsa at óras ng akíng nakatakdáng konsúlta?",
-  "gloss": "こんにちは。予定されている診察の日時を確認してもよろしいでしょうか？（健康診断・歯科などの予約確認）",
+  "headword": "Puwede ko po bang kumpirmahin ang petsa at oras ng aking nakatakdang konsulta?",
+  "reading": "Puwéde ko po bang kumpirmahín ang pétsa at óras ng akíng nakatakdáng konsúlta?",
+  "gloss": "予定されている診察の日時を確認してもよろしいでしょうか？（健康診断・歯科などの予約確認）",
   "pos": "確認（予約日時）",
   "root": "kumpirmahin=確認する / petsa=日付 / oras=時間 / aking=私の / nakatakda=予定されている / konsulta=診察",
   "examples": [
@@ -5963,9 +5959,9 @@
  },
  {
   "slotId": "numbers-27",
-  "headword": "Magandang araw po. Magkano po ang bayad sa paglipat ng pera sa ibang bansa?",
-  "reading": "Magandáng áraw po. Magkáno po ang báyad sa paglípat ng péra sa ibáng bansâ?",
-  "gloss": "こんにちは。海外送金の手数料はいくらですか？（銀行窓口での事前確認）",
+  "headword": "Magkano po ang bayad sa paglipat ng pera sa ibang bansa?",
+  "reading": "Magkáno po ang báyad sa paglípat ng péra sa ibáng bansâ?",
+  "gloss": "海外送金の手数料はいくらですか？（銀行窓口での事前確認）",
   "pos": "質問（振込手数料）",
   "root": "magkano=いくら / bayad=支払い・手数料 / paglipat ng pera=送金 / ibang bansa=外国",
   "examples": [
@@ -6125,11 +6121,11 @@
  },
  {
   "slotId": "emergency-01",
-  "headword": "Pasensya na po, masakit ang ulo ko at parang may lagnat ako. Puwede po ba akong umuwing maaga?",
-  "reading": "Pasénsya na po, masakít ang úlo ko at párang may lagnát akó. Puwéde po ba akóng umuwíng maagá?",
-  "gloss": "すみません、頭痛がして熱もあるようです。早退してもいいですか？（同僚への体調不良の申告と早退の確認）",
+  "headword": "Pasensya na po, masakit ang ulo ko at parang may lagnat ako, kaya puwede po ba akong umuwing maaga?",
+  "reading": "Pasénsya na po, masakít ang úlo ko at párang may lagnát akó, kaya puwéde po ba akóng umuwíng maagá?",
+  "gloss": "すみません、頭痛と発熱があるので、早退してもいいですか？（同僚への体調不良の申告と早退の確認）",
   "pos": "申告（体調不良）・依頼（早退）",
-  "root": "pasensya na=すみません / masakit ang ulo=頭が痛い / lagnat=熱 / puwede ba=してもよいか / umuwing maaga=早く帰る",
+  "root": "pasensya na=すみません / masakit ang ulo=頭が痛い / lagnat=熱 / kaya=だから / puwede ba=してもよいか / umuwing maaga=早く帰る",
   "examples": [
    {
     "text": "Sige lang, sabihin mo sa boss mo. Ingat ka, magpahinga ka nang mabuti.",
@@ -6161,9 +6157,9 @@
  },
  {
   "slotId": "emergency-03",
-  "headword": "Magandang araw po. Naghahanap po ako ng gamot para sa lagnat o sakit ng katawan.",
-  "reading": "Magandáng áraw po. Naghahánap po akó ng gamót para sa lagnát o sakít ng katawán.",
-  "gloss": "こんにちは。解熱剤か鎮痛剤を探しています。（薬局店員への相談）",
+  "headword": "Naghahanap po ako ng gamot para sa lagnat o sakit ng katawan.",
+  "reading": "Naghahánap po akó ng gamót para sa lagnát o sakít ng katawán.",
+  "gloss": "解熱剤か鎮痛剤を探しています。（薬局店員への相談）",
   "pos": "依頼（買い物）",
   "root": "naghahanap=探している / gamot=薬 / lagnat=熱 / sakit ng katawan=体の痛み",
   "examples": [
@@ -6179,11 +6175,11 @@
  },
  {
   "slotId": "emergency-04",
-  "headword": "Mataas po ang lagnat ko at masakit din ang katawan ko simula kagabi. Anong gamot po ang maipapayo ninyo?",
-  "reading": "Mataás po ang lagnát ko at masakít din ang katawán ko simulá kagabí. Anóng gamót po ang maipapáyo ninyó?",
-  "gloss": "先生、昨夜から高熱と体の痛みがあります。どの薬がおすすめですか？（薬剤師への症状説明と相談）",
+  "headword": "Mataas po ang lagnat ko at masakit din ang katawan ko simula kagabi, kaya anong gamot po ang maipapayo ninyo?",
+  "reading": "Mataás po ang lagnát ko at masakít din ang katawán ko simulá kagabí, kaya anóng gamót po ang maipapáyo ninyó?",
+  "gloss": "昨夜から高熱と体の痛みがあるので、どの薬がおすすめですか？（薬剤師への症状説明と相談）",
   "pos": "症状説明・質問（薬の相談）",
-  "root": "mataas na lagnat=高熱 / masakit ang katawan=体が痛い / simula kagabi=昨夜から / maipapayo=勧められる",
+  "root": "mataas na lagnat=高熱 / masakit ang katawan=体が痛い / simula kagabi=昨夜から / kaya=だから / maipapayo=勧められる",
   "examples": [
    {
     "text": "Sige po, inumin niyo muna ito tuwing walong oras, at magpahinga po kayo.",
@@ -6197,11 +6193,11 @@
  },
  {
   "slotId": "emergency-05",
-  "headword": "Puwede mo ba akong samahan pumunta sa ospital? Kinakabahan kasi akong mag-isa.",
-  "reading": "Puwéde mo ba akóng samahán pumuntá sa ospitál? Kinakabahán kasí akóng mag-isá.",
-  "gloss": "病院に一緒に行ってくれる？一人だと不安なんだ。（同僚への付き添い依頼・カジュアル）",
+  "headword": "Kinakabahan kasi akong mag-isa, puwede mo ba akong samahan pumunta sa ospital?",
+  "reading": "Kinakabahán kasí akóng mag-isá, puwéde mo ba akóng samahán pumuntá sa ospitál?",
+  "gloss": "一人だと不安なので、病院に一緒に行ってくれる？（同僚への付き添い依頼・カジュアル）",
   "pos": "依頼（同行）",
-  "root": "puwede mo ba=してくれる? / samahan=付き添う / ospital=病院 / kinakabahan=不安になっている / mag-isa=一人で",
+  "root": "kinakabahan=不安になっている / mag-isa=一人で / kasi=なぜなら / samahan=付き添う / ospital=病院 / puwede mo ba=してくれる?",
   "examples": [
    {
     "text": "Oo naman, sasamahan kita. Anong oras tayo aalis?",
@@ -6215,9 +6211,9 @@
  },
  {
   "slotId": "emergency-06",
-  "headword": "Magandang araw po. Gusto ko po sanang kumuha ng oras para magpatingin sa doktor.",
-  "reading": "Magandáng áraw po. Gustó ko po sánang kumúha ng óras para magpatíngin sa doktór.",
-  "gloss": "こんにちは。診察の予約を取りたいのですが。（クリニック受付での予約依頼）",
+  "headword": "Gusto ko po sanang kumuha ng oras para magpatingin sa doktor.",
+  "reading": "Gustó ko po sánang kumúha ng óras para magpatíngin sa doktór.",
+  "gloss": "診察の予約を取りたいのですが。（クリニック受付での予約依頼）",
   "pos": "予約（依頼）",
   "root": "gusto ko sana=したいのですが / kumuha ng oras=時間を取る・予約する / magpatingin=診てもらう / doktor=医者",
   "examples": [
@@ -6323,9 +6319,9 @@
  },
  {
   "slotId": "emergency-12",
-  "headword": "Magandang araw po. Gusto ko po sanang humingi ng kalahating araw na leave para sa pagpapatingin sa doktor.",
-  "reading": "Magandáng áraw po. Gustó ko po sánang humingî ng kalahatíng áraw na leave para sa pagpapatíngin sa doktór.",
-  "gloss": "こんにちは。通院のため半休をいただきたいのですが。（上司への半休申請）",
+  "headword": "Gusto ko po sanang humingi ng kalahating araw na leave para sa pagpapatingin sa doktor.",
+  "reading": "Gustó ko po sánang humingî ng kalahatíng áraw na leave para sa pagpapatíngin sa doktór.",
+  "gloss": "通院のため半休をいただきたいのですが。（上司への半休申請）",
   "pos": "申請（休暇）",
   "root": "humingi ng leave=休暇を求める / kalahating araw=半日 / pagpapatingin sa doktor=通院",
   "examples": [
@@ -6341,11 +6337,11 @@
  },
  {
   "slotId": "emergency-13",
-  "headword": "Ay, ayos ka lang ba? Tara, tulungan kita bumangon.",
-  "reading": "Ay, áyos ka lang ba? Tará, tulúngan kitá bumangón.",
-  "gloss": "大丈夫？さあ、起きるの手伝うよ。（転倒した同僚への安否確認）",
+  "headword": "Ay, ayos ka lang ba?",
+  "reading": "Ay, áyos ka lang ba?",
+  "gloss": "あら、大丈夫？（転倒した同僚への安否確認）",
   "pos": "安否確認",
-  "root": "ayos ka lang ba=大丈夫? / tulungan=助ける / bumangon=起き上がる",
+  "root": "ay=あら(驚き) / ayos ka lang ba=大丈夫?",
   "examples": [
    {
     "text": "Ayos lang ako, medyo namanhid lang ang tuhod ko.",
@@ -6395,11 +6391,11 @@
  },
  {
   "slotId": "emergency-16",
-  "headword": "Hello po, kailangan ko po ng tulong. Narito po ako sa opisina namin sa Makati, at may aksidente po kami.",
-  "reading": "Hello po, kailángan ko po ng túlong. Naríto po akó sa opisína námin sa Makáti, at may aksidénte po kamí.",
-  "gloss": "もしもし、助けが必要です。マカティのオフィスにいて、事故が起きました。（緊急通報での現在地と状況説明）",
+  "headword": "Hello po, kailangan ko po ng tulong dahil may aksidente po kami dito sa opisina namin sa Makati.",
+  "reading": "Hello po, kailángan ko po ng túlong dahil may aksidénte po kamí díto sa opisína námin sa Makáti.",
+  "gloss": "もしもし、マカティのオフィスで事故が起きたので助けが必要です。（緊急通報での状況説明と要請）",
   "pos": "通報（現在地・状況説明）",
-  "root": "kailangan ng tulong=助けが必要 / narito ako sa=私はここにいる / aksidente=事故",
+  "root": "kailangan ng tulong=助けが必要 / dahil=〜のため / aksidente=事故 / opisina sa Makati=マカティのオフィス",
   "examples": [
    {
     "text": "Sige po, nasa daan na po ang ambulansya. Manatili po kayo sa linya.",
@@ -6413,9 +6409,9 @@
  },
  {
   "slotId": "emergency-17",
-  "headword": "Kuya, magandang araw po. Saan po ba ang klinika o kahon ng gamot dito sa gusali?",
-  "reading": "Kúya, magandáng áraw po. Saán po ba ang klínika o kahón ng gamót díto sa gusáli?",
-  "gloss": "すみません、こんにちは。このビルの医務室か救急箱はどこにありますか？（警備員への施設案内確認）",
+  "headword": "Kuya, saan po ba ang klinika o kahon ng gamot dito sa gusali?",
+  "reading": "Kúya, saán po ba ang klínika o kahón ng gamót díto sa gusáli?",
+  "gloss": "すみません、このビルの医務室か救急箱はどこにありますか？（警備員への施設案内確認）",
   "pos": "質問（施設案内）",
   "root": "saan=どこ / klinika=医務室 / kahon ng gamot=救急箱 / gusali=ビル",
   "examples": [
@@ -6449,9 +6445,9 @@
  },
  {
   "slotId": "emergency-19",
-  "headword": "Lindol! Tago tayo sa ilalim ng mesa!",
-  "reading": "Lindól! Tágo táyo sa ilálim ng mésa!",
-  "gloss": "地震だ！机の下に隠れよう！（地震発生時の周囲への呼びかけ）",
+  "headword": "Lindol, tago tayo sa ilalim ng mesa!",
+  "reading": "Lindól, tágo táyo sa ilálim ng mésa!",
+  "gloss": "地震だ、机の下に隠れよう！（地震発生時の呼びかけ）",
   "pos": "指示（地震対応）",
   "root": "lindol=地震 / tago=隠れる / ilalim ng mesa=机の下",
   "examples": [
@@ -6467,9 +6463,9 @@
  },
  {
   "slotId": "emergency-20",
-  "headword": "Magandang araw po. Dahil sa bagyo, pupunta pa po ba kami sa opisina bukas o puwede na po kaming magtrabaho na lang sa bahay?",
-  "reading": "Magandáng áraw po. Dáhil sa bagyó, pupuntá pa po ba kamí sa opisína búkas o puwéde na po kamíng magtrabáho na lang sa báhay?",
-  "gloss": "こんにちは。台風のため、明日は出社すべきか、在宅勤務にしてよいか確認したいです。（上司への在宅判断確認）",
+  "headword": "Dahil sa bagyo, pupunta pa po ba kami sa opisina bukas o puwede na po kaming magtrabaho na lang sa bahay?",
+  "reading": "Dáhil sa bagyó, pupuntá pa po ba kamí sa opisína búkas o puwéde na po kamíng magtrabáho na lang sa báhay?",
+  "gloss": "台風のため、明日は出社すべきか、在宅勤務にしてよいか確認したいです。（上司への在宅判断確認）",
   "pos": "確認（在宅判断）",
   "root": "dahil sa bagyo=台風のため / pupunta sa opisina=会社に行く / magtrabaho sa bahay=在宅で働く",
   "examples": [
@@ -6485,9 +6481,9 @@
  },
  {
   "slotId": "emergency-21",
-  "headword": "Kumusta ka na diyan? Ligtas ka ba sa baha?",
-  "reading": "Kumustá ka na diyán? Ligtás ka ba sa bahâ?",
-  "gloss": "「そっちはどう?洪水は大丈夫?」(通勤困難な同僚の安否確認)",
+  "headword": "Kumusta ka na diyan, ligtas ka ba sa baha?",
+  "reading": "Kumustá ka na diyán, ligtás ka ba sa bahâ?",
+  "gloss": "そっちはどう、洪水は大丈夫？（通勤困難な同僚の安否確認）",
   "pos": "安否確認",
   "root": "kumusta=元気?・どう / diyan=そこ / ligtas=無事・安全 / baha=洪水",
   "examples": [
@@ -6521,9 +6517,9 @@
  },
  {
   "slotId": "emergency-23",
-  "headword": "Okay ka lang ba? Parang maputla ka kasi ngayon.",
-  "reading": "Okey ka lang ba? Parang maputlâ ka kasí ngayón.",
-  "gloss": "「大丈夫?なんか今日顔色悪いよ」(さりげない気遣い)",
+  "headword": "Okay ka lang ba, parang maputla ka kasi ngayon?",
+  "reading": "Okey ka lang ba, parang maputlâ ka kasí ngayón?",
+  "gloss": "今日ちょっと顔色悪いみたいだけど、大丈夫？（さりげない気遣い）",
   "pos": "気遣い",
   "root": "okay=大丈夫 / maputla=顔色が悪い / ngayon=今",
   "examples": [
@@ -6593,9 +6589,9 @@
  },
  {
   "slotId": "emergency-27",
-  "headword": "Ayos lang po ba kayo? Gusto niyo po bang magpahinga muna saglit?",
-  "reading": "Ayos lang po ba kayó? Gustó ninyó po bang magpahingá muna saglít?",
-  "gloss": "「大丈夫ですか?少し休憩を取られますか?」(面接中の体調配慮)",
+  "headword": "Ayos lang po ba kayo, gusto niyo po bang magpahinga muna saglit?",
+  "reading": "Ayos lang po ba kayó, gustó ninyó po bang magpahingá muna saglít?",
+  "gloss": "大丈夫ですか、少し休憩を取られますか？（面接中の体調配慮）",
   "pos": "配慮確認",
   "root": "ayos=大丈夫 / magpahinga=休む / saglit=少しの間",
   "examples": [
@@ -6701,11 +6697,11 @@
  },
  {
   "slotId": "emergency-33",
-  "headword": "Saan ba ang labasan sa oras ng emergency, at meron ka bang senter? Baka kasi biglang mawalan ng kuryente.",
-  "reading": "Saán ba ang labásan sa óras ng emergency, at méron ka bang senter? Baka kasí biglâng mawalán ng kuryente.",
-  "gloss": "「非常口はどこ?懐中電灯持ってる?急に停電になるかもしれないから」(停電時の非常口・懐中電灯の確認)",
+  "headword": "Saan ba ang labasan sa oras ng emergency, at meron ka bang senter, baka kasi biglang mawalan ng kuryente?",
+  "reading": "Saán ba ang labásan sa óras ng emergency, at méron ka bang senter, baka kasí biglâng mawalán ng kuryente?",
+  "gloss": "非常口はどこにあって、懐中電灯は持ってる？急に停電になるかもしれないから。（停電時の非常口・懐中電灯の確認）",
   "pos": "確認(非常口)",
-  "root": "labasan=出口 / senter=懐中電灯 / kuryente=電気",
+  "root": "labasan=出口 / senter=懐中電灯 / baka kasi=もしかしたら〜かもしれないから / kuryente=電気",
   "examples": [
    {
     "text": "Nandiyan sa likod ng hallway ang labasan, at meron akong senter sa drawer ko.",
@@ -6827,11 +6823,11 @@
  },
  {
   "slotId": "trouble-05",
-  "headword": "Gusto niyo po bang mag-iwan ng mensahe? Isusulat ko po nang tama ang sasabihin ninyo.",
-  "reading": "Gustó ninyó po bang mag-iwán ng mensáhe? Isusúlat ko po nang tamá ang sasabihín ninyó.",
-  "gloss": "「伝言を残されますか?おっしゃる内容を正確に控えます」(伝言内容の確認)",
+  "headword": "Gusto niyo po bang mag-iwan ng mensahe na isusulat ko po nang tama?",
+  "reading": "Gustó ninyó po bang mag-iwán ng mensáhe na isusúlat ko po nang tamá?",
+  "gloss": "正確に書き留めますので、伝言を残されますか？（伝言内容の確認）",
   "pos": "依頼(伝言確認)",
-  "root": "mag-iwan ng mensahe=伝言を残す / isusulat=書き記す / tama=正確に",
+  "root": "mag-iwan ng mensahe=伝言を残す / isusulat=書き記す / tama=正確に / na=〜という(関係節)",
   "examples": [
    {
     "text": "Oo, sabihin niyo na lang sa kanya na tumawag si Maria tungkol sa dokumento.",
@@ -6881,9 +6877,9 @@
  },
  {
   "slotId": "trouble-08",
-  "headword": "Pasensya na po, puwede po bang ulitin ninyo nang mas mabagal? Hindi ko po kasi masyadong naintindihan.",
-  "reading": "Pasénsya na po, puwéde po bang ulitín ninyó nang mas mabágal? Hindî ko po kasí masyádong naintindihán.",
-  "gloss": "「すみません、もう少しゆっくり繰り返していただけますか?よく分からなかったので」(聞き取れなかったときの聞き返し)",
+  "headword": "Pasensya na po, puwede po bang ulitin ninyo nang mas mabagal, kasi hindi ko po masyadong naintindihan?",
+  "reading": "Pasénsya na po, puwéde po bang ulitín ninyó nang mas mabágal, kasí hindî ko po masyádong naintindihán?",
+  "gloss": "すみません、あまりよく分からなかったので、もう少しゆっくり繰り返していただけますか？（聞き取れなかったときの聞き返し）",
   "pos": "聞き返し",
   "root": "ulitin=繰り返す / mabagal=ゆっくり / naintindihan=理解した",
   "examples": [
@@ -7133,9 +7129,9 @@
  },
  {
   "slotId": "trouble-22",
-  "headword": "Magandang araw po. Napansin ko po na hindi tugma ang nakalagay sa invoice sa napagkasunduan natin, maaari po ba nating tingnan ulit ito?",
-  "reading": "Magandáng áraw po. Napansín ko po na hindî tugmâ ang nakalagáy sa invoice sa napagkasunduán natin, maáari po ba nating tingnán ulít ito?",
-  "gloss": "こんにちは。請求書の金額が合意内容と一致していないことに気づきました、もう一度確認していただけますか（取引先担当者への冷静な指摘）",
+  "headword": "Napansin ko po na hindi tugma ang nakalagay sa invoice sa napagkasunduan natin, maaari po ba nating tingnan ulit ito?",
+  "reading": "Napansín ko po na hindî tugmâ ang nakalagáy sa invoice sa napagkasunduán natin, maáari po ba nating tingnán ulít ito?",
+  "gloss": "請求書の金額が合意内容と一致していないことに気づきました、もう一度確認していただけますか？（取引先担当者への冷静な指摘）",
   "pos": "指摘（請求ミス）",
   "root": "napansin=気づいた / hindi tugma=一致しない / nakalagay sa invoice=請求書に記載された / napagkasunduan=合意した事 / maaari...ba nating tingnan ulit=もう一度確認できますか",
   "examples": [
@@ -7565,9 +7561,9 @@
  },
  {
   "slotId": "gov-docs-06",
-  "headword": "Magandang araw po. Ito po ang unang beses kong pumunta rito sa Barangay Hall, at gusto ko pong humingi ng sertipiko ng aking paninirahan.",
-  "reading": "Magandang araw pô. Itó pô ang unang beses kong pumunta ritó sa Barangay Hall, at gusto ko pông humingi ng sertipiko ng aking paninirahan.",
-  "gloss": "こんにちは。バランガイ事務所を訪れるのは今回が初めてで、居住証明書をいただきたいのですが。（初訪問での自己紹介と訪問目的の説明）",
+  "headword": "Ito po ang unang beses kong pumunta rito sa Barangay Hall, at gusto ko pong humingi ng sertipiko ng aking paninirahan.",
+  "reading": "Itó pô ang unang beses kong pumunta ritó sa Barangay Hall, at gusto ko pông humingi ng sertipiko ng aking paninirahan.",
+  "gloss": "バランガイ事務所を訪れるのは今回が初めてで、居住証明書をいただきたいのですが。（初訪問での自己紹介と訪問目的の説明）",
   "pos": "自己紹介（訪問目的）",
   "root": "ito=これ、unang beses=初めて、pumunta=行く、rito=ここに、humingi=求める、sertipiko ng paninirahan=居住証明書",
   "examples": [
@@ -7619,11 +7615,11 @@
  },
  {
   "slotId": "gov-docs-09",
-  "headword": "Magandang araw po. Ano po ang mga kailangang dokumento para sa pagpapanibago ng Mayor's Permit ng kompanya namin?",
-  "reading": "Magandang araw pô. Ano pô ang mga kailangang dokumento para sa pagpapanibago ng Mayor's Permit ng kompanya namin?",
-  "gloss": "こんにちは。弊社のMayor's Permit（事業許可）更新に必要な書類は何でしょうか。（必要書類の確認）",
+  "headword": "Ano po ang mga kailangang dokumento para sa pagpapanibago ng Mayor's Permit ng kompanya namin?",
+  "reading": "Ano pô ang mga kailangang dokumento para sa pagpapanibago ng Mayor's Permit ng kompanya namin?",
+  "gloss": "弊社のMayor's Permit（事業許可）更新に必要な書類は何でしょうか。（必要書類の確認）",
   "pos": "質問（要件確認）",
-  "root": "magandang araw=こんにちは、kailangang dokumento=必要書類、pagpapanibago=更新、Mayor's Permit=事業許可、kompanya=会社",
+  "root": "kailangang dokumento=必要書類、pagpapanibago=更新、Mayor's Permit=事業許可、kompanya=会社",
   "examples": [
    {
     "text": "Kailangan po ninyo ng Barangay Clearance, resibo ng nakaraang bayad, at Certificate of Good Standing kung meron.",
@@ -7673,9 +7669,9 @@
  },
  {
   "slotId": "gov-docs-12",
-  "headword": "Opo, naiintindihan ko po. Sige po, ituloy niyo na lang po.",
-  "reading": "Opô, naiintindihan ko pô. Sige pô, ituloy niyo na lang pô.",
-  "gloss": "はい、分かります。どうぞ続けてください。（説明を聞いている間の相槌）",
+  "headword": "Opo, naiintindihan ko po, sige po, ituloy niyo na lang po.",
+  "reading": "Opô, naiintindihan ko pô, sige pô, ituloy niyo na lang pô.",
+  "gloss": "はい、分かります、どうぞ続けてください。（説明を聞いている間の相槌）",
   "pos": "相槌",
   "root": "opo=はい(丁寧)、naiintindihan=理解している、sige=どうぞ、ituloy=続ける",
   "examples": [
@@ -7727,11 +7723,11 @@
  },
  {
   "slotId": "gov-docs-15",
-  "headword": "Nawala po ang aking BIR Form 2316, at nagsara na po ang dati kong kompanya. Puwede po ba akong humingi ng bagong kopya nito rito sa BIR?",
-  "reading": "Nawala pô ang aking BIR Form 2316, at nagsara na pô ang dati kong kompanya. Puwede pô ba akong humingi ng bagong kopya nitó rito sa BIR?",
-  "gloss": "源泉徴収票（BIR Form 2316）を紛失してしまい、以前の勤務先はすでに廃業しております。こちらのBIR窓口で再発行していただくことは可能でしょうか。（勤務先が対応できない事情がある場合にBIR窓口へ直接依頼する場面）",
+  "headword": "Nawala po ang aking BIR Form 2316, at nagsara na po ang dati kong kompanya, kaya puwede po ba akong humingi ng bagong kopya nito rito sa BIR?",
+  "reading": "Nawala pô ang aking BIR Form 2316, at nagsara na pô ang dati kong kompanya, kaya puwede pô ba akong humingi ng bagong kopya nitó rito sa BIR?",
+  "gloss": "源泉徴収票（BIR Form 2316）を紛失し、以前の勤務先も廃業しているため、こちらのBIR窓口で再発行していただくことは可能でしょうか。（勤務先が対応できない事情がある場合にBIR窓口へ直接依頼する場面）",
   "pos": "依頼（再発行）",
-  "root": "nawala=無くした、BIR Form 2316=源泉徴収票、nagsara na=すでに廃業した、dati kong kompanya=以前の会社、puwede ba=できますか、humingi=求める、bagong kopya=新しいコピー、rito sa BIR=このBIRで",
+  "root": "nawala=無くした、BIR Form 2316=源泉徴収票、nagsara na=すでに廃業した、dati kong kompanya=以前の会社、kaya=だから、puwede ba=できますか、humingi=求める、bagong kopya=新しいコピー、rito sa BIR=このBIRで",
   "examples": [
    {
     "text": "Opo, punan niyo lang po itong request form at hihintayin ninyo ang tawag sa loob ng ilang araw.",
@@ -7853,9 +7849,9 @@
  },
  {
   "slotId": "gov-docs-22",
-  "headword": "Narito po ang orihinal at kopya ng dokumento. Puwede niyo po bang tingnan kung wala itong mali bago ipanotaryo?",
-  "reading": "Naritó pô ang orihinal at kopya ng dokumento. Puwede niyo pô bang tingnan kung wala itóng mali bago ipanotaryo?",
-  "gloss": "こちらが書類の原本とコピーです。公証の前に、内容に間違いがないか確認していただけますか。（原本提示と内容確認の依頼）",
+  "headword": "Narito po ang orihinal at kopya ng dokumento, puwede niyo po bang tingnan kung wala itong mali bago ipanotaryo?",
+  "reading": "Naritó pô ang orihinal at kopya ng dokumento, puwede niyo pô bang tingnan kung wala itóng mali bago ipanotaryo?",
+  "gloss": "こちらが書類の原本とコピーです、公証の前に内容に間違いがないか確認していただけますか。（原本提示と内容確認の依頼）",
   "pos": "依頼（原本提示）",
   "root": "narito=ここにあります、orihinal=原本、kopya=コピー、tingnan=確認する、mali=間違い、ipanotaryo=公証する",
   "examples": [
@@ -7997,9 +7993,9 @@
  },
  {
   "slotId": "gov-docs-30",
-  "headword": "Pasensya na po, ano po ang ibig sabihin ng bahaging ito sa form? Hindi ko po kasi masyadong naiintindihan.",
-  "reading": "Pasensya na pô, ano pô ang ibig sabihin ng bahaging itó sa form? Hindî ko pô kasi masyadong naiintindihan.",
-  "gloss": "すみません、この申請用紙のこの項目はどういう意味でしょうか。あまりよく分からなくて。（用語の聞き返し確認）",
+  "headword": "Pasensya na po, ano po ang ibig sabihin ng bahaging ito sa form, kasi hindi ko po masyadong naiintindihan?",
+  "reading": "Pasensya na pô, ano pô ang ibig sabihin ng bahaging itó sa form, kasi hindî ko pô masyadong naiintindihan?",
+  "gloss": "すみません、あまりよく分からないのですが、この申請用紙のこの項目はどういう意味でしょうか。（用語の聞き返し確認）",
   "pos": "聞き返し（用語確認）",
   "root": "pasensya na=すみません、ibig sabihin=意味、bahagi=部分、form=用紙、naiintindihan=理解する",
   "examples": [

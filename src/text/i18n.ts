@@ -184,6 +184,9 @@ export interface UIStrings {
   // ── 語根表示（StudyGrid.tsx・FocusSheet.tsx。タガログ語コース専用・VocabCard.root がある語だけ）
   rootLabel: string
 
+  // ── 音声読み上げ（StudyGrid.tsx・FocusSheet.tsx。フレーズコース専用・端末にタガログ語音声がある場合だけ）
+  playAudio: string
+
   // ── 文脈クローズ（StudyGrid.tsx・FocusSheet.tsx。cloze/較正コースの昇格カードにだけ出る小ラベル）
   clozeBadge: string
 

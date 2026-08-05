@@ -8,6 +8,8 @@ import { useFitText } from './useFitText'
 import { headwordFitClass } from './headwordFit'
 import { getRomaji } from '../../text/romaji'
 import { playTapSound } from '../../audio/tapSound'
+import { speakTagalog } from '../../audio/tts'
+import { useTagalogVoice } from './useTagalogVoice'
 import { FocusSheet } from './FocusSheet'
 import { TileMark } from './TileMark'
 import { WeeklyCard } from '../WeeklyCard'
@@ -127,6 +129,7 @@ export function StudyGrid({
         <FocusSheet
           key={sheetTile.card.id}
           tile={sheetTile}
+          courseType={courseType}
           hasNext={nextId !== null}
           onGrade={(g, rect) => void handleGrade(sheetTile.card.id, g, rect)}
           onNext={() => nextId && setSheetId(nextId)}
@@ -159,6 +162,9 @@ function Tile({
   // headwordFitClass では収まらない（実測で判明・判断ログ#36）。実測フィット（useFitText）
   // に切り替える。単語コースの既存パスはここで分岐するだけで一切変更しない。
   const isPhrase = courseType === 'phrase'
+  // 端末にタガログ語音声が無ければ null（voiceschanged が非同期のため初回レンダーはnull）。
+  // isPhrase でないコースでも呼んで構わない（フックの数は固定・値を使わないだけ）。
+  const tagalogVoice = useTagalogVoice()
   // どのカードも採点後もボタンを残し、いつでも採点しなおせる（3ボタン共通の挙動）。
   // 意味（訳語）は常時表示せず、本体にホバー/タップしてめくったときだけ見せる。
   // ホバーめくりは「マウスのポインターイベント」だけに反応させる：タッチはタップ時に
@@ -264,6 +270,19 @@ function Tile({
               {c.reading}
               {c.ipa && <span className="tile-ipa"> {c.ipa}</span>}
               {romaji && <span className="tile-romaji"> · {romaji}</span>}
+              {isPhrase && tagalogVoice && (
+                <button
+                  type="button"
+                  className="tile-speak"
+                  aria-label={t.playAudio}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    speakTagalog(c.headword, tagalogVoice)
+                  }}
+                >
+                  🔊
+                </button>
+              )}
             </span>
             <TileBack
               fitKey={`${c.gloss}\u0000${c.root ?? ''}\u0000${showSource ? (example?.text ?? '') : ''}\u0000${example?.translation ?? ''}`}

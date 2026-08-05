@@ -152,6 +152,9 @@ export const en: UIStrings = {
   // 語根表示
   rootLabel: 'Root',
 
+  // 音声読み上げ
+  playAudio: 'Play pronunciation',
+
   // 文脈クローズ
   clozeBadge: 'Fill in',
 

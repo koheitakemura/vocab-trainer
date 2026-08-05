@@ -1,9 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
+import type { CourseType } from '../../types'
 import type { ReviewGrade } from '../../srs/scheduler'
 import { gradeLevel } from '../../srs/levels'
 import { pickClozeExample } from '../../srs/cloze'
 import { getRomaji } from '../../text/romaji'
 import { playTapSound } from '../../audio/tapSound'
+import { speakTagalog } from '../../audio/tts'
+import { useTagalogVoice } from './useTagalogVoice'
 import type { BoardTile } from './useStudyBoard'
 import { TileMark } from './TileMark'
 import { headwordFitClass } from './headwordFit'
@@ -21,6 +24,7 @@ import { ReportButton } from '../report/ReportButton'
  */
 export function FocusSheet({
   tile,
+  courseType,
   hasNext,
   onGrade,
   onNext,
@@ -28,6 +32,7 @@ export function FocusSheet({
   uiLanguage,
 }: {
   tile: BoardTile
+  courseType: CourseType
   hasNext: boolean
   onGrade: (g: ReviewGrade, rect: DOMRect) => void
   onNext: () => void
@@ -38,6 +43,8 @@ export function FocusSheet({
   const [revealed, setRevealed] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
   const sheetRef = useRef<HTMLDivElement>(null)
+  const isPhrase = courseType === 'phrase'
+  const tagalogVoice = useTagalogVoice()
 
   // ダイアログ契約：Esc で閉じる・背面のスクロールを止める・フォーカスをシートへ移す。
   useEffect(() => {
@@ -116,6 +123,19 @@ export function FocusSheet({
                     {c.reading}
                     {c.ipa && <span className="focus-ipa"> {c.ipa}</span>}
                     {romaji && <span className="focus-romaji"> · {romaji}</span>}
+                    {isPhrase && tagalogVoice && (
+                      <button
+                        type="button"
+                        className="focus-speak"
+                        aria-label={t.playAudio}
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          speakTagalog(c.headword, tagalogVoice)
+                        }}
+                      >
+                        🔊
+                      </button>
+                    )}
                   </div>
                   <div className="focus-gloss">{c.gloss}</div>
                   {c.root && (
