@@ -632,6 +632,7 @@ export function CourseScreen({
         ) : tab === 'all' ? (
           <AllWords
             cards={mergedCards}
+            courseType={course.type}
             uiLanguage={course.uiLanguage}
             openId={openWordId}
             onOpenIdHandled={() => setOpenWordId(null)}

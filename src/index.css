@@ -2476,6 +2476,15 @@ select option {
   color: var(--text-dim);
 }
 
+/* フレーズコース(tl-phrases-daily)は例文が単語コースよりずっと長く、既定サイズだと
+   展開時に何行にも折り返される（実測154文字で2行・Kohei指摘 2026-08-05）。 */
+.aw-ex.phrase .aw-exline > span:first-child {
+  font-size: 13px;
+}
+.aw-ex.phrase .aw-exen {
+  font-size: 11px;
+}
+
 /* ---------- All words：スマホは6列の表をやめて1語=1カードの積み上げにする ----------
    横 768px の表を 390px の画面で見ると、最初の3列（#・語・読み）しか映らず、この一覧の
    主役である**訳語が横スクロールしないと読めない**状態だった（右に 425px 隠れていた）。

@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useWindowVirtualizer } from '@tanstack/react-virtual'
-import type { VocabCard, WordStatus } from '../../types'
+import type { CourseType, VocabCard, WordStatus } from '../../types'
 import { db } from '../../store/db'
 import { getRomaji } from '../../text/romaji'
 import { CATEGORIES, CATEGORY_BY_KEY, GROUP_LABEL, GROUP_ORDER } from '../../data/categories'
@@ -30,17 +30,22 @@ const norm = (s: string) => s.toLowerCase().trim()
 /** 案④ Dense List — コースの全語を一覧俯瞰。カテゴリー列＋各列フィルター付き。行クリックで例文を展開。 */
 export function AllWords({
   cards,
+  courseType,
   uiLanguage,
   openId,
   onOpenIdHandled,
 }: {
   cards: VocabCard[]
+  courseType: CourseType
   uiLanguage: UiLanguage
   /** 検索（WordSearch）から開いてほしいカードID。渡されたら展開＋スクロールし、消費したら親へ通知する */
   openId?: string | null
   onOpenIdHandled?: () => void
 }) {
   const t = useStrings(uiLanguage)
+  // フレーズコース(tl-phrases-daily)は例文が単語コースよりずっと長く、既定の15px/12px
+  // だと展開時に何行にも折り返される（実測154文字で2行・判断ログ参照）。専用に縮小する。
+  const isPhrase = courseType === 'phrase'
   const STATUS_OPTIONS: { value: StatusGroup; label: string }[] = [
     { value: 'new', label: t.statusNew },
     { value: 'learning', label: t.statusLearning },
@@ -213,7 +218,7 @@ export function AllWords({
                     <span className={`aw-pill st-${group}`}>{statusLabel(group, t)}</span>
                   </div>
                   {isOpen && (
-                    <div className="aw-ex">
+                    <div className={`aw-ex${isPhrase ? ' phrase' : ''}`}>
                       <span className="aw-pos">{c.pos}</span>
                       {c.examples.map((ex, i) => (
                         <div key={i} className="aw-exline">
