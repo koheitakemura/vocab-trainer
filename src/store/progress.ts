@@ -283,6 +283,137 @@ export async function importProgress(json: string): Promise<number> {
   return items.length
 }
 
+/** マージ復元の結果（トーストの文言と「送り返す必要があるか」の判定に使う） */
+export interface MergeResult {
+  /** この端末に無かった語（新しく増えた行数） */
+  added: number
+  /** 両方にあり、サーバー側の方が新しかったので置き換えた行数 */
+  updated: number
+  /**
+   * 統合後の内容がサーバーの内容より進んでいるか（この端末にしか無い記録がある）。
+   * true のときだけ送り返す——新しい端末が取り込んだだけの場合に、同じ内容を
+   * そのまま R2 へ書き戻す無駄を避ける。
+   */
+  deviceAhead: boolean
+}
+
+/**
+ * 進捗行1件の「新しさ」。マージでどちらを採るかの唯一の判定軸。
+ *
+ * lastReviewedAt（採点時刻）を第一の基準にする——これが「その端末で最後にこの語に触れた時刻」
+ * そのものだから。無い行（この項目より前に作られた記録）は FSRS の last_review で代用し、
+ * それも無ければ 0＝最も古い扱い。ここで status や stability の「進み具合」を比べないのは、
+ * Studying に落とし直した最新の記録を「後退だから」と捨ててしまわないため
+ * （本人が最後に押したボタンが、その語についての最新の事実）。
+ */
+export function reviewedAtMs(p: WordProgress): number {
+  if (p.lastReviewedAt) {
+    const t = Date.parse(p.lastReviewedAt)
+    if (!Number.isNaN(t)) return t
+  }
+  const last = p.fsrs?.last_review
+  if (last) {
+    const t = new Date(last).getTime()
+    if (!Number.isNaN(t)) return t
+  }
+  return 0
+}
+
+/** 日次ログの数値は「その日の累計」なので、両端末の記録が食い違うときは大きい方を採る */
+export function mergeDailyStat(a: DailyStat, b: DailyStat): DailyStat {
+  return {
+    courseId: a.courseId,
+    date: a.date,
+    reviews: Math.max(a.reviews, b.reviews),
+    newStarted: Math.max(a.newStarted, b.newStarted),
+    promotions: Math.max(a.promotions, b.promotions),
+    dueReviews: Math.max(a.dueReviews, b.dueReviews),
+    dueAgain: Math.max(a.dueAgain, b.dueAgain),
+    knownTotal: Math.max(a.knownTotal, b.knownTotal),
+  }
+}
+
+/**
+ * サーバーのスナップショットを**この端末の記録と統合**する（端末間同期の復元経路）。
+ *
+ * importProgress の全置換と違い、語ごとに新しい方（reviewedAtMs）を採る。
+ * スナップショットは端末ごとに丸ごと上書きし合う＝「サーバーのタイムスタンプが新しい」ことは
+ * 「サーバーの中身が進んでいる」ことを意味しない。全置換だと、まだ送信していない側の学習が
+ * 押した瞬間に消える（実際に 108語→84語 の消失を確認）。統合ならどちらの端末で学習しても残る。
+ *
+ * **手動 Restore（バックアップファイル）は従来どおり全置換のまま**——あちらは「その時点へ戻す」
+ * 操作で、統合すると「昨日のバックアップに戻したのに今日の誤操作が残る」事故になるため。
+ *
+ * 削除の同期は行わない（tombstone を持たない設計なので、片方でリセットした語が
+ * もう片方に残っていれば復活する）。記録が消えるより復活する方が安全側と判断している。
+ */
+export async function mergeProgress(json: string): Promise<MergeResult> {
+  const parsed = JSON.parse(json) as { progress?: WordProgress[]; dailyStats?: DailyStat[]; meta?: MetaRow[] }
+  const incoming = (parsed.progress ?? [])
+    .filter((p) => p.status !== 'new')
+    .map((p) => ({ ...p, fsrs: reviveFsrsDates(p.fsrs) }))
+
+  let added = 0
+  let updated = 0
+  let mineNewer = 0
+  let localOnly = 0
+  await db.transaction('rw', db.progress, db.summary, db.dailyStats, db.meta, async () => {
+    const localRows = await db.progress.toArray()
+    const merged = new Map(localRows.map((r) => [r.cardId, r]))
+    const writes: WordProgress[] = []
+    for (const row of incoming) {
+      const mine = merged.get(row.cardId)
+      if (!mine) {
+        added++
+      } else if (reviewedAtMs(row) > reviewedAtMs(mine)) {
+        updated++
+      } else {
+        // この端末の方が新しい（同時刻もこちらを残す＝手元の表示を勝手に変えない）
+        if (reviewedAtMs(mine) > reviewedAtMs(row)) mineNewer++
+        continue
+      }
+      merged.set(row.cardId, row)
+      writes.push(row)
+    }
+    if (writes.length > 0) await db.progress.bulkPut(writes)
+    const incomingIds = new Set(incoming.map((r) => r.cardId))
+    localOnly = localRows.reduce((n, r) => (incomingIds.has(r.cardId) ? n : n + 1), 0)
+
+    // 日次ログ：両方にある日は大きい方、片方にしかない日はそのまま残す
+    const incomingStats = parsed.dailyStats ?? []
+    if (incomingStats.length > 0) {
+      const localStats = new Map((await db.dailyStats.toArray()).map((s) => [`${s.courseId} ${s.date}`, s]))
+      const statWrites: DailyStat[] = []
+      for (const s of incomingStats) {
+        const mine = localStats.get(`${s.courseId} ${s.date}`)
+        statWrites.push(mine ? mergeDailyStat(mine, s) : s)
+      }
+      await db.dailyStats.bulkPut(statWrites)
+    }
+
+    // meta：この端末の設定を優先し、こちらに無いキーだけ引き継ぐ。
+    // progressEpoch:* だけは「確認済みの世代」なので大きい方を採る（古い方に戻すと警告が復活する）。
+    const incomingMeta = parsed.meta ?? []
+    if (incomingMeta.length > 0) {
+      const localMeta = new Map((await db.meta.toArray()).map((m) => [m.key, m]))
+      const metaWrites: MetaRow[] = []
+      for (const m of incomingMeta) {
+        const mine = localMeta.get(m.key)
+        if (!mine) metaWrites.push(m)
+        else if (m.key.startsWith('progressEpoch:') && typeof m.value === 'number' && typeof mine.value === 'number') {
+          if (m.value > mine.value) metaWrites.push(m)
+        }
+      }
+      if (metaWrites.length > 0) await db.meta.bulkPut(metaWrites)
+    }
+
+    // サマリは派生データなので統合後の全行から作り直す（増分更新とのドリフトもここで消える）
+    await db.summary.clear()
+    await db.summary.bulkPut(summarize([...merged.values()]))
+  })
+  return { added, updated, deviceAhead: mineNewer > 0 || localOnly > 0 }
+}
+
 /** JSON 化で文字列になった Date を Date に戻す（ts-fsrs は Date 前提） */
 function reviveFsrsDates(fsrs: WordProgress['fsrs']): WordProgress['fsrs'] {
   return {

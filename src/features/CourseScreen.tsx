@@ -342,24 +342,22 @@ export function CourseScreen({
 
   const handleRestoreOfferConfirm = useCallback(async () => {
     if (restoring) return
-    // 記録が減る復元は、消える語数を数字で見せてから確認する（全置換なので黙って消える）
-    const lost = restoreCheck?.kind === 'offer' ? restoreCheck.lostRows : 0
-    if (!window.confirm(lost > 0 ? t.restoreConfirmLossDialog(lost) : t.restoreConfirmDialog)) return
+    if (!window.confirm(t.restoreConfirmDialog)) return
     setRestoring(true)
     try {
-      const n = await confirmOfferedRestore()
-      setRestoreCheck(n === null ? null : { kind: 'auto-restored', rows: n })
-      if (n !== null) refreshAfterFullReplace()
+      const merged = await confirmOfferedRestore()
+      setRestoreCheck(merged === null ? null : { kind: 'merged', ...merged })
+      if (merged !== null) refreshAfterFullReplace()
     } finally {
       setRestoring(false)
     }
-  }, [restoring, restoreCheck, t, refreshAfterFullReplace])
+  }, [restoring, t, refreshAfterFullReplace])
 
   const dismissRestoreOffer = useCallback(() => setRestoreCheck(null), [])
 
-  // 自動復元のトーストは非モーダル＝操作をブロックしない。数秒で自動的に消える
+  // 統合完了のトーストは非モーダル＝操作をブロックしない。数秒で自動的に消える
   useEffect(() => {
-    if (restoreCheck?.kind !== 'auto-restored') return
+    if (restoreCheck?.kind !== 'merged') return
     const id = window.setTimeout(() => setRestoreCheck(null), 8000)
     return () => window.clearTimeout(id)
   }, [restoreCheck])
@@ -590,25 +588,24 @@ export function CourseScreen({
       </nav>
 
       <main className="course-main">
-        {/* サーバーに新しい記録がある（＝ローカルに何かある状態での復元提案）。
-            自動復元は絶対にしない——上書きされる既存データが実在するため必ず確認を挟む。 */}
+        {/* サーバーに新しい記録がある（＝ローカルに何かある状態での統合の提案）。
+            黙って実行はしない——この端末の記録も混ざる操作なので必ず確認を挟む。 */}
         {restoreCheck?.kind === 'offer' && (
-          <div className={`stale-epoch restore-offer${restoreCheck.lostRows > 0 ? ' has-loss' : ''}`} role="alert">
+          <div className="stale-epoch restore-offer" role="alert">
             <div className="stale-epoch-text">
               <strong>{t.restoreOfferTitle}</strong>
               <p>{t.restoreOfferBody(restoreCheck.totalRows)}</p>
               {restoreCheck.epochMismatch && <p className="hint">{t.restoreOfferEpochWarning}</p>}
-              {/* 復元は全置換。サーバーの方が記録が少ないと、その差はここで消える——
-                  端末どうしは丸ごと上書きし合う（最後に送った端末が勝つ）ので、
-                  「サーバーの方が新しい」＝「サーバーの方が進んでいる」とは限らない。
-                  押す前に数字で見えるようにしておく。 */}
-              {restoreCheck.lostRows > 0 && (
-                <div className="restore-offer-loss">
-                  <p className="restore-offer-loss-head">{t.restoreOfferLossWarning(restoreCheck.lostRows)}</p>
+              {/* サーバーの方が記録が少ないことは普通に起こる（端末どうしは丸ごと上書きし
+                  合うので「新しい」＝「進んでいる」ではない）。統合ではその差は消えないが、
+                  押す前に「減らない」と分かるよう数字を出しておく。 */}
+              {restoreCheck.deviceOnlyRows > 0 && (
+                <div className="restore-offer-counts">
+                  <p className="restore-offer-counts-head">{t.restoreOfferKeepNotice(restoreCheck.deviceOnlyRows)}</p>
                   <ul>
                     {restoreCheck.shrinking.map((s) => (
                       <li key={s.courseId}>
-                        {t.restoreOfferLossCourse(
+                        {t.restoreOfferCourseCounts(
                           allCourses.find((c) => c.id === s.courseId)?.title ?? s.courseId,
                           s.local,
                           s.snapshot,
@@ -682,13 +679,15 @@ export function CourseScreen({
         <SparkleOverlay bursts={bursts} onArrive={handleBurstArrive} onDone={handleBurstDone} />,
         document.body,
       )}
-      {restoreCheck?.kind === 'auto-restored' &&
+      {restoreCheck?.kind === 'merged' &&
         createPortal(
           <div className="restore-toast" role="status">
-            {/* introduced はヘッダーと同じ liveQuery の値＝復元後の「このコース」の語数。
-                復元は全コースをまとめて置き換えるので、合計だけ出すとヘッダーの数字と
-                食い違って見える（実機で「124語 復元 / 上は 84 のまま」と報告あり）。 */}
-            {t.restoreAutoToast(restoreCheck.rows, introduced)}
+            {/* 「何語 増えた/更新された」で報告する。取り込んだ総語数（全コース合計）を出すと、
+                ヘッダーの数字（このコース1つ分）と食い違って見える——実機で
+                「124語 復元 / 上は 84 のまま」と誤解を招いた表示。 */}
+            {restoreCheck.added + restoreCheck.updated === 0
+              ? t.restoreMergeNoChange
+              : t.restoreMergeToast(restoreCheck.added, restoreCheck.updated)}
             <button type="button" className="restore-toast-close" onClick={dismissRestoreOffer} aria-label="close">
               ×
             </button>

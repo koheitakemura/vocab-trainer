@@ -1240,25 +1240,21 @@ select option {
   border-color: var(--accent, #4f8cff);
 }
 
-/* ただし「読み込むとこの端末の記録が減る」ときは前向きな提案ではないので警告色へ戻す。 */
-.restore-offer.has-loss {
-  border-color: var(--again);
-}
-
-/* 消える語数の内訳。.hint（display:grid で中央寄せ・height:100%）は使わず、
-   バナー内の通常フローの文章として左揃えで積む。 */
-.restore-offer-loss {
+/* 「この端末にしかない記録」の内訳。統合では消えないので警告色にはしない。
+   .hint（display:grid で中央寄せ・height:100%）は使わず、バナー内の通常フローの
+   文章として左揃えで積む。 */
+.restore-offer-counts {
   margin-top: 6px;
   font-size: 0.9em;
   color: var(--text-faint);
 }
 
-.restore-offer-loss-head {
+.restore-offer-counts-head {
   margin: 0;
-  color: var(--again);
+  color: var(--text-dim);
 }
 
-.restore-offer-loss ul {
+.restore-offer-counts ul {
   margin: 4px 0 0;
   padding-left: 1.2em;
 }
