@@ -1,5 +1,5 @@
 import { db } from './db'
-import { exportProgress, importProgress, PRE_RESTORE_STASH_KEY } from './progress'
+import { exportProgress, importProgress, mergeProgress, PRE_RESTORE_STASH_KEY, type MergeResult } from './progress'
 import { apiUrl } from './sync'
 import { repository } from '../data/courseRepository'
 import type { CourseId, MetaRow, WordProgress } from '../types'
@@ -204,7 +204,7 @@ function epochsFromMeta(meta: MetaRow[] | undefined): Map<string, number> {
   return map
 }
 
-/** 復元するとこの端末から消える記録があるコース（サーバー側の方が行数が少ない） */
+/** サーバー側の方が行数が少ないコース（＝この端末にしか無い記録があるコース） */
 export interface ShrinkingCourse {
   courseId: string
   /** この端末の進捗行数 */
@@ -219,16 +219,17 @@ export interface RestorePreflight {
   /** true なら、いずれかのコースで cardId が付け替わった後のスナップショット＝自動復元しない */
   epochMismatch: boolean
   /**
-   * 復元（＝全置換）で記録が減るコース。多い順。
+   * サーバー側の方が記録が少ないコース。多い順。
    *
    * スナップショットは端末ごとに丸ごと上書きし合う（最後に送った端末が勝つ）ので、
    * 「別の端末が古い内容を送った」「この端末の直近の学習がまだ送信されていない」状態では、
    * サーバーの方が中身は古いのにタイムスタンプだけ新しい、ということが普通に起こる。
-   * この場合の復元は差分をそのまま消す——本人が数字を見て選べるように preflight で数えておく。
+   * 復元は統合（mergeProgress）なのでこの差分は消えないが、「押しても数字が下がらない」ことを
+   * 事前に見せるための材料として数えておく（かつては全置換で、ここがそのまま消失量だった）。
    */
   shrinking: ShrinkingCourse[]
-  /** shrinking の差分合計＝復元で失う進捗行数 */
-  lostRows: number
+  /** shrinking の差分合計＝この端末にしか無い進捗行数 */
+  deviceOnlyRows: number
 }
 
 /**
@@ -286,11 +287,11 @@ async function preflight(json: string): Promise<RestorePreflight> {
     }
   }
 
-  // 「サーバーの方が少ない」コースを数える（＝この復元で消える記録）
+  // 「サーバーの方が少ない」コースを数える（＝統合後もこの端末に残る記録）
   const shrinking = shrinkingCourses(await localRowCounts(), snapshotRowCounts(rows))
-  const lostRows = shrinking.reduce((n, s) => n + (s.local - s.snapshot), 0)
+  const deviceOnlyRows = shrinking.reduce((n, s) => n + (s.local - s.snapshot), 0)
 
-  return { totalRows: rows.length, courseIds, epochMismatch, shrinking, lostRows }
+  return { totalRows: rows.length, courseIds, epochMismatch, shrinking, deviceOnlyRows }
 }
 
 /** このデバイスがまだ何も学習していないか（新端末判定）。progress が1行も無ければ true */
@@ -305,13 +306,24 @@ async function downloadSnapshotJson(): Promise<string> {
   return await gunzipToText(buf)
 }
 
-/** 復元本体。退避 → 全置換 → 同期フラグの書き直し、を1つのトランザクション的な手順としてまとめる */
-async function applyRestore(json: string, serverUploadedAt: string): Promise<number> {
-  const stash = await exportProgress()
-  const n = await importProgress(json)
+/**
+ * 復元本体。退避 → 統合 → 同期フラグの書き直し → 送り返し、をまとめた手順。
+ *
+ * 統合（mergeProgress）であって全置換ではない——サーバーの中身が必ずしも進んでいない以上、
+ * 上書きすると「まだ送信していない側の学習」がその場で消えるため（progress.ts 参照）。
+ * 統合結果はこの端末にしか無いので、最後に必ず送り返す。そうしないと
+ * 「A の記録を取り込んだ B」と「B の記録を知らないサーバー」がずれたままになり、
+ * 次に A が開いたときに今度は A 側が古い内容を取り込むことになる。
+ */
+async function applyRestore(json: string, serverUploadedAt: string): Promise<MergeResult> {
+  const stash = await exportProgress() // 「元に戻す」用＝統合前の状態
+  const result = await mergeProgress(json)
   await reconcileSyncFlags('server', serverUploadedAt)
   await db.meta.put({ key: PRE_RESTORE_STASH_KEY, value: stash })
-  return n
+  // この端末にしか無い記録があるときだけ送り返す（取り込んだだけなら書き戻す意味が無い）。
+  // 送信は待たない——失敗しても統合自体は成立しており、次の定期送信で追いつく。
+  if (result.deviceAhead) void uploadSnapshot()
+  return result
 }
 
 /** 直前の復元を取り消す（1回分だけ）。退避が無ければ null */
@@ -326,8 +338,8 @@ export async function undoLastRestore(): Promise<number | null> {
 
 export type RestoreCheckResult =
   | { kind: 'none' }
-  | { kind: 'auto-restored'; rows: number }
-  | { kind: 'offer'; totalRows: number; epochMismatch: boolean; shrinking: ShrinkingCourse[]; lostRows: number }
+  | { kind: 'merged'; added: number; updated: number }
+  | { kind: 'offer'; totalRows: number; epochMismatch: boolean; shrinking: ShrinkingCourse[]; deviceOnlyRows: number }
 
 let restoreCheckStarted = false
 /** 'offer' を返したときに保持しておく本体（確認後の再ダウンロードを避けるため） */
@@ -362,8 +374,8 @@ export async function checkForServerRestore(): Promise<RestoreCheckResult> {
   const pf = await preflight(json)
 
   if (localEmpty && !pf.epochMismatch) {
-    const rows = await applyRestore(json, meta.uploadedAt)
-    return { kind: 'auto-restored', rows }
+    const { added, updated } = await applyRestore(json, meta.uploadedAt)
+    return { kind: 'merged', added, updated }
   }
   // ローカルに何かある／版が食い違う、のどちらかなら必ず本人の確認を挟む
   offeredSnapshot = { json, uploadedAt: meta.uploadedAt }
@@ -372,12 +384,12 @@ export async function checkForServerRestore(): Promise<RestoreCheckResult> {
     totalRows: pf.totalRows,
     epochMismatch: pf.epochMismatch,
     shrinking: pf.shrinking,
-    lostRows: pf.lostRows,
+    deviceOnlyRows: pf.deviceOnlyRows,
   }
 }
 
 /** checkForServerRestore() が 'offer' を返した後、本人が確認して選んだときだけ呼ぶ */
-export async function confirmOfferedRestore(): Promise<number | null> {
+export async function confirmOfferedRestore(): Promise<MergeResult | null> {
   if (!offeredSnapshot) return null
   const { json, uploadedAt } = offeredSnapshot
   offeredSnapshot = null

@@ -103,21 +103,20 @@ export const ja: UIStrings = {
     '端末のデータが消えた直後などにこの警告が出ます。本当にこのデータで上書きしますか？',
   serverSyncUploading: '同期中…',
 
-  restoreAutoToast: (n, courseN) => `サーバーの学習記録を復元しました（全コース ${n} 語／このコース ${courseN} 語）`,
+  restoreMergeToast: (added, updated) => `サーバーの記録と統合しました（追加 ${added} 語・更新 ${updated} 語）`,
+  restoreMergeNoChange: 'すでに最新の状態でした（この端末の記録はそのままです）',
   restoreOfferTitle: 'サーバーに新しい学習記録があります',
-  restoreOfferBody: (n) => `別の端末で保存された記録（${n} 語）があります。読み込むとこの端末の記録は置き換わります。`,
+  restoreOfferBody: (n) =>
+    `別の端末で保存された記録（${n} 語）があります。取り込むと、この端末の記録と合わせます（同じ単語は新しい方を採用）。`,
   restoreOfferEpochWarning:
     'このコースの単語IDが作り直されているため、復元すると記録が別の単語に付く可能性があります。',
-  restoreOfferLossWarning: (lost) =>
-    `⚠ この端末にしかない記録が ${lost} 語ぶんあります。読み込むと、その分は消えます。`,
-  restoreOfferLossCourse: (title, local, snapshot) => `${title}：この端末 ${local} 語 → サーバー ${snapshot} 語`,
-  restoreConfirmLossDialog: (lost) =>
-    `この端末にしかない ${lost} 語ぶんの記録が消えます。サーバーの内容で置き換えますか？` +
-    '（直後なら、フッターの「元に戻す」で1回だけ戻せます）',
-  restoreOfferAction: '読み込む',
-  restoreOfferLoading: '読み込み中…',
+  restoreOfferKeepNotice: (n) => `この端末にしかない記録 ${n} 語ぶんは、そのまま残ります。`,
+  restoreOfferCourseCounts: (title, local, snapshot) => `${title}：この端末 ${local} 語 / サーバー ${snapshot} 語`,
+  restoreOfferAction: '取り込む',
+  restoreOfferLoading: '取り込み中…',
   restoreOfferDismiss: '今はしない',
-  restoreConfirmDialog: 'この端末の学習記録をサーバーの内容で置き換えます。よろしいですか？',
+  restoreConfirmDialog:
+    'サーバーの記録をこの端末の記録と統合します（同じ単語は新しい方を採用。この端末にしかない記録は残ります）。よろしいですか？',
   restoreUndo: '元に戻す',
   restoreUndoConfirm: '復元前の状態に戻します。よろしいですか？',
   restoreUndoDone: (n) => `元に戻しました（${n} 語）`,

@@ -132,21 +132,20 @@ export interface UIStrings {
   serverSyncBlockedConfirm: string
   serverSyncUploading: string
   /**
-   * n = 復元した全コース合計の語数（importProgress の戻り値）、courseN = いま開いている
-   * コースぶんの語数（ヘッダーの WORDS STARTED と同じ数）。両方出すのは、復元は全コースを
-   * まとめて置き換えるのにヘッダーは1コースしか数えていないため——片方だけ見せると
-   * 「124語 復元したのに上の数字が 84 のまま」に見えて、同期が失敗したと誤解される。
+   * 統合の結果。added = この端末に無かった語、updated = サーバー側の方が新しかった語。
+   * 「取り込んだ総語数」ではなく増減で報告する——総語数（全コース合計）はヘッダーの数字
+   * （1コース分）と食い違い、「124語 復元したのに上は 84 のまま」という誤解を生むため。
    */
-  restoreAutoToast: (n: number, courseN: number) => string
+  restoreMergeToast: (added: number, updated: number) => string
+  /** 統合したが増減が無かったとき（＝既に最新） */
+  restoreMergeNoChange: string
   restoreOfferTitle: string
   restoreOfferBody: (n: number) => string
   restoreOfferEpochWarning: string
-  /** 復元でこの端末の記録が減るときの警告（lost = 消える語数） */
-  restoreOfferLossWarning: (lost: number) => string
+  /** サーバーより多い記録がこの端末にあるとき、それが残ることを示す（n = この端末にしかない語数） */
+  restoreOfferKeepNotice: (n: number) => string
   /** その内訳1行（コース名・この端末の語数・サーバーの語数） */
-  restoreOfferLossCourse: (title: string, local: number, snapshot: number) => string
-  /** 記録が減る場合の確認ダイアログ（通常の restoreConfirmDialog の代わりに出す） */
-  restoreConfirmLossDialog: (lost: number) => string
+  restoreOfferCourseCounts: (title: string, local: number, snapshot: number) => string
   restoreOfferAction: string
   restoreOfferLoading: string
   restoreOfferDismiss: string
