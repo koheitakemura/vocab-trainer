@@ -35,3 +35,7 @@ vocab-*.png
 pipeline/raw/
 pipeline/__pycache__/
 pipeline/*.pyc
+
+# ローカル確認用スクショ・スナップショット
+pos-*.png
+snapshots/
